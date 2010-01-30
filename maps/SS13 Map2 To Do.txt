@@ -1,0 +1,36 @@
+By Evilreaver
+-Revis #2-
+
+2) Janitor's closet
+
+3) Move tables/windows around the bar
+
+4) Injector entity linking	}
+5) Brig entity linking		} Nope can't get these working, too noob
+6) Atmos lung entity linking	}
+
+7) Item balance/spread tweaking (probably have to be done via playtest)
+
+10) Non-main map junk
+- AI Satelite
+- Maze
+- Thunderdome
+- Prison Station
+
+NOTE NOTE NOTE NOTE
+
+I had to add areas 'West Solar Panels' and 'East Solar Panels', I don't think they're built into the map file so they probably didn't follow when I uploaded (Only uploaded the map file don't worry)
+
+NOTE NOTE NOTE NOTE
+
+-----
+Done
+-----
+1) Move AI
+8) Bridge filling out (goodie table)
+9) Minor crap
+-Monkeys in genetics
+-Swap entry/exit shuttle?
+  -Shuttle window symetry
+-Doors on medbay maint
+-More brig cells?
