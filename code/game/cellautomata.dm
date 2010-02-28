@@ -525,7 +525,7 @@ var/update_state = 0
 			return
 
 	for(var/turf/station/T in world)
-		if (T.updatecell && T.update_again)
+		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
 			T.exchange()
 			T.updatecell()
 			if(!time)

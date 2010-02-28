@@ -2062,6 +2062,7 @@
 	L["airlock"] = "airlock (5)"
 	L["solar"] = "solar panel base (5)"
 	L["solarcomp"] = "solar panel computer (5)"
+	L["frame"] = "Computer Frame (4)"
 	for(var/t in L)
 		counter++
 		t1 += text("<A href='?src=\ref[];make=[]'>[]</A>  ", src, t, L[t])
@@ -2192,6 +2193,13 @@
 				S.loc=T
 				S.density=0
 				S.id=""
+			if("frame")
+				if (src.amount < 4)
+					return
+				src.amount -= 4
+				var/obj/machinery/computer/frame/C = new/obj/machinery/computer/frame
+				C.loc = usr.loc
+				C.buildstate = 0
 		if (src.amount <= 0)
 			usr.u_equip(src)
 			usr << browse(null, "window=met_sheet")
@@ -4295,7 +4303,10 @@
 		return
 	return
 
-/obj/item/weapon/radio/talk_into(mob/M as mob, msg)
+obj/item/weapon/radio/talk_into(mob/M as mob, msg)
+	if(radio == 0)
+		M << "*static*"
+		return
 	if (!( src.wires & 4 ))
 		return
 	var/list/receive = list(  )
@@ -4312,19 +4323,19 @@
 		crackle -= i
 	for(var/mob/O in crackle)
 		O.show_message(text("\icon[] <I>Crackle,Crackle</I>", src), 2)
-	if (istype(M, /mob/human) || (istype(M, /mob/ai)))
+	if (istype(M, /mob/human) && M.zombie == 0 || (istype(M, /mob/ai)))
 		for(var/mob/O in receive)
-			if (istype(O, /mob/human) || (istype(O, /mob/ai)) ||(istype(O, /mob/observer)))
+			if (istype(O, /mob/human) && O.zombie == 0 || (istype(O, /mob/ai)) ||(istype(O, /mob/observer)))
 				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
 			else
 				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)
 		if (src.freq == 5)
 			for(var/mob/O in receive)
-				if (istype(O, /mob/human) || (istype(O, /mob/ai)))
+				if (istype(O, /mob/human) && O.zombie == 0 || (istype(O, /mob/ai)))
 					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
 				else
 					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)
-	else
+	else if (istype(M, /mob/human && M.zombie == 0))
 		for(var/mob/O in receive)
 			if ((istype(O, M)) || (istype(O, /mob/observer)))
 				O.show_message(text("<font color=\"#008000\"><B>The monkey-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", src, src.freq, msg), 2)
@@ -4336,6 +4347,22 @@
 					O.show_message(text("<font color=\"#008000\"><B>The monkey-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", src, src.freq, msg), 2)
 				else
 					O.show_message(text("<font color=\"#008000\"><B>The monkey-\icon[]\[[]\]-broadcasts (over PA)</B>: chimpering</font>", src, src.freq), 2)
+	else if (istype(M, /mob/human) && M.zombie == 1)
+		for(var/mob/O in receive)
+			if (istype(O, /mob/human) && O.zombie == 1|| istype(O, /mob/observer))
+				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
+			else if((istype(O, /mob/human) && O.zombie == 0)|| (istype(O, /mob/observer)))
+				var/zombiespeak1 = "asd"
+				zombiespeak1 = pick(zombiesay)
+				O.show_message(text("<font color=\"#008000\"><B>The zombie-\icon[]\[[]\]-broadcasts (over PA)</B>:<I>[]<I></font>", src, src.freq, zombiespeak1), 2)
+		if (src.freq == 5)
+			for(var/mob/O in receive)
+				if (istype(O, /mob/human) && O.zombie == 1|| (istype(O, /mob/observer)))
+					O.show_message(text("<font color=\"#008000\"><B>The zombie-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", src, src.freq, msg), 2)
+				else if (istype(O, /mob/human) && O.zombie == 0|| (istype(O, /mob/observer)))
+					var/zombiespeak1 = "asd"
+					zombiespeak1 = pick(zombiesay)
+					O.show_message(text("<font color=\"#008000\"><B>The zombie-\icon[]\[[]\]-broadcasts (over PA)</B>:<I>[]<I></font>", src, src.freq, zombiespeak1), 2)
 	return
 
 /obj/item/weapon/radio/hear_talk(mob/M as mob, msg)
@@ -4353,6 +4380,25 @@
 		..()
 		return
 	return
+
+/*
+	if ((istype(O, /mob/human)) && O.zombie == 1|| (istype(O, /mob/observer)))
+		for(var/mob/O in receive)
+			O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
+	else
+				var/zombiespeak1 = "asd"
+				zombiespeak1 = pick(zombiesay)
+				O.show_message(text("<font color=\"#008000\"><B>The zombie-\icon[]\[[]\]-broadcasts (over PA)</B>:<I>[]<I></font>", src, src.freq, zombiespeak1), 2)
+		if (src.freq == 5)
+			for(var/mob/O in receive)
+				if ((istype(O, /mob/human)) && O.zombie == 1|| (istype(O, /mob/observer)))
+					O.show_message(text("<font color=\"#008000\"><B>The zombie-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", src, src.freq, msg), 2)
+				else
+					var/zombiespeak1 = "asd"
+					zombiespeak1 = pick(zombiesay)
+*/
+
+
 
 /obj/item/weapon/shard/New()
 

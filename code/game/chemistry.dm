@@ -1551,13 +1551,13 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		if (phosphorusin == 1 && thermitein == 1 && mixingin == 1 && volume >= 19 && chem.chemicals.len == 3)
 			M << text("\blue You mix together the ingredients to form an incendiary device!")
 			var/I1 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-			I1:firestrength = 125
+			I1:firestrength = 80
 			if (volume >=39)
 				var/I2 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-				I2:firestrength = 125
+				I2:firestrength = 100
 			if (volume >=59)
 				var/I3 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-				I3:firestrength = 125
+				I3:firestrength = 100
 			if (volume >=79)
 				var/I4 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
 				I4:firestrength = 125
@@ -1566,13 +1566,20 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		if (phosphorusin == 1 && hydrogenin == 1 && sulfurin == 1 && thermitein == 1 && mixingin == 1 && volume >= 24 && chem.chemicals.len == 5)
 			M << text("\blue You mix together the ingredients to form an incendiary device!")
 			var/I1 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-			I1:firestrength = 150
+			I1:firestrength = 140
 			if (volume >=49)
 				var/I2 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-				I2:firestrength = 150
+				I2:firestrength = 140
 			if (volume >=74)
 				var/I3 = new /obj/item/weapon/incendiarygrenade(locate(M.x,M.y,M.z))
-				I3:firestrength = 150
+				I3:firestrength = 140
+			del (B)
+			return
+		if (carbonin == 1 && oxygenin == 1 && siliconin == 1 && radiumin == 1 && mixingin == 1 && volume >= 24 && chem.chemicals.len == 5)
+			M << text("\blue You mix together the ingredients")
+			M << text("\red The mixture rapidly expands and turns green.")
+			var/obj/blob/X = new /obj/blob/(locate(M.x,M.y,M.z))
+			X.Life()
 			del (B)
 			return
 		else
@@ -1581,7 +1588,6 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 				M << text("\blue ..Except an unexpected reaction!")
 				OHMYGOD()
 	return
-
 /obj/item/weapon/smokebomb
 	desc = "It is set to detonate in 2 seconds."
 	name = "smoke bomb"
@@ -1722,21 +1728,21 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 	var/turf/Ty1 = src.y + 1
 	var/turf/Tym1 = src.y - 1
 	if(isturf(T))
-		T.poison += firestrength * 155000
-		T.firelevel = max(T.firelevel, T.poison + 1)
-		T.oxygen += firestrength * 100000
+		T.poison += firestrength * 155000 // Old was 155000
+		T.firelevel = firestrength * 155000
+		T.oxygen += firestrength * 155000
 	if(isturf(Tx1))
 		Tx1.poison += firestrength * 155000
-		Tx1.firelevel = max(Tx1.firelevel, Tx1.poison + 1)
+		Tx1.firelevel = firestrength * 155000
 	if(isturf(Ty1))
 		Ty1.poison += firestrength * 155000
-		Ty1.firelevel = max(Ty1.firelevel, Ty1.poison + 1)
+		Ty1.firelevel = firestrength * 155000
 	if(isturf(Txm1))
 		Txm1.poison += firestrength * 155000
-		Txm1.firelevel = max(Txm1.firelevel, Txm1.poison + 1)
+		Txm1.firelevel = firestrength * 155000
 	if(isturf(Tym1))
 		Tym1.poison += firestrength * 155000
-		Tym1.firelevel = max(Tym1.firelevel, Tym1.poison + 1)
+		Tym1.firelevel = firestrength * 155000
 //		oxygen += firestrength * 10000
 //	for(var/obj/blob/B in view(8,src))
 //		var/damage = round(30/(get_dist(B,src)+1))

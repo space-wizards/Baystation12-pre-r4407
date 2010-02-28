@@ -12,7 +12,6 @@
 	var/temp = T20C
 	var/radiation
 	var/burn = 0
-
 	var/airdir = null
 	var/airforce = null
 	var/checkfire = 1.0

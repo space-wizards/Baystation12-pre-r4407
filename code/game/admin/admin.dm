@@ -776,7 +776,8 @@
 <A href='?src=\ref[src];secrets2=check_antagonist'>Show the key of the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=list_signalers'>Show last [length(lastsignalers)] signalers</A><BR>
 <A href='?src=\ref[src];secrets2=showailaws'>Show AI Laws</A><BR>
-<A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>"}
+<A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
+<A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>"}
 			usr << browse(dat, "window=secretsadmin")
 
 	if (href_list["secretsfun"])
@@ -870,6 +871,11 @@
 							alert("There is no traitor.", null, null, null, null, null)
 					else
 						alert("The game has not started yet.", null, null, null, null, null)
+				/*if("check_zombie")
+					if(ticker.mode.name == "Zombie Outbreak")
+						var/zomb = ticker.mode.get_zombies_list()
+						var/human = ticker.mode.get_human_list()
+						alert(text("Human's Left = [] Zombie's left = []",zomb.len,human.len ), null, null, null, null, null)*/
 				if("monkey")
 					for(var/mob/human/H in world)
 						spawn(0)

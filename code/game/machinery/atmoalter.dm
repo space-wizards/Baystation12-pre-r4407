@@ -567,6 +567,28 @@ Pipe Valve Status: [ct]<BR>
 					con.connected = src
 				else
 					user.show_message("\blue There is nothing here with which to connect the canister.", 1)
+		else if(istype(W, /obj/item/weapon/analyzer) && get_dist(user, src) <= 1)
+			view(3,usr)  << "\red [user] has used the analyzer on \icon[icon]"
+			var/total = src.gas.tot_gas()
+			var/t1 = 0
+			user << "\blue Results of analysis of canister."
+			if (total)
+				user << "\blue Overall: [total] / [src.gas.maximum]"
+				t1 = round( src.gas.n2 / total * 100 , 0.0010)
+				user << "\blue Nitrogen: [t1]%"
+				t1 = round( src.gas.oxygen / total * 100 , 0.0010)
+				user << "\blue Oxygen: [t1]%"
+				t1 = round( src.gas.plasma / total * 100 , 0.0010)
+				user << "\blue Plasma: [t1]%"
+				t1 = round( src.gas.co2 / total * 100 , 0.0010)
+				user << "\blue CO2: [t1]%"
+				t1 = round( src.gas.sl_gas / total * 100 , 0.0010)
+				user << "\blue N2O: [t1]%"
+				user << text("\blue Temperature: []&deg;C", src.gas.temperature-T0C)
+				src.add_fingerprint(user)
+			else
+				user << "\blue Tank is empty!"
+				src.add_fingerprint(user)
 		else
 			switch(W.damtype)
 				if("fire")

@@ -205,16 +205,16 @@
 			if (src.firelevel >= 900000.0)
 				src.icon_state = "burning"
 				src.luminosity = 2
-				if (src.oxygen > 5000)
-					src.co2 += 2500
-					src.oxygen -= 5000
+				if (src.oxygen > oxygenburn)
+					src.co2 += oxygenburn/4
+					src.oxygen -= oxygenburn
 				else
 					src.oxygen = 0
 
 				// heating from fire
 				temp += (firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE
 
-				src.poison = max(0, src.poison - 1000)
+				src.poison = max(0, src.poison - 5000)
 				if (locate(/obj/effects/water, src))
 					src.firelevel = 0
 				for(var/atom/movable/A in src)
@@ -279,9 +279,9 @@
 			if (src.firelevel >= 900000.0)
 				src.icon_state = "burning"
 				src.luminosity = 2
-				if (src.oxygen > 5000)
-					src.co2 += 2500
-					src.oxygen -= 5000
+				if (src.oxygen > oxygenburn)
+					src.co2 += oxygenburn/4
+					src.oxygen -= oxygenburn
 				else
 					src.oxygen = 0
 
@@ -289,7 +289,7 @@
 				temp += (firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE
 
 
-				src.poison = max(0, src.poison - 1000)
+				src.poison = max(0, src.poison - 5000)
 				src.co2 += 2500
 				if (locate(/obj/effects/water, src))
 					src.firelevel = 0
@@ -898,9 +898,9 @@
 			src.icon_state = "burning"
 			src.luminosity = 2
 
-			src.oxygen = max(src.oxygen - 1000, 0)
-			src.poison = max(src.poison - 1000, 0)
-			src.co2 += 500
+			src.oxygen = max(src.oxygen - 5000, 0)
+			src.poison = max(src.poison - 5000, 0)
+			src.co2 += 5000
 
 			if(src.oxygen == 0 || src.poison == 0)
 				burn = 0 // make fires stop when they run out of oxygen or plasma

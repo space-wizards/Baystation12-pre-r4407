@@ -1514,7 +1514,7 @@ obj/item/weapon/clothing/suit/labcoat
 	throw_speed = 4
 	throw_range = 20
 	var/status = 1
-	var/rickroll = 1
+	var/rickroll = 0
 	var/open = 0
 /obj/item/weapon/flashbang
 	desc = "It is set to detonate in 3 seconds."
@@ -2942,6 +2942,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "computer"
 	density = 1
 	anchored = 1.0
+	var/buildstate = 6
+/obj/machinery/computer/frame
+	name = "Computer Frame"
+	density = 1
+	anchored = 0
+	buildstate = 0
+	icon = 'airtunnelcomputer.dmi'
+	icon_state = "compstate1"
 /obj/machinery/computer/airtunnel
 	name = "Air Tunnel Control"
 	icon = 'airtunnelcomputer.dmi'
@@ -3256,6 +3264,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/operating = 0
 	anchored = 1
 	var/autoclose = 0
+	var/hulksmash1 = 0
 /obj/machinery/door/firedoor
 	name = "Firelock"
 	icon = 'Door1.dmi'
@@ -3842,6 +3851,22 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/turn_angle = 0
 	var/obj/machinery/power/solar_control/control
 	var/building=0
+/obj/machinery/computer/comdisc
+	name = "solar panel"
+	desc = "A solar electrical generator."
+	icon = 'power.dmi'
+	icon_state = "sp_base"
+	anchored = 1
+	density = 1
+	var/health = 10.0
+	var/id = ""
+	var/obscured = 0
+	var/sunfrac = 0
+	var/adir = SOUTH
+	var/ndir = SOUTH
+	var/turn_angle = 0
+	var/obj/machinery/computer/comcontrol/control
+
 
 /obj/machinery/power/solar_control
 	name = "solar panel control"
@@ -4508,6 +4533,30 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "power cell charger module"
 	icon_state = "power_mod"
 	desc = "Charging circuits for power cells."
-
+/obj/item/weapon/disk/aiupload
+	name = "Ai Upload Interface Disk"
+	icon = 'module.dmi'
+	icon_state = "std_mod"
+	s_istate = "electronic"
+	desc = "A vita component for a computer"
+/obj/item/weapon/disk/card
+	name = "Card Interface Disk"
+	icon = 'module.dmi'
+	icon_state = "std_mod"
+	s_istate = "electronic"
+	desc = "A vita component for a computer"
+/obj/item/weapon/disk/com
+	name = "Com Interface Disk"
+	icon = 'module.dmi'
+	icon_state = "std_mod"
+	s_istate = "electronic"
+	desc = "A vita component for a computer"
+obj/machinery/vendingmachine/soda
+	name = "Soda Machine"
+	desc = "A vending machine for soda"
+	var/spacebubbles = 10
+/obj/item/weapon/cans/spacebubble
+	name = "Space Bubble Can"
+	desc = "Best soft-drink in the world"
 /obj/item/weapon/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 /mob/mouse_drag_pointer = MOUSE_ACTIVE_POINTER

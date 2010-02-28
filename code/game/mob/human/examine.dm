@@ -32,6 +32,8 @@
 			usr << text("\blue [] is wearing \icon[] []!", src.name, src.wear_id, src.wear_id.name)
 	if (src.dead())
 		usr << text("\red [] is limp and unresponsive, a dull lifeless look in their eyes.", src.name)
+	if (src.zombie)
+		usr << text("\red [] got a dull lifeless look in their eyes.", src.name)
 	else
 		if (src.bruteloss)
 			if (src.bruteloss < 30)

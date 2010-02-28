@@ -36,6 +36,8 @@
 	//For restructuring
 	if (ticker.mode.name == "Corporate Restructuring" || ticker.mode.name=="revolution" || istype(ticker.mode,/datum/game_mode/other))
 		ticker.check_win()
+	if(ticker.mode.name == "Zombie Outbreak")
+		ticker.check_win()
 
 	if (ticker.mode.name == "wizard" && src == ticker.killer)
 		world << "<FONT size = 3><B>Research Station Victory</B></FONT>"

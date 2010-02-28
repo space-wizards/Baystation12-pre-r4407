@@ -55,15 +55,15 @@
 				src << "\red Hulk not need baby item!"
 				src.drop_item()
 		if (src.zombie)
-			if (src.equipped() && prob(25))
+			if (src.equipped())
 				src << "\red Hnnngh noooot braiiiiiiiins."
 				src.drop_item()
 			src.paralysis = 0
 			src.stunned = 0
 			src.weakened = 0
 			src.drowsyness = 0
-			if (oxyloss > 0) // zombies dont breathe dummy.
-				oxyloss = 0
+			if (src.oxyloss > 0) // zombies dont breathe dummy.
+				src.oxyloss = 0
 			if (prob(10))
 				///////////////////////
 				if (src.fireloss > 5)
@@ -606,6 +606,8 @@
 			src.sight |= SEE_MOBS
 			src.see_in_dark = 4
 			src.see_invisible = 2
+		else if (src.stat != 2 && src.zombie == 1)
+			src.sight |= SEE_MOBS
 		else if (src.stat != 2)
 			src.sight &= ~SEE_TURFS
 			src.sight &= ~SEE_MOBS

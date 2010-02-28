@@ -53,6 +53,7 @@
 		src.lying_icon = new /icon('human.dmi', "body_[g]_l")
 		src.icon = src.stand_icon
 
+
 // Rebind a ghost to their mob
 		if(oldckey != null)
 			ckey = oldckey
@@ -1333,8 +1334,9 @@
 							step_away(src,M,15)
 							sleep(3)
 							step_away(src,M,15)
-					for(var/mob/O in viewers(src, null))
-						O.show_message(text("\red <B>[] has punched []!</B>", M, src), 1)
+					if(!M.ishulk && !M.zombie)
+						for(var/mob/O in viewers(src, null))
+							O.show_message(text("\red <B>[] has punched []!</B>", M, src), 1)
 					if (def_zone == "head")
 						if ((((src.head && src.head.brute_protect & 1) || (src.wear_mask && src.wear_mask.brute_protect & 1)) && prob(99)))
 							if (prob(20))
@@ -1532,10 +1534,11 @@
 				src<<"\red You feel dizzy!"
 				src.toxloss += 0.5
 		if (G.tot_gas() && a_co2/G.tot_gas() > 0.05)
-			if(!co2overloadtime)
-				co2overloadtime = world.time
-			else if(world.time - co2overloadtime > 180)	// 18 seconds for co2 to knock you out (monkeys are detector units for humans)
-				src.paralysis = max(src.paralysis,3)
+			if(src.zombie == 0)
+				if(!co2overloadtime)
+					co2overloadtime = world.time
+				else if(world.time - co2overloadtime > 180)	// 18 seconds for co2 to knock you out (monkeys are detector units for humans)
+					src.paralysis = max(src.paralysis,3)
 		else
 			co2overloadtime = 0
 		if (a_plasma > 5)
@@ -1550,9 +1553,10 @@
 			src << "\red You feel a searing heat in your lungs!"
 			if(prob(25))	emote("gasp")
 		if (a_sl_gas > 10)
-			src.weakened = max(src.weakened, 3)
-			if (a_sl_gas > 40)
-				src.paralysis = max(src.paralysis, 3)
+			if(src.zombie == 0)
+				src.weakened = max(src.weakened, 3)
+				if (a_sl_gas > 40)
+					src.paralysis = max(src.paralysis, 3)
 		if (G.oxygen + G.n2 +  G.sl_gas + G.co2 > 5000)
 			src.bruteloss += 0.5
 			if(prob(10))
@@ -2218,3 +2222,16 @@
 	return
 
 /mob/human/mob/
+
+/*/mob/human/proc/testbite()
+	if(istype(src.wear_suit, /obj/item/weapon/clothing/suit/bio_suit))
+		if(prob(35))
+			return "bio_suit"
+		else
+			return 0
+	if(istype(src.head, /obj/item/weapon/clothing/head/bio_hood))
+		if(prob(10))
+			return "bio_hood"
+		else
+			return 0
+	return 0*/

@@ -234,6 +234,9 @@
 	return src.attack_hand(user)
 
 /obj/machinery/computer/communications/attack_hand(var/mob/user as mob)
+	if(longradio == 0)
+		user << "Warning Communication Dish either out of order or is not alligned properly."
+		return
 	if(user == ticker.killer)
 		if(ticker.stage == 2 && ticker.objective == 2 && traitorused == 0 && ticker.mode.name == "centcom")
 			if(alert(user, "Do you wish to break this computer(Completing objective)", "", "Yes", "No") == "Yes")
@@ -413,6 +416,9 @@
 		user << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
 		return
 	if(ticker.mode.name == "AI malfunction")
+		user << "Centcom will not allow the shuttle to be called."
+		return
+	if(ticker.mode.name == "Zombie Outbreak")
 		user << "Centcom will not allow the shuttle to be called."
 		return
 	if (!( ticker.timeleft ))
@@ -861,5 +867,118 @@
 				O.throw_at(targetarea, drive_range * src.power, src.power)
 	flick("mass_driver1", src)
 	return
+
+obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(src.buildstate == 0)
+		if(istype(W,/obj/item/weapon/wrench))
+			icon_state = "compstate1"
+			src.anchored = 1
+			src.buildstate++
+			usr << "You wrench the frame into place."
+			return
+		if(istype(W,/obj/item/weapon/weldingtool))
+			del src
+			var/obj/item/weapon/sheet/metal/S = new(src)
+			S.amount = 1
+			return
+	if(src.buildstate == 1)
+		if(istype(W, /obj/item/weapon/cable_coil)||istype(W, /obj/item/weapon/cable_coil/cut))
+			var/obj/item/weapon/wire/G = W
+			if(G.amount == 1)
+				del G
+			else
+				G.amount -= 1
+			icon_state = "compstate2"
+			src.buildstate++
+			usr << "You wire up the frame."
+			return
+		else if(istype(W, /obj/item/weapon/wrench) && src.anchored == 1)
+			icon_state = "compstate1"
+			src.anchored = 0
+			src.buildstate--
+			usr << "You can now move the frame"
+			return
+	if(src.buildstate == 2)
+		if(istype(W, /obj/item/weapon/circuitry))
+			icon_state = "compstate3"
+			del W
+			src.buildstate++
+			usr << "You place the ciruct board inside the frame."
+			return
+		else if(istype(W, /obj/item/weapon/wirecutters))
+			icon_state = "compstate1"
+			var/obj/item/weapon/cable_coil/cut/S = new(src)
+			S.loc = src.loc
+			S.amount = 1
+			src.buildstate--
+			usr << "You removed the wire inside the frame"
+			return
+	if(src.buildstate == 3)
+		if(istype(W, /obj/item/weapon/sheet/glass))
+			var/obj/item/weapon/sheet/glass/x = W
+			if(x.amount == 1)
+				del x
+			else
+				x.amount -= 1
+			icon_state = "compstate4"
+			src.buildstate++
+			usr << "You place the glass inside the frame."
+			return
+		else if(istype(W, /obj/item/weapon/screwdriver))
+			icon_state = "compstate2"
+			var/obj/item/weapon/circuitry/S = new(src)
+			S.loc = src.loc
+			src.buildstate--
+			usr << "You unscrew and remove the circuit board from the frame"
+			return
+
+	if(src.buildstate == 4)
+		if(istype(src, /obj/machinery/computer/frame))
+			if(istype(W, /obj/item/weapon/disk/aiupload))
+				var/obj/machinery/computer/aiupload/s = new(src)
+				s.loc = src.loc
+				s.buildstate = 6
+				del src
+				usr << "You install the Ai Upload Interface into [src]."
+				return
+			else if(istype(W, /obj/item/weapon/disk/card))
+				var/obj/machinery/computer/card/s = new
+				s.loc = src.loc
+				s.buildstate = 6
+				usr << "You install the Card Modification Interface into [src]."
+				del src
+				return
+			else if(istype(W, /obj/item/weapon/disk/com))
+				var/obj/machinery/computer/communications/s = new
+				s.loc = src.loc
+				s.buildstate = 6
+				usr << "You install the Communications Interface into [src]."
+				del src
+				return
+			else if(istype(W, /obj/item/weapon/crowbar))
+				icon_state = "compstate3"
+				var/obj/item/weapon/sheet/glass/S = new(src)
+				S.amount = 1
+				S.loc = src.loc
+				src.buildstate--
+				usr << "You removed pane of glass board from the frame"
+				return
+	if(src.buildstate == 6)
+		if(istype(src, /obj/machinery/computer/card) || (istype(src,/obj/machinery/computer/aiupload) || (istype(src,/obj/machinery/computer/communications))))
+			if(istype(W, /obj/item/weapon/multitool))
+				var/obj/machinery/computer/frame/s = new(src)
+				s.loc = src.loc
+				s.buildstate = 4
+				s.icon_state = "compstate4"
+				del src
+				usr << "You erase the harddrive of [src]"
+				return
+
+
+
+
+
+
+
 
 

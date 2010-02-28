@@ -114,7 +114,9 @@ var
 
 	const/shuttle_time_in_station = 1800 // 3 minutes in the station
 	const/shuttle_time_to_arrive = 6000 // 10 minutes to arrive
-
+	/* Radio shit*/
+	radio = 1
+	longradio = 1
 world
 	mob = /mob/human
 	turf = /turf/space

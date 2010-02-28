@@ -36,4 +36,3 @@
 			//messageadmins("[amount] [total] [req]")
 			if (total >= req)
 				unlock_medal(name,announce)
-

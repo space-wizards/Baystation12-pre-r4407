@@ -77,9 +77,13 @@
 			user << "You punch the door!"
 	if(usr.zombie)
 		var/B = pick(1,2,3,4,5,6)
+		var/atkdmg = 4
 		src.hear_sound("sound/damage/wall/impact[B].wav",6)
-		hitpoints -= 2
-		if (hitpoints <= 0)
+		for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
+			if (O.zombie)
+				atkdmg += 4
+		src.hitpoints -= atkdmg
+		if (src.hitpoints <= 0)
 			src.icon_state = "door1_hulk"
 			user << "You claw through the door!"
 			src.density = 0

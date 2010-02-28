@@ -10,3 +10,11 @@
 	var/adminobs = null
 	var/changes = 0
 	var/canplaysound = 1
+
+client/script = {"<style>
+.ooc_title, .ooc_text
+{
+	font-weight: bold;
+	color: #002eb8;
+}
+</style>"}

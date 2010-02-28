@@ -50,6 +50,7 @@
 	var/wiresexposed = 0
 	var/apcwires = 15
 	var/repair_state = 0
+	var/health = 50
 	netnum = -1		// set so that APCs aren't found as powernet nodes
 //	luminosity = 1
 
@@ -300,7 +301,22 @@
 			user << "You remove the power cell."
 			charging = 0
 			src.updateicon()
-
+	else if(user.zombie == 1)
+		var/B = pick(1,2,3,4,5,6)
+		var/dmg = 4
+		src.hear_sound("sound/damage/wall/impact[B].wav",6)
+		for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
+			if (O.zombie)
+				dmg += 4
+		src.health -= dmg
+		if(src.health < 0)
+			src.shock(user,100)
+			src.set_broken()
+			usr << "\blue You broke the apc."
+			oview(5) << "\red [user] breaks the apc with his claws"
+		else
+			usr << "\blue You claw the apc"
+			oview(5) << "\red [user] claws apc"
 	else
 		// do APC interaction
 		src.interact(user)

@@ -4,7 +4,8 @@
 	var/siphon_status = 0
 	var/air_stat = 0
 	var/list/connectors = list()
-
+/datum/
+	var/global/oxygenburn = 250000
 /datum/air_tunnel/air_tunnel1
 	//name = "air tunnel1"
 
@@ -17,6 +18,7 @@
 	var/checkfire = 0.0
 	var/var_swap = 1.0
 	var/time = 0
+
 
 /datum/control/gameticker
 	//name = "gameticker"

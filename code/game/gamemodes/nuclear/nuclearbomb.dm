@@ -174,5 +174,16 @@
 	makepowernets()
 	ticker.nuclear(src.z)
 	del(src)
-
 	return
+
+/obj/machinery/nuclearbomb/ex_act(severity)
+	switch(severity)
+		if(1.0)
+			return
+		if(2.0)
+			return
+		if(3.0)
+			return
+		else
+	return
+

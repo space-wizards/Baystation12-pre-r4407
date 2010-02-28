@@ -8,8 +8,13 @@
 	zombie = 1
 	bodytemperature = 310.055
 	see_in_dark = 5
+	src.sight = 38
 	UpdateClothing()
-	src << "You have become a zombie!"
+	src << "\red<font size=3> You have become a zombie!"
+	view(5,src) << "[src.rname] seizes up, his eyes dead and lifeless..."
+	if(ticker.mode.name == "Zombie Outbreak")
+		ticker.check_win()
+
 
 /mob/proc/unzombify()
 	zombie = 0
@@ -32,15 +37,22 @@
 	else if(prob(5))
 		becoming_zombie = 1
 		src << "You feel a strange itch"
-		sleep(200)
+		sleep(300)
 		if(becoming_zombie)
 			zombify()
-	else if(prob(5))
+	else if(prob(25))
 		becoming_zombie = 1
 		src << "You faintly feel a strange itch"
-		sleep(400)
+		sleep(800)
 		if(becoming_zombie)
 			src << "You feel a strange itch, stronger this time"
-			sleep(200)
+			sleep(400)
 			if(becoming_zombie)
 				zombify()
+
+/mob/proc/zombie_infect()
+	becoming_zombie = 1
+	src << "You feel a strange itch"
+	sleep(200)
+	if(becoming_zombie)
+		zombify()

@@ -223,9 +223,6 @@
 			message = "<B>[src]</B> mumbles!"
 			m_type = 2
 
-		if ("superultrasecretultimateservercrashcommand")
-			shutdown()
-
 		if ("grumble")
 			if (!muzzled)
 				message = "<B>[src]</B> grumbles!"
@@ -310,6 +307,9 @@
 		if ("sneeze")
 			if (!muzzled)
 				message = "<B>[src]</B> sneezes."
+				m_type = 2
+			else if (zombie)
+				message = "<B>[src]</B> moans."
 				m_type = 2
 			else
 				message = "<B>[src]</B> makes a strange noise."

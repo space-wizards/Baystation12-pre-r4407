@@ -73,6 +73,7 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	var/list/signalers[9]
 	var/lockdownbyai = 0
 	var/build_state = 0
+	var/health = 100
 	autoclose = 1
 /*
 About the new airlock wires panel:
@@ -319,6 +320,8 @@ About the new airlock wires panel:
 	return
 
 /obj/machinery/door/airlock/attack_ai(mob/user as mob)
+	if(src.hulksmash1 == 1)
+		return
 	if(src.build_state)
 		return
 	if (!src.canAIControl())
@@ -459,11 +462,32 @@ About the new airlock wires panel:
 /obj/machinery/door/airlock/attack_hand(mob/user as mob)
 	if(src.build_state)
 		return
+	if(src.hulksmash1 == 1)
+		return
 	if (!istype(usr, /mob/ai))
 		if (src.isElectrified())
 			if (src.shock(user, 100))
 				return
-
+		else
+			if(usr.zombie)
+				var/B = pick(1,2,3,4,5,6)
+				var/atkdmg = 4
+				src.hear_sound("sound/damage/wall/impact[B].wav",6)
+				for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
+					if (O.zombie)
+						atkdmg += 4
+				src.hitpoints -= atkdmg
+				if (src.hitpoints <= 0)
+					src.icon_state = "door1_hulk"
+					user << "You claw through the door!"
+					src.density = 0
+					src.operating = 0
+					src.opacity = 0
+					src.hulksmash1 = 1
+					return
+				else
+					user << "You claw the door!"
+					return
 	if (src.p_open)
 		user.machine = src
 		var/t1 = text("<B>Access Panel</B><br>\n")
@@ -692,6 +716,8 @@ About the new airlock wires panel:
 	return
 
 /obj/machinery/door/airlock/attackby(C as obj, mob/user as mob)
+	if(src.hulksmash1 == 1)
+		return
 	if(src.build_state > 0)
 		if (istype(C, /obj/item/weapon/crowbar))
 			var/area/A = user.loc
@@ -892,3 +918,12 @@ About the new airlock wires panel:
 				if (A.closeOtherId == src.closeOtherId && A != src)
 					src.closeOther = A
 					break
+
+
+
+/obj/machinery/door/airlock/process()
+	if (src.hulksmash1)
+		var/B = pick(1,2,3,4,5,6)
+		src.hear_sound("sound/enviroment/spark/spark[B].wav",3)
+	else
+		return

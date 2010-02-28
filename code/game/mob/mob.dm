@@ -27,7 +27,7 @@
 
 /mob/proc/is_living()
 	if(istype(src, /mob/human))
-		if(zombie) return 0
+		if(src.zombie == 1) return 0
 		else return 1
 	else if(istype(src, /mob/monkey))
 		return 1
@@ -1842,7 +1842,7 @@
 	/var/loginmsg = 0
 	startofclient:
 	if(worldsetup == 1)
-	
+
 		for (var/X in crban_ipranges)
 			if (findtext(address,X)==1)
 				if (crban_unbanned.Find(ckey))
@@ -2049,7 +2049,7 @@
 			loginmsg = 1
 		sleep(100)
 		goto startofclient
-		
+
 /client/Del()
 	..()
 	del(src.holder)
@@ -2078,7 +2078,7 @@
 /mob/proc/updatehealth()
 	if (src.nodamage == 0)
 		if(!src.is_living())
-			src.health = 100 - src.oxyloss/10 - src.fireloss/2 - src.bruteloss/2
+			src.health = 100 - src.toxloss/2 - src.fireloss/2 - src.bruteloss/2
 		else
 			if(src.is_rev == "no")
 				src.health = 100 - src.bruteloss/50

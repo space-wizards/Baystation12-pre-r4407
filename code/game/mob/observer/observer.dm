@@ -15,7 +15,6 @@
 		src.oldckey = client.ckey
 		src.client.mob = new/mob/observer(src)
 	return
-
 /mob/observer/Move(NewLoc, direct)
 	if(NewLoc)
 		src.loc = NewLoc
