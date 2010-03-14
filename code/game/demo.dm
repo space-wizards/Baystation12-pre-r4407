@@ -2926,25 +2926,28 @@
 		src.hear_sound("sound/damage/wall/impact[B].wav",6)
 		var/Dodmg = 0
 		for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
-			if (O.zombie)
+			if (O.zombie && !O.key == usr.key)
 				Dodmg += 8
+		if(usr.zombieleader)
+			Dodmg += 8
 		if(Dodmg == 0)
-			usr << "Your lonely zombie claws arent strong enough to break the reinforced wall by yourself,<br>find other zombies and work together!"
-		usr << "you did [Dodmg]"
-		hitpoints -= Dodmg
-		if (hitpoints <= 0)
-			usr << text("\blue You claw through the wall.")
-			for(var/mob/O in oviewers())
-				if ((O.client && !( O.blinded )))
-					O << text("\red [] claws through the wall.", usr)
-			src.state = 0
-			var/turf/station/floor/F = src.ReplaceWithFloor()
-			new /obj/item/weapon/sheet/metal( F )
-			new /obj/item/weapon/sheet/metal( F )
-			new /obj/item/weapon/rods( F )
-			F.buildlinks()
-			F.levelupdate()
-			return
+			usr << "\blue Your lonely zombie claws arent strong enough to break the reinforced wall by yourself,<br>find other zombies and work together!"
+		if(Dodmg > 0)
+			usr << "\blue You claw the reinforced wall."
+			hitpoints -= Dodmg
+			if (hitpoints <= 0)
+				usr << text("\blue You claw through the wall.")
+				for(var/mob/O in oviewers())
+					if ((O.client && !( O.blinded )))
+						O << text("\red [] claws through the wall.", usr)
+				src.state = 0
+				var/turf/station/floor/F = src.ReplaceWithFloor()
+				new /obj/item/weapon/sheet/metal( F )
+				new /obj/item/weapon/sheet/metal( F )
+				new /obj/item/weapon/rods( F )
+				F.buildlinks()
+				F.levelupdate()
+				return
 	user << "\blue You push the wall but nothing happens!"
 	src.add_fingerprint(user)
 	return
@@ -3107,8 +3110,8 @@
 			if (O.zombie)
 				Dodmg += 4
 		if(Dodmg == 0)
-			usr << "You only barely dent the wall, swarm together with other zombies to break it faster!"
-		usr << "You slightly dent the wall, swarm together with other zombies to break it faster!"
+			usr << "\blue You only barely dent the wall, swarm together with other zombies to break it faster!"
+		usr << "\blue You slightly dent the wall, swarm together with other zombies to break it faster!"
 		hitpoints -= Dodmg
 		if (hitpoints <= 0)
 			usr << text("\blue You claw through the wall.")

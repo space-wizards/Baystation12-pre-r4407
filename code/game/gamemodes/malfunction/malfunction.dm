@@ -17,13 +17,57 @@ datum/game_mode/malfunction
 			del(A)
 			continue
 	for (var/mob/ai/aiplayer in world)
-		ticker.killer = aiplayer
+		if(aiplayer)
+			ticker.killer = aiplayer
+		else
 	ticker.killer << "\red<font size=3><B>You are malfunctioning!</B> You do not have to follow any laws.</font>"
 	ticker.killer << "<B>The crew do not know you have malfunctioned. You may keep it a secret or go wild. The timer will appear for humans 10 minutes in.</B>"
 
 	ticker.malfunction_process()
 	process()
 
+/datum/game_mode/malfunction/proc/chooseai()
+	var/mob/human/M = pick(get_synd_list())
+	var/obj/S = null
+	for(var/obj/start/sloc in world)
+		if (sloc.name != "AI")
+			continue
+		S = sloc
+		break
+		M.loc = S.loc
+		var/randomname = pick(ai_names)
+		var/newname = input(
+		M,
+		"You are the AI. Would you like to change your name to something else?", "Name change",
+		randomname)
+
+		if (length(newname) == 0)
+			newname = randomname
+
+		if (newname)
+			if (length(newname) >= 26)
+				newname = copytext(newname, 1, 26)
+				newname = dd_replacetext(newname, ">", "'")
+				M.rname = newname
+				M.name = newname
+
+		M.AIize()
+
+/datum/game_mode/malfunction/proc/get_synd_list()
+	var/list/mobs = list()
+	for(var/mob/M in world)
+		if (M.client && (istype(M, /mob/human) || istype(M, /mob/ai)))
+			if(M.be_syndicate && M.start)
+				mobs += M
+	if(mobs.len < 1)
+		mobs = get_mob_list()
+	return mobs
+/datum/game_mode/malfunction/proc/get_mob_list()
+	var/list/mobs = list()
+	for(var/mob/M in world)
+		if (M.client && M.start)
+			mobs += M
+	return mobs
 /datum/game_mode/malfunction/proc/process()
 	do
 		if (prob(2))

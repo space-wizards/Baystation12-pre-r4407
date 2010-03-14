@@ -1,3 +1,4 @@
+/mob/var/zombieleader = 0
 /mob/proc/zombify()
 	stat &= 1
 	health = 100
@@ -74,7 +75,13 @@
 	sleep(200)
 	if(becoming_zombie)
 		zombify()
-
+/mob/proc/traitor_infect()
+	becoming_zombie = 1
+	zombieleader = 1
+	src << "You feel a strange itch"
+	sleep(300)
+	if(becoming_zombie)
+		zombify()
 
 /mob/proc/admin_infect()
 	becoming_zombie = 1
@@ -89,7 +96,7 @@
 	set name = "Zombie suicide"
 	set hidden = 0
 	if(zombie == 1)
-		switch(alert(usr,"Are you sure you wanna go to heaven?",,"Yes","No let me be dead"))
+		switch(alert(usr,"Are you sure you wanna die?",,"Yes","No"))
 			if("Yes")
 				fireloss = 999
 				src << "You died suprised?"

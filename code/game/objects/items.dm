@@ -5628,6 +5628,11 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 	return
 
 /obj/rack/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(user.zombie)
+		new /obj/item/weapon/rack_parts( src.loc )
+		//SN src = null
+		del(src)
+		return
 	if (istype(W, /obj/item/weapon/wrench))
 		new /obj/item/weapon/rack_parts( src.loc )
 		//SN src = null

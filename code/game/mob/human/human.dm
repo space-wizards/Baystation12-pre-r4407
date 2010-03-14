@@ -1324,9 +1324,10 @@
 					affecting = src.organs[text("[]", def_zone)]
 				if ((istype(affecting, /obj/item/weapon/organ/external) && prob(90)))
 					if(M.zombie)
-						affecting.take_damage(damage + 4)
-						for(var/mob/O in viewers(src, null))
-							O.show_message(text("\red <B>[] has clawed []!</B>", M, src), 1)
+						if(!src.zombie)
+							affecting.take_damage(damage + 4)
+							for(var/mob/O in viewers(src, null))
+								O.show_message(text("\red <B>[] has clawed []!</B>", M, src), 1)
 					if (M.ishulk == 1)
 						damage += 5
 						spawn(0)
