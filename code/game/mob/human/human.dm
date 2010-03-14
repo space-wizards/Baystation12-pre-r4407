@@ -1312,6 +1312,7 @@
 					O.show_message(text("\red [] has grabbed [] passively!", M, src), 1)
 		else
 			if (M.a_intent == "hurt" && !(M.gloves && M.gloves.elecgen == 1))
+				world.log_Mattack(text("[M.rname] clicked on [src.rname] with intent on harm"))
 				if (src.w_uniform)
 					src.w_uniform.add_fingerprint(M)
 				var/damage = rand(1, 9)

@@ -6011,6 +6011,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 	return
 
 /atom/Click()
+	world.log_attack("atom.Click() on [src] by [usr] : src.type is [src.type]")
 	//world << "atom.Click() on [src] by [usr] : src.type is [src.type]"
 	return DblClick()
 
