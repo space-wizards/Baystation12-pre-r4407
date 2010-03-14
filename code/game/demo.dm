@@ -2926,8 +2926,9 @@
 		src.hear_sound("sound/damage/wall/impact[B].wav",6)
 		var/Dodmg = 0
 		for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
-			if (O.zombie && !O.key == usr.key)
+			if (O.zombie)
 				Dodmg += 8
+		Dodmg -= 8
 		if(usr.zombieleader)
 			Dodmg += 8
 		if(Dodmg == 0)

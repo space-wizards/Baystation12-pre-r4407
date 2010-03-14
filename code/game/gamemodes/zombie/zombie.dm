@@ -47,7 +47,7 @@ var/const/waittime_h = 3000
 	ticker.killer = killer
 	var/objective = "Braaiiinnns....(What do you think? Eat them all.)"
 	ticker.objective = objective
-	killer.zombie_infect()
+	killer.traitor_infect()
 	killer << "\red<font size=3><B>You are Patient Zero!</B>Braaiiinnns....(What do you think? Eat them all.)"
 	killer.store_memory("Either turn or kill all humans!.")
 

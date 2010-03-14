@@ -35,7 +35,7 @@
 	var/F = file(log_file)
 	F << "MATTACK: [text]"
 
-/world/proc/log_attack(text)
+/*/world/proc/log_attack(text)
 	world.log << "ATTACK: [text]"
 	var/F = file(log_file_verbose)
-	F << "ATTACK: [text]"
+	F << "ATTACK: [text]"*/

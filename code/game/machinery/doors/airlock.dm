@@ -923,7 +923,14 @@ About the new airlock wires panel:
 
 /obj/machinery/door/airlock/process()
 	if (src.hulksmash1)
-		var/B = pick(1,2,3,4,5,6)
-		src.hear_sound("sound/enviroment/spark/spark[B].wav",3)
+		if(running == 1)
+			var/B = pick(1,2,3,4,5,6)
+			src.hear_sound("sound/enviroment/spark/spark[B].wav",3)
+			count--
+			if(count <= 0)
+				running = 0
 	else
 		return
+
+/obj/machinery/door/airlock/var/running = 0
+/obj/machinery/door/airlock/var/count = 3
