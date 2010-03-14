@@ -97,6 +97,10 @@
 	molarmass = 16.00
 	name = "oxygen"
 
+/datum/chemical/blood
+	molarmass = 1.00
+	name = "blood"
+
 /datum/chemical/sugar
 	molarmass = 342.3
 	name = "sugar"
@@ -122,6 +126,7 @@
 	var/antigens = null
 	var/has_oxygen = null
 	var/has_co = null
+
 
 /datum/chemical/pathogen/virus
 	name = "virus"

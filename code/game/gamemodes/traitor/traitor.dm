@@ -82,6 +82,7 @@
 	switch (objective)
 		if (ai_obj_evacuate)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated.</font>"
+			goal_killer = "must cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated."
 			killer.store_memory("<B>Objective:</B> Cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated.", 0, 0)
 			add_law_zero(killer)
 
@@ -89,18 +90,21 @@
 			ticker.target = pick(get_human_list())
 			var/targetdesc = get_target_desc(ticker.target)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must assassinate [targetdesc] and not get deactivated.</font>"
+			goal_killer = "assassinate [targetdesc] and not get deactivated."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught.</B>"
 			killer.store_memory("<B>Objective:</B> Assassinate [targetdesc] and don't get deactivated.", 0, 0)
 			add_law_zero(killer)
 
 		if(obj_hijack)
 			killer << "\red<font size=3><B>You are the traitor!</B> Be the lone survivor on the emergency shuttle.</font>"
+			goal_killer = "Be the lone survivor on the emergency shuttle."
 			killer.store_memory("<B>Objective:</B> Be the only person on the emergency shuttle.", 0, 0)
 
 		if (obj_murder)
 			ticker.target = pick_human_except(killer)
 			var/targetdesc = get_target_desc(ticker.target)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must assassinate [targetdesc] and then escape.</font>"
+			goal_killer = "assassinate [targetdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> Assassinate [targetdesc] and escape.", 0, 0)
 
@@ -109,6 +113,7 @@
 			var/itemdesc = get_item_desc(ticker.theft_obj)
 
 			killer << "\red<font size=3><B>You are the traitor!</B> You must steal [itemdesc] and then escape.</font>"
+			goal_killer = "steal [itemdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> Steal [itemdesc] and escape.", 0, 0)
 
@@ -118,6 +123,7 @@
 			if(ticker.sab_target == destroy_ai)
 				ticker.target = get_mobs_with_rank("AI")[1]
 			killer << "\red<font size=3><B>You are the traitor!</B> [targetdesc] and then escape.</font>"
+			goal_killer = "[targetdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> [targetdesc] and escape.", 0, 0)
 

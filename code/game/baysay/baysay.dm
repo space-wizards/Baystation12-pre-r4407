@@ -1,12 +1,22 @@
 ////////////////////////////////
-/proc/baysay(text as text)
+/mob/var/baysay = 0
+/mob/proc/baysay(text as text,var/key)
 	for(var/mob/M in world)
-		if(M && M.client && M.client.holder && M.client.baysay)
-			M << "[text]"
+		if(M.baysay == 1)
+			M << "[key]:[text]"
 
-/verb/baysay(text as text)
-	set src in List
-	if(M && M.client && M.client.holder && M.client.baysay)
-		baysay(text)
+/mob/verb/Baysay(text as text)
+	if(src.baysay == 1)
+		baysay(text,usr.key)
 	else
-		usr << "You need to be authed by bay12 admins before you can use this"
+		authbay()
+
+
+
+/mob/proc/authbay()
+	var/list/baysay = dd_file2list("config/baysay.txt")
+	if(baysay.Find(src.key,Start=1,End=0))
+		src.baysay = 1
+		src << "Authed to use baysay"
+	else
+		src << "Failed to auth you"

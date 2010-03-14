@@ -1742,7 +1742,7 @@
 	return
 
 
-/obj/stool/bed/attackby(obj/item/weapon/W as obj, mob/user as mob)
+/obj/stool/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	..()
 	if (istype(W, /obj/item/weapon/wrench))
 		new /obj/item/weapon/sheet/metal( src.loc )
@@ -1776,6 +1776,7 @@
 /obj/stool/bed/MouseDrop_T(mob/M as mob, mob/user as mob)
 	if (!ticker)
 		user << "You can't buckle anyone in before the game starts."
+		return
 	if ((!( istype(M, /mob) ) || get_dist(src, user) > 1 || M.loc != src.loc || user.restrained() || usr.stat))
 		return
 	if (M == usr)
@@ -2583,11 +2584,11 @@
 /turf/station/Entered(mob/human/M as mob, mob/user as mob)
 	..();
 	if(ismob(M))
-		if(src.radiation)
+	/*	if(src.radiation)
 			if(M.has_air_contact())
 				if(prob(50))
 					if(M.radiation < 100)
-						M.radiation += (src.radiation*0.01)
+						M.radiation += (src.radiation*0.01)*/
 		if (src.wet == 1)
 			if (M.m_intent == "run")
 				M.inertia_dir = M.last_move
@@ -3106,8 +3107,8 @@
 			if (O.zombie)
 				Dodmg += 4
 		if(Dodmg == 0)
-			usr << "You only slightly dent the wall, swarm together with other zombies to break it faster!"
-		usr << "just reporting the dmg for debug purposes [Dodmg]"
+			usr << "You only barely dent the wall, swarm together with other zombies to break it faster!"
+		usr << "You slightly dent the wall, swarm together with other zombies to break it faster!"
 		hitpoints -= Dodmg
 		if (hitpoints <= 0)
 			usr << text("\blue You claw through the wall.")
@@ -3128,6 +3129,8 @@
 		if (!blood)
 			return
 		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
+		if(src.zombieblood == 1)
+			user << text("Contains traces of a unknown infectious agent")
 		return
 	if (!(istype(usr, /mob/human) || ticker) && ticker.mode.name != "monkey")
 		usr << "\red You don't have the dexterity to do this!"
@@ -3439,3 +3442,6 @@ obj/bloodtemplate/attackby(obj/item/weapon/C as obj, mob/user as mob)
 		if (!blood)
 			return
 		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
+		if(src.zombieblood == 1)
+			user << text("Contains traces of a unknown infectious agent")
+

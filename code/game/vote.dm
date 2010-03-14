@@ -42,7 +42,7 @@
 
 /datum/vote/proc/endvote()
 
-	if(!voting)		// means that voting was aborted by an admin
+	if(!voting)		// means that voting was aborted by an M
 		return
 
 	world << "\red <B>***Voting has closed.</B>"

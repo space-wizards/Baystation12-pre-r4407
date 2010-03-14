@@ -349,6 +349,9 @@
 /proc/call_prison_shuttle(var/mob/usr)
 	if ((!( ticker ) || ticker.shuttle_location == 1))
 		return
+	if(ticker.mode.name == "Zombie Outbreak")
+		usr << "Centcom will not allow the shuttle to be called."
+		return
 	if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
 		usr << "Under directive 7-10, SS13 is quarantined until further notice."
 		return

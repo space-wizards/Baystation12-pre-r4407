@@ -106,7 +106,7 @@
 			next_stage = world.realtime + 600
 
 		if (2)
-			if (blobs.len > 500)
+			if (blobs.len > 1000)
 				world << "<FONT size = 3><B>Cent. Com. Update</B>: Biohazard Alert.</FONT>"
 				world << "\red Uncontrolled spread of the biohazard onboard the station."
 				world << "\red Cent. Com, has issued a directive 7-12 for Spacestation 13."

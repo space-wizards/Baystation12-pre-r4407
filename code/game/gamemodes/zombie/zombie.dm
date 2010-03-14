@@ -70,15 +70,17 @@ var/const/waittime_h = 3000
 /datum/game_mode/zombie/check_win()
 	var/list/humans_left = get_human_list()
 	var/list/zombies_left = get_zombies_list()
+	humans_left_lol = humans_left
+	zombies_left_lol = zombies_left
 	if(humans_left.len < 1 && zombies_left.len < 1)
-		world << "Netrual Victory everyone died!"
+		world << "<FONT size = 3><B>Netrual Victory everyone died!</B></FONT>"
 		return 1
 	else if(humans_left.len < 1)
-		world << "Zombies are Victorious"
+		world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 		ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
 		return 1
 	else if(zombies_left.len < 1)
-		world << "The humans have prevailed against the zombie threat"
+		world << "<FONT size = 3>\blue <B>The humans have prevailed against the zombie threat</B></FONT>"
 		return 1
 	else
 		return 0

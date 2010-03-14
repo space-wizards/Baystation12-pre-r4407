@@ -1,13 +1,15 @@
 var/changes = {"<FONT color='blue'>
+
 <head><title>Changelog</title></head>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
-<P><B>Download: Check around the Bay12 Forums, you should find the latest link somewhere.</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
+
 <P><B>Head's Changes (Sunday, 22 Febuary, 2010)</B></P>
 <li>Zombie mode hopefully fixed</li>
 <li>You should not be able to blow the nuke up anymore</li>
 <li>You can build computers now.</li>
 <li>And various misc changes.</li>
+
 <P><B>Head's Changes (Sunday, 3nd January, 2010)</B></P>
 <li>You can now scan normal(big ones) canisters with the analyzer</li>
 

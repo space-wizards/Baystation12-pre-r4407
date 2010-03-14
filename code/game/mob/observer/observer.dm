@@ -7,13 +7,21 @@
 	src.see_invisible = 100
 	src.see_infrared = 100
 	src.see_in_dark = 100
-
+/mob/
+	var/oldmob
 /mob/observer/proc/turninghost()
 	set name = "Turn into ghost"
 	set desc = "You cannot be revived as a ghost"
 	if(src.client && src.dead())
 		src.oldckey = client.ckey
+		src.oldmob = client.mob
 		src.client.mob = new/mob/observer(src)
+	return
+/mob/observer/proc/turningback()
+	set name = "Return to your body"
+	if(src.client && src.dead())
+		src.client.ckey = src.oldckey
+		src.client.mob = src.oldmob
 	return
 /mob/observer/Move(NewLoc, direct)
 	if(NewLoc)

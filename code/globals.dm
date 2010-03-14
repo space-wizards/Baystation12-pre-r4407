@@ -117,6 +117,9 @@ var
 	/* Radio shit*/
 	radio = 1
 	longradio = 1
+	list/humans_left_lol = ""
+	list/zombies_left_lol = ""
+	goal_killer = ""
 world
 	mob = /mob/human
 	turf = /turf/space

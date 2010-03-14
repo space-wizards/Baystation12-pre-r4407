@@ -88,7 +88,7 @@
 				//world << "\red Cen. Com. has detected an ion storm near the station."
 				//world << "\red Please check all AI-controlled equipment for errors."
 
-		if(7)
+/*		if(7)
 			event = 1
 			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			//world << "\red Cen. Com. has detected high levels of radiation near the station."
@@ -96,7 +96,7 @@
 			global_radiation = 1
 			radiate_station()
 			spawn(rand(1200,3000))
-				global_radiation = 0
+				global_radiation = 0*/
 
 	spawn(1300)
 		event = 0

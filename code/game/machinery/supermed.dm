@@ -205,11 +205,15 @@
 						t1 = "Unconscious"
 					else
 						t1 = "*dead*"
+				if(occupant.zombie == 1)
+					t1 = "*dead*"
 				if (istype(occupant,/mob/monkey))
 					dat = "<font color='red'>This device can only scan human occupants.</FONT><BR>"
 					return
 				dat += text("[]\tHealth %: [] ([])</FONT><BR>", (occupant.health > 50 ? "<font color='blue'>" : "<font color='red'>"), occupant.health, t1)
 				dat += text("<font color='green'>Radiation Level: []%</FONT><BR><BR>", occupant.radiation)
+				if(occupant.zombie == 1)
+					dat += text("<font color='red'>Unknown infectious agent detected.</FONT><BR><BR>",)
 				var/obj/item/weapon/organ/external/current = occupant.organs["chest"]
 				var/obj/item/weapon/organ/external/headlines = occupant.organs["head"]
 				dat += "<font color='blue'><B>Head:</B></FONT><BR>"

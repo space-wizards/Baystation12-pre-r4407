@@ -2041,7 +2041,7 @@
 				del(src)
 				return
 			if (S.s_time >= world.time + 30)
-				//SN src = null
+				//SN src = null //comebackhead
 				del(src)
 				return
 			S.s_time = world.time

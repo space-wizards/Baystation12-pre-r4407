@@ -4,6 +4,9 @@
 	if(src.healths)
 		src.healths.icon_state = "health5"
 	src.stat = DEAD
+	if(becoming_zombie == 1)
+		zombify()
+		return
 	emote("deathgasp") //let the world KNOW WE ARE DEAD
 	src.canmove = 0
 	if(src.client)

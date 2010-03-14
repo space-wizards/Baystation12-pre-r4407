@@ -1,3 +1,4 @@
+
 var/global/global_radiation = 0
 
 proc/radiate_station()

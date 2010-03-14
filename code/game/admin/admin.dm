@@ -166,6 +166,25 @@
 			world.log_admin("[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
 			world.update_stat()
 			update()
+	if (href_list["centcom_report"])
+		if ((src.rank in list( "Administrator", "Super Moderator", "Primary Administrator", "Super Administrator", "Host" )))
+			var/t = null
+			var/x = null
+			x = input("Name of the report.:","Name of the report", null, null)  as text
+			t = input("Message to send.", "Message to send.", null, null)  as message
+			if(t)
+				world << "<FONT size = 3><B>Cent. Com. Update</B>:[x]</FONT><HR><br>"
+				world << "[t]"
+				world << "Message ends."
+
+			for (var/obj/machinery/computer/communications/C in machines)
+				if(! (C.stat & (BROKEN|NOPOWER) ) )
+					var/obj/item/weapon/paper/P = new /obj/item/weapon/paper( C.loc )
+					P.name = "paper- 'Cent.Com. Report [x].'"
+					P.info = t
+					C.messagetitle.Add("Cent. Com.Report")
+					C.messagetext.Add(P.info)
+					return
 
 	if (href_list["dna"])
 		if ((src.rank in list( "Administrator", "Super Moderator", "Primary Administrator", "Super Administrator", "Host" )))
@@ -390,6 +409,8 @@
 					master_mode = "malfunction"
 				if("centcom")
 					master_mode = "centcom"
+				if("zombie")
+					master_mode = "zombie"
 				else
 			world.log_admin("[usr.key] set the mode as [master_mode].")
 			messageadmins("\blue[usr.key] set the mode as [master_mode].")
@@ -448,6 +469,7 @@
 					dat += text("<A HREF='?src=\ref[];zombie_unzombie=\ref[]'>De-zombify</A>", src, M)
 				else
 					dat += "Not zombie. <br>"
+					dat += text("<A HREF='?src=\ref[];zombie_infect=\ref[]'>Infect</A><br>", src, M)
 					dat += text("<A HREF='?src=\ref[];zombie_zombie=\ref[]'>Zombify</A>", src, M)
 				usr << browse(dat, "window=zombie;size=300x200")
 
@@ -464,6 +486,7 @@
 						dat += text("<A HREF='?src=\ref[];zombie_unzombie=\ref[]'>De-zombify</A>", src, M)
 					else
 						dat += "Not zombie. <br>"
+						dat += text("<A HREF='?src=\ref[];zombie_infect=\ref[]'>Infect</A><br>", src, M)
 						dat += text("<A HREF='?src=\ref[];zombie_zombie=\ref[]'>Zombify</A>", src, M)
 					usr << browse(dat, "window=zombie;size=300x200")
 
@@ -480,8 +503,25 @@
 						dat += text("<A HREF='?src=\ref[];zombie_unzombie=\ref[]'>De-zombify</A>", src, M)
 					else
 						dat += "Not zombie. <br>"
+						dat += text("<A HREF='?src=\ref[];zombie_infect=\ref[]'>Infect</A><br>", src, M)
 						dat += text("<A HREF='?src=\ref[];zombie_zombie=\ref[]'>Zombify</A>", src, M)
 					usr << browse(dat, "window=zombie;size=300x200")
+	if (href_list["zombie_infect"])
+		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
+			var/mob/M = locate(href_list["zombie_infect"])
+			if(!ismob(M))	return
+			if(istype(M, /mob/human) || istype(M, /mob/monkey))
+				if(!M.zombie)
+					M.admin_infect()
+					usr << "[M.rname] was infected"
+					var/dat = "Zombie settings:<br><br>"
+					if(M.zombie)
+						dat += "Is zombie. <br>"
+						dat += text("<A HREF='?src=\ref[];zombie_unzombie=\ref[]'>De-zombify</A>", src, M)
+					else
+						dat += "Not zombie. <br>"
+						dat += text("<A HREF='?src=\ref[];zombie_infect=\ref[]'>Infect</A><br>", src, M)
+						dat += text("<A HREF='?src=\ref[];zombie_zombie=\ref[]'>Zombify</A>", src, M)
 
 
 	if (href_list["traitorize"])
@@ -774,6 +814,7 @@
 <A href='?src=\ref[src];secrets2=clear_bombs'>Remove all bombs currently  existence</A><BR>
 <A href='?src=\ref[src];secrets2=list_bombers'>Show a list of all people who made a bomb</A><BR>
 <A href='?src=\ref[src];secrets2=check_antagonist'>Show the key of the traitor</A><BR>
+<A href='?src=\ref[src];secrets2=check_antagonist_goal'>Show the goal of the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=list_signalers'>Show last [length(lastsignalers)] signalers</A><BR>
 <A href='?src=\ref[src];secrets2=showailaws'>Show AI Laws</A><BR>
 <A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
@@ -871,11 +912,16 @@
 							alert("There is no traitor.", null, null, null, null, null)
 					else
 						alert("The game has not started yet.", null, null, null, null, null)
-				/*if("check_zombie")
+				if("check_antagonist_goal")
+					if (ticker)
+						if (ticker.killer)
+							if (ticker.objective)
+								alert(text("The traitor objective is []", goal_killer), null, null, null, null, null)
+				if("check_zombie")
 					if(ticker.mode.name == "Zombie Outbreak")
-						var/zomb = ticker.mode.get_zombies_list()
-						var/human = ticker.mode.get_human_list()
-						alert(text("Human's Left = [] Zombie's left = []",zomb.len,human.len ), null, null, null, null, null)*/
+						alert(text("Zombie's Left = [] Humans's left = []",zombies_left_lol.len,humans_left_lol.len ), null, null, null, null, null)
+					else
+						alert(text("NOT ZOMBIE MODE YO"))
 				if("monkey")
 					for(var/mob/human/H in world)
 						spawn(0)
@@ -1181,6 +1227,8 @@
 
 			dat += "<A href='?src=\ref[src];g_send=1'>Send Global Message</A><br>"
 			dat += "<A href='?src=\ref[src];p_send=1'>Send Private Message</A><br>"
+			dat += "<A HREF='?src=\ref[src];centcom_report=\ref[src]'>Send a CentCom Report</A><br>"
+			// head watch this
 
 
 		else

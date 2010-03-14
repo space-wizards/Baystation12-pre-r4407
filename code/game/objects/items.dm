@@ -3035,6 +3035,16 @@
 	return
 
 /obj/item/weapon/healthanalyzer/attack(mob/M as mob, mob/user as mob)
+	if (!(istype(usr, /mob/human) || ticker) && ticker.mode.name != "monkey")
+		usr << "\red You don't have the dexterity to do this!"
+		return
+	if(M.zombie == 1)
+		user.show_message(text("\blue Analyzing Results for []:\n\t Overall Status: \red Dead", M,), 1)
+		user.show_message(text("\blue \t Damage Specifics: []-[]-[]-[]", M.oxyloss, M.toxloss, M.fireloss, M.bruteloss), 1)
+		user.show_message("\blue Key: Suffocation/Toxin/Burns/Brute", 1)
+		user.show_message("\blue Body Temperature:Body Temperature: 0°C (0°F)", 1)
+		user.show_message("\red Contains traces of a unknown infectious agent")
+		return
 	if (usr.clumsy && prob(50))
 		usr << text("\red You try to analyze the floor's vitals!")
 		for(var/mob/O in viewers(M, null))
@@ -3043,9 +3053,6 @@
 		user.show_message(text("\blue \t Damage Specifics: []-[]-[]-[]", 0, 0, 0, 0), 1)
 		user.show_message("\blue Key: Suffocation/Toxin/Burns/Brute", 1)
 		user.show_message("\blue Body Temperature: ???", 1)
-		return
-	if (!(istype(usr, /mob/human) || ticker) && ticker.mode.name != "monkey")
-		usr << "\red You don't have the dexterity to do this!"
 		return
 	for(var/mob/O in viewers(M, null))
 		O.show_message(text("\red [] has analyzed []'s vitals!", user, M), 1)
@@ -3056,6 +3063,8 @@
 	user.show_message("\blue Body Temperature: [M.bodytemperature-T0C]&deg;C ([M.bodytemperature*1.8-459.67]&deg;F)", 1)
 	if (M.rejuv)
 		user.show_message(text("\blue Bloodstream Analysis located [] units of rejuvenation chemicals.", M.rejuv), 1)
+	if(M.becoming_zombie == 1)
+		user.show_message("\red Contains traces of a unknown infectious agent")
 	src.add_fingerprint(user)
 	if (M.stat > 1)
 		user.unlock_medal("He's Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
@@ -5937,6 +5946,8 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			I.Blend(new /icon(src.icon, src.icon_state),ICON_UNDERLAY)
 			src.icon = I
 			src.blood = M.primarynew.uni_identity
+			if(M.zombie == 1)
+				src.zombieblood = 1
 		else if (istype(src, /turf/station))
 			var/turf/station/source2 = src
 			var/list/objsonturf = range(0,src)
@@ -5947,6 +5958,9 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			var/obj/bloodtemplate/this = new /obj/bloodtemplate( source2 )
 			this.hulk = M.ishulk
 			this.blood = M.primarynew.uni_identity
+			if(M.zombie == 1)
+				this.zombieblood = 1
+			//headsweisbajs
 
 			//old stuff
 			//source2.icon_old = src.icon

@@ -93,7 +93,7 @@
 			randmutb(src)
 			src << "\red High levels of Radiation cause you to spontaneously mutate."
 			domutcheck(src,null)
-		if(istype(T, /turf) && T.radiation)
+	/*	if(istype(T, /turf) && T.radiation)
 			if(has_air_contact())
 				if(prob(50))
 					if(radiation < 100)
@@ -119,7 +119,7 @@
 					src.updatehealth()
 				else
 					src.radiation = 0
-
+*/
 /////////////////////////////////
 		if (!src.m_flag)
 			src.moved_recently = 0
