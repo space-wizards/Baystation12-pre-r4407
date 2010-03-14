@@ -818,7 +818,9 @@
 <A href='?src=\ref[src];secrets2=list_signalers'>Show last [length(lastsignalers)] signalers</A><BR>
 <A href='?src=\ref[src];secrets2=showailaws'>Show AI Laws</A><BR>
 <A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
-<A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>"}
+<A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
+<A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
+<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
 			usr << browse(dat, "window=secretsadmin")
 
 	if (href_list["secretsfun"])
@@ -927,6 +929,11 @@
 						spawn(0)
 							H.monkeyize()
 					ok = 1
+
+				if("check_logs")
+					usr << ftp(log_file,"Logs")
+				if("check_logsV")
+					usr << ftp(log_file_verbose,"Verbose Logs")
 				if("power")
 					for(var/obj/item/weapon/cell/C in world)
 						C.charge = C.maxcharge

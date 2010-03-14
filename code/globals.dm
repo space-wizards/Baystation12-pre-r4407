@@ -21,7 +21,8 @@ var
 
 	persistent_file = "data/mode.txt"
 	medals_file = "data/medals.txt"
-
+	log_file = "log.txt"
+	log_file_verbose = "logV.txt"
 	nuke_code = null
 	poll_controller = null
 	datum/engine_eject/engine_eject_control = null
