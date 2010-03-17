@@ -13,4 +13,4 @@ trorbes - Super Administrator
 googolplexed - Super Administrator
 headswe - Super Administrator
 quinnr - Super Administrator
-Aavak - Super Administrator
+aavak - Super Administrator

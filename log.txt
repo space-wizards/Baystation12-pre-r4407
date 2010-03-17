@@ -411,3 +411,56 @@ ACCESS: Logout: BlakeKoris
 ACCESS: Logout: Ridley4
 ACCESS: Logout: TheGrifter
 ACCESS: Logout: Thror Oakenshield
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+GAME: starting game of traitor
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+GAME: starting game of traitor
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+GAME: starting game of traitor
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+GAME: Rebooting because of no live players
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!

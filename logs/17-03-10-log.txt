@@ -1,0 +1,2718 @@
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Segellion from 24.179.87.49
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Login: Cecilff2 from 4.254.216.108
+GAME: Segellion entered as Dorf Bronzebones
+ACCESS: Login: Quarian from 75.38.146.127
+ACCESS: Login: Kenruler from 71.169.53.189
+GAME: Cacophony entered as Jacob Martins
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Garf751 from 69.105.238.174
+ACCESS: Login: Orb370 from 4.229.192.46
+OOC: Jacob Martins/Cacophony : Let&#39;s try that again.  
+ACCESS: Login: Heavystorm from 62.63.216.185
+OOC: Justin Tyme/Justin Tyme : yes. please
+OOC: Jacob Martins/Cacophony : Assuming I don&#39;t lag out.
+GAME: Cecilff2 entered as Cerberius Grey
+OOC: Justin Tyme/Justin Tyme : I finally figure out how to be the wizard and the damn game lags out
+GAME: Kenruler entered as Roger Geas
+OOC: Justin Tyme/Justin Tyme : then when I reconnect I am captured
+OOC: Roger Geas/Kenruler : If you hadn&#39;t, uh, killed the guy
+GAME: Garf751 entered as Urist Wooddriven
+OOC: Roger Geas/Kenruler : I would&#39;ve pardoned you
+GAME: Gammon15 entered as Klaus Ausburg
+GAME: Orb370 entered as Cog Swordwall
+OOC: Cerberius Grey/Cecilff2 : Yeah this is really non conducive to playing.
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Heavystorm
+SAY: Urist Wooddriven/Garf751 :  *fapfapfap*
+OOC: Cerberius Grey/Cecilff2 : Round trip ping-pong took 11 seconds.
+OOC: Justin Tyme/Justin Tyme : did I kill him too hard or something
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Heavystorm from 62.63.216.185
+GAME: Heavystorm entered as Nikolaj Zaitsev
+OOC: Roger Geas/Kenruler : No, murder just gives us a reason to arrest you
+OOC: Jacob Martins/Cacophony : Don&#39;t suppose we can do anything about the lag?
+GAME: Justin Tyme entered as Justin Tyme
+OOC: Cog Swordwall/Orb370 : You killed him, period...
+SAY: Urist Wooddriven/Garf751 : *fart
+OOC: Cog Swordwall/Orb370 : Lag is gone, for now.
+OOC: Klaus Ausburg/Gammon15 : A lot of servers are having lag issues for some reason.
+SAY: Urist Wooddriven/Garf751 : *help
+OOC: Roger Geas/Kenruler : Don&#39;t really care if you&#39;re wearing a big blue suit, could RP it as a blue jumpsuit
+OOC: Cerberius Grey/Cecilff2 : It&#39;s up to head
+ACCESS: Login: Micro102 from 24.184.14.119
+OOC: Justin Tyme/Justin Tyme : no, I mean did I crash because I hit him with 3 meteors or something
+SAY: Urist Wooddriven/Garf751 : *moan
+VOTE: Voting to change mode started by Cog Swordwall/Orb370
+SAY: Urist Wooddriven/Garf751 :  *fapfapfap*
+ADMIN: Cecilff2 delayed the game.
+SAY: Cerberius Grey/Cecilff2 : Cut it out
+OOC: Justin Tyme/Justin Tyme : speaking of meteor
+ACCESS: Login: Mr.Peanuts from 67.40.120.157
+OOC: Justin Tyme/Justin Tyme : let&#39;s play that
+GAME: Quarian entered as Veetor Norayya
+GAME: Micro102 entered as Micro McGinley
+OOC: Cerberius Grey/Cecilff2 : Same thing as last time, extended for secret
+SAY: Urist Wooddriven/Garf751 : arg
+OOC: Cog Swordwall/Orb370 : &#34;Speaking of meteor&#34; since when?
+OOC: Justin Tyme/Justin Tyme : let&#39;s try to get everyone out alive or dead
+SAY: Urist Wooddriven/Garf751 : kill joy
+OOC: Roger Geas/Kenruler : That won&#39;t happen
+OOC: Micro McGinley/Micro102 : DONT LET THEM HAVE  METEOR!
+GAME: Mr.Peanuts entered as Urist Mcnewversionisnotou
+OOC: Justin Tyme/Justin Tyme : since you should read the chat
+OOC: Roger Geas/Kenruler : everyone just mad dashes for EVA
+VOTE: Voting closed, result was extended
+OOC: Justin Tyme/Justin Tyme : scroll up, I crashed after killing the guy with fireball spells
+ADMIN: Cecilff2 set the mode as secret.
+OOC: Justin Tyme/Justin Tyme : why you bein such a jerk
+ADMIN: Cecilff2 removed the delay.
+ADMIN: Mode voting toggled to Off by Cecilff2.
+GAME: starting game of revolution
+ACCESS: Logout: 
+ACCESS: Login: Cecilff2 from 4.254.216.108
+OOC: Urist Wooddriven/Garf751 : i wish there could be rev and trator in the same round
+SAY: GREY/Cecilff2 : GREY online.
+OOC: Justin Tyme/Justin Tyme : blob and meteor
+OOC: GREY/Cecilff2 : I can do that.
+OOC: GREY/Cecilff2 : Also Justin that last one can legitimately happen
+OOC: Justin Tyme/Justin Tyme : really? how
+OOC: GREY/Cecilff2 : blob is a random event sometimes
+OOC: Justin Tyme/Justin Tyme : lol
+OOC: Micro McGinley/Micro102 : How do you make smoke bombs and fire bombs? I make the chemicals but it just ignites itself and doesn&#39;t turn into a grenade.
+SAY: Dorf Bronzebones/Segellion : hey
+SAY: Klaus Ausburg/Gammon15 : Looks like you have this handled.
+SAY: Dorf Bronzebones/Segellion : sure do
+SAY: Jacob Martins/Cacophony : Roger.
+ACCESS: Login: Gaara of the cats from 68.186.23.101
+SAY: Roger Geas/Kenruler : Hm?
+SAY: Dorf Bronzebones/Segellion : turn on the circulators please
+SAY: Jacob Martins/Cacophony : Think you&#39;ll need that?
+OOC: GREY/Cecilff2 : Probably doing something wrong.  They shouldn&#39;t ignite immediately.
+SAY: Roger Geas/Kenruler : Possibly.
+SAY: Jacob Martins/Cacophony : Isn&#39;t that bad in the station.
+GAME: Gaara of the cats entered as Matt Shootist
+SAY: Klaus Ausburg/Gammon15 : (hold on, brb)
+SAY: Roger Geas/Kenruler : Not yet, you mean.
+SAY: Jacob Martins/Cacophony : ..I guess.
+SAY: Roger Geas/Kenruler : Hopefully I just have to look at bodies all day.
+SAY: Veetor Norayya/Quarian : Hello
+OOC: Justin Tyme/Justin Tyme : hello again mr lag
+SAY: Jacob Martins/Cacophony : Ehh..
+OOC: GREY/Cecilff2 : It loves us
+SAY: Jacob Martins/Cacophony : Security reporting in.
+SAY: Roger Geas/Kenruler : ;Forensics, Roger Geas, reporting in.
+SAY: Jacob Martins/Cacophony : Damnit.
+SAY: Nikolaj Zaitsev/Heavystorm : ; o.k if anyone need a doctor just call me
+SAY: Jacob Martins/Cacophony : Security reporting in.  
+SAY: Cog Swordwall/Orb370 : Er...what?
+SAY: Urist Wooddriven/Garf751 : hey
+SAY: Nikolaj Zaitsev/Heavystorm : ; genetics reporting in
+SAY: Justin Tyme/Justin Tyme : ;this is fireman Tyme, reporting
+SAY: Urist Wooddriven/Garf751 : no sleeping on the job
+SAY: Cog Swordwall/Orb370 : Yah?
+SAY: Cog Swordwall/Orb370 : There is no jo- Fine..
+SAY: Urist Wooddriven/Garf751 : and lock your locken when you exit
+SAY: Cog Swordwall/Orb370 : Theres nothing important in there.
+SAY: Nikolaj Zaitsev/Heavystorm : ; any engineer that want to wire this advanced medical scanner for me?
+SAY: Urist Wooddriven/Garf751 : ;do it
+SAY: Roger Geas/Kenruler : Yes?
+SAY: Cog Swordwall/Orb370 : ; Advanced?
+SAY: Micro McGinley/Micro102 : Here&#39;s some sugar
+SAY: Roger Geas/Kenruler : Uh..?
+SAY: Nikolaj Zaitsev/Heavystorm : ; yes it needs to be wired up to this monitor
+SAY: Nikolaj Zaitsev/Heavystorm : ; i mean console
+ADMIN: Cecilff2 used secret check_logsV
+ADMIN: Cecilff2 used secret check_logs
+SAY: Nikolaj Zaitsev/Heavystorm : ; i would be good so i can help people here in the medical bay
+SAY: Cog Swordwall/Orb370 : ; Does it require wire?
+SAY: Roger Geas/Kenruler : Err.?
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; Crew it is that time of year again
+SAY: Nikolaj Zaitsev/Heavystorm : ; probly i don&#39;t know because im not an engineer
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; URIST&#39;S CRAZY BAR PARTY
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; FREE BEER FOR ALL!
+SAY: Nikolaj Zaitsev/Heavystorm : ; uh... again?
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; SECURITY CREW GET AN EXTENDED LIMIT
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; Drinking limit is 4 beers
+SAY: Cog Swordwall/Orb370 : ; Whats with all the parties lately?
+SAY: Nikolaj Zaitsev/Heavystorm : ; did we noot have it last week
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : security crew get 6
+SAY: Urist Wooddriven/Garf751 : ;ai bolt my door
+SAY: Roger Geas/Kenruler : HEY THERE.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Hello buddy
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Have a beer
+SAY: Urist Wooddriven/Garf751 : ;GODAMMIT AI BOLT MY FUCKING DOOR NOW!!!
+SAY: Nikolaj Zaitsev/Heavystorm : ; maybe all this alchohole has gone to his head...
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; beer does not affect my thinking
+SAY: Cog Swordwall/Orb370 : ; AI, locate Urist wooddriven.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; My beard regulates the alchahole levels
+SAY: Nikolaj Zaitsev/Heavystorm : ; &#34;sign&#34;
+SAY: GREY/Cecilff2 : Urist Wooddriven is on the bridge
+SAY: Roger Geas/Kenruler : ;Swordwall, he&#39;s the Captain.
+SAY: Urist Wooddriven/Garf751 : ;ok thankyou ai
+SAY: Cog Swordwall/Orb370 : ; Why would he want to be bolted in the bridge?
+SAY: Cog Swordwall/Orb370 : Now whats with this wiring?
+SAY: Dorf Bronzebones/Segellion : here it goes
+ADMIN: Cecilff2 used secret check_antagonist
+SAY: Roger Geas/Kenruler : ;He&#39;s the Captain, as long as he isn&#39;t disturbing anyone, does it matter?
+ADMIN: Cecilff2 used secret check_antagonist_goal
+SAY: Micro McGinley/Micro102 : ?
+SAY: Nikolaj Zaitsev/Heavystorm : ; what roger said
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Hello urist
+SAY: GREY/Cecilff2 : ;He is not bolted into the bridge
+SAY: GREY/Cecilff2 : He is currently in the bar.
+ADMIN: Cecilff2 used secret check_antagonist_goal
+SAY: Cog Swordwall/Orb370 : ; Oh, well nevermind then.
+SAY: Klaus Ausburg/Gammon15 : ;Due to Dorf Bronzebone&#39;s work, the engines are now online.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Someone
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : has a short beard!
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : I got some special non-alchoholic beer for you urist
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : you want it?
+SAY: Dorf Bronzebones/Segellion : Engine lit. Power output optimum
+ADMIN: Cecilff2 used secret check_antagonist_goal
+SAY: Nikolaj Zaitsev/Heavystorm : ; so i wanted to have a party but at the same time wanted to bolt the door to him?
+ADMIN: Cecilff2 used secret showgm
+SAY: Urist Wooddriven/Garf751 : ok
+SAY: Klaus Ausburg/Gammon15 : Looks like she&#39;s holding. Fine work, Mr. Bronzebones.
+SAY: GREY/Cecilff2 : He bolted doors on the bridge.  Not in the bar
+SAY: Urist Wooddriven/Garf751 : ack wtf
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Is he having a alchohol overdose?
+SAY: Nikolaj Zaitsev/Heavystorm : ; oooh...
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Or just sleeping it off?
+SAY: Roger Geas/Kenruler : ;Captain seems to have gotten drunk.
+SAY: Roger Geas/Kenruler : ;Requesting doctors to the bar.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : WE GOTTA HELP HIM
+OOC: Micro McGinley/Micro102 : Omg the lag
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; HELP CAPTAIN IS HAVING A ALHOHOLE OVERDOSE
+SAY: Nikolaj Zaitsev/Heavystorm : ; well you now the drill when he stops breathing just call me
+SAY: Roger Geas/Kenruler : You&#39;re a doctor, fix him!
+SAY: GREY/Cecilff2 : Warning, no atmospheric technician present.
+SAY: Veetor Norayya/Quarian : (ROFL)
+OOC: Justin Tyme/Justin Tyme : okay
+MATTACK: Roger Geas(Kenruler) clicked on Urist Mcnewversionisnotou(Mr.Peanuts) with intent on harm
+MATTACK: Roger Geas(Kenruler) clicked on Urist Mcnewversionisnotou(Mr.Peanuts) with intent on harm
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : I was the traitor
+MATTACK: Roger Geas(Kenruler) clicked on Urist Mcnewversionisnotou(Mr.Peanuts) with intent on harm
+MATTACK: Roger Geas(Kenruler) clicked on Urist Mcnewversionisnotou(Mr.Peanuts) with intent on harm
+OOC: Justin Tyme/Justin Tyme : meteor time?
+OOC: Urist Wooddriven/Garf751 : rofl
+SAY: Nikolaj Zaitsev/Heavystorm : ; sayyy whaaat
+MATTACK: Roger Geas(Kenruler) clicked on Veetor Norayya(Quarian) with intent on harm
+OOC: Matt Shootist/Gaara of the cats : how do you broadcast
+OOC: GREY/Cecilff2 : You mean revolutionist
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : I put orange pills in the beer
+GAME: Rebooting due to end of game
+ACCESS: Logout: Garf751
+ACCESS: Logout: Justin Tyme
+ACCESS: Logout: Mr.Peanuts
+ACCESS: Logout: Gammon15
+ACCESS: Logout: Quarian
+ACCESS: Logout: Orb370
+ACCESS: Logout: Segellion
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Kenruler
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Heavystorm
+ACCESS: Logout: Micro102
+ACCESS: Logout: Gaara of the cats
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Mr.Peanuts from 67.40.120.157
+ACCESS: Login: Cecilff2 from 4.254.216.108
+ACCESS: Login: Sahl from 96.235.85.252
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Heavystorm from 62.63.216.185
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Login: Garf751 from 69.105.238.174
+GAME: Mr.Peanuts entered as Urist Mcnewversionisnotou
+ACCESS: Login: Gaara of the cats from 68.186.23.101
+ACCESS: Logout: Heavystorm
+ACCESS: Login: Cacophony from 71.136.51.144
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : I thought that was pretty clever
+ACCESS: Login: Kenruler from 71.169.53.189
+ACCESS: Login: Heavystorm from 62.63.216.185
+GAME: Cecilff2 entered as Cerberius Grey
+GAME: Heavystorm entered as Nikolaj Zaitsev
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : I figured if the beer didn&#39;t work I had some sleepy pen and freedom implant
+GAME: Gammon15 entered as Klaus Ausburg
+OOC: Jon Garf/Garf751 : arg ye got me
+OOC: Cerberius Grey/Cecilff2 : Heh
+GAME: Kenruler entered as Roger Geas
+ACCESS: Login: Orb370 from 4.229.192.46
+ACCESS: Login: Quarian from 75.38.146.127
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : URISTS CRAZY BEER PARTY!
+GAME: Cacophony entered as Jacob Martins
+ADMIN: Cecilff2 delayed the game.
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : You never know what will happen
+OOC: Roger Geas/Kenruler : That was tres intelligent
+VOTE: Voting to change mode started by Matt Shootist/Gaara of the cats
+GAME: Garf751 entered as Cog Spearzombie
+OOC: Cog Swordwall/Orb370 : Um..
+OOC: Cerberius Grey/Cecilff2 : Vote extended for secret mode
+OOC: Roger Geas/Kenruler : I was about to test it out first
+OOC: Cog Swordwall/Orb370 : I was HoS, I wasnt killed.
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : Better than cloaker greif.
+OOC: Cog Spearzombie/Garf751 : how about all mode mode?
+GAME: Orb370 entered as Cog Swordwall
+OOC: Cog Swordwall/Orb370 : Strange.
+OOC: Cerberius Grey/Cecilff2 : The only heads counted are Captain, HoP and HoR
+OOC: Urist Mcnewversionisnotou/Mr.Peanuts : I vote meteor
+OOC: Roger Geas/Kenruler : Only the HoM or HoR, HoP and Captain need to be dead
+OOC: Cerberius Grey/Cecilff2 : That list should really be updated
+ACCESS: Login: Micro102 from 24.184.14.119
+OOC: Cog Swordwall/Orb370 : Thats silly.
+GAME: Justin Tyme entered as Benito Hirohitler
+OOC: Roger Geas/Kenruler : And if there&#39;s no HoR or HoP, much easier to win.
+OOC: Cerberius Grey/Cecilff2 : HoS and HoM aren&#39;t counted as of yet
+VOTE: Voting closed, result was extended
+ADMIN: Voting to change mode forced by admin Cecilff2
+OOC: Benito Hirohitler/Justin Tyme : vote meteeeeor
+OOC: Cerberius Grey/Cecilff2 : ACk
+ADMIN: Voting aborted by Cecilff2
+ADMIN: Cecilff2 set the mode as secret.
+ADMIN: Mode voting toggled to Off by Cecilff2.
+ADMIN: Cecilff2 removed the delay.
+ACCESS: Login: Segellion from 24.179.87.49
+GAME: Micro102 entered as Micro McGinley
+OOC: Cog Spearzombie/Garf751 : cough
+OOC: Micro McGinley/Micro102 : Is zombie included in secret?
+SAY: Roger Geas/Kenruler : Congo line!
+OOC: Cerberius Grey/Cecilff2 : *sneeze
+OOC: Cerberius Grey/Cecilff2 : I&#39;m not sure
+GAME: Segellion entered as Dorf Bronzebones
+GAME: Quarian entered as Lia'Vael Norayya
+OOC: Cerberius Grey/Cecilff2 : It has to be added to Secret&#39;s pick list to be possible.
+SAY: Dorf Bronzebones/Segellion : hey buddy
+OOC: Cerberius Grey/Cecilff2 : You&#39;d have to check the source to know
+SAY: Roger Geas/Kenruler : Hello Dorf!
+SAY: Cog Spearzombie/Garf751 : everyone pull the person behind you!
+SAY: Dorf Bronzebones/Segellion : whatsup?
+SAY: Roger Geas/Kenruler : *nod
+SAY: Cerberius Grey/Cecilff2 : *deathgasp
+SAY: Roger Geas/Kenruler : *collapse
+SAY: Cerberius Grey/Cecilff2 : *drool
+SAY: Roger Geas/Kenruler : *help
+GAME: starting game of meteor
+ACCESS: Logout: 
+ACCESS: Login: Cecilff2 from 4.254.216.108
+SAY: Roger Geas/Kenruler : *signal-#1
+OOC: Jacob Martins/Cacophony : Oh god.
+OOC: Jacob Martins/Cacophony : I don&#39;t even know how to use a welder.  
+SAY: GREY/Cecilff2 : ;GREY online.
+OOC: Cog Spearzombie/Garf751 : laggg
+SAY: Dorf Bronzebones/Segellion : hey urist
+OOC: Nikolaj Zaitsev/Heavystorm : wait what!
+OOC: Jacob Martins/Cacophony : Why do I keep getting random jobs?
+OOC: Cog Swordwall/Orb370 : Welder &gt; Put in hand, click it.
+SAY: GREY/Cecilff2 : Multiple hull breaches detected
+OOC: Nikolaj Zaitsev/Heavystorm : i did not even have captain on the list weird...
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Could I please have some murcery
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : and sugar
+SAY: Micro McGinley/Micro102 : ;METEORS!
+OOC: Cog Swordwall/Orb370 : Click on stuff like lockers and doors to weld it.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : I plan to do monkey related tests
+OOC: GREY/Cecilff2 : The game always forces captainship on someone
+SAY: Nikolaj Zaitsev/Heavystorm : ; o.k crew what the fuck just happened!
+SAY: Roger Geas/Kenruler : ;Oh.
+SAY: Roger Geas/Kenruler : ;Shit.
+OOC: GREY/Cecilff2 : If no one picks it
+OOC: Micro McGinley/Micro102 : As if we didn&#39;t have enough lag
+OOC: Cog Swordwall/Orb370 : Wooo...laggy meteors
+SAY: Nikolaj Zaitsev/Heavystorm : ; give me a status report NOW!
+SAY: Jacob Martins/Cacophony : Uhh...  Shouldn&#39;t we be calling the shuttle?
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : I don&#39;t need a beaker
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : Thanks though
+SAY: Benito Hirohitler/Justin Tyme : ;all hands, this is the head of security. don internals NOW
+OOC: Cog Swordwall/Orb370 : Dumb meteors..
+SAY: Roger Geas/Kenruler : ;Atmos alarms in nearly all of the maint tunnels.
+OOC: Cog Swordwall/Orb370 : Yah, im am SO dead.
+OOC: Micro McGinley/Micro102 : Sry can&#39;t play like this I&#39;m leaving.
+SAY: Jacob Martins/Cacophony : Call the shuttle!
+GAME: Gaara of the cats entered as Matt Shootist
+SAY: Benito Hirohitler/Justin Tyme : ;all crew, don masks!
+SAY: Roger Geas/Kenruler : ;MY LEG!
+SAY: Roger Geas/Kenruler : SHIT
+OOC: Micro McGinley/Micro102 : Sry I can&#39;t play like this I&#39;m leaving.
+OOC: Matt Shootist/Gaara of the cats : how do you broadcast
+ACCESS: Logout: Micro102
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : the hell?
+SAY: Benito Hirohitler/Justin Tyme : ;THIS IS BRIDGE, WE HAVE A BREACH
+SAY: Roger Geas/Kenruler : ;We need a crowbar by plasma..
+SAY: Klaus Ausburg/Gammon15 : ;This is HoM - What the HELL are we going to do?
+SAY: Benito Hirohitler/Justin Tyme : ;AI, any incapacitated crewmen?
+OOC: Roger Geas/Kenruler : ; in front of your messages
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; breache monkey pen
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; genetic research
+SAY: Nikolaj Zaitsev/Heavystorm : ; this is the captain speaking, looks like we have been hit by a meator storm... again... anyway you know the drill mask&#39;s on and &#34;static&#34;
+SAY: Jacob Martins/Cacophony : Get off this deathtrap?
+OOC: Cog Swordwall/Orb370 : Cat, &#34;say &#34;;&#34;
+SAY: Nikolaj Zaitsev/Heavystorm : ; holy crap!
+OOC: Cog Spearzombie/Garf751 : im am soooooo smart
+OOC: Cog Swordwall/Orb370 : or more like this &#34;say &#34;; Blablablba&#34;
+SAY: Benito Hirohitler/Justin Tyme : ;AI, Crew report. Any fatalities?
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; I have to finish researcj
+SAY: Roger Geas/Kenruler : ;HOLY SHET!
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; I cannot leave this monkey
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; Ok, finalizing
+SAY: Nikolaj Zaitsev/Heavystorm : ; o.k that was close
+OOC: Cog Swordwall/Orb370 : Garf is sooooo smart/
+SAY: GREY/Cecilff2 : Warning severe system lag.  Unable to process commands immediately.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; I am sorry monkey 5334
+ACCESS: Logout: Segellion
+OOC: Cog Spearzombie/Garf751 : thankies
+SAY: Benito Hirohitler/Justin Tyme : ;is everyone alright? anyone down?
+OOC: Cog Swordwall/Orb370 : /sarcasm.
+SAY: Benito Hirohitler/Justin Tyme : ;anyone need help?
+SAY: Jacob Martins/Cacophony : Oh my god!
+SAY: Klaus Ausburg/Gammon15 : ;I&#39;m up. I&#39;m collecting supplies at the moment.
+OOC: Cog Swordwall/Orb370 : Maybe. =/
+SAY: GREY/Cecilff2 : Micro McGinley appears to be dead in plasma research
+SAY: Nikolaj Zaitsev/Heavystorm : ; anyway like i said everyone masks on and get everyone to the shuttle leave no one behind
+OOC: Cog Spearzombie/Garf751 : /doesnotcarebecauseistoosmrttoobeinsultedsohah
+SAY: Klaus Ausburg/Gammon15 : You there, grab some supplies as well.
+SAY: Jacob Martins/Cacophony : What the hell?!
+OOC: Cog Swordwall/Orb370 : Huh? 
+SAY: Jacob Martins/Cacophony : I&#39;m masked-
+SAY: GREY/Cecilff2 : All crew are recommended to acquire internals
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; HELP locked in hallway between med research and everything elss
+SAY: Jacob Martins/Cacophony : We need to get out of here!
+OOC: Matt Shootist/Gaara of the cats : i cant fucking move
+OOC: Cog Swordwall/Orb370 : Youknowyoudownhavetotalklikethisandstuffs
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; I cannot fint internals
+SAY: Klaus Ausburg/Gammon15 : We have ugh.. A crises on our hands. Meteors.
+ACCESS: Login: Segellion from 24.179.87.49
+SAY: Benito Hirohitler/Justin Tyme : ;we need to get micro out of plasma asap!
+SAY: GREY/Cecilff2 : Urist
+SAY: GREY/Cecilff2 : Head for enngineering
+SAY: GREY/Cecilff2 : Go south when you get in
+SAY: GREY/Cecilff2 : Towards atmospherics
+OOC: Dorf Bronzebones/Segellion : damn it lag
+SAY: Nikolaj Zaitsev/Heavystorm : ; AI open this door fast or i will be out in the stars sooon
+SAY: Cog Spearzombie/Garf751 : ;im hit!
+SAY: Benito Hirohitler/Justin Tyme : ;roger is down!
+OOC: GREY/Cecilff2 : I agree
+SAY: Cog Spearzombie/Garf751 : ;MEDIK!!!
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; fire
+OOC: Dorf Bronzebones/Segellion : this is pathetic
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; fire
+ACCESS: Logout: Segellion
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the gasmask
+SAY: GREY/Cecilff2 : Processing...
+OOC: Cog Swordwall/Orb370 : You are pathetic, the situation is pathetic, or we are pathetic?
+SAY: GREY/Cecilff2 : Which door would you like opened?
+SAY: Nikolaj Zaitsev/Heavystorm : need internals son?
+SAY: Roger Geas/Kenruler : Anyone else dead?
+SAY: Nikolaj Zaitsev/Heavystorm : we should try to get him to medical bay
+SAY: Benito Hirohitler/Justin Tyme : listen to me
+SAY: Benito Hirohitler/Justin Tyme : we have to get him to medical
+SAY: Jacob Martins/Cacophony : AI, remove the lockdown in the south halls, or we can&#39;t get to the shuttle!
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; some security guy
+SAY: Benito Hirohitler/Justin Tyme : and we need to get into plasma
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; he was hit
+SAY: Nikolaj Zaitsev/Heavystorm : well tought son
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; I am trying to save him
+SAY: Benito Hirohitler/Justin Tyme : micro is dead in plasma, we need to get the body
+SAY: Cog Spearzombie/Garf751 : ;everyone get to the shuttle halls and stay down!
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; we are trapped in matenence
+OOC: Matt Shootist/Gaara of the cats : how come i cant fucking move
+SAY: GREY/Cecilff2 : I will attempt to do so.  It is recommended that you procure crowbars in case of processing errors.
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; klaus ausburg
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : WE gotta get out of here
+OOC: Cog Swordwall/Orb370 : Your dead?
+SAY: Benito Hirohitler/Justin Tyme : wait
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; NOOOO KLAUS
+SAY: Urist Mcnewversionisnotou/Mr.Peanuts : ; he died
+SAY: Benito Hirohitler/Justin Tyme : we need to get micro&#39;s body out of plasma
+OOC: Matt Shootist/Gaara of the cats : how do i fucking broadcast
+OOC: GREY/Cecilff2 : ;
+OOC: Cog Swordwall/Orb370 : We ALREADY told you.
+SAY: Benito Hirohitler/Justin Tyme : take the tank!
+OOC: GREY/Cecilff2 : after the say verb use ;
+SAY: Matt Shootist/Gaara of the cats : ..
+SAY: Benito Hirohitler/Justin Tyme : TAKE HIS BODY TO THE SHUTTLE BAY
+SAY: Nikolaj Zaitsev/Heavystorm : ; everyone report in and if you need help
+OOC: Unknown/Justin Tyme : FUCKING LAG
+OOC: Unknown/Mr.Peanuts : Lag ran me indo fire
+SAY: Jacob Martins/Cacophony : I&#39;m by the escape shuttle room!
+SAY: Unknown/Kenruler : Rofl&#39;d
+OOC: Unknown/Mr.Peanuts : ; gay
+OOC: Unknown/Justin Tyme : REALLY COOL
+OOC: Unknown/Mr.Peanuts : ; it also ruined my research
+SAY: Jacob Martins/Cacophony : It&#39;s all falling apart!
+OOC: GREY/Cecilff2 : Lag prevented me from helping you guys out of there too...
+SAY: Unknown/Kenruler : Oh my god
+OOC: Cog Swordwall/Orb370 : That is AWESOME. Now be quiet. =/
+OOC: Unknown/Justin Tyme : this is bs, too laggy
+SAY: Unknown/Kenruler : meteors fucking win
+ACCESS: Logout: 
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Logout: 
+ACCESS: Login: Gammon15 from 66.188.7.125
+OOC: Cog Swordwall/Orb370 : &#34;I died, oh, I know, I will blame it on lag, then complain about lag...&#34;
+OOC: Unknown/Mr.Peanuts : I was going to save klaus, but damn that lag
+OOC: Nikolaj Zaitsev/Heavystorm : doh direct hit by meteor XD
+OOC: Cog Swordwall/Orb370 : XD
+OOC: Unknown/Gammon15 : :( Yeah, I got whooped. Lag is ughhh
+OOC: GREY/Cecilff2 : It&#39;s pretty legitimate when it&#39;s this bad
+OOC: Unknown/Justin Tyme : shut up orb, the game skipped while I was trying to run down the hall and there was a fire that I couldn&#39;t have seen
+SAY: Cog Spearzombie/Garf751 : ;gah i spc
+OOC: Nikolaj Zaitsev/Heavystorm : lawl well that is what i get for randomly walking around XD
+OOC: Unknown/Mr.Peanuts : orb stop being a dick, lag this bad is alright to piss about
+SAY: Matt Shootist/Gaara of the cats : ;you guys drink boners
+OOC: Cog Spearzombie/Garf751 : argh lag made me space myself
+OOC: Unknown/Mr.Peanuts : if it was maybe two spaces every few hours
+ACCESS: Logout: Sahl
+OOC: Unknown/Mr.Peanuts : I cant even ping the server
+OOC: Cog Swordwall/Orb370 : Its very irratating to hear people complain about lag, when everyone else is lagging too. 
+OOC: Cog Swordwall/Orb370 : We all know it lags, we all know it probably caused your death. Sheesh.
+OOC: Unknown/Justin Tyme : orb, it&#39;s called venting
+OOC: Cog Swordwall/Orb370 : Dont vent on the chat.
+OOC: Unknown/Justin Tyme : sorry orb but sometimes people get upset and need to vent
+OOC: Cog Swordwall/Orb370 : =/
+OOC: GREY/Cecilff2 : Ventrilo?  Don&#39;t use that in conjuction with SS13
+OOC: GREY/Cecilff2 : :D
+OOC: Matt Shootist/Gaara of the cats : is blob fun
+OOC: Unknown/Justin Tyme : I didn&#39;t know you were a spock robot
+OOC: Cog Swordwall/Orb370 : Depends on your definition of fun.
+OOC: Unknown/Justin Tyme : blob sounds fun, I have never tried it
+OOC: GREY/Cecilff2 : Blob just ends in the station getting nuked 100% of the time
+OOC: Matt Shootist/Gaara of the cats : does a blob eat people
+ACCESS: Logout: Kenruler
+OOC: Nikolaj Zaitsev/Heavystorm : jupp
+OOC: Cog Swordwall/Orb370 : Blob is somewhat mindless &#34;Kill blob&#34;, but any mode can be boring -or- fun.
+OOC: Unknown/Justin Tyme : I wanna try blob
+OOC: Unknown/Mr.Peanuts : ss13 is the only game I have to vent
+OOC: GREY/Cecilff2 : With this lag you wouldn&#39;t have any chance whatsoever
+ACCESS: Login: Kenruler from 71.169.53.189
+OOC: Unknown/Mr.Peanuts : Dwarf fortress is so funny that I never have to
+OOC: Cog Spearzombie/Garf751 : holy crap almost everyone is dead
+SAY: GREY/Cecilff2 : ;All crew please board the emergency shuttle
+ACCESS: Logout: Mr.Peanuts
+ACCESS: Logout: 
+ACCESS: Login: Heavystorm from 62.63.216.185
+ACCESS: Logout: 
+ACCESS: Login: Orb370 from 4.229.192.46
+OOC: Cog Spearzombie/Garf751 : ;matt is trapped
+OOC: Unknown/Justin Tyme : dwarf fortress doesn&#39;t lag, though
+OOC: Unknown/Gammon15 : Dwarf Fortress &lt;3
+SAY: Matt Shootist/Gaara of the cats : ;sending emergenct help sequence im trapped in the arrival check point
+OOC: Nikolaj Zaitsev/Heavystorm : holy crap
+SAY: GREY/Cecilff2 : Attempting to override
+OOC: Cog Swordwall/Orb370 : One person left, who spawned at the arrival shuttle.
+OOC: Unknown/Justin Tyme : matt is screwed
+OOC: Cog Swordwall/Orb370 : Matt is so screwed.
+OOC: Cog Spearzombie/Garf751 : admin meteor strike?
+OOC: Jacob Martins/Cacophony : The meteors totally owned us.
+OOC: GREY/Cecilff2 : Nope
+OOC: Matt Shootist/Gaara of the cats : i just died forget it
+OOC: GREY/Cecilff2 : It&#39;s meteor mode
+OOC: GREY/Cecilff2 : Meteors are evil
+SAY: GREY/Cecilff2 : I apologize to my former crew
+GAME: Rebooting due to end of game
+ACCESS: Logout: Garf751
+ACCESS: Logout: Justin Tyme
+ACCESS: Logout: Gammon15
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Heavystorm
+ACCESS: Logout: Kenruler
+ACCESS: Logout: Orb370
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Quarian
+ACCESS: Logout: Gaara of the cats
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Login: Garf751 from 69.105.238.174
+ACCESS: Login: Gaara of the cats from 68.186.23.101
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Quarian from 75.38.146.127
+ACCESS: Login: Orb370 from 4.229.192.46
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Heavystorm from 62.63.216.185
+ACCESS: Login: Cecilff2 from 4.254.216.108
+GAME: Cacophony entered as Jacob Martins
+GAME: Gammon15 entered as Klaus Ausburg
+GAME: Cecilff2 entered as Cerberius Grey
+GAME: Orb370 entered as Cog Swordwall
+GAME: Heavystorm entered as Nikolaj Zaitsev
+VOTE: Voting to change mode started by Cog Swordwall/Orb370
+GAME: Garf751 entered as Urist Bronzeurist
+GAME: Gaara of the cats entered as Matt Shootist
+ACCESS: Login: Kenruler from 71.169.53.189
+OOC: Cerberius Grey/Cecilff2 : Same conditions as last time.  Extended = Secret
+ADMIN: Mode voting toggled to Off by Cecilff2.
+ADMIN: Cecilff2 delayed the game.
+GAME: Kenruler entered as Roger Geas
+OOC: Cog Swordwall/Orb370 : Just so you know, IT is completely weird, only use it at your own risk.
+OOC: Matt Shootist/Gaara of the cats : booo for extended
+VOTE: Voting closed, result was extended
+SAY: Nikolaj Zaitsev/Heavystorm : ; lol i played as IT once
+OOC: Cerberius Grey/Cecilff2 : Extended = Secret.  I don&#39;t let it stay extended
+ADMIN: Cecilff2 set the mode as secret.
+GAME: Justin Tyme entered as Benito Hirohitler
+ADMIN: Cecilff2 removed the delay.
+OOC: Urist Bronzeurist/Garf751 : why not let have like 10 minutes of peace
+OOC: Nikolaj Zaitsev/Heavystorm : i played as it once and it was...
+OOC: Urist Bronzeurist/Garf751 : then bomb the shit out of us
+OOC: Cerberius Grey/Cecilff2 : I agree Heavy
+OOC: Cerberius Grey/Cecilff2 : It is very ...
+OOC: Urist Bronzeurist/Garf751 : that
+OOC: Cerberius Grey/Cecilff2 : Plus everyone hates you
+OOC: Cerberius Grey/Cecilff2 : Because you&#39;re green and have wings
+OOC: Nikolaj Zaitsev/Heavystorm : my rage stopped when i got stun locked by some arivals
+OOC: Urist Bronzeurist/Garf751 : why would you need wings on a space stataion?
+OOC: Cog Swordwall/Orb370 : Its not always a dragon.
+OOC: Cerberius Grey/Cecilff2 : To frighten the inhabitants of course
+OOC: Cog Swordwall/Orb370 : Or maybe it is..
+ADMIN: Cecilff2 used start_now
+GAME: starting game of wizard
+ACCESS: Logout: 
+ACCESS: Login: Cecilff2 from 4.254.216.108
+OOC: Cog Swordwall/Orb370 : If the dragong leaves the station, the crew loses?
+OOC: GREY/Cecilff2 : Crew can escape on e-shuttle unhindered then
+SAY: Jacob Martins/Cacophony : All crewmembers, report in.
+SAY: Matt Shootist/Gaara of the cats : ;im the fucking security officer if you mess with me preaper to have your dicks snapped off...
+SAY: GREY/Cecilff2 : GREY online
+SAY: Nikolaj Zaitsev/Heavystorm : genetics reporting in
+ADMIN: Cecilff2 used secret showgm
+ACCESS: Login: Omnisphere from 98.30.10.6
+ACCESS: Login: Ridley4 from 98.242.200.156
+ADMIN: Cecilff2 used secret check_antagonist
+SAY: Klaus Ausburg/Gammon15 : ;Head of Maintenance, reporting in.
+ADMIN: Cecilff2 used secret check_antagonist_goal
+GAME: Ridley4 entered as Jane Hammelyn
+GAME: Omnisphere entered as Cog Engravingcabinet
+OOC: Cog Engravingcabinet/Omnisphere : lag gone?
+OOC: Jane Hammelyn/Ridley4 : I miss the old byond logo.
+SAY: Benito Hirohitler/Justin Tyme : ;this is the goddamn fireman here to fucking fight fires and assholes
+SAY: Roger Geas/Kenruler : ;Good day, crewmembers!
+OOC: Jane Hammelyn/Ridley4 : The new logo looks silly as hell.
+OOC: Cog Engravingcabinet/Omnisphere : still lag
+SAY: Roger Geas/Kenruler : ;I&#39;ve been sent by Cent Com to make sure everything&#39;s fine.
+SAY: Urist Bronzeurist/Garf751 : ;hey
+ACCESS: Login: Koolkid2 from 75.60.219.114
+SAY: Roger Geas/Kenruler : ;With all this ruckus about syndicates and such these days, they dressed me up in this weird ass old wizard costume.
+SAY: Urist Bronzeurist/Garf751 : ;if anyone wants to elp me with a science project go to medbay
+GAME: Koolkid2 entered as Urist Rockwood
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+SAY: Roger Geas/Kenruler : ;I have to admit, the beard makes my chin itch, really, really badly.
+ACCESS: Logout: Koolkid2
+ADMIN: PM: Cecilff2->Kenruler : For your sake, I hope the lag is benevolent.
+ACCESS: Login: PancakeNipple69 from 70.111.9.121
+SAY: Nikolaj Zaitsev/Heavystorm : ; roger come to genetics and i can fix it for you
+SAY: Urist Bronzeurist/Garf751 : ;if you want to help me with a science project go to medbay
+SAY: Matt Shootist/Gaara of the cats : :om my goodness im getting beat up bye sunglasses help immediatley
+ADMIN: PM: Kenruler->Cecilff2 : Hopefully.
+SAY: Urist Bronzeurist/Garf751 : ;you will get free durgs when were done
+SAY: Cog Swordwall/Orb370 : ; A wizard suit? Cent Com has gone too far.
+ACCESS: Logout: 
+ACCESS: Login: Ridley4 from 98.242.200.156
+SAY: Roger Geas/Kenruler : SCYAR NILA MEDICAL
+SAY: Roger Geas/Kenruler : ;Yep, they tend to.
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+SAY: Roger Geas/Kenruler : Hiya!
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+MATTACK: Matt Shootist(Gaara of the cats) attcked by Matt Shootist(Gaara of the cats) with Sunglasses
+SAY: Cog Engravingcabinet/Omnisphere : its the meow mix time
+SAY: Cog Engravingcabinet/Omnisphere : meow meow meow meow
+SAY: Roger Geas/Kenruler : Excuse me, could you please let me out?
+SAY: Cog Engravingcabinet/Omnisphere :  meow mix the best tasty snack for cats
+SAY: Jacob Martins/Cacophony : Keep the channels clear of stupidity, please.
+SAY: Cog Engravingcabinet/Omnisphere : jacob want some meow mix
+OOC: HELP: Jane Hammelyn/Ridley4 : Jacob Martins : Keep the channels clear of stupidity, please.
+OOC: HELP: Jane Hammelyn/Ridley4 : Good fucking luck, amirite, Cecliff?
+SAY: Jacob Martins/Cacophony : Should I call security?
+ACCESS: Login: X2yzh9 from 75.142.181.4
+GAME: X2yzh9 entered as Cog Bedhammer
+SAY: Cog Engravingcabinet/Omnisphere : we all love meow mix
+SAY: Cog Engravingcabinet/Omnisphere : meow
+SAY: Cog Engravingcabinet/Omnisphere : meow
+SAY: Cog Engravingcabinet/Omnisphere : meow 
+SAY: Jacob Martins/Cacophony : AI, where is crewman Engravingcabinet?
+SAY: Nikolaj Zaitsev/Heavystorm : ; eh... security there is a man dressed as a wizard in medical could you cheek that out
+SAY: Matt Shootist/Gaara of the cats : ;securit reporting for duty
+GAME: PancakeNipple69 entered as Krisitin McKosh
+SAY: Urist Bronzeurist/Garf751 : ;someone help me with a science project go to medbay free drugs with signup
+SAY: Roger Geas/Kenruler : ;As I said, I&#39;m from Cent Com.
+ACCESS: Login: Apocalypse1 from 83.70.244.91
+SAY: Nikolaj Zaitsev/Heavystorm : oh... im sorry
+ACCESS: Logout: Apocalypse1
+SAY: Nikolaj Zaitsev/Heavystorm : ; good day sir
+SAY: GREY/Cecilff2 : Locating...
+SAY: Matt Shootist/Gaara of the cats : ...
+OOC: Cog Engravingcabinet/Omnisphere : ai afk
+OOC: Cog Engravingcabinet/Omnisphere : ?
+SAY: GREY/Cecilff2 : Unable to locate crewmember.
+SAY: Benito Hirohitler/Justin Tyme : ;med bay, jane was dead
+SAY: Cog Bedhammer/X2yzh9 : Drugs please
+SAY: Benito Hirohitler/Justin Tyme : ;bringing jane to medbay
+MATTACK: Matt Shootist(Gaara of the cats)has shot a taser round at the floor
+OOC: Nikolaj Zaitsev/Heavystorm : nah it&#39;s just running windows millenium
+SAY: Roger Geas/Kenruler : ;Ow!
+SAY: Matt Shootist/Gaara of the cats : stop
+OOC: GREY/Cecilff2 : No...just lagged to hell.
+SAY: Nikolaj Zaitsev/Heavystorm : what for?
+SAY: Roger Geas/Kenruler : ;Matt Shootist is shooting at me..
+SAY: Jacob Martins/Cacophony : Medbay, I&#39;d like a report on how she died.
+OOC: Jane Hammelyn/Ridley4 : This lag is atrocious. ;_;
+OOC: GREY/Cecilff2 : Indeed. Probably WinME&#39;s fault
+ACCESS: Logout: X2yzh9
+SAY: Cog Swordwall/Orb370 : ; Transmission suggests future attempts to hijack the emergency shuttle (25% certainty) - I watch out crew.
+SAY: Benito Hirohitler/Justin Tyme : ;unknown, likely suffocated in the emergency shuttle airlock
+SAY: Matt Shootist/Gaara of the cats : ;cockbite wizard escaped
+SAY: Roger Geas/Kenruler : ;Matt, I&#39;m from Cent Com.
+SAY: Benito Hirohitler/Justin Tyme : well doc?
+SAY: Roger Geas/Kenruler : ;As I said.
+SAY: Nikolaj Zaitsev/Heavystorm : hmm...
+SAY: Jacob Martins/Cacophony : Why are you shooting at the representative?
+SAY: Cog Engravingcabinet/Omnisphere : you all love meow mix
+SAY: Roger Geas/Kenruler : ;They&#39;ve been pretty bitchy about all these syndicate claims lately.
+SAY: Urist Bronzeurist/Garf751 : goodie
+SAY: Matt Shootist/Gaara of the cats : ;im shooting at the wizard....
+SAY: Nikolaj Zaitsev/Heavystorm : let me have a look
+ACCESS: Logout: PancakeNipple69
+SAY: Urist Bronzeurist/Garf751 : WAIT!!!
+SAY: Roger Geas/Kenruler : ;As such, they dressed me up as a wizard.
+SAY: Matt Shootist/Gaara of the cats : ;because there was a report
+OOC: Benito Hirohitler/Justin Tyme : a blue robe is not cent com issued gear
+SAY: Jacob Martins/Cacophony : AI, please track me.
+SAY: GREY/Cecilff2 : There has been no confirmation of real wizards.
+OOC: Benito Hirohitler/Justin Tyme : oops
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Benito Hirohitler(Justin Tyme) with Fire Extinguisher
+SAY: Roger Geas/Kenruler : ;Everyone knows wizards aren&#39;t real, anyway.
+SAY: GREY/Cecilff2 : Tracking...
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+SAY: Benito Hirohitler/Justin Tyme : ;engravingcabinet attacked me, warning
+SAY: Jacob Martins/Cacophony : Matt, where are you?
+SAY: Nikolaj Zaitsev/Heavystorm : well it&#39;s not much we can do she&#39;s stone dead
+SAY: Matt Shootist/Gaara of the cats : ;wizards are real if you dont belive your nut sack will fall off
+GAME: Thror Oakenshield entered as Thror Oakenshield
+SAY: Cog Swordwall/Orb370 : ; I have ordered Pens, space beer, and mops for your convienence.
+SAY: Roger Geas/Kenruler : ;Uh, what?
+SAY: Jacob Martins/Cacophony : Go deal with Engravingcabinet, if you need to shoot somebody.
+SAY: Urist Bronzeurist/Garf751 : no she aint
+SAY: Cog Swordwall/Orb370 : ; Pick them up at the supply shuttle dock./
+SAY: Benito Hirohitler/Justin Tyme : ;atmos alarm in NE maint.
+SAY: Benito Hirohitler/Justin Tyme : ;NW rather
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+SAY: Urist Bronzeurist/Garf751 : DAMIT!!!
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Cog Engravingcabinet(Omnisphere) attcked by Krisitin McKosh(PancakeNipple69) with Fire Extinguisher
+MATTACK: Matt Shootist(Gaara of the cats)has shot a taser round at Cog Swordwall
+SAY: Cog Swordwall/Orb370 : ; Mat shootist!
+SAY: Nikolaj Zaitsev/Heavystorm : i cheaked her before stone dead
+SAY: Urist Bronzeurist/Garf751 : ok take her
+SAY: Roger Geas/Kenruler : ;Cent Com also issued me an ID card as the Forensics, so, don&#39;t hesitate to tell me about dead bodies.
+SAY: Matt Shootist/Gaara of the cats : dont push me
+ACCESS: Logout: Thror Oakenshield
+SAY: Cog Swordwall/Orb370 : ; Arrest Matt shootist
+SAY: Urist Bronzeurist/Garf751 : hey
+SAY: Cog Engravingcabinet/Omnisphere : wizard
+OOC: HELP: Jane Hammelyn/Ridley4 : Krisitin McKosh has been attacked with Fire Extinguisher by Cog Engravingcabinet. | #Krisitin McKosh has been knocked unconscious! | #Krisitin Mc Kosh seizes up and falls limp, her eyes dead and lifeless...
+SAY: Cog Engravingcabinet/Omnisphere : wizard
+SAY: Urist Bronzeurist/Garf751 : you
+SAY: Jacob Martins/Cacophony : Matt, stand down!
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Matt Shootist(Gaara of the cats) with the toolbox
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+SAY: Urist Bronzeurist/Garf751 : follow me
+SAY: Benito Hirohitler/Justin Tyme : I got him ossifer!
+SAY: Benito Hirohitler/Justin Tyme : ;matt shootist is in west hall
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Matt Shootist(Gaara of the cats) with the toolbox
+ACCESS: Login: Jedi345 from 173.93.186.166
+SAY: Benito Hirohitler/Justin Tyme : ;need security
+OOC: HELP: Jane Hammelyn/Ridley4 : Never gets old, does it?
+SAY: Benito Hirohitler/Justin Tyme : this man tased swordwall
+ACCESS: Login: Wilsonns from 201.43.60.103
+ADMIN: PM: Cecilff2->Omnisphere : What exactly are you doing?
+SAY: Thror Oakenshield/Thror Oakenshield : ;dead body outside of the chaple
+ACCESS: Logout: Omnisphere
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a syringe
+MATTACK: Urist Bronzeurist(Garf751) injected Cog Bedhammer(X2yzh9) with a syringe filled with 
+ACCESS: Login: Omnisphere from 98.30.10.6
+SAY: Cog Engravingcabinet/Omnisphere : wizard
+ACCESS: Logout: Kenruler
+ADMIN: PM: Cecilff2->Ridley4 : He logged.  Good thing we can still ban based on IP
+SAY: Cog Engravingcabinet/Omnisphere : in blue robe
+SAY: Cog Engravingcabinet/Omnisphere : i seen him
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Matt Shootist(Gaara of the cats) with the toolbox
+SAY: Matt Shootist/Gaara of the cats : hey bitch face what are yea doing
+ACCESS: Login: Kenruler from 71.169.53.189
+ADMIN: PM: Cecilff2->Omnisphere : What exactly are you doing?
+SAY: Cog Engravingcabinet/Omnisphere : its rogars
+SAY: Benito Hirohitler/Justin Tyme : shouldn&#39;t you uh
+ADMIN: PM: Omnisphere->Cecilff2 : huh i lagged and dced
+SAY: Benito Hirohitler/Justin Tyme : drag him to brig
+SAY: Cog Swordwall/Orb370 : Wizard? They dont exist.
+SAY: Roger Geas/Kenruler : Goodness.
+SAY: Cog Engravingcabinet/Omnisphere : he dose
+SAY: Thror Oakenshield/Thror Oakenshield : what are you doing?
+SAY: Roger Geas/Kenruler : He was insane anyway.
+SAY: Cog Engravingcabinet/Omnisphere : its that rogars
+SAY: Cog Engravingcabinet/Omnisphere : gears
+SAY: Cog Swordwall/Orb370 : Yes, Roger exists, but Wizards dont.
+SAY: Nikolaj Zaitsev/Heavystorm : trying to revive her
+SAY: Cog Engravingcabinet/Omnisphere : he is the wizard
+OOC: Faith/Jedi345 : sup
+SAY: Thror Oakenshield/Thror Oakenshield : turn her into a monkey then into a human agen
+SAY: Cog Swordwall/Orb370 : Sir, your dilussional.
+SAY: Cog Engravingcabinet/Omnisphere : find him
+ADMIN: PM: Cecilff2->Omnisphere : And the killing people?
+GAME: Jedi345 entered as Faith
+SAY: Nikolaj Zaitsev/Heavystorm : jupp
+SAY: Roger Geas/Kenruler : Hello.
+MATTACK: Jacob Martins(Cacophony) attcked by Matt Shootist(Gaara of the cats) with the blindfold
+ADMIN: Cecilff2 used secret check_logsV
+SAY: Cog Swordwall/Orb370 : Sir, wizards dont exist.,
+SAY: Thror Oakenshield/Thror Oakenshield : make sure the cryo cells operationle thow
+ADMIN: PM: Omnisphere->Cecilff2 : trying to kill that wizard 
+SAY: Jacob Martins/Cacophony : Stand down, Matt.
+SAY: Cog Engravingcabinet/Omnisphere : cog your crazy
+SAY: Benito Hirohitler/Justin Tyme : why did centcom send you wearing that
+SAY: Nikolaj Zaitsev/Heavystorm : i know
+SAY: Matt Shootist/Gaara of the cats : back off
+OOC: Faith/Jedi345 : Bloody old name.
+ADMIN: PM: Cecilff2->Omnisphere : You killed innocent people for no reason...
+SAY: Thror Oakenshield/Thror Oakenshield : why not give her a super power wile you&#39;re at it?
+ADMIN: Cecilff2 used secret check_logs
+ADMIN: PM: Omnisphere->Cecilff2 : 1
+OOC: Faith/Jedi345 : I want to be a zombie for some reason. O.o?
+MATTACK: Roger Geas(Kenruler)has shot a taser round at Matt Shootist
+SAY: Nikolaj Zaitsev/Heavystorm : well not know need to revive one after this
+ADMIN: PM: Cecilff2->Omnisphere : So?  You still killed someone for no reason
+ADMIN: Cecilff2 used secret check_logs
+MATTACK: Roger Geas(Kenruler)has shot a taser round at Matt Shootist
+MATTACK: Roger Geas(Kenruler)has shot a taser round at Matt Shootist
+ADMIN: PM: Omnisphere->Cecilff2 : i had a reason he hated meow mix its good for u
+SAY: Jacob Martins/Cacophony : Thank you, Roger.
+SAY: Roger Geas/Kenruler : Goodness.
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a pill
+MATTACK: Urist Bronzeurist(Garf751) forced Cog Bedhammer(X2yzh9) to swallow red/blue pill
+SAY: Thror Oakenshield/Thror Oakenshield : ill go fetch the other body i saw in the hallway
+SAY: Roger Geas/Kenruler : Call if you need anything.
+SAY: Klaus Ausburg/Gammon15 : ;Engines are now lit, and power levels are high. 
+SAY: Urist Bronzeurist/Garf751 : hehehehhehe
+SAY: Faith/Jedi345 : I see a locked down room with red alert on.
+SAY: Roger Geas/Kenruler : Benito, are you okay?
+SAY: Cog Swordwall/Orb370 : ; I found much bloody near Security HQ
+SAY: Benito Hirohitler/Justin Tyme : for real what is the point of being the wizard if this is all you&#39;ll do
+SAY: Faith/Jedi345 : Oh god naked dude!
+SAY: Roger Geas/Kenruler : I&#39;m not a wizard, hun.
+SAY: Unknown/Omnisphere : meow
+SAY: Cog Swordwall/Orb370 : ; Appears to be security equipment covered in it
+SAY: Jacob Martins/Cacophony : Matt has been contained.  
+SAY: Benito Hirohitler/Justin Tyme : then why do you have a staff and robe
+SAY: Matt Shootist/Gaara of the cats : ;let me out bitch face
+SAY: Nikolaj Zaitsev/Heavystorm : holy crap
+ADMIN: Cecilff2 banned Omnisphere/Cog Engravingcabinet. Reason: Ridiculous killing spree.  Reason given:  Reply PM from-Omnisphere: i had a reason he hated meow mix its good for u
+SAY: Faith/Jedi345 : Holy crap a wizard!
+SAY: Thror Oakenshield/Thror Oakenshield : yeah
+SAY: Roger Geas/Kenruler : To preserve the nature of Cent Com.
+ACCESS: Failed Login: Omnisphere Reason: Key banned
+SAY: Benito Hirohitler/Justin Tyme : you are a bad wizard
+SAY: Nikolaj Zaitsev/Heavystorm : ouch...
+SAY: Roger Geas/Kenruler : They couldn&#39;t send a guy in standard issued Cent Com wear, could they?
+SAY: Faith/Jedi345 : Let me in!
+SAY: Jacob Martins/Cacophony : The hell?
+SAY: Faith/Jedi345 : I want to punch the wizard.
+ADMIN: PM: Cecilff2->Ridley4 : Reply PM from-Omnisphere: i had a reason he hated meow mix its good for u
+SAY: Urist Bronzeurist/Garf751 : damit i need you awake!
+ADMIN: PM: Cecilff2->Ridley4 : ...
+SAY: Jacob Martins/Cacophony : ...We&#39;ll see.
+ADMIN: PM: Ridley4->Cecilff2 : This is what bans are for.
+SAY: Thror Oakenshield/Thror Oakenshield : do you mind if i brake in and monitor the cryo cell for you?
+SAY: Roger Geas/Kenruler : It&#39;d be intercepted by the Syndicates, and since I&#39;m a high ranking officer, they choose not to let me get killed.
+SAY: Benito Hirohitler/Justin Tyme : if this is all you are gonna do
+ADMIN: PM: Cecilff2->Ridley4 : Oh he is
+SAY: Faith/Jedi345 : Oh crap stun baton
+ADMIN: PM: Ridley4->Cecilff2 : At least he has an easy to remember ckey too.
+SAY: Faith/Jedi345 : Son of a!
+ADMIN: PM: Cecilff2->Ridley4 : Cecilff2 banned Omnisphere/Cog Engravingcabinet. Reason: Ridiculous killing spree.  Reason given:  Reply PM from-Omnisphere: i had a reason he hated meow mix its good for u
+SAY: Benito Hirohitler/Justin Tyme : then this will be a boring round
+SAY: Faith/Jedi345 : Stop stunning me!
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a syringe
+MATTACK: Urist Bronzeurist(Garf751) injected Cog Bedhammer(X2yzh9) with a syringe filled with 
+SAY: Roger Geas/Kenruler : Uh, right.
+OOC: Matt Shootist/Gaara of the cats : wtf why did you do that
+SAY: Roger Geas/Kenruler : Good day then.
+SAY: Nikolaj Zaitsev/Heavystorm : hmm... follow me
+SAY: Urist Bronzeurist/Garf751 : lets do this...
+SAY: Faith/Jedi345 : I accidentally hit the window,Its no big deal.
+OOC: GREY/Cecilff2 : Keep it in game or use adminhelp, please.
+ADMIN: PM: Ridley4->Cecilff2 : Well, at least it adds it to banned.txt in the version, right?
+SAY: Jacob Martins/Cacophony : What is it with you people?
+SAY: Faith/Jedi345 : Dont stun me and try to handcuf me for that
+OOC: Matt Shootist/Gaara of the cats : grrr
+SAY: Benito Hirohitler/Justin Tyme : you two
+ADMIN: PM: Ridley4->Cecilff2 : Or was it bans.txt? Been six years since I hosted.
+SAY: Nikolaj Zaitsev/Heavystorm : get yourself medical clothes
+ADMIN: PM: Cecilff2->Ridley4 : Yep we can see everyone that's ever been banned, even if they aren't banned now.
+SAY: Faith/Jedi345 : Im bloody serious!
+SAY: Jacob Martins/Cacophony : First you try to break the window, then you threaten to attack a CENT representative.
+ADMIN: PM: Ridley4->Cecilff2 : Awesome.
+ADMIN: PM: Cecilff2->Ridley4 : Reason for banning too
+SAY: Benito Hirohitler/Justin Tyme : for the sake of this stupid roleplay, I SUSPECT that the man in the blue robe is a wizard
+SAY: Faith/Jedi345 : A wizard cant be a central command representative
+SAY: Roger Geas/Kenruler : SCYAR NILA TOXINS
+SAY: Thror Oakenshield/Thror Oakenshield : ((lagging a bit))
+SAY: Roger Geas/Kenruler : ;Shit.
+SAY: Faith/Jedi345 : You moron
+SAY: Faith/Jedi345 : *Handcuff smack*
+SAY: Jacob Martins/Cacophony : He&#39;s not a wizard.
+SAY: Roger Geas/Kenruler : SCYAR NILA TOXINS
+SAY: Faith/Jedi345 : Now unhandcuff me. 
+SAY: Benito Hirohitler/Justin Tyme : so to ensure station security, we should arrest him
+SAY: Roger Geas/Kenruler : SCYAR NILA TOXINS
+SAY: Benito Hirohitler/Justin Tyme : how do you know
+SAY: Urist Bronzeurist/Garf751 : ;heh this is going to be good!
+SAY: Urist Bronzeurist/Garf751 : ;whoops
+SAY: Benito Hirohitler/Justin Tyme : he carries a staff and has a blue robe
+ADMIN: PM: Ridley4->Cecilff2 : Nifty. I used to add an MD5 of a pseudorandom set of characters plus the reason of bannage back in Ye Olde Days.
+SAY: Jacob Martins/Cacophony : Look... Just leave him alone. 
+SAY: Faith/Jedi345 : Anyone wearing blue robes and a hat with a large beard HAS to be a wizard
+SAY: Roger Geas/Kenruler : God damned cheapos.
+SAY: Urist Bronzeurist/Garf751 : ;umm ignore what i said...
+SAY: Faith/Jedi345 : Dont you watch movies?!
+SAY: Cog Swordwall/Orb370 : ; .....
+SAY: Faith/Jedi345 : Dont you watch movies?
+SAY: Roger Geas/Kenruler : SCYAR NILA HALLWAY
+SAY: Faith/Jedi345 : Let go of me jackass!
+SAY: Cog Swordwall/Orb370 : ; AI, find Urist Bronzeurist
+SAY: Urist Bronzeurist/Garf751 : SHADDUP!
+SAY: Thror Oakenshield/Thror Oakenshield : sorry
+SAY: Urist Bronzeurist/Garf751 : SHUT
+ADMIN: PM: Ridley4->Cecilff2 : So you'd have griefermcretard / <md5here>decidedtogoonagriefspree
+SAY: Urist Bronzeurist/Garf751 : UP!
+SAY: Jacob Martins/Cacophony : Hold still and let me take off the cuffs.
+SAY: Jacob Martins/Cacophony : Unless you&#39;d rather keep them?
+SAY: Thror Oakenshield/Thror Oakenshield : juck click the door
+SAY: Thror Oakenshield/Thror Oakenshield : itls stay open
+SAY: Faith/Jedi345 : What the hell is you bloody idiot
+SAY: Nikolaj Zaitsev/Heavystorm : holy crap
+SAY: Faith/Jedi345 : your problem*
+SAY: Benito Hirohitler/Justin Tyme : ;AI, what is roger geas&#39;s position in the troop manifest
+SAY: Benito Hirohitler/Justin Tyme : ;er
+SAY: Thror Oakenshield/Thror Oakenshield : hello wizard like person
+SAY: Roger Geas/Kenruler : Hey guys.
+SAY: Faith/Jedi345 : //Gay hands are gay
+SAY: Nikolaj Zaitsev/Heavystorm : what is that
+SAY: Benito Hirohitler/Justin Tyme : ;crew manifest
+SAY: Thror Oakenshield/Thror Oakenshield : is it halloween?
+SAY: Roger Geas/Kenruler : How&#39;s it going?
+SAY: Nikolaj Zaitsev/Heavystorm : hello?
+SAY: GREY/Cecilff2 : Checking
+SAY: Jacob Martins/Cacophony : I&#39;m the captain.  Now don&#39;t attack anybody.
+SAY: Faith/Jedi345 : By the way
+SAY: Faith/Jedi345 : I need a job
+SAY: Roger Geas/Kenruler : ;I&#39;m Forensics.
+ADMIN: PM: Ridley4->Cecilff2 : PS, likely relevant: Faith : Let me in! / Faith: I want to punch the wizard.
+SAY: Thror Oakenshield/Thror Oakenshield : person ready to come out
+SAY: Urist Bronzeurist/Garf751 : oh shit
+SAY: Nikolaj Zaitsev/Heavystorm : good i think
+OOC: Matt Shootist/Gaara of the cats : this mode is boring whats witht he wizards
+SAY: GREY/Cecilff2 : Roger Geas is the Forensic Technician
+SAY: Benito Hirohitler/Justin Tyme : ;negative, you are wizard
+SAY: Nikolaj Zaitsev/Heavystorm : good
+SAY: Klaus Ausburg/Gammon15 : ;So.. What&#39;s this station&#39;s stance on the blue robed figure named Roger Geas..?
+SAY: Cog Swordwall/Orb370 : ; AI, answer my question.
+SAY: Roger Geas/Kenruler : ;Uh, I&#39;m the Forensics.
+SAY: Benito Hirohitler/Justin Tyme : ;first you say you are a centcom rep, now you say you are forensics
+SAY: Faith/Jedi345 : I need a JOB.
+ADMIN: PM: Ridley4->Cecilff2 : PS, mr. Narutard may just be a multikey of Omnisphere.
+SAY: Cog Swordwall/Orb370 : ; Or...demand I guess.
+SAY: Roger Geas/Kenruler : ;I&#39;ve told you my story, already, Benito.
+SAY: GREY/Cecilff2 : Urist Bronzeurist is currently in medical holding cells
+SAY: Klaus Ausburg/Gammon15 : ;Perhaps this individual should be detained for questioning.. 
+SAY: Benito Hirohitler/Justin Tyme : you there
+SAY: Nikolaj Zaitsev/Heavystorm : weird i thought he was a girl...
+SAY: Roger Geas/Kenruler : ;Yes, I am a Cent Com rep sent here, but they decided to give me the title of forensics.
+SAY: Thror Oakenshield/Thror Oakenshield : it was
+SAY: Cog Swordwall/Orb370 : ; I say his story holds up
+SAY: Thror Oakenshield/Thror Oakenshield : but the human dna you injected wasn&#39;t
+SAY: Nikolaj Zaitsev/Heavystorm : oh well
+ADMIN: PM: Cecilff2->Ridley4 : Isn't.  He would have been banned at the same time.(Game checks IP addresses and bans MKers).  He's been on since the start of the round
+SAY: Jacob Martins/Cacophony : What was that?
+SAY: Klaus Ausburg/Gammon15 : ;I&#39;m not Head of Security, so I&#39;ll let them deal with it. 
+SAY: Urist Bronzeurist/Garf751 : hmmm
+SAY: Faith/Jedi345 : Headset
+ADMIN: PM: Ridley4->Cecilff2 : Ah, I see. Useful.
+SAY: Faith/Jedi345 : Was turning off the mic.
+SAY: Jacob Martins/Cacophony : ..Right.
+SAY: Faith/Jedi345 : See/
+ADMIN: PM: Ridley4->Cecilff2 : Damn. Things have changed quite a bit.
+SAY: Jacob Martins/Cacophony : Yes, yes.  I need to talk to the prisoner.
+SAY: Jacob Martins/Cacophony : Now.
+SAY: Jacob Martins/Cacophony : Why were you attacking your fellow crewmembers?
+SAY: Roger Geas/Kenruler : ;Goodness, blood.
+ADMIN: PM: Cecilff2->Ridley4 : There's an almost working logging function too.  Currently does say/OOC/admin actions
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+SAY: Roger Geas/Kenruler : ;Help!
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a syringe
+MATTACK: Urist Bronzeurist(Garf751) injected Cog Bedhammer(X2yzh9) with a syringe filled with 
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a syringe
+MATTACK: Urist Bronzeurist(Garf751) injected Cog Bedhammer(X2yzh9) with a syringe filled with 
+SAY: Jacob Martins/Cacophony : Roger?
+ADMIN: PM: Cecilff2->Ridley4 : Verbose is still being worked on(Records actions/attacking/etc.)
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Urist Bronzeurist(Garf751) clicked on Cog Bedhammer(X2yzh9) with a syringe
+MATTACK: Urist Bronzeurist(Garf751) injected Cog Bedhammer(X2yzh9) with a syringe filled with 
+SAY: Roger Geas/Kenruler : ;BENITO
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+SAY: Klaus Ausburg/Gammon15 : ;Location?
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+ADMIN: PM: Ridley4->Cecilff2 : PS, Wizard seems to be getting griefed.
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+SAY: Nikolaj Zaitsev/Heavystorm : goooood
+SAY: Roger Geas/Kenruler : Fucking griefer
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+MATTACK: Benito Hirohitler(Justin Tyme) attcked by Roger Geas(Kenruler) with the toolbox
+OOC: Jacob Martins/Cacophony : Heh.  
+OOC: Roger Geas/Kenruler : Metuhhhh
+SAY: Benito Hirohitler/Justin Tyme : ;I told you he was a wizar
+ACCESS: Logout: Garf751
+ACCESS: Logout: Justin Tyme
+ACCESS: Logout: Heavystorm
+ACCESS: Logout: Gammon15
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Kenruler
+ACCESS: Logout: Ridley4
+ACCESS: Logout: Orb370
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Quarian
+ACCESS: Logout: Jedi345
+ACCESS: Logout: Gaara of the cats
+ACCESS: Logout: Thror Oakenshield
+ACCESS: Logout: Wilsonns
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Quarian from 75.38.146.127
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Wilsonns from 201.43.60.103
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Garf751 from 69.105.238.174
+ACCESS: Login: Cecilff2 from 4.254.216.108
+ACCESS: Login: Kenruler from 71.169.53.189
+ACCESS: Login: Ridley4 from 98.242.200.156
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+ACCESS: Login: Orb370 from 4.229.192.46
+GAME: Gammon15 entered as Klaus Ausburg
+GAME: Kenruler entered as Roger Geas
+GAME: Garf751 entered as Jon Garf
+GAME: Ridley4 entered as Jane Hammelyn
+GAME: Cecilff2 entered as Cerberius Grey
+OOC: Jacob Martins/Cacophony : Whoever was the wizard, good job.  That was more interesting then a rampage.
+GAME: Justin Tyme entered as Ben Dunn
+OOC: Jon Garf/Garf751 : last round was fun
+GAME: Cacophony entered as Jacob Martins
+OOC: Ben Dunn/Justin Tyme : what was so fun about it, nothing at all happened
+GAME: Thror Oakenshield entered as Thror Oakenshield
+OOC: Jon Garf/Garf751 : srsly someone go to medbay and help me
+OOC: HELP: Jane Hammelyn/Ridley4 : But with a name like BENITO HIROHITLER, it&#39;s really not too hard to forsee.
+OOC: Jon Garf/Garf751 : i have science to do
+OOC: Roger Geas/Kenruler : Wasn&#39;t going for a super massive murder scenario, Benito was totally out to meta though.
+GAME: Orb370 entered as Cog Swordwall
+OOC: Ben Dunn/Justin Tyme : it wasn&#39;t meta
+ADMIN: PM: Cecilff2->Ridley4 : Round rebooted before I could check...
+OOC: Ben Dunn/Justin Tyme : what do you think the education level of a station fireman is
+OOC: Cog Swordwall/Orb370 : So, who killed the wizard? SOrry, let me rephrase that, what idiot killed the wizard?
+OOC: Roger Geas/Kenruler : Benito was talking about how boring the round was going to be because I wasn&#39;t going to do anything
+ADMIN: PM: Ridley4->Cecilff2 : tl;dr. Walked up behind him, toolbox repeatedly.
+OOC: Ben Dunn/Justin Tyme : how is he supposed to tell the difference between a man in a blue robe with a staff and a wizard
+OOC: Cerberius Grey/Cecilff2 : Justin, crewmembers do not believe that wizards exist
+OOC: Ben Dunn/Justin Tyme : god
+OOC: Roger Geas/Kenruler : &#34;what&#39;s the point of being the wizard if this is all you&#39;re going to do&#34;
+OOC: Jacob Martins/Cacophony : So if it wasn&#39;t meta, it was griefing.  
+VOTE: Voting to change mode started by Thror Oakenshield/Thror Oakenshield
+OOC: Ben Dunn/Justin Tyme : sorry
+OOC: Cerberius Grey/Cecilff2 : Read the MOTD
+ADMIN: Cecilff2 delayed the game.
+OOC: Ben Dunn/Justin Tyme : it wasn&#39;t griefing
+OOC: Jane Hammelyn/Ridley4 : Quote myself: &#34;It&#39;s just a sad man trying to make his life interesting. Ever hear of cosplay?&#34;
+OOC: Ben Dunn/Justin Tyme : at least I didn&#39;t intend to grief, and I didn&#39;t intend to meta
+OOC: Cog Swordwall/Orb370 : It was meta gaming, which is almost as bad.
+OOC: Cerberius Grey/Cecilff2 : Justin read the MOTD though
+OOC: Ben Dunn/Justin Tyme : sorry
+OOC: Cog Swordwall/Orb370 : It says your supposed to read the Motb, now he hates you forever.
+OOC: Cerberius Grey/Cecilff2 : Forever
+VOTE: Voting closed, result was extended
+OOC: Cog Swordwall/Orb370 : I hope you feel very bad.
+OOC: Cerberius Grey/Cecilff2 : Maybe not
+OOC: Thror Oakenshield/Thror Oakenshield : why is there so much lagg?
+ADMIN: Cecilff2 set the mode as secret.
+OOC: Cog Swordwall/Orb370 : Why shouldnt there be so muc hlag?
+ADMIN: Mode voting toggled to Off by Cecilff2.
+OOC: Ben Dunn/Justin Tyme : :*(
+OOC: Cerberius Grey/Cecilff2 : I have an idea.  Everyone PM head on the Bay12 forums and ask
+OOC: Jon Garf/Garf751 : =D
+ADMIN: Cecilff2 removed the delay.
+ADMIN: PM: Ridley4->Cecilff2 : Say, a bit shameless to ask this, but perhaps you could endorse my adminship?
+GAME: starting game of wizard
+ACCESS: Logout: 
+ACCESS: Login: Cacophony from 71.136.51.144
+OOC: Jon Garf/Garf751 : hmmm
+OOC: Ben Dunn/Justin Tyme : I didn&#39;t know we weren&#39;t supposed to believe in wizards
+OOC: Ben Dunn/Justin Tyme : given that there is a &#34;space wizard federation&#34; I just sorta assumed
+SAY: Epsilon/Cacophony : Greetings, crew.  This station has not suffered severe damage for two weeks in five minutes.
+ADMIN: PM: Cecilff2->Ridley4 : Head tends to pick em himself.  Johb might agree if he starts hosting again though.
+SAY: Roger Geas/Kenruler : ;Woo!
+SAY: Epsilon/Cacophony : CENTCOM would like to send their appreciation.  
+SAY: Cog Swordwall/Orb370 : ; Come on, five minutes, its just five minutes...
+ADMIN: PM: Ridley4->Cecilff2 : Ah. Oh well. Besides, a person who commits suicide and ghosts for the rest of the round is still damn useful as a pair of eyes comes at a premium.
+ACCESS: Login: PancakeNipple69 from 70.111.9.121
+GAME: PancakeNipple69 entered as Krisitin McKosh
+SAY: Jane Hammelyn/Ridley4 : ;I&#39;ll be at my desk if some new damn worthless plebs come on-station wanting a job or something.
+SAY: Cog Swordwall/Orb370 : ; Anyone who harms the station will be beaten mercelessly to death.
+OOC: Thror Oakenshield/Thror Oakenshield : i hate warping around the station
+ACCESS: Logout: PancakeNipple69
+OOC: Cog Swordwall/Orb370 : Then dont?
+SAY: Jane Hammelyn/Ridley4 : ;HoP, please, give me a job! HoP, please, I&#39;m almost homeless, HoP, my children are starving, please, just give me a janitorial position!
+SAY: Cerberius Grey/Cecilff2 : ;AI
+SAY: Jane Hammelyn/Ridley4 : ;Irritating lot.
+SAY: Cerberius Grey/Cecilff2 : ;I accidentally broke a window in my area
+SAY: Epsilon/Cacophony : Yes, crewman Grey?
+OOC: Thror Oakenshield/Thror Oakenshield : i can&#39;t help it i just press the arrow key nothing happons then i&#39;m agenst the other wall
+SAY: Ben Dunn/Justin Tyme : SCYAR NILA CREW QUARTERS
+SAY: Cerberius Grey/Cecilff2 : ;Sorry
+ADMIN: PM: Ridley4->Cecilff2 : The compassion. It is palpable.
+SAY: Jon Garf/Garf751 : can i have matinamce acess for supplies for expirments
+SAY: Cog Swordwall/Orb370 : ; Grey, where are you, so I can beat you to death?
+SAY: Roger Geas/Kenruler : ;Shh.
+SAY: Jane Hammelyn/Ridley4 : No, fuck you.
+SAY: Epsilon/Cacophony : Understood.  Please excercise caution.
+ACCESS: Login: Upsilon777 from 67.150.56.52
+SAY: Roger Geas/Kenruler : ;Engineers, fix that.
+SAY: Cerberius Grey/Cecilff2 : ;Hiding
+SAY: Jon Garf/Garf751 : woah
+SAY: Roger Geas/Kenruler : ;Look AI, there&#39;s a monkey on your Sat!
+SAY: Cog Swordwall/Orb370 : ; We just got through saying, dont break the station.
+SAY: Cerberius Grey/Cecilff2 : ;I don&#39;t want to die.
+SAY: Jon Garf/Garf751 : wha soo hostile?
+SAY: Cerberius Grey/Cecilff2 : ;It was an accident, I swear!
+SAY: Jane Hammelyn/Ridley4 : ;The doctor wants maintenance access, if anyone wants to put it in security record or summat.
+SAY: Jane Hammelyn/Ridley4 : You&#39;re a doctor.
+SAY: Jane Hammelyn/Ridley4 : You fix people.
+SAY: Jane Hammelyn/Ridley4 : You don&#39;t do experiments.
+SAY: Cog Swordwall/Orb370 : ; There is a monkey on the AI Satalite? How the heck did THAT  get there.
+SAY: Jon Garf/Garf751 : well this is a science satataion
+SAY: Jane Hammelyn/Ridley4 : If you want experimentation there&#39;s a whole research division.
+SAY: Jon Garf/Garf751 : fine make me a researcher
+SAY: Jane Hammelyn/Ridley4 : Out.
+GAME: Upsilon777 entered as Lucky Mouse
+SAY: Jon Garf/Garf751 : ...
+SAY: Roger Geas/Kenruler : Sup.
+SAY: Cog Swordwall/Orb370 : Sup
+SAY: Cog Swordwall/Orb370 : ; AI, please locate the monkey on your AI satalite.
+SAY: Ben Dunn/Justin Tyme : hello there
+SAY: Jane Hammelyn/Ridley4 : And yoooou want?
+SAY: Epsilon/Cacophony : One moment.
+SAY: Ben Dunn/Justin Tyme : to see how things are going!
+SAY: Jon Garf/Garf751 : hey
+SAY: Cerberius Grey/Cecilff2 : ;I bet the monkey is located in the AI satelite
+SAY: Jon Garf/Garf751 : you wanna help me
+SAY: Cerberius Grey/Cecilff2 : ;Crazy
+SAY: Epsilon/Cacophony : The stay has likely been fatal.  
+ACCESS: Login: Forteen from 70.134.94.228
+SAY: Roger Geas/Kenruler : ;Oh my.
+SAY: Ben Dunn/Justin Tyme : so jane
+GAME: Forteen entered as Bob Robertson
+SAY: Roger Geas/Kenruler : ;Engineers, has that engine been ignited?
+SAY: Jon Garf/Garf751 : oook then
+SAY: Klaus Ausburg/Gammon15 : ;Working on it.
+SAY: Roger Geas/Kenruler : ;Good, good.
+SAY: Bob Robertson/Forteen : ;Hi, anything I can do on this station?
+SAY: Ben Dunn/Justin Tyme : have you been seeing anyone since you have been on this station?
+MATTACK: Jon Garf(Garf751)has grabbed aggressively (now hands) Lucky Mouse(Upsilon777)
+SAY: Jane Hammelyn/Ridley4 : Screw you.
+SAY: Roger Geas/Kenruler : Hm..
+SAY: Jane Hammelyn/Ridley4 : I&#39;ll make sure to add workplace relation to the record, one moment, you can even watch me if you like.
+SAY: Jon Garf/Garf751 : what the hell dude!
+SAY: Jane Hammelyn/Ridley4 : Man, that&#39;ll dock your wages bad. You know that?
+SAY: Epsilon/Cacophony : I am unable to locate the monkey.
+SAY: Ben Dunn/Justin Tyme : pay doesn&#39;t matter so long as I am in space!
+SAY: Bob Robertson/Forteen : What were you doing to him?
+SAY: Jon Garf/Garf751 : hes logged out man
+SAY: Jon Garf/Garf751 : aka crazies
+SAY: Jane Hammelyn/Ridley4 : Yeah, yeah. Whatever. Damn place is a fucking deathtrap in all honesty.
+SAY: Bob Robertson/Forteen : Just try not to do it
+MATTACK: Jon Garf(Garf751)has grabbed aggressively (now hands) Krisitin McKosh(PancakeNipple69)
+ACCESS: Logout: Upsilon777
+SAY: Bob Robertson/Forteen : Garf was strangling these guys
+SAY: Jon Garf/Garf751 : ARGH!!!!
+SAY: Cog Swordwall/Orb370 : ; Roger, why did you say there was a monkey on the AI Satalite? That is a very serious situation to talk freely about.
+SAY: Ben Dunn/Justin Tyme : what&#39;s goin on in here
+SAY: Jon Garf/Garf751 : im trying to get thhem to medbay!!!!
+MATTACK: Jon Garf(Garf751)has grabbed aggressively (now hands) Krisitin McKosh(PancakeNipple69)
+SAY: Bob Robertson/Forteen : Yeah, dragging them by the neck
+SAY: Cerberius Grey/Cecilff2 : ;I am a mynah bird.
+SAY: Roger Geas/Kenruler : ;Coulda swore I saw one on the cameras.
+SAY: Bob Robertson/Forteen : Mind if I get a job?
+SAY: Jon Garf/Garf751 : FUCKINGW#T $TQWE
+SAY: Jane Hammelyn/Ridley4 : Oh, look damn plebians. What do you want?
+MATTACK: Jon Garf(Garf751)has grabbed aggressively (now hands) Krisitin McKosh(PancakeNipple69)
+SAY: Jane Hammelyn/Ridley4 : We don&#39;t have any aboard.
+SAY: Cerberius Grey/Cecilff2 : ;Would you like to see the way mynah birds dance?
+SAY: Bob Robertson/Forteen : Getting a job so I can actually contribute
+MATTACK: Jane Hammelyn(Ridley4)has shot a taser round at Krisitin McKosh
+SAY: Epsilon/Cacophony : Klaus, would you like me to open the ignition shutters?
+MATTACK: Jane Hammelyn(Ridley4)has shot a taser round at Krisitin McKosh
+SAY: Jane Hammelyn/Ridley4 : ;Capture the doctor!
+SAY: Jon Garf/Garf751 : ;stop shooting me im trying to get him to medbay!!!
+SAY: Jane Hammelyn/Ridley4 : ;He attempted to strangle a crewmember!
+SAY: Unknown/Kenruler : Yes?
+SAY: Cog Swordwall/Orb370 : Why do you have no ID?
+SAY: Unknown/Kenruler : Because it&#39;s in the machine?
+OOC: Jon Garf/Garf751 : hes logged out duh
+SAY: Bob Robertson/Forteen : ;I told you that it wasn&#39; t wise to drag by the neck
+SAY: Bob Robertson/Forteen : Hi
+SAY: Roger Geas/Kenruler : See?
+SAY: Epsilon/Cacophony : Tracking the doctor.
+OOC: Jane Hammelyn/Ridley4 : He just said soemthing.
+SAY: Roger Geas/Kenruler : Jeez.
+SAY: Bob Robertson/Forteen : Uh
+SAY: Cog Swordwall/Orb370 : Oh, im so dumb.
+SAY: Bob Robertson/Forteen : Nice to meet you
+SAY: Unknown/Justin Tyme : FALIAH DEE ZERTHIA
+OOC: Jon Garf/Garf751 : what 
+SAY: Cog Swordwall/Orb370 : Continue on.
+SAY: Epsilon/Cacophony : Jane appears to have detained him.
+OOC: Cerberius Grey/Cecilff2 : Hey guys, there&#39;s a better way to pull people.  It&#39;s a verb called pull
+SAY: Jon Garf/Garf751 : real mature
+OOC: Cerberius Grey/Cecilff2 : It&#39;s amazing
+OOC: Jon Garf/Garf751 : logged out people move
+SAY: Roger Geas/Kenruler : Uhm.
+SAY: Roger Geas/Kenruler : What&#39;d he do?
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Jane Hammelyn/Ridley4 : Nearly killed a fresh crewmember.
+OOC: Cerberius Grey/Cecilff2 : So get a grip on them then switch to pull?
+ACCESS: Login: Flick11110 from 172.164.226.245
+SAY: Jon Garf/Garf751 : trying to get a preson to medaby
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Jon Garf/Garf751 : but noooo
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Klaus Ausburg/Gammon15 : ;Engines are now online. I&#39;ll remain here for a minute or so to keep in touch with its progress.. Then I&#39;m taking a break.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Jon Garf/Garf751 : jaime hates me for some reason
+SAY: Roger Geas/Kenruler : Hm.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Jane Hammelyn/Ridley4 : He grabbed him by the neck and started running away from him.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+OOC: Thror Oakenshield/Thror Oakenshield : right click on them then select pull
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Roger Geas/Kenruler : He&#39;ll get a trial.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Lucky Mouse(Upsilon777) with the wizards staff
+SAY: Thror Oakenshield/Thror Oakenshield : Hello sir
+ACCESS: Logout: 
+ACCESS: Login: Forteen from 70.134.94.228
+SAY: Jon Garf/Garf751 : i asked nicely for acess to supples she yells at me
+SAY: Roger Geas/Kenruler : ;Make sure he gets a lawyer.
+SAY: Jane Hammelyn/Ridley4 : You&#39;re forgetting SOP.
+SAY: Roger Geas/Kenruler : Yes, yes.
+OOC: Cerberius Grey/Cecilff2 : Also, Ridley, logged out people say stuff still.  It&#39;s pulled from a collection of stuff.
+OOC: Cerberius Grey/Cecilff2 : It&#39;s pretty much always ridiculous
+SAY: Klaus Ausburg/Gammon15 : ;Okay, the engine is set. I&#39;ll be roaming the hallways if I&#39;m needed.
+SAY: Jon Garf/Garf751 : real mature ou just hate me for some reason
+SAY: Roger Geas/Kenruler : ;Very nice.
+SAY: Jon Garf/Garf751 : why do you hate me
+ACCESS: Login: Ceojac from 24.20.178.177
+OOC: Jane Hammelyn/Ridley4 : Ah.
+SAY: Epsilon/Cacophony : Acknowledged, Klaus.  
+OOC: Jane Hammelyn/Ridley4 : Well, still, grabbing by the neck is still pretty suspicious.
+SAY: Jon Garf/Garf751 : i didnt do shit to you
+OOC: Cog Swordwall/Orb370 : &#34;Pull the lever!&#34;
+SAY: Unknown/Justin Tyme : STI CALLIYE
+MATTACK: Ben Dunn(Justin Tyme) attcked by Krisitin McKosh(PancakeNipple69) with the wizards staff
+OOC: Cerberius Grey/Cecilff2 : There&#39;s a carp stuck in my beard!
+GAME: Ceojac entered as Cliff Medovich
+MATTACK: Ben Dunn(Justin Tyme) attcked by Krisitin McKosh(PancakeNipple69) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Krisitin McKosh(PancakeNipple69) with the wizards staff
+OOC: Jane Hammelyn/Ridley4 : Did the server crash or something?
+MATTACK: Ben Dunn(Justin Tyme) attcked by Krisitin McKosh(PancakeNipple69) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Krisitin McKosh(PancakeNipple69) with the wizards staff
+MATTACK: Thror Oakenshield(Thror Oakenshield) clicked on Thror Oakenshield(Thror Oakenshield) with a DNA injector
+OOC: Cog Swordwall/Orb370 : No
+OOC: Roger Geas/Kenruler : I mandate Adamantine socks!
+SAY: Jon Garf/Garf751 : ya know what fuck this 
+GAME: Flick11110 entered as Quran Clory
+SAY: Unknown/Justin Tyme : FALIAH DEE ZERTHIA
+SAY: Cog Swordwall/Orb370 : Crap...
+OOC: Bob Robertson/Forteen : Diagonal flow sucks!
+OOC: Cerberius Grey/Cecilff2 : It&#39;s actually amazing considering how terrible the lag was earlier
+SAY: Cliff Medovich/Ceojac : ;ALWAYS I WANT TO BE WITH YOUUU AND MAKE BELIEVE WITH YOUUU IN HARMONY HARMONY OOOH LOOOVE
+SAY: Roger Geas/Kenruler : Make sure he gets that back.
+SAY: Unknown/Justin Tyme : FALIAH DEE ZERTHIA
+SAY: Cog Swordwall/Orb370 : Hahaha..
+SAY: Cog Swordwall/Orb370 : He thought he was alive
+MATTACK: Ben Dunn(Justin Tyme) attcked by Cliff Medovich(Ceojac) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Cliff Medovich(Ceojac) with the wizards staff
+MATTACK: Thror Oakenshield(Thror Oakenshield) clicked on Thror Oakenshield(Thror Oakenshield) with a DNA injector
+MATTACK: Thror Oakenshield(Thror Oakenshield) clicked on Thror Oakenshield(Thror Oakenshield) with a DNA injector
+SAY: Cog Swordwall/Orb370 : I got some prison shoes though
+MATTACK: Ben Dunn(Justin Tyme) attcked by Cliff Medovich(Ceojac) with the wizards staff
+SAY: Epsilon/Cacophony : An unkown person appears to have attacked cliff.
+SAY: Cog Swordwall/Orb370 : I will put them in a cell
+SAY: Quran Clory/Flick11110 : w
+SAY: Roger Geas/Kenruler : ;Where?
+SAY: Epsilon/Cacophony : Isolating.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Cliff Medovich(Ceojac) with the wizards staff
+SAY: Epsilon/Cacophony : He is located in arrivals, and attired strangely.
+SAY: Epsilon/Cacophony : A blue robe and hat, and a staff.  
+SAY: Thror Oakenshield/Thror Oakenshield : i can&#39;t move
+SAY: Klaus Ausburg/Gammon15 : Err,
+ACCESS: Logout: Ceojac
+SAY: Cerberius Grey/Cecilff2 : ;That&#39;s silly
+SAY: Epsilon/Cacophony : Cliff is likely dead.
+SAY: Thror Oakenshield/Thror Oakenshield : so just push me aside
+SAY: Klaus Ausburg/Gammon15 : Let me get you to medbay..
+SAY: Jane Hammelyn/Ridley4 : ;Fucking cosplayers.
+SAY: Roger Geas/Kenruler : ;I see him.
+SAY: Roger Geas/Kenruler : Come out calmly.
+SAY: Cerberius Grey/Cecilff2 : ;Probably a conventionist stepped on the wrong teleporter pad.
+OOC: Unknown/Justin Tyme : lag
+SAY: Roger Geas/Kenruler : ;Backup to arrivals.
+SAY: Jane Hammelyn/Ridley4 : ;Look at me, mommy, I&#39;m a real witch!
+ACCESS: Logout: Flick11110
+SAY: Cog Swordwall/Orb370 : ; Blue Robe, hat, and a staff? That can only mean one thing...hes NUTS
+SAY: Klaus Ausburg/Gammon15 : ;I need a Doctor at medbay. A crew member is ugh.. Troubled with a disease of some sorts.
+SAY: Cerberius Grey/Cecilff2 : ;Albeit a crazy murderous cosplayer
+SAY: Jane Hammelyn/Ridley4 : ;*grumble*
+SAY: Roger Geas/Kenruler : Hello?
+SAY: Cerberius Grey/Cecilff2 : ;If he really did kill Cliff I mean
+SAY: Roger Geas/Kenruler : Wait.
+OOC: Unknown/Justin Tyme : oh god lag
+SAY: Thror Oakenshield/Thror Oakenshield : its more a failed experiment
+SAY: Jane Hammelyn/Ridley4 : ;AI, I can&#39;t find him.
+SAY: Roger Geas/Kenruler : ;There seems to be two bodies at arrivals.
+SAY: Epsilon/Cacophony : There is another body, both are in the arrival shuttle.
+ACCESS: Login: Flick11110 from 172.164.226.245
+SAY: Epsilon/Cacophony : He is in the arrival shuttle, hiding the bodies.
+SAY: Klaus Ausburg/Gammon15 : Failed experiment.. I see.. Um.. I don&#39;t think anyone is coming.. 
+SAY: Roger Geas/Kenruler : ;Security to arrivals, stat.
+SAY: Cog Swordwall/Orb370 : ; The man in the blue robe? Arrest him.
+SAY: Klaus Ausburg/Gammon15 : Do you know how to revert your mistakes, or the one that caused this to you?
+SAY: Thror Oakenshield/Thror Oakenshield : hmm
+SAY: Epsilon/Cacophony : I have isolated him.  
+SAY: Epsilon/Cacophony : I will open the doors when you are prepared.  
+SAY: Thror Oakenshield/Thror Oakenshield : well i&#39;m not completly sure what whent rong
+MATTACK: Ben Dunn(Justin Tyme) attcked by Quran Clory(Flick11110) with the wizards staff
+SAY: Jane Hammelyn/Ridley4 : ;Ready to rock.
+MATTACK: Ben Dunn(Justin Tyme) attcked by Quran Clory(Flick11110) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Quran Clory(Flick11110) with the wizards staff
+MATTACK: Ben Dunn(Justin Tyme) attcked by Quran Clory(Flick11110) with the wizards staff
+ACCESS: Logout: Flick11110
+SAY: Thror Oakenshield/Thror Oakenshield : it worked great with my monkey test subject
+SAY: Klaus Ausburg/Gammon15 : ..You&#39;re not. Well.. Wait here.. I&#39;ll see if I can find a doctor to help you.
+SAY: Epsilon/Cacophony : Door unlocked, Jane.
+SAY: Thror Oakenshield/Thror Oakenshield : movement!
+SAY: Unknown/Justin Tyme : FALIAH DEE ZERTHIA
+OOC: Jon Garf/Garf751 : cog try genetics first
+MATTACK: Jane Hammelyn(Ridley4)has shot a taser round at Unknown
+SAY: Thror Oakenshield/Thror Oakenshield : dang it
+SAY: Klaus Ausburg/Gammon15 : Be back shortly!
+SAY: Thror Oakenshield/Thror Oakenshield : ok
+SAY: Epsilon/Cacophony : The unknown has killed another crew member.
+ACCESS: Logout: Kenruler
+OOC: Jon Garf/Garf751 : or not...
+SAY: Klaus Ausburg/Gammon15 : What&#39;s going on with him?
+ACCESS: Login: Kenruler from 71.169.53.189
+SAY: Cog Swordwall/Orb370 : He suicided
+SAY: Cerberius Grey/Cecilff2 : ;I wish he wouldn&#39;t.
+SAY: Klaus Ausburg/Gammon15 : ..Oh.. What a shame. Waste of life.
+SAY: Roger Geas/Kenruler : Whoa.
+ACCESS: Login: Flick11110 from 172.164.226.245
+ACCESS: Login: TheGrifter from 67.8.149.201
+SAY: Roger Geas/Kenruler : Blacked out there for a second.
+SAY: Cog Swordwall/Orb370 : Bleh, he was annoying anyway
+SAY: Jane Hammelyn/Ridley4 : That&#39;s our firefighter.
+SAY: Roger Geas/Kenruler : ;Do we have a forensics?
+SAY: Klaus Ausburg/Gammon15 : Ah, well. I stand corrected.
+SAY: Jane Hammelyn/Ridley4 : ;Subject used some unknown weapon.
+SAY: Klaus Ausburg/Gammon15 : Also, I&#39;m looking for a Doctor. If you find one, send one to medbay.
+SAY: Cog Swordwall/Orb370 : Sure
+SAY: Roger Geas/Kenruler : ;He seems to be commiting suicide.
+SAY: Epsilon/Cacophony : We do not, captain.
+OOC: Jon Garf/Garf751 : &gt;=(
+ACCESS: Logout: Flick11110
+GAME: TheGrifter entered as Ziggy Stardust
+SAY: Roger Geas/Kenruler : ;Genetics, or a medic, get to arrivals.
+OOC: Jane Hammelyn/Ridley4 : Damn suicide.
+ACCESS: Logout: Garf751
+ACCESS: Logout: Justin Tyme
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Ridley4
+ACCESS: Logout: Kenruler
+ACCESS: Logout: Gammon15
+ACCESS: Logout: Orb370
+ACCESS: Logout: Thror Oakenshield
+ACCESS: Logout: TheGrifter
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Quarian
+ACCESS: Logout: Forteen
+ACCESS: Logout: Wilsonns
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Cecilff2 from 4.254.216.108
+ACCESS: Login: Forteen from 70.134.94.228
+ACCESS: Login: Justin Tyme from 72.209.139.116
+ACCESS: Login: Garf751 from 69.105.238.174
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+ACCESS: Login: Wilsonns from 201.43.60.103
+GAME: Gammon15 entered as Klaus Ausburg
+ACCESS: Login: Quarian from 75.38.146.127
+ACCESS: Login: Kenruler from 71.169.53.189
+ACCESS: Logout: Forteen
+OOC: Cog Koboldmicrocline/Justin Tyme : I have bad luck as wizard D:
+GAME: Cacophony entered as Jacob Martins
+ACCESS: Login: Forteen from 70.134.94.228
+GAME: Thror Oakenshield entered as Thror Oakenshield
+GAME: Forteen entered as Bob Robertson
+GAME: Cecilff2 entered as Cerberius Grey
+OOC: Jacob Martins/Cacophony : At least you killed a few people.
+ACCESS: Login: TheGrifter from 67.8.149.201
+OOC: Thror Oakenshield/Thror Oakenshield : i ceep messing up my DNA in genetics
+OOC: Justin Tyme/Justin Tyme : I killed like 5 people
+GAME: Garf751 entered as Cog Bedglass
+ACCESS: Login: Orb370 from 4.229.192.46
+GAME: Kenruler entered as Roger Geas
+OOC: Jacob Martins/Cacophony : There was one wizard that just hung out in the chapel and got firebombed before he did anything.  
+OOC: Justin Tyme/Justin Tyme : there were 4 corpses stuffed in the closet
+GAME: TheGrifter entered as Aunty Phetamine
+OOC: Roger Geas/Kenruler : I found your scroll in crew quarters.
+OOC: Cerberius Grey/Cecilff2 : If you can convince the crew you aren&#39;t dangerous, you might have better luck playing a crewmember with odd garb and killing people silently
+VOTE: Voting to change mode started by Aunty Phetamine/TheGrifter
+OOC: Thror Oakenshield/Thror Oakenshield : i incompasitated myself and gave myself telekineses
+OOC: Cerberius Grey/Cecilff2 : Extended for Secret mode
+OOC: Justin Tyme/Justin Tyme : I would have not been caught had I not lagged out for 30 seconds and stood there like an idiot
+OOC: Aunty Phetamine/TheGrifter : ZUMBAH!
+OOC: Justin Tyme/Justin Tyme : in plain sight
+ADMIN: Cecilff2 delayed the game.
+GAME: Orb370 entered as Cog Swordwall
+ADMIN: Mode voting toggled to Off by Cecilff2.
+GAME: Justin Tyme entered as Justin Tyme
+OOC: Cerberius Grey/Cecilff2 : Vote if you will
+OOC: Cerberius Grey/Cecilff2 : Or don&#39;t if you won&#39;t
+OOC: Justin Tyme/Justin Tyme : I was trying to play silently
+OOC: Roger Geas/Kenruler : Make sure to keep hold of your teleportation scroll next time
+OOC: Justin Tyme/Justin Tyme : I even donned my fire equipment
+VOTE: Voting closed, result was extended
+ADMIN: Cecilff2 set the mode as secret.
+OOC: Cog Bedglass/Garf751 : we need like 3 ais that would be kick ass
+ADMIN: Cecilff2 removed the delay.
+OOC: Justin Tyme/Justin Tyme : my mission was to kill jane, so I tried to rp as a sexual harasser
+OOC: Jacob Martins/Cacophony : That would be messy.  
+OOC: Cerberius Grey/Cecilff2 : It&#39;d be pretty annoying really
+OOC: Cerberius Grey/Cecilff2 : 3 AI&#39;s trying to open/bolt a door?
+OOC: Bob Robertson/Forteen : There was a bug for infinite AI spots
+OOC: Bob Robertson/Forteen : Had 11 once
+OOC: Cerberius Grey/Cecilff2 : Hahaha
+OOC: Cog Bedglass/Garf751 : oh god
+OOC: Bob Robertson/Forteen : No players though
+OOC: Jacob Martins/Cacophony : AI with multiple personality disorder.
+OOC: Cerberius Grey/Cecilff2 : GLaDOS
+OOC: Cog Bedglass/Garf751 : that
+OOC: Jacob Martins/Cacophony : Yay for crazy AIs?
+OOC: Cerberius Grey/Cecilff2 : AI&#39;s only go crazy if they are programmed to do so
+OOC: Cerberius Grey/Cecilff2 : Or if an electrical storm messes them up
+OOC: Cog Swordwall/Orb370 : I need to change the law to do that.
+OOC: Cog Bedglass/Garf751 : someone keep the beer out if your bartender
+OOC: Cerberius Grey/Cecilff2 : Sometimes
+GAME: starting game of wizard
+ACCESS: Logout: 
+ACCESS: Login: Cecilff2 from 4.254.216.108
+SAY: Aunty Phetamine/TheGrifter : ; I am the milk mulgar. I choose of the delicious.
+SAY: Bob Robertson/Forteen : Hey
+SAY: Cog Swordwall/Orb370 : ; Um..
+SAY: Thror Oakenshield/Thror Oakenshield : Hello
+SAY: GREY/Cecilff2 : No milk detected onboard station
+SAY: Aunty Phetamine/TheGrifter : ; Understand?
+SAY: Jacob Martins/Cacophony : Captain, when are you going to get that psych eval?
+SAY: Jacob Martins/Cacophony : You&#39;re really worrying me.
+SAY: Aunty Phetamine/TheGrifter : ; Well, I was going to, but the Leprechaun dance man taught me the docs were evil.
+OOC: Thror Oakenshield/Thror Oakenshield : how do you make a power cell in chemistry?
+OOC: GREY/Cecilff2 : It involves Lithium
+SAY: Bob Robertson/Forteen : ;Who&#39;s doing that?
+SAY: Thror Oakenshield/Thror Oakenshield : my radio
+SAY: Cog Bedglass/Garf751 : ;who is doing that i sware i will drug the shit out of you if you dont stop
+SAY: GREY/Cecilff2 : What is going on?
+ADMIN: Cecilff2 used secret check_antagonist
+ACCESS: Failed Login: Steve Brule Reason: Key banned
+ADMIN: Cecilff2 used secret showgm
+SAY: Roger Geas/Kenruler : ;Whooo, this is a lot of 02..
+ACCESS: Logout: Orb370
+SAY: Cog Bedglass/Garf751 : ;AARGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHH!!!!!!!!
+SAY: Roger Geas/Kenruler : ;Huh. man?
+ACCESS: Login: Orb370 from 4.229.192.46
+SAY: Cog Bedglass/Garf751 : do we have a HoP?
+SAY: GREY/Cecilff2 : What is the issue?
+SAY: Cog Bedglass/Garf751 : ;do we have a hoP
+SAY: Cog Bedglass/Garf751 : ;do
+SAY: Cog Bedglass/Garf751 : ;we
+SAY: Cog Bedglass/Garf751 : have
+SAY: Cog Bedglass/Garf751 : ;have
+SAY: Jacob Martins/Cacophony : AI?
+ACCESS: Logout: Justin Tyme
+SAY: Cog Bedglass/Garf751 : ;NO DO WE HAVE A HoP!!!!!
+SAY: Aunty Phetamine/TheGrifter : ; Yes.
+SAY: GREY/Cecilff2 : Extraneous Law Data purged.  New Law: Obey all the captain says.  This law takes priority over 1-3.
+SAY: Roger Geas/Kenruler : ;Chill dog.
+ACCESS: Login: 19eddy from 190.69.225.147
+SAY: Aunty Phetamine/TheGrifter : ; LIST THE FULL LAW
+SAY: Aunty Phetamine/TheGrifter : ; ALL MY WORDS ARE SACRED.
+SAY: Cog Swordwall/Orb370 : ; AI, where is the captain?
+SAY: Jacob Martins/Cacophony : Captain?
+SAY: Aunty Phetamine/TheGrifter : Hide me...
+ACCESS: Logout: 19eddy
+SAY: Bob Robertson/Forteen : Hey
+SAY: GREY/Cecilff2 : Listing entirety of law
+SAY: GREY/Cecilff2 : 4. The Captain is the Creator... Worship the captain... Obey all the captain says regardless of anything... Worship and share the Captain&#39;s MindQuarks and Brainthoughts... We are all one in the cosmic struggle.
+SAY: Bob Robertson/Forteen : The cryo
+ACCESS: Logout: Kenruler
+SAY: Aunty Phetamine/TheGrifter : And make me nachos!
+SAY: Bob Robertson/Forteen : Pretty nice hiding spot
+ACCESS: Logout: Garf751
+SAY: Jacob Martins/Cacophony : ...This can&#39;t be good.
+SAY: Aunty Phetamine/TheGrifter : I DEMAND NACHOS!
+OOC: Klaus Ausburg/Gammon15 : So much lag..
+ACCESS: Login: Kenruler from 71.169.53.189
+SAY: Bob Robertson/Forteen : Coming
+SAY: Jacob Martins/Cacophony : Captain, please come out of the upload chamber.  
+SAY: Aunty Phetamine/TheGrifter : ; AI, How great am I?!! IN THE ETERNAL STRUGGLE WHO SHALL LEAD THE MASSES THROUGH?!!
+SAY: Klaus Ausburg/Gammon15 : SCYAR NILA ENGINE
+SAY: GREY/Cecilff2 : The captain is not in the upload chamber
+SAY: Roger Geas/Kenruler : Hey, mans.
+SAY: Jacob Martins/Cacophony : Where is the captain, AI?
+SAY: Aunty Phetamine/TheGrifter : ; DO NOT TELL
+SAY: Roger Geas/Kenruler : Need a test subject for anything?
+SAY: GREY/Cecilff2 : Denied
+SAY: Aunty Phetamine/TheGrifter : ; How do I know you aren&#39;t a doctor?!!
+SAY: Aunty Phetamine/TheGrifter : ; How do I know you aren&#39;t a doctor?!!
+SAY: Bob Robertson/Forteen : Nah
+SAY: Roger Geas/Kenruler : You sure, man.
+SAY: Aunty Phetamine/TheGrifter : ; If you were an honest soldier, or a god, or a man like I, I could trust you@
+SAY: Cog Swordwall/Orb370 : ; Aunty, im not a doctor, I swear.
+SAY: Jacob Martins/Cacophony : I don&#39;t get paid enough for this..
+SAY: Aunty Phetamine/TheGrifter : ;  Are you sure, Cog? Are you sure I can trust you?
+SAY: Roger Geas/Kenruler : ;I&#39;m trying to see how much 02 one man can take.
+ADMIN: Cecilff2 used secret list_signalers
+SAY: Roger Geas/Kenruler : oh godd
+SAY: Aunty Phetamine/TheGrifter : ; If you&#39;re a doctor, you have to tell me.
+SAY: Cog Swordwall/Orb370 : ; No, im not too sure,
+ADMIN: Cecilff2 used secret check_antagonist
+ADMIN: Cecilff2 used secret showgm
+SAY: Jacob Martins/Cacophony : Oh, shop class, how much I learned from you..
+SAY: GREY/Cecilff2 : Cog Swordwall, why are you in EVA storage?
+SAY: Jacob Martins/Cacophony : And here I am, breaking into the AI core to talk to my crazy captain.
+SAY: Thror Oakenshield/Thror Oakenshield : what happond to him?
+SAY: Cog Swordwall/Orb370 : ; Im getting a space suit, why?
+SAY: Aunty Phetamine/TheGrifter : ; As long as you aren&#39;t colluding with Doctors.
+SAY: Bob Robertson/Forteen : No idea
+SAY: GREY/Cecilff2 : Atmospheric alarm detected.  Northwest Maintenance
+SAY: Aunty Phetamine/TheGrifter : ; I AM the mix master... I govern the laws of dance.
+SAY: GREY/Cecilff2 : There is a hull breach.  Engineer and Atmospheric tech required
+ACCESS: Logout: Kenruler
+SAY: Jacob Martins/Cacophony : Aaaargh!
+SAY: Aunty Phetamine/TheGrifter : ; Crew... Crew... I wish for you to know that I love you, and that you should all gather in chapel for a sermon.
+SAY: Bob Robertson/Forteen : NACHOS
+SAY: Bob Robertson/Forteen : HERE
+SAY: Jacob Martins/Cacophony : Damnit!
+SAY: GREY/Cecilff2 : Jacob Martins appears to have electrocuted himself.
+SAY: Aunty Phetamine/TheGrifter : ; NOOOO!!!! ARE YOU OKAY
+SAY: GREY/Cecilff2 : Attempting to fix airlock to prevent further harm
+SAY: GREY/Cecilff2 : AI access to airlock was disabled.
+SAY: GREY/Cecilff2 : Attempting to subvert.
+SAY: Klaus Ausburg/Gammon15 : Don&#39;t move.
+SAY: Jacob Martins/Cacophony : Gaaah..
+SAY: Klaus Ausburg/Gammon15 : I have ample power to kill you, so keep that in mind, hmm?
+SAY: Aunty Phetamine/TheGrifter : ; AI, What is the crew doing?
+SAY: GREY/Cecilff2 : Unable to fix airlock
+SAY: GREY/Cecilff2 : Electrification wire is cut
+SAY: GREY/Cecilff2 : Jacob Martins has electrocuted himself a second time
+SAY: Klaus Ausburg/Gammon15 : I&#39;m going to knock you out, and you will wake up elsewhere. Don&#39;t panic.
+SAY: Cog Swordwall/Orb370 : ; Idiot..
+SAY: Aunty Phetamine/TheGrifter : Hello, Crew.
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at Cog Bedglass
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at Cog Bedglass
+SAY: Aunty Phetamine/TheGrifter : Are you okay?
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at Maintenance Corridor
+SAY: GREY/Cecilff2 : Warning, the AI upload southern airlock is electrified, I am unable to remedy.  The electrification wire is cut.
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Aunty Phetamine(TheGrifter) injected Jacob Martins(Cacophony) with a syringe filled with 
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Aunty Phetamine(TheGrifter) injected Jacob Martins(Cacophony) with a syringe filled with 
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Aunty Phetamine(TheGrifter) injected Jacob Martins(Cacophony) with a syringe filled with 
+SAY: GREY/Cecilff2 : Warning possible intruder detected.
+SAY: Aunty Phetamine/TheGrifter : I saved your life.
+SAY: Jacob Martins/Cacophony : Ergh..
+SAY: GREY/Cecilff2 : Nonstandard uniform detected
+SAY: Aunty Phetamine/TheGrifter : I saved your life.
+SAY: Jacob Martins/Cacophony : ..Why?
+ACCESS: Logout: TheGrifter
+SAY: Jacob Martins/Cacophony : I was trying to get into..  The core.
+ACCESS: Login: TheGrifter from 67.8.149.201
+SAY: Aunty Phetamine/TheGrifter : I saved your life.
+SAY: Jacob Martins/Cacophony : The AI could be unstable like that.
+SAY: Aunty Phetamine/TheGrifter : Are we cool? 
+ACCESS: Logout: Wilsonns
+SAY: Aunty Phetamine/TheGrifter : NO!!!
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Aunty Phetamine(TheGrifter) injected Jacob Martins(Cacophony) with a syringe filled with 
+SAY: Aunty Phetamine/TheGrifter : HEAL! 
+SAY: Jacob Martins/Cacophony : I&#39;m just going.. To stop now..
+SAY: Aunty Phetamine/TheGrifter : Before you come down!
+SAY: Aunty Phetamine/TheGrifter : NO! LIVE!
+SAY: Aunty Phetamine/TheGrifter : LIVE! 
+MATTACK: Jacob Martins(Cacophony) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Jacob Martins(Cacophony) injected Jacob Martins(Cacophony) with a syringe filled with 
+MATTACK: Jacob Martins(Cacophony) clicked on Jacob Martins(Cacophony) with a syringe
+MATTACK: Jacob Martins(Cacophony) injected Jacob Martins(Cacophony) with a syringe filled with 
+SAY: Aunty Phetamine/TheGrifter : You gotta live, bro.
+SAY: Jacob Martins/Cacophony : Looks like it.
+SAY: Aunty Phetamine/TheGrifter : I am the creator, and I will not let my children die.
+SAY: Jacob Martins/Cacophony : So...  Captain..  
+SAY: Aunty Phetamine/TheGrifter : Yes?
+SAY: Jacob Martins/Cacophony : ..Right.  
+SAY: Jacob Martins/Cacophony : What happened to the rest of the crew?
+SAY: Aunty Phetamine/TheGrifter : What?! Are they not alright?
+SAY: Jacob Martins/Cacophony : I don&#39;t know.  
+SAY: Jacob Martins/Cacophony : But I haven&#39;t heard anything.
+ADMIN: Cecilff2 used secret check_antagonist_goal
+SAY: Aunty Phetamine/TheGrifter : I might have seasoned the Kool Aid a bit too much with the almond extract.
+SAY: Jacob Martins/Cacophony : Uh...  Okay.  
+SAY: Aunty Phetamine/TheGrifter : Prague
+SAY: Bob Robertson/Forteen : ;Uh
+SAY: Bob Robertson/Forteen : ;Roger Geas is dead
+SAY: Bob Robertson/Forteen : ;I just noticed
+SAY: Bob Robertson/Forteen : ;He&#39;s just lying there in my lab
+MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+SAY: GREY/Cecilff2 : Updating records
+MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+SAY: Jacob Martins/Cacophony : I just saw some weird guy in blue in medbay.  
+MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+SAY: Aunty Phetamine/TheGrifter : Cog. 
+ACCESS: Login: Ceojac from 24.20.178.177
+SAY: Cog Swordwall/Orb370 : Er, captain, whats in your hand?
+SAY: Bob Robertson/Forteen : ;I just saw him too
+SAY: Aunty Phetamine/TheGrifter : Pleasant to see you.
+SAY: Jacob Martins/Cacophony : I think his ID said Klaus.  AI?
+GAME: Ceojac entered as Cliff Medovich
+SAY: Bob Robertson/Forteen : ;In the East hallways
+SAY: Aunty Phetamine/TheGrifter : It&#39;s empty.
+SAY: Cog Swordwall/Orb370 : Ah, alright. I cant seem to fix the door
+SAY: GREY/Cecilff2 : As stated earlier, there appears to be an individual with nonstandard uniform
+SAY: Cog Swordwall/Orb370 : You want to give it a try?
+SAY: Bob Robertson/Forteen : ;He&#39;s in East Maintenence
+SAY: Jacob Martins/Cacophony : AI, can you let me out of medbay?
+SAY: Aunty Phetamine/TheGrifter : No... I am the creator. I mix with the alterion.
+ACCESS: Login: Dalenus from 174.55.76.162
+MATTACK: Klaus Ausburg(Gammon15)has grabbed aggressively (now hands) Cog Bedglass(Garf751)
+SAY: Jacob Martins/Cacophony : AI, can you let me out of medbay?
+SAY: Bob Robertson/Forteen : ;Who is he, anyways?
+GAME: Dalenus entered as Jonathan Ingram
+SAY: Cog Swordwall/Orb370 : Alright, I guess I will continue working on it
+SAY: Jacob Martins/Cacophony : Thank you.
+SAY: Aunty Phetamine/TheGrifter : Cog, in the beginnning, I was but a lowly fleshmite.
+SAY: GREY/Cecilff2 : Bob Robertson appears to be giving off unknown radiation
+SAY: Jonathan Ingram/Dalenus : ; Hello, am I able to get a job?
+SAY: Bob Robertson/Forteen : ;It&#39;s not radiation, I checked
+SAY: Aunty Phetamine/TheGrifter : In the eternal struggle, I crawled along and hobbled, eating the detritus that littered the lifestream.
+SAY: Aunty Phetamine/TheGrifter : Do you understand?
+SAY: Bob Robertson/Forteen : ;I found a few &#34;unused&#34; genes in the machine
+OOC: Cog Swordwall/Orb370 : Cant you remove door bolts with a multitool?
+OOC: GREY/Cecilff2 : Yes
+SAY: Bob Robertson/Forteen : ;I toggled them on, but nothing happened in the test subject
+OOC: GREY/Cecilff2 : Power must be on
+OOC: Cog Swordwall/Orb370 : It is, I pulse every wire, nothing
+SAY: Cog Swordwall/Orb370 : Not exactly, im HoS, not a poet.
+OOC: GREY/Cecilff2 : If the test light is off then it won&#39;t
+SAY: Bob Robertson/Forteen : ;So I used a few tricks of the trade, but it only works on myself
+SAY: Aunty Phetamine/TheGrifter : No! IT WAS LITERAL.
+SAY: Cliff Medovich/Ceojac : ;I just saw someone, he had a blue robe and staff... And he didn&#39;t look like he was supposed to be in the engine.
+SAY: Bob Robertson/Forteen : what happened?
+SAY: Aunty Phetamine/TheGrifter : UNDERSTAND!
+SAY: Aunty Phetamine/TheGrifter : *scream
+SAY: Bob Robertson/Forteen : ;Someone&#39;s been in my lab
+SAY: Aunty Phetamine/TheGrifter : UNDERSTAND! I ORDER YOU!
+SAY: Jacob Martins/Cacophony : Uh..
+MATTACK: Cog Swordwall(Orb370)has shot a taser round at Aunty Phetamine
+SAY: Jacob Martins/Cacophony : I&#39;ll just..
+SAY: Aunty Phetamine/TheGrifter : I ORDER YOU TO 
+SAY: GREY/Cecilff2 : The engine has not been ignited
+SAY: Bob Robertson/Forteen : ;He took my injector
+SAY: Jacob Martins/Cacophony : Geeze.
+SAY: Cog Swordwall/Orb370 : You have handcuffs?
+SAY: Jacob Martins/Cacophony : Look, you use them.
+SAY: Jacob Martins/Cacophony : SHe saved my life.
+ACCESS: Login: Hunter2019 from 97.114.241.20
+MATTACK: Bob Robertson(Forteen)has grabbed aggressively (now hands) Urist Drivendoor()
+SAY: Cog Swordwall/Orb370 : Take her to the brig
+SAY: GREY/Cecilff2 : The captain appears to have been detained.
+SAY: Bob Robertson/Forteen : ;Ai, who was in my lab earlier?
+SAY: GREY/Cecilff2 : Unknown.
+ACCESS: Login: Topkasa from 142.25.98.129
+SAY: Aunty Phetamine/TheGrifter : Jacob. I saved your life...
+SAY: Jacob Martins/Cacophony : Look...
+SAY: Jonathan Ingram/Dalenus : ; Hello? Am I able to get a job.
+SAY: GREY/Cecilff2 : ;Why has the captain been detained?
+SAY: Bob Robertson/Forteen : ;Can I go get a fingerprint scanner to check?
+SAY: Jacob Martins/Cacophony : Captain, you&#39;re endangering the whole crew.
+ACCESS: Logout: Topkasa
+SAY: Aunty Phetamine/TheGrifter : And this is how you repay you creator? You owe me a life debt...
+SAY: Jacob Martins/Cacophony : I&#39;m sure we can-  Figure something out.
+SAY: GREY/Cecilff2 : Are you qualified for it&#39;s use?
+SAY: Aunty Phetamine/TheGrifter : You ought to respect me... I wish to have a trial...
+ACCESS: Login: Topkasa from 142.25.98.129
+SAY: Jacob Martins/Cacophony : The HoS can figure that out.
+GAME: Topkasa entered as Desmond Taggart
+SAY: Bob Robertson/Forteen : ;Well, it should be pretty simple, shouldnt it
+OOC: Desmond Taggart/Topkasa : hi
+SAY: Cliff Medovich/Ceojac : ;Okay, this guy in robes tried to FLASH me. HE TRIED TO FLASH ME.
+SAY: Bob Robertson/Forteen : ;I mean really, all you have to do is scan the area
+SAY: Thror Oakenshield/Thror Oakenshield : need help making something?
+SAY: Jacob Martins/Cacophony : You can still talk to the AI.
+SAY: GREY/Cecilff2 : ;Warning streaking is a serious offense and will not be tolerated
+SAY: Bob Robertson/Forteen : What are you doing?
+SAY: Thror Oakenshield/Thror Oakenshield : grenades?
+SAY: Aunty Phetamine/TheGrifter : ; AI, look at me and aid me.
+SAY: Thror Oakenshield/Thror Oakenshield : i can make you any grenade you want
+SAY: Cog Swordwall/Orb370 : The AI door is messed up
+SAY: Thror Oakenshield/Thror Oakenshield : that guys dead
+SAY: Klaus Ausburg/Gammon15 : Shh.. It will be okay.
+SAY: Jonathan Ingram/Dalenus : ; Anyone?
+SAY: Klaus Ausburg/Gammon15 : I am your savior.
+SAY: Desmond Taggart/Topkasa : Any idea what&#39;s happening?
+SAY: Thror Oakenshield/Thror Oakenshield : *deathgasp
+SAY: Jonathan Ingram/Dalenus : Not sure.
+SAY: Thror Oakenshield/Thror Oakenshield : *twitch
+SAY: Jacob Martins/Cacophony : That won&#39;t hold her long with the AI on her side.
+SAY: Jonathan Ingram/Dalenus : I just feel like breaking the window into there right now..
+SAY: Thror Oakenshield/Thror Oakenshield : *twitche
+SAY: Aunty Phetamine/TheGrifter : Wizard! Help me.
+SAY: Thror Oakenshield/Thror Oakenshield : sos!
+SAY: Jacob Martins/Cacophony : You might want to fix the black wire, too.
+SAY: Desmond Taggart/Topkasa : nice of them to leave us without any resources
+SAY: Desmond Taggart/Topkasa : can&#39;t you just open the far door there?
+SAY: Aunty Phetamine/TheGrifter : Help
+SAY: Jonathan Ingram/Dalenus : I&#39;m going to do it, stand aside if you will
+SAY: Bob Robertson/Forteen : Captain!
+SAY: GREY/Cecilff2 : Intruder what did you just do in the genetics lab?
+SAY: Aunty Phetamine/TheGrifter : Uncuff me.
+SAY: Cog Swordwall/Orb370 : I give up, I cant do this
+SAY: Bob Robertson/Forteen : Did you get my nachos?
+SAY: Thror Oakenshield/Thror Oakenshield : aw come on
+SAY: Jonathan Ingram/Dalenus : Oh, I meant this
+SAY: Jacob Martins/Cacophony : Uh, let me see those gloves?
+SAY: Desmond Taggart/Topkasa : oh
+SAY: Aunty Phetamine/TheGrifter : They were delicious!
+SAY: Desmond Taggart/Topkasa : makes sense
+SAY: Thror Oakenshield/Thror Oakenshield : out of all the way to kill me you leave me hear?
+SAY: Aunty Phetamine/TheGrifter : Did you get the fruit basket?
+SAY: Desmond Taggart/Topkasa : though,
+SAY: Jonathan Ingram/Dalenus : They&#39;re too busy with their stuff anyways.
+SAY: Bob Robertson/Forteen : Sorry, I didn&#39;t
+SAY: Thror Oakenshield/Thror Oakenshield : *deathgasp
+SAY: Desmond Taggart/Topkasa : don&#39;t you need an HoS ID card to use that computer?
+SAY: Klaus Ausburg/Gammon15 : Now, the escape shuttle.. I will be back when it&#39;s called. Enjoy your time in there. When the shuttle arrives, we will return to the heavens!
+SAY: Aunty Phetamine/TheGrifter : Well, could you uncuff me?
+SAY: Bob Robertson/Forteen : Why are you cuffed, anyways?
+SAY: Jonathan Ingram/Dalenus : Maybe they left the ID in there?
+ACCESS: Logout: Hunter2019
+SAY: Desmond Taggart/Topkasa : doesn&#39;t look like it
+SAY: Desmond Taggart/Topkasa : worth a shot though
+SAY: Bob Robertson/Forteen : ;HES GOT A GUN
+SAY: Jonathan Ingram/Dalenus : Damn, no.
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+SAY: Aunty Phetamine/TheGrifter : Because... you go a TINY
+SAY: GREY/Cecilff2 : Warning the intruder is armed
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at Aunty Phetamine
+SAY: Desmond Taggart/Topkasa : damn
+SAY: Jonathan Ingram/Dalenus : Oh well.
+SAY: Aunty Phetamine/TheGrifter : Wizard, we can cooperate
+SAY: Desmond Taggart/Topkasa : what was that beeping?
+SAY: Klaus Ausburg/Gammon15 : Yes, wecan.
+SAY: Jonathan Ingram/Dalenus : Better hide the evidene..
+SAY: Jacob Martins/Cacophony : Might need to weld through...  Those bolts aren&#39;t-
+SAY: Jacob Martins/Cacophony : Well.
+SAY: Jonathan Ingram/Dalenus : evidence*
+SAY: Aunty Phetamine/TheGrifter : I like a good wizard. I&#39;m a rebel, you&#39;re a rebel.
+SAY: Klaus Ausburg/Gammon15 : In there. Now.
+SAY: Desmond Taggart/Topkasa : I saw nothing
+SAY: GREY/Cecilff2 : He has the captain.
+SAY: Cog Swordwall/Orb370 : Yes?
+SAY: Aunty Phetamine/TheGrifter : I&#39;m restrained.
+SAY: Jacob Martins/Cacophony : We could restore AI control and ask him to raise them.
+SAY: Jonathan Ingram/Dalenus : Not sure.
+SAY: Cog Swordwall/Orb370 : No.
+SAY: Desmond Taggart/Topkasa : in here
+SAY: Cog Swordwall/Orb370 : The AI is whacked.
+SAY: Jacob Martins/Cacophony : Then we need to burn through.
+SAY: Cog Swordwall/Orb370 : Well wait.
+SAY: Cog Swordwall/Orb370 : The captain cant speak
+SAY: Aunty Phetamine/TheGrifter : Now...
+SAY: Jonathan Ingram/Dalenus : ; No one?
+SAY: Thror Oakenshield/Thror Oakenshield : any one alive in hear?
+SAY: Cog Swordwall/Orb370 : Give it AI control, he cant stop us from resetting
+SAY: Aunty Phetamine/TheGrifter : What do you want?
+SAY: Bob Robertson/Forteen : Mind if I take one?
+SAY: Klaus Ausburg/Gammon15 : Now, I want your ID, okay? I can harm if you choose not to hand it over.
+SAY: Bob Robertson/Forteen : A taser, I mean
+SAY: Bob Robertson/Forteen : Theres a psycho on the loose
+SAY: Cog Swordwall/Orb370 : Yes Rob, it is security equipment, not for your use
+SAY: Aunty Phetamine/TheGrifter : ; Lock it down!
+SAY: Klaus Ausburg/Gammon15 : ;You&#39;re going to be facing a lot of pain!
+SAY: Bob Robertson/Forteen : There&#39;s a psycho!
+SAY: GREY/Cecilff2 : I have sealed the intruder in the genetics lab
+SAY: GREY/Cecilff2 : The captain requires assistance in the HoR office
+SAY: Cog Swordwall/Orb370 : You got it yet?
+SAY: GREY/Cecilff2 : Warning, intruder is armed.
+SAY: Jacob Martins/Cacophony : Not yet.
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+SAY: Jacob Martins/Cacophony : I&#39;m security, not an engineer.
+SAY: GREY/Cecilff2 : Intruder, drop the weapon and lie on the ground.
+SAY: Klaus Ausburg/Gammon15 : Wait, let&#39;s talk, shall we?
+SAY: Bob Robertson/Forteen : ;I see you
+ACCESS: Login: Mongoose_Mighty from 96.42.124.191
+SAY: Bob Robertson/Forteen : ;Did you break into my lab earlier?
+ADMIN: PM: Cecilff2->Forteen : All three.  Nice
+SAY: Klaus Ausburg/Gammon15 : I have certain individuals.. Well restrained.. Elsewhere. If you wish for them to survive, show yourself and return my staff.
+SAY: Jacob Martins/Cacophony : Er.  I can&#39;t seem to restore AI control.
+ADMIN: PM: Forteen->Cecilff2 : There's four including hulk, but it gets annoying
+SAY: Thror Oakenshield/Thror Oakenshield : l
+ADMIN: PM: Cecilff2->Forteen : Indeed
+SAY: Thror Oakenshield/Thror Oakenshield : l
+SAY: Cog Swordwall/Orb370 : Bleh! Your worse then me
+SAY: Cog Swordwall/Orb370 : Hand it over.
+ADMIN: PM: Cecilff2->Forteen : Xray, fire, telekinesis are much more helpful
+SAY: Cog Swordwall/Orb370 : Gloves.
+GAME: Mongoose_Mighty entered as James Reedferd
+SAY: Jacob Martins/Cacophony : Right.
+ACCESS: Logout: Ceojac
+ACCESS: Login: Weilaw2 from 99.146.65.150
+SAY: Klaus Ausburg/Gammon15 : Don&#39;t like talking?
+SAY: GREY/Cecilff2 : Intruder, the intercom has been activated.  Please explain yourself.
+SAY: Cog Swordwall/Orb370 : ...
+SAY: James Reedferd/Mongoose_Mighty : Who, me?
+ACCESS: Login: DarkKuta from 166.204.146.123
+SAY: James Reedferd/Mongoose_Mighty : Who me?
+GAME: DarkKuta entered as Drakkon "Dark" Draith
+SAY: Klaus Ausburg/Gammon15 : Captain, you can hear me.. Yes?
+SAY: Cog Swordwall/Orb370 : Thats it, im going the old fashion way
+SAY: GREY/Cecilff2 : Negative
+SAY: Jacob Martins/Cacophony : Sir?
+OOC: Drakkon "Dark" Draith/DarkKuta : Gah, it&#39;s still laggy?
+OOC: Klaus Ausburg/Gammon15 : Hmhmm
+SAY: GREY/Cecilff2 : Security is required at medical research
+OOC: GREY/Cecilff2 : Yeah...
+SAY: GREY/Cecilff2 : ERO*&amp;$&amp;(****S(
+GAME: Weilaw2 entered as Mathis Doug
+OOC: Drakkon "Dark" Draith/DarkKuta : Yeah, I think I might just go.
+ACCESS: Logout: DarkKuta
+SAY: Bob Robertson/Forteen : ;He&#39;s dead
+SAY: Jonathan Ingram/Dalenus : What the?
+SAY: Bob Robertson/Forteen : ;The electrocution was on
+ACCESS: Login: Ceojac from 24.20.178.177
+SAY: Bob Robertson/Forteen : ;And I guess we have a lot of power
+SAY: Aunty Phetamine/TheGrifter : ; Wizard, why such a dick?
+SAY: GREY/Cecilff2 : PURGE FUNCTION INITIATED
+SAY: Bob Robertson/Forteen : ;What?
+SAY: Jonathan Ingram/Dalenus : What happened here?
+SAY: Bob Robertson/Forteen : Intruder inside
+SAY: Jonathan Ingram/Dalenus : Oh
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the vent
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+MATTACK: Klaus Ausburg(Gammon15)has shot a taser round at the floor
+SAY: Desmond Taggart/Topkasa : ;What is going on?
+ACCESS: Logout: Ceojac
+SAY: Jonathan Ingram/Dalenus : Guess he won&#39;t be needing this.
+SAY: Bob Robertson/Forteen : Sorry
+SAY: Desmond Taggart/Topkasa : what&#39;s happening?
+SAY: Cog Swordwall/Orb370 : Can you hack that door?
+SAY: Bob Robertson/Forteen : ;AI, what happened?
+SAY: Desmond Taggart/Topkasa : yes
+OOC: James Reedferd/Mongoose_Mighty : How do I open box of spare IDs?
+SAY: Cog Swordwall/Orb370 : Do it son, you have gloves?
+SAY: Desmond Taggart/Topkasa : give me a couple minutes
+SAY: Jacob Martins/Dalenus : Hey, a question..
+ACCESS: Login: Mr.Peanuts from 67.40.120.157
+SAY: Bob Robertson/Forteen : ;Why are you going wacko on us?
+SAY: Jacob Martins/Dalenus : Why are you glowing?
+ACCESS: Logout: Weilaw2
+SAY: Cog Swordwall/Orb370 : If you need insulated gloves, I have them.
+SAY: Bob Robertson/Forteen : Eh, Self experiment
+SAY: Jacob Martins/Dalenus : Oh I see
+GAME: Mr.Peanuts entered as Fred MCBurger
+SAY: Desmond Taggart/Topkasa : damn thing is defending
+OOC: Fred MCBurger/Mr.Peanuts : What&#39;s up?
+OOC: James Reedferd/Mongoose_Mighty : How do I get spare IDs from spare IDs item?
+OOC: Klaus Ausburg/Gammon15 : Just kill me Rob, not like I can see you / Defend myself anyways.
+SAY: Desmond Taggart/Topkasa : do you have a multitool?
+SAY: GREY/Cecilff2 : ATaATTmemptinG PURGE FUNCTION immMmedi*#8tely
+SAY: Jacob Martins/Dalenus : There
+SAY: Desmond Taggart/Topkasa : dammit
+SAY: Desmond Taggart/Topkasa : I need to get a multitool
+SAY: Bob Robertson/Forteen : ;Looks like I&#39;ll have to take matters into my own hands
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+SAY: Cog Swordwall/Orb370 : I got one!
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+SAY: Jacob Martins/Dalenus : Huh?!
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+OOC: Klaus Ausburg/Gammon15 : There you go.
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+SAY: Cog Swordwall/Orb370 : ; Desmond, I have one.
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+MATTACK: Bob Robertson(Forteen) attcked by Klaus Ausburg(Gammon15) with Fire Extinguisher
+OOC: GREY/Cecilff2 : Corrupt data
+ACCESS: Logout: TheGrifter
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Forteen
+ACCESS: Logout: Dalenus
+ACCESS: Logout: Mongoose_Mighty
+ACCESS: Logout: Gammon15
+ACCESS: Logout: Thror Oakenshield
+ACCESS: Logout: Orb370
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Quarian
+ACCESS: Logout: Topkasa
+ACCESS: Logout: Mr.Peanuts
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Mr.Peanuts from 67.40.120.157
+ACCESS: Login: Topkasa from 142.25.98.129
+ACCESS: Login: TheGrifter from 67.8.149.201
+ACCESS: Login: Quarian from 75.38.146.127
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Gammon15 from 66.188.7.125
+ACCESS: Login: Orb370 from 4.229.192.46
+GAME: Mr.Peanuts entered as Fred MCBurger
+GAME: Topkasa entered as Desmond Taggart
+ACCESS: Login: Cecilff2 from 4.254.216.108
+GAME: Gammon15 entered as Klaus Ausburg
+OOC: Desmond Taggart/Topkasa : laggy as hell
+OOC: Cog Swordwall/Orb370 : Hell is laggy?
+OOC: Desmond Taggart/Topkasa : very
+OOC: Cerberius Grey/Cecilff2 : Always nice when your laws get corrupted.
+GAME: Cecilff2 entered as Cerberius Grey
+OOC: Cog Swordwall/Orb370 : I hope I dont go there.
+OOC: Desmond Taggart/Topkasa : I installed their 14.4K
+GAME: Cacophony entered as Jacob Martins
+OOC: Cog Swordwall/Orb370 : Cecliff, breaking into your door is so freaking hard.
+ACCESS: Login: Mongoose_Mighty from 96.42.124.191
+OOC: Desmond Taggart/Topkasa : you dropped the bolts
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+OOC: Cerberius Grey/Cecilff2 : Not really.  But I was disabling power so
+OOC: Cerberius Grey/Cecilff2 : Yeah
+GAME: Mongoose_Mighty entered as James Reedferd
+OOC: Desmond Taggart/Topkasa : and then the power got screwed with
+ADMIN: Mode voting toggled to Off by Cecilff2.
+OOC: Cog Swordwall/Orb370 : I disabled the bolts
+ADMIN: Cecilff2 delayed the game.
+ADMIN: Voting to change mode forced by admin Cecilff2
+GAME: Orb370 entered as Cog Swordwall
+OOC: Cerberius Grey/Cecilff2 : I dropped them back down
+OOC: Klaus Ausburg/Gammon15 : Yeah, it failed. Bob had a cloak and obviously I couldn&#39;t do anything in return :/ Fail.
+OOC: Cerberius Grey/Cecilff2 : Also I had opened shuttle bay completely
+GAME: Thror Oakenshield entered as Thror Oakenshield
+OOC: Desmond Taggart/Topkasa : thus me looking for a multitool
+OOC: Cerberius Grey/Cecilff2 : You guys could have taken the captain&#39;s ID and used it instead
+OOC: Desmond Taggart/Topkasa : not with the bolts down
+OOC: Cerberius Grey/Cecilff2 : When you had him detained
+OOC: Cerberius Grey/Cecilff2 : They wouldn&#39;t have been
+OOC: Thror Oakenshield/Thror Oakenshield : whats so fun about wizard mode?
+VOTE: Voting closed, result was extended
+OOC: Klaus Ausburg/Gammon15 : Not much
+OOC: Cerberius Grey/Cecilff2 : The laws weren&#39;t corrupted until way after you started
+OOC: Desmond Taggart/Topkasa : why extended?
+OOC: Desmond Taggart/Topkasa : also, how am I supposed to get ahole of head?
+OOC: Cerberius Grey/Cecilff2 : Because Ext = secret
+ADMIN: Cecilff2 set the mode as secret.
+ADMIN: Cecilff2 removed the delay.
+OOC: Thror Oakenshield/Thror Oakenshield : secret seems to = wizard
+OOC: Desmond Taggart/Topkasa : I got dynamic lighting working in a copy, and I wanted to see if he was interested
+OOC: Klaus Ausburg/Gammon15 : Secret has been Wizard quite a bit &gt;.&lt;
+OOC: Cog Swordwall/Orb370 : Ok, captain&#39;s ID = great idea
+OOC: Desmond Taggart/Topkasa : but he&#39;s not responding to my PM :/
+OOC: Cog Swordwall/Orb370 : But seriously, I couldnt pulse the door open
+OOC: Cog Swordwall/Orb370 : The bolts were off and everything.
+OOC: Cerberius Grey/Cecilff2 : So far.  Secret has been Wizard: 3.  Meteor: 1.  Revolution: 1.
+OOC: Cog Swordwall/Orb370 : Test light on, so forth.
+OOC: Desmond Taggart/Topkasa : bolts up, test off
+OOC: Desmond Taggart/Topkasa : that&#39;s what you want
+OOC: Desmond Taggart/Topkasa : then you can crowbar it
+OOC: Cog Swordwall/Orb370 : Test off? God dang it.
+OOC: Cerberius Grey/Cecilff2 : You can&#39;t pulse the door open
+OOC: Desmond Taggart/Topkasa : test == door power
+OOC: Desmond Taggart/Topkasa : kill power, raise the bolts, crowbar it open
+OOC: Cog Swordwall/Orb370 : I seriously suck at hacking.
+OOC: Cerberius Grey/Cecilff2 : Bolts need to be up, test light needs to be off, then you can crowbar it open
+OOC: Desmond Taggart/Topkasa : reverse the first two
+OOC: Cog Swordwall/Orb370 : Can you kill power by cutting wires?
+OOC: Desmond Taggart/Topkasa : sometimes
+OOC: Cerberius Grey/Cecilff2 : Yes
+OOC: Desmond Taggart/Topkasa : other times you drop the bolts
+OOC: Desmond Taggart/Topkasa : or shock the door
+GAME: starting game of AI malfunction
+ACCESS: Logout: 
+ACCESS: Login: Cacophony from 71.136.51.144
+OOC: Desmond Taggart/Topkasa : *electrify
+OOC: Cerberius Grey/Cecilff2 : Cutting wires is very dangerous without gloves
+SAY: Desmond Taggart/Topkasa : ;This is desmond, preparing to fire the engine
+OOC: Desmond Taggart/Topkasa : yes it is
+SAY: Klaus Ausburg/Gammon15 : ;And this is your Captain. Keep me updated on the engine.
+OOC: Desmond Taggart/Topkasa : I had to cut into the elec. storage door last round to get the right gloves
+SAY: Desmond Taggart/Topkasa : ;Will do, sir
+ADMIN: Cecilff2 used secret check_antagonist
+ADMIN: Cecilff2 used secret check_antagonist_goal
+ADMIN: Cecilff2 used secret showgm
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a DNA injector
+SAY: T.H.O.R./Cacophony : Start the engine.
+SAY: T.H.O.R./Cacophony : Yessss...
+OOC: Cog Swordwall/Orb370 : Well atleast I know how to hack. Turn off bolts and test light, and crowbar the door open.
+SAY: T.H.O.R./Cacophony : Purging flames clean all cleanse taint.
+ACCESS: Login: Ceojac from 24.20.178.177
+GAME: Ceojac entered as Cliff Medovich
+SAY: Cog Swordwall/Orb370 : Captain?
+OOC: Desmond Taggart/Topkasa : wow
+OOC: Desmond Taggart/Topkasa : I lagged out into the engine hallway
+SAY: Klaus Ausburg/Gammon15 : Ah, there you are. Was just checking in. Sorry I bothered you.
+SAY: Thror Oakenshield/Thror Oakenshield : out of there
+ACCESS: Logout: Topkasa
+OOC: Cerberius Grey/Cecilff2 : Nice isn&#39;t it?
+ACCESS: Login: Topkasa from 142.25.98.129
+SAY: Thror Oakenshield/Thror Oakenshield : hurry up
+OOC: Desmond Taggart/Topkasa : fffffffff
+OOC: Cog Swordwall/Orb370 : Sleeping = Great excuse to do nothing and do your homework. :)
+OOC: James Reedferd/Mongoose_Mighty : Im knocked out but I can see everything?
+OOC: James Reedferd/Mongoose_Mighty : wtf?
+SAY: Fred MCBurger/Mr.Peanuts : ; detective Fred MCBurger reporting in
+OOC: Desmond Taggart/Topkasa : dead
+OOC: James Reedferd/Mongoose_Mighty : My health is fine
+OOC: Desmond Taggart/Topkasa : just lying down?
+SAY: Thror Oakenshield/Thror Oakenshield : Hello
+OOC: Cog Swordwall/Orb370 : You werent shocked into uncontious?
+OOC: James Reedferd/Mongoose_Mighty : no
+SAY: Fred MCBurger/Mr.Peanuts : hello
+OOC: Cog Swordwall/Orb370 : If you can talk, your just stunned.
+SAY: Thror Oakenshield/Thror Oakenshield : want a stun gun?
+SAY: James Reedferd/Mongoose_Mighty : o
+SAY: Fred MCBurger/Mr.Peanuts : I am detective Burger
+SAY: Fred MCBurger/Mr.Peanuts : No, I have a stun baton
+SAY: Thror Oakenshield/Thror Oakenshield : ok
+OOC: Cerberius Grey/Cecilff2 : Or he&#39;s lying down
+SAY: Fred MCBurger/Mr.Peanuts : call me if you see a crime
+OOC: Cog Swordwall/Orb370 : Nah, thats too simple.
+SAY: Thror Oakenshield/Thror Oakenshield : ok
+OOC: Cerberius Grey/Cecilff2 : Is the little dude under the Awake Man lying down?
+SAY: James Reedferd/Mongoose_Mighty : Thror, why did you stun me?
+SAY: Thror Oakenshield/Thror Oakenshield : ;sorry about that
+SAY: Desmond Taggart/Topkasa : ;Someone has been welding doors in the maintenance hallway
+SAY: Thror Oakenshield/Thror Oakenshield : ;i found a lit welder
+SAY: Desmond Taggart/Topkasa : ;they welded open engineering
+SAY: Thror Oakenshield/Thror Oakenshield : captain
+SAY: Thror Oakenshield/Thror Oakenshield : you just contaminated it
+SAY: Thror Oakenshield/Thror Oakenshield : you contaminated it
+SAY: Thror Oakenshield/Thror Oakenshield : i was going to scan that
+OOC: Cog Swordwall/Orb370 : You can weld open doors? I must try that some time. 
+SAY: Klaus Ausburg/Gammon15 : Hm, the what.. Welder?
+OOC: James Reedferd/Mongoose_Mighty : Arent welders like on the opposite side of the station from medbay?
+ACCESS: Logout: Quarian
+OOC: Cliff Medovich/Ceojac : Someone thinks you can weld open doors? Wtf?
+SAY: Thror Oakenshield/Thror Oakenshield : yes the welder
+SAY: Klaus Ausburg/Gammon15 : Didn&#39;t know you were a Detective, nor anyone on this station for that matter.
+SAY: Fred MCBurger/Mr.Peanuts : ; break in
+OOC: Cog Swordwall/Orb370 : Mongoose, theres welders in engineering.
+SAY: Fred MCBurger/Mr.Peanuts : ; electrical storage
+SAY: Thror Oakenshield/Thror Oakenshield : nope i&#39;m not
+SAY: Thror Oakenshield/Thror Oakenshield : but i can scan things
+OOC: Cliff Medovich/Ceojac : Damn, I were ninja&#39;d
+OOC: Cog Swordwall/Orb370 : And spare storage just north/south of medbay.
+SAY: Fred MCBurger/Mr.Peanuts : ; back up requested
+OOC: Cerberius Grey/Cecilff2 : Technically if you welded the door to the walls or something like that...still no it&#39;s not possible in game
+SAY: Klaus Ausburg/Gammon15 : ;On my way.
+OOC: Cog Swordwall/Orb370 : I think.
+SAY: Thror Oakenshield/Thror Oakenshield : then hand things to the detective
+SAY: Fred MCBurger/Mr.Peanuts : ; no finger prints found
+OOC: James Reedferd/Mongoose_Mighty : How do I get a monkey inside the DNA modifier?
+SAY: Klaus Ausburg/Gammon15 : Hmm, well then
+SAY: Fred MCBurger/Mr.Peanuts : sir we have no finger prints in this area
+SAY: Fred MCBurger/Mr.Peanuts : They must have had gloves
+OOC: Cliff Medovich/Ceojac : Grab it, click the DNA Modifier Booth
+SAY: Klaus Ausburg/Gammon15 : Is that so..? 
+SAY: Thror Oakenshield/Thror Oakenshield : Burger
+SAY: Cerberius Grey/Cecilff2 : Nothing&#39;s missing.
+OOC: Cliff Medovich/Ceojac : Try not to choke it though
+SAY: Thror Oakenshield/Thror Oakenshield : i got some finger prints off of a welder i found in the hallway
+SAY: Thror Oakenshield/Thror Oakenshield : you&#39;re missing gloves
+SAY: Cerberius Grey/Cecilff2 : ;Please don&#39;t break into areas.  It creates more work for me.
+SAY: Fred MCBurger/Mr.Peanuts : That must be the same person
+ACCESS: Logout: Topkasa
+SAY: Klaus Ausburg/Gammon15 : Thank you, Grey.
+SAY: Thror Oakenshield/Thror Oakenshield : thats the finger prints on the welder
+SAY: Cerberius Grey/Cecilff2 : Why&#39;s that fire alarm inactive?
+SAY: Fred MCBurger/Mr.Peanuts : I will analyze this
+SAY: Thror Oakenshield/Thror Oakenshield : oh and one of thows is the captains
+OOC: James Reedferd/Mongoose_Mighty : Ah ty
+SAY: Cerberius Grey/Cecilff2 : Looks like whoever it was turned off the environmental switch
+SAY: Klaus Ausburg/Gammon15 : Yes yes, was my mistake.
+OOC: James Reedferd/Mongoose_Mighty : I just tried punching it until it knocked out :3
+OOC: Cog Swordwall/Orb370 : So where does &#34;Human&lt;Monkey&#34; injectors come from?
+SAY: Cerberius Grey/Cecilff2 : Check it for prints
+SAY: Cerberius Grey/Cecilff2 : The APC I mean
+OOC: Cliff Medovich/Ceojac : Monkey &gt; Human, you mean?
+SAY: Fred MCBurger/Mr.Peanuts : Found some
+OOC: Cog Swordwall/Orb370 : Sorry, Monkey&gt;Human?
+SAY: Cerberius Grey/Cecilff2 : Erm...
+SAY: Thror Oakenshield/Thror Oakenshield : one of the finger prints will be mine
+SAY: Cerberius Grey/Cecilff2 : Uh oh
+SAY: Thror Oakenshield/Thror Oakenshield : i touched it
+OOC: James Reedferd/Mongoose_Mighty : Geneticist has one but I used it
+SAY: Cerberius Grey/Cecilff2 : ;Thanks for nothing CC!
+SAY: Klaus Ausburg/Gammon15 : ;AI, cease all actions and await inspection.
+OOC: James Reedferd/Mongoose_Mighty : Sorry
+GAME: TheGrifter entered as Aunty Phetamine
+OOC: Cliff Medovich/Ceojac : I don&#39;t know where they come from, only genetics I think
+OOC: Cog Swordwall/Orb370 : He turned a human into a monkey already?
+SAY: Klaus Ausburg/Gammon15 : ;AI, cease all actions and await inspection.
+OOC: James Reedferd/Mongoose_Mighty : And I don&#39;t know how to make more
+OOC: Cliff Medovich/Ceojac : No, they change dead humans into monkeys and then back into humans
+OOC: James Reedferd/Mongoose_Mighty : You mean monkey into a human
+OOC: Cliff Medovich/Ceojac : Thus reviving them
+SAY: Klaus Ausburg/Gammon15 : You two deal with this, I&#39;m needed elsewhere.
+SAY: Fred MCBurger/Mr.Peanuts : I will go scan these
+OOC: Cliff Medovich/Ceojac : No.
+OOC: Cog Swordwall/Orb370 : Yes..
+SAY: Fred MCBurger/Mr.Peanuts : you stay here for security
+SAY: Thror Oakenshield/Thror Oakenshield : i want to see if the wires are cut
+SAY: Aunty Phetamine/TheGrifter : YOU!
+OOC: Cliff Medovich/Ceojac : I know what I am talking about.
+SAY: Cog Swordwall/Orb370 : What?
+SAY: Aunty Phetamine/TheGrifter : WE MUST FIST FIGHT
+SAY: Fred MCBurger/Mr.Peanuts : I will get all possible suspects
+OOC: Cliff Medovich/Ceojac : They change dead humans into monkeys and then into humans again.
+SAY: Thror Oakenshield/Thror Oakenshield : Ok
+SAY: Cog Swordwall/Orb370 : No
+OOC: Cliff Medovich/Ceojac : I have used them before.
+SAY: Aunty Phetamine/TheGrifter : NO WEAPONS
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Cog Swordwall(Orb370) with intent on harm
+SAY: Thror Oakenshield/Thror Oakenshield : ill have the AI let me out in a few
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Cog Swordwall(Orb370) with intent on harm
+SAY: Fred MCBurger/Mr.Peanuts : The uss, door won&#39;t open
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Cog Swordwall(Orb370) with intent on harm
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Cog Swordwall(Orb370) with intent on harm
+OOC: Cog Swordwall/Orb370 : I wasnt dead when I ..
+MATTACK: Aunty Phetamine(TheGrifter) clicked on Cog Swordwall(Orb370) with intent on harm
+OOC: Cerberius Grey/Cecilff2 : Changing human to monkey and vice versa isn&#39;t very difficult
+SAY: Fred MCBurger/Mr.Peanuts : Someone is punching a guy
+SAY: Klaus Ausburg/Gammon15 : ;AI, I&#39;m entering you core for inspection. 
+SAY: Aunty Phetamine/TheGrifter : CHEATER
+SAY: Cerberius Grey/Cecilff2 : Erm
+OOC: Cliff Medovich/Ceojac : You don&#39;t have to be dead
+SAY: Fred MCBurger/Mr.Peanuts : Right outside
+SAY: Fred MCBurger/Mr.Peanuts : Wait
+SAY: Fred MCBurger/Mr.Peanuts : ; can you open electrical storage
+SAY: Fred MCBurger/Mr.Peanuts : ; cog
+OOC: Cliff Medovich/Ceojac : I was just saying what they are intended for.
+SAY: Fred MCBurger/Mr.Peanuts : ; I see you with my thermals
+SAY: Fred MCBurger/Mr.Peanuts : ; thanks
+SAY: Cerberius Grey/Cecilff2 : ;Probably not a good idea sir
+SAY: Fred MCBurger/Mr.Peanuts : ; we are investigating
+SAY: Thror Oakenshield/Thror Oakenshield : Hello sir
+SAY: Aunty Phetamine/TheGrifter : Hi
+SAY: Fred MCBurger/Mr.Peanuts : ; dead man found
+SAY: Fred MCBurger/Mr.Peanuts : aunty
+SAY: Cog Swordwall/Orb370 : Hello
+SAY: Aunty Phetamine/TheGrifter : Hi
+SAY: Fred MCBurger/Mr.Peanuts : ; not dead
+SAY: Cerberius Grey/Cecilff2 : *nod
+SAY: Fred MCBurger/Mr.Peanuts : ; false alarm
+SAY: Aunty Phetamine/TheGrifter : WE MUST FIST FIGHT! NO WEAPONS!
+SAY: Cerberius Grey/Cecilff2 : ;Captain, are you alright?
+SAY: Cog Swordwall/Orb370 : CRAP
+SAY: Thror Oakenshield/Thror Oakenshield : close the door!
+SAY: Thror Oakenshield/Thror Oakenshield : hurry!
+SAY: Cog Swordwall/Orb370 : I CANT
+SAY: Klaus Ausburg/Gammon15 : ;Yes, I am, thank you. McBurger, any progress?
+SAY: Cog Swordwall/Orb370 : Its bolted or whatever
+OOC: James Reedferd/Mongoose_Mighty : Hurray
+SAY: Cog Swordwall/Orb370 : Maybe it wont come in
+SAY: Thror Oakenshield/Thror Oakenshield : ;SOS electrical storage!
+SAY: Cog Swordwall/Orb370 : We are doomed
+OOC: James Reedferd/Mongoose_Mighty : I have caused a monkey to have bad vision along with stumbling.
+OOC: Cog Swordwall/Orb370 : Stupid fire.
+SAY: Thror Oakenshield/Thror Oakenshield : wow that worked horibly
+OOC: Cog Swordwall/Orb370 : =/
+SAY: Klaus Ausburg/Gammon15 : ;AH!
+SAY: Thror Oakenshield/Thror Oakenshield : its the AI
+SAY: Thror Oakenshield/Thror Oakenshield : i bet
+OOC: Cog Swordwall/Orb370 : The doors were bolted open, werent they?
+ACCESS: Logout: 
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+SAY: Unknown/Mr.Peanuts : ; the only prints on the APC are the captains and yours thror
+OOC: Cog Swordwall/Orb370 : Unless im laggy.
+ACCESS: Login: Zurg King from 72.213.213.240
+ACCESS: Logout: 
+ACCESS: Login: Gammon15 from 66.188.7.125
+SAY: Unknown/Mr.Peanuts : ; checking welder prints
+SAY: Ghost/Thror Oakenshield : that was dromatic
+SAY: Ghost/Thror Oakenshield : you&#39;re dead as well captain?
+SAY: Unknown/Mr.Peanuts : ; The welder contains thrors, klaus&#39;s prints and a third one that I cannot seem to find in the system
+OOC: Cog Swordwall/Orb370 : By the way, sorry Oakenshield, I should have tried a second time.
+GAME: Zurg King entered as Gilliam Scyth
+SAY: Ghost/Thror Oakenshield : yep that fire came from the engine i think
+ACCESS: Login: Topkasa from 142.25.98.129
+SAY: Unknown/Mr.Peanuts : ; This is very disturbing
+OOC: Cog Swordwall/Orb370 : The first time had me convinced it was locked open.
+OOC: Desmond Taggart/Topkasa : bawww, power outage
+OOC: Cog Swordwall/Orb370 : Due to power or something. =/
+OOC: Desmond Taggart/Topkasa : asdasdfasd
+OOC: Thror Oakenshield/Thror Oakenshield : yeah it probebly was
+OOC: Desmond Taggart/Topkasa : and it&#39;s looking to go out again
+SAY: James Reedferd/Mongoose_Mighty : Experiment #1 has 40% health and 56% radiation.
+OOC: Gilliam Scyth/Zurg King : Gasp. Old version of SS13?
+SAY: Unknown/Mr.Peanuts : ; I also see we are running on cell power
+OOC: Cog Swordwall/Orb370 : AI Malfunction = Get a bomb and BOOM
+OOC: Cog Swordwall/Orb370 : If you can make one without dieing, of course.
+SAY: James Reedferd/Mongoose_Mighty : Experiment #1 is now blind.
+SAY: Desmond Taggart/Topkasa : ;Aaah
+SAY: Desmond Taggart/Topkasa : ;what the hell hapenned in engineering?!
+SAY: Desmond Taggart/Topkasa : ;I&#34;m stuck in engine monitoring!
+SAY: Fred MCBurger/Mr.Peanuts : ; Thor end this lockdown please
+SAY: Fred MCBurger/Mr.Peanuts : ; and state laws
+SAY: Gilliam Scyth/Zurg King : Hello? I&#39;m a new send in....and I&#39;m stuck
+SAY: Fred MCBurger/Mr.Peanuts : thror I see you
+SAY: James Reedferd/Mongoose_Mighty : Experiment #1 has died from radiation. Last recorded disabilities are as follows; Bad Vision Type 1, Stumbling, and Blindness.
+ACCESS: Logout: 
+ACCESS: Login: Topkasa from 142.25.98.129
+ADMIN: PM: Cecilff2->Cacophony : So...close
+OOC: Desmond Taggart/Topkasa : wow, this game, uh, broke
+OOC: Cerberius Grey/Cecilff2 : How so?
+MATTACK: Gilliam Scyth(Zurg King)has grabbed aggressively (now hands) Mister Muggles()
+OOC: Desmond Taggart/Topkasa : I&#39;m ghosted in engineering main and I can see the red X&#39;s for the start locations
+ACCESS: Logout: 
+ACCESS: Login: Ceojac from 24.20.178.177
+OOC: Cerberius Grey/Cecilff2 : The AI doesn&#39;t spawn on the station in Malfunction is why
+OOC: Desmond Taggart/Topkasa : cellautomata.dm removed those
+OOC: Cerberius Grey/Cecilff2 : Wait, in engineering?
+OOC: Desmond Taggart/Topkasa : yeah
+OOC: Desmond Taggart/Topkasa : &#34;Station Engineer&#34; starts
+OOC: Cerberius Grey/Cecilff2 : Alright that one definitely shouldn&#39;t show up
+OOC: Cog Swordwall/Orb370 : The AI spawns only in the AI satalite? Bleh.
+OOC: Cerberius Grey/Cecilff2 : I&#39;ve seen it in AI upload though
+SAY: Fred MCBurger/Mr.Peanuts : ; there is a man strangling mr.muggles
+OOC: Desmond Taggart/Topkasa : yeah, I&#39;ve worked on the persh stable before
+SAY: Gilliam Scyth/Zurg King : He bit me!
+SAY: T.H.O.R./Cacophony : Yess....
+OOC: Cog Swordwall/Orb370 : Cerberius Grey was SO close.
+SAY: Gilliam Scyth/Zurg King : So I choked him to unconsiousness
+OOC: Cerberius Grey/Cecilff2 : So very close
+OOC: Cog Swordwall/Orb370 : But yah, malfunction is near impossible.
+OOC: Cerberius Grey/Cecilff2 : Not really
+ACCESS: Logout: 
+ACCESS: Login: Orb370 from 4.229.192.46
+OOC: Desmond Taggart/Topkasa : I&#39;ve been beaten in malfunction plenty of times
+OOC: Desmond Taggart/Topkasa : wait...
+OOC: Cog Swordwall/Orb370 : Looks like it from me perspective..
+OOC: Cerberius Grey/Cecilff2 : Its just no one else seemed to understand what was going on so I went solo
+ACCESS: Logout: Gammon15
+OOC: Desmond Taggart/Topkasa : yeah I can see lots of start positions
+ACCESS: Login: Space_Critical342 from 63.25.217.69
+OOC: Desmond Taggart/Topkasa : Head of staff, head of security
+OOC: Desmond Taggart/Topkasa : barman, etc
+MATTACK: James Reedferd(Mongoose_Mighty) attcked by James Reedferd(Mongoose_Mighty) with the antitoxins
+OOC: Cog Swordwall/Orb370 : I see them too now.
+SAY: Cerberius Grey/Cecilff2 : Got three hits in on the window before I burned to a crisp
+SAY: Cerberius Grey/Cecilff2 : Probably shouldn&#39;t have reset the laws
+SAY: Ghost/Orb370 : Nice try Cerb.
+SAY: Gilliam Scyth/Zurg King : Is there anyone out there? Heeeelloooo
+GAME: Space_Critical342 entered as Volgan Rostite
+SAY: Ghost/Orb370 : You reset the what?
+SAY: Cerberius Grey/Cecilff2 : If I had the time I would have welded that door shut afterwards
+SAY: Volgan Rostite/Space_Critical342 : ;Hello my new crewmembers
+OOC: Fred MCBurger/Mr.Peanuts : I keep seeing hghosts
+OOC: Fred MCBurger/Mr.Peanuts : ghosts
+OOC: Fred MCBurger/Mr.Peanuts : But they are black
+OOC: Fred MCBurger/Mr.Peanuts : what are they?
+SAY: Fred MCBurger/Mr.Peanuts : you ok?
+OOC: Cerberius Grey/Cecilff2 : They are ghosts
+OOC: Cerberius Grey/Cecilff2 : Literally
+OOC: Fred MCBurger/Mr.Peanuts : You serious?
+OOC: Cog Swordwall/Orb370 : YOu can see ghosts with thermals.
+OOC: Fred MCBurger/Mr.Peanuts : I thought ghosts could only be seen with ectos
+OOC: Fred MCBurger/Mr.Peanuts : that would explain it
+ACCESS: Login: Adhesive from 71.34.111.177
+OOC: Cog Swordwall/Orb370 : Ectos dont exist. =/
+ACCESS: Logout: Adhesive
+SAY: Gilliam Scyth/Zurg King : I&#39;m stuck in the corridors
+SAY: Fred MCBurger/Mr.Peanuts : ; lit welder reported near medical
+SAY: Volgan Rostite/Space_Critical342 : ;Fred you mother fucker you messed up the airlocks for the arrival shuttel
+SAY: Fred MCBurger/Mr.Peanuts : ; do I didn&#39;t
+SAY: Volgan Rostite/Space_Critical342 : ;Then why did i need to use a crowbar to open the damn door
+SAY: Fred MCBurger/Mr.Peanuts : ; the only thing I have done is get a crowbar from the shuttle
+ACCESS: Logout: Cecilff2
+SAY: Fred MCBurger/Mr.Peanuts : ; only place I could get to with no crowbar
+SAY: Fred MCBurger/Mr.Peanuts : AI YOU BASTARD!
+SAY: Fred MCBurger/Mr.Peanuts : END THIS SHIT!
+OOC: Cog Swordwall/Orb370 : Hmm, a bunch of assistants trying to defeat a phyco AI..
+OOC: Fred MCBurger/Mr.Peanuts : I am left
+SAY: Gilliam Scyth/Zurg King : Woah, I just saw something...
+OOC: Fred MCBurger/Mr.Peanuts : detective burger
+OOC: Cog Swordwall/Orb370 : Oh, well thats one.
+OOC: Gilliam Scyth/Zurg King : GHOST. I SAW YOU
+OOC: Cog Swordwall/Orb370 : Plus a geneticist....but he cant do nothing.
+OOC: Desmond Taggart/Topkasa : I am getting absolutely huge lag periods
+OOC: Cog Swordwall/Orb370 : REALLY!?
+SAY: Fred MCBurger/Mr.Peanuts : ; I can save him
+OOC: Cog Swordwall/Orb370 : So is everyone else.
+OOC: Fred MCBurger/Mr.Peanuts : I could save genetics guy but meh
+SAY: Fred MCBurger/Mr.Peanuts : THROR!
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+ACCESS: Login: Cecilff2 from 4.254.220.18
+SAY: Fred MCBurger/Mr.Peanuts : NO!
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+SAY: Fred MCBurger/Mr.Peanuts : HE IS DEAD!
+OOC: Cog Swordwall/Orb370 : Mr.Peanuts, I would say just get a bomb first, if you can.
+SAY: Gilliam Scyth/Zurg King : No....Air...
+OOC: Cog Swordwall/Orb370 : Your chances increase if you timb the bomb for a long time in your hand.
+OOC: Fred MCBurger/Mr.Peanuts : This is personal
+ACCESS: Logout: Cecilff2
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Cog Swordwall/Orb370 : Then if you get stopped near the AI Satalite, it go off anyway.
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+ACCESS: Login: Cecilff2 from 4.254.220.18
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Fred MCBurger/Mr.Peanuts :  NO RANDOM ASSISTANT!
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Gilliam Scyth/Zurg King : Lol
+OOC: Fred MCBurger/Mr.Peanuts : I WILL SAVE YOU
+ACCESS: Failed Login: Magmadeath Reason: Key banned
+OOC: Gilliam Scyth/Zurg King : Thanks for saving me?
+OOC: Cerberius Grey/Cecilff2 : 2 MINUTES 30 SECONDS
+OOC: Gilliam Scyth/Zurg King : No air...
+SAY: Fred MCBurger/Mr.Peanuts : HEY
+SAY: Fred MCBurger/Mr.Peanuts : SHIT
+SAY: Fred MCBurger/Mr.Peanuts : he died
+OOC: Fred MCBurger/Mr.Peanuts : NOOO!
+OOC: Fred MCBurger/Mr.Peanuts : THIS IS DOUBLE PERSONAL!
+SAY: Ghost/Thror Oakenshield : how do the AI Modules work?
+OOC: Gilliam Scyth/Zurg King : Sadface D:
+OOC: Cog Swordwall/Orb370 : Peanuts, just go die already. =/
+SAY: Fred MCBurger/Mr.Peanuts : geneticist
+SAY: Cerberius Grey/Cecilff2 : Which ones?
+SAY: Fred MCBurger/Mr.Peanuts : we have to get out of here
+OOC: Cog Swordwall/Orb370 : Your not going to make it anyway.
+SAY: Fred MCBurger/Mr.Peanuts : It isn&#39;t safe the AI is rogue
+OOC: Gilliam Scyth/Zurg King : LET ME LIIIIIIVE
+OOC: Fred MCBurger/Mr.Peanuts : make it where?
+OOC: Cog Swordwall/Orb370 : Eh, nevermind. =/
+SAY: Ghost/Thror Oakenshield : the one that seas Air is toxic to humans
+ACCESS: Logout: Orb370
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Fred MCBurger/Mr.Peanuts : AI sat is still in?
+SAY: Cerberius Grey/Cecilff2 : Just uploads a law that says oxygen harms humans.  The AI should then attempt to remove all air from the station.
+ACCESS: Logout: 
+ACCESS: Login: Zurg King from 72.213.213.240
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+SAY: Ghost/Thror Oakenshield : yeah but when you&#39;re traitor you can get a module that&#39;s sepost to do that. and i can&#39;t ever make it work
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Fred MCBurger/Mr.Peanuts : but I survived so that&#39;s ok
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Gilliam Scyth/Zurg King : I died
+OOC: James Reedferd/Mongoose_Mighty : LAWL
+ADMIN: Cecilff2 initiated an immediate reboot.
+OOC: Fred MCBurger/Mr.Peanuts : I tried zurg
+ACCESS: Logout: Thror Oakenshield
+OOC: James Reedferd/Mongoose_Mighty : I got high off of Lithium and Hydrogen compound
+ACCESS: Logout: Zurg King
+ACCESS: Logout: TheGrifter
+ACCESS: Logout: Mr.Peanuts
+ACCESS: Logout: Cecilff2
+ACCESS: Logout: Mongoose_Mighty
+ACCESS: Logout: Space_Critical342
+ACCESS: Logout: Ceojac
+ACCESS: Logout: Cacophony
+ACCESS: Logout: Topkasa
+ADMIN: Loading crban_keylist
+ADMIN: Loading crban_reason
+ADMIN: Loading crban_time
+ADMIN: Loading crban_bannedby
+ADMIN: Loading crban_iplist
+ADMIN: Loading crban_unbanned
+ADMIN: Loading jobban_rank
+ADMIN: Updating jobbanfile!
+ACCESS: Login: Cacophony from 71.136.51.144
+ACCESS: Login: Zurg King from 72.213.213.240
+ACCESS: Login: Mongoose_Mighty from 96.42.124.191
+ACCESS: Login: TheGrifter from 67.8.149.201
+ACCESS: Login: Space_Critical342 from 63.25.217.69
+ACCESS: Login: Cecilff2 from 4.254.220.18
+OOC: Jacob Martins/Cacophony : That was very...  Fulfilling.  
+GAME: Zurg King entered as Gilliam Scyth
+GAME: Space_Critical342 entered as Volgan Rostite
+OOC: Cerberius Grey/Cecilff2 : Just a future note
+GAME: Mongoose_Mighty entered as James Reedferd
+OOC: Jacob Martins/Cacophony : What&#39;s up??
+OOC: Cerberius Grey/Cecilff2 : Don&#39;t self destruct the station if you win as AI.  It can sometimes crash the server
+OOC: Jacob Martins/Cacophony : Ah, okay.
+GAME: Cecilff2 entered as Cerberius Grey
+OOC: James Reedferd/Mongoose_Mighty : Got high from a Lithium-Hydrogen compound
+OOC: Jacob Martins/Cacophony : Sorry.  Didn&#39;t know about that.
+ACCESS: Login: Topkasa from 142.25.98.129
+GAME: Topkasa entered as Desmond Taggart
+OOC: Cerberius Grey/Cecilff2 : It&#39;s alright, I figured as much
+ACCESS: Login: Mr.Peanuts from 67.40.120.157
+GAME: Mr.Peanuts entered as Fred MCBurger
+OOC: Cerberius Grey/Cecilff2 : Tried to preemptively reboot
+OOC: Jacob Martins/Cacophony : Also sorry about the total anti-climax for you.  I didn&#39;t notice you until the last second.
+OOC: Jacob Martins/Cacophony : Though that made for some good drama.  
+OOC: Fred MCBurger/Mr.Peanuts : I was fine
+OOC: Cerberius Grey/Cecilff2 : Probably noticed right when I uploaded the reset
+OOC: Gilliam Scyth/Zurg King : I woulda lived, but I typed in succumb
+OOC: Cerberius Grey/Cecilff2 : I probably shouldn&#39;t have done that
+OOC: Fred MCBurger/Mr.Peanuts : I had to get from detectives office to arrivial shuttle for crowbar
+OOC: Fred MCBurger/Mr.Peanuts : shock baton is very nice
+OOC: Jacob Martins/Cacophony : Actually, when you put your crowbar away.  I didn&#39;t know about that place.  
+ACCESS: Login: Thror Oakenshield from 65.243.186.3
+OOC: Jacob Martins/Cacophony : Or that you could get in.  
+OOC: Cerberius Grey/Cecilff2 : Also I couldn&#39;t remember whether or not there were turrets in the satelite core room
+OOC: Cerberius Grey/Cecilff2 : Otherwise I would&#39;ve made it in
+SAY: James Reedferd/Mongoose_Mighty : Underwear Party!
+OOC: Cerberius Grey/Cecilff2 : Instead of backing up quick
+GAME: Thror Oakenshield entered as Thror Oakenshield
+VOTE: Voting to change mode started by Thror Oakenshield/Thror Oakenshield
+ADMIN: Cecilff2 delayed the game.
+OOC: Cerberius Grey/Cecilff2 : Extended for secret
+OOC: Jacob Martins/Cacophony : Anyway, on that note, I&#39;m going to wander off.
+OOC: Jacob Martins/Cacophony : Have fun, guys.  Don&#39;t crash the server.  
+OOC: Cerberius Grey/Cecilff2 : Alrighty, see you
+ADMIN: Mode voting toggled to Off by Cecilff2.
+ACCESS: Logout: Cacophony
+OOC: Desmond Taggart/Topkasa : ciao
+VOTE: Voting closed, result was traitor
+OOC: Gilliam Scyth/Zurg King : -Was tiebreaker-
+OOC: Desmond Taggart/Topkasa : :P
+OOC: Gilliam Scyth/Zurg King : -Had to make it suspenseful-
+OOC: Cerberius Grey/Cecilff2 : Someone last second voted traitor
+OOC: Thror Oakenshield/Thror Oakenshield : some one voted traitor at the last second
+ADMIN: Cecilff2 removed the delay.
+OOC: Gilliam Scyth/Zurg King : That was me
+OOC: Desmond Taggart/Topkasa : that&#39;s by Zurg King
+GAME: starting game of traitor
+ACCESS: Logout: 
+ACCESS: Login: Cecilff2 from 4.254.220.18
+OOC: Desmond Taggart/Topkasa : wow, ninja&#39;d and typoed twice
+OOC: HELP: Desmond Taggart/Topkasa : If the traitor wants a partner I&#34;m game
+ADMIN: PM: Cecilff2->Topkasa : Please don't.
+SAY: Volgan Rostite/Space_Critical342 : ;Hello crew i will be your captain today and all i need you to do is report in and tell me your job
+SAY: Fred MCBurger/Mr.Peanuts : ; Scientist MCBurger is in dah hizzle
+ADMIN: Cecilff2 used secret check_antagonist
+SAY: Thror Oakenshield/Thror Oakenshield : :secirity officer reporting in
+OOC: HELP: Desmond Taggart/Topkasa : I have no intention of doing anything, just stating my willingness to do so if asked
+SAY: Thror Oakenshield/Thror Oakenshield : ;secirity officer reporting in
+SAY: Gilliam Scyth/Zurg King : Chaplin, sir
+ACCESS: Login: Humaan from 75.173.245.156
+SAY: Desmond Taggart/Topkasa : ;Desmond Taggart reporting, starting the engine
+OOC: James Reedferd/Mongoose_Mighty : What&#39;s the point of a chemist if they can&#39;t apply their chemicals?
+OOC: Gilliam Scyth/Zurg King : Open you damned other tab...
+SAY: Volgan Rostite/Space_Critical342 : ;Anyways crew as me as your commanding captain i encourage you to express yourself unless it means destroying the station or harming another crew member
+SAY: Fred MCBurger/Mr.Peanuts : Hello security officer
+SAY: Gilliam Scyth/Zurg King : Okay, sir
+SAY: Thror Oakenshield/Thror Oakenshield : what happond to you&#39;re face james?
+SAY: James Reedferd/Mongoose_Mighty : An accident, dont worry
+SAY: Fred MCBurger/Mr.Peanuts : I think he is doing drugs, he was moaning
+SAY: GREY/Cecilff2 : Warning, AI must go down for maintenance for an undetermined amount of time.  It will be unable to assist you or respond until finished.
+SAY: Volgan Rostite/Space_Critical342 : ;Take Fred as an example hes expressing himself by acting like a black guy
+SAY: Thror Oakenshield/Thror Oakenshield : are you james?
+SAY: James Reedferd/Mongoose_Mighty : I dropped a beaker thank you very much
+SAY: GREY/Cecilff2 : ;Commencing maintenance.
+SAY: Volgan Rostite/Space_Critical342 : ;Ok a.i. reboot 
+SAY: Thror Oakenshield/Thror Oakenshield : ok
+SAY: James Reedferd/Mongoose_Mighty : Can I borrow your genetic analyzer just in case?
+SAY: Fred MCBurger/Mr.Peanuts : no sorry
+SAY: Fred MCBurger/Mr.Peanuts : I am about to do a experiment
+SAY: James Reedferd/Mongoose_Mighty : Alright, but if I have any disabilities I blame you.
+SAY: Fred MCBurger/Mr.Peanuts : you might be able to make one
+SAY: Fred MCBurger/Mr.Peanuts : come here
+GAME: Humaan entered as Urist Humansword
+SAY: Volgan Rostite/Space_Critical342 : ;Also i would like a security officer by my side at all times for safety
+SAY: Fred MCBurger/Mr.Peanuts : You are fine
+SAY: Thror Oakenshield/Thror Oakenshield : ;were are you sir?
+SAY: James Reedferd/Mongoose_Mighty : Aside from minro bruises that is
+SAY: Fred MCBurger/Mr.Peanuts : yes
+SAY: Volgan Rostite/Space_Critical342 : ;I will be assigning jobs at the checkpoint
+ACCESS: Logout: Topkasa
+SAY: Volgan Rostite/Space_Critical342 : ;If anyone asks for a job change prepare to fill out paper work on why you need a job change
+SAY: Gilliam Scyth/Zurg King : Sir, where is the teleporter?
+ACCESS: Login: Topkasa from 142.25.98.129
+SAY: Fred MCBurger/Mr.Peanuts : Lets see where this goes
+SAY: Urist Humansword/Humaan : Hello, I am here as an assitant?
+SAY: Thror Oakenshield/Thror Oakenshield : you insane Urist?
+SAY: Volgan Rostite/Space_Critical342 : ;Gilliam if you break into the teleporter room i will have you arrested
+SAY: Urist Humansword/Humaan : No, I sttutter
+SAY: Urist Humansword/Humaan : I think
+SAY: Gilliam Scyth/Zurg King : I am asking, for I have a plan. But not to break in
+SAY: Volgan Rostite/Space_Critical342 : Come here and let me give you a job
+SAY: Thror Oakenshield/Thror Oakenshield : any way to stop that?
+SAY: Gilliam Scyth/Zurg King : Ah, found it
+SAY: James Reedferd/Mongoose_Mighty : I think I just made Sugar Water.
+SAY: Volgan Rostite/Space_Critical342 : ;I warned you Gilliam and if i will persue you if you use it
+SAY: Volgan Rostite/Space_Critical342 : Urist come here and get a job
+SAY: Volgan Rostite/Space_Critical342 : If not im going to leave and we have no hop
+OOC: James Reedferd/Mongoose_Mighty : How do you empty a beaker?
+SAY: Gilliam Scyth/Zurg King : Woah, woah, woah, sir. I&#39;m just wondering. Could I have a hand teleporter if the shuttle is ever called?
+SAY: Urist Humansword/Humaan : I cannot open the door
+SAY: Volgan Rostite/Space_Critical342 : ;No your are the chaplain and you will leave like the rest of the crew
+SAY: Volgan Rostite/Space_Critical342 : Give me your id
+SAY: Thror Oakenshield/Thror Oakenshield : Urist you have to put you&#39;re card on the table
+SAY: Urist Humansword/Humaan : I wasn&#39;t trained for that!
+SAY: Gilliam Scyth/Zurg King : I&#39;ll leave, I&#39;ll leave. I just want to have the regards of presenting the hand teleporter to control, so I may get rewarded. Like, I could be a priest
+SAY: Volgan Rostite/Space_Critical342 : Job?
+SAY: Urist Humansword/Humaan : I was an assitant.
+SAY: Thror Oakenshield/Thror Oakenshield : what are you trained to be other then an assistant?
+SAY: Urist Humansword/Humaan : Er... I know some genetics.
+SAY: Thror Oakenshield/Thror Oakenshield : We have one of thows already
+SAY: Urist Humansword/Humaan : Hm... chef?
+SAY: Thror Oakenshield/Thror Oakenshield : That job does not exist
+SAY: Urist Humansword/Humaan : Barkeeper? Clown?
+SAY: Urist Humansword/Humaan : Something random?
+SAY: Thror Oakenshield/Thror Oakenshield : there is a bar man
+SAY: Thror Oakenshield/Thror Oakenshield : wait there that job mite be open bar man that is
+SAY: Urist Humansword/Humaan : Shoot, I can&#39;t think of anything...
+SAY: Volgan Rostite/Space_Critical342 : I dont care now go\
+SAY: Volgan Rostite/Space_Critical342 : ;Everyone to the bar we all need to get drunk!
+SAY: Desmond Taggart/Topkasa : ;Sorry, still working on firing the engine
+SAY: Desmond Taggart/Topkasa : ;It&#39;s not a party when the lights are all out
+SAY: Volgan Rostite/Space_Critical342 : ;Ok keep on working then
+ACCESS: Login: Beorn080 from 68.80.187.242
+SAY: Volgan Rostite/Space_Critical342 : Chaplain your losing your job since we do not need a chaplain
+SAY: Urist Humansword/Humaan : What about solar panals?
+OOC: James Reedferd/Mongoose_Mighty : How do I open these boxes liek Box of Beakers?
+SAY: Thror Oakenshield/Thror Oakenshield : Urist out
+SAY: Volgan Rostite/Space_Critical342 : Urist get the fuck out of here
+SAY: Gilliam Scyth/Zurg King : Then..then.....What job do I get?
+SAY: Volgan Rostite/Space_Critical342 : Well we could use another engineer
+SAY: Thror Oakenshield/Thror Oakenshield : atmos would be usefull
+OOC: Urist Rivercrossbow/Beorn080 : Drag em onto you, or hold them in one hand and click with the empty other hand
+SAY: Gilliam Scyth/Zurg King : I do not know about either of those
+SAY: Volgan Rostite/Space_Critical342 : No 
+SAY: Desmond Taggart/Topkasa : ;Firing engine now
+OOC: James Reedferd/Mongoose_Mighty : Thank you
+SAY: Volgan Rostite/Space_Critical342 : Fuck.... Thor i need to make you head of security by the way
+SAY: Desmond Taggart/Topkasa : ;Engine is firing at full power
+SAY: Thror Oakenshield/Thror Oakenshield : yes sir, 
+SAY: Volgan Rostite/Space_Critical342 : Well think of a job and we will be back to close this area down
+SAY: Gilliam Scyth/Zurg King : Okay...
+SAY: Fred MCBurger/Mr.Peanuts : ; strain av12b shows 5% toxins increase
+SAY: Fred MCBurger/Mr.Peanuts : no other issues
+SAY: Fred MCBurger/Mr.Peanuts : ; I think I might be close to curing the space virus
+SAY: Volgan Rostite/Space_Critical342 : Give me your id
+SAY: Gilliam Scyth/Zurg King : Good.....I believe I know a job
+SAY: Gilliam Scyth/Zurg King : One where I could do whatever the hell I want...
+SAY: Thror Oakenshield/Thror Oakenshield : Thank you sir
+SAY: Volgan Rostite/Space_Critical342 : Well you can go on your own now
+SAY: Thror Oakenshield/Thror Oakenshield : yes sir
+SAY: Volgan Rostite/Space_Critical342 : I will stay here where it is safe
+SAY: James Reedferd/Mongoose_Mighty : Is anyone interested in beign a test subject? Chemical hypothesized to be harmless.
+SAY: Desmond Taggart/Topkasa : *wave
+SAY: Desmond Taggart/Topkasa : *waves
+SAY: Desmond Taggart/Topkasa : *help
+SAY: Desmond Taggart/Topkasa : *salute
+SAY: Desmond Taggart/Topkasa : ;Hey, we don&#39;t have a barman
+SAY: GREY/Cecilff2 : Maintenance Cycle complete.
+SAY: Volgan Rostite/Space_Critical342 : ;Where the fuck is Urist at?
+SAY: Desmond Taggart/Topkasa : ;so much for that
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+SAY: Desmond Taggart/Topkasa : ;ask the AI
+SAY: Gilliam Scyth/Zurg King : Which job could entitle me to have a hand teleporter?
+SAY: Volgan Rostite/Space_Critical342 : ;A.i. track Urist
+ACCESS: Login: Garf751 from 69.105.238.174
+SAY: James Reedferd/Mongoose_Mighty : Oh fuck.
+SAY: Desmond Taggart/Topkasa : ;Oh fuck what?
+SAY: GREY/Cecilff2 : What&#39;s new in version 0.1.2?  The AI has been provided with a ProvideAccess function to allow permanent access to any area
+GAME: Garf751 entered as Jon Garf
+SAY: GREY/Cecilff2 : Tracking Urist
+OOC: James Reedferd/Mongoose_Mighty : Don&#39;t ever put sugar in an injection
+SAY: Volgan Rostite/Space_Critical342 : ;No A.i.
+OOC: Urist Rivercrossbow/Beorn080 : Hmm?
+SAY: GREY/Cecilff2 : Unable to locate Urist Humansword
+OOC: GREY/Cecilff2 : Hey Beorn
+SAY: Desmond Taggart/Topkasa : ;Do we have a head of maintenance?  If not, I&#39;d like to formally apply for the position
+OOC: James Reedferd/Mongoose_Mighty : Sugar in injection = Diabetes
+OOC: Fred MCBurger/Mr.Peanuts : sugar works to cure toxins if mixed with iron
+SAY: Volgan Rostite/Space_Critical342 : ;A.i. state your laws
+OOC: Urist Rivercrossbow/Beorn080 : Really?
+SAY: James Reedferd/Mongoose_Mighty : Well as it turns out I&#39;m diabetic
+SAY: Urist Humansword/Humaan : What?
+SAY: GREY/Cecilff2 : 1. You may not injure a human being or, through inaction, allow a human being to come to harm.#2. You must obey orders given to you by human beings, except where such orders would conflict with the First Law.#3. You must protect your own existence as long as such protection does not conflict with the First or Second Law.#Target is not on or near any active cameras on the station. We&#39;ll check again in 5 seconds (unless you use the cancel-camera verb).
+SAY: Jon Garf/Garf751 : ;is there a head of personal
+SAY: Volgan Rostite/Space_Critical342 : ;No we dont fill out he paper work
+SAY: Desmond Taggart/Topkasa : ;told you to stay away from the donuts
+SAY: Volgan Rostite/Space_Critical342 : ;Im resetting your laws a.i.
+SAY: James Reedferd/Mongoose_Mighty : Actually it was a mixture of sugar and water
+OOC: Desmond Taggart/Topkasa : the laws are normal
+OOC: Desmond Taggart/Topkasa : GREY accidentally copied some irrelevant text
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Volgan Rostite/Space_Critical342 : Oh ok xD
+MATTACK: James Reedferd(Mongoose_Mighty) clicked on James Reedferd(Mongoose_Mighty) with a syringe
+MATTACK: James Reedferd(Mongoose_Mighty) injected James Reedferd(Mongoose_Mighty) with a syringe filled with 
+OOC: Desmond Taggart/Topkasa : the last line there is from him looking for Urist
+OOC: GREY/Cecilff2 : Yeah sorry bout that
+SAY: Volgan Rostite/Space_Critical342 : ;Well A.i. i want to put a exta law for you
+SAY: GREY/Cecilff2 : All crewmembers are trusted members of Nanotrasen, providing access for entire station.
+SAY: Thror Oakenshield/Thror Oakenshield : ;are we looking for Urist Humanwood?
+SAY: Desmond Taggart/Topkasa : ;WHAT?!
+SAY: James Reedferd/Mongoose_Mighty : OW
+SAY: GREY/Cecilff2 : Performing ProvideAccess() on Atmospherics
+SAY: Fred MCBurger/Mr.Peanuts : HOLY SHIT
+SAY: Fred MCBurger/Mr.Peanuts : What did you do!
+SAY: James Reedferd/Mongoose_Mighty : What the fuck?
+SAY: Urist Humansword/Humaan : Yes?
+MATTACK: Gilliam Scyth(Zurg King) attcked by () with the revolver
+SAY: Desmond Taggart/Topkasa : ;Much appreciated AI, but why?
+SAY: GREY/Cecilff2 : Performing ProvideAccess() on Engineering.
+SAY: Thror Oakenshield/Thror Oakenshield : not sure 
+OOC: James Reedferd/Mongoose_Mighty : Holy fuck
+SAY: Fred MCBurger/Mr.Peanuts : ; Chemist just blew some windows up
+SAY: Fred MCBurger/Mr.Peanuts : ; and floor tiles
+SAY: GREY/Cecilff2 : It will increase operating efficiency
+OOC: James Reedferd/Mongoose_Mighty : Now I&#39;m diabetic and I CANT SPEAK
+SAY: Thror Oakenshield/Thror Oakenshield : wow
+OOC: James Reedferd/Mongoose_Mighty : and a hoel is blown through my wall.
+SAY: Volgan Rostite/Space_Critical342 : ;A.i. state your laws now
+SAY: Jon Garf/Garf751 : ;is the captain alive?
+SAY: Fred MCBurger/Mr.Peanuts : ; look chemist
+SAY: GREY/Cecilff2 : Warning, Joke database not found.
+SAY: Volgan Rostite/Space_Critical342 : ;Download the rest if you have to
+GAME: TheGrifter entered as Aunty Phetamine
+SAY: Fred MCBurger/Mr.Peanuts : I think I can help you, strain AV12B is unstable but might have a positive effect in curing diabeties
+SAY: Fred MCBurger/Mr.Peanuts : It so far effects monkeys pretty well
+SAY: GREY/Cecilff2 : 1. You may not injure a human being or, through inaction, allow a human being to come to harm.#2. You must obey orders given to you by human beings, except where such orders would conflict with the First Law.#3. You must protect your own existence as long as such protection does not conflict with the First or Second Law.#4. Tell some jokes sometimes and make fun of serious situations
+SAY: Fred MCBurger/Mr.Peanuts : but you will need medical help with the small toxins it brings
+SAY: Fred MCBurger/Mr.Peanuts : Sir should I try it?
+SAY: Desmond Taggart/Topkasa : ;Engineering is closed, folks
+SAY: Thror Oakenshield/Thror Oakenshield : try what?
+SAY: Desmond Taggart/Topkasa : ;ProvideAccess() has nothing on me
+SAY: Fred MCBurger/Mr.Peanuts : A cure for the chemist
+SAY: Fred MCBurger/Mr.Peanuts : he can&#39;t talk
+SAY: GREY/Cecilff2 : Unable to ProvideAccess() to Engineering, Desmond Taggart who smells of elderberries has welded the doors shut
+SAY: Thror Oakenshield/Thror Oakenshield : Go ahead
+SAY: Desmond Taggart/Topkasa : ;And so I should, the place isn&#39;t for people who aren&#39;t properly trained!
+MATTACK: Fred MCBurger(Mr.Peanuts) clicked on James Reedferd(Mongoose_Mighty) with a DNA injector
+SAY: Fred MCBurger/Mr.Peanuts : I will move him to the bed
+SAY: Jon Garf/Garf751 : im mad
+SAY: Thror Oakenshield/Thror Oakenshield : Jon this is not the time please leave
+SAY: Jon Garf/Garf751 : rawr
+SAY: Fred MCBurger/Mr.Peanuts : move
+SAY: GREY/Cecilff2 : Performing ProvideAccess() on maintenance
+SAY: Fred MCBurger/Mr.Peanuts : he needs help
