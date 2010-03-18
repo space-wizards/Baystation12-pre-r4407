@@ -4561,3 +4561,48 @@ obj/machinery/vendingmachine/soda
 	desc = "Best soft-drink in the world"
 /obj/item/weapon/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 /mob/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
+
+
+/obj/item/weapon/bulb
+	name = "Fluorescent Bulb"
+	icon_state = "bulb"
+	var/bulbtype = "fluorescent"
+	var/life = 0
+	var/bright = 6
+	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
+
+/obj/item/weapon/bulb/incandescent
+	name = "Incandescent Bulb"
+	bulbtype = "incandescent"
+	bright = 4
+	icon_state = "incandescent"
+	w_class = 1.0 //But you can fit a 4" incandescent bulb, that makes sense.
+
+/obj/item/weapon/bulb/incandescent/cfl
+	name = "CFL Bulb"
+	bright = 6 //fluorescent output in an incandescent form factor!
+	//icon_state = "cfl" //Graphics not actually done
+
+/obj/machinery/light //Normal fluorescent
+	name = "Light Fixture"
+	icon = 'lights.dmi'
+	icon_state = "fluorescent"
+	anchored = 1
+	var/baselum = 6
+	var/bulbtype = "fluorescent"
+	var/on = 0
+	var/instant = 0
+	var/obj/item/weapon/bulb/bulb = null
+	var/gset = "fluorescent"
+	var/area/area = null
+	var/basetype = /obj/item/weapon/bulb
+
+/obj/machinery/light/dimlight //dim fluorescent
+	baselum = 5
+
+/obj/machinery/light/incandescent //..obvious
+	icon_state = "incandescent"
+	bulbtype = "incandescent"
+	gset = "incandescent"
+	instant = 1
+	basetype = /obj/item/weapon/bulb/incandescent

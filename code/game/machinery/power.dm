@@ -36,13 +36,17 @@
 /obj/machinery/light_switch/attack_paw(mob/user)
 	src.attack_hand(user)
 
+/obj/machinery/light_switch/proc/propagate() //add this proc
+	src.on = src.area.lightswitch
+	updateicon()
+
 /obj/machinery/light_switch/attack_hand(mob/user)
 
 	on = !on
 
 	area.lightswitch = on
 	updateicon()
-
+	area.light_switch()
 	for(var/obj/machinery/light_switch/L in area)
 		L.on = on
 		L.updateicon()

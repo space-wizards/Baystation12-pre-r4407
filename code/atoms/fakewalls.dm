@@ -38,7 +38,7 @@
 	return 1
 
 /turf/station/wall/false_wall/unburn()
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon = initial(src.icon)
 	src.icon_state = ((src.density) ? "door0" : "door1")
 	return
@@ -193,7 +193,7 @@
 	return 1
 
 /turf/station/wall/false_wall/unburn()
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon = initial(src.icon)
 	src.icon_state = ((src.density) ? "door0" : "door1")
 	return

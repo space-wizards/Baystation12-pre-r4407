@@ -34,9 +34,13 @@
 		if (M.client)
 			if (M.stat != 2)
 				var/T = M.loc
-				if ((T in A))
-					L[text("[]", M.rname)] = "shuttle"
-				else
+				var/s = 0
+				for (var/area/B in A.superarea.areas) //Altered to support multiple areas
+					if ((T in B))
+						L[text("[]", M.rname)] = "shuttle"
+						s = 1
+						break
+				if (!s)
 					if (istype(T, /obj/machinery/vehicle/pod))
 						L[text("[]", M.rname)] = "pod"
 					else
