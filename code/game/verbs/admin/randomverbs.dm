@@ -105,10 +105,12 @@
 /client/proc/explosion(T as obj|mob|turf in world)
 	set category = "Debug"
 	set name = "Create Explosion"
-	usr << "\blue Explosion created."
-	var/obj/item/weapon/tank/plasmatank/pt = new /obj/item/weapon/tank/plasmatank( T )
-	pt.gas.temperature = 600+T0C
-	pt.ignite()
+	var/confirm = alert("Do you want the world to randomly combust", "DEATH TO ALL LIFE", "Yes", "No")
+	if(confirm == "Yes")
+		usr << "\blue Explosion created."
+		var/obj/item/weapon/tank/plasmatank/pt = new /obj/item/weapon/tank/plasmatank( T )
+		pt.gas.temperature = 600+T0C
+		pt.ignite()
 	//world << "[usr.key] created an explosion!"
 
 

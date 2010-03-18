@@ -440,3 +440,7 @@ area/prototype
 	name = "Mysterious Vessel"
 	icon_state = "yellow"
 	requires_power = 0
+
+/area/execution
+	name = "Execution Chamber"
+	icon_state = "yellow"

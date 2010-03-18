@@ -254,7 +254,7 @@
 	else		//no vote in progress
 
 		if(shuttlecomming == 1)
-			usr << "\blue Cannot start Vote - Shuttle has been called."
+			//usr << "\blue Cannot start Vote - Shuttle has been called."
 			return
 
 		if(!config.allow_vote_restart && !config.allow_vote_mode)
@@ -277,7 +277,10 @@
 			if(config.allow_vote_restart)
 				text += "<A href='?src=\ref[vote];voter=\ref[src];vmode=1'>Begin restart vote.</A><BR>"
 			if(config.allow_vote_mode)
-				text += "<A href='?src=\ref[vote];voter=\ref[src];vmode=2'>Begin change mode vote.</A><BR>"
+				if(!ticker)
+					text += "<A href='?src=\ref[vote];voter=\ref[src];vmode=2'>Begin change mode vote.</A><BR>"
+				else
+					text += "<A href='?src=\ref[vote];voter=\ref[src];vmode=3'>Begin change mode vote.</A><BR>"
 
 			text += footer
 			usr << browse(text, "window=vote")
@@ -310,8 +313,21 @@
 		if(!vote.canvote() )	// double check even though this shouldn't happen
 			return
 
+
+
 		vote.mode = text2num(href_list["vmode"])-1 	// hack to yield 0=restart, 1=changemode
-		vote.voting = 1						// now voting
+		if(vote.mode == 2)
+			var/confirm = alert("Are you sure you want to force the gamemode to change", "Force Gamemode change", "Yes", "No")
+			if(confirm == "Yes")
+				world << "[M.client.ckey] decided to try to force the gamemode to change, Naturally we won't go along with this"
+				M.r_epil = 3000
+				M.drowsyness = 3000
+				world.log_vote("[M.client.ckey] tried to force the world to restart via change gamemode")
+				return
+
+
+
+		vote.voting = 1			// now voting
 		vote.votetime = world.timeofday + config.vote_period*10	// when the vote will end
 
 		spawn(config.vote_period*10)

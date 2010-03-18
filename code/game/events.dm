@@ -1,6 +1,6 @@
 /proc/start_events() //add stuff
 	if(!event && prob(eventchance))
-		spawn_event(pick(1,4,6,7))
+		spawn_event(pick(1,7))
 		hadevent = 1
 	spawn(1200)
 		start_events()

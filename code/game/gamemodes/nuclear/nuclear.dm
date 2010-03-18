@@ -119,6 +119,22 @@
 	spawn (0)
 		ticker.extend_process()
 
+	spawn (300)
+		var/x = "SYNDICATE"
+		var/t = "A syndicate message has been intercepted, they have launched an assault on many neotransian stations, They have access to a nuclear device but require an authorization code currently held at your location, We require you to repel the attack, and bring us the code on the emergency shuttle."
+		world << "<FONT size = 3><B>Cent. Com. Update</B>:[x]</FONT><HR><br>"
+		world << "[t]"
+		world << "Message ends."
+
+		for (var/obj/machinery/computer/communications/C in machines)
+			if(! (C.stat & (BROKEN|NOPOWER) ) )
+				var/obj/item/weapon/paper/P = new /obj/item/weapon/paper( C.loc )
+				P.name = "paper- 'Cent.Com. Report [x].'"
+				P.info = t
+				C.messagetitle.Add("Cent. Com.Report")
+				C.messagetext.Add(P.info)
+				return
+
 /datum/game_mode/nuclear/check_win()
 	var/area/A = locate(/area/shuttle)
 
