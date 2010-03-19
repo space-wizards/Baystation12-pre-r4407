@@ -404,6 +404,54 @@
 	return
 
 
+/proc/call_syndi_shuttle(var/mob/usr)
+	//if ((!( ticker ) || ticker.shuttle_location == 1))
+	//	return
+
+	for(var/obj/machinery/computer/sydi_shuttle/PS in world)
+		if(PS.z == 3)
+			usr << "\red Already in transit! Please wait!"
+			return
+		var/area/AC = locate(/area/syndicate_ship)
+		var/list/A = list(  )
+		for(var/area/B in AC.superarea.areas)
+			for(var/turf/T in B)
+				A += T
+		for(var/mob/M in A)
+			M.show_message("\red Launch sequence initiated!")
+			spawn(0)	shake_camera(M, 10, 1)
+		sleep(10)
+
+		if(PS.z == 6)	//This is the laziest proc ever
+			for(var/atom/movable/AM as mob|obj in A)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in A)
+				T.buildlinks()
+			sleep(rand(600,1800))
+			for(var/atom/movable/AM as mob|obj in A)
+				AM.z = 1
+				AM.Move()
+			for(var/turf/T as turf in A)
+				T.buildlinks()
+		else
+			for(var/atom/movable/AM as mob|obj in A)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in A)
+				T.buildlinks()
+			sleep(rand(600,1800))
+			for(var/atom/movable/AM as mob|obj in A)
+				AM.z = 2
+				AM.Move()
+			for(var/turf/T as turf in A)
+				T.buildlinks()
+		for(var/mob/M in A)
+			M.show_message("\red shuttle has arrived at destination!")
+		return
+	return
+
+
 /proc/enable_prison_shuttle(var/mob/user)
 	for(var/obj/machinery/computer/prison_shuttle/PS in world)
 		PS.allowedtocall = !(PS.allowedtocall)

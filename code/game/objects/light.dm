@@ -69,7 +69,7 @@
 			else
 				user.r_hand = bulb
 			bulb.loc = usr
-			bulb.layer = ITEM_HUD_LAYER
+		//	bulb.layer = ITEM_HUD_LAYER
 			bulb.add_fingerprint(user)
 		icon_state = "[gset]-n"
 		bulb = null
@@ -128,14 +128,10 @@
 		spawn(instant ? 0 : rand(3,13))
 			if (on)
 				updateicon()
-				sd_SetLuminosity(bright() / 2)
-				sleep(instant ? 0 : 9)
-				if (on)
-					updateicon()
-					sd_SetLuminosity(bright())
-	else if (src.luminosity != bright())
-		sd_SetLuminosity(bright())
-		updateicon()
+				sd_SetLuminosity(bright())
+//	else if (src.luminosity != bright())
+//		sd_SetLuminosity(bright())
+//		updateicon()
 
 /obj/machinery/light/proc/turnoff()
 	if (on)

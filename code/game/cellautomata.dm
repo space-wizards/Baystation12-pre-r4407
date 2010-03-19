@@ -445,17 +445,12 @@
 					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
 					B.contents -= S
 					B.contents += S
-				AM.z = station_z
+				AM.z = 0
 			var/turf/U = locate(T.x, T.y, T.z)
 			U.oxygen = T.oxygen
-			U.oldoxy = T.oldoxy
-			U.tmpoxy = T.tmpoxy
 			U.poison = T.poison
-			U.oldpoison = T.oldpoison
-			U.tmppoison = T.tmppoison
 			U.co2 = T.co2
-			U.oldco2 = T.oldco2
-			U.tmpco2 = T.tmpco2
+
 			U.buildlinks()
 			del(T)
 		src.timeleft = shuttle_time_in_station
@@ -491,7 +486,7 @@
 				U.buildlinks()*/
 				//T = null
 	var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
-	if (src.shuttle_location == station_z) //Altered to support superareas.
+	if (src.shuttle_location == 0) //Altered to support superareas.
 		for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
 			for(var/turf/T in A)
 				if (T.z == 1)
@@ -499,17 +494,11 @@
 						A\M.z = shuttle_z
 					var/turf/U = locate(T.x, T.y, shuttle_z)
 					U.oxygen = T.oxygen
-					U.oldoxy = T.oldoxy
-					U.tmpoxy = T.tmpoxy
 					U.poison = T.poison
-					U.oldpoison = T.oldpoison
-					U.tmppoison = T.tmppoison
 					U.co2 = T.co2
-					U.oldco2 = T.oldco2
-					U.tmpco2 = T.tmpco2
 
 					U.buildlinks()
-				del(T)
+					del(T)
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
 	world.Reboot()

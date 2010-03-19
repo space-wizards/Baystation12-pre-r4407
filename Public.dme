@@ -69,6 +69,7 @@
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
+#define DEBUG
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
@@ -219,6 +220,7 @@
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
 #include "code\game\objects\items.dm"
+#include "code\game\objects\light.dm"
 #include "code\game\objects\multitool.dm"
 #include "code\game\objects\newobj.dm"
 #include "code\game\objects\proximity_sensor.dm"

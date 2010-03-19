@@ -286,7 +286,7 @@ Turfs have these additional procs and vars:
 \********************************************************************/
 
 var
-	sd_dark_icon = 'sd_darkstates.dmi'	// icon used for darkness
+	sd_dark_icon = 'sd_dark_alpha7.dmi'	// icon used for darkness
 	sd_dark_shades = 4					// number of icon state in sd_dark_icon
 	sd_light_layer = 50		// graphics layer for light effects
 	sd_light_outside = 0	// how bright it is outside
@@ -327,11 +327,11 @@ atom
 		if(!isarea(src)&&(luminosity>0))
 			sd_ApplyLum()
 
-	Del()
+//	Del()
 		// if this is not an area and is luminous
-		if(!isarea(src)&&(luminosity>0))
-			sd_StripLum()
-		..()
+//		if(!isarea(src)&&(luminosity>0))
+//			sd_StripLum()
+//		..()
 
 	proc
 		sd_ApplyLum(list/V = view(luminosity,src), center = src)
@@ -487,6 +487,7 @@ turf
 				var/area/A = locate(ltag)	// find an appropriate area
 				if(!A)
 					A = new Loc.type()	// create area if it wasn't found
+					A.ConnectTo(Loc)
 					// replicate vars
 					for(var/V in Loc.vars-"contents")
 						if(issaved(Loc.vars[V])) A.vars[V] = Loc.vars[V]
@@ -582,6 +583,10 @@ area
 
 			sd_darkimage = image(sd_dark_icon,,num2text(level),sd_light_layer)
 			overlays += sd_darkimage
+
+		ConnectTo(var/area/A)
+
+			return
 
 	New()
 		..()

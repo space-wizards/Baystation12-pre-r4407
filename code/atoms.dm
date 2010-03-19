@@ -3071,6 +3071,10 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'shuttle.dmi'
 	icon_state = "shuttlecom"
 	var/allowedtocall = 1
+/obj/machinery/computer/sydi_shuttle
+	name = "Sydicate shuttle computer"
+	icon = 'shuttle.dmi'
+	icon_state = "shuttlecom"
 /obj/machinery/computer/supply_shuttle
 	name = "Supply Shuttle"
 	icon = 'shuttle.dmi'
@@ -4565,15 +4569,18 @@ obj/machinery/vendingmachine/soda
 
 /obj/item/weapon/bulb
 	name = "Fluorescent Bulb"
-	icon_state = "bulb"
+	icon_state = "i-bulb"
 	var/bulbtype = "fluorescent"
+	icon = 'lights.dmi'
+	s_istate = "iih-bulb"
 	var/life = 0
 	var/bright = 6
 	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
 
 /obj/item/weapon/bulb/incandescent
 	name = "Incandescent Bulb"
-	bulbtype = "incandescent"
+	bulbtype = "i-incandescent"
+	icon = 'lights.dmi'
 	bright = 4
 	icon_state = "incandescent"
 	w_class = 1.0 //But you can fit a 4" incandescent bulb, that makes sense.

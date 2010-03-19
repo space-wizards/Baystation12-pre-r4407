@@ -80,6 +80,7 @@
 /area/start            // will be unused once kurper gets his login interface patch done
 	name = "start area"
 	icon_state = "start"
+	sd_lighting = 0
 
 // ===
 
@@ -131,7 +132,7 @@
 		A = A.loc
 	return A
 
-/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source)
+/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source,var/super)
 /*
 	if (src.name == "Space") // space always has no atmos you dolt
 		return
@@ -174,7 +175,7 @@
 			A.atmos = src.atmos
 	return 1
 
-/area/proc/poweralert(var/state, var/source)
+/area/proc/poweralert(var/state, var/source,var/super)
 /*
 	if (state != poweralm)
 		poweralm = state
@@ -204,7 +205,7 @@
 		A.poweralm = src.poweralm
 	return
 
-/area/proc/firealert()
+/area/proc/firealert(var/super)
 /*
 	if(src.name == "Space") //no fire alarms in space
 		return
@@ -248,7 +249,7 @@
 			if (A != src)
 				A.firealert(1)
 	return
-/area/proc/firereset()
+/area/proc/firereset(var/super)
 /*
 	if (src.fire)
 		src.fire = 0
@@ -368,7 +369,7 @@
 
 // called when power status changes
 
-/area/proc/power_change()
+/area/proc/power_change(var/super)
 /*
 	for(var/obj/machinery/M in src)		// for each machine in the area
 		M.power_change()				// reverify power status (to update icons etc.)
@@ -477,7 +478,7 @@
 		if(ENVIRON)
 			used_environ += amount
 
-//#define LIGHTING_POWER 8		// power (W) per turf used for lighting
+#define LIGHTING_POWER 8		// power (W) per turf used for lighting
 
 /area/proc/calc_lighting()
 	if(lightswitch && power_light)
