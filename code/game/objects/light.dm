@@ -59,7 +59,9 @@
 			user << "You remove and discard the broken bulb pieces"
 			oviewers(user, null) << text("[] cleans the [] shards from the [].", user, bulb, src)
 			stat &= ~BROKEN
-		else
+			icon_state = "[gset]-n"
+			bulb = null
+		else if(src.open)
 			user << "You take out the bulb"
 			oviewers(user, null) << text("\red [] has removed the [] from the [].", user, bulb, src)
 			sd_SetLuminosity(0)
@@ -71,8 +73,10 @@
 			bulb.loc = usr
 		//	bulb.layer = ITEM_HUD_LAYER
 			bulb.add_fingerprint(user)
-		icon_state = "[gset]-n"
-		bulb = null
+			icon_state = "[gset]-n"
+			bulb = null
+		else
+			user << "You need to loosen the screws on the light first"
 
 /obj/machinery/light/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/bulb))
@@ -87,6 +91,15 @@
 			user.drop_item()
 			W.loc = src
 			bulb = W
+	else if(istype(W, /obj/item/weapon/screwdriver))
+		if(open == 0)
+			open = 1
+			user << "You unfasten the light bulb"
+			oviewers(user,null) << text("[] has unfastened the lightbulb", user)
+		else
+			open = 0
+			user << "You fasten the light bulb"
+			oviewers(user,null) << text("[] has fastened the lightbulb", user)
 	else
 		oviewers(user, null) << text("\red [] has smashed the []!", user, src)
 		user << "\red You smash the [src.name]'s bulb with your [W.name]"
@@ -94,6 +107,30 @@
 		sd_SetLuminosity(0)
 		on = 0
 		icon_state = "[gset]-b"
+		var/prot = 0
+
+		if(istype(user, /mob/human))
+			var/mob/human/H = user
+			if(H.gloves)
+				var/obj/item/weapon/clothing/gloves/G = H.gloves
+				prot = G.elec_protect
+
+		var/obj/effects/sparks/O = new /obj/effects/sparks( src.loc )
+		O.dir = pick(NORTH, SOUTH, EAST, WEST)
+		spawn( 0 )
+			O.Life()
+		if(prot == 10)		// elec insulted gloves protect completely
+			return 0
+		user.burn_skin(20)
+		user << "\red <B>You feel a powerful shock course through your body!</B>"
+		sleep(1)
+
+		if(user.stunned < 20)	user.stunned = 20
+		if(user.weakened < 20/prot)	user.weakened = 20/prot
+		for(var/mob/M in viewers(src))
+			if(M == user)	continue
+			M.show_message("\red [user.name] was shocked by the [src.name]!", 3, "\red You hear a heavy electrical crack", 2)
+		return 1
 
 /obj/machinery/light/proc/updateicon()
 	icon_state = "[gset][area.power_light && area.lightswitch && bulb.life ? (bulb.life > 2000 ? "" : "-h") : "-p"]"

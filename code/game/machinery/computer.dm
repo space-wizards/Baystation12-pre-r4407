@@ -422,7 +422,7 @@
 			spawn(0)	shake_camera(M, 10, 1)
 		sleep(10)
 
-		if(PS.z == 6)	//This is the laziest proc ever
+	/*	if(PS.z == 6)	//This is the laziest proc ever
 			for(var/atom/movable/AM as mob|obj in A)
 				AM.z = 3
 				AM.Move()
@@ -445,7 +445,7 @@
 				AM.z = 2
 				AM.Move()
 			for(var/turf/T as turf in A)
-				T.buildlinks()
+				T.buildlinks()*/
 		for(var/mob/M in A)
 			M.show_message("\red shuttle has arrived at destination!")
 		return

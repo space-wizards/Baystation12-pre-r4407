@@ -18,6 +18,7 @@
 
 
 /obj/machinery/computer/prison_shuttle/verb/take_off()
+
 	set src in oview(1)
 
 	if (usr.stat || usr.restrained())
@@ -30,7 +31,7 @@
 	if(src.z == 3)
 		usr << "\red Already in transit! Please wait!"
 		return
-
+/*
 	var/A = locate(/area/shuttle_prison)
 	for(var/mob/M in A)
 		M.show_message("\red Launch sequence initiated!")
@@ -65,6 +66,50 @@
 		M.show_message("\red Prison shuttle has arrived at destination!")
 		spawn(0)	shake_camera(M, 2, 1)
 	return
+*/
+	var/area/A = locate(/area/shuttle_prison)
+	for(var/area/B in A.superarea.areas)
+		for(var/mob/M in B)
+			M.show_message("\red Launch sequence initiated!")
+			spawn(0)	shake_camera(M, 10, 1)
+		sleep(10)
+
+	if(src.z == 6)	//This is the laziest proc ever
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 1
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Prison shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+	else
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 6
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Prison shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+
+
 
 /obj/machinery/computer/prison_shuttle/verb/restabalize()
 	set src in oview(1)
@@ -99,6 +144,175 @@
 	for(var/mob/M in A)
 		M.show_message("\red <B>Prison shuttle atmosphere restabilized!</B>")
 	return
+
+/obj/machinery/computer/sydi_shuttle/verb/take_off()
+	//if ((!( ticker ) || ticker.shuttle_location == 1))
+	//	return
+	set src in oview(1)
+
+	if (usr.stat || usr.restrained())
+		return
+
+	src.add_fingerprint(usr)
+	if(src.z == 3)
+		usr << "\red Already in transit! Please wait!"
+		return
+	sleep(10)
+
+/*
+	if(src.z == 6)	//This is the laziest proc ever
+		for(var/atom/movable/AM as mob|obj in A)
+			AM.z = 3
+			AM.Move()
+		for(var/turf/T as turf in A)
+			T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/atom/movable/AM as mob|obj in A)
+			AM.z = 1
+			AM.Move()
+		for(var/turf/T as turf in A)
+			T.buildlinks()
+	else
+		for(var/atom/movable/AM as mob|obj in A)
+			AM.z = 3
+			AM.Move()
+		for(var/turf/T as turf in A)
+			T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/atom/movable/AM as mob|obj in A)
+			AM.z = 6
+			AM.Move()
+		for(var/turf/T as turf in A)
+			T.buildlinks()*/
+
+	/*var/area/B = locate(/area/syndicate_ship)
+	if (src.z == 6)
+
+		var/list/srcturfs = list()
+		var/list/dstturfs = list()
+		var/throwx = 0
+		for (var/area/A in B.superarea.areas)
+			for(var/turf/T in A)
+				if (T.z == 1)
+					srcturfs += T
+				else
+					dstturfs += T
+				if(T.x > throwx)
+					throwx = T.x
+		// hey you, get out of the way!
+		for(var/turf/T in dstturfs)
+			// find the turf to move things to
+			var/turf/D = locate(throwx, T.y, T.z)
+			var/turf/E = get_step(D, EAST)
+			for(var/atom/movable/AM as mob|obj in T)
+				// east! the mobs go east!
+				AM.Move(D)
+				spawn(0)
+					AM.throw_at(E, 1, 1)
+					return
+
+		for(var/turf/T in srcturfs)
+			for(var/atom/movable/AM as mob|obj in T)
+				// first of all, erase any non-space turfs in the area
+				var/turf/U = locate(T.x, T.y, T.z)
+				if(!istype(T, /turf/space))
+					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
+					B.contents -= S
+					B.contents += S
+				AM.z = 1
+			var/turf/U = locate(T.x, T.y, T.z)
+			U.oxygen = T.oxygen
+			U.poison = T.poison
+			U.co2 = T.co2
+			U.buildlinks()
+			del(T)
+	else
+
+		var/list/srcturfs = list()
+		var/list/dstturfs = list()
+		var/throwx = 0
+		for (var/area/A in B.superarea.areas)
+			for(var/turf/T in A)
+				if (T.z == 6)
+					srcturfs += T
+				else
+					dstturfs += T
+				if(T.x > throwx)
+					throwx = T.x
+		// hey you, get out of the way!
+		for(var/turf/T in dstturfs)
+			// find the turf to move things to
+			var/turf/D = locate(throwx, T.y, T.z)
+			var/turf/E = get_step(D, EAST)
+			for(var/atom/movable/AM as mob|obj in T)
+				// east! the mobs go east!
+				AM.Move(D)
+				spawn(0)
+					AM.throw_at(E, 1, 1)
+					return
+
+		for(var/turf/T in srcturfs)
+			for(var/atom/movable/AM as mob|obj in T)
+				// first of all, erase any non-space turfs in the area
+				var/turf/U = locate(T.x, T.y, T.z)
+				if(!istype(T, /turf/space))
+					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
+					B.contents -= S
+					B.contents += S
+				AM.z = 6
+			var/turf/U = locate(T.x, T.y, T.z)
+			U.oxygen = T.oxygen
+			U.poison = T.poison
+			U.co2 = T.co2
+			U.buildlinks()
+			del(T)
+	return*/
+
+
+	var/area/A = locate(/area/syndicate_ship)
+	for(var/area/B in A.superarea.areas)
+		for(var/mob/M in B)
+			M.show_message("\red Launch sequence initiated!")
+			spawn(0)	shake_camera(M, 10, 1)
+		sleep(10)
+
+	if(src.z == 6)	//This is the laziest proc ever
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 1
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Syndicate shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+	else
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 6
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Syndicate shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+
+
+
 
 /obj/machinery/computer/supply_shuttle/ex_act(severity)
 	switch(severity)

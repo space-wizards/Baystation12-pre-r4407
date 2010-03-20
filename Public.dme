@@ -66,6 +66,7 @@
 #define FILE_DIR "sound/weapon/revolver"
 #define FILE_DIR "sound/weapon/taser"
 #define FILE_DIR "sound/weapon/turret"
+#define FILE_DIR "space"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -74,13 +75,16 @@
 
 // BEGIN_INCLUDE
 #include "todo.dm"
+#include "code\_debug.dm"
 #include "code\atoms.dm"
 #include "code\changelog.dm"
+#include "code\dta_screenshot.dm"
 #include "code\gamehelpers.dm"
 #include "code\globals.dm"
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
+#include "code\map.dm"
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"

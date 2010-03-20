@@ -61,6 +61,11 @@
 	icon_state = "shuttle"
 	music = "music/ending.ogg"
 
+/area/sydi_hq
+	requires_power = 0
+	name = "Sydicate C2A Sector HQ"
+	icon_state = "shutte"
+
 // === Trying to remove these areas:
 
 /area/airtunnel1/      // referenced in airtunnel.dm:759
@@ -86,14 +91,15 @@
 
 /area/New()
 	..()
-	src.icon = 'alert.dmi'
-	src.layer = 10
-	if (src.superarea)
+
+	if (src.superarea) //Add this entire code block
 		if (!(src in src.superarea.areas))
 			src.superarea.areas += src
 	else
 		src.superarea = new /datum/superarea
 		src.superarea.areas += src
+	src.icon = 'alert.dmi'
+	src.layer = 10
 
 	if(!requires_power)
 		power_light = 1

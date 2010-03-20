@@ -4572,14 +4572,13 @@ obj/machinery/vendingmachine/soda
 	icon_state = "i-bulb"
 	var/bulbtype = "fluorescent"
 	icon = 'lights.dmi'
-	s_istate = "iih-bulb"
 	var/life = 0
 	var/bright = 6
 	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
 
 /obj/item/weapon/bulb/incandescent
 	name = "Incandescent Bulb"
-	bulbtype = "i-incandescent"
+	bulbtype = "incandescent"
 	icon = 'lights.dmi'
 	bright = 4
 	icon_state = "incandescent"
@@ -4595,6 +4594,7 @@ obj/machinery/vendingmachine/soda
 	icon = 'lights.dmi'
 	icon_state = "fluorescent"
 	anchored = 1
+	var/open = 0
 	var/baselum = 6
 	var/bulbtype = "fluorescent"
 	var/on = 0
