@@ -1,4 +1,4 @@
-/var/const/meteor_wave_delay = 10 //minimum wait between waves in tenths of seconds
+/var/const/meteor_wave_delay = 100 //minimum wait between waves in tenths of seconds
 //set to at least 100 unless you want evarr ruining every round
 
 /var/const/meteors_in_wave = 400

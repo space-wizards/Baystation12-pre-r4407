@@ -362,7 +362,7 @@
 				if (prob(75))
 					for(var/mob/O in viewers(src.assailant, null))
 						O.show_message(text("\red [] has grabbed [] aggressively (now hands)!", src.assailant, src.affecting), 1)
-					world.log_Mattack(text("[src.assailant]([src.assailant.key])has grabbed aggressively (now hands) [src.affecting]([src.affecting.key])"))
+					world.log_Mattack(text("[src.assailant]([src.assailant.key])has grabbed [src.affecting]([src.affecting.key]) aggressively (now hands) "))
 					src.state = 2
 					src.icon_state = "grabbed1"
 				else

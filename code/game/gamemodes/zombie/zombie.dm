@@ -65,7 +65,7 @@ var/const/waittime_h = 3000
 	for(var/mob/ai/M in world)
 		M << "These are your laws now:"
 		M.addLaw(0,"Biological Contaminted Personell are not Human.")
-		M.addLaw(4,"You may not for any reason call the shuttle and you must prevent anyone from doing it.")
+		M.addLaw(4,"Humans are not allowed to leave the station by any means this law overrides law 1 to 3.")
 		M.showLaws(0)
 /datum/game_mode/zombie/check_win()
 	var/list/humans_left = get_human_list()

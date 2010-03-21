@@ -2100,9 +2100,9 @@
 				del(src)
 				return
 			S.s_time = world.time
+			world.log_Mattack(text("[src.source]([src.source.key]) injected [src.target.rname]([src.target.key]) with a DNA injector"))
 			for(var/mob/O in viewers(src.source, null))
 				O.show_message(text("\red [] injects [] with the DNA Injector!", src.source, src.target), 1)
-			world.log_Mattack(text("[src.source]([src.source.key]) injected [src.target.rname]([src.target.key]) with a DNA injector"))
 		if("pockets")
 			if (src.target.l_store)
 				var/obj/item/weapon/W = src.target.l_store
