@@ -245,6 +245,7 @@
 			user.hear_sound("sound/weapon/generic/hit[QQ].wav",6)
 	for(var/mob/O in viewers(M, null))
 		O.show_message(text("\red <B>[] has been attacked with [][] </B>", M, src, (user ? text(" by [].", user) : ".")), 1)
+	world.log_Mattack(text("[usr.rname]([usr.key]) attcked by [M.rname]([M.key]) with [src]"))
 	var/power = src.force
 //	if (M.health >= -60.0)
 	if (istype(M, /mob/human))
@@ -1311,7 +1312,7 @@
 		return
 
 	var/obj/beam/a_laser/A = new /obj/beam/a_laser( user.loc )
-
+	world.log_Mattack(text("[user]([user.key])has shot a taser round at [target]"))
 	A.current = U
 	A.yo = U.y - T.y
 	A.xo = U.x - T.x
@@ -1382,7 +1383,7 @@
 		return
 	if(!istype(U, /turf))
 		return
-
+	world.log_Mattack(text("[user]([user.key])has shot a taser round at [target]"))
 	var/obj/bullet/electrode/A = new /obj/bullet/electrode(user.loc)
 
 	A.current = U

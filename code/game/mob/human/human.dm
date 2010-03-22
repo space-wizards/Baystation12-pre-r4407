@@ -1312,7 +1312,7 @@
 					O.show_message(text("\red [] has grabbed [] passively!", M, src), 1)
 		else
 			if (M.a_intent == "hurt" && !(M.gloves && M.gloves.elecgen == 1))
-				world.log_Mattack(text("[M.rname] clicked on [src.rname] with intent on harm"))
+				world.log_Mattack(text("[M.rname]([M.key]) clicked on [src.rname]([src.key]) with intent on harm"))
 				if (src.w_uniform)
 					src.w_uniform.add_fingerprint(M)
 				var/damage = rand(1, 9)
@@ -2036,6 +2036,7 @@
 					O.show_message(text("\red [] performs CPR on []!", src.source, src.target), 1)
 				src.source << "\red Repeat every 7 seconds AT LEAST."
 		if("syringe")
+			world.log_Mattack(text("[src.source]([src.source.key]) clicked on [src.target.rname]([src.target.key]) with a syringe"))
 			var/obj/item/weapon/syringe/S = src.item
 			src.item.add_fingerprint(src.source)
 			if (!( istype(S, /obj/item/weapon/syringe) ))
@@ -2051,8 +2052,10 @@
 			for(var/mob/O in viewers(src.source, null))
 				O.show_message(text("\red [] injects [] with the syringe!", src.source, src.target), 1)
 			src.source << text("\red You inject [] units into []. The syringe contains [] units.", a, src.target, S.chem.volume())
+			world.log_Mattack(text("[src.source]([src.source.key]) injected [src.target.rname]([src.target.key]) with a syringe filled with [a]"))
 		if("pill")
 			var/obj/item/weapon/m_pill/S = src.item
+			world.log_Mattack(text("[src.source]([src.source.key]) clicked on [src.target.rname]([src.target.key]) with a pill"))
 			if (!( istype(S, /obj/item/weapon/m_pill) ))
 				//SN src = null
 				del(src)
@@ -2066,6 +2069,7 @@
 			S.ingest(src.target)
 			for(var/mob/O in viewers(src.source, null))
 				O.show_message(text("\red [] forces [] to swallow \a []!", src.source, src.target, a), 1)
+			world.log_Mattack(text("[src.source]([src.source.key]) forced [src.target.rname]([src.target.key]) to swallow [a]"))
 		if("drink")
 			var/obj/item/weapon/drink/S = src.item
 			if (!( istype(S, /obj/item/weapon/drink) ))
@@ -2083,6 +2087,7 @@
 			for(var/mob/O in viewers(src.source, null))
 				O.show_message(text("\red [] forces [] to swallow a gulp of []!", src.source, src.target, a), 1)
 		if("dnainjector")
+			world.log_Mattack(text("[src.source]([src.source.key]) clicked on [src.target.rname]([src.target.key]) with a DNA injector"))
 			var/obj/item/weapon/dnainjector/S = src.item
 			src.item.add_fingerprint(src.source)
 			src.item:inject(src.target, null)
@@ -2097,6 +2102,7 @@
 			S.s_time = world.time
 			for(var/mob/O in viewers(src.source, null))
 				O.show_message(text("\red [] injects [] with the DNA Injector!", src.source, src.target), 1)
+			world.log_Mattack(text("[src.source]([src.source.key]) injected [src.target.rname]([src.target.key]) with a DNA injector"))
 		if("pockets")
 			if (src.target.l_store)
 				var/obj/item/weapon/W = src.target.l_store
