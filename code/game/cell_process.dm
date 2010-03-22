@@ -56,7 +56,7 @@
 	return
 
 /obj/move/proc/unburn()
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon_state = initial(src.icon_state)
 	return
 
@@ -204,7 +204,7 @@
 				src.firelevel = src.oxygen + src.poison
 			if (src.firelevel >= 900000.0)
 				src.icon_state = "burning"
-				src.luminosity = 2
+				sd_SetLuminosity(4)
 				if (src.oxygen > oxygenburn)
 					src.co2 += oxygenburn/4
 					src.oxygen -= oxygenburn
@@ -482,7 +482,7 @@
 
 /turf/proc/unburn()
 
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon_state = initial(src.icon_state)
 	return
 
@@ -896,7 +896,7 @@
 			src.firelevel = src.oxygen + src.poison
 		if (src.firelevel >= 100000.0)
 			src.icon_state = "burning"
-			src.luminosity = 2
+			sd_SetLuminosity(4)
 
 			src.oxygen = max(src.oxygen - 5000, 0)
 			src.poison = max(src.poison - 5000, 0)

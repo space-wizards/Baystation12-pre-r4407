@@ -3,13 +3,15 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-FILE: code\game\gamemodes\ArmokHole.dm
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\gamemodes\nuclear code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\jobs code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\observer code\game\objects code\game\verbs code\game\verbs\admin maps
+/*
+FILE: code\game\area\areas.dm
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\objects code\game\verbs
 HIDDENPATHS:
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1268910502
+LAST_COMPILE_TIME: 1269237912
 AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -88,6 +90,7 @@ AUTO_FILE_DIR: ON
 #include "code\hubs.dm"
 #include "code\logging.dm"
 #include "code\names.dm"
+#include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
 #include "code\atoms\client.dm"
 #include "code\atoms\fakewalls.dm"
@@ -99,6 +102,7 @@ AUTO_FILE_DIR: ON
 #include "code\datums\mixed.dm"
 #include "code\datums\modules.dm"
 #include "code\datums\sun.dm"
+#include "code\datums\superarea.dm"
 #include "code\datums\vote.dm"
 #include "code\game\airtunnel.dm"
 #include "code\game\algorithm.dm"
@@ -226,6 +230,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
 #include "code\game\objects\items.dm"
+#include "code\game\objects\light.dm"
 #include "code\game\objects\multitool.dm"
 #include "code\game\objects\newobj.dm"
 #include "code\game\objects\proximity_sensor.dm"

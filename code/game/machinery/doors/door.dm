@@ -129,7 +129,7 @@
 	src.icon_state = text("[]door0", (src.p_open ? "o_" : null))
 	sleep(15)
 	src.density = 0
-	src.opacity = 0
+	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
@@ -149,7 +149,7 @@
 	src.icon_state = text("[]door1", (src.p_open ? "o_" : null))
 	src.density = 1
 	if (src.visible)
-		src.opacity = 1
+		sd_SetOpacity(1)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0

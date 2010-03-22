@@ -40,7 +40,7 @@
 				src.icon_state = "door0"
 				sleep(15)
 				src.density = 0
-				src.opacity = 0
+				sd_SetOpacity(0)
 				var/turf/T = src.loc
 				if (istype(T, /turf) && checkForMultipleDoors())
 					T.updatecell = 1
@@ -54,7 +54,7 @@
 				src.icon_state = "door1"
 				sleep(15)
 				src.density = 1
-				src.opacity = 1
+				sd_SetOpacity(1)
 				var/turf/T = src.loc
 				if (istype(T, /turf))
 					T.updatecell = 0
@@ -111,7 +111,7 @@
 	src.icon_state = "door0"
 	sleep(15)
 	src.density = 0
-	src.opacity = 0
+	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
@@ -136,7 +136,7 @@
 	src.hear_sound("sound/door/airlock/move.wav",5)
 	src.icon_state = "door1"
 	src.density = 1
-	src.opacity = 1
+	sd_SetOpacity(1)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0

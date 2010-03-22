@@ -1,4 +1,5 @@
 /area
+	var/datum/superarea/superarea = null
 	var/fire = null
 	var/atmos = 1
 	var/poweralm = 1
@@ -27,6 +28,14 @@
 	var/area/linked = null
 	var/no_air = null
 
+
+/area/ConnectTo(var/area/A)
+	src.superarea = A.superarea
+	if (src.superarea)
+		if (!(src in src.superarea.areas))
+			src.superarea.areas += src
+
+
 /area/engine/
 
 /area/turret_protected/
@@ -46,10 +55,16 @@
 	icon_state = "shuttle"
 
 /area/shuttle
+	sd_lighting = 0
 	requires_power = 0
 	name = "Escape Shuttle"
 	icon_state = "shuttle"
 	music = "music/ending.ogg"
+
+/area/sydi_hq
+	requires_power = 0
+	name = "Sydicate C2A Sector HQ"
+	icon_state = "shutte"
 
 // === Trying to remove these areas:
 
@@ -70,11 +85,19 @@
 /area/start            // will be unused once kurper gets his login interface patch done
 	name = "start area"
 	icon_state = "start"
+	sd_lighting = 0
 
 // ===
 
 /area/New()
 	..()
+
+	if (src.superarea) //Add this entire code block
+		if (!(src in src.superarea.areas))
+			src.superarea.areas += src
+	else
+		src.superarea = new /datum/superarea
+		src.superarea.areas += src
 	src.icon = 'alert.dmi'
 	src.layer = 10
 
@@ -115,7 +138,8 @@
 		A = A.loc
 	return A
 
-/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source)
+/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source,var/super)
+/*
 	if (src.name == "Space") // space always has no atmos you dolt
 		return
 	src.updateicon()
@@ -135,9 +159,30 @@
 			if (retval == 0) // alarm(s) cleared
 				atmos = 1
 				src.updateicon()
+	return 1*/
+	// state 2 == normal, 1 == recovering, 0 == alarm
+	var/list/cameras = list()
+	for (var/obj/machinery/camera/C in src)
+		cameras += C
+	for (var/mob/ai/aiPlayer in world)
+		// maybe it'll just be easier to check the retval from trigger/cancel
+		if (state == 0)
+			// send off a trigger
+			aiPlayer.triggerAlarm("Atmosphere", src, cameras, source)
+			atmos = 0
+		else if (state == 2)
+			var/retval = aiPlayer.cancelAlarm("Atmosphere", src, source)
+			if (retval == 0) // alarm(s) cleared
+				atmos = 1
+	if (super)
+		return 1
+	for (var/area/A in src.superarea.areas) //Propagate to the rest of the original area (The DAL library cuts up areas)
+		if (A != src)
+			A.atmos = src.atmos
 	return 1
 
-/area/proc/poweralert(var/state, var/source)
+/area/proc/poweralert(var/state, var/source,var/super)
+/*
 	if (state != poweralm)
 		poweralm = state
 		var/list/cameras = list()
@@ -149,9 +194,25 @@
 			else
 				aiPlayer.triggerAlarm("Power", src, cameras, source)
 	return
+*/
+	if (state != poweralm)
+		poweralm = state
+		var/list/cameras = list()
+		for (var/obj/machinery/camera/C in src)
+			cameras += C
+		for (var/mob/ai/aiPlayer in world)
+			if (state == 1)
+				aiPlayer.cancelAlarm("Power", src, source)
+			else
+				aiPlayer.triggerAlarm("Power", src, cameras, source)
+	if (super)
+		return
+	for (var/area/A in src.superarea.areas) //Propagate to the rest of the original area (The DAL library cuts up areas)
+		A.poweralm = src.poweralm
+	return
 
-
-/area/proc/firealert()
+/area/proc/firealert(var/super)
+/*
 	if(src.name == "Space") //no fire alarms in space
 		return
 	if (!( src.fire ))
@@ -170,8 +231,32 @@
 		for (var/mob/ai/aiPlayer in world)
 			aiPlayer.triggerAlarm("Fire", src, cameras, src)
 	return
-
-/area/proc/firereset()
+*/
+	if(src.name == "Space") //no fire alarms in space
+		return
+	if (!( src.fire ))
+		src.fire = 1
+		src.updateicon()
+		src.mouse_opacity = 0
+		for(var/obj/machinery/door/firedoor/D in src)
+			if(D.operating)
+				D.nextstate = CLOSED
+			else if(!D.density)
+				spawn(0)
+					D.closefire()
+		var/list/cameras = list()
+		for (var/obj/machinery/camera/C in src)
+			cameras += C
+		for (var/mob/ai/aiPlayer in world)
+			aiPlayer.triggerAlarm("Fire", src, cameras, src)
+		if (super)
+			return
+		for (var/area/A in src.superarea.areas) //Propagate to the rest... you get the idea.
+			if (A != src)
+				A.firealert(1)
+	return
+/area/proc/firereset(var/super)
+/*
 	if (src.fire)
 		src.fire = 0
 		src.mouse_opacity = 0
@@ -184,6 +269,25 @@
 					D.openfire()
 		for (var/mob/ai/aiPlayer in world)
 			aiPlayer.cancelAlarm("Fire", src, src)
+	return
+	*/
+	if (src.fire)
+		src.fire = 0
+		src.mouse_opacity = 0
+		src.updateicon()
+		for(var/obj/machinery/door/firedoor/D in src)
+			if(D.operating)
+				D.nextstate = OPEN
+			else if(D.density)
+				spawn(0)
+					D.openfire()
+		for (var/mob/ai/aiPlayer in world)
+			aiPlayer.cancelAlarm("Fire", src, src)
+		if (super)
+			return
+		for (var/area/A in src.superarea.areas)
+			if (A != src && A.fire == 1)
+				A.firereset(1)
 	return
 
 /area/proc/partyalert()
@@ -230,7 +334,7 @@
 				icon_state = "party"
 			else
 				icon_state = "blue-red"
-		else
+/*		else
 			if(lightswitch && power_light)
 				icon_state = null
 			else
@@ -239,12 +343,22 @@
 			luminosity = 1;
 		else
 			luminosity = 0;
-
+*/
 /*
 #define EQUIP 1
 #define LIGHT 2
 #define ENVIRON 3
 */
+
+
+/area/proc/light_switch()
+	for (var/area/A in src.superarea.areas)
+		A.lightswitch = src.lightswitch
+		for (var/obj/machinery/light_switch/L in A)
+			L.propagate()
+	return
+
+
 
 /area/proc/powered(var/chan)		// return true if the area has power to given channel
 	if(!requires_power)
@@ -261,7 +375,20 @@
 
 // called when power status changes
 
-/area/proc/power_change()
+/area/proc/power_change(var/super)
+/*
+	for(var/obj/machinery/M in src)		// for each machine in the area
+		M.power_change()				// reverify power status (to update icons etc.)
+
+	spawn(rand(15,25))
+		src.updateicon()
+
+	if(linked)
+		linked.power_equip = power_equip
+		linked.power_light = power_light
+		linked.power_environ = power_environ
+		linked.power_change()*/
+
 	for(var/obj/machinery/M in src)		// for each machine in the area
 		M.power_change()				// reverify power status (to update icons etc.)
 
@@ -274,7 +401,19 @@
 		linked.power_environ = power_environ
 		linked.power_change()
 
-/area/proc/usage(var/chan)
+	if (super)
+		return
+
+	for (var/area/A in src.superarea.areas)
+		if (A != src)
+			A.power_equip = power_equip
+			A.power_light = power_light
+			A.power_environ = power_environ
+			A.power_change(1)
+
+
+/area/proc/usage(var/chan,var/super = 0)
+/*
 	var/used = 0
 	switch(chan)
 		if(LIGHT)
@@ -290,13 +429,51 @@
 		return linked.usage(chan) + used
 	else
 		return used
+*/
+	var/used = 0
 
-/area/proc/clear_usage()
+	switch(chan)
+		if(LIGHT)
+			used = used_light
+		if(EQUIP)
+			used = used_equip
+		if(ENVIRON)
+			used = used_environ
+		if(TOTAL)
+			used = used_light + used_equip + used_environ
+
+	if (super)
+		return used
+
+	for (var/area/A in src.superarea.areas)
+		if (A != src)
+			used += A.usage(chan, 1)
+
+	if(linked)
+		return linked.usage(chan) + used
+	else
+		return used
+/area/proc/clear_usage(var/super = 0)
+/*
 	if(linked)
 		linked.clear_usage()
 	used_equip = 0
 	used_light = 0
 	used_environ = 0
+*/
+	if(linked)
+		linked.clear_usage()
+
+	used_equip = 0
+	used_light = 0
+	used_environ = 0
+
+	if (super)
+		return
+
+	for (var/area/A in src.superarea.areas)
+		if (A != src)
+			A.clear_usage(1)
 
 /area/proc/use_power(var/amount, var/chan)
 	switch(chan)

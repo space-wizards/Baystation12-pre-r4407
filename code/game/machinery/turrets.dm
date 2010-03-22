@@ -350,6 +350,6 @@
 		world << text("Turret badly positioned - loc.loc is [].", loc)
 		return
 	var/area/area = loc
-
-	for (var/obj/machinery/turret/aTurret in area)
-		aTurret.setState(enabled, lethal)
+	for(var/area/B in area.superarea.areas)
+		for (var/obj/machinery/turret/aTurret in B)
+			aTurret.setState(enabled, lethal)
