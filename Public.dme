@@ -75,7 +75,6 @@
 
 // BEGIN_INCLUDE
 #include "todo.dm"
-#include "code\_debug.dm"
 #include "code\atoms.dm"
 #include "code\changelog.dm"
 #include "code\dta_screenshot.dm"

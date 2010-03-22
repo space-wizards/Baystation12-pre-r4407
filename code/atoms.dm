@@ -4569,7 +4569,7 @@ obj/machinery/vendingmachine/soda
 
 /obj/item/weapon/bulb
 	name = "Fluorescent Bulb"
-	icon_state = "i-bulb"
+	icon_state = "bulb"
 	var/bulbtype = "fluorescent"
 	icon = 'lights.dmi'
 	var/life = 0
@@ -4589,6 +4589,8 @@ obj/machinery/vendingmachine/soda
 	bright = 6 //fluorescent output in an incandescent form factor!
 	//icon_state = "cfl" //Graphics not actually done
 
+
+
 /obj/machinery/light //Normal fluorescent
 	name = "Light Fixture"
 	icon = 'lights.dmi'
@@ -4603,6 +4605,7 @@ obj/machinery/vendingmachine/soda
 	var/gset = "fluorescent"
 	var/area/area = null
 	var/basetype = /obj/item/weapon/bulb
+	var/grill = 1
 
 /obj/machinery/light/dimlight //dim fluorescent
 	baselum = 5
@@ -4613,3 +4616,8 @@ obj/machinery/vendingmachine/soda
 	gset = "incandescent"
 	instant = 1
 	basetype = /obj/item/weapon/bulb/incandescent
+
+/obj/item/weapon/storage/lightbulbs
+	name = "Box of lightbulbs"
+	icon_state = "box"
+	s_istate = "syringe_kit"

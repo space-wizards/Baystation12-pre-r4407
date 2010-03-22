@@ -91,16 +91,31 @@
 			user.drop_item()
 			W.loc = src
 			bulb = W
+			bulb.add_fingerprint(user)
 	else if(istype(W, /obj/item/weapon/screwdriver))
 		if(open == 0)
 			open = 1
 			user << "You unfasten the light bulb"
 			oviewers(user,null) << text("[] has unfastened the lightbulb", user)
+			bulb.add_fingerprint(user)
 		else
 			open = 0
 			user << "You fasten the light bulb"
 			oviewers(user,null) << text("[] has fastened the lightbulb", user)
+			bulb.add_fingerprint(user)
+	else if(istype(W, /obj/item/weapon/wirecutters))
+		if(src.grill == 1)
+			oviewers(user, null) << text("[] has cut the grill of the []", user,src)
+			user << "You cut the grill"
+			src.grill = 0
+		else
+			oviewers(user, null) << text("[] has fixed the grill of the []", user,src)
+			user << "You fix the grill"
+			src.grill = 1
 	else
+		if(src.grill == 1)
+			user << "You need to remove the grill first"
+			return 0
 		oviewers(user, null) << text("\red [] has smashed the []!", user, src)
 		user << "\red You smash the [src.name]'s bulb with your [W.name]"
 		stat |= BROKEN
@@ -108,7 +123,7 @@
 		on = 0
 		icon_state = "[gset]-b"
 		var/prot = 0
-
+		bulb.add_fingerprint(user)
 		if(istype(user, /mob/human))
 			var/mob/human/H = user
 			if(H.gloves)
@@ -177,3 +192,14 @@
 			if (!on)
 				updateicon()
 				sd_SetLuminosity(0)
+
+/obj/item/weapon/storage/lightbulbs/New()
+	..()
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )
+	new /obj/item/weapon/bulb( src )

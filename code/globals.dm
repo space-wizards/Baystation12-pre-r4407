@@ -77,8 +77,8 @@ var
 
 	defer_powernet_rebuild = 0		// true if net rebuild will be called manually after an event
 
-	Debug = 1	// global debug switch
-	Debug2 = 1
+	Debug = 0	// global debug switch
+	Debug2 = 0
 
 	datum/debug/debugobj
 
