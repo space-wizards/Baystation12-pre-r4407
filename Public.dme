@@ -4,12 +4,12 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: code\game\area\areas.dm
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\objects code\game\verbs
+FILE: code\game\gamemodes\ArmokHole.dm
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\objects
 HIDDENPATHS:
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1269237912
+LAST_COMPILE_TIME: 1269238450
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
