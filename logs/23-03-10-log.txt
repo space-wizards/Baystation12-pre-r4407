@@ -54,3 +54,25 @@
 12-09:ACCESS: Logout: AmirHM
 12-09:VOTE: Voting to change mode started by Urist Makerdriven/Headswe
 12-09:ACCESS: Logout: Headswe
+12-55:ADMIN: Loading crban_keylist
+12-55:ADMIN: Loading crban_reason
+12-55:ADMIN: Loading crban_time
+12-55:ADMIN: Loading crban_bannedby
+12-55:ADMIN: Loading crban_iplist
+12-55:ADMIN: Loading crban_unbanned
+12-55:ADMIN: Loading jobban_rank
+12-55:ADMIN: Updating jobbanfile!
+12-55:ACCESS: Login: Headswe from 127.0.0.1
+12-55:GAME: Headswe entered as Urist Rivercopper
+12-55:ADMIN: Headswe used start_now
+12-55:GAME: starting game of extended
+12-55:ADMIN: Headswe initiated a reboot.
+12-55:ACCESS: Logout: Headswe
+12-59:ADMIN: Loading crban_keylist
+12-59:ADMIN: Loading crban_reason
+12-59:ADMIN: Loading crban_time
+12-59:ADMIN: Loading crban_bannedby
+12-59:ADMIN: Loading crban_iplist
+12-59:ADMIN: Loading crban_unbanned
+12-59:ADMIN: Loading jobban_rank
+12-59:ADMIN: Updating jobbanfile!

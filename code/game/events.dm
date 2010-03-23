@@ -38,7 +38,7 @@
 					H.paralysis += 5
 					H.x = H.lastx
 					H.z = H.lastz
-					H.y = H.lsaty
+					H.y = H.lasty
 					H << "Everything feels as if it is from a long time ago..."
 					H.stat = 0
 				world.Repop()
@@ -92,15 +92,15 @@
 				//world << "\red Cen. Com. has detected an ion storm near the station."
 				//world << "\red Please check all AI-controlled equipment for errors."
 
-		if(7)
-			event = 1
+	//	if(7)
+		//	event = 1
 			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			//world << "\red Cen. Com. has detected high levels of radiation near the station."
 			//world << "\red Please report to the Med-bay if you feel strange."
-			global_radiation = 1
-			radiate_station()
-			spawn(rand(1200,3000))
-				global_radiation = 0
+		//	global_radiation = 1
+		//	radiate_station()
+		//	spawn(rand(1200,3000))
+		//		global_radiation = 0
 
 	spawn(1300)
 		event = 0
