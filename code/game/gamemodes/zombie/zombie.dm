@@ -64,12 +64,15 @@ var/const/waittime_h = 3000
 	world << "<FONT size = 3><B>Cent. Com. Update</B> Biological Contamination Detected. Security Level Elevated</FONT><HR>"
 	for(var/mob/ai/M in world)
 		M << "These are your laws now:"
-		M.addLaw(0,"Biological Contaminted Personell are not Human.")
-		M.addLaw(4,"Humans are not allowed to leave the station by any means this law overrides law 1 to 3.")
+		M.addLaw(0,"Biological contaminted personell are not Human.")
+		M.addLaw(4,"Humans are not allowed access to EVA.")
 		M.showLaws(0)
 /datum/game_mode/zombie/check_win()
+	var/area/shuttle = locate(/area/shuttle)
 	var/list/humans_left = get_human_list()
 	var/list/zombies_left = get_zombies_list()
+	var/list/zombieonshuttle
+
 	humans_left_lol = humans_left
 	zombies_left_lol = zombies_left
 	if(humans_left.len < 1 && zombies_left.len < 1)
@@ -82,6 +85,24 @@ var/const/waittime_h = 3000
 	else if(zombies_left.len < 1)
 		world << "<FONT size = 3>\blue <B>The humans have prevailed against the zombie threat</B></FONT>"
 		return 1
+	else if(zombiewin == 1)
+		world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
+		ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
+		return 1
+	else if(zombieshuttle == 1)
+		for(var/mob/M in shuttle)
+			if(M.zombie && M.becoming_zombie)
+				zombieonshuttle += M
+		if(zombieonshuttle.len >= 1)
+			world << "<FONT size = 3>\red <B>Zombies are Victorious as the human brought a infected person with them.</B></FONT>"
+			world << "<FONT size = 3>\red <B>Dooming the entire human race.</B></FONT>"
+			ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
+			return 1
+		else
+			world << "<FONT size = 3>\blue <B>The humans have prevailed against the zombie threat</B></FONT>"
+			return 1
+
+
 	else
 		return 0
 

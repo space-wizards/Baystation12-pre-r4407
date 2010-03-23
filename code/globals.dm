@@ -19,6 +19,9 @@ var
 	air_cycle = 5
 	worldsetup = 0
 	date = time2text(world.realtime,"DD-MM-YY")
+	time2 = time2text(world.realtime,"hh-mm")
+	zombiewin = 0
+	zombieshuttle = 0
 	persistent_file = "data/mode.txt"
 	medals_file = "data/medals.txt"
 	log_file = "logs/[date]-log.txt"

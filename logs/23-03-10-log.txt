@@ -1,0 +1,56 @@
+11-38:ADMIN: Loading crban_keylist
+11-38:ADMIN: Loading crban_reason
+11-38:ADMIN: Loading crban_time
+11-38:ADMIN: Loading crban_bannedby
+11-38:ADMIN: Loading crban_iplist
+11-38:ADMIN: Loading crban_unbanned
+11-38:ADMIN: Loading jobban_rank
+11-38:ADMIN: Updating jobbanfile!
+11-38:GAME: starting game of nuclear emergency
+11-38:ACCESS: Login: AmirHM from 91.99.186.239
+11-38:GAME: AmirHM entered as Dan Handsome
+11-38:ACCESS: Login: Smdytb2 from 72.75.65.42
+11-38:GAME: Smdytb2 entered as Urist Murderedrock
+11-38:OOC: Urist Murderedrock/Smdytb2 : yo
+11-38:OOC: Urist Murderedrock/Smdytb2 : you host
+11-38:OOC: Urist Murderedrock/Smdytb2 : well
+11-38:VOTE: Voting to change mode started by Urist Murderedrock/Smdytb2
+11-38:OOC: Dan Handsome/AmirHM : Hello
+11-38:VOTE: Voting closed, result was none
+11-38:OOC: Dan Handsome/AmirHM : Oh no im not the host im one of the admins
+11-38:GAME: Rebooting due to mode vote
+11-38:OOC: Dan Handsome/AmirHM : Sorry i was reading something
+11-38:ACCESS: Logout: AmirHM
+11-38:ACCESS: Logout: Smdytb2
+12-09:ADMIN: Loading crban_keylist
+12-09:ADMIN: Loading crban_reason
+12-09:ADMIN: Loading crban_time
+12-09:ADMIN: Loading crban_bannedby
+12-09:ADMIN: Loading crban_iplist
+12-09:ADMIN: Loading crban_unbanned
+12-09:ADMIN: Loading jobban_rank
+12-09:ADMIN: Updating jobbanfile!
+12-09:ACCESS: Login: Smdytb2 from 72.75.65.42
+12-09:ACCESS: Login: AmirHM from 91.99.186.239
+12-09:GAME: AmirHM entered as Dan Handsome
+12-09:GAME: Smdytb2 entered as Urist Murderedrock
+12-09:OOC: Urist Murderedrock/Smdytb2 : make the mode sandbox
+12-09:OOC: Urist Murderedrock/Smdytb2 : beforre it starts cmon!
+12-09:ADMIN: AmirHM delayed the game.
+12-09:VOTE: Voting to change mode started by Urist Murderedrock/Smdytb2
+12-09:ADMIN: Voting aborted by AmirHM
+12-09:ADMIN: AmirHM set the mode as extended.
+12-09:OOC: Urist Murderedrock/Smdytb2 : i hate extended
+12-09:OOC: Dan Handsome/AmirHM : I think you should do extended intead
+12-09:OOC: Dan Handsome/AmirHM : Dont worry
+12-09:OOC: Dan Handsome/AmirHM : I will add events
+12-09:ACCESS: Logout: Smdytb2
+12-09:ADMIN: AmirHM set the mode as sandbox.
+12-09:ADMIN: AmirHM set the mode as extended.
+12-09:ACCESS: Login: Headswe from 127.0.0.1
+12-09:OOC: Urist Makerdriven/Headswe : Yo.
+12-09:OOC: Urist Makerdriven/Headswe : I would need to shutdown the server for 5min or so.
+12-09:OOC: Dan Handsome/AmirHM : Alright
+12-09:ACCESS: Logout: AmirHM
+12-09:VOTE: Voting to change mode started by Urist Makerdriven/Headswe
+12-09:ACCESS: Logout: Headswe

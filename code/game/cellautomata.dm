@@ -361,7 +361,13 @@
 /datum/control/gameticker/proc/timeup()
 
 
-	var/area/A = locate(/area/shuttle)
+	var/area/A = locate(/area/shuttle) //headswe
+/*	if(ticker.mode.name == "Zombie Outbreak")
+		if(zombies_left_lol.len >= humans_left_lol.len)
+			world << "<B>The emergency shuttle has been been destoryed"
+			zombiewin = 1
+			check_win()
+			return*/
 	if (src.shuttle_location == shuttle_z)
 
 		var/list/srcturfs = list()
@@ -409,6 +415,7 @@
 	else //marker2
 		world << "<B>The emergency shuttle is leaving!</B>"
 		shuttlecomming = 0
+		zombieshuttle = 1
 		check_win()
 	return.
 
