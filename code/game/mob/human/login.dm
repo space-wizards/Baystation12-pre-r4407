@@ -86,9 +86,10 @@
 	if (!src.start)
 		var/area/A = locate(/area/start)
 		var/list/L = list(  )
-		for(var/turf/T in A)
-			if(T.isempty() )
-				L += T
+		for(var/area/B in A.superarea.areas)
+			for(var/turf/T in B)
+				if(T.isempty() )
+					L += T
 		var/turf/Trand = pick(L)
 		src.loc = Trand
 

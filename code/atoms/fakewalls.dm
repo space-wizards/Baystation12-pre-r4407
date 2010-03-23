@@ -38,7 +38,7 @@
 	return 1
 
 /turf/station/wall/false_wall/unburn()
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon = initial(src.icon)
 	src.icon_state = ((src.density) ? "door0" : "door1")
 	return
@@ -112,7 +112,7 @@
 	spawn(delay) //we want to return 1 without waiting for the animation to finish - the textual cue seems sloppy if it waits
 		//actually do the opening things
 		src.density = 0
-		src.opacity = 0
+		sd_SetOpacity(0)
 		if(!floorintact)
 			src.intact = 0
 			src.levelupdate()
@@ -132,7 +132,7 @@
 	src.icon_state = "door1"
 	src.density = 1
 	if (src.visible)
-		src.opacity = 1
+		sd_SetOpacity(1)
 	src.updatecell = 0
 	src.state = 2
 	src.buildlinks()
@@ -193,7 +193,7 @@
 	return 1
 
 /turf/station/wall/false_wall/unburn()
-	src.luminosity = 0
+	sd_SetLuminosity(0)
 	src.icon = initial(src.icon)
 	src.icon_state = ((src.density) ? "door0" : "door1")
 	return
@@ -268,7 +268,7 @@
 	spawn(delay) //we want to return 1 without waiting for the animation to finish - the textual cue seems sloppy if it waits
 		//actually do the opening things
 		src.density = 0
-		src.opacity = 0
+		sd_SetOpacity(0)
 		if(!src.floorintact)
 			src.intact = 0
 			src.levelupdate()
@@ -288,7 +288,7 @@
 	src.icon_state = "rdoor1"
 	src.density = 1
 	if (src.visible)
-		src.opacity = 1
+		sd_SetOpacity(1)
 	src.updatecell = 0
 	src.state = 2		//stops airflow
 	src.buildlinks()

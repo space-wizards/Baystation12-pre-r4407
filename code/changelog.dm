@@ -4,6 +4,17 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B> Googolplexed's changes (Thursday 18 March, 2010)</B></P>
+<li>Too much goes on to list</li>
+<li>The blob won't randomly disrupt other gamemodes now</li>
+<li>Execution chamber added</li>
+<li>With any luck admins won't be able to accidently blow up half the station</li>
+<li>Edited the map a bit, the station engine DOES need to be turned on at some point now</li>
+<li>O2 tanks in firestation</li>
+<li>Selecting change gamemode, Well, its slightly more difficult now</li>
+<li>Oh yeah, ARMOK HOLE</li>
+<li><FONT color='red'>All map changes have been lost</font></li>
+
 <P><B>Head's Changes (Sunday, 22 Febuary, 2010)</B></P>
 <li>Zombie mode hopefully fixed</li>
 <li>You should not be able to blow the nuke up anymore</li>

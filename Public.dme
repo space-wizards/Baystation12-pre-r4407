@@ -4,11 +4,12 @@
 
 // BEGIN_INTERNALS
 /*
+FILE: code\game\events.dm
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\mob code\game\objects code\game\verbs code\game\verbs\admin maps
+HIDDENPATHS:
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\datums code\game code\game\admin code\game\gamemodes code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\machinery code\game\mob\human 
-FILE: code\game\admin\admin.dm
-LAST_COMPILE_TIME: 1269343931
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1269238450
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -89,6 +90,7 @@ AUTO_FILE_DIR: ON
 #include "code\hubs.dm"
 #include "code\logging.dm"
 #include "code\names.dm"
+#include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
 #include "code\atoms\client.dm"
 #include "code\atoms\fakewalls.dm"
@@ -100,6 +102,7 @@ AUTO_FILE_DIR: ON
 #include "code\datums\mixed.dm"
 #include "code\datums\modules.dm"
 #include "code\datums\sun.dm"
+#include "code\datums\superarea.dm"
 #include "code\datums\vote.dm"
 #include "code\game\airtunnel.dm"
 #include "code\game\algorithm.dm"
@@ -119,6 +122,8 @@ AUTO_FILE_DIR: ON
 #include "code\game\area\ai_monitored.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\Space Station 13 areas.dm"
+#include "code\game\area\unique.dm"
+#include "code\game\gamemodes\ArmokHole.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
@@ -225,6 +230,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
 #include "code\game\objects\items.dm"
+#include "code\game\objects\light.dm"
 #include "code\game\objects\multitool.dm"
 #include "code\game\objects\newobj.dm"
 #include "code\game\objects\proximity_sensor.dm"

@@ -1514,6 +1514,15 @@
 	new /obj/item/weapon/clothing/shoes/brown( src )
 	new /obj/item/weapon/clothing/shoes/brown( src )
 	return
+/obj/secloset/chemtoxin/New()
+	new /obj/item/weapon/bottle/antitoxins( src )
+	new /obj/item/weapon/bottle/r_ch_cough( src )
+	new /obj/item/weapon/bottle/r_epil ( src )
+	new /obj/item/weapon/bottle/r_fever ( src )
+	new /obj/item/weapon/bottle/rejuvenators( src )
+	new /obj/item/weapon/bottle/s_tox( src )
+	new /obj/item/weapon/bottle/toxins ( src )
+	return
 
 /obj/closet/ex_act(severity)
 	switch(severity)

@@ -21,6 +21,9 @@
 	traitor.loc = locate("landmark*Syndicate-Spawn")
 	traitor.loc = traitor.loc.loc
 
+//	for(var/obj/BloodLocation/b in world)
+//		b.Create()
+
 
 /datum/game_mode/other/check_win()
 	if(traitor.stat > 1 || traitor.z > 3)

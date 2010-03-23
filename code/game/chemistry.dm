@@ -1335,6 +1335,8 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 	var/epilin
 	var/thermitein
 	var/atoxinin
+	var/superatoxin
+	var/superrejuvin
 	var/volume = src.chem.volume()
 	var/B = src
 	if (M.l_hand == B || M.r_hand == B)

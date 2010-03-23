@@ -1,3 +1,7 @@
+/turf/space/New()
+ ..()
+ sd_SetLuminosity(1)
+
 /turf/space/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
 

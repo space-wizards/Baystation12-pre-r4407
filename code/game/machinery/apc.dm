@@ -728,7 +728,7 @@
 	if (environ > 1) // off=0, off auto=1, on=2, on auto=3
 		use_power(src.environ_consumption, ENVIRON)
 
-	area.calc_lighting()
+	//area.calc_lighting() New lighgting system replaces it
 
 	lastused_light = area.usage(LIGHT)
 	lastused_equip = area.usage(EQUIP)
