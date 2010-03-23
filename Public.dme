@@ -4,8 +4,8 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: code\game\gamemodes\ArmokHole.dm
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\objects
+FILE: code\game\events.dm
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\mob code\game\objects code\game\verbs code\game\verbs\admin maps
 HIDDENPATHS:
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 462.1057

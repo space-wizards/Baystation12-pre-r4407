@@ -13,6 +13,7 @@ var/changes = {"<FONT color='blue'>
 <li>O2 tanks in firestation</li>
 <li>Selecting change gamemode, Well, its slightly more difficult now</li>
 <li>Oh yeah, ARMOK HOLE</li>
+<li><FONT color='red'>All map changes have been lost</font></li>
 
 <P><B>Head's Changes (Sunday, 22 Febuary, 2010)</B></P>
 <li>Zombie mode hopefully fixed</li>

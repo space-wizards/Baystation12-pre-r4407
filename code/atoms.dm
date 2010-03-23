@@ -175,6 +175,9 @@
 	var/oldckey = null
 	//[glasses][hulk][epi][slime][cough][invis][tour][xray][stutter][fire][blind][tele][deaf][monkey]
 	//1=hulk,2=slime,3=invis,4=xray,5=fire,6=tele,7=monkey
+	var/lastx = 0
+	var/lasty = 0
+	var/lastz = 0
 
 /mob/human
 	name = "human"

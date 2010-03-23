@@ -236,6 +236,7 @@
 			if("Plasma Storm") num = 5
 			if("Ion Storm") num = 6
 			if("Radiation") num = 7
+			if("Temporal Disturbance") num = 2
 		global.spawn_event(num)
 		usr << "\blue Spawned [event]."
 		world.log_admin("[src.key] spawned the event [event].")

@@ -1,6 +1,6 @@
 /proc/start_events() //add stuff
 	if(!event && prob(eventchance))
-		spawn_event(pick(1,7))
+		spawn_event(1)
 		hadevent = 1
 	spawn(1200)
 		start_events()
@@ -8,7 +8,7 @@
 /proc/force_event() //should have copied it but whatever
 	if (hadevent == 1)
 		return
-	spawn_event(pick(1,4,6,7))
+	spawn_event(pick(1,4,6))
 
 /proc/spawn_event(event as num)
 	switch(event)
@@ -23,21 +23,25 @@
 
 		if(2)
 			event = 1
-			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
-			//world << "\red Cent. Com. has detected a temporal anomaly on the station."
-			//world << "\red There is no additional data."
-			spawn(rand(100-300))
-			for (var/mob/H in world)
-				var/Z = H.z
-				var/X = H.x
-				var/Y = H.y
-				H.paralysis += 5
-				H.x = X
-				H.z = Z
-				H.y = Y
-				H << "Everything feels as if it is from a long time ago..."
-				H.stat = 0
-			world.Repop()
+			world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
+			world << "\red Cent. Com. has detected a temporal anomaly on the station."
+			world << "\red There is no additional data."
+			for(var/mob/H in world)
+				H.lastx = H.x
+				H.lasty = H.y
+				H.lastz = H.z
+			spawn(rand(100-1000))
+				for (var/mob/H in world)
+					var/Z = H.z
+					var/X = H.x
+					var/Y = H.y
+					H.paralysis += 5
+					H.x = H.lastx
+					H.z = H.lastz
+					H.y = H.lsaty
+					H << "Everything feels as if it is from a long time ago..."
+					H.stat = 0
+				world.Repop()
 
 
 		if(3)
@@ -88,7 +92,7 @@
 				//world << "\red Cen. Com. has detected an ion storm near the station."
 				//world << "\red Please check all AI-controlled equipment for errors."
 
-/*		if(7)
+		if(7)
 			event = 1
 			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			//world << "\red Cen. Com. has detected high levels of radiation near the station."
@@ -96,7 +100,7 @@
 			global_radiation = 1
 			radiate_station()
 			spawn(rand(1200,3000))
-				global_radiation = 0*/
+				global_radiation = 0
 
 	spawn(1300)
 		event = 0
