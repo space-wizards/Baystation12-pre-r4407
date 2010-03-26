@@ -318,7 +318,7 @@
 					del(usr.client)
 					world << text("\red [usr.key] has been autokicked by the admin panel!")
 					return
-				if (crban_isbanned(M))
+				if (crban_isbanned(M.client))
 					alert("You cannot perform this action. [M] is already banned!")
 					return
 				var/banreason = input("Enter a reason for this ban. Enter nothing to cancel.", "Ban: [M]", "")
@@ -334,7 +334,7 @@
 	if (href_list["unban2"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host" )))
 			var/t = href_list["unban2"]
-			if(t && crban_isbanned(t))
+			if(t && crban_isbannedckey(t))
 				world.log_admin("[usr.key] unbanned [t].")
 				messageadmins("\blue[usr.key] unbanned [t]")
 				crban_unban(t, usr.ckey)

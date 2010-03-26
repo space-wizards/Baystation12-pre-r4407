@@ -41,7 +41,7 @@
 				src.fire.icon_state = "fire0"
 
 
-		if (src.health <= -100.0)
+		if (src.health <= 0)
 			death()
 			return
 		else if (src.health < 0)

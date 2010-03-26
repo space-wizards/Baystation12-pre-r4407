@@ -7,6 +7,7 @@ var
 	crban_bannedby[0]	// who banned them
 	crban_iplist[0]   // Banned IP addresses
 	crban_ipranges[0] // Banned IP ranges
+	crban_computerIDs[0] //Banned Computer IDs (Googolplexed)
 	crban_unbanned[0] // So we can remove bans (list of ckeys)
 	crban_runonce	// Updates legacy bans with new info
 
@@ -17,6 +18,7 @@ var
 	crban_key(M.ckey, M.client.address)
 	crban_IP(M.client.address, M.ckey)
 	crban_client(M.client)
+	crban_computer(M.client,M.ckey)
 	crban_ie(M)
 	//Reason+time
 	if(!reason)	reason = "No reason specified"
@@ -44,6 +46,7 @@ var
 	crban_IP(C.address, C.ckey)
 	crban_client(C)
 	crban_ie(C)
+	crban_computer(C,C.ckey)
 	//Reason+time
 	if(!reason)	reason = "No reason specified"
 	if(!crban_reason.Find(C.ckey))
@@ -61,14 +64,15 @@ var
 	crban_savebanfile()
 	del C
 
-/proc/crban_isbanned(X)
+/proc/crban_isbanned(client/X)
 	// When given a mob, client, key, or IP address:
 	// Returns 1 if that person is banned.
 	// Returns 0 if they are not banned.
 	// Only considers basic key and IP bans; but that is sufficient for most purposes.
-	if (istype(X,/mob)) X=X:ckey
-	if (istype(X,/client)) X=X:ckey
 	if (ckey(X) in crban_unbanned) return 0
+	if ((X.ckey in crban_iplist) || (ckey(X.ckey) in crban_keylist) || (X.computer_id in crban_computerIDs)) return 1
+	else return 0
+/proc/crban_isbannedckey(X as text)
 	if ((X in crban_iplist) || (ckey(X) in crban_keylist)) return 1
 	else return 0
 
@@ -171,6 +175,13 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 		crban_keylist.Add(ckey)
 	crban_keylist[ckey] = address
 
+/proc/crban_computer(client/cli,ckey as text)
+	var/ID=cli.computer_id
+	if(!crban_computerIDs.Find(ckey))
+		crban_computerIDs.Add(ckey)
+	crban_keylist[ckey] = ID
+
+
 /proc/crban_unban(key as text, by as text)
 	//Unban a key and associated IP address
 	var/ckey=ckey(key)
@@ -179,6 +190,7 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 		crban_keylist.Remove(ckey)
 		crban_reason.Remove(ckey)
 		crban_time.Remove(ckey)
+		crban_computerIDs.Remove(ckey)
 		crban_unbanned.Add(ckey)
 		crban_unbanned[ckey] = by
 		crban_savebanfile()
@@ -206,6 +218,8 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 	S["unban[0]"] >> crban_unbanned
 	world.log_admin("Loading crban_unbanned")
 	S["runonce"] >> crban_runonce
+	world.log_admin("Loading crban_ComputerIDs")
+	S["computerid"] >> crban_computerIDs
 
 	if (!length(crban_keylist))
 		crban_keylist=list()
@@ -235,6 +249,7 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 	S["IP[0]"] << crban_iplist
 	S["unban[0]"] << crban_unbanned
 	S["runonce"] << crban_runonce
+	S["computerid"] << crban_computerIDs
 
 /proc/crban_updatelegacybans()
 	if(!crban_runonce)

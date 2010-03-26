@@ -108,6 +108,7 @@
 	var/m_intent = "run"
 	var/lastDblClick = 0
 	var/lastKnownIP = null
+	var/lastKnownID = null
 	var/obj/stool/chair/buckled = null
 	var/obj/dna/primary = null
 	var/obj/item/weapon/handcuffs/handcuffed = null
