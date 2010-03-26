@@ -769,8 +769,12 @@
 	var/access = list()
 	var/registered = null
 	var/assignment = null
+	var/hide = 0
 /obj/item/weapon/card/id/syndicate
-	name = "syndicate card"
+	name = "Syndicates's ID Card (Syndicate)"
+	registered = "Syndicate"
+	hide = 1
+	assignment = "Syndicate"
 
 /obj/item/weapon/card/id/captains_spare
 	name = "Captain's spare ID"
@@ -4624,3 +4628,19 @@ obj/machinery/vendingmachine/soda
 	name = "Box of lightbulbs"
 	icon_state = "box"
 	s_istate = "syringe_kit"
+
+/obj/machinery/conveyor
+	name = "Conveyor Belt"
+	icon = 'conveyor.dmi'
+	icon_state = "MapEditor"
+	var/id = "" //conveyor_control objects sharing this Id will control this conveyor
+	var/on = 0 //Set to 1 to have the conveyor be on when the round starts
+	anchored = 1.0
+
+/obj/machinery/conveyor_control
+	name = "Remote Converyor Control"
+	icon = 'stationobjs.dmi'
+	icon_state = "doorctrl0"
+	desc = "A remote control switch for a Conveyor Belt."
+	anchored = 1.0
+	var/id = "" //When used, src will toggle the power of every conveyor belt with this i
