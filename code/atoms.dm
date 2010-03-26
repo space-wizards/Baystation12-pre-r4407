@@ -4640,8 +4640,8 @@ obj/machinery/vendingmachine/soda
 
 /obj/machinery/conveyor_control
 	name = "Remote Converyor Control"
-	icon = 'stationobjs.dmi'
-	icon_state = "doorctrl0"
+	icon = 'conveyor.dmi'
+	icon_state = "controlbox"
 	desc = "A remote control switch for a Conveyor Belt."
 	anchored = 1.0
 	var/id = "" //When used, src will toggle the power of every conveyor belt with this i
