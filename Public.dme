@@ -3,15 +3,6 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-/*
-FILE: code\game\events.dm
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\mob code\game\objects code\game\verbs code\game\verbs\admin maps
-HIDDENPATHS:
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1269238450
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -55,6 +46,8 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "interface"
 #define FILE_DIR "maps"
 #define FILE_DIR "maps/backup"
+#define FILE_DIR "maps/modular"
+#define FILE_DIR "maps/modular/modules"
 #define FILE_DIR "sound"
 #define FILE_DIR "sound/damage"
 #define FILE_DIR "sound/damage/glass"
@@ -164,6 +157,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\atmoalter.dm"
 #include "code\game\machinery\camera.dm"
 #include "code\game\machinery\computer.dm"
+#include "code\game\machinery\conveyor.dm"
 #include "code\game\machinery\cryo.dm"
 #include "code\game\machinery\door_control.dm"
 #include "code\game\machinery\engine.dm"

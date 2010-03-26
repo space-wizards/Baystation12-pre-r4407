@@ -227,7 +227,7 @@
 	set category = "Admin"
 	set name = "Spawn Event"
 	if(src.authenticated)
-		var/event = input("Choose an event") as null|anything in list("Meteor","Blob","Plasma Storm","Ion Storm","Radiation")
+		var/event = input("Choose an event") as null|anything in list("Meteor","Blob","Plasma Storm","Ion Storm","Radiation","Temporal Disturbance")
 		if(!event) return
 		var/num = 0
 		switch(event)

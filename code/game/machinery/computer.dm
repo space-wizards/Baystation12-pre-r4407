@@ -373,79 +373,42 @@
 			M.show_message("\red Launch sequence initiated!")
 			spawn(0)	shake_camera(M, 10, 1)
 		sleep(10)
+	var/area/A = locate(/area/shuttle_prison)
 
-		if(PS.z == 2)	//This is the laziest proc ever
-			for(var/atom/movable/AM as mob|obj in A)
+	if(A.z == 2)	//This is the laziest proc ever
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
 				AM.z = 3
 				AM.Move()
-			for(var/turf/T as turf in A)
+			for(var/turf/T as turf in B)
 				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
 				AM.z = 1
 				AM.Move()
-			for(var/turf/T as turf in A)
+			for(var/turf/T as turf in B)
 				T.buildlinks()
-		else
-			for(var/atom/movable/AM as mob|obj in A)
+			for(var/mob/M in B)
+				M.show_message("\red Prison shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+	else
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
 				AM.z = 3
 				AM.Move()
-			for(var/turf/T as turf in A)
+			for(var/turf/T as turf in B)
 				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
 				AM.z = 2
 				AM.Move()
-			for(var/turf/T as turf in A)
+			for(var/turf/T as turf in B)
 				T.buildlinks()
-		for(var/mob/M in A)
-			M.show_message("\red Prison shuttle has arrived at destination!")
-		return
-	return
-
-
-/proc/call_syndi_shuttle(var/mob/usr)
-	//if ((!( ticker ) || ticker.shuttle_location == 1))
-	//	return
-
-	for(var/obj/machinery/computer/sydi_shuttle/PS in world)
-		if(PS.z == 3)
-			usr << "\red Already in transit! Please wait!"
-			return
-		var/area/AC = locate(/area/syndicate_ship)
-		var/list/A = list(  )
-		for(var/area/B in AC.superarea.areas)
-			for(var/turf/T in B)
-				A += T
-		for(var/mob/M in A)
-			M.show_message("\red Launch sequence initiated!")
-			spawn(0)	shake_camera(M, 10, 1)
-		sleep(10)
-
-	/*	if(PS.z == 6)	//This is the laziest proc ever
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 3
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 1
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-		else
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 3
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 2
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()*/
+			for(var/mob/M in B)
+				M.show_message("\red Prison shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
 		for(var/mob/M in A)
 			M.show_message("\red shuttle has arrived at destination!")
 		return
