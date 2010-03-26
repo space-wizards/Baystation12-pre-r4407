@@ -4645,3 +4645,13 @@ obj/machinery/vendingmachine/soda
 	desc = "A remote control switch for a Conveyor Belt."
 	anchored = 1.0
 	var/id = "" //When used, src will toggle the power of every conveyor belt with this i
+	var/state = 0
+
+/obj/machinery/conveyor_klaxon
+	name = "Conveyor Warning Siren"
+	icon = 'conveyor.dmi'
+	icon_state = "klaxon0"
+	desc = "A siren to warn people the conveyor belt is going to start"
+	anchored = 1.0
+	var/id = ""
+	var/on = 0
