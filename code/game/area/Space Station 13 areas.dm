@@ -170,6 +170,19 @@ area/facilities/meeting
 	name = "Meeting Room"
 	icon_state = "bridge"
 
+//Quartermaster's Office
+area/supply/office
+	name = "Supplies Office"
+	icon_state = "supplies"
+
+area/supply/warehouse
+	name = "Supply Warehouse"
+	icon_state = "supplies"
+
+area/supply/dock
+	name = "Supply Shuttle Dock"
+	icon_state = "supplies"
+
 // Chapel
 area/chapel/chapel
 	name = "Chapel"
