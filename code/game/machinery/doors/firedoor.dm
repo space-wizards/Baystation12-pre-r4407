@@ -71,7 +71,7 @@
 			user << "You punch through the door!"
 			src.density = 0
 			src.operating = 0
-			src.opacity = 0
+			sd_SetOpacity(0)
 			src.hulksmash = 1
 		else
 			user << "You punch the door!"
@@ -88,8 +88,13 @@
 			user << "You claw through the door!"
 			src.density = 0
 			src.operating = 0
-			src.opacity = 0
+			sd_SetOpacity(0)
 			src.hulksmash = 1
+			sd_SetOpacity(0)
+			var/turf/T = src.loc
+			if (istype(T, /turf) && checkForMultipleDoors())
+				T.updatecell = 1
+				T.buildlinks()
 		else
 			user << "You claw the door!"
 

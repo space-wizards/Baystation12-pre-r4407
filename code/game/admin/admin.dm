@@ -534,7 +534,7 @@
 					return
 				var/obj/item/weapon/syndicate_uplink/W = new /obj/item/weapon/syndicate_uplink(N)
 				N.equip_if_possible(new /obj/item/weapon/syndicate_uplink, N.slot_l_store)
-				W.layer = 20
+				W.layer = 52
 				N.l_store = W
 				killer += N
 				traitobj[text("[M.key]")] += objective
@@ -1042,7 +1042,7 @@
 						H << "A syndicate uplink has been hidden in your left pocket, use it to achieve your objective"
 						var/obj/item/weapon/syndicate_uplink/W = new /obj/item/weapon/syndicate_uplink(H)
 						H.equip_if_possible(new /obj/item/weapon/syndicate_uplink, H.slot_l_store)
-						W.layer = 20
+						W.layer = 52
 						H.l_store = W
 						killer += H
 						traitobj[text("[]",H.key)] += objective

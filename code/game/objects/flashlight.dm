@@ -17,7 +17,7 @@
 		else
 			isHeld = 0
 			if (lastHolder != null)
-				//lastHolder:sd_SetLuminosity(0)
+				lastHolder:sd_SetLuminosity(0)
 				lastHolder = null
 
 		if (isHeld == 1)

@@ -405,6 +405,7 @@
 	src.hud1.icon_state = "reinforce"
 	src.hud1.name = "Reinforce Grab"
 	src.hud1.id = 1
+	src.hud1.layer = 52
 	src.hud1.master = src
 	return
 

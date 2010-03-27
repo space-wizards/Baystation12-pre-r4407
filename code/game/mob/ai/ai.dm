@@ -231,7 +231,60 @@
 		src << text("--- [] alarm detected in []! (No Camera)", class, A.name)
 	if (src.viewalerts) src.ai_alerts()
 	return 1
+/mob/ai/proc/switchCameramob(mob/M)
+	usr:cameraFollow = M
+	usr << text("Now tracking [] on camera.", M.name)
+	if (usr.machine == null)
+		usr.machine = usr
 
+	spawn (0)
+		while (usr:cameraFollow == M)
+			if (usr:cameraFollow == null)
+				return
+			else if (istype(M, /mob/human) && istype(M:wear_id, /obj/item/weapon/card/id/syndicate))
+				usr << "Follow camera mode ended."
+				usr:cameraFollow = null
+				return
+			else if (!M || !istype(M.loc, /turf)) //in a closet
+				usr << "Target is not on or near any active cameras on the station. We'll check again in 5 seconds (unless you use the cancel-camera verb)."
+				sleep(40) //because we're sleeping another second after this (a few lines down)
+				continue
+
+			var/obj/machinery/camera/C = usr:current
+			if ((C && istype(C, /obj/machinery/camera)) || C==null)
+
+				var/closestDist = -1
+				if (C!=null)
+					if (C.status)
+						closestDist = get_dist(C, M)
+				//usr << text("Dist = [] for camera []", closestDist, C.name)
+				var/zmatched = 0
+				if (closestDist > 7 || closestDist == -1)
+					//check other cameras
+					var/obj/machinery/camera/closest = C
+					for(var/obj/machinery/camera/C2 in world)
+						if (C2.network == src.network)
+							if (C2.z == M.z)
+								zmatched = 1
+								if (C2.status)
+									var/dist = get_dist(C2, M)
+									if ((dist < closestDist) || (closestDist == -1))
+										closestDist = dist
+										closest = C2
+					//usr << text("Closest camera dist = [], for camera []", closestDist, closest.area.name)
+
+					if (closest != C)
+						usr:current = closest
+						usr.reset_view(closest)
+						//use_power(50)
+					if (zmatched == 0)
+						usr << "Target is not on or near any active cameras on the station. We'll check again in 5 seconds (unless you use the cancel-camera verb)."
+						sleep(40) //because we're sleeping another second after this (a few lines down)
+			else
+				usr << "Follow camera mode ended."
+				usr:cameraFollow = null
+
+			sleep(10)
 /mob/ai/proc/cancelAlarm(var/class, area/A as area, obj/origin)
 	var/list/L = src.alarms[class]
 	var/cleared = 0
@@ -248,7 +301,6 @@
 		src << text("--- [] alarm in [] has been cleared.", class, A.name)
 		if (src.viewalerts) src.ai_alerts()
 	return !cleared
-
 /mob/ai/cancel_camera()
 	set category = "AI Commands"
 	set name = "Cancel Camera View"

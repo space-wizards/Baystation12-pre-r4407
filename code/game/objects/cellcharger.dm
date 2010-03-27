@@ -39,7 +39,7 @@
 
 	if(charging)
 		charging.loc = usr
-		charging.layer = 20
+		charging.layer = 52
 		if (user.hand )
 			user.l_hand = charging
 		else

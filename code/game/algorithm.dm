@@ -313,7 +313,7 @@
 					W.loc = B
 					equipped = 1
 	if(equipped)
-		W.layer = 20
+		W.layer = 52
 	else
 		del(W)
 

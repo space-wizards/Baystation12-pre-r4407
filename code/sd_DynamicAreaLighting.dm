@@ -36,6 +36,8 @@ Using sd_DynamicAreaLighting
 		use sd_ApplyLocalLum() to reapply the luminosity effects.
 		Examine the sd_SetOpacity() proc for an example of the
 		procedure.
+		sd_StripLocalLum()
+		sd_ApplyLocalLum()
 
 	All areas will automatically use the sd_DynamicAreaLighting
 	library when it is included in your project. You may disable

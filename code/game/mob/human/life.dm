@@ -87,39 +87,26 @@
 			src.fireloss -= 5
 		else if (src.fireloss > 1.0 && prob(50))
 			src.fireloss--
+		if (src.radiation < 0)
+			src.radiation = 0
 		if (src.radiation > 100)
 			src.radiation = 100
 		if ((prob(1) && (src.radiation >= 75)))
 			randmutb(src)
 			src << "\red High levels of Radiation cause you to spontaneously mutate."
 			domutcheck(src,null)
-	/*	if(istype(T, /turf) && T.radiation)
-			if(has_air_contact())
-				if(prob(50))
-					if(radiation < 100)
-						radiation += (T.radiation*0.05)
-		if ((prob(7) && (src.radiation >= 75)))
-			if (src.paralysis < 3)
-				src.paralysis = 3
-				src << "\red You feel weak!"
-				emote("collapse")
-			src.toxloss += 5
-			src.updatehealth()
-			src.radiation -= 5
-		else if ((prob(7) && ((src.radiation > 50)&&(src.radiation < 75))))
-			src.toxloss += 5
-			src.updatehealth()
-			src.radiation -= 5
-			emote("gasp")
+		if (prob(10) && (src.radiation > 1))
+			if (src.radiation >= 10)
+				src.radiation -= 10
+				src.toxloss += 5
+				src.updatehealth()
+			else
+				src.radiation = 0
 		else
-			if (prob(7) && (src.radiation > 1))
-				if (src.radiation >= 10)
-					src.radiation -= 10
-					src.toxloss += 5
-					src.updatehealth()
-				else
-					src.radiation = 0
-*/
+			src.radiation -= 1
+		if(src.radiation > 1)
+			if(src.antitoxs > 1)
+				src.radiation -= round(src.antitoxs)
 /////////////////////////////////
 		if (!src.m_flag)
 			src.moved_recently = 0
@@ -684,7 +671,7 @@
 		src.client.screen -= src.hud_used.vimpaired
 		if ((src.blind && src.stat != 2))
 			if (src.blinded)
-				src.blind.layer = 18
+				src.blind.layer = 51
 			else
 				src.blind.layer = 0
 				if ((src.disabilities & 1 && !( istype(src.glasses, /obj/item/weapon/clothing/glasses/regular)  || !( istype(src.glasses, /obj/item/weapon/clothing/glasses/monocle) ))))

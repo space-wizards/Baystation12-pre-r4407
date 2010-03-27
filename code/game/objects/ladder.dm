@@ -2,7 +2,7 @@ obj/ladder
 		icon = 'weap_sat.dmi'
 		icon_state = "heater_0"
 		density = 1
-		opacity = 0
+		sd_SetOpacity(0)
 		anchored = 1
 		var/level = 5
 

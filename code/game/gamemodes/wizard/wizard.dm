@@ -105,13 +105,13 @@
 	del(killer.shoes)
 	del(killer.r_hand)
 	killer.wear_suit = new /obj/item/weapon/clothing/suit/wizrobe(killer)
-	killer.wear_suit.layer = 20
+	killer.wear_suit.layer = 52
 	killer.head = new /obj/item/weapon/clothing/head/wizhat(killer)
-	killer.head.layer = 20
+	killer.head.layer = 52
 	killer.shoes = new /obj/item/weapon/clothing/shoes/sandal(killer)
-	killer.shoes.layer = 20
+	killer.shoes.layer = 52
 	killer.r_hand = new /obj/item/weapon/staff(killer)
-	killer.r_hand.layer = 20
+	killer.r_hand.layer = 52
 	switch (objective)
 
 		if(obj_hijack)
@@ -651,7 +651,7 @@
 				usr.u_equip(R)
 				usr.l_hand = T
 			R.loc = T
-			T.layer = 20
+			T.layer = 52
 			T.freq = initial(T.freq)
 			T.attack_self(usr)
 			return

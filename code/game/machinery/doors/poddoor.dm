@@ -17,7 +17,7 @@
 			src.icon_state = "pdoor0"
 			sleep(15)
 			src.density = 0
-			src.opacity = 0
+			sd_SetOpacity(0)
 			var/turf/T = src.loc
 			if (istype(T, /turf) && checkForMultipleDoors())
 				T.updatecell = 1

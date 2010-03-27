@@ -368,7 +368,7 @@ var/const/obj_3_onlyperson = 3
 				usr.u_equip(R)
 				usr.l_hand = T
 			R.loc = T
-			T.layer = 20
+			T.layer = 52
 			T.freq = initial(T.freq)
 			T.attack_self(usr)
 			return

@@ -171,7 +171,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part3 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 	return
@@ -197,7 +197,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 */
@@ -605,11 +605,11 @@
 		R.loc = src.loc
 		if (user.r_hand == src)
 			user.r_hand = R
-			R.layer = 20
+			R.layer = 52
 		else
 			if (user.l_hand == src)
 				user.l_hand = R
-				R.layer = 20
+				R.layer = 52
 		src.part1.loc = R
 		src.part2.loc = R
 		src.part1.master = R
@@ -696,11 +696,11 @@
 		R.loc = src.loc
 		if (user.r_hand == src)
 			user.r_hand = R
-			R.layer = 20
+			R.layer = 52
 		else
 			if (user.l_hand == src)
 				user.l_hand = R
-				R.layer = 20
+				R.layer = 52
 		src.part1.loc = R
 		src.part2.loc = R
 		src.part1.master = R
@@ -779,11 +779,11 @@
 		R.loc = src.loc
 		if (user.r_hand == src)
 			user.r_hand = R
-			R.layer = 20
+			R.layer = 52
 		else
 			if (user.l_hand == src)
 				user.l_hand = R
-				R.layer = 20
+				R.layer = 52
 		src.part1.loc = R
 		src.part2.loc = R
 		src.part1.master = R
@@ -827,11 +827,11 @@
 		R.loc = src.loc
 		if (user.r_hand == src)
 			user.r_hand = R
-			R.layer = 20
+			R.layer = 52
 		else
 			if (user.l_hand == src)
 				user.l_hand = R
-				R.layer = 20
+				R.layer = 52
 		src.part1.loc = R
 		src.part2.loc = R
 		src.part3.loc = R

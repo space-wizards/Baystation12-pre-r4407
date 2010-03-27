@@ -69,8 +69,8 @@
 	src.flash.screen_loc = "1,1 to 15,15"
 	src.blind.layer = 0
 	src.flash.layer = 17
-	src.sleep.layer = 20
-	src.rest.layer = 20
+	src.sleep.layer = 52
+	src.rest.layer = 52
 	src.client.screen.len = null
 	src.client.screen -= list( src.throw_icon, src.oxygen, src.i_select, src.m_select, src.toxin, src.bodytemp, src.internals, src.fire, src.hands, src.healths, src.pullin, src.blind, src.flash, src.rest, src.sleep, src.mach )
 	src.client.screen += list( src.throw_icon, src.oxygen, src.i_select, src.m_select, src.toxin, src.bodytemp, src.internals, src.fire, src.hands, src.healths, src.pullin, src.blind, src.flash, src.rest, src.sleep, src.mach )

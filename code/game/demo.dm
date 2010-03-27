@@ -504,7 +504,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part3 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		S.part1 = null
 		S.part2 = null
@@ -537,7 +537,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part3 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		S.part1 = null
 		S.part2 = null
@@ -571,7 +571,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part3 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		S.part1 = null
 		S.part2 = null
@@ -607,7 +607,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part4 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		S.part1 = null
 		S.part2 = null
@@ -2533,7 +2533,7 @@
 
 /turf/station/r_wall/unburn()
 
-	src.luminosity = 0
+	src.sd_SetLuminosity(0)
 	src.update()
 	return
 
@@ -3070,7 +3070,7 @@
 
 
 /turf/station/wall/unburn()
-	src.luminosity = 0
+	src.sd_SetLuminosity(0)
 	if (src.state == 1)
 		src.icon_state = "girder"
 	else
@@ -3301,7 +3301,7 @@
 				return
 			else
 				src.icon_state = "burning"
-				src.luminosity = 2
+				src.sd_SetLuminosity(2)
 				src.burnt = 1
 				src.health = 30
 				src.intact = 0
@@ -3366,7 +3366,7 @@
 		levelupdate()
 		if (src.firelevel >= 900000.0)
 			src.icon_state = "burning"
-			src.luminosity = 2
+			src.sd_SetLuminosity(2)
 		else
 			src.icon_state = "Floor"
 		var/obj/item/weapon/tile/T = C
@@ -3379,7 +3379,7 @@
 		coil.turf_place(src, user)
 
 /turf/station/floor/unburn()
-	src.luminosity = 0
+	src.sd_SetLuminosity(0)
 	src.icon_state = text("Floor[]", (src.burnt ? "1" : ""))
 	return
 

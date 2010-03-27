@@ -25,7 +25,7 @@
 	sleep(15)
 
 	src.density = 0
-	src.opacity = 0
+	sd_SetOpacity(0)
 	src.operating = 0
 	src.loc.buildlinks()
 	return
@@ -39,7 +39,7 @@
 	src.icon_state = "door1"
 	src.density = 1
 	if (src.visible)
-		src.opacity = 1
+		sd_SetOpacity(1)
 	sleep(15)
 
 	src.operating = 0

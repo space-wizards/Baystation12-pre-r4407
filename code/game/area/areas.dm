@@ -170,6 +170,7 @@
 			// send off a trigger
 			aiPlayer.triggerAlarm("Atmosphere", src, cameras, source)
 			atmos = 0
+			src.updateicon()
 		else if (state == 2)
 			var/retval = aiPlayer.cancelAlarm("Atmosphere", src, source)
 			if (retval == 0) // alarm(s) cleared
@@ -324,16 +325,24 @@
 /area/proc/updateicon()
 	if (partysecret == 0)
 		if ((fire || eject || party || !atmos) && power_environ)
-			if(fire && !eject && !party && atmos)
+			if(fire)
 				icon_state = "blue"
-			else if(!fire && eject && !party && atmos)
+				sd_StripLocalLum()
+				sd_ApplyLocalLum()
+			else if(eject)
 				icon_state = "red"
-			else if(!fire && !eject && !atmos)
+				sd_StripLocalLum()
+				sd_ApplyLocalLum()
+			else if(!atmos)
 				icon_state = "atmos"
-			else if(party && !fire && !eject && atmos)
+				sd_StripLocalLum()
+				sd_ApplyLocalLum()
+			else if(party)
 				icon_state = "party"
-			else
-				icon_state = "blue-red"
+				sd_StripLocalLum()
+				sd_ApplyLocalLum()
+		else
+			icon_state = initial(icon_state)
 /*		else
 			if(lightswitch && power_light)
 				icon_state = null

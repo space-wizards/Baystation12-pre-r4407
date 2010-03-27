@@ -218,7 +218,7 @@
 					M.l_hand = G
 				else
 					M.r_hand = G
-				G.layer = 20
+				G.layer = 52
 				G.affecting = src
 				src.grabbed_by += G
 				G.synch()
@@ -524,7 +524,7 @@
 				if (istype(src.item, /obj/item/weapon/clothing/mask))
 					src.source.drop_item()
 					src.loc = src.target
-					src.item.layer = 20
+					src.item.layer = 52
 					src.target.wear_mask = src.item
 					src.item.loc = src.target
 		if("l_hand")
@@ -542,7 +542,7 @@
 				if (istype(src.item, /obj/item/weapon))
 					src.source.drop_item()
 					src.loc = src.target
-					src.item.layer = 20
+					src.item.layer = 52
 					src.target.l_hand = src.item
 					src.item.loc = src.target
 		if("r_hand")
@@ -560,7 +560,7 @@
 				if (istype(src.item, /obj/item/weapon))
 					src.source.drop_item()
 					src.loc = src.target
-					src.item.layer = 20
+					src.item.layer = 52
 					src.target.r_hand = src.item
 					src.item.loc = src.target
 		if("back")
@@ -578,7 +578,7 @@
 				if ((istype(src.item, /obj/item/weapon) && src.item.flags & 1))
 					src.source.drop_item()
 					src.loc = src.target
-					src.item.layer = 20
+					src.item.layer = 52
 					src.target.back = src.item
 					src.item.loc = src.target
 		if("handcuff")

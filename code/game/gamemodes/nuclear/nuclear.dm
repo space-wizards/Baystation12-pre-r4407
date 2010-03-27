@@ -45,32 +45,32 @@
 			//H.jumpsuit = null
 			del(H.wear_suit)
 			H.w_uniform = new /obj/item/weapon/clothing/under/black( H )
-			H.w_uniform.layer = 20
+			H.w_uniform.layer = 52
 			//H.shoes = null
 			del(H.shoes)
 			H.wear_suit = new /obj/item/weapon/clothing/suit/armor( H )
-			H.wear_suit.layer = 20
+			H.wear_suit.layer = 52
 			H.shoes = new /obj/item/weapon/clothing/shoes/black( H )
-			H.shoes.layer = 20
+			H.shoes.layer = 52
 			H.gloves = new /obj/item/weapon/clothing/gloves/swat( H )
-			H.gloves.layer = 20
+			H.gloves.layer = 52
 			H.head = new /obj/item/weapon/clothing/head/helmet/swat_hel( H )
-			H.head.layer = 20
+			H.head.layer = 52
 			H.glasses = new /obj/item/weapon/clothing/glasses/sunglasses( H )
-			H.glasses.layer = 20
+			H.glasses.layer = 52
 			H.back = new /obj/item/weapon/storage/backpack( H )
-			H.back.layer = 20
+			H.back.layer = 52
 			var/obj/item/weapon/ammo/a357/W = new /obj/item/weapon/ammo/a357( H.back )
-			W.layer = 20
+			W.layer = 52
 			W = new /obj/item/weapon/m_pill/cyanide( H.back )
-			W.layer = 20
+			W.layer = 52
 			var/obj/item/weapon/gun/revolver/G = new /obj/item/weapon/gun/revolver( H )
 			G.bullets = 7
-			G.layer = 20
+			G.layer = 52
 			H.belt = G
 			var/obj/item/weapon/radio/R = new /obj/item/weapon/radio/headset( H )
 			R.freq = 146.5
-			R.layer = 20
+			R.layer = 52
 			H.w_radio = R
 
 /datum/game_mode/nuclear/post_setup()

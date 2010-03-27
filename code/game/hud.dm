@@ -40,20 +40,20 @@ obj/hud/New()
 	using.name = "vitals"
 	using.dir = SOUTH
 	using.screen_loc = "15,2 to 15,15"
-	using.layer = 19
+	using.layer = 51
 
 	src.adding += using
 	using = new src.h_type( src )
 	using.name = "actions"
 	using.dir = EAST
 	using.screen_loc = "4,1 to 14,1"
-	using.layer = 19
+	using.layer = 51
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.dir = NORTHWEST
 	using.screen_loc = "15,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	/*
@@ -92,14 +92,14 @@ obj/hud/New()
 	using.name = "drop"
 	using.icon_state = "act_drop"
 	using.screen_loc = "7,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "swap"
 	using.icon_state = "act_hand"
 	using.screen_loc = "11,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -107,7 +107,7 @@ obj/hud/New()
 	using.dir = SOUTH
 	using.icon_state = "center"
 	using.screen_loc = "2,2"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -115,7 +115,7 @@ obj/hud/New()
 	using.dir = SOUTH
 	using.icon_state = "equip"
 	using.screen_loc = "2,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -123,7 +123,7 @@ obj/hud/New()
 	using.dir = SOUTHEAST
 	using.icon_state = "equip"
 	using.screen_loc = "3,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -131,7 +131,7 @@ obj/hud/New()
 	using.dir = WEST
 	using.icon_state = "equip"
 	using.screen_loc = "1,2"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -139,7 +139,7 @@ obj/hud/New()
 	using.dir = EAST
 	using.icon_state = "equip"
 	using.screen_loc = "3,2"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -147,7 +147,7 @@ obj/hud/New()
 	using.dir = SOUTHWEST
 	using.icon_state = "equip"
 	using.screen_loc = "1,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -155,7 +155,7 @@ obj/hud/New()
 	using.dir = NORTH
 	using.icon_state = "equip"
 	using.screen_loc = "2,3"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
@@ -163,105 +163,105 @@ obj/hud/New()
 	using.dir = NORTHEAST
 	using.icon_state = "equip"
 	using.screen_loc = "3,3"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "storage1"
 	using.icon_state = "block"
 	using.screen_loc = "4,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "storage2"
 	using.icon_state = "block"
 	using.screen_loc = "5,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "resist"
 	using.icon_state = "act_resist"
 	using.screen_loc = "13,1"
-	using.layer = 19
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "other"
 	using.icon_state = "other"
 	using.screen_loc = "4,2"
-	using.layer = 20
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "intent"
 	using.icon_state = "intent"
 	using.screen_loc = "14,15"
-	using.layer = 20
+	using.layer = 52
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "m_intent"
 	using.icon_state = "move"
 	using.screen_loc = "14,14"
-	using.layer = 20
+	using.layer = 53
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "gloves"
 	using.icon_state = "gloves"
 	using.screen_loc = "4,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "eyes"
 	using.icon_state = "glasses"
 	using.screen_loc = "6,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "ears"
 	using.icon_state = "ears"
 	using.screen_loc = "9,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "head"
 	using.icon_state = "hair"
 	using.screen_loc = "7,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "shoes"
 	using.icon_state = "shoes"
 	using.screen_loc = "5,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "belt"
 	using.icon_state = "belt"
 	using.screen_loc = "8,2"
-	using.layer = 19
+	using.layer = 52
 	src.other += using
 
 	using = new src.h_type( src )
 	using.name = "grab"
 	using.icon_state = "grab"
 	using.screen_loc = "11,15"
-	using.layer = 19
+	using.layer = 52
 	src.intents += using
 
 	using = new src.h_type( src )
 	using.name = "hurt"
 	using.icon_state = "harm"
 	using.screen_loc = "14,15"
-	using.layer = 19
+	using.layer = 52
 	src.intents += using
 	src.m_ints += using
 
@@ -269,14 +269,14 @@ obj/hud/New()
 	using.name = "disarm"
 	using.icon_state = "disarm"
 	using.screen_loc = "13,15"
-	using.layer = 19
+	using.layer = 52
 	src.intents += using
 
 	using = new src.h_type( src )
 	using.name = "help"
 	using.icon_state = "help"
 	using.screen_loc = "12,15"
-	using.layer = 19
+	using.layer = 52
 	src.intents += using
 	src.m_ints += using
 
@@ -284,61 +284,61 @@ obj/hud/New()
 	using.name = "face"
 	using.icon_state = "facing"
 	using.screen_loc = "14,14"
-	using.layer = 19
+	using.layer = 52
 	src.mov_int += using
 
 	using = new src.h_type( src )
 	using.name = "walk"
 	using.icon_state = "walking"
 	using.screen_loc = "13,14"
-	using.layer = 19
+	using.layer = 52
 	src.mov_int += using
 
 	using = new src.h_type( src )
 	using.name = "run"
 	using.icon_state = "running"
 	using.screen_loc = "12,14"
-	using.layer = 19
+	using.layer = 52
 	src.mov_int += using
 
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "2,2"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "1,1"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "2,1"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "3,1"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "4,1"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 	using = new src.h_type( src )
 	using.name = "blocked"
 	using.icon_state = "x"
 	using.screen_loc = "5,1"
-	using.layer = 19
+	using.layer = 52
 	src.mon_blo += using
 	using = new src.h_type( src )
 	using.name = null

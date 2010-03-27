@@ -1895,10 +1895,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 					M.sdisabilities |= 1
 		if("head")
 			M.radiation += volume
-			M.luminosity = 1
+			M.sd_SetLuminosity(1)
 		else
 			M.radiation += volume * 5
-			M.luminosity = 1
+			M.sd_SetLuminosity(1)
 	return
 
 
@@ -2220,14 +2220,14 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 					T:lit = null
 		if(isturf(location)) //start a fire if possible
 			location.firelevel = max(location.firelevel, location.poison + 1)
-		src.luminosity = 6
+		src.sd_SetLuminosity(6)
 		count++
 		sleep(10)
 
 	if (on == 0)
 		src.anchored = 0.0
 		spawn (10)
-			luminosity = 0
+			sd_SetLuminosity(0)
 		return
 
 /obj/item/weapon/chem/beaker/attack(mob/M as mob, mob/user as mob, zone)

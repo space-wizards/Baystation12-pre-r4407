@@ -84,7 +84,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		R.dir = src.dir
 		src.add_fingerprint(user)

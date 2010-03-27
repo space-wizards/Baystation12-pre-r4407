@@ -278,7 +278,7 @@
 				src.firelevel = src.oxygen + src.poison
 			if (src.firelevel >= 900000.0)
 				src.icon_state = "burning"
-				src.luminosity = 2
+				sd_SetLuminosity(2)
 				if (src.oxygen > oxygenburn)
 					src.co2 += oxygenburn/4
 					src.oxygen -= oxygenburn

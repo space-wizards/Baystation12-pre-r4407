@@ -484,6 +484,10 @@ About the new airlock wires panel:
 					src.operating = 0
 					src.opacity = 0
 					src.hulksmash1 = 1
+					var/turf/T = src.loc
+					if (istype(T, /turf) && checkForMultipleDoors())
+						T.updatecell = 1
+						T.buildlinks()
 					return
 				else
 					user << "You claw the door!"

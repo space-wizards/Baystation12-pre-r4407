@@ -4,12 +4,11 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: code\game\events.dm
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\mob code\game\objects code\game\verbs code\game\verbs\admin maps
-HIDDENPATHS:
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1269238450
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\machinery code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects code\game\verbs 
+FILE: code\game\objects\items.dm
+LAST_COMPILE_TIME: 1269638998
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -174,6 +173,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\instructions.dm"
 #include "code\game\machinery\other.dm"
 #include "code\game\machinery\overview.dm"
+#include "code\game\machinery\piano.dm"
 #include "code\game\machinery\power.dm"
 #include "code\game\machinery\recharger.dm"
 #include "code\game\machinery\shuttle.dm"

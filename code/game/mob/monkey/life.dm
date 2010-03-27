@@ -517,7 +517,7 @@
 		src.client.screen -= src.hud_used.vimpaired
 		if ((src.blind && src.alive()))
 			if (src.blinded)
-				src.blind.layer = 18
+				src.blind.layer = 51
 			else
 				src.blind.layer = 0
 				if (src.eye_blurry)

@@ -288,7 +288,7 @@
 	if(opened && (!istype(user, /mob/ai)))
 		if(cell)
 			cell.loc = usr
-			cell.layer = 20
+			cell.layer = 52
 			if (user.hand )
 				user.l_hand = cell
 			else

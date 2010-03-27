@@ -485,6 +485,7 @@
 
 /obj/hud
 	name = "hud"
+	layer = 52
 	var/adding = null
 	var/other = null
 	var/intents = null
@@ -498,6 +499,7 @@
 	var/h_type = /obj/screen
 	var/list/darkMask = null
 /obj/hud/hud2
+	layer = 52
 	name = "hud2"
 	h_type = /obj/screen/screen2
 /obj/item
@@ -2074,6 +2076,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/pen/sleepypen
 	desc = "It's a normal black ink pen with a sharp point."
 	var/obj/substance/chemical/chem = null
+/obj/item/weapon/pen/zombiepen
+	desc = "It's a normal black ink pen with a sharp point."
+	var/used = 0
+/obj/item/weapon/pen/antizombiepen
+	desc = "It's a normal black ink pen with a sharp point."
+	var/used = 0
 /obj/item/weapon/pill_canister
 	name = "Pill Canister"
 	icon_state = "pill_canister"
@@ -4135,27 +4143,32 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/screen
 	name = "screen"
 	icon = 'screen1.dmi'
-	layer = 20.0
+	layer = 51.0
 	var/id = 0.0
 	var/obj/master
 /obj/screen/close
 	name = "close"
 	master = null
+	layer = 52.0
 /obj/screen/grab
 	name = "grab"
 	master = null
+	layer = 52.0
 /obj/screen/screen2
 	name = "screen2"
 	icon = 'screen.dmi'
+	layer = 52.0
 /obj/screen/storage
 	name = "storage"
 	master = null
+	layer = 52.0
 /obj/screen/zone_sel
 	name = "Damage Zone"
 	icon = 'zone_sel.dmi'
 	icon_state = "blank"
 	var/selecting = "chest"
 	screen_loc = "15,15"
+	layer = 52.0
 
 /obj/shut_controller
 	name = "shut controller"

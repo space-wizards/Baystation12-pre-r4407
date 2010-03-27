@@ -46,7 +46,9 @@
 	src.throw_icon.name = "throw"
 	src.oxygen.name = "oxygen"
 	src.i_select.name = "intent"
+	src.i_select.layer = 53
 	src.m_select.name = "moving"
+	src.m_select.layer = 53
 	src.toxin.name = "toxin"
 	src.bodytemp.name = "body temperature"
 	src.internals.name = "internal"
@@ -56,6 +58,7 @@
 	src.pullin.name = "pull"
 	src.blind.name = " "
 	src.hands.name = "hand"
+	src.hands.layer = 52
 	src.flash.name = "flash"
 	src.sleep.name = "sleep"
 	src.rest.name = "rest"
@@ -82,6 +85,17 @@
 	src.client.screen += list( src.throw_icon, src.zone_sel, src.oxygen, src.i_select, src.m_select, src.toxin, src.bodytemp, src.internals, src.fire, src.hands, src.healths, src.pullin, src.blind, src.flash, src.rest, src.sleep, src.mach )
 	src.client.screen -= src.hud_used.adding
 	src.client.screen += src.hud_used.adding
+	src.healths.layer = 52
+	src.pullin.layer = 53
+	src.bodytemp.layer = 52
+	src.fire.layer = 52
+	src.mach.layer = 52
+	src.internals.layer = 52
+	src.toxin.layer = 52
+	src.oxygen.layer = 52
+	src.sleep.layer = 52
+	src.rest.layer = 52
+	src.throw_icon.layer = 52
 
 	if (!src.start)
 		var/area/A = locate(/area/start)

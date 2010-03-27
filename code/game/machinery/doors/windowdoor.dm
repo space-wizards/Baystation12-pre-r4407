@@ -56,7 +56,7 @@
 	src.hear_sound("sound/door/windoor/move.wav",4)
 	sleep(15)
 	src.density = 0
-	src.opacity = 0
+	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.buildlinks()
@@ -73,7 +73,7 @@
 	src.density = 1
 	src.hear_sound("sound/door/windoor/move.wav",4)
 	if (src.visible)
-		src.opacity = 1
+		src.sd_SetOpacity(1)
 	sleep(15)
 	var/turf/T = src.loc
 	if (istype(T, /turf))

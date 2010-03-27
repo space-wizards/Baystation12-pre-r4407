@@ -193,9 +193,27 @@
 				updateicon()
 				sd_SetLuminosity(0)
 
+/obj/machinery/light/ex_act(severity)
+	switch(severity)
+		if(1.0)
+			del(src)
+			return
+		if(2.0)
+			if (prob(50))
+				stat |= BROKEN
+				sd_SetLuminosity(0)
+				on = 0
+				icon_state = "[gset]-b"
+		if(3.0)
+			if (prob(25))
+				stat |= BROKEN
+				sd_SetLuminosity(0)
+				on = 0
+				icon_state = "[gset]-b"
+		else
+	return
 /obj/item/weapon/storage/lightbulbs/New()
 	..()
-	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )

@@ -190,7 +190,7 @@ area/maintenance/hall
 
 area/maintenance/atmos
 	name = "Atmospherics"
-	icon_state = "atmos"
+	icon_state = ""
 
 area/maintenance/janitor
 	name = "Custodial Closet"

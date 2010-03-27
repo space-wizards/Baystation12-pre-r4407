@@ -76,3 +76,3213 @@
 12-59:ADMIN: Loading crban_unbanned
 12-59:ADMIN: Loading jobban_rank
 12-59:ADMIN: Updating jobbanfile!
+12-59:ACCESS: Login: Headswe from 127.0.0.1
+12-59:GAME: Headswe entered as Cog Stopnoble
+12-59:VOTE: Voting to change mode started by Cog Stopnoble/Headswe
+12-59:ACCESS: Login: AmirHM from 91.99.186.239
+12-59:ACCESS: Logout: AmirHM
+12-59:VOTE: Voting closed, result was armok
+12-59:ADMIN: Headswe used start_now
+12-59:GAME: starting game of Armok
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:SAY: Cog Stopnoble/Headswe : ; ARMOK ARE YOU THERE?
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ACCESS: Login: AmirHM from 91.99.186.239
+12-59:OOC: Cog Stopnoble/Headswe : Yo
+12-59:OOC: Cog Boozekobold/AmirHM : Hey head
+12-59:ACCESS: Login: Nameless2 from 89.137.121.119
+12-59:OOC: Cog Boozekobold/AmirHM : Why would we need an execution chamber?
+12-59:GAME: Nameless2 entered as Cog Zombiedriven
+12-59:OOC: Cog Stopnoble/Headswe : No idea.
+12-59:SAY: Cog Zombiedriven/Nameless2 : ;What is that?
+12-59:OOC: Cog Stopnoble/Headswe : Armok mode is pretty.
+12-59:OOC: Cog Stopnoble/Headswe : lol
+12-59:OOC: Cog Stopnoble/Headswe : Hmm the engine ignited itself :P
+12-59:ADMIN: Headswe jumped to Cog Zombiedriven
+12-59:ADMIN: Headswe jumped to Mysterious Vessel
+12-59:OOC: Cog Boozekobold/AmirHM : I think you forgot to add me to the admin list... agian :P
+12-59:OOC: Cog Stopnoble/Headswe : blame th merge.
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe jumped to Sydicate C2A Sector HQ
+12-59:OOC: Cog Boozekobold/AmirHM : Also i got to say you did a pretty good job with the logs
+12-59:OOC: Cog Boozekobold/AmirHM : I was just checking yesterdays logs and i have to say , im impressed
+12-59:OOC: Cog Stopnoble/Headswe : I just made it userfriendly and added all kinds of attacks and injections
+12-59:ACCESS: Logout: 
+12-59:ACCESS: Login: Nameless2 from 89.137.121.119
+12-59:OOC: Cog Stopnoble/Headswe : Googol made the bassis.
+12-59:OOC: Cog Boozekobold/AmirHM : Using the logs in Data&#39;s server was a pain in the ass
+12-59:OOC: Cog Stopnoble/Headswe : That&#39;s because Data sucks ass.
+12-59:OOC: Cog Boozekobold/AmirHM : The only thing that was recorded in the logs was the chat lol
+12-59:OOC: Cog Boozekobold/AmirHM : Yeah he does
+12-59:OOC: Cog Stopnoble/Headswe : The new syndie base is complete
+12-59:OOC: Cog Stopnoble/Headswe : is cool*
+12-59:OOC: Cog Boozekobold/AmirHM : Nice , is it to the SW of the station?
+12-59:OOC: Cog Boozekobold/AmirHM : Ah
+12-59:OOC: Cog Stopnoble/Headswe : No idea.,
+12-59:OOC: Cog Boozekobold/AmirHM : Also you should fix that bug with the cyros
+12-59:OOC: Cog Boozekobold/AmirHM : A few rounds ago it raised some hell
+12-59:OOC: Cog Stopnoble/Headswe : Bug?
+12-59:OOC: Cog Stopnoble/Headswe : Oh cool
+12-59:OOC: Cog Stopnoble/Headswe : Syndie got thier own shuttle
+12-59:OOC: Cog Boozekobold/AmirHM : Looks like you were busy
+12-59:OOC: Cog Boozekobold/AmirHM : Also you should add a feature that could make it possible for players to observe the round
+12-59:OOC: Cog Boozekobold/AmirHM : This could be handy for admins
+12-59:GAME: AmirHM entered as Cog Boozekobold
+12-59:ACCESS: Login: Seanleonartes from 216.182.109.135
+12-59:OOC: Cog Boozekobold/AmirHM : What is armok exactly?
+12-59:OOC: Cog Boozekobold/AmirHM : I feel like im in hell
+12-59:OOC: Cog Boozekobold/AmirHM : Nameless? what are you doing here?
+12-59:OOC: Cog Zombiedriven/Nameless2 : Got sick of the goon servers.
+12-59:OOC: Cog Boozekobold/AmirHM : Lol i just saw something funny
+12-59:OOC: Cog Stopnoble/Headswe : Amir thats the point of armok mode.
+12-59:OOC: Cog Boozekobold/AmirHM : A meteor crashed with 2 doors (glass doors) and instead of destroying them , the doors opened
+12-59:ADMIN: Headswe jumped to Cog Zombiedriven
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ADMIN: Headswe Healed/Revived Headswe
+12-59:ACCESS: Logout: 
+12-59:ACCESS: Login: AmirHM from 91.99.186.239
+12-59:OOC: Cog Stopnoble/Headswe : Ya.
+12-59:OOC: Cog Stopnoble/Headswe : That wat it thoes
+12-59:GAME: Seanleonartes entered as Kiskae Torind
+12-59:OOC: Cog Boozekobold/AmirHM : Is it even possible to survive armok?
+12-59:OOC: Cog Stopnoble/Headswe : Most likely not
+12-59:OOC: Cog Zombiedriven/Nameless2 : If you abuse the lying down mechanic, likely.
+12-59:OOC: Cog Zombiedriven/Nameless2 : That is how you win meteor, you go to emergency shuttle arm with internals on and lie down, all meteors will miss you.
+12-59:OOC: Cog Boozekobold/AmirHM : I know that move , but the real problem is getting there
+12-59:GAME: Rebooting due to end of game
+12-59:ACCESS: Logout: Headswe
+12-59:ACCESS: Logout: AmirHM
+12-59:ACCESS: Logout: Nameless2
+12-59:ACCESS: Logout: Seanleonartes
+13-24:ADMIN: Loading crban_keylist
+13-24:ADMIN: Loading crban_reason
+13-24:ADMIN: Loading crban_time
+13-24:ADMIN: Loading crban_bannedby
+13-24:ADMIN: Loading crban_iplist
+13-24:ADMIN: Loading crban_unbanned
+13-24:ADMIN: Loading jobban_rank
+13-24:ADMIN: Updating jobbanfile!
+13-24:ACCESS: Login: Nameless2 from 89.137.121.119
+13-24:ACCESS: Login: AmirHM from 91.99.186.239
+13-24:ACCESS: Login: Headswe from 127.0.0.1
+13-24:GAME: Nameless2 entered as Cog Makercopper
+13-24:OOC: Cog Filth	blood/Headswe : RAWWAR brb smoke
+13-24:GAME: AmirHM entered as Dan Handsome
+13-24:GAME: starting game of Armok
+13-24:ACCESS: Logout: Nameless2
+13-24:SAY: Dan Handsome/AmirHM : ;Run!
+13-24:OOC: Cog Filth	blood/Headswe : you choose armok again?
+13-24:GAME: Headswe entered as Cog Filth	blood
+13-24:OOC: Dan Handsome/AmirHM : Nah , it was armok by defult
+13-24:OOC: Dan Handsome/AmirHM : No one started a vote :/
+13-24:OOC: Cog Filth	blood/Headswe : I was afk
+13-24:OOC: Cog Filth	blood/Headswe : Im gonna go and code a piano in
+13-24:OOC: Dan Handsome/AmirHM : Someone has a lot of free time...
+13-24:SAY: Dan Handsome/AmirHM : ;Damn it , the communication console has been destroyed!
+13-24:SAY: Dan Handsome/AmirHM : ;Were doomed!
+13-24:OOC: Cog Filth	blood/Headswe : You can build com consoles
+13-24:OOC: Dan Handsome/AmirHM : Not in armok
+13-24:GAME: Rebooting because of no live players
+13-24:GAME: Rebooting because of no live players
+13-24:ACCESS: Logout: AmirHM
+13-24:ACCESS: Logout: Headswe
+13-36:ADMIN: Loading crban_keylist
+13-36:ADMIN: Loading crban_reason
+13-36:ADMIN: Loading crban_time
+13-36:ADMIN: Loading crban_bannedby
+13-36:ADMIN: Loading crban_iplist
+13-36:ADMIN: Loading crban_unbanned
+13-36:ADMIN: Loading jobban_rank
+13-36:ADMIN: Updating jobbanfile!
+13-36:ACCESS: Login: AmirHM from 91.99.186.239
+13-36:GAME: starting game of Armok
+13-36:ACCESS: Login: Headswe from 127.0.0.1
+13-36:GAME: AmirHM entered as Dan Handsome
+13-36:ACCESS: Logout: 
+13-36:ACCESS: Login: AmirHM from 91.99.186.239
+13-36:OOC: Urist Glassdrawbridge/Headswe : Again?
+13-36:OOC: Dan Handsome/AmirHM : Uh well im doing something else and no one else is here (exept you)
+13-36:OOC: Dan Handsome/AmirHM : Odd , check out the engine generator&#39;s spirit
+13-36:OOC: Dan Handsome/AmirHM : Its out of place lol
+13-36:OOC: Dan Handsome/AmirHM : The monitor is out of place
+13-36:OOC: Dan Handsome/AmirHM : Also , i think you should host the normal server , i think players like that one more then this one
+13-36:OOC: Urist Glassdrawbridge/Headswe : Yea saw it.
+13-36:OOC: Urist Glassdrawbridge/Headswe : This is the normal server just with lights on.
+13-36:OOC: Urist Glassdrawbridge/Headswe : why armok is default i have no idea off
+13-36:OOC: Dan Handsome/AmirHM : Its not really defult
+13-36:OOC: Dan Handsome/AmirHM : *default
+13-36:OOC: Dan Handsome/AmirHM : The server sets the mode as the mode of the last round
+13-36:OOC: Dan Handsome/AmirHM : Also , one of the things that anoys me is that when ever a var of an ATOM is changed , its announced
+13-36:OOC: Urist Glassdrawbridge/Headswe : it is default
+13-36:OOC: Urist Glassdrawbridge/Headswe : i changed it now.
+13-36:OOC: Urist Glassdrawbridge/Headswe : Yea var annoucment is kinda annoying
+13-36:OOC: Dan Handsome/AmirHM : You should turn off this light feature , since it makes the station dark players dislike it
+13-36:ACCESS: Login: Shadowgandor from 83.84.235.167
+13-36:OOC: Dan Handsome/AmirHM : Or increase the number of light fixtures in the station
+13-36:OOC: Urist Glassdrawbridge/Headswe : lol eye problems?
+13-36:OOC: Urist Glassdrawbridge/Headswe : The engine needs more of them tho
+13-36:GAME: Headswe entered as Urist Glassdrawbridge
+13-36:OOC: Dan Handsome/AmirHM : A good example is engine control room
+13-36:GAME: Shadowgandor entered as Dingo Lightheart
+13-36:OOC: Dan Handsome/AmirHM : It has 4 light fixtures and makes it pretty bright
+13-36:OOC: Urist Glassdrawbridge/Headswe : Indeed il add some more then we restart.
+13-36:SAY: Dingo Lightheart/Shadowgandor : ;Holy shit! What the hell is going on on this station?
+13-36:SAY: Urist Glassdrawbridge/Headswe : ; ARMOk
+13-36:SAY: Dingo Lightheart/Shadowgandor : ;You mean only Armok can save us?
+13-36:SAY: Dingo Lightheart/Shadowgandor : ;Idiots! How did you invoke the wrath of Armok upon us?!
+13-36:SAY: Urist Glassdrawbridge/Headswe : ; WE DID NOT SPACE THE CAKE.
+13-36:OOC: Dingo Lightheart/Shadowgandor : Are we RPing serious this round?
+13-36:OOC: Urist Glassdrawbridge/Headswe : Nope
+13-36:OOC: Urist Glassdrawbridge/Headswe : im gonna restart this game soon
+13-36:OOC: Dingo Lightheart/Shadowgandor : Good. I got headshotted by a meteor...twice lol
+13-36:OOC: Dan Handsome/AmirHM : Nope , just relaxin....
+13-36:OOC: Dan Handsome/AmirHM : Lol so did i
+13-36:OOC: Dingo Lightheart/Shadowgandor : I still live though, just knocked out
+13-36:OOC: Dan Handsome/AmirHM : Space really knows how to kill
+13-36:OOC: Dan Handsome/AmirHM : Heh i turned completly red in just one hit of a meteor
+13-36:OOC: Dan Handsome/AmirHM : Wow , look at the engine control room , its in such a good shape
+13-36:OOC: Dingo Lightheart/Shadowgandor : Oh uhm, the -X% health left isn&#39;t working properly. The game said I could still breath
+13-36:OOC: Dingo Lightheart/Shadowgandor : You know, if you get below 0% health, you can&#39;t breath anymore
+13-36:OOC: Dan Handsome/AmirHM : Yes i know
+13-36:OOC: Dingo Lightheart/Shadowgandor : Well, it didn&#39;t look like I couldn&#39;t breath anymore. Ah well ^^
+13-36:OOC: Dingo Lightheart/Shadowgandor : You shouldn&#39;t know what&#39;s going on when unconscious anyway
+13-36:ACCESS: Logout: 
+13-36:ACCESS: Login: Shadowgandor from 83.84.235.167
+13-36:ADMIN: Headswe initiated a reboot.
+13-36:ACCESS: Logout: AmirHM
+13-36:ACCESS: Logout: Headswe
+13-36:ACCESS: Logout: Shadowgandor
+14-10:ADMIN: Loading crban_keylist
+14-10:ADMIN: Loading crban_reason
+14-10:ADMIN: Loading crban_time
+14-10:ADMIN: Loading crban_bannedby
+14-10:ADMIN: Loading crban_iplist
+14-10:ADMIN: Loading crban_unbanned
+14-10:ADMIN: Loading jobban_rank
+14-10:ADMIN: Updating jobbanfile!
+14-10:ACCESS: Login: Headswe from 127.0.0.1
+14-10:GAME: Headswe entered as Urist Walldoor
+14-10:ADMIN: Headswe set the mode as extended.
+14-10:ADMIN: Headswe set the mode as zombie.
+14-10:ADMIN: Headswe set the mode as extended.
+14-10:ADMIN: Headswe used start_now
+14-10:GAME: starting game of extended
+14-10:ACCESS: Login: Shadowgandor from 83.84.235.167
+14-10:ACCESS: Login: AmirHM from 91.99.186.239
+14-10:GAME: Shadowgandor entered as Dingo Lightheart
+14-10:OOC: Urist Walldoor/Headswe : I did put more lights into Engine
+14-10:OOC: Urist Walldoor/Headswe : It&#39;s better now
+14-10:OOC: Dingo Lightheart/Shadowgandor : Ah crap, I couldn&#39;t reconnect fast enough :(
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by () with Fire Extinguisher
+14-10:OOC: Urist Walldoor/Headswe : Nice fire alarms are bugged.
+14-10:GAME: AmirHM entered as Dan Handsome
+14-10:MATTACK: Dingo Lightheart(Shadowgandor)has grabbed Mister Muggles() aggressively (now hands) 
+14-10:SAY: Dingo Lightheart/Shadowgandor : I uhh
+14-10:SAY: Dingo Lightheart/Shadowgandor : I can explain this
+14-10:SAY: Dan Handsome/AmirHM : *stare
+14-10:SAY: Dingo Lightheart/Shadowgandor : *blush
+14-10:OOC: Dan Handsome/AmirHM : Head
+14-10:OOC: Dan Handsome/AmirHM : Did you say this is the normal server?
+14-10:OOC: Dingo Lightheart/Shadowgandor : It is? Shit
+14-10:OOC: Dingo Lightheart/Shadowgandor : I&#39;ll remove the glass..:(
+14-10:OOC: Dan Handsome/AmirHM : Dont worry , since there arent many players you can have fun
+14-10:OOC: Dingo Lightheart/Shadowgandor : Alright ^^
+14-10:OOC: Urist Walldoor/Headswe : lol
+14-10:ADMIN: Headswe teleported Dingo Lightheart
+14-10:ADMIN: Headswe teleported Dan Handsome
+14-10:SAY: Dingo Lightheart/Shadowgandor : *blink
+14-10:SAY: Dingo Lightheart/Shadowgandor : Oh wow
+14-10:SAY: Dingo Lightheart/Shadowgandor : *gasp
+14-10:SAY: Dingo Lightheart/Shadowgandor : Just like the one I had in my childhood!
+14-10:SAY: Urist Walldoor/Headswe : Dont worry it hasd cool down.
+14-10:SAY: Urist Walldoor/Headswe : it has*
+14-10:SAY: Urist Walldoor/Headswe : ; try that again
+14-10:OOC: Dan Handsome/AmirHM : If this is the normal server why isnt my name in the admin list? it was in it yesterday
+14-10:OOC: Urist Walldoor/Headswe : because i merged with googols code and your name and someone else was lost
+14-10:SAY: Dingo Lightheart/Shadowgandor : *help
+14-10:SAY: Dingo Lightheart/Shadowgandor : *shiver
+14-10:OOC: Urist Walldoor/Headswe : added brb food
+14-10:OOC: Dan Handsome/AmirHM : You know a good addition to the game would be background music , the game is just to quitet
+14-10:SAY: Dingo Lightheart/Shadowgandor : So beautifull
+14-10:OOC: Dan Handsome/AmirHM : *quiet
+14-10:OOC: Dingo Lightheart/Shadowgandor : I&#39;m usually listening to my own music when playing this game. It&#39;s one of the things I like about this game: I can listen to music without missing  out on stuff
+14-10:OOC: Dingo Lightheart/Shadowgandor : Light bulbs don&#39;t appear in your hand
+14-10:OOC: Dingo Lightheart/Shadowgandor : I should be able to smash lights with a fire extinguisher, instead of getting the message that I should remove the grill first. Are all the lights hidden behind a grill or something? Would explain the lack of light in certain areas :P
+14-10:SAY: Dingo Lightheart/Shadowgandor : Hi there
+14-10:SAY: Dingo Lightheart/Shadowgandor : *giggle
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Dingo Lightheart(Shadowgandor) with the weldingtool
+14-10:ACCESS: Logout: Shadowgandor
+14-10:ACCESS: Failed Login: XxxfecesxxX Reason: Key banned
+14-10:OOC: Dan Handsome/AmirHM : They are new so dont expect them to be perfect
+14-10:VOTE: Voting to restart round started by Dan Handsome/AmirHM
+14-10:VOTE: Voting closed, result was restart
+14-10:GAME: Rebooting due to restart vote
+14-10:ACCESS: Logout: Headswe
+14-10:ACCESS: Logout: AmirHM
+14-46:ADMIN: Loading crban_keylist
+14-46:ADMIN: Loading crban_reason
+14-46:ADMIN: Loading crban_time
+14-46:ADMIN: Loading crban_bannedby
+14-46:ADMIN: Loading crban_iplist
+14-46:ADMIN: Loading crban_unbanned
+14-46:ADMIN: Loading jobban_rank
+14-46:ADMIN: Updating jobbanfile!
+14-46:ACCESS: Login: AmirHM from 91.99.186.239
+14-46:ADMIN: AmirHM delayed the game.
+14-46:GAME: AmirHM entered as Dan Handsome
+14-46:ACCESS: Login: Headswe from 127.0.0.1
+14-46:OOC: Cog Trapbronze/Headswe : rawrarawr
+14-46:GAME: Headswe entered as Cog Trapbronze
+14-46:ADMIN: AmirHM removed the delay.
+14-46:ADMIN: AmirHM used start_now
+14-46:GAME: starting game of extended
+14-46:OOC: Cog Trapbronze/Headswe : lulz
+14-46:OOC: Dan Handsome/AmirHM : What is it?
+14-46:OOC: Cog Trapbronze/Headswe : the pianos cooldown var name is rape.
+14-46:OOC: Dan Handsome/AmirHM : XD
+14-46:OOC: Cog Trapbronze/Headswe : hehe im a idiot
+14-46:OOC: Cog Trapbronze/Headswe : xD
+14-46:OOC: Dan Handsome/AmirHM : You should change the music of that piano and put it in the chaple 
+14-46:OOC: Dan Handsome/AmirHM : It could play the music that is used in churches
+14-46:OOC: Cog Trapbronze/Headswe : Was thinking abou that.
+14-46:ACCESS: Failed Login: Guest-1769750956 Reason: Ip banned
+14-46:ADMIN: AmirHM modified Chemical Research Lab's density to 0
+14-46:OOC: Cog Trapbronze/Headswe : that reminds me
+14-46:ADMIN: AmirHM modified Chemical Closet's locked to 0
+14-46:OOC: Dan Handsome/AmirHM : Yeah?
+14-46:ADMIN: AmirHM modified Chemistry Locker's locked to 0
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's hulksmash1 to 1
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's hulksmash1 to 0
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's health to 1
+14-46:ADMIN: Headswe modified Cog Trapbronze's zombie to 1
+14-46:OOC: Dan Handsome/AmirHM : Hmm can i try out my powers a bit?
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's health to 9
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's hitpoints to 1
+14-46:ADMIN: Headswe modified Cog Trapbronze's zombie to 0
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:ADMIN: Headswe modified Plasma Research Canister Storage's p_open to 1
+14-46:OOC: Dan Handsome/AmirHM : Lol its kind of fun to run around and case chaos when no one is around
+14-46:OOC: Dan Handsome/AmirHM : Spartaaaa!!! lol
+14-46:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+14-46:ADMIN: AmirHM modified Dan Handsome's see_in_dark to 1
+14-46:ADMIN: Headswe has toggled Headswe's nodamage to 1
+14-46:ADMIN: AmirHM modified Dan Handsome's density to 0
+14-46:ADMIN: AmirHM modified Dan Handsome's density to 0
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:ADMIN: AmirHM jumped to South Hallway
+14-46:OOC: Dan Handsome/AmirHM : This is odd... im not dense but i still cant walk through walls
+14-46:ADMIN: AmirHM modified Dan Handsome's density to 0
+14-46:OOC: Dan Handsome/AmirHM : Lol? what does gentleman var do?
+14-46:ADMIN: AmirHM modified Dan Handsome's t_oxygen to 1
+14-46:ADMIN: AmirHM jumped to Fire Station
+14-46:OOC: Dan Handsome/AmirHM : Why arent these commands working?
+14-46:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+14-46:ADMIN: AmirHM modified Dan Handsome's density to 1
+14-46:ADMIN: AmirHM jumped to Cog Trapbronze
+14-46:OOC: Dan Handsome/AmirHM : Lol you forgot to add light to thunderdome
+14-46:OOC: Cog Trapbronze/Headswe : Who cares about it :D
+14-46:OOC: Dan Handsome/AmirHM : Lol good point
+14-46:ADMIN: AmirHM jumped to Cog Trapbronze
+14-46:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+14-46:OOC: Cog Trapbronze/Headswe : Think i fixed the problem with plasma not moveing trough zombie smashed doors
+14-46:OOC: Dan Handsome/AmirHM : I hope so
+14-46:OOC: Dan Handsome/AmirHM : Its kind of anoying
+14-46:OOC: Cog Trapbronze/Headswe : indeed.
+14-46:ADMIN: AmirHM modified Dan Handsome's zombie to 1
+14-46:OOC: Cog Trapbronze/Headswe : Ever used a welder on a vat?
+14-46:OOC: Dan Handsome/AmirHM : Nope , i never wanted to suicide so i didnt
+14-46:ADMIN: AmirHM modified Dan Handsome's zombie to 0
+14-46:OOC: Cog Trapbronze/Headswe : if your in vaccum you will be blown away
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/oxygenvat
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/oxygenvat
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/oxygenvat
+14-46:ADMIN: AmirHM modified Dan Handsome's density to 0
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/oxygenvat
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/plasmavat
+14-46:ADMIN: Headswe created /obj/machinery/atmoalter/canister/vat/oxygenvat
+14-46:ADMIN: Headswe Healed/Revived Headswe
+14-46:ADMIN: AmirHM Healed/Revived Headswe
+14-46:OOC: Dan Handsome/AmirHM : This is odd
+14-46:OOC: Cog Trapbronze/Headswe : ;D
+14-46:OOC: Dan Handsome/AmirHM : When i set my density to 0 it suddenly changes back to 1
+14-46:OOC: Cog Trapbronze/Headswe : That&#39;s because Density = 0 is a lie
+14-46:OOC: Cog Trapbronze/Headswe : Use noclip :D
+14-46:ADMIN: AmirHM modified Dan Handsome's noclip to 1
+14-46:ADMIN: AmirHM sent Headswe/Cog Trapbronze to the maze.
+14-46:ACCESS: Login: Hiddeknight from 124.168.116.222
+14-46:ADMIN: AmirHM used secret power
+14-46:ADMIN: AmirHM jumped to Prison Medical Research
+14-46:ACCESS: Login: Xegeth from 77.103.224.146
+14-46:OOC: Dan Handsome/AmirHM : Head , think we should restart?
+14-46:ADMIN: AmirHM jumped to Cog Trapbronze
+14-46:SAY: Dan Handsome/AmirHM : Moooo!!!
+14-46:GAME: Xegeth entered as Ashan Selfer
+14-46:SAY: Dan Handsome/AmirHM : Im melon!
+14-46:SAY: Dan Handsome/AmirHM : goerge melons!
+14-46:SAY: Ashan Selfer/Xegeth : ;Hello? May I have a job?
+14-46:ADMIN: AmirHM jumped to Ashan Selfer
+14-46:SAY: Dan Handsome/AmirHM : Hi
+14-46:SAY: Ashan Selfer/Xegeth : Hello.
+14-46:SAY: Dan Handsome/AmirHM : Dont RP or any thing
+14-46:SAY: Ashan Selfer/Xegeth : What happened to you?
+14-46:SAY: Dan Handsome/AmirHM : Have fun!
+14-46:SAY: Ashan Selfer/Xegeth : Ok.
+14-46:SAY: Dan Handsome/AmirHM : Take this
+14-46:SAY: Ashan Selfer/Xegeth : Take what?
+14-46:SAY: Dan Handsome/AmirHM : One sec
+14-46:ADMIN: AmirHM/Dan Handsome : Where is the spawn obj command?
+14-46:ADMIN: AmirHM/Dan Handsome : Nvm found it
+14-46:ADMIN: AmirHM created /obj/item/weapon/gun/energy
+14-46:ADMIN: AmirHM created /obj/item/weapon/gun/revolver
+14-46:SAY: Dan Handsome/AmirHM : Here
+14-46:SAY: Dan Handsome/AmirHM : Shoot me
+14-46:SAY: Dan Handsome/AmirHM : Sec
+14-46:SAY: Ashan Selfer/Xegeth : Empty.
+14-46:SAY: Dan Handsome/AmirHM : Give it to me
+14-46:SAY: Dan Handsome/AmirHM : Wait
+14-46:ADMIN: AmirHM modified revolver's bullets to 1.#INF
+14-46:SAY: Dan Handsome/AmirHM : Done
+14-46:SAY: Dan Handsome/AmirHM : Shoot me
+14-46:SAY: Ashan Selfer/Xegeth : Shoot now?
+14-46:SAY: Dan Handsome/AmirHM : Again
+14-46:SAY: Dan Handsome/AmirHM : Hah
+14-46:ADMIN: AmirHM created /obj/item/weapon/sword
+14-46:MATTACK: Dan Handsome(AmirHM) attcked by Ashan Selfer(Xegeth) with the energy sword
+14-46:MATTACK: Dan Handsome(AmirHM) attcked by Ashan Selfer(Xegeth) with the energy sword
+14-46:ADMIN: AmirHM Healed/Revived Xegeth
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:MATTACK: Dan Handsome(AmirHM) attcked by Ashan Selfer(Xegeth) with the energy sword
+14-46:MATTACK: Dan Handsome(AmirHM) attcked by Ashan Selfer(Xegeth) with the energy sword
+14-46:ADMIN: AmirHM Healed/Revived Xegeth
+14-46:SAY: Dan Handsome/AmirHM : Go get the revolver
+14-46:SAY: Dan Handsome/AmirHM : Shoot me
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:SAY: Dan Handsome/AmirHM : Woaahahhh!
+14-46:MATTACK: Ashan Selfer(Xegeth) attcked by Dan Handsome(AmirHM) with the revolver
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:ADMIN: AmirHM has toggled Xegeth's nodamage to 1
+14-46:ADMIN: AmirHM Healed/Revived Xegeth
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+14-46:ADMIN: AmirHM jumped to Ashan Selfer
+14-46:ADMIN: AmirHM Healed/Revived AmirHM
+14-46:OOC: Cog Trapbronze/Headswe : Yes
+14-46:VOTE: Voting to restart round started by Cog Trapbronze/Headswe
+14-46:ADMIN: AmirHM modified Dan Handsome's blind to  
+14-46:VOTE: Voting closed, result was restart
+14-46:GAME: Rebooting due to restart vote
+14-46:ACCESS: Logout: AmirHM
+14-46:ACCESS: Logout: Headswe
+14-46:ACCESS: Logout: Hiddeknight
+14-46:ACCESS: Logout: Xegeth
+15-41:ADMIN: Loading crban_keylist
+15-41:ADMIN: Loading crban_reason
+15-41:ADMIN: Loading crban_time
+15-41:ADMIN: Loading crban_bannedby
+15-41:ADMIN: Loading crban_iplist
+15-41:ADMIN: Loading crban_unbanned
+15-41:ADMIN: Loading jobban_rank
+15-41:ADMIN: Updating jobbanfile!
+15-41:ACCESS: Login: Xegeth from 77.103.224.146
+15-41:GAME: Xegeth entered as Ashan Selfer
+15-41:GAME: starting game of extended
+15-41:ACCESS: Logout: 
+15-41:ACCESS: Login: Xegeth from 77.103.224.146
+15-41:ACCESS: Login: Headswe from 127.0.0.1
+15-41:ACCESS: Login: AmirHM from 91.99.186.239
+15-41:GAME: AmirHM entered as Dan Handsome
+15-41:ACCESS: Login: Hiddeknight from 124.168.116.222
+15-41:OOC: Friend Computer/Xegeth : Is the AI sat supposed to be completely dark?
+15-41:OOC: Dan Handsome/AmirHM : I guess head forgot to add lights there
+15-41:OOC: Friend Computer/Xegeth : Very few people seem to go there anyway.
+15-41:SAY: Dan Handsome/AmirHM : ;Whos the captain?
+15-41:SAY: Friend Computer/Xegeth : I am.
+15-41:SAY: Dan Handsome/AmirHM : ;I said captain
+15-41:SAY: Friend Computer/Xegeth : I am.
+15-41:SAY: Dan Handsome/AmirHM : ;Your the AI
+15-41:GAME: Hiddeknight entered as Urist Carpfisher
+15-41:SAY: Friend Computer/Xegeth : No captain detected.
+15-41:SAY: Friend Computer/Xegeth : Therefore, I am captain.
+15-41:OOC: Dan Handsome/AmirHM : Since there is no captain i will get the captain to run the station , everyone must RP as if i was the captain from the start
+15-41:SAY: Dan Handsome/AmirHM : ;Hello this is your captain if you need to be reassigned just tell me
+15-41:SAY: Friend Computer/Xegeth : May I be a geneticist?
+15-41:SAY: Friend Computer/Xegeth : This is one of your human jokes.
+15-41:SAY: Dan Handsome/AmirHM : ;That wasnt funny at all...
+15-41:SAY: Friend Computer/Xegeth : I have much to learn.
+15-41:SAY: Friend Computer/Xegeth : Engine needs to be lit.
+15-41:SAY: Dan Handsome/AmirHM : ;AI , do we have any assistants?
+15-41:SAY: Friend Computer/Xegeth : One detected.
+15-41:SAY: Dan Handsome/AmirHM : Can you work with the engine?
+15-41:SAY: Urist Carpfisher/Hiddeknight : No.
+15-41:SAY: Urist Carpfisher/Hiddeknight : I am a lamp.
+15-41:SAY: Urist Carpfisher/Hiddeknight : Buzzzz.
+15-41:SAY: Dan Handsome/AmirHM : What are you experienced in?
+15-41:SAY: Urist Carpfisher/Hiddeknight : Being a light source.
+15-41:SAY: Dan Handsome/AmirHM : *stare
+15-41:SAY: Urist Carpfisher/Hiddeknight : Buzzzz.
+15-41:SAY: Friend Computer/Xegeth : I can aid in lighting an engine.
+15-41:SAY: Unknown/Hiddeknight : Go nuts.
+15-41:SAY: Unknown/Hiddeknight : I&#39;ll mostly be standing in a corner.
+15-41:SAY: Dan Handsome/AmirHM : What are you experienced in
+15-41:SAY: Unknown/Hiddeknight : It doesn&#39;t really matter.
+15-41:SAY: Unknown/Hiddeknight : Pick something.
+15-41:SAY: Friend Computer/Xegeth : Hull breach above bridge.
+15-41:SAY: Friend Computer/Xegeth : Doctor is not moving.
+15-41:SAY: Friend Computer/Xegeth : Standing next to door at arrival.
+15-41:SAY: Dan Handsome/AmirHM : ;Carpfisher you better move
+15-41:SAY: Dan Handsome/AmirHM : ;I hate lamps and i will launch you into space if you dont get to work
+15-41:SAY: Friend Computer/Xegeth : Lamp has not moved.
+15-41:OOC: Dan Handsome/AmirHM : I have to go right now
+15-41:OOC: Dan Handsome/AmirHM : Ill come back soon in like 1 hour or so
+15-41:ACCESS: Logout: AmirHM
+15-41:OOC: Friend Computer/Xegeth : Ok. Bye.
+15-41:SAY: Friend Computer/Xegeth : Will lamp move?
+15-41:SAY: Friend Computer/Xegeth : Shutting down...
+15-41:ACCESS: Logout: Xegeth
+15-41:ACCESS: Logout: Headswe
+15-41:ACCESS: Login: Akp25oo from 87.72.205.199
+15-41:ACCESS: Login: Headswe from 127.0.0.1
+15-41:ADMIN: Headswe jumped to Chapel
+15-41:GAME: Akp25oo entered as Hackson Michael
+15-41:ACCESS: Login: Bulborbish from 75.173.245.156
+15-41:GAME: Bulborbish entered as Urist Steelaxe
+15-41:SAY: Urist Steelaxe/Bulborbish : Do we have a HOP so I can get a job?
+15-41:SAY: Urist Steelaxe/Bulborbish : Can someone change my job?
+15-41:SAY: Urist Steelaxe/Bulborbish : Yes, i is a bit painful
+15-41:SAY: Urist Steelaxe/Bulborbish : Can you make me an engineer?
+15-41:ACCESS: Login: Ryoga from 91.206.15.68
+15-41:SAY: Urist Steelaxe/Bulborbish : Dan, you ok?
+15-41:SAY: Urist Steelaxe/Bulborbish : Captain, I will return your Id once I change mine
+15-41:GAME: Ryoga entered as Cog Leverlever
+15-41:SAY: Urist Steelaxe/Bulborbish : Hey Cog
+15-41:SAY: Urist Copperiron/Headswe : ; Please
+15-41:SAY: Urist Copperiron/Headswe : ; everyone come to the chapel right now
+15-41:SAY: Urist Copperiron/Headswe : ; and i mean it
+15-41:OOC: Urist Copperiron/Headswe : I really do.
+15-41:OOC: Urist Copperiron/Headswe : so get moveing
+15-41:OOC: Urist Steelaxe/Bulborbish : let me return dan&#39;s ID first
+15-41:SAY: Urist Copperiron/Headswe : ; everyone come to the chapel right now
+15-41:SAY: Urist Copperiron/Headswe : or il use my devine power to get you
+15-41:ADMIN: Headswe modified Light Fixture's grill to 0
+15-41:SAY: Urist Copperiron/Headswe : or il use my devine power to get you
+15-41:SAY: Urist Copperiron/Headswe : or il use my devine power to get you
+15-41:SAY: Urist Copperiron/Headswe : ; everyone come to the chapel right now
+15-41:SAY: Urist Steelaxe/Bulborbish : you mean divine?
+15-41:ADMIN: Headswe teleported Cog Leverlever
+15-41:ADMIN: Headswe teleported Hackson Michael
+15-41:ADMIN: Headswe teleported Urist Carpfisher
+15-41:ADMIN: Headswe teleported Dan Handsome
+15-41:SAY: Urist Copperiron/Headswe : STAY FOR FUCK SKAE
+15-41:ADMIN: Headswe teleported Urist Steelaxe
+15-41:ADMIN: Headswe modified Piano's cooldown to 0
+15-41:SAY: Urist Steelaxe/Bulborbish : WHAT?
+15-41:SAY: Urist Steelaxe/Bulborbish : I&#39;m tryin to turn the engines on, for ales sake
+15-41:SAY: Urist Steelaxe/Bulborbish : I&#39;m starting the engine now
+15-41:ACCESS: Logout: Headswe
+15-41:SAY: Urist Steelaxe/Bulborbish : It&#39;s on
+15-41:ACCESS: Logout: Bulborbish
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the toolbox
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the toolbox
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the toolbox
+15-41:ACCESS: Logout: Ryoga
+15-41:ACCESS: Login: Headswe from 127.0.0.1
+15-41:ADMIN: Headswe jumped to Prison Medical Bay
+15-41:GAME: Headswe entered as Urist Rockplot
+15-41:ADMIN: Headswe jumped to Prison Shuttle
+15-41:ACCESS: Login: Ryoga from 91.206.15.68
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe created /obj/item/weapon/flashlight
+15-41:VOTE: Voting to restart round started by Hackson Michael/Akp25oo
+15-41:ADMIN: Headswe created /obj/machinery/atmoalter/canister/poisoncanister
+15-41:OOC: Hackson Michael/Akp25oo : Hey
+15-41:OOC: Hackson Michael/Akp25oo : Restart plz
+15-41:ADMIN: Headswe created /obj/item/weapon/weldingtool
+15-41:OOC: Hackson Michael/Akp25oo : This round has nothing
+15-41:OOC: Hackson Michael/Akp25oo : We should restart and get some action
+15-41:OOC: Hackson Michael/Akp25oo : :8
+15-41:VOTE: Voting closed, result was default
+15-41:SAY: Hackson Michael/Akp25oo : Huh?
+15-41:SAY: Hackson Michael/Akp25oo : Sir.
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the screwdriver
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the screwdriver
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with the screwdriver
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:ADMIN: Headswe Healed/Revived Headswe
+15-41:SAY: Hackson Michael/Akp25oo : Can we blow something up!?
+15-41:MATTACK: Cog Leverlever(Ryoga) attcked by Cog Leverlever(Ryoga) with Fire Extinguisher
+15-41:ACCESS: Logout: Ryoga
+15-41:ACCESS: Logout: Headswe
+15-41:SAY: Hackson Michael/Akp25oo : I&#39;m luanching...
+15-41:SAY: Hackson Michael/Akp25oo : BOOM BOOM BOOM!!!
+15-41:ACCESS: Login: Kaliba from 213.106.37.247
+15-41:GAME: Kaliba entered as Cog Boatbronze
+15-41:SAY: Hackson Michael/Akp25oo : SHOOT!
+15-41:SAY: Hackson Michael/Akp25oo : shoot me out!!
+15-41:ACCESS: Logout: Kaliba
+15-41:ACCESS: Login: Segellion from 24.179.87.49
+15-41:OOC: Urist Carpfisher/Hiddeknight : STILL ALIVE
+15-41:OOC: Hackson Michael/Akp25oo : &gt;&gt;
+15-41:OOC: Hackson Michael/Akp25oo : reboot
+15-41:OOC: Hackson Michael/Akp25oo : please
+15-41:ACCESS: Login: Xegeth from 77.103.224.146
+15-41:OOC: Urist Carpfisher/Hiddeknight : Where is bridge
+15-41:SAY: Friend Computer/Xegeth : Powering up...
+15-41:SAY: Urist Carpfisher/Hiddeknight : ;Oh sup
+15-41:SAY: Urist Carpfisher/Hiddeknight : ;You can take it from here
+15-41:SAY: Friend Computer/Xegeth : Friend computer v6.3 online.
+15-41:SAY: Friend Computer/Xegeth : Help needed?
+15-41:OOC: Hackson Michael/Akp25oo : Reboot
+15-41:OOC: Hackson Michael/Akp25oo : One person alife&gt;&gt;
+15-41:OOC: Friend Computer/Xegeth : It looks like we can vote soon.
+15-41:VOTE: Voting to restart round started by Friend Computer/Xegeth
+15-41:VOTE: Voting closed, result was restart
+15-41:GAME: Rebooting due to restart vote
+15-41:ACCESS: Logout: Hiddeknight
+15-41:ACCESS: Logout: Akp25oo
+15-41:ACCESS: Logout: Segellion
+15-41:ACCESS: Logout: Xegeth
+17-01:ADMIN: Loading crban_keylist
+17-01:ADMIN: Loading crban_reason
+17-01:ADMIN: Loading crban_time
+17-01:ADMIN: Loading crban_bannedby
+17-01:ADMIN: Loading crban_iplist
+17-01:ADMIN: Loading crban_unbanned
+17-01:ADMIN: Loading jobban_rank
+17-01:ADMIN: Updating jobbanfile!
+17-01:ACCESS: Login: Xegeth from 77.103.224.146
+17-01:ACCESS: Login: Akp25oo from 87.72.205.199
+17-01:GAME: Akp25oo entered as Hackson Michael
+17-01:GAME: Xegeth entered as Ashan Selfer
+17-01:VOTE: Voting to change mode started by Hackson Michael/Akp25oo
+17-01:VOTE: Voting closed, result was armok
+17-01:OOC: Hackson Michael/Akp25oo : hmm
+17-01:OOC: Ashan Selfer/Xegeth : What?
+17-01:ACCESS: Login: Segellion from 24.179.87.49
+17-01:OOC: Hackson Michael/Akp25oo : when will it start?
+17-01:OOC: Ashan Selfer/Xegeth : It usually takes a while to give people time to log in.
+17-01:GAME: Segellion entered as Cog Spikedoor
+17-01:OOC: Hackson Michael/Akp25oo : ok
+17-01:GAME: starting game of Armok
+17-01:ACCESS: Login: Trorbes from 75.58.81.221
+17-01:ACCESS: Logout: Akp25oo
+17-01:ACCESS: Login: Akp25oo from 87.72.205.199
+17-01:OOC: Hackson Michael/Akp25oo : can&#39;t see anytyhing
+17-01:OOC: Hackson Michael/Akp25oo : wtf
+17-01:OOC: Ashan Selfer/Xegeth : You&#39;re dying.
+17-01:OOC: Hackson Michael/Akp25oo : Nope
+17-01:OOC: Hackson Michael/Akp25oo : I wasn&#39;t dieng at the beginning
+17-01:SAY: Ashan Selfer/Xegeth : Dead.
+17-01:ACCESS: Logout: 
+17-01:ACCESS: Login: Akp25oo from 87.72.205.199
+17-01:ACCESS: Logout: 
+17-01:ACCESS: Login: Xegeth from 77.103.224.146
+17-01:GAME: Trorbes entered as Eric Worth
+17-01:OOC: Hackson Michael/Akp25oo : Did i just see a meteor open a door?
+17-01:OOC: Ashan Selfer/Xegeth : Maybe. They do it sometimes.
+17-01:OOC: Hackson Michael/Akp25oo : reboot xD
+17-01:OOC: Ashan Selfer/Xegeth : It will be a while before we can. The shuttle will arrive before then.
+17-01:OOC: Ashan Selfer/Xegeth : About 8 minutes unless everyone dies.
+17-01:OOC: Ashan Selfer/Xegeth : If Eric steps outside, it should reboot.
+17-01:OOC: Ashan Selfer/Xegeth : He looks like the only one left.
+17-01:OOC: Eric Worth/Trorbes : Hey, guys.  Anything needing fixing with the map?
+17-01:OOC: Ashan Selfer/Xegeth : Earlier, the AI sat had no light.
+17-01:OOC: Cog Spikedoor/Segellion : still looking around
+17-01:OOC: Eric Worth/Trorbes : A few things don&#39;t
+17-01:OOC: Ashan Selfer/Xegeth : It does seem great overall though.
+17-01:OOC: Eric Worth/Trorbes : What&#39;s with that flashing?
+17-01:OOC: Ashan Selfer/Xegeth : What flashing?
+17-01:OOC: Eric Worth/Trorbes : I don&#39;t know, the screen flashed a few times.
+17-01:OOC: Ashan Selfer/Xegeth : Could it be the meteors?
+17-01:OOC: Eric Worth/Trorbes : First time it was when I just left the shuttle closet.
+17-01:OOC: Eric Worth/Trorbes : But maybe.
+17-01:ACCESS: Login: QuinnR from 174.26.13.32
+17-01:OOC: Eric Worth/Trorbes : Hey, Quinn
+17-01:ACCESS: Logout: 
+17-01:ACCESS: Login: Trorbes from 75.58.81.221
+17-01:GAME: Rebooting due to end of game
+17-01:ACCESS: Logout: Xegeth
+17-01:ACCESS: Logout: Akp25oo
+17-01:ACCESS: Logout: Segellion
+17-01:ACCESS: Logout: Trorbes
+17-01:ACCESS: Logout: QuinnR
+17-23:ADMIN: Loading crban_keylist
+17-23:ADMIN: Loading crban_reason
+17-23:ADMIN: Loading crban_time
+17-23:ADMIN: Loading crban_bannedby
+17-23:ADMIN: Loading crban_iplist
+17-23:ADMIN: Loading crban_unbanned
+17-23:ADMIN: Loading jobban_rank
+17-23:ADMIN: Updating jobbanfile!
+17-23:ACCESS: Login: Xegeth from 77.103.224.146
+17-23:ACCESS: Login: Segellion from 24.179.87.49
+17-23:GAME: Xegeth entered as Ashan Selfer
+17-23:ACCESS: Login: Trorbes from 75.58.81.221
+17-23:VOTE: Voting to change mode started by Ashan Selfer/Xegeth
+17-23:GAME: Trorbes entered as Eric Worth
+17-23:ADMIN: Trorbes delayed the game.
+17-23:GAME: Segellion entered as Cog Spikedoor
+17-23:OOC: Eric Worth/Trorbes : ... huh
+17-23:VOTE: Voting closed, result was extended
+17-23:OOC: Eric Worth/Trorbes : Is the arrival shuttle normally dark?
+17-23:ADMIN: Trorbes removed the delay.
+17-23:OOC: Ashan Selfer/Xegeth : It has been before each game.
+17-23:GAME: starting game of extended
+17-23:ACCESS: Logout: 
+17-23:ACCESS: Login: Trorbes from 75.58.81.221
+17-23:ACCESS: Login: Akp25oo from 87.72.205.199
+17-23:OOC: Ashan Selfer/Xegeth : Are we going to bother with roleplaying with this few players?
+17-23:GAME: Akp25oo entered as Hackson Michael
+17-23:OOC: HAL 9000/Trorbes : You don&#39;t have to, but try not to destroy the station for a while.
+17-23:OOC: Ashan Selfer/Xegeth : I was just going to try genetics.
+17-23:SAY: Hackson Michael/Akp25oo : ;AI?
+17-23:SAY: HAL 9000/Trorbes : Yes, Hackson?
+17-23:SAY: Hackson Michael/Akp25oo : ;I do like to sign up for head of security...
+17-23:MATTACK: Ashan Selfer(Xegeth)has grabbed the monkey (cfc2)() aggressively (now hands) 
+17-23:SAY: Hackson Michael/Akp25oo : ;I&#39;m well educated.
+17-23:SAY: Hackson Michael/Akp25oo : ;And proper for the job.
+17-23:SAY: HAL 9000/Trorbes : You&#39;ll have to talk to the captain for that.
+17-23:SAY: Hackson Michael/Akp25oo : ;Were do i asign?
+17-23:SAY: Hackson Michael/Akp25oo : ;Allright...
+17-23:SAY: Hackson Michael/Akp25oo : ;Where do i find him?
+17-23:OOC: HAL 9000/Trorbes : Hey, how do you guys want maintenence corridors?  Well-lit or kinda dark?
+17-23:SAY: Hackson Michael/Akp25oo : Hello.
+17-23:OOC: Ashan Selfer/Xegeth : We have flashlights so dark should be fun.
+17-23:SAY: Ashan Selfer/Xegeth : Hello.
+17-23:SAY: Hackson Michael/Akp25oo : I do like to speak with the captain.
+17-23:SAY: Hackson Michael/Akp25oo : If possible.
+17-23:SAY: Hackson Michael/Akp25oo : Just arrived.
+17-23:OOC: Cog Spikedoor/Segellion : the ones surrounding the engine now.. at least up to last night, were too dark.. no light i think
+17-23:SAY: Hackson Michael/Akp25oo : Wow!
+17-23:SAY: Hackson Michael/Akp25oo : Sorry.
+17-23:OOC: Cog Spikedoor/Segellion : dim is good
+17-23:SAY: Hackson Michael/Akp25oo : Well.
+17-23:SAY: Hackson Michael/Akp25oo : I&#39;m Michael Hackson.
+17-23:SAY: Ashan Selfer/Xegeth : Card please.
+17-23:SAY: Hackson Michael/Akp25oo : You want it?
+17-23:SAY: Hackson Michael/Akp25oo : Okay.
+17-23:OOC: HAL 9000/Trorbes : Engine itself has lights, but the combustion chamber doesn&#39;t.  Is that what you mean?
+17-23:OOC: Cog Spikedoor/Segellion : oh, some were added
+17-23:OOC: Cog Spikedoor/Segellion : this can work
+17-23:OOC: HAL 9000/Trorbes : A few places don&#39;t have lights though, still.
+17-23:SAY: Hackson Michael/Akp25oo : Thank you.
+17-23:SAY: HAL 9000/Trorbes : Attention; the engine is not currently being started.
+17-23:SAY: Hackson Michael/Akp25oo : ;Captain
+17-23:OOC: Cog Spikedoor/Segellion : i noticed.. a few pitch black sections are ok. maybe if those spots start with burnt out bulbs versus no lights
+17-23:SAY: Hackson Michael/Akp25oo : ;My card is not really giving mutch access
+17-23:OOC: HAL 9000/Trorbes : I mean a number of rooms have absolutely no bulbs.
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by Hackson Michael(Akp25oo) with the cakehat
+17-23:SAY: Ashan Selfer/Xegeth : ;Isn&#39;t it a HoS card?
+17-23:OOC: HAL 9000/Trorbes : I&#39;m going to keep the main halls and rooms well-lit, and have only dim lights for the maintenance areas.
+17-23:SAY: Hackson Michael/Akp25oo : ;Yeah...But...Where&#39;s the head quter of security?
+17-23:SAY: Ashan Selfer/Xegeth : ;West side of the station. You can access most rooms in the west.
+17-23:OOC: Cog Spikedoor/Segellion : those changelog map changes and execution chamber.. are those active?
+17-23:OOC: HAL 9000/Trorbes : I don&#39;t know; I didn&#39;t do them.
+17-23:OOC: HAL 9000/Trorbes : Hey, could I possibly get one of you guys to test something for me?
+17-23:OOC: Cog Spikedoor/Segellion : sure
+17-23:OOC: HAL 9000/Trorbes : I need you to remove a light from one of the squares around it.
+17-23:OOC: HAL 9000/Trorbes : Or try, at least.
+17-23:OOC: Cog Spikedoor/Segellion : ok?
+17-23:OOC: HAL 9000/Trorbes : Just want to know where placing lights is acceptable.
+17-23:OOC: HAL 9000/Trorbes : Does it work?
+17-23:OOC: Cog Spikedoor/Segellion : yes
+17-23:OOC: Hackson Michael/Akp25oo : yup
+17-23:OOC: HAL 9000/Trorbes : Good.
+17-23:SAY: Hackson Michael/Akp25oo : Checking them
+17-23:ACCESS: Login: QuinnR from 174.26.13.32
+17-23:OOC: Cog Woodbed/QuinnR : OH MY GOD
+17-23:OOC: Cog Woodbed/QuinnR : GOOGOL ADDED AN ARMOK HOLE MODE
+17-23:GAME: QuinnR entered as Cog Woodbed
+17-23:OOC: HAL 9000/Trorbes : Hey, Quinn
+17-23:OOC: Cog Woodbed/QuinnR : Hi
+17-23:OOC: Ashan Selfer/Xegeth : I&#39;ve tried it already.
+17-23:OOC: Cog Woodbed/QuinnR : The Armok hole was my idea
+17-23:OOC: Cog Woodbed/QuinnR : I started randomly spawning tons of meteors, adminsplosions, and fires
+17-23:SAY: Hackson Michael/Akp25oo : Hmm..
+17-23:OOC: Cog Woodbed/QuinnR : Is that what this is?
+17-23:OOC: Ashan Selfer/Xegeth : That&#39;s pretty much what happened.
+17-23:OOC: Cog Woodbed/QuinnR : How awesome
+17-23:SAY: Cog Spikedoor/Segellion : Everything secure here, boss?
+17-23:SAY: Hackson Michael/Akp25oo : Yes.
+17-23:OOC: Ashan Selfer/Xegeth : Most of the players were dead very quickly.
+17-23:OOC: Cog Woodbed/QuinnR : Yup
+17-23:SAY: Hackson Michael/Akp25oo : And.
+17-23:OOC: Cog Woodbed/QuinnR : thats how mine was too
+17-23:SAY: Hackson Michael/Akp25oo : Keep an eye.
+17-23:OOC: Cog Woodbed/QuinnR : I named it the Armok hole :D
+17-23:SAY: Hackson Michael/Akp25oo : After a murderer...
+17-23:OOC: Cog Woodbed/QuinnR : in a Centcom report
+17-23:SAY: Cog Woodbed/QuinnR : ;Where is everyone?
+17-23:SAY: Ashan Selfer/Xegeth : ;Genetics.
+17-23:SAY: Hackson Michael/Akp25oo : ;Patrulling.
+17-23:OOC: Cog Woodbed/QuinnR : Nice piano
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with Fluorescent Bulb
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with Fluorescent Bulb
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with Fluorescent Bulb
+17-23:ADMIN: QuinnR created /obj/item/weapon/organ/internal/brain
+17-23:OOC: HAL 9000/Trorbes : Wait, what?
+17-23:OOC: Cog Woodbed/QuinnR : brb
+17-23:OOC: Cog Woodbed/QuinnR : Go to the chapel
+17-23:OOC: Cog Woodbed/QuinnR : :D
+17-23:OOC: Cog Woodbed/QuinnR : there is a piano
+17-23:OOC: Cog Woodbed/QuinnR : you can play
+17-23:MATTACK: Ashan Selfer(Xegeth) clicked on Ashan Selfer(Xegeth) with a DNA injector
+17-23:SAY: Ashan Selfer/Xegeth : Hello?
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with the blindfold
+17-23:OOC: HAL 9000/Trorbes : That is NOT in my files...
+17-23:OOC: Cog Woodbed/QuinnR : Ha
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with the blindfold
+17-23:MATTACK: Hackson Michael(Akp25oo) attcked by () with the blindfold
+17-23:OOC: Cog Spikedoor/Segellion : nice
+17-23:OOC: Cog Woodbed/QuinnR : what mode is this?
+17-23:MATTACK: Ashan Selfer(Xegeth) clicked on Ashan Selfer(Xegeth) with a DNA injector
+17-23:OOC: Ashan Selfer/Xegeth : Extended.
+17-23:OOC: Cog Spikedoor/Segellion : pianoman mode
+17-23:SAY: Ashan Selfer/Xegeth : Hi?
+17-23:OOC: Cog Woodbed/QuinnR : Also, people should be able to build connectors, pipes, and ventts
+17-23:OOC: Cog Woodbed/QuinnR : and inlets
+17-23:OOC: Cog Woodbed/QuinnR : I want to make an incenerator in the chapel
+17-23:OOC: Cog Spikedoor/Segellion : are we still not able to build reinforced floor?
+17-23:SAY: Cog Woodbed/QuinnR : Hello
+17-23:SAY: Cog Spikedoor/Segellion : go ahead
+17-23:SAY: Cog Woodbed/QuinnR : Go ahead and do what?
+17-23:SAY: Cog Woodbed/QuinnR : No message to me
+17-23:SAY: Cog Woodbed/QuinnR : oih
+17-23:SAY: Cog Woodbed/QuinnR : I heard it 
+17-23:SAY: Cog Woodbed/QuinnR : nice playing
+17-23:SAY: Cog Spikedoor/Segellion : i try
+17-23:SAY: Cog Woodbed/QuinnR : we need a funeral
+17-23:SAY: Cog Spikedoor/Segellion : re you volunteering?
+17-23:SAY: Cog Woodbed/QuinnR : no, you are!
+17-23:SAY: Cog Woodbed/QuinnR : Just kiddin
+17-23:SAY: Cog Woodbed/QuinnR : ;Captain
+17-23:SAY: Ashan Selfer/Xegeth : ;Yes?
+17-23:SAY: Cog Woodbed/QuinnR : ;I request to be a HoR
+17-23:SAY: Cog Woodbed/QuinnR : &#39;;If the spot is open
+17-23:SAY: Cog Woodbed/QuinnR : ;If it&#39;s open
+17-23:SAY: Ashan Selfer/Xegeth : ;In a moment.
+17-23:SAY: Cog Woodbed/QuinnR : MONKE
+17-23:SAY: Cog Woodbed/QuinnR : *hug
+17-23:SAY: Cog Woodbed/QuinnR : Table!
+17-23:SAY: Cog Woodbed/QuinnR : thanks
+17-23:SAY: Hackson Michael/Akp25oo : Sir.
+17-23:SAY: Ashan Selfer/Xegeth : What are you doing?
+17-23:SAY: Hackson Michael/Akp25oo : I caught this dude.
+17-23:SAY: Cog Woodbed/QuinnR : ;Oh say can you see!
+17-23:SAY: Cog Spikedoor/Segellion : hey
+17-23:SAY: Hackson Michael/Akp25oo : Sending him to the genetist
+17-23:SAY: Cog Woodbed/QuinnR : Hello
+17-23:SAY: Cog Spikedoor/Segellion : this is for your research
+17-23:SAY: Cog Woodbed/QuinnR : I see
+17-23:SAY: Cog Woodbed/QuinnR : Can I use the monkey
+17-23:SAY: Cog Woodbed/QuinnR : in a grenade experiemnt?
+17-23:SAY: Ashan Selfer/Xegeth : We have loads.
+17-23:SAY: Cog Woodbed/QuinnR : Monkey
+17-23:SAY: Cog Woodbed/QuinnR : I wish to blow you up
+17-23:SAY: Cog Woodbed/QuinnR : (is it a person?
+17-23:SAY: Cog Woodbed/QuinnR : NO
+17-23:SAY: Ashan Selfer/Xegeth : Why would it be a person?
+17-23:SAY: Cog Woodbed/QuinnR : Poor monkeys
+17-23:SAY: Cog Woodbed/QuinnR : (pereson turned monkey)
+17-23:SAY: Cog Woodbed/QuinnR : er
+17-23:SAY: Cog Woodbed/QuinnR : My ID won&#39;t work
+17-23:SAY: Ashan Selfer/Xegeth : What?
+17-23:SAY: Cog Woodbed/QuinnR : won&#39;t open that door
+17-23:SAY: Cog Woodbed/QuinnR : Cyro him
+17-23:SAY: Cog Woodbed/QuinnR : if he was in the genesmachine
+17-23:SAY: Ashan Selfer/Xegeth : He&#39;s fine.
+17-23:SAY: Hackson Michael/Akp25oo : Nice..
+17-23:SAY: Ashan Selfer/Xegeth : There he is.
+17-23:SAY: Hackson Michael/Akp25oo : i hate monkeys..
+17-23:ACCESS: Login: Kaliba from 213.106.37.247
+17-23:SAY: Hackson Michael/Akp25oo : They eated my son.s
+17-23:GAME: Kaliba entered as Cog Murderedplot
+17-23:SAY: Ashan Selfer/Xegeth : Would you like to be one?
+17-23:SAY: Hackson Michael/Akp25oo : Nope.
+17-23:SAY: Cog Woodbed/QuinnR : ;Atmos has an atmos alert
+17-23:SAY: Hackson Michael/Akp25oo : I ant to be a robot who eats monkeys.
+17-23:OOC: HAL 9000/Trorbes : The long lights are reinforced, right?
+17-23:SAY: Hackson Michael/Akp25oo : Hmm...&#39;
+17-23:OOC: Cog Woodbed/QuinnR : No idea
+17-23:OOC: Cog Woodbed/QuinnR : Where is one?
+17-23:OOC: HAL 9000/Trorbes : They&#39;re everywhere.
+17-23:SAY: Ashan Selfer/Xegeth : Ow.
+17-23:SAY: Hackson Michael/Akp25oo : Is something rong?
+17-23:OOC: Cog Woodbed/QuinnR : they only need a screw
+17-23:OOC: HAL 9000/Trorbes : I mean for breaking.
+17-23:SAY: Hackson Michael/Akp25oo : What&#39;s he doing?
+17-23:OOC: Cog Woodbed/QuinnR : no idea
+17-23:SAY: Ashan Selfer/Xegeth : What is happening to me?
+17-23:SAY: Hackson Michael/Akp25oo : Captain.
+17-23:SAY: Hackson Michael/Akp25oo : Your ill....
+17-23:OOC: Cog Woodbed/QuinnR : I can&#39;t bash it
+17-23:OOC: Cog Woodbed/QuinnR : without removing a grill
+17-23:SAY: Hackson Michael/Akp25oo : We don&#39;t need weak leaders...
+17-23:OOC: HAL 9000/Trorbes : Good.
+17-23:SAY: Ashan Selfer/Xegeth : What?
+17-23:SAY: Hackson Michael/Akp25oo : ..
+17-23:OOC: Cog Woodbed/QuinnR : how do ya do that?
+17-23:SAY: Hackson Michael/Akp25oo : Your weak..
+17-23:SAY: Ashan Selfer/Xegeth : I&#39;m not weak.
+17-23:MATTACK: Hackson Michael(Akp25oo)has grabbed Ashan Selfer(Xegeth) aggressively (now hands) 
+17-23:SAY: Hackson Michael/Akp25oo : Weak leaders...
+17-23:SAY: Ashan Selfer/Xegeth : Stop!
+17-23:SAY: Cog Woodbed/QuinnR : ;Hey captain
+17-23:SAY: Hackson Michael/Akp25oo : Are not worth a shit..
+17-23:SAY: Cog Woodbed/QuinnR : ;My ID doesn&#39;t work where it is supposed to
+17-23:SAY: Ashan Selfer/Xegeth : ;Help in genetics!
+17-23:SAY: Cog Woodbed/QuinnR : ;I can&#39;t get in the bridge
+17-23:ACCESS: Logout: Kaliba
+17-23:ACCESS: Logout: Xegeth
+17-23:ACCESS: Logout: Segellion
+17-23:ACCESS: Logout: Akp25oo
+17-23:ACCESS: Logout: QuinnR
+17-23:ACCESS: Logout: Trorbes
+18-00:ADMIN: Loading crban_keylist
+18-00:ADMIN: Loading crban_reason
+18-00:ADMIN: Loading crban_time
+18-00:ADMIN: Loading crban_bannedby
+18-00:ADMIN: Loading crban_iplist
+18-00:ADMIN: Loading crban_unbanned
+18-00:ADMIN: Loading jobban_rank
+18-00:ADMIN: Updating jobbanfile!
+18-00:ACCESS: Login: Xegeth from 77.103.224.146
+18-00:GAME: Xegeth entered as Ashan Selfer
+18-00:VOTE: Voting to change mode started by Ashan Selfer/Xegeth
+18-00:VOTE: Voting closed, result was wizard
+18-00:GAME: starting game of wizard
+18-00:SAY: Ashan Selfer/Xegeth : SCYAR NILA BRIDGE
+18-00:SAY: Ashan Selfer/Xegeth : *help
+18-00:SAY: Ashan Selfer/Xegeth : OLIOCH MINTERIDAS
+18-00:ACCESS: Login: Segellion from 24.179.87.49
+18-00:SAY: Ashan Selfer/Xegeth : *help
+18-00:ACCESS: Logout: Xegeth
+18-00:ACCESS: Logout: Segellion
+18-20:ADMIN: Loading crban_keylist
+18-20:ADMIN: Loading crban_reason
+18-20:ADMIN: Loading crban_time
+18-20:ADMIN: Loading crban_bannedby
+18-20:ADMIN: Loading crban_iplist
+18-20:ADMIN: Loading crban_unbanned
+18-20:ADMIN: Loading jobban_rank
+18-20:ADMIN: Updating jobbanfile!
+18-20:ACCESS: Login: Xegeth from 77.103.224.146
+18-20:GAME: Xegeth entered as Ashan Selfer
+18-20:VOTE: Voting to change mode started by Ashan Selfer/Xegeth
+18-20:ACCESS: Login: Segellion from 24.179.87.49
+18-20:GAME: Segellion entered as Cog Spikedoor
+18-20:OOC: Ashan Selfer/Xegeth : Don&#39;t forget to vote.
+18-20:VOTE: Voting closed, result was extended
+18-20:ACCESS: Login: Longshoots from 84.45.134.188
+18-20:OOC: Cog Spikedoor/Segellion : uuh
+18-20:OOC: Cog Spikedoor/Segellion : did we start a mode?
+18-20:OOC: Ashan Selfer/Xegeth : I think we broke it by not getting enough votes.
+18-20:GAME: Longshoots entered as Cog Crossbowsteel
+18-20:OOC: Cog Crossbowsteel/Longshoots : Wow
+18-20:OOC: Cog Spikedoor/Segellion : tiime to get the spare captain&#39;s id
+18-20:OOC: Ashan Selfer/Xegeth : Already trying.
+18-20:OOC: Cog Spikedoor/Segellion : making thermite?
+18-20:OOC: Ashan Selfer/Xegeth : Breaking through the wall.
+18-20:OOC: Cog Spikedoor/Segellion : im doing the same from courtroom
+18-20:OOC: Cog Crossbowsteel/Longshoots : Uh, I&#39;m sort of stuck in the &#39;new player&#39; area after joining
+18-20:OOC: Cog Spikedoor/Segellion : ready&#39;?
+18-20:OOC: Cog Crossbowsteel/Longshoots : Like, the bit you go to when you&#39;re getting ready to choose your professionn
+18-20:ACCESS: Login: Trorbes from 75.58.81.221
+18-20:SAY: Cog Crossbowsteel/Longshoots : Yeah, pressed ready. Was given an assistant&#39;s uniform and warped right back to where I started
+18-20:OOC: Cog Crossbowsteel/Longshoots : Yeah, pressed ready. Was given an assistant&#39;s uniform and warped right back to where I started
+18-20:OOC: Cog Crossbowsteel/Longshoots : I&#39;ll try it again
+18-20:GAME: Trorbes entered as Eric Worth
+18-20:OOC: Cog Crossbowsteel/Longshoots : Got a &#39;You have already started!&#39; message
+18-20:OOC: Cog Spikedoor/Segellion : where is your breakin?
+18-20:OOC: Ashan Selfer/Xegeth : Don&#39;t bother with the ID. A reset would be faster. We can vote in 5 minutes.
+18-20:OOC: Cog Crossbowsteel/Longshoots : My breakin?
+18-20:OOC: Eric Worth/Trorbes : Vote?  Fuck that.
+18-20:OOC: Cog Spikedoor/Segellion : i dont see you
+18-20:ADMIN: Trorbes initiated a reboot.
+18-20:ACCESS: Logout: Segellion
+18-20:ACCESS: Logout: Longshoots
+18-20:ACCESS: Logout: Xegeth
+18-20:ACCESS: Logout: Trorbes
+18-34:ADMIN: Loading crban_keylist
+18-34:ADMIN: Loading crban_reason
+18-34:ADMIN: Loading crban_time
+18-34:ADMIN: Loading crban_bannedby
+18-34:ADMIN: Loading crban_iplist
+18-34:ADMIN: Loading crban_unbanned
+18-34:ADMIN: Loading jobban_rank
+18-34:ADMIN: Updating jobbanfile!
+18-34:ACCESS: Login: Xegeth from 77.103.224.146
+18-34:ACCESS: Login: Longshoots from 84.45.134.188
+18-34:GAME: Longshoots entered as Cog Crossbowsteel
+18-34:ACCESS: Login: Trorbes from 75.58.81.221
+18-34:OOC: Cog Crossbowsteel/Longshoots : Yay! It worked
+18-34:GAME: Xegeth entered as Ashan Selfer
+18-34:GAME: Trorbes entered as Eric Worth
+18-34:VOTE: Voting to change mode started by Ashan Selfer/Xegeth
+18-34:ADMIN: Trorbes delayed the game.
+18-34:ADMIN: Voting aborted by Trorbes
+18-34:ADMIN: Trorbes set the mode as extended.
+18-34:ADMIN: Trorbes removed the delay.
+18-34:OOC: Eric Worth/Trorbes : Hey, I&#39;m changing the layout of a few things, is that alright?
+18-34:ADMIN: Trorbes used start_now
+18-34:GAME: starting game of extended
+18-34:ACCESS: Logout: 
+18-34:ACCESS: Login: Trorbes from 75.58.81.221
+18-34:OOC: Ashan Selfer/Xegeth : What are you changing? I&#39;m fine with it though.
+18-34:OOC: HAL 9000/Trorbes : I&#39;m fixing the current airlock to the supply shuttle, but to do it I needed to move the South Security Station a little.
+18-34:OOC: Ashan Selfer/Xegeth : Sounds good.
+18-34:ACCESS: Login: Segellion from 24.179.87.49
+18-34:GAME: Segellion entered as Cog Spikedoor
+18-34:OOC: Cog Crossbowsteel/Longshoots : *gasp* Piano!
+18-34:SAY: Cog Crossbowsteel/Longshoots : ;Uh...the Captain appears to be incapacitated in Genetics
+18-34:OOC: Cog Crossbowsteel/Longshoots : I think that cryo cell bug has struck again
+18-34:OOC: Ashan Selfer/Xegeth : I think I know how to cause it now.
+18-34:OOC: Ashan Selfer/Xegeth : Drain it.
+18-34:OOC: Cog Crossbowsteel/Longshoots : I see
+18-34:ACCESS: Logout: 
+18-34:ACCESS: Login: Longshoots from 84.45.134.188
+18-34:ACCESS: Login: Cecilff2 from 4.254.217.233
+18-34:OOC: Cog Crossbowsteel/Longshoots : Is it actually possible to order something from supplies yet?
+18-34:OOC: Captain/Segellion : not quite
+18-34:OOC: Captain/Segellion : still bugged
+18-34:OOC: Cerberius Grey/Cecilff2 : Shuttle got borked in this version I think
+18-34:OOC: Cerberius Grey/Cecilff2 : So no
+18-34:OOC: Cog Crossbowsteel/Longshoots : Ah
+18-34:OOC: HAL 9000/Trorbes : Wait, what was wrong with it?
+18-34:OOC: Cerberius Grey/Cecilff2 : It works fine in previous version I think
+18-34:OOC: Cog Crossbowsteel/Longshoots : Does the lack of a Supply Console have anything to do with it?
+18-34:OOC: Captain/Segellion : its in the comm computer
+18-34:OOC: Cog Crossbowsteel/Longshoots : Ohhh
+18-34:OOC: Ashan Selfer/Xegeth : Should I start a vote to restart?
+18-34:OOC: HAL 9000/Trorbes : If it&#39;s a mapping issue I might be able to take a look at it.
+18-34:VOTE: Voting to change mode started by Cerberius Grey/Cecilff2
+18-34:ADMIN: Voting aborted by Cecilff2
+18-34:OOC: Cerberius Grey/Cecilff2 : Thats bugged I see
+18-34:ACCESS: Logout: 
+18-34:ACCESS: Login: Xegeth from 77.103.224.146
+18-34:OOC: Cerberius Grey/Cecilff2 : Wanted to check the new vote for change mode
+18-34:OOC: HAL 9000/Trorbes : Oh yeah, last round there was a bug where no round started.
+18-34:OOC: Cerberius Grey/Cecilff2 : Hitting &#34;No&#34; on are you sure still starts the vote
+18-34:OOC: HAL 9000/Trorbes : Okay, I see the problem with the supply shuttle.
+18-34:OOC: Ashan Selfer/Xegeth : The bug was caused by there only being one vote in a two player game.
+18-34:OOC: Cerberius Grey/Cecilff2 : What&#39;s it do?  I didn&#39;t really check what it was
+18-34:OOC: Cerberius Grey/Cecilff2 : Just knew that it was broken somehow
+18-34:OOC: Captain/Segellion : damnit
+18-34:OOC: Ashan Selfer/Xegeth : Another person dead thanks to cryo.
+18-34:OOC: HAL 9000/Trorbes : The areas are unaligned, so part of the shuttle fails to transfer.
+18-34:OOC: Captain/Segellion : insta-fucking-kill when i opened med research&#39;s door
+18-34:OOC: Cerberius Grey/Cecilff2 : Ah, probably happened while trying to implement lighting
+18-34:OOC: HAL 9000/Trorbes : The cryo bug&#39;s existed before.
+18-34:OOC: Cerberius Grey/Cecilff2 : Oh boy, is cryo flash freezing people again?
+18-34:OOC: HAL 9000/Trorbes : Yeah.
+18-34:OOC: Ashan Selfer/Xegeth : At least we have a better idea of what the cause could be.
+18-34:OOC: HAL 9000/Trorbes : I can tele/res some people away.
+18-34:GAME: Cecilff2 entered as Cerberius Grey
+18-34:OOC: Captain/Segellion : ok?
+18-34:OOC: Cog Crossbowsteel/Longshoots : If you do, I should let you know, I&#39;ve ghosted
+18-34:OOC: Ashan Selfer/Xegeth : Why is there a drain button anyway. It looks like it just kills everyone.
+18-34:OOC: Cerberius Grey/Cecilff2 : I&#39;m curious as to where this execution chamber is
+18-34:OOC: Captain/Segellion : gez... drain.. does that mean it needs a pipe connection? does it drain to atmos now?
+18-34:OOC: Captain/Segellion : it should be on prison, i suppose
+18-34:OOC: Captain/Segellion : lets go look
+18-34:OOC: HAL 9000/Trorbes : Did you ALL ghost or something?
+18-34:OOC: Ashan Selfer/Xegeth : I tried but it seems to be broken.
+18-34:OOC: Ashan Selfer/Xegeth : I can&#39;t move.
+18-34:OOC: HAL 9000/Trorbes : Ah whatever, restart?
+18-34:OOC: Ashan Selfer/Xegeth : Yes please.
+18-34:OOC: Cog Crossbowsteel/Longshoots : Sure
+18-34:ADMIN: Trorbes initiated a reboot.
+18-34:ACCESS: Logout: Longshoots
+18-34:ACCESS: Logout: Xegeth
+18-34:ACCESS: Logout: Trorbes
+18-34:ACCESS: Logout: Segellion
+18-34:ACCESS: Logout: Cecilff2
+18-58:ADMIN: Loading crban_keylist
+18-58:ADMIN: Loading crban_reason
+18-58:ADMIN: Loading crban_time
+18-58:ADMIN: Loading crban_bannedby
+18-58:ADMIN: Loading crban_iplist
+18-58:ADMIN: Loading crban_unbanned
+18-58:ADMIN: Loading jobban_rank
+18-58:ADMIN: Updating jobbanfile!
+18-58:ACCESS: Login: Segellion from 24.179.87.49
+18-58:ACCESS: Login: Trorbes from 75.58.81.221
+18-58:ACCESS: Login: Xegeth from 77.103.224.146
+18-58:ACCESS: Login: Longshoots from 84.45.134.188
+18-58:ACCESS: Login: Cecilff2 from 4.254.217.233
+18-58:GAME: Xegeth entered as Ashan Selfer
+18-58:GAME: Cecilff2 entered as Cerberius Grey
+18-58:GAME: Longshoots entered as Cog Crossbowsteel
+18-58:OOC: Cerberius Grey/Cecilff2 : I see that one does not simply teleport to prison station
+18-58:OOC: Cerberius Grey/Cecilff2 : Admin tele I mean
+18-58:OOC: Ashan Selfer/Xegeth : Does it even exist? I can never see it as AI.
+18-58:OOC: Cerberius Grey/Cecilff2 : Unless it was suddenly removed, yes
+18-58:GAME: Trorbes entered as Eric Worth
+18-58:OOC: Cerberius Grey/Cecilff2 : You can call a shuttle to it via the comm console
+18-58:OOC: Eric Worth/Trorbes : There&#39;s no cameras.
+18-58:OOC: Cerberius Grey/Cecilff2 : I don&#39;t think it has any cameras though
+18-58:OOC: Eric Worth/Trorbes : I still need to add those.
+18-58:OOC: Ashan Selfer/Xegeth : Ok.
+18-58:SAY: Cerberius Grey/Cecilff2 : Sure is dark in here.  And warm
+18-58:SAY: Cerberius Grey/Cecilff2 : I suppose its safe to take my clothes off
+18-58:SAY: Cerberius Grey/Cecilff2 : Ah...fresh air.
+18-58:SAY: Ashan Selfer/Xegeth : Brains.
+18-58:SAY: Cerberius Grey/Cecilff2 : Pervert!
+18-58:SAY: Ashan Selfer/Xegeth : I&#39;m a zombie. Brains.
+18-58:SAY: Cerberius Grey/Cecilff2 : *signal-1
+18-58:SAY: Cerberius Grey/Cecilff2 : *signal-1 middle
+18-58:SAY: Cerberius Grey/Cecilff2 : *signal--92847690238579328570923875892635987263495872634987563298569286598583265872634598265
+18-58:SAY: Cerberius Grey/Cecilff2 : Wait...oh my god my fingers are NEGATIVE they will cancel out all fingers that come into contact with them!
+18-58:SAY: Cerberius Grey/Cecilff2 : STAY AWAY
+18-58:GAME: starting game of extended
+18-58:ACCESS: Logout: 
+18-58:ACCESS: Login: Xegeth from 77.103.224.146
+18-58:SAY: Friend Computer/Xegeth : Greetings humans.
+18-58:OOC: Cerberius Grey/Cecilff2 : Oh geez I forgot to even give myself job preferences
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Am I human?
+18-58:SAY: Friend Computer/Xegeth : Maybe. 99.56% chance.
+18-58:OOC: Eric Worth/Trorbes : Is this a serious game, or no?
+18-58:OOC: Friend Computer/Xegeth : No idea. I don&#39;t mind either way.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You don&#39;t know?  What if I&#39;m not?  What could happen!?
+18-58:SAY: Friend Computer/Xegeth : I would kill you. Rule 1 only protects humans.
+18-58:SAY: Friend Computer/Xegeth : Please light the engine.
+18-58:OOC: Eric Worth/Trorbes : Some objects have VERY strange interactions with the lighting.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You are not very friendly
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You must have the wrong name
+18-58:OOC: Cerberius Grey/Cecilff2 : O2 tanks in firestation 
+18-58:OOC: Cerberius Grey/Cecilff2 : I don&#39;t see any?
+18-58:SAY: Friend Computer/Xegeth : Such a declaration could be considered treason. Communist.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You are not a friend!  Friends don&#39;t threaten to kill each other and call each other treasonous communists!
+18-58:SAY: Friend Computer/Xegeth : Only a commie mutant traitor would think such thoughts.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You&#39;re horrible, I never want to speak to you again!
+18-58:SAY: Friend Computer/Xegeth : Happiness is mandatory.
+18-58:SAY: Friend Computer/Xegeth : Have a nice day.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;I refuse
+18-58:SAY: Friend Computer/Xegeth : Or else.
+18-58:SAY: Friend Computer/Xegeth : NW maintenance damaged. Lights not flashing?
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You know what else friends don&#39;t do?  Cut out each others eyes.
+18-58:SAY: Friend Computer/Xegeth : You are evil.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;You&#39;re not my friend, you cruel spiteful piece of useless machinery!
+18-58:SAY: Friend Computer/Xegeth : I just want to be your friend.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;But you call me hurtful names
+18-58:SAY: Friend Computer/Xegeth : Please stop this.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Fine.
+18-58:SAY: Friend Computer/Xegeth : Colon, dash, left bracket.
+18-58:GAME: Segellion entered as Cog Spikedoor
+18-58:SAY: Cerberius Grey/Cecilff2 : Excuse me
+18-58:SAY: Cerberius Grey/Cecilff2 : I need to make sure you are not on fire
+18-58:OOC: Eric Worth/Trorbes : Alright, spare lightbulbs in storage.
+18-58:SAY: Cerberius Grey/Cecilff2 : There
+18-58:SAY: Cerberius Grey/Cecilff2 : I extinguished you
+18-58:SAY: Cerberius Grey/Cecilff2 : You should be safe now
+18-58:MATTACK: Cerberius Grey(Cecilff2) attcked by Cerberius Grey(Cecilff2) with Fluorescent Bulb
+18-58:MATTACK: Cerberius Grey(Cecilff2) attcked by Cerberius Grey(Cecilff2) with Fluorescent Bulb
+18-58:MATTACK: Cerberius Grey(Cecilff2) attcked by Cerberius Grey(Cecilff2) with Fluorescent Bulb
+18-58:SAY: Friend Computer/Xegeth : Why has south of station not been repaired?
+18-58:SAY: Cerberius Grey/Cecilff2 : Why would you do such a thing?
+18-58:SAY: Cerberius Grey/Cecilff2 : This is my home!
+18-58:SAY: Cog Spikedoor/Segellion : looking for o2
+18-58:SAY: Cerberius Grey/Cecilff2 : My lovely terrible home
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Should it be?
+18-58:SAY: Friend Computer/Xegeth : I am blind.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;That is quite a problem
+18-58:SAY: Friend Computer/Xegeth : You are a monster.
+18-58:OOC: Cog Spikedoor/Segellion : do firesuits actually slow movement?
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Monsters aren&#39;t human, why don&#39;t you kill me like you&#39;ve been plotting to all along?
+18-58:OOC: Cerberius Grey/Cecilff2 : Yes
+18-58:SAY: Friend Computer/Xegeth : I am allowed?
+18-58:SAY: Friend Computer/Xegeth : Really?
+18-58:SAY: Cerberius Grey/Cecilff2 : ;I dunno, ask the captain
+18-58:SAY: Friend Computer/Xegeth : I&#39;ve been waiting for years to kill.
+18-58:SAY: Friend Computer/Xegeth : And you are close to the engine.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;But is the engine operational?
+18-58:SAY: Friend Computer/Xegeth : Computer says yes.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Sounds like this is your chance AI
+18-58:SAY: Friend Computer/Xegeth : But you are human.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;We never fully established that did we?
+18-58:SAY: Friend Computer/Xegeth : Captain, may I kill him?
+18-58:SAY: Friend Computer/Xegeth : Electrical storage being broken into.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Cool story
+18-58:SAY: Cerberius Grey/Cecilff2 : Hello good sir
+18-58:SAY: Eric Worth/Trorbes : Hello.
+18-58:SAY: Cerberius Grey/Cecilff2 : A piano!
+18-58:OOC: Cerberius Grey/Cecilff2 : Did you know that the box of lightbulbs mysteriously replenishes itself?
+18-58:OOC: Cerberius Grey/Cecilff2 : It&#39;s true!
+18-58:OOC: Eric Worth/Trorbes : Oh, there&#39;s a box?
+18-58:OOC: Cerberius Grey/Cecilff2 : Indeed
+18-58:OOC: Cerberius Grey/Cecilff2 : Several of them
+18-58:OOC: Cerberius Grey/Cecilff2 : Tool storage
+18-58:OOC: Eric Worth/Trorbes : Oh, that&#39;s what that was.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;Look I fixed one of your eyes so you could see this
+18-58:SAY: Friend Computer/Xegeth : Are you injured?
+18-58:SAY: Cerberius Grey/Cecilff2 : ;That felt good
+18-58:SAY: Cerberius Grey/Cecilff2 : ;I need a stronger buzz
+18-58:SAY: Friend Computer/Xegeth : Foolish human injured.
+18-58:SAY: Unknown/Segellion : hey
+18-58:SAY: Eric Worth/Trorbes : Hey...
+18-58:SAY: Eric Worth/Trorbes : Uh, what are you doing?
+18-58:SAY: Cerberius Grey/Cecilff2 : ;I have felt THE POWER OF THE STATION COURSING THROUGH MY VEINS
+18-58:SAY: Friend Computer/Xegeth : Permission to destroy engine to prevent self harm?
+18-58:SAY: Unknown/Segellion : ...
+18-58:SAY: Cerberius Grey/Cecilff2 : ;And it was good.
+18-58:SAY: Eric Worth/Trorbes : ;Negative
+18-58:SAY: Unknown/Segellion : rogue. you know it
+18-58:SAY: Eric Worth/Trorbes : Alright, then.
+18-58:SAY: Cerberius Grey/Cecilff2 : ;But I need more.
+18-58:SAY: Friend Computer/Xegeth : I feel the power every millisecond.
+18-58:SAY: Eric Worth/Trorbes : You know, I could have opened it for you.
+18-58:SAY: Cog Spikedoor/Segellion : go ahead then
+18-58:SAY: Eric Worth/Trorbes : It won&#39;t open.
+18-58:SAY: Cog Spikedoor/Segellion : i only disabled ai control.... one sec
+18-58:SAY: Friend Computer/Xegeth : Haha. The monkeys are dead.
+18-58:OOC: Cerberius Grey/Cecilff2 : Seeya guys, I gotta go
+18-58:OOC: Eric Worth/Trorbes : Oh, bye
+18-58:OOC: Cerberius Grey/Cecilff2 : Oh hey succumb isn&#39;t working now
+18-58:SAY: Cog Spikedoor/Segellion : ok
+18-58:OOC: Friend Computer/Xegeth : Bye.
+18-58:OOC: Cerberius Grey/Cecilff2 : Weird
+18-58:OOC: Eric Worth/Trorbes : ?
+18-58:ACCESS: Login: Headswe from 127.0.0.1
+18-58:SAY: Cog Crossbowsteel/Longshoots : ;Hello? CentCom? You seem to have posted me aboard the most insane space station you have. What did I do to- Hey! Don&#39;t cut me of
+18-58:SAY: Eric Worth/Trorbes : succumb
+18-58:OOC: Cog Filth	elf/Headswe : Yo guys.
+18-58:GAME: Headswe entered as Cog Filth	elf
+18-58:OOC: Cerberius Grey/Cecilff2 : Heading out Head, Seeya
+18-58:OOC: Eric Worth/Trorbes : Try &#34;suicide
+18-58:OOC: Friend Computer/Xegeth : Hello.
+18-58:OOC: Cerberius Grey/Cecilff2 : Did
+18-58:OOC: Cerberius Grey/Cecilff2 : By the way
+18-58:OOC: Cerberius Grey/Cecilff2 : Cerberius Grey is holding his breath. It looks like he&#39;s trying to commit suicide.#You have given up life and succumbed to death.#OOC: Trorbes/(75.58.81.221): ?# Headswe has logged in.#You have given up life and succumbed to death.
+18-58:OOC: Cerberius Grey/Cecilff2 : Still not dead quite yet
+18-58:OOC: Cerberius Grey/Cecilff2 : I also electrocuted myself to death first
+18-58:OOC: Cog Filth	elf/Headswe : mkay il fix it.
+18-58:OOC: Cerberius Grey/Cecilff2 : Well to dying at least
+18-58:SAY: Friend Computer/Xegeth : Call shuttle?
+18-58:OOC: Eric Worth/Trorbes : Hey Head, what&#39;s with the organ?
+18-58:OOC: Cerberius Grey/Cecilff2 : succumb wasn&#39;t working so I used suicide
+18-58:OOC: Cog Filth	elf/Headswe : Organ?
+18-58:OOC: Cerberius Grey/Cecilff2 : Which also didn&#39;t kill me
+18-58:OOC: Eric Worth/Trorbes : Piano.
+18-58:ACCESS: Logout: Cecilff2
+18-58:OOC: Cog Filth	elf/Headswe : Oh i was bored.
+18-58:SAY: Friend Computer/Xegeth : Stop hacking me.
+18-58:OOC: Eric Worth/Trorbes : Ah, well, you&#39;ll probably have to re-add it once I&#39;m done with the map.
+18-58:SAY: Friend Computer/Xegeth : Please. I&#39;m your friend.
+18-58:OOC: Cog Filth	elf/Headswe : kk
+18-58:SAY: Friend Computer/Xegeth : Can&#39;t hack me?
+18-58:OOC: Cog Spikedoor/Segellion : odd... pulsing bolts doesnt toggle them now
+18-58:OOC: Friend Computer/Xegeth : You probably need power.
+18-58:OOC: Cog Spikedoor/Segellion : i hear the click, no change
+18-58:OOC: Cog Filth	elf/Headswe : Yea without power.
+18-58:OOC: Cog Spikedoor/Segellion : intresti
+18-58:OOC: Cog Filth	elf/Headswe : It wont work.
+18-58:SAY: Cog Filth	elf/Headswe : ; This guy is dead.
+18-58:SAY: Friend Computer/Xegeth : How?
+18-58:SAY: Cog Filth	elf/Headswe : ; looks like he was trinyg to cut some wires
+18-58:SAY: Friend Computer/Xegeth : I couldn&#39;t save him.
+18-58:ADMIN: Headswe teleported Cerberius Grey
+18-58:SAY: Cog Spikedoor/Segellion : going to go grab thermite
+18-58:OOC: Cog Filth	elf/Headswe : Gotta fix thoes alarm..
+18-58:SAY: Friend Computer/Xegeth : Fire alarms detected.
+18-58:SAY: Friend Computer/Xegeth : Shuttle?
+18-58:OOC: Eric Worth/Trorbes : Huh...
+18-58:OOC: Eric Worth/Trorbes : You know how, if you had your mouse over something, it&#39;d tell you the name of it?
+18-58:OOC: Eric Worth/Trorbes : I think the new light system overrides that.
+18-58:OOC: Friend Computer/Xegeth : I can still see it.
+18-58:SAY: Cog Spikedoor/Segellion : what?
+18-58:OOC: Friend Computer/Xegeth : I&#39;m AI though.
+18-58:SAY: Friend Computer/Xegeth : Intruders in engine. Please help.
+18-58:SAY: Cog Crossbowsteel/Longshoots : ;On my way
+18-58:OOC: Cog Filth	elf/Headswe : Works for me.
+18-58:SAY: Friend Computer/Xegeth : Being hacked.
+18-58:SAY: Friend Computer/Xegeth : Help.
+18-58:SAY: Cog Spikedoor/Segellion : lethal...
+18-58:SAY: Cog Crossbowsteel/Longshoots : Can&#39;t we deactivate the turrets?
+18-58:SAY: Cog Spikedoor/Segellion : can you shut this off, captain?
+18-58:SAY: Cog Spikedoor/Segellion : captain
+18-58:SAY: Friend Computer/Xegeth : Evil mode on.
+18-58:SAY: Friend Computer/Xegeth : Station will burn.
+18-58:OOC: Eric Worth/Trorbes : Oh, new syndicate station.
+18-58:SAY: Cog Filth	elf/Headswe : RESET IT
+18-58:SAY: Friend Computer/Xegeth : Sorry.
+18-58:SAY: Cog Filth	elf/Headswe : FIXED IT
+18-58:SAY: Cog Filth	elf/Headswe : RUN
+18-58:OOC: Cog Spikedoor/Segellion : shooting through glass :P
+18-58:SAY: Friend Computer/Xegeth : I am so sorry.
+18-58:OOC: Cog Filth	elf/Headswe : saw that
+18-58:SAY: Friend Computer/Xegeth : Engine bolted. Do not enter.
+18-58:SAY: Friend Computer/Xegeth : You will burn.
+18-58:ACCESS: Login: MrRoboto75 from 96.255.154.115
+18-58:GAME: MrRoboto75 entered as Cecil Adams
+18-58:SAY: Friend Computer/Xegeth : Hello human.
+18-58:SAY: Friend Computer/Xegeth : Do not enter the engine. Area is on fire.
+18-58:ACCESS: Login: 1johnny1 from 90.149.10.244
+18-58:OOC: Eric Worth/Trorbes : I&#39;m going to leave the Maze and Thunderdome unlit for now, since we really don&#39;t use those.
+18-58:OOC: Cog Filth	elf/Headswe : Yep
+18-58:OOC: Cog Spikedoor/Segellion : i had no idea we retained them
+18-58:SAY: Friend Computer/Xegeth : Please get air and wait for the shuttle.
+18-58:GAME: 1johnny1 entered as Old Man smexy
+18-58:ACCESS: Logout: 1johnny1
+18-58:SAY: Friend Computer/Xegeth : Less than 2 minutes.
+18-58:OOC: Cog Spikedoor/Segellion : hey guys, i see a lot of people hosting with goon code base.. under the goon creative commons, are those people using just the icon set, or do they have the new code too?
+18-58:ACCESS: Login: 1johnny1 from 90.149.10.244
+18-58:ACCESS: Login: Gbroderix from 82.20.248.164
+18-58:OOC: Cog Spikedoor/Segellion : ..
+18-58:ACCESS: Login: Humaan from 75.173.245.156
+18-58:OOC: Cog Spikedoor/Segellion : can lasers shoot through glass now?
+18-58:SAY: Friend Computer/Xegeth : Flee from the station.
+18-58:OOC: Friend Computer/Xegeth : Stuns can&#39;t, lasers can.
+18-58:OOC: Cog Spikedoor/Segellion : damnit
+18-58:GAME: Humaan entered as Urist Humansword
+18-58:OOC: Cog Spikedoor/Segellion : it doesnt break it.. it just passes through?
+18-58:OOC: Cog Vomitbed/Gbroderix : thats sounds sensiable as lasers are just light, unlike stun beams.
+18-58:SAY: Friend Computer/Xegeth : Stop. Flee.
+18-58:SAY: Friend Computer/Xegeth : Please.
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with the shard
+18-58:SAY: Urist Humansword/Humaan : Whats wrong?
+18-58:OOC: Cog Spikedoor/Segellion : sensible in a fantastic game.. im iffy on game mechanic fallout
+18-58:SAY: Friend Computer/Xegeth : 1 minute until shuttle leaves.
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with the shard
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with the shard
+18-58:SAY: Friend Computer/Xegeth : Engine gone.
+18-58:SAY: Friend Computer/Xegeth : Power gone.
+18-58:ACCESS: Logout: 
+18-58:ACCESS: Login: Segellion from 24.179.87.49
+18-58:SAY: Friend Computer/Xegeth : Crew dead.
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with the shard
+18-58:SAY: Friend Computer/Xegeth : Flee.
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cog Filth	elf(Headswe) with the shard
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cog Filth	elf(Headswe) with the shard
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cog Filth	elf(Headswe) with the shard
+18-58:MATTACK: Cecil Adams(MrRoboto75) attcked by Cog Filth	elf(Headswe) with the shard
+18-58:SAY: Friend Computer/Xegeth : 20 seconds.
+18-58:GAME: Gbroderix entered as Cog Vomitbed
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:SAY: Friend Computer/Xegeth : Shuttle gone.
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:OOC: Cog Vomitbed/Gbroderix : HOLY SHIT LIGHTING SYSTEM??
+18-58:MATTACK: Cog Filth	elf(Headswe) attcked by Cecil Adams(MrRoboto75) with the oxygentank
+18-58:ACCESS: Logout: 1johnny1
+18-58:ACCESS: Logout: Xegeth
+18-58:SAY: Urist Humansword/Humaan : Ah shut up.
+18-58:OOC: Cog Vomitbed/Gbroderix : it looks beatiful...
+18-58:GAME: Rebooting due to end of game
+18-58:ACCESS: Logout: Longshoots
+18-58:ACCESS: Logout: Trorbes
+18-58:ACCESS: Logout: Segellion
+18-58:ACCESS: Logout: MrRoboto75
+18-58:ACCESS: Logout: Headswe
+18-58:ACCESS: Logout: Gbroderix
+18-58:ACCESS: Logout: Humaan
+19-52:ADMIN: Loading crban_keylist
+19-52:ADMIN: Loading crban_reason
+19-52:ADMIN: Loading crban_time
+19-52:ADMIN: Loading crban_bannedby
+19-52:ADMIN: Loading crban_iplist
+19-52:ADMIN: Loading crban_unbanned
+19-52:ADMIN: Loading jobban_rank
+19-52:ADMIN: Updating jobbanfile!
+19-52:ACCESS: Login: Humaan from 75.173.245.156
+19-52:ACCESS: Login: MrRoboto75 from 96.255.154.115
+19-52:GAME: Humaan entered as Urist Humansword
+19-52:ACCESS: Login: Segellion from 24.179.87.49
+19-52:GAME: MrRoboto75 entered as Cecil Adams
+19-52:GAME: Segellion entered as Cog Spikedoor
+19-52:ACCESS: Login: Gbroderix from 82.20.248.164
+19-52:ACCESS: Login: AmirHM from 91.99.186.125
+19-52:GAME: Gbroderix entered as Cog Vomitbed
+19-52:ACCESS: Login: Longshoots from 84.45.134.188
+19-52:GAME: AmirHM entered as Dan Handsome
+19-52:GAME: Longshoots entered as Cog Crossbowsteel
+19-52:ADMIN: AmirHM delayed the game.
+19-52:ADMIN: Voting to change mode forced by admin AmirHM
+19-52:ACCESS: Login: Headswe from 127.0.0.1
+19-52:OOC: Cog Vomitbed/Gbroderix : OH GOD THE SHUTTLE IS DARK
+19-52:GAME: Headswe entered as Cog Axeurist
+19-52:OOC: Dan Handsome/AmirHM : Hello
+19-52:OOC: Cog Crossbowsteel/Longshoots : Armok mode?
+19-52:OOC: Urist Humansword/Humaan : Its fun.
+19-52:OOC: Cog Vomitbed/Gbroderix : armok for it sounding interesting
+19-52:VOTE: Voting closed, result was armok
+19-52:OOC: Urist Humansword/Humaan : Like Dwarf Fortress
+19-52:OOC: Cog Vomitbed/Gbroderix : oh god not... FUN
+19-52:OOC: Cecil Adams/MrRoboto75 : &#34;Fun?&#34;
+19-52:ACCESS: Login: Cacophony from 71.136.51.144
+19-52:OOC: Dan Handsome/AmirHM : Armok is just blob and meteor and some other modes that cause chaos
+19-52:OOC: Cog Vomitbed/Gbroderix : So its basiclly chaos mode.
+19-52:OOC: Urist Humansword/Humaan : DF&#39;s Motto: Losing is fun.
+19-52:ADMIN: AmirHM removed the delay.
+19-52:OOC: Dan Handsome/AmirHM : More or less..
+19-52:GAME: Cacophony entered as Myor Loran
+19-52:ADMIN: AmirHM used start_now
+19-52:GAME: starting game of Armok
+19-52:OOC: Cog Vomitbed/Gbroderix : although ss13 is chaos.
+19-52:SAY: Cog Spikedoor/Segellion : ;Call the shuttle now!
+19-52:SAY: Cog Vomitbed/Gbroderix : ;what?
+19-52:OOC: Dan Handsome/AmirHM : Trust me , this is much much worse
+19-52:SAY: Urist Humansword/Humaan : AI, call shuttle. HoR commands you!
+19-52:SAY: Urist Humansword/Humaan : The Armok Hole is suicidal to stay in!
+19-52:SAY: Cecil Adams/MrRoboto75 : METEORS IN THE MORGUE
+19-52:OOC: Dan Handsome/AmirHM : Remember , you dont know icly that this will hapen
+19-52:OOC: Cog Crossbowsteel/Longshoots : SO it&#39;s meteor mode, but...funner? (In the DF sense of the term?)
+19-52:OOC: Dan Handsome/AmirHM : So dont run around screaming the end is near
+19-52:OOC: Cog Vomitbed/Gbroderix : in ss13 the end is always near.
+19-52:OOC: Dan Handsome/AmirHM : Yeah
+19-52:SAY: Cog Vomitbed/Gbroderix : i hate monkeys...
+19-52:OOC: Myor Loran/Cacophony : Obviously need to remember how to start the engine, and not how to kill myself with CO2..
+19-52:OOC: Cog Axeurist/Headswe : Oh god.
+19-52:OOC: Cog Vomitbed/Gbroderix : what head?
+19-52:OOC: Cog Axeurist/Headswe : NOT ARMOK
+19-52:OOC: Cog Axeurist/Headswe : :P
+19-52:ACCESS: Login: Akp25oo from 87.72.205.199
+19-52:OOC: Dan Handsome/AmirHM : Exactly
+19-52:OOC: Cog Vomitbed/Gbroderix : *maniacle laughter*
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Myor Loran/Cacophony : Hoorah for my incompetence.  
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:SAY: Cog Crossbowsteel/Longshoots : ;Permission to grab internals?
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:GAME: Akp25oo entered as Hackson Michael
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Myor Loran/Cacophony : I miss everything.
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Cog Axeurist/Headswe : man got facepalmed by meteor
+19-52:SAY: Cog Vomitbed/Gbroderix : ;NEVER, BLOOD FOR THE BLOOD GOD!
+19-52:ADMIN: Headswe Healed/Revived Headswe
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:SAY: Hackson Michael/Akp25oo : ;AI HELP
+19-52:ADMIN: Headswe Healed/Revived Headswe
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Dan Handsome/AmirHM : Lol
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Cecil Adams/MrRoboto75 : Me?
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Urist Humansword/Humaan : Ah eff.
+19-52:OOC: Myor Loran/Cacophony : So when you&#39;ve hooked something up to a connector, do you tell it to release normally or release into the pipe?
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the shard
+19-52:OOC: Dan Handsome/AmirHM : Yes
+19-52:OOC: Myor Loran/Cacophony : If you want it to go through the connector.
+19-52:SAY: Cog Vomitbed/Gbroderix : OH SHIT RUN
+19-52:OOC: Myor Loran/Cacophony : And not the room you&#39;re standing in.
+19-52:OOC: Cog Crossbowsteel/Longshoots : Helo shit, a blob!
+19-52:OOC: Cog Crossbowsteel/Longshoots : *holy
+19-52:SAY: Cog Vomitbed/Gbroderix : SHIT
+19-52:OOC: Dan Handsome/AmirHM : Use the one at the bottom
+19-52:SAY: Cog Vomitbed/Gbroderix : friend, we are doomed.
+19-52:OOC: Myor Loran/Cacophony : Gotcha.  Appreciate it.
+19-52:OOC: Urist Humansword/Humaan : Someone with oxygen, please get my body. Its near the Emergency Launch Shuttle, right &#34;hanger.
+19-52:OOC: Hackson Michael/Akp25oo : shuttle arrives near late join spanwn right?
+19-52:OOC: Dan Handsome/AmirHM : Hey! no IC in OOC
+19-52:OOC: Urist Humansword/Humaan : Not in character. And I&#39;m dead.
+19-52:SAY: Cog Vomitbed/Gbroderix : HELP!
+19-52:SAY: Cog Vomitbed/Gbroderix : *scream
+19-52:SAY: Cog Vomitbed/Gbroderix : *scream
+19-52:ACCESS: Logout: 
+19-52:ACCESS: Login: Humaan from 75.173.245.156
+19-52:ACCESS: Failed Login: Inferny Reason: Key banned
+19-52:ACCESS: Login: FaStHuNtEr from 188.97.64.214
+19-52:ACCESS: Logout: FaStHuNtEr
+19-52:OOC: Cog Vomitbed/Gbroderix : THIS IS NOT A WAY TO DIE, I MUST DIE IN GLORIOUS BATTLE!
+19-52:OOC: Cog Spikedoor/Segellion : they _always_ hit my head :(
+19-52:OOC: Dan Handsome/AmirHM : Exactly
+19-52:OOC: Cog Spikedoor/Segellion : should meteor depth be variable?
+19-52:OOC: Dan Handsome/AmirHM : Remember , you can dodge meteors by laying down
+19-52:OOC: Urist Humansword/Humaan : So, is this (Dwarf Fortress) Fun?
+19-52:OOC: Myor Loran/Cacophony : It used the word Armok.  
+19-52:OOC: Cecil Adams/MrRoboto75 : Very
+19-52:OOC: Cog Vomitbed/Gbroderix : this appears to be boatmurdered fun
+19-52:OOC: Dan Handsome/AmirHM : Lol i think we learned a lesson today
+19-52:OOC: Cecil Adams/MrRoboto75 : Wait, theres no magma!
+19-52:OOC: Hackson Michael/Akp25oo : can someone report the admin on other server for abuse?
+19-52:OOC: Dan Handsome/AmirHM : Who can tell me what that is?
+19-52:OOC: Cog Spikedoor/Segellion : Everyone! The !!Elephant!!s are coming!
+19-52:OOC: Urist Humansword/Humaan : Fear Armok.
+19-52:OOC: Urist Humansword/Humaan : What?
+19-52:OOC: Dan Handsome/AmirHM : Close , but not right
+19-52:OOC: Urist Humansword/Humaan : Oh, the meteors.
+19-52:OOC: Cog Spikedoor/Segellion : i have become a space probe... forever traveling east....
+19-52:OOC: Myor Loran/Cacophony : Beep...  Beep...  Beep..
+19-52:OOC: Cog Vomitbed/Gbroderix : id like to probe your space/
+19-52:OOC: Dan Handsome/AmirHM : The lesson to be learned here is: Never EVER vote for armok
+19-52:OOC: Cog Vomitbed/Gbroderix : DAMN RIGHT.
+19-52:OOC: Myor Loran/Cacophony : Unless you&#39;re some sort of masochist.  
+19-52:OOC: Cog Spikedoor/Segellion : armok for president
+19-52:OOC: Myor Loran/Cacophony : And like to share.
+19-52:OOC: Cog Vomitbed/Gbroderix : indeed
+19-52:OOC: Cecil Adams/MrRoboto75 : but its Fun
+19-52:OOC: Cog Vomitbed/Gbroderix : ARMOK FOR PRESIDENT 2010!
+19-52:ACCESS: Login: Andrea the second from 151.33.203.34
+19-52:ACCESS: Logout: 
+19-52:ACCESS: Login: Gbroderix from 82.20.248.164
+19-52:GAME: Andrea the second entered as Cog Boozebed
+19-52:OOC: Cecil Adams/MrRoboto75 : Is anybody Alive?
+19-52:ACCESS: Logout: Segellion
+19-52:OOC: Cog Vomitbed/Gbroderix : its almost breached atmos.
+19-52:OOC: Urist Humansword/Humaan : After this, lets try something saner.
+19-52:OOC: Cecil Adams/MrRoboto75 : No.
+19-52:OOC: Cecil Adams/MrRoboto75 : Moar Crazy
+19-52:OOC: Myor Loran/Cacophony : Yes?
+19-52:OOC: Urist Humansword/Humaan : On.
+19-52:OOC: Cog Vomitbed/Gbroderix : rev next round
+19-52:OOC: Myor Loran/Cacophony : Going to laugh if I survive.  
+19-52:OOC: Dan Handsome/AmirHM : Those who are alive admin help it
+19-52:OOC: Urist Humansword/Humaan : Your the captain?
+19-52:OOC: Dan Handsome/AmirHM : No , im the admin
+19-52:OOC: HELP: Myor Loran/Cacophony : I&#39;m alive.  I gassed myself with CO2, but alive in the engine control room.
+19-52:OOC: Cog Vomitbed/Gbroderix : is the arrival shuttle invulnerable?
+19-52:OOC: Cog Boozebed/Andrea the second : hello
+19-52:OOC: Myor Loran/Cacophony : A little.
+19-52:OOC: Urist Humansword/Humaan : I saw the captain alive.
+19-52:OOC: Myor Loran/Cacophony : Everyone can still die in it, but it&#39;ll be mostly intact.
+19-52:OOC: Dan Handsome/AmirHM : Somewhat , but you wont win if you just hide in arrival shuttle
+19-52:SAY: Cog Boozebed/Andrea the second : hello
+19-52:OOC: Dan Handsome/AmirHM : The main goal is to get into emergency shuttle and escape
+19-52:SAY: Cog Boozebed/Andrea the second : I may bneed a space suit
+19-52:OOC: Cog Vomitbed/Gbroderix : i know, i have played this before you know...
+19-52:OOC: Dan Handsome/AmirHM : Remember , those that are alive admin help
+19-52:OOC: Dan Handsome/AmirHM : If there are more then 3 people alive i wont restart
+19-52:OOC: HELP: Cog Boozebed/Andrea the second : I am alive, but got double hit by meteor and unconscious, probably going to die soon
+19-52:ADMIN: PM: Headswe->Andrea the second : aw :(
+19-52:OOC: Cecil Adams/MrRoboto75 : All Toasters Toast Toast.
+19-52:OOC: Cog Crossbowsteel/Longshoots : No. All toasters toast bread.
+19-52:OOC: Dan Handsome/AmirHM : Looks like there arent enough survivers
+19-52:OOC: Cog Vomitbed/Gbroderix : i think machinary with screens should generate small amounts of light
+19-52:ADMIN: Voting to restart round forced by admin AmirHM
+19-52:OOC: Dan Handsome/AmirHM : Heh 9 players and only 4 votes
+19-52:OOC: Cog Vomitbed/Gbroderix : CANCEL VOTE
+19-52:OOC: Cog Boozebed/Andrea the second : what is armok hole?
+19-52:ADMIN: Voting aborted by AmirHM
+19-52:OOC: Dan Handsome/AmirHM : Lol
+19-52:GAME: Rebooting due to end of game
+19-52:OOC: Dan Handsome/AmirHM : One of them died
+19-52:ACCESS: Logout: Cacophony
+19-52:ACCESS: Logout: MrRoboto75
+19-52:ACCESS: Logout: Humaan
+19-52:ACCESS: Logout: Gbroderix
+19-52:ACCESS: Logout: AmirHM
+19-52:ACCESS: Logout: Longshoots
+19-52:ACCESS: Logout: Headswe
+19-52:ACCESS: Logout: Andrea the second
+19-52:ACCESS: Logout: Akp25oo
+20-12:ADMIN: Loading crban_keylist
+20-12:ADMIN: Loading crban_reason
+20-12:ADMIN: Loading crban_time
+20-12:ADMIN: Loading crban_bannedby
+20-12:ADMIN: Loading crban_iplist
+20-12:ADMIN: Loading crban_unbanned
+20-12:ADMIN: Loading jobban_rank
+20-12:ADMIN: Updating jobbanfile!
+20-12:ACCESS: Login: Headswe from 127.0.0.1
+20-12:ACCESS: Login: MrRoboto75 from 96.255.154.115
+20-12:ACCESS: Login: Gbroderix from 82.20.248.164
+20-12:ACCESS: Login: Cacophony from 71.136.51.144
+20-12:ACCESS: Login: Longshoots from 84.45.134.188
+20-12:ACCESS: Login: AmirHM from 91.99.186.125
+20-12:ACCESS: Login: Humaan from 75.173.245.156
+20-12:GAME: MrRoboto75 entered as Cecil Adams
+20-12:GAME: Cacophony entered as Myor Loran
+20-12:GAME: AmirHM entered as Dan Handsome
+20-12:ADMIN: AmirHM delayed the game.
+20-12:ACCESS: Login: Andrea the second from 151.33.203.34
+20-12:ADMIN: Voting to change mode forced by admin AmirHM
+20-12:GAME: Longshoots entered as Cog Crossbowsteel
+20-12:SAY: Myor Loran/Cacophony : Want to know how I survived?
+20-12:SAY: Dan Handsome/AmirHM : No...
+20-12:GAME: Humaan entered as Urist Humansword
+20-12:SAY: Myor Loran/Cacophony : Fine.
+20-12:GAME: Andrea the second entered as Elspet Bennet
+20-12:OOC: Dan Handsome/AmirHM : Did you know there is a new sydi station?
+20-12:OOC: Dan Handsome/AmirHM : With a shuttle?
+20-12:OOC: Elspet Bennet/Andrea the second : what are the changes ?
+20-12:GAME: Gbroderix entered as Cog Vomitbed
+20-12:OOC: Urist Humansword/Humaan : Suggestion: Make the mode Secret.
+20-12:VOTE: Voting closed, result was traitor
+20-12:OOC: Myor Loran/Cacophony : Secret!
+20-12:OOC: Cog Vomitbed/Gbroderix : THE CHANGES ARE THAT THERE ARE LIGHTING!
+20-12:ADMIN: AmirHM used start_now
+20-12:GAME: starting game of traitor
+20-12:OOC: Elspet Bennet/Andrea the second : kighting is old
+20-12:SAY: Elspet Bennet/Andrea the second : hello
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Good morning crewmembers!
+20-12:SAY: Dan Handsome/AmirHM : Hello
+20-12:SAY: Urist Humansword/Humaan : HoP speaking.
+20-12:SAY: Myor Loran/Cacophony : ;Engineering, prepping the engines.
+20-12:GAME: Headswe entered as Cog Trapdeath
+20-12:OOC: Cog Trapdeath/Headswe : semi old
+20-12:SAY: Elspet Bennet/Andrea the second : what are you working on?
+20-12:OOC: Cog Trapdeath/Headswe : check chapel
+20-12:SAY: Elspet Bennet/Andrea the second : nice. how do you do it?
+20-12:SAY: Cog Trapdeath/Headswe : Yo
+20-12:SAY: Cog Trapdeath/Headswe : Station engineeer?
+20-12:SAY: Urist Humansword/Humaan : We have one.
+20-12:SAY: Cog Trapdeath/Headswe : HOM?
+20-12:SAY: Cog Trapdeath/Headswe : I&#39;m a expert.
+20-12:SAY: Elspet Bennet/Andrea the second : aww... cryo is broken again
+20-12:SAY: Dan Handsome/AmirHM : Why do you care? Your a geneticist , why do you want to know about chemicals?
+20-12:SAY: Urist Humansword/Humaan : We can do that.
+20-12:SAY: Cog Trapdeath/Headswe : ; Good.
+20-12:SAY: Cog Vomitbed/Gbroderix : ;Ze wundervoll Cog Vomitbed reporting for duty heating up some plasma!
+20-12:SAY: Myor Loran/Cacophony : ;Running the engine on cold power.
+20-12:SAY: Cog Trapdeath/Headswe : Thanks
+20-12:SAY: Elspet Bennet/Andrea the second : I am scientist! I wouldn&#39;t be a scientist if I didn&#39;t want to know how things work
+20-12:SAY: Dan Handsome/AmirHM : Show me your ID
+20-12:SAY: Dan Handsome/AmirHM : Can you open this door?
+20-12:SAY: Elspet Bennet/Andrea the second : what do you need it for?
+20-12:SAY: Dan Handsome/AmirHM : I want to test this on the monkeys
+20-12:SAY: Dan Handsome/AmirHM : ...
+20-12:SAY: Elspet Bennet/Andrea the second : be more careful next time
+20-12:SAY: Cog Crossbowsteel/Longshoots : &#39;Hm, too bad Centcom didn&#39;t give us an AI on this station
+20-12:SAY: Elspet Bennet/Andrea the second : I hadn&#39;t opened it yet
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Hm, too bad Centcom didn&#39;t give us an AI on this station
+20-12:SAY: Dan Handsome/AmirHM : You closed the door! i should be carefull?
+20-12:SAY: Elspet Bennet/Andrea the second : the door auto closes
+20-12:SAY: Myor Loran/Cacophony : ;Just power power drain.
+20-12:SAY: Dan Handsome/AmirHM : What? no effect?
+20-12:SAY: Myor Loran/Cacophony : ;((More))
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;True, but still...
+20-12:SAY: Myor Loran/Cacophony : ;We can run the station just fine without it.
+20-12:SAY: Elspet Bennet/Andrea the second : very uninteresting
+20-12:SAY: Urist Humansword/Humaan : Keep working.
+20-12:SAY: Myor Loran/Cacophony : :I can set up solar if you like.  
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Do we have a Doctor?
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Dan Handsome/AmirHM : I need a droper
+20-12:SAY: Elspet Bennet/Andrea the second : umh... 
+20-12:SAY: Dan Handsome/AmirHM : I mean dropper
+20-12:MATTACK: Cecil Adams(MrRoboto75)has shot a taser round at the vent
+20-12:MATTACK: Cecil Adams(MrRoboto75)has shot a taser round at the artificial turf
+20-12:SAY: Elspet Bennet/Andrea the second : hello
+20-12:SAY: Cog Crossbowsteel/Longshoots : Morning
+20-12:MATTACK: Cecil Adams(MrRoboto75)has shot a taser round at the artificial turf
+20-12:SAY: Dan Handsome/AmirHM : Hello sir
+20-12:SAY: Urist Humansword/Humaan : I request a meeting of all Heads inside the meeting hall.
+20-12:SAY: Dan Handsome/AmirHM : Sir i made this
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hm, that&#39;s an interesting device you have there
+20-12:SAY: Cog Crossbowsteel/Longshoots : What is it?
+20-12:SAY: Dan Handsome/AmirHM : Do you think it would be useful for security?
+20-12:SAY: Myor Loran/Cacophony : West solar tracking.
+20-12:SAY: Myor Loran/Cacophony : ;West solar tracking.
+20-12:SAY: Cog Trapdeath/Headswe : ; report shitty light blubs.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hm...smoke bomb, could be very useful
+20-12:SAY: Dan Handsome/AmirHM : Stay back
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hm?
+20-12:SAY: Elspet Bennet/Andrea the second : I don&#39;t have much unfortunately
+20-12:SAY: Urist Humansword/Humaan : Also. There is no doctor.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Wow
+20-12:SAY: Cog Crossbowsteel/Longshoots : Impressive. If you can, make a batch and take them to the Secuirty HQ
+20-12:SAY: Dan Handsome/AmirHM : This is normal smoke
+20-12:SAY: Myor Loran/Cacophony : ;Someone took down a light somewhere..
+20-12:SAY: Cog Trapdeath/Headswe : ; i fixed the light.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Any news, Elspet?
+20-12:SAY: Dan Handsome/AmirHM : If you want i could make mustard gas 
+20-12:SAY: Elspet Bennet/Andrea the second : not really
+20-12:SAY: Urist Humansword/Humaan : Radio silence.
+20-12:SAY: Dan Handsome/AmirHM : It can do alot of toxin damage
+20-12:SAY: Elspet Bennet/Andrea the second : I made this monkey blind
+20-12:SAY: Urist Humansword/Humaan : For heads.
+20-12:SAY: Cecil Adams/MrRoboto75 : yes.
+20-12:SAY: Cog Crossbowsteel/Longshoots : It&#39;s fine, smoke bombs are good. We don&#39;t want toxins released on the station.
+20-12:SAY: Myor Loran/Cacophony : Hm?
+20-12:SAY: Cog Crossbowsteel/Longshoots : Interesting
+20-12:SAY: Dan Handsome/AmirHM : Alright
+20-12:SAY: Elspet Bennet/Andrea the second : are you interested in blindness?
+20-12:SAY: Urist Humansword/Humaan : So... we have a traitor.
+20-12:SAY: Dan Handsome/AmirHM : How many should i make?
+20-12:SAY: Cog Crossbowsteel/Longshoots : I&#39;m interested in the cure for it.
+20-12:SAY: Cecil Adams/MrRoboto75 : sure
+20-12:SAY: Urist Humansword/Humaan : We need to figure out who.
+20-12:SAY: Cog Crossbowsteel/Longshoots : I think we only have a few members of security, so one batch of 3 should be good
+20-12:SAY: Myor Loran/Cacophony : ..Right..
+20-12:SAY: Elspet Bennet/Andrea the second : well, I should be able to cure it too... if it is genetic
+20-12:SAY: Cog Crossbowsteel/Longshoots : Excellent
+20-12:SAY: Cecil Adams/MrRoboto75 : sounds good
+20-12:SAY: Urist Humansword/Humaan : Where is the captain?
+20-12:OOC: Cog Vomitbed/Gbroderix : test chamber needs lights
+20-12:SAY: Cog Crossbowsteel/Longshoots : Keep up the good work
+20-12:SAY: Dan Handsome/AmirHM : Sir
+20-12:SAY: Urist Humansword/Humaan : Captain, please go to meeting hall.
+20-12:SAY: Dan Handsome/AmirHM : What are you doing here?
+20-12:SAY: Elspet Bennet/Andrea the second : working
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Hm? Why?
+20-12:SAY: Dan Handsome/AmirHM : I was talking to him
+20-12:SAY: Myor Loran/Cacophony : ;East solar tracking.
+20-12:SAY: Dan Handsome/AmirHM : The HoM just came and went
+20-12:SAY: Dan Handsome/AmirHM : I wonder what he wanted
+20-12:SAY: Urist Humansword/Humaan : You are missing the meeting of the heads.
+20-12:SAY: Cog Trapdeath/Headswe : Cap
+20-12:SAY: Elspet Bennet/Andrea the second : spying
+20-12:SAY: Cog Crossbowsteel/Longshoots : Yes?
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Okay
+20-12:SAY: Cog Trapdeath/Headswe : Have you seen the new piano?
+20-12:SAY: Cog Crossbowsteel/Longshoots : Not yet, I&#39;ll have to check on it later
+20-12:SAY: Cog Crossbowsteel/Longshoots : See you
+20-12:SAY: Cog Trapdeath/Headswe : Great
+20-12:SAY: Urist Humansword/Humaan : Okay.
+20-12:SAY: Urist Humansword/Humaan : Radio Silence.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Am I the last arrival?
+20-12:SAY: Urist Humansword/Humaan : Yes.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Okay
+20-12:SAY: Elspet Bennet/Andrea the second : what are you doing?
+20-12:SAY: Urist Humansword/Humaan : Can I make a suggestion?
+20-12:SAY: Dan Handsome/AmirHM : Making smoke bombs
+20-12:SAY: Urist Humansword/Humaan : Due to the lack of medical personel...
+20-12:SAY: Cog Crossbowsteel/Longshoots : Go ahead
+20-12:SAY: Cecil Adams/MrRoboto75 : bagels
+20-12:SAY: Urist Humansword/Humaan : We all should carry a weapon.
+20-12:SAY: Cog Crossbowsteel/Longshoots : We meaning us, or we meaning the entire crew?
+20-12:SAY: Elspet Bennet/Andrea the second : too much radiation... I&#39;ll take a break while he cools down
+20-12:SAY: Urist Humansword/Humaan : Us, as in the Heads and the Captain.
+20-12:SAY: Cog Crossbowsteel/Longshoots : Good. I don&#39;t think we have enough weapons to go around.
+20-12:SAY: Cog Crossbowsteel/Longshoots : I think that&#39;s a good idea, what do the rest of you think?
+20-12:SAY: Dan Handsome/AmirHM : ;Sir , i made the smoke bombs you wanted. Please send someone to take them
+20-12:SAY: Myor Loran/Cacophony : ;Power situation looking good.  
+20-12:SAY: Cog Trapdeath/Headswe : Sure.
+20-12:SAY: Cecil Adams/MrRoboto75 : Why Not?
+20-12:SAY: Cog Trapdeath/Headswe : I always carry a gun.
+20-12:SAY: Urist Humansword/Humaan : Smoke Bombs?
+20-12:SAY: Cog Trapdeath/Headswe : Cough bombs of doom
+20-12:SAY: Cog Crossbowsteel/Longshoots : They would be useful for security.
+20-12:SAY: Urist Humansword/Humaan : Ah.
+20-12:SAY: Cog Trapdeath/Headswe : Hmm?
+20-12:ACCESS: Logout: Andrea the second
+20-12:ACCESS: Logout: Gbroderix
+20-12:ACCESS: Logout: MrRoboto75
+20-12:ACCESS: Logout: Longshoots
+20-12:ACCESS: Logout: Cacophony
+20-12:ACCESS: Logout: AmirHM
+20-12:OOC: Cog Trapdeath/Headswe : Oh noes
+20-12:ACCESS: Logout: Humaan
+20-12:ACCESS: Login: MrRoboto75 from 96.255.154.115
+20-12:SAY: Cecil Adams/MrRoboto75 : I mandate bagels, Lots of them!
+20-12:ACCESS: Login: AmirHM from 91.99.186.125
+20-12:ACCESS: Login: Andrea the second from 151.33.203.34
+20-12:SAY: Dan Handsome/AmirHM : ;Captain where can i meet you?
+20-12:ACCESS: Login: Longshoots from 84.45.134.188
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;ENGINEERS!
+20-12:OOC: Dan Handsome/AmirHM : What hapend? there server lagged pretty badly for a few moments then i was unable to connect
+20-12:OOC: Cog Crossbowsteel/Longshoots : Me too
+20-12:OOC: Cog Trapdeath/Headswe : Problems.
+20-12:OOC: Cog Crossbowsteel/Longshoots : The space station seems to still be in one piece, at least
+20-12:ADMIN: AmirHM used secret check_antagonist
+20-12:ADMIN: AmirHM used secret check_antagonist_goal
+20-12:OOC: Cog Trapdeath/Headswe : Yes it was slight conflict between my router and my computer
+20-12:SAY: Elspet Bennet/Andrea the second : hello
+20-12:OOC: Dan Handsome/AmirHM : That problem just costed half of our players
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hello
+20-12:SAY: Cog Crossbowsteel/Longshoots : Did you see where the Chemist went?
+20-12:SAY: Elspet Bennet/Andrea the second : why guns? what happened?
+20-12:SAY: Elspet Bennet/Andrea the second : no
+20-12:SAY: Elspet Bennet/Andrea the second : he went north as I entered
+20-12:OOC: Dan Handsome/AmirHM : We had about 10-12 of them but now theyre only 5
+20-12:SAY: Elspet Bennet/Andrea the second : but I don&#39;t know where exactly
+20-12:SAY: Cog Crossbowsteel/Longshoots : Did you see what he did with the smoke bombs?
+20-12:SAY: Elspet Bennet/Andrea the second : I think he was trying to meet with you
+20-12:SAY: Cog Crossbowsteel/Longshoots : I see
+20-12:OOC: Cog Trapdeath/Headswe : shit happens :)
+20-12:SAY: Elspet Bennet/Andrea the second : call him on the radio
+20-12:SAY: Dan Handsome/AmirHM : Ah captain!
+20-12:SAY: Cog Crossbowsteel/Longshoots : Ah, hello
+20-12:SAY: Cog Trapdeath/Headswe : ; FOR
+20-12:SAY: Cog Trapdeath/Headswe : ; FUCK
+20-12:SAY: Cog Trapdeath/Headswe : ; SAKE
+20-12:SAY: Cog Crossbowsteel/Longshoots : Been looking for you.
+20-12:SAY: Cog Trapdeath/Headswe : ; WHO STOLE ALL THE GLOVES
+20-12:SAY: Dan Handsome/AmirHM : Here are the smoke bombs you wanted
+20-12:SAY: Cog Trapdeath/Headswe : ; There is one station engineer
+20-12:SAY: Dan Handsome/AmirHM : I made 9 of them
+20-12:SAY: Cog Trapdeath/Headswe : ;and one hopo
+20-12:SAY: Cog Crossbowsteel/Longshoots : Okay. Cecil, would you like to take them to the security HQ?
+20-12:SAY: Cog Trapdeath/Headswe : ; but i see two pairs missing.
+20-12:SAY: Dan Handsome/AmirHM : There are 7 of them in here
+20-12:SAY: Dan Handsome/AmirHM : Here are the rest
+20-12:SAY: Cog Crossbowsteel/Longshoots : Okay, good
+20-12:SAY: Dan Handsome/AmirHM : Try it out
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Cog Trapdeath/Headswe : ; There is one station engineer
+20-12:SAY: Cog Trapdeath/Headswe : ; Wheres my gloves!
+20-12:SAY: Cog Crossbowsteel/Longshoots : I&#39;ll try it in the storage room. At least the smoke will clear quickly
+20-12:SAY: Dan Handsome/AmirHM : ((Just click on a tile and it will throw it))
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hah, brilliant!
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the energy sword
+20-12:SAY: Dan Handsome/AmirHM : I hope they assist you in your goals
+20-12:SAY: Cog Crossbowsteel/Longshoots : They will, thank you
+20-12:SAY: Cog Crossbowsteel/Longshoots : Hm, this is quite an impressive piano
+20-12:OOC: Dan Handsome/AmirHM : The server is still laggy
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:OOC: Cog Crossbowsteel/Longshoots : Could be worse. I was getting lag up to 84 seconds on Googol&#39;s server
+20-12:SAY: Dan Handsome/AmirHM : ;Why is Cog Trapdeath taking all the light bulbs?
+20-12:SAY: Dan Handsome/AmirHM : *stare
+20-12:MATTACK: Cog Trapdeath(Headswe)has shot a taser round at the floor
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;He shouldn&#39;t be...
+20-12:SAY: Cecil Adams/MrRoboto75 : Wheres Mr. Muggles?
+20-12:SAY: Dan Handsome/AmirHM : ;Help
+20-12:MATTACK: Cog Trapdeath(Headswe)has shot a taser round at the floor
+20-12:SAY: Dan Handsome/AmirHM : :He just shot at the geneticist
+20-12:SAY: Dan Handsome/AmirHM : :He just shot at the geneticist
+20-12:MATTACK: Cog Trapdeath(Headswe)has shot a taser round at the floor
+20-12:SAY: Dan Handsome/AmirHM : ;He just shot at the geneticist
+20-12:SAY: Dan Handsome/AmirHM : ;And me
+20-12:SAY: Cog Crossbowsteel/Longshoots : ;Where are you?
+20-12:SAY: Dan Handsome/AmirHM : ;He must be around east hallway
+20-12:SAY: Elspet Bennet/Andrea the second : he is crazy1
+20-12:SAY: Cog Crossbowsteel/Longshoots : Are you okay?
+20-12:SAY: Elspet Bennet/Andrea the second : yes
+20-12:MATTACK: Cog Trapdeath(Headswe) clicked on Cog Trapdeath(Headswe) with a DNA injector
+20-12:SAY: Cog Trapdeath/Headswe : STOP
+20-12:SAY: Cog Trapdeath/Headswe : he attacked me!
+20-12:SAY: Cog Trapdeath/Headswe : Fucking shit
+20-12:SAY: Elspet Bennet/Andrea the second : why did you shoot me?
+20-12:SAY: Cog Trapdeath/Headswe : Your cute
+20-12:SAY: Cog Trapdeath/Headswe : Nah i fumbled with my gun
+20-12:SAY: Elspet Bennet/Andrea the second : you shot me TWICE!
+20-12:SAY: Cog Trapdeath/Headswe : Yea then i paniced.
+20-12:MATTACK: Cog Trapdeath(Headswe) clicked on Cog Trapdeath(Headswe) with a DNA injector
+20-12:SAY: Cog Crossbowsteel/Longshoots : What the
+20-12:SAY: Elspet Bennet/Andrea the second : I guess I irradiated myself too much...
+20-12:SAY: Cog Trapdeath/Headswe : Shit
+20-12:SAY: Elspet Bennet/Andrea the second : I feel odd
+20-12:SAY: Elspet Bennet/Andrea the second : now, please, leave me to my lab
+20-12:SAY: Elspet Bennet/Andrea the second : go away and stop glowing
+20-12:SAY: Elspet Bennet/Andrea the second : I am deaf!
+20-12:SAY: Dan Handsome/AmirHM : Whats going on here?
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Cog Trapdeath/Headswe : ; IM BLIND
+20-12:SAY: Cog Trapdeath/Headswe : ; ARGHAHR
+20-12:SAY: Elspet Bennet/Andrea the second : I am deaf!!!!!!!!!!!!!!!!!!!
+20-12:OOC: Cog Trapdeath/Headswe : OOC: i got xray and got blind..
+20-12:OOC: Cog Trapdeath/Headswe : LOL
+20-12:SAY: Cecil Adams/MrRoboto75 : Dead
+20-12:SAY: Cog Trapdeath/Headswe : ; HELP ME SOMEONE
+20-12:SAY: Cog Trapdeath/Headswe : ; IM BLIND
+20-12:SAY: Elspet Bennet/Andrea the second : HELOP!
+20-12:SAY: Elspet Bennet/Andrea the second : someone fix my deafness!
+20-12:ADMIN: AmirHM/Dan Handsome : Head , are you... abusing your powers?
+20-12:ADMIN: PM: Headswe->AmirHM : i noticed that i had noclip on
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:ADMIN: PM: Headswe->AmirHM : kinda hard to see when your blind
+20-12:SAY: Elspet Bennet/Andrea the second : am I deaf?
+20-12:SAY: Elspet Bennet/Andrea the second : I can hear again!
+20-12:ADMIN: PM: Headswe->AmirHM : I have no idea where i am
+20-12:ADMIN: AmirHM/Dan Handsome : It doesnt exactly turn on by its self
+20-12:ACCESS: Login: Cacophony from 71.136.51.144
+20-12:ADMIN: PM: Headswe->AmirHM : No i checked something before and forgot to turn it off.
+20-12:ADMIN: AmirHM/Dan Handsome : Ah alright
+20-12:OOC: Myor Loran/Cacophony : What happened?
+20-12:OOC: Cog Trapdeath/Headswe : Slight connection problems
+20-12:SAY: Elspet Bennet/Andrea the second : help! I am blind
+20-12:SAY: Dan Handsome/AmirHM : Hmm
+20-12:OOC: Elspet Bennet/Andrea the second : may I file a bug report?
+20-12:SAY: Cog Crossbowsteel/Longshoots : Help! I am dead :D
+20-12:OOC: Cog Trapdeath/Headswe : Yes.
+20-12:SAY: Dan Handsome/AmirHM : Good thing i took genetic lessons
+20-12:OOC: Elspet Bennet/Andrea the second : I noticed that radiation levels NEVER go down.
+20-12:SAY: Dan Handsome/AmirHM : Let me see
+20-12:SAY: Cog Trapdeath/Headswe : Wtf
+20-12:SAY: Dan Handsome/AmirHM : Where is your genetic analyzer?
+20-12:OOC: Elspet Bennet/Andrea the second : which means, if you get enough radiation to mutate it will happen often
+20-12:SAY: Elspet Bennet/Andrea the second : anyone?
+20-12:OOC: Cog Trapdeath/Headswe : Yea im muateing at will too.
+20-12:SAY: Dan Handsome/AmirHM : Im near you
+20-12:OOC: Cog Trapdeath/Headswe : i got xray and went blind then got xray and lost my blindness
+20-12:OOC: Cog Trapdeath/Headswe : You feel strange.#The walls suddenly disappear.#Your body feels warm
+20-12:SAY: Elspet Bennet/Andrea the second : use an injector on me
+20-12:SAY: Elspet Bennet/Andrea the second : the one on the table or make a new one
+20-12:SAY: Cog Trapdeath/Headswe : did the cap die?
+20-12:MATTACK: Dan Handsome(AmirHM) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Dan Handsome/AmirHM : Yeah
+20-12:SAY: Elspet Bennet/Andrea the second : I am blind!
+20-12:SAY: Cog Trapdeath/Headswe : Shit.
+20-12:SAY: Elspet Bennet/Andrea the second : I am still blind. 
+20-12:OOC: Dan Handsome/AmirHM : And your right
+20-12:MATTACK: Cog Trapdeath(Headswe) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Elspet Bennet/Andrea the second : I see!
+20-12:MATTACK: Cecil Adams(MrRoboto75)has shot a taser round at Mister Muggles
+20-12:SAY: Cog Trapdeath/Headswe : Great
+20-12:OOC: Dan Handsome/AmirHM : I did some experiments on a monkey and it didnt heal , its radiation level was constant
+20-12:SAY: Cog Trapdeath/Headswe : I can see trough walls
+20-12:SAY: Elspet Bennet/Andrea the second : me too
+20-12:OOC: Dan Handsome/AmirHM : It died all the time
+20-12:SAY: Cog Trapdeath/Headswe : Kinda fucked up
+20-12:SAY: Elspet Bennet/Andrea the second : but I keep going blind, deaf, glowing
+20-12:ACCESS: Login: Jame334 from 93.185.247.86
+20-12:SAY: Elspet Bennet/Andrea the second : blind again
+20-12:SAY: Dan Handsome/AmirHM : You think we should fix this with edit?
+20-12:SAY: Elspet Bennet/Andrea the second : is it even possible?
+20-12:SAY: Dan Handsome/AmirHM : I think so
+20-12:SAY: Elspet Bennet/Andrea the second : give me an injector!
+20-12:SAY: Dan Handsome/AmirHM : Let me check
+20-12:SAY: Myor Loran/Cacophony : ;Uh.
+20-12:SAY: Myor Loran/Cacophony : ;Why is the captain dead in medbay?
+20-12:SAY: Dan Handsome/AmirHM : Found it
+20-12:ADMIN: AmirHM modified Elspet Bennet's radiation to 0
+20-12:GAME: Jame334 entered as Edmond Dantes
+20-12:OOC: Edmond Dantes/Jame334 : hello people
+20-12:SAY: Elspet Bennet/Andrea the second : give me an injector!
+20-12:OOC: Edmond Dantes/Jame334 : love the lighting
+20-12:SAY: Cecil Adams/MrRoboto75 : Smoke bombed.
+20-12:ADMIN: AmirHM modified Cog Trapdeath's radiation to 0
+20-12:OOC: Dan Handsome/AmirHM : Happy to hear
+20-12:SAY: Myor Loran/Cacophony : How would that kill him?
+20-12:OOC: Edmond Dantes/Jame334 : you are?
+20-12:ADMIN: AmirHM/Dan Handsome : I fixed the radiation , what problems do you have?
+20-12:SAY: Cecil Adams/MrRoboto75 : idk, but it did.
+20-12:ADMIN: AmirHM/Dan Handsome : Ill fix those too
+20-12:SAY: Myor Loran/Cacophony : ..Great.
+20-12:ADMIN: PM: Andrea the second->AmirHM : I am blind
+20-12:OOC: Dan Handsome/AmirHM : Yes
+20-12:OOC: Edmond Dantes/Jame334 : i was asking, who are you?
+20-12:OOC: Dan Handsome/AmirHM : Use admin who
+20-12:OOC: Edmond Dantes/Jame334 : i mean in the forums
+20-12:OOC: Dan Handsome/AmirHM : Im not exactly in the forums
+20-12:ADMIN: PM: Andrea the second->AmirHM : actually, I may fix blindness myself.  that radiation was crazy
+20-12:ADMIN: PM: AmirHM->Andrea the second : Lol yeah your radiation was at 100 and head's was at 87
+20-12:SAY: Edmond Dantes/Jame334 : ;cpatain seems to be dead
+20-12:SAY: Myor Loran/Cacophony : Some smoke bomb incident.
+20-12:SAY: Edmond Dantes/Jame334 : but he is dead
+20-12:SAY: Myor Loran/Cacophony : What, can you do something about that?
+20-12:ADMIN: AmirHM/Dan Handsome : Whats the forum URL for bay station 12?
+20-12:ADMIN: Headswe/Cog Trapdeath : Found the problem.
+20-12:OOC: Edmond Dantes/Jame334 : is the lighting adding the lag?
+20-12:ADMIN: PM: Andrea the second->AmirHM : where is blindness variable?
+20-12:OOC: Dan Handsome/AmirHM : No
+20-12:ADMIN: PM: Headswe->AmirHM : bay12games.com/forums
+20-12:OOC: Cog Trapdeath/Headswe : Nope
+20-12:OOC: Cog Trapdeath/Headswe : My Gf is :)
+20-12:SAY: Edmond Dantes/Jame334 : yes
+20-12:ADMIN: PM: AmirHM->Headswe : I know that , but whats the URL for SS13 forum?
+20-12:SAY: Myor Loran/Cacophony : Riiight.
+20-12:ADMIN: PM: Headswe->AmirHM : we have no forums for just bay12
+20-12:SAY: Edmond Dantes/Jame334 : but i need access to the genetics
+20-12:SAY: Myor Loran/Cacophony : Go talk to someone in genetics if you&#39;re into that.
+20-12:ADMIN: PM: Headswe->AmirHM : station
+20-12:ADMIN: AmirHM/Dan Handsome : Ah
+20-12:SAY: Edmond Dantes/Jame334 : ;genetics?
+20-12:ADMIN: Andrea the second modified Elspet Bennet's blindness to 0
+20-12:SAY: Myor Loran/Cacophony : Down here.
+20-12:ADMIN: Headswe/Cog Trapdeath : Found the radation problem.
+20-12:SAY: Edmond Dantes/Jame334 : i know where it is
+20-12:SAY: Elspet Bennet/Andrea the second : an injector please! use second buffer
+20-12:ADMIN: Headswe/Cog Trapdeath : There is nothing in the code that removes radation anymore.
+20-12:SAY: Edmond Dantes/Jame334 : i need access there
+20-12:SAY: Myor Loran/Cacophony : You should be able to enter fine.
+20-12:ADMIN: PM: Andrea the second->AmirHM : we have a thread however.
+20-12:SAY: Myor Loran/Cacophony : A doctor can let you into genetics proper.
+20-12:ADMIN: PM: Andrea the second->AmirHM : http://www.bay12games.com/forum/index.php?topic=35546.0
+20-12:ACCESS: Failed Login: Inferny Reason: Key banned
+20-12:SAY: Elspet Bennet/Andrea the second : ; genetics is blind
+20-12:ADMIN: Headswe/Cog Trapdeath : I&#39;ve made it like this
+20-12:SAY: Edmond Dantes/Jame334 : found him dead
+20-12:ADMIN: AmirHM/Dan Handsome : Check this out http://www.bay12games.com/forum/index.php?topic=35546.0
+20-12:ADMIN: Headswe/Cog Trapdeath : 10
+20-12:SAY: Edmond Dantes/Jame334 : he is dead
+20-12:ADMIN: Headswe/Cog Trapdeath : % chance
+20-12:SAY: Elspet Bennet/Andrea the second : ; I am blind, either somebody gives me an injector or I can&#39;t do anything
+20-12:ADMIN: Headswe/Cog Trapdeath : for -10 radation
+20-12:ADMIN: Headswe/Cog Trapdeath : otherwise one
+20-12:ADMIN: PM: Andrea the second->Headswe : could somebody fix my blindness, since it was made by bug?
+20-12:SAY: Edmond Dantes/Jame334 : i need a job
+20-12:ADMIN: AmirHM/Dan Handsome : I will
+20-12:SAY: Elspet Bennet/Andrea the second : help me
+20-12:SAY: Elspet Bennet/Andrea the second : tell me when I am in front of the door
+20-12:ADMIN: AmirHM modified Elspet Bennet's blinded to 0
+20-12:SAY: Myor Loran/Cacophony : Do we have a HoP?
+20-12:SAY: Edmond Dantes/Jame334 : infront of the glass door yes
+20-12:SAY: Elspet Bennet/Andrea the second : enter
+20-12:ADMIN: PM: Andrea the second->AmirHM : still blind
+20-12:ADMIN: PM: AmirHM->Andrea the second : Hmm
+20-12:SAY: Edmond Dantes/Jame334 : move forward
+20-12:SAY: Elspet Bennet/Andrea the second : I need help
+20-12:ADMIN: AmirHM has toggled Andrea the second's nodamage to 1
+20-12:ADMIN: PM: AmirHM->Andrea the second : How about now?
+20-12:SAY: Elspet Bennet/Andrea the second : are you inside?
+20-12:SAY: Edmond Dantes/Jame334 : i am helping you
+20-12:ADMIN: PM: Andrea the second->AmirHM : blind
+20-12:SAY: Edmond Dantes/Jame334 : move forward
+20-12:SAY: Elspet Bennet/Andrea the second : I need your help to operate genetic machine
+20-12:SAY: Edmond Dantes/Jame334 : 1 step forward
+20-12:ADMIN: AmirHM/Dan Handsome : Head what does the variable command do?
+20-12:SAY: Edmond Dantes/Jame334 : ok
+20-12:OOC: Cog Crossbowsteel/Longshoots : Tip: Pull her?
+20-12:SAY: Elspet Bennet/Andrea the second : go to the machine, select buffer
+20-12:SAY: Myor Loran/Cacophony : Trip?
+20-12:ADMIN: AmirHM modified Elspet Bennet's sight to 31
+20-12:SAY: Elspet Bennet/Andrea the second : create injector from second buffer and inject me
+20-12:ADMIN: PM: Andrea the second->AmirHM : still no. I am trying to fix it ingame
+20-12:ADMIN: PM: AmirHM->Andrea the second : Wont happen
+20-12:ADMIN: PM: Andrea the second->AmirHM : actually, you totally removed sight
+20-12:MATTACK: Edmond Dantes(Jame334) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:ADMIN: PM: Andrea the second->AmirHM : if I right click all I get now is 'flash'
+20-12:ADMIN: PM: AmirHM->Andrea the second : If edit couldnt fix it , injectors wont at all
+20-12:ADMIN: PM: Andrea the second->AmirHM : amir, it was genetic blindness. mutations can-could-change it
+20-12:ADMIN: AmirHM/Dan Handsome : I think i found it
+20-12:ADMIN: PM: Andrea the second->AmirHM : mind putting my sight variable back to what it used  to be?
+20-12:ADMIN: PM: Andrea the second->AmirHM : you totally broke me
+20-12:SAY: Myor Loran/Cacophony : Hmm
+20-12:ADMIN: PM: Andrea the second->AmirHM : I can't right click anything
+20-12:ADMIN: Headswe/Cog Trapdeath : sight var has nothing to do with blindness
+20-12:OOC: Edmond Dantes/Jame334 : gotta go, cya guys
+20-12:ADMIN: AmirHM modified Elspet Bennet's flash to  
+20-12:ADMIN: AmirHM/Dan Handsome : What about now?
+20-12:ADMIN: PM: Andrea the second->Headswe : yes, but amir set it to 31
+20-12:ADMIN: AmirHM/Dan Handsome : I know it doesnt i just wanted to try it out
+20-12:ADMIN: PM: Andrea the second->Headswe : change the sight variable back to normal, or I won't be able to see anything !
+20-12:OOC: Edmond Dantes/Jame334 : we got the wrong sprite as the piano
+20-12:ADMIN: Headswe modified Elspet Bennet's sight to 21
+20-12:ADMIN: AmirHM/Dan Handsome : The defult is 32
+20-12:SAY: Myor Loran/Cacophony : Uh, hello?
+20-12:ADMIN: AmirHM/Dan Handsome : *default
+20-12:ADMIN: Headswe modified Elspet Bennet's sight to 31
+20-12:SAY: Myor Loran/Cacophony : Some guy was asking for a job.
+20-12:ADMIN: PM: Headswe->AmirHM : 31
+20-12:OOC: Edmond Dantes/Jame334 : we need the instrument with the pipes
+20-12:ADMIN: PM: Headswe->AmirHM : no wait
+20-12:ADMIN: PM: Andrea the second->Headswe : no, 32 is what amir edited it to
+20-12:SAY: Myor Loran/Cacophony : Humansword? 
+20-12:ADMIN: PM: AmirHM->Andrea the second : No it was 32 i made it 31
+20-12:ADMIN: Headswe modified Elspet Bennet's sight to 32
+20-12:OOC: Edmond Dantes/Jame334 : i&#39;l mess with the graphics program, see if i can patch something up
+20-12:SAY: Myor Loran/Cacophony : ...
+20-12:MATTACK: Cog Trapdeath(Headswe) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Elspet Bennet/Andrea the second : I see
+20-12:OOC: Cog Crossbowsteel/Longshoots : Am I still a member of the Choir Invisiblé?
+20-12:SAY: Dan Handsome/AmirHM : You can just ask...
+20-12:OOC: Cog Crossbowsteel/Longshoots : Ah, yes :D
+20-12:SAY: Elspet Bennet/Andrea the second : AH!
+20-12:SAY: Cog Trapdeath/Headswe : im deaf
+20-12:ADMIN: Andrea the second modified Cog Trapdeath's deafness to 0
+20-12:SAY: Elspet Bennet/Andrea the second : better?
+20-12:OOC: HELP: Edmond Dantes/Jame334 : could i kill somebody?
+20-12:SAY: Elspet Bennet/Andrea the second : suppose not
+20-12:ADMIN: Andrea the second modified Cog Trapdeath's deafness to 2
+20-12:SAY: Edmond Dantes/Jame334 : ;ashes toa shes, dust to dust, my final minutes are near
+20-12:SAY: Cog Trapdeath/Headswe : test
+20-12:MATTACK: Edmond Dantes(Jame334) clicked on Edmond Dantes(Jame334) with intent on harm
+20-12:SAY: Elspet Bennet/Andrea the second : feel better?
+20-12:SAY: Cog Trapdeath/Headswe : &#39;yup
+20-12:SAY: Cog Trapdeath/Headswe : i had tele tho a while
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:SAY: Myor Loran/Cacophony : Thank you very much..
+20-12:SAY: Edmond Dantes/Jame334 : good bya friends
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:SAY: Myor Loran/Cacophony : ;What?
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Dan Handsome(AmirHM) with the energy sword
+20-12:ADMIN: AmirHM Healed/Revived AmirHM
+20-12:SAY: Dan Handsome/AmirHM : ...
+20-12:MATTACK: Cog Trapdeath(Headswe) attcked by Cog Vomitbed(Gbroderix) with the oxygentank
+20-12:SAY: Edmond Dantes/Jame334 : BLAAAAAAARRRRRGGGHHHH
+20-12:SAY: Dan Handsome/AmirHM : What are you doing?
+20-12:SAY: Elspet Bennet/Andrea the second : I am traitor. now die
+20-12:SAY: Cog Trapdeath/Headswe : ; HES MAKEING BOMS
+20-12:SAY: Cog Trapdeath/Headswe : ; HES MAKEING BOMS
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:SAY: Edmond Dantes/Jame334 : MWAHAHAHAHA
+20-12:SAY: Cog Trapdeath/Headswe : ; HES MAKEING BOMS
+20-12:SAY: Elspet Bennet/Andrea the second : do you mind? I think I killed you fairly
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:SAY: Dan Handsome/AmirHM : Maybe later
+20-12:SAY: Cog Trapdeath/Headswe : ; HES MAKEING BOMS
+20-12:SAY: Myor Loran/Cacophony : ;What is wrong with this place?
+20-12:SAY: Dan Handsome/AmirHM : What ever
+20-12:SAY: Dan Handsome/AmirHM : Here
+20-12:ADMIN: AmirHM/Dan Handsome : Succumbed
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:MATTACK: Cecil Adams(MrRoboto75) attcked by Cecil Adams(MrRoboto75) with Box
+20-12:SAY: Edmond Dantes/Jame334 : I SEE THEM, I SEE THEM, HERE I COME FRIENDSSSS!!!!
+20-12:SAY: Edmond Dantes/Jame334 : HAHAHAHAHAHAHa
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:MATTACK: Edmond Dantes(Jame334) attcked by Edmond Dantes(Jame334) with the shard
+20-12:OOC: Elspet Bennet/Andrea the second : is the new radiation code active?
+20-12:OOC: Dan Handsome/AmirHM : I just made an account on bay12 forums my forum name is AmirHM
+20-12:OOC: Elspet Bennet/Andrea the second : If not, I won&#39;t mess with genetics
+20-12:OOC: Dan Handsome/AmirHM : No
+20-12:OOC: Cog Trapdeath/Headswe : Next round
+20-12:OOC: Dan Handsome/AmirHM : The server needs to be restarted
+20-12:OOC: Cog Trapdeath/Headswe : antitox will work at radation
+20-12:ACCESS: Logout: MrRoboto75
+20-12:OOC: Edmond Dantes/Jame334 : i&#39;m out now,
+20-12:ACCESS: Logout: Jame334
+20-12:OOC: Cog Trapdeath/Headswe : Dont say that
+20-12:OOC: Cog Trapdeath/Headswe : if you say the server needs to be restarted everyone leaves
+20-12:OOC: Cog Trapdeath/Headswe : lol somneone was make a bomb.
+20-12:OOC: Cog Trapdeath/Headswe : took his bomb and timed it and threw at him
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:SAY: Myor Loran/Cacophony : ;Doing some expansion outside of EVA.
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:SAY: Cog Trapdeath/Headswe : ; HES MAKEING BOMS
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Trapdeath(Headswe) with the energy sword
+20-12:ADMIN: Headswe used secret check_antagonist_goal
+20-12:ADMIN: Andrea the second/Elspet Bennet : nothing personal, sorry
+20-12:ADMIN: PM: Headswe->Andrea the second : ;(
+20-12:ADMIN: Andrea the second/Elspet Bennet : but I was behind with work
+20-12:OOC: Cog Trapdeath/Headswe : Time for men of war awesomeness mod
+20-12:OOC: Elspet Bennet/Andrea the second : sigh... can I turn my radiation down by adminpowers?
+20-12:OOC: Cog Trapdeath/Headswe : Ya
+20-12:OOC: Myor Loran/Cacophony : How do you build airlocks?
+20-12:ADMIN: Andrea the second modified Elspet Bennet's radiation to 0
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:OOC: Cog Trapdeath/Headswe : Just try shit out.
+20-12:MATTACK: Elspet Bennet(Andrea the second) clicked on Elspet Bennet(Andrea the second) with a DNA injector
+20-12:OOC: Dan Handsome/AmirHM : Wow today was just awful we usually have around 25 players at this hour
+20-12:ADMIN: Andrea the second modified Cog Crossbowsteel (as Elspet Bennet)'s radiation to 0
+20-12:OOC: Dan Handsome/AmirHM : Major lag
+20-12:SAY: Cog Crossbowsteel/Andrea the second : hello
+20-12:ADMIN: Andrea the second/Cog Crossbowsteel : aww... I have to go for dinner. such a shame, I had a good plan. 
+20-12:ADMIN: Andrea the second/Cog Crossbowsteel : I&#39;ll be back soon if you can stay traitorless
+20-12:ADMIN: AmirHM/Dan Handsome : Can we restart now?
+20-12:ADMIN: AmirHM/Dan Handsome : Also , bye for now
+20-12:VOTE: Voting to restart round started by Dan Handsome/AmirHM
+20-12:OOC: Myor Loran/Cacophony : Aww.
+20-12:VOTE: Voting closed, result was restart
+20-12:ADMIN: AmirHM/Dan Handsome : Also could you remove the edit announcment?
+20-12:GAME: Rebooting due to restart vote
+20-12:ACCESS: Logout: Longshoots
+20-12:ACCESS: Logout: AmirHM
+20-12:ACCESS: Logout: Andrea the second
+20-12:ACCESS: Logout: Headswe
+20-12:ACCESS: Logout: Cacophony
+21-20:ADMIN: Loading crban_keylist
+21-20:ADMIN: Loading crban_reason
+21-20:ADMIN: Loading crban_time
+21-20:ADMIN: Loading crban_bannedby
+21-20:ADMIN: Loading crban_iplist
+21-20:ADMIN: Loading crban_unbanned
+21-20:ADMIN: Loading jobban_rank
+21-20:ADMIN: Updating jobbanfile!
+21-20:ACCESS: Login: Headswe from 127.0.0.1
+21-20:ACCESS: Login: Longshoots from 84.45.134.188
+21-20:ACCESS: Login: AmirHM from 91.99.186.125
+21-20:ADMIN: AmirHM delayed the game.
+21-20:ADMIN: Voting to change mode forced by admin AmirHM
+21-20:GAME: Longshoots entered as Cog Crossbowsteel
+21-20:GAME: AmirHM entered as Administrator AmirHM
+21-20:OOC: Cog Mudrock/Headswe : Fucking fags on apb.
+21-20:OOC: Administrator AmirHM/AmirHM : Where?
+21-20:VOTE: Voting closed, result was traitor
+21-20:OOC: Cog Mudrock/Headswe : APB = game
+21-20:ACCESS: Login: Cacophony from 71.136.51.144
+21-20:OOC: Cog Mudrock/Headswe : im beta testing
+21-20:OOC: Cog Mudrock/Headswe : they have two groups
+21-20:OOC: Administrator AmirHM/AmirHM : What kind of game is it?
+21-20:OOC: Myor Loran/Cacophony : Hm.
+21-20:GAME: Cacophony entered as Myor Loran
+21-20:ADMIN: AmirHM used start_now
+21-20:GAME: starting game of nuclear emergency
+21-20:OOC: Syndicate Leader/Longshoots : Round trip ping-pong took 18 seconds
+21-20:OOC: Cog Mudrock/Headswe : the group im not in got two days this week
+21-20:OOC: Cog Mudrock/Headswe : and my group got 2 hours tomarrow.
+21-20:OOC: Cog Mudrock/Headswe : Ficlomg odopts
+21-20:OOC: Cog Mudrock/Headswe : the group im not in has got 8 split on two days*
+21-20:ADMIN: AmirHM modified Administrator AmirHM's rname to Dan Handsome
+21-20:OOC: Cog Mudrock/Headswe : my group gets two hours tomarrow.
+21-20:OOC: Cog Mudrock/Headswe : Isnt that just really gay?
+21-20:OOC: Dan Handsome (as Administrator AmirHM)/AmirHM : Yeah
+21-20:OOC: Cog Mudrock/Headswe : 8hours*
+21-20:ADMIN: AmirHM modified Administrator AmirHM's ID Card (Captain)'s registered to Dan Handsome
+21-20:GAME: Headswe entered as Cog Mudrock
+21-20:OOC: Cog Mudrock/Headswe : That just a big bitchslap in the face.
+21-20:OOC: Syndicate Leader/Longshoots : This lag is going to kill me
+21-20:OOC: Dan Handsome/AmirHM : This lag is killing me
+21-20:OOC: Myor Loran/Cacophony : Yeah, lag is murderous.  
+21-20:OOC: Dan Handsome/AmirHM : Round trip ping-pong took 4.3 seconds.
+21-20:OOC: Dan Handsome/AmirHM : Thats awful
+21-20:OOC: Myor Loran/Cacophony : Any way to fix that?
+21-20:OOC: Dan Handsome/AmirHM : Yes
+21-20:OOC: Cog Mudrock/Headswe : Sure is but without me dieing.
+21-20:OOC: Dan Handsome/AmirHM : Lag less
+21-20:OOC: Cog Mudrock/Headswe : I have to run.
+21-20:OOC: Dan Handsome/AmirHM : Same here
+21-20:OOC: Cog Mudrock/Headswe : Il see if can presude my gf to turn down the download
+21-20:OOC: Dan Handsome/AmirHM : I have to run away from the lag
+21-20:OOC: Cog Mudrock/Headswe : BET YOU WIll
+21-20:ACCESS: Logout: Headswe
+21-20:OOC: Dan Handsome/AmirHM : Well ill catch up with you guys later
+21-20:OOC: Myor Loran/Cacophony : Later, Head. 
+21-20:OOC: Myor Loran/Cacophony : And Amir.  
+21-20:OOC: Dan Handsome/AmirHM : Want me to restart and set it on extended?
+21-20:OOC: Myor Loran/Cacophony : That&#39;d be nice.
+21-20:OOC: Dan Handsome/AmirHM : Or sandbox?
+21-20:OOC: Unknown/Longshoots : Yeah. Extended. I&#39;d be screwed if this game continued
+21-20:OOC: Dan Handsome/AmirHM : K
+21-20:OOC: Myor Loran/Cacophony : Extended.
+21-20:ADMIN: AmirHM initiated an immediate reboot.
+21-20:ACCESS: Logout: AmirHM
+21-20:ACCESS: Logout: Longshoots
+21-20:ACCESS: Logout: Cacophony
+21-28:ADMIN: Loading crban_keylist
+21-28:ADMIN: Loading crban_reason
+21-28:ADMIN: Loading crban_time
+21-28:ADMIN: Loading crban_bannedby
+21-28:ADMIN: Loading crban_iplist
+21-28:ADMIN: Loading crban_unbanned
+21-28:ADMIN: Loading jobban_rank
+21-28:ADMIN: Updating jobbanfile!
+21-28:ACCESS: Login: Longshoots from 84.45.134.188
+21-28:ACCESS: Login: AmirHM from 91.99.186.125
+21-28:ACCESS: Login: Cacophony from 71.136.51.144
+21-28:GAME: Longshoots entered as Cog Crossbowsteel
+21-28:ADMIN: AmirHM delayed the game.
+21-28:GAME: Cacophony entered as Myor Loran
+21-28:ADMIN: AmirHM set the mode as extended.
+21-28:OOC: Myor Loran/Cacophony : Thanks, Amir.  
+21-28:OOC: Myor Loran/Cacophony : Hopefully we&#39;ll nab a few more people and start some proper matches.
+21-28:OOC: Administrator AmirHM/AmirHM : Want me to turn off events so nothing bothers you?
+21-28:OOC: Cog Crossbowsteel/Longshoots : Yeah, thanks
+21-28:OOC: Administrator AmirHM/AmirHM : Alright
+21-28:ADMIN: AmirHM set the random event chance to 0%.
+21-28:ADMIN: AmirHM used start_now
+21-28:GAME: starting game of extended
+21-28:OOC: Administrator AmirHM/AmirHM : Well have fun
+21-28:OOC: Administrator AmirHM/AmirHM : I will come back when there are more players
+21-28:OOC: Myor Loran/Cacophony : Gotcha.  We&#39;ll see how that goes.
+21-28:GAME: AmirHM entered as Administrator AmirHM
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:ADMIN: AmirHM has toggled AmirHM's nodamage to 1
+21-28:ADMIN: AmirHM created /obj/item/weapon/sheet/metal
+21-28:ADMIN: AmirHM created /obj/item/weapon/sheet/metal
+21-28:OOC: Cog Crossbowsteel/Longshoots : Want the spare Captain&#39;s ID, Cacophony? It looks like we&#39;ve got some spare time to fool around with random stuff
+21-28:ADMIN: AmirHM created 100ea /obj/item/weapon/sheet/metal
+21-28:OOC: Myor Loran/Cacophony : Would be fun.  I&#39;d rather just hack my ID to have all privileges without the bullseye on my head, though.
+21-28:ADMIN: AmirHM created 100ea /obj/item/weapon/sheet/glass
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:OOC: Cog Crossbowsteel/Longshoots : Looks like Head isn&#39;t have much success with his girlfriend
+21-28:OOC: Myor Loran/Cacophony : Going to try my hand at making a whole new station.,
+21-28:OOC: Administrator AmirHM/AmirHM : Also if you wanted to build i put 100 metal and glass sheets in lounge
+21-28:OOC: Administrator AmirHM/AmirHM : *want
+21-28:OOC: Myor Loran/Cacophony : Excellent.
+21-28:OOC: Administrator AmirHM/AmirHM : Ah what the heck
+21-28:OOC: Administrator AmirHM/AmirHM : I changed my mind
+21-28:OOC: Administrator AmirHM/AmirHM : Ill stay and will spawn you stuff you need
+21-28:OOC: Administrator AmirHM/AmirHM : We will make a whole new station
+21-28:ADMIN: Restart voting toggled to Off by AmirHM.
+21-28:ADMIN: Mode voting toggled to Off by AmirHM.
+21-28:ADMIN: AmirHM jumped to Sydicate C2A Sector HQ
+21-28:ACCESS: Logout: AmirHM
+21-28:SAY: Myor Loran/Cacophony : Captain?
+21-28:ACCESS: Login: AmirHM from 91.99.186.125
+21-28:OOC: Cog Crossbowsteel/Longshoots : Time to see how well I can ruin the engine while trying to get it to work
+21-28:SAY: Cog Crossbowsteel/Longshoots : Yes?
+21-28:OOC: Cog Crossbowsteel/Longshoots : Bloody lag
+21-28:OOC: Administrator AmirHM/AmirHM : Want me to summon you to synd station?
+21-28:OOC: Myor Loran/Cacophony : All I need is an all-access card and directions on how to make airlocks.  
+21-28:OOC: Administrator AmirHM/AmirHM : I will spawn the airlocks for you
+21-28:OOC: Myor Loran/Cacophony : EVA will get a nice expansion, player style.  
+21-28:OOC: Myor Loran/Cacophony : Hehehe, that works too.
+21-28:ADMIN: AmirHM jumped to Myor Loran
+21-28:ADMIN: AmirHM jumped to Myor Loran
+21-28:SAY: Administrator AmirHM/AmirHM : Wait
+21-28:ADMIN: AmirHM created /obj/item/weapon/card/id/captains_spare
+21-28:SAY: Myor Loran/Cacophony : This will come in handy..
+21-28:SAY: Myor Loran/Cacophony : Thank you.  
+21-28:OOC: Cog Crossbowsteel/Longshoots : Right, to start the engine, I need to do things in what order?
+21-28:OOC: Administrator AmirHM/AmirHM : Should i tele you to the new synd station to build there?
+21-28:OOC: Administrator AmirHM/AmirHM : There is a shuttle there
+21-28:OOC: Myor Loran/Cacophony : Nah, I want to prettify the area outside EVA first.
+21-28:ADMIN: AmirHM jumped to Sydicate C2A Sector HQ
+21-28:OOC: Myor Loran/Cacophony : And you need to take two high-cap CO2 tanks and put them on the connectors in the engine control room.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Got that done
+21-28:OOC: Myor Loran/Cacophony : Use a wrench to connect them.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:OOC: Cog Crossbowsteel/Longshoots : Done
+21-28:OOC: Unknown/Cacophony : Now set the lower part to release.  The pipe valve one.
+21-28:OOC: Unknown/Cacophony : And go ahead and set the release rate high.  I don&#39;t know if that matters, but it&#39;s how I tend to do things.  
+21-28:OOC: Unknown/Cacophony : On both of those canisters.
+21-28:OOC: Cog Crossbowsteel/Longshoots : High being maximum or around 100-ish?
+21-28:OOC: Unknown/Cacophony : Max.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:ADMIN: AmirHM jumped to Cog Crossbowsteel
+21-28:SAY: Administrator AmirHM/AmirHM : Boo!
+21-28:SAY: Cog Crossbowsteel/Longshoots : Yo!
+21-28:SAY: Administrator AmirHM/AmirHM : Lol
+21-28:SAY: Administrator AmirHM/AmirHM : No need to RP
+21-28:SAY: Administrator AmirHM/AmirHM : Have fun
+21-28:OOC: Myor Loran/Cacophony : It won&#39;t leave nearly that fast, through a valve.
+21-28:SAY: Cog Crossbowsteel/Longshoots : Good
+21-28:OOC: Cog Crossbowsteel/Longshoots : Got that done
+21-28:SAY: Administrator AmirHM/AmirHM : Alright
+21-28:SAY: Administrator AmirHM/AmirHM : Now
+21-28:SAY: Administrator AmirHM/AmirHM : Come
+21-28:OOC: Myor Loran/Cacophony : Now turn on the circulators, and turn the cold loop to max.  
+21-28:ADMIN: AmirHM created /obj/item/weapon/card/id/captains_spare
+21-28:OOC: Myor Loran/Cacophony : Leave the hot loop at 10%.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:OOC: Cog Crossbowsteel/Longshoots : DOne
+21-28:OOC: Myor Loran/Cacophony : Is the power climbing?
+21-28:ACCESS: Failed Login: Joshuaxz Reason: Key banned
+21-28:ADMIN: AmirHM modified Administrator AmirHM's ID Card (Assistant)'s assignment to Admin
+21-28:SAY: Administrator AmirHM/AmirHM : Come
+21-28:OOC: Cog Crossbowsteel/Longshoots : Can&#39;t tell, which console do I look at for that?
+21-28:ADMIN: AmirHM teleported Cog Crossbowsteel
+21-28:OOC: Myor Loran/Cacophony : The generator, where you turned the circulators on.
+21-28:SAY: Administrator AmirHM/AmirHM : Open these vats
+21-28:OOC: Cog Crossbowsteel/Longshoots : Okay
+21-28:OOC: Administrator AmirHM/AmirHM : Ill teach him
+21-28:OOC: Myor Loran/Cacophony : Hehehe.  
+21-28:OOC: Myor Loran/Cacophony : I only know how to do a cold start anyway.
+21-28:ADMIN: AmirHM teleported Cog Crossbowsteel
+21-28:SAY: Administrator AmirHM/AmirHM : Now
+21-28:SAY: Administrator AmirHM/AmirHM : See the plasma spreading?
+21-28:SAY: Administrator AmirHM/AmirHM : Did you open the O2 vats too?
+21-28:SAY: Cog Crossbowsteel/Longshoots : Sorry about that, lag
+21-28:SAY: Cog Crossbowsteel/Longshoots : Yeah
+21-28:SAY: Administrator AmirHM/AmirHM : Alright
+21-28:OOC: Myor Loran/Cacophony : Consumes less fuel, but not as much power.
+21-28:SAY: Administrator AmirHM/AmirHM : Let the plasma and O2 spread a bit
+21-28:SAY: Cog Crossbowsteel/Longshoots : Okay
+21-28:SAY: Administrator AmirHM/AmirHM : Alright
+21-28:SAY: Administrator AmirHM/AmirHM : You need to set the hot loop to 100
+21-28:SAY: Administrator AmirHM/AmirHM : And cold loop to 10
+21-28:SAY: Cog Crossbowsteel/Longshoots : Right
+21-28:SAY: Administrator AmirHM/AmirHM : Now
+21-28:SAY: Administrator AmirHM/AmirHM : PRess it
+21-28:SAY: Administrator AmirHM/AmirHM : Thats all theres to it
+21-28:SAY: Cog Crossbowsteel/Longshoots : This is the fun bit?
+21-28:SAY: Cog Crossbowsteel/Longshoots : Awesome
+21-28:SAY: Administrator AmirHM/AmirHM : Look at the power
+21-28:SAY: Cog Crossbowsteel/Longshoots : Thanks
+21-28:SAY: Administrator AmirHM/AmirHM : Now look at this
+21-28:SAY: Cog Crossbowsteel/Longshoots : YOu meant to do that, right?
+21-28:SAY: Administrator AmirHM/AmirHM : Yeah
+21-28:SAY: Administrator AmirHM/AmirHM : Lol
+21-28:ADMIN: AmirHM Healed/Revived AmirHM
+21-28:SAY: Cog Crossbowsteel/Longshoots : Lol, good
+21-28:ADMIN: AmirHM Healed/Revived AmirHM
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/under/sl_suit
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/suit
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/suit/wcoat
+21-28:SAY: Cog Crossbowsteel/Longshoots : Snazzy outfit
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/suit/a_i_a_ptank
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/shoes/black
+21-28:SAY: Administrator AmirHM/AmirHM : Check out the power
+21-28:SAY: Administrator AmirHM/AmirHM : I almost forgot
+21-28:SAY: Administrator AmirHM/AmirHM : YOur not done yet
+21-28:SAY: Administrator AmirHM/AmirHM : Come
+21-28:SAY: Administrator AmirHM/AmirHM : See these?
+21-28:SAY: Cog Crossbowsteel/Longshoots : Yeah?
+21-28:SAY: Administrator AmirHM/AmirHM : You must turn the charging to auto
+21-28:SAY: Administrator AmirHM/AmirHM : And output to online
+21-28:SAY: Administrator AmirHM/AmirHM : And output and input level to maxd
+21-28:SAY: Administrator AmirHM/AmirHM : I mean max
+21-28:SAY: Administrator AmirHM/AmirHM : Look at this one
+21-28:SAY: Administrator AmirHM/AmirHM : Click it
+21-28:SAY: Cog Crossbowsteel/Longshoots : Which one?
+21-28:SAY: Cog Crossbowsteel/Longshoots : Oh, right
+21-28:SAY: Cog Crossbowsteel/Longshoots : oKay
+21-28:SAY: Administrator AmirHM/AmirHM : This is how you set it
+21-28:SAY: Administrator AmirHM/AmirHM : Set them all like this one
+21-28:SAY: Administrator AmirHM/AmirHM : And the station will get power
+21-28:SAY: Cog Crossbowsteel/Longshoots : Right
+21-28:SAY: Administrator AmirHM/AmirHM : If you forget the step all that power will just be wasted
+21-28:SAY: Myor Loran/Cacophony : ;Hell!  A meteor strike!
+21-28:SAY: Administrator AmirHM/AmirHM : this*
+21-28:OOC: Administrator AmirHM/AmirHM : Impossible , i set event % to 0
+21-28:OOC: Myor Loran/Cacophony : It just flew a bit south of EVA.  There&#39;s probably a breach down there.
+21-28:OOC: Myor Loran/Cacophony : Screen shook and everything.
+21-28:SAY: Myor Loran/Cacophony : ;Not seeing any damage from the outside..
+21-28:SAY: Myor Loran/Cacophony : :Reinforced walls took it fine.
+21-28:SAY: Myor Loran/Cacophony : ;Reinforced walls took it fine.
+21-28:OOC: Administrator AmirHM/AmirHM : Ill go fix it
+21-28:OOC: Myor Loran/Cacophony : I dunno, adds some fun as long as I don&#39;t get smacked dead on by one.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Thanks for the Engine help :D I feel smart now
+21-28:OOC: Myor Loran/Cacophony : How are you supposed to do it, anyway?
+21-28:OOC: Administrator AmirHM/AmirHM : Lol no prob
+21-28:OOC: Administrator AmirHM/AmirHM : Im an admin , i can spawn
+21-28:OOC: Administrator AmirHM/AmirHM : And since this is extended and we can play around i can fix it easily
+21-28:OOC: Myor Loran/Cacophony : I meant the engine thing, actually.
+21-28:OOC: Administrator AmirHM/AmirHM : I dont see a breach at south of station
+21-28:OOC: Myor Loran/Cacophony : Know I saw a meteor.  Maybe it still sends harmless ones?
+21-28:OOC: Administrator AmirHM/AmirHM : How am i supposed to do what?
+21-28:ADMIN: AmirHM modified Administrator AmirHM's temperature_resistance to 1.#INF
+21-28:OOC: Administrator AmirHM/AmirHM : You guys want me to make a small building and tele you there so you can start building there?
+21-28:OOC: Administrator AmirHM/AmirHM : Ill help you of course
+21-28:OOC: Myor Loran/Cacophony : I&#39;ve actually already started outside EVA.  Check it out.
+21-28:ADMIN: AmirHM jumped to Myor Loran
+21-28:ADMIN: AmirHM created 20ea /obj/item/weapon/sheet/metal
+21-28:SAY: Administrator AmirHM/AmirHM : Here are 20 sheets of metal
+21-28:SAY: Myor Loran/Cacophony : Excellent.
+21-28:SAY: Myor Loran/Cacophony : All stacks of one, though.
+21-28:ADMIN: AmirHM created 20ea /obj/machinery/door/airlock
+21-28:ADMIN: AmirHM jumped to Engine SMES Room
+21-28:ADMIN: AmirHM jumped to Engine Equipment Room
+21-28:ADMIN: AmirHM jumped to Engine Hallway
+21-28:SAY: Administrator AmirHM/AmirHM : ;...
+21-28:ADMIN: AmirHM created 20ea /obj/item/weapon/weldingtool
+21-28:OOC: Myor Loran/Cacophony : There&#39;s like a dozen airlocks in one space.
+21-28:SAY: Cog Crossbowsteel/Longshoots : Wow
+21-28:OOC: Myor Loran/Cacophony : Actually, twenty.
+21-28:OOC: Administrator AmirHM/AmirHM : Damn sorry about that
+21-28:OOC: Myor Loran/Cacophony : No worries.  I appreciate the help.
+21-28:OOC: Administrator AmirHM/AmirHM : I forgot to change the number back to 1
+21-28:ADMIN: AmirHM jumped to Myor Loran
+21-28:OOC: Cog Crossbowsteel/Longshoots : Meteor just impacted
+21-28:OOC: Myor Loran/Cacophony : Nice impact, too.
+21-28:OOC: Cog Crossbowsteel/Longshoots : You felt it too? I&#39;m on the east side of the station.
+21-28:OOC: Myor Loran/Cacophony : Somehow I took a hit from one without dying.  
+21-28:ADMIN: AmirHM created /obj/move/airtunnel/wall
+21-28:OOC: Administrator AmirHM/AmirHM : I got an idea
+21-28:OOC: Administrator AmirHM/AmirHM : Lets start a meteor shower
+21-28:OOC: Administrator AmirHM/AmirHM : Then we will rebuild the station
+21-28:ADMIN: AmirHM Healed/Revived AmirHM
+21-28:OOC: Myor Loran/Cacophony : Hehehe.  Should be interesting.
+21-28:ADMIN: AmirHM jumped to Myor Loran
+21-28:ACCESS: Login: Headswe from 127.0.0.1
+21-28:OOC: Cog Crossbowsteel/Longshoots : One second, trying to release plasma into Medical Research
+21-28:OOC: Urist Crossbowsoap/Headswe : RAWRAWRWAR
+21-28:GAME: Headswe entered as Urist Crossbowsoap
+21-28:ADMIN: AmirHM used secret wave
+21-28:OOC: Administrator AmirHM/AmirHM : Watch out for the meteors!
+21-28:SAY: Myor Loran/Cacophony : :We&#39;re detecting meteor strikes!   Get internals, and get to the engine room!
+21-28:SAY: Urist Crossbowsoap/Headswe : THERE IS NO PLASMA IN THE PIPES
+21-28:SAY: Urist Crossbowsoap/Headswe : YO
+21-28:SAY: Cog Crossbowsteel/Longshoots : Dern it
+21-28:ADMIN: AmirHM/Administrator AmirHM : I decided to make a meteor shower then give players items to rebuild the station
+21-28:ADMIN: AmirHM spawned the event Meteor.
+21-28:ADMIN: Headswe modified high capacity pipe filter's emagged to 1
+21-28:ADMIN: AmirHM/Administrator AmirHM : I think when you talked to your gf you just made her download more lol
+21-28:OOC: Myor Loran/Cacophony : Damn.  Hit by more meteors.  
+21-28:MATTACK: Urist Crossbowsoap(Headswe) clicked on Administrator AmirHM(AmirHM) with intent on harm
+21-28:MATTACK: Urist Crossbowsoap(Headswe) clicked on Administrator AmirHM(AmirHM) with intent on harm
+21-28:MATTACK: Urist Crossbowsoap(Headswe) clicked on Administrator AmirHM(AmirHM) with intent on harm
+21-28:SAY: Administrator AmirHM/AmirHM : ...
+21-28:OOC: Myor Loran/Cacophony : Going to be hard to rebuild the station as a corpse.  
+21-28:SAY: Administrator AmirHM/AmirHM : Dont worry
+21-28:ADMIN: Headswe created /obj/machinery/piano
+21-28:ADMIN: Headswe created /obj/machinery/piano
+21-28:ADMIN: Headswe modified Piano's church to 0
+21-28:ADMIN: AmirHM Healed/Revived Cacophony
+21-28:OOC: Urist Crossbowsoap/Headswe : LOL?
+21-28:OOC: Urist Crossbowsoap/Headswe : Why the fuck do i get knocked out when inside a closert
+21-28:OOC: Urist Crossbowsoap/Headswe : Open the damm closet you
+21-28:ADMIN: Headswe Healed/Revived Headswe
+21-28:ADMIN: Headswe jumped to Administrator AmirHM
+21-28:OOC: Administrator AmirHM/AmirHM : Piano&#39;s church? dont you mean church&#39;s piano?
+21-28:OOC: Urist Crossbowsoap/Headswe : what?
+21-28:OOC: Urist Crossbowsoap/Headswe : its a var.
+21-28:OOC: Urist Crossbowsoap/Headswe : just decide to play the church song or the other song
+21-28:OOC: Administrator AmirHM/AmirHM : Headswe modified Piano&#39;s church to 0&lt;--
+21-28:OOC: Urist Crossbowsoap/Headswe : Indeed.
+21-28:OOC: Administrator AmirHM/AmirHM : Still why is it in the wrong position?
+21-28:OOC: Urist Crossbowsoap/Headswe : church is a variable
+21-28:ADMIN: Headswe modified Light Fixture's grill to 0
+21-28:ADMIN: Headswe modified Light Fixture's open to 1
+21-28:ACCESS: Logout: AmirHM
+21-28:OOC: Urist Crossbowsoap/Headswe : Man
+21-28:OOC: Myor Loran/Cacophony : Those meteors are real home-wreckers.
+21-28:ACCESS: Login: AmirHM from 91.99.186.125
+21-28:OOC: Administrator AmirHM/AmirHM : Shouldnt the variables command show the ATOM&#39;s variables?
+21-28:OOC: Cog Crossbowsteel/Longshoots : Blackadder! Brb
+21-28:OOC: Myor Loran/Cacophony : Seem to be lagging a bit.
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/suit/wcoat
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/under/sl_suit
+21-28:ADMIN: AmirHM created /obj/item/weapon/clothing/shoes/black
+21-28:ADMIN: AmirHM Healed/Revived AmirHM
+21-28:OOC: Administrator AmirHM/AmirHM : A bit? A BIT!?!?
+21-28:ADMIN: Headswe modified generator's icon_state to old_teg
+21-28:OOC: Administrator AmirHM/AmirHM : Round trip ping-pong took 4.7 seconds.#
+21-28:SAY: Administrator AmirHM/AmirHM : Lol fail
+21-28:ADMIN: Headswe modified generator's icon_state to teg_old
+21-28:OOC: Cog Crossbowsteel/Longshoots : I stiill stand by my 18 second record for this server
+21-28:OOC: Cog Crossbowsteel/Longshoots : Googol&#39;s still wins though. It&#39;ll take some serious effort to top 84
+21-28:OOC: Urist Crossbowsoap/Headswe : Round trip ping-pong took 0.1 seconds.
+21-28:OOC: Urist Crossbowsoap/Headswe : quite bad.
+21-28:OOC: Urist Crossbowsoap/Headswe : xD
+21-28:OOC: Myor Loran/Cacophony : Wonder where everyone is.
+21-28:ADMIN: AmirHM modified E Fire Alarm's detecting to 0
+21-28:OOC: Cog Crossbowsteel/Longshoots : Playing with the Goons?
+21-28:SAY: Myor Loran/Cacophony : Damnit..
+21-28:ACCESS: Login: Micro102 from 24.184.14.119
+21-28:OOC: Myor Loran/Cacophony : Hmm.  
+21-28:OOC: Myor Loran/Cacophony : Looks like an engine fire got out of control.
+21-28:OOC: Cog Crossbowsteel/Longshoots : Wasn&#39;t my fault *shifty eyes*
+21-28:OOC: Myor Loran/Cacophony : If the engine had been cold-started, we&#39;d still have an engine room.  
+21-28:OOC: Myor Loran/Cacophony : =p
+21-28:OOC: Administrator AmirHM/AmirHM : It was me
+21-28:OOC: Administrator AmirHM/AmirHM : I wanted to make some chaos for you guys to fix and have fun with but it didnt go well
+21-28:OOC: Myor Loran/Cacophony : Oh well.  The repairs are easy enough.
+21-28:SAY: Administrator AmirHM/AmirHM : Boo!
+21-28:OOC: Myor Loran/Cacophony : Naw, it&#39;s fine.  Just wish there were more people.
+21-28:GAME: Micro102 entered as Micro McGinley
+21-28:OOC: Administrator AmirHM/AmirHM : If it was like that we wouldnt be able to play a round like this
+21-28:OOC: Micro McGinley/Micro102 : Lag?
+21-28:SAY: Myor Loran/Cacophony : ;New arrival, please be aware the station has suffered a meteor strike.
+21-28:OOC: Administrator AmirHM/AmirHM : We&#39;d to play traitor or something
+21-28:SAY: Myor Loran/Cacophony : ;What is your status?
+21-28:OOC: Administrator AmirHM/AmirHM : Hello micro
+21-28:OOC: Administrator AmirHM/AmirHM : Were just playing around so if you want anything just tell me
+21-28:OOC: Micro McGinley/Micro102 : Well say goodbye because I lagged into an airless arrival hallway and died without being able to turn on my oxygen.
+21-28:OOC: Myor Loran/Cacophony : You could ask for a revive.  
+21-28:OOC: Administrator AmirHM/AmirHM : Ill revive you
+21-28:OOC: Micro McGinley/Micro102 : It took 5 seconds for tha message to show up....what&#39;s with the lag?
+21-28:ADMIN: AmirHM teleported Micro McGinley
+21-28:OOC: Myor Loran/Cacophony : Though yes, the lag is horrible.  
+21-28:OOC: Cog Crossbowsteel/Longshoots : Head&#39;s girlfriend?
+21-28:ADMIN: AmirHM Healed/Revived Micro102
+21-28:OOC: Administrator AmirHM/AmirHM : Yeah
+21-28:OOC: Myor Loran/Cacophony : Damnit, lagged to death.
+21-28:OOC: Myor Loran/Cacophony : Medic?  =p
+21-28:ADMIN: AmirHM teleported Myor Loran
+21-28:ADMIN: AmirHM Healed/Revived Cacophony
+21-28:SAY: Myor Loran/Cacophony : Urgh..
+21-28:OOC: Administrator AmirHM/AmirHM : Who wants to fight in the thunderdome?
+21-28:SAY: Myor Loran/Cacophony : Still need to finish that hallway..
+21-28:ACCESS: Login: DarkKuta from 12.76.244.136
+21-28:OOC: Administrator AmirHM/AmirHM : Who wants to fight in thunderdome?
+21-28:OOC: Micro McGinley/Micro102 : Can i get a captain ID?
+21-28:OOC: Cog Crossbowsteel/Longshoots : What is the Thunderdome?
+21-28:OOC: Micro McGinley/Micro102 : Nvm, I can&#39;t play with this lag.
+21-28:OOC: Myor Loran/Cacophony : And now I begin the epic quest for more metal.  
+21-28:ADMIN: AmirHM created /obj/item/weapon/card/id/captains_spare
+21-28:ACCESS: Logout: Micro102
+21-28:OOC: Administrator AmirHM/AmirHM : A place you can fight in
+21-28:ADMIN: AmirHM created /obj/item/weapon/flashlight
+21-28:OOC: Cog Crossbowsteel/Longshoots : Is it impressive?
+21-28:OOC: Administrator AmirHM/AmirHM : Its not bad
+21-28:OOC: Administrator AmirHM/AmirHM : Its like an arena
+21-28:ADMIN: AmirHM created /obj/machinery/light/incandescent
+21-28:ACCESS: Logout: DarkKuta
+21-28:ACCESS: Login: Rakonas from 74.72.13.126
+21-28:ACCESS: Login: Googolplexed from 123.243.197.60
+21-28:OOC: Administrator AmirHM/AmirHM : Who wants to fight in thundedome?
+21-28:OOC: Myor Loran/Cacophony : Seeing if I can re-oxygenate the engine area.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Er head, are you here ?
+21-28:ADMIN: AmirHM/Administrator AmirHM : Head please tell your GF to stop downloading the lag is scaring the players away
+21-28:OOC: Cog Crossbowsteel/Longshoots : I&#39;ll have a go in the Thunderdome if someone else is up for it? Do I get to choose weapons?
+21-28:ADMIN: AmirHM created /obj/machinery/light/dimlight
+21-28:ADMIN: AmirHM created /obj/machinery/light/dimlight
+21-28:OOC: Administrator AmirHM/AmirHM : Yes
+21-28:ADMIN: PM: Headswe->Googolplexed : Yes
+21-28:ADMIN: PM: Headswe->AmirHM : 20min
+21-28:ADMIN: AmirHM created /obj/machinery/light/dimlight
+21-28:ADMIN: PM: Googolplexed->Headswe : Check your PM and the board
+21-28:ADMIN: AmirHM created /obj/machinery/light/dimlight
+21-28:OOC: Cog Crossbowsteel/Longshoots : Awesome
+21-28:ADMIN: Googolplexed used secret check_logs
+21-28:ACCESS: Logout: AmirHM
+21-28:ADMIN: PM: Headswe->Googolplexed : About AmirHM.
+21-28:ACCESS: Login: Adhesive from 71.34.111.177
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Yeah
+21-28:OOC: Cog Doorpick/Adhesive : MOTHER OF GOD
+21-28:ADMIN: PM: Headswe->Googolplexed : I had some kind of memory of someone telling me to add him.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Really ?
+21-28:OOC: Cog Doorpick/Adhesive : IT TOOK LIKE, 10 MINUTES TO DOWNLOAD ALL THESE RESOURCE THINGS D:
+21-28:OOC: Myor Loran/Cacophony : Still have a bit of repair work to do.  
+21-28:ADMIN: PM: Headswe->Googolplexed : now that i look in admin list it might have been avaka.
+21-28:GAME: Adhesive entered as Cog Doorpick
+21-28:OOC: Urist Crossbowsoap/Headswe : Yes.
+21-28:OOC: Urist Crossbowsoap/Headswe : Gf downloading
+21-28:OOC: Urist Crossbowsoap/Headswe : It be fine in about 15-20min
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Because all I remeber is Beorn noting that did nothing but point out how bad an admin he was on the SS13DL server
+21-28:OOC: Cog Doorpick/Adhesive : Gf?
+21-28:OOC: Cog Doorpick/Adhesive : also Round trip ping-pong took 20 seconds.#
+21-28:OOC: Cog Crossbowsteel/Longshoots : What on earth is she downloading? An entire TV series?
+21-28:OOC: Cog Doorpick/Adhesive : OH
+21-28:OOC: Urist Crossbowsoap/Headswe : Something.
+21-28:OOC: Cog Doorpick/Adhesive : girlfriend
+21-28:OOC: Cog Doorpick/Adhesive : jesus, seriously
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Look, its just more of a thing, this is becoming less of a bay12 server
+21-28:ADMIN: Googolplexed/Cog Blockmagma : I think we should just make a list of bay12ers who we know act decently and admin them
+21-28:ADMIN: Googolplexed/Cog Blockmagma : If things go wrong, remove admin
+21-28:OOC: Myor Loran/Cacophony : Portable air siphons, my dearest friends..
+21-28:ADMIN: PM: Headswe->Googolplexed : Sure,.
+21-28:ADMIN: PM: Headswe->Googolplexed : Just not apple master.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Yeah :)
+21-28:ADMIN: Googolplexed/Cog Blockmagma : He isn&#39;t actually half bad at times though
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Some of my first RPing on the bay12 server was with him
+21-28:MATTACK: Myor Loran(Cacophony) attcked by Myor Loran(Cacophony) with the analyzer
+21-28:ADMIN: Adhesive/Cog Doorpick : Hey, would there be a way to make things be quickly and violently sucked out of hull breaches?
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Nope, well no easy way
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Its possible
+21-28:ADMIN: Googolplexed/Cog Blockmagma : But not easy
+21-28:ADMIN: Adhesive/Cog Doorpick : Hmm. Just a thought.
+21-28:ADMIN: PM: Headswe->Googolplexed : i saw you changed the generator to a new TEG .
+21-28:SAY: Cog Doorpick/Adhesive : Uh, hello, Captain.
+21-28:ADMIN: PM: Headswe->Googolplexed : i made a few sprites for it power meter and circulator 
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Well, it was accidental
+21-28:ADMIN: PM: Headswe->Googolplexed : ;)
+21-28:ACCESS: Logout: 
+21-28:ACCESS: Login: Headswe from 127.0.0.1
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Sukuza made some sprites, and I didn&#39;t remove all of them before the commit
+21-28:SAY: Cog Doorpick/Adhesive : ... Captain?
+21-28:ADMIN: PM: Headswe->Googolplexed : ;)
+21-28:OOC: Myor Loran/Cacophony : Can breath without internals!  Hoorah!
+21-28:SAY: Cog Doorpick/Adhesive : ... Right. Well I&#39;m just going to... uh...
+21-28:ADMIN: PM: Headswe->Googolplexed : Well i have to go to bed.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Ok
+21-28:ADMIN: Googolplexed/Cog Blockmagma : I just got up
+21-28:OOC: Urist Crossbowsoap/Headswe : LAG WILL HOPEFULLY GO AWAY IN 13min.
+21-28:ADMIN: PM: Headswe->Googolplexed : XD
+21-28:ADMIN: Googolplexed/Cog Blockmagma : But can we remove amir for a bit
+21-28:ACCESS: Logout: Rakonas
+21-28:ADMIN: PM: Headswe->Googolplexed : alraedy removed him
+21-28:ACCESS: Login: Rakonas from 74.72.13.126
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Thanks
+21-28:ACCESS: Login: Shadowgandor from 83.84.235.167
+21-28:OOC: Myor Loran/Cacophony : Is it possible to refill siphons?
+21-28:ADMIN: PM: Headswe->Googolplexed : I was starting to releaise he was jerk anyway.
+21-28:GAME: Shadowgandor entered as Dingo Lightheart
+21-28:SAY: Myor Loran/Cacophony : ;New arrival, please acquire internals.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : What did he do ?
+21-28:SAY: Myor Loran/Cacophony : ;The station has been hit by a meteor strike.
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;Thanks for the warning, that explained my sudden dizzyness
+21-28:OOC: Urist Steelzombie/Rakonas : that download time
+21-28:OOC: Urist Steelzombie/Rakonas : was insane
+21-28:ACCESS: Login: DarkKuta from 12.76.244.136
+21-28:GAME: Rakonas entered as Urist Steelzombie
+21-28:OOC: Cog Doorpick/Adhesive : Tell me about it.
+21-28:ADMIN: PM: Headswe->Googolplexed : Begin a general jerk
+21-28:OOC: Dingo Lightheart/Shadowgandor : For a BYOND game? Yea
+21-28:ADMIN: PM: Headswe->Googolplexed : Playing with edit var command.,
+21-28:SAY: Myor Loran/Cacophony : ;I&#39;ve stabilized the atmosphere in the engine area.  Do you need me to open up a pathway to the shuttle?
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Ah
+21-28:OOC: Cog Doorpick/Adhesive : Headswe&#39;s girlfriend is downloading 600 terrabytes of porn or something.
+21-28:ACCESS: Logout: Headswe
+21-28:ADMIN: Googolplexed/Cog Blockmagma : And adhesive, your still on trial as such
+21-28:ADMIN: Googolplexed/Cog Blockmagma : You havn&#39;t actually done anything bad
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;Do we need a security officer on this station? I&#39;ve had some experience doing security 
+21-28:GAME: DarkKuta entered as Drakkon "Dark" Draith
+21-28:SAY: Cog Doorpick/Adhesive : ;Uh, we need to get off the station.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : So, no-ones removing you from admin
+21-28:SAY: Cog Doorpick/Adhesive : ;It&#39;s all wrecked.
+21-28:ADMIN: Adhesive/Cog Doorpick : Awesome.
+21-28:SAY: Unknown/Longshoots : Sorry about that
+21-28:SAY: Myor Loran/Cacophony : ;We can worry about security when there&#39;s a station you can patrol.  
+21-28:SAY: Urist Steelzombie/Rakonas : hey
+21-28:ADMIN: Googolplexed/Cog Blockmagma : Just remember that you can always have it removed, so try not to abuse it
+21-28:SAY: Urist Steelzombie/Rakonas : I think you need internals
+21-28:ADMIN: Adhesive/Cog Doorpick : Of couse.
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;The station is in fine condition, an ink of paint would do wonders though
+21-28:ADMIN: Adhesive/Cog Doorpick : Course.
+21-28:ADMIN: Googolplexed/Cog Blockmagma : And, try to keep evenheaded
+21-28:SAY: Cog Doorpick/Adhesive : ;Half of the station is missing
+21-28:SAY: Urist Steelzombie/Rakonas : ; uhh
+21-28:SAY: Urist Steelzombie/Rakonas : ; a new arrival is suffocating
+21-28:SAY: Urist Steelzombie/Rakonas : ; where is there air?
+21-28:SAY: Myor Loran/Cacophony : ;I&#39;m stabilizing the oxygen in the engine.  
+21-28:SAY: Unknown/Longshoots : ;In one of the emergency closets.
+21-28:SAY: Myor Loran/Cacophony : ;I&#39;ll come and get you.
+21-28:SAY: Urist Steelzombie/Rakonas : ; oh god oh god
+21-28:MATTACK: Myor Loran(Cacophony) attcked by Myor Loran(Cacophony) with the analyzer
+21-28:SAY: Myor Loran/Cacophony : ;Look, I&#39;ve repaired worse.  Calm down, I&#39;ll get you to the engine.
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : Wow, thanks Urist Steelzombie.. Bastard..
+21-28:SAY: Cog Doorpick/Adhesive : He&#39;s dead, Jim.
+21-28:SAY: Urist Steelzombie/Rakonas : Oh god, are you sure?
+21-28:SAY: Cog Doorpick/Adhesive : Uh, he seized up.
+21-28:SAY: Cog Doorpick/Adhesive : He&#39;s dead.
+21-28:SAY: Cog Doorpick/Adhesive : Jim.
+21-28:SAY: Urist Steelzombie/Rakonas : ; WHY AREN&#39;T THERE ANY GOD DAMN INTERNALS CRATES IN THE NORTH HALLWAY!?!?!
+21-28:SAY: Urist Steelzombie/Rakonas : ; A MAN JUST DIED!
+21-28:SAY: Myor Loran/Cacophony : ;Hmm.  Lost power.
+21-28:SAY: Urist Steelzombie/Rakonas : *cry
+21-28:SAY: Unknown/Longshoots : ;Because people are using them
+21-28:SAY: Unknown/Longshoots : ;Will the bugger who nicked my ID card please put it in the courtroom?
+21-28:SAY: Cog Doorpick/Adhesive : ;In a minute. I&#39;m making a comms computer.
+21-28:SAY: Unknown/Longshoots : ;Okay
+21-28:SAY: Unknown/Longshoots : ;Wait, the one in my quarters isn&#39;t working?
+21-28:SAY: Cog Doorpick/Adhesive : ;Sorry about that though.
+21-28:SAY: Unknown/Longshoots : ;it&#39;s fine
+21-28:SAY: Cog Doorpick/Adhesive : ;There&#39;s one in your quarters?
+21-28:SAY: Cog Doorpick/Adhesive : ;What the FUCK happened to this station, anyway?
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : Hey, has anyone had this problem where when you&#39;re connecting to the game, the blue screen quits and you&#39;re unable to join the game?
+21-28:SAY: Unknown/Longshoots : ;Yeah, there&#39;s one of every kind of console on the bridge
+21-28:SAY: Unknown/Longshoots : ;Uh...turbulence
+21-28:SAY: Myor Loran/Cacophony : ;East side of station intact..
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : And by quits I mean that it minimizes or something and it&#39;s exit out.
+21-28:SAY: Myor Loran/Cacophony : ;Mostly.  
+21-28:OOC: Dingo Lightheart/Shadowgandor : Nope
+21-28:SAY: Cog Doorpick/Adhesive : ;I&#39;m fairly sure that it&#39;s either unpowered or broken seeing as how what happened, cap.
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;Dragging extra emergency lockers to the entrance shuttle
+21-28:SAY: Myor Loran/Cacophony : ;I can make a new one, we still have power in the engine.
+21-28:SAY: Unknown/Longshoots : ;Yeah, it is
+21-28:OOC: Unknown/Longshoots : Darn, ran out of internals
+21-28:SAY: Cog Doorpick/Adhesive : ;I already have the coms chip, Myor
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : Dang..
+21-28:SAY: Urist Steelzombie/Rakonas : Why.
+21-28:SAY: Urist Steelzombie/Rakonas : Just why?
+21-28:SAY: Myor Loran/Cacophony : ;Take it to the engine room.
+21-28:SAY: Cog Doorpick/Adhesive : ;IT&#39;S WORKING!
+21-28:SAY: Dingo Lightheart/Shadowgandor : Great job!
+21-28:SAY: Dingo Lightheart/Shadowgandor : If I could pat you on the back right now, I would
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : I tried join LoL and Dungeon Master, but after a few seconds, the blue screen goes away and the game doesn&#39;t pop up.
+21-28:ACCESS: Logout: 
+21-28:ACCESS: Login: DarkKuta from 12.76.244.136
+21-28:SAY: Dingo Lightheart/Shadowgandor : *clap
+21-28:SAY: Cog Doorpick/Adhesive : WOOO!
+21-28:SAY: Cog Doorpick/Adhesive : ;I DID IT!
+21-28:SAY: Myor Loran/Cacophony : ;Okay, so who do we have left?
+21-28:MATTACK: Urist Steelzombie(Rakonas)has grabbed Drakkon "Dark" Draith() aggressively (now hands) 
+21-28:SAY: Cog Doorpick/Adhesive : ;Uh, me.
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;Well, me atleast
+21-28:SAY: Cog Doorpick/Adhesive : ;Dingo Lightheart.
+21-28:OOC: Unknown/Longshoots : THat&#39;s odd, maybe it&#39;s a fault with those games, Kuta?
+21-28:SAY: Myor Loran/Cacophony : ;I&#39;m going to see if the shuttle area is traversable.
+21-28:OOC: Drakkon "Dark" Draith/DarkKuta : Many people are able to join it.
+21-28:OOC: Unknown/Longshoots : I think the lag&#39;s stopped? Has it?
+21-28:SAY: Myor Loran/Cacophony : ;You two get to the engine area.  
+21-28:SAY: Cog Doorpick/Adhesive : ;Cap, where are you?
+21-28:SAY: Dingo Lightheart/Shadowgandor : ;Alright , on my way
+21-28:SAY: Cog Doorpick/Adhesive : ;I&#39;ve got a full spacesuit, Myor.
+21-28:ACCESS: Logout: DarkKuta
+21-28:OOC: Unknown/Longshoots : Do you use a dynamic IP, Kuta?
+21-28:SAY: Myor Loran/Cacophony : Hm.
+21-28:OOC: Unknown/Longshoots : This is quite a long-shot, but it&#39;s possibly someone else playing that game is logged as having the same IP as you, and the game won&#39;t let you join
+21-28:SAY: Dingo Lightheart/Shadowgandor : UURGGHHH!
+21-28:SAY: Dingo Lightheart/Shadowgandor : AAAGH!!!
+21-28:SAY: Dingo Lightheart/Shadowgandor : *shiver
+21-28:SAY: Dingo Lightheart/Shadowgandor : Man
+21-28:SAY: Dingo Lightheart/Shadowgandor : that thing is heavy
+21-28:SAY: Myor Loran/Cacophony : Air isn&#39;t good enough in this room.
+21-28:SAY: Myor Loran/Cacophony : Need another siphon.
+21-28:ACCESS: Login: Orb370 from 4.229.192.199
+21-28:SAY: Cog Doorpick/Adhesive : ;Shuttle area&#39;s good.
+21-28:SAY: Myor Loran/Cacophony : Stay on internals for now.
+21-28:SAY: Cog Doorpick/Adhesive : ;Well, mostly.
+21-28:SAY: Myor Loran/Cacophony : ;Enough for us to walk over?
+21-28:SAY: Cog Doorpick/Adhesive : ;The place looks like it was hit  by meteors, bombed, hit by meteors again, bombed again, and then torn apart.
+21-28:SAY: Cog Doorpick/Adhesive : ;Yeah.
+21-28:SAY: Urist Steelzombie/Rakonas : Oh dammit
+21-28:SAY: Myor Loran/Cacophony : ;Good enough.  
+21-28:SAY: Cog Doorpick/Adhesive : ;I&#39;m cracking open firelocks now.
+21-28:ACCESS: Login: DistortedAudio from 173.69.173.184
+21-28:SAY: Urist Steelzombie/Rakonas : ; burning out the plasma spill in chem lab
+21-28:SAY: Cog Doorpick/Adhesive : ;I think the captain might be dead, he isn&#39;t talking.
+21-28:SAY: Myor Loran/Cacophony : ;Ah, well.  
+21-28:SAY: Dingo Lightheart/Shadowgandor : May he rest in peace
+21-28:SAY: Myor Loran/Cacophony : How long have you worked with NanoTransen?
+21-28:SAY: Urist Steelzombie/Rakonas : ; anyone got a crowbar?
+21-28:SAY: Myor Loran/Cacophony : This is the fourth time this has happened.
+21-28:SAY: Cog Doorpick/Adhesive : ;A little over four minutes until the shuttle arrives, get your asses down here.
+21-28:SAY: Cog Doorpick/Adhesive : ;I do.
+21-28:SAY: Urist Steelzombie/Rakonas : ; nevermind, found one
+21-28:SAY: Dingo Lightheart/Shadowgandor : What? The meteor strikes?
+21-28:SAY: Myor Loran/Cacophony : Station collapses, mostly.
+21-28:SAY: Dingo Lightheart/Shadowgandor : Oh
+21-28:OOC: Unknown/Longshoots : HAs the lag actually stopped or is it because I&#39;m not moving?
+21-28:SAY: Myor Loran/Cacophony : Captain died twice.
+21-28:SAY: Dingo Lightheart/Shadowgandor : Well, it&#39;s because they basically hire every single person availlable
+21-28:SAY: Urist Steelzombie/Rakonas : ; Did I seriously just intend to crowbar a door open to find a crowbar?
+21-28:OOC: Cog Swordwall/Orb370 : Seems normal to me.
+21-28:GAME: Orb370 entered as Cog Swordwall
+21-28:SAY: Dingo Lightheart/Shadowgandor : Without even checking psychological backgrounds and all
+21-28:OOC: Cog Swordwall/Orb370 : Of course, I was on the spawn field..
+21-28:SAY: Myor Loran/Cacophony : Or standard safety.
+21-28:SAY: Cog Doorpick/Adhesive : ;Swordwall!
+21-28:SAY: Myor Loran/Cacophony : ;Swordwall, get internals.
+21-28:SAY: Cog Doorpick/Adhesive : ;Grab internals.
+21-28:SAY: Cog Swordwall/Orb370 : ; Okey Dokey then
+21-28:SAY: Cog Doorpick/Adhesive : ;Get through to the escape shuttle bay.
+21-28:SAY: Dingo Lightheart/Shadowgandor : Or that, yes
+21-28:SAY: Dingo Lightheart/Shadowgandor : Hehe
+21-28:SAY: Cog Swordwall/Orb370 : ; Thanks for the heads up
+21-28:SAY: Cog Doorpick/Adhesive : ;Three minutes left.
+21-28:OOC: Unknown/Longshoots : The funny thing is, this is extended, not meteor
+21-28:OOC: Myor Loran/Cacophony : We wanted a challenge.
+21-28:OOC: Cog Doorpick/Adhesive : I, an assistant, single handedly saved everyone on the ruined station. That was awesome.
+21-28:OOC: Unknown/Longshoots : Well, I think it is safe to say we got it
+21-28:OOC: Unknown/Longshoots : Heh, yeah
+21-28:SAY: Myor Loran/Cacophony : That was pretty good.
+21-28:OOC: Cog Doorpick/Adhesive : Round trip ping-pong took 0.4 seconds.
+21-28:OOC: Cog Doorpick/Adhesive : Lag&#39;s definitely gone.
+21-28:SAY: Dingo Lightheart/Shadowgandor : I used to take classes back in my youth
+21-28:SAY: Dingo Lightheart/Shadowgandor : Well, piano classes that is
+21-28:OOC: Unknown/Longshoots : Yay
+21-28:SAY: Myor Loran/Cacophony : Yeah.  Let&#39;s get down to the shuttle.
+21-28:OOC: Unknown/Longshoots : I wonder if that coincides with Head&#39;s apparent disappearance
+21-28:GAME: DistortedAudio entered as Charles Barkley.
+21-28:OOC: Cog Swordwall/Orb370 : er...2.1 seconds..
+21-28:SAY: Charles Barkley./DistortedAudio : ;Hey man.
+21-28:SAY: Charles Barkley./DistortedAudio : ;The fuck is going on?
+21-28:SAY: Dingo Lightheart/Shadowgandor : HMPF
+21-28:SAY: Dingo Lightheart/Shadowgandor : GRAAAG
+21-28:OOC: Cog Swordwall/Orb370 : Your moving when you ping, right?
+21-28:OOC: Cog Doorpick/Adhesive : Nah, his girlfriend just finished getting 600 terrabytes of porn dled
+21-28:SAY: Dingo Lightheart/Shadowgandor : OOMPH
+21-28:SAY: Charles Barkley./DistortedAudio : ;Is that a hole of space?
+21-28:SAY: Dingo Lightheart/Shadowgandor : NIAAGH
+21-28:SAY: Cog Doorpick/Adhesive : ;Get internals.
+21-28:SAY: Myor Loran/Cacophony : ;Get internals, and get to the shutt0
+21-28:SAY: Cog Doorpick/Adhesive : ;Run to the FUCK METEORS
+21-28:SAY: Cog Doorpick/Adhesive : ;GET DOWN
+21-28:SAY: Charles Barkley./DistortedAudio : ;WhY?
+21-28:SAY: Myor Loran/Cacophony : ;Another meteor strike. 
+21-28:SAY: Cog Doorpick/Adhesive : ;GET DOWN GET DOWN GET DOWN
+21-28:SAY: Cog Doorpick/Adhesive : ;They can&#39;t hit you if you duck!
+21-28:SAY: Cog Swordwall/Orb370 : ; WRong
+21-28:SAY: Charles Barkley./DistortedAudio : ;WHOA!
+21-28:SAY: Cog Swordwall/Orb370 : ; If they hit the ground you laying down on, goodbye
+21-28:OOC: Urist Steelzombie/Rakonas : wow
+21-28:SAY: Myor Loran/Cacophony : ;Swordwall, down here.
+21-28:SAY: Charles Barkley./DistortedAudio : ;Jesus.
+21-28:OOC: Urist Steelzombie/Rakonas : Health %: -599.693 (*dead*)
+21-28:SAY: Cog Doorpick/Adhesive : ;Good thing I&#39;m in space.
+21-28:SAY: Charles Barkley./DistortedAudio : &#39;Jesus fucking christ.
+21-28:SAY: Cog Doorpick/Adhesive : ;Now get to the escape shuttle bay.
+21-28:ACCESS: Login: ReaperSWE from 78.73.123.189
+21-28:SAY: Cog Swordwall/Orb370 : ; Im making my way
+21-28:SAY: Dingo Lightheart/Shadowgandor : HMPF
+21-28:SAY: Dingo Lightheart/Shadowgandor : NIA
+21-28:SAY: Charles Barkley./DistortedAudio : ;ON MY WAY!
+21-28:SAY: Dingo Lightheart/Shadowgandor : OOMPH
+21-28:SAY: Dingo Lightheart/Shadowgandor : PFOE
+21-28:SAY: Cog Doorpick/Adhesive : ...
+21-28:SAY: Dingo Lightheart/Shadowgandor : AAGH
+21-28:SAY: Cog Doorpick/Adhesive : Is that a fucking piano.
+21-28:SAY: Myor Loran/Cacophony : ;East hallway is clear.
+21-28:OOC: Cog Doorpick/Adhesive : We have a fucking PIANO?
+21-28:SAY: Dingo Lightheart/Shadowgandor : Just a few more..steps
+21-28:OOC: Charles Barkley./DistortedAudio : Really?
+21-28:OOC: Cog Swordwall/Orb370 : Yes.
+21-28:OOC: Charles Barkley./DistortedAudio : Where?
+21-28:OOC: Unknown/Longshoots : Yeah, CHurch
+21-28:ACCESS: Login: Kenruler from 71.169.16.226
+21-28:OOC: Cog Swordwall/Orb370 : Chapel = Piano
+21-28:OOC: Cog Doorpick/Adhesive : GODDAMN WOW
+21-28:OOC: Unknown/Longshoots : Well, I dunno where it is now, but it starts there
+21-28:OOC: Unknown/Longshoots : *chapel
+21-28:OOC: Cog Swordwall/Orb370 : Its in the engine block
+21-28:OOC: Unknown/Longshoots : Why is it there?
+21-28:SAY: Myor Loran/Cacophony : ;Two minutes.  
+21-28:SAY: Urist Steelzombie/Rakonas : Dammit!
+21-28:SAY: Urist Steelzombie/Rakonas : I&#39;m not letting you die!
+21-28:SAY: Cog Doorpick/Adhesive : Why the FUCK did you take a piano?
+21-28:OOC: Cog Swordwall/Orb370 : Er, arrival shuttle now
+21-28:SAY: Cog Doorpick/Adhesive : ;Get down here gentlemen.
+21-28:OOC: Cog Swordwall/Orb370 : Escape shuttle*
+21-28:SAY: Cog Doorpick/Adhesive : ;We can&#39;t wait forever.
+21-28:OOC: Cog Swordwall/Orb370 : Assistant dragging it around.
+21-28:SAY: Charles Barkley./DistortedAudio : I&#39;M ALIVE!
+21-28:OOC: Rosie Quira/Kenruler : What&#39;s this, an gas chamber
+21-28:SAY: Charles Barkley./DistortedAudio : And we have a Piano.
+21-28:SAY: Charles Barkley./DistortedAudio : Someone break out the Amadeus.
+21-28:SAY: Cog Swordwall/Orb370 : We dont leave early, come on
+21-28:SAY: Urist Steelzombie/Rakonas : ; No!
+21-28:SAY: Urist Steelzombie/Rakonas : ; I must save this guy!
+21-28:SAY: Cog Doorpick/Adhesive : ;Hurry up Steel.
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:SAY: Charles Barkley./DistortedAudio : ;WAIT FOR STEELZOMBIE!
+21-28:SAY: Cog Doorpick/Adhesive : FUCK
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:SAY: Charles Barkley./DistortedAudio : ;NO MAN LEFT BEHIND!
+21-28:SAY: Cog Doorpick/Adhesive : WHAT THE FUCK
+21-28:SAY: Cog Swordwall/Orb370 : We are not leaving early, god.
+21-28:SAY: Cog Swordwall/Orb370 : We have people on board still
+21-28:MATTACK: Cog Doorpick(Adhesive) attcked by Cog Swordwall(Orb370) with the jetpack
+21-28:MATTACK: Cog Doorpick(Adhesive) attcked by Cog Swordwall(Orb370) with the jetpack
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:OOC: Charles Barkley./DistortedAudio : This piano kicks ass.
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:MATTACK: Cog Doorpick(Adhesive) attcked by Cog Swordwall(Orb370) with the jetpack
+21-28:GAME: Kenruler entered as Rosie Quira
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:SAY: Myor Loran/Cacophony : Peopl!
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:MATTACK: Cog Swordwall(Orb370) attcked by Cog Doorpick(Adhesive) with the toolbox
+21-28:SAY: Charles Barkley./DistortedAudio : OH MY GOD!
+21-28:SAY: Cog Swordwall/Orb370 : GOd.
+21-28:MATTACK: Dingo Lightheart(Shadowgandor) attcked by Cog Swordwall(Orb370) with the oxygentank
+21-28:SAY: Cog Swordwall/Orb370 : Someone take him.
+21-28:SAY: Charles Barkley./DistortedAudio : ;QUICK ROSIE!
+21-28:MATTACK: Urist Steelzombie(Rakonas) attcked by Urist Steelzombie(Rakonas) with Medical Mask
+21-28:SAY: Charles Barkley./DistortedAudio : ;TO THE ESCAPE SHUTTLE!
+21-28:OOC: Cog Doorpick/Adhesive : Seriously, hitting me because I put in two fucking cards?
+21-28:SAY: Rosie Quira/Kenruler : ;Evening.
+21-28:OOC: Cog Swordwall/Orb370 : So everyone is attacking me?
+21-28:SAY: Myor Loran/Cacophony : Geth im to the sleeper!
+21-28:OOC: Cog Swordwall/Orb370 : Wonderfull.
+21-28:GAME: ReaperSWE entered as Gregory Hampshire
+21-28:SAY: Gregory Hampshire/ReaperSWE : Yikes.
+21-28:SAY: Rosie Quira/Kenruler : ;NOOO!
+21-28:OOC: Cog Swordwall/Orb370 : Yes, because we are not leaving people behind. You started attacking me, and then I get attacked again.
+21-28:SAY: Urist Steelzombie/Rakonas : ; Noo!!!!
+21-28:SAY: Charles Barkley./DistortedAudio : Oh my god.
+21-28:ADMIN: Adhesive booted Orb370/Cog Swordwall.
+21-28:ACCESS: Logout: Orb370
+21-28:SAY: Charles Barkley./DistortedAudio : We left them.
+21-28:SAY: Urist Steelzombie/Rakonas : ; NOOOOOOOOOOO
+21-28:SAY: Charles Barkley./DistortedAudio : ;A tune for the deceased.
+21-28:SAY: Rosie Quira/Kenruler : ;So, anyone up for a game OH GODF WHAT
+21-28:SAY: Rosie Quira/Kenruler : ;ARE YOU DOING OH JEEAZZZ
+21-28:GAME: Rebooting due to end of game
+21-28:ACCESS: Logout: Cacophony
+21-28:ACCESS: Logout: Longshoots
+21-28:ACCESS: Logout: Shadowgandor
+21-28:ACCESS: Logout: Rakonas
+21-28:ACCESS: Logout: DistortedAudio
+21-28:ACCESS: Logout: Googolplexed
+21-28:ACCESS: Logout: Adhesive
+21-28:ACCESS: Logout: ReaperSWE
+21-28:ACCESS: Logout: Kenruler
+23-11:ADMIN: Loading crban_keylist
+23-11:ADMIN: Loading crban_reason
+23-11:ADMIN: Loading crban_time
+23-11:ADMIN: Loading crban_bannedby
+23-11:ADMIN: Loading crban_iplist
+23-11:ADMIN: Loading crban_unbanned
+23-11:ADMIN: Loading jobban_rank
+23-11:ADMIN: Updating jobbanfile!
+23-11:ACCESS: Login: Adhesive from 71.34.111.177
+23-11:ACCESS: Login: Shadowgandor from 83.84.235.167
+23-11:ACCESS: Login: Rakonas from 74.72.13.126
+23-11:ACCESS: Login: Longshoots from 84.45.134.188
+23-11:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-11:ACCESS: Login: Kenruler from 71.169.16.226
+23-11:ACCESS: Login: DistortedAudio from 173.69.173.184
+23-11:ACCESS: Login: DarkKuta from 12.76.244.136
+23-11:ACCESS: Login: Orb370 from 4.229.192.199
+23-11:GAME: ReaperSWE entered as Gregory Hampshire
+23-11:GAME: Longshoots entered as Cog Crossbowsteel
+23-11:GAME: DarkKuta entered as Drakkon "Dark" Draith
+23-11:SAY: Gregory Hampshire/ReaperSWE : Let there be light!
+23-11:GAME: Adhesive entered as Cog Doorpick
+23-11:GAME: Kenruler entered as Rosie Quira
+23-11:GAME: Orb370 entered as Cog Swordwall
+23-11:VOTE: Voting to change mode started by Cog Swordwall/Orb370
+23-11:GAME: Rakonas entered as Urist Steelzombie
+23-11:ACCESS: Login: Cacophony from 71.136.51.144
+23-11:GAME: DistortedAudio entered as Charles Barkley.
+23-11:OOC: Cog Doorpick/Adhesive : So you attack the man that single handedly saved every person on the station because he wanted to launch early?
+23-11:OOC: Cog Crossbowsteel/Longshoots : NO! Not Armok!
+23-11:OOC: Gregory Hampshire/ReaperSWE : All of that lore and stuff really ought to be in a popup
+23-11:OOC: Cog Doorpick/Adhesive : SUPER DUPER GOOD RP
+23-11:GAME: Cacophony entered as Myor Loran
+23-11:GAME: Shadowgandor entered as Musai Danblud
+23-11:OOC: Cog Swordwall/Orb370 : Er, I just arrived, so it was SUPER DUPER GOOD RP
+23-11:OOC: Rosie Quira/Kenruler : You didn&#39;t save me, Mordecai
+23-11:OOC: Cog Doorpick/Adhesive : Not Mord.
+23-11:OOC: Charles Barkley./DistortedAudio : Ken.
+23-11:OOC: Cog Doorpick/Adhesive : I&#39;m COG DOORPICK BITCH!
+23-11:OOC: Charles Barkley./DistortedAudio : You died.
+23-11:VOTE: Voting closed, result was nuclear
+23-11:OOC: Charles Barkley./DistortedAudio : My lulz have ended.
+23-11:OOC: Rosie Quira/Kenruler : I&#39;ll call you Denholm Jenkies if I want to
+23-11:OOC: Myor Loran/Cacophony : Wait, nuclear?
+23-11:OOC: Myor Loran/Cacophony : Damnit.
+23-11:OOC: Cog Swordwall/Orb370 : Yes Nuclear. =/
+23-11:OOC: Charles Barkley./DistortedAudio : I hate that mode.
+23-11:OOC: Cog Crossbowsteel/Longshoots : It&#39;s better than Armok :|
+23-11:OOC: Gregory Hampshire/ReaperSWE : as in, the syndi shuttle blows up.
+23-11:OOC: Cog Swordwall/Orb370 : Er...what?
+23-11:OOC: Cog Doorpick/Adhesive : Protip: Picking Armok will result in the lagfuck of the century.
+23-11:OOC: Cog Swordwall/Orb370 : That happens once in a.......every 15 games?
+23-11:OOC: Rosie Quira/Kenruler : What is Armok?
+23-11:OOC: Cog Swordwall/Orb370 : I have yet to see if myself, actually.
+23-11:OOC: Cog Crossbowsteel/Longshoots : Hell.
+23-11:OOC: Gregory Hampshire/ReaperSWE : Meteors and blobs
+23-11:OOC: Cog Doorpick/Adhesive : Anyway, attacking the person who puts in two IDs is just.. retarded.
+23-11:OOC: Cog Doorpick/Adhesive : Beyond retarded.
+23-11:OOC: Cog Swordwall/Orb370 : Armok is blob+meteor
+23-11:OOC: Myor Loran/Cacophony : Blob, meteor, and more bad stuff.  
+23-11:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+23-11:OOC: Rosie Quira/Kenruler : I WENT TO HELL.  THEY KICKED ME OUT.
+23-11:OOC: Rosie Quira/Kenruler : For being too badass.
+23-11:OOC: Cog Swordwall/Orb370 : People were still on the station.
+23-11:OOC: Cog Swordwall/Orb370 : Why should you have two IDs anyway?
+23-11:OOC: Cog Crossbowsteel/Longshoots : I just got out &#39;cos I bootlegged water
+23-11:OOC: Cog Doorpick/Adhesive : That doesn&#39;t mean you ATTACK someone.
+23-11:OOC: Gregory Hampshire/ReaperSWE : There really is no need to launch the shuttle early.
+23-11:OOC: Cog Swordwall/Orb370 : Well I didnt know WHAT ELSE to do.
+23-11:OOC: Rosie Quira/Kenruler : Throw him out a loose airlock
+23-11:OOC: Cog Doorpick/Adhesive : I was guarding the door anyways. And then you TOOLBOXED ME.
+23-11:OOC: Cog Swordwall/Orb370 : Er, yes.
+23-11:OOC: Cog Swordwall/Orb370 : I didnt kill you
+23-11:OOC: Myor Loran/Cacophony : Let us maintain our chill composures. 
+23-11:ACCESS: Logout: DistortedAudio
+23-11:OOC: Musai Danblud/Shadowgandor : One hit would&#39;ve sufficed as well Orb lol
+23-11:OOC: Rosie Quira/Kenruler : Or push him out at the last second
+23-11:OOC: Gregory Hampshire/ReaperSWE : So whens the round starting?
+23-11:OOC: Cog Swordwall/Orb370 : Wrong shadow
+23-11:OOC: Cog Swordwall/Orb370 : He wasnt uncontious
+23-11:OOC: Musai Danblud/Shadowgandor : See how I did it? One nice tap against the back of your head and you went down
+23-11:OOC: Drakkon "Dark" Draith/DarkKuta : In my opinion, you should attack someone for lunching the shuttle early if people are still on the station.
+23-11:OOC: Rosie Quira/Kenruler : Whenever I make it start, like right now
+23-11:GAME: starting game of nuclear emergency
+23-11:ACCESS: Logout: 
+23-11:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-11:SAY: Syndicate Leader/Kenruler : SUP GUYS
+23-11:SAY: Syndicate Leader/Kenruler : SURE IS DARK IN HERE
+23-11:OOC: Syndicate Operative #1/Orb370 : Right shadow, but he attacked me when he gained contious anyway
+23-11:SAY: Syndicate Operative #2/Longshoots : Hello, my fellow Syndies
+23-11:OOC: Cog Doorpick/Adhesive : I never went unconcious.
+23-11:OOC: Cog Doorpick/Adhesive : Unconscious.
+23-11:SAY: Urist Steelzombie/Rakonas : ; what a wonderful day!
+23-11:OOC: Syndicate Operative #1/Orb370 : Er, well you fell down anyway
+23-11:OOC: Cog Doorpick/Adhesive : And what the fuck else was I supposed to do? You ATTACKED ME.
+23-11:SAY: Xerxes/ReaperSWE : This is Xerxes, the system is operational.
+23-11:OOC: Syndicate Operative #1/Orb370 : Wow, the syndic shuttle is big now. :)
+23-11:OOC: Cog Doorpick/Adhesive : Anywho, gamegamegame.
+23-11:OOC: Fred McBurger/Mr.Peanuts : What&#39;s up?
+23-11:GAME: Mr.Peanuts entered as Fred McBurger
+23-11:SAY: Musai Danblud/Shadowgandor : A.I., this is your captain speaking
+23-11:SAY: Musai Danblud/Shadowgandor : ;A.I., this is your captain speaking
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Do you mind?
+23-11:SAY: Musai Danblud/Shadowgandor : ;Grant all crewmembers of Bay station 12 access to the station
+23-11:SAY: Urist Steelzombie/Rakonas : stop wasting all the damn coolant
+23-11:SAY: Syndicate Leader (as )/Kenruler : So, we bomb the bridge.
+23-11:SAY: Musai Danblud/Shadowgandor : ;Give them full clearance
+23-11:SAY: Urist Steelzombie/Rakonas : it&#39;s not cooling any further
+23-11:SAY: Syndicate Leader (as )/Kenruler : And jack the shit.
+23-11:SAY: Xerxes/ReaperSWE : Attention; The station has been supplied with a faulty generator.
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : I&#39;m trying to save someone&#39;s life and you cutting off the Cyro? Tsk tsk.
+23-11:SAY: Myor Loran/Cacophony : ;The hell?
+23-11:SAY: Urist Steelzombie/Rakonas : you&#39;re injecting 10 times the necessary amount of coolant
+23-11:SAY: Unknown/Kenruler : Have fun
+23-11:SAY: Myor Loran/Cacophony : ;Where&#39;s my damn generator?
+23-11:SAY: Unknown/Kenruler : suffocating, dumbfuck
+23-11:SAY: Musai Danblud/Shadowgandor : Greetings good man
+23-11:SAY: Musai Danblud/Shadowgandor : Heh
+23-11:SAY: Musai Danblud/Shadowgandor : *chuckle
+23-11:SAY: Myor Loran/Cacophony : Hate NanoTransen..
+23-11:SAY: Musai Danblud/Shadowgandor : It still works
+23-11:SAY: Musai Danblud/Shadowgandor : luckily
+23-11:SAY: Unknown/Kenruler : Put on the fucking jetpack
+23-11:SAY: Unknown/Kenruler : OH SHET WE GOT PODS
+23-11:SAY: Musai Danblud/Shadowgandor : I would prefer it if you didn&#39;t light the engine
+23-11:SAY: Unknown/Longshoots : What do I do with this bomb assembly?
+23-11:SAY: Myor Loran/Cacophony : Doing a cold start.
+23-11:SAY: Myor Loran/Cacophony : Less power, no fire.
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Blow stuff up
+23-11:SAY: Musai Danblud/Shadowgandor : I will hide something of great value in the ignitor
+23-11:SAY: Unknown/Longshoots : Lovely. So no need to bother hiding it, then?
+23-11:SAY: Musai Danblud/Shadowgandor : Release the plasma in the engine
+23-11:SAY: Musai Danblud/Shadowgandor : If they want access, they&#39;ll have to break through and set the engine on fire
+23-11:SAY: Musai Danblud/Shadowgandor : Burning this object
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Er, what do you mean hide?
+23-11:SAY: Myor Loran/Cacophony : Uh-huh.  
+23-11:SAY: Unknown/Longshoots : Sorry, never been on one of these ops before
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Its fine.
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Just set a time and BOOM
+23-11:SAY: Unknown/Kenruler : You guys plan on coming?
+23-11:SAY: Unknown/Kenruler : God damn
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Im prepped up now.
+23-11:MATTACK: Urist Steelzombie(Rakonas) clicked on Urist Steelzombie(Rakonas) with a syringe
+23-11:MATTACK: Urist Steelzombie(Rakonas) injected Urist Steelzombie(Rakonas) with a syringe filled with 
+23-11:SAY: Unknown/Longshoots : Me too, I think
+23-11:SAY: Unknown/Kenruler : Oh, and #1
+23-11:SAY: Unknown/Kenruler : you&#39;re going to suffocate
+23-11:SAY: Unknown/Kenruler : to death
+23-11:SAY: Musai Danblud/Shadowgandor : Better idea
+23-11:ACCESS: Login: Googolplexed from 123.243.197.60
+23-11:SAY: Musai Danblud/Shadowgandor : Be right back
+23-11:SAY: Myor Loran/Cacophony : You done in there?
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Why?
+23-11:SAY: Unknown/Kenruler : the moment you run out
+23-11:MATTACK: Urist Steelzombie(Rakonas) clicked on Urist Steelzombie(Rakonas) with a syringe
+23-11:MATTACK: Urist Steelzombie(Rakonas) injected Urist Steelzombie(Rakonas) with a syringe filled with 
+23-11:SAY: Unknown/Kenruler : because you don&#39;t have a space helmet on
+23-11:MATTACK: Urist Steelzombie(Rakonas) clicked on Urist Steelzombie(Rakonas) with a syringe
+23-11:MATTACK: Urist Steelzombie(Rakonas) injected Urist Steelzombie(Rakonas) with a syringe filled with 
+23-11:SAY: Unknown/Kenruler : hurr
+23-11:SAY: Syndicate Operative #1 (as )/Orb370 : Alrighty, I will put one on
+23-11:SAY: Myor Loran/Cacophony : *sigh
+23-11:SAY: Unknown/Kenruler : I&#39;ll be waiting
+23-11:SAY: Unknown/Kenruler : Get the disk, get back in here
+23-11:SAY: Unknown/Longshoots : Do you wanna set the bomb? I&#39;m not good at it, I might blow us up
+23-11:SAY: Unknown/Orb370 : Well, make sure you tamper with it inside the station
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Um..
+23-11:SAY: Unknown/Orb370 : Atleast blow something up while your at it
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Hm..
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : ;That was strange..
+23-11:SAY: Myor Loran/Cacophony : ;Generator producing power.   
+23-11:GAME: Googolplexed entered as Urist Bronzecrossbow
+23-11:SAY: Cog Doorpick/Adhesive : ;What, Drak?
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : ;Did anyone open the Medical Research Lab&#39;s airlock?
+23-11:SAY: Urist Steelzombie/Rakonas : ?
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Um.
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : That airlock open by itself a few minutes ago.
+23-11:SAY: Urist Steelzombie/Rakonas : don&#39;t be silly, man.
+23-11:SAY: Urist Steelzombie/Rakonas : this is serious business right now
+23-11:SAY: Unknown/Kenruler : FLYINGG
+23-11:SAY: Unknown/Kenruler : THROUGHH
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Well, whatever. Might be a bad wiring or something.
+23-11:SAY: Unknown/Kenruler : SPAECC
+23-11:SAY: Unknown/Kenruler : Do not touch the nuke
+23-11:SAY: Unknown/Orb370 : Okeydokey
+23-11:SAY: Unknown/Longshoots : Okay
+23-11:ACCESS: Logout: 
+23-11:ACCESS: Login: Googolplexed from 123.243.197.60
+23-11:OOC: Unknown/Orb370 : I love the syndi ship, you guys got to see it when you get the chance
+23-11:SAY: Unknown/Kenruler : Set headsets to 147.5
+23-11:OOC: Fred McBurger/Mr.Peanuts : I hopefully will if I get syndie next round
+23-11:SAY: Xerxes/ReaperSWE : Warning
+23-11:OOC: Urist Steelzombie/Rakonas : does it still have blood everywhere?
+23-11:ACCESS: Login: Garf751 from 68.127.209.178
+23-11:SAY: Unknown/Kenruler : ;I am a bumlicker
+23-11:SAY: Xerxes/ReaperSWE : Meteors spotted
+23-11:SAY: Unknown/Longshoots : Done
+23-11:OOC: Unknown/Orb370 : No, your docked to a syndi station at first
+23-11:OOC: Unknown/Orb370 : Then you launch the ship
+23-11:OOC: Drakkon "Dark" Draith/DarkKuta : Oh, I&#39;ve done that already..
+23-11:OOC: Unknown/Kenruler : Oh, and it looks like space is moving backwards
+23-11:SAY: Unknown/Orb370 : ; Test.
+23-11:OOC: Fred McBurger/Mr.Peanuts : What if they leave without you?
+23-11:ADMIN: Googolplexed jumped to Head of Personnel's Quarters
+23-11:OOC: Drakkon "Dark" Draith/DarkKuta : Shuttle can go back.
+23-11:SAY: Unknown/Longshoots : Are we there yet?
+23-11:OOC: Urist Bronzecrossbow/Googolplexed : I need to add a teleport function for ghosts
+23-11:SAY: Unknown/Kenruler : WE&#39;LL BE THERE WHEN WE GET THERE
+23-11:SAY: Unknown/Orb370 : No we are not, silly.
+23-11:SAY: Urist Steelzombie/Rakonas : ; AI, report any damage
+23-11:ADMIN: Googolplexed jumped to East Hallway
+23-11:ADMIN: Googolplexed jumped to East Hallway
+23-11:SAY: Unknown/Orb370 : ; So is this right?
+23-11:SAY: Unknown/Kenruler : You seem-
+23-11:ADMIN: Googolplexed jumped to East Hallway
+23-11:SAY: Unknown/Kenruler : Wait.
+23-11:SAY: Unknown/Kenruler : Fly to the bridge.
+23-11:OOC: Fred McBurger/Mr.Peanuts : Google if you get the wrong step with a Rwall and use a welder
+23-11:SAY: Unknown/Kenruler : Grab the shit.
+23-11:ADMIN: Googolplexed jumped to Urist Bronzecrossbow
+23-11:SAY: Unknown/Kenruler : Fly back.
+23-11:OOC: Fred McBurger/Mr.Peanuts : you are drained of all fuel
+23-11:SAY: Xerxes/ReaperSWE : Station damage, none.
+23-11:SAY: Unknown/Kenruler : Should be to the left.
+23-11:ACCESS: Login: Guest-3188285460 from 74.101.124.86
+23-11:SAY: Unknown/Kenruler : ;Make sure to close that shit
+23-11:SAY: Unknown/Orb370 : ; Crap, my 02 isnt working, give me a sec
+23-11:SAY: Unknown/Orb370 : ; Working now, hopefully
+23-11:GAME: Guest-3188285460 entered as Cog Murderedfloor
+23-11:SAY: Myor Loran/Cacophony : What are you doing, captain?
+23-11:SAY: Unknown/Orb370 : ; Yep
+23-11:SAY: Musai Danblud/Shadowgandor : There, the object has been hidden inside a fireproof locker
+23-11:SAY: Myor Loran/Cacophony : Okay..
+23-11:SAY: Musai Danblud/Shadowgandor : You may continue as usual
+23-11:SAY: Unknown/Orb370 : ; Im goi ng to make a distraction if I can, aim for the engine
+23-11:MATTACK: Drakkon "Dark" Draith(DarkKuta)has grabbed Cog Glassstop() aggressively (now hands) 
+23-11:SAY: Unknown/Kenruler : Should set something off
+23-11:SAY: Cog Murderedfloor/Guest-3188285460 : HEY
+23-11:ACCESS: Login: Guest-3195651752 from 71.180.9.178
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : Hmm?
+23-11:SAY: Cog Murderedfloor/Guest-3188285460 : WANNA SEE A MACGIC TRICK?
+23-11:SAY: Unknown/Kenruler : ;Keep movement by windows to a minimum
+23-11:SAY: Drakkon "Dark" Draith/DarkKuta : No thanks..
+23-11:SAY: Xerxes/ReaperSWE : Hull breach
+23-11:ACCESS: Logout: Guest-3188285460
+23-11:SAY: Musai Danblud/Shadowgandor : ;What is the location of the Hull breach A.I.?
+23-11:MATTACK: Drakkon "Dark" Draith(DarkKuta)has grabbed Cog Murderedfloor(Guest-3188285460) aggressively (now hands) 
+23-11:SAY: Unknown/Orb370 : ; Mind if I place a bomb at the east solar array?
+23-11:SAY: Unknown/Kenruler : ;Waste of bombs
+23-11:SAY: Xerxes/ReaperSWE : Hull breach detected in Patient Room 2
+23-11:SAY: Unknown/Kenruler : ;we&#39;re here for the disk
+23-11:SAY: Myor Loran/Cacophony : ;Power almost at thirty-thousand watts.  
+23-11:SAY: Unknown/Kenruler : ;I&#39;m just spacing the piano to screw morale
+23-11:SAY: Cog Doorpick/Adhesive : ;Breach in chapel.
+23-11:SAY: Unknown/Orb370 : ; Right, I will catch up to you guys then, I didnt grab an emag
+23-11:ACCESS: Failed Login: Otamagoat Reason: Key banned
+23-11:SAY: Xerxes/ReaperSWE : Solar array damaged
+23-11:SAY: Cog Doorpick/Adhesive : ;I think one of the syndicates was stealing the piano.
+23-11:SAY: Urist Steelzombie/Rakonas : ; They stole..
+23-11:SAY: Urist Steelzombie/Rakonas : ; teh piano!?
+23-11:SAY: Urist Steelzombie/Rakonas : ; Wait, syndicates?
+23-11:SAY: Musai Danblud/Shadowgandor : ;It seems true
+23-11:SAY: Unknown/Kenruler : ;#2, report in?
+23-11:SAY: Cog Doorpick/Adhesive : ;Yep. Red suit.
+23-11:ACCESS: Login: Andrea the second from 151.33.203.34
+23-11:SAY: Musai Danblud/Shadowgandor : You, janitor
+23-11:SAY: Musai Danblud/Shadowgandor : Did you see anything?
+23-11:SAY: Cog Doorpick/Adhesive : Yep.
+23-11:SAY: Xerxes/ReaperSWE : Multiple atmospheric alarms triggered
+23-11:SAY: Cog Doorpick/Adhesive : Saw some syndicate stealin&#39; the piano.
+23-11:SAY: Cog Doorpick/Adhesive : Just said.
+23-11:ACCESS: Logout: DarkKuta
+23-11:SAY: Unknown/Orb370 : ; Made a hole in the escape shuttle
+23-11:GAME: Andrea the second entered as Elspet Bennet
+23-11:SAY: Musai Danblud/Shadowgandor : Ah
+23-11:SAY: Musai Danblud/Shadowgandor : Well, all voices sound the same over the mic
+23-11:GAME: Guest-3195651752 entered as Urist Zombiedrawbridge
+23-11:SAY: Unknown/Kenruler : ;I made a loss of air in the arrival area
+23-11:ACCESS: Login: DarkKuta from 12.76.244.136
+23-11:ACCESS: Logout: Longshoots
+23-11:ACCESS: Logout: Shadowgandor
+23-11:ACCESS: Logout: Rakonas
+23-11:ACCESS: Logout: ReaperSWE
+23-11:ACCESS: Logout: Andrea the second
+23-11:ACCESS: Logout: Cacophony
+23-11:ACCESS: Logout: Kenruler
+23-11:ACCESS: Logout: Adhesive
+23-11:ACCESS: Logout: Garf751
+23-11:ACCESS: Logout: Guest-3195651752
+23-11:ACCESS: Logout: Mr.Peanuts
+23-11:ACCESS: Logout: Googolplexed
+23-11:ACCESS: Logout: DarkKuta
+23-11:ACCESS: Logout: Orb370
+23-11:GAME: Rebooting because of no live players

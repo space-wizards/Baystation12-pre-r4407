@@ -145,14 +145,14 @@
 			if ((usr.hand && !( usr.l_hand )))
 				usr.l_hand = P
 				P.loc = usr
-				P.layer = 20
+				P.layer = 52
 				P = null
 				usr.UpdateClothing()
 				break
 			else if (!usr.r_hand)
 				usr.r_hand = P
 				P.loc = usr
-				P.layer = 20
+				P.layer = 52
 				P = null
 				usr.UpdateClothing()
 				break
@@ -494,7 +494,7 @@
 		user.l_hand = src.gift
 	else
 		user.r_hand = src.gift
-	src.gift.layer = 20
+	src.gift.layer = 52
 	src.gift.add_fingerprint(user)
 	del(src)
 	return
@@ -517,7 +517,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -528,7 +528,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -539,7 +539,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -550,7 +550,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -561,7 +561,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -572,7 +572,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -583,7 +583,7 @@
 				M.l_hand = W
 			else
 				M.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			W.add_fingerprint(M)
 			//SN src = null
 			del(src)
@@ -1063,7 +1063,7 @@
 				usr.u_equip(R)
 				usr.l_hand = T
 			R.loc = T
-			T.layer = 20
+			T.layer = 52
 			T.freq = initial(T.freq)
 			T.attack_self(usr)
 			return
@@ -1595,7 +1595,7 @@
 				user.l_hand = W
 			else
 				user.r_hand = W
-			W.layer = 20
+			W.layer = 52
 			if (P.amount <= 0)
 				//P = null
 				del(P)
@@ -1654,7 +1654,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			del(src)
@@ -1875,7 +1875,7 @@
 	else
 		user.r_hand = src
 	src.loc = user
-	src.layer = 20
+	src.layer = 52
 	add_fingerprint(user)
 	user.UpdateClothing()
 	return
@@ -1895,7 +1895,7 @@
 	else
 		user.r_hand = src
 	src.loc = user
-	src.layer = 20
+	src.layer = 52
 	user.UpdateClothing()
 	return
 
@@ -1949,7 +1949,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -2012,7 +2012,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			del(src)
@@ -2221,7 +2221,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -2324,7 +2324,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -2408,14 +2408,14 @@
 				if ((usr.hand && !( usr.l_hand )))
 					usr.l_hand = src.pen
 					src.pen.loc = usr
-					src.pen.layer = 20
+					src.pen.layer = 52
 					src.pen = null
 					usr.UpdateClothing()
 				else
 					if (!( usr.r_hand ))
 						usr.r_hand = src.pen
 						src.pen.loc = usr
-						src.pen.layer = 20
+						src.pen.layer = 52
 						src.pen = null
 						usr.UpdateClothing()
 				if (src.pen)
@@ -2427,13 +2427,13 @@
 				if ((usr.hand && !( usr.l_hand )))
 					usr.l_hand = P
 					P.loc = usr
-					P.layer = 20
+					P.layer = 52
 					usr.UpdateClothing()
 				else
 					if (!( usr.r_hand ))
 						usr.r_hand = P
 						P.loc = usr
-						P.layer = 20
+						P.layer = 52
 						usr.UpdateClothing()
 				P.add_fingerprint(usr)
 				src.add_fingerprint(usr)
@@ -2479,7 +2479,7 @@
 			else
 				user.r_hand = P
 			P.loc = user
-			P.layer = 20
+			P.layer = 52
 			P.add_fingerprint(user)
 			user.UpdateClothing()
 		src.add_fingerprint(user)
@@ -2537,13 +2537,13 @@
 				if ((usr.hand && !( usr.l_hand )))
 					usr.l_hand = P
 					P.loc = usr
-					P.layer = 20
+					P.layer = 52
 					usr.UpdateClothing()
 				else
 					if (!( usr.r_hand ))
 						usr.r_hand = P
 						P.loc = usr
-						P.layer = 20
+						P.layer = 52
 						usr.UpdateClothing()
 				src.add_fingerprint(usr)
 				P.add_fingerprint(usr)
@@ -2729,6 +2729,41 @@
 		src.desc = "It's a normal black ink pen."
 	return
 
+/obj/item/weapon/pen/zombiepen/attack(mob/M as mob, mob/user as mob)
+
+	if (!( istype(M, /mob) ))
+		return
+	if (used)
+		return
+	if (src.desc == "It's a normal black ink pen.")
+		return ..()
+	if (user)
+		for(var/mob/O in viewers(M, null))
+			O.show_message(text("\red [] has been stabbed with [] by [].", M, src, user), 1)
+
+		user.show_message(text("\red You inject units into the [].",M))
+		M.traitor_infect()
+		used = 1
+		src.desc = "It's a normal black ink pen."
+	return
+/obj/item/weapon/pen/antizombiepen/attack(mob/M as mob, mob/user as mob)
+
+	if (!( istype(M, /mob) ))
+		return
+	if (used)
+		return
+	if (src.desc == "It's a normal black ink pen.")
+		return ..()
+	if (user)
+		for(var/mob/O in viewers(M, null))
+			O.show_message(text("\red [] has been stabbed with [] by [].", M, src, user), 1)
+
+		user.show_message(text("\red You inject units into the [].",M))
+		M.becoming_zombie = 0
+		used = 1
+		src.desc = "It's a normal black ink pen."
+	return
+
 /obj/item/weapon/paint/attack_self(mob/user as mob)
 
 	var/t1 = input(user, "Please select a color:", "Locking Computer", null) in list( "red", "blue", "green", "yellow", "black", "white", "neutral" )
@@ -2908,7 +2943,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -3195,7 +3230,7 @@
 	src.boxes.screen_loc = text("[],[] to [],[]", tx, ty, mx, my)
 	for(var/obj/O in src.contents)
 		O.screen_loc = text("[],[]", cx, cy)
-		O.layer = 20
+		O.layer = 52
 		cx++
 		if (cx > mx)
 			cx = tx
@@ -3471,7 +3506,7 @@
 	src.closer = new /obj/screen/close(  )
 	src.closer.master = src
 	src.closer.icon_state = "x"
-	src.closer.layer = 20
+	src.closer.layer = 52
 	spawn( 5 )
 		src.orient_objs(7, 8, 10, 7)
 		return
@@ -3615,7 +3650,7 @@
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -3709,7 +3744,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 
@@ -3735,7 +3770,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 
@@ -3761,7 +3796,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 	else if ((istype(W, /obj/item/weapon/healthanalyzer) && !( src.status )))
@@ -3786,7 +3821,7 @@
 			user.client.screen -= src
 		src.loc = R
 		R.part2 = src
-		R.layer = 20
+		R.layer = 52
 		R.loc = user
 		src.add_fingerprint(user)
 
@@ -3892,7 +3927,7 @@
 				user.client.screen -= src
 			src.loc = A
 			A.part2 = src
-			A.layer = 20
+			A.layer = 52
 			src.add_fingerprint(user)
 			A.add_fingerprint(user)
 	return
@@ -4266,7 +4301,7 @@
 					usr.u_equip(R)
 					usr.l_hand = T
 				R.loc = T
-				T.layer = 20
+				T.layer = 52
 				T.attack_self(usr)
 				return
 		else
@@ -4650,7 +4685,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 		else
 			user.r_hand = src.case
 		src.case.loc = user
-		src.case.layer = 20
+		src.case.layer = 52
 		src.case.add_fingerprint(user)
 		src.case = null
 		user.UpdateClothing()
@@ -4985,7 +5020,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -5098,7 +5133,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			user.l_hand = F
 		else
 			user.r_hand = F
-		F.layer = 20
+		F.layer = 52
 		F.add_fingerprint(user)
 		if (src.amount < 1)
 			//SN src = null
@@ -5345,7 +5380,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 		else
 			user.u_equip(src)
 			user.l_hand = F
-		F.layer = 20
+		F.layer = 52
 		del(src)
 
 		return

@@ -1,0 +1,2002 @@
+15-48:ADMIN: Loading crban_keylist
+15-48:ADMIN: Loading crban_reason
+15-48:ADMIN: Loading crban_time
+15-48:ADMIN: Loading crban_bannedby
+15-48:ADMIN: Loading crban_iplist
+15-48:ADMIN: Loading crban_unbanned
+15-48:ADMIN: Loading jobban_rank
+15-48:ADMIN: Updating jobbanfile!
+15-48:ACCESS: Login: ReaperSWE from 78.73.123.189
+15-48:OOC: Gregory Hampshire/ReaperSWE : at last :-O
+15-48:ACCESS: Login: Headswe from 127.0.0.1
+15-48:OOC: Urist Deathvomit/Headswe : Great i needded a test subject
+15-48:OOC: Gregory Hampshire/ReaperSWE : at last :-O
+15-48:GAME: Headswe entered as Urist Deathvomit
+15-48:GAME: ReaperSWE entered as Gregory Hampshire
+15-48:OOC: Gregory Hampshire/ReaperSWE : I was getting tired of waiting, so I started reading up on byond coding.
+15-48:ADMIN: Headswe used start_now
+15-48:GAME: starting game of extended
+15-48:ADMIN: Headswe AIized Headswe
+15-48:ACCESS: Logout: 
+15-48:ACCESS: Login: Headswe from 127.0.0.1
+15-48:OOC: A.R.M.O.K./Headswe : Say something in the radio
+15-48:SAY: Gregory Hampshire/ReaperSWE : ;This is your captain speaking.
+15-48:OOC: A.R.M.O.K./Headswe : Crap
+15-48:OOC: Gregory Hampshire/ReaperSWE : fixing the radios on sattelite?
+15-48:OOC: A.R.M.O.K./Headswe : Nope
+15-48:SAY: A.R.M.O.K./Headswe : ; TEST
+15-48:SAY: A.R.M.O.K./Headswe : TEST
+15-48:SAY: A.R.M.O.K./Headswe : TEST
+15-48:SAY: A.R.M.O.K./Headswe : TEST
+15-48:SAY: A.R.M.O.K./Headswe : ; TEST
+15-48:OOC: A.R.M.O.K./Headswe : Oh lol i broke AI coms.
+15-48:OOC: Gregory Hampshire/ReaperSWE : hold on
+15-48:OOC: Gregory Hampshire/ReaperSWE : ai can speak locally too..
+15-48:SAY: Gregory Hampshire/ReaperSWE : Testin
+15-48:SAY: Gregory Hampshire/ReaperSWE : ;Radio test.
+15-48:ADMIN: Headswe initiated an immediate reboot.
+15-48:ACCESS: Logout: ReaperSWE
+15-48:ACCESS: Logout: Headswe
+15-56:ADMIN: Loading crban_keylist
+15-56:ADMIN: Loading crban_reason
+15-56:ADMIN: Loading crban_time
+15-56:ADMIN: Loading crban_bannedby
+15-56:ADMIN: Loading crban_iplist
+15-56:ADMIN: Loading crban_unbanned
+15-56:ADMIN: Loading jobban_rank
+15-56:ADMIN: Updating jobbanfile!
+15-56:ACCESS: Login: Headswe from 127.0.0.1
+15-56:ACCESS: Login: ReaperSWE from 78.73.123.189
+15-56:GAME: ReaperSWE entered as Gregory Hampshire
+15-56:GAME: Headswe entered as Urist Floormicrocline
+15-56:ADMIN: Headswe used start_now
+15-56:GAME: starting game of extended
+15-56:ACCESS: Logout: 
+15-56:ACCESS: Login: ReaperSWE from 78.73.123.189
+15-56:OOC: Urist Floormicrocline/Headswe : GAH.
+15-56:OOC: Xerxes/ReaperSWE : yea..
+15-56:SAY: Urist Floormicrocline/Headswe : ; TEST
+15-56:SAY: Xerxes/ReaperSWE : ;I hear ya
+15-56:SAY: Xerxes/ReaperSWE : I hear ya
+15-56:OOC: Urist Floormicrocline/Headswe : Broke?
+15-56:OOC: Xerxes/ReaperSWE : I can see it
+15-56:OOC: Xerxes/ReaperSWE : but I cant talk back into the radios
+15-56:ACCESS: Login: Segellion from 24.179.87.49
+15-56:OOC: Urist Floormicrocline/Headswe : Meh.
+15-56:SAY: Xerxes/ReaperSWE : TESTING
+15-56:OOC: Xerxes/ReaperSWE : what did you do? :-/
+15-56:OOC: Cog Spikedoor/Segellion : hey
+15-56:OOC: Xerxes/ReaperSWE : hello.
+15-56:OOC: Urist Floormicrocline/Headswe : Copy paste my Test
+15-56:OOC: Xerxes/ReaperSWE : Urist Floormicrocline(Captain)- [145.9]-broadcasts:  TEST
+15-56:OOC: Urist Floormicrocline/Headswe : Is my name a link?
+15-56:OOC: Xerxes/ReaperSWE : yup
+15-56:OOC: Urist Floormicrocline/Headswe : What happens when you click it?
+15-56:OOC: Xerxes/ReaperSWE : doesn&#39;t do anything.
+15-56:OOC: Urist Floormicrocline/Headswe : kay.
+15-56:GAME: Segellion entered as Steve Uristwin
+15-56:OOC: Urist Floormicrocline/Headswe : back to codeing
+15-56:OOC: Steve Uristwin/Segellion : whats in the works today, Head?
+15-56:OOC: Xerxes/ReaperSWE : it reads &#34;?Xerxes=[0x3000011];switchcameramod=[0x300000f]
+15-56:OOC: Xerxes/ReaperSWE : He broke the AI comms.
+15-56:OOC: Xerxes/ReaperSWE : while adding camera links
+15-56:OOC: Steve Uristwin/Segellion : does anyone ever use the boxes everyone starts with?
+15-56:OOC: Xerxes/ReaperSWE : rarely, but it happens
+15-56:OOC: Steve Uristwin/Segellion : other than to hide things, because noone uses them?
+15-56:OOC: Xerxes/ReaperSWE : usually contains grenades.
+15-56:OOC: Xerxes/ReaperSWE : I remember that I used to keep tools in them.
+15-56:OOC: Xerxes/ReaperSWE : but you can&#39;t use items inside a container in a container.
+15-56:OOC: Xerxes/ReaperSWE : toolboxes dont fit in backpack, but tools fit in the box
+15-56:OOC: Steve Uristwin/Segellion : intrestin
+15-56:OOC: Xerxes/ReaperSWE : lol. that piano is horrible
+15-56:ADMIN: Headswe AIized Headswe
+15-56:ACCESS: Logout: 
+15-56:ACCESS: Login: Headswe from 127.0.0.1
+15-56:SAY: Steve Uristwin/Segellion : ;im breaking in the bridge cap&#39;n
+15-56:SAY: A.R.M.O.K./Headswe : test
+15-56:SAY: Steve Uristwin/Segellion : ;fyi
+15-56:SAY: A.R.M.O.K./Headswe : ; TEST
+15-56:SAY: A.R.M.O.K./Headswe : ARWAR
+15-56:SAY: A.R.M.O.K./Headswe : :D
+15-56:SAY: A.R.M.O.K./Headswe : :D
+15-56:SAY: Xerxes/ReaperSWE : Arrr!
+15-56:SAY: A.R.M.O.K./Headswe : :P
+15-56:SAY: A.R.M.O.K./Headswe : RARwar
+15-56:SAY: Xerxes/ReaperSWE : The AIs talk!
+15-56:SAY: Xerxes/ReaperSWE : :-S
+15-56:OOC: Xerxes/ReaperSWE : Dual core AI ftw :-D
+15-56:ACCESS: Login: Gbroderix from 82.20.248.164
+15-56:ACCESS: Login: AmirHM from 91.99.186.73
+15-56:OOC: Dan Handsome/AmirHM : Hello head.
+15-56:OOC: Xerxes/ReaperSWE : ssh! he&#39;s coding
+15-56:OOC: Dan Handsome/AmirHM : And everyone else.
+15-56:GAME: Gbroderix entered as Cog Vomitbed
+15-56:OOC: Cog Vomitbed/Gbroderix : sup.
+15-56:GAME: AmirHM entered as Dan Handsome
+15-56:ACCESS: Login: FaStHuNtEr from 188.97.73.94
+15-56:SAY: Dan Handsome/AmirHM : ;Hello , may i get reassigned please?
+15-56:OOC: A.R.M.O.K./Headswe : Hmm the normal switchcamera dosent work ;P
+15-56:ACCESS: Login: Trorbes from 75.58.81.221
+15-56:OOC: A.R.M.O.K./Headswe : no wait
+15-56:OOC: Xerxes/ReaperSWE : Heads.. can I have a share on that git repo?
+15-56:OOC: Eric Worth/Trorbes : You got Git working?
+15-56:GAME: FaStHuNtEr entered as Mr.Jenkins
+15-56:OOC: Xerxes/ReaperSWE : Got it installed.
+15-56:GAME: Trorbes entered as Eric Worth
+15-56:OOC: A.R.M.O.K./Headswe : restarting fool
+15-56:OOC: Xerxes/ReaperSWE : so yes, I guess.
+15-56:ADMIN: Headswe initiated an immediate reboot.
+15-56:ACCESS: Logout: Headswe
+15-56:ACCESS: Logout: ReaperSWE
+15-56:ACCESS: Logout: Segellion
+15-56:ACCESS: Logout: Gbroderix
+15-56:ACCESS: Logout: AmirHM
+15-56:ACCESS: Logout: FaStHuNtEr
+15-56:ACCESS: Logout: Trorbes
+16-08:ADMIN: Loading crban_keylist
+16-08:ADMIN: Loading crban_reason
+16-08:ADMIN: Loading crban_time
+16-08:ADMIN: Loading crban_bannedby
+16-08:ADMIN: Loading crban_iplist
+16-08:ADMIN: Loading crban_unbanned
+16-08:ADMIN: Loading jobban_rank
+16-08:ADMIN: Updating jobbanfile!
+16-08:ACCESS: Login: ReaperSWE from 78.73.123.189
+16-08:ACCESS: Login: FaStHuNtEr from 188.97.73.94
+16-08:ACCESS: Login: Trorbes from 75.58.81.221
+16-08:ACCESS: Login: Headswe from 127.0.0.1
+16-08:GAME: FaStHuNtEr entered as Mr.Jenkins
+16-08:GAME: Headswe entered as Cog Blockboat
+16-08:ADMIN: Headswe modified Cog Blockboat's occupation1 to AI
+16-08:ACCESS: Login: Gbroderix from 82.20.248.164
+16-08:OOC: Cog Blockboat/Headswe : PREZZ READY FAST?!
+16-08:GAME: Gbroderix entered as Cog Vomitbed
+16-08:ACCESS: Login: AmirHM from 91.99.186.73
+16-08:GAME: ReaperSWE entered as Gregory Hampshire
+16-08:OOC: Eric Worth/Trorbes : Hey Head, if you&#39;ve got Git working, mind setting me up with it sometime?
+16-08:GAME: Trorbes entered as Eric Worth
+16-08:OOC: Cog Vomitbed/Gbroderix : git?
+16-08:OOC: Dan Handsome/AmirHM : Hey Trorbes.
+16-08:OOC: Cog Vomitbed/Gbroderix : wasat?
+16-08:OOC: Cog Blockboat/Headswe : My git works :S
+16-08:OOC: Dan Handsome/AmirHM : Also whats Git?
+16-08:ADMIN: Headswe used start_now
+16-08:GAME: starting game of extended
+16-08:ACCESS: Logout: 
+16-08:ACCESS: Login: Trorbes from 75.58.81.221
+16-08:OOC: Gregory Hampshire/ReaperSWE : a version control system
+16-08:GAME: AmirHM entered as Dan Handsome
+16-08:OOC: Gregory Hampshire/ReaperSWE : like svn
+16-08:OOC: Cog Vomitbed/Gbroderix : ah.
+16-08:OOC: Dan Handsome/AmirHM : Why did it start so fast?
+16-08:OOC: Gregory Hampshire/ReaperSWE : admin interference.
+16-08:OOC: Cog Vomitbed/Gbroderix : The game will now start immediately thanks to Headswe!
+16-08:SAY: Cog Blockboat/Headswe : ; YO
+16-08:SAY: Cog Blockboat/Headswe : ; TROBES MY MAN
+16-08:SAY: Cog Blockboat/Headswe : ; TEST MAH LINK
+16-08:OOC: HAL 9000/Trorbes : Uh
+16-08:SAY: Cog Blockboat/Headswe : ; AND COPY PASTE THE MESSAGE INTO OOC
+16-08:OOC: HAL 9000/Trorbes : &lt;A HREF=?HAL 9000=[0x3000015];switchCameramob(Cog Blockboat)=&gt;[0x6003a98](Head of Security)- [145.9]-broadcasts:  YO#&lt;A HREF=?HAL 9000=[0x3000015];switchCameramob(Cog Blockboat)=&gt;[0x6003a98](Head of Security)- [145.9]-broadcasts:  TROBES MY MAN#&lt;A HREF=?HAL 9000=[0x3000015];switchCameramob(Cog Blockboat)=&gt;[0x6003a98](Head of Security)- [145.9]-broadcasts:  TEST MAH LINK#
+16-08:OOC: Cog Blockboat/Headswe : OH NOES.
+16-08:OOC: Cog Blockboat/Headswe : *Dies*
+16-08:OOC: HAL 9000/Trorbes : Yeah.  Sorry.
+16-08:OOC: Gregory Hampshire/ReaperSWE : lol. looped
+16-08:ACCESS: Login: Segellion from 24.179.87.49
+16-08:MATTACK: Gregory Hampshire(ReaperSWE) clicked on Gregory Hampshire(ReaperSWE) with a DNA injector
+16-08:GAME: Segellion entered as Steve Uristwin
+16-08:OOC: Cog Blockboat/Headswe : I hate REFS.
+16-08:OOC: Dan Handsome/AmirHM : Lol Head are you fixing bugs again?
+16-08:OOC: Cog Vomitbed/Gbroderix : um why is the generator moving up and down?
+16-08:OOC: Dan Handsome/AmirHM : Bug.
+16-08:OOC: Cog Vomitbed/Gbroderix : kk
+16-08:SAY: Dan Handsome/AmirHM : ;May i get reassigned please?
+16-08:MATTACK: Gregory Hampshire(ReaperSWE) clicked on Gregory Hampshire(ReaperSWE) with a DNA injector
+16-08:SAY: monkey (a2fe) (as Gregory Hampshire)/ReaperSWE : ;Aaagh! I&#39;m black!
+16-08:SAY: monkey (a2fe) (as Gregory Hampshire)/ReaperSWE : ;aaagh! I&#39;m black!
+16-08:SAY: Dan Handsome/AmirHM : ;Do we have a HoP?
+16-08:OOC: Cog Blockboat/Headswe : Hmm
+16-08:OOC: Cog Blockboat/Headswe : Seems like i broke monkeys TOO :D
+16-08:OOC: Dan Handsome/AmirHM : Lol
+16-08:OOC: Cog Blockboat/Headswe : OH I LOVE  YOU RADIO CODE.
+16-08:OOC: Cog Blockboat/Headswe : Your not shitty at all.
+16-08:OOC: monkey (a2fe) (as Gregory Hampshire)/ReaperSWE : Injected myself with monkey UI and UE
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : ; no we have no HoP
+16-08:OOC: Cog Blockboat/Headswe : Phew.
+16-08:SAY: Dan Handsome/AmirHM : ;Then may i talk to the HoP?
+16-08:SAY: Dan Handsome/AmirHM : ;I mean captain
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : ; yes i will come
+16-08:SAY: Dan Handsome/AmirHM : Hello
+16-08:SAY: Dan Handsome/AmirHM : May i be the HoP?
+16-08:SAY: Dan Handsome/AmirHM : I have experience
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : what arer your qualifications?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : okay
+16-08:SAY: Dan Handsome/AmirHM : Thank you sir.
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : and you?
+16-08:SAY: Steve Uristwin/Segellion : I am qualified for unretricted access... ahh.... co-captain?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : what job do you want to have?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : hmm sorry but we cant have co captains
+16-08:SAY: Steve Uristwin/Segellion : HoP?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : theres a HoP allready
+16-08:ADMIN: Headswe AIized Headswe
+16-08:ACCESS: Logout: 
+16-08:ACCESS: Login: Headswe from 127.0.0.1
+16-08:SAY: Steve Uristwin/Segellion : I was about to go grab your spare ID...
+16-08:SAY: A.R.M.O.K./Headswe : YES
+16-08:SAY: A.R.M.O.K./Headswe : YES
+16-08:SAY: Steve Uristwin/Segellion : HoM?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : okay
+16-08:SAY: Steve Uristwin/Segellion : Who is HoP?
+16-08:SAY: Mr.Jenkins/FaStHuNtEr : dan handsome
+16-08:MATTACK: The monkey (a2fe)(ReaperSWE)has grabbed the monkey (a2fe)() aggressively (now hands) 
+16-08:ADMIN: Headswe initiated an immediate reboot.
+16-08:ACCESS: Logout: Headswe
+16-08:ACCESS: Logout: ReaperSWE
+16-08:ACCESS: Logout: FaStHuNtEr
+16-08:ACCESS: Logout: Trorbes
+16-08:ACCESS: Logout: Gbroderix
+16-08:ACCESS: Logout: AmirHM
+16-08:ACCESS: Logout: Segellion
+16-21:ADMIN: Loading crban_keylist
+16-21:ADMIN: Loading crban_reason
+16-21:ADMIN: Loading crban_time
+16-21:ADMIN: Loading crban_bannedby
+16-21:ADMIN: Loading crban_iplist
+16-21:ADMIN: Loading crban_unbanned
+16-21:ADMIN: Loading jobban_rank
+16-21:ADMIN: Updating jobbanfile!
+16-21:ACCESS: Login: Headswe from 127.0.0.1
+16-21:ACCESS: Login: FaStHuNtEr from 188.97.73.94
+16-21:ACCESS: Login: ReaperSWE from 78.73.123.189
+16-21:GAME: ReaperSWE entered as Gregory Hampshire
+16-21:GAME: Headswe entered as Cog Doorengraving
+16-21:ACCESS: Login: Gbroderix from 82.20.248.164
+16-21:ADMIN: Headswe used start_now
+16-21:GAME: starting game of extended
+16-21:ACCESS: Logout: 
+16-21:ACCESS: Login: ReaperSWE from 78.73.123.189
+16-21:GAME: Gbroderix entered as Cog Vomitbed
+16-21:OOC: Cog Doorengraving/Headswe : FUCK IT
+16-21:OOC: Xerxes/ReaperSWE : say Haha!
+16-21:OOC: Cog Vomitbed/Gbroderix : D:
+16-21:ACCESS: Login: AmirHM from 91.99.186.73
+16-21:SAY: Xerxes/ReaperSWE : Haha!
+16-21:GAME: FaStHuNtEr entered as Mr.Jenkins
+16-21:SAY: Cog Doorengraving/Headswe : ; YO
+16-21:SAY: Xerxes/ReaperSWE : I caanot speak
+16-21:SAY: Cog Doorengraving/Headswe : ; FREAKING AI
+16-21:SAY: Cog Doorengraving/Headswe : ; FREAKING AI
+16-21:GAME: AmirHM entered as Dan Handsome
+16-21:ACCESS: Login: Trorbes from 75.58.81.221
+16-21:SAY: Cog Doorengraving/Headswe : ; CAN YOU TALK?!
+16-21:OOC: Xerxes/ReaperSWE : no linky
+16-21:OOC: Xerxes/ReaperSWE : no talky.
+16-21:OOC: Cog Doorengraving/Headswe : Fucking sad.
+16-21:OOC: Xerxes/ReaperSWE : well, there is a link, but it does nothing
+16-21:GAME: Trorbes entered as Eric Worth
+16-21:OOC: Cog Doorengraving/Headswe : Are you on the ss13 network?
+16-21:OOC: Xerxes/ReaperSWE : yes.
+16-21:SAY: Mr.Jenkins/FaStHuNtEr : ; i need someone to give me a new job
+16-21:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the shard
+16-21:OOC: Cog Doorengraving/Headswe : YA SUR?
+16-21:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the shard
+16-21:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the shard
+16-21:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the shard
+16-21:OOC: Xerxes/ReaperSWE : Very.
+16-21:SAY: Cog Vomitbed/Gbroderix : *screa,
+16-21:SAY: Cog Vomitbed/Gbroderix : *scream
+16-21:ADMIN: Headswe AIized Headswe
+16-21:ACCESS: Logout: 
+16-21:ACCESS: Login: Headswe from 127.0.0.1
+16-21:SAY: Cog Vomitbed/Gbroderix : *scream
+16-21:SAY: A.R.M.O.K./Headswe : YES
+16-21:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the shard
+16-21:SAY: A.R.M.O.K./Headswe : ; TALK
+16-21:SAY: A.R.M.O.K./Headswe : Your the man
+16-21:SAY: Xerxes/ReaperSWE : TALKY TALKY
+16-21:SAY: Cog Vomitbed/Gbroderix : *scream
+16-21:SAY: Cog Vomitbed/Gbroderix : *scream
+16-21:OOC: Mr.Jenkins/FaStHuNtEr : reboot world we had no time to get ready...
+16-21:OOC: Xerxes/ReaperSWE : talk damnit
+16-21:OOC: Dan Handsome/AmirHM : Head did you cause the round to start so fast? (again :P)
+16-21:OOC: Xerxes/ReaperSWE : Radio chatter damnit!
+16-21:OOC: A.R.M.O.K./Headswe : CHAT PEPOLE
+16-21:OOC: A.R.M.O.K./Headswe : USE THE RADIo
+16-21:SAY: Eric Worth/Trorbes : ;Hello?
+16-21:SAY: Cog Vomitbed/Gbroderix : ;so i heard you like mudkips
+16-21:SAY: Dan Handsome/AmirHM : ;Do we have a HoP?
+16-21:SAY: Cog Vomitbed/Gbroderix : ;mudkips of glory
+16-21:OOC: Eric Worth/Trorbes : THis isn&#39;t a serious game, is it?
+16-21:OOC: Xerxes/ReaperSWE : incompetent assistants! &gt;:-O
+16-21:SAY: Mr.Jenkins/FaStHuNtEr : ; i need the captain at arrival shuttle please?
+16-21:OOC: Xerxes/ReaperSWE : no, it&#39;s devtest.
+16-21:SAY: Cog Vomitbed/Gbroderix : ;NO YOUR INCOMPETENT
+16-21:OOC: Eric Worth/Trorbes : Good.  Then I won&#39;t feel bad about noclipping.
+16-21:OOC: Xerxes/ReaperSWE : smash the vat seals please
+16-21:ACCESS: Login: Segellion from 24.179.87.49
+16-21:OOC: Xerxes/ReaperSWE : ;-)
+16-21:OOC: Dan Handsome/AmirHM : Why is noclip available for non-admins?
+16-21:OOC: Eric Worth/Trorbes : Is it?
+16-21:OOC: A.R.M.O.K./Headswe : TRY PRESSING IT
+16-21:OOC: Xerxes/ReaperSWE : Heads... try getting the location of the mob, and using the normal camera links. &#34;?src=[0x3000013];switchcamera=[0x2000562]&#34;?
+16-21:OOC: Eric Worth/Trorbes : Right now I&#39;m trying to find out the problem with the engine generator graphic.
+16-21:OOC: Xerxes/ReaperSWE : it&#39;s either a frame out of place, or the object itself moving.
+16-21:OOC: Eric Worth/Trorbes : It can&#39;t be the frame, I went through the animation.  I want to see WHICH frame is skipping, though.
+16-21:GAME: Segellion entered as Steve Uristwin
+16-21:ADMIN: Trorbes has toggled Trorbes's nodamage to 1
+16-21:OOC: A.R.M.O.K./Headswe : Trobes
+16-21:OOC: A.R.M.O.K./Headswe : Its the first one.
+16-21:OOC: Eric Worth/Trorbes : I noticed
+16-21:ACCESS: Logout: AmirHM
+16-21:SAY: Cog Vomitbed/Gbroderix : ;Doododo
+16-21:SAY: Cog Vomitbed/Gbroderix : ;where is everyone?
+16-21:OOC: A.R.M.O.K./Headswe : RESTARTING
+16-21:OOC: Eric Worth/Trorbes : Nothing in the code suggests that the generator SHOULD be skipping like that.
+16-21:OOC: A.R.M.O.K./Headswe : its not the code.
+16-21:ACCESS: Logout: Segellion
+16-21:OOC: Xerxes/ReaperSWE : it&#39;s the animation.
+16-21:OOC: Cog Vomitbed/Gbroderix : though it does look coooool.
+16-21:OOC: Eric Worth/Trorbes : Nothing in the ANIMATION either.
+16-21:OOC: Xerxes/ReaperSWE : what :-O
+16-21:OOC: A.R.M.O.K./Headswe : On mine
+16-21:OOC: A.R.M.O.K./Headswe : there is
+16-21:OOC: Xerxes/ReaperSWE : yea.
+16-21:OOC: Xerxes/ReaperSWE : so hah.
+16-21:OOC: Eric Worth/Trorbes : Oh, okay.
+16-21:ADMIN: Headswe initiated a reboot.
+16-21:ACCESS: Logout: Gbroderix
+16-21:ACCESS: Logout: FaStHuNtEr
+16-21:ACCESS: Logout: Headswe
+16-21:ACCESS: Logout: ReaperSWE
+16-21:ACCESS: Logout: Trorbes
+16-35:ADMIN: Loading crban_keylist
+16-35:ADMIN: Loading crban_reason
+16-35:ADMIN: Loading crban_time
+16-35:ADMIN: Loading crban_bannedby
+16-35:ADMIN: Loading crban_iplist
+16-35:ADMIN: Loading crban_unbanned
+16-35:ADMIN: Loading jobban_rank
+16-35:ADMIN: Updating jobbanfile!
+16-35:ACCESS: Login: FaStHuNtEr from 188.97.73.94
+16-35:ACCESS: Login: ReaperSWE from 78.73.123.189
+16-35:ACCESS: Login: Trorbes from 75.58.81.221
+16-35:ACCESS: Login: Headswe from 127.0.0.1
+16-35:GAME: FaStHuNtEr entered as Mr.Jenkins
+16-35:GAME: Trorbes entered as Eric Worth
+16-35:GAME: Headswe entered as Cog Doorengraving
+16-35:GAME: ReaperSWE entered as Gregory Hampshire
+16-35:ADMIN: Headswe used start_now
+16-35:GAME: starting game of extended
+16-35:ACCESS: Logout: 
+16-35:ACCESS: Login: Trorbes from 75.58.81.221
+16-35:SAY: Mr.Jenkins/FaStHuNtEr : *help
+16-35:SAY: Mr.Jenkins/FaStHuNtEr : *fart
+16-35:SAY: Cog Doorengraving/Headswe : ; HEY AI
+16-35:SAY: Cog Doorengraving/Headswe : ; I WUW YOU
+16-35:SAY: Cog Doorengraving/Headswe : ; SO TRY MAH LINK
+16-35:SAY: Gregory Hampshire/ReaperSWE : ;Or mine!
+16-35:SAY: HAL 9000/Trorbes : I love you too, Captain, but your link does not work.
+16-35:SAY: Gregory Hampshire/ReaperSWE : [r] &#34;whoop whoop&#34;
+16-35:SAY: Gregory Hampshire/ReaperSWE : [i] whoop whoop
+16-35:SAY: HAL 9000/Trorbes : ;Testing radio
+16-35:ADMIN: Headswe AIized Headswe
+16-35:ACCESS: Logout: 
+16-35:ACCESS: Login: Headswe from 127.0.0.1
+16-35:SAY: A.R.M.O.K./Headswe : TEST
+16-35:OOC: A.R.M.O.K./Headswe : say something in the freaking radio now
+16-35:SAY: Gregory Hampshire/ReaperSWE : ;FUCK U
+16-35:OOC: Mr.Jenkins/FaStHuNtEr : when can we FIANLLY play normal?
+16-35:OOC: HAL 9000/Trorbes : Links not working, AI can&#39;t speak over radio
+16-35:SAY: Gregory Hampshire/ReaperSWE : intercom
+16-35:OOC: A.R.M.O.K./Headswe : I need to head out so il restart one last time and give you an older version
+16-35:OOC: Mr.Jenkins/FaStHuNtEr : omg
+16-35:OOC: A.R.M.O.K./Headswe : then you can play normally.
+16-35:ACCESS: Logout: Headswe
+16-35:ACCESS: Logout: Trorbes
+16-35:ACCESS: Logout: FaStHuNtEr
+16-35:ACCESS: Logout: ReaperSWE
+22-30:ADMIN: Loading crban_keylist
+22-30:ADMIN: Loading crban_reason
+22-30:ADMIN: Loading crban_time
+22-30:ADMIN: Loading crban_bannedby
+22-30:ADMIN: Loading crban_iplist
+22-30:ADMIN: Loading crban_unbanned
+22-30:ADMIN: Loading jobban_rank
+22-30:ADMIN: Updating jobbanfile!
+22-30:ACCESS: Login: Orb370 from 4.154.132.198
+22-30:ACCESS: Login: Headswe from 127.0.0.1
+22-30:ACCESS: Login: Segellion from 24.179.87.49
+22-30:GAME: Segellion entered as Steve Uristwin
+22-30:OOC: Cog Doorengraving/Headswe : kek.
+22-30:OOC: Cog Doorengraving/Headswe : What mode do you want?
+22-30:OOC: Cog Swordwall/Orb370 : Ah, I see what you meant by old code now.
+22-30:OOC: Cog Doorengraving/Headswe : Oh yeah.
+22-30:OOC: Cog Swordwall/Orb370 : I was wondering why my character prefs were my old ones
+22-30:GAME: Orb370 entered as Cog Swordwall
+22-30:OOC: Cog Doorengraving/Headswe : I had a bug i did not have time to fix before
+22-30:OOC: Steve Uristwin/Segellion : sandbox is fine for now
+22-30:ADMIN: Headswe set the mode as sandbox.
+22-30:OOC: Cog Swordwall/Orb370 : Ah. So, since no one answered my question on the forums, does cold hurt zombies?
+22-30:OOC: Cog Doorengraving/Headswe : Nope
+22-30:OOC: Steve Uristwin/Segellion : i dont think so
+22-30:OOC: Cog Swordwall/Orb370 : Er...hm.
+22-30:ACCESS: Login: Kinglordz from 78.150.108.250
+22-30:OOC: Cog Doorengraving/Headswe : Ever heard or seen (ingame movie) about a zombie freezing to death?
+22-30:OOC: Cog Swordwall/Orb370 : It would prevent -for the most part- infiniate zombies in space, if they took some damage from it
+22-30:OOC: Steve Uristwin/Segellion : i think i misled you about that zombie generation talk.. i was joking at the time, orb
+22-30:OOC: Urist Elfengraving/Kinglordz : Hai
+22-30:ACCESS: Login: ReaperSWE from 78.73.123.189
+22-30:OOC: Cog Swordwall/Orb370 : :P
+22-30:OOC: Cog Swordwall/Orb370 : Well now im gullible and idiotic.
+22-30:OOC: Gregory Hampshire/ReaperSWE : weren&#39;t you always?
+22-30:OOC: Cog Doorengraving/Headswe : its an invasion
+22-30:OOC: Cog Swordwall/Orb370 : Maybe.
+22-30:OOC: Cog Swordwall/Orb370 : I cant hear a tone of voice over the internet
+22-30:OOC: Cog Doorengraving/Headswe : You can vote for crap
+22-30:OOC: Steve Uristwin/Segellion : still it may be a fun mode, if there wasnt a big code overhead
+22-30:VOTE: Voting to change mode started by Steve Uristwin/Segellion
+22-30:GAME: ReaperSWE entered as Gregory Hampshire
+22-30:OOC: Cog Doorengraving/Headswe : You can call the shuttle in zombie mode now
+22-30:OOC: Cog Doorengraving/Headswe : btw
+22-30:OOC: Steve Uristwin/Segellion : cool
+22-30:OOC: Cog Doorengraving/Headswe : Just don&#39;t bring infected/zombies with ya.
+22-30:OOC: Cog Doorengraving/Headswe : kinda bad ya know.
+22-30:OOC: Cog Swordwall/Orb370 : Er, except when the humans dont call the shuttle
+22-30:OOC: Gregory Hampshire/ReaperSWE : nuclear with 5 peeps?
+22-30:OOC: Steve Uristwin/Segellion : if zombies were hurt by cold, all the humans would hang out outside :(
+22-30:OOC: Gregory Hampshire/ReaperSWE : are you drunk?
+22-30:OOC: Cog Swordwall/Orb370 : Which comes back to stalemates.
+22-30:GAME: starting game of sandbox
+22-30:ACCESS: Logout: 
+22-30:ACCESS: Login: ReaperSWE from 78.73.123.189
+22-30:OOC: Cog Swordwall/Orb370 : Segellion, they could hang outside anyway
+22-30:GAME: Headswe entered as Cog Doorengraving
+22-30:VOTE: Voting closed, result was traitor
+22-30:OOC: Cog Doorengraving/Headswe : LOL
+22-30:OOC: Xerxes/ReaperSWE : ...
+22-30:GAME: Rebooting due to mode vote
+22-30:ACCESS: Logout: Orb370
+22-30:ACCESS: Logout: Segellion
+22-30:ACCESS: Logout: Headswe
+22-30:ACCESS: Logout: Kinglordz
+22-30:ACCESS: Logout: ReaperSWE
+22-35:ADMIN: Loading crban_keylist
+22-35:ADMIN: Loading crban_reason
+22-35:ADMIN: Loading crban_time
+22-35:ADMIN: Loading crban_bannedby
+22-35:ADMIN: Loading crban_iplist
+22-35:ADMIN: Loading crban_unbanned
+22-35:ADMIN: Loading jobban_rank
+22-35:ADMIN: Updating jobbanfile!
+22-35:ACCESS: Login: ReaperSWE from 78.73.123.189
+22-35:ACCESS: Login: Headswe from 127.0.0.1
+22-35:ACCESS: Login: Orb370 from 4.154.132.198
+22-35:GAME: ReaperSWE entered as Gregory Hampshire
+22-35:ADMIN: Headswe delayed the game.
+22-35:GAME: Orb370 entered as Cog Swordwall
+22-35:OOC: Gregory Hampshire/ReaperSWE : I&#39;ve been reading that gigantic dream maker guide.. I&#39;m halfway now.
+22-35:OOC: Gregory Hampshire/ReaperSWE : 125 pages out of 233.. *yawns*
+22-35:OOC: Cog Swordwall/Orb370 : Hehe.
+22-35:OOC: Cog Swordwall/Orb370 : Hey head, how hard would it be to code to have your &#34;tabs&#34; like intent auto out, like in goon.
+22-35:OOC: Gregory Hampshire/ReaperSWE : a minor note, the intent button is hidden under the intent menu
+22-35:ACCESS: Login: Blueothello from 173.69.173.184
+22-35:ACCESS: Login: Kinglordz from 78.150.108.250
+22-35:OOC: Cog Swordwall/Orb370 : It is.
+22-35:GAME: Kinglordz entered as Cog Boozecabinet
+22-35:ACCESS: Login: High-Lord Vin from 76.215.136.180
+22-35:OOC: Cog Swordwall/Orb370 : You cant put it back(if you ever wanted to...:P)
+22-35:OOC: Cog Doorengraving/Headswe : YOU CAN
+22-35:ACCESS: Login: Segellion from 24.179.87.49
+22-35:OOC: Gregory Hampshire/ReaperSWE : if you know the hidden verb
+22-35:OOC: Gregory Hampshire/ReaperSWE : &gt;.&lt;
+22-35:OOC: Cog Swordwall/Orb370 : Er, if you know the keyboard shortcut I guess.
+22-35:GAME: Segellion entered as Steve Uristwin
+22-35:OOC: Cog Doorengraving/Headswe : nope
+22-35:OOC: Cog Boozecabinet/Kinglordz : Wat modee?
+22-35:OOC: Cog Doorengraving/Headswe : just press where it soppused to me
+22-35:OOC: Cog Doorengraving/Headswe : be*
+22-35:GAME: Headswe entered as Cog Doorengraving
+22-35:OOC: Cog Swordwall/Orb370 : I just meant from my perspective.
+22-35:GAME: High-Lord Vin entered as Vin Howard
+22-35:OOC: Cog Swordwall/Orb370 : It switches to harm. :P
+22-35:VOTE: Voting to change mode started by Gregory Hampshire/ReaperSWE
+22-35:OOC: Vin Howard/High-Lord Vin : hay orb
+22-35:OOC: Cog Doorengraving/Headswe : who removes the intent bar anyway.
+22-35:OOC: Gregory Hampshire/ReaperSWE : another suggestion..
+22-35:OOC: Cog Swordwall/Orb370 : Hey
+22-35:OOC: Gregory Hampshire/ReaperSWE : since traitor rounds can extend into huge periods of time after the traitor is dead..
+22-35:OOC: Cog Swordwall/Orb370 : Aha, you were right, nevermind head.
+22-35:OOC: Gregory Hampshire/ReaperSWE : How about terminating the round when the traitor dies or accomplishes the objectives.
+22-35:OOC: Vin Howard/High-Lord Vin : ow, could you post the avrage times the bay12 servers are up on the Ben Olding forum?
+22-35:VOTE: Voting closed, result was nuclear
+22-35:OOC: Cog Swordwall/Orb370 : Er, the traitor escaping is part of the objectives
+22-35:OOC: Cog Swordwall/Orb370 : I wouldnt know
+22-35:OOC: Gregory Hampshire/ReaperSWE : not always.
+22-35:OOC: Cog Doorengraving/Headswe : Dunno mna
+22-35:OOC: Cog Swordwall/Orb370 : Ask Head, and I will post I guess
+22-35:SAY: Vin Howard/High-Lord Vin : ;lights out
+22-35:OOC: Cog Doorengraving/Headswe : brb
+22-35:OOC: Vin Howard/High-Lord Vin : lights out
+22-35:OOC: Cog Swordwall/Orb370 : Yes High.
+22-35:OOC: Cog Swordwall/Orb370 : Its a small glitch, doesnt matter at all
+22-35:OOC: Cog Swordwall/Orb370 : They come on when the game starts
+22-35:OOC: Gregory Hampshire/ReaperSWE : atleast terminate the round when traitor dies, and is not revived withing x minutes.
+22-35:OOC: Vin Howard/High-Lord Vin : does this station have good lighting?
+22-35:OOC: Gregory Hampshire/ReaperSWE : yes.
+22-35:OOC: Cog Swordwall/Orb370 : Er, yes, it does, which sucks now
+22-35:OOC: Cog Swordwall/Orb370 : I loved the darkness. :P
+22-35:OOC: Cog Boozecabinet/Kinglordz : lol
+22-35:ACCESS: Login: Trorbes from 75.58.81.221
+22-35:SAY: Vin Howard/High-Lord Vin : ;when game start?
+22-35:OOC: Eric Worth/Trorbes : Hey
+22-35:OOC: Vin Howard/High-Lord Vin : when game start and why does it take so long?
+22-35:GAME: Trorbes entered as Eric Worth
+22-35:OOC: Gregory Hampshire/ReaperSWE : to give people a chance to join.
+22-35:OOC: Cog Swordwall/Orb370 : &#34;Cog Swordwall starts sneaking around!&#34; &#34;Cog Swordwall bites Urist McUrist&#34;
+22-35:ADMIN: Trorbes/Eric Worth : Hey, Head.  You ever get the Git working?
+22-35:OOC: Vin Howard/High-Lord Vin : ahhh!
+22-35:GAME: Blueothello entered as Glenn Beck
+22-35:OOC: Cog Swordwall/Orb370 : Darkness. Where have you gone? D:
+22-35:SAY: Glenn Beck/Blueothello : I made an album.
+22-35:SAY: Glenn Beck/Blueothello : Its called Odelay.
+22-35:OOC: Cog Swordwall/Orb370 : Anyway, sometimes the game takes a bit to start
+22-35:OOC: Cog Swordwall/Orb370 : Plus, as it was said before, gives people a chance to spawn
+22-35:OOC: Glenn Beck/Blueothello : I love naming my characters off of Lesser Known people.
+22-35:OOC: Vin Howard/High-Lord Vin : the people at the goon station like banning me
+22-35:OOC: Glenn Beck/Blueothello : Boris the Bulletdodger, Glenn Beck.
+22-35:OOC: Cog Swordwall/Orb370 : Er, they probably think your a noob, ect.
+22-35:OOC: Gregory Hampshire/ReaperSWE : Then we might share a common interest..
+22-35:OOC: Cog Boozecabinet/Kinglordz : i just got banned xD
+22-35:OOC: Cog Boozecabinet/Kinglordz : For nothing Lol
+22-35:OOC: Eric Worth/Trorbes : How is Glenn Beck a &#34;leser known&#34; person?
+22-35:OOC: Cog Swordwall/Orb370 : I just tend to avoid goon servers
+22-35:OOC: Gregory Hampshire/ReaperSWE : im not banned from any of them.
+22-35:OOC: Cog Swordwall/Orb370 : Neither am I
+22-35:OOC: Eric Worth/Trorbes : Last time I was on goon it was when they were raiding us.
+22-35:OOC: Cog Boozecabinet/Kinglordz : 1day ban
+22-35:OOC: Cog Swordwall/Orb370 : You just got to stay quiet and do nothing out of the way, and your fine
+22-35:OOC: Glenn Beck/Blueothello : Trobes not everyone knows about him.
+22-35:OOC: Eric Worth/Trorbes : Well if they&#39;re not American, sure.
+22-35:OOC: Cog Swordwall/Orb370 : Start blabbing about people griefing you will get you in trouble.
+22-35:OOC: Cog Boozecabinet/Kinglordz : Gooooooooooo
+22-35:OOC: Cog Swordwall/Orb370 : Expecially as a big baby.
+22-35:OOC: Glenn Beck/Blueothello : Actually most of the people in my classes don&#39;t know of him.
+22-35:OOC: Glenn Beck/Blueothello : Or the Gorillaz.
+22-35:OOC: Cog Swordwall/Orb370 : I have no idea who he is.
+22-35:OOC: Cog Swordwall/Orb370 : If its a band, I will never know.
+22-35:OOC: Vin Howard/High-Lord Vin : I got a 10hr ban; and just for flashbanging people on the escape suttle; I mean people ALWAYS giff on that suttle
+22-35:OOC: Eric Worth/Trorbes : Huh.  Maybe it&#39;s because I hang around political discussion boards, then.
+22-35:OOC: Cog Swordwall/Orb370 : Flashbangs are never to be used
+22-35:OOC: Cog Swordwall/Orb370 : I learned myself
+22-35:OOC: Cog Swordwall/Orb370 : There are better ways
+22-35:OOC: Cog Boozecabinet/Kinglordz : o2
+22-35:OOC: Cog Boozecabinet/Kinglordz : co2
+22-35:OOC: Cog Boozecabinet/Kinglordz : Flamethrower xD
+22-35:OOC: Cog Boozecabinet/Kinglordz : Go
+22-35:OOC: Cog Swordwall/Orb370 : Er...
+22-35:ACCESS: Login: Xegeth from 77.103.224.146
+22-35:OOC: Cog Swordwall/Orb370 : He knows when to go
+22-35:OOC: Vin Howard/High-Lord Vin : are the geectic blocks for superpower randomnized on this server?
+22-35:OOC: Cog Swordwall/Orb370 : Thats like me saying...BREATHE
+22-35:OOC: Cog Swordwall/Orb370 : Yes
+22-35:OOC: Cog Swordwall/Orb370 : All diseases and &#34;super powers&#34; are randomised
+22-35:OOC: Cog Boozecabinet/Kinglordz : BREATHE
+22-35:GAME: Xegeth entered as Ashan Selfer
+22-35:OOC: Cog Swordwall/Orb370 : I KNOW I HAVE TO BREATH GOD DANG IT
+22-35:OOC: Cog Swordwall/Orb370 : Hehe.
+22-35:OOC: Vin Howard/High-Lord Vin : what about the species gene?
+22-35:OOC: Cog Swordwall/Orb370 : Its always block 14 or something
+22-35:OOC: Gregory Hampshire/ReaperSWE : You are now BLINKING and BREATHING manually.
+22-35:OOC: Cog Boozecabinet/Kinglordz : SO DO I
+22-35:OOC: Cog Boozecabinet/Kinglordz : I KNOW its so fun XD
+22-35:OOC: Glenn Beck/Blueothello : I once met a man who forgot to breath.
+22-35:OOC: Vin Howard/High-Lord Vin : if you are waiting for the goon sever to let out, they already did; JUST as you opened this server
+22-35:OOC: Glenn Beck/Blueothello : In the E.R.
+22-35:OOC: Cog Swordwall/Orb370 : Remember people, no voting a restart or change mode
+22-35:OOC: Cog Swordwall/Orb370 : Or the like
+22-35:OOC: Eric Worth/Trorbes : Are we waiting for Head or something?
+22-35:OOC: Cog Swordwall/Orb370 : Er....he did say brb//
+22-35:OOC: Cog Swordwall/Orb370 : But jsut start anyway
+22-35:OOC: Gregory Hampshire/ReaperSWE : *sigh*
+22-35:OOC: Vin Howard/High-Lord Vin : even the sandbox goon servers have as much as we do D:
+22-35:OOC: Gregory Hampshire/ReaperSWE : he broke it.
+22-35:OOC: Steve Uristwin/Segellion : 8/9 ready
+22-35:OOC: Eric Worth/Trorbes : Starting...
+22-35:ADMIN: Trorbes used start_now
+22-35:GAME: starting game of nuclear emergency
+22-35:ACCESS: Logout: 
+22-35:ACCESS: Login: Headswe from 127.0.0.1
+22-35:OOC: Syndicate Leader/Orb370 : Unless the host is the only one who can do that. :P
+22-35:SAY: Syndicate Leader/Orb370 : Ok troops
+22-35:SAY: Syndicate Leader/Orb370 : Ok, what you guys want?
+22-35:SAY: Syndicate Operative #1 (as )/Xegeth : Should we try to reprogram the AI?
+22-35:SAY: Syndicate Operative #2 (as )/Trorbes : How we doing this?
+22-35:SAY: Syndicate Leader/Orb370 : Well, I say we use voice changers and try to infiltrate
+22-35:SAY: Syndicate Leader/Orb370 : Then we can do what we want from there
+22-35:ACCESS: Login: Teetot from 97.66.213.211
+22-35:SAY: Syndicate Leader/Orb370 : Also remember, revolvers only shoot at the ground, tasers shoot in the direction
+22-35:SAY: Syndicate Leader/Orb370 : So I recommend getting a taser, but thats just me
+22-35:SAY: Glenn Beck/Blueothello : ;OH MAH GOD!
+22-35:SAY: Unknown/Trorbes : I&#39;m a good shot, anyway.
+22-35:SAY: Steve Uristwin/Segellion : ;Crew, report in
+22-35:SAY: Syndicate Leader (as )/Orb370 : So you guys dont want anything teleported in?
+22-35:SAY: Gregory Hampshire/ReaperSWE : ;Still ticking.
+22-35:SAY: Vin Howard/High-Lord Vin : ;Im fine
+22-35:SAY: Cog Boozecabinet/Kinglordz : Guys,i got a problem
+22-35:SAY: Glenn Beck/Blueothello : ;GLENN BECK!
+22-35:SAY: Unknown/Trorbes : What&#39;s the plan, anyway?
+22-35:SAY: Glenn Beck/Blueothello : ;ATMOS TECH!
+22-35:SAY: Glenn Beck/Blueothello : ;WE&#39;RE ALL DEAD!
+22-35:SAY: Unknown/Xegeth : I&#39;m new to this. What do you suggest?
+22-35:SAY: Cog Boozecabinet/Kinglordz : I GOT A PROBLEM
+22-35:SAY: Syndicate Leader (as )/Orb370 : Get the nuclear disk, if not at bridge, infiltrate
+22-35:SAY: Glenn Beck/Blueothello : ;A DEATH PROBLEM!?
+22-35:SAY: Unknown/Trorbes : Take out the AI?  A couple good bombs&#39;ll do it.
+22-35:SAY: Steve Uristwin/Segellion : ;I need volunteers for security detail
+22-35:SAY: Unknown/Trorbes : I can manage that.
+22-35:SAY: Cog Boozecabinet/Kinglordz : ILL SIGN UP SIR MY BROTHERS DEAD
+22-35:SAY: Syndicate Leader (as )/Orb370 : Ok, you will be obvious and blow stuff up
+22-35:SAY: Unknown/Xegeth : Why don&#39;t we try getting to the sat?
+22-35:SAY: Syndicate Leader (as )/Orb370 : You get the most bombs 2
+22-35:SAY: Unknown/Xegeth : Turn it to our side?
+22-35:SAY: Steve Uristwin/Segellion : ;Boozecabinet, Beck, report to SecHQ
+22-35:SAY: Glenn Beck/Blueothello : ;I&#39;ll Sign up.
+22-35:SAY: Syndicate Leader (as )/Orb370 : Syndi one and I will try to find the disk, while at the same time try to impersonate the crew?
+22-35:SAY: Steve Uristwin/Segellion : ;Boozecabinet, Beck, report to SecHQ
+22-35:SAY: Glenn Beck/Blueothello : ;Oh fuck.
+22-35:SAY: Unknown/Xegeth : I&#39;ll try.
+22-35:SAY: Syndicate Leader (as )/Orb370 : The AI could be on our side, but the crew can just turn it right back
+22-35:SAY: Syndicate Leader (as )/Orb370 : Bombs are easier anyway
+22-35:SAY: Unknown/Xegeth : Is there a voice changer?
+22-35:SAY: Unknown/Trorbes : Got it.
+22-35:SAY: Syndicate Leader (as )/Orb370 : There is a voice changer
+22-35:SAY: Unknown/Trorbes : Hey, bring the rest of the bombs with us.
+22-35:SAY: Unknown/Trorbes : Leave them on the ship.
+22-35:SAY: Unknown/Orb370 : Well I need a bomb
+22-35:ACCESS: Login: Vayre from 62.56.109.117
+22-35:SAY: Unknown/Trorbes : Or take them, whatever.
+22-35:SAY: Cog Boozecabinet/Kinglordz : I ddunno where is it i stay in engine alolo day
+22-35:GAME: Vayre entered as Urist Boozeboat
+22-35:SAY: Steve Uristwin/Segellion : ;Northwest.
+22-35:SAY: Glenn Beck/Blueothello : So wait...
+22-35:OOC: Urist Boozeboat/Vayre : Hey everyone
+22-35:SAY: Glenn Beck/Blueothello : What?
+22-35:SAY: Unknown/Trorbes : I&#39;m heading to the shuttle.
+22-35:SAY: Steve Uristwin/Segellion : Arm up
+22-35:SAY: Steve Uristwin/Segellion : Youve been deputized.
+22-35:SAY: Cog Boozecabinet/Kinglordz : Im at firestation
+22-35:SAY: Glenn Beck/Blueothello : Nice.
+22-35:SAY: Steve Uristwin/Segellion : ;north
+22-35:SAY: Glenn Beck/Blueothello : Does that mean I die first?
+22-35:SAY: Cog Boozecabinet/Kinglordz : Ill risk my life sirt
+22-35:SAY: Unknown/Trorbes : Anyone grabbing the code?
+22-35:SAY: Unknown/Orb370 : ; Change your Comms freq to 147.5
+22-35:SAY: Steve Uristwin/Segellion : Youve been deputized, Boozecabinet
+22-35:SAY: Cog Boozecabinet/Kinglordz : Ok
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : Swoosh.
+22-35:SAY: Unknown/Orb370 : The bomb code is already in your memory
+22-35:SAY: Urist Boozeboat/Vayre : ; Can i get a job please?
+22-35:SAY: Steve Uristwin/Segellion : Beck is your superior.. Weve got syndicate around, be on guard.
+22-35:GAME: Teetot entered as Teetot
+22-35:SAY: Unknown/Trorbes : No it isn&#39;t.
+22-35:SAY: Vin Howard/High-Lord Vin : do not think I have the power
+22-35:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : Hey.
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : How about we flip flop that.
+22-35:SAY: Steve Uristwin/Segellion : Beck, dont wear that.. just use it for access.
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : You are now my superior.
+22-35:SAY: Cog Boozecabinet/Kinglordz : Hmm
+22-35:SAY: Cog Boozecabinet/Kinglordz : I dont care if i do
+22-35:SAY: Cog Boozecabinet/Kinglordz : Die
+22-35:SAY: Cog Boozecabinet/Kinglordz : All my family are dead
+22-35:OOC: Unknown/Orb370 : If I carry a station bounced radio around, can I hear the crew, but they wont hear me?
+22-35:ACCESS: Login: Sethcool from 90.194.247.49
+22-35:GAME: Mr.Peanuts entered as Fred McBurger
+22-35:OOC: Cog Boozecabinet/Kinglordz : yup
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ....Cool?
+22-35:OOC: Fred McBurger/Mr.Peanuts : Hello guys
+22-35:SAY: Cog Boozecabinet/Kinglordz : ...
+22-35:OOC: Urist Boozeboat/Vayre : can&#39;t yuo do that anyway?
+22-35:OOC: Gregory Hampshire/ReaperSWE : oh my lol
+22-35:OOC: Unknown/Orb370 : What if I speak into the radio?
+22-35:OOC: Urist Boozeboat/Vayre : witht he headset
+22-35:OOC: Gregory Hampshire/ReaperSWE : admins, check what happened at my pos
+22-35:OOC: Fred McBurger/Mr.Peanuts : Kinglrdz are you KingQ8 from facepunch?
+22-35:SAY: Unknown/Trorbes : This one, I think.
+22-35:OOC: Fred McBurger/Mr.Peanuts : Kinglordz, my appologies
+22-35:OOC: Urist Boozeboat/Vayre : or does the station bounced one listen to the wall intercoms?
+22-35:ACCESS: Logout: Mr.Peanuts
+22-35:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+22-35:SAY: Gregory Hampshire/ReaperSWE : ;HUREKA! I&#39;ve made a transvestite!
+22-35:SAY: Cog Boozecabinet/Kinglordz : Lets just get this fucking job done so i can get back to my fucking cheese burger
+22-35:OOC: Urist Boozeboat/Vayre : ?
+22-35:OOC: Seth Julias/Sethcool : Hey guys
+22-35:SAY: Unknown/Trorbes : ;Where the hell are you guys?
+22-35:OOC: Fred McBurger/Mr.Peanuts : Hello
+22-35:OOC: Cog Boozecabinet/Kinglordz : Hai
+22-35:SAY: Unknown/Xegeth : ;In space.
+22-35:SAY: Unknown/Trorbes : ;WHY?
+22-35:OOC: Seth Julias/Sethcool : Being banned from GS dev = griefmins ahoy
+22-35:OOC: Fred McBurger/Mr.Peanuts : Kinglordz, would you kindly answer my question?
+22-35:OOC: Cog Boozecabinet/Kinglordz : ??
+22-35:SAY: Unknown/Xegeth : ;Where should I go?
+22-35:OOC: Fred McBurger/Mr.Peanuts : Are you KingQ8 from Facepunch?
+22-35:SAY: Unknown/Trorbes : ;The SHUTTLE?
+22-35:SAY: Vin Howard/High-Lord Vin : follow me plz
+22-35:OOC: Cog Boozecabinet/Kinglordz : Nope,soz
+22-35:OOC: Fred McBurger/Mr.Peanuts : Ok, just wondering
+22-35:SAY: Unknown/Orb370 : Ok
+22-35:OOC: Urist Boozeboat/Vayre : What does a station-bounced radio do?
+22-35:OOC: Cog Boozecabinet/Kinglordz : Lol.
+22-35:OOC: Cog Boozecabinet/Kinglordz : LOL
+22-35:OOC: Fred McBurger/Mr.Peanuts : I have been partialy viewing FacePunch for their dwarf fortress thread
+22-35:SAY: Unknown/Trorbes : Ready?
+22-35:SAY: Unknown/Orb370 : So one of you come with me, the other blows stuff up
+22-35:OOC: Cog Boozecabinet/Kinglordz : Lets you call things in
+22-35:SAY: Unknown/Xegeth : Ready.
+22-35:OOC: Fred McBurger/Mr.Peanuts : Vayre, it is just like the headset but useless
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : YEAH!
+22-35:SAY: Unknown/Orb370 : You blowing stuff up or infiltrating?
+22-35:OOC: Unknown/Orb370 : Er.
+22-35:SAY: Cog Boozecabinet/Kinglordz : IM FUCKING STARVING
+22-35:OOC: Fred McBurger/Mr.Peanuts : ; it&#39;s one of those features we don&#39;t need.
+22-35:SAY: Unknown/Trorbes : Uh
+22-35:SAY: Unknown/Xegeth : I&#39;m following you.
+22-35:SAY: Cog Boozecabinet/Kinglordz : DO LETS GET DIS SHIT DONE
+22-35:SAY: Urist Boozeboat/Vayre : cough
+22-35:OOC: Unknown/Orb370 : If you speak into your headset, do you also speak into the station bounced radios?
+22-35:OOC: Gregory Hampshire/ReaperSWE : it hardly useless..
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;FOOOOOOOOOOOOOD!
+22-35:SAY: Unknown/Trorbes : Anyone know how to pilot this bucket?
+22-35:GAME: Sethcool entered as Seth Julias
+22-35:OOC: Seth Julias/Sethcool : no
+22-35:SAY: Unknown/Orb370 : I do
+22-35:OOC: Gregory Hampshire/ReaperSWE : only if the radio is on.
+22-35:SAY: Unknown/Orb370 : Wait
+22-35:OOC: Cog Boozecabinet/Kinglordz : it gives you cloak device...
+22-35:OOC: Cog Boozecabinet/Kinglordz : ??
+22-35:SAY: Unknown/Xegeth : Never done this before.
+22-35:ACCESS: Logout: Teetot
+22-35:SAY: Urist Boozeboat/Vayre : whats going on here?
+22-35:SAY: Unknown/Orb370 : Im going to get a sation bounced radio
+22-35:OOC: Cog Boozecabinet/Kinglordz : and Energy sword?
+22-35:OOC: Seth Julias/Sethcool : you can only use it if you equip it into a hand and type say [L] or say [R]
+22-35:SAY: Unknown/Xegeth : Get me one please.
+22-35:SAY: Cog Boozecabinet/Kinglordz : I dunno
+22-35:OOC: Fred McBurger/Mr.Peanuts : cloak is lame
+22-35:SAY: Cog Boozecabinet/Kinglordz : CAptain let us be Security
+22-35:OOC: Seth Julias/Sethcool : and that&#39;s only for Syndicate
+22-35:OOC: Gregory Hampshire/ReaperSWE : never gotten those verbs to work
+22-35:SAY: Cog Boozecabinet/Kinglordz : SO WE GUNNA KILL BASTARDS
+22-35:ACCESS: Login: Googolplexed from 123.243.197.60
+22-35:SAY: Fred McBurger/Mr.Peanuts : doors!
+22-35:SAY: Fred McBurger/Mr.Peanuts : Those are for suckers
+22-35:SAY: Unknown/Trorbes : I think I got it now.
+22-35:SAY: Vin Howard/High-Lord Vin : captain do you have the disk?
+22-35:SAY: Cog Boozecabinet/Kinglordz : AND PROTET THE SPACE STATION
+22-35:SAY: Unknown/Xegeth : We&#39;re just waiting for the leader.
+22-35:SAY: Urist Boozeboat/Vayre : ; does anyone here have the power to and out jobs?
+22-35:ADMIN: Googolplexed/Cog Glasswood : Head, are you still here ?
+22-35:SAY: Unknown/Orb370 : Yep
+22-35:SAY: Unknown/Orb370 : Let me test
+22-35:SAY: Unknown/Orb370 : ; Test
+22-35:SAY: Unknown/Trorbes : Ready?
+22-35:SAY: Unknown/Orb370 : Nope, it they didnt hear me
+22-35:MATTACK: Seth Julias(Sethcool) attcked by Seth Julias(Sethcool) with the cakehat
+22-35:SAY: Cog Boozecabinet/Kinglordz : Im going on patrol
+22-35:SAY: Unknown/Xegeth : Ready.
+22-35:SAY: Unknown/Orb370 : You guys got your radio on 147.5?
+22-35:SAY: Cog Boozecabinet/Kinglordz : are you in?
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : NOPE!
+22-35:SAY: Vin Howard/High-Lord Vin : ;where is the synies?
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : You can go do that shit.
+22-35:SAY: Cog Boozecabinet/Kinglordz : Cause im shitting my self!!!!!!!!!!!!!!!!!!
+22-35:SAY: Unknown/Orb370 : Radios on 147.5 please
+22-35:SAY: Unknown/Orb370 : Remember to turn on your 02.
+22-35:SAY: Unknown/Orb370 : Alright
+22-35:SAY: Unknown/Orb370 : One of you goes with me to the bridge
+22-35:ADMIN: Googolplexed/Cog Glasswood : Guess not
+22-35:SAY: Unknown/Orb370 : THe other blows up the AI sat when I give the signal
+22-35:SAY: Unknown/Trorbes : I&#39;ll hit the AI.
+22-35:SAY: Unknown/Orb370 : Got it syndi 2
+22-35:OOC: Vin Howard/High-Lord Vin : not much is hapening
+22-35:ADMIN: PM: Trorbes->Googolplexed : He went AFK a while ago, I guess.
+22-35:SAY: Unknown/Orb370 : We will infiltrate and look for the disk.
+22-35:OOC: Cog Boozecabinet/Kinglordz : Ye wtf syndie?
+22-35:SAY: Unknown/Orb370 : You blow the AI up when we reach the bridge
+22-35:OOC: Unknown/Orb370 : GIVE US A SECOND
+22-35:OOC: Unknown/Orb370 : God.
+22-35:SAY: Vin Howard/High-Lord Vin : lol
+22-35:OOC: Unknown/Orb370 : Its called planning, not rush and die
+22-35:OOC: Cog Boozecabinet/Kinglordz : gave you like 5mins
+22-35:OOC: Urist Boozeboat/Vayre : WE WANT BLOOOOOOOOOOOOOOOOOOD
+22-35:OOC: Unknown/Trorbes : Give us 15, then.
+22-35:SAY: Vin Howard/High-Lord Vin : ;why are there 2 captains!
+22-35:SAY: Unknown/Orb370 : Ok
+22-35:OOC: Cog Boozecabinet/Kinglordz : planning will end up a spike i  ur head
+22-35:SAY: Steve Uristwin/Segellion : Howard
+22-35:SAY: Unknown/Orb370 : I will listen to their comms also
+22-35:OOC: Cog Boozecabinet/Kinglordz : Cause we could rush u xD
+22-35:SAY: Steve Uristwin/Segellion : Give me a hand
+22-35:SAY: Unknown/Xegeth : Let&#39;s go?
+22-35:SAY: Vin Howard/High-Lord Vin : ya
+22-35:SAY: Unknown/Orb370 : We are going
+22-35:ADMIN: Googolplexed/Cog Glasswood : Looks like he isn&#39;t using the latest git code
+22-35:SAY: Unknown/Xegeth : Ok.
+22-35:OOC: Unknown/Orb370 : We start on a syndi station
+22-35:SAY: Steve Uristwin/Segellion : We need an exterior patrol.. grab a suit
+22-35:ADMIN: PM: Trorbes->Googolplexed : He was doing some testing earlier.
+22-35:OOC: Unknown/Orb370 : We have to fly over.
+22-35:OOC: Unknown/Orb370 : Jeez
+22-35:ADMIN: Googolplexed/Cog Glasswood : With what ?
+22-35:OOC: Cog Boozecabinet/Kinglordz : lol
+22-35:ACCESS: Login: Andrea the second from 151.33.205.51
+22-35:SAY: Unknown/Orb370 : Hmm, I cant hear them when I have the radio in my pocket
+22-35:ADMIN: PM: Trorbes->Googolplexed : Lighting, I think, and the ability for the AI to track people through radio messages.
+22-35:ADMIN: PM: Trorbes->Googolplexed : But it didn't work out.
+22-35:SAY: Unknown/Xegeth : I can hear them.
+22-35:ADMIN: PM: Trorbes->Googolplexed : So he reverted.
+22-35:SAY: Unknown/Orb370 : I could put it on my belt,. but then I dont have an easy access radio.
+22-35:OOC: Fred McBurger/Mr.Peanuts : Kinglordz, could you please type in a more legible and less immature way?
+22-35:SAY: Unknown/Orb370 : Oh well
+22-35:SAY: Unknown/Orb370 : 02 on
+22-35:ADMIN: Googolplexed/Cog Glasswood : Ok
+22-35:OOC: Fred McBurger/Mr.Peanuts : It bothers me, but if you refuse I can tolerate it.
+22-35:SAY: Unknown/Orb370 : Dont open yet
+22-35:OOC: Cog Boozecabinet/Kinglordz : Ummm no?
+22-35:SAY: Unknown/Trorbes : On.
+22-35:ACCESS: Logout: Googolplexed
+22-35:SAY: Unknown/Xegeth : On.
+22-35:SAY: Unknown/Orb370 : Lets go
+22-35:GAME: Andrea the second entered as Elspet Bennet
+22-35:SAY: Steve Uristwin/Segellion : ;Beck, take off that damn badge. Use it only for access
+22-35:MATTACK: Seth Julias(Sethcool) attcked by () with Fire Extinguisher
+22-35:SAY: Unknown/Orb370 : ; Remember operative 1, meet me at the bridge before blowing anything up
+22-35:SAY: Steve Uristwin/Segellion : ;Also, Beck.. I and HoP are heading offstation for a few.
+22-35:SAY: Elspet Bennet/Andrea the second : hello
+22-35:SAY: Vin Howard/High-Lord Vin : ok
+22-35:SAY: Seth Julias/Sethcool : Hi,
+22-35:SAY: Steve Uristwin/Segellion : set?
+22-35:SAY: Vin Howard/High-Lord Vin : ya
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;Wait
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;I think....
+22-35:SAY: Elspet Bennet/Andrea the second : ; hello..
+22-35:SAY: Unknown/Orb370 : ; Dont get caught guys
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;OH GOD!
+22-35:SAY: Unknown/Orb370 : ; Till I say so, anyway.
+22-35:SAY: Elspet Bennet/Andrea the second : ; is there an HoP?
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;HELP!
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;IN SECURITY!
+22-35:SAY: Steve Uristwin/Segellion : ;where
+22-35:SAY: Unknown/Orb370 : ; You revealed yourselves?
+22-35:SAY: Glenn Beck (as Captain)/Blueothello : ;THEY&#39;RE OVER WHELMING US!
+22-35:SAY: Unknown/Orb370 : ; God dang it
+22-35:SAY: Unknown/Orb370 : ; Anyway
+22-35:SAY: Unknown/Orb370 : ; meet me at the bridge syndi 1
+22-35:SAY: Unknown/Trorbes : ;I&#39;m in place.  Give me the word, and I&#39;ll light up the AI like a Christmas tree.
+22-35:SAY: Unknown/Orb370 : ; Cool, stay hidden
+22-35:SAY: Steve Uristwin/Segellion : moron
+22-35:SAY: Unknown/Orb370 : ; Blow up the engine after the AI sat
+22-35:SAY: Elspet Bennet/Andrea the second : what happened?
+22-35:SAY: Unknown/Trorbes : ;I&#39;m in place.  Give me the word, and I&#39;ll light up the AI like a Christmas tree
+22-35:SAY: Urist Boozeboat/Vayre : whats going on?
+22-35:SAY: Unknown/Orb370 : ; At bridge
+22-35:SAY: Unknown/Orb370 : ; Syndi 1?
+22-35:SAY: Elspet Bennet/Andrea the second : captain, may we get jobs?
+22-35:MATTACK: Unknown(Xegeth)has shot a taser round at Teetot
+22-35:MATTACK: Unknown(Xegeth)has shot a taser round at Urist Boozeboat
+22-35:MATTACK: Unknown(Xegeth)has shot a taser round at Urist Boozeboat
+22-35:MATTACK: Unknown(Xegeth)has shot a taser round at Teetot
+22-35:SAY: Unknown/Orb370 : ; Er, syndi one?
+22-35:MATTACK: Elspet Bennet(Andrea the second) clicked on Syndicate Operative #1(Xegeth) with intent on harm
+22-35:SAY: Unknown/Orb370 : ; He may have not listened to me
+22-35:MATTACK: Elspet Bennet(Andrea the second) clicked on Syndicate Operative #1(Xegeth) with intent on harm
+22-35:MATTACK: Elspet Bennet(Andrea the second) clicked on Syndicate Operative #1(Xegeth) with intent on harm
+22-35:SAY: Steve Uristwin/Segellion : sure
+22-35:SAY: Unknown/Orb370 : ; Alright, im blowing the bridge in a minute
+22-35:SAY: Steve Uristwin/Segellion : get with bronzeboat here.
+22-35:MATTACK: Syndicate Operative #1(Xegeth) attcked by Elspet Bennet(Andrea the second) with the revolver
+22-35:SAY: Steve Uristwin/Segellion : hes your boss now
+22-35:SAY: Unknown/Orb370 : ; Blow up the AI sat
+22-35:MATTACK: Syndicate Operative #1(Xegeth) attcked by Elspet Bennet(Andrea the second) with the revolver
+22-35:MATTACK: Syndicate Operative #1(Xegeth) attcked by Elspet Bennet(Andrea the second) with the revolver
+22-35:MATTACK: Syndicate Operative #1(Xegeth) attcked by Elspet Bennet(Andrea the second) with the revolver
+22-35:MATTACK: Syndicate Operative #1(Xegeth) attcked by Elspet Bennet(Andrea the second) with the revolver
+22-35:OOC: Elspet Bennet/Andrea the second : aww... hateful lag
+22-35:OOC: HELP: Vin Howard/High-Lord Vin : how do I use jetback?
+22-35:OOC: Glenn Beck/Blueothello : Well at least not all the Syndicates are grief happy.
+22-35:ADMIN: PM: Trorbes->High-Lord Vin : Right-click > toggle
+22-35:SAY: Unknown/Orb370 : ; Bomb timed
+22-35:SAY: Unknown/Orb370 : ; Boom
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Unknown
+22-35:MATTACK: Unknown(Orb370)has shot a taser round at the space
+22-35:SAY: Unknown/Orb370 : ; Crap, he found me
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the grille
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Unknown
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the space
+22-35:MATTACK: Syndicate Leader(Orb370) clicked on Steve Uristwin(Segellion) with intent on harm
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the space
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the space
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the space
+22-35:SAY: Unknown/Orb370 : ; Im done for
+22-35:MATTACK: Gregory Hampshire(ReaperSWE)has grabbed Urist Goblinlever() aggressively (now hands) 
+22-35:SAY: Unknown/Orb370 : ; Blow everythign up
+22-35:SAY: Unknown/Orb370 : ; Come to the bridge ic you can save me
+22-35:SAY: Unknown/Orb370 : ; Er, nevermind, im in courtroom
+22-35:SAY: Captain/Kinglordz : WHAT THE FUCK
+22-35:MATTACK: Steve Uristwin(Segellion)has grabbed Unknown(Orb370) aggressively (now hands) 
+22-35:SAY: Captain/Kinglordz : ON THE FLOOR
+22-35:SAY: Elspet Bennet/Xegeth : He attacked me.
+22-35:MATTACK: Captain(Kinglordz)has shot a taser round at Elspet Bennet
+22-35:MATTACK: Captain(Kinglordz)has shot a taser round at the floor
+22-35:SAY: Fred McBurger/Mr.Peanuts : HOLY SHIT
+22-35:SAY: Elspet Bennet/Xegeth : Stop!
+22-35:SAY: Fred McBurger/Mr.Peanuts : ; FLEE
+22-35:OOC: Glenn Beck/Blueothello : I have a question.
+22-35:SAY: Unknown/Orb370 : ; In security HQ
+22-35:OOC: Unknown/Trorbes : Yes?
+22-35:OOC: Glenn Beck/Blueothello : Do you still need voice changers to truly impersonate someone?
+22-35:MATTACK: Vin Howard(High-Lord Vin)has shot a taser round at the floor
+22-35:SAY: Captain/Kinglordz : RUN
+22-35:OOC: Urist Boozeboat/Vayre : i think so yes
+22-35:MATTACK: Steve Uristwin(Segellion)has grabbed Unknown(Orb370) aggressively (now hands) 
+22-35:SAY: Captain/Kinglordz : CRAZY SPACE PEOPLE IN SECURITY
+22-35:OOC: Unknown/Trorbes : Yes.  It doesn&#39;t work over the radio, though.
+22-35:OOC: Glenn Beck/Blueothello : OK.
+22-35:MATTACK: Captain(Kinglordz)has shot a taser round at Unknown
+22-35:MATTACK: Captain(Kinglordz)has shot a taser round at Steve Uristwin
+22-35:SAY: Elspet Bennet/Xegeth : Hi.
+22-35:SAY: Seth Julias/Sethcool : Hi
+22-35:SAY: Elspet Bennet/Xegeth : I was just attacked.
+22-35:SAY: Unknown/Orb370 : ; In security HQ still
+22-35:SAY: Urist Boozeboat/Vayre : need any help?
+22-35:SAY: Seth Julias/Sethcool : Were you attacked?
+22-35:SAY: Elspet Bennet/Xegeth : In the chapel.
+22-35:ACCESS: Login: ZCHRIS13 from 67.20.133.190
+22-35:SAY: Seth Julias/Sethcool : By who?
+22-35:SAY: Elspet Bennet/Xegeth : Security.
+22-35:SAY: Vin Howard/High-Lord Vin : why!
+22-35:SAY: Unknown/Trorbes : Unless you object, I&#39;m blowing the AI up now, actually.
+22-35:SAY: Vin Howard/High-Lord Vin : wth griffer
+22-35:SAY: Unknown/Trorbes : ; Unless you object, I&#39;m blowing the AI up now, actually.
+22-35:SAY: Captain/Kinglordz : qUESITIONS!!!!!!!!
+22-35:SAY: Unknown/Orb370 : ; DO IT
+22-35:SAY: Unknown/Orb370 : ; And break me out of security HQ, if you please
+22-35:SAY: Captain/Kinglordz : WHO THE FUCK IS THE RED DUDE
+22-35:SAY: Vin Howard/High-Lord Vin : why are you doing this!
+22-35:SAY: Unknown/Orb370 : ; I may die soon
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Vin Howard(High-Lord Vin) with intent on harm
+22-35:SAY: Vin Howard/High-Lord Vin : he is a sndy
+22-35:SAY: Captain/Kinglordz : SHUT THE FUCK UP
+22-35:SAY: Elspet Bennet/Xegeth : ;I have a disguise.
+22-35:SAY: Captain/Kinglordz : Who the fuck are you
+22-35:OOC: Captain/Kinglordz : DIS IS HILARIOUS
+22-35:OOC: Unknown/Trorbes : Wait, do radios not work in closets?
+22-35:OOC: Unknown/Orb370 : Yep
+22-35:SAY: Vin Howard/High-Lord Vin : did you not see the transmission; he is a syndicate
+22-35:OOC: Glenn Beck/Blueothello : Nope.
+22-35:OOC: Unknown/Orb370 : Lockers are probably the best cells
+22-35:SAY: Captain/Kinglordz : What the fuck is synddicate
+22-35:SAY: Unknown/Orb370 : I dont know.
+22-35:SAY: Vin Howard/High-Lord Vin : that is why we arrested him
+22-35:SAY: Unknown/Orb370 : I was just coming from centcoomm
+22-35:SAY: Captain/Kinglordz : I see dis card bitch!
+22-35:SAY: Unknown/Orb370 : And all of a sudden they started tazing me outside the proto engine
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Syndicate Leader(Orb370) with intent on harm
+22-35:SAY: Vin Howard/High-Lord Vin : ;omg! I am being held by a noob!
+22-35:SAY: Captain/Kinglordz : WHO DOY UO WORK FOR
+22-35:SAY: Unknown/Orb370 : I stole it from a syndicate
+22-35:SAY: Captain/Kinglordz : WHO DID YOU WORK FOR!
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Syndicate Leader(Orb370) with intent on harm
+22-35:OOC: Urist Boozeboat/Vayre : why are so many maintenence doors not working?
+22-35:SAY: Vin Howard/High-Lord Vin : let me go plz
+22-35:SAY: Captain/Kinglordz : yOU HAVE A RED SUIT!
+22-35:OOC: Glenn Beck/Blueothello : If whoever is playing Boozecabinet thinks he will be breaking rules by knowing who or what syndicate is remember we got an announcement at the beginning of the game.
+22-35:OOC: Seth Julias/Sethcool : Cog Boozecabinet is best RP of all time
+22-35:SAY: Unknown/Orb370 : I said, I stole it from the syndicate.
+22-35:OOC: Captain/Kinglordz : tHANKS Xd
+22-35:OOC: Captain/Kinglordz : my hostages xD
+22-35:SAY: Vin Howard/High-Lord Vin : LET ME GOOOOO!
+22-35:SAY: Captain/Kinglordz : WHY AHVE YOU GOT A RED SUIT
+22-35:SAY: Steve Uristwin/Segellion : Vin Howard is your HoP.
+22-35:SAY: Steve Uristwin/Segellion : I am your Captain
+22-35:SAY: Unknown/Orb370 : I already told you.
+22-35:SAY: Gregory Hampshire/ReaperSWE : ;Shut up moron
+22-35:SAY: Captain/Kinglordz : SHUT THE FUCK UP I TALK YOU SHUT THE FUCK UP
+22-35:SAY: Elspet Bennet/Xegeth : ;Is anyone still free?
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Steve Uristwin(Segellion) with intent on harm
+22-35:SAY: Unknown/Orb370 : I stole it from the syndicate.
+22-35:OOC: Seth Julias/Sethcool : ban
+22-35:OOC: Urist Boozeboat/Vayre : this is hilarious
+22-35:SAY: Steve Uristwin/Segellion : This man is a syndicate agent who blew up our bridge.
+22-35:SAY: Captain/Kinglordz : how come you have red suit huh!
+22-35:OOC: Vin Howard/High-Lord Vin : yes plz
+22-35:SAY: Unknown/Orb370 : Er, blew up the bridge?
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Syndicate Leader(Orb370) with intent on harm
+22-35:SAY: Unknown/Orb370 : I stole it from the syndicate, how many times..
+22-35:OOC: Fred McBurger/Mr.Peanuts : I hate rods, they only serve as grilles
+22-35:OOC: Fred McBurger/Mr.Peanuts : and those are mostly useless
+22-35:SAY: Captain/Kinglordz : Your free!
+22-35:MATTACK: Gregory Hampshire(ReaperSWE) clicked on Gregory Hampshire(ReaperSWE) with a DNA injector
+22-35:ACCESS: Login: Jacob Taylor from 75.38.146.127
+22-35:SAY: Captain/Kinglordz : Now tell me
+22-35:SAY: Unknown/Orb370 : ; Welp, im still in security HQ.
+22-35:SAY: Captain/Kinglordz : Who is he
+22-35:SAY: Elspet Bennet/Xegeth : Breaking in?
+22-35:SAY: Unknown/Orb370 : Who is who?
+22-35:SAY: Steve Uristwin/Segellion : Vin, would you care explaining?
+22-35:SAY: Captain/Kinglordz : SHUT THE FUCK UP
+22-35:OOC: Fred McBurger/Mr.Peanuts : Oh and false walls had an automatic super darkness
+22-35:SAY: Captain/Kinglordz : BEFOR EI KILL YOU
+22-35:OOC: Fred McBurger/Mr.Peanuts : this should be fixed
+22-35:SAY: Steve Uristwin/Segellion : take off the helmets.
+22-35:SAY: Vin Howard/High-Lord Vin : a sendicate
+22-35:SAY: Urist Boozeboat/Vayre : Just seeing how long til someone notices
+22-35:OOC: Fred McBurger/Mr.Peanuts : as then everyone knows it is false
+22-35:SAY: Vin Howard/High-Lord Vin : he has been sent to capture the nuclear disk
+22-35:SAY: Steve Uristwin/Segellion : Now uncuff me.
+22-35:OOC: Gregory Hampshire/ReaperSWE : its fixed when you open them.
+22-35:SAY: Unknown/Trorbes : Sorry, dude.
+22-35:SAY: Captain/Kinglordz : Man your ugly
+22-35:SAY: Elspet Bennet/Xegeth : One of us is caught.
+22-35:OOC: Fred McBurger/Mr.Peanuts : nope
+22-35:OOC: Fred McBurger/Mr.Peanuts : I have opened and closed this reinforced one
+22-35:OOC: Fred McBurger/Mr.Peanuts : all it does is stay super dark
+22-35:OOC: Fred McBurger/Mr.Peanuts : you can come check it out if you want
+22-35:SAY: Captain/Kinglordz : YOUR FREE
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Syndicate Leader(Orb370) with intent on harm
+22-35:GAME: Jacob Taylor entered as Tony Cipriano
+22-35:SAY: Captain/Kinglordz : NOW YOU
+22-35:SAY: Captain/Kinglordz : who are you!
+22-35:OOC: Fred McBurger/Mr.Peanuts : It&#39;s pretty anoying because then everyone knows it is a false wall and your secret walls are then known and used by everyone.
+22-35:MATTACK: Cog Boozecabinet(Kinglordz) clicked on Syndicate Leader(Orb370) with intent on harm
+22-35:SAY: Syndicate Leader/Orb370 : As in?
+22-35:SAY: Captain/Kinglordz : Can we torture him?
+22-35:SAY: Fred McBurger/Mr.Peanuts : hello
+22-35:SAY: Syndicate Leader/Orb370 : Er, thats nice, your policies are torture prisoners
+22-35:SAY: Captain/Kinglordz : FUCK!!!
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the floor
+22-35:SAY: Fred McBurger/Mr.Peanuts : SYNDI!
+22-35:OOC: Seth Julias/Sethcool : False walls? Why not build a real one? :P
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:OOC: Captain/Kinglordz : oMG MAN DOWN!
+22-35:OOC: Captain/Kinglordz : opps
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:OOC: Fred McBurger/Mr.Peanuts : Teetot: Urist wuz here, lulz.
+22-35:SAY: Captain/Kinglordz : MAN DOWN!¬!!!!!!!!!1
+22-35:OOC: Unknown/Andrea the second : he likes having hidden doors
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Syndicate Operative #1(Xegeth) with the revolver
+22-35:OOC: Fred McBurger/Mr.Peanuts : Is this
+22-35:SAY: Captain/Kinglordz : FUCK!!!!!!!!!!!!!
+22-35:SAY: Syndicate Leader/Orb370 : Vin
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:SAY: Fred McBurger/Mr.Peanuts : HELP
+22-35:SAY: Syndicate Leader/Orb370 : Just apply it to the part of the body thats  damaged
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Teetot(Teetot) with the revolver
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the toolbox
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the toolbox
+22-35:SAY: Tony Cipriano/Jacob Taylor : Huh?!
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the toolbox
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the toolbox
+22-35:SAY: Vin Howard/High-Lord Vin : I am
+22-35:SAY: Fred McBurger/Mr.Peanuts : BAD!
+22-35:SAY: Fred McBurger/Mr.Peanuts : EVIL!
+22-35:OOC: Syndicate Leader/Orb370 : THats nice
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:SAY: Glenn Beck/Blueothello : d
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:SAY: Gregory Hampshire/ReaperSWE : ;AAAH! MY MONKIES!
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:SAY: Fred McBurger/Mr.Peanuts : The second operative is outside shooting at people
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:OOC: Syndicate Leader/Orb370 : Random assistants toobloxing prisoners.
+22-35:SAY: Vin Howard/High-Lord Vin : not working very well
+22-35:OOC: Glenn Beck/Blueothello : I love Fred McBurger.
+22-35:OOC: Captain/Kinglordz : I hate dis dude xD
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Cog Boozecabinet(Kinglordz) with the revolver
+22-35:SAY: Elspet Bennet/Xegeth : Killed by my own team.
+22-35:OOC: Captain/Kinglordz : Killing me
+22-35:OOC: Syndicate Leader/Orb370 : =/
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:SAY: Tony Cipriano/Jacob Taylor : Hello?
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:SAY: Captain/Kinglordz : LOL
+22-35:SAY: Glenn Beck/Blueothello : Hahahaha.
+22-35:SAY: Unknown/Kinglordz : i just got ownedf
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:SAY: Glenn Beck/Blueothello : I KNOW!
+22-35:MATTACK: Urist Boozeboat(Vayre) clicked on Elspet Bennet(Andrea the second) with intent on harm
+22-35:SAY: Elspet Bennet/Xegeth : I told him who I was, too.
+22-35:SAY: Unknown/Kinglordz : Dat was funny though!!!!
+22-35:SAY: Fred McBurger/Mr.Peanuts : the second operative is outside this room
+22-35:SAY: Fred McBurger/Mr.Peanuts : somewhere
+22-35:SAY: Fred McBurger/Mr.Peanuts : he shot at me
+22-35:SAY: Tony Cipriano/Jacob Taylor : Operative?
+22-35:SAY: Syndicate Leader/Orb370 : Ouuuuuch
+22-35:SAY: Unknown/Kinglordz : I had hostages
+22-35:MATTACK: Fred McBurger(Mr.Peanuts)has shot a taser round at Syndicate Leader
+22-35:SAY: Syndicate Leader/Orb370 : Er..
+22-35:OOC: Unknown/Kinglordz : SYndie 2 scared me like fuck
+22-35:OOC: Urist Boozeboat/Vayre : whats a mass driver for?
+22-35:SAY: Tony Cipriano/Jacob Taylor : Is there a Captain Around here?!
+22-35:OOC: Unknown/Kinglordz : Den i got owned
+22-35:OOC: Urist Boozeboat/Vayre : space burials or something?
+22-35:OOC: Syndicate Leader/Orb370 : Shoot stuff.
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:OOC: Syndicate Leader/Orb370 : Supposively burrials
+22-35:SAY: Fred McBurger/Mr.Peanuts : STAB!
+22-35:OOC: Syndicate Leader/Orb370 : But you can launch just about anything
+22-35:SAY: Fred McBurger/Mr.Peanuts : I vote we ejecthim in a coffin into
+22-35:SAY: Fred McBurger/Mr.Peanuts : HIM!
+22-35:SAY: Unknown/Andrea the second : oh, the fake elspet died?
+22-35:SAY: Fred McBurger/Mr.Peanuts : second one
+22-35:MATTACK: Syndicate Operative #2 (as Captain)(Trorbes)has shot a taser round at the floor
+22-35:MATTACK: Syndicate Operative #2 (as Captain)(Trorbes)has shot a taser round at the floor
+22-35:ACCESS: Login: Chrishind10 from 79.64.217.181
+22-35:MATTACK: Syndicate Operative #2 (as Captain)(Trorbes)has shot a taser round at the floor
+22-35:MATTACK: Syndicate Operative #2 (as Captain)(Trorbes)has shot a taser round at Steve Uristwin
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Steve Uristwin(Segellion) with the taser gun
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Steve Uristwin(Segellion) with the taser gun
+22-35:SAY: Fred McBurger/Mr.Peanuts : we got to help him!
+22-35:SAY: Elspet Bennet/Xegeth : I was killed by the syndicate.
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Steve Uristwin(Segellion) with the taser gun
+22-35:MATTACK: Syndicate Operative #2(Trorbes) attcked by Steve Uristwin(Segellion) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Syndicate Operative #2 (as Captain)
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Syndicate Operative #2 (as Captain)
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Syndicate Operative #2 (as Captain)
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the floor
+22-35:ACCESS: Login: DarkKuta from 12.76.244.151
+22-35:SAY: Vin Howard/High-Lord Vin : I cant
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at Syndicate Operative #2 (as Captain)
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the floor
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the floor
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion)has shot a taser round at the floor
+22-35:OOC: Syndicate Leader/Orb370 : Kill me before im saved?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:GAME: DarkKuta entered as Drakkon "Dark" Draith
+22-35:OOC: Syndicate Leader/Orb370 : HOw..
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:GAME: Chrishind10 entered as Cog Boatbow
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Leader(Orb370) with the pen
+22-35:OOC: Syndicate Leader/Orb370 : MEAN
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:OOC: Syndicate Leader/Orb370 : =/
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Syndicate Operative #2(Trorbes) with the laser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:SAY: Unknown/Andrea the second : you know, I would have killed you if it wasn&#39;t for the lag. I had you down, but I kept going down for quite a lot of time without pressing any key
+22-35:OOC: Glenn Beck/Blueothello : Not getting saved.
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:OOC: Syndicate Leader/Orb370 : Well DUH
+22-35:SAY: Fred McBurger/Mr.Peanuts : can I dress as a syndicate
+22-35:OOC: Syndicate Leader/Orb370 : =/
+22-35:SAY: Fred McBurger/Mr.Peanuts : and go undercover?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:SAY: Unknown/Mr.Peanuts : ok?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:SAY: Unknown/Andrea the second : killed by syndi? how unlucky :(
+22-35:SAY: Unknown/Mr.Peanuts : damn it didn&#39;t help
+22-35:OOC: Syndicate Leader/Orb370 : So, why were the station goers meta gamins?
+22-35:SAY: Elspet Bennet/Xegeth : This was my second time as syndicate. I lasted longer than I thought I would.
+22-35:OOC: Syndicate Leader/Orb370 : I found two people space walking outside the bridge.
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:SAY: Unknown/Kinglordz : lol i never thought u werre syndie lol
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the taser gun
+22-35:OOC: Syndicate Leader/Orb370 : With tasers.
+22-35:MATTACK: Steve Uristwin(Segellion)has grabbed Syndicate Operative #2(Trorbes) aggressively (now hands) 
+22-35:OOC: Syndicate Operative #2/Trorbes : Good point.
+22-35:OOC: Syndicate Operative #2/Trorbes : Who were they?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:SAY: Fred McBurger/Mr.Peanuts : What is the code?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:OOC: Unknown/Kinglordz : as syndie igo undercover
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:OOC: Syndicate Leader/Orb370 : Er, the two people dressed white.
+22-35:OOC: Syndicate Leader/Orb370 : They are in Security HQ
+22-35:OOC: Syndicate Leader/Orb370 : Steve and VIn
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Gregory Hampshire(ReaperSWE)has grabbed Urist Goblinlever() aggressively (now hands) 
+22-35:OOC: Cog Boozecabinet/Kinglordz : we got a message
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:OOC: Syndicate Operative #2/Trorbes : Vin and Steve?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:SAY: Urist Boozeboat/Vayre : ; Why is tool storage locked down?
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Vin Howard(High-Lord Vin) attcked by Syndicate Leader(Orb370) with the oxygentank
+22-35:MATTACK: Gregory Hampshire(ReaperSWE)has grabbed Urist Goblinlever() aggressively (now hands) 
+22-35:SAY: Syndicate Operative #2/Trorbes : I&#39;ll never talk.
+22-35:SAY: Steve Uristwin/Segellion : top
+22-35:MATTACK: Steve Uristwin(Segellion) clicked on Syndicate Operative #2(Trorbes) with a pill
+22-35:MATTACK: Steve Uristwin(Segellion) forced Syndicate Operative #2(Trorbes) to swallow orange pill
+22-35:OOC: Syndicate Leader/Orb370 : Vin Howard, Steve Uristwin
+22-35:SAY: Unknown/Andrea the second : you know, disguising was a good idea, but you should have told other syndis before doing it
+22-35:OOC: Syndicate Leader/Orb370 : Er, that doesnt meant space walking outside the bridge with tasers?
+22-35:OOC: Syndicate Operative #2/Trorbes : Well technically, there IS a message about syndicates.
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Operative #2(Trorbes) with the revolver
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Operative #2(Trorbes) with the revolver
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Syndicate Operative #2(Trorbes) with the revolver
+22-35:SAY: Elspet Bennet/Xegeth : I did over the radio, and in person.
+22-35:SAY: Steve Uristwin/Segellion : stop
+22-35:SAY: Cog Boozecabinet/Kinglordz : elspet
+22-35:SAY: Tony Cipriano/Jacob Taylor : The Hell?!
+22-35:OOC: Syndicate Leader/Orb370 : Well technically, why would they be outside the bridge with tasers?
+22-35:SAY: Cog Boozecabinet/Kinglordz : nice Rp
+22-35:SAY: Fred McBurger/Mr.Peanuts : He is now dead, how many are left?
+22-35:OOC: Syndicate Operative #2/Trorbes : That&#39;s a good point, though.
+22-35:SAY: Unknown/Andrea the second : with your true voice? and they ignored you?
+22-35:SAY: Tony Cipriano/Jacob Taylor : Killing People?! thats Against the Law!
+22-35:SAY: Glenn Beck/Blueothello : HAHAHAHAHA
+22-35:SAY: Glenn Beck/Blueothello : number 2 DEAD
+22-35:SAY: Fred McBurger/Mr.Peanuts : You are against the law
+22-35:SAY: Elspet Bennet/Xegeth : I took of my mask. He knew who I was. Probably forgot though.
+22-35:SAY: Tony Cipriano/Jacob Taylor : Huh?
+22-35:OOC: Vin Howard/High-Lord Vin : having trouble
+22-35:SAY: Fred McBurger/Mr.Peanuts : There goes operative 3
+22-35:SAY: Unknown/Andrea the second : call him syndi #1. I am elspet, and I didn&#39;t last long enough to RP
+22-35:SAY: Fred McBurger/Mr.Peanuts : fyi
+22-35:OOC: Steve Uristwin/Segellion : why is it whenever i am adjacent to syndy#2 the take-stuff-off-him window pops up, and cant be closed til i move away?
+22-35:OOC: Syndicate Leader/Orb370 : A syndicate message has been intercepted, they have launched an assault on many neotransian stations, They have access to a nuclear device but require an authorization code currently held at your location, We require you to repel the attack, and bring us the code on the emergency shuttle.#
+22-35:OOC: Vin Howard/High-Lord Vin : have to go anyways
+22-35:ACCESS: Logout: High-Lord Vin
+22-35:OOC: Syndicate Operative #2/Trorbes : Guys, at least PRETEND not to know what the normal syndi plans are, okay?
+22-35:SAY: Fred McBurger/Mr.Peanuts : HEY
+22-35:GAME: ZCHRIS13 entered as Cog Bronzedriven
+22-35:SAY: Fred McBurger/Mr.Peanuts : yep I think he is one of them
+22-35:OOC: Syndicate Leader/Orb370 : We need the code?
+22-35:SAY: Tony Cipriano/Jacob Taylor : Hey.
+22-35:OOC: Syndicate Leader/Orb370 : Maybe you could &#34;pretend&#34; to revive us both back at the syndi station
+22-35:SAY: Fred McBurger/Mr.Peanuts : steve can you let me out?
+22-35:SAY: Drakkon "Dark" Draith/DarkKuta : Hi.
+22-35:OOC: Syndicate Operative #2/Trorbes : That&#39;s what that paper is.
+22-35:SAY: Tony Cipriano/Jacob Taylor : I Heard Something About the Syndicate Here!
+22-35:OOC: Syndicate Leader/Orb370 : So wait
+22-35:SAY: Fred McBurger/Mr.Peanuts : I think I know another syndicate
+22-35:OOC: Syndicate Leader/Orb370 : The people on the station cant win?
+22-35:OOC: Syndicate Leader/Orb370 : Unless they know the co- Eh, nevermind
+22-35:OOC: Syndicate Operative #2/Trorbes : What?  Why do you say that?
+22-35:OOC: Glenn Beck/Blueothello : Well we&#39;ve got Terrorists on a station.
+22-35:OOC: Glenn Beck/Blueothello : and we have a nuclear device.
+22-35:OOC: Syndicate Leader/Orb370 : We require you to repel the attack, and bring us the code on the emergency shuttle.##
+22-35:OOC: Syndicate Leader/Orb370 : NO
+22-35:SAY: Tony Cipriano/Jacob Taylor : The Hell?
+22-35:OOC: Syndicate Leader/Orb370 : We have a nuclear device
+22-35:OOC: Glenn Beck/Blueothello : Those two have to add up at some point.
+22-35:OOC: Syndicate Leader/Orb370 : YOu just have the code
+22-35:SAY: Urist Boozeboat/Vayre : Practising building
+22-35:OOC: Glenn Beck/Blueothello : OK.
+22-35:SAY: Urist Boozeboat/Vayre : nothign is really going on this round
+22-35:SAY: Cog Bronzedriven/ZCHRIS13 : Quit messing with the siphons
+22-35:OOC: Syndicate Leader/Orb370 : Its kinda differant. :P
+22-35:ACCESS: Logout: 
+22-35:ACCESS: Login: Xegeth from 77.103.224.146
+22-35:OOC: Syndicate Operative #2/Trorbes : Oh, the Auth. disk.
+22-35:OOC: Glenn Beck/Blueothello : We have the code to a highly volatile nuclear device.
+22-35:MATTACK: Fred McBurger(Mr.Peanuts) attcked by Drakkon "Dark" Draith(DarkKuta) with the toolbox
+22-35:OOC: Syndicate Leader/Orb370 : Oh, that.
+22-35:ADMIN: Andrea the second jumped to Sydicate C2A Sector HQ
+22-35:OOC: Syndicate Leader/Orb370 : Weird, how a plasma research station gets that.
+22-35:OOC: Syndicate Operative #2/Trorbes : There&#39;s another code to arm the bomb,.
+22-35:OOC: Syndicate Leader/Orb370 : Still, no reason to be outside the bridge with tasers
+22-35:SAY: Tony Cipriano/Jacob Taylor : I Found This in the Chaplain
+22-35:OOC: HELP: Drakkon "Dark" Draith/DarkKuta : Drakkon &#34;Dark&#34; Draith has been attacked with the toolbox by Fred McBurger. #Fred McBurger tried to knock you unconcious!  Wow random attack
+22-35:SAY: Fred McBurger/Mr.Peanuts : Where did you get that tony?
+22-35:SAY: Tony Cipriano/Jacob Taylor : Chapel-
+22-35:SAY: Ghost/Xegeth : Are we all dead now?
+22-35:SAY: Urist Boozeboat/Vayre : ; Theres no air in the hallways
+22-35:SAY: Glenn Beck/Blueothello : YYYYYYYESSSSSS
+22-35:ADMIN: PM: Andrea the second->DarkKuta : does he know that you are not a syndi? you surely look like one with these clothes.
+22-35:ADMIN: PM: DarkKuta->Andrea the second : I don't have a gasmask on.
+22-35:SAY: Fred McBurger/Mr.Peanuts : lets kill us some syndicates
+22-35:OOC: Syndicate Operative #2/Trorbes : Yes, Orb.  People, stop that.
+22-35:SAY: Steve Uristwin/Segellion : ok everyone back to work
+22-35:SAY: Steve Uristwin/Segellion : shows over
+22-35:OOC: Glenn Beck/Blueothello : Stop what?
+22-35:OOC: Tony Cipriano/Jacob Taylor : And Whats with the Murders?
+22-35:SAY: Steve Uristwin/Segellion : Cipriano
+22-35:SAY: Urist Boozeboat/Vayre : hey
+22-35:OOC: Syndicate Operative #2/Trorbes : Defending the most common entry point for syndi like that.
+22-35:OOC: Syndicate Leader/Orb370 : Er, syndi 3 is doing his job?
+22-35:SAY: Fred McBurger/Mr.Peanuts : ; three syndicates are down
+22-35:OOC: Tony Cipriano/Jacob Taylor : Its Against the Law to Kill Someone. Syndicate or Not.
+22-35:SAY: Steve Uristwin/Segellion : Your an engineer now.. help repair the bridge
+22-35:ADMIN: PM: DarkKuta->Andrea the second : Just forgot about it then, he seems to behave himself right now.
+22-35:SAY: Fred McBurger/Mr.Peanuts : ; I found operative one near eva
+22-35:ADMIN: PM: Andrea the second->DarkKuta : well, OOC he may have thought that the time spent looking was not worth the risk and IC, you are just a person running around in a syndi suit while station is attacked... I'll ask him anyway
+22-35:OOC: Syndicate Leader/Orb370 : Oh yah
+22-35:SAY: Fred McBurger/Mr.Peanuts : ; over
+22-35:OOC: Syndicate Leader/Orb370 : They had us handcuffed
+22-35:OOC: Syndicate Leader/Orb370 : They just killed us.
+22-35:OOC: Urist Boozeboat/Vayre : why is there no oxygen ;-;
+22-35:OOC: HELP: Cog Bronzedriven/ZCHRIS13 : Someone is messing with the siphons
+22-35:OOC: Syndicate Leader/Orb370 : Its not really...fair, to say. :P
+22-35:OOC: Glenn Beck/Blueothello : Says the guy with bombs.
+22-35:SAY: Fred McBurger/Mr.Peanuts : ; AI hallway is blown up, over
+22-35:ADMIN: PM: DarkKuta->Andrea the second : I don't have a Syndicate Suit.. Syndicate Suit involves swat items.
+22-35:OOC: Syndicate Operative #2/Trorbes : I say most COMMON, not most LIKELY, because nobody ever defends the external airlocks.
+22-35:SAY: Urist Boozeboat/Vayre : can i coem in?
+22-35:OOC: Syndicate Leader/Orb370 : Also, I never expected to be handcuffed in a nuclear disk.
+22-35:ACCESS: Logout: 
+22-35:ACCESS: Login: Trorbes from 75.58.81.221
+22-35:SAY: Urist Boozeboat/Vayre : the rest of the station is losing oxygen
+22-35:SAY: Steve Uristwin/Segellion : Boozeboat, your an engineer now
+22-35:SAY: Ghost/Xegeth : Why did you kill me, syndicate #2?
+22-35:OOC: Syndicate Leader/Orb370 : Nuclear*
+22-35:OOC: Cog Boatbow/Chrishind10 : someone opened the church mass driver and let the air vb
+22-35:SAY: Steve Uristwin/Segellion : there
+22-35:SAY: Steve Uristwin/Segellion : help repair
+22-35:OOC: Cog Boatbow/Chrishind10 : bleed out
+22-35:OOC: Syndicate Leader/Orb370 : I should have injected myself with freedom planters or whatever.
+22-35:ACCESS: Login: Nero3217 from 67.164.44.114
+22-35:SAY: Steve Uristwin/Segellion : use that only for access.. help repair our shit
+22-35:OOC: Syndicate Leader/Orb370 : Er, all the syndis are dead, I think
+22-35:OOC: Cog Boozecabinet/Kinglordz : all syndies dead
+22-35:OOC: Cog Boozecabinet/Kinglordz : ??
+22-35:OOC: Syndicate Operative #2/Trorbes : One sec
+22-35:SAY: Urist Boozeboat (as Captain)/Vayre : is there any gasmasks and oxygen here?
+22-35:OOC: Syndicate Leader/Orb370 : Er, just revive one of us
+22-35:OOC: Syndicate Leader/Orb370 : Or all of us
+22-35:OOC: Syndicate Leader/Orb370 : Repeats are fun
+22-35:SAY: Steve Uristwin/Segellion : dont wear it.
+22-35:OOC: Syndicate Leader/Orb370 : :)
+22-35:SAY: Steve Uristwin/Segellion : take the id off
+22-35:OOC: Syndicate Operative #2/Trorbes : Sorry, restarting.
+22-35:ADMIN: PM: Andrea the second->Mr.Peanuts : hello. why did you toolbox Drakkon "Dark" Draith? may I suppose you mistook him for a syndi, since he had a black jumpsuit?
+22-35:OOC: Drakkon "Dark" Draith/DarkKuta : IC in OOC is not.
+22-35:OOC: Seth Julias/Sethcool : That&#39;s why I dont like nuke
+22-35:OOC: Syndicate Operative #2/Trorbes : Station wins.
+22-35:OOC: Cog Boozecabinet/Kinglordz : just restart round
+22-35:GAME: Nero3217 entered as Urist Mudmountain
+22-35:OOC: Syndicate Operative #2/Trorbes : In a second.
+22-35:OOC: Syndicate Leader/Orb370 : The station already won Dark
+22-35:OOC: Seth Julias/Sethcool : Once the syndies die, nothing happens.
+22-35:MATTACK: Urist Boozeboat(Vayre) attcked by Steve Uristwin(Segellion) with the weldingtool
+22-35:OOC: Syndicate Leader/Orb370 : Great
+22-35:MATTACK: Steve Uristwin(Segellion) attcked by Urist Boozeboat(Vayre) with the revolver
+22-35:OOC: Syndicate Leader/Orb370 : People are shooting eachother with revovlers
+22-35:OOC: Urist Boozeboat (as Captain)/Vayre : restarting anyway
+22-35:ADMIN: PM: Mr.Peanuts->Andrea the second : Yes, I was going to appologize, but he ran off
+22-35:OOC: Syndicate Leader/Orb370 : Have fun, I guess.
+22-35:OOC: Drakkon "Dark" Draith/DarkKuta : Orb, you don&#39;t need to do Ic in OOC nomatter if we won or not.
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : We have to escape on the shuttle with the auth disk
+22-35:VOTE: sethcool tried to force the world to restart via change gamemode
+22-35:OOC: Drakkon "Dark" Draith/DarkKuta : No matter..
+22-35:OOC: Syndicate Leader/Orb370 : Er, yes I do?
+22-35:VOTE: Voting to restart round started by Urist Boozeboat (as Captain)/Vayre
+22-35:ADMIN: PM: Mr.Peanuts->Andrea the second : and explain that I hit him under the idea he was a syndicate by his looks
+22-35:OOC: Syndicate Leader/Orb370 : Im bored?
+22-35:OOC: Glenn Beck/Blueothello : GOOD TRY SETH
+22-35:OOC: Seth Julias/Sethcool : I thought it was a gamemode change vote not a force changer
+22-35:ADMIN: PM: Mr.Peanuts->Andrea the second : and misterious actions
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : We have to escape on the shuttle
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : With the AUTH disc
+22-35:OOC: Syndicate Leader/Orb370 : Your guaranteed to escape on the shuttle
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : Yes
+22-35:OOC: Syndicate Leader/Orb370 : The auth disk, if wasnt spaced.
+22-35:OOC: Steve Uristwin/Segellion : i have it
+22-35:OOC: Syndicate Leader/Orb370 : So, you auto won, I dont like waiting
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : I wanna see the win condition
+22-35:VOTE: Voting closed, result was restart
+22-35:ADMIN: PM: Trorbes->Sethcool : Hello, what was that about forcing the vote?
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : The win text
+22-35:OOC: Cog Bronzedriven/ZCHRIS13 : I WANNA SEE
+22-35:GAME: Rebooting due to restart vote
+22-35:ACCESS: Logout: Headswe
+22-35:ACCESS: Logout: Orb370
+22-35:ACCESS: Logout: ReaperSWE
+22-35:ACCESS: Logout: Blueothello
+22-35:ACCESS: Logout: Kinglordz
+22-35:ACCESS: Logout: Nero3217
+22-35:ACCESS: Logout: Segellion
+22-35:ACCESS: Logout: Trorbes
+22-35:ACCESS: Logout: ZCHRIS13
+22-35:ACCESS: Logout: Xegeth
+22-35:ACCESS: Logout: Vayre
+22-35:ACCESS: Logout: Mr.Peanuts
+22-35:ACCESS: Logout: Sethcool
+22-35:ACCESS: Logout: Andrea the second
+22-35:ACCESS: Logout: Jacob Taylor
+22-35:ACCESS: Logout: Chrishind10
+22-35:ACCESS: Logout: DarkKuta
+23-32:ADMIN: Loading crban_keylist
+23-32:ADMIN: Loading crban_reason
+23-32:ADMIN: Loading crban_time
+23-32:ADMIN: Loading crban_bannedby
+23-32:ADMIN: Loading crban_iplist
+23-32:ADMIN: Loading crban_unbanned
+23-32:ADMIN: Loading jobban_rank
+23-32:ADMIN: Updating jobbanfile!
+23-32:ACCESS: Login: DarkKuta from 12.76.244.151
+23-32:ACCESS: Login: Sethcool from 90.194.247.49
+23-32:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-32:ACCESS: Login: Vayre from 62.56.109.117
+23-32:ACCESS: Login: Jacob Taylor from 75.38.146.127
+23-32:ACCESS: Login: Xegeth from 77.103.224.146
+23-32:ACCESS: Login: Kinglordz from 78.150.108.250
+23-32:ACCESS: Login: Chrishind10 from 79.64.217.181
+23-32:ACCESS: Logout: Kinglordz
+23-32:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+23-32:ACCESS: Login: Orb370 from 4.154.132.198
+23-32:ACCESS: Login: ZCHRIS13 from 67.20.133.190
+23-32:GAME: DarkKuta entered as Drakkon "Dark" Draith
+23-32:ACCESS: Login: Trorbes from 75.58.81.221
+23-32:ACCESS: Login: Segellion from 24.179.87.49
+23-32:ACCESS: Login: Kinglordz from 78.150.108.250
+23-32:GAME: Mr.Peanuts entered as Fred McBurger
+23-32:GAME: Sethcool entered as Seth Julias
+23-32:GAME: Trorbes entered as Eric Worth
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : SEX PLZ
+23-32:GAME: ZCHRIS13 entered as Cog Bronzedriven
+23-32:OOC: Urist Boozeboat/Vayre : whats the gamemode?
+23-32:GAME: Xegeth entered as Ashan Selfer
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : BUTT SECKS PLZ!
+23-32:VOTE: Voting to change mode started by Cog Swordwall/Orb370
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : ORGY TIME!
+23-32:ADMIN: Trorbes delayed the game.
+23-32:GAME: Chrishind10 entered as Cog Doormud
+23-32:GAME: Orb370 entered as Cog Swordwall
+23-32:GAME: Jacob Taylor entered as Tony Cipriano
+23-32:OOC: Seth Julias/Sethcool : What is &#39;it&#39;
+23-32:ACCESS: Logout: Chrishind10
+23-32:GAME: ReaperSWE entered as Gregory Hampshire
+23-32:OOC: Cog Swordwall/Orb370 : Er, IT = secret?
+23-32:GAME: Kinglordz entered as Adolph Hitler
+23-32:OOC: Eric Worth/Trorbes : Secret.
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : &#34;It&#34; is kind of bugged I think.
+23-32:OOC: Cog Swordwall/Orb370 : It is completely pointless
+23-32:OOC: Seth Julias/Sethcool : Oh ok
+23-32:OOC: Cog Swordwall/Orb370 : Unless, you like space dragons who wont die
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : &#39;IT&#39; is the most uncool thing this side of Jews
+23-32:OOC: Cog Swordwall/Orb370 : And are just like humans
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : Nerd jews
+23-32:OOC: Urist Boozeboat/Vayre : VOTE IT
+23-32:ACCESS: Login: Nero3217 from 67.164.44.114
+23-32:ACCESS: Login: Googolplexed from 121.216.113.21
+23-32:GAME: Nero3217 entered as Urist Mudmountain
+23-32:OOC: Seth Julias/Sethcool : Vote wizzerd
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : I was &#34;It&#34; once, but I won before I can even leave the Syndicate Station.
+23-32:OOC: Cog Swordwall/Orb370 : IT = SECRET
+23-32:GAME: Segellion entered as Steve Uristwin
+23-32:VOTE: Voting closed, result was traitor
+23-32:OOC: Eric Worth/Trorbes : Note about Traitor: if you suck at it, you WILL have others sent to take you out.
+23-32:GAME: Vayre entered as Urist Boozeboat
+23-32:OOC: Cog Swordwall/Orb370 : Yay
+23-32:OOC: Urist Wallawesome/Googolplexed : IT is broken
+23-32:OOC: Cog Swordwall/Orb370 : So we have to be quick?
+23-32:OOC: Urist Mudmountain/Nero3217 : Now that&#39;s a traitor xD
+23-32:OOC: Eric Worth/Trorbes : That is, getting caught in the first five minutes of the game.
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : So broken you don&#39;t know
+23-32:OOC: Fred McBurger/Mr.Peanuts : I am good at traitor, but I need time
+23-32:OOC: HELP: Urist Mudmountain/Nero3217 : Googo, I must talk wit ju
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : Time
+23-32:OOC: Cog Swordwall/Orb370 : I hate time.
+23-32:OOC: Fred McBurger/Mr.Peanuts : all my plans are very long and elaborate
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : I need it
+23-32:ADMIN: PM: Googolplexed->Nero3217 : Yeah ?
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : It&#39;s a great song
+23-32:OOC: Cog Swordwall/Orb370 : Well, you be either slow or fast
+23-32:OOC: Eric Worth/Trorbes : If you delay too long (over an hour) NanoTrasen might learn of your plans.
+23-32:OOC: Fred McBurger/Mr.Peanuts : and it requires a while to figure out how the station is playing out
+23-32:OOC: Cog Swordwall/Orb370 : Be extremely slow, so I can work on the proto engine
+23-32:ADMIN: PM: Nero3217->Googolplexed : I would like to learn more about your ways of the medical research lab.
+23-32:OOC: Cog Swordwall/Orb370 : DONT MESS WITH IT
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : Well, I can just kill everyone on the station and do my objective.. &lt;-- Fast Way.
+23-32:OOC: Cog Bronzedriven/ZCHRIS13 : &#39;Time&#39; is a great song
+23-32:OOC: Cog Swordwall/Orb370 : I want to use it. :)
+23-32:OOC: Urist Mudmountain/Nero3217 : Time.. Time is nothing but a fabric in space..
+23-32:ADMIN: PM: Googolplexed->Nero3217 : Experiment around with it
+23-32:ADMIN: Trorbes used start_now
+23-32:GAME: starting game of traitor
+23-32:ACCESS: Logout: 
+23-32:ACCESS: Login: Trorbes from 75.58.81.221
+23-32:OOC: Fred McBurger/Mr.Peanuts : Darkkuta, that is the lame way to do it
+23-32:OOC: Cog Swordwall/Orb370 : Frabric in space is nothing but time
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : God damnit.. I got a job I didn&#39;t want.
+23-32:ADMIN: PM: Nero3217->Googolplexed : I tried the thing where you do that 2 block for the super powers, wasn't working for unknown.
+23-32:ADMIN: PM: Googolplexed->Nero3217 : Radiate block 14 to change people from humans to monkeys
+23-32:ACCESS: Login: TheGrifter from 67.8.150.183
+23-32:SAY: Ashan Selfer/Xegeth : ;Hello everyone. Captain here.
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : Mr.Peanutes, not really.
+23-32:SAY: Ashan Selfer/Xegeth : ;Report in.
+23-32:OOC: Drakkon "Dark" Draith/DarkKuta : Peanuts*
+23-32:SAY: Gregory Hampshire/ReaperSWE : ;Still ticking.
+23-32:SAY: Urist Boozeboat/Vayre : ; Bartender here
+23-32:ADMIN: PM: Googolplexed->Nero3217 : Theres no set block to radiate, you just have to test them one by one
+23-32:SAY: Urist Boozeboat/Vayre : ; ;-;
+23-32:SAY: HAL 9000/Trorbes : Good morning, crew.
+23-32:ADMIN: PM: Googolplexed->Nero3217 : For superpowers
+23-32:MATTACK: Urist Mudmountain(Nero3217)has grabbed Urist Rockmaker() aggressively (now hands) 
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : ;Plasma Researcher, Drakkon Draith. Reporting in, sir!
+23-32:ADMIN: Trorbes toggled OOC.
+23-32:OOC: HAL 9000/Trorbes : People&#39;re getting a little too chatty today.
+23-32:GAME: TheGrifter entered as David Bowie
+23-32:SAY: David Bowie/TheGrifter : ; CH- CH- CH- CHANGES!
+23-32:SAY: Urist Boozeboat/Vayre : ; Can I get reassigned please?
+23-32:SAY: Steve Uristwin/Segellion : ;HoP here
+23-32:ADMIN: Googolplexed/Urist Wallawesome : I&#39;ve added a new banning system to the latest code
+23-32:SAY: Steve Uristwin/Segellion : Good morning
+23-32:OOC: HELP: Fred McBurger/Mr.Peanuts : Wasn&#39;t that lame HAL shit done with a long time ago? It&#39;s quite old now and every time I see it I think &#34;Hey the AI is prob. the traitor!&#34;
+23-32:ADMIN: PM: Trorbes->Googolplexed : Cool, can't wait until Head integrates it.
+23-32:OOC: HELP: Fred McBurger/Mr.Peanuts : or a greifer
+23-32:SAY: Steve Uristwin/Segellion : ;Boozeboat report to arrivals
+23-32:ADMIN: Googolplexed/Urist Wallawesome : It should alert you if someone multikeys on the same computer
+23-32:SAY: David Bowie/TheGrifter : I&#39;d like to be a rockstar!
+23-32:SAY: Steve Uristwin/Segellion : ah, there you are
+23-32:SAY: David Bowie/TheGrifter : All Access Pass to the station!
+23-32:ADMIN: Googolplexed/Urist Wallawesome : Even if they change IP
+23-32:SAY: Seth Julias/Sethcool : Hi
+23-32:ADMIN: PM: Trorbes->Mr.Peanuts : I like it, deal with it.
+23-32:SAY: Tony Cipriano/Jacob Taylor : TheHell?
+23-32:SAY: Adolph Hitler/Kinglordz : HAi
+23-32:SAY: Urist Mudmountain/Nero3217 : Hello.
+23-32:SAY: David Bowie/TheGrifter : Bitches! Coke!
+23-32:ADMIN: PM: Trorbes->Googolplexed : Neat.
+23-32:ADMIN: PM: Mr.Peanuts->Trorbes : Yes sir
+23-32:SAY: David Bowie/TheGrifter : Makeup!
+23-32:ADMIN: PM: Googolplexed->Mr.Peanuts : Its just a name
+23-32:SAY: Steve Uristwin/Segellion : Rock star.. got it
+23-32:SAY: Ashan Selfer/Xegeth : ;Could all crew ensure that lockers are left locked after use?
+23-32:SAY: Urist Mudmountain/Nero3217 : ;Would anyone like to be a test experiment? If so, come to the medical research lab room.
+23-32:MATTACK: Adolph Hitler(Kinglordz)has shot a taser round at Tony Cipriano
+23-32:OOC: HELP: Cog Bronzedriven/ZCHRIS13 : Bro, the generator is REALLY broken, this time around
+23-32:MATTACK: Adolph Hitler(Kinglordz)has shot a taser round at the floor
+23-32:MATTACK: Tony Cipriano(Jacob Taylor)has shot a taser round at the floor
+23-32:SAY: Ashan Selfer/Xegeth : ;That means you Seth.
+23-32:MATTACK: Tony Cipriano(Jacob Taylor)has shot a taser round at Adolph Hitler
+23-32:ADMIN: Trorbes/HAL 9000 : Hey, did you get Git working again?
+23-32:SAY: Adolph Hitler/Kinglordz : Stop
+23-32:SAY: Adolph Hitler/Kinglordz : My lifes in risk!!!!!!!!!!!
+23-32:SAY: David Bowie/TheGrifter : *fart
+23-32:ADMIN: PM: Trorbes->ZCHRIS13 : How?
+23-32:ADMIN: PM: Mr.Peanuts->Googolplexed : I know it is just that the last time I played after I quit the first time every AI that was a general greifer or the traitor was named Hal something with numbers
+23-32:SAY: Seth Julias/Sethcool : ;Huh?
+23-32:SAY: Adolph Hitler/Kinglordz : i will die!!!!!!!!!!
+23-32:SAY: Urist Boozeboat/Vayre : FOR SCIENCE!!
+23-32:SAY: David Bowie/TheGrifter : Sorry. Excuse me.
+23-32:SAY: Ashan Selfer/Xegeth : ;Lock your locker.
+23-32:ADMIN: PM: Googolplexed->Mr.Peanuts : Well, I trust the AI player
+23-32:ADMIN: PM: Trorbes->Mr.Peanuts : Well that certainly wasn't me.
+23-32:ADMIN: PM: ZCHRIS13->Trorbes : Admin-port your way over here, I haven't lit the engine
+23-32:SAY: Urist Mudmountain/Nero3217 : Tell me if you feel anything new.
+23-32:SAY: Steve Uristwin/Segellion : There you are, Mr Bowie
+23-32:SAY: Ashan Selfer/Xegeth : ;Thank you.
+23-32:ADMIN: PM: Trorbes->ZCHRIS13 : I'm here, what's the issue?
+23-32:SAY: Tony Cipriano/Jacob Taylor : Sir!
+23-32:SAY: Adolph Hitler/Kinglordz : HELP !!!!!!!!!!1
+23-32:SAY: David Bowie/TheGrifter : Want to see my psychedelic Electric Snake?
+23-32:SAY: Urist Boozeboat/Vayre : ?
+23-32:SAY: Adolph Hitler/Kinglordz : MY LIFE IS IN DANGER
+23-32:ADMIN: PM: Googolplexed->Mr.Peanuts : This round anyway :)
+23-32:SAY: Adolph Hitler/Kinglordz : DUDE
+23-32:SAY: Steve Uristwin/Segellion : ;Boozeboat to arrivals
+23-32:SAY: Tony Cipriano/Jacob Taylor : Head of Security Adolph Hitler attempted to Kill Me!
+23-32:SAY: Cog Swordwall/Orb370 : ; Anyone starting the engine?
+23-32:SAY: Steve Uristwin/Segellion : do it
+23-32:SAY: Adolph Hitler/Kinglordz : i command you to let me out
+23-32:ADMIN: PM: Mr.Peanuts->Googolplexed : Well if you trust them then I will too as you show a great sense of character judgement
+23-32:SAY: Adolph Hitler/Kinglordz : THATS A ORDER
+23-32:MATTACK: Urist Mudmountain(Nero3217) clicked on Urist Boozeboat(Vayre) with a DNA injector
+23-32:SAY: David Bowie/TheGrifter : Let&#39;s dance!
+23-32:SAY: Steve Uristwin/Segellion : Woza
+23-32:ADMIN: Trorbes used secret check_antagonist
+23-32:ADMIN: PM: ZCHRIS13->Trorbes : Are you in the engine control room?
+23-32:SAY: Urist Mudmountain/Nero3217 : Anything new?
+23-32:SAY: Urist Boozeboat/Vayre : I seem to be blind
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : Hello sir.
+23-32:SAY: Adolph Hitler/Kinglordz : Oi
+23-32:SAY: Tony Cipriano/Jacob Taylor : Your Under Arrest..
+23-32:SAY: Urist Boozeboat/Vayre : Bugger
+23-32:SAY: Seth Julias/Sethcool : Hello
+23-32:SAY: Adolph Hitler/Kinglordz : Let me out now
+23-32:SAY: Fred McBurger/Mr.Peanuts : hello sir.
+23-32:ADMIN: PM: ZCHRIS13->Trorbes : because the generator is upside down. and jumping
+23-32:SAY: Adolph Hitler/Kinglordz : dude im in charge of you!!!!!!!!!!!!!!!
+23-32:SAY: Cog Swordwall/Orb370 : ; Er...is anyone starting the engine?
+23-32:ACCESS: Login: Adhesive from 71.34.111.177
+23-32:ADMIN: PM: ZCHRIS13->Trorbes : it's doing a funny little dance
+23-32:ADMIN: PM: Trorbes->Kinglordz : What did I say about sucking?
+23-32:MATTACK: Urist Mudmountain(Nero3217) clicked on Urist Boozeboat(Vayre) with a DNA injector
+23-32:ADMIN: PM: Trorbes->ZCHRIS13 : That's normal.
+23-32:SAY: David Bowie/TheGrifter : ; I AM the engine!
+23-32:SAY: Fred McBurger/Mr.Peanuts : Why are you carrying that weapin
+23-32:SAY: Fred McBurger/Mr.Peanuts : weapon
+23-32:GAME: Adhesive entered as Cog Doorpick
+23-32:SAY: Urist Mudmountain/Nero3217 : Interesting..
+23-32:SAY: Ashan Selfer/Xegeth : ;Cog is starting it.
+23-32:SAY: Fred McBurger/Mr.Peanuts : Not holseterd
+23-32:ADMIN: PM: Kinglordz->Trorbes : Shut up im waitting for something xD
+23-32:SAY: Cog Bronzedriven/ZCHRIS13 : ; Just shut up it&#39;s hard to get this damn thing running effectively
+23-32:SAY: David Bowie/TheGrifter : ; And Cocaine is the fuel that makes me run, baby!
+23-32:SAY: Urist Boozeboat/Vayre : Still blind
+23-32:SAY: Adolph Hitler/Kinglordz : Dude this is assauly
+23-32:SAY: Cog Bronzedriven/ZCHRIS13 : ; I&#39;m working on it
+23-32:SAY: Seth Julias/Sethcool : Self-defense, and I don&#39;t have a free belt slot
+23-32:SAY: Tony Cipriano/Jacob Taylor : Captain!
+23-32:SAY: Adolph Hitler/Kinglordz : Assualt
+23-32:SAY: Tony Cipriano/Jacob Taylor : Report to Security
+23-32:SAY: Urist Mudmountain/Nero3217 : Sir.
+23-32:SAY: Cog Swordwall/Orb370 : ; Er, I just wanted to know.
+23-32:SAY: Cog Doorpick/Adhesive : ;COG MOTHERFUCKING DOORPICK IS HERE!
+23-32:SAY: Adolph Hitler/Kinglordz : ok
+23-32:SAY: Urist Mudmountain/Nero3217 : May you get him glasses?
+23-32:SAY: Cog Swordwall/Orb370 : ; If you want help I will drop on by
+23-32:SAY: Adolph Hitler/Kinglordz : SECURITY COME GET DIS NUT CASE
+23-32:SAY: Tony Cipriano/Jacob Taylor : We have an Attempted Murder!
+23-32:SAY: Urist Boozeboat/Vayre : i think im deaf niw
+23-32:SAY: Steve Uristwin/Segellion : hello
+23-32:SAY: Adolph Hitler/Kinglordz : HELP!!!!!!!!!!!!!!!
+23-32:SAY: David Bowie/TheGrifter : CH CH CH CHANGES!
+23-32:SAY: Adolph Hitler/Kinglordz : he grabbed me Captain!!!!!
+23-32:SAY: Steve Uristwin/Segellion : Qualifications?
+23-32:SAY: Cog Doorpick/Adhesive : I WISH TO BE THE CAPTAIN!
+23-32:SAY: Ashan Selfer/Xegeth : I expected more from a head.
+23-32:SAY: Tony Cipriano/Jacob Taylor : Sir he Fired at me
+23-32:SAY: Adolph Hitler/Kinglordz : And Cuffed me!!!!!!!!!!!
+23-32:SAY: Cog Doorpick/Adhesive : I qualify in all fields except ENGINEERING.
+23-32:SAY: David Bowie/TheGrifter : TURN... TO FACE THE STRANGE... Changes... Don&#39;t wanna be a rock N Rolla!
+23-32:SAY: Steve Uristwin/Segellion : One moment
+23-32:SAY: Adolph Hitler/Kinglordz : No i dident!!!!!!!!!!!!
+23-32:SAY: Tony Cipriano/Jacob Taylor : I Suggest you Search Him
+23-32:SAY: David Bowie/TheGrifter : Times may change me!
+23-32:SAY: Cog Doorpick/Adhesive : I DON&#39;T KNOW FUCK SHIT ABOUT ENGINEERING!
+23-32:ADMIN: Trorbes used secret check_antagonist_goal
+23-32:ADMIN: Trorbes/HAL 9000 : Hey Googol?
+23-32:SAY: Urist Boozeboat/Vayre : ;-;
+23-32:SAY: Ashan Selfer/Xegeth : Has the gun been fired?
+23-32:SAY: David Bowie/TheGrifter : But you can&#39;t change time... Strange fascinations... Are telling me...
+23-32:SAY: Tony Cipriano/Jacob Taylor : Checks the Backpack.
+23-32:SAY: Tony Cipriano/Jacob Taylor : Aha!
+23-32:SAY: Adolph Hitler/Kinglordz : Sir ill tell the truth
+23-32:ADMIN: Googolplexed/Urist Wallawesome : Whos named hitler ?
+23-32:SAY: Tony Cipriano/Jacob Taylor : Look at this Sir!
+23-32:SAY: Steve Uristwin/Segellion : ;Captain.. one highly qualified person is wishing a management role. I note HoM is open. Fine with you?
+23-32:SAY: Adolph Hitler/Kinglordz : Look
+23-32:SAY: Adolph Hitler/Kinglordz : i was forced!!!!!!!!!!!!!!!!
+23-32:ADMIN: PM: Trorbes->Googolplexed : Kinglordz
+23-32:SAY: Tony Cipriano/Jacob Taylor : This is Contraband Equipment!
+23-32:SAY: David Bowie/TheGrifter : Punchin, Punchin, heads, CHANGES... Fuck this guy, his shirt is green! Fuck this attempted murdrer, He&#39;s really mean!
+23-32:SAY: Adolph Hitler/Kinglordz : my wife and kids would of been killed
+23-32:SAY: Ashan Selfer/Xegeth : ;I&#39;m dealing with a security incident.
+23-32:MATTACK: David Bowie(TheGrifter) clicked on Adolph Hitler(Kinglordz) with intent on harm
+23-32:SAY: Cog Doorpick/Adhesive : MAINTENANCE BITCH
+23-32:SAY: Tony Cipriano/Jacob Taylor : Banned in Large Portions of Civilized Space!
+23-32:SAY: Cog Doorpick/Adhesive : I AM NOT AN ENGINEER
+23-32:SAY: Urist Boozeboat/Vayre : I can hear noiw
+23-32:SAY: David Bowie/TheGrifter : Ch- Ch- Ch- CHANGES...
+23-32:SAY: Urist Boozeboat/Vayre : Still blind tho
+23-32:SAY: Cog Swordwall/Orb370 : ; Er..
+23-32:SAY: Ashan Selfer/Xegeth : Arrest David too.
+23-32:ACCESS: Logout: Googolplexed
+23-32:SAY: Adolph Hitler/Kinglordz : Sir you would of done the same
+23-32:ACCESS: Login: Shadowgandor from 83.84.235.167
+23-32:SAY: Cog Doorpick/Adhesive : I DO NOT QUALIFY FOR HoM
+23-32:MATTACK: Urist Mudmountain(Nero3217) clicked on Urist Boozeboat(Vayre) with a DNA injector
+23-32:SAY: Cog Swordwall/Orb370 : ; Are you sure about that, since last time I checked, I was HoM
+23-32:SAY: Urist Boozeboat/Vayre : Still blind
+23-32:SAY: Cog Doorpick/Adhesive : Although I do know how to obtain some PRRROMOTIONS
+23-32:GAME: Shadowgandor entered as Musai Danblud
+23-32:SAY: Urist Boozeboat/Vayre : also lightheaded
+23-32:MATTACK: Ashan Selfer(Xegeth)has shot a taser round at David Bowie
+23-32:SAY: David Bowie/TheGrifter : We&#39;re civilized
+23-32:SAY: Steve Uristwin/Segellion : ;Pardon, Mr Swordwall
+23-32:MATTACK: Tony Cipriano(Jacob Taylor) attcked by David Bowie(TheGrifter) with the taser gun
+23-32:SAY: Adolph Hitler/Kinglordz : SIR
+23-32:SAY: Urist Boozeboat/Vayre : :/
+23-32:SAY: David Bowie/TheGrifter : Ow. That was painful.
+23-32:SAY: Adolph Hitler/Kinglordz : Let me go
+23-32:SAY: Adolph Hitler/Kinglordz : I WAS FORCED
+23-32:SAY: David Bowie/TheGrifter : Where&#39;s the coke?!!
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; attention station, I have created something very strange
+23-32:SAY: Adolph Hitler/Kinglordz : You would of done the same thing
+23-32:SAY: Cog Doorpick/Adhesive : ;IS IT A MUTANT?
+23-32:SAY: Ashan Selfer/Xegeth : Can we get fingerprints from the gun?
+23-32:SAY: Cog Doorpick/Adhesive : I AM NOT A MAN OF RELIGION
+23-32:SAY: Adolph Hitler/Kinglordz : be my guest
+23-32:SAY: Adolph Hitler/Kinglordz : its not mine
+23-32:SAY: Cog Doorpick/Adhesive : MAKE ME SECURITY
+23-32:SAY: Musai Danblud/Shadowgandor : *chuckle
+23-32:SAY: Seth Julias/Sethcool : What is it?
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; no it is a chemical substance
+23-32:SAY: David Bowie/TheGrifter : Monkeyfied electric snake!
+23-32:SAY: Fred McBurger/Mr.Peanuts : I dont know
+23-32:SAY: Fred McBurger/Mr.Peanuts : it seems to be very acidic
+23-32:SAY: Tony Cipriano/Jacob Taylor : (Shit Brb...)
+23-32:SAY: Cog Doorpick/Adhesive : ;Oh, good, if it was a mutant I would&#39;ve had to KILL IT.
+23-32:SAY: David Bowie/TheGrifter : Anyone wanna see my monkeyfied electric snake?
+23-32:SAY: Cog Doorpick/Adhesive : ;Fukken xenos.
+23-32:SAY: Fred McBurger/Mr.Peanuts : I will do a few tests
+23-32:SAY: Urist Boozeboat/Vayre : can someone give me vision please ;-;
+23-32:SAY: Adolph Hitler/Kinglordz : Sir
+23-32:SAY: Seth Julias/Sethcool : Ok, good luck with that
+23-32:SAY: Ashan Selfer/Xegeth : Where did he put that gun?
+23-32:SAY: Adolph Hitler/Kinglordz : Stun him while you have the chance
+23-32:SAY: HAL 9000/Trorbes : WARNING: Unauthorized access of EVA Storage
+23-32:SAY: Adolph Hitler/Kinglordz : HE HAS IT
+23-32:SAY: Musai Danblud/Shadowgandor : ;A mutant isn&#39;t the same thing as a xenomorph mister Doorpick
+23-32:SAY: Urist Mudmountain/Nero3217 : Take your clothes off.
+23-32:SAY: Cog Doorpick/Adhesive : THAT SAYS OCCIFER
+23-32:SAY: Adolph Hitler/Kinglordz : GET HIM WHILE YOU HAVE THE CHANCE
+23-32:SAY: David Bowie/TheGrifter : St- St- Stunnin&#39;... Turn... and face the pain...
+23-32:SAY: Cog Bronzedriven/ZCHRIS13 : ; IT&#39;S GODDAMN CLOSE ENOUGH
+23-32:SAY: David Bowie/TheGrifter : CHANCES...
+23-32:SAY: Steve Uristwin/Segellion : damn my spelling
+23-32:SAY: Ashan Selfer/Xegeth : What are you doing?
+23-32:SAY: David Bowie/TheGrifter : Don&#39;t wanna be a demoted head!
+23-32:SAY: Musai Danblud/Shadowgandor : *sigh
+23-32:SAY: Cog Swordwall/Orb370 : Im going to start the protoengine
+23-32:SAY: Ashan Selfer/Xegeth : Ok.
+23-32:SAY: Cog Swordwall/Orb370 : I was going to mention it in a bit.
+23-32:SAY: Cog Doorpick/Adhesive : JUST PRESS THE &#39;SECURITY OFFICER&#39; BUTTON, IT IS NOT DIFFICULT
+23-32:SAY: Urist Boozeboat/Vayre : me?
+23-32:SAY: Cog Swordwall/Orb370 : ; Im going out to start the proto engine
+23-32:SAY: David Bowie/TheGrifter : Revolvers change me, but I can&#39;t change time... Strange revolvinations, are telling me!
+23-32:MATTACK: Urist Mudmountain(Nero3217) clicked on Urist Boozeboat(Vayre) with a DNA injector
+23-32:SAY: Steve Uristwin/Segellion : have a nice day
+23-32:SAY: Cog Doorpick/Adhesive : GOD DAMN
+23-32:SAY: Urist Boozeboat/Vayre : YES!!
+23-32:SAY: Cog Swordwall/Orb370 : ; Or blow it up, whichever I do first
+23-32:SAY: Urist Boozeboat/Vayre : I CAN SEEEE!!
+23-32:SAY: Steve Uristwin/Segellion : Next please
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; I am testing it now, in chemical lab
+23-32:SAY: Cog Doorpick/Adhesive : THIS CARD IS BOTCHED
+23-32:SAY: David Bowie/TheGrifter : Adolph.. You&#39;re going to go Ashes to Ashes, I suspect.
+23-32:SAY: Adolph Hitler/Kinglordz : Sir let me go
+23-32:SAY: David Bowie/TheGrifter : But first, Let&#39;s dance....
+23-32:SAY: Ashan Selfer/Xegeth : One moment.
+23-32:SAY: Cog Doorpick/Adhesive : ;The HoP is trying to give me fucked up IDs.
+23-32:SAY: Adolph Hitler/Kinglordz : Sir dis dudes crazy
+23-32:SAY: Urist Boozeboat/Vayre : cna ya let me out please?
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; it seems to have no effect
+23-32:SAY: Cog Swordwall/Orb370 : He had that ammo?
+23-32:SAY: David Bowie/TheGrifter : I&#39;m DAVID BOWIE... Course I am.
+23-32:SAY: Urist Boozeboat/Vayre : thanks
+23-32:SAY: Cog Swordwall/Orb370 : So...he had that ammo?
+23-32:SAY: Ashan Selfer/Xegeth : I&#39;m getting fingerprints.
+23-32:SAY: Adolph Hitler/Kinglordz : RUN WHILE HAVE A CHANCE
+23-32:SAY: David Bowie/TheGrifter : I reside mostly on bell peppers, cocaine, and milk.
+23-32:SAY: Steve Uristwin/Segellion : Need a change, Boozeboat?
+23-32:SAY: Urist Boozeboat/Vayre : uhhh hey, i think you called for me a while ago
+23-32:SAY: David Bowie/TheGrifter : Would you care for any?
+23-32:SAY: Musai Danblud/Shadowgandor : Good day
+23-32:SAY: Adolph Hitler/Kinglordz : Yes
+23-32:SAY: Urist Boozeboat/Vayre : but than the scientist fucked up my genes for a whie
+23-32:SAY: Steve Uristwin/Segellion : Qualfications please
+23-32:ADMIN: PM: Mr.Peanuts->Shadowgandor : Why won't my thermite splash the wall?
+23-32:SAY: David Bowie/TheGrifter : Shit... I can&#39;t reach my coke pocket!
+23-32:SAY: Cog Doorpick/Adhesive : ;EXCUSE ME BOOZEBOAT
+23-32:SAY: Adolph Hitler/Kinglordz : ((tpe down bottom suicide it realses the pain))
+23-32:SAY: Cog Doorpick/Adhesive : ;DID YOU SAY THE SCIENTIST FUCKED UP YOUR GENES?
+23-32:ACCESS: Login: Eerr from 76.19.155.125
+23-32:SAY: Musai Danblud/Shadowgandor : I am a forensic technician
+23-32:OOC: HELP: Cog Swordwall/Orb370 : Noez...theres still an R-wall on the airlock in NW maintence. Could you make it go away? :)
+23-32:SAY: Urist Boozeboat/Vayre : ; Ummm yes
+23-32:SAY: Steve Uristwin/Segellion : We have an opening
+23-32:SAY: Cog Doorpick/Adhesive : ;WOULDN&#39;T THAT MAKE YOU A MUTANT?
+23-32:SAY: Adolph Hitler/Kinglordz : i have crack
+23-32:SAY: Musai Danblud/Shadowgandor : That&#39;s great.
+23-32:SAY: Cog Swordwall/Orb370 : ; Say no.,
+23-32:SAY: Urist Mudmountain/Nero3217 : ;He was fixed.
+23-32:SAY: Adolph Hitler/Kinglordz : you intrestead?
+23-32:SAY: Cog Swordwall/Orb370 : ; Just say no.
+23-32:SAY: Urist Boozeboat/Vayre : ; No, they fixed it
+23-32:SAY: Urist Mudmountain/Nero3217 : ;Now shutup about mutants.
+23-32:SAY: David Bowie/TheGrifter : OH SHOW ME THE WAY TO THE NEXT BIT OF COKE... No, don&#39;t ask why... No, don&#39;t ask why... Cause we must find, the next little duller, or else, if we don&#39;t find the next little duller, I tell you we must die... I tell you... I tell you... I tell you we must die...
+23-32:OOC: HELP: Musai Danblud/Shadowgandor : I&#39;m receiving a private message from Mr.Peanuts. That can&#39;t be right.
+23-32:SAY: Steve Uristwin/Segellion : You want a new job, Boozeboat?
+23-32:SAY: Musai Danblud/Shadowgandor : Thank you sir
+23-32:SAY: Cog Doorpick/Adhesive : ;Are you a mutant sympathizer, Mr. Mudmountain?
+23-32:SAY: Musai Danblud/Shadowgandor : Have a nice day
+23-32:SAY: David Bowie/TheGrifter : We&#39;ve lost... Our good ol&#39; MOTHER... and must have duller or you Know why...
+23-32:SAY: Urist Boozeboat/Vayre : yes please
+23-32:MATTACK: Ashan Selfer(Xegeth) attcked by Adolph Hitler(Kinglordz) with Finger Print Card
+23-32:ADMIN: PM: Trorbes->Shadowgandor : That's certainly odd.
+23-32:SAY: Ashan Selfer/Xegeth : Sorry.
+23-32:SAY: Seth Julias/Sethcool : ;Are you a mutant hater?
+23-32:SAY: Steve Uristwin/Segellion : what are you looking for?
+23-32:ADMIN: PM: Trorbes->Mr.Peanuts : How did you PM Shadowgandor?
+23-32:SAY: Urist Mudmountain/Nero3217 : ;No, it&#39;s just annoying now.
+23-32:SAY: Ashan Selfer/Xegeth : Trying to figure this out.
+23-32:OOC: HELP: Cog Swordwall/Orb370 : Gasses leaked through it.
+23-32:ADMIN: PM: Mr.Peanuts->Trorbes : I clicked to PM google
+23-32:ADMIN: PM: Mr.Peanuts->Trorbes : Hell if I know
+23-32:SAY: Urist Boozeboat/Vayre : Not sure, whats avaliable?
+23-32:SAY: Adolph Hitler/Kinglordz : SIR DIS DUDES A DRUGGY
+23-32:SAY: David Bowie/TheGrifter : Show me the way to the next little dollar, no, don&#39;t ask why... no, don&#39;t ask why...
+23-32:ADMIN: PM: Shadowgandor->Trorbes : Reply PM from-Mr.Peanuts: Why won't my thermite splash the wall?
+23-32:GAME: Eerr entered as Cog Elfaxe
+23-32:ADMIN: PM: Shadowgandor->Trorbes : That's what the message said.
+23-32:SAY: Urist Mudmountain/Nero3217 : ;I&#39;m sure your getting annoying to every person that is on this station.
+23-32:SAY: Cog Doorpick/Adhesive : ;Well then SHUT UP AND STAY OUT OF MY MUTANT-SMASHING WAY!
+23-32:ADMIN: PM: Mr.Peanuts->Trorbes : Can you explain to me why this damn thermite won't splash on this wall?
+23-32:ADMIN: PM: Trorbes->Shadowgandor : I can see it.
+23-32:SAY: Steve Uristwin/Segellion : pretty much anything
+23-32:ADMIN: PM: Shadowgandor->Trorbes : Oh alright.
+23-32:SAY: Urist Mudmountain/Nero3217 : ;You don&#39;t even know what the fuck a mutant is idiot.
+23-32:SAY: Cog Elfaxe/Eerr : ello mates
+23-32:SAY: Steve Uristwin/Segellion : weve got a chemist, genetics.. no toxins
+23-32:SAY: Steve Uristwin/Segellion : have atmos, engineer..
+23-32:SAY: Seth Julias/Sethcool : ;Lower your attitude before I call security, Doorpick
+23-32:SAY: Urist Boozeboat/Vayre : I&#39;d like to be a chemist please
+23-32:SAY: Steve Uristwin/Segellion : sure
+23-32:ADMIN: PM: Trorbes->Shadowgandor : I think it was a glitch.
+23-32:SAY: Cog Elfaxe/Eerr : atmos please
+23-32:SAY: Ashan Selfer/Xegeth : I believe that you may be innocent.
+23-32:SAY: David Bowie/TheGrifter : Cuz we must find, the next little duller or else, if we don&#39;t find the next little duller, I tell you, I tell you we must die... I tell you... I tell you... I tell you we must DIE... We&#39;ve lost... Our good ol&#39; MOTHER... and must have little girl or you know why you know why YOU KNOW WHY
+23-32:SAY: Gregory Hampshire/ReaperSWE : ;KEEP THAT SHIT OFF THE RADIO
+23-32:SAY: David Bowie/TheGrifter : Ladies and Gentlemen, that was the Alabama Song...
+23-32:SAY: Steve Uristwin/Segellion : you still have bar access
+23-32:SAY: Ashan Selfer/Xegeth : Shut up David or you go in the brig.
+23-32:SAY: Steve Uristwin/Segellion : next
+23-32:ACCESS: Logout: DarkKuta
+23-32:SAY: Urist Boozeboat/Vayre : thank you
+23-32:SAY: Ashan Selfer/Xegeth : Now, where did the gun and ammo come from?
+23-32:ACCESS: Login: DarkKuta from 12.76.244.151
+23-32:SAY: Cog Doorpick/Adhesive : ;I AM security, Seth.
+23-32:SAY: Steve Uristwin/Segellion : hello sir
+23-32:SAY: Adolph Hitler/Kinglordz : How about you shot him point black in da head
+23-32:SAY: Steve Uristwin/Segellion : qualifications please
+23-32:SAY: David Bowie/TheGrifter : It&#39;s my job. Your head of Personelle assigned it to me...
+23-32:SAY: Adolph Hitler/Kinglordz : Dat dude inr ed
+23-32:SAY: Urist Mudmountain/Nero3217 : ;Seth is the HoR, a higher rank than you.
+23-32:SAY: Ashan Selfer/Xegeth : Not in here.
+23-32:SAY: Adolph Hitler/Kinglordz : Dat the dude in red
+23-32:SAY: Fred McBurger/Mr.Peanuts : AHH!
+23-32:SAY: David Bowie/TheGrifter : He&#39;s a feisty little tiger that one... Made me show him my electric snake.
+23-32:SAY: Adolph Hitler/Kinglordz : Planbte dit
+23-32:SAY: Seth Julias/Sethcool : What just happened
+23-32:ADMIN: PM: Trorbes->Kinglordz : Still waiting?
+23-32:SAY: Urist Boozeboat/Vayre : MOTHERFU-
+23-32:SAY: Fred McBurger/Mr.Peanuts : HElP!
+23-32:SAY: Adolph Hitler/Kinglordz : and pointed gun at me
+23-32:SAY: Cog Elfaxe/Eerr : i work with gaseous systems frequently
+23-32:SAY: Fred McBurger/Mr.Peanuts : I CAN&#39;T HEAR
+23-32:SAY: Urist Boozeboat/Vayre : are you ok?
+23-32:ADMIN: PM: Kinglordz->Trorbes : Ye im with dis druggy hes NUTS
+23-32:SAY: Fred McBurger/Mr.Peanuts : fuck!
+23-32:SAY: Urist Mudmountain/Nero3217 : ;Which means he is allowed to demote you.
+23-32:SAY: Fred McBurger/Mr.Peanuts : OUCH
+23-32:SAY: Musai Danblud/Shadowgandor : ;Attention security, I am the new forensic technician.
+23-32:SAY: Steve Uristwin/Segellion : I see. We could use you.
+23-32:SAY: Fred McBurger/Mr.Peanuts : WHY DID IT DO THAT?
+23-32:SAY: Urist Mudmountain/Nero3217 : ...
+23-32:SAY: Ashan Selfer/Xegeth : I think I&#39;d need to speak to him.
+23-32:SAY: Musai Danblud/Shadowgandor : ;It seems someone has broken into the office before I arrived.
+23-32:SAY: Drakkon "Dark" Draith/DarkKuta : ;And arrest..
+23-32:ADMIN: PM: Kinglordz->Trorbes : Dunno what i did lol
+23-32:SAY: Fred McBurger/Mr.Peanuts : I CAN&#39;T HEAR!
+23-32:ADMIN: PM: Trorbes->Kinglordz : ... Huh?
+23-32:SAY: David Bowie/TheGrifter : May I be released, sir? I need to serenade the Medbay
+23-32:SAY: Urist Mudmountain/Nero3217 : Nice job dick.
+23-32:ADMIN: PM: Kinglordz->Trorbes : Been arested
+23-32:OOC: HELP: Cog Swordwall/Orb370 : Kinda left in the dark here, you are working on it, right? :)
+23-32:SAY: Ashan Selfer/Xegeth : Hello.
+23-32:SAY: Musai Danblud/Shadowgandor : ;I isolated the fingerprints, but I can&#39;t identify them
+23-32:SAY: Musai Danblud/Shadowgandor : Good day sir
+23-32:SAY: Seth Julias/Sethcool : Move
+23-32:SAY: Cog Doorpick/Adhesive : ;Also, report all xeno and or mutant sightings to your nearest security guard. Or smash it upside the head with the nearest fire extinguisher.
+23-32:ADMIN: PM: Trorbes->Kinglordz : You supposedly attacked someone.
+23-32:SAY: Steve Uristwin/Segellion : you will be working Atmos with Gregory Hampshire.
+23-32:SAY: Ashan Selfer/Xegeth : I think we have a bit of a problem and I&#39;ll need your help.
+23-32:SAY: Fred McBurger/Mr.Peanuts : can someone help me I am deaf?
+23-32:SAY: Cog Elfaxe/Eerr : sir yes sir
+23-32:ADMIN: PM: Kinglordz->Trorbes : No he stunned me and cuffed me..
+23-32:SAY: Musai Danblud/Shadowgandor : *nod
+23-32:SAY: Musai Danblud/Shadowgandor : Right beside you sire
+23-32:SAY: Ashan Selfer/Xegeth : We had someone with a revolver.
+23-32:SAY: Steve Uristwin/Segellion : Also consider yourself fireman too
+23-32:ADMIN: PM: Kinglordz->Trorbes : And then planted gun in back pack
+23-32:ADMIN: PM: Trorbes->Orb370 : For now?  Just find another airlock.
+23-32:SAY: Cog Swordwall/Orb370 : &#39; Er....search the crew manifest Masai.
+23-32:ADMIN: PM: Kinglordz->Trorbes : And ammo
+23-32:SAY: Musai Danblud/Shadowgandor : A revolver sir?
+23-32:SAY: David Bowie/TheGrifter : So... Adolph, boy, you done made a mistake.
+23-32:MATTACK: Urist Mudmountain(Nero3217) clicked on Fred McBurger(Mr.Peanuts) with a DNA injector
+23-32:ADMIN: PM: Kinglordz->Trorbes : Made me touch it
+23-32:SAY: Musai Danblud/Shadowgandor : Those things have been banned for over 40 years, right?
+23-32:SAY: Adolph Hitler/Kinglordz : So
+23-32:OOC: HELP: Cog Swordwall/Orb370 : Pfffff....thats like...really far. But fine.
+23-32:SAY: Fred McBurger/Mr.Peanuts : Agh! god damn it
+23-32:SAY: Ashan Selfer/Xegeth : It only has one set of fingerprints. The security officer&#39;s.
+23-32:SAY: Fred McBurger/Mr.Peanuts : Thanks
+23-32:SAY: Seth Julias/Sethcool : Can you hear now?
+23-32:SAY: Fred McBurger/Mr.Peanuts : What the fuck was that
+23-32:SAY: Adolph Hitler/Kinglordz : I HATE THOSE DAM FUCKING JEWS
+23-32:ADMIN: PM: Trorbes->Kinglordz : ... And gave you a completely new identity, too, right?
+23-32:SAY: Fred McBurger/Mr.Peanuts : yes
+23-32:SAY: Fred McBurger/Mr.Peanuts : Thanks
+23-32:SAY: David Bowie/TheGrifter : First was not sewing an emergency coke pouch into the collar of your shirt...
+23-32:SAY: Seth Julias/Sethcool : What was the chemical?
+23-32:SAY: Musai Danblud/Shadowgandor : Hmm..interesting
+23-32:ADMIN: PM: Kinglordz->Trorbes : No
+23-32:SAY: Fred McBurger/Mr.Peanuts : Ouch
+23-32:SAY: Fred McBurger/Mr.Peanuts : I know know
+23-32:SAY: Ashan Selfer/Xegeth : Well, the ammo did. The gun is missing.
+23-32:SAY: Urist Mudmountain/Nero3217 : Well, this means my studying is over.
+23-32:SAY: Fred McBurger/Mr.Peanuts : I mixed radium, chlorine
+23-32:ADMIN: PM: Trorbes->Orb370 : Sorry, I don't want to be messing with variables right now.
+23-32:SAY: Musai Danblud/Shadowgandor : Have you questioned the security officer about it?
+23-32:SAY: Fred McBurger/Mr.Peanuts : and umm
+23-32:ADMIN: PM: Kinglordz->Trorbes : David Bowie: So... Adolph, boy, you done made a mistake.
+23-32:SAY: Fred McBurger/Mr.Peanuts : can you tell me if my genes are fucked?
+23-32:ADMIN: PM: Kinglordz->Trorbes : David Bowie: First was not sewing an emergency coke pouch into the collar of your shirt...
+23-32:SAY: Ashan Selfer/Xegeth : I&#39;m not sure where he is.
+23-32:SAY: Cog Doorpick/Adhesive : Why is CONTRABAND lying around?!
+23-32:SAY: Ashan Selfer/Xegeth : Think you can help?
+23-32:SAY: David Bowie/TheGrifter : Hi. I&#39;m David Bowie. Can I be released?
+23-32:ADMIN: PM: Kinglordz->Trorbes : Dis dude if fucking hilarious
+23-32:SAY: Seth Julias/Sethcool : ;Can an engineer please come to  Medical Research Labs and fix the power problems
+23-32:SAY: David Bowie/TheGrifter : Captain tased me for singing.
+23-32:SAY: Musai Danblud/Shadowgandor : I think I can sir
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) clicked on Fred McBurger(Mr.Peanuts) with a syringe
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) injected Fred McBurger(Mr.Peanuts) with a syringe filled with 
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; and the windows and wall
+23-32:ADMIN: Trorbes used secret check_antagonist
+23-32:SAY: Fred McBurger/Mr.Peanuts : ; and floor
+23-32:ADMIN: Trorbes used secret check_antagonist_goal
+23-32:SAY: Cog Swordwall/Orb370 : Mind letting me in?
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) clicked on Fred McBurger(Mr.Peanuts) with a syringe
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) injected Fred McBurger(Mr.Peanuts) with a syringe filled with 
+23-32:ADMIN: PM: Trorbes->Kinglordz : ... Right.
+23-32:SAY: Adolph Hitler/Kinglordz : Im HoS
+23-32:SAY: Adolph Hitler/Kinglordz : let me go
+23-32:SAY: Ashan Selfer/Xegeth : I&#39;ll meet you in the security office.
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) clicked on Fred McBurger(Mr.Peanuts) with a syringe
+23-32:MATTACK: Fred McBurger(Mr.Peanuts) injected Fred McBurger(Mr.Peanuts) with a syringe filled with 
+23-32:SAY: Cog Doorpick/Adhesive : ;The Head of Security is clearly incompetent as he has left MOTHERFUCKING CONTRABAND lying around.
+23-32:SAY: Musai Danblud/Shadowgandor : *nod
+23-32:SAY: Adolph Hitler/Kinglordz : ive been taken as hostage
+23-32:SAY: Fred McBurger/Mr.Peanuts : can I see the genetic scanner?
+23-32:SAY: Urist Mudmountain/Nero3217 : ...I already scanned you.
+23-32:SAY: Cog Swordwall/Orb370 : Im going to the proto through the prisoner shuttle airlock
+23-32:SAY: Fred McBurger/Mr.Peanuts : anything elss wrong?
+23-32:SAY: Ashan Selfer/Xegeth : What are you doing?
