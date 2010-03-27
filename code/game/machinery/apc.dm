@@ -146,6 +146,7 @@
 /obj/machinery/power/apc/proc/updateicon()
 	if(repair_state > 0)
 		icon_state = "apc_r[repair_state]"
+		src.overlays = null
 		return
 	if(opened)
 		icon_state = "[ cell ? "apc2" : "apc1" ]"		// if opened, show cell if it's inserted

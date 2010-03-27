@@ -1939,6 +1939,13 @@
 	usr << text("\icon[] []: The current assignment on the card is [].", src, src.name, src.assignment)
 	return
 
+/obj/item/weapon/card/id/syndicate/attack_self(mob/user as mob)
+	var/input = input(user, "What is the name you wish to assign to this card", "Syndicate Card", "")
+	src.registered = input
+	input = input(user, "What assignment would you like to forge, be warned this does NOT give you the access, just the title", "Assignment", "")
+	src.assignment = input
+	src.name = text("[]'s ID Card ([])", registered, assignment)
+	src.hide = alert("Do you want to enable the AI countermeasures (This causes you to be hidden on the AI tracking scanners, but does not hide you from cameras)", "Hide", "Yes", "No")
 /obj/item/weapon/rods/attack_hand(mob/user as mob)
 	if ((user.r_hand == src || user.l_hand == src))
 		src.add_fingerprint(user)
@@ -4368,18 +4375,23 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 		crackle -= i
 	for(var/mob/O in crackle)
 		O.show_message(text("\icon[] <I>Crackle,Crackle</I>", src), 2)
+	var/name = M.rname
+	if (istype(M, /mob/human))
+		if (istype(M.wear_mask, /obj/item/weapon/clothing/mask/voicemask))
+			name = M.name
+
 	if (istype(M, /mob/human) && M.zombie == 0 || (istype(M, /mob/ai)))
 		for(var/mob/O in receive)
 			if (istype(O, /mob/human) && O.zombie == 0 || (istype(O, /mob/ai)) ||(istype(O, /mob/observer)))
-				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
+				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", name, src, src.freq, msg), 2)
 			else
-				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)
+				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", name, src, src.freq, stars(msg)), 2)
 		if (src.freq == 5)
 			for(var/mob/O in receive)
 				if (istype(O, /mob/human) && O.zombie == 0 || (istype(O, /mob/ai)))
-					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
+					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", name, src, src.freq, msg), 2)
 				else
-					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)
+					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts (over PA)</B>: <I>[]</I></font>", name, src, src.freq, stars(msg)), 2)
 	else if (istype(M, /mob/human && M.zombie == 0))
 		for(var/mob/O in receive)
 			if ((istype(O, M)) || (istype(O, /mob/observer)))
@@ -4395,7 +4407,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 	else if (istype(M, /mob/human) && M.zombie == 1)
 		for(var/mob/O in receive)
 			if (istype(O, /mob/human) && O.zombie == 1|| istype(O, /mob/observer))
-				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, msg), 2)
+				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", name, src, src.freq, msg), 2)
 			else if((istype(O, /mob/human) && O.zombie == 0)|| (istype(O, /mob/observer)))
 				var/zombiespeak1 = "asd"
 				zombiespeak1 = pick(zombiesay)

@@ -7,6 +7,8 @@
 	src.see_invisible = 100
 	src.see_infrared = 100
 	src.see_in_dark = 100
+	src.verbs += /mob/observer/proc/Teleport
+	src.verbs += /mob/observer/proc/turningback
 /mob/
 	var/oldmob
 /mob/observer/proc/turninghost()
@@ -20,7 +22,6 @@
 /mob/observer/proc/turningback()
 	set name = "Return to your body"
 	if(src.client && src.dead())
-		src.client.ckey = src.oldckey
 		src.client.mob = src.oldmob
 	return
 /mob/observer/Move(NewLoc, direct)
@@ -54,3 +55,14 @@
 			stat(null, text("Time until all SS13's systems are taken over: [(ticker.AIwin - ticker.AItime) / 600 % 60]:[(ticker.AIwin - ticker.AItime) / 100 % 6][(ticker.AIwin - ticker.AItime) / 10 % 10]"))
 
 	return
+
+/mob/observer/proc/Teleport(var/area/A in world)
+	set name = "Teleport"
+	set desc = "Teleport somewhere"
+
+	var/list/listA = list()
+
+	for(var/turf/B in A)
+		listA += B
+	usr << "\blue Jumping to [A]!"
+	usr.loc = pick(listA)

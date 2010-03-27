@@ -174,6 +174,7 @@
 	jet.turf_add(T,-1) // add all the gas
 
 	T.firelevel += src.attached.gas.temperature*25
+	T.temp = src.attached.gas.temperature
 	if(T.poison > 5)	T.icon_state = "burning"
 	T.res_vars()
 	previousturf = T

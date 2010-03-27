@@ -55,15 +55,16 @@ var/supply_shuttle_points = 50
 /obj/machinery/computer/communications/proc/supply_shuttle_request(var/mob/user,var/supply)
 	//user << "Supplies! [supply]"
 	if(supply_shuttle_z == 2)
-		var/A = locate(/area/shuttle_supply)
+		var/area/A = locate(/area/shuttle_supply)
 		var/list/B = list()
 		var/full
-		for(var/obj/move/floor/F in A)
-			full = 0
-			for(var/atom/movable/MA in F.loc.contents)
-				full++
-			if(full < 2)//floor is one of them.
-				B += F
+		for(var/area/C in A.superarea.areas)
+			for(var/obj/move/floor/F in C)
+				full = 0
+				for(var/atom/movable/MA in F.loc.contents)
+					full++
+				if(full < 2)//floor is one of them.
+					B += F
 		if(!B.len)
 			user << "\red There is not enough space in the shuttle. Ensure that it is unloaded and does not have stowaways next time"
 			return
@@ -360,7 +361,31 @@ var/supply_shuttle_points = 50
 			M.show_message("\red Supply shuttle has arrived at destination!")
 		return
 	return*/
-	if(supply_shuttle_z == 1 || supply_shuttle_z == 2)
+	var/area/A = locate(/area/shuttle_supply)
+	for(var/area/B in A.superarea.areas)
+		for(var/mob/M in B)
+			M.show_message("\red Launch sequence initiated!")
+			spawn(0)	shake_camera(M, 10, 1)
+		sleep(10)
+
+	if(A.z == 2)	//This is the laziest proc ever
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 1
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Supply shuttle has arrived at destination!")
+				spawn(0)	shake_camera(M, 2, 1)
+/*	if(supply_shuttle_z == 1 || supply_shuttle_z == 2)
 		if(0)world << "send shuttle 3"
 		var/A = locate(/area/shuttle_supply)
 		var/list/B = list()
@@ -385,7 +410,7 @@ var/supply_shuttle_points = 50
 			sleep(1200)
 			for(var/atom/movable/M in B)
 				M.z = 1
-			supply_shuttle_z = 1
+			supply_shuttle_z = 1*/
 	else
 		user << "\red Supply shuttle in transit already"
 	if(0)world << "send shuttle 5"

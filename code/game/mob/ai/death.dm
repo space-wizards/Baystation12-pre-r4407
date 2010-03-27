@@ -12,7 +12,7 @@
 	src.see_invisible = 2
 	src.see_infrared = 8
 	src.lying = 1
-	src.icon_state = "teg-broken"
+	src.icon_state = "aidead"
 
 		//For restructuring
 	if(ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "revolution")
@@ -49,4 +49,5 @@
 				world.log_game("Rebooting because of no live players")
 				world.Reboot()
 				return
+	src.verbs += /mob/observer/proc/turninghost
 	return ..()

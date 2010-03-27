@@ -9,11 +9,12 @@
 	spawn (0)
 		randomchems()
 		ticker.meteor_process()
-
+		blobevent = 1
 	spawn (2000)
 
 		world << "<FONT size = 3><B>Cent. Com. Update</B>: ARMOK !!!.</FONT>"
 		world << "\red ARMOK HAS COME, CALL THE SHUTTLE NOW !!."
+		dotheblobbaby()
 	//FIX THE BLOB
 		do
 			spawn_meteors()

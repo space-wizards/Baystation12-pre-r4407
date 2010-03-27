@@ -3,34 +3,53 @@
 	config_tag = "revolution"
 
 /datum/game_mode/revolution/announce()
-	world << "<B>The current game mode is - Revolution!</B>"
-	world << "<B>Some crewmembers are attempting to start a revolution!<BR>\nRevolutionaries - Kill the Captain, HoP, HoR, HoS and HoM. Convert other crewmembers (excluding the Captain, heads, and security officers) to your cause by flashing them. Protect your leaders.<BR>\nPersonnel - Protect the Captain and the heads. Kill the leaders of the revolution, and brainwash the other revolutionaries (by beating them in the head).</B>"
+	world << "<B>Syndicate spies sometimes use mindcontrol devices in varying disguises to bring their sinister plans to fruition.</B>"
+	world << "<B>As a response to such 'revolutions', CentCom now provides all officers with anti-brainwashing vaccinations before being assigned to a station.</B>"
+	world << "<B>It is the duty off station personel to protect their captain and heads and to crush any syndicate revolutions.</B>"
 
 /datum/game_mode/revolution/post_setup()
 	spawn ( 0 )
 		randomchems()
-	var/list/mobs = get_mob_list()
+	var/list/mobs = get_mob_list() //gets a list of station personel
 	while (mobs.len == 0)
 		sleep 30
 		mobs = get_mob_list()
-	pick_killer()
-	ticker.killer << "\blue You are a member of the revolutionaries' leadership!"
-	ticker.killer2 = ticker.killer
-	pick_killer()
-	ticker.killer << "\blue You are a member of the revolutionaries' leadership!"
-	ticker.killer3 = ticker.killer
-	pick_killer()
-	ticker.killer << "\blue You are the leader of the revolutionaries!"
+	var/revmission = "<B>Kill the Captain and all the heads. Convert other crewmembers to your cause by brainwashing them with your flash.</B>"
+
+	var/NrofRevs=mobs.len/3 //1 rev per 3 crewmembers
+	for(var/i=1;i<=NrofRevs;i++)
+		pick_killer()
+	for(var/rev in ticker.revs) //For every revolutionairy
+		rev << revmission        //give them their mission
+		if (rev in ticker.revs==1) //is this one the leader?
+			if(NrofRevs == 1)      //if he is, is he alone?
+				rev << "\blue You are the sole leader of the new revolution!"
+			else //so he's not alone, the other's names will be given when this loop passes his subordinates
+				rev << "\blue You are the leader of the new revolution!"
+		else  //not the leader
+			rev << "\blue You are the an officer in the new revolution!"
+			rev << "\blue [ticker.revs[1]] is your leader"
+			if(NrofRevs== 2) //now to send a message to the leader that this rev is his subordinate
+				ticker.revs[1] << "\blue [rev] is your loyal officer."
+			else
+				ticker.revs[1] << "\blue [rev] is one of your officers."
+
+	//I've added a target list called 'target' next to the old target1,target2 etc.
 	if(get_mobs_with_rank("Captain"))
 		ticker.target = get_mobs_with_rank("Captain")[1]
+		ticker.targets+=ticker.target
 	if(get_mobs_with_rank("Head of Personnel"))
 		ticker.target2 = get_mobs_with_rank("Head of Personnel")[1]
+		ticker.targets+=ticker.target2
 	if(get_mobs_with_rank("Head of Research"))
 		ticker.target3 = get_mobs_with_rank("Head of Research")[1]
+		ticker.targets+=ticker.target3
 	if(get_mobs_with_rank("Head of Security"))
 		ticker.target4 = get_mobs_with_rank("Head of Security")[1]
+		ticker.targets+=ticker.target4
 	if(get_mobs_with_rank("Head of Maintenance"))
 		ticker.target5 = get_mobs_with_rank("Head of Maintenance")[1]
+		ticker.targets+=ticker.target5
 	spawn (0)
 		ticker.extend_process()
 
@@ -122,20 +141,31 @@
 //	world << check_death(ticker.killer)
 //	world << check_death(ticker.killer2)
 //	world << check_death(ticker.killer3)
-	if (check_death(ticker.target) && check_death(ticker.target2) && check_death(ticker.target3) && check_death(ticker.target4) && check_death(ticker.target5))
-		world << "<FONT size = 3><B>Revolutionary Victory</B></FONT>"
-		world << "<B>The commanding staff have been killed!</B> The Revolution is victorious!"
-		ticker.killer.unlock_medal("Viva la Revolution!", 1, "Successfully win a round as a revolutionary leader.", "medium")
-		if (ticker.killer2)
-			ticker.killer2.unlock_medal("Viva la Revolution!", 1, "Successfully win a round as a revolutionary leader.", "medium")
-		if (ticker.killer3)
-			ticker.killer3.unlock_medal("Viva la Revolution!", 1, "Successfully win a round as a revolutionary leader.", "medium")
-		return 1
-	if (check_death(ticker.killer) && check_death(ticker.killer2) && check_death(ticker.killer3))
-		world << "<FONT size = 3><B>The Research Staff has stopped the revolution!</B></FONT>"
-		world << "<B>The leaders of the revolution have been killed!</B>"
-		return 1
-	return 0
+	var/revvictory=1
+	for(var/target in ticker.targets)
+		if(!check_death(target))        //if one of the targets is not dead, no victory
+			revvictory=0
+
+	var/stationvictory=1
+	for(var/rev in ticker.revs)
+		if(!check_death(rev))
+			stationvictory=0
+	//victory messages are sent if needed
+	if(revvictory)
+		revvictory()
+	if(stationvictory)
+		stationvictory()
+	return (revvictory || stationvictory) //check_win returns if the game ends or not
+
+/datum/game_mode/revolution/proc/revvictory()
+	world << "<FONT size = 3><B>Revolutionary Victory</B></FONT>"
+	world << "<B>The commanding staff have been killed!</B> The Revolution is victorious!"
+	for(var/mob/rev in ticker.revs)
+		rev.unlock_medal("Viva la Revolution!", 1, "Successfully win a round as a revolutionary.", "medium")
+
+/datum/game_mode/revolution/proc/stationvictory()
+	world << "<FONT size = 3><B>The Research Staff has stopped the revolution!</B></FONT>"
+	world << "<B>The leaders of the revolution have been killed!</B>"
 
 /datum/game_mode/revolution/proc/get_mob_list()
 	var/list/mobs = list()

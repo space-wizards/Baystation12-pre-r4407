@@ -2,19 +2,18 @@
 	..()
 	src.life = rand(1700, 10000) //Nanotransern's bulb suppliers have no quality control, who knows how long one'll last.
 								 //The values are approximately in seconds
+	extext()
 
 /obj/item/weapon/bulb/proc/use()
 	if (src.life)
 		src.life--
-		desc = extext()
+		extext()
 
 /obj/item/weapon/bulb/proc/extext()
 	if (!life)
-		return "The bulb has burned out"
+		desc = "The bulb has burned out"
 	else if (life <= 2000)
-		return "The bulb appears to be worn, but working"
-	else
-		return "The bulb appears to be in good condition"
+		desc = "The bulb appears to be worn, but working"
 
 /obj/machinery/light/New()
 	..()
@@ -34,14 +33,6 @@
 			user << "The light is off"
 	else
 		user << "There is no bulb installed"
-
-/obj/machinery/light/attack_ai(mob/user as mob)
-	if (stat & (NOPOWER|BROKEN) || !bulb)
-		return
-	if (on)
-		turnoff()
-	else
-		turnon()
 
 /obj/machinery/light/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
@@ -167,7 +158,7 @@
 		turnoff()
 
 	if (on)
-		area.use_power(15 * max(baselum, bulb.bright), LIGHT)
+		area.use_power(150 * max(baselum, bulb.bright), LIGHT)
 
 	bulb.use()
 
@@ -175,15 +166,16 @@
 	return
 
 /obj/machinery/light/proc/turnon()
+	var/B = bright()
 	if (!on)
 		on = 1
 		spawn(instant ? 0 : rand(3,13))
 			if (on)
 				updateicon()
-				sd_SetLuminosity(bright())
-//	else if (src.luminosity != bright())
-//		sd_SetLuminosity(bright())
-//		updateicon()
+				sd_SetLuminosity(B)
+	else if (src.luminosity != B)
+		sd_SetLuminosity(B)
+		updateicon()
 
 /obj/machinery/light/proc/turnoff()
 	if (on)

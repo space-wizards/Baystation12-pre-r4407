@@ -170,6 +170,19 @@ area/facilities/meeting
 	name = "Meeting Room"
 	icon_state = "bridge"
 
+//Quartermaster's Office
+area/supply/office
+	name = "Supplies Office"
+	icon_state = "supplies"
+
+area/supply/warehouse
+	name = "Supply Warehouse"
+	icon_state = "supplies"
+
+area/supply/dock
+	name = "Supply Shuttle Dock"
+	icon_state = "supplies"
+
 // Chapel
 area/chapel/chapel
 	name = "Chapel"
@@ -287,10 +300,12 @@ area/rescue/firestation
 area/solar/east
 	name = "East Solar Panels"
 	icon_state = "yellow"
+	lightswitch = 0
 
 area/solar/west
 	name = "West Solar Panels"
 	icon_state = "yellow"
+	lightswitch = 0
 
 // Prison Station
 /area/prison/arrival

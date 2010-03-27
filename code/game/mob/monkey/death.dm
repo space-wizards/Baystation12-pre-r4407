@@ -40,4 +40,5 @@
 				world.log_game("Rebooting because of no live players")
 				world.Reboot()
 				return
+	src.verbs += /mob/observer/proc/turninghost
 	return ..()

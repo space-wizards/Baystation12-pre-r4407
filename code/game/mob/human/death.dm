@@ -76,8 +76,5 @@
 						world.log_game("Rebooting because of no live players")
 						world.Reboot()
 
-	if (src.client)
-		spawn(50)
-			if(src.client && src.dead())
-				src.verbs += /mob/observer/proc/turninghost
+	src.verbs += /mob/observer/proc/turninghost
 	return ..()

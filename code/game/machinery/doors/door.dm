@@ -159,7 +159,20 @@
 	return
 
 /obj/machinery/door/proc/autoclose()
-	var/obj/machinery/door/airlock/A = src
-	if ((!A.density) && !( A.operating ) && !(A.locked) && !( A.blocked ))
-		close()
-	else return
+	var/obj/machinery/door/D = src
+	if (istype(D, /obj/machinery/door/airlock))
+		var/obj/machinery/door/airlock/A = D
+		if ((!A.density) && !( A.operating ) && !(A.locked) && !( A.blocked ))
+			close()
+	else
+		if ((!D.density) && !( D.operating ))
+			close()
+
+/obj/machinery/door/Bumped(atom/movable/AM as mob|obj)
+	if (!( ismob(AM) ))
+		return
+	if (src.operating)
+		return
+	if (src.density && src.allowed(AM))
+		open()
+	return

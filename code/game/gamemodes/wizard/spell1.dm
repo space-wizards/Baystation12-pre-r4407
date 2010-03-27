@@ -20,6 +20,9 @@
 	usr.verbs -= /client/proc/spelltemp
 	spawn(1200)
 		usr.verbs += /client/proc/spelltemp
+	usr.firemut = 1
+	spawn(600)
+		usr.firemut = 0
 	if(usr == killer)
 		var/mob/human/M = usr
 		M.say("TUT KAHMUN JE NUMAN")

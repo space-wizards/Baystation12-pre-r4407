@@ -114,4 +114,7 @@
 		src.client.eye = src.loc
 		src.client.perspective = EYE_PERSPECTIVE
 
+	src.lastx = src.x
+	src.lasty = src.y
+	src.lastz = src.z
 	return

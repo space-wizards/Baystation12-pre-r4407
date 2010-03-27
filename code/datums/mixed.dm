@@ -44,7 +44,7 @@
 	var/event_time = null
 	var/event = 0
 	var/list/revs = list()
-
+	var/list/targets = list()
 
 /datum/control/poll
 	//name = "poll"

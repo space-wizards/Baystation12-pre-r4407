@@ -30,11 +30,8 @@
 				H.lastx = H.x
 				H.lasty = H.y
 				H.lastz = H.z
-			spawn(rand(100-1000))
+			spawn(3000)
 				for (var/mob/H in world)
-					var/Z = H.z
-					var/X = H.x
-					var/Y = H.y
 					H.paralysis += 5
 					H.x = H.lastx
 					H.z = H.lastz

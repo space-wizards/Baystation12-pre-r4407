@@ -108,6 +108,7 @@
 	var/m_intent = "run"
 	var/lastDblClick = 0
 	var/lastKnownIP = null
+	var/lastKnownID = null
 	var/obj/stool/chair/buckled = null
 	var/obj/dna/primary = null
 	var/obj/item/weapon/handcuffs/handcuffed = null
@@ -277,7 +278,7 @@
 /mob/ai
 	name = "AI"
 	icon = 'power.dmi'
-	icon_state = "teg"
+	icon_state = "ai"
 	gender = MALE
 	var/network = "AI Satellite"
 	var/obj/machinery/camera/current = null
@@ -771,8 +772,12 @@
 	var/access = list()
 	var/registered = null
 	var/assignment = null
+	var/hide = 0
 /obj/item/weapon/card/id/syndicate
-	name = "syndicate card"
+	name = "Syndicates's ID Card (Syndicate)"
+	registered = "Syndicate"
+	hide = 1
+	assignment = "Syndicate"
 
 /obj/item/weapon/card/id/captains_spare
 	name = "Captain's spare ID"
@@ -4588,6 +4593,7 @@ obj/machinery/vendingmachine/soda
 	icon_state = "bulb"
 	var/bulbtype = "fluorescent"
 	icon = 'lights.dmi'
+	desc="The bulb appears to be in good condition"
 	var/life = 0
 	var/bright = 6
 	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
@@ -4637,3 +4643,29 @@ obj/machinery/vendingmachine/soda
 	name = "Box of lightbulbs"
 	icon_state = "box"
 	s_istate = "syringe_kit"
+
+/obj/machinery/conveyor
+	name = "Conveyor Belt"
+	icon = 'conveyor.dmi'
+	icon_state = "MapEditor"
+	var/id = "" //conveyor_control objects sharing this Id will control this conveyor
+	var/on = 0 //Set to 1 to have the conveyor be on when the round starts
+	anchored = 1.0
+
+/obj/machinery/conveyor_control
+	name = "Remote Converyor Control"
+	icon = 'conveyor.dmi'
+	icon_state = "controlbox"
+	desc = "A remote control switch for a Conveyor Belt."
+	anchored = 1.0
+	var/id = "" //When used, src will toggle the power of every conveyor belt with this i
+	var/state = 0
+
+/obj/machinery/conveyor_klaxon
+	name = "Conveyor Warning Siren"
+	icon = 'conveyor.dmi'
+	icon_state = "klaxon0"
+	desc = "A siren to warn people the conveyor belt is going to start"
+	anchored = 1.0
+	var/id = ""
+	var/on = 0
