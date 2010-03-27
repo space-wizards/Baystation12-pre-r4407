@@ -278,7 +278,7 @@
 /mob/ai
 	name = "AI"
 	icon = 'power.dmi'
-	icon_state = "teg"
+	icon_state = "ai"
 	gender = MALE
 	var/network = "AI Satellite"
 	var/obj/machinery/camera/current = null
