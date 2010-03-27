@@ -3288,8 +3288,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/hulksmash1 = 0
 /obj/machinery/door/firedoor
 	name = "Firelock"
-	icon = 'firedoor1.dmi'
-	icon_state = "door0"
+	icon = 'Door1.dmi'
+	icon_state = "firedoor0"
 	var/blocked = null
 	opacity = 0
 	density = 0
