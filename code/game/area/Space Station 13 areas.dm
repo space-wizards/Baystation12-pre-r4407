@@ -300,10 +300,12 @@ area/rescue/firestation
 area/solar/east
 	name = "East Solar Panels"
 	icon_state = "yellow"
+	lightswitch = 0
 
 area/solar/west
 	name = "West Solar Panels"
 	icon_state = "yellow"
+	lightswitch = 0
 
 // Prison Station
 /area/prison/arrival
