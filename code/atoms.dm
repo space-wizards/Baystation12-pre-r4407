@@ -4580,6 +4580,7 @@ obj/machinery/vendingmachine/soda
 	icon_state = "bulb"
 	var/bulbtype = "fluorescent"
 	icon = 'lights.dmi'
+	desc="The bulb appears to be in good condition"
 	var/life = 0
 	var/bright = 6
 	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
