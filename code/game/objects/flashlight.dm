@@ -26,6 +26,7 @@
 			holder:sd_SetLuminosity(5)
 			lastHolder = holder
 
+
 		sd_SetLuminosity(5)
 		sleep(10)
 

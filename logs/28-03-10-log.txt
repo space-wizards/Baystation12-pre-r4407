@@ -1,0 +1,1085 @@
+00-49:ADMIN: Loading crban_keylist
+00-49:ADMIN: Loading crban_reason
+00-49:ADMIN: Loading crban_time
+00-49:ADMIN: Loading crban_bannedby
+00-49:ADMIN: Loading crban_iplist
+00-49:ADMIN: Loading crban_unbanned
+00-49:ADMIN: Loading crban_ComputerIDs
+00-49:ADMIN: Loading jobban_rank
+00-49:ADMIN: Updating jobbanfile!
+00-49:GAME: starting game of traitor
+00-49:ACCESS: Login: Forteen from 70.134.75.135
+00-49:GAME: Forteen entered as Bob Robertson
+00-49:ACCESS: Login: TheGrifter from 67.8.150.183
+00-49:ACCESS: Login: Cacophony from 71.136.51.144
+00-49:OOC: Janar Gibbon/Cacophony : Crashed, earlier?
+00-49:GAME: Cacophony entered as Mavar Lenin
+00-49:OOC: Bob Robertson/Forteen : I just got on, no idea
+00-49:OOC: Mavar Lenin/Cacophony : Numbers say so.  
+00-49:GAME: TheGrifter entered as Dean Martin
+00-49:VOTE: Voting to restart round started by Dean Martin/TheGrifter
+00-49:VOTE: Voting closed, result was restart
+00-49:GAME: Rebooting due to restart vote
+00-49:ACCESS: Logout: Forteen
+00-49:ACCESS: Logout: TheGrifter
+00-49:ACCESS: Logout: Cacophony
+01-11:ADMIN: Loading crban_keylist
+01-11:ADMIN: Loading crban_reason
+01-11:ADMIN: Loading crban_time
+01-11:ADMIN: Loading crban_bannedby
+01-11:ADMIN: Loading crban_iplist
+01-11:ADMIN: Loading crban_unbanned
+01-11:ADMIN: Loading crban_ComputerIDs
+01-11:ADMIN: Loading jobban_rank
+01-11:ADMIN: Updating jobbanfile!
+01-11:ACCESS: Login: Cacophony from 71.136.51.144
+01-11:ACCESS: Login: TheGrifter from 67.8.150.183
+01-11:GAME: TheGrifter entered as Dean Martin
+01-11:GAME: Cacophony entered as Urist Levermurder
+01-11:ACCESS: Login: Forteen from 70.134.75.135
+01-11:GAME: Forteen entered as Bob Robertson
+01-11:VOTE: Voting to change mode started by Urist Levermurder/Cacophony
+01-11:OOC: Urist Levermurder/Cacophony : Probably want to wait a bit for people before starting a real game.
+01-11:VOTE: Voting closed, result was extended
+01-11:GAME: starting game of extended
+01-11:ACCESS: Login: Garf751 from 68.125.53.230
+01-11:GAME: Garf751 entered as Cog Doorwood
+01-11:ACCESS: Login: Matz05 from 142.179.230.253
+01-11:MATTACK: Bob Robertson(Forteen) attcked by Bob Robertson(Forteen) with the screwdriver
+01-11:GAME: Matz05 entered as Urist Noblelever
+01-11:SAY: Cog Doorwood/Garf751 : ;anything new?
+01-11:ACCESS: Login: Micro102 from 24.184.14.119
+01-11:GAME: Micro102 entered as Micro McGinley
+01-11:SAY: Urist Noblelever/Matz05 : ;Where can I get a job?
+01-11:SAY: Urist Levermurder/Cacophony : ;Ask the captain.
+01-11:SAY: Micro McGinley/Micro102 : ;I woud like a job too
+01-11:SAY: Urist Noblelever/Matz05 : ;Where is he?
+01-11:SAY: Urist Levermurder/Cacophony : ;Beats me.
+01-11:SAY: Urist Levermurder/Cacophony : S&#39;cuse me.
+01-11:SAY: Micro McGinley/Micro102 : Hmmm, then I just might have to go steal the captain&#39;s ID...
+01-11:SAY: Urist Levermurder/Cacophony : ;Captain?
+01-11:ACCESS: Login: Googolplexed from 123.243.197.60
+01-11:SAY: Urist Noblelever/Matz05 : ;The engines on right?
+01-11:SAY: Urist Levermurder/Cacophony : ;Uh, not yet.
+01-11:MATTACK: Urist Levermurder(Cacophony) attcked by Urist Levermurder(Cacophony) with the weldingtool
+01-11:SAY: Urist Noblelever/Matz05 : ;I can do ir
+01-11:SAY: Urist Noblelever/Matz05 : it
+01-11:SAY: Urist Noblelever/Matz05 : ;it
+01-11:SAY: Urist Noblelever/Matz05 : ;I just need an ID
+01-11:SAY: Urist Levermurder/Cacophony : ;Captain isn&#39;t responding.  Good luck with that.
+01-11:SAY: Urist Levermurder/Cacophony : ;I&#39;m working on it, anyway.
+01-11:SAY: Urist Noblelever/Matz05 : ;Shal I just break into Engineering?
+01-11:SAY: Urist Levermurder/Cacophony : ...;No.
+01-11:SAY: Urist Levermurder/Cacophony : ;...No.
+01-11:SAY: Urist Noblelever/Matz05 : ok. Hurry or well all freeze
+01-11:SAY: Urist Noblelever/Matz05 : ;ok. Hurry or we&#39;ll all freeze
+01-11:OOC: Micro McGinley/Micro102 : Is this a serious game?
+01-11:OOC: Urist Levermurder/Cacophony : Not really, but don&#39;t grief people.
+01-11:OOC: Micro McGinley/Micro102 : TO end it, can I set off a huge bomb?
+01-11:OOC: Cog Doorwood/Garf751 : ...
+01-11:OOC: Urist Levermurder/Cacophony : That would be griefing.
+01-11:OOC: Micro McGinley/Micro102 : &#34;to end it&#34;
+01-11:SAY: Urist Noblelever/Matz05 : Maybe a small one...
+01-11:OOC: Urist Levermurder/Cacophony : You&#39;d probably crash the server.
+01-11:OOC: Urist Noblelever/Matz05 : Maybe a small one...
+01-11:OOC: Micro McGinley/Micro102 : Hmmm
+01-11:OOC: Micro McGinley/Micro102 : but I can get it to 3k probably...
+01-11:OOC: Urist Levermurder/Cacophony : Just do a change mode vote once you think we have enough people.
+01-11:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+01-11:OOC: Urist Levermurder/Cacophony : Anything over 2k is crash-risk.  
+01-11:OOC: Cog Doorwood/Garf751 : 3k is pushing it
+01-11:ACCESS: Login: Orb370 from 4.229.192.249
+01-11:OOC: Cog Doorwood/Garf751 : oh and avoid the bar
+01-11:OOC: Cog Cheeseblaze/Googolplexed : 2k is usually fine
+01-11:OOC: Cog Cheeseblaze/Googolplexed : Actaully, with the updates, 10k is the most I would go
+01-11:OOC: Cog Cheeseblaze/Googolplexed : But stick with a max of 3-4k
+01-11:ACCESS: Login: Neojuliban from 186.136.13.11
+01-11:SAY: Cog Doorwood/Garf751 : ;score
+01-11:OOC: Cog Cheeseblaze/Googolplexed : Back before CIB fixed the explosions
+01-11:GAME: Orb370 entered as Cog Swordwall
+01-11:OOC: Cog Cheeseblaze/Googolplexed : It tried to recompute the powergrid constantly
+01-11:GAME: Neojuliban entered as Ronald "Bigkick" Easter
+01-11:OOC: Cog Cheeseblaze/Googolplexed : Now it only does it once
+01-11:ACCESS: Logout: Neojuliban
+01-11:OOC: Micro McGinley/Micro102 : How hot will 2 vats of plasma and oxygen get in 7 tiles of space?
+01-11:SAY: Cog Swordwall/Orb370 : ; Do we have a HoP or captain?
+01-11:OOC: Cog Swordwall/Orb370 : Hot
+01-11:SAY: Urist Levermurder/Cacophony : ;Nope.  Working on it.
+01-11:SAY: Cog Swordwall/Orb370 : ; Sigh..
+01-11:OOC: Cog Doorwood/Garf751 : i founds a glich
+01-11:SAY: Urist Noblelever/Matz05 : ;Can somone check out the stash of parts in the eastern part of maintnence?
+01-11:OOC: Cog Doorwood/Garf751 : you cant trow into the black
+01-11:OOC: Cog Swordwall/Orb370 : Er, well...
+01-11:GAME: TheNewMakerGamer10 entered as John Mcwhale
+01-11:OOC: Cog Swordwall/Orb370 : I wouldnt concider that a glitch
+01-11:OOC: Cog Swordwall/Orb370 : Since it doesnt really matter.
+01-11:OOC: Cog Doorwood/Garf751 : eh
+01-11:SAY: Cog Swordwall/Orb370 : ; HoP or captain please..
+01-11:SAY: Urist Levermurder/Cacophony : ;Weld through a wall for me?
+01-11:OOC: Micro McGinley/Micro102 : Bug, even cutting the test light wire, screwdriving the panel back into place turns the test light back on
+01-11:SAY: Urist Levermurder/Cacophony : ;Almost got it..
+01-11:OOC: Micro McGinley/Micro102 : What is the most heat protective suit? One that can withstand thousands of degrees?
+01-11:SAY: Cog Doorwood/Garf751 : ;eva has been liquidated
+01-11:ACCESS: Login: Trorbes from 75.58.81.221
+01-11:OOC: Micro McGinley/Micro102 : Either that or how do you measure temperature from far away?
+01-11:SAY: Urist Levermurder/Cacophony : ;What?
+01-11:SAY: Urist Noblelever/Matz05 : ;Can somone see this body I found?
+01-11:SAY: Urist Levermurder/Cacophony : Heya, captain.
+01-11:ACCESS: Logout: Trorbes
+01-11:SAY: Urist Levermurder/Cacophony : ;Hmm..  Meteor strikes.
+01-11:OOC: Cog Swordwall/Orb370 : Er, I dont think one exists micro
+01-11:OOC: Cog Swordwall/Orb370 : If you think about it, would anything survive thousands of degrees? 
+01-11:OOC: Micro McGinley/Micro102 : A sheet of glass that contains the fire?
+01-11:SAY: Urist Levermurder/Cacophony : ;All right, who needs a job?
+01-11:ACCESS: Logout: Orb370
+01-11:SAY: Urist Noblelever/Matz05 : Hello?
+01-11:SAY: Urist Noblelever/Matz05 : Please let me in.
+01-11:OOC: Micro McGinley/Micro102 : It seems hat thevats did nothing, I broke them with fire but the fires temperature didn&#39;t go particularly high
+01-11:OOC: Micro McGinley/Micro102 : that the vats*
+01-11:OOC: Cog Doorwood/Garf751 : well shit
+01-11:OOC: Cog Doorwood/Garf751 : i died
+01-11:SAY: Urist Levermurder/Cacophony : Come on up to the desk.
+01-11:SAY: Urist Levermurder/Cacophony : We need a HoP, first of all..
+01-11:SAY: Urist Levermurder/Cacophony : Want to be one?
+01-11:SAY: John Mcwhale/TheNewMakerGamer10 : sure
+01-11:SAY: Urist Levermurder/Cacophony : Pass the card here, please.
+01-11:SAY: Urist Levermurder/Cacophony : ;Someone said something about a body?
+01-11:OOC: Micro McGinley/Micro102 : Ok we got 8 guys
+01-11:OOC: Micro McGinley/Micro102 : Vote mode?
+01-11:SAY: Urist Levermurder/Cacophony : There you go.
+01-11:ACCESS: Logout: Forteen
+01-11:OOC: Cog Doorwood/Garf751 : eh
+01-11:ACCESS: Logout: 
+01-11:ACCESS: Login: Garf751 from 68.125.53.230
+01-11:ACCESS: They share computer ID's
+01-11:OOC: Cog Doorwood/Garf751 : how about we vote reset and if we reset we mode vote
+01-11:OOC: Urist Levermurder/Cacophony : If I revive some people, we could do something..
+01-11:OOC: Micro McGinley/Micro102 : What mode is it?
+01-11:OOC: Cog Doorwood/Garf751 : ext
+01-11:OOC: Micro McGinley/Micro102 : bleh
+01-11:SAY: Urist Noblelever/Matz05 : ;Can Toxins please fech an O2 Canister for me?
+01-11:SAY: Urist Levermurder/Cacophony : ;Working on something.  Give me a minute.
+01-11:OOC: Micro McGinley/Micro102 : Well, if enough people pick ext then that will be the same as resart ok?
+01-11:OOC: Cog Doorwood/Garf751 : if yot throw something onto a proxy assembly will it go boom?
+01-11:OOC: Cog Doorwood/Garf751 : apprantly not
+01-11:SAY: Urist Levermurder/Cacophony : ;Dealt with one body.
+01-11:SAY: Urist Levermurder/Cacophony : ;Any other ones?
+01-11:SAY: Urist Levermurder/Cacophony : Rise and shine.  You&#39;re alive.
+01-11:SAY: Urist Noblelever/Matz05 : ;Toxins, May I have an O2 Canister?
+01-11:SAY: Urist Levermurder/Cacophony : ;Full size, or for breathing?
+01-11:OOC: HELP: Cog Doorwood/Garf751 : can i tell em where my body is?
+01-11:SAY: Urist Levermurder/Cacophony : Can give you a job if you want.
+01-11:SAY: Urist Noblelever/Matz05 : ;Full size if possible
+01-11:SAY: Urist Levermurder/Cacophony : Micro?
+01-11:SAY: Micro McGinley/Micro102 : Sure
+01-11:SAY: Urist Levermurder/Cacophony : ;Let me grab that oxy canister.
+01-11:SAY: Urist Levermurder/Cacophony : ;It&#39;s by med research.
+01-11:OOC: HELP: Cog Doorwood/Garf751 : i guess thats a no....
+01-11:SAY: John Mcwhale/TheNewMakerGamer10 : Hi sir
+01-11:SAY: Urist Levermurder/Cacophony : Doing all right, John?
+01-11:SAY: John Mcwhale/TheNewMakerGamer10 : Yeah
+01-11:OOC: Urist Noblelever/Matz05 : this IS a non-serious round, right?
+01-11:SAY: Urist Levermurder/Cacophony : ;Micro, we have a HoP at arrivals.  
+01-11:OOC: Urist Levermurder/Cacophony : Try to avoid griefing.  
+01-11:SAY: John Mcwhale/TheNewMakerGamer10 : I need a black suit
+01-11:SAY: Urist Levermurder/Cacophony : Raid the lawyer closet.
+01-11:OOC: Urist Noblelever/Matz05 : ONE ingenious booby-trap?
+01-11:SAY: Urist Levermurder/Cacophony : But give Micro a job, first.
+01-11:OOC: Cog Doorwood/Garf751 : im dead but i dont think google would like if i told you where my body is
+01-11:OOC: Urist Levermurder/Cacophony : As long as you only do it to yourself.  
+01-11:OOC: Micro McGinley/Micro102 : My internals valve is set to 2500 lol
+01-11:OOC: Urist Noblelever/Matz05 : I cant disarm it now anyways.
+01-11:SAY: Urist Noblelever/Matz05 : Whar the
+01-11:ACCESS: Login: Forteen from 70.134.75.135
+01-11:SAY: Micro McGinley/Micro102 : ;FIRE!
+01-11:SAY: Micro McGinley/Micro102 : lMETOERS!
+01-11:OOC: Cog Doorwood/Garf751 : ok meteors should not be this accurate
+01-11:SAY: Micro McGinley/Micro102 : ;METEORS!
+01-11:OOC: Bob Robertson/Forteen : I just got back
+01-11:ACCESS: Logout: 
+01-11:ACCESS: Login: TheGrifter from 67.8.150.183
+01-11:ACCESS: They share computer ID's
+01-11:OOC: Bob Robertson/Forteen : What meteors?
+01-11:ACCESS: Logout: 
+01-11:ACCESS: Login: TheGrifter from 67.8.150.183
+01-11:ACCESS: They share computer ID's
+01-11:OOC: Micro McGinley/Micro102 : Meteor hit bridge
+01-11:OOC: Micro McGinley/Micro102 : Lets do zombie mode!
+01-11:SAY: Urist Levermurder/Cacophony : ;I&#39;ll fix whatever damage they do.  
+01-11:SAY: Urist Levermurder/Cacophony : Reviving somebody right now.
+01-11:OOC: Cog Doorwood/Garf751 : i wish there was a delayed zombie mods
+01-11:OOC: Cog Doorwood/Garf751 : mode*
+01-11:SAY: Bob Robertson/Forteen : ;Guys
+01-11:SAY: Bob Robertson/Forteen : ;I fell asleep
+01-11:SAY: Bob Robertson/Forteen : ;What happened?
+03-06:ADMIN: Loading crban_keylist
+03-06:ADMIN: Loading crban_reason
+03-06:ADMIN: Loading crban_time
+03-06:ADMIN: Loading crban_bannedby
+03-06:ADMIN: Loading crban_iplist
+03-06:ADMIN: Loading crban_unbanned
+03-06:ADMIN: Loading crban_ComputerIDs
+03-06:ADMIN: Loading jobban_rank
+03-06:ADMIN: Updating jobbanfile!
+03-06:ACCESS: Login: Cacophony from 71.136.51.144
+03-06:GAME: Cacophony entered as Urist Levermurder
+03-06:OOC: Urist Levermurder/Cacophony : Er.
+03-06:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+03-06:GAME: TheNewMakerGamer10 entered as John Mcwhale
+03-06:OOC: Urist Levermurder/Cacophony : Woo.  A second person.
+03-06:VOTE: Voting to change mode started by John Mcwhale/TheNewMakerGamer10
+03-06:OOC: Urist Levermurder/Cacophony : IT?
+03-06:OOC: John Mcwhale/TheNewMakerGamer10 : No
+03-06:OOC: Urist Levermurder/Cacophony : Was going to say...
+03-06:OOC: John Mcwhale/TheNewMakerGamer10 : Don&#39;t Play Dev server
+03-06:OOC: John Mcwhale/TheNewMakerGamer10 : They have terrible admins
+03-06:GAME: starting game of extended
+03-06:OOC: Urist Levermurder/Cacophony : Never played any of the goon servers.
+03-06:OOC: John Mcwhale/TheNewMakerGamer10 : I was griefed 3 times and they did nothing
+03-06:VOTE: Voting closed, result was extended
+03-06:OOC: Urist Levermurder/Cacophony : Heh, oops.
+03-06:GAME: Rebooting due to mode vote
+03-06:ACCESS: Logout: Cacophony
+03-06:ACCESS: Logout: TheNewMakerGamer10
+03-12:ADMIN: Loading crban_keylist
+03-12:ADMIN: Loading crban_reason
+03-12:ADMIN: Loading crban_time
+03-12:ADMIN: Loading crban_bannedby
+03-12:ADMIN: Loading crban_iplist
+03-12:ADMIN: Loading crban_unbanned
+03-12:ADMIN: Loading crban_ComputerIDs
+03-12:ADMIN: Loading jobban_rank
+03-12:ADMIN: Updating jobbanfile!
+03-12:ACCESS: Login: Cacophony from 71.136.51.144
+03-12:ACCESS: Login: Micro102 from 24.184.14.119
+03-12:GAME: Cacophony entered as Urist Levermurder
+03-12:OOC: Urist Levermurder/Cacophony : Howdy, Micro.
+03-12:GAME: Micro102 entered as Micro McGinley
+03-12:OOC: Micro McGinley/Micro102 : Hey
+03-12:OOC: Urist Levermurder/Cacophony : Want to do a &#39;real&#39; game mode, or extended &#39;til we get people?
+03-12:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+03-12:OOC: Micro McGinley/Micro102 : Real
+03-12:VOTE: Voting to change mode started by Urist Levermurder/Cacophony
+03-12:OOC: Micro McGinley/Micro102 : O wow only 3, what happened?
+03-12:OOC: Urist Levermurder/Cacophony : Beats me.  
+03-12:OOC: Urist Levermurder/Cacophony : Meteor can be done with few people.
+03-12:GAME: TheNewMakerGamer10 entered as John Mcwhale
+03-12:OOC: Micro McGinley/Micro102 : Meteor is boring, grab internals call shuttle lay down
+03-12:OOC: John Mcwhale/TheNewMakerGamer10 : Dev server don&#39;t deserve so many people
+03-12:OOC: Micro McGinley/Micro102 : Wait 10 minutes
+03-12:OOC: Urist Levermurder/Cacophony : If you do it that way, yeah, it&#39;s boring.
+03-12:VOTE: Voting closed, result was revolution
+03-12:OOC: Micro McGinley/Micro102 : Traitor is best
+03-12:OOC: Urist Levermurder/Cacophony : I like running around and recovering people.  
+03-12:OOC: Micro McGinley/Micro102 : WTH, there was only 1 person for meteor
+03-12:OOC: Urist Levermurder/Cacophony : And one for everything else.
+03-12:OOC: Urist Levermurder/Cacophony : So it randomly chose meteor.
+03-12:OOC: Micro McGinley/Micro102 : So that should call for secret
+03-12:OOC: Urist Levermurder/Cacophony : I&#39;d prefer secret, honestly.
+03-12:OOC: Urist Levermurder/Cacophony : But you can&#39;t just select it.
+03-12:OOC: Micro McGinley/Micro102 : It, you can
+03-12:OOC: Urist Levermurder/Cacophony : The admins are the ones who make the transfer.
+03-12:OOC: Urist Levermurder/Cacophony : IT is just a half-made game mode nobody would choose normally.
+03-12:OOC: John Mcwhale/TheNewMakerGamer10 : I want the rp to be normal for once
+03-12:OOC: John Mcwhale/TheNewMakerGamer10 : There is always grief
+03-12:GAME: starting game of meteor
+03-12:OOC: Urist Levermurder/Cacophony : People get bored eventually.
+03-12:OOC: Urist Levermurder/Cacophony : Something stupid happens, it gets worse.
+03-12:SAY: Micro McGinley/Micro102 : ;What the hell was that?!?!
+03-12:SAY: Urist Levermurder/Cacophony : ;What?
+03-12:ACCESS: Login: Garf751 from 68.125.53.230
+03-12:GAME: Garf751 entered as Cog Doorwood
+03-12:OOC: Cog Doorwood/Garf751 : holy crap
+03-12:SAY: Urist Levermurder/Cacophony : ;Hm.  Heard that one.
+03-12:SAY: Micro McGinley/Micro102 : ;MEteors!
+03-12:ACCESS: Login: Googolplexed from 123.243.197.60
+03-12:SAY: Urist Levermurder/Cacophony : They broke into electrical storage.
+03-12:SAY: Urist Levermurder/Cacophony : ;Should I lay down some barriers?
+03-12:SAY: Urist Levermurder/Cacophony : ;Uh..
+03-12:SAY: Urist Levermurder/Cacophony : ;Captain, where&#39;d you take all the metal?
+03-12:SAY: Cog Doorwood/Garf751 : ;HELP
+03-12:SAY: Urist Levermurder/Cacophony : ;Where?
+03-12:SAY: Cog Doorwood/Garf751 : ;IM STUCK IN EVA!
+03-12:SAY: Cog Doorwood/Garf751 : *cry
+03-12:SAY: Urist Levermurder/Cacophony : Get over here!
+03-12:SAY: Cog Doorwood/Garf751 : but but
+03-12:SAY: Cog Doorwood/Garf751 : *temble
+03-12:SAY: Urist Levermurder/Cacophony : Now!  Go!
+03-12:SAY: Cog Doorwood/Garf751 : *trembly
+03-12:SAY: Cog Doorwood/Garf751 : *cry
+03-12:OOC: Micro McGinley/Micro102 : All the commmunication computers have been destroyed...
+03-12:OOC: Micro McGinley/Micro102 : snother meteor bad game
+03-12:OOC: Cog Doorwood/Garf751 : aka were doomed
+03-12:OOC: John Mcwhale/TheNewMakerGamer10 : I am HoP
+03-12:OOC: Urist Levermurder/Cacophony : Possible to build another.
+03-12:OOC: Cog Doorwood/Garf751 : eva is being spammed with meteros though
+03-12:OOC: Micro McGinley/Micro102 : WTF
+03-12:OOC: Micro McGinley/Micro102 : It just said next vote can begin in 12 seconds, now its 3 minutes
+03-12:OOC: Micro McGinley/Micro102 : And all my stuff was taken off of me
+03-12:OOC: Micro McGinley/Micro102 : Who&#39;s the griefer
+03-12:ACCESS: Logout: 
+03-12:ACCESS: Login: Garf751 from 68.125.53.230
+03-12:ACCESS: They share computer ID's
+03-12:ACCESS: Logout: TheNewMakerGamer10
+03-12:OOC: Cog Doorwood/Garf751 : bruse packs are like duct tape for bodies
+03-12:OOC: Urist Levermurder/Cacophony : Damnit.
+03-12:OOC: Urist Levermurder/Cacophony : Probably should restart, this went poorly since the shuttle wasn&#39;t called ASAP.  
+03-12:OOC: Micro McGinley/Micro102 : Omg someone was still alive?!?!?!?
+03-12:VOTE: cacophony tried to force the world to restart via change gamemode
+03-12:VOTE: Voting to restart round started by Urist Levermurder/Cacophony
+03-12:OOC: Cog Doorwood/Garf751 : lul headshot
+03-12:OOC: Urist Levermurder/Cacophony : Double meteor ownage.  
+03-12:OOC: Micro McGinley/Micro102 : cacophony decided to try to force the gamemode to change, Naturally we won&#39;t go along with this# 
+03-12:OOC: Micro McGinley/Micro102 : Wha?
+03-12:OOC: Urist Levermurder/Cacophony : Tried to do a game change vote, guess it didn&#39;t like that.
+03-12:OOC: Micro McGinley/Micro102 : Googol are you doing this?
+03-12:OOC: Cog Uristtime/Googolplexed : I added that a while bug
+03-12:OOC: Cog Uristtime/Googolplexed : Back
+03-12:VOTE: Voting closed, result was restart
+03-12:OOC: Cog Uristtime/Googolplexed : It also used to give you torettes
+03-12:GAME: Rebooting due to restart vote
+03-12:ACCESS: Logout: Cacophony
+03-12:ACCESS: Logout: Micro102
+03-12:ACCESS: Logout: Garf751
+03-12:ACCESS: Logout: Googolplexed
+03-30:ADMIN: Loading crban_keylist
+03-30:ADMIN: Loading crban_reason
+03-30:ADMIN: Loading crban_time
+03-30:ADMIN: Loading crban_bannedby
+03-30:ADMIN: Loading crban_iplist
+03-30:ADMIN: Loading crban_unbanned
+03-30:ADMIN: Loading crban_ComputerIDs
+03-30:ADMIN: Loading jobban_rank
+03-30:ADMIN: Updating jobbanfile!
+03-30:ACCESS: Login: Cacophony from 71.136.51.144
+03-30:ACCESS: Login: Garf751 from 68.125.53.230
+03-30:ACCESS: Login: Googolplexed from 123.243.197.60
+03-30:GAME: Garf751 entered as Cog Doorwood
+03-30:GAME: Cacophony entered as Urist Levermurder
+03-30:SAY: Urist Levermurder/Cacophony : Micro? 
+03-30:VOTE: Voting to change mode started by Urist Levermurder/Cacophony
+03-30:ACCESS: Login: Micro102 from 24.184.14.119
+03-30:GAME: Micro102 entered as Micro McGinley
+03-30:OOC: Urist Levermurder/Cacophony : Actually.
+03-30:OOC: Urist Levermurder/Cacophony : IT for secret?
+03-30:OOC: Urist Levermurder/Cacophony : Guess not.
+03-30:OOC: Micro McGinley/Micro102 : Nah, traitor is really the only good one with a few people
+03-30:VOTE: Voting closed, result was traitor
+03-30:OOC: Urist Levermurder/Cacophony : Meteor obviously went poorly.
+03-30:OOC: Urist Levermurder/Cacophony : What killed you two?  
+03-30:ACCESS: Login: Topkasa from 70.66.66.133
+03-30:OOC: Desmond Taggart/Topkasa : hey
+03-30:OOC: Micro McGinley/Micro102 : I don&#39;t know, one minute I was in cryo next I was in the hallway
+03-30:OOC: Desmond Taggart/Topkasa : goog, you here?
+03-30:OOC: Cog Doorwood/Garf751 : meteor hate
+03-30:OOC: Urist Woodpick/Googolplexed : Hey
+03-30:ADMIN: Googolplexed/Urist Woodpick : You have admin
+03-30:OOC: Desmond Taggart/Topkasa : hey, you asked to meet here to discuss the networking?
+03-30:OOC: Urist Woodpick/Googolplexed : Yeah
+03-30:ADMIN: PM: Topkasa->Googolplexed : Yeah, I noted it down in the git log
+03-30:ADMIN: Googolplexed/Urist Woodpick : I noticed
+03-30:ADMIN: PM: Topkasa->Googolplexed : Like I said, for testing, not for me to actually use unless the host decides it's okay
+03-30:ADMIN: Googolplexed/Urist Woodpick : Anyway, I&#39;m mostly thinking about the actual syntax of the network
+03-30:GAME: starting game of traitor
+03-30:ACCESS: Logout: 
+03-30:ACCESS: Login: Micro102 from 24.184.14.119
+03-30:ACCESS: They share computer ID's
+03-30:ADMIN: Googolplexed/Urist Woodpick : Well the commands
+03-30:ADMIN: Googolplexed/Urist Woodpick : I&#39;ll setup a git branch
+03-30:ADMIN: PM: Topkasa->Googolplexed : I think something like SMTP/HTTP/IRC/etc would definitely be a good idea
+03-30:ADMIN: Googolplexed/Urist Woodpick : See, I&#39;m thinking more home-automation style
+03-30:SAY: Urist Levermurder/Cacophony : ;AI, anything to report?
+03-30:ADMIN: PM: Topkasa->Googolplexed : oh?
+03-30:ADMIN: Googolplexed/Urist Woodpick : No real-world services ingame
+03-30:SAY: Urist Levermurder/Cacophony : ;AI?
+03-30:ADMIN: Googolplexed/Urist Woodpick : Just something like 
+03-30:ADMIN: PM: Topkasa->Googolplexed : Nono, I mean ilike how they're text-based
+03-30:SAY: GLaDoS/Micro102 : Engine needs to be started
+03-30:ADMIN: Googolplexed/Urist Woodpick : Yeah
+03-30:ADMIN: PM: Topkasa->Googolplexed : of course no real smtp/irc/etc
+03-30:SAY: Urist Levermurder/Cacophony : ;We just have me and a geneticist.  
+03-30:ADMIN: Googolplexed/Urist Woodpick : Yeah, I&#39;ve always liked how STMP handles things
+03-30:ADMIN: PM: Topkasa->Googolplexed : I do like your idea of <address> <uniit-specific command>
+03-30:SAY: Urist Levermurder/Cacophony : ;What needs to be done?
+03-30:ADMIN: Googolplexed/Urist Woodpick : Even if IRL its really bad for secuirty
+03-30:SAY: GLaDoS/Micro102 : Engine.
+03-30:SAY: Urist Levermurder/Cacophony : ;Can you do that by yourself?
+03-30:ADMIN: Googolplexed/Urist Woodpick : Well
+03-30:ADMIN: PM: Topkasa->Googolplexed : Here, we want it to be hackable
+03-30:SAY: GLaDoS/Micro102 : No
+03-30:ADMIN: Googolplexed/Urist Woodpick : The problem with that, is that it has no concept of mulitcasting
+03-30:SAY: GLaDoS/Micro102 : Vats are not remotly controlled
+03-30:SAY: Urist Levermurder/Cacophony : ;All right.  Lead me through it.  
+03-30:ADMIN: PM: Topkasa->Googolplexed : maybe some simple passwording or something
+03-30:ADMIN: PM: Topkasa->Googolplexed : Also, perhaps each device should have a unique ID, and a type id 
+03-30:SAY: GLaDoS/Micro102 : Grab wrench, use on vats
+03-30:ADMIN: PM: Topkasa->Googolplexed : e.g. Unit has addrtess 1123, typeid 1
+03-30:ADMIN: Googolplexed/Urist Woodpick : How would a lightswitch work ?
+03-30:OOC: GLaDoS/Micro102 : Wicked new engine design!
+03-30:ADMIN: PM: Topkasa->Googolplexed : and another unit has address 33422, but  typeid 1 as well
+03-30:SAY: Urist Levermurder/Cacophony : ;Is that all?
+03-30:ADMIN: Googolplexed/Urist Woodpick : Yeah, ok
+03-30:ADMIN: PM: Topkasa->Googolplexed : So for multicast
+03-30:SAY: GLaDoS/Micro102 : Attatch CO2 to engine
+03-30:OOC: Cog Doorwood/Garf751 : bah
+03-30:ADMIN: Googolplexed/Urist Woodpick : So maybe a network address
+03-30:SAY: Urist Levermurder/Cacophony : ;Uh, what?
+03-30:ADMIN: PM: Topkasa->Googolplexed : MULTI <typeid> COMMAnd
+03-30:SAY: GLaDoS/Micro102 : Hot and cold loops
+03-30:ADMIN: Googolplexed/Urist Woodpick : A local address
+03-30:SAY: Urist Levermurder/Cacophony : ;I&#39;m the captain, not an engineer.  
+03-30:ADMIN: Googolplexed/Urist Woodpick : And a command
+03-30:SAY: GLaDoS/Micro102 : Head to storage
+03-30:ADMIN: Googolplexed/Urist Woodpick : Skipping the local address for multicasting
+03-30:SAY: GLaDoS/Micro102 : Bring CO2 to the most northern room
+03-30:ADMIN: PM: Topkasa->Googolplexed : Or perhaps making the local address the typeid instead
+03-30:SAY: GLaDoS/Micro102 : Use wrench to attach to  square vent
+03-30:ADMIN: PM: Topkasa->Googolplexed : And using a flag network address
+03-30:ADMIN: PM: Topkasa->Googolplexed : or a flag in the network address
+03-30:SAY: GLaDoS/Micro102 : Only 2 are needed
+03-30:SAY: GLaDoS/Micro102 : o
+03-30:ADMIN: Googolplexed/Urist Woodpick : Well, we want access to indvidual nodes
+03-30:ACCESS: Login: Rakonas from 74.72.13.126
+03-30:ADMIN: PM: Topkasa->Googolplexed : Okay, why not this:\
+03-30:ADMIN: Googolplexed/Urist Woodpick : But a flag for typeid or address might work
+03-30:SAY: Urist Levermurder/Cacophony : ;That all?
+03-30:ADMIN: PM: Topkasa->Googolplexed : For addressing a specific unit
+03-30:GAME: Rakonas entered as Urist Steelzombie
+03-30:SAY: Urist Levermurder/Cacophony : ;Aaaargh!
+03-30:ADMIN: PM: Topkasa->Googolplexed : NETADDR UNITADDR COMMAND COMMAND COMMANd
+03-30:ADMIN: PM: Topkasa->Googolplexed : for All units in a net
+03-30:SAY: Urist Steelzombie/Rakonas : ; Arrr!
+03-30:SAY: Urist Levermurder/Cacophony : ;AI, why did the door shock me?!
+03-30:SAY: Urist Steelzombie/Rakonas : ; I love pirate stations!
+03-30:ADMIN: PM: Topkasa->Googolplexed : NETADDR MULTI TYPEID COMMAND COMMAND COMMAND
+03-30:ADMIN: Googolplexed/Urist Woodpick : Yeah
+03-30:SAY: Urist Levermurder/Cacophony : ;AI?  
+03-30:SAY: Urist Steelzombie/Rakonas : ; Can I get assigned as the guy on the crow&#39;s nest?
+03-30:ADMIN: Googolplexed/Urist Woodpick : And multi is basically set for each area ?
+03-30:ADMIN: PM: Topkasa->Googolplexed : Yeah
+03-30:SAY: Urist Levermurder/Cacophony : ;AI is rogue!
+03-30:SAY: GLaDoS/Micro102 : Syindicate detected.
+03-30:ADMIN: PM: Topkasa->Googolplexed : if your unit is on NETADDR, and the next item in the packet is MULTI
+03-30:SAY: GLaDoS/Micro102 : Captain is dead
+03-30:SAY: Urist Steelzombie/Rakonas : ; We&#39;re all rogues!
+03-30:SAY: Urist Steelzombie/Rakonas : ; Avast!
+03-30:SAY: Urist Levermurder/Cacophony : ;I&#39;m still here, you bastard!
+03-30:ADMIN: PM: Topkasa->Googolplexed : then it checks if its typeid matches the packet typeid
+03-30:SAY: Urist Levermurder/Cacophony : ;Steelzombie, stop the AI!
+03-30:ADMIN: PM: Topkasa->Googolplexed : if so, it listens tot he packet
+03-30:SAY: Urist Steelzombie/Rakonas : ; How?
+03-30:ADMIN: Googolplexed/Urist Woodpick : Sounds good
+03-30:ADMIN: PM: Topkasa->Googolplexed : or, if its netaddr matches, and so does it uniqueid,
+03-30:ADMIN: PM: Topkasa->Googolplexed : it also listens
+03-30:ADMIN: PM: Topkasa->Googolplexed : By doing this, you could also
+03-30:ADMIN: PM: Topkasa->Googolplexed : enable netwok scanning if there's a "match-all" typeid
+03-30:ADMIN: PM: Topkasa->Googolplexed : e.g.
+03-30:SAY: Urist Steelzombie/Rakonas : Ow.
+03-30:ADMIN: PM: Topkasa->Googolplexed : NETADDR MULTI ALL PING MYNETADDR MYADDR
+03-30:ACCESS: Login: Cecilff2 from 4.254.223.196
+03-30:ADMIN: PM: Topkasa->Googolplexed : Instant network scan
+03-30:ACCESS: Logout: Micro102
+03-30:ACCESS: Logout: Cacophony
+03-30:ACCESS: Logout: Rakonas
+03-30:ACCESS: Logout: Garf751
+03-30:ACCESS: Logout: Googolplexed
+03-30:ACCESS: Logout: Topkasa
+03-30:ACCESS: Logout: Cecilff2
+03-45:ADMIN: Loading crban_keylist
+03-45:ADMIN: Loading crban_reason
+03-45:ADMIN: Loading crban_time
+03-45:ADMIN: Loading crban_bannedby
+03-45:ADMIN: Loading crban_iplist
+03-45:ADMIN: Loading crban_unbanned
+03-45:ADMIN: Loading crban_ComputerIDs
+03-45:ADMIN: Loading jobban_rank
+03-45:ADMIN: Updating jobbanfile!
+03-45:ACCESS: Login: Garf751 from 68.125.53.230
+03-45:ACCESS: Login: Cecilff2 from 4.254.223.196
+03-45:OOC: Cog Doorwood/Garf751 : crash?
+03-45:ACCESS: Login: Topkasa from 70.66.66.133
+03-45:GAME: Garf751 entered as Cog Doorwood
+03-45:OOC: Cog Doorwood/Garf751 : crash?
+03-45:OOC: Desmond Taggart/Topkasa : seems so
+03-45:ACCESS: Login: Googolplexed from 123.243.197.60
+03-45:ACCESS: Login: Micro102 from 24.184.14.119
+03-45:GAME: Micro102 entered as Micro McGinley
+03-45:OOC: Cog Doorwood/Garf751 : anyone know genetics
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : That was odd
+03-45:OOC: Cog Doorwood/Garf751 : i can only reveve people
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Anyway
+03-45:OOC: Micro McGinley/Micro102 : Dam I just finished frying the captain
+03-45:ADMIN: PM: Topkasa->Googolplexed : what was the last thing oyu got from me
+03-45:ACCESS: Login: Matz05 from 142.179.230.253
+03-45:OOC: Micro McGinley/Micro102 : Why&#39;d it crash?
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Admin PM from-Topkasa: Instant network scan
+03-45:ADMIN: PM: Topkasa->Googolplexed : ah, k
+03-45:OOC: Cog Doorwood/Garf751 : it couldent handle the awsome
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : I have it all saved
+03-45:GAME: Matz05 entered as Urist Noblelever
+03-45:ADMIN: PM: Topkasa->Googolplexed : Also, for a little more fun/detail
+03-45:ADMIN: PM: Topkasa->Googolplexed : hae things like net addresses, typeids, etc randomized to hex values
+03-45:ADMIN: PM: Topkasa->Googolplexed : never the same each round, but still easy enough to figure out
+03-45:OOC: Micro McGinley/Micro102 : But I was gonna purge the station :(
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:OOC: Cog Doorwood/Garf751 : i was going to fill up the curch
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Well, I would think that the best way to find them
+03-45:ADMIN: PM: Topkasa->Googolplexed : So a sample "kill the APC breaker" packet might be
+03-45:OOC: Micro McGinley/Micro102 : Plasma in toxins + plasma in atmos = fun
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Would be to packet-scan
+03-45:ADMIN: PM: Topkasa->Googolplexed : 3ab4 4563 OFF BREAKER
+03-45:OOC: Cog Doorwood/Garf751 : hey how do you nullify the rads in the genetics thingy
+03-45:ADMIN: PM: Topkasa->Googolplexed : NETADDR UNITADDR COMMAND COMMAND
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : I would add in a password of some sort
+03-45:OOC: Micro McGinley/Micro102 : Anti toxins?
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : We need some sort of authentication
+03-45:ACCESS: Login: Metatheguy from 75.24.185.209
+03-45:OOC: Micro McGinley/Micro102 : It should wear off dueto halflife eventually
+03-45:ADMIN: PM: Topkasa->Googolplexed : yeah.  That could be handled either at the network level or the command level
+03-45:ADMIN: PM: Topkasa->Googolplexed : I'd prefer command level
+03-45:GAME: starting game of traitor
+03-45:ACCESS: Logout: 
+03-45:ACCESS: Login: Micro102 from 24.184.14.119
+03-45:ACCESS: They share computer ID's
+03-45:GAME: Cecilff2 entered as Cerberius Grey
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Same
+03-45:ADMIN: PM: Topkasa->Googolplexed : I see not reason to need autentication to turn off a dman light, XD
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : Though to be fair that would be hilarious
+03-45:SAY: GLaDoS/Micro102 : Engine needs to be started
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Here I am
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And the AI should have full authentication
+03-45:ADMIN: PM: Topkasa->Googolplexed : ERROR CANNOT TURN OF LIGHT: PERMISSION DENIED
+03-45:ADMIN: PM: Topkasa->Googolplexed : yeah
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Actually, hacking the AI would be a bit of a law reset exploit
+03-45:OOC: GLaDoS/Micro102 : I just noticed, lock captains door = instant captain kill
+03-45:GAME: Metatheguy entered as Cog Awesomesword
+03-45:ADMIN: PM: Topkasa->Googolplexed : Howso?
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Reset the power on its APC
+03-45:ADMIN: Cecilff2/Cerberius Grey : Equipment -&gt; Engineers/heads/captain.  Environmental -&gt; Atmos/heads/captain  Light-&gt;Captain only.
+03-45:SAY: GLaDoS/Micro102 : Engine needs to be started
+03-45:ACCESS: Logout: Metatheguy
+03-45:SAY: Cog Doorwood/Garf751 : ;hello
+03-45:SAY: Cog Doorwood/Garf751 : ;hello
+03-45:SAY: Cerberius Grey/Cecilff2 : ;I can do that.  But alas, I am an unassigned assistant
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : How would athentication work though
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : On the command level, the basic way is to use a password
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Does that not break your heart, AI?
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But where would the password come from
+03-45:ADMIN: PM: Topkasa->Googolplexed : well
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And how would it be authenticated
+03-45:ADMIN: PM: Topkasa->Googolplexed : why not just use the current access system,
+03-45:ADMIN: PM: Topkasa->Googolplexed : for example
+03-45:SAY: GLaDoS/Micro102 : Captain, please report to ID assignment room
+03-45:ADMIN: PM: Topkasa->Googolplexed : NETADDR UNIQUEADDR 1,2,3,4... COMMAND
+03-45:ADMIN: PM: Topkasa->Googolplexed : where 1,2,3,4...
+03-45:SAY: GLaDoS/Micro102 : Captain?
+03-45:ADMIN: PM: Topkasa->Googolplexed : wai tnvm\
+03-45:ADMIN: PM: Topkasa->Googolplexed : that'd be too explotable
+03-45:SAY: GLaDoS/Micro102 : Please stop playing with the intercom and report to Job assignment
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah, I&#39;d like people to be able to steal passwords
+03-45:SAY: Cerberius Grey/Cecilff2 : Hello
+03-45:ADMIN: PM: Topkasa->Googolplexed : Well, right now its just machinery controlling machinery
+03-45:SAY: Cerberius Grey/Cecilff2 : That man is odd
+03-45:SAY: Cog Doorwood/Garf751 : ;arg
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : so why not randomly generate a password for each net
+03-45:ADMIN: PM: Topkasa->Googolplexed : or typeid or something
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But players will become involved at some point
+03-45:ADMIN: PM: Topkasa->Googolplexed : The machinery can store and use it
+03-45:SAY: Urist Noblelever/Matz05 : Wadda ya want
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : The whole point of making it a text-style interface
+03-45:ADMIN: PM: Topkasa->Googolplexed : and players can find it out by packet sniffing
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Is for manual access
+03-45:SAY: Cerberius Grey/Cecilff2 : He said he wanted adamantine socks
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But with packet sniffing the password
+03-45:ADMIN: PM: Topkasa->Googolplexed : So to remotely control an APC
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : You have the probelm of how much power would the one password have
+03-45:SAY: Urist Noblelever/Matz05 : ?
+03-45:ADMIN: PM: Topkasa->Googolplexed : Different passwords for different typeids
+03-45:ADMIN: PM: Topkasa->Googolplexed : e.g. one for APC control, one for poddoors,
+03-45:ADMIN: PM: Topkasa->Googolplexed : So no one master password
+03-45:SAY: Cerberius Grey/Cecilff2 : I could really use assignment.
+03-45:SAY: Cerberius Grey/Cecilff2 : Probably help with your lighting problem if you allow me to work engineering
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah but what about for airlocks
+03-45:SAY: Urist Noblelever/Matz05 : Ok.
+03-45:SAY: Cog Doorwood/Garf751 : we need a head of matance
+03-45:SAY: Cog Doorwood/Garf751 : can you make him one
+03-45:SAY: Cerberius Grey/Cecilff2 : That&#39;d be fine too
+03-45:ADMIN: PM: Topkasa->Googolplexed : Yeah, you cajn't have just one password for those
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : How would you handle a janitor opening a door
+03-45:SAY: Cerberius Grey/Cecilff2 : I know how to work atmospherics too
+03-45:ADMIN: PM: Topkasa->Googolplexed : Wait, I'm assuming the current control system of  going to a door and swiping your ID is stayin, right?
+03-45:ADMIN: PM: Topkasa->Googolplexed : That shouldn't need to change
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But then, does the airlock send a signal to itself ?
+03-45:ACCESS: Login: Neojuliban from 186.136.13.11
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Because if it doesn&#39;t, how will you ever get the password ?
+03-45:ADMIN: PM: Topkasa->Googolplexed : the airlock wouldn't send a signal at all, since it's not communicating with anything
+03-45:ADMIN: PM: Topkasa->Googolplexed : to get a network password
+03-45:ADMIN: PM: Topkasa->Googolplexed : You'd need to get, say, the AI to open the door
+03-45:SAY: Cog Doorwood/Garf751 : hey grey can you lie down i need to get by
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Ah yeah, remote control
+03-45:ADMIN: PM: Topkasa->Googolplexed : and sniff the packet the AI would send
+03-45:SAY: Cog Doorwood/Garf751 : or that
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But there would have to be a way without the AI
+03-45:ADMIN: PM: Topkasa->Googolplexed : Oh
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And on AI levels
+03-45:ADMIN: PM: Topkasa->Googolplexed : you could introduce arbitrary network traffic
+03-45:ACCESS: Logout: Neojuliban
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : You could ask it to let you out of some low-sec area
+03-45:ADMIN: PM: Topkasa->Googolplexed : That does nothing, but does have the passwords
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And then use the PW to get to the bridge
+03-45:ADMIN: PM: Topkasa->Googolplexed : e.g. some stupid "TEST SELF" thing
+03-45:SAY: Cog Doorwood/Garf751 : need help with that?
+03-45:ADMIN: PM: Topkasa->Googolplexed : password is available that way
+03-45:ADMIN: PM: Topkasa->Googolplexed : Just random automated network chatter
+03-45:SAY: Urist Noblelever/Matz05 : WONT WORK!
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Still, just one password to open all airlocks
+03-45:SAY: Cog Doorwood/Garf751 : put your id in
+03-45:SAY: Cerberius Grey/Cecilff2 : ((If you haven&#39;t used the ID console before, put the captain ID into the Confirm identity slot.  My ID into the target))
+03-45:ADMIN: PM: Topkasa->Googolplexed : About that
+03-45:SAY: Cerberius Grey/Cecilff2 : ((Then select the position you want to change the target to))
+03-45:SAY: Urist Noblelever/Matz05 : thanks
+03-45:ADMIN: PM: Topkasa->Googolplexed : You could have the airlocks generate passwords based on what accesses are needed for them.  All  airlocks with a set of accesses would have one password
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : all airlocks with a different access combo use a different password
+03-45:ADMIN: PM: Topkasa->Googolplexed : brb
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : No, maybe have each access level have a different password
+03-45:OOC: GLaDoS/Micro102 : Urist Nobelever, you new at SS13?
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : The airlock could accept multiple passwords, depending on access level
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : You keeping up ceciff ?
+03-45:SAY: Cerberius Grey/Cecilff2 : That guy is seriously in need of help
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : :)
+03-45:SAY: Cerberius Grey/Cecilff2 : I better get to work quick
+03-45:ADMIN: PM: Topkasa->Googolplexed : I like that idea better
+03-45:ACCESS: Login: Cacophony from 71.136.51.144
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : So, if the room is just the janitors office
+03-45:SAY: GLaDoS/Micro102 : Cog Door wood has attacked the captain
+03-45:GAME: Cacophony entered as Urist Levermurder
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Then packetscanning it will only give janitor permissions
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:OOC: Urist Levermurder/Cacophony : What&#39;s with the constant connection loss?
+03-45:ADMIN: PM: Topkasa->Googolplexed : exactly
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Do we even have security staff?
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:OOC: Urist Noblelever/Matz05 : Just at captin
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:SAY: GLaDoS/Micro102 : Please pull the captain out form door
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:ADMIN: PM: Topkasa->Googolplexed : But now any door that requires a janitor password is open
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Urist Noblelever(Matz05) with the toolbox
+03-45:SAY: Cog Doorwood/Garf751 : ;well shit
+03-45:ADMIN: PM: Topkasa->Googolplexed : Then you can broadcast an open packet to all airlocks with that password
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:SAY: Urist Levermurder/Cacophony : ;He&#39;s dead!
+03-45:ADMIN: PM: Topkasa->Googolplexed : and now you'll know which doors you can open
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But to do anything useful you need a higherlevel ID
+03-45:ADMIN: PM: Topkasa->Googolplexed : you won't know their unit IDs, but you can open them
+03-45:SAY: GLaDoS/Micro102 : Cog Doorwood has killed the captain
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : BUT
+03-45:ACCESS: Login: Pablolo99 from 74.177.243.156
+03-45:ADMIN: PM: Topkasa->Googolplexed : if you add a "reply" command to airlocks
+03-45:ADMIN: PM: Topkasa->Googolplexed : then you can send a packet like
+03-45:SAY: Cerberius Grey/Cecilff2 : I take it we have no security?
+03-45:SAY: Urist Levermurder/Cacophony : ;Keep him sealed in there.
+03-45:SAY: Cerberius Grey/Cecilff2 : ;I take it we have no security?
+03-45:ADMIN: PM: Topkasa->Googolplexed : NETADDR MULTI AIRLOCK JANITORPASSWORD REPLY
+03-45:SAY: GLaDoS/Micro102 : Emergency jury, what is his sentence?
+03-45:ADMIN: PM: Topkasa->Googolplexed : And get all the Unit Ids for doors you have access to now
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Is it treason?
+03-45:SAY: GLaDoS/Micro102 : Yes. And murder.
+03-45:ADMIN: PM: Topkasa->Googolplexed : So now you can control them individually
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Treasonous murder.  Thats quite serious
+03-45:ADMIN: PM: Topkasa->Googolplexed : And if the AI or someone else is paying attention,
+03-45:ADMIN: PM: Topkasa->Googolplexed : they might notice the packet scanning
+03-45:SAY: Cerberius Grey/Cecilff2 : ;I know plain old treason carries the death sentence.  So would this require a double death sentence?
+03-45:ADMIN: PM: Topkasa->Googolplexed : perhaps the AI should be able to have a log of the last N packets to cross the network(s)
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : It brings us to a fairly big point though
+03-45:ACCESS: Logout: 
+03-45:ACCESS: Login: Matz05 from 142.179.230.253
+03-45:ACCESS: They share computer ID's
+03-45:ACCESS: Logout: 
+03-45:ACCESS: Login: Matz05 from 142.179.230.253
+03-45:ACCESS: They share computer ID's
+03-45:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+03-45:GAME: Guest-2337011188 entered as Jade
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : How do you stop someone packet-scanning everything by settingup a packetscanner earily on
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And leaving it there
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Or just scanning from across the station
+03-45:ADMIN: PM: Topkasa->Googolplexed : Well
+03-45:SAY: GLaDoS/Micro102 : Jade, Cog Doorwood is currently locked in that room. He has murdered the Captain.
+03-45:ACCESS: Login: Headswe from 127.0.0.1
+03-45:SAY: Urist Levermurder/Cacophony : ;He should be awake soon.  
+03-45:ADMIN: PM: Topkasa->Googolplexed : perhaps have it need to be wired to a network cable
+03-45:ADMIN: Headswe/Cog Doorengraving : Make them require user 
+03-45:ADMIN: PM: Topkasa->Googolplexed : and not add a wireless scanner
+03-45:ADMIN: Headswe/Cog Doorengraving : input
+03-45:ADMIN: PM: Topkasa->Googolplexed : now people can find it
+03-45:ADMIN: PM: Topkasa->Googolplexed : like the Power Sink in GS Dev
+03-45:ADMIN: Headswe/Cog Doorengraving : im spying on you.
+03-45:SAY: Urist Levermurder/Cacophony : ;AI, open medbay.
+03-45:ADMIN: PM: Topkasa->Googolplexed : so big it can't be added to backpack
+03-45:SAY: Jade/Guest-2337011188 : Great place to leave a dangerous murderer.
+03-45:ADMIN: PM: Topkasa->Googolplexed : And to get packets
+03-45:SAY: Cerberius Grey/Cecilff2 : ;We don&#39;t have any security.
+03-45:ADMIN: PM: Topkasa->Googolplexed : you have to return to the scanner
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Or they&#39;re all being very lazy
+03-45:SAY: Jade/Guest-2337011188 : Ai let me out.
+03-45:ACCESS: Logout: Headswe
+03-45:ADMIN: PM: Topkasa->Googolplexed : So it's a high-reward, high-risk unit
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : At most, have a reciever fo rthe scanner
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : There should also be some on the station
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : As normal equipment
+03-45:SAY: Urist Levermurder/Cacophony : ;Captain will be awake pretty soon.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But it would be a massive alarm if someone is seen using them
+03-45:ADMIN: PM: Topkasa->Googolplexed : yeah
+03-45:SAY: Jade/Guest-2337011188 : Ai open the damn door.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And they aren&#39;t a network tech
+03-45:ADMIN: PM: Topkasa->Googolplexed : except maybe two: one for the AI, one on the bridge
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:GAME: Pablolo99 entered as Urist Ironstop
+03-45:ADMIN: PM: Topkasa->Googolplexed : which are okay for heads and the Ai to use normally
+03-45:ADMIN: PM: Topkasa->Googolplexed : add another in Network Storage for network techs only
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : and for the non-syndicate ones, have them also be able to send test packets
+03-45:SAY: Jade/Guest-2337011188 : Hey dude.
+03-45:SAY: Jade/Guest-2337011188 : Chill.
+03-45:SAY: Urist Levermurder/Cacophony : Captain?
+03-45:SAY: Urist Nobletime/Matz05 : Thank you! I had left a different way cause many strangers crouded around. I asked him what he wanted and he stabbed me with a pen!
+03-45:SAY: Jade/Guest-2337011188 : Chill out.
+03-45:SAY: Jade/Guest-2337011188 : Can you hear me?
+03-45:SAY: Urist Ironstop/Pablolo99 : ..?
+03-45:SAY: Urist Levermurder/Cacophony : Uh, okay.
+03-45:SAY: Urist Nobletime/Matz05 : I&#39;m fine thank you.
+03-45:ADMIN: PM: Topkasa->Googolplexed : But a traitor's scanner would look differnt and not have the "send test packet" option
+03-45:SAY: Jade/Guest-2337011188 : Not you.
+03-45:SAY: Urist Levermurder/Cacophony : Follow me.
+03-45:SAY: Urist Ironstop/Pablolo99 : what are you talking about chill out
+03-45:SAY: Jade/Guest-2337011188 : You can&#39;t get out though.
+03-45:OOC: GLaDoS/Micro102 : Sorry AFK
+03-45:SAY: Jade/Guest-2337011188 : The stupid ai locked the door.
+03-45:MATTACK: Urist Ironstop(Pablolo99) attcked by Cog Awesomesword(Metatheguy) with the oxygentank
+03-45:SAY: Jade/Guest-2337011188 : That&#39;s neat.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Well, I think we have the basic idea pretty much downpat
+03-45:ADMIN: PM: Topkasa->Googolplexed : MMhmm.  still one thing thopugh
+03-45:ACCESS: Login: Lallander from 69.136.54.28
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah ?
+03-45:MATTACK: Urist Ironstop(Pablolo99) attcked by Cog Awesomesword(Metatheguy) with the oxygentank
+03-45:ADMIN: PM: Topkasa->Googolplexed : How would you get the network IDs.  
+03-45:MATTACK: Urist Ironstop(Pablolo99) attcked by Cog Awesomesword(Metatheguy) with the oxygentank
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Good point
+03-45:GAME: Lallander entered as Urist Whiphuman
+03-45:ADMIN: PM: Topkasa->Googolplexed : Though
+03-45:ADMIN: PM: Topkasa->Googolplexed : two ways
+03-45:SAY: GLaDoS/Micro102 : Captain, please assign security force
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : I would think that maybe they are displayed on the APCs
+03-45:ADMIN: PM: Topkasa->Googolplexed : first, packet scanning, of course
+03-45:ADMIN: PM: Topkasa->Googolplexed : second: A list in the network tech's office
+03-45:SAY: Urist Levermurder/Cacophony : ;Captain is alive and kicking.  
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:SAY: Urist Levermurder/Cacophony : Uh, would you mind letting me out, sir?
+03-45:ADMIN: PM: Topkasa->Googolplexed : Along with what they correspond to
+03-45:ADMIN: PM: Topkasa->Googolplexed : e.g. 1- Bridge Network , 2 - Engineering
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And also the AI should have an easy to access list
+03-45:ADMIN: PM: Topkasa->Googolplexed : etc.
+03-45:ADMIN: PM: Topkasa->Googolplexed : Ai should have that added to Memory
+03-45:MATTACK: Urist Nobletime (as Urist Noblelever)(Matz05)has shot a taser round at the artificial turf
+03-45:ACCESS: Failed Login: Agilent Reason: Key banned
+03-45:ADMIN: PM: Topkasa->Googolplexed : just like how traitors have their goals stored there
+03-45:SAY: Urist Levermurder/Cacophony : Thanks.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : But I also think that it should be possible to get it by phsyically going into the room
+03-45:ADMIN: PM: Topkasa->Googolplexed : Yeah, on APCs would be good
+03-45:ADMIN: PM: Topkasa->Googolplexed : as well as computers of any kind
+03-45:SAY: GLaDoS/Micro102 : Cog Awsomesword is ont hefloor bleeding
+03-45:SAY: Urist Levermurder/Cacophony : ;He got up.
+03-45:ADMIN: PM: Topkasa->Googolplexed : And perhaps SMES units.  Also, SMES units without network connections would be fun
+03-45:ACCESS: Logout: Lallander
+03-45:ADMIN: PM: Topkasa->Googolplexed : Be a good way for a traitor to cause problems
+03-45:ADMIN: PM: Topkasa->Googolplexed : by cutting network cabling
+03-45:ACCESS: Logout: Pablolo99
+03-45:SAY: Jade/Guest-2337011188 : Captain.
+03-45:SAY: Jade/Guest-2337011188 : I need a job STAT.
+03-45:ADMIN: PM: Topkasa->Googolplexed : less obvious than killing power
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ok!
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : Snother traitor item:  Packet Killer
+03-45:SAY: Jade/Guest-2337011188 : Check that out.
+03-45:ADMIN: PM: Topkasa->Googolplexed : simply silences all packets on a network
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : HEY!
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Ouch
+03-45:SAY: Urist Levermurder/Cacophony : What?
+03-45:SAY: Jade/Guest-2337011188 : SEIZE HIM!
+03-45:ADMIN: PM: Topkasa->Googolplexed : Again, large and hard to use, but also potentially useful
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Although for local access it wouldn&#39;t be bad I guess
+03-45:SAY: Urist Levermurder/Cacophony : I was just giving myself a job as station engineer.
+03-45:ADMIN: PM: Topkasa->Googolplexed : Items can be manually controlled, but say the AI can no onger manage the power systems in engineering, etc
+03-45:SAY: Urist Levermurder/Cacophony : The ID is there.  Take it.
+03-45:SAY: Urist Levermurder/Cacophony : All I wanted.
+03-45:SAY: GLaDoS/Micro102 : Captain, please assign security 
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ID?
+03-45:ADMIN: PM: Topkasa->Googolplexed : That, however, adds another item type: Routers, ways to connect two nets together
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ; I WILL GLaDOS DON&#39;T RUSH ME!
+03-45:ADMIN: PM: Topkasa->Googolplexed : packet killers only affect their net, not one on the other side of a router
+03-45:ADMIN: PM: Topkasa->Googolplexed : And that's where network IDs come from
+03-45:SAY: Jade/Guest-2337011188 : I wanna be a fire fighter.
+03-45:SAY: Jade/Guest-2337011188 : Sweet.
+03-45:SAY: GLaDoS/Micro102 : You will be HoS
+03-45:SAY: Urist Levermurder/Cacophony : ;Is the engine started yet?
+03-45:ADMIN: PM: Topkasa->Googolplexed : Though, that does add a small amount of pathfinding needed when building nets to find out which nets have to be travelled through to get a packet from one destination to another
+03-45:SAY: Cerberius Grey/Cecilff2 : ;It is
+03-45:OOC: GLaDoS/Micro102 : Yo nobelever, you new to SS13?
+03-45:SAY: Cerberius Grey/Cecilff2 : ;I&#39;ll be around to patch up faulty lightbulbs shortly
+03-45:ADMIN: PM: Topkasa->Googolplexed : so that, say, if a packet has to go through networks A and B to get from C to D
+03-45:OOC: GLaDoS/Micro102 : Because someone has the EXACT same name as you.
+03-45:ADMIN: PM: Topkasa->Googolplexed : then a Packet Killer on A, B, C or D would stop the packet
+03-45:OOC: Urist Nobletime (as Urist Noblelever)/Matz05 : I SAID NO JUST TO CAPITAIN! I JUST DIED YOU THINK I COULD HAVE A BREAK!
+03-45:OOC: GLaDoS/Micro102 : Ummm I din&#39;t mean anything offensive by it.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Perhaps there is no global networkId
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Just one for a central router
+03-45:OOC: GLaDoS/Micro102 : You wamt to transfer captainship to someone else?
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ; GLaDOS anyone who could be a good canidate for security?
+03-45:SAY: GLaDoS/Micro102 : Searching
+03-45:SAY: Urist Levermurder/Cacophony : ;The insulated gloves appear to be missing.
+03-45:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : So, now we have to decide on how to code It I guess
+03-45:ADMIN: PM: Topkasa->Googolplexed : So, network Ids for the individual networks, and a "central" router with it's own network ID?
+03-45:OOC: Cog Doorwood/Garf751 : boreingest round ever
+03-45:GAME: TheNewMakerGamer10 entered as John Mcwhale
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : What would the central router be used for?
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Sorry I have them.  I didn&#39;t want the crazy guy breaking in and murdering me
+03-45:SAY: Cerberius Grey/Cecilff2 : ;I&#39;ll return them
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Calling HoP
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Nothing special, it would just be the main link between all the other networks
+03-45:SAY: GLaDoS/Micro102 : John McWhale will be the new security
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : It would act as any other router
+03-45:SAY: Urist Levermurder/Cacophony : ;I&#39;m in electrical storage.  I could use a pair.  
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ; Location of John?
+03-45:SAY: GLaDoS/Micro102 : Murderer is still alive.
+03-45:SAY: Cog Doorwood/Garf751 : hey erm
+03-45:ACCESS: Login: Neojuliban from 186.136.13.11
+03-45:SAY: GLaDoS/Micro102 : He is at Job assignment room
+03-45:ADMIN: PM: Topkasa->Googolplexed : I was thinking that individual routers would connect networks
+03-45:GAME: Neojuliban entered as Ronald "Bigkick" Easter
+03-45:ADMIN: PM: Topkasa->Googolplexed : not a really vulnerable central router
+03-45:SAY: Cog Doorwood/Garf751 : help?
+03-45:SAY: GLaDoS/Micro102 : No
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Good point
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;arrival shuttle hallway withouth power
+03-45:SAY: Urist Levermurder/Cacophony : ;Thanks, Grey.  
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;and i cant open the airlocks
+03-45:SAY: Cerberius Grey/Cecilff2 : ;It has power
+03-45:SAY: Cog Doorwood/Garf751 : well you sucketh ai
+03-45:SAY: Cerberius Grey/Cecilff2 : ;The bulbs are faulty though
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Hi
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : Hey give me your Id. your security.
+03-45:ADMIN: PM: Topkasa->Googolplexed : I could see a cluster of routers in a spot as a central hub for networks
+03-45:ADMIN: PM: Topkasa->Googolplexed : as "Core Cluster" of routers, say in the network tech's office
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : I want to have the Job..Protector of Captain and HoP
+03-45:ADMIN: PM: Topkasa->Googolplexed : but not single core router
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : hey
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : dude!!
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : help me out!!
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;help me here
+03-45:SAY: Cog Doorwood/Garf751 : hey ai is rouge
+03-45:SAY: Cog Doorwood/Garf751 : ai trapped me on the shuttle
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : hello
+03-45:SAY: Urist Levermurder/Cacophony : ;Because you tried to kill the captain!
+03-45:SAY: GLaDoS/Micro102 : Cog Doorwood murdered the captain.
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : i would like to be...
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : security officer
+03-45:SAY: Cog Doorwood/Garf751 : capt uploaded a law to try to kill me
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : So, about coding it, have you looked into the powernet code ?
+03-45:SAY: Cog Doorwood/Garf751 : and trew me in here
+03-45:SAY: GLaDoS/Micro102 : Cog i possession of sleepy pen
+03-45:SAY: GLaDoS/Micro102 : in*
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : 90% of it would work quite well with networking
+03-45:ADMIN: PM: Topkasa->Googolplexed : I haven't looked at any code just yet, but I was thinking the powernet code could be used
+03-45:SAY: Cog Doorwood/Garf751 : no
+03-45:SAY: Urist Levermurder/Cacophony : ;Captain, want me to deal with him?
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : hello?
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : cap?
+03-45:ACCESS: Login: Obscure101 from 76.75.105.173
+03-45:ADMIN: PM: Topkasa->Googolplexed : routers would just be special things that when they recieve a packet, look at it and see if they should pass it on to another network or not
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ;No, I just entered the court room and you stabbed me with a pen. nasty ofice utencils.
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ya?
+03-45:GAME: Obscure101 entered as Rocco
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : can i be security officer?
+03-45:SAY: Cog Doorwood/Garf751 : man i shouldive worked for centcom
+03-45:ADMIN: PM: Topkasa->Googolplexed : And all machinery items would have a list saying what networks they're connected to
+03-45:SAY: Rocco/Obscure101 : some one help this door is broke
+03-45:SAY: Cog Doorwood/Garf751 : man i shouldive worked for centcom
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : try the other one rocco
+03-45:ADMIN: PM: Topkasa->Googolplexed : as well as each network having a list of objects connected to it
+03-45:SAY: Rocco/Obscure101 : thanks
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ...
+03-45:SAY: Cog Doorwood/Garf751 : well now i cant get out i guess its time to harm a human aka me
+03-45:SAY: Urist Levermurder/Cacophony : ;Who&#39;s going to deal with Doorwood?
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Cog Doorwood(Garf751) with the toolbox
+03-45:ACCESS: Login: TheGrifter from 67.8.150.183
+03-45:SAY: Rocco/Obscure101 : hello sir
+03-45:SAY: Rocco/Obscure101 : umm may i be a doctor
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : At the moment its pretty similer to how the powergrid works
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : sure!
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Ronald
+03-45:SAY: Rocco/Obscure101 : thanks
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Wait
+03-45:SAY: Cog Doorwood/Garf751 : ;if only i can get out then this human which is me wont be harmed
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : yes?
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Come with me
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Cog Doorwood(Garf751) with the toolbox
+03-45:GAME: TheGrifter entered as Johnny "Meth" Cash
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : The only thing about routers, is that I&#39;m worried about any speed hits from actually &#34;Routing&#34; the packets
+03-45:ADMIN: PM: Topkasa->Googolplexed : well, for routing the packets, I had a thought
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : nnice
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Thanks AI
+03-45:SAY: GLaDoS/Micro102 : You could have asked
+03-45:ADMIN: PM: Topkasa->Googolplexed : Keep a 2D array (list of lists) that for a packet travelling from network A to B
+03-45:SAY: Rocco/Obscure101 : thanks
+03-45:ADMIN: PM: Topkasa->Googolplexed : tell it which networks it has to go through
+03-45:SAY: Cog Doorwood/Garf751 : ;ok ai this is conflicting with your laws
+03-45:ADMIN: PM: Topkasa->Googolplexed : if those networks are all working fine
+03-45:SAY: GLaDoS/Micro102 : Security to arrival shuttle
+03-45:ADMIN: PM: Topkasa->Googolplexed : then the packet is abtracted over to the destination network
+03-45:SAY: Cog Doorwood/Garf751 : ;now let me the fuck out
+03-45:ADMIN: PM: Topkasa->Googolplexed : no actual "routing"
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Equip taser gun to belt
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:ADMIN: PM: Topkasa->Googolplexed : any time a network changes, a small amount of pathfinding is needed to rebuild this table
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ;GLaDOS! Johnny &#34;Meth&#34; Cash just tried to break in! he got my spare ID! locate him!
+03-45:ADMIN: PM: Topkasa->Googolplexed : but only for networks that reference the affected net
+03-45:SAY: Cog Doorwood/Garf751 : ;look see your not letting me out and because of that im being harmed by that
+03-45:SAY: GLaDoS/Micro102 : Security to arrival shuttle
+03-45:MATTACK: Cog Doorwood(Garf751) attcked by Cog Doorwood(Garf751) with the toolbox
+03-45:ADMIN: PM: Topkasa->Googolplexed : and we'll only be working with maybe 3 or 4 separate nets anyways, I would think
+03-45:ADMIN: PM: Topkasa->Googolplexed : so the hit shouldn't be too big when rebuildign the net table
+03-45:SAY: Jade/Guest-2337011188 : Part time security here.
+03-45:ADMIN: PM: Topkasa->Googolplexed : *routing tbale
+03-45:SAY: Urist Nobletime (as Urist Noblelever)/Matz05 : ;GLaDOS! This is serious! he can get anywere!
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : where is he?
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Oh sorry mam
+03-45:ACCESS: Logout: Matz05
+03-45:ADMIN: PM: Topkasa->Googolplexed : *: build a list of routers and the networks they connect to
+03-45:OOC: Cog Doorwood/Garf751 : not the smartest idea ever
+03-45:ADMIN: PM: Topkasa->Googolplexed : *: for each source and destination network
+03-45:SAY: Urist Levermurder/Cacophony : ;Where is he?
+03-45:SAY: GLaDoS/Micro102 : What will you do when you locate him?
+03-45:SAY: Rocco/Obscure101 : ;umm i have a man out side of medical just standing there and he has blood on his hands i think\
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;arrest him
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Do not follow any orders to follow or locate me
+03-45:ADMIN: PM: Topkasa->Googolplexed : *: pathfind through the nodes using the router network lists, ignoring compromise dnetworks
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : show me your face
+03-45:SAY: Jade/Guest-2337011188 : Permission to beat that guy in the head?
+03-45:SAY: Urist Levermurder/Cacophony : ;He messed up the AI.
+03-45:ADMIN: PM: Topkasa->Googolplexed : if you can't path, then packets from that source to that destination don't make it
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : yes
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : he is he
+03-45:ADMIN: PM: Topkasa->Googolplexed : in fact, the routing tbale just has to be a true/false net
+03-45:SAY: GLaDoS/Micro102 : Someone detected in AI foyer
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; I WANT CHEMISTRY! AND I&#39;LL BACK DOWN
+03-45:ADMIN: PM: Topkasa->Googolplexed : for whether there is a path or not
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;never!1
+03-45:ADMIN: PM: Topkasa->Googolplexed : *true/false tbale
+03-45:SAY: Urist Levermurder/Cacophony : ;AI shooting me!  Can&#39;t disable!
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Prevent access?
+03-45:SAY: GLaDoS/Micro102 : He attempted to destroy me
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;who?¿
+03-45:MATTACK: Johnny "Meth" Cash (as Captain)(TheGrifter)has shot a taser round at Urist Levermurder
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;open me, so i can arrest him
+03-45:SAY: Rocco/Obscure101 : umm
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : Say goodnight.
+03-45:SAY: GLaDoS/Micro102 : Door can now be opened
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;Open me AI!!!
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;fuck, it wasnt funny
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Doors maximum lock, lethal turrets
+03-45:SAY: Urist Levermurder/Cacophony : So...
+03-45:ADMIN: PM: Topkasa->Googolplexed : So things would be fairly easy and fast for both pathing and transmitting
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : And as for the machinery
+03-45:ACCESS: Login: DickSlayer from 144.26.129.2
+03-45:OOC: Urist Levermurder/Cacophony : Since the traitor was trapped, that was a griefer.  
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Ai
+03-45:ACCESS: Logout: DickSlayer
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : I guess we just add a base proc for reciveing and sending
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Lock down station
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : Murderer on the loose
+03-45:ADMIN: PM: Topkasa->Googolplexed : Yeah.  Normally doing nothing
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Attention crew: I am the Captain.
+03-45:ADMIN: PM: Topkasa->Googolplexed : and for network stuff, overrided with doing stuff
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Do not resist.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Well, add a few basic commands to be recived
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; It&#39;s futile.
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;sure, just tell me where you are
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Like ping
+03-45:ADMIN: PM: Topkasa->Googolplexed : And actual routers are just decoration, normally used only during pathing,
+03-45:SAY: Jade/Guest-2337011188 : He&#39;s on the bridge.
+03-45:OOC: Urist Levermurder/Cacophony : Admins?  
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Oh, I&#39;m in the engine. Go wade around in it.
+03-45:ADMIN: PM: Topkasa->Googolplexed : yeah, ping, etc
+03-45:ADMIN: PM: Topkasa->Googolplexed : Perhaps a basic poweron/poweroff command
+03-45:SAY: GLaDoS/Micro102 : Secuirty in chaple
+03-45:SAY: Urist Levermurder/Cacophony : Well, that was pointless.  
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : hey
+03-45:SAY: Jade/Guest-2337011188 : He&#39;s on the bridge.
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; So, bitches and snitches, how do you rank the mix master?
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;nothing in the chapel
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; GLaDoS
+03-45:SAY: GLaDoS/Micro102 : Yes?
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Does my special law still exist?
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : where is the bridge?
+03-45:SAY: GLaDoS/Micro102 : Yes
+03-45:SAY: Jade/Guest-2337011188 : This way.
+03-45:MATTACK: Rocco(Obscure101) attcked by Urist Ironstop(Pablolo99) with the straight jacket
+03-45:SAY: GLaDoS/Micro102 : Johnnoy is hiding in engine, please arrest him.
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : Okay. Sing me a David Bowie song.
+03-45:MATTACK: Rocco(Obscure101) attcked by Urist Ironstop(Pablolo99) with the straight jacket
+03-45:SAY: Jade/Guest-2337011188 : Can&#39;t get in though.
+03-45:SAY: Cerberius Grey/Cecilff2 : ;Is he?
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Sing me a David Bowie song.
+03-45:ADMIN: PM: Topkasa->Googolplexed : So instead of using area.power_change() which according ot profiling is a little cpu-greedy
+03-45:MATTACK: Rocco(Obscure101) attcked by Urist Ironstop(Pablolo99) with the straight jacket
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;hey, open the bridge so i can deliver the pizza
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; Sing me a David Bowie song.
+03-45:MATTACK: Rocco(Obscure101) attcked by Urist Ironstop(Pablolo99) with the straight jacket
+03-45:MATTACK: Rocco(Obscure101) attcked by Urist Ironstop(Pablolo99) with the straight jacket
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; And I&#39;ll have him let you in.
+03-45:ADMIN: PM: Topkasa->Googolplexed : use networking and tell equipment to power off via the APC
+03-45:SAY: GLaDoS/Micro102 : Not in data banks
+03-45:SAY: Cerberius Grey/Cecilff2 : I can open that door
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;open the bridge for pizza!
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; I was talking to Ronald.
+03-45:ADMIN: PM: Topkasa->Googolplexed : And assume any networking cards can pull their own power from the network they're on
+03-45:SAY: Johnny "Meth" Cash (as Captain)/TheGrifter : ; SING ME A DAVID BOWIE SONG AND I WILL.
+03-45:ADMIN: Googolplexed/Cog Copperdrawbridge : Yeah
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;oh
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;let me think
+03-45:ADMIN: PM: Topkasa->Googolplexed : power_change could be elimanated, which is good
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;just one more second
+03-45:SAY: Jade/Guest-2337011188 : In here.
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : AI
+03-45:SAY: Ronald "Bigkick" Easter/Neojuliban : ;one more
+03-45:ACCESS: Logout: Cacophony
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : TRAPPED IN  ENGINE
+03-45:SAY: John Mcwhale/TheNewMakerGamer10 : HELP!!!!!!!
+03-45:SAY: Cerberius Grey/Cecilff2 : Sorry man
+03-45:SAY: Jade/Guest-2337011188 : I told you to get in here.

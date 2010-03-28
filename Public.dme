@@ -3,6 +3,14 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\game code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai icons icons\ss13 maps 
+FILE: code\game\machinery\vendingmachine.dm
+LAST_COMPILE_TIME: 1269727345
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -56,6 +64,10 @@
 #define FILE_DIR "sound/enviroment"
 #define FILE_DIR "sound/enviroment/machinery"
 #define FILE_DIR "sound/enviroment/spark"
+#define FILE_DIR "sound/machinery"
+#define FILE_DIR "sound/machinery/conveyor"
+#define FILE_DIR "sound/machinery/conveyor_control"
+#define FILE_DIR "sound/machinery/klaxon"
 #define FILE_DIR "sound/weapon"
 #define FILE_DIR "sound/weapon/bomb"
 #define FILE_DIR "sound/weapon/cane"
