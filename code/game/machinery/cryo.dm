@@ -1646,8 +1646,10 @@
 /obj/machinery/cryo_cell/alter_health(mob/M as mob)
 	if(stat & NOPOWER)
 		return
-
-	M.bodytemperature = M.adjustBodyTemp(M.bodytemperature, src.gas.temperature, 1.0)
+	if(M.bodytemperature >= (-95.0+T0C))
+		M.bodytemperature = M.adjustBodyTemp(M.bodytemperature, src.gas.temperature, 1.0)
+	if(M.bodytemperature < (-95.0+T0C))
+		M.bodytemperature = (-95.0+T0C)
 	if (M.health < 0)
 		if ((src.gas.temperature > T0C || src.gas.plasma < 1))
 			return

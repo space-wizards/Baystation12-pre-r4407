@@ -3,14 +3,6 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\datums code\game code\game\admin code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\machinery code\game\mob code\game\mob\human code\game\objects 
-FILE: code\game\admin\admin.dm
-LAST_COMPILE_TIME: 1269736635
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
