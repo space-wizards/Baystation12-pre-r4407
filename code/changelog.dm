@@ -4,6 +4,10 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Sukasa's Changes (Friday, March 26th, 2010)</B></P>
+<li>Updated a ton of graphics</li>
+<li>Fixed a couple small bugs</li>
+
 <P><B>Trorbes' Changes (Tuesday, 24th March, 2010)</B></P>
 <li>Cleaned up the lighting on the station - further refinement may be necessary.</li>
 <li>Added AI camera network to the prison station.</li>

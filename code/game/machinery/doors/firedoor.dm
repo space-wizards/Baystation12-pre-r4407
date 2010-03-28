@@ -24,10 +24,10 @@
 				W.weldfuel -= 2
 			if (!( src.blocked ))
 				src.blocked = 1
-				src.icon_state = "doorl"
+				src.icon_state = "firedoorl"
 			else
 				src.blocked = 0
-				src.icon_state = "door1"
+				src.icon_state = "firedoor1"
 			return
 	if (!( istype(C, /obj/item/weapon/crowbar) ))
 		return
@@ -36,8 +36,8 @@
 		if(src.density)
 			spawn( 0 )
 				src.operating = 1
-				flick("doorc0", src)
-				src.icon_state = "door0"
+				flick("firedoorc0", src)
+				src.icon_state = "firedoor0"
 				sleep(15)
 				src.density = 0
 				sd_SetOpacity(0)
@@ -50,8 +50,8 @@
 		else //close it up again
 			spawn( 0 )
 				src.operating = 1
-				flick("doorc1", src)
-				src.icon_state = "door1"
+				flick("firedoorc1", src)
+				src.icon_state = "firedoor1"
 				sleep(15)
 				src.density = 1
 				sd_SetOpacity(1)
@@ -67,7 +67,7 @@
 		var/B = pick(1,2,3,4,5,6)
 		src.hear_sound("sound/damage/wall/impact[B].wav",6)
 		if (prob(25))
-			src.icon_state = "door1_hulk"
+			src.icon_state = "firedoor1_hulk"
 			user << "You punch through the door!"
 			src.density = 0
 			src.operating = 0
@@ -84,7 +84,7 @@
 				atkdmg += 4
 		src.hitpoints -= atkdmg
 		if (src.hitpoints <= 0)
-			src.icon_state = "door1_hulk"
+			src.icon_state = "firedoor1_hulk"
 			user << "You claw through the door!"
 			src.density = 0
 			src.operating = 0
@@ -112,8 +112,8 @@
 	use_power(50, ENVIRON)
 	src.operating = 1
 	src.hear_sound("sound/door/airlock/move.wav",5)
-	flick("doorc0", src)
-	src.icon_state = "door0"
+	flick("firedoorc0", src)
+	src.icon_state = "firedoor0"
 	sleep(15)
 	src.density = 0
 	sd_SetOpacity(0)
@@ -137,9 +137,9 @@
 		return
 	use_power(50, ENVIRON)
 	src.operating = 1
-	flick("doorc1", src)
+	flick("firedoorc1", src)
 	src.hear_sound("sound/door/airlock/move.wav",5)
-	src.icon_state = "door1"
+	src.icon_state = "firedoor1"
 	src.density = 1
 	sd_SetOpacity(1)
 	var/turf/T = src.loc
