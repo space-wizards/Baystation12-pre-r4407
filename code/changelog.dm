@@ -4,6 +4,12 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Sukasa's Changes (Tuesday, March 30th, 2010)</B></P>
+<li>Small balance changes to Blob mode and lights</li>
+<li>Added a new job: The Supply Officer.  Expect this job to be polished in the near future</li>
+<li>Altered the southeast part of the station to add the supply warehouse.</li>
+<li>Fixed the supply shuttle code</li>
+
 <P><B>Sukasa's Changes (Friday, March 26th, 2010)</B></P>
 <li>Updated a ton of graphics</li>
 <li>Fixed a couple small bugs</li>

@@ -113,14 +113,16 @@
 				access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
 				access_change_ids, access_hos)
 		if("Head of Research")
-			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_supply_shuttle, access_medical_storage,
+			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_medical_storage,
 				access_atmospherics, access_medical_records, access_medbay, access_chemical_lab, access_genetics_lab,
 				access_toxins_lab, access_hor, access_bridge, access_teleporter)
 		if("Head of Maintenance")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_custodial_closet, access_tool_storage,
-				access_solar_array, access_supply_shuttle, access_electrical_storage, access_atmospherics, access_engine,
+				access_solar_array, access_electrical_storage, access_atmospherics, access_engine,
 				access_external_airlocks, access_eva, access_admin_atmos, access_apcs, access_eject_engine,
 				access_hom, access_bridge)
+		if("Supply Officer")
+			return list(access_supply_shuttle, access_disposal_units, access_maintenance_corridors)
 		if("Security Officer")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_security_storage, access_security_records,
 				access_forensics, access_brig, access_security)
@@ -128,7 +130,7 @@
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_security_storage, access_security_records,
 				access_forensics, access_brig, access_security)
 		if("Plasma Researcher")
-			return list(access_supply_shuttle, access_medical_storage, access_medbay, access_toxins_lab)
+			return list(access_medical_storage, access_medbay, access_toxins_lab)
 		if("Geneticist")
 			return list(access_medical_storage, access_medbay, access_genetics_lab)
 		if("Chemist")
@@ -138,10 +140,10 @@
 		if("Fire Fighter")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_engine, access_fire_station)
 		if("Station Engineer")
-			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_solar_array, access_supply_shuttle,
+			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_solar_array,
 				access_electrical_storage, access_engine, access_external_airlocks, access_apcs)
 		if("Atmospheric Technician")
-			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_supply_shuttle,
+			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage,
 				access_electrical_storage, access_atmospherics, access_admin_atmos)
 		if("Chaplain")
 			return list(access_morgue, access_chapel)
@@ -152,7 +154,7 @@
 		if("Lawyer")
 			return list(/*access_legal_cabinet*/)
 		if("Assistant")
-			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_supply_shuttle)
+			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage)
 		else
 			return list()
 
@@ -257,5 +259,5 @@
 			return "access the captain's quarters"
 
 /proc/get_all_jobs()
-	return list("Captain", "Head of Personnel", "Head of Security", "Head of Research", "Head of Maintenance", "Security Officer", "Forensic Technician", "Plasma Researcher", "Geneticist", "Chemist", "Medical Doctor", "Fire Fighter", "Station Engineer", "Atmospheric Technician", "Chaplain", "Bartender", "Janitor", "Lawyer", "Assistant")
+	return list("Captain", "Head of Personnel", "Head of Security", "Head of Research", "Head of Maintenance", "Security Officer", "Forensic Technician", "Plasma Researcher", "Geneticist", "Chemist", "Medical Doctor", "Fire Fighter", "Station Engineer", "Atmospheric Technician", "Supply Officer", "Chaplain", "Bartender", "Janitor", "Lawyer", "Assistant")
 

@@ -115,6 +115,7 @@
 
 	if(isarea(A))
 		src.area = A
+		src.name = A.name + " APC"
 
 	updateicon()
 

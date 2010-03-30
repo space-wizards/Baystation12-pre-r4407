@@ -107,15 +107,36 @@
 	..()
 	src.updateDialog()
 
-/obj/machinery/computer/communications/Topic(href, href_list)
+/obj/machinery/computer/supply/Topic(href,href_list)
 	if(..())
 		return
 	usr.machine = src
-
 	if(href_list["supply_request"])
 		supply_shuttle_request(usr,href_list["supply_request"])
 		show_supply_shuttle_menu(usr)
 		return
+	if(!href_list["operation"])
+		return
+	switch(href_list["operation"])
+		if("call-supply")
+			call_supply_shuttle(usr)
+
+/obj/machinery/computer/supply/attack_ai(var/mob/user as mob)
+	return src.attack_hand(user)
+
+/obj/machinery/computer/supply/attack_paw(var/mob/user as mob)
+	return src.attack_hand(user)
+
+/obj/machinery/computer/supply/attack_hand(var/mob/user as mob)
+	show_supply_shuttle_menu(user)
+
+/obj/machinery/computer/supply/attackby(var/obj/item/weapon/W as obj, var/mob/user as mob)
+	return src.attack_hand(user)
+
+/obj/machinery/computer/communications/Topic(href, href_list)
+	if(..())
+		return
+	usr.machine = src
 
 	if(!href_list["operation"])
 		return
@@ -135,8 +156,7 @@
 			disablelockdown(usr)
 		if("call-prison")
 			call_prison_shuttle(usr)
-		if("call-supply")
-			call_supply_shuttle(usr)
+
 		if("callshuttle")
 			src.state = STATE_DEFAULT
 			if(src.authenticated)
@@ -209,8 +229,6 @@
 					src.currmsg = 0
 				src.aicurrmsg = 0
 			src.aistate = STATE_MESSAGELIST
-		if("supply_menu")
-			show_supply_shuttle_menu(usr)
 	src.updateUsrDialog()
 
 /proc/disablelockdown(var/mob/usr)
@@ -263,7 +281,6 @@
 			if (src.authenticated)
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=logout'>Log Out</A> \]"
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=call-prison'>Send Prison Shutle</A> \]"
-				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=supply_menu'>Supply Shuttle Menu</A> \]"
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=nolockdown'>Disable Lockdown</A> \]"
 				if (ticker.timing == 1)
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=cancelshuttle'>Cancel Shuttle Call</A> \]"
@@ -310,7 +327,6 @@
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=ai-callshuttle'>Call Emergency Shuttle</A> \]"
 			dat += "<BR>\[ <A HREF='?src=\ref[src];operation=call-prison'>Send Prison Shutle</A> \]"
 			dat += "<BR>\[ <A HREF='?src=\ref[src];operation=ai-messagelist'>Message List</A> \]"
-			dat += "<BR>\[ <A HREF='?src=\ref[src];operation=supply_menu'>Supply Shuttle Menu</A> \]"
 			dat += "<BR>\[ <A HREF='?src=\ref[src];operation=nolockdown'>Disable Lockdown</A> \]"
 		if(STATE_CALLSHUTTLE)
 			dat += "Are you sure you want to call the shuttle? \[ <A HREF='?src=\ref[src];operation=ai-callshuttle2'>OK</A> | <A HREF='?src=\ref[src];operation=ai-main'>Cancel</A> \]"
