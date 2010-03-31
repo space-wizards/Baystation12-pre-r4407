@@ -124,6 +124,7 @@ var
 	list/humans_left_lol = ""
 	list/zombies_left_lol = ""
 	goal_killer = ""
+	home = 256
 world
 	mob = /mob/human
 	turf = /turf/space

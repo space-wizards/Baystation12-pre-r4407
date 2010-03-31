@@ -1083,3 +1083,172 @@
 03-45:SAY: John Mcwhale/TheNewMakerGamer10 : HELP!!!!!!!
 03-45:SAY: Cerberius Grey/Cecilff2 : Sorry man
 03-45:SAY: Jade/Guest-2337011188 : I told you to get in here.
+16-24:ADMIN: Loading crban_keylist
+16-24:ADMIN: Loading crban_reason
+16-24:ADMIN: Loading crban_time
+16-24:ADMIN: Loading crban_bannedby
+16-24:ADMIN: Loading crban_iplist
+16-24:ADMIN: Loading crban_unbanned
+16-24:ADMIN: Loading crban_ComputerIDs
+16-24:ADMIN: Loading jobban_rank
+16-24:ADMIN: Updating jobbanfile!
+16-24:ACCESS: Login: Headswe from 127.0.0.1
+16-24:GAME: Headswe entered as Cog Doorengraving
+16-24:ADMIN: Headswe used start_now
+16-24:GAME: starting game of traitor
+16-24:ACCESS: Logout: 
+16-24:ACCESS: Login: Headswe from 127.0.0.1
+16-24:ACCESS: They share computer ID's
+16-24:ACCESS: Logout: Headswe
+16-24:ACCESS: Login: Headswe from 127.0.0.1
+16-24:ADMIN: Headswe initiated a reboot.
+16-24:ACCESS: Logout: Headswe
+16-32:ADMIN: Loading crban_keylist
+16-32:ADMIN: Loading crban_reason
+16-32:ADMIN: Loading crban_time
+16-32:ADMIN: Loading crban_bannedby
+16-32:ADMIN: Loading crban_iplist
+16-32:ADMIN: Loading crban_unbanned
+16-32:ADMIN: Loading crban_ComputerIDs
+16-32:ADMIN: Loading jobban_rank
+16-32:ADMIN: Updating jobbanfile!
+16-32:ACCESS: Login: Headswe from 127.0.0.1
+16-32:GAME: Headswe entered as Cog Doorengraving
+16-32:ADMIN: Headswe used start_now
+16-32:GAME: starting game of traitor
+16-32:ACCESS: Logout: 
+16-32:ACCESS: Login: Headswe from 127.0.0.1
+16-32:ACCESS: They share computer ID's
+16-32:ADMIN: Headswe modified floor's luminosity to 0
+16-32:ADMIN: Headswe modified Crew Quarters's overlays to /list
+16-32:ADMIN: Headswe modified Crew Quarters's overlays to /list
+16-32:ADMIN: Headswe initiated a reboot.
+16-32:ACCESS: Logout: Headswe
+16-40:ADMIN: Loading crban_keylist
+16-40:ADMIN: Loading crban_reason
+16-40:ADMIN: Loading crban_time
+16-40:ADMIN: Loading crban_bannedby
+16-40:ADMIN: Loading crban_iplist
+16-40:ADMIN: Loading crban_unbanned
+16-40:ADMIN: Loading crban_ComputerIDs
+16-40:ADMIN: Loading jobban_rank
+16-40:ADMIN: Updating jobbanfile!
+16-40:ACCESS: Login: Headswe from 127.0.0.1
+16-40:GAME: Headswe entered as Cog Doorengraving
+16-40:ADMIN: Headswe used start_now
+16-40:GAME: starting game of traitor
+16-40:ACCESS: Logout: 
+16-40:ACCESS: Login: Headswe from 127.0.0.1
+16-40:ACCESS: They share computer ID's
+16-40:ACCESS: Logout: Headswe
+16-43:ADMIN: Loading crban_keylist
+16-43:ADMIN: Loading crban_reason
+16-43:ADMIN: Loading crban_time
+16-43:ADMIN: Loading crban_bannedby
+16-43:ADMIN: Loading crban_iplist
+16-43:ADMIN: Loading crban_unbanned
+16-43:ADMIN: Loading crban_ComputerIDs
+16-43:ADMIN: Loading jobban_rank
+16-43:ADMIN: Updating jobbanfile!
+16-43:ACCESS: Login: Headswe from 127.0.0.1
+16-43:GAME: Headswe entered as Cog Doorengraving
+16-43:ADMIN: Headswe used start_now
+16-43:GAME: starting game of traitor
+16-43:ACCESS: Logout: 
+16-43:ACCESS: Login: Headswe from 127.0.0.1
+16-43:ACCESS: They share computer ID's
+16-43:ACCESS: Logout: Headswe
+16-45:ADMIN: Loading crban_keylist
+16-45:ADMIN: Loading crban_reason
+16-45:ADMIN: Loading crban_time
+16-45:ADMIN: Loading crban_bannedby
+16-45:ADMIN: Loading crban_iplist
+16-45:ADMIN: Loading crban_unbanned
+16-45:ADMIN: Loading crban_ComputerIDs
+16-45:ADMIN: Loading jobban_rank
+16-45:ADMIN: Updating jobbanfile!
+16-46:ADMIN: Loading crban_keylist
+16-46:ADMIN: Loading crban_reason
+16-46:ADMIN: Loading crban_time
+16-46:ADMIN: Loading crban_bannedby
+16-46:ADMIN: Loading crban_iplist
+16-46:ADMIN: Loading crban_unbanned
+16-46:ADMIN: Loading crban_ComputerIDs
+16-46:ADMIN: Loading jobban_rank
+16-46:ADMIN: Updating jobbanfile!
+16-46:ACCESS: Login: Headswe from 127.0.0.1
+16-46:GAME: Headswe entered as Cog Doorengraving
+16-46:ADMIN: Headswe used start_now
+16-46:GAME: starting game of traitor
+16-46:ACCESS: Logout: 
+16-46:ACCESS: Login: Headswe from 127.0.0.1
+16-46:ACCESS: They share computer ID's
+16-46:ACCESS: Failed Login: Agilent Reason: Key banned
+16-46:ADMIN: Headswe initiated a reboot.
+16-46:ACCESS: Logout: Headswe
+16-49:ADMIN: Loading crban_keylist
+16-49:ADMIN: Loading crban_reason
+16-49:ADMIN: Loading crban_time
+16-49:ADMIN: Loading crban_bannedby
+16-49:ADMIN: Loading crban_iplist
+16-49:ADMIN: Loading crban_unbanned
+16-49:ADMIN: Loading crban_ComputerIDs
+16-49:ADMIN: Loading jobban_rank
+16-49:ADMIN: Updating jobbanfile!
+16-49:ACCESS: Login: Headswe from 127.0.0.1
+16-49:ACCESS: Logout: Headswe
+16-49:GAME: starting game of traitor
+16-54:ADMIN: Loading crban_keylist
+16-54:ADMIN: Loading crban_reason
+16-54:ADMIN: Loading crban_time
+16-54:ADMIN: Loading crban_bannedby
+16-54:ADMIN: Loading crban_iplist
+16-54:ADMIN: Loading crban_unbanned
+16-54:ADMIN: Loading crban_ComputerIDs
+16-54:ADMIN: Loading jobban_rank
+16-54:ADMIN: Updating jobbanfile!
+16-54:ACCESS: Login: Headswe from 127.0.0.1
+16-54:GAME: Headswe entered as Cog Doorengraving
+16-54:ADMIN: Headswe used start_now
+16-54:GAME: starting game of traitor
+16-54:ACCESS: Logout: 
+16-54:ACCESS: Login: Headswe from 127.0.0.1
+16-54:ACCESS: They share computer ID's
+16-54:ADMIN: Voting to restart round forced by admin Headswe
+16-54:VOTE: Voting closed, result was 
+16-54:ADMIN: Headswe initiated an immediate reboot.
+16-54:ACCESS: Logout: Headswe
+16-59:ADMIN: Loading crban_keylist
+16-59:ADMIN: Loading crban_reason
+16-59:ADMIN: Loading crban_time
+16-59:ADMIN: Loading crban_bannedby
+16-59:ADMIN: Loading crban_iplist
+16-59:ADMIN: Loading crban_unbanned
+16-59:ADMIN: Loading crban_ComputerIDs
+16-59:ADMIN: Loading jobban_rank
+16-59:ADMIN: Updating jobbanfile!
+16-59:GAME: starting game of traitor
+16-59:ACCESS: Login: Chrishind10 from 79.64.217.181
+16-59:GAME: Chrishind10 entered as Urist Carpsand
+16-59:ACCESS: Login: Master of Apples from 86.164.190.231
+16-59:OOC: Conall edge/Master of Apples : Hey
+16-59:GAME: Master of Apples entered as Conall edge
+16-59:OOC: Urist Carpsand/Chrishind10 : hey
+16-59:OOC: Conall edge/Master of Apples : sup
+16-59:OOC: Urist Carpsand/Chrishind10 : trying to get to engineering
+16-59:OOC: Conall edge/Master of Apples : Sweet
+16-59:ACCESS: Logout: Chrishind10
+16-59:OOC: Conall edge/Master of Apples : Wel I&#39;m in, so you must have been doing something wrong :P
+16-59:OOC: Conall edge/Master of Apples : Played on Bay12 before?
+16-59:MATTACK: Conall edge(Master of Apples) clicked on Urist Axedagger() with a syringe
+16-59:MATTACK: Conall edge(Master of Apples) injected Urist Axedagger() with a syringe filled with 
+16-59:MATTACK: Conall edge(Master of Apples) clicked on Urist Axedagger() with a syringe
+16-59:MATTACK: Conall edge(Master of Apples) injected Urist Axedagger() with a syringe filled with 
+16-59:MATTACK: Conall edge(Master of Apples) clicked on Urist Axedagger() with a syringe
+16-59:MATTACK: Conall edge(Master of Apples) injected Urist Axedagger() with a syringe filled with 
+16-59:MATTACK: Conall edge(Master of Apples) clicked on Urist Axedagger() with a syringe
+16-59:MATTACK: Conall edge(Master of Apples) injected Urist Axedagger() with a syringe filled with 
+16-59:MATTACK: Conall edge(Master of Apples) clicked on Urist Axedagger() with a syringe
+16-59:MATTACK: Conall edge(Master of Apples) injected Urist Axedagger() with a syringe filled with 
+16-59:ACCESS: Logout: Master of Apples
+16-59:ACCESS: Login: Master of Apples from 86.164.190.231

@@ -1,9 +1,15 @@
 /obj/machinery/computer/comcontrol
+	name = "Communication Control"
+	icon = 'airtunnelcomputer.dmi'
+	icon_state = "console00"
 	var/cdir = 0
-	var/disc = null
-/obj/machinery/computer/comcontrol/dish
-	var/control = null
-	var/ndir = 5
+	var/obj/machinery/computer/comdisc/relay = null
+/obj/machinery/computer/comdisc
+	icon = 'power.dmi'
+	icon_state = "sp_base"
+	var/angle = 90
+	var/connected = 0
+	var/context = "null"
 /obj/machinery/computer/comcontrol/attack_ai(mob/user)
 	return
 
@@ -23,8 +29,13 @@
 
 	add_fingerprint(user)
 	user.machine = src
-
+	var/dis = ""
+	if(relay.connected)
+		dis = "Connected"
+	else
+		dis = "NO SIGNAL"
 	var/t = "<TT><B>Dish Relay Control</B><HR><PRE>"
+	t += "<B>Connection Status<B>:[dis]<BR><BR>"
 	t += "<B>Orientation</B>: [rate_control(src,"cdir","[cdir]&deg",1,15)] ([angle2text(cdir)])<BR><BR><BR>"
 	t += "<B><BR><BR><BR>"
 	user << browse(t, "window=comcon")
@@ -34,35 +45,25 @@
 	if(href_list["close"] )
 		usr << browse(null,"window=comcon")
 		return
-
-	if(href_list["dir"])
-		cdir = text2num(href_list["dir"])
-		spawn(1)
-			set_panels(cdir)
-			updateicon()
-
 	if(href_list["rate control"])
 		if(href_list["cdir"])
 			src.cdir = dd_range(0,359,(360+src.cdir+text2num(href_list["cdir"]))%360)
 			spawn(1)
-				set_panels(cdir)
-				updateicon()
-
+				relay.set_panels(cdir)
 	src.updateUsrDialog()
 	return
-/obj/machinery/computer/comcontrol/proc/set_panels(var/cdir)
-		control = src
-		ndir = cdir
-
+/obj/machinery/computer/comdisc/proc/set_panels(var/cdir)
+	ndir = cdir
+	updateicon()
+	process()
 
 /* DISC RELAY */
 
 /obj/machinery/computer/comdisc/New()
 	..()
 	updateicon()
-	updatefrac()
 
-
+/obj/machinery/computer/comcontrol/proc/updateicon()
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
 	..()
 	src.add_fingerprint(user)
@@ -92,33 +93,26 @@
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
 	else
 		overlays += image('power.dmi', icon_state = "solar_panel", layer = FLY_LAYER)
-		src.dir = angle2dir(adir)
+		src.dir = angle2dir(ndir)
 	return
-
-/obj/machinery/computer/comdisc/proc/updatefrac()
-	if(obscured)
-		sunfrac = 0
-		return
-
-	var/p_angle = abs((360+adir)%360 - (360+relay.angle)%360)
-	if(p_angle > 90)			// if facing more than 90deg from sun, zero output
-		discfrac = 0
-		return
-
-	discfrac = cos(p_angle) ** 2
-
-#define SOLARGENRATE 1500
 
 /obj/machinery/computer/comdisc/process()
 	if(stat & BROKEN)
 		return
-
-	if(!obscured)
-		longradio = 1
-		return
+	var/X = home
+	var/Y = home
+	X -= 20
+	Y += 20
+	if(ndir <= Y)
+		if(ndir >= X)
+			connected = 1
+			longradio = 1
+		else
+			connected = 0
+			longradio = 0
 	else
+		connected = 0
 		longradio = 0
-		return
 /obj/machinery/computer/comdisc/proc/broken()
 	stat |= BROKEN
 	updateicon()

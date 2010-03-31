@@ -328,20 +328,12 @@
 		if ((fire || eject || party || !atmos) && power_environ)
 			if(fire)
 				icon_state = "blue"
-				sd_StripLocalLum()
-				sd_ApplyLocalLum()
 			else if(eject)
 				icon_state = "red"
-				sd_StripLocalLum()
-				sd_ApplyLocalLum()
 			else if(!atmos)
 				icon_state = "atmos"
-				sd_StripLocalLum()
-				sd_ApplyLocalLum()
 			else if(party)
 				icon_state = "party"
-				sd_StripLocalLum()
-				sd_ApplyLocalLum()
 		else
 			icon_state = initial(icon_state)
 /*		else

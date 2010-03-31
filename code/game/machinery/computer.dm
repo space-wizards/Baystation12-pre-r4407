@@ -111,7 +111,6 @@
 	if(..())
 		return
 	usr.machine = src
-
 	if(href_list["supply_request"])
 		supply_shuttle_request(usr,href_list["supply_request"])
 		show_supply_shuttle_menu(usr)
@@ -234,9 +233,6 @@
 	return src.attack_hand(user)
 
 /obj/machinery/computer/communications/attack_hand(var/mob/user as mob)
-	if(longradio == 0)
-		user << "Warning Communication Dish either out of order or is not alligned properly."
-		return
 	if(user == ticker.killer)
 		if(ticker.stage == 2 && ticker.objective == 2 && traitorused == 0 && ticker.mode.name == "centcom")
 			if(alert(user, "Do you wish to break this computer(Completing objective)", "", "Yes", "No") == "Yes")
@@ -257,7 +253,9 @@
 			dat +=  dat2
 			user << browse(dat, "window=communications;size=400x500")
 		return
-
+	if(!longradio)
+		dat+= "Warning Communication Dish either out of order or is not alligned properly."
+		return
 	switch(src.state)
 		if(STATE_DEFAULT)
 			if (src.authenticated)

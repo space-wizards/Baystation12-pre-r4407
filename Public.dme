@@ -3,14 +3,6 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai icons icons\ss13 maps 
-FILE: code\game\machinery\vendingmachine.dm
-LAST_COMPILE_TIME: 1269727345
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -166,6 +158,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\atmo_control.dm"
 #include "code\game\machinery\atmoalter.dm"
 #include "code\game\machinery\camera.dm"
+#include "code\game\machinery\comcontrol.dm"
 #include "code\game\machinery\computer.dm"
 #include "code\game\machinery\conveyor.dm"
 #include "code\game\machinery\cryo.dm"
