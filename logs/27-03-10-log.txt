@@ -5583,6 +5583,92 @@
 04-00:ACCESS: Logout: Segellion
 04-00:ACCESS: Logout: Flick11110
 04-00:ACCESS: Logout: BlakeKoris
+<<<<<<< HEAD
+09-57:ADMIN: Loading crban_keylist
+09-57:ADMIN: Loading crban_reason
+09-57:ADMIN: Loading crban_time
+09-57:ADMIN: Loading crban_bannedby
+09-57:ADMIN: Loading crban_iplist
+09-57:ADMIN: Loading crban_unbanned
+09-57:ADMIN: Loading crban_ComputerIDs
+09-57:ADMIN: Loading jobban_rank
+09-57:ADMIN: Updating jobbanfile!
+09-57:ACCESS: Login: Topkasa from 127.0.0.1
+09-57:GAME: Topkasa entered as Desmond Taggart
+09-57:ADMIN: Topkasa used start_now
+09-57:GAME: starting game of traitor
+09-57:ACCESS: Logout: Topkasa
+10-31:ADMIN: Loading crban_keylist
+10-31:ADMIN: Loading crban_reason
+10-31:ADMIN: Loading crban_time
+10-31:ADMIN: Loading crban_bannedby
+10-31:ADMIN: Loading crban_iplist
+10-31:ADMIN: Loading crban_unbanned
+10-31:ADMIN: Loading crban_ComputerIDs
+10-31:ADMIN: Loading jobban_rank
+10-31:ADMIN: Updating jobbanfile!
+10-31:ACCESS: Login: Topkasa from 127.0.0.1
+10-31:GAME: Topkasa entered as Desmond Taggart
+10-31:ADMIN: Topkasa used start_now
+10-31:GAME: starting game of traitor
+10-31:ACCESS: Logout: Topkasa
+10-36:ADMIN: Loading crban_keylist
+10-36:ADMIN: Loading crban_reason
+10-36:ADMIN: Loading crban_time
+10-36:ADMIN: Loading crban_bannedby
+10-36:ADMIN: Loading crban_iplist
+10-36:ADMIN: Loading crban_unbanned
+10-36:ADMIN: Loading crban_ComputerIDs
+10-36:ADMIN: Loading jobban_rank
+10-36:ADMIN: Updating jobbanfile!
+10-36:ACCESS: Login: Topkasa from 127.0.0.1
+10-36:GAME: Topkasa entered as Desmond Taggart
+10-36:ADMIN: Topkasa used start_now
+10-36:GAME: starting game of traitor
+10-36:ACCESS: Logout: Topkasa
+10-40:ADMIN: Loading crban_keylist
+10-40:ADMIN: Loading crban_reason
+10-40:ADMIN: Loading crban_time
+10-40:ADMIN: Loading crban_bannedby
+10-40:ADMIN: Loading crban_iplist
+10-40:ADMIN: Loading crban_unbanned
+10-40:ADMIN: Loading crban_ComputerIDs
+10-40:ADMIN: Loading jobban_rank
+10-40:ADMIN: Updating jobbanfile!
+10-40:ACCESS: Login: Topkasa from 127.0.0.1
+10-40:GAME: Topkasa entered as Desmond Taggart
+10-40:ADMIN: Topkasa used start_now
+10-40:GAME: starting game of traitor
+10-40:ACCESS: Logout: Topkasa
+10-43:ADMIN: Loading crban_keylist
+10-43:ADMIN: Loading crban_reason
+10-43:ADMIN: Loading crban_time
+10-43:ADMIN: Loading crban_bannedby
+10-43:ADMIN: Loading crban_iplist
+10-43:ADMIN: Loading crban_unbanned
+10-43:ADMIN: Loading crban_ComputerIDs
+10-43:ADMIN: Loading jobban_rank
+10-43:ADMIN: Updating jobbanfile!
+10-43:ACCESS: Login: Topkasa from 127.0.0.1
+10-43:GAME: Topkasa entered as Desmond Taggart
+10-43:ADMIN: Topkasa used start_now
+10-43:GAME: starting game of traitor
+10-43:ACCESS: Logout: Topkasa
+17-37:ADMIN: Loading crban_keylist
+17-37:ADMIN: Loading crban_reason
+17-37:ADMIN: Loading crban_time
+17-37:ADMIN: Loading crban_bannedby
+17-37:ADMIN: Loading crban_iplist
+17-37:ADMIN: Loading crban_unbanned
+17-37:ADMIN: Loading crban_ComputerIDs
+17-37:ADMIN: Loading jobban_rank
+17-37:ADMIN: Updating jobbanfile!
+17-37:ACCESS: Login: Topkasa from 127.0.0.1
+17-37:GAME: Topkasa entered as Desmond Taggart
+17-37:ADMIN: Topkasa used start_now
+17-37:GAME: starting game of traitor
+17-37:ACCESS: Logout: Topkasa
+=======
 13-36:ADMIN: Loading crban_keylist
 13-36:ADMIN: Loading crban_reason
 13-36:ADMIN: Loading crban_time
@@ -12566,3 +12652,4 @@ Body Temperature: 33.7666°C (92.7798°F)
 22-49:SAY: Drakkon "Dark" Draith/DarkKuta : ;I don&#39;t know what to do.
 22-49:SAY: Janar Gibbon/Cacophony : ;Why aren&#39;t we allowed to leave?
 22-49:OOC: Urist Stopdagger/Googolplexed : Half-a-dozen assistants at the last second ?
+>>>>>>> f3ab28bad76a08f719ada77a66e9eca14e2c472e

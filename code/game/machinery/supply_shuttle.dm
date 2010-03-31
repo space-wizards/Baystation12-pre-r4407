@@ -1,7 +1,7 @@
 var/supply_shuttle_z = 2
 var/supply_shuttle_points = 50
 
-/obj/machinery/computer/communications/proc/show_supply_shuttle_menu(var/mob/user)
+/obj/machinery/computer/supply/proc/show_supply_shuttle_menu(var/mob/user)
 	user.machine = null
 	var/dat = ""
 	if(supply_shuttle_z == 2)
@@ -52,8 +52,7 @@ var/supply_shuttle_points = 50
 		dat += "Supply shuttle in transit"
 	user << browse(dat, "window=supply_request;size=400x500")
 
-/obj/machinery/computer/communications/proc/supply_shuttle_request(var/mob/user,var/supply)
-	//user << "Supplies! [supply]"
+/obj/machinery/computer/supply/proc/supply_shuttle_request(var/mob/user,var/supply)
 	if(supply_shuttle_z == 2)
 		var/area/A = locate(/area/shuttle_supply)
 		var/list/B = list()
@@ -63,7 +62,7 @@ var/supply_shuttle_points = 50
 				full = 0
 				for(var/atom/movable/MA in F.loc.contents)
 					full++
-				if(full < 2)//floor is one of them.
+				if(full < 2)
 					B += F
 		if(!B.len)
 			user << "\red There is not enough space in the shuttle. Ensure that it is unloaded and does not have stowaways next time"
@@ -305,76 +304,23 @@ var/supply_shuttle_points = 50
 		user << "\red Shuttle not in dock at supply station. Unabe to request items"
 
 /proc/call_supply_shuttle(var/mob/user)
-	if(0)world << "send shuttle"
 	if (!( ticker ))
 		return
 
-	if(0)world << "send shuttle 2"
-	/*if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
-		user << "Under directive 7-10, SS13 is quarantined until further notice."
-		return
-	if(ticker.mode.name == "revolution")
-		user << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
-		return
-	if(ticker.mode.name == "AI malfunction")
-		user << "Centcom will not allow the shuttle to be called."
-		return*/
-
-	/*for(var/obj/machinery/computer/supply_shuttle/SS in world)
-		if(!SS.allowedtocall)
-			usr << "\red Centcom will not allow the shuttle to be called"
-			return
-		if(SS.z == 3)
-			usr << "\red Already in transit! Please wait!"
-			return
-		var/A = locate(/area/shuttle_supply)
-		for(var/mob/M in A)
-			M.show_message("\red Launch sequence initiated!")
-			spawn(0)	shake_camera(M, 10, 1)
-		sleep(10)
-
-		if(SS.z == 2)	//This is the laziest proc ever
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 3
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 1
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-		else
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 3
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-			sleep(rand(600,1800))
-			for(var/atom/movable/AM as mob|obj in A)
-				AM.z = 2
-				AM.Move()
-			for(var/turf/T as turf in A)
-				T.buildlinks()
-		for(var/mob/M in A)
-			M.show_message("\red Supply shuttle has arrived at destination!")
-		return
-	return*/
-	var/area/A = locate(/area/shuttle_supply)
-	for(var/area/B in A.superarea.areas)
-		for(var/mob/M in B)
-			M.show_message("\red Launch sequence initiated!")
-			spawn(0)	shake_camera(M, 10, 1)
-		sleep(10)
-
-	if(A.z == 2)	//This is the laziest proc ever
+	if(supply_shuttle_z == 2)	//This is the laziest proc ever
+		user << "The supply shuttle has been called"
+		var/area/A = locate(/area/shuttle_supply)
+		for(var/area/B in A.superarea.areas)
+			for(var/mob/M in B)
+				M.show_message("\red Launch sequence initiated!")
+				spawn(0)	shake_camera(M, 10, 1)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
 				AM.z = 3
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
+		supply_shuttle_z = 3
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
@@ -383,34 +329,34 @@ var/supply_shuttle_points = 50
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
-				M.show_message("\red Supply shuttle has arrived at destination!")
+				M.show_message("\red Supply shuttle has arrived at station!")
 				spawn(0)	shake_camera(M, 2, 1)
-/*	if(supply_shuttle_z == 1 || supply_shuttle_z == 2)
-		if(0)world << "send shuttle 3"
-		var/A = locate(/area/shuttle_supply)
-		var/list/B = list()
-		for(var/atom/movable/M in A)
-			if(M.z == supply_shuttle_z)
-				B+=M
-		if(supply_shuttle_z == 1)
-			if(0)world << "send shuttle 4a"
-			supply_shuttle_z = 3
-			for(var/atom/movable/M in B)
-				M.z = 3
-			sleep(1200)
-			for(var/atom/movable/M in B)
-				M.z = 2
-			supply_shuttle_points = 50
-			supply_shuttle_z = 2
-		else if(supply_shuttle_z == 2)
-			if(0)world << "send shuttle 4b"
-			supply_shuttle_z = 3
-			for(var/atom/movable/M in B)
-				M.z = 3
-			sleep(1200)
-			for(var/atom/movable/M in B)
-				M.z = 1
-			supply_shuttle_z = 1*/
+		supply_shuttle_z = 1
+	else if (supply_shuttle_z == 1)
+		user << "The supply shuttle has been sent back to CentCom"
+		var/area/A = locate(/area/shuttle_supply)
+		for(var/area/B in A.superarea.areas)
+			for(var/mob/M in B)
+				M.show_message("\red Launch sequence initiated!")
+				spawn(0)	shake_camera(M, 10, 1)
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 3
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+		supply_shuttle_z = 3
+		sleep(rand(600,1800))
+		for(var/area/B in A.superarea.areas)
+			for(var/atom/movable/AM as mob|obj in B)
+				AM.z = 2
+				AM.Move()
+			for(var/turf/T as turf in B)
+				T.buildlinks()
+			for(var/mob/M in B)
+				M.show_message("\red Supply shuttle has arrived at Centcom!")
+				spawn(0)	shake_camera(M, 2, 1)
+		supply_shuttle_z = 2
 	else
 		user << "\red Supply shuttle in transit already"
 	if(0)world << "send shuttle 5"

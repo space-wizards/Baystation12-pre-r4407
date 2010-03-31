@@ -189,10 +189,10 @@
 	else
 		overlays = null
 
+		overlays += image('power.dmi', "teg-oc[c1on][c2on]")
+
 		if(lastgenlev != 0)
 			overlays += image('power.dmi', "teg-op[lastgenlev]")
-
-		overlays += image('power.dmi', "teg-oc[c1on][c2on]")
 
 #define GENRATE 0.0017			// generator output coefficient from Q
 

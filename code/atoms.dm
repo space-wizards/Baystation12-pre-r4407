@@ -2028,6 +2028,15 @@ ASC: Aux. Solar Control<BR>
 	icon_state = "photo"
 	var/photo_id = 0.0
 	s_istate = "paper"
+/obj/item/weapon/paper/conveyorsafety
+	name = "Conveyor Safety Document"
+	info = {"<B>Conveyor Safety is Everbody's Job!</B>
+<HR>
+Remember, always be sure to use conveyor belts safely!<ul>
+<li>Never play around on a conveyor belt, even if it's off</li>
+<li>Whenever you intend to start a conveyor, always be sure to sound an alarm at least twice, with two seconds between soundings<li>
+<li>Never leave a conveyor running unattended!  Shut them off when not in use!  Save energy, and be safe!!!</li>
+</ul><br><br><small>Paid for by the Bay City safety department.  Unauthorized use prohibited</small>"}
 /obj/item/weapon/paper/sop
 	name = "paper- 'Standard Operating Procedure'"
 	info = "Alert Levels:<BR>\nBlue- Emergency<BR>\n\t1. Caused by fire<BR>\n\t2. Caused by manual interaction<BR>\n\tAction:<BR>\n\t\tClose all fire doors. These can only be opened by reseting the alarm<BR>\nRed- Ejection/Self Destruct<BR>\n\t1. Caused by module operating computer.<BR>\n\tAction:<BR>\n\t\tAfter the specified time the module will eject completely.<BR>\n<BR>\nEngine Maintenance Instructions:<BR>\n\tShut off ignition systems:<BR>\n\tActivate internal power<BR>\n\tActivate orbital balance matrix<BR>\n\tRemove volatile liquids from area<BR>\n\tWear a fire suit<BR>\n<BR>\n\tAfter<BR>\n\t\tDecontaminate<BR>\n\t\tVisit medical examiner<BR>\n<BR>\nToxin Laboratory Procedure:<BR>\n\tWear a gas mask regardless<BR>\n\tGet an oxygen tank.<BR>\n\tActivate internal atmosphere<BR>\n<BR>\n\tAfter<BR>\n\t\tDecontaminate<BR>\n\t\tVisit medical examiner<BR>\n<BR>\nDisaster Procedure:<BR>\n\tFire:<BR>\n\t\tActivate sector fire alarm.<BR>\n\t\tMove to a safe area.<BR>\n\t\tGet a fire suit<BR>\n\t\tAfter:<BR>\n\t\t\tAssess Damage<BR>\n\t\t\tRepair damages<BR>\n\t\t\tIf needed, Evacuate<BR>\n\tMeteor Shower:<BR>\n\t\tActivate fire alarm<BR>\n\t\tMove to the back of ship<BR>\n\t\tAfter<BR>\n\t\t\tRepair damage<BR>\n\t\t\tIf needed, Evacuate<BR>\n\tAccidental Reentry:<BR>\n\t\tActivate fire alrms in front of ship.<BR>\n\t\tMove volatile matter to a fire proof area!<BR>\n\t\tGet a fire suit.<BR>\n\t\tStay secure until an emergency ship arrives.<BR>\n<BR>\n\t\tIf ship does not arrive-<BR>\n\t\t\tEvacuate to a nearby safe area!"
@@ -3017,6 +3026,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 		STATE_MESSAGELIST = 4
 		STATE_VIEWMESSAGE = 5
 		STATE_DELMESSAGE = 6
+/obj/machinery/computer/supply
+	name = "Supply Shuttle Console"
+	icon = 'stationobjs.dmi'
+	icon_state = "comm_computer"
+	req_access = list(access_supply_shuttle)
+
 /obj/machinery/computer/data
 	name = "data"
 	icon = 'weap_sat.dmi'
@@ -4653,7 +4668,7 @@ obj/machinery/vendingmachine/soda
 	anchored = 1.0
 
 /obj/machinery/conveyor_control
-	name = "Remote Converyor Control"
+	name = "Remote Conveyor Control"
 	icon = 'conveyor.dmi'
 	icon_state = "controlbox"
 	desc = "A remote control switch for a Conveyor Belt."

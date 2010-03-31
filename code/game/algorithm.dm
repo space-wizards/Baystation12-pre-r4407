@@ -396,6 +396,11 @@
 //			src.equip_if_possible(new /obj/item/weapon/gun/energy/laser_gun(src), slot_belt)
 			src.equip_if_possible(new /obj/item/weapon/storage/id_kit(src), slot_in_backpack)
 			src.is_rev = -1
+		if("Supply Officer")
+			src.equip_if_possible(new /obj/item/weapon/clothing/under/blue(src), slot_w_uniform) //Need a proper /under/ - Sukasa 03/30/10
+			src.equip_if_possible(new /obj/item/weapon/clothing/shoes/brown(src), slot_shoes)
+			src.equip_if_possible(new /obj/item/weapon/clothing/gloves/black(src), slot_gloves)
+			src.equip_if_possible(new /obj/item/weapon/clothing/ears/earmuffs(src), slot_ears)
 		if("Security Officer")
 			src.equip_if_possible(new /obj/item/weapon/clothing/under/red(src), slot_w_uniform)
 			src.equip_if_possible(new /obj/item/weapon/clothing/suit/armor(src), slot_wear_suit)

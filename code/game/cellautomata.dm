@@ -616,6 +616,7 @@ var/update_state = 0
 /datum/control/cellular/process()
 	set invisibility = 0
 	set background = 1
+	var/supplytime = 0
 
 	Label_6:
 	main_tick++
@@ -632,6 +633,10 @@ var/update_state = 0
 		sleep(10)
 
 	time = (++time %10)
+	supplytime = (++supplytime % 100)
+
+	if (!supplytime && supply_shuttle_points < 75)
+		supply_shuttle_points += 1
 
 	sun.calc_position()
 

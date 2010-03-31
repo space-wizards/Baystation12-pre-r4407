@@ -35,6 +35,10 @@ area/hallway/west
 	name = "West Hallway"
 	icon_state = "whallway"
 
+/area/hallway/southwest
+	name = "Southwest Hallway"
+	icon_state = "shallway" //TODO make icon
+
 // MedBay and related
 area/medical/medbay
 	name = "Medical Bay"

@@ -158,7 +158,7 @@
 		turnoff()
 
 	if (on)
-		area.use_power(150 * max(baselum, bulb.bright), LIGHT)
+		area.use_power(100 * max(baselum, bulb.bright), LIGHT)
 
 	bulb.use()
 
