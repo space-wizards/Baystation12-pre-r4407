@@ -167,6 +167,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\atmo_control.dm"
 #include "code\game\machinery\atmoalter.dm"
 #include "code\game\machinery\camera.dm"
+#include "code\game\machinery\comcontrol.dm"
 #include "code\game\machinery\computer.dm"
 #include "code\game\machinery\conveyor.dm"
 #include "code\game\machinery\cryo.dm"

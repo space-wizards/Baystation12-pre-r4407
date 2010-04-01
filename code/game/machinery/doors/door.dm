@@ -171,6 +171,8 @@
 /obj/machinery/door/Bumped(atom/movable/AM as mob|obj)
 	if (!( ismob(AM) ))
 		return
+	if (!ticker)
+		return
 	if (src.operating)
 		return
 	if (src.density && src.allowed(AM))

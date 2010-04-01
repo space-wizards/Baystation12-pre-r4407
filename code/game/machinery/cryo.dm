@@ -1055,7 +1055,10 @@
 			if ( (u_oxy + u_pla) > 0)
 				ngas.oxygen += u_oxy
 				ngas.plasma += u_pla
+				if(ngas.temperature < -90)
+					ngas.temperature = -90
 				ngas.temperature = src.temperature
+
 	if (ngas.oxygen!=0 || ngas.plasma!=0)
 		spawn( 1 )
 			if (src.line_out)
