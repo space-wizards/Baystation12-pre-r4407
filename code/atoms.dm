@@ -2765,6 +2765,17 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/h_dir = 0		// used for heat-exchange
 	var/capmult = 0
 	var/stat = 0
+	var/cnetnum = 0
+	var/cnetdontadd = 0
+	var/datum/computernet/computernet = null
+	var/uniqueid = null
+	var/directwiredCnet = 1
+	var/computerID = 0
+	var/typeID = null
+	var/global/list/usedtypes = list()
+	var/global/list/usedids = list()
+	var/netID = 0
+	var/sniffer = 0
 
 /obj/machinery/alarm
 	name = "alarm"

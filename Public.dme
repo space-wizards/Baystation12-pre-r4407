@@ -4,12 +4,12 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: code\game\admin\ban.dm
-DIR: code code\game code\game\admin
+FILE: code\atoms.dm
+DIR: code code\game code\game\admin maps
 HIDDENPATHS:
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1270254025
+LAST_COMPILE_TIME: 1270254849
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
