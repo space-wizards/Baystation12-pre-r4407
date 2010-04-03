@@ -4684,3 +4684,76 @@ obj/machinery/vendingmachine/soda
 	anchored = 1.0
 	var/id = ""
 	var/on = 0
+
+/obj/computercable
+	level = 1
+	anchored = 1
+	name = "Network Cable"
+	desc = "A flexible cable designed for use in the Neithernet Protocol."
+	icon = 'netcable.dmi'
+	icon_state = "1-2"
+	var/cnetnum = 0
+	var/d1 = 0
+	var/d2 = 1
+	var/cabletype = ""
+	layer = 2.5
+
+/obj/item/weapon/computercable_coil
+	name = "Network Cable Coil"
+	var/amount = MAXCOIL
+	icon = 'netcable.dmi'
+	icon_state = "coil"
+	desc = "A coil of Network cable."
+	w_class = 2
+	flags = TABLEPASS|USEDELAY|FPRINT
+	s_istate = "coil"
+
+/obj/item/weapon/computercable_coil/cut
+	icon = 'power.dmi'
+	icon_state = "coil2"
+	desc = "A cut-off piece of Network Cable"
+
+/obj/machinery/router
+	name = "Router"
+	icon = 'netobjs.dmi'
+	icon_state = "router"
+	desc = "A high-speed network router.  The lights are mesmerizing"
+	anchored = 1.0
+	density = 1
+	var/list/datum/computernet/connectednets = list()
+	var/mob/ai/AI = null //Link to the current connected AI
+
+/obj/machinery/mailserver
+	name = "Mail Server"
+	icon = 'netobjs.dmi'
+	icon_state = "mailserv"
+	anchored = 1
+	density = 1
+	desc = "This chunky computer system handles all non-voice electronic communications on the station"
+
+/obj/machinery/TestCmdr
+	name = "DEV TEST"
+	icon = 'power.dmi'
+	icon_state = "ai"
+	sniffer = 1
+
+/obj/machinery/sniffer
+	name = "Network Packet Monitor"
+	icon = 'netobjs.dmi'
+	icon_state = "sniffer"
+	sniffer = 1
+	density = 1
+	anchored = 1
+	desc = "A computer system designed to monitor network activity"
+
+/obj/machinery/sniffer/syndicate
+	name = "Portable Network Packet Monitor"
+	anchored = 0
+	desc = "This is not a normal packet sniffer"
+
+/obj/machinery/AIconnector
+	name = "AI connector"
+	icon = 'netcable.dmi'
+	icon_state = "0-1"
+	var/mob/ai/ai = null
+
