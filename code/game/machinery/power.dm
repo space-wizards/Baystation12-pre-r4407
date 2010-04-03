@@ -483,7 +483,8 @@
 		NC.d2 = dirn
 		NC.add_fingerprint()
 		NC.updateicon()
-		NC.update_network()
+		spawn(1)
+			NC.update_network()
 		coil.use(1)
 		return
 	else
@@ -775,7 +776,8 @@
 		C.d2 = dirn
 		C.add_fingerprint(user)
 		C.updateicon()
-		C.update_network()
+		spawn(1)
+			C.update_network()
 		use(1)
 		//src.laying = 1
 		//last = C
@@ -825,7 +827,8 @@
 			NC.d2 = fdirn
 			NC.add_fingerprint()
 			NC.updateicon()
-			NC.update_network()
+			spawn(1)
+				NC.update_network()
 			use(1)
 			C.shock(user, 25)
 		//	usr.unlock_medal("Shocking Situation",1,"Get electrocuted. Wear orange gloves next time.","easy")
@@ -856,7 +859,8 @@
 		NC.d2 = nd2
 		NC.add_fingerprint()
 		NC.updateicon()
-		NC.update_network()
+		spawn(1)
+			NC.update_network()
 
 		use(1)
 
@@ -890,7 +894,6 @@
 // rebuild all power networks from scratch
 
 /proc/makepowernets()
-
 	var/netcount = 0
 	powernets = list()
 
@@ -1380,7 +1383,8 @@ var/powernet_nextlink_processing = 0
 				if(M.amount==5)
 					del(W)
 				else M.amount-=5
-				makepowernets()
+				spawn(1)
+					makepowernets()
 				return
 			else
 				user<<"You must be standing next to the SMES to the north, south, east,or west."

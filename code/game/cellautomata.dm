@@ -88,13 +88,13 @@
 	..()
 	src.update_stat()
 
-	for (var/turf/T in world)
-		T.updatelinks()
-
-	makepipelines()
-	makepowernets()
-
 	sun = new /datum/sun()
+
+	spawn(0)
+		for (var/turf/T in world)
+			T.updatelinks()
+		makepipelines()
+		makepowernets()
 
 	// ****stuff for presistent mode picking
 	var/newmode = null
