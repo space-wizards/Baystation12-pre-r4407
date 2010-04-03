@@ -4592,6 +4592,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "std_mod"
 	s_istate = "electronic"
 	desc = "A vita component for a computer"
+/obj/item/weapon/disk/comcon
+	name = "Com Control Disk"
+	icon = 'module.dmi'
+	icon_state = "std_mod"
+	s_istate = "electronic"
+	desc = "A vita component for a computer"
 obj/machinery/vendingmachine/soda
 	name = "Soda Machine"
 	desc = "A vending machine for soda"

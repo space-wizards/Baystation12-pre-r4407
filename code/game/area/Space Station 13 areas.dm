@@ -361,7 +361,9 @@ area/solar/west
 /area/prison/cell_block
 	name = "Prison Cell Block"
 	icon_state = "brig"
-
+/area/comcenter
+	name = "Commmunication's Control"
+	icon_state = "purple"
 // CentComm
 /area/centcomm
 	name = "Centcomm"

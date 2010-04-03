@@ -3,6 +3,15 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+UPDATE_OBJ_TREE: ON
+DIR: code code\game code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\machinery code\game\machinery\doors code\game\mob\ai code\game\objects icons\ss13 maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1270321289
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -73,7 +82,6 @@
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
-#define DEBUG
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
@@ -172,6 +180,7 @@
 #include "code\game\machinery\instructions.dm"
 #include "code\game\machinery\other.dm"
 #include "code\game\machinery\overview.dm"
+#include "code\game\machinery\piano.dm"
 #include "code\game\machinery\power.dm"
 #include "code\game\machinery\recharger.dm"
 #include "code\game\machinery\shuttle.dm"

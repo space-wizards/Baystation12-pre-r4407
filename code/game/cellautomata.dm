@@ -508,6 +508,7 @@
 		world << "<B>The emergency shuttle has docked with the station! You have [ticker.timeleft/600] minutes to board the shuttle.</B>"
 	else
 		world << "<B>The emergency shuttle is leaving!</B>"
+		shuttleleft = 1
 		check_win()
 	return
 
