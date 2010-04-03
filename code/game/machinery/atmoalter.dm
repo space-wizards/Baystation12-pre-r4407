@@ -464,8 +464,6 @@
 
 
 /obj/machinery/atmoalter/canister/proc/healthcheck()
-	if(src.gas.temperature >= 2300)
-		src.health = 0
 	if (src.health <= 10)
 		var/T = src.loc
 		if (!( istype(T, /turf) ))
@@ -482,7 +480,6 @@
 	return
 
 /obj/machinery/atmoalter/canister/process()
-
 	if (src.destroyed)
 		return
 	if(src.gas.temperature >= 2300)

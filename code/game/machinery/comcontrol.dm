@@ -4,19 +4,37 @@
 	icon_state = "console00"
 	var/cdir = 0
 	var/obj/machinery/computer/comdisc/relay = null
+/obj/machinery/computer/comcontrol/New()
+	if(!relay)
+		var/obj/machinery/computer/comdisc/wep
+		for(wep in world)
+			relay = wep
+			wep.gotcomp = 1
+			if(relay)
+				world.log_game("found comdisc")
+			else
+				world.log_game("did not find comdisc")
+
 /obj/machinery/computer/comdisc
+	name = "Long Range Communication Relay"
 	icon = 'power.dmi'
 	icon_state = "sp_base"
 	var/angle = 90
 	var/connected = 0
+	var/gotcomp = 0
 	var/context = "null"
 /obj/machinery/computer/comcontrol/attack_ai(mob/user)
-	return
-
+	if(stat & (BROKEN|NOPOWER))
+		return
+	if(buildstate < 6)
+		return
+	attack_hand(user)
 /obj/machinery/computer/comcontrol/attack_hand(mob/user)
 	add_fingerprint(user)
 
 	if(stat & (BROKEN|NOPOWER))
+		return
+	if(buildstate < 6)
 		return
 	interact(user)
 /obj/machinery/computer/comcontrol/proc/interact(mob/user)
@@ -66,9 +84,31 @@
 /obj/machinery/computer/comcontrol/proc/updateicon()
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
 	..()
+	if(istype(W,/obj/item/weapon/sheet/glass))
+		var/obj/item/weapon/sheet/glass/S = W
+		if(buildstate == 1)
+			if(S.amount >= 2)
+				S.amount--
+			else
+				del S
+			buildstate++
+			user << "Need more glass"
+		else if(buildstate == 2)
+			if(S.amount >= 2)
+				S.amount--
+			else
+				del S
+			buildstate++
+			user << "dont need more."
+	if(istype(W, /obj/item/weapon/circuitry))
+		if(buildstate == 3)
+			del W
+			buildstate = 6
+			user << "done"
 	src.add_fingerprint(user)
 	src.health -= W.force
 	src.healthcheck()
+	src.updateicon()
 	return
 
 /obj/machinery/computer/comdisc/blob_act()
@@ -89,6 +129,8 @@
 
 /obj/machinery/computer/comdisc/proc/updateicon()
 	overlays = null
+	if(buildstate < 6)
+		return
 	if(stat & BROKEN)
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
 	else
@@ -110,9 +152,17 @@
 		else
 			connected = 0
 			longradio = 0
+	else if(ndir >= X)
+		if(ndir <= Y)
+			connected = 1
+			longradio = 1
+		else
+			connected = 0
+			longradio = 0
 	else
 		connected = 0
 		longradio = 0
+
 /obj/machinery/computer/comdisc/proc/broken()
 	stat |= BROKEN
 	updateicon()
@@ -134,7 +184,10 @@
 		if(2.0)
 			if (prob(50))
 				broken()
+				buildstate = 1
 		if(3.0)
 			if (prob(25))
 				broken()
+				buildstate = 1
 	return
+

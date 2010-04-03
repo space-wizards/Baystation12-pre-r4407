@@ -272,9 +272,6 @@
 			dat +=  dat2
 			user << browse(dat, "window=communications;size=400x500")
 		return
-	if(!longradio)
-		dat+= "Warning Communication Dish either out of order or is not alligned properly."
-		return
 	switch(src.state)
 		if(STATE_DEFAULT)
 			if (src.authenticated)
@@ -316,6 +313,8 @@
 	dat += "<BR>\[ [(src.state != STATE_DEFAULT) ? "<A HREF='?src=\ref[src];operation=main'>Main Menu</A> | " : ""]<A HREF='?src=\ref[user];mach_close=communications'>Close</A> \]"
 	if(traitorused == 1)
 		dat = "This machine is out of action"
+	if(!longradio)
+		dat = "Warning Communication Dish either out of order or is not alligned properly."
 	user << browse(dat, "window=communications;size=400x500")
 
 /obj/machinery/computer/communications/proc/interact_ai(var/mob/ai/user as mob)
@@ -978,6 +977,12 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				s.loc = src.loc
 				s.buildstate = 6
 				usr << "You install the Communications Interface into [src]."
+				del src
+				return
+			else if(istype(W, /obj/item/weapon/disk/comcon))
+				var/obj/machinery/computer/comcontrol/s = new
+				s.loc = src.loc
+				s.buildstate = 6
 				del src
 				return
 			else if(istype(W, /obj/item/weapon/crowbar))

@@ -33,7 +33,8 @@
 			user << "The light is off"
 	else
 		user << "There is no bulb installed"
-
+/obj/machinery/light/attack_ai(mob/user as mob)
+	return
 /obj/machinery/light/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
 

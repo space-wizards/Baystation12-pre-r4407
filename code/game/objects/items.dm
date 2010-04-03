@@ -2069,6 +2069,7 @@
 	L["bed"] = "bed (2)"
 	L["airlock"] = "airlock (5)"
 	L["solar"] = "solar panel base (5)"
+	L["comdisc"] = "Com Disc base (5)"
 	L["solarcomp"] = "solar panel computer (5)"
 	L["frame"] = "Computer Frame (4)"
 	for(var/t in L)
@@ -2201,6 +2202,18 @@
 				S.loc=T
 				S.density=0
 				S.id=""
+			if("comdisc")
+				if (src.amount < 5)
+					return
+				var/turf/T = usr.loc
+				if (!istype(T, /turf/station/floor))
+					return
+				src.amount -= 5
+				var/obj/machinery/computer/comdisc/S = new/obj/machinery/computer/comdisc
+				S.buildstate = 1
+				S.updateicon()
+				S.loc=T
+				S.density=0
 			if("frame")
 				if (src.amount < 4)
 					return

@@ -125,6 +125,7 @@ var
 	list/zombies_left_lol = ""
 	goal_killer = ""
 	home = 256
+	shuttleleft
 world
 	mob = /mob/human
 	turf = /turf/space

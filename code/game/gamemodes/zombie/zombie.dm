@@ -89,13 +89,13 @@ var/const/waittime_h = 3000
 		world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 		ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
 		return 1
-	else if(zombieshuttle == 1)
+	else if(shuttleleft)
 		for(var/mob/M in shuttle)
 			if(M.zombie && M.becoming_zombie)
 				zombieonshuttle += M
 		if(zombieonshuttle.len >= 1)
-			world << "<FONT size = 3>\red <B>Zombies are Victorious as the human brought a infected person with them.</B></FONT>"
-			world << "<FONT size = 3>\red <B>Dooming the entire human race.</B></FONT>"
+			world << "<FONT size = 3>\red <B>You doomed the entire human race</B></FONT>"
+			world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 			ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
 			return 1
 		else

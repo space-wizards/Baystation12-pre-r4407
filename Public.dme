@@ -6,9 +6,10 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\admin code\game\gamemodes\blob code\game\gamemodes\malfunction code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\machinery code\game\mob\human code\game\objects maps 
-FILE: code\game\demo.dm
-LAST_COMPILE_TIME: 1270321914
+UPDATE_OBJ_TREE: ON
+DIR: code code\game code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\machinery code\game\machinery\doors code\game\mob\ai code\game\objects icons\ss13 maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1270321289
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -179,6 +180,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\instructions.dm"
 #include "code\game\machinery\other.dm"
 #include "code\game\machinery\overview.dm"
+#include "code\game\machinery\piano.dm"
 #include "code\game\machinery\power.dm"
 #include "code\game\machinery\recharger.dm"
 #include "code\game\machinery\shuttle.dm"
