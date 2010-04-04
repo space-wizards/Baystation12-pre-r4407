@@ -233,7 +233,8 @@
 		P.buildlinks()
 
 	defer_powernet_rebuild = 0
-	makepowernets()
+	spawn(1)
+		makepowernets()
 	world << "\red <B>Engine Ejected!</B>"
 	for(var/obj/machinery/computer/engine/CE in machines)
 		CE.icon_state = "engaged"

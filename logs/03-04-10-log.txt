@@ -1,0 +1,2834 @@
+01-28:ADMIN: Loading crban_keylist
+01-28:ADMIN: Loading crban_reason
+01-28:ADMIN: Loading crban_time
+01-28:ADMIN: Loading crban_bannedby
+01-28:ADMIN: Loading crban_iplist
+01-28:ADMIN: Loading crban_unbanned
+01-28:ADMIN: Loading crban_ComputerIDs
+01-28:ADMIN: Loading jobban_rank
+01-28:ADMIN: Updating jobbanfile!
+01-28:ACCESS: Login: Headswe from 127.0.0.1
+01-28:GAME: Headswe entered as Alucard Whoop
+01-28:ADMIN: Headswe delayed the game.
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:GAME: Matz05 entered as Urist Noblelever
+01-28:OOC: Urist Noblelever/Matz05 : Hellooooo?
+01-28:OOC: Urist Noblelever/Matz05 : Anyone else here?
+01-28:ADMIN: Headswe used start_now
+01-28:GAME: starting game of sandbox
+01-28:OOC: Alucard Whoop/Headswe : Whoop
+01-28:OOC: Alucard Whoop/Headswe : Playing DF
+01-28:OOC: Urist Noblelever/Matz05 : New version?
+01-28:SAY: Urist Noblelever/Matz05 : ;Do we have an Engineer, or do I have to light the engine myself?
+01-28:OOC: Alucard Whoop/Headswe : ya
+01-28:ACCESS: Logout: Headswe
+01-28:ACCESS: Login: Googolplexed from 123.243.197.60
+01-28:ACCESS: Logout: Matz05
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:ADMIN: Googolplexed unbanned segellion.
+01-28:ADMIN: Googolplexed unbanned nannek.
+01-28:ACCESS: Login: Zylwan from 78.70.224.29
+01-28:GAME: Zylwan entered as Zora WhisperWind
+01-28:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+01-28:GAME: Guest-2337011188 entered as Jade
+01-28:ACCESS: Login: Headswe from 127.0.0.1
+01-28:OOC: Alucard Whoop/Headswe : Woot zylwan
+01-28:OOC: Zora WhisperWind/Zylwan : Heeeej ;D
+01-28:ADMIN: Headswe/Alucard Whoop : Hmm unbanned nannek?
+01-28:OOC: Alucard Whoop/Headswe : Vad görs?
+01-28:ADMIN: Googolplexed/Inro Stonn : Yeah, its a very old bad
+01-28:ADMIN: Googolplexed/Inro Stonn : Ban
+01-28:OOC: Zora WhisperWind/Zylwan : inte mycket ^^ tänkte sabba stationen lite ;D vad är det för mode?
+01-28:OOC: Alucard Whoop/Headswe : sandbox
+01-28:ADMIN: Googolplexed/Inro Stonn : And unless they do anything wrong, we shouldn&#39;t ban them
+01-28:OOC: Zora WhisperWind/Zylwan : Inget speciellt som händer då antarjag?
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Alucard Whoop(Headswe) clicked on Alucard Whoop(Headswe) with a DNA injector
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:OOC: Urist Noblelever/Matz05 : Ahh. adminpowers
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:SAY: Urist Noblelever/Matz05 : Much easier then manual. Thanks!
+01-28:OOC: Zora WhisperWind/Zylwan : är godmode på eller något? XD
+01-28:ACCESS: Logout: 
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:ACCESS: They share computer ID's
+01-28:ACCESS: Logout: 
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:ACCESS: They share computer ID's
+01-28:SAY: Urist Ironarrow/Matz05 : ;Im anive
+01-28:ADMIN: Googolplexed/Inro Stonn : Ah the shared computer ID thing
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:ADMIN: Googolplexed/Inro Stonn : Actually, we will need to add a list of computer ID
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:ADMIN: Googolplexed/Inro Stonn : To Ckeys
+01-28:OOC: Alucard Whoop/Headswe : nej men man har 
+01-28:OOC: Zora WhisperWind/Zylwan : erhmm. Head.. Är man odödlig eller något?.. APAN VILL INTE DÖ
+01-28:ADMIN: Googolplexed/Inro Stonn : Check multikeyers between rounds
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:ACCESS: Logout: 
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:ACCESS: They share computer ID's
+01-28:ACCESS: Logout: 
+01-28:ACCESS: Login: Matz05 from 199.126.132.120
+01-28:ACCESS: They share computer ID's
+01-28:ACCESS: Login: QuinnR from 174.26.7.179
+01-28:OOC: Inro Stonn/Googolplexed : Hey QuinnR
+01-28:OOC: Cog Woodbed/QuinnR : Hi
+01-28:OOC: Alucard Whoop/Headswe : Nej Zylwan
+01-28:OOC: Alucard Whoop/Headswe : Yo quinn
+01-28:ADMIN: QuinnR/Cog Woodbed : I told x2yzh9 he could be unbanned, he said he won&#39;t grief again.
+01-28:OOC: Zora WhisperWind/Zylwan : hmm. inte mycket som händer atm då?
+01-28:ADMIN: QuinnR/Cog Woodbed : And hopefully he&#39;ll stop complaining in the forums too.
+01-28:OOC: Cog Woodbed/QuinnR : What language is that?
+01-28:ADMIN: Headswe/Alucard Whoop : was going to unban the (DATA EXPUNGED]
+01-28:ACCESS: Failed Login: X2yzh9 Reason: Key banned
+01-28:MATTACK: Zora WhisperWind(Zylwan) attcked by () with the crowbar
+01-28:ADMIN: QuinnR unbanned x2yzh9.
+01-28:ADMIN: Headswe/Alucard Whoop : But my head is sad.
+01-28:ADMIN: QuinnR/Cog Woodbed : hahaha
+01-28:ADMIN: QuinnR unbanned throroakenshield.
+01-28:OOC: Zora WhisperWind/Zylwan : its swedish, sorry il stop ^^
+01-28:ADMIN: QuinnR/Cog Woodbed : gtg eat
+01-28:ADMIN: QuinnR/Cog Woodbed : cya
+01-28:OOC: Alucard Whoop/Headswe : Det är lungt
+01-28:ACCESS: Login: Forteen from 70.134.75.135
+01-28:OOC: Cog Woodbed/QuinnR : I don&#39;t mind, I gtg
+01-28:SAY: Alucard Whoop/Headswe : men nej det händer inte så mycket här
+01-28:GAME: Forteen entered as Bob Robertson
+01-28:OOC: Cog Woodbed/QuinnR : also, minecraft is awesome
+01-28:ACCESS: Logout: QuinnR
+01-28:OOC: Alucard Whoop/Headswe : indeed
+01-28:OOC: Alucard Whoop/Headswe : Zylwan df 2010 är ute
+01-28:OOC: Urist Noblelever/Matz05 : Found anything FUN in DF?
+01-28:OOC: Alucard Whoop/Headswe : Expect the nice bug when dwarfs work themself to death?
+01-28:OOC: Inro Stonn/Googolplexed : Not HFS yet
+01-28:OOC: Inro Stonn/Googolplexed : But magma seas
+01-28:OOC: Zora WhisperWind/Zylwan : OOOOH! jassÅ? :D 
+01-28:OOC: Alucard Whoop/Headswe : Whoot Magma seas?
+01-28:OOC: Zora WhisperWind/Zylwan : är det värt att spela då?
+01-28:OOC: Inro Stonn/Googolplexed : And alot of other awesome stuff
+01-28:OOC: Alucard Whoop/Headswe : Såklart
+01-28:OOC: Urist Noblelever/Matz05 : I just saw the anouncement. random beasts and the underground awesomeness! Too bad my holidays END soon.
+01-28:OOC: Alucard Whoop/Headswe : Anyone found a cavern yet?
+01-28:OOC: Inro Stonn/Googolplexed : Uh, yeah
+01-28:OOC: Zora WhisperWind/Zylwan : hahah, Head :D jag lekte lite och råkade få en elstöt ;D hjälp? ;D
+01-28:SAY: Urist Noblelever/Matz05 : Im alive!
+01-28:OOC: Inro Stonn/Googolplexed : I dug strieght down and found 3
+01-28:OOC: Alucard Whoop/Headswe : sad.
+01-28:OOC: Alucard Whoop/Headswe : haven&#39;t found one yet.
+01-28:OOC: Zora WhisperWind/Zylwan : hmm.. remind me to use isolated gloves next time i cut a wire :P
+01-28:ADMIN: Headswe jumped to Urist Noblelever
+01-28:ADMIN: Headswe jumped to Zora WhisperWind
+01-28:SAY: Urist Noblelever/Matz05 : ARGH!
+01-28:OOC: Alucard Whoop/Headswe : Du kan använda sandbox panel i commands meny för att spawn crap
+01-28:ACCESS: Login: X2yzh9 from 75.142.181.4
+01-28:OOC: Alucard Whoop/Headswe : time to see if i can find a cavern
+01-28:GAME: X2yzh9 entered as Cog Bedhammer
+01-28:ACCESS: Login: Wrongnumber from 124.198.169.221
+01-28:OOC: Bob Robertson/Forteen : Enough for a serious round yet?
+01-28:OOC: Alucard Whoop/Headswe : Whoop
+01-28:SAY: Urist Noblelever/Matz05 : thanks
+01-28:SAY: Alucard Whoop/Headswe : np
+01-28:SAY: Inro Stonn/Googolplexed : hello
+01-28:SAY: Inro Stonn/Googolplexed : d
+01-28:SAY: Inro Stonn/Googolplexed : wed
+01-28:SAY: Inro Stonn/Googolplexed : Ok that buttion works
+01-28:GAME: Wrongnumber entered as Cog Boozepick
+01-28:SAY: Cog Bedhammer/X2yzh9 : Oh
+01-28:SAY: Cog Bedhammer/X2yzh9 : whoops
+01-28:SAY: Cog Bedhammer/X2yzh9 : Well
+01-28:SAY: Cog Bedhammer/X2yzh9 : at least the shuttle is warm now!
+01-28:SAY: Cog Boozepick/Wrongnumber : ;we got a HoP or someone who can change my job on board?
+01-28:SAY: Cog Bedhammer/X2yzh9 : woah
+01-28:SAY: Cog Bedhammer/X2yzh9 : blood
+01-28:SAY: Cog Bedhammer/X2yzh9 : woosh
+01-28:OOC: Cog Boozepick/Wrongnumber : 8 people... you could do a prety good traitor round
+01-28:OOC: Urist Noblelever/Matz05 : yep
+01-28:SAY: Cog Bedhammer/X2yzh9 : Hm
+01-28:OOC: Alucard Whoop/Headswe : You have the vote button
+01-28:VOTE: x2yzh9 tried to force the world to restart via change gamemode
+01-28:OOC: Cog Bedhammer/X2yzh9 : woah
+01-28:OOC: Cog Bedhammer/X2yzh9 : hm
+01-28:OOC: Cog Bedhammer/X2yzh9 : i was trying to call a vote
+01-28:OOC: Cog Bedhammer/X2yzh9 : apparently that buttons a no-go
+01-28:OOC: Urist Noblelever/Matz05 : What caused that prompt?
+01-28:VOTE: matz05 tried to force the world to restart via change gamemode
+01-28:OOC: Cog Bedhammer/X2yzh9 : just trying to change the game mode through a vote
+01-28:OOC: Cog Bedhammer/X2yzh9 : heh
+01-28:VOTE: Voting to change mode started by Cog Boozepick/Wrongnumber
+01-28:OOC: Cog Boozepick/Wrongnumber : whats armok?
+01-28:OOC: Alucard Whoop/Headswe : YOU HAVE STRUCK NATIVE GOLD
+01-28:OOC: Bob Robertson/Forteen : Meteor, blob
+01-28:OOC: Cog Boozepick/Wrongnumber : right
+01-28:OOC: Urist Noblelever/Matz05 : Was somone messing with the air or does the genetics machine leak radiation?
+01-28:OOC: Zora WhisperWind/Zylwan : I killed maself ;D NEED TO CUT MORE VIRES
+01-28:OOC: Cog Boozepick/Wrongnumber : to get the vote menu to work say no ok?
+01-28:VOTE: Voting closed, result was traitor
+01-28:ACCESS: Logout: 
+01-28:ACCESS: Login: X2yzh9 from 75.142.181.4
+01-28:ACCESS: They share computer ID's
+01-28:GAME: Rebooting due to mode vote
+01-28:ACCESS: Logout: Matz05
+01-28:ACCESS: Logout: Zylwan
+01-28:ACCESS: Logout: Googolplexed
+01-28:ACCESS: Logout: Guest-2337011188
+01-28:ACCESS: Logout: Headswe
+01-28:ACCESS: Logout: Wrongnumber
+01-28:ACCESS: Logout: Forteen
+01-28:ACCESS: Logout: X2yzh9
+02-13:ADMIN: Loading crban_keylist
+02-13:ADMIN: Loading crban_reason
+02-13:ADMIN: Loading crban_time
+02-13:ADMIN: Loading crban_bannedby
+02-13:ADMIN: Loading crban_iplist
+02-13:ADMIN: Loading crban_unbanned
+02-13:ADMIN: Loading crban_ComputerIDs
+02-13:ADMIN: Loading jobban_rank
+02-13:ADMIN: Updating jobbanfile!
+02-13:ACCESS: Login: Wrongnumber from 124.198.169.221
+02-13:ACCESS: Failed Login: X2yzh9 Reason: Key banned
+02-13:ACCESS: Login: Forteen from 70.134.75.135
+02-13:ACCESS: Login: Headswe from 127.0.0.1
+02-13:GAME: Wrongnumber entered as Cog Boozepick
+02-13:ACCESS: Login: Matz05 from 199.126.132.120
+02-13:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+02-13:ACCESS: Login: Googolplexed from 123.243.197.60
+02-13:GAME: Forteen entered as Bob Robertson
+02-13:ACCESS: Failed Login: X2yzh9 Reason: Key banned
+02-13:ACCESS: Login: Zylwan from 78.70.224.29
+02-13:ADMIN: Googolplexed/Inro Stonn : How is he still baned ?
+02-13:GAME: Matz05 entered as Urist Noblelever
+02-13:ADMIN: Headswe/Alucard Whoop : Computer id crap
+02-13:ACCESS: Failed Login: X2yzh9 Reason: Key banned
+02-13:ADMIN: Googolplexed/Inro Stonn : Ok, I&#39;ll fix that
+02-13:ADMIN: Headswe unbanned x2yzh9.
+02-13:GAME: Headswe entered as Alucard Whoop
+02-13:OOC: Alucard Whoop/Headswe : Whoop a deep pit and a extensive canvern system
+02-13:OOC: Alucard Whoop/Headswe : wonder what danger lurks in it
+02-13:OOC: Cog Boozepick/Wrongnumber : huh? you playing dwF?
+02-13:ACCESS: Login: X2yzh9 from 75.142.181.4
+02-13:GAME: X2yzh9 entered as Cog Bedhammer
+02-13:OOC: Cog Bedhammer/X2yzh9 : I think i&#39;ve got a bug
+02-13:OOC: Zora WhisperWind/Zylwan : Is the graphics the same or have they changed it?
+02-13:OOC: Inro Stonn/Googolplexed : Yes
+02-13:GAME: Zylwan entered as Zora WhisperWind
+02-13:OOC: Inro Stonn/Googolplexed : It keeps auto-rebanning you
+02-13:OOC: Inro Stonn/Googolplexed : I must have messed up computer IDs
+02-13:OOC: Cog Bedhammer/X2yzh9 : Alright, can you fix it?
+02-13:OOC: Inro Stonn/Googolplexed : Yeah
+02-13:OOC: Cog Bedhammer/X2yzh9 : or will Headswe have to?
+02-13:OOC: Inro Stonn/Googolplexed : I can fix it in the code
+02-13:SAY: Zora WhisperWind/Zylwan : How about turning the frikkin lights on?
+02-13:OOC: Cog Bedhammer/X2yzh9 : Cool.
+02-13:OOC: Zora WhisperWind/Zylwan : wait.... what do you mean &#34;yes&#34;?
+02-13:SAY: Cog Boozepick/Wrongnumber : Meh, dosint bother me
+02-13:GAME: starting game of traitor
+02-13:SAY: Cog Bedhammer/X2yzh9 : Hm
+02-13:SAY: Cog Bedhammer/X2yzh9 : Ironic. I think.
+02-13:OOC: Zora WhisperWind/Zylwan : is the graphics the same or better?
+02-13:SAY: Bob Robertson/Forteen : ;Please report in
+02-13:OOC: Zora WhisperWind/Zylwan : erhm.. Everything is black :P whats up?
+02-13:SAY: Zora WhisperWind/Zylwan : Hello?
+02-13:SAY: Zora WhisperWind/Zylwan : ; hello?
+02-13:OOC: Alucard Whoop/Headswe : same
+02-13:SAY: Cog Boozepick/Wrongnumber : ;If yall need some gear come to the cargo bay yah hear?
+02-13:OOC: Alucard Whoop/Headswe : du kan just altid speal med gfx pack
+02-13:SAY: Urist Noblelever/Matz05 : ;Engineering here!
+02-13:SAY: Cog Boozepick/Wrongnumber : ; If you guys need gear come to the cargo bay and order it
+02-13:SAY: Urist Noblelever/Matz05 : OK
+02-13:SAY: Cog Bedhammer/X2yzh9 : Hello sir
+02-13:SAY: Urist Noblelever/Matz05 : ;Alright!
+02-13:SAY: Bob Robertson/Forteen : You need anything?
+02-13:SAY: Cog Bedhammer/X2yzh9 : Nah
+02-13:OOC: Alucard Whoop/Headswe : GOBLIN-CAP?!
+02-13:OOC: Alucard Whoop/Headswe : WTF
+02-13:OOC: Urist Noblelever/Matz05 : What is it? A plant?
+02-13:OOC: Alucard Whoop/Headswe : Muddy tunnel tube?!
+02-13:ACCESS: Login: Beorn080 from 173.59.74.11
+02-13:OOC: Alucard Whoop/Headswe : Yea theres black caps too
+02-13:OOC: Inro Stonn/Googolplexed : Ok, I&#39;m disabling computerID bans until we fix them
+02-13:OOC: Zora WhisperWind/Zylwan : is the new dwarven as aswume as the old one?
+02-13:OOC: Inro Stonn/Googolplexed : I&#39;m not sure why they are broken though
+02-13:OOC: Alucard Whoop/Headswe : YES.
+02-13:SAY: Cog Boozepick/Wrongnumber : Testing
+02-13:OOC: Alucard Whoop/Headswe : whut spore tree?
+02-13:OOC: Cog Boozepick/Wrongnumber : hey has any one checked out these new underground things?
+02-13:OOC: Alucard Whoop/Headswe : DOING IT NOW
+02-13:OOC: Alucard Whoop/Headswe : I JUST SAW SOMETHING
+02-13:OOC: Alucard Whoop/Headswe : CAVE SPIDER SILK IN THE TUNNEL
+02-13:OOC: Alucard Whoop/Headswe : web
+02-13:OOC: Bob Robertson/Forteen : Normal or giant?
+02-13:OOC: Cog Boozepick/Wrongnumber : ooo dwarf fort mode or adventure?
+02-13:OOC: Alucard Whoop/Headswe : GIANT.
+02-13:SAY: Cog Bedhammer/X2yzh9 : Cog boozepick?
+02-13:OOC: Alucard Whoop/Headswe : Dwarf mode
+02-13:SAY: Cog Bedhammer/X2yzh9 : i&#39;m going to need you to come with me, in cuffs preferably
+02-13:SAY: Urist Noblelever/Matz05 : ;Er... anyone know the right setting for the new generator?
+02-13:OOC: Cog Boozepick/Wrongnumber : sweet theres some moving money...
+02-13:ACCESS: Login: Quarian from 75.38.146.127
+02-13:SAY: Cog Bedhammer/X2yzh9 : We&#39;ve been getting, erm, reports lately
+02-13:OOC: Alucard Whoop/Headswe : Or death
+02-13:SAY: Cog Bedhammer/X2yzh9 : It lists you as a possible
+02-13:SAY: Cog Bedhammer/X2yzh9 : mind answering a few questions down at the station?
+02-13:OOC: Cog Boozepick/Wrongnumber : yea that to, the new hospital thing seems good too
+02-13:SAY: Cog Bedhammer/X2yzh9 : And of course, being searched for suspicious contraband
+02-13:GAME: Quarian entered as Lia'Vael Narayya
+02-13:OOC: Cog Boozepick/Wrongnumber : hey whats with talking at the moment i cant say anything
+02-13:ACCESS: Login: Micro102 from 24.184.14.119
+02-13:OOC: Alucard Whoop/Headswe : Bat Whomans and bat spearmen
+02-13:OOC: Alucard Whoop/Headswe : They has food.
+02-13:OOC: Urist Noblelever/Matz05 : Wearing earmuffs.
+02-13:GAME: Micro102 entered as Micro McGinley
+02-13:SAY: Cog Bedhammer/X2yzh9 : Erm
+02-13:OOC: Zora WhisperWind/Zylwan : hey head, how do you lock a locker? again ^^
+02-13:OOC: Urist Noblelever/Matz05 : Take them off
+02-13:SAY: Bob Robertson/Forteen : Seen the HoR?
+02-13:SAY: Cog Boozepick/Wrongnumber : OI!
+02-13:SAY: Zora WhisperWind/Zylwan : no i have not.. what about it?
+02-13:SAY: Bob Robertson/Forteen : There&#39;s something suspicious about him
+02-13:SAY: Cog Boozepick/Wrongnumber : ;help im being muged by a security guy
+02-13:SAY: Cog Bedhammer/X2yzh9 : You had earmuffs on
+02-13:SAY: Bob Robertson/Forteen : Keep an eye out
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; I&#39;m-
+02-13:OOC: Alucard Whoop/Headswe : Zylwan use your card or a weapon or something
+02-13:SAY: Zora WhisperWind/Zylwan : ; exuse me?
+02-13:SAY: Cog Boozepick/Wrongnumber : whys the dam cuffs on then!
+02-13:SAY: Zora WhisperWind/Zylwan : ; location?
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; I already explained
+02-13:SAY: Micro McGinley/Micro102 : ;I need a job!
+02-13:SAY: Cog Bedhammer/X2yzh9 : Hes coming in
+02-13:SAY: Cog Bedhammer/X2yzh9 : for interrogation
+02-13:SAY: Lia'Vael Narayya/Quarian : Uh...Hello?...I had Just Arrived...and i was Wondering if i could be Assigned a Job?.
+02-13:SAY: Cog Bedhammer/X2yzh9 : interrogation
+02-13:SAY: Cog Boozepick/Wrongnumber : help!
+02-13:SAY: Cog Boozepick/Wrongnumber : what??
+02-13:SAY: Zora WhisperWind/Zylwan : ah. i see
+02-13:SAY: Cog Bedhammer/X2yzh9 : stand down, private.
+02-13:SAY: Bob Robertson/Forteen : What did he do?
+02-13:SAY: Cog Bedhammer/X2yzh9 : already did
+02-13:SAY: Cog Bedhammer/X2yzh9 : anyway
+02-13:SAY: Cog Bedhammer/X2yzh9 : he was acting suspicious
+02-13:SAY: Cog Boozepick/Wrongnumber : this is assault god dam it
+02-13:SAY: Micro McGinley/Micro102 : ;Hello?
+02-13:SAY: Cog Bedhammer/X2yzh9 : and centcom messaged me
+02-13:SAY: Bob Robertson/Forteen : What did he do?
+02-13:SAY: Cog Bedhammer/X2yzh9 : Cog
+02-13:SAY: Unknown/Wrongnumber : ok WHAT THE HELL
+02-13:OOC: Inro Stonn/Googolplexed : Ok head, update the server at restart
+02-13:SAY: Bob Robertson/Forteen : Uh...?
+02-13:ACCESS: Login: DarkKuta from 12.76.245.82
+02-13:SAY: Cog Bedhammer/X2yzh9 : just hold on
+02-13:SAY: Zora WhisperWind/Zylwan : erhmm.. What the hell?
+02-13:SAY: Alucard Whoop/Headswe : odd
+02-13:SAY: Unknown/Wrongnumber : this cant be legal
+02-13:SAY: Lia'Vael Narayya/Quarian : Hmm...Empty..
+02-13:SAY: Zora WhisperWind/Zylwan : what the hell was that about?
+02-13:GAME: DarkKuta entered as Drakkon "Dark" Draith
+02-13:SAY: Cog Bedhammer/X2yzh9 : Now
+02-13:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll be right back
+02-13:SAY: Lia'Vael Narayya/Quarian : Hello
+02-13:SAY: Cog Bedhammer/X2yzh9 : do not worry
+02-13:SAY: Cog Bedhammer/X2yzh9 : Captain
+02-13:SAY: Unknown/Wrongnumber : do me a favour
+02-13:SAY: Urist Noblelever/Matz05 : ;Let there be LIGHT!
+02-13:SAY: Unknown/Wrongnumber : get my stuff and put it in a pile
+02-13:SAY: Zora WhisperWind/Zylwan : Jesus maan. all i did was give them a frikkin mouth hold..
+02-13:OOC: Alucard Whoop/Headswe : EVEN MORE
+02-13:SAY: Cog Bedhammer/X2yzh9 : alright
+02-13:OOC: Alucard Whoop/Headswe : CAVE SPIDER WEB
+02-13:OOC: Alucard Whoop/Headswe : Doomed
+02-13:SAY: Lia'Vael Narayya/Quarian : Hello?
+02-13:OOC: Unknown/Wrongnumber : no luck capturing the thing?
+02-13:SAY: Urist Noblelever/Matz05 : ;Engine lit.
+02-13:SAY: Micro McGinley/Micro102 : Can I get a job?
+02-13:SAY: Cog Bedhammer/X2yzh9 : Yes?
+02-13:SAY: Cog Bedhammer/X2yzh9 : what?
+02-13:SAY: Cog Bedhammer/X2yzh9 : Go get a grunt
+02-13:SAY: Lia'Vael Narayya/Quarian : Umm... are you the Captain?
+02-13:SAY: Cog Bedhammer/X2yzh9 : we&#39;re busy, and no
+02-13:ACCESS: Failed Login: Fofofo21 Reason: Key banned
+02-13:SAY: Lia'Vael Narayya/Quarian : A What??..
+02-13:SAY: Cog Bedhammer/X2yzh9 : Hey
+02-13:SAY: Cog Bedhammer/X2yzh9 : another one of his things
+02-13:SAY: Cog Bedhammer/X2yzh9 : is in the supply dock-go get it, will you?
+02-13:OOC: Alucard Whoop/Headswe : Haven&#39;t found it yet.
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Bob Robertson
+02-13:MATTACK: Bob Robertson(Forteen)has shot a taser round at Cog Bedhammer
+02-13:SAY: Lia'Vael Narayya/Quarian : Hello?
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Bob Robertson
+02-13:MATTACK: Bob Robertson(Forteen)has shot a taser round at Cog Bedhammer
+02-13:OOC: Alucard Whoop/Headswe : only a few dwarfs anyway.
+02-13:SAY: Zora WhisperWind/Zylwan : go and ask the Head of personell
+02-13:SAY: Bob Robertson/Forteen : ;Help in South station
+02-13:SAY: Unknown/Wrongnumber : oh jeez get this dam blindfold off
+02-13:OOC: Micro McGinley/Micro102 : The new military system is a pain
+02-13:SAY: Bob Robertson/Forteen : ;HoS is rougue
+02-13:SAY: Lia'Vael Narayya/Quarian : Who?...
+02-13:OOC: Unknown/Wrongnumber : Yea i agree on that one
+02-13:MATTACK: Cog Bedhammer(X2yzh9) clicked on Bob Robertson(Forteen) with a pill
+02-13:MATTACK: Cog Bedhammer(X2yzh9) forced Bob Robertson(Forteen) to swallow orange pill
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Not
+02-13:OOC: Alucard Whoop/Headswe : Whoop trogs escaped from the caverns 
+02-13:SAY: Unknown/Wrongnumber : um help someone?...
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Zora WhisperWind
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Zora WhisperWind
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the taser gun
+02-13:SAY: Lia'Vael Narayya/Quarian : Huh?!
+02-13:OOC: Micro McGinley/Micro102 : My old computer is alsoa  pain, it&#39;s going as slow as my (now broken) laptop with 200 dwarves
+02-13:SAY: Unknown/Wrongnumber : dam blindfold... dam guards
+02-13:SAY: Zora WhisperWind/Zylwan : ; south station. i got attacked
+02-13:OOC: Alucard Whoop/Headswe : C SOMETHING
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:OOC: Urist Floorengraving/Beorn080 : I haven&#39;t even embarked yet. Can&#39;t decide between warthog livers or pigs feet for my dwarves food
+02-13:SAY: Zora WhisperWind/Zylwan : ; need backupp  now! purple suit
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:SAY: Lia'Vael Narayya/Quarian : Somethings Happening over there!
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Unknown
+02-13:OOC: Alucard Whoop/Headswe : Freaky they got two horns
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Unknown
+02-13:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Unknown
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:SAY: Zora WhisperWind/Zylwan : ; purpe suit Guy attacks me HELP
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:SAY: Zora WhisperWind/Zylwan : ; need bakc
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Cog Boozepick(Wrongnumber) with the laser gun
+02-13:ACCESS: Logout: Beorn080
+02-13:OOC: Alucard Whoop/Headswe : Whoop underground lake
+02-13:OOC: Zora WhisperWind/Zylwan : well that was lame... Random guy jumps me and kills me... lame.
+02-13:ACCESS: Logout: 
+02-13:ACCESS: Login: Forteen from 70.134.75.135
+02-13:ACCESS: They share computer ID's
+02-13:ADMIN: Headswe used secret check_antagonist
+02-13:OOC: Cog Bedhammer/X2yzh9 : Zyl
+02-13:ADMIN: Headswe used secret check_antagonist_goal
+02-13:SAY: Lia'Vael Narayya/Quarian : That Red Guy!
+02-13:OOC: Cog Bedhammer/X2yzh9 : that wasn&#39;t just a random guy
+02-13:OOC: Unknown/Wrongnumber : you think thats bad? i died wearing a dam blindfold...
+02-13:SAY: Lia'Vael Narayya/Quarian : he Got Attacked!
+02-13:OOC: Alucard Whoop/Headswe : Dude
+02-13:SAY: Micro McGinley/Micro102 : Can I get a job?
+02-13:OOC: Alucard Whoop/Headswe : Zylwan no IC IN OOC
+02-13:OOC: Cog Bedhammer/X2yzh9 : Yeah
+02-13:OOC: Zora WhisperWind/Zylwan : yeyeye. okey
+02-13:OOC: Zora WhisperWind/Zylwan : still sucks thoo :P
+02-13:ADMIN: Googolplexed/Inro Stonn : Also, the newest update has the atoms for networking cables and stuff
+02-13:SAY: Cog Bedhammer/X2yzh9 : Shit
+02-13:OOC: Micro McGinley/Micro102 : What&#39;s a good way to speed up dwarf fortress? Like twice as fast?
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Do not worry
+02-13:OOC: Zora WhisperWind/Zylwan : hey. Head. Where did you get DF?
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; I am not rogue
+02-13:OOC: Unknown/Wrongnumber : how can you manage to blay dwf and this at same time? it must be lagging loads
+02-13:SAY: Cog Bedhammer/X2yzh9 : the officers in question attacked me first
+02-13:OOC: Alucard Whoop/Headswe : bay12games.com
+02-13:OOC: Alucard Whoop/Headswe : What?
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; The officers in question attacked me first
+02-13:OOC: Inro Stonn/Googolplexed : Both are single-core
+02-13:SAY: Zora WhisperWind/Zylwan : Then why the hell did you attack me like that?
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:OOC: Inro Stonn/Googolplexed : None multithreaded
+02-13:OOC: Micro McGinley/Micro102 : Why do you think this is the Bay12 station?
+02-13:SAY: Zora WhisperWind/Zylwan : WHAT THE HELL MAN
+02-13:SAY: Lia'Vael Narayya/Quarian : What Officers??
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:OOC: Micro McGinley/Micro102 : We all play dwarf fortress
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:MATTACK: Cog Bedhammer(X2yzh9) attcked by Zora WhisperWind(Zylwan) with Stun Baton
+02-13:OOC: Unknown/Wrongnumber : ah that makes sence
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Crewmen
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; and crewwomen...
+02-13:SAY: Zora WhisperWind/Zylwan : ; help?
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; The officers and peoples in question attacked me first-I only acted in self defence.
+02-13:SAY: Ghost/Forteen : He&#39;s the traitor
+02-13:SAY: Zora WhisperWind/Zylwan : damn ;D
+02-13:SAY: Unknown/Wrongnumber : bit to late for that
+02-13:SAY: Zora WhisperWind/Zylwan : no shit? ;D
+02-13:OOC: Alucard Whoop/Headswe : Fucking trogs are attacking
+02-13:SAY: Ghost/Forteen : Hate random amount of time to wake up from a taser shot
+02-13:OOC: Alucard Whoop/Headswe : they are comeing up from my tunnels
+02-13:SAY: Lia'Vael Narayya/Quarian : Wait...If your that Guy in the Green.. Then thats a Lie!...
+02-13:OOC: Zora WhisperWind/Zylwan : Head, var skaffade du nya DF?
+02-13:OOC: Alucard Whoop/Headswe : bay12games.com
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Wait
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; what shade of green?
+02-13:SAY: Lia'Vael Narayya/Quarian : You Shot the Guy in the Red!
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Oh no
+02-13:SAY: Lia'Vael Narayya/Quarian : That Um.. Lighter shade..
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; There was a larger series of events
+02-13:SAY: Unknown/Wrongnumber : man what were you security people up to? to blindfolded and arrested me for no reason and now im dead
+02-13:SAY: Ghost/Forteen : Singular
+02-13:SAY: Lia'Vael Narayya/Quarian : Oh...
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; But anyway, the traitor is now
+02-13:ACCESS: Failed Login: Fofofo21 Reason: Key banned
+02-13:SAY: Ghost/Forteen : One guy who happened to be the traitor
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; As far as i&#39;m concerned
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; SOUT HSECURT
+02-13:SAY: Cog Bedhammer/X2yzh9 : ; Dealt with
+02-13:SAY: Cog Bedhammer/X2yzh9 : i have nothing
+02-13:SAY: Cog Bedhammer/X2yzh9 : look!
+02-13:SAY: Cog Bedhammer/X2yzh9 : nothing illegal! I am not a traitor!
+02-13:SAY: Cog Bedhammer/X2yzh9 : The captains ID was in there to go call the shuttle
+02-13:ACCESS: Logout: 
+02-13:ACCESS: Login: Wrongnumber from 124.198.169.221
+02-13:ACCESS: They share computer ID's
+02-13:SAY: Lia'Vael Narayya/Quarian : Huh?!
+02-13:SAY: Cog Bedhammer/X2yzh9 : as there was no one
+02-13:SAY: Cog Bedhammer/X2yzh9 : with sufficient access at the point in time
+02-13:SAY: Cog Bedhammer/X2yzh9 : to call the shuttle!
+02-13:SAY: Cog Bedhammer/X2yzh9 : what in the world?
+02-13:SAY: Cog Bedhammer/X2yzh9 : i demand a trial!
+02-13:SAY: Lia'Vael Narayya/Quarian : ..W...Whats going on!?
+02-13:OOC: Zora WhisperWind/Zylwan : HEAD FÖR HEEELVEETEEE ;D var har du skaffat nya DF? :3
+02-13:OOC: Alucard Whoop/Headswe : MEN FÖR FAN
+02-13:OOC: Unknown/X2yzh9 : Is it normal for a moderatly good traitor to get arrested?
+02-13:OOC: Alucard Whoop/Headswe : bay12games.com
+02-13:OOC: Alucard Whoop/Headswe : GAH
+02-13:OOC: Zora WhisperWind/Zylwan : mmmkaay&lt;3
+02-13:OOC: Alucard Whoop/Headswe : No
+02-13:SAY: Lia'Vael Narayya/Quarian : H...Hello?
+02-13:SAY: Unknown/X2yzh9 : Yea
+02-13:SAY: Unknown/X2yzh9 : i foudn that on
+02-13:SAY: Unknown/X2yzh9 : the one over
+02-13:SAY: Unknown/X2yzh9 : yin the next bed
+02-13:SAY: Alucard Whoop/Headswe : Time to get fingerprints machine whoop
+02-13:SAY: Unknown/X2yzh9 : i mean
+02-13:SAY: Unknown/X2yzh9 : in the cahir
+02-13:SAY: Lia'Vael Narayya/Quarian : ...W..What Happened to that Guy!
+02-13:SAY: Unknown/X2yzh9 : a long series of events
+02-13:SAY: Unknown/X2yzh9 : So alucard
+02-13:SAY: Unknown/X2yzh9 : how&#39;d it come out
+02-13:SAY: Alucard Whoop/Headswe : Hah
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : Is DF even good?
+02-13:SAY: Alucard Whoop/Headswe : the only fingerprints on the emag is yours
+02-13:OOC: Alucard Whoop/Headswe : Its awesum
+02-13:SAY: Unknown/X2yzh9 : Because
+02-13:SAY: Lia'Vael Narayya/Quarian : ....Whats an Emag?
+02-13:SAY: Alucard Whoop/Headswe : You have gloves you idiot.
+02-13:OOC: Unknown/Micro102 : Bette rthen a lot of console games
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:SAY: Unknown/X2yzh9 : hey
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:SAY: Unknown/X2yzh9 : Wait!
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:SAY: Lia'Vael Narayya/Quarian : The Hell?!
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:MATTACK: Alucard Whoop(Headswe) attcked by Cog Bedhammer(X2yzh9) with the laser gun
+02-13:ACCESS: Logout: 
+02-13:ACCESS: Login: Zylwan from 78.70.224.29
+02-13:ACCESS: They share computer ID's
+02-13:OOC: Unknown/X2yzh9 : DF is good once you get your head wrapped around the complexity of it
+02-13:OOC: Unknown/X2yzh9 : Then it is fairly easy, eventually
+02-13:ACCESS: Logout: 
+02-13:ACCESS: Login: X2yzh9 from 75.142.181.4
+02-13:ACCESS: They share computer ID's
+02-13:SAY: Urist Noblelever/Matz05 : Hello?
+02-13:SAY: Urist Noblelever/Matz05 : ;Um... does Supply have a catalogue?
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : But I heard you can&#39;t win it.
+02-13:OOC: Bob Robertson/Forteen : It&#39;s a sandbox thing
+02-13:ADMIN: Headswe modified Communication Control's relay to Long Range Communication Relay
+02-13:OOC: Bob Robertson/Forteen : Sort of
+02-13:OOC: Zora WhisperWind/Zylwan : You win the game once you have build your town and then destoryed it with your own hands/dwarves
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : I heard that too.
+02-13:OOC: Unknown/Wrongnumber : yea it is a sandbox
+02-13:OOC: Bob Robertson/Forteen : You have no other objective other than to survive
+02-13:OOC: Bob Robertson/Forteen : Then once you survive, you do whatever you like
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : So, is it kind of like Dungeon Master on BYOND?
+02-13:SAY: Urist Noblelever/Matz05 : ;Who called the shuttle!?
+02-13:OOC: Bob Robertson/Forteen : Never played it
+02-13:OOC: Alucard Whoop/Headswe : Dm is a rip of it
+02-13:OOC: Unknown/X2yzh9 : many times better then that
+02-13:OOC: Unknown/Wrongnumber : errr no beter that things horible
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : Ah, I see.
+02-13:OOC: Unknown/X2yzh9 : Dungeon master is horrid in comparison to DF
+02-13:OOC: Alucard Whoop/Headswe : brb
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : I actually enjoy Dungeon Master.
+02-13:OOC: Unknown/X2yzh9 : I said in comparison
+02-13:ACCESS: Failed Login: Hutchen Reason: Key banned
+02-13:OOC: Zora WhisperWind/Zylwan : why the hell did they make a Torrent out of a such a small game?
+02-13:OOC: Bob Robertson/Forteen : So many people
+02-13:OOC: Unknown/Wrongnumber : its good to be playing on a original map i know 
+02-13:ACCESS: Failed Login: Hutchen Reason: Key banned
+02-13:SAY: Ghost/Forteen : So what&#39;s happening now?
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : On DF, can you like play with other people or group with them?
+02-13:SAY: Ghost/Forteen : I just saw the HoP get sealed into a closet
+02-13:OOC: Micro McGinley/Micro102 : No DF is single player
+02-13:OOC: Unknown/Wrongnumber : nope
+02-13:OOC: Micro McGinley/Micro102 : Closest you can get is a succession game
+02-13:OOC: Micro McGinley/Micro102 : But I don&#39;t like dungeon master anymore
+02-13:OOC: Micro McGinley/Micro102 : All the servers are reset all the time
+02-13:OOC: Bob Robertson/Forteen : You have to try it to see exactly what we mean
+02-13:OOC: Unknown/Wrongnumber : yea you do need to see it to understand
+02-13:OOC: Zora WhisperWind/Zylwan : i really dont see the difference between new and the old one.
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : Can you like, talk to anyone on that game or is it just offline? :o
+02-13:OOC: Bob Robertson/Forteen : Completely single player
+02-13:ACCESS: Login: Nono345 from 74.101.124.86
+02-13:OOC: Unknown/X2yzh9 : But really, really good single player.
+02-13:OOC: Drakkon "Dark" Draith/DarkKuta : Eh, I kind of like multiplayer more.
+02-13:OOC: Unknown/X2yzh9 : Well DarkKuta
+02-13:OOC: Unknown/X2yzh9 : let me put it this way
+02-13:GAME: Nono345 entered as Sam Kies
+02-13:OOC: Unknown/X2yzh9 : DF is so in-depth, that if anyone were to make a server for it
+02-13:OOC: Unknown/Wrongnumber : well you would be missing out if you dont try it
+02-13:SAY: Ghost/X2yzh9 : It would probably crash within minutes, of say, maybe a few people getton on.
+02-13:SAY: Urist Noblelever/Matz05 : shush.
+02-13:OOC: Unknown/X2yzh9 : I
+02-13:OOC: Unknown/X2yzh9 : it would crash
+02-13:SAY: Urist Noblelever/Matz05 : Freedom!
+02-13:OOC: Unknown/X2yzh9 : DF makes up for multiplayer in single player.
+02-13:MATTACK: Sam Kies(Nono345) attcked by Drakkon "Dark" Draith(DarkKuta) with the toolbox
+02-13:SAY: Drakkon "Dark" Draith/DarkKuta : ;Sam Kies just hit me with a toolbox!
+02-13:SAY: Drakkon "Dark" Draith/DarkKuta : ;You should arrest him!
+02-13:SAY: Sam Kies/Nono345 : WANT SOME MORE?
+02-13:MATTACK: Drakkon "Dark" Draith(DarkKuta) attcked by Sam Kies(Nono345) with the toolbox
+02-13:MATTACK: Drakkon "Dark" Draith(DarkKuta) attcked by Sam Kies(Nono345) with the toolbox
+02-13:MATTACK: Sam Kies(Nono345)has shot a taser round at the chapel floor
+03-07:ADMIN: Loading crban_keylist
+03-07:ADMIN: Loading crban_reason
+03-07:ADMIN: Loading crban_time
+03-07:ADMIN: Loading crban_bannedby
+03-07:ADMIN: Loading crban_iplist
+03-07:ADMIN: Loading crban_unbanned
+03-07:ADMIN: Loading crban_ComputerIDs
+03-07:ADMIN: Loading jobban_rank
+03-07:ADMIN: Updating jobbanfile!
+03-07:ACCESS: Login: Cecilff2 from 4.254.223.231
+03-07:GAME: Cecilff2 entered as Cerberius Grey
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ADMIN: Cecilff2 delayed the game.
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ACCESS: Login: Forteen from 70.134.75.135
+03-07:GAME: Forteen entered as Bob Robertson
+03-07:OOC: Cerberius Grey/Cecilff2 : I can&#39;t manually choose wizard I guess
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ADMIN: Cecilff2 set the mode as traitor.
+03-07:ADMIN: Cecilff2 set the mode as secret.
+03-07:OOC: Cerberius Grey/Cecilff2 : Oh hello Forteen
+03-07:OOC: Bob Robertson/Forteen : Hey
+03-07:OOC: Cerberius Grey/Cecilff2 : Sandbox?
+03-07:OOC: Bob Robertson/Forteen : Anything
+03-07:ADMIN: Cecilff2 modified Cerberius Grey's occupation1 to Captain
+03-07:ADMIN: Cecilff2 removed the delay.
+03-07:OOC: Bob Robertson/Forteen : Mind if I try to super heat the engine? Nothing nearly as hot as before
+03-07:OOC: Cerberius Grey/Cecilff2 : Sure.
+03-07:GAME: starting game of wizard
+03-07:OOC: Cerberius Grey/Cecilff2 : As long as we don&#39;t get zombied or something
+03-07:OOC: Cerberius Grey/Cecilff2 : Or if its not meteor
+03-07:OOC: Cerberius Grey/Cecilff2 : I hope it isn&#39;t
+03-07:ADMIN: Cecilff2 used secret showgm
+03-07:OOC: Cerberius Grey/Cecilff2 : Nope.  And you should have an easy time getting to where you want to go
+03-07:SAY: Bob Robertson/Forteen : SCYAR NILA HALLWAY
+03-07:ADMIN: Cecilff2 modified Communication Control's relay to Long Range Communication Relay
+03-07:SAY: Bob Robertson/Forteen : TALLI VERITHA
+03-07:OOC: Bob Robertson/Forteen : Nevermind, I have to go
+03-07:ACCESS: Logout: Forteen
+03-07:OOC: Cerberius Grey/Cecilff2 : Then I shall take over your body
+03-07:ACCESS: Login: Headswe from 127.0.0.1
+03-07:OOC: Cerberius Grey/Cecilff2 : Hello head
+03-07:OOC: Alucard Whoop/Headswe : Com disc bug will be fixed next round whoop
+03-07:OOC: Alucard Whoop/Headswe : gottta sleep
+03-07:ADMIN: Cecilff2 modified Commmunication's Control's party to 1
+03-07:OOC: Alucard Whoop/Headswe : but have fun yo
+03-07:OOC: Cerberius Grey/Cecilff2 : K seeya
+03-07:ACCESS: Logout: Headswe
+03-07:ADMIN: Cecilff2 modified Lounge's party to 1
+03-07:ADMIN: Cecilff2 modified Lounge's party to 0
+03-07:ADMIN: Cecilff2 modified Lounge's party to 2
+03-07:ACCESS: Logout: 
+03-07:ACCESS: Login: Cecilff2 from 4.254.223.231
+03-07:ACCESS: They share computer ID's
+03-07:ADMIN: Cecilff2 modified Bob Robertson's ckey to cecilff2
+03-07:SAY: Bob Robertson/Cecilff2 : TALLI VERITHA
+03-07:SAY: Bob Robertson/Cecilff2 : STI CALLIYE
+03-07:MATTACK: Bob Robertson(Cecilff2) attcked by Cerberius Grey() with the toolbox
+03-07:SAY: Bob Robertson/Cecilff2 : EI NATH
+03-07:ACCESS: Login: Googolplexed from 123.243.197.60
+03-07:OOC: Bob Robertson/Cecilff2 : I have taken the mind and body of Forteen since he had to go
+03-07:OOC: Bob Robertson/Cecilff2 : Plus I wanted to see how wizard spells worked
+03-07:OOC: Inro Stonn/Googolplexed : Yeah, I&#39;m surprised you never have been wizard before
+03-07:OOC: Inro Stonn/Googolplexed : Spawn an SWF radio
+03-07:OOC: Inro Stonn/Googolplexed : Set its uses to 20
+03-07:OOC: Bob Robertson/Cecilff2 : I know.  I&#39;ve been picked traitor, rev, and subject zero plenty of times
+03-07:OOC: Bob Robertson/Cecilff2 : But never wizard
+03-07:ADMIN: Cecilff2 created /obj/item/weapon/SWF_uplink
+03-07:ADMIN: Cecilff2 modified Station Bounced Radio's uses to 20
+03-07:GAME: Googolplexed entered as Inro Stonn
+03-07:SAY: Inro Stonn/Googolplexed : Er, hey ?
+03-07:SAY: Bob Robertson/Cecilff2 : Hello I had nothing to do with this
+03-07:SAY: Bob Robertson/Cecilff2 : *nod
+03-07:SAY: Inro Stonn/Googolplexed : Yeah, I&#39;m not sure how he&#39;s burnt
+03-07:SAY: Inro Stonn/Googolplexed : Or bruised
+03-07:SAY: Inro Stonn/Googolplexed : I mean, what could have caused that ?
+03-07:SAY: Bob Robertson/Cecilff2 : Yeah really weird
+03-07:SAY: Bob Robertson/Cecilff2 : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Cecilff2 : *cough
+03-07:SAY: Bob Robertson/Cecilff2 : Sorry, was clearing my throat
+03-07:SAY: Bob Robertson/Cecilff2 : TARCOL MINTI ZHERI
+03-07:OOC: Inro Stonn/Googolplexed : The basic combo for killing is blind and shocking grasp
+03-07:SAY: Bob Robertson/Cecilff2 : Well thats odd
+03-07:SAY: Inro Stonn/Googolplexed : Yeah
+03-07:OOC: Bob Robertson/Cecilff2 : I may have done that to myself already
+03-07:SAY: Bob Robertson/Cecilff2 : AULIE OXIN FIERA
+03-07:OOC: Bob Robertson/Cecilff2 : So typically you get to choose 3 spells?
+03-07:OOC: Inro Stonn/Googolplexed : 4
+03-07:OOC: Bob Robertson/Cecilff2 : Huh, forteen only had 3
+03-07:OOC: Inro Stonn/Googolplexed : Its actually 4
+03-07:OOC: Bob Robertson/Cecilff2 : No uplink left either
+03-07:OOC: Inro Stonn/Googolplexed : But its bugged
+03-07:SAY: Bob Robertson/Cecilff2 : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Cecilff2 : Oh god!
+03-07:OOC: Inro Stonn/Googolplexed : Most people choose the same spell twice
+03-07:SAY: Inro Stonn/Googolplexed : Oh
+03-07:SAY: Bob Robertson/Cecilff2 : I think I&#39;m the opposite of jaundiced!
+03-07:OOC: Inro Stonn/Googolplexed : I did until I was told about it
+03-07:SAY: Inro Stonn/Googolplexed : wow
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t know why, but I just felt angry
+03-07:SAY: Bob Robertson/Cecilff2 : Scuse me
+03-07:OOC: Inro Stonn/Googolplexed : Knock is usefull, it only lasts 1 second
+03-07:OOC: Inro Stonn/Googolplexed : But you can walk through closed doors
+03-07:SAY: Bob Robertson/Cecilff2 : I ate a lot of legumes before I arrived here
+03-07:OOC: Bob Robertson/Cecilff2 : Yep used it earlier
+03-07:OOC: Bob Robertson/Cecilff2 : After blinking
+03-07:OOC: Inro Stonn/Googolplexed : Telekensis too
+03-07:SAY: Bob Robertson/Cecilff2 : TALLI VERITHA
+03-07:OOC: Inro Stonn/Googolplexed : That + thermals
+03-07:OOC: Bob Robertson/Cecilff2 : Yeah
+03-07:OOC: Inro Stonn/Googolplexed : Hide is useless
+03-07:SAY: Bob Robertson/Cecilff2 : Whoah
+03-07:SAY: Inro Stonn/Googolplexed : Ouch
+03-07:SAY: Bob Robertson/Cecilff2 : Something flew out of this staff.
+03-07:OOC: Inro Stonn/Googolplexed : I want to expand it to hide more stuff
+03-07:OOC: Inro Stonn/Googolplexed : Like all your wizard gear at once
+03-07:OOC: Inro Stonn/Googolplexed : Or even you entirely
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : WHOooooo
+03-07:SAY: Bob Robertson/Cecilff2 : There&#39;s a glitch in the matrix!
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:OOC: Inro Stonn/Googolplexed : What was that spell ?
+03-07:OOC: Bob Robertson/Cecilff2 : Hide
+03-07:OOC: Bob Robertson/Cecilff2 : I hid the pipe
+03-07:OOC: Inro Stonn/Googolplexed : Also, change temp is sortof bugged
+03-07:OOC: Inro Stonn/Googolplexed : you can set it to any temp
+03-07:OOC: Inro Stonn/Googolplexed : It used to also harm the wizard
+03-07:OOC: Bob Robertson/Cecilff2 : Yeah it kills everything from what  Iremember
+03-07:OOC: Inro Stonn/Googolplexed : But now they get heatshield
+03-07:ACCESS: Login: Quarian from 75.38.146.127
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : When I say words things happen
+03-07:SAY: Bob Robertson/Cecilff2 : Crazy things
+03-07:SAY: Bob Robertson/Cecilff2 : *stare
+03-07:SAY: Inro Stonn/Googolplexed : Yeah
+03-07:SAY: Inro Stonn/Googolplexed : Why ?
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t know
+03-07:SAY: Inro Stonn/Googolplexed : We should get you to a doctor
+03-07:SAY: Inro Stonn/Googolplexed : Or a genetisist
+03-07:SAY: Bob Robertson/Cecilff2 : I think I&#39;m the only person here
+03-07:SAY: Bob Robertson/Cecilff2 : STI CALLIYE
+03-07:SAY: Bob Robertson/Cecilff2 : TARCOL MINTI ZHERI
+03-07:SAY: Bob Robertson/Cecilff2 : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Cecilff2 : TALLI VERITHA
+03-07:SAY: Bob Robertson/Cecilff2 : SCYAR NILA CREW QUARTERS
+03-07:SAY: Inro Stonn/Googolplexed : AH
+03-07:GAME: Quarian entered as Lia'Vael Narayya
+03-07:SAY: Inro Stonn/Googolplexed : Stop it
+03-07:SAY: Bob Robertson/Cecilff2 : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Cecilff2 : That was weird
+03-07:SAY: Bob Robertson/Cecilff2 : Hello
+03-07:OOC: Inro Stonn/Googolplexed : does clone work ?
+03-07:SAY: Bob Robertson/Cecilff2 : I am the magician
+03-07:SAY: Inro Stonn/Googolplexed : Hey
+03-07:SAY: Lia'Vael Narayya/Quarian : Um...Hello.
+03-07:SAY: Bob Robertson/Cecilff2 : I took the last boat out of georgia
+03-07:SAY: Inro Stonn/Googolplexed : I don&#39;t know how
+03-07:SAY: Inro Stonn/Googolplexed : But he seams to have abilities
+03-07:SAY: Bob Robertson/Cecilff2 : Also weird things seem to happen when I talk
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : It kind of freaks me out
+03-07:SAY: Lia'Vael Narayya/Quarian : ....What?...
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:OOC: Inro Stonn/Googolplexed : This is odd
+03-07:SAY: Lia'Vael Narayya/Quarian : And..Um.. Whats with the Weird Suit..
+03-07:OOC: Inro Stonn/Googolplexed : Looking at the code
+03-07:SAY: Bob Robertson/Cecilff2 : I dunno
+03-07:SAY: Bob Robertson/Cecilff2 : I think I was born with it
+03-07:OOC: Inro Stonn/Googolplexed : Theres another wizard spell
+03-07:OOC: Inro Stonn/Googolplexed : Clone
+03-07:SAY: Lia'Vael Narayya/Quarian : Is that What The...Um...Captain wears?
+03-07:OOC: Bob Robertson/Cecilff2 : Yeah it&#39;s not available on the uplink
+03-07:SAY: Bob Robertson/Cecilff2 : Sure?
+03-07:SAY: Lia'Vael Narayya/Quarian : Oh.
+03-07:SAY: Bob Robertson/Cecilff2 : It is actually quite comfortable
+03-07:SAY: Lia'Vael Narayya/Quarian : Anyways....Is ...Um...There a Way i Can get a Job?
+03-07:SAY: Bob Robertson/Cecilff2 : I guess
+03-07:SAY: Bob Robertson/Cecilff2 : The captain was dead when I got here.  He was suspiciously bruised and burned to death
+03-07:SAY: Inro Stonn/Googolplexed : Yeah
+03-07:SAY: Lia'Vael Narayya/Quarian : W...What?!
+03-07:SAY: Inro Stonn/Googolplexed : We aren&#39;t sure what caused it
+03-07:SAY: Bob Robertson/Cecilff2 : Neither me or Inro can figure it out
+03-07:SAY: Lia'Vael Narayya/Quarian : Oh.....
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : Also sometimes that happens
+03-07:SAY: Lia'Vael Narayya/Quarian : So...Did..Anyone Succeed Him?
+03-07:SAY: Lia'Vael Narayya/Quarian : ...What is that?!...
+03-07:SAY: Bob Robertson/Cecilff2 : I have his ID.  I&#39;m not sure if that means I&#39;m his successor or not.
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t know
+03-07:SAY: Bob Robertson/Cecilff2 : But it happens sometimes
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Lia'Vael Narayya/Quarian : Whats that Mean?...
+03-07:SAY: Bob Robertson/Cecilff2 : Also, I think I need a doctor.
+03-07:SAY: Bob Robertson/Cecilff2 : Sometimes I get green jaundice
+03-07:SAY: Bob Robertson/Cecilff2 : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Cecilff2 : It feels weird
+03-07:SAY: Lia'Vael Narayya/Quarian : ...Whats Jaundice..?
+03-07:SAY: Lia'Vael Narayya/Quarian : Steps Back
+03-07:SAY: Lia'Vael Narayya/Quarian : Why is your Face Green!
+03-07:SAY: Bob Robertson/Cecilff2 : Oh man I tried to pick up the table and smashed it to pieces...
+03-07:SAY: Bob Robertson/Cecilff2 : AULIE OXIN FIERA
+03-07:SAY: Lia'Vael Narayya/Quarian : .....I..I&#39;m Not getting what you&#39;re Saying...
+03-07:SAY: Bob Robertson/Cecilff2 : TARCOL MINTI ZHERI
+03-07:SAY: Lia'Vael Narayya/Quarian : Did...Did you Just walk through a Wall?!
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t either
+03-07:SAY: Bob Robertson/Cecilff2 : I think so
+03-07:SAY: Bob Robertson/Cecilff2 : Well a door
+03-07:SAY: Lia'Vael Narayya/Quarian : Whats That?!
+03-07:SAY: Bob Robertson/Cecilff2 : I can&#39;t pass this thing
+03-07:SAY: Bob Robertson/Cecilff2 : I  don&#39;t know what it is
+03-07:SAY: Bob Robertson/Cecilff2 : Oh and this reminds me of the first time I saw the captain
+03-07:SAY: Bob Robertson/Cecilff2 : EI NATH
+03-07:SAY: Bob Robertson/Cecilff2 : *blink_r
+03-07:SAY: Bob Robertson/Cecilff2 : That was weird
+03-07:SAY: Bob Robertson/Cecilff2 : *frown
+03-07:SAY: Lia'Vael Narayya/Quarian : What...What was that?
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t know!
+03-07:SAY: Lia'Vael Narayya/Quarian : And whats that Brown thing...
+03-07:SAY: Bob Robertson/Cecilff2 : TALLI VERITHA
+03-07:SAY: Bob Robertson/Cecilff2 : My head is glowing!
+03-07:SAY: Bob Robertson/Cecilff2 : Help!
+03-07:SAY: Lia'Vael Narayya/Quarian : This..Is..Um...Absurd...
+03-07:SAY: Bob Robertson/Cecilff2 : STI CALLIYE
+03-07:SAY: Lia'Vael Narayya/Quarian : Ow...My Eyes!..
+03-07:SAY: Bob Robertson/Cecilff2 : Why did I just say that?
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t get this one bit
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Bob Robertson/Cecilff2 : Oh my god!
+03-07:SAY: Lia'Vael Narayya/Quarian : I Can&#39;t See!!
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Lia'Vael Narayya/Quarian : Ow.....I can see again!
+03-07:SAY: Bob Robertson/Cecilff2 : You should have seen that
+03-07:SAY: Bob Robertson/Cecilff2 : It was really strange
+03-07:SAY: Bob Robertson/Cecilff2 : Ack!
+03-07:SAY: Lia'Vael Narayya/Quarian : This..Is Um..Getting Strange...
+03-07:SAY: Bob Robertson/Cecilff2 : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Bob Robertson/Cecilff2 : Holy crap!
+03-07:SAY: Lia'Vael Narayya/Quarian : What was that?!
+03-07:SAY: Bob Robertson/Cecilff2 : Everything around me trembled for a moment!
+03-07:SAY: Bob Robertson/Cecilff2 : I don&#39;t understand this one bit
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Bob Robertson/Cecilff2 : *stare
+03-07:SAY: Lia'Vael Narayya/Quarian : Screams in Pain
+03-07:SAY: Lia'Vael Narayya/Quarian : W...What Was..That?!
+03-07:SAY: Bob Robertson/Cecilff2 : this thing is cursed!
+03-07:SAY: Bob Robertson/Cecilff2 : Are you guys ok?
+03-07:SAY: Lia'Vael Narayya/Quarian : I...I Don&#39;t think so...
+03-07:ACCESS: Login: Jacksanto from 24.58.178.240
+03-07:SAY: Bob Robertson/Cecilff2 : I still think it&#39;s something to do with that
+03-07:SAY: Lia'Vael Narayya/Quarian : ...But..Its...Its Just a Stick...
+03-07:SAY: Bob Robertson/Cecilff2 : I feel different when I have it.
+03-07:SAY: Bob Robertson/Cecilff2 : Like someone else...
+03-07:SAY: Lia'Vael Narayya/Quarian : And...I&#39;m not Feeling too Good...
+03-07:SAY: Lia'Vael Narayya/Quarian : If you&#39;ll Excuse me...
+03-07:SAY: Bob Robertson/Cecilff2 : *twitch_s
+03-07:SAY: Bob Robertson/Cecilff2 : I AM MASTER WIZARD ELIATH MORENS.  TREMBLE BEFORE ME CREATURES!
+03-07:SAY: Bob Robertson/Cecilff2 : STI CALLIYE
+03-07:SAY: Bob Robertson/Cecilff2 : EI NATH
+03-07:SAY: Lia'Vael Narayya/Quarian : Ow!
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Lia'Vael Narayya/Quarian : My Eyes! Again!
+03-07:SAY: Bob Robertson/Cecilff2 : FALIAH DEE ZERTHIA
+03-07:SAY: Bob Robertson/Cecilff2 : Oh god!
+03-07:SAY: Bob Robertson/Cecilff2 : This is terrible!
+03-07:SAY: Bob Robertson/Cecilff2 : What...
+03-07:SAY: Bob Robertson/Cecilff2 : No!
+03-07:ACCESS: Login: Forteen from 70.134.75.135
+03-07:OOC: Bob Robertson/Cecilff2 : Oh hey you can have your body back
+03-07:OOC: Bob Robertson/Cecilff2 : Hold on
+03-07:ACCESS: Logout: Jacksanto
+03-07:OOC: Bob Robertson/Forteen : You used the wizard?
+03-07:ACCESS: Logout: 
+03-07:ACCESS: Login: Cecilff2 from 4.254.223.231
+03-07:ACCESS: They share computer ID's
+03-07:ADMIN: Cecilff2 modified Cerberius Grey's ckey to cecilff2
+03-07:ACCESS: Logout: 
+03-07:ACCESS: Login: Forteen from 70.134.75.135
+03-07:ADMIN: Cecilff2 modified Bob Robertson's ckey to forteen
+03-07:OOC: Bob Robertson/Forteen : Anything I should know?
+03-07:SAY: Cerberius Grey/Cecilff2 : Poor wizard
+03-07:OOC: Cerberius Grey/Cecilff2 : Uh...you accidentally had a violent outburst
+03-07:OOC: Cerberius Grey/Cecilff2 : And everyone is dead
+03-07:OOC: Cerberius Grey/Cecilff2 : I think
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:OOC: Cerberius Grey/Cecilff2 : Try that on a pipe
+03-07:OOC: Bob Robertson/Forteen : I seem to hae quite a few spells
+03-07:ACCESS: Logout: 
+03-07:ACCESS: Login: Googolplexed from 123.243.197.60
+03-07:ACCESS: They share computer ID's
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:OOC: Inro Stonn/Googolplexed : I am mystriously dead :)
+03-07:OOC: Cerberius Grey/Cecilff2 : Yes.  I&#39;ve never been wizard before so I wanted to see what they were capable of
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:OOC: Cerberius Grey/Cecilff2 : It is a secret to everyone
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:OOC: Cerberius Grey/Cecilff2 : Should we continue on serious like?
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : TARCOL MINTI ZHERI
+03-07:SAY: Bob Robertson/Forteen : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : FALIAH DEE ZERTHIA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Forteen : AULIE OXIN FIERA
+03-07:SAY: Bob Robertson/Forteen : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Forteen : EI NATH
+03-07:SAY: Bob Robertson/Forteen : FALIAH DEE ZERTHIA
+03-07:ACCESS: Logout: 
+03-07:ACCESS: Login: Cecilff2 from 4.254.223.231
+03-07:ACCESS: They share computer ID's
+03-07:SAY: monkey (47b4)/Cecilff2 : *dance
+03-07:SAY: monkey (47b4)/Cecilff2 : *smile
+03-07:SAY: Bob Robertson/Forteen : STI CALLIYE
+03-07:SAY: monkey (47b4)/Cecilff2 : *sulk
+03-07:OOC: monkey (47b4)/Cecilff2 : ITS A TRAP
+03-07:SAY: Bob Robertson/Forteen : STI CALLIYE
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Forteen : TARCOL MINTI ZHERI
+03-07:SAY: Bob Robertson/Forteen : BIRUZ BENNAR
+03-07:SAY: Bob Robertson/Forteen : EI NATH
+03-07:SAY: Bob Robertson/Forteen : OLIOCH MINTERIDAS
+03-07:SAY: Bob Robertson/Forteen : TARCOL MINTI ZHERI
+03-07:SAY: Bob Robertson/Forteen : FALIAH DEE ZERTHIA
+03-07:GAME: Rebooting due to end of game
+03-07:ACCESS: Logout: Cecilff2
+03-07:ACCESS: Logout: Googolplexed
+03-07:ACCESS: Logout: Quarian
+03-07:ACCESS: Logout: Forteen
+04-09:ADMIN: Loading crban_keylist
+04-09:ADMIN: Loading crban_reason
+04-09:ADMIN: Loading crban_time
+04-09:ADMIN: Loading crban_bannedby
+04-09:ADMIN: Loading crban_iplist
+04-09:ADMIN: Loading crban_unbanned
+04-09:ADMIN: Loading crban_ComputerIDs
+04-09:ADMIN: Loading jobban_rank
+04-09:ADMIN: Updating jobbanfile!
+04-09:ACCESS: Login: Quarian from 75.38.146.127
+04-09:ACCESS: Login: Forteen from 70.134.75.135
+04-09:GAME: Quarian entered as Lia'Vael Narayya
+04-09:GAME: Forteen entered as Bob Robertson
+04-09:ACCESS: Logout: Forteen
+04-09:ACCESS: Login: Googolplexed from 123.243.197.60
+04-09:GAME: starting game of nuclear emergency
+04-09:SAY: Syndicate Leader/Quarian : Hmm...So i Gotta Attack a Human Station...
+04-09:SAY: Syndicate Leader/Quarian : And Get some Kind of Disk...
+04-09:SAY: Syndicate Leader/Quarian : Ok Then
+04-09:ACCESS: Login: Cecilff2 from 4.254.218.111
+04-09:GAME: Cecilff2 entered as Cerberius Grey
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I feel pretty good about this day
+04-09:SAY: Cerberius Grey/Cecilff2 : This and every day.
+04-09:SAY: Cerberius Grey/Cecilff2 : ;This and every day.
+04-09:ADMIN: Cecilff2 used secret showgm
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Hello?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I feel so alone.
+04-09:SAY: Cerberius Grey/Cecilff2 : *sigh
+04-09:SAY: Cerberius Grey/Cecilff2 : No one anywhere...
+04-09:SAY: Unknown/Quarian : Hm..
+04-09:SAY: Unknown/Quarian : Gotta Remember this Apparantly...
+04-09:SAY: Cerberius Grey/Cecilff2 : Well...
+04-09:SAY: Cerberius Grey/Cecilff2 : I guess I&#39;ll just act like I&#39;m a one man crew.
+04-09:SAY: Cerberius Grey/Cecilff2 : What&#39;s first to do?
+04-09:SAY: Cerberius Grey/Cecilff2 : The station will need power
+04-09:SAY: Cerberius Grey/Cecilff2 : I suppose I should get to work at that
+04-09:SAY: Cerberius Grey/Cecilff2 : After another round to make sure I haven&#39;t missed some actual crew
+04-09:SAY: Cerberius Grey/Cecilff2 : Heck even evidence of there having been a crew would be welcome
+04-09:SAY: Cerberius Grey/Cecilff2 : Come to think of it
+04-09:SAY: Cerberius Grey/Cecilff2 : I&#39;m going to need access to many places
+04-09:SAY: Cerberius Grey/Cecilff2 : I may have to break into the bridge and see if there&#39;s any way to modify my ID
+04-09:SAY: Cerberius Grey/Cecilff2 : It sure is eerie being the only person onboard
+04-09:SAY: Cerberius Grey/Cecilff2 : *sigh
+04-09:SAY: Unknown/Quarian : Well....It Shouldn&#39;t be that Hard to Take...
+04-09:SAY: Unknown/Quarian : But...I..I&#39;m not Going to Do this as they Instructed me..
+04-09:SAY: Unknown/Quarian : No Murders
+04-09:SAY: Unknown/Quarian : I Mean...Why Kill Someone Over a Disk?!
+04-09:SAY: Unknown/Quarian : Well..Here we go..
+04-09:SAY: Unknown/Quarian : Damn Window..
+04-09:SAY: Cerberius Grey/Cecilff2 : Hmmm
+04-09:SAY: Cerberius Grey/Cecilff2 : What&#39;s this?
+04-09:SAY: Cerberius Grey/Cecilff2 : Uh oh...
+04-09:SAY: Cerberius Grey/Cecilff2 : By myself!?
+04-09:SAY: Cerberius Grey/Cecilff2 : Are they nuts!?
+04-09:SAY: Unknown/Quarian : Glad to be Out of that Thing...
+04-09:SAY: Unknown/Quarian : Its Worst than my Current Suit..
+04-09:SAY: Unknown/Quarian : Lets See if i Remember this...
+04-09:SAY: Unknown/Quarian : Might as well Test it out on a Door...
+04-09:SAY: Cerberius Grey/Cecilff2 : Hey wait
+04-09:SAY: Cerberius Grey/Cecilff2 : Maybe there&#39;s a manifest
+04-09:SAY: Unknown/Quarian : Here we go..
+04-09:SAY: Cerberius Grey/Cecilff2 : Just the babbling man in the arrival shuttle I guess...
+04-09:SAY: Unknown/Quarian : Keelah..Lets Hope this Works..
+04-09:SAY: Cerberius Grey/Cecilff2 : Was that open before?
+04-09:SAY: Cerberius Grey/Cecilff2 : Hello?
+04-09:SAY: Cerberius Grey/Cecilff2 : You&#39;re the first person I&#39;ve seen since I arrived.
+04-09:SAY: Unknown/Quarian : The Hell?!...
+04-09:SAY: Cerberius Grey/Cecilff2 : Huh?
+04-09:SAY: Unknown/Quarian : Is it Broken?!...No.. Its not...
+04-09:SAY: Unknown/Quarian : Um..Hello..
+04-09:SAY: Cerberius Grey/Cecilff2 : Do you know what happened here?
+04-09:SAY: Unknown/Quarian : No...I Just got here...
+04-09:SAY: Unknown/Quarian : Who..Are you?
+04-09:SAY: Cerberius Grey/Cecilff2 : There&#39;s no one in the manifest...
+04-09:SAY: Unknown/Quarian : Well...Um...
+04-09:SAY: Cerberius Grey/Cecilff2 : I just arrived too.  My name is Cerberius Grey
+04-09:SAY: Cerberius Grey/Cecilff2 : I couldn&#39;t reach anyone over the radio
+04-09:SAY: Unknown/Quarian : Well...Um Nice to Meet you.
+04-09:ACCESS: Login: Forteen from 70.134.75.135
+04-09:SAY: Unknown/Quarian : Thats...Um..Strange?
+04-09:SAY: Cerberius Grey/Cecilff2 : And you&#39;re the first person I&#39;ve seen since I arrived.  Besides a naked man in the arrival shuttle speaking gibberish
+04-09:SAY: Unknown/Quarian : .........Ok Then...
+04-09:SAY: Cerberius Grey/Cecilff2 : *eyebrow
+04-09:SAY: Unknown/Quarian : Who The?!...
+04-09:SAY: Cerberius Grey/Cecilff2 : I think that was the guy in the shuttle
+04-09:SAY: Unknown/Quarian : Was that...The Um...
+04-09:SAY: Unknown/Quarian : Oh...
+04-09:SAY: Cerberius Grey/Cecilff2 : Still...naked.
+04-09:SAY: Unknown/Quarian : Thats Um...Sort of Disturbing...
+04-09:SAY: Unknown/Quarian : Anyways...I Gotta go Find the Crew...
+04-09:SAY: Unknown/Quarian : Huh?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I think I&#39;ll try getting the engine started.
+04-09:SAY: Unknown/Quarian : Sighs
+04-09:SAY: Unknown/Quarian : That was Close...
+04-09:SAY: Cerberius Grey/Cecilff2 : *eyebrow
+04-09:SAY: Unknown/Forteen : Hey, I found it on the ground
+04-09:SAY: Cerberius Grey/Cecilff2 : Weren&#39;t you naked and speaking gibberish in teh shuttle?
+04-09:SAY: Unknown/Forteen : U just woke up
+04-09:SAY: Unknown/Forteen : I just woke up
+04-09:SAY: Cerberius Grey/Cecilff2 : *blink
+04-09:SAY: Cerberius Grey/Cecilff2 : That looks menacing
+04-09:SAY: Unknown/Forteen : It looks cool
+04-09:SAY: Cerberius Grey/Cecilff2 : Yeah...
+04-09:SAY: Cerberius Grey/Cecilff2 : Ok then.
+04-09:SAY: Unknown/Quarian : ...This is Strange...
+04-09:SAY: Unknown/Quarian : Here we go..
+04-09:SAY: Unknown/Quarian : Hey
+04-09:SAY: Cerberius Grey/Cecilff2 : Oh hey
+04-09:SAY: Unknown/Quarian : I Couldn&#39;t Find Anybody..
+04-09:SAY: Cerberius Grey/Cecilff2 : Find anyone else?
+04-09:SAY: Cerberius Grey/Cecilff2 : Oh.
+04-09:SAY: Unknown/Quarian : Its Possibly Deserted..
+04-09:SAY: Unknown/Quarian : Why...I&#39;m not sure..
+04-09:SAY: Cerberius Grey/Cecilff2 : There&#39;s one person in the manifest
+04-09:SAY: Cerberius Grey/Cecilff2 : But it says he&#39;s unassigned
+04-09:SAY: Unknown/Quarian : Who!
+04-09:ACCESS: Logout: Forteen
+04-09:SAY: Cerberius Grey/Cecilff2 : Bob Robertson
+04-09:SAY: Unknown/Quarian : Uh...I Mean... Who?
+04-09:SAY: Unknown/Quarian : Did you Find him?
+04-09:SAY: Cerberius Grey/Cecilff2 : *shake
+04-09:SAY: Cerberius Grey/Cecilff2 : That naked guy found an odd space suit though
+04-09:SAY: Cerberius Grey/Cecilff2 : And thankfully put on some clothes.
+04-09:SAY: Unknown/Quarian : ...What Kind fo Suit?
+04-09:SAY: Unknown/Quarian : Of-
+04-09:SAY: Cerberius Grey/Cecilff2 : It was red.  And the glass for the helmet was red too
+04-09:SAY: Unknown/Quarian : ......Great...
+04-09:SAY: Unknown/Quarian : Uh...I Mean... Great! he Found Clothes!
+04-09:SAY: Cerberius Grey/Cecilff2 : *nod
+04-09:SAY: Unknown/Quarian : So...There has to be a Captain...
+04-09:ACCESS: Login: Forteen from 70.134.75.135
+04-09:SAY: Cerberius Grey/Cecilff2 : If there is, he isn&#39;t in the manifest
+04-09:SAY: Unknown/Quarian : ..Well.....
+04-09:SAY: Unknown/Quarian : Have you by any Chance Seen a Disk?
+04-09:SAY: Cerberius Grey/Cecilff2 : *shake
+04-09:SAY: Unknown/Quarian : Oh...
+04-09:SAY: Cerberius Grey/Cecilff2 : I haven&#39;t really been looking for one though
+04-09:SAY: Unknown/Quarian : It Might contain the Captains Logs.
+04-09:SAY: Unknown/Quarian : We could Find out What Happened..
+04-09:SAY: Cerberius Grey/Cecilff2 : There are disks in the AI upload room probably.
+04-09:SAY: Unknown/Quarian : There&#39;s An AI?!
+04-09:SAY: Cerberius Grey/Cecilff2 : I don&#39;t think so.
+04-09:SAY: Cerberius Grey/Cecilff2 : But I saw the blueprints for the station
+04-09:SAY: Cerberius Grey/Cecilff2 : And there&#39;s a room for one
+04-09:SAY: Unknown/Quarian : Oh...Ok...
+04-09:SAY: Cerberius Grey/Cecilff2 : It must not have been installed
+04-09:SAY: Cerberius Grey/Cecilff2 : Unless...it went rogue...
+04-09:SAY: Unknown/Quarian : Do you Know where the Captains Quarters is...By any Chance?
+04-09:SAY: Cerberius Grey/Cecilff2 : Yeah I was in there for a bit
+04-09:SAY: Unknown/Quarian : Where?! Can you Show me?!
+04-09:SAY: Cerberius Grey/Cecilff2 : It didn&#39;t look like anyone had been in there for a long while
+04-09:SAY: Unknown/Quarian : Huh...
+04-09:SAY: Cerberius Grey/Cecilff2 : I found a spare ID in here
+04-09:SAY: Unknown/Quarian : I See...
+04-09:SAY: Unknown/Quarian : Where you in here?..
+04-09:SAY: Cerberius Grey/Cecilff2 : In this room?
+04-09:SAY: Unknown/Quarian : Yes...
+04-09:SAY: Cerberius Grey/Cecilff2 : Yeah 
+04-09:SAY: Unknown/Quarian : Oh...Ok Then...
+04-09:SAY: Cerberius Grey/Cecilff2 : I checked the lockers in here
+04-09:SAY: Unknown/Quarian : And you Saw no Disk..?
+04-09:SAY: Cerberius Grey/Cecilff2 : *shake
+04-09:SAY: Unknown/Quarian : Well...I&#39;m Sorry then..
+04-09:SAY: Cerberius Grey/Cecilff2 : Do you have access to the rooms here?
+04-09:SAY: Unknown/Quarian : I Believe not...
+04-09:SAY: Cerberius Grey/Cecilff2 : I think I left that spare in the ID console
+04-09:SAY: Unknown/Quarian : But i&#39;m Truly Sorry
+04-09:SAY: Cerberius Grey/Cecilff2 : You might as well give yourself full access.
+04-09:SAY: Cerberius Grey/Cecilff2 : Why?
+04-09:SAY: Unknown/Quarian : This..
+04-09:MATTACK: Unknown(Quarian)has shot a taser round at the floor
+04-09:SAY: Unknown/Quarian : Listen up Human...
+04-09:SAY: Unknown/Quarian : Wheres the Disk...
+04-09:SAY: Unknown/Quarian : Oh... i Forgot to Say Please.
+04-09:SAY: Unknown/Quarian : Tell me where the Disk is...Please&gt;
+04-09:SAY: Unknown/Quarian : &#39;Well&gt;
+04-09:SAY: Cerberius Grey/Cecilff2 : I...I don&#39;t know.
+04-09:SAY: Cerberius Grey/Cecilff2 : Why did you shoot me?
+04-09:SAY: Unknown/Quarian : Good Question Actually...
+04-09:SAY: Unknown/Quarian : See...I Work...For an Organization...
+04-09:SAY: Unknown/Quarian : and Well...
+04-09:SAY: Unknown/Quarian : They Wanted... a Disk...
+04-09:SAY: Unknown/Quarian : And Um....They kinda...Forced me to Join..
+04-09:SAY: Unknown/Quarian : So...
+04-09:SAY: Cerberius Grey/Cecilff2 : Oh, the Association of Computing Machinery?
+04-09:SAY: Unknown/Quarian : Thats what I&#39;m Here...
+04-09:SAY: Unknown/Quarian : No...
+04-09:SAY: Unknown/Quarian : They&#39;re called the Syndicate...
+04-09:SAY: Unknown/Quarian : Have you Heard of Them?
+04-09:SAY: Cerberius Grey/Cecilff2 : Oh...
+04-09:SAY: Cerberius Grey/Cecilff2 : The people in that report on the table.
+04-09:SAY: Unknown/Quarian : Oh...How Nice...
+04-09:SAY: Unknown/Quarian : Well....Listen...
+04-09:SAY: Unknown/Quarian : They Hired me...Forceibly i Remind you..
+04-09:SAY: Unknown/Quarian : To Come Here and Find a Disk...
+04-09:SAY: Unknown/Quarian : What they Want with it.
+04-09:SAY: Unknown/Quarian : Hell if i Know...
+04-09:SAY: Unknown/Quarian : But...
+04-09:SAY: Unknown/Quarian : Its that Or Death...
+04-09:SAY: Cerberius Grey/Cecilff2 : Well I don&#39;t know about what disk you want, but I&#39;m guessing there&#39;s plenty in the upload room.
+04-09:SAY: Unknown/Quarian : I Don&#39;t Wanna Die...
+04-09:SAY: Unknown/Quarian : I Might Check there...
+04-09:SAY: Unknown/Quarian : But...Just be Grateful...
+04-09:SAY: Unknown/Quarian : That i was the One Sent here for it...
+04-09:SAY: Cerberius Grey/Cecilff2 : *blink
+04-09:SAY: Unknown/Quarian : I&#39;ve Heard...Some Terrible Rumors...Of Other Operatives...
+04-09:SAY: Cerberius Grey/Cecilff2 : *shiver
+04-09:SAY: Unknown/Quarian : Mass Executing......
+04-09:SAY: Unknown/Quarian : Bombing...
+04-09:SAY: Unknown/Quarian : Just to Get their Goals...
+04-09:SAY: Unknown/Quarian : It Sickens Me...
+04-09:SAY: Cerberius Grey/Cecilff2 : I...I don&#39;t want any trouble...I don&#39;t even know why they sent me here!
+04-09:SAY: Unknown/Quarian : I Don&#39;t Either...
+04-09:SAY: Unknown/Quarian : And I&#39;m Still Trying to Figure out What Happened here...
+04-09:SAY: Unknown/Quarian : Anyways...I&#39;ll need this..
+04-09:SAY: Unknown/Quarian : Reads the Card
+04-09:SAY: Unknown/Quarian : Well...This is...
+04-09:SAY: Cerberius Grey/Cecilff2 : I kind of...put that on there...because...well it was true
+04-09:SAY: Unknown/Quarian : I See...
+04-09:SAY: Unknown/Quarian : The Hell is this?!
+04-09:SAY: Cerberius Grey/Cecilff2 : I found it in the locker
+04-09:SAY: Unknown/Quarian : That Thing... Could Kill People...
+04-09:SAY: Cerberius Grey/Cecilff2 : In the quarters
+04-09:SAY: Syndicate/Forteen : So, what&#39;s happening&gt;
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I&#39;m kind of...tied up at the moment.
+04-09:SAY: Syndicate/Forteen : ;There is a severe lack of headsets on this station
+04-09:SAY: Unknown/Quarian : Here it is..
+04-09:SAY: Captain/Quarian : Hmm..
+04-09:SAY: Cerberius Grey/Quarian : I Wonder if this Tech Works...
+04-09:SAY: Cerberius Grey/Cecilff2 : Is that the one you were looking for?
+04-09:SAY: Cerberius Grey/Quarian : There we Go..
+04-09:SAY: Cerberius Grey/Quarian : See the Similiarities?
+04-09:SAY: Cerberius Grey/Cecilff2 : Hey you sound like I do
+04-09:SAY: Cerberius Grey/Cecilff2 : *blink
+04-09:SAY: Cerberius Grey/Quarian : Exactly...
+04-09:SAY: Cerberius Grey/Cecilff2 : Uh
+04-09:SAY: Cerberius Grey/Cecilff2 : Uh
+04-09:SAY: Cerberius Grey/Cecilff2 : *blink
+04-09:SAY: Cerberius Grey/Cecilff2 : You look really creepy like that.
+04-09:ACCESS: Login: TheGrifter from 67.8.150.205
+04-09:SAY: Cerberius Grey/Cecilff2 : Not you.
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : The other guy
+04-09:GAME: TheGrifter entered as Johnny "Meth" Cash
+04-09:SAY: Cerberius Grey/Quarian : Other guy?!
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : He was at the wall there for a moment
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Glowing
+04-09:SAY: Cerberius Grey/Quarian : I&#39;m Not Alone...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : And wearing that creepy red suit
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Uh hey...
+04-09:SAY: Cerberius Grey/Quarian : I Don&#39;t Know what your Talking About..
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : He&#39;s right outside again
+04-09:SAY: Cerberius Grey/Quarian : Theres No One Else here...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : He&#39;s glowing oddly
+04-09:SAY: Cerberius Grey/Quarian : Are...You Okay?...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Sort of like when I first saw you, come to think of it
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : He&#39;s glowing like that
+04-09:SAY: Cerberius Grey/Quarian : You Are Crazy...
+04-09:SAY: Cerberius Grey/Quarian : The Thing was Busted...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : *frown
+04-09:SAY: Cerberius Grey/Quarian : You need First Aid Treatment...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : You&#39;re not a hallucination are you?
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I don&#39;t think I&#39;m hallucinating him
+04-09:SAY: Syndicate/Forteen : So, you need any help?
+04-09:SAY: Cerberius Grey/Quarian : I Found It...
+04-09:SAY: Cerberius Grey/Quarian : See?
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : ;Well it&#39;s a bit uncomfortable here.
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Weird
+04-09:SAY: Cerberius Grey/Quarian : Now...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I&#39;ve never seen a disk like that one before
+04-09:SAY: Cerberius Grey/Quarian : To Report to My Higher ups...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Hello
+04-09:MATTACK: Syndicate(Forteen)has shot a taser round at Cerberius Grey
+04-09:SAY: Cerberius Grey/Quarian : Damn....
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Uh
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : Who are you?
+04-09:SAY: Cerberius Grey/Quarian : I Wasn&#39;t Quick Enough...
+04-09:SAY: Cerberius Grey/Quarian : Switch The Frequency..
+04-09:SAY: Cerberius Grey/Quarian : To 143.9...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I have no idea who that man was
+04-09:SAY: Cerberius Grey/Quarian : Tell Them...I Failed...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : It won&#39;t go below 144.1
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I feel like I&#39;m going to break it
+04-09:SAY: Cerberius Grey/Quarian : Thats a Shame...
+04-09:SAY: Cerberius Grey/Quarian : Anyways...You Humans Win...
+04-09:SAY: Cerberius Grey/Quarian : And that Man...
+04-09:SAY: Cerberius Grey/Quarian : Was Wearing a Syndicate Suit...
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I don&#39;t understand anything that went on here.
+04-09:SAY: Cerberius Grey/Quarian : He was Probably here to Stop me...
+04-09:SAY: Syndicate/Forteen : Ahem
+04-09:SAY: Cerberius Grey (as Syndicate Leader)/Cecilff2 : I thought you worked for them
+04-09:SAY: Syndicate/Forteen : ;So what&#39;s happening?
+04-09:SAY: Cerberius Grey/Quarian : Take your Stuff Back...
+04-09:SAY: Cerberius Grey/Quarian : I Did...
+04-09:SAY: Syndicate/Forteen : ;I finally found a headset
+04-09:SAY: Unknown/Quarian : He was Probably a Trustable Member...
+04-09:SAY: Cerberius Grey/Cecilff2 : Maybe they decided to let you go?
+04-09:SAY: Unknown/Quarian : Of the Syndicate...While i was...Conscripted..
+04-09:SAY: Cerberius Grey/Cecilff2 : I mean you did say they would have killed you if you hadn&#39;t joined.
+04-09:SAY: Cerberius Grey/Cecilff2 : And he didn&#39;t.
+04-09:SAY: Unknown/Quarian : Then...Something Isn&#39;t Right...
+04-09:SAY: Unknown/Quarian : Either Way...Your the Captain Now...
+04-09:SAY: Unknown/Quarian : ...If you Want...
+04-09:SAY: Syndicate/Forteen : ;Anyone?
+04-09:SAY: Unknown/Quarian : You Can take my Stuff...
+04-09:SAY: Cerberius Grey/Cecilff2 : Well you can stay here then I guess.  What&#39;s your name?  I&#39;ll make up an ID for you.
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Yes?
+04-09:SAY: Unknown/Quarian : I Have Some Worthwhile Tech in my Backpack...
+04-09:SAY: Syndicate/Forteen : ;What&#39;s been happening?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I have no idea
+04-09:SAY: Unknown/Quarian : And in my Pockets.
+04-09:SAY: Syndicate/Forteen : ;I found a headset finally, but I saw nobody
+04-09:SAY: Unknown/Quarian : My name...
+04-09:SAY: Cerberius Grey/Cecilff2 : ;The last ten minutes have been the most confusing of my entire life
+04-09:SAY: Unknown/Quarian : Well...Your Underreacting...
+04-09:SAY: Syndicate/Forteen : ;Why? What happened?
+04-09:SAY: Cerberius Grey/Cecilff2 : No one&#39;s dead.  I&#39;m not going to get too worked up over a misunderstanding
+04-09:SAY: Unknown/Quarian : I&#39;m an Illegal Syndicate Member.. Who Has Illegal Equipment...
+04-09:SAY: Unknown/Quarian : Theres Nothing more to be Said...
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : ; He had his first gay bj
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : ; First gay BJ
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Grey had his first gay BJ, that&#39;s what
+04-09:SAY: Unknown/Quarian : How...Do you Know nobody is Dead?
+04-09:SAY: Cerberius Grey/Cecilff2 : Why...
+04-09:SAY: Cerberius Grey/Cecilff2 : Did you...
+04-09:SAY: Cerberius Grey/Cecilff2 : Kill the previous crew?
+04-09:SAY: Unknown/Quarian : ...Maybe..
+04-09:SAY: Syndicate/Forteen : ;That&#39;s uh, great to know
+04-09:SAY: Unknown/Quarian : I&#39;ve Done Enough as it Is...
+04-09:SAY: Unknown/Quarian : My Ancestors Should be Ashamed...
+04-09:SAY: Unknown/Quarian : Keelah Se Lai..
+04-09:SAY: Cerberius Grey/Cecilff2 : *blink
+04-09:SAY: Unknown/Quarian : Your.....Different..
+04-09:SAY: Unknown/Quarian : You Don&#39;t Understand...
+04-09:SAY: Unknown/Quarian : And Don&#39;t Bother Trying to...
+04-09:SAY: Unknown/Quarian : Your...Confused aren&#39;t you?
+04-09:SAY: Cerberius Grey/Cecilff2 : Very...
+04-09:SAY: Unknown/Quarian : If your That Confused...
+04-09:SAY: Unknown/Quarian : Then Would You Mind taking these Off...
+04-09:SAY: Cerberius Grey/Cecilff2 : Perhaps.  Can you tell me what name I should put on this ID?
+04-09:SAY: Unknown/Quarian : ...You Still Don&#39;t Believe Me?
+04-09:SAY: Unknown/Quarian : Well...For a Start...
+04-09:SAY: Cerberius Grey/Cecilff2 : Believe you about what?  You seem to have misunderstood whatever is going on just as much as I have.
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : What are you, Bob, a homophobe?
+04-09:SAY: Unknown/Quarian : I Have Misunderstood Nothing!
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Or a homophone?
+04-09:SAY: Cerberius Grey/Cecilff2 : Then why did the syndicate stop you from doing your mission?
+04-09:SAY: Unknown/Quarian : I...I...Don&#39;t Know...
+04-09:SAY: Syndicate/Forteen : ;Why are you talking through the intercom?
+04-09:SAY: Unknown/Quarian : If you Really...Want to Know...
+04-09:SAY: Cerberius Grey/Cecilff2 : With no notification or explanation.  Not only that, but they left you alive even though you said they would kill you.
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Because. It&#39;s fun when you&#39;re really cooked on meth.
+04-09:SAY: Unknown/Quarian : They Would have Killed me if i Ran...
+04-09:SAY: Unknown/Quarian : Maybe they&#39;re Racist...
+04-09:SAY: Cerberius Grey/Cecilff2 : But sabotaging their own missions?
+04-09:SAY: Unknown/Quarian : He&#39;s Still Here....
+04-09:SAY: Unknown/Quarian : Maybe he Wants the Credit...
+04-09:SAY: Unknown/Quarian : Knowing that a Conscripted Qua-.
+04-09:SAY: Unknown/Quarian : I&#39;m Talking too Much....
+04-09:SAY: Unknown/Quarian : Just do Whatever your gonna Do...
+04-09:SAY: Cerberius Grey/Cecilff2 : I was going to assign you an ID and release you.  I&#39;m no expert at law and Nanotrasen doesn&#39;t seem to feel like telling me anything.
+04-09:SAY: Unknown/Quarian : Nanotrasen Probably Believes Nobody&#39;s Here...
+04-09:SAY: Cerberius Grey/Cecilff2 : I wouldn&#39;t be surprised if they sent me to the wrong station.
+04-09:SAY: Unknown/Quarian : I Wouldn&#39;t Either...
+04-09:SAY: Unknown/Quarian : Oh...Dear....
+04-09:SAY: Cerberius Grey/Cecilff2 : Huh?
+04-09:SAY: Unknown/Quarian : am i Infected?!...
+04-09:SAY: Unknown/Quarian : Moves her Head to Check her Suit.
+04-09:SAY: Cerberius Grey/Cecilff2 : Infected with what?
+04-09:SAY: Unknown/Quarian : No...Tears...Then What the Hell..
+04-09:SAY: Unknown/Quarian : with a Virus or Bacteria!
+04-09:SAY: Cerberius Grey/Cecilff2 : I don&#39;t know...do you need a doctor?
+04-09:SAY: Unknown/Quarian : Theres not a Doctor here...
+04-09:SAY: Unknown/Quarian : A Human Doctor Wouldn&#39;t Understand...
+04-09:SAY: Cerberius Grey/Cecilff2 : Would you know what to do?
+04-09:SAY: Unknown/Quarian : Of Course i Would... What kind of Question is that?!
+04-09:SAY: Cerberius Grey/Cecilff2 : Well I didn&#39;t know if you had medical training or not.
+04-09:SAY: Unknown/Quarian : Of Course i Do... Its Common Knowledge where i live!
+04-09:SAY: Unknown/Quarian : Look...Can we get to a Point please?
+04-09:SAY: Cerberius Grey/Cecilff2 : If you don&#39;t tell me what name you want, I&#39;ll just put one on here.
+04-09:SAY: Unknown/Quarian : Well...
+04-09:SAY: Unknown/Quarian : My Name...Thats...
+04-09:SAY: Unknown/Quarian : Its...Um...
+04-09:SAY: Unknown/Quarian : Lia.....
+04-09:SAY: Cerberius Grey/Cecilff2 : Alright.  I&#39;ll put that on here.
+04-09:SAY: Unknown/Quarian : ...Why..So you can Kill me with my Name on it?
+04-09:SAY: Unknown/Quarian : If You wanted to Kill me...Just Use a Gun...
+04-09:SAY: Cerberius Grey/Cecilff2 : I don&#39;t want to kill anyone...
+04-09:SAY: Unknown/Quarian : I Have a Syndicate Thing...Its Supposed to Kill Fast...
+04-09:SAY: Cerberius Grey/Cecilff2 : Well Lia...seems no one knows what to do with you.  You may as well act like you&#39;re not employed by either Nanotrasen or Syndicate.
+04-09:SAY: Cerberius Grey/Cecilff2 : I&#39;ll let you handle your infection.
+04-09:SAY: Unknown/Quarian : ....I just Tryed to Harm You!
+04-09:SAY: Unknown/Quarian : And You Let me Go??
+04-09:SAY: Cerberius Grey/Cecilff2 : I don&#39;t feel harmed.
+04-09:SAY: Unknown/Quarian : Well....You Should be!
+04-09:SAY: Cerberius Grey/Cecilff2 : You even apologized.  If you try to attack me again...then I guess I&#39;ll have to defend myself.
+04-09:SAY: Unknown/Quarian : .......Thank You...
+04-09:SAY: Syndicate/Forteen : ;So, we doing anything?
+04-09:SAY: Cerberius Grey/Cecilff2 : *nod
+04-09:SAY: Lia/Quarian : This...Is Weird...
+04-09:SAY: Lia/Quarian : I Try to Kill a Man...
+04-09:SAY: Lia/Quarian : A Human as well...
+04-09:SAY: Lia/Quarian : And He...
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I think we should go.  I think Nanotrasen forgot about us
+04-09:SAY: Lia/Quarian : Lets me go?!
+04-09:SAY: Lia/Quarian : This Doesn&#39;t make any Sense...
+04-09:SAY: Lia/Quarian : I Still have Weapons on me...
+04-09:SAY: Syndicate/Forteen : ;The escape shuttle?
+04-09:SAY: Lia/Quarian : ...And the Disk...
+04-09:SAY: Cerberius Grey/Cecilff2 : Yeah
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Yeah
+04-09:SAY: Lia/Quarian : I Seem to be Fine Now...
+04-09:SAY: Syndicate/Forteen : ;I think so too
+04-09:GAME: found comdisc
+04-09:SAY: Syndicate/Forteen : ;You going to call it?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I&#39;m orienting the dish
+04-09:SAY: Cerberius Grey/Cecilff2 : ;It&#39;s not properly aligned
+04-09:SAY: Syndicate/Forteen : ;Oh
+04-09:ACCESS: Login: Orb370 from 4.154.130.128
+04-09:OOC: Cog Swordwall/Orb370 : Yay?
+04-09:GAME: Orb370 entered as Cog Swordwall
+04-09:ACCESS: Login: Qwertyasd40 from 76.247.46.175
+04-09:SAY: Cerberius Grey/Cecilff2 : *sigh
+04-09:SAY: Cerberius Grey/Cecilff2 : What&#39;ve I gotten myself into.
+04-09:GAME: Qwertyasd40 entered as Jackson Barnes
+04-09:SAY: Cog Swordwall/Orb370 : ; Anyone here?...
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;I am
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Yes.
+04-09:SAY: Cog Swordwall/Orb370 : ; Well, you did just arrive.
+04-09:SAY: Cog Swordwall/Orb370 : ; So whats going on?
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Dunno
+04-09:SAY: Cerberius Grey/Cecilff2 : ;We&#39;re leaving.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Shuttles coming
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Nanotrasen seems to have abandoned the station
+04-09:SAY: Cog Swordwall/Orb370 : ; Any particular reason why?
+04-09:SAY: Cog Swordwall/Orb370 : ; Heh.
+04-09:SAY: Cerberius Grey/Cecilff2 : ;There was no crew when I arrived
+04-09:SAY: Syndicate/Forteen : ;Oh great
+04-09:SAY: Cog Swordwall/Orb370 : ; Well, im grabbing a pair of handcuffs from security HQ
+04-09:MATTACK: Lia(Quarian)has shot a taser round at the floor
+04-09:SAY: Cog Swordwall/Orb370 : ; Jackson Barnes appears to be grabbing some too..
+04-09:SAY: Jackson Barnes/Qwertyasd40 : NO oxygen down there
+04-09:MATTACK: Syndicate(Forteen)has shot a taser round at the space
+04-09:SAY: Cog Swordwall/Orb370 : Really?
+04-09:SAY: Cog Swordwall/Orb370 : Sigh.
+04-09:MATTACK: Syndicate(Forteen)has shot a taser round at the space
+04-09:SAY: Syndicate/Forteen : Who are you?
+04-09:SAY: Lia/Quarian : Who are you...?
+04-09:SAY: Lia/Quarian : Bastard...
+04-09:SAY: Cog Swordwall/Orb370 : ; Do you know if the engine is running?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Yeah I started it
+04-09:SAY: Cog Swordwall/Orb370 : ; Well, it seems a lot of rooms are broken into...should I fix that?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;If you want to.
+04-09:SAY: Cog Swordwall/Orb370 : ; Hmm, I just saw a guy in a black suit carrying a gun walk by
+04-09:SAY: Cog Swordwall/Orb370 : ; Dont know if its a taser, laser, or revolver.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Whoahhhhh
+04-09:SAY: Cog Swordwall/Orb370 : ; Hes heading up the west hall way.
+04-09:SAY: Cerberius Grey/Cecilff2 : ;So?
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;I  saw him
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Hey 
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Man i
+04-09:SAY: Cog Swordwall/Orb370 : ; There is no official uniform that is black on this station.
+04-09:SAY: Cog Swordwall/Orb370 : ; Last time I checked
+04-09:SAY: Cerberius Grey/Cecilff2 : ;The chaplain?
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Chaplai is
+04-09:SAY: Jackson Barnes/Qwertyasd40 : hi
+04-09:SAY: Cog Swordwall/Orb370 : ; Why would the Chaplain have a gun?
+04-09:SAY: Cog Swordwall/Orb370 : ; Eh.
+04-09:SAY: Syndicate/Forteen : ;Was the person named Lia?
+04-09:SAY: Cerberius Grey/Cecilff2 : ;I probably shouldn&#39;t either.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : emergency reasons
+04-09:SAY: Cog Swordwall/Orb370 : ; I have no idea what his name was.
+04-09:SAY: Syndicate/Forteen : ;Because I just saw someone pass by with that name
+04-09:SAY: Jackson Barnes/Qwertyasd40 : hello
+04-09:SAY: Cog Swordwall/Orb370 : ; Found an air leak in the supply shuttle.
+04-09:SAY: Cerberius Grey/Cecilff2 : Well hello there
+04-09:SAY: Unknown/Quarian : Hello...
+04-09:SAY: Jackson Barnes/Qwertyasd40 : what are you here for?
+04-09:SAY: Cog Swordwall/Orb370 : Hello
+04-09:SAY: Cerberius Grey/Cecilff2 : No I&#39;m not the captain.  I&#39;m just a confused survivor
+04-09:SAY: Unknown/Quarian : What Do you Mean?
+04-09:SAY: Cog Swordwall/Orb370 : Hmm.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Like do you work here or something?
+04-09:SAY: Unknown/Quarian : I&#39;m the Chaplain...
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Oh
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;He says hes the chaplain
+04-09:SAY: Cog Swordwall/Orb370 : ; Ask him why he has a gun.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Hes gone
+04-09:SAY: Cog Swordwall/Orb370 : ; Sigh.,
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Lets get to the shuttle cog
+04-09:SAY: Cog Swordwall/Orb370 : ; I would ask security to arrest him, but we have none.
+04-09:SAY: Cerberius Grey/Cecilff2 : *sigh
+04-09:SAY: Cerberius Grey/Cecilff2 : Always so violent
+04-09:SAY: Cog Swordwall/Orb370 : ; Wow
+04-09:SAY: Cog Swordwall/Orb370 : ; Someone came through the east solar array.
+04-09:SAY: Cog Swordwall/Orb370 : ; Broke a window.
+04-09:SAY: Cog Swordwall/Orb370 : ; Left the doors open
+04-09:SAY: Jackson Barnes/Qwertyasd40 : hello
+04-09:SAY: Cerberius Grey/Cecilff2 : *nod
+04-09:SAY: Jackson Barnes/Qwertyasd40 : &#39;;I saw that
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;WOOPS
+04-09:SAY: Cog Swordwall/Orb370 : ; Found a space suit..
+04-09:SAY: Cerberius Grey/Cecilff2 : ;There was a glowing person with a red suit earlier
+04-09:SAY: Jackson Barnes/Qwertyasd40 : (rong chat
+04-09:SAY: Cog Swordwall/Orb370 : ; This is getting kind of fishy./
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;I saw the open door
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Cog
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Syndicate apparently
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Somethings wrong
+04-09:SAY: Cog Swordwall/Orb370 : ; Hmm.
+04-09:SAY: Cog Swordwall/Orb370 : ; I would think so,.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Somethings wrong
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Get to the shuttle!
+04-09:SAY: Cog Swordwall/Orb370 : ; I would arrest the chaplain, being the prime suspect.
+04-09:SAY: Cerberius Grey/Cecilff2 : ;Lia was attacked as well
+04-09:SAY: Cog Swordwall/Orb370 : ; Oh well
+04-09:SAY: Jackson Barnes/Qwertyasd40 : ;Hurry
+04-09:SAY: Unknown/Quarian : I&#39;m Getting the Hell Out of here..
+04-09:SAY: Cerberius Grey/Cecilff2 : I take it you fixed whatever was wrong?
+04-09:SAY: Unknown/Quarian : They...They wanted me...To...
+04-09:SAY: Unknown/Quarian : Set off a Nuke....
+04-09:SAY: Cerberius Grey/Cecilff2 : That&#39;s a bit extreme.
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Syndicates....
+04-09:SAY: Unknown/Quarian : I Know...
+04-09:SAY: Cog Swordwall/Orb370 : Why do you have a taser?
+04-09:SAY: Unknown/Quarian : I Wouldn&#39;t Do...I Couldn&#39;
+04-09:SAY: Unknown/Quarian : Do it...
+04-09:SAY: Unknown/Quarian : Its Personal...
+04-09:SAY: Cerberius Grey/Cecilff2 : There he is again
+04-09:SAY: Unknown/Quarian : I Just Wanna get Away from them...
+04-09:SAY: Cog Swordwall/Orb370 : Am I supposed to believe that?
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Hey, you cant blame them though........ They got kicked out by nanotrsens private army
+04-09:SAY: Cerberius Grey/Cecilff2 : The glowing red suit guy
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Cerby!
+04-09:SAY: Cog Swordwall/Orb370 : I swear
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Want some head?
+04-09:SAY: Cog Swordwall/Orb370 : Theres a guy flying around out there
+04-09:SAY: Cerberius Grey/Cecilff2 : *eyebrow
+04-09:SAY: Cog Swordwall/Orb370 : We are not leaving early..
+04-09:SAY: Cerberius Grey/Cecilff2 : Who the hell are you?
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Don&#39;t be coy big boy
+04-09:SAY: Lia/Quarian : But we Need to!
+04-09:SAY: Cog Swordwall/Orb370 : We should seriously search him.
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : I&#39;m Doctor Rape-O, esquire
+04-09:SAY: Lia/Quarian : He Knows I&#39;m Here!
+04-09:SAY: Lia/Quarian : He&#39;s With Nanotrasen!
+04-09:SAY: Cog Swordwall/Orb370 : We should search Lia
+04-09:SAY: Cerberius Grey/Cecilff2 : I&#39;m going to put the creepy guy into the sleeper.
+04-09:SAY: Cerberius Grey/Cecilff2 : Any objections?
+04-09:SAY: Cog Swordwall/Orb370 : Lia has a taser.
+04-09:SAY: Cog Swordwall/Orb370 : I dont.
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Sure, sugar tits. Just one, I object
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Nanotrasen hires syndicates to bombard their own stations?
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Who&#39;s thinkin&#39;
+04-09:SAY: Lia/Quarian : Dumb Disk...
+04-09:SAY: Jackson Barnes/Qwertyasd40 : I sue these guys
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : Thinkin&#39; thinkin&#39; lincoln.
+04-09:MATTACK: Cerberius Grey(Cecilff2)has shot a taser round at the floor
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : I&#39;mma kill myself now,
+04-09:SAY: Syndicate/Forteen : Hello
+04-09:SAY: Johnny "Meth" Cash/TheGrifter : So you don&#39;t sleeper me
+04-09:MATTACK: Cog Swordwall(Orb370) attcked by Bob Robertson(Forteen) with the metal
+04-09:SAY: Jackson Barnes/Qwertyasd40 : Crap
+04-09:SAY: Jackson Barnes/Qwertyasd40 : SLEEEPY PENNED
+04-09:SAY: Cog Swordwall/Orb370 : lalala
+04-09:GAME: Rebooting due to end of game
+04-09:ACCESS: Logout: Quarian
+04-09:ACCESS: Logout: Googolplexed
+04-09:ACCESS: Logout: Cecilff2
+04-09:ACCESS: Logout: Forteen
+04-09:ACCESS: Logout: TheGrifter
+04-09:ACCESS: Logout: Orb370
+04-09:ACCESS: Logout: Qwertyasd40
+05-54:ADMIN: Loading crban_keylist
+05-54:ADMIN: Loading crban_reason
+05-54:ADMIN: Loading crban_time
+05-54:ADMIN: Loading crban_bannedby
+05-54:ADMIN: Loading crban_iplist
+05-54:ADMIN: Loading crban_unbanned
+05-54:ADMIN: Loading crban_ComputerIDs
+05-54:ADMIN: Loading jobban_rank
+05-54:ADMIN: Updating jobbanfile!
+05-54:ACCESS: Login: Googolplexed from 123.243.197.60
+05-54:ACCESS: Login: TheGrifter from 67.8.150.205
+05-54:ACCESS: Login: Cecilff2 from 4.254.218.111
+05-54:ACCESS: Login: Quarian from 75.38.146.127
+05-54:ACCESS: Login: Forteen from 70.134.75.135
+05-54:GAME: Forteen entered as Bob Robertson
+05-54:GAME: Quarian entered as Lia'Vael Narayya
+05-54:ACCESS: Failed Login: Megaman21 Reason: Key banned
+05-54:GAME: Cecilff2 entered as Cerberius Grey
+05-54:ADMIN: Voting to change mode forced by admin Cecilff2
+05-54:OOC: Bob Robertson/Forteen : There needs to be a longer time between launch and restart
+05-54:ACCESS: Login: Qwertyasd40 from 76.247.46.175
+05-54:OOC: Cerberius Grey/Cecilff2 : I can force it to not reboot
+05-54:OOC: Cerberius Grey/Cecilff2 : I think
+05-54:OOC: Cerberius Grey/Cecilff2 : Wow is that badly spelled
+05-54:GAME: Qwertyasd40 entered as Jackson Barnes
+05-54:VOTE: Voting closed, result was traitor
+05-54:OOC: Cerberius Grey/Cecilff2 : I hope it doesn&#39;t force captainship on me
+05-54:SAY: Jackson Barnes/Qwertyasd40 : yups
+05-54:OOC: Bob Robertson/Forteen : What even happened that last round?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : we should play extended lol
+05-54:OOC: Jackson Barnes/Qwertyasd40 : traitors gonnna get away easy
+05-54:OOC: Cerberius Grey/Cecilff2 : Long long story I&#39;m guessing
+05-54:OOC: Cerberius Grey/Cecilff2 : Well actually its not a guess
+05-54:OOC: Bob Robertson/Forteen : You knew who I was, right?
+05-54:OOC: Cerberius Grey/Cecilff2 : Yeah
+05-54:OOC: Bob Robertson/Forteen : I actually did find both the space suit and the shuttle on accident
+05-54:OOC: Cerberius Grey/Cecilff2 : Bob Robertson Syndicate for hire?
+05-54:OOC: Cerberius Grey/Cecilff2 : Or maybe just a freelancer
+05-54:OOC: Bob Robertson/Forteen : I was about to whip off my voice changer and say it was nice to see you again, but it restarted on me
+05-54:ADMIN: Cecilff2 used start_now
+05-54:GAME: starting game of traitor
+05-54:OOC: Cerberius Grey/Cecilff2 : Agh
+05-54:GAME: TheGrifter entered as Johnny "Meth" Cash
+05-54:OOC: Bob Robertson/Forteen : It would&#39;ve been pretty funny it it was a real game and I stole some space suits
+05-54:OOC: Cerberius Grey/Cecilff2 : Forced captainship makes me sad
+05-54:SAY: Lia'Vael Narayya/Quarian : This is the Head of Research. Reporting in.
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello
+05-54:SAY: Bob Robertson/Forteen : ;This is geneticist, here
+05-54:SAY: Bob Robertson/Forteen : hey
+05-54:SAY: Lia'Vael Narayya/Quarian : So..Um..Whats Your Name?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Forensics Techinichan acting as Security and Investigative, reporting in
+05-54:ADMIN: Cecilff2 used secret check_antagonist
+05-54:SAY: Bob Robertson/Forteen : Come on, you&#39;ve been my supervisor for months, of course you know my name
+05-54:SAY: Cerberius Grey/Cecilff2 : No Engineering or atmospherics crew it seems
+05-54:SAY: Lia'Vael Narayya/Quarian : Well...Human Names.. are Hard to Remember...
+05-54:SAY: Cerberius Grey/Cecilff2 : ;No Engineering or Atmospherics crew it seems
+05-54:SAY: Lia'Vael Narayya/Quarian : Rob...Right?
+05-54:SAY: Bob Robertson/Forteen : It&#39;s not like you&#39;re completely clueless after so long
+05-54:SAY: Lia'Vael Narayya/Quarian : Rob Bobertson!
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Perhaps the cptain should start it.
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Our crew is quite short staffed.  Research comprising half of it.
+05-54:SAY: Bob Robertson/Forteen : Yeah, close enough
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Indeed
+05-54:SAY: Lia'Vael Narayya/Quarian : Ok..I Still Remember i Guess...
+05-54:SAY: Lia'Vael Narayya/Quarian : Well..Tell me if you Need Anything.
+05-54:OOC: Cerberius Grey/Cecilff2 : OCRemix had an awesome April Fools remix.
+05-54:OOC: Cerberius Grey/Cecilff2 : http://bit.ly/d7pNEU
+05-54:ADMIN: Cecilff2 used secret check_antagonist_goal
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello
+05-54:SAY: Johnny "Meth" Cash/TheGrifter : HI!
+05-54:SAY: Johnny "Meth" Cash/TheGrifter : Jobby?
+05-54:SAY: Lia'Vael Narayya/Quarian : Whats Um...Your Name?
+05-54:SAY: Lia'Vael Narayya/Quarian : Jobby?
+05-54:SAY: Johnny "Meth" Cash/TheGrifter : My name John. John Meth Cash
+05-54:SAY: Lia'Vael Narayya/Quarian : Ok Mr John.
+05-54:SAY: Lia'Vael Narayya/Quarian : Whats a Jobby??
+05-54:SAY: Johnny "Meth" Cash/TheGrifter : Me need meth &amp; cash
+05-54:SAY: Lia'Vael Narayya/Quarian : Whats Meth?
+05-54:SAY: Lia'Vael Narayya/Quarian : And...Whats Cash?
+05-54:ACCESS: Login: Orb370 from 4.154.130.128
+05-54:SAY: Lia'Vael Narayya/Quarian : And..Whats a Jobby?
+05-54:SAY: Lia'Vael Narayya/Quarian : Um...
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;ll be Going Now...
+05-54:SAY: Lia'Vael Narayya/Quarian : So.
+05-54:SAY: Bob Robertson/Forteen : Yeah?
+05-54:OOC: Cog Swordwall/Orb370 : So....was the server updated?
+05-54:SAY: Lia'Vael Narayya/Quarian : What are you Doing Right now?
+05-54:OOC: Cerberius Grey/Cecilff2 : How so?
+05-54:SAY: Bob Robertson/Forteen : Cataloging gene function
+05-54:OOC: Cog Swordwall/Orb370 : I had to load the server.
+05-54:SAY: Lia'Vael Narayya/Quarian : Do You...Mind if i Come in?
+05-54:OOC: Cog Swordwall/Orb370 : Not like loading a brand new one, that take a half hour, this one took like 10 minutes.
+05-54:OOC: Cog Swordwall/Orb370 : Unless my computer wiped its temporary files or something, eh.
+05-54:GAME: Orb370 entered as Cog Swordwall
+05-54:SAY: Lia'Vael Narayya/Quarian : Uh...Rob?
+05-54:SAY: Bob Robertson/Forteen : Sure
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Hello sirs
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello Officer
+05-54:SAY: Cog Swordwall/Orb370 : ; Do we have a HoP?
+05-54:SAY: Lia'Vael Narayya/Quarian : Can i Help You?
+05-54:SAY: Cerberius Grey/Cecilff2 : ;No.  Want the job?
+05-54:SAY: Cog Swordwall/Orb370 : ; Yes.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Just checking to see if you made any breakthroughs
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh Ok..
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Alright, I&#39;ll stop by arrivals.
+05-54:SAY: Lia'Vael Narayya/Quarian : Between you And Me..
+05-54:SAY: Lia'Vael Narayya/Quarian : He&#39;s Kinda Scary...
+05-54:SAY: Bob Robertson/Forteen : He seemed fine to me
+05-54:OOC: Cog Swordwall/Orb370 : Monkies can open doors? o_O
+05-54:SAY: Lia'Vael Narayya/Quarian : Hmm...This Armor...Is Really Uncomfortable...
+05-54:SAY: Lia'Vael Narayya/Quarian : Do All Humans Wear this?
+05-54:OOC: Cerberius Grey/Cecilff2 : Some doors I think
+05-54:SAY: Bob Robertson/Forteen : You&#39;re a human, aren&#39;t you?
+05-54:SAY: Cog Swordwall/Orb370 : Er......I have never taken a figer print.
+05-54:SAY: Lia'Vael Narayya/Quarian : Well...Um...Thats...Uh...
+05-54:SAY: Cerberius Grey/Cecilff2 : Just pick up the card.  I&#39;m sure we can get something readable
+05-54:SAY: Lia'Vael Narayya/Quarian : You have a Fun Time!
+05-54:SAY: Cog Swordwall/Orb370 : I guess that works.
+05-54:SAY: Bob Robertson/Forteen : Bye
+05-54:SAY: Lia'Vael Narayya/Quarian : So Uncomfortable...
+05-54:SAY: Cerberius Grey/Cecilff2 : Alright, what&#39;s your name?
+05-54:SAY: Lia'Vael Narayya/Quarian : Ooh a Labcoat
+05-54:SAY: Cog Swordwall/Orb370 : ....Cog Swordwall.
+05-54:SAY: Cerberius Grey/Cecilff2 : Age?
+05-54:SAY: Cog Swordwall/Orb370 : 36
+05-54:SAY: Lia'Vael Narayya/Quarian : These Labcoats are Much Better!
+05-54:SAY: Cog Swordwall/Orb370 : Ok then.
+05-54:SAY: Cerberius Grey/Cecilff2 : We&#39;re a fairly short crew
+05-54:SAY: Cog Swordwall/Orb370 : It would seem so.
+05-54:SAY: Cerberius Grey/Cecilff2 : But you never know when we&#39;ll get an influx
+05-54:SAY: Lia'Vael Narayya/Quarian : Hmm...
+05-54:SAY: Cerberius Grey/Cecilff2 : Oh.  Jackson
+05-54:SAY: Jackson Barnes/Qwertyasd40 : anything wrong sir?
+05-54:SAY: Lia'Vael Narayya/Quarian : Helmets Aren&#39;t Very Nice Either...
+05-54:SAY: Cerberius Grey/Cecilff2 : Could you figure out who broke all these windows?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Will do
+05-54:SAY: Cerberius Grey/Cecilff2 : Thanks
+05-54:SAY: Cog Swordwall/Orb370 : We would need the weapon..
+05-54:SAY: Lia'Vael Narayya/Quarian : Why was i Given One of these Again?
+05-54:SAY: Cerberius Grey/Cecilff2 : Good luck, Cog
+05-54:SAY: Cog Swordwall/Orb370 : Other then that, I dont see how.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Likely it wouldd be the other assitnt
+05-54:SAY: Bob Robertson/Forteen : To protect your head from further harm
+05-54:SAY: Lia'Vael Narayya/Quarian : Harm? From What?
+05-54:SAY: Bob Robertson/Forteen : I think you can figure that out
+05-54:SAY: Lia'Vael Narayya/Quarian : I Mean the Only Harm i Would Imagine is a Tear on Suit..
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Might want to question the guy hanging out by the chapel with a fire extinguisher in his hand
+05-54:SAY: Jackson Barnes/Qwertyasd40 : hello
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Hes brain dead
+05-54:SAY: Lia'Vael Narayya/Quarian : So....What Exactly are you Doing?
+05-54:SAY: Cog Swordwall/Orb370 : ; Is the engine lit?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : lNo
+05-54:SAY: Bob Robertson/Forteen : Cataloging gene function
+05-54:SAY: Cerberius Grey/Cecilff2 : ;It will be shortly
+05-54:SAY: Cerberius Grey/Cecilff2 : ;I was in the process of doing so when you arrived
+05-54:SAY: Lia'Vael Narayya/Quarian : ....What?
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Jackson bring him to genetics and see if they can do anything for him
+05-54:SAY: Bob Robertson/Forteen : *sigh
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Brain Dead is brain dead sir
+05-54:SAY: Lia'Vael Narayya/Quarian : Quite some Complex Machinery you got here Rob.
+05-54:SAY: Bob Robertson/Forteen : For example, gene block #1 controls motor coordination
+05-54:SAY: Cog Swordwall/Orb370 : ; I just saw an assistant run by with a fire exstinguisher..
+05-54:SAY: Lia'Vael Narayya/Quarian : So...They Can&#39;t Drive a Car?
+05-54:SAY: Bob Robertson/Forteen : Gene block #2 controls hand-eye coordination
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Oh great
+05-54:SAY: Bob Robertson/Forteen : Gene block #3 determines the strength of the optical nervous system
+05-54:SAY: Bob Robertson/Forteen : And so on
+05-54:SAY: Lia'Vael Narayya/Quarian : Eyes Can get Nervous?!
+05-54:SAY: Bob Robertson/Forteen : Just ask the captain
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh...
+05-54:SAY: Lia'Vael Narayya/Quarian : I Have a Question...
+05-54:OOC: Bob Robertson/Forteen : I&#39;m sure he&#39;d be happy to answer all your questions
+05-54:OOC: Bob Robertson/Forteen : Whoops
+05-54:OOC: Cog Swordwall/Orb370 : =/
+05-54:OOC: Cerberius Grey/Cecilff2 : I bet
+05-54:SAY: Bob Robertson/Forteen : I&#39;m sure he&#39;d be happy yo answer all your questions
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Did you see a assitant?
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello...Again...
+05-54:OOC: Cog Swordwall/Orb370 : Can we make shards of glass stackable?
+05-54:SAY: Lia'Vael Narayya/Quarian : And No..
+05-54:SAY: Bob Robertson/Forteen : Nope
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Thanks
+05-54:OOC: Cog Swordwall/Orb370 : Like metal and glass?
+05-54:SAY: Lia'Vael Narayya/Quarian : Between you and Me...
+05-54:SAY: Lia'Vael Narayya/Quarian : I Don&#39;t Like Security Officers....
+05-54:SAY: Bob Robertson/Forteen : Let me guess
+05-54:OOC: Cerberius Grey/Cecilff2 : They aren&#39;t exactly uniform size
+05-54:OOC: Cog Swordwall/Orb370 : True
+05-54:SAY: Bob Robertson/Forteen : Bad accident involving a stun baton and your head?
+05-54:SAY: Lia'Vael Narayya/Quarian : How did You Know!?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Sir
+05-54:OOC: Cog Swordwall/Orb370 : ANd I just realised you cant put them in the autolathe
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Yes?
+05-54:SAY: Bob Robertson/Forteen : Just a good guess
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Do you have the fingerprint scan for the weapon?
+05-54:SAY: Lia'Vael Narayya/Quarian : It was A Few Years Ago...
+05-54:SAY: Lia'Vael Narayya/Quarian : I Went On a Um...Pilgramage...
+05-54:SAY: Cog Swordwall/Orb370 : ; Why would it matter?
+05-54:SAY: Bob Robertson/Forteen : *yawn
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Which weapon?
+05-54:SAY: Bob Robertson/Forteen : Oh, whoops sorry
+05-54:SAY: Bob Robertson/Forteen : Please continue
+05-54:SAY: Lia'Vael Narayya/Quarian : Um...Ok...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Because i need a fingerprint to match up the one that broke the glass
+05-54:SAY: Lia'Vael Narayya/Quarian : And Someone Accused me of Stealing...
+05-54:SAY: Lia'Vael Narayya/Quarian : Cause i Bumped into them...
+05-54:SAY: Cog Swordwall/Orb370 : ; How do we have a figerprint for what broke the glawss?
+05-54:SAY: Lia'Vael Narayya/Quarian : And Well...Because i Was Different...
+05-54:SAY: Lia'Vael Narayya/Quarian : They Believed him..
+05-54:SAY: Lia'Vael Narayya/Quarian : And they Wouldn&#39;t Listen! i Told them i Didn&#39;t Steal a Thing!
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Oherwise this crime is unsolved
+05-54:SAY: Bob Robertson/Forteen : So, what did you steal?
+05-54:SAY: Lia'Vael Narayya/Quarian : But they Thought i was Lying...So they Hit me a Few times...
+05-54:SAY: Bob Robertson/Forteen : Oh, sorry
+05-54:SAY: Lia'Vael Narayya/Quarian : But.. i Didn&#39;t Steal!
+05-54:SAY: Bob Robertson/Forteen : They thought you stole
+05-54:SAY: Cog Swordwall/Orb370 : ; I still dont see how your going to solve the crime.
+05-54:SAY: Cog Swordwall/Orb370 : ; Im going to make some windows, anyway.
+05-54:SAY: Lia'Vael Narayya/Quarian : So...Now you See why i Dislike them...
+05-54:SAY: Lia'Vael Narayya/Quarian : They&#39;re Racist and Brutal....
+05-54:SAY: Cog Swordwall/Orb370 : ; Crap, I forgot I needed a screwdriver.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;I match up a fingerprint of the crime to another fingerprint
+05-54:SAY: Cog Swordwall/Orb370 : ; Ok, what is the fingerprint of the crime?
+05-54:SAY: Cog Swordwall/Orb370 : ; Was it on the weapon?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Exactly
+05-54:SAY: Lia'Vael Narayya/Quarian : And Sorry...I&#39;m Rambling on...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;I need a fingerprint of a crime
+05-54:SAY: Cog Swordwall/Orb370 : ; How do you know thats the weapon used?
+05-54:ACCESS: Logout: TheGrifter
+05-54:SAY: Lia'Vael Narayya/Quarian : So...What do you Think About Officers?
+05-54:SAY: Cog Swordwall/Orb370 : ; Sigh, I still dont see your logic, but I guess, do what you wish.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;i dont knw
+05-54:SAY: Bob Robertson/Forteen : They do their job
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Exactly why this case is pointless
+05-54:SAY: Lia'Vael Narayya/Quarian : ....So Your Saying...
+05-54:SAY: Lia'Vael Narayya/Quarian : That What They did was Justified?!
+05-54:SAY: Bob Robertson/Forteen : Where did you get that idea&gt;
+05-54:SAY: Bob Robertson/Forteen : I never said that
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Im jjust  going to forget about it
+05-54:SAY: Lia'Vael Narayya/Quarian : Well...You Said...They do their Job...
+05-54:SAY: Bob Robertson/Forteen : Meaning that they beat up whoever is being pointed at
+05-54:SAY: Bob Robertson/Forteen : Really, it practiacally in their job description
+05-54:SAY: Lia'Vael Narayya/Quarian : I Assure you...If it was someone Else...
+05-54:SAY: Cerberius Grey/Cecilff2 : ;There.
+05-54:SAY: Lia'Vael Narayya/Quarian : They Wouldn&#39;t Care...
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Ignited the engine.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Just in time Sir!
+05-54:SAY: Lia'Vael Narayya/Quarian : These...Brown Things...What are they?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Any breakthroughd?
+05-54:SAY: Bob Robertson/Forteen : Sort of
+05-54:SAY: Lia'Vael Narayya/Quarian : Jumps From Fright
+05-54:SAY: Cog Swordwall/Orb370 : ; Fixed the lobby, I think I got it right.
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh great...&#39;
+05-54:MATTACK: Cog Swordwall(Orb370) attcked by Cog Swordwall(Orb370) with the screwdriver
+05-54:SAY: Jackson Barnes/Qwertyasd40 : What is it?
+05-54:SAY: Lia'Vael Narayya/Quarian : What Do you want Now?!
+05-54:SAY: Bob Robertson/Forteen : Well, I&#39;ve pretty much isolated three unknown gene sequences
+05-54:SAY: Lia'Vael Narayya/Quarian : Well!?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I just want to know if theres any scientific breakthroughs
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Sure...
+05-54:SAY: Bob Robertson/Forteen : Don&#39;t worry, he&#39;s a detective, not a security officer
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Perhaps youve mastered fire resistancy or something
+05-54:SAY: Lia'Vael Narayya/Quarian : A Detective....Is Just an Accurate Security Officer...
+05-54:SAY: Bob Robertson/Forteen : How did you know that was one of the controlled areas?
+05-54:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+05-54:GAME: Guest-2337011188 entered as Jade
+05-54:SAY: Bob Robertson/Forteen : And I need to have a word with you outside
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Me?
+05-54:SAY: Bob Robertson/Forteen : Yeah
+05-54:SAY: Bob Robertson/Forteen : Real quick
+05-54:SAY: Bob Robertson/Forteen : Please wxcuse my boss
+05-54:SAY: Lia'Vael Narayya/Quarian : Great...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Its alright
+05-54:SAY: Bob Robertson/Forteen : He had a horrible accident involving his head and a stun baton
+05-54:SAY: Cog Swordwall/Orb370 : ; Should we do something with Jhonny?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I get overexcited on your research
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Well we&#39;re producing over 7 million watts
+05-54:SAY: Lia'Vael Narayya/Quarian : I Wonder What They&#39;re Talking About...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Ohhhhh
+05-54:SAY: Cerberius Grey/Cecilff2 : ;He still braindead?
+05-54:SAY: Cog Swordwall/Orb370 : ; Sheesh
+05-54:SAY: Bob Robertson/Forteen : Really, he was rambling about it all day
+05-54:SAY: Lia'Vael Narayya/Quarian : Maybe its About me... Being a Quarian and All..
+05-54:SAY: Jade/Guest-2337011188 : Jooooooooooobbbbbbbbbssssssssss.......
+05-54:SAY: Bob Robertson/Forteen : So now he has an extreme phobia of security and red uniforms
+05-54:SAY: Lia'Vael Narayya/Quarian : So What if i&#39;m Different...
+05-54:SAY: Cog Swordwall/Orb370 : ; I will get to you in a second.
+05-54:SAY: Cog Swordwall/Orb370 : ; Just doing some stuffs.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Oh
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Yeah don&#39;t ask.  It&#39;s part of Nanotrasen&#39;s new trial captainships.
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m Still a Person... I Think...
+05-54:SAY: Bob Robertson/Forteen : Anyways, can you find me a test subject?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : For what?
+05-54:SAY: Cerberius Grey/Cecilff2 : ;I&#39;m an engineer and they decided to have me try my hand at captaining this shift.
+05-54:SAY: Bob Robertson/Forteen : The undiscovered genes
+05-54:SAY: Jackson Barnes/Qwertyasd40 : You found one?
+05-54:SAY: Bob Robertson/Forteen : Three in fact
+05-54:SAY: Jackson Barnes/Qwertyasd40 : if youve found telekenisis
+05-54:SAY: Bob Robertson/Forteen : Four, but the last one is a bit strange
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Test me out on it...
+05-54:SAY: Bob Robertson/Forteen : Of course, come in
+05-54:MATTACK: Jade(Guest-2337011188)has grabbed Mister Muggles() aggressively (now hands) 
+05-54:SAY: Cog Swordwall/Orb370 : ; Johnny is in crew quarters.
+05-54:SAY: Lia'Vael Narayya/Quarian : ...Why is He in here....
+05-54:SAY: Cerberius Grey/Cecilff2 : How&#39;s everything been going in here?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Hello Cap-tain
+05-54:SAY: Bob Robertson/Forteen : Very well
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh! Hello Sir!
+05-54:SAY: Lia'Vael Narayya/Quarian : Bows
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Im about to be tested for telekensis
+05-54:SAY: Jade/Guest-2337011188 : Joooooooooooobbbbbbbssssssss......
+05-54:SAY: Bob Robertson/Forteen : Would you like to take part in my expermient?
+05-54:SAY: Cerberius Grey/Cecilff2 : Uh.  You don&#39;t need to be so formal.
+05-54:SAY: Lia'Vael Narayya/Quarian : But....Your my Captain
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Im ready Bob
+05-54:SAY: Lia'Vael Narayya/Quarian : ....I Prefer you Don&#39;t Speak Officer...
+05-54:SAY: Lia'Vael Narayya/Quarian : Not in here Atleast...
+05-54:SAY: Bob Robertson/Forteen : I need to know if the captain would like to join
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alright sir, that is fine with me..
+05-54:SAY: Cerberius Grey/Cecilff2 : Not at the moment Bob.  I&#39;ve got other work to do as well.
+05-54:SAY: Bob Robertson/Forteen : It would make things much more efficient
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh Ok...
+05-54:SAY: Bob Robertson/Forteen : Oh, of course sir
+05-54:SAY: Cog Swordwall/Orb370 : You mind being HoR?
+05-54:SAY: Lia'Vael Narayya/Quarian : Uh Oh...
+05-54:SAY: Bob Robertson/Forteen : Now, this will only take a second
+05-54:SAY: Jade/Guest-2337011188 : That&#39;s cool.
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Jackson Barnes(Qwertyasd40) with a DNA injector
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+05-54:SAY: Cerberius Grey/Cecilff2 : I wanted to make sure you were all acclimating to the station alright
+05-54:SAY: Jackson Barnes/Qwertyasd40 : uhhhhhhh
+05-54:SAY: Lia'Vael Narayya/Quarian : I Seem Fine....&#39;
+05-54:SAY: Jackson Barnes/Qwertyasd40 : nothing
+05-54:SAY: Bob Robertson/Forteen : Now, this may result in extreme radiation poisoning
+05-54:SAY: Lia'Vael Narayya/Quarian : Odd...
+05-54:SAY: Cog Swordwall/Orb370 : Woops
+05-54:SAY: Cog Swordwall/Orb370 : We already have a HoR.
+05-54:SAY: Cog Swordwall/Orb370 : Er..
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Yes.  Yes we do
+05-54:SAY: Cerberius Grey/Cecilff2 : You alright?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alright
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Just preparing
+05-54:SAY: Jade/Guest-2337011188 : Alright.
+05-54:SAY: Bob Robertson/Forteen : But would you like to take the chance or wait a while?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Just in case
+05-54:SAY: Jade/Guest-2337011188 : I&#39;ll be the firefighter.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Ill take the chance
+05-54:SAY: Bob Robertson/Forteen : Ah, of course
+05-54:SAY: Cog Swordwall/Orb370 : What about HoM&gt;?
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Jackson Barnes(Qwertyasd40) with a DNA injector
+05-54:SAY: Lia'Vael Narayya/Quarian : We Still Need a Head of Maintenence or Head of Security.
+05-54:MATTACK: Jackson Barnes(Qwertyasd40) clicked on Jackson Barnes(Qwertyasd40) with a syringe
+05-54:MATTACK: Jackson Barnes(Qwertyasd40) injected Jackson Barnes(Qwertyasd40) with a syringe filled with 
+05-54:SAY: Cerberius Grey/Cecilff2 : *eyebrow
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Whoahhhhhhhhh
+05-54:SAY: Bob Robertson/Forteen : Incredible
+05-54:SAY: Cog Swordwall/Orb370 : Well?
+05-54:SAY: Cerberius Grey/Cecilff2 : He&#39;s...glowing...
+05-54:SAY: Jade/Guest-2337011188 : I&#39;m terrible at maintaining stuff.
+05-54:SAY: Bob Robertson/Forteen : Turned out so much better than I thought
+05-54:SAY: Lia'Vael Narayya/Quarian : What the?!
+05-54:SAY: Lia'Vael Narayya/Quarian : Amazing!
+05-54:SAY: Jade/Guest-2337011188 : Is there a competent staff?
+05-54:SAY: Cog Swordwall/Orb370 : Ok, fire fighter it is.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Incredible.... Im seeing through walls!
+05-54:SAY: Lia'Vael Narayya/Quarian : Human Genetics are Amazing!
+05-54:SAY: Cog Swordwall/Orb370 : ; The security records is out dated.
+05-54:SAY: Cerberius Grey/Cecilff2 : ;The engine is pretty much self sustaining.
+05-54:SAY: Cog Swordwall/Orb370 : ; Im putting jade under assistant.
+05-54:SAY: Bob Robertson/Forteen : Now, if you turn into a gibbering, drooling mess, you know who to talk to
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;we eed a doctor
+05-54:SAY: Jade/Guest-2337011188 : I&#39;ll got for hom actually.
+05-54:SAY: Jade/Guest-2337011188 : That sounds cool.
+05-54:SAY: Lia'Vael Narayya/Quarian : Will The...Officer...Leave now?...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Wonder if i had telekinisis
+05-54:SAY: Cerberius Grey/Cecilff2 : Bob, Lia, please give me an update in a few minutes.  I better go check on our atmospherics.
+05-54:SAY: Cerberius Grey/Cecilff2 : *nod
+05-54:SAY: Bob Robertson/Forteen : Wait, I need to test something
+05-54:SAY: Jade/Guest-2337011188 : Easy job is easy.
+05-54:SAY: Lia'Vael Narayya/Quarian : Then Please...Hurry it up...You Know why...
+05-54:SAY: Bob Robertson/Forteen : Please remove all abiotic articles
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Sir, im a detective please
+05-54:SAY: Lia'Vael Narayya/Quarian : All a Detective is... is an Accurate Officer...
+05-54:SAY: Lia'Vael Narayya/Quarian : Nothing More...
+05-54:SAY: Lia'Vael Narayya/Quarian : Possibly more Brutal and Racist...
+05-54:SAY: Cog Swordwall/Orb370 : ; Hmm, what to do..
+05-54:SAY: Jackson Barnes/Qwertyasd40 : No, 2 different things
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I investigate
+05-54:SAY: Bob Robertson/Forteen : ;See what I was talking about?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : And i do not use force 
+05-54:SAY: Lia'Vael Narayya/Quarian : Thats What they All say...
+05-54:SAY: Lia'Vael Narayya/Quarian : Thats What they Said...
+05-54:SAY: Bob Robertson/Forteen : Sir, please remove your shoes
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I could be different
+05-54:SAY: Cerberius Grey/Cecilff2 : ;If you have nothing to do, mind going around maintenance tunnels and switching the vents to release nitrogen in addition to oxygen?
+05-54:SAY: Cerberius Grey/Cecilff2 : It&#39;ll help keep the atmos balanced
+05-54:SAY: Lia'Vael Narayya/Quarian : I Doubt it...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Just give me a chance
+05-54:SAY: Cerberius Grey/Cecilff2 : ;It&#39;ll help keep the atmos balanced
+05-54:SAY: Bob Robertson/Forteen : I promise, no harm will come to you
+05-54:SAY: Cog Swordwall/Orb370 : ; Nah, im going to take a whack at bomb making.
+05-54:SAY: Lia'Vael Narayya/Quarian : ......
+05-54:SAY: Bob Robertson/Forteen : Please enter the machine
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I havent done any harm have I?
+05-54:SAY: Cerberius Grey/Cecilff2 : ;I&#39;d really prefer if you didn;t.
+05-54:SAY: Lia'Vael Narayya/Quarian : Not Yet...
+05-54:SAY: Cog Swordwall/Orb370 : &#39;; Will be tested and exposed of, of course.
+05-54:SAY: Cog Swordwall/Orb370 : ; Will be tested and exposed of, of course.
+05-54:SAY: Bob Robertson/Forteen : Astounding
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;ll be Back...
+05-54:SAY: Bob Robertson/Forteen : You have a radiation level of -1
+05-54:SAY: Bob Robertson/Forteen : Somehow
+05-54:SAY: Jackson Barnes/Qwertyasd40 : What!
+05-54:SAY: Lia'Vael Narayya/Quarian : Oops i&#39;m Sorry
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Whoah
+05-54:SAY: Cog Swordwall/Orb370 : Its alright.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Im radiation resistant&#39;
+05-54:SAY: Bob Robertson/Forteen : Congratulations
+05-54:SAY: Bob Robertson/Forteen : You have shown that the process is human friendly
+05-54:SAY: Lia'Vael Narayya/Quarian : Sorry Again.
+05-54:SAY: Cog Swordwall/Orb370 : Yes?
+05-54:SAY: Bob Robertson/Forteen : I applaud you
+05-54:SAY: Jackson Barnes/Qwertyasd40 : This is Awesome!
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Thanks
+05-54:SAY: Lia'Vael Narayya/Quarian : Your the Head of Personnel Right?
+05-54:SAY: Bob Robertson/Forteen : Also thank god he&#39;s gone
+05-54:SAY: Cog Swordwall/Orb370 : Yes...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Anythig else?
+05-54:SAY: Lia'Vael Narayya/Quarian : And theres no Need to be Cautious.
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+05-54:SAY: Bob Robertson/Forteen : No, you&#39;re fine
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m the Head of Research.
+05-54:SAY: Cog Swordwall/Orb370 : I know.
+05-54:SAY: Cog Swordwall/Orb370 : I just put the taser on my belt, since I forgot to do so earlier.
+05-54:SAY: Bob Robertson/Forteen : Remember
+05-54:SAY: Lia'Vael Narayya/Quarian : So...Bomb Making...?
+05-54:SAY: Bob Robertson/Forteen : You may be fire resistant
+05-54:SAY: Cog Swordwall/Orb370 : Yes.
+05-54:SAY: Bob Robertson/Forteen : But gas can still harm you
+05-54:SAY: Lia'Vael Narayya/Quarian : Ok Then...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alright
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a syringe
+05-54:MATTACK: Bob Robertson(Forteen) injected Bob Robertson(Forteen) with a syringe filled with 
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Your Still here..?
+05-54:SAY: Bob Robertson/Forteen : He&#39;s just leaving
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh Good!
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Good day to you, sirs....
+05-54:SAY: Bob Robertson/Forteen : Good luck
+05-54:SAY: Lia'Vael Narayya/Quarian : ....I Don&#39;t think i&#39;ve ever Been more Scared in my Life....
+05-54:SAY: Bob Robertson/Forteen : Now, that wasn&#39;t so bad
+05-54:SAY: Bob Robertson/Forteen : He didn&#39;t even carry a baton
+05-54:SAY: Bob Robertson/Forteen : He was perfectly polite
+05-54:SAY: Lia'Vael Narayya/Quarian : You Just Made...With your Marvelous Human Genetics Altering!...an Advanced Officer...
+05-54:SAY: Bob Robertson/Forteen : I can&#39;t see how you would be afraid of him
+05-54:SAY: Bob Robertson/Forteen : ;Yeah, yeah
+05-54:SAY: Bob Robertson/Forteen : ;Whoops
+05-54:SAY: Bob Robertson/Forteen : Yeah, so he can punch you through a wall
+05-54:SAY: Bob Robertson/Forteen : Will he though?
+05-54:SAY: Lia'Vael Narayya/Quarian : What?!
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh Dear!....Gotta Stay Away from the Walls...
+05-54:SAY: Lia'Vael Narayya/Quarian : Listen...
+05-54:SAY: Lia'Vael Narayya/Quarian : If i Give you a Gun...
+05-54:ACCESS: Login: Wrongnumber from 124.198.169.221
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+05-54:SAY: Lia'Vael Narayya/Quarian : Can i Trust you with it?
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a syringe
+05-54:MATTACK: Bob Robertson(Forteen) injected Bob Robertson(Forteen) with a syringe filled with 
+05-54:SAY: Bob Robertson/Forteen : It all depends
+05-54:SAY: Lia'Vael Narayya/Quarian : Incase...Something Happens to-
+05-54:GAME: Wrongnumber entered as Cog Boozepick
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a syringe
+05-54:MATTACK: Bob Robertson(Forteen) injected Bob Robertson(Forteen) with a syringe filled with 
+05-54:SAY: Lia'Vael Narayya/Quarian : What the!
+05-54:SAY: Bob Robertson/Forteen : No promises
+05-54:GAME: found comdisc
+05-54:SAY: Lia'Vael Narayya/Quarian : Your...Your Starting to Scare me too Rob...
+05-54:SAY: Lia'Vael Narayya/Quarian : Now...Your all Glowey...
+05-54:SAY: Cog Boozepick/Wrongnumber : ;wheres evreyone at?
+05-54:SAY: Bob Robertson/Forteen : Well, I&#39;ve done all I can do
+05-54:SAY: Bob Robertson/Forteen : I have to go
+05-54:OOC: Cog Swordwall/Orb370 : Ok, I cant use my screwdriver on my timer. :P
+05-54:SAY: Lia'Vael Narayya/Quarian : What?
+05-54:OOC: Cog Swordwall/Orb370 : Goon guide, not cool.
+05-54:SAY: Bob Robertson/Forteen : Hi
+05-54:SAY: Cerberius Grey/Cecilff2 : ;Swordwall.  Looks like you&#39;ve got a new arrival
+05-54:SAY: Cog Boozepick/Wrongnumber : hi
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;is it me or the lights are dimming...
+05-54:SAY: Cog Swordwall/Orb370 : ; Alright, fine, I will get on it..
+05-54:SAY: Lia'Vael Narayya/Quarian : Now what...?
+05-54:SAY: Cog Swordwall/Orb370 : ; Lightbulbs are probably burning out.
+05-54:SAY: Cerberius Grey/Cecilff2 : ;It&#39;s probably lights going out
+05-54:SAY: Lia'Vael Narayya/Quarian : Huh?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;For??
+05-54:SAY: Cerberius Grey/Cecilff2 : ;By the way.  I&#39;ve established communications
+05-54:SAY: Lia'Vael Narayya/Quarian : But...Nobody&#39;s Here...
+05-54:SAY: Cerberius Grey/Cecilff2 : ;We can order supplies if necessary
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Yay
+05-54:SAY: Bob Robertson/Forteen : ;Sir, just so you know, human trials have been proven highly successful
+05-54:SAY: Cog Swordwall/Orb370 : Can not make obmb
+05-54:SAY: Lia'Vael Narayya/Quarian : H..Hello...
+05-54:SAY: Jade/Guest-2337011188 : AAAAAA!
+05-54:SAY: Cog Swordwall/Orb370 : Bleh.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;we got someone on board who can give me a job change?
+05-54:SAY: Cog Swordwall/Orb370 : Ok, I want to make an ignitor/timer assembly.
+05-54:SAY: Jade/Guest-2337011188 : RADIOACTIVE MAN!
+05-54:SAY: Lia'Vael Narayya/Quarian : Gotta Calm Myself...
+05-54:SAY: Cog Swordwall/Orb370 : Hows?
+05-54:SAY: Lia'Vael Narayya/Quarian : Here...&#39;
+05-54:SAY: Cog Swordwall/Orb370 : Sigh.
+05-54:SAY: Bob Robertson/Forteen : ;I suggest, for your own safety, that you take my treatment
+05-54:SAY: Jade/Guest-2337011188 : AAAAAAAAAAAA!
+05-54:SAY: Cog Swordwall/Orb370 : ; Sorry Cog, im a ltitle busy.
+05-54:SAY: Cerberius Grey/Cecilff2 : ;And what is the effect that this is having on the crew?
+05-54:SAY: Lia'Vael Narayya/Quarian : I Know a Little bit about Tech...
+05-54:SAY: Cog Swordwall/Orb370 : ; I will get to it in a second.
+05-54:SAY: Bob Robertson/Forteen : ;I can&#39;t really describe it
+05-54:SAY: Bob Robertson/Forteen : ;As Mr. Barnes
+05-54:SAY: Lia'Vael Narayya/Quarian : Hmm...
+05-54:SAY: Cog Swordwall/Orb370 : See? Grrr..
+05-54:SAY: Lia'Vael Narayya/Quarian : Not Sure...
+05-54:SAY: Lia'Vael Narayya/Quarian : But...
+05-54:SAY: Lia'Vael Narayya/Quarian : I Can get a Remote Uplink set up
+05-54:SAY: Cog Swordwall/Orb370 : True, but I was hoping for a timer bomb
+05-54:SAY: Cerberius Grey/Cecilff2 : ;So you have no idea what the glowing does?
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m Sorry...
+05-54:SAY: Cog Swordwall/Orb370 : I can do a remote upling one.
+05-54:SAY: Cog Swordwall/Orb370 : I should get the dude up there a job.
+05-54:OOC: Cog Swordwall/Orb370 : So we cant do time bombs anymore?
+05-54:SAY: Bob Robertson/Forteen : ;It controls cellular heat resistance
+05-54:OOC: Cog Swordwall/Orb370 : =/
+05-54:SAY: Jade/Guest-2337011188 : AAAAAAAAAAAAAAA!
+05-54:OOC: Bob Robertson/Forteen : Timers don&#39;t need to be screwdrivered
+05-54:OOC: Cog Swordwall/Orb370 : Still doesnt work..
+05-54:ACCESS: Login: Mr. Marine from 24.250.59.186
+05-54:OOC: Bob Robertson/Forteen : Never have been, I don&#39;t think
+05-54:OOC: Cog Swordwall/Orb370 : Hmm
+05-54:OOC: Bob Robertson/Forteen : Have you screwdrivered the timer?
+05-54:OOC: Cog Swordwall/Orb370 : I guess I could try a little harder.
+05-54:OOC: Cog Swordwall/Orb370 : Yes.
+05-54:OOC: Cog Swordwall/Orb370 : That might be the problem.
+05-54:OOC: Cerberius Grey/Cecilff2 : Really jam those pieces together
+05-54:SAY: Cog Swordwall/Orb370 : ; Who needed a job?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;i did
+05-54:OOC: Cog Swordwall/Orb370 : Does the ignitor needed to be screw drivered?
+05-54:SAY: Cerberius Grey/Cecilff2 : So is everyone glowing now?
+05-54:SAY: Cog Swordwall/Orb370 : ; Well get down here, quick.
+05-54:OOC: Cerberius Grey/Cecilff2 : Yes.
+05-54:OOC: Cog Swordwall/Orb370 : Weird.
+05-54:OOC: Bob Robertson/Forteen : Also, which one is being used with which?
+05-54:OOC: Cog Swordwall/Orb370 : Timer, ignitor.
+05-54:OOC: Cog Swordwall/Orb370 : And the other way around.
+05-54:SAY: Cog Boozepick/Wrongnumber : Plasma researcher please
+05-54:SAY: Cog Swordwall/Orb370 : Ok, one second.
+05-54:SAY: Cerberius Grey/Cecilff2 : Wait...
+05-54:OOC: Bob Robertson/Forteen : I mean, is the timer in the active hand or the other way around?
+05-54:SAY: Cerberius Grey/Cecilff2 : Your head is glowing too
+05-54:SAY: Lia'Vael Narayya/Quarian : Um...S Stay away...
+05-54:OOC: Cog Swordwall/Orb370 : I dont even remember.
+05-54:SAY: Cerberius Grey/Cecilff2 : A white sort of color...
+05-54:SAY: Bob Robertson/Forteen : Yeah, mental acuity increased
+05-54:SAY: Cog Swordwall/Orb370 : There, fixed.
+05-54:SAY: Cog Swordwall/Orb370 : Or not
+05-54:SAY: Jackson Barnes/Qwertyasd40 : WHOAH
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m Sorry Rob.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : CAN IGEt that?
+05-54:SAY: Cog Boozepick/Wrongnumber : Whats with the lighting here? The engineers on strike or what?
+05-54:GAME: Mr. Marine entered as Brandon Green
+05-54:SAY: Cog Swordwall/Orb370 : The bulbs are burning out
+05-54:SAY: Cerberius Grey/Cecilff2 : *look
+05-54:SAY: Cog Swordwall/Orb370 : Now its fixed.
+05-54:SAY: Bob Robertson/Forteen : You don&#39;t have it already?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : No
+05-54:SAY: Bob Robertson/Forteen : Oh no
+05-54:SAY: Lia'Vael Narayya/Quarian : Captain.
+05-54:SAY: Bob Robertson/Forteen : Radiation poisoning has set in
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ????
+05-54:SAY: Cerberius Grey/Cecilff2 : Yes?
+05-54:SAY: Cog Swordwall/Orb370 : Take a fingerprint.
+05-54:SAY: Lia'Vael Narayya/Quarian : Why are they Glowing...?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : You ok?
+05-54:SAY: Bob Robertson/Forteen : You did at the beginning, right?
+05-54:SAY: Cerberius Grey/Cecilff2 : Thats what I&#39;d like to know.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Yup
+05-54:SAY: Cog Swordwall/Orb370 : Throw it over?
+05-54:SAY: Cog Swordwall/Orb370 : Sir, all you have to do is grab it.
+05-54:SAY: Bob Robertson/Forteen : I&#39;m sorry
+05-54:SAY: Lia'Vael Narayya/Quarian : And...I&#39;d Like a Restraining Order...Against that Officer...
+05-54:SAY: Cerberius Grey/Cecilff2 : You&#39;ve never seen anything like this either I take it?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : iM fine
+05-54:SAY: Cog Swordwall/Orb370 : Please hand your card over
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Are you ok?
+05-54:SAY: Lia'Vael Narayya/Quarian : No...I Haven&#39;t..
+05-54:SAY: Cerberius Grey/Cecilff2 : What&#39;s he been doing?
+05-54:SAY: Lia'Vael Narayya/Quarian : He Scares me...
+05-54:SAY: Cog Boozepick/Wrongnumber : Sorry im having a bit of {[lag]}
+05-54:SAY: Bob Robertson/Forteen : Before long, your genetic code will have degraded to a point where you are unable to see, speak, or hear
+05-54:SAY: Jackson Barnes/Qwertyasd40 : What?!
+05-54:SAY: Bob Robertson/Forteen : I&#39;m sorry
+05-54:SAY: Lia'Vael Narayya/Quarian : Alot...
+05-54:SAY: Cerberius Grey/Cecilff2 : Well he is a bit crude and boisterous sometimes.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : UHHHHHHHHH
+05-54:SAY: Cog Swordwall/Orb370 : You want to be HoM?
+05-54:SAY: Cerberius Grey/Cecilff2 : Has he been hanging around your lab a lot?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Thats very bad news for me
+05-54:SAY: Lia'Vael Narayya/Quarian : Yes...
+05-54:SAY: Bob Robertson/Forteen : I need to use the cryo to see if I can counteract it
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Can i scan myself on the genetic scanner?
+05-54:SAY: Lia'Vael Narayya/Quarian : Just Forget it..
+05-54:SAY: Cog Boozepick/Wrongnumber : HoM? hmmm
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m gonna go Check on the Head of Personnel
+05-54:SAY: Cog Boozepick/Wrongnumber : Yea why not
+05-54:SAY: Bob Robertson/Forteen : The bottom unknown was once on
+05-54:SAY: Bob Robertson/Forteen : Now, no longer
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : They say no
+05-54:SAY: Bob Robertson/Forteen : Please, get in the cryo before it is too late
+05-54:SAY: Jackson Barnes/Qwertyasd40 : i mean yes
+05-54:SAY: Cerberius Grey/Cecilff2 : *sigh
+05-54:SAY: Cog Swordwall/Orb370 : Brandon, you want a job?
+05-54:SAY: Bob Robertson/Forteen : The very bottom
+05-54:SAY: Lia'Vael Narayya/Quarian : Welcome to The Station.
+05-54:SAY: Cog Boozepick/Wrongnumber : You have a good day now
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Deaf:No
+05-54:SAY: Cog Swordwall/Orb370 : Brandon, hello?
+05-54:SAY: Brandon Green/Mr. Marine : Hi.
+05-54:SAY: Cerberius Grey/Cecilff2 : Jackson finish up whatever testing is going on in here and please get back on patrol.  We&#39;ve been short on officers
+05-54:SAY: Bob Robertson/Forteen : The bottom unknown stands for mental acuity level
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Are the lights dimming
+05-54:SAY: Cog Swordwall/Orb370 : You want a job?
+05-54:SAY: Brandon Green/Mr. Marine : Yeah.
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Why are you in Here?!...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : it said yes
+05-54:SAY: Cog Swordwall/Orb370 : Ok, give me a fingerprint
+05-54:SAY: Jackson Barnes/Qwertyasd40 : here we go
+05-54:SAY: Cog Swordwall/Orb370 : Put it on the table please.
+05-54:SAY: Bob Robertson/Forteen : I&#39;m sorry
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Rob...Why&#39;s He in here!?
+05-54:SAY: Cerberius Grey/Cecilff2 : Jackson, I need you back on shift.  Unless you have some medical issue that needs to be corrected please get back to work.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Now what?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Cap-tain
+05-54:SAY: Bob Robertson/Forteen : He&#39;s degenerating into the aformentioned gibbering mess
+05-54:SAY: Cerberius Grey/Cecilff2 : You&#39;re our only security personnel
+05-54:SAY: Jackson Barnes/Qwertyasd40 : JDD
+05-54:SAY: Cog Swordwall/Orb370 : You want to be HoS?
+05-54:SAY: Cerberius Grey/Cecilff2 : *frown
+05-54:SAY: Lia'Vael Narayya/Quarian : ....I Think thats an Improvement...
+05-54:SAY: Bob Robertson/Forteen : This might be a problem
+05-54:SAY: Brandon Green/Mr. Marine : Sure.
+05-54:SAY: Cerberius Grey/Cecilff2 : Bob...what&#39;s going on?
+05-54:SAY: Lia'Vael Narayya/Quarian : No...He Might be the Problem...
+05-54:SAY: Bob Robertson/Forteen : Instead of being really -1 radiation like the machine says
+05-54:SAY: Cog Swordwall/Orb370 : ID
+05-54:SAY: Bob Robertson/Forteen : It might have loope daround
+05-54:SAY: Bob Robertson/Forteen : To god knows how high
+05-54:SAY: Jackson Barnes/Qwertyasd40 : uHHH
+05-54:SAY: Bob Robertson/Forteen : The cryo can&#39;t do anything
+05-54:SAY: Jackson Barnes/Qwertyasd40 : whats going on
+05-54:SAY: Bob Robertson/Forteen : Just go on with your life until you can&#39;t
+05-54:SAY: Brandon Green/Mr. Marine : Thank you.
+05-54:SAY: Bob Robertson/Forteen : I&#39;m sorry
+05-54:SAY: Cog Swordwall/Orb370 : Your welcome
+05-54:SAY: Cog Swordwall/Orb370 : ; All head positions filled.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Save s=my unique identifeir and stuff
+05-54:SAY: Lia'Vael Narayya/Quarian : ....There&#39;s...Nothing you can do?...
+05-54:SAY: Bob Robertson/Forteen : Wait
+05-54:SAY: Cog Boozepick/Wrongnumber : ; HoM here
+05-54:SAY: Bob Robertson/Forteen : I might be able to do something
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Save it
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Save it first
+05-54:SAY: Bob Robertson/Forteen : But you&#39;ll lose all the powers
+05-54:SAY: Jade/Guest-2337011188 : 11You.
+05-54:SAY: Bob Robertson/Forteen : Yes or no?
+05-54:SAY: Lia'Vael Narayya/Quarian : Actually Sir.
+05-54:SAY: Jade/Guest-2337011188 : I need a lead apron.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Yes
+05-54:SAY: Lia'Vael Narayya/Quarian : I Believe we Lack a Head of Security
+05-54:SAY: Cog Swordwall/Orb370 : We dont have those.,
+05-54:SAY: Jade/Guest-2337011188 : You&#39;re wearing one.
+05-54:SAY: Jade/Guest-2337011188 : So don&#39;t say that.
+05-54:SAY: Cog Swordwall/Orb370 : ; I just handed out HoS.
+05-54:SAY: Cog Swordwall/Orb370 : You mean my armour?
+05-54:SAY: Cog Swordwall/Orb370 : This isnt made of lead.
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh....To Who?
+05-54:SAY: Jade/Guest-2337011188 : Armour/lead apron.
+05-54:SAY: Jade/Guest-2337011188 : Whatever.
+05-54:SAY: Jade/Guest-2337011188 : I need one.
+05-54:ACCESS: Logout: 
+05-54:ACCESS: Login: Qwertyasd40 from 76.247.46.175
+05-54:ACCESS: They share computer ID's
+05-54:SAY: Cog Swordwall/Orb370 : ; Brandon Greem
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Man, thats got to sting..
+05-54:SAY: Cog Swordwall/Orb370 : Why?
+05-54:SAY: Lia'Vael Narayya/Quarian : Great,,,
+05-54:SAY: Jade/Guest-2337011188 : Radioactive men running around.
+05-54:SAY: Cerberius Grey/Cecilff2 : Bob fix him up and get him back on duty.  I&#39;ll bring you a different subject.
+05-54:ACCESS: Logout: 
+05-54:ACCESS: Login: Qwertyasd40 from 76.247.46.175
+05-54:ACCESS: They share computer ID's
+05-54:SAY: Jade/Guest-2337011188 : I gotta have protection.
+05-54:SAY: Lia'Vael Narayya/Quarian : We Have Two....Now..
+05-54:SAY: Cog Swordwall/Orb370 : Your fine Jade, calm down.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Whos the Cap here?
+05-54:SAY: Cog Swordwall/Orb370 : ; Someone should start fixing these lights.
+05-54:SAY: Cerberius Grey/Cecilff2 : ;That&#39;d be me
+05-54:SAY: Cog Swordwall/Orb370 : ; HoM, if you could.
+05-54:SAY: Bob Robertson/Forteen : I believe you are what you hate most
+05-54:ACCESS: Login: Bluephoenix222 from 58.165.119.107
+05-54:SAY: Lia'Vael Narayya/Quarian : What?!..
+05-54:SAY: Cog Boozepick/Wrongnumber : ;yea ok, give me a second
+05-54:SAY: Bob Robertson/Forteen : You hate security for being descriminatory
+05-54:GAME: Bluephoenix222 entered as George Fisher
+05-54:SAY: Cog Swordwall/Orb370 : What happened to Jackson?
+05-54:SAY: Bob Robertson/Forteen : Yet you descriminate against all security
+05-54:SAY: Lia'Vael Narayya/Quarian : He&#39;s in the Cryo..
+05-54:SAY: Bob Robertson/Forteen : He has a disorder
+05-54:SAY: Cog Swordwall/Orb370 : Alright then.
+05-54:SAY: Bob Robertson/Forteen : I&#39;m fixing it
+05-54:SAY: Lia'Vael Narayya/Quarian : Now if you Could Please leave..
+05-54:SAY: Lia'Vael Narayya/Quarian : I Hate Security for they Do..And what They&#39;ve Done..
+05-54:SAY: Lia'Vael Narayya/Quarian : Can i help You Johnny?...
+05-54:SAY: Cerberius Grey/Cecilff2 : Bob, once you&#39;re done fixing him, send him back to duty.  Johnny here seems to be showing abnormal brain activity
+05-54:SAY: Bob Robertson/Forteen : It didn&#39;t work
+05-54:SAY: Bob Robertson/Forteen : His radiation is still at -1
+05-54:SAY: Lia'Vael Narayya/Quarian : What Does.... Superdwarvenly Mean?
+05-54:SAY: Jade/Guest-2337011188 : Yo,.
+05-54:SAY: Bob Robertson/Forteen : Sir, I&#39;ll just have to leave him like this
+05-54:SAY: Jade/Guest-2337011188 : I need a lead apron.
+05-54:SAY: Cerberius Grey/Cecilff2 : I don&#39;t know.  He&#39;s been spouting gibberish for quite a while
+05-54:SAY: Brandon Green/Mr. Marine : Uh...
+05-54:SAY: Lia'Vael Narayya/Quarian : Maybe... He Should be Placed in he Unstable Paitent Ward?
+05-54:SAY: Jade/Guest-2337011188 : Like what you&#39;re wearing.
+05-54:SAY: Brandon Green/Mr. Marine : I dont have any aprons.
+05-54:SAY: Jade/Guest-2337011188 : You&#39;re wearing one.
+05-54:SAY: Jade/Guest-2337011188 : I need one.
+05-54:SAY: Cerberius Grey/Cecilff2 : Bob.  Is Jackson going to die?
+05-54:SAY: Bob Robertson/Forteen : No
+05-54:SAY: Brandon Green/Mr. Marine : I&#39;m wearing an armoured vest.
+05-54:SAY: Bob Robertson/Forteen : But he will wish he did
+05-54:SAY: Jade/Guest-2337011188 : I need one.
+05-54:SAY: Bob Robertson/Forteen : I won&#39;t tell him he still has it
+05-54:SAY: Lia'Vael Narayya/Quarian : ...Even He Does&#39;t Deserve it...
+05-54:SAY: Bob Robertson/Forteen : He might go suicidal
+05-54:SAY: Cerberius Grey/Cecilff2 : What&#39;ll this do to him?
+05-54:SAY: Brandon Green/Mr. Marine : Uh... Your a firefighter. You dont really need one.
+05-54:SAY: Bob Robertson/Forteen : He&#39;ll lose all motor control
+05-54:SAY: Bob Robertson/Forteen : Eyes will go bad
+05-54:SAY: Jade/Guest-2337011188 : Yeah I do.
+05-54:SAY: Bob Robertson/Forteen : He&#39;ll become deaf
+05-54:SAY: Jade/Guest-2337011188 : There&#39;s radioactive men running around.
+05-54:SAY: Jade/Guest-2337011188 : I need protection.
+05-54:SAY: Cerberius Grey/Cecilff2 : *frown
+05-54:SAY: Bob Robertson/Forteen : Twitches, tourettes, the whole deal
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Thats...Awful...
+05-54:SAY: Brandon Green/Mr. Marine : I&#39;m sorry.
+05-54:SAY: Bob Robertson/Forteen : For some reason, I&#39;m safe
+05-54:SAY: Lia'Vael Narayya/Quarian : ....I Feel Bad for What I had Said...
+05-54:SAY: Bob Robertson/Forteen : But for him...
+05-54:SAY: George Fisher/Bluephoenix222 : muffled speech
+05-54:SAY: Bob Robertson/Forteen : I honestly don&#39;t know if I&#39;m right or not
+05-54:SAY: Jade/Guest-2337011188 : Come on dude.
+05-54:OOC: Jackson Barnes/Qwertyasd40 : You can almost hear someone talking .. should be removed
+05-54:SAY: Brandon Green/Mr. Marine : I cant do it.
+05-54:SAY: Bob Robertson/Forteen : I&#39;ve never seen this before
+05-54:SAY: Jade/Guest-2337011188 : I want to protect my organs.
+05-54:OOC: George Fisher/Bluephoenix222 : i agree
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;ll go...Take him to the Ward...\
+05-54:OOC: Jackson Barnes/Qwertyasd40 : it makes a lot of spam
+05-54:OOC: Cog Swordwall/Orb370 : It lets you know your uncontious
+05-54:OOC: Cog Swordwall/Orb370 : Atleast
+05-54:OOC: Cog Swordwall/Orb370 : You could be just death and blind
+05-54:OOC: Jackson Barnes/Qwertyasd40 : and most of the time it tellls u your dead
+05-54:OOC: George Fisher/Bluephoenix222 : you know that by looking at your health
+05-54:SAY: Cog Swordwall/Orb370 : ; &#34;Death and blind?
+05-54:SAY: Cog Swordwall/Orb370 : ; Woops. 
+05-54:OOC: George Fisher/Bluephoenix222 : well i g2g ill be back in an hour or so
+05-54:SAY: Cerberius Grey/Cecilff2 : *sigh
+05-54:SAY: Lia'Vael Narayya/Quarian : So...
+05-54:SAY: Lia'Vael Narayya/Quarian : He&#39;s...Not Going to Be Alright?...
+05-54:SAY: Bob Robertson/Forteen : I honestly don&#39;t know
+05-54:OOC: Cerberius Grey/Cecilff2 : Awesome.
+05-54:SAY: Lia'Vael Narayya/Quarian : I Feel Terrible...
+05-54:OOC: Cerberius Grey/Cecilff2 : Over 10 million watts
+05-54:SAY: Bob Robertson/Forteen : He&#39;ll wake up in a few minutes
+05-54:SAY: Cog Boozepick/Wrongnumber : ;we got ant station engineers here?
+05-54:SAY: Lia'Vael Narayya/Quarian : My Ancestors are Probably Ashamed of the Way i Treated him...
+05-54:SAY: Bob Robertson/Forteen : Act like nothing happened
+05-54:SAY: Bob Robertson/Forteen : We aren&#39;t telling him he still has it
+05-54:SAY: Cerberius Grey/Cecilff2 : ;No
+05-54:SAY: Bob Robertson/Forteen : Who know, maybe I was wrong
+05-54:SAY: Cerberius Grey/Cecilff2 : ;But the engine is already ignited
+05-54:SAY: Lia'Vael Narayya/Quarian : I...I Don&#39;t Know...If i Could do this...
+05-54:SAY: Bob Robertson/Forteen : This is what happens when you fail an experiment
+05-54:SAY: Lia'Vael Narayya/Quarian : I See...
+05-54:SAY: Lia'Vael Narayya/Quarian : We...Take Precautions...I Guess Humans Don&#39;r..
+05-54:SAY: Bob Robertson/Forteen : Now, act like nothing happened, and I&#39;ll wake him up in sickbay
+05-54:ACCESS: Login: Thesir from 63.245.245.5
+05-54:GAME: Thesir entered as Cog Drawbridgetime
+05-54:SAY: Cerberius Grey/Cecilff2 : *cough
+05-54:ACCESS: Logout: Thesir
+05-54:SAY: Cerberius Grey/Cecilff2 : *cough
+05-54:SAY: Lia'Vael Narayya/Quarian : Sir?!
+05-54:ACCESS: Logout: Googolplexed
+05-54:SAY: Lia'Vael Narayya/Quarian : Sir! Answer me!
+05-54:SAY: Bob Robertson/Forteen : You&#39;re awake
+05-54:SAY: Lia'Vael Narayya/Quarian : Are you Alright?!
+05-54:SAY: Cerberius Grey/Cecilff2 : I&#39;ll be fine...the engine was a bit hotter than I expected...
+05-54:SAY: Bob Robertson/Forteen : It looks like it worked
+05-54:SAY: Cerberius Grey/Cecilff2 : *cough
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Ok, it still looks like im gona have to do lights, wheres the most important areas?
+05-54:SAY: Lia'Vael Narayya/Quarian : You Just Passed out!
+05-54:OOC: Cog Swordwall/Orb370 : &#34;Trg Tmp&#34;?
+05-54:SAY: Lia'Vael Narayya/Quarian : Here...
+05-54:SAY: Lia'Vael Narayya/Quarian : Do..You Mind..Removing your..Clothes?
+05-54:SAY: Lia'Vael Narayya/Quarian : ...I Have..Basic Medical Knowledge..
+05-54:SAY: Bob Robertson/Forteen : ;Sir, Mr Barnes is awake
+05-54:SAY: Jackson Barnes/Qwertyasd40 : yUP
+05-54:SAY: Cerberius Grey/Cecilff2 : *cough
+05-54:SAY: Lia'Vael Narayya/Quarian : Sir?
+05-54:SAY: Bob Robertson/Forteen : ;In Medbay
+05-54:OOC: Cog Swordwall/Orb370 : Im guessing thats the temperature heated too.
+05-54:SAY: Bob Robertson/Forteen : Well
+05-54:OOC: Cerberius Grey/Cecilff2 : I have to go folks
+05-54:OOC: Cog Swordwall/Orb370 : Cya.
+05-54:SAY: Bob Robertson/Forteen : How do you feel?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : FINE
+05-54:SAY: Jackson Barnes/Qwertyasd40 : (woops)
+05-54:SAY: Cog Swordwall/Orb370 : ; Making a bomb, lalalalala
+05-54:OOC: Cerberius Grey/Cecilff2 : Got a wonderful 200 mile trip tomorrow.  Probably won&#39;t be on this weekend.  So have a nice Easter.
+05-54:SAY: Lia'Vael Narayya/Quarian : You Seem Fine..
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I feel absolutely fine
+05-54:SAY: Bob Robertson/Forteen : You sure? No aching, no twitching?
+05-54:SAY: Lia'Vael Narayya/Quarian : But your Burned...
+05-54:SAY: Lia'Vael Narayya/Quarian : Just Lay Down..
+05-54:SAY: Bob Robertson/Forteen : Oh no, of course not, the procedute went fine
+05-54:SAY: Jackson Barnes/Qwertyasd40 : No
+05-54:ACCESS: Logout: Cecilff2
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Can i go?
+05-54:SAY: Bob Robertson/Forteen : Of course
+05-54:SAY: Bob Robertson/Forteen : He believes me
+05-54:SAY: Lia'Vael Narayya/Quarian : Is...is he Alright?
+05-54:SAY: Bob Robertson/Forteen : I don&#39;t know
+05-54:SAY: Lia'Vael Narayya/Quarian : ...I See...
+05-54:SAY: Bob Robertson/Forteen : ;Oh wait, I forgot all your stuff
+05-54:SAY: Bob Robertson/Forteen : ;I still have your scanner and handcuffs
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Oh you can have it
+05-54:SAY: Cog Boozepick/Wrongnumber : ;theres the first light.... about a 100 to go
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;I can gt some new ones
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Need help?
+05-54:SAY: Cog Boozepick/Wrongnumber : Hell yes
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alright
+05-54:SAY: Lia'Vael Narayya/Quarian : Did you Figure out whats Wrong?
+05-54:SAY: Lia'Vael Narayya/Quarian : Are they Burnt out?
+05-54:SAY: Bob Robertson/Forteen : Any powers remain?
+05-54:SAY: Cog Boozepick/Wrongnumber : Yep
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh Ok.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : No
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Oh
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Got a screwdriver?
+05-54:SAY: Bob Robertson/Forteen : Nope, sorry
+05-54:SAY: Bob Robertson/Forteen : ;FOund one
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Where
+05-54:SAY: Cog Swordwall/Orb370 : Yes?
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : THnaks
+05-54:SAY: Bob Robertson/Forteen : Was in a maintenance corridor
+05-54:SAY: Lia'Vael Narayya/Quarian : So..Um..
+05-54:SAY: Lia'Vael Narayya/Quarian : I Never Learnt your Name.
+05-54:SAY: Cog Swordwall/Orb370 : Its on my Id, is it not?
+05-54:SAY: Lia'Vael Narayya/Quarian : Sometimes...Its Better to Ask..
+05-54:SAY: Lia'Vael Narayya/Quarian : Plus...my Reading Skills are a Bit Poor.
+05-54:ACCESS: Logout: Mr. Marine
+05-54:SAY: Cog Boozepick/Wrongnumber : ; We got atmos people or does that come under me too?
+05-54:SAY: Lia'Vael Narayya/Quarian : So...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Some kind of hull breach eat east hall
+05-54:SAY: Cog Swordwall/Orb370 : ; We have no engineer staff, except you.
+05-54:SAY: Lia'Vael Narayya/Quarian : May i ask what Your name is?
+05-54:SAY: Cog Swordwall/Orb370 : Cog Swordwall.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;i knew this was a bad idea
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh. Nice to Meet you.
+05-54:SAY: Cog Swordwall/Orb370 : There, completed.
+05-54:SAY: Lia'Vael Narayya/Quarian : Huh?!
+05-54:SAY: Cog Swordwall/Orb370 : What?
+05-54:SAY: Lia'Vael Narayya/Quarian : I Felt Something..
+05-54:MATTACK: Unknown(Forteen) clicked on Lia'Vael Narayya(Quarian) with a syringe
+05-54:MATTACK: Unknown(Forteen) injected Lia'Vael Narayya(Quarian) with a syringe filled with 
+05-54:MATTACK: Cog Swordwall(Orb370)has shot a taser round at the floor
+05-54:SAY: Cog Swordwall/Orb370 : ; WE NEED SECURITY IN toxins
+05-54:SAY: Cog Swordwall/Orb370 : ; THERMALS
+05-54:SAY: Lia'Vael Narayya/Quarian : I....Feel...Strange...
+05-54:SAY: Cog Swordwall/Orb370 : ; SOmething
+05-54:SAY: Jackson Barnes/Qwertyasd40 : lIm here&#39;
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Im here
+05-54:SAY: Cog Swordwall/Orb370 : ; Hurry, captain, you have thermals?
+05-54:SAY: Lia'Vael Narayya/Quarian : My Eyes...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;With termls
+05-54:SAY: Lia'Vael Narayya/Quarian : They&#39;re Better!
+05-54:SAY: Lia'Vael Narayya/Quarian : What...What was That?!
+05-54:SAY: Bob Robertson/Forteen : ;What happened?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Open up
+05-54:SAY: Cog Swordwall/Orb370 : Is there anyone in here?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Nothing
+05-54:SAY: Lia'Vael Narayya/Quarian : Someone was Here!
+05-54:SAY: Cog Swordwall/Orb370 : Something injected him with something.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : You might have accidently seen it
+05-54:SAY: Cog Swordwall/Orb370 : Wait
+05-54:SAY: Jackson Barnes/Qwertyasd40 : What?
+05-54:SAY: Lia'Vael Narayya/Quarian : I Felt the Needle!
+05-54:SAY: Cog Swordwall/Orb370 : I just saw someone out there with an injector
+05-54:SAY: Lia'Vael Narayya/Quarian : It Impaired my Senses..
+05-54:SAY: Cog Swordwall/Orb370 : Oh well
+05-54:SAY: Bob Robertson/Forteen : ;What happened?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;is there structual damage?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Here
+05-54:SAY: Jackson Barnes/Qwertyasd40 : You have a look sir
+05-54:SAY: Cog Swordwall/Orb370 : ; Someone injected jenes into Lia
+05-54:SAY: Bob Robertson/Forteen : ;Genes?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;..... Oh
+05-54:SAY: Lia'Vael Narayya/Quarian : Genes?
+05-54:SAY: Cog Swordwall/Orb370 : Bob has a synringe
+05-54:SAY: Bob Robertson/Forteen : ;I wiped my computer buffer though
+05-54:SAY: Cog Swordwall/Orb370 : Wait
+05-54:SAY: Cog Swordwall/Orb370 : ; He might have injected anything, really.
+05-54:SAY: Lia'Vael Narayya/Quarian : Bob&#39;s the Geneticist...
+05-54:SAY: Bob Robertson/Forteen : What happened?
+05-54:SAY: Lia'Vael Narayya/Quarian : Of Course he Does.
+05-54:SAY: Cog Swordwall/Orb370 : Yes, but I find it strange hes weilding it.
+05-54:SAY: Bob Robertson/Forteen : ;What happened to Lia?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : If bob did it..., then what reason would he have doing ti
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Sir
+05-54:SAY: Cog Swordwall/Orb370 : I wouldnt know
+05-54:SAY: Cog Swordwall/Orb370 : Hes crazy?
+05-54:SAY: Lia'Vael Narayya/Quarian : I&#39;m Fine i Think...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Id like my glasses
+05-54:SAY: Cog Swordwall/Orb370 : You should search him.
+05-54:SAY: Lia'Vael Narayya/Quarian : The Hell?!
+05-54:SAY: Lia'Vael Narayya/Quarian : Look!
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Cog
+05-54:SAY: Cog Swordwall/Orb370 : Hmm?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : My thermals
+05-54:SAY: Bob Robertson/Forteen : ;Scanned her. Everything seems fine
+05-54:SAY: Cog Swordwall/Orb370 : Oh yah..
+05-54:SAY: Lia'Vael Narayya/Quarian : That...That wasn&#39;t In Here!
+05-54:SAY: Cog Swordwall/Orb370 : That was there earlier, too
+05-54:SAY: Bob Robertson/Forteen : ;Probably a chemical mixture
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Hes telekentic
+05-54:SAY: Cog Swordwall/Orb370 : Got it.
+05-54:SAY: Cog Swordwall/Orb370 : Let me compare finger prints
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Cog
+05-54:SAY: Jackson Barnes/Qwertyasd40 :  I really need my glasses
+05-54:SAY: Bob Robertson/Forteen : Yes?
+05-54:SAY: Cog Swordwall/Orb370 : Please drop something bob
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I need my thermals
+05-54:SAY: Cog Swordwall/Orb370 : Please take your gloves off.
+05-54:SAY: Lia'Vael Narayya/Quarian : ....Its Been Used Apparantly...
+05-54:SAY: Lia'Vael Narayya/Quarian : Some of its Missing...See?
+05-54:SAY: Cog Boozepick/Wrongnumber : We have a problem here?
+05-54:SAY: Cog Swordwall/Orb370 : They match
+05-54:SAY: Cog Swordwall/Orb370 : Arrest him
+05-54:SAY: Bob Robertson/Forteen : Okay, fine
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Bob.....
+05-54:SAY: Bob Robertson/Forteen : I wanted to cheer Lia up
+05-54:SAY: Cog Boozepick/Wrongnumber : Dont move im armed
+05-54:SAY: Cog Swordwall/Orb370 : Mind explaining yourself?
+05-54:SAY: Bob Robertson/Forteen : Was acting pretty depressed
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Cheer?
+05-54:SAY: Lia'Vael Narayya/Quarian : Cheer me up?! with Chemical Injection!
+05-54:SAY: Bob Robertson/Forteen : The syringe has nothing harmful
+05-54:SAY: Lia'Vael Narayya/Quarian : Though....It was an Amazing Experience...
+05-54:SAY: Cog Swordwall/Orb370 : We should change his genes back to normal and put him in jail
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Space Drugs?
+05-54:SAY: Bob Robertson/Forteen : Yeah, sorry
+05-54:SAY: Bob Robertson/Forteen : Guess I overdid it
+05-54:SAY: Lia'Vael Narayya/Quarian : Whats &#34;Space Drugs&#34;?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Oh
+05-54:SAY: Cog Boozepick/Wrongnumber : Space drugs? You know thats illegal on all stations
+05-54:SAY: Jackson Barnes/Qwertyasd40 : A chemical mixture with flashy colors
+05-54:SAY: Cog Swordwall/Orb370 : Bob, your too dangerous with that ability
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Sold in the black market
+05-54:SAY: Cog Swordwall/Orb370 : Please remove yourself of it.
+05-54:SAY: Bob Robertson/Forteen : Sorry
+05-54:SAY: Lia'Vael Narayya/Quarian : Black Market?
+05-54:ACCESS: Logout: Bluephoenix222
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Nanotrasen has had some dealings wih it
+05-54:SAY: Bob Robertson/Forteen : Knew I shouldn&#39;t have done it
+05-54:SAY: Cog Swordwall/Orb370 : Ok, will two people please escort Bob to the labs?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I will....
+05-54:SAY: Cog Swordwall/Orb370 : So he can cure himself of the ability?
+05-54:SAY: Cog Swordwall/Orb370 : HoR
+05-54:SAY: Cog Swordwall/Orb370 : Will you come with me
+05-54:SAY: Cog Swordwall/Orb370 : ; Bomb in place
+05-54:SAY: Cog Swordwall/Orb370 : ; Anyone want to see it go boom?
+05-54:SAY: Lia'Vael Narayya/Quarian : Y...You can Watch Him...Officer.
+05-54:SAY: Bob Robertson/Forteen : ;What are you trying to do anyways?
+05-54:SAY: Cog Swordwall/Orb370 : ; Blow up a bomb
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Once more sir, i am a investigator
+05-54:SAY: Cog Swordwall/Orb370 : ; If anyone wants to see it, come down to toxins, quick./
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;HOLD ON
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;NOT YET
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a DNA injector
+05-54:SAY: Lia'Vael Narayya/Quarian : Well...
+05-54:SAY: Lia'Vael Narayya/Quarian : Ok then.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alright bob
+05-54:MATTACK: Bob Robertson(Forteen) clicked on Bob Robertson(Forteen) with a syringe
+05-54:MATTACK: Bob Robertson(Forteen) injected Bob Robertson(Forteen) with a syringe filled with 
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Lets go?
+05-54:SAY: Lia'Vael Narayya/Quarian : Is he Cured For Sure?!
+05-54:SAY: Bob Robertson/Forteen : Anti toxins
+05-54:SAY: Cog Swordwall/Orb370 : ; Hurry up....yawn.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;OPEN
+05-54:SAY: Cog Swordwall/Orb370 : Sad thing is
+05-54:SAY: Cog Swordwall/Orb370 : Only two people can see it at once
+05-54:SAY: Cog Swordwall/Orb370 : Lets see if this works
+05-54:SAY: Cog Swordwall/Orb370 : In 3.
+05-54:SAY: Lia'Vael Narayya/Quarian : Um...Bob...
+05-54:SAY: Lia'Vael Narayya/Quarian : What Did You...Inject me With...?
+05-54:SAY: Bob Robertson/Forteen : Nothing happened
+05-54:SAY: Cog Swordwall/Orb370 : It beeped, what the heck.
+05-54:SAY: Bob Robertson/Forteen : Space drugs, you heard
+05-54:SAY: Bob Robertson/Forteen : Did you add a oxygen mixture?
+05-54:SAY: Lia'Vael Narayya/Quarian : I Still Don&#39;t Know what that Is..
+05-54:SAY: Bob Robertson/Forteen : You felt it, you know its name
+05-54:SAY: Cog Swordwall/Orb370 : Oh yah, Duh.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Something illegal that does what you felt
+05-54:SAY: Cog Swordwall/Orb370 : ; Well, it blew up atleast
+05-54:SAY: Bob Robertson/Forteen : Plasma needs oxygen to combust
+05-54:SAY: Cog Swordwall/Orb370 : Thats good enough for me
+05-54:SAY: Lia'Vael Narayya/Quarian : Well...It was Amazing....
+05-54:ACCESS: Login: Googolplexed from 123.243.197.60
+05-54:SAY: Cog Swordwall/Orb370 : Can you please remove yourself of the ability of telekinesis, bob?
+05-54:SAY: Bob Robertson/Forteen : I did
+05-54:SAY: Cog Swordwall/Orb370 : That was quick.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Mainly because it was blocking off nanotrasens newest Space Beer&#39;
+05-54:SAY: Bob Robertson/Forteen : An easy SE switch
+05-54:SAY: Lia'Vael Narayya/Quarian : Space Beer?
+05-54:SAY: Jade/Guest-2337011188 : Yo.
+05-54:SAY: Jade/Guest-2337011188 : I need a lead apron.
+05-54:SAY: Cog Boozepick/Wrongnumber : Hi there
+05-54:SAY: Bob Robertson/Forteen : Well, here&#39;s the syringe that gave me all the trouble
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Nanotrasen made space beer
+05-54:SAY: Cog Boozepick/Wrongnumber : Cant say i have one
+05-54:SAY: Lia'Vael Narayya/Quarian : Whats Space Beer?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : They sued anyone who got in sales competetion with it
+05-54:SAY: Bob Robertson/Forteen : Burn it if you want
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Space Beer is an achol
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Launch it
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Launch the syringe
+05-54:SAY: Lia'Vael Narayya/Quarian : ....I Don&#39;t Know what Alcohol is Eiher...
+05-54:SAY: Cog Swordwall/Orb370 : So wait, this will give me telekinesis?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Its dangerous
+05-54:SAY: Bob Robertson/Forteen : Not that
+05-54:SAY: Bob Robertson/Forteen : That&#39;s the drugs
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Alchohol is a addicting drink
+05-54:SAY: Cog Swordwall/Orb370 : Oh, just space drugs
+05-54:SAY: Bob Robertson/Forteen : The thing you launched earlier was it
+05-54:SAY: Cog Boozepick/Wrongnumber : Stupid lights...
+05-54:SAY: Cog Swordwall/Orb370 : Now to make another bomb
+05-54:SAY: Lia'Vael Narayya/Quarian : Ok Then...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I need my thermals
+05-54:SAY: Bob Robertson/Forteen : What happened to the captain anyways?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Cog
+05-54:SAY: Cog Swordwall/Orb370 : Ola
+05-54:SAY: Jackson Barnes/Qwertyasd40 : My thermals please
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh! Thats Right!
+05-54:SAY: Cog Swordwall/Orb370 : Just grab another pair from security
+05-54:SAY: Lia'Vael Narayya/Quarian : He....He Lost it...
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Im going to look for the captain
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Ill be back
+05-54:SAY: Bob Robertson/Forteen : Before I wiped it
+05-54:SAY: Lia'Vael Narayya/Quarian : Wait&#39;
+05-54:SAY: Bob Robertson/Forteen : I saw him
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Open
+05-54:SAY: Lia'Vael Narayya/Quarian : I Know where he is
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Oh
+05-54:SAY: Bob Robertson/Forteen : I think he was taking a nap in the HoR&#39;s quarters
+05-54:SAY: Lia'Vael Narayya/Quarian : Yes.
+05-54:SAY: Bob Robertson/Forteen : Going to take an awful long time to heat that
+05-54:SAY: Lia'Vael Narayya/Quarian : He&#39;s Um Lost it...
+05-54:SAY: Bob Robertson/Forteen : Better off starting a fire and siphoning the plasma
+05-54:SAY: Lia'Vael Narayya/Quarian : He was Coughing and Hurting After He Left the Engine.
+05-54:SAY: Lia'Vael Narayya/Quarian : So He Wanted to Take a Napbin there...
+05-54:SAY: Bob Robertson/Forteen : Just so you know, Barnes used to have the same powers
+05-54:SAY: Cog Swordwall/Orb370 : So its going to be about 50% 02.
+05-54:SAY: Cog Swordwall/Orb370 : Seriously?
+05-54:SAY: Lia'Vael Narayya/Quarian : And Now... He&#39;s Saying Weird Things...
+05-54:SAY: Cog Boozepick/Wrongnumber : ;ok guys the man square hallway area has lighting, due to the amount of time it takes and amount of lights...
+05-54:SAY: Cog Swordwall/Orb370 : Why do you give out these powers?
+05-54:SAY: Bob Robertson/Forteen : Then he got a disease from it and I had to tkae them away to cure him
+05-54:SAY: Cog Swordwall/Orb370 : Also, I dont think I put any plasma in that las bomb.
+05-54:SAY: Bob Robertson/Forteen : Mostly for science
+05-54:SAY: Cog Swordwall/Orb370 : Silly me.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;i will not be doing the rest, if you cant live without them tell me and ill give you a box of lights and a screw driver
+05-54:SAY: Bob Robertson/Forteen : So
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I see him
+05-54:SAY: Bob Robertson/Forteen : What was with the whole guns drawn thing
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Hes sleeping i guess
+05-54:ACCESS: Login: Beorn080 from 24.0.226.26
+05-54:SAY: Lia'Vael Narayya/Quarian : Can I H...Help you?..
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Oh
+05-54:SAY: Cog Swordwall/Orb370 : It was a dangerous situation.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : I was checking on the captain
+05-54:SAY: Lia'Vael Narayya/Quarian : Oh..
+05-54:SAY: Bob Robertson/Forteen : I mean, if I wanted to kill you, you would all have been dead a long, long time ago
+05-54:SAY: Cog Swordwall/Orb370 : Just a precaution.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Should we call the shuttle?
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;The lights keep going out
+05-54:SAY: Cog Swordwall/Orb370 : ; Why?
+05-54:SAY: Cog Swordwall/Orb370 : ; Is that really, a problem?
+05-54:SAY: Bob Robertson/Forteen : ;I would say yes
+05-54:SAY: Bob Robertson/Forteen : ;I hate being in the dark
+05-54:SAY: Cog Swordwall/Orb370 : ; Its not a big problem, the lights are just burning out.
+05-54:SAY: Cog Swordwall/Orb370 : ; Get a flashlight
+05-54:SAY: Cog Boozepick/Wrongnumber : ; Ever heard of a PDA light or a torch?
+05-54:SAY: Bob Robertson/Forteen : Done already?
+05-54:SAY: Cog Swordwall/Orb370 : ; Bomb 2 ready.
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;Im checking on the engine
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Look if someone wants to be the honoury light changer talk to me and ill set you up
+05-54:SAY: Cog Boozepick/Wrongnumber : ;thats not need jackson im there at the moment
+05-54:SAY: Cog Swordwall/Orb370 : Ok, here we go
+05-54:SAY: Bob Robertson/Forteen : A fire?
+05-54:SAY: Bob Robertson/Forteen : Just a string of misfortunes, isn&#39;t it?
+05-54:SAY: Cog Swordwall/Orb370 : ...
+05-54:SAY: Cog Swordwall/Orb370 : GRRR
+05-54:SAY: Cog Swordwall/Orb370 : Bleh.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Engine status: All Power Storage 
+05-54:SAY: Cog Boozepick/Wrongnumber : ; Units are full
+05-54:SAY: Cog Swordwall/Orb370 : Im sending the shuttle back.
+05-54:SAY: Cog Swordwall/Orb370 : I got an idea
+05-54:SAY: Cog Swordwall/Orb370 : Im going to launch an 02 tank into there
+05-54:SAY: Bob Robertson/Forteen : YOu know, send a releasing air can first
+05-54:SAY: Jackson Barnes/Qwertyasd40 : Any news of centcom?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Engine is still running at 100%
+05-54:SAY: Bob Robertson/Forteen : Yeah
+05-54:SAY: Cog Swordwall/Orb370 : Idea stealer.
+05-54:SAY: Cog Swordwall/Orb370 : Hehe
+05-54:SAY: Jackson Barnes/Qwertyasd40 : ;aNY  news of centcom?
+05-54:SAY: Bob Robertson/Forteen : Set it to release
+05-54:SAY: Cog Boozepick/Wrongnumber : ;output of the engine is huge
+05-54:SAY: Bob Robertson/Forteen : Also, mind if I use this?
+05-54:ACCESS: Login: Matt13110 from 66.157.158.4
+05-54:SAY: Bob Robertson/Forteen : Mind if I use this?
+05-54:SAY: Cog Swordwall/Orb370 : Use what?
+05-54:SAY: Bob Robertson/Forteen : No, nevermind
+05-54:SAY: Bob Robertson/Forteen : It&#39;d be too hot
+05-54:SAY: Bob Robertson/Forteen : I&#39;ve studied almost everything
+05-54:SAY: Jade/Guest-2337011188 : Sup.
+05-54:SAY: Cog Boozepick/Wrongnumber : What are you doing
+05-54:GAME: Matt13110 entered as Urist Mountainblock
+05-54:SAY: Jade/Guest-2337011188 : Looking at the fire.
+05-54:SAY: Cog Boozepick/Wrongnumber : Rank?
+05-54:SAY: Cog Boozepick/Wrongnumber : ; Im HoM get out please
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello?
+05-54:SAY: Jade/Guest-2337011188 : You don&#39;t have to be such a jerk about it.
+05-54:SAY: Jade/Guest-2337011188 : Also you&#39;re in my way.
+05-54:SAY: Bob Robertson/Forteen : You know, a fire provides a really nice light
+05-54:SAY: Cog Swordwall/Orb370 : Yawn, im not waiting for it to be 500 degree temp.
+05-54:SAY: Cog Swordwall/Orb370 : No fires, pelase.
+05-54:SAY: Bob Robertson/Forteen : Mind if I use that plasma can?
+05-54:SAY: Cog Boozepick/Wrongnumber : Look theres a possible traitor and this is a centre point of the station
+05-54:SAY: Cog Swordwall/Orb370 : Yes, Yes I do,.
+05-54:SAY: Bob Robertson/Forteen : In the place designed for fires
+05-54:SAY: Cog Swordwall/Orb370 : ....Fine
+05-54:SAY: Jade/Guest-2337011188 : Yeah well it ain&#39;t me.
+05-54:SAY: Bob Robertson/Forteen : Got a wrench?
+05-54:SAY: Cog Swordwall/Orb370 : Over there, to the right
+05-54:MATTACK: Lia'Vael Narayya(Quarian)has grabbed Brandon Green(Mr. Marine) aggressively (now hands) 
+05-54:SAY: Bob Robertson/Forteen : Also, can you open this door for me?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;whats happening to the guy that got arrested for using that injection?
+05-54:SAY: Bob Robertson/Forteen : Or at least, can I make an opening?
+05-54:ACCESS: Logout: Qwertyasd40
+05-54:ACCESS: Logout: Beorn080
+05-54:SAY: Bob Robertson/Forteen : No oxygen
+05-54:SAY: Bob Robertson/Forteen : Hmm
+05-54:ACCESS: Login: Mihael River from 76.121.89.120
+05-54:SAY: Lia'Vael Narayya/Quarian : Huh?!
+05-54:SAY: Bob Robertson/Forteen : Mind if I get an oxygen can?
+05-54:ACCESS: Login: Darkpumpkin from 71.210.189.210
+05-54:SAY: Cog Swordwall/Orb370 : Crap
+05-54:SAY: Lia'Vael Narayya/Quarian : Um...Aren&#39;t you Wearing them?
+05-54:SAY: Cog Swordwall/Orb370 : Two minutes till shuttle
+05-54:SAY: Cog Swordwall/Orb370 : I got to send it back
+05-54:ACCESS: Logout: Mihael River
+05-54:SAY: Bob Robertson/Forteen : Quickly
+05-54:SAY: Lia'Vael Narayya/Quarian : Hello?
+05-54:GAME: Darkpumpkin entered as Urist Daggerblock
+05-54:SAY: Cog Boozepick/Wrongnumber : *pants off
+05-54:SAY: Cog Boozepick/Wrongnumber : *help
+05-54:SAY: Cog Boozepick/Wrongnumber : *point-atom
+05-54:SAY: Bob Robertson/Forteen : ;Oh, good
+05-54:SAY: Cog Boozepick/Wrongnumber : ;who did that?..
+05-54:SAY: Cog Swordwall/Orb370 : ; I did, there is no reason to abandon this valuable station.
+05-54:SAY: Cog Boozepick/Wrongnumber : ;true. you have a point
+05-54:SAY: Cog Swordwall/Orb370 : ; Cog Boozepick.
+05-54:SAY: Cog Swordwall/Orb370 : ; Dont send it.
+05-54:SAY: Cog Boozepick/Wrongnumber : ; i didint intend to
+05-54:SAY: Cog Swordwall/Orb370 : ; Well I dont know why your in the bridge
+05-54:SAY: Cog Boozepick/Wrongnumber : ;you know this how?
+05-54:SAY: Cog Swordwall/Orb370 : None of your business.
+05-54:SAY: Cog Boozepick/Wrongnumber : hmmm
+05-54:SAY: Cog Swordwall/Orb370 : SO...
+05-54:SAY: Cog Swordwall/Orb370 : Why are you on the bridge?
+05-54:SAY: Cog Boozepick/Wrongnumber : Well
+05-54:ACCESS: Logout: Quarian
+05-54:SAY: Cog Boozepick/Wrongnumber : I thought someone had broken into the bridge and done it as no one claimed to doing it
+05-54:SAY: Cog Swordwall/Orb370 : Alright then
+05-54:SAY: Cog Boozepick/Wrongnumber : ;god dam station these lights are anoying, any one want to be the light changer man?
+05-54:SAY: Cog Swordwall/Orb370 : ; Im busy with a bomb
+05-54:SAY: Urist Mountainblock/Matt13110 : ;Is there anybody who can assign me a job? I&#39;m a decent engineer
+05-54:SAY: Bob Robertson/Forteen : Could I get an oxygen can?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;there isint much to do at the moment but change lights, so be warned
+05-54:SAY: Urist Mountainblock/Matt13110 : Is there anybody who can assign me a job?
+05-54:SAY: Cog Swordwall/Orb370 : ; So be warned?
+05-54:SAY: Bob Robertson/Forteen : And there we are
+05-54:SAY: Cog Boozepick/Wrongnumber : ;Ow shit
+05-54:SAY: Bob Robertson/Forteen : And not wnough oxygen
+05-54:SAY: Cog Boozepick/Wrongnumber : ;HoP come to arivals
+05-54:SAY: Cog Swordwall/Orb370 : ; Why?
+05-54:SAY: Cog Boozepick/Wrongnumber : ;We have a bit of a problem
+05-54:SAY: Cog Swordwall/Orb370 : ; Im about to test ma bomb
+05-54:SAY: Cog Boozepick/Wrongnumber : ;someones broken into the job change area
+05-54:SAY: Cog Swordwall/Orb370 : ; Bleh
+05-54:SAY: Cog Swordwall/Orb370 : ; I will get on it in a second
+05-54:SAY: Bob Robertson/Forteen : Took a chunk out of it
+05-54:SAY: Cog Swordwall/Orb370 : ; It worked
+05-54:MATTACK: Cog Boozepick(Wrongnumber)has shot a taser round at Urist Daggerblock
+05-54:SAY: Cog Swordwall/Orb370 : ; Good bomb, gooood bomb.
+05-54:SAY: Bob Robertson/Forteen : And can I get a can of oxygen?
+05-54:SAY: Cog Swordwall/Orb370 : Now I have to investigate.
+05-54:SAY: Bob Robertson/Forteen : Oh
+05-54:SAY: Urist Mountainblock/Matt13110 : I can fix it
+05-54:SAY: Urist Mountainblock/Matt13110 : With Oxygen I can fix it
+14-03:ADMIN: Loading crban_keylist
+14-03:ADMIN: Loading crban_reason
+14-03:ADMIN: Loading crban_time
+14-03:ADMIN: Loading crban_bannedby
+14-03:ADMIN: Loading crban_iplist
+14-03:ADMIN: Loading crban_unbanned
+14-03:ADMIN: Loading crban_ComputerIDs
+14-03:ADMIN: Loading jobban_rank
+14-03:ADMIN: Updating jobbanfile!
+21-03:ADMIN: Loading crban_keylist
+21-03:ADMIN: Loading crban_reason
+21-03:ADMIN: Loading crban_time
+21-03:ADMIN: Loading crban_bannedby
+21-03:ADMIN: Loading crban_iplist
+21-03:ADMIN: Loading crban_unbanned
+21-03:ADMIN: Loading crban_ComputerIDs
+21-03:ADMIN: Loading jobban_rank
+21-03:ADMIN: Updating jobbanfile!
+21-03:ACCESS: Login: Headswe from 127.0.0.1
+21-03:GAME: Headswe entered as Alucard Whoop
+21-03:ADMIN: Headswe used start_now
+21-03:GAME: starting game of traitor
+21-03:ADMIN: Headswe created /obj/machinery/atmoalter/canister/poisoncanister
+21-03:ADMIN: Headswe modified Canister [Plasma (Bio)]'s gas to the gas
+21-03:ADMIN: Headswe modified gas's temperature to 2300
+21-03:ADMIN: Headswe modified Canister [Plasma (Bio)]'s gas to the gas
+21-03:ADMIN: Headswe modified Canister [Plasma (Bio)]'s gas to the gas
+21-03:ACCESS: Login: Guest-533227256 from 87.244.106.199
+21-03:ADMIN: Headswe modified Canister [Plasma (Bio)]'s gas to the gas
+21-03:ADMIN: Headswe modified gas's temperature to 2300
+21-03:ADMIN: Headswe modified Canister [Plasma (Bio)]'s gas to the gas

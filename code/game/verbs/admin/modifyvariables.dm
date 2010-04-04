@@ -3,6 +3,7 @@
 	set name = "edit variables"
 	set desc="(target) Edit a target item's variables"
 
+
 	//var/locked[]
 	//locked = list()
 
@@ -13,6 +14,17 @@
 		if(!src.authenticated || !src.holder)
 			src << "Only administrators may use this command."
 			return
+
+		if(istype(O,/obj/admins))
+			world << "[src.key] tried to edit an admin panel object"
+			return
+
+		if(istype(O,/client))
+			var/client/c = O
+			if(c.holder)
+				world << "[src.key] is trying to edit an administrator's client"
+				if((input(c,"[src.key] is trying to edit your client. Allow?","Secuity question","No") in list("Yes","No")) == "No")
+					return
 
 		var/variable = input("Which var?","Var") in O.vars
 		var/default

@@ -70,6 +70,7 @@
 	var/tres
 	var/quatre
 //	restart
+	home = rand(100,300) // picks the long range relays angle.
 	random1 = pick("potassium","chlorine","oxygen","nitrogen","hydrogen","carbon","water","acid","phosphorus","sulfur","sugar","mercury", "lithium", "radium", "silicon")
 	random2 = pick("potassium","chlorine","oxygen","nitrogen","hydrogen","carbon","water","acid","phosphorus","sulfur","sugar","mercury", "lithium", "radium", "silicon")
 	random3 = pick("potassium","chlorine","oxygen","nitrogen","hydrogen","carbon","water","acid","phosphorus","sulfur","sugar","mercury", "lithium", "radium", "silicon")
