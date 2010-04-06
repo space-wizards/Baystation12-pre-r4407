@@ -137,12 +137,16 @@
 		if (src.safety)
 			src.timing = 0
 			return
+		if (nuclearend)
+			return
 		if(ticker.mode.name == "nuclear emergency")
 			world << "<FONT size = 3><B>Syndicate Victory</B></FONT>"
 			world << "<B>The Syndicate have successfully blown the nuke.</B> Next time, don't let them get the disk!"
+			nuclearend = 1
 			sleep(450)
 			world << "\blue Rebooting"
 			world.Reboot()
+			return
 		src.timing = -1.0
 		src.yes_code = 0
 		src.icon_state = "nuclearbomb3"

@@ -548,7 +548,8 @@
 /datum/control/gameticker/proc/check_win()
 	if (!mode.check_win())
 		return 0
-
+	if (!nuclearend)
+		return 0
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
 			world << "<b>The AI's laws at the end of the game were:</b>"
@@ -556,20 +557,21 @@
 			world << "<b>The AI's laws when it was deactivated were:</b>"
 		aiPlayer.showLaws(1)
 
-	var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
-	if (src.shuttle_location == 1) //Altered to support superareas.
-		for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
-			for(var/turf/T in A)
-				if (T.z == 1)
-					for(var/atom/movable/AM as mob|obj in T)
-						A\M.z = shuttle_z
-					var/turf/U = locate(T.x, T.y, shuttle_z)
-					U.oxygen = T.oxygen
-					U.poison = T.poison
-					U.co2 = T.co2
+	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear
+		var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
+		if (src.shuttle_location == 1) //Altered to support superareas.
+			for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
+				for(var/turf/T in A)
+					if (T.z == 1)
+						for(var/atom/movable/AM as mob|obj in T)
+							A\M.z = shuttle_z
+						var/turf/U = locate(T.x, T.y, shuttle_z)
+						U.oxygen = T.oxygen
+						U.poison = T.poison
+						U.co2 = T.co2
 
-					U.buildlinks()
-					del(T)
+						U.buildlinks()
+						del(T)
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
 	world.Reboot()

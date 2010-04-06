@@ -3898,9 +3898,10 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/turn_angle = 0
 	var/obj/machinery/power/solar_control/control
 	var/building=0
+
 /obj/machinery/computer/comdisc
-	name = "solar panel"
-	desc = "A solar electrical generator."
+	name = "Communications Dish"
+	desc = "A communcations dish on a rotating base"
 	icon = 'power.dmi'
 	icon_state = "sp_base"
 	anchored = 1
