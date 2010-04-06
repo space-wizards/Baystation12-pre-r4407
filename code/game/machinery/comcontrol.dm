@@ -87,20 +87,26 @@
 	updateicon()
 
 /obj/machinery/computer/comcontrol/proc/updateicon()
+
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
-	if(istype(W, /obj/item/weapon/wrench) && buildstate == 5)
+	if(istype(W, /obj/item/weapon/wrench) && (stat & BROKEN))
 		buildstate = 1
-		user << "You disconnect the smashed disc"
+		user << "You remove the smashed disc from the base"
+	else if(istype(W,/obj/item/weapon/rods))
+		if (buildstate == 1)
+			del W
+			user << "You construct a dish frame with the rods"
+			buildstate++
 	else if(istype(W,/obj/item/weapon/sheet/glass))
 		var/obj/item/weapon/sheet/glass/S = W
-		if(buildstate == 1)
+		if(buildstate == 2)
 			if(S.amount >= 2)
 				S.amount--
 			else
 				del S
 			buildstate++
 			user << "You arrange the pane of glass on the frame"
-		else if(buildstate == 2)
+		else if(buildstate == 3)
 			if(S.amount >= 2)
 				S.amount--
 			else
@@ -109,7 +115,7 @@
 			user << "You finish building the dish shell"
 	else if(istype(W, /obj/item/weapon/cable_coil))
 		var/obj/item/weapon/cable_coil/C = W
-		if(buildstate == 3)
+		if(buildstate == 4)
 			if (C.amount > 4)
 				C.amount -= 4
 			else if (C.amount == 4)
@@ -120,11 +126,12 @@
 			user << "You wire the dish"
 			buildstate++
 	else if(istype(W, /obj/item/weapon/circuitry))
-		if(buildstate == 4)
+		if(buildstate == 5)
 			del W
 			buildstate = 6
 			user << "You install the control circuitry and power on the dish"
-			stat = 0
+			src.health = initial(src.health)
+			stat &= ~BROKEN
 	else
 		src.health -= W.force
 	src.add_fingerprint(user)
@@ -141,19 +148,21 @@
 	if (src.health <= 0)
 		if(!(stat & BROKEN))
 			broken()
-		else
+		else if (buildstate == 6)
 			new /obj/item/weapon/shard(src.loc)
 			new /obj/item/weapon/shard(src.loc)
 			del(src)
 			return
+		else
+			buildstate = 6
 	return
 
-/obj/machinery/computer/comdisc/var/const/states = list(1, 3, 4)
+/obj/machinery/computer/comdisc/var/states = list(0, 1, 3, 4, 4)
 
 /obj/machinery/computer/comdisc/proc/updateicon()
 	overlays = null
 	if(buildstate < 5)
-
+		overlays += image('power.dmi', icon_state = "solar_panel_build[states[buildstate]]", layer = FLY_LAYER)
 		return
 	if(stat & BROKEN)
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
