@@ -205,9 +205,13 @@ area/maintenance/hall
 	name = "Maintenance Hallway"
 	icon_state = "green"
 
+area/maintenance/network
+	name = "Network Centre"
+	icon_state = "network"
+
 area/maintenance/atmos
 	name = "Atmospherics"
-	icon_state = ""
+	icon_state = "atmos"
 
 area/maintenance/janitor
 	name = "Custodial Closet"
@@ -224,6 +228,10 @@ area/storage/elecstorage
 area/storage/northspare
 	name = "Spare Storage"
 	icon_state = "toolstorage"
+
+area/storage/network
+	name = "Network Storage"
+	icon_state = "network"
 
 area/storage/southspare
 	name = "Spare Storage"
