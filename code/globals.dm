@@ -66,6 +66,7 @@ var
 	list/killer = list()
 	list/cardinal = list( NORTH, SOUTH, EAST, WEST )
 
+	roundover = 0
 	nuclearend = 0
 
 	datum/station_state/start_state = null

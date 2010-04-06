@@ -1,3 +1,29 @@
+//A pair of procs as a fuck-you to metagamers
+/obj/item/weapon/disk/nuclear/New()
+	..()
+	spawn(0)
+		while (1)
+			sleep(50)
+			if (roundover)
+				return
+			var/turf/L = get_turf(src)
+			if (L.z != 1)
+				world << "\red The Nuclear Disk is no longer in play"
+				world << "\red Creating new disk at nuclear bomb location"
+				world << "<B>Next time don't eject the disk!</B>"
+				var/turf/T = get_turf(locate(/obj/machinery/nuclearbomb))
+				new /obj/item/weapon/disk/nuclear(T)
+				return
+
+/obj/item/weapon/disk/nuclear/Del()
+	if (!roundover)
+		world << "\red Nuclear Disk Destroyed!"
+		world << "\red Creating new disk at nuclear bomb location"
+		world << "<B>Next time don't destroy the disk!</B>"
+		var/turf/T = get_turf(locate(/obj/machinery/nuclearbomb))
+		new /obj/item/weapon/disk/nuclear(T)
+	..()
+
 /obj/machinery/nuclearbomb/New()
 	if (nuke_code)
 		src.r_code = nuke_code

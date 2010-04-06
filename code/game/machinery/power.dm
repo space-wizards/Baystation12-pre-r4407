@@ -1677,17 +1677,9 @@ var/powernet_nextlink_processing = 0
 			sleep(10)
 		updateicon()
 		updatefrac()
-		if(!powernet)
-			for(var/turf/T in orange(1,src))
-				var/d = get_dir(T, src)
-				for(var/obj/cable/C in T)
-					if(!C.netnum||C.netnum > powernets.len)
-						continue
-					if(C.d1==d||C.d2==d)
-						powernet=powernets[C.netnum]
-						netnum=C.netnum
-						powernet.nodes+=src
-		if(powernet)
+		spawn(0)
+			while(!powernet)
+				sleep(1)
 			for(var/obj/machinery/power/solar_control/SC in powernet.nodes)
 				if(!id)
 					id=SC.id
@@ -1813,25 +1805,14 @@ var nextSolarID = 0
 			sleep(5)
 			id=nextSolarID+1
 		if(isnum(id) && id>nextSolarID)nextSolarID=id
-		if(!powernet)
-			for(var/turf/T in orange(1,src))
-				var/d = get_dir(T, src)
-				for(var/obj/cable/C in T)
-					if(!C.netnum)
-						continue
-					if(C.netnum>powernets.len)
-						world.log_game("<B>[name] tried to get powernet [C.netnum], powernets has [powernets.len] nets stored</B>")
-						continue
-					if(C.d1==d||C.d2==d)
-						powernet=powernets[C.netnum]
-						netnum=C.netnum
-						powernet.nodes+=src
-		if(!powernet) return
-		for(var/obj/machinery/power/solar/S in powernet.nodes)
-			if(!S.id)S.id=id
-			if(S.id != id) continue
-			cdir = S.adir
-			updateicon()
+		spawn(0)
+			while(!powernet)
+				sleep(1)
+			for(var/obj/machinery/power/solar/S in powernet.nodes)
+				if(!S.id) S.id=id
+				if(S.id != id) continue
+				cdir = S.adir
+				updateicon()
 
 /obj/machinery/power/solar_control/attackby(obj/item/weapon/W, mob/user)
 	if(building)

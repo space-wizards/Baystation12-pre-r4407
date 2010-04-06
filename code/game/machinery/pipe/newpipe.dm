@@ -70,8 +70,12 @@
 
 /obj/machinery/pipeline/process()
 
+	if (!numnodes)
+		world.log << "<B>Process on empty pipeline [name]</B>"
+		return
+
 	var/gtemp = ngas.temperature					// cached temperature for heat exch calc
-	var/tot_node = ngas.tot_gas() / numnodes		// fraction of gas in this node
+	var/tot_node = ngas.tot_gas() / src.numnodes	// fraction of gas in this node
 
 
 	if(tot_node>0.1)		// no pipe contents, don't heat
@@ -144,8 +148,7 @@
 	for(var/obj/machinery/pipes/P in machines)		// look for a pipe
 
 		if(!P.plnum)							// if not already part of a line
-			if (P.buildnodes(++linecount) == 1) // add it, and spread to all connected pipes
-				world.log_game("Unconnected pipe at \[[P.x] [P.y] [P.z]]")
+			P.buildnodes(++linecount) // add it, and spread to all connected pipes
 
 	for(var/L = 1 to linecount)					// for count of lines found
 		var/obj/machinery/pipeline/PL = new()	// make a pipeline virtual object
