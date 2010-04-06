@@ -79,6 +79,7 @@ var
 	list/powernets = null
 
 	defer_powernet_rebuild = 0		// true if net rebuild will be called manually after an event
+	powernets_building = 1
 
 	Debug = 0	// global debug switch
 	Debug2 = 0

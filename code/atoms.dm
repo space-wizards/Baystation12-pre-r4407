@@ -4672,7 +4672,12 @@ obj/machinery/vendingmachine/soda
 	basetype = /obj/item/weapon/bulb/incandescent
 
 /obj/item/weapon/storage/lightbulbs
-	name = "Box of lightbulbs"
+	name = "Box of Incandescent Bulbs"
+	icon_state = "box"
+	s_istate = "syringe_kit"
+
+/obj/item/weapon/storage/fluorescentbulbs
+	name = "Box of Fluorescent Bulbs"
 	icon_state = "box"
 	s_istate = "syringe_kit"
 

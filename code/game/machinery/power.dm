@@ -894,6 +894,10 @@
 // rebuild all power networks from scratch
 
 /proc/makepowernets()
+	if (defer_powernet_rebuild || powernets_building)
+		return
+	powernets_building = 1
+
 	var/netcount = 0
 	powernets = list()
 
@@ -932,7 +936,8 @@
 		M.powernet = powernets[M.netnum]
 		M.powernet.nodes += M
 
-
+	powernets_building = 0
+	world.log_game("Finished building powernets ([powernets.len] nets)")
 
 
 
@@ -1676,7 +1681,7 @@ var/powernet_nextlink_processing = 0
 			for(var/turf/T in orange(1,src))
 				var/d = get_dir(T, src)
 				for(var/obj/cable/C in T)
-					if(!C.netnum)
+					if(!C.netnum||C.netnum > powernets.len)
 						continue
 					if(C.d1==d||C.d2==d)
 						powernet=powernets[C.netnum]
@@ -1813,6 +1818,9 @@ var nextSolarID = 0
 				var/d = get_dir(T, src)
 				for(var/obj/cable/C in T)
 					if(!C.netnum)
+						continue
+					if(C.netnum>powernets.len)
+						world.log_game("<B>[name] tried to get powernet [C.netnum], powernets has [powernets.len] nets stored</B>")
 						continue
 					if(C.d1==d||C.d2==d)
 						powernet=powernets[C.netnum]

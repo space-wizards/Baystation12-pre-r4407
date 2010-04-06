@@ -17,30 +17,6 @@ var
 	TELEKINESIS = 12
 	DEAF = 13
 
-world/New()
-	..()
-	// shuffle
-	var/list/L = list(1,2,3,4,5,6,7,8,9,10,11,12,13)
-	for(var/i = 1, i<=20, i++)
-		var/one = pick(L)
-		var/two = pick(L)
-		var/temp = L[one]
-		L[one] = L[two]
-		L[two] = temp
-	BAD_VISION = L[1]
-	HULK = L[2]
-	HEADACHE = L[3]
-	STRANGE = L[4]
-	COUGH = L[5]
-	LIGHTHEADED = L[6]
-	TWITCH = L[7]
-	XRAY = L[8]
-	NERVOUS = L[9]
-	AURA = L[10]
-	ISBLIND = L[11]
-	TELEKINESIS = L[12]
-	DEAF = L[13]
-
 /proc/getleftblocks(input,blocknumber,blocksize)
 	var/string
 	string = copytext(input,1,((blocksize*blocknumber)-(blocksize-1)))

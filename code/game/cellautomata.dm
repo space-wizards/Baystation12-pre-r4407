@@ -85,16 +85,51 @@
 		src.status += ": [dd_list2text(features, ", ")]"
 
 /world/New()
+
+	config = new /datum/configuration()
+	config.load("config/config.txt")
+
 	..()
+
 	src.update_stat()
 
 	sun = new /datum/sun()
 
+	//spawn(0)
+	for (var/turf/T in world)
+		T.updatelinks()
+	makepipelines()
+	powernets_building = 0
+	makepowernets()
+
+	crban_loadbanfile()
+	crban_updatelegacybans()
+	jobban_loadbanfile()
+	jobban_updatelegacybans()
+	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 	spawn(0)
-		for (var/turf/T in world)
-			T.updatelinks()
-		makepipelines()
-		makepowernets()
+		SetupOccupationsList()
+		return
+	var/list/L2 = list(1,2,3,4,5,6,7,8,9,10,11,12,13)
+	for(var/i = 1, i<=20, i++)
+		var/one = pick(L2)
+		var/two = pick(L2)
+		var/temp = L2[one]
+		L2[one] = L2[two]
+		L2[two] = temp
+	BAD_VISION = L2[1]
+	HULK = L2[2]
+	HEADACHE = L2[3]
+	STRANGE = L2[4]
+	COUGH = L2[5]
+	LIGHTHEADED = L2[6]
+	TWITCH = L2[7]
+	XRAY = L2[8]
+	NERVOUS = L2[9]
+	AURA = L2[10]
+	ISBLIND = L2[11]
+	TELEKINESIS = L2[12]
+	DEAF = L2[13]
 
 	// ****stuff for presistent mode picking
 	var/newmode = null
@@ -134,8 +169,6 @@
 				admins[m_key] = a_lev
 				world.log << ("ADMIN: [m_key] = [a_lev]")
 
-	config = new /datum/configuration()
-	config.load("config/config.txt")
 	// apply some settings from config..
 	abandon_allowed = config.respawn
 

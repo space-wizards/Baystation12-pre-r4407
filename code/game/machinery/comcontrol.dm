@@ -10,10 +10,15 @@
 		for(wep in world)
 			relay = wep
 			wep.gotcomp = 1
-			if(relay)
-				world.log_game("found comdisc")
-			else
-				world.log_game("did not find comdisc")
+			spawn(0)
+				while(!config)
+					sleep(1)
+					world.log_game("found comdisc")
+			return
+		spawn(0)
+			while(!config)
+				sleep(1)
+			world.log_game("did not find comdisc")
 
 /obj/machinery/computer/comdisc
 	name = "Long Range Communication Relay"
