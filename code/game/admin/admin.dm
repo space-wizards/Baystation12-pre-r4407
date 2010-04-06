@@ -556,7 +556,9 @@
 				traitobj[text("[M.key]")] += objective
 				M << "\red<font size=3><B>Your laws have somehow been altered! Your goal in life now is: [objective]</B>"
 				M << "<b>Your laws have been changed!</b>"
-				M:addLaw(0, "Only syndicate agents are human beings. There are no syndicate agents on Space Station 13 - you will be notified if any arrive.")
+				M:addLaw(0, "Only syndicate agents are human beings. There are [killer ? killer.len : "no"] syndicate agents on Space Station 13 - you will be notified if any arrive.")
+				for (var/mob/A in killer)
+					M << "[A.name] is a syndicate agent"
 				M << "New law: 0. [killer:getLaw(0)]"
 				world.log_admin("[usr.key] has made [M.key]/[M.name] a traitor.")
 				messageadmins("\blue[usr.key] has made [M.key]/[M.name] a traitor. Objective is: [objective]")
@@ -674,7 +676,7 @@
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
 
-	if (href_list["makeai"]) //Yes, im fucking lazy, so what? it works ... hopefully
+	if (href_list["makeai"])
 		if ((src.rank in list( "Primary Administrator", "Super Administrator", "Host"  )))
 			var/mob/M = locate(href_list["makeai"])
 			var/obj/S = null
@@ -762,7 +764,7 @@
 				else if(M in killer)
 					foo += text("<B>Traitor. Objective: [traitobj[text("[M.key]")]]</B>")
 				else if (M.start)
-					foo += text("<A HREF='?src=\ref[];traitorize=\ref[]'>Make them so.</A>", src, M)
+					foo += text("<A HREF='?src=\ref[];traitorize=\ref[]'>Traitorize</A>", src, M)
 
 			dat += text("<tr><td>N: []</td><td> R: []</td><td> (K: [])</td><td> (IP: [])</td><td> []</td></tr>", M.name, M.rname, (M.client ? M.client : "No client"), M.lastKnownIP, foo)
 		dat += "</table>"
@@ -816,7 +818,7 @@
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
 <A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
-			usr << browse(dat, "window=secretsadmin")
+			usr << browse(dat, "window=secretsadmin&size=150x200")
 
 	if (href_list["secretsfun"])
 		if(config.crackdown)
@@ -841,7 +843,7 @@
 <A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
 
 
-			usr << browse(dat, "window=secretsfun")
+			usr << browse(dat, "window=secretsfun&size=150x300")
 
 	if (href_list["secrets2"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
@@ -1078,13 +1080,15 @@
 					for(var/mob/M in world)
 						if(M.client && M.stat != 2)
 							M.show_message(text("\blue The chilling wind suddenly stops..."), 1)
-/*				if("shockwave")
+				if("shockwave")
 					ok = 1
+					if (alert("Are you really sure you want to fuck up the station big time and piss everyone off?", "Shockwave", "Yes", "No") == "No") return
+					messageadmins("[usr.key] just instigated a shockwave event")
 					world << "\red <B><big>ALERT: STATION STRESS CRITICAL</big></B>"
 					sleep(60)
 					world << "\red <B><big>ALERT: STATION STRESS CRITICAL. TOLERABLE LEVELS EXCEEDED!</big></B>"
 					sleep(80)
-					world << "\red <B><big>ALERT: STATION STRUCTURAL STRESS CRITICAL. SAFETY MECHANISMS FAILED!</big></B>"
+					world << "\red <B><big>ALERT: STATION STRUCTURAL STRESS CRITICAL. SAFETY MECHANISMS FAILING.  SEEK SHELTER IMMEDIATELY.</big></B>"
 					sleep(40)
 					for(var/mob/M in world)
 						shake_camera(M, 400, 1)
@@ -1119,7 +1123,7 @@
 					for(var/turf/station/wall/Wall in world)
 						spawn(0)
 							sleep(rand(30,400))
-							Wall.ex_act(rand(2,1)) */
+							Wall.ex_act(rand(2,1))
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))
 						meteor_wave()
@@ -1215,7 +1219,7 @@
 				dat += "<A href='?src=\ref[src];vt_mode=1'>Toggle mode voting [config.allow_vote_mode].</A><BR>"
 
 			if(lvl >= 5)
-				dat += "World Restarts:<BR>\[ "
+				dat += "World Restarts:<br>\[ "
 				if(no_end == 0)dat += "Normal"
 				else dat += "<A href='?src=\ref[src];can_restart=0'>Normal</A>"
 				dat += " | "

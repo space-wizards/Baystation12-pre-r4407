@@ -43,8 +43,8 @@
 	var/datum/game_mode/mode = null
 	var/event_time = null
 	var/event = 0
-	var/list/revs = list()
-	var/list/targets = list()
+	var/list/mob/revs = list()
+	var/list/mob/targets = list()
 
 /datum/control/poll
 	//name = "poll"
