@@ -28,10 +28,6 @@
 
 	var/obj/machinery/M = null
 
-	if (!nodes.len)
-		world.log_game("Empty Pipeline \"[name]\", aborting setterm!")
-		return
-
 	for(var/obj/machinery/pipes/P in nodes)
 		if(!M)			// special case for 1st pipe
 			if(P.node1 && P.node1.ispipe())
@@ -71,7 +67,6 @@
 /obj/machinery/pipeline/process()
 
 	if (!numnodes)
-		world.log << "<B>Process on empty pipeline [name]</B>"
 		return
 
 	var/gtemp = ngas.temperature					// cached temperature for heat exch calc
@@ -191,6 +186,10 @@
 												// also sets the vnodes for the pipelines
 
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
+		if (!PL.numnodes)
+			plines -= PL
+			del PL
+			continue
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
 
 // return a list of pipes (not including terminating machine)

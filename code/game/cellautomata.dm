@@ -596,6 +596,10 @@
 			world << "<B>The game has picked mode: \red [src.mode.name]</B>"
 		else
 			src.mode = config.pick_mode(master_mode)
+			if (!src.mode)
+				world << "<B>\red Failed to pick a game mode!</B>"
+				world << "\blue Restart the world, or enjoy a round of extended."
+				src.mode = config.pick_mode("extended")
 			src.mode.announce()
 
 	src.mode.pre_setup()
