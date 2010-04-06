@@ -357,6 +357,10 @@
 	if(usr.stat == 2)
 		usr << "You can't call the shuttle because you are dead!"
 		return
+	if(!longradio)
+		usr << "\red You can't call the shuttle because the Comm dish is out of alignment!"
+		usr << "Align the dish first!"
+		return
 	call_shuttle_proc(src)
 	return
 

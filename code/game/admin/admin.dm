@@ -166,6 +166,18 @@
 			world.log_admin("[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
 			world.update_stat()
 			update()
+	if (href_list["emergshuttle"])
+		if (!( ticker.timeleft ))
+			ticker.timeleft = shuttle_time_to_arrive //marker3
+		world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
+		shuttlecomming = 1
+		ticker.timing = 1
+		update()
+	if (href_list["cancelshuttle"])
+		world << "\blue <B>Alert: The shuttle is going back!</B>" //marker4
+		shuttlecomming = 0
+		ticker.timing = -1.0
+		update()
 	if (href_list["centcom_report"])
 		if ((src.rank in list( "Administrator", "Super Moderator", "Primary Administrator", "Super Administrator", "Host" )))
 			var/t = null
@@ -818,7 +830,7 @@
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
 <A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
-			usr << browse(dat, "window=secretsadmin&size=150x200")
+			usr << browse(dat, "window=secretsadmin&size=350x400")
 
 	if (href_list["secretsfun"])
 		if(config.crackdown)
@@ -843,7 +855,7 @@
 <A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
 
 
-			usr << browse(dat, "window=secretsfun&size=150x300")
+			usr << browse(dat, "window=secretsfun&size=350x500")
 
 	if (href_list["secrets2"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
@@ -1232,13 +1244,19 @@
 
 			dat += "</td><td>"
 
-			if(lvl >= 2 )
+			if(lvl > 0 )
 				dat += "<center><b>Admin Goodies</b></center>"
 			if(lvl >= 3)
 				dat += "<A href='?src=\ref[src];secretsadmin=1'>Show Admin Secrets</A><br>"
 				dat += "<A href='?src=\ref[src];secretsfun=1'>Show Fun Secrets</A><br>"
 			if (lvl >= 5)
 				dat += "<A href='?src=\ref[src];create_object=1'>Create Object</A><br>"
+
+			if(lvl>0)
+				if(!shuttlecomming)
+					dat += "<A href='?src=\ref[src];emergshuttle=1'>Call the Emergency Shuttle</A><br>"
+				else
+					dat += "<A href='?src=\ref[src];cancelshuttle=1'>Return the Emergency Shuttle</A><br>"
 
 			dat += "</td></tr><tr><td>"
 

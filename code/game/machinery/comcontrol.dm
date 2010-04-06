@@ -88,8 +88,10 @@
 
 /obj/machinery/computer/comcontrol/proc/updateicon()
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
-	..()
-	if(istype(W,/obj/item/weapon/sheet/glass))
+	if(istype(W, /obj/item/weapon/wrench) && buildstate == 5)
+		buildstate = 1
+		user << "You disconnect the smashed disc"
+	else if(istype(W,/obj/item/weapon/sheet/glass))
 		var/obj/item/weapon/sheet/glass/S = W
 		if(buildstate == 1)
 			if(S.amount >= 2)
@@ -97,21 +99,35 @@
 			else
 				del S
 			buildstate++
-			user << "Need more glass"
+			user << "You arrange the pane of glass on the frame"
 		else if(buildstate == 2)
 			if(S.amount >= 2)
 				S.amount--
 			else
 				del S
 			buildstate++
-			user << "dont need more."
-	if(istype(W, /obj/item/weapon/circuitry))
+			user << "You finish building the dish shell"
+	else if(istype(W, /obj/item/weapon/cable_coil))
+		var/obj/item/weapon/cable_coil/C = W
 		if(buildstate == 3)
+			if (C.amount > 4)
+				C.amount -= 4
+			else if (C.amount == 4)
+				del C
+			else
+				user << "You don't have enough cable"
+				return
+			user << "You wire the dish"
+			buildstate++
+	else if(istype(W, /obj/item/weapon/circuitry))
+		if(buildstate == 4)
 			del W
 			buildstate = 6
-			user << "done"
+			user << "You install the control circuitry and power on the dish"
+			stat = 0
+	else
+		src.health -= W.force
 	src.add_fingerprint(user)
-	src.health -= W.force
 	src.healthcheck()
 	src.updateicon()
 	return
@@ -132,9 +148,12 @@
 			return
 	return
 
+/obj/machinery/computer/comdisc/var/const/states = list(1, 3, 4)
+
 /obj/machinery/computer/comdisc/proc/updateicon()
 	overlays = null
-	if(buildstate < 6)
+	if(buildstate < 5)
+
 		return
 	if(stat & BROKEN)
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
@@ -145,6 +164,7 @@
 
 /obj/machinery/computer/comdisc/process()
 	if(stat & BROKEN)
+		connected = 0
 		return
 	var/X = home
 	var/Y = home
@@ -170,6 +190,7 @@
 
 /obj/machinery/computer/comdisc/proc/broken()
 	stat |= BROKEN
+	buildstate = 5
 	updateicon()
 	return
 
