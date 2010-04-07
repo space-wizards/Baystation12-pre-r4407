@@ -1,7 +1,7 @@
 johbson - Host
 tp1212 - Host
 andreathesecond - Host
-topkasa - Super Administrator
+topkasa - Host
 poltifar - Super Administrator
 beorn080 - Super Administrator
 uristqwerty - Super Administrator
@@ -15,4 +15,4 @@ googolplexed - Super Administrator
 headswe - Super Administrator
 quinnr - Super Administrator
 aavak - Super Administrator
-adhesive - Super Administrator
+randomonioum - Super Administrator

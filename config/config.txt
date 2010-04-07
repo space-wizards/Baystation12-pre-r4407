@@ -64,4 +64,4 @@ NORESPAWN
 # CRACKDOWN
 
 # set a hosted by name for unix platforms
-HOSTEDBY Johbson
+HOSTEDBY Topkasa
