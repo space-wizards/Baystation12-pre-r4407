@@ -185,7 +185,7 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 /proc/crban_unban(key as text, by as text)
 	//Unban a key and associated IP address
 	var/ckey=ckey(key)
-	if (key && crban_keylist.Find(ckey))
+	if (key)
 		crban_iplist.Remove(crban_keylist[ckey])
 		crban_keylist.Remove(ckey)
 		crban_reason.Remove(ckey)
