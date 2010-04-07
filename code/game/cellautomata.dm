@@ -625,6 +625,8 @@
 		//Deleting Startpoints but we need the ai point to AIize people later
 		if (S.name != "AI")
 			del(S)
+			continue
+		S.icon_state = null
 
 // *****
 // MAIN LOOP OF PROGRAM
@@ -651,9 +653,12 @@ var/update_state = 0
 				M.UpdateClothing()
 				return
 		sleep(10)
+		updateap()
 
 	time = (++time %10)
 	supplytime = (++supplytime % 100)
+
+	updateap()
 
 	if (!supplytime && supply_shuttle_points < 75)
 		supply_shuttle_points += 1

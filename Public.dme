@@ -76,6 +76,8 @@
 #define DEBUG
 // END_PREFERENCES
 
+//Do not move this one include, it is here and not in the automatic section for a good reason.
+#include "code\game\admin\newpanelconfig.dm"
 // BEGIN_INCLUDE
 #include "todo.dm"
 #include "code\atoms.dm"
@@ -115,6 +117,8 @@
 #include "code\game\admin\ban.dm"
 #include "code\game\admin\banjob.dm"
 #include "code\game\admin\create_object.dm"
+#include "code\game\admin\newpanel.dm"
+#include "code\game\admin\newpanelconfig.dm"
 #include "code\game\area\ai_monitored.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\Space Station 13 areas.dm"

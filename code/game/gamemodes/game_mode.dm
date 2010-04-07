@@ -4,6 +4,9 @@
 	var/votable = 1
 	var/probability = 1
 
+/datum/game_mode/proc/admininfo()
+	return "[src]"
+
 // Default check win
 /datum/game_mode/proc/announce()
 	world << "<B>[src] did not define announce()</B>"

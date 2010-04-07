@@ -5,6 +5,11 @@
 	var/stage = 0
 	var/next_stage = 0
 
+/datum/game_mode/blob/admininfo()
+	if (!blobs || !blobs.len)
+		return "The blob has not yet begun infesting the station"
+	return "The blob has infested [round(blobs.len / 1000, 0.1)]% of the amount of the station needed for Centcom to issue directive 7-12"
+
 /datum/game_mode/blob/announce()
 	world << "<B>The current game mode is - <font color='green'>Blob</font>!</B>"
 	world << "<B>A dangerous alien organism is rapidly spreading throughout the station!</B>"
