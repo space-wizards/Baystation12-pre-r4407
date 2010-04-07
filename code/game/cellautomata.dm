@@ -85,16 +85,51 @@
 		src.status += ": [dd_list2text(features, ", ")]"
 
 /world/New()
+
+	config = new /datum/configuration()
+	config.load("config/config.txt")
+
 	..()
+
 	src.update_stat()
 
+	sun = new /datum/sun()
+
+	//spawn(0)
 	for (var/turf/T in world)
 		T.updatelinks()
-
 	makepipelines()
+	powernets_building = 0
 	makepowernets()
 
-	sun = new /datum/sun()
+	crban_loadbanfile()
+	crban_updatelegacybans()
+	jobban_loadbanfile()
+	jobban_updatelegacybans()
+	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
+	spawn(0)
+		SetupOccupationsList()
+		return
+	var/list/L2 = list(1,2,3,4,5,6,7,8,9,10,11,12,13)
+	for(var/i = 1, i<=20, i++)
+		var/one = pick(L2)
+		var/two = pick(L2)
+		var/temp = L2[one]
+		L2[one] = L2[two]
+		L2[two] = temp
+	BAD_VISION = L2[1]
+	HULK = L2[2]
+	HEADACHE = L2[3]
+	STRANGE = L2[4]
+	COUGH = L2[5]
+	LIGHTHEADED = L2[6]
+	TWITCH = L2[7]
+	XRAY = L2[8]
+	NERVOUS = L2[9]
+	AURA = L2[10]
+	ISBLIND = L2[11]
+	TELEKINESIS = L2[12]
+	DEAF = L2[13]
 
 	// ****stuff for presistent mode picking
 	var/newmode = null
@@ -134,8 +169,6 @@
 				admins[m_key] = a_lev
 				world.log << ("ADMIN: [m_key] = [a_lev]")
 
-	config = new /datum/configuration()
-	config.load("config/config.txt")
 	// apply some settings from config..
 	abandon_allowed = config.respawn
 
@@ -515,7 +548,8 @@
 /datum/control/gameticker/proc/check_win()
 	if (!mode.check_win())
 		return 0
-
+	if (!nuclearend)
+		return 0
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
 			world << "<b>The AI's laws at the end of the game were:</b>"
@@ -523,22 +557,24 @@
 			world << "<b>The AI's laws when it was deactivated were:</b>"
 		aiPlayer.showLaws(1)
 
-	var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
-	if (src.shuttle_location == 1) //Altered to support superareas.
-		for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
-			for(var/turf/T in A)
-				if (T.z == 1)
-					for(var/atom/movable/AM as mob|obj in T)
-						A\M.z = shuttle_z
-					var/turf/U = locate(T.x, T.y, shuttle_z)
-					U.oxygen = T.oxygen
-					U.poison = T.poison
-					U.co2 = T.co2
+	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear
+		var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
+		if (src.shuttle_location == 1) //Altered to support superareas.
+			for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
+				for(var/turf/T in A)
+					if (T.z == 1)
+						for(var/atom/movable/AM as mob|obj in T)
+							A\M.z = shuttle_z
+						var/turf/U = locate(T.x, T.y, shuttle_z)
+						U.oxygen = T.oxygen
+						U.poison = T.poison
+						U.co2 = T.co2
 
-					U.buildlinks()
-					del(T)
+						U.buildlinks()
+						del(T)
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
+	roundover = 1
 	world.Reboot()
 	return 1
 
@@ -560,6 +596,10 @@
 			world << "<B>The game has picked mode: \red [src.mode.name]</B>"
 		else
 			src.mode = config.pick_mode(master_mode)
+			if (!src.mode)
+				world << "<B>\red Failed to pick a game mode!</B>"
+				world << "\blue Restart the world, or enjoy a round of extended."
+				src.mode = config.pick_mode("extended")
 			src.mode.announce()
 
 	src.mode.pre_setup()

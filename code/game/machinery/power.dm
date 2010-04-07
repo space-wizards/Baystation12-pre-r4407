@@ -502,7 +502,8 @@
 		NC.d2 = dirn
 		NC.add_fingerprint()
 		NC.updateicon()
-		NC.update_network()
+		spawn(1)
+			NC.update_network()
 		coil.use(1)
 		return
 	else
@@ -794,7 +795,8 @@
 		C.d2 = dirn
 		C.add_fingerprint(user)
 		C.updateicon()
-		C.update_network()
+		spawn(1)
+			C.update_network()
 		use(1)
 		//src.laying = 1
 		//last = C
@@ -844,7 +846,8 @@
 			NC.d2 = fdirn
 			NC.add_fingerprint()
 			NC.updateicon()
-			NC.update_network()
+			spawn(1)
+				NC.update_network()
 			use(1)
 			C.shock(user, 25)
 		//	usr.unlock_medal("Shocking Situation",1,"Get electrocuted. Wear orange gloves next time.","easy")
@@ -875,7 +878,8 @@
 		NC.d2 = nd2
 		NC.add_fingerprint()
 		NC.updateicon()
-		NC.update_network()
+		spawn(1)
+			NC.update_network()
 
 		use(1)
 
@@ -909,6 +913,9 @@
 // rebuild all power networks from scratch
 
 /proc/makepowernets()
+	if (defer_powernet_rebuild || powernets_building)
+		return
+	powernets_building = 1
 
 	var/netcount = 0
 	powernets = list()
@@ -948,7 +955,8 @@
 		M.powernet = powernets[M.netnum]
 		M.powernet.nodes += M
 
-
+	powernets_building = 0
+	world.log_game("Finished building powernets ([powernets.len] nets)")
 
 
 
@@ -1399,7 +1407,8 @@ var/powernet_nextlink_processing = 0
 				if(M.amount==5)
 					del(W)
 				else M.amount-=5
-				makepowernets()
+				spawn(1)
+					makepowernets()
 				return
 			else
 				user<<"You must be standing next to the SMES to the north, south, east,or west."
@@ -1687,17 +1696,9 @@ var/powernet_nextlink_processing = 0
 			sleep(10)
 		updateicon()
 		updatefrac()
-		if(!powernet)
-			for(var/turf/T in orange(1,src))
-				var/d = get_dir(T, src)
-				for(var/obj/cable/C in T)
-					if(!C.netnum)
-						continue
-					if(C.d1==d||C.d2==d)
-						powernet=powernets[C.netnum]
-						netnum=C.netnum
-						powernet.nodes+=src
-		if(powernet)
+		spawn(0)
+			while(!powernet)
+				sleep(1)
 			for(var/obj/machinery/power/solar_control/SC in powernet.nodes)
 				if(!id)
 					id=SC.id
@@ -1823,22 +1824,14 @@ var nextSolarID = 0
 			sleep(5)
 			id=nextSolarID+1
 		if(isnum(id) && id>nextSolarID)nextSolarID=id
-		if(!powernet)
-			for(var/turf/T in orange(1,src))
-				var/d = get_dir(T, src)
-				for(var/obj/cable/C in T)
-					if(!C.netnum)
-						continue
-					if(C.d1==d||C.d2==d)
-						powernet=powernets[C.netnum]
-						netnum=C.netnum
-						powernet.nodes+=src
-		if(!powernet) return
-		for(var/obj/machinery/power/solar/S in powernet.nodes)
-			if(!S.id)S.id=id
-			if(S.id != id) continue
-			cdir = S.adir
-			updateicon()
+		spawn(0)
+			while(!powernet)
+				sleep(1)
+			for(var/obj/machinery/power/solar/S in powernet.nodes)
+				if(!S.id) S.id=id
+				if(S.id != id) continue
+				cdir = S.adir
+				updateicon()
 
 /obj/machinery/power/solar_control/attackby(obj/item/weapon/W, mob/user)
 	if(building)

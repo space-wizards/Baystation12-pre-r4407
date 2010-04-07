@@ -1,14 +1,3 @@
-/world/New()
-	..()
-	crban_loadbanfile()
-	crban_updatelegacybans()
-	jobban_loadbanfile()
-	jobban_updatelegacybans()
-	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
-	spawn(0)
-		SetupOccupationsList()
-		return
-	return
 
 /mob/human/verb/char_setup()
 	set name = "Character Setup"

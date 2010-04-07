@@ -1,5 +1,5 @@
 /datum/game_mode/revolution
-	name = "revolution"
+	name = "Revolution"
 	config_tag = "revolution"
 
 /datum/game_mode/revolution/announce()
@@ -21,7 +21,7 @@
 		pick_killer()
 	for(var/rev in ticker.revs) //For every revolutionairy
 		rev << revmission        //give them their mission
-		if (rev in ticker.revs==1) //is this one the leader?
+		if (rev in ticker.revs) //is this one the leader?
 			if(NrofRevs == 1)      //if he is, is he alone?
 				rev << "\blue You are the sole leader of the new revolution!"
 			else //so he's not alone, the other's names will be given when this loop passes his subordinates
@@ -29,7 +29,7 @@
 		else  //not the leader
 			rev << "\blue You are the an officer in the new revolution!"
 			rev << "\blue [ticker.revs[1]] is your leader"
-			if(NrofRevs== 2) //now to send a message to the leader that this rev is his subordinate
+			if(NrofRevs == 2) //now to send a message to the leader that this rev is his subordinate
 				ticker.revs[1] << "\blue [rev] is your loyal officer."
 			else
 				ticker.revs[1] << "\blue [rev] is one of your officers."

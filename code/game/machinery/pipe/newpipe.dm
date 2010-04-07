@@ -65,21 +65,13 @@
 	//if(suffix == "d" && Debug) world.log << "PLF2  [gas.tot_gas()] ~ [ngas.tot_gas()]"
 
 /obj/machinery/pipeline/process()
-	// heat exchange for whole pipeline
 
-	//if(suffix=="dbgp")
-	//	world.log << "PLP"
-	//	Plasma()
-
-//	var/dbg = (suffix == "d") && Debug
-
-	//if(dbg) world.log << "PLP1 [gas.tot_gas()] ~ [ngas.tot_gas()]"
-
+	if (!numnodes)
+		return
 
 	var/gtemp = ngas.temperature					// cached temperature for heat exch calc
-	var/tot_node = ngas.tot_gas() / numnodes		// fraction of gas in this node
+	var/tot_node = ngas.tot_gas() / src.numnodes	// fraction of gas in this node
 
-	//if(dbg) world.log << "PLHE: [gtemp] [tot_node]"
 
 	if(tot_node>0.1)		// no pipe contents, don't heat
 		for(var/obj/machinery/pipes/P in src.nodes)		// for each segment of pipe
@@ -87,9 +79,6 @@
 
 
 	// now do standard gas flow proc
-
-
-	//if(dbg) world.log << "PLP2 [ngas.tot_gas()]"
 
 	var/delta_gt
 
@@ -154,10 +143,7 @@
 	for(var/obj/machinery/pipes/P in machines)		// look for a pipe
 
 		if(!P.plnum)							// if not already part of a line
-			P.buildnodes(++linecount)			// add it, and spread to all connected pipes
-
-			//world.log<<"Line #[linecount] started at [P] ([P.x],[P.y],[P.z])"
-
+			P.buildnodes(++linecount) // add it, and spread to all connected pipes
 
 	for(var/L = 1 to linecount)					// for count of lines found
 		var/obj/machinery/pipeline/PL = new()	// make a pipeline virtual object
@@ -172,10 +158,11 @@
 			var/obj/machinery/pipeline/PL = plines[P.plnum]		// get the pipeline from the pipe's pl-number
 
 			var/list/pipes = pipelist(null, P)	// get a list of pipes from P until terminated
-
+			if (!pipes.len)
+				world.log_game("Built empty pipeline starting from pipe at \[[P.x] [P.y] [P.z]]!")
 			PL.nodes = pipes					// pipeline is this list of nodes
 			PL.numnodes = pipes.len				// with this many nodes
-			PL.capmult = PL.numnodes+1	// with this flow multiplier
+			PL.capmult = PL.numnodes+1			// with this flow multiplier
 
 
 
@@ -199,6 +186,10 @@
 												// also sets the vnodes for the pipelines
 
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
+		if (!PL.numnodes)
+			plines -= PL
+			del PL
+			continue
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
 
 // return a list of pipes (not including terminating machine)
@@ -386,6 +377,8 @@
 
 	var/list/dirs = get_dirs()
 
+	var/nodes = 0
+
 	node1 = get_machine(level, src.loc, dirs[1])
 	node2 = get_machine(level, src.loc, dirs[2])
 
@@ -397,15 +390,16 @@
 
 	if(node1 && node1.ispipe() )
 
-		node1.buildnodes(linenum)
+		nodes += node1.buildnodes(linenum)
 	else
 		termination++
 
 	if(node2 && node2.ispipe() )
-		node2.buildnodes(linenum)
+		nodes += node2.buildnodes(linenum)
 	else
 		termination++
 
+	return nodes + 1
 
 /obj/machinery/pipes/heat_exch/get_dirs()
 	var/b1

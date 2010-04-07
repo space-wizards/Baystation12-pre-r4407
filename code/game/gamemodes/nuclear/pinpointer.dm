@@ -23,7 +23,6 @@
 
 			if (sr)
 				src.temp += "<B>Located Disks:</B><BR>"
-
 				for(var/obj/item/weapon/disk/nuclear/W in world)
 					var/turf/tr = get_turf(W)
 					if (tr && tr.z == sr.z)
@@ -32,28 +31,26 @@
 						var/directional = dir2text(get_dir(sr, tr));
 
 						if (distance < 5)
-							strength = "very strong"
+							strength = "Very strong"
 						else if (distance < 10)
-							strength = "strong"
+							strength = "Strong"
 						else if (distance < 15)
-							strength = "weak"
+							strength = "Weak"
 						else if (distance < 20)
-							strength = "very weak"
+							strength = "Very weak"
 							directional = "unknown"
 						else
 							continue
-
 						if (!directional)
 							directional = "right on top of it"
 
-						src.temp += "[directional]-[strength]<BR>"
+						src.temp += "[directional] - [strength]<BR>"
 
 				src.temp += "<B>You are at \[[sr.x],[sr.y],[sr.z]\]</B> in orbital coordinates.<BR><BR><A href='byond://?src=\ref[src];refresh=1'>Refresh</A><BR>"
 			else
 				src.temp += "<B><FONT color='red'>Processing Error:</FONT></B> Unable to locate orbital position.<BR>"
 		else if (href_list["temp"])
 			src.temp = null
-
 		if (istype(src.loc, /mob))
 			attack_self(src.loc)
 		else

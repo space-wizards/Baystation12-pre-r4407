@@ -66,6 +66,8 @@ var
 	list/killer = list()
 	list/cardinal = list( NORTH, SOUTH, EAST, WEST )
 
+	roundover = 0
+	nuclearend = 0
 
 	datum/station_state/start_state = null
 	datum/configuration/config = null
@@ -79,6 +81,7 @@ var
 	list/powernets = null
 
 	defer_powernet_rebuild = 0		// true if net rebuild will be called manually after an event
+	powernets_building = 1
 
 	Debug = 0	// global debug switch
 	Debug2 = 0

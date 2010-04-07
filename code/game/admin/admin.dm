@@ -166,6 +166,18 @@
 			world.log_admin("[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
 			world.update_stat()
 			update()
+	if (href_list["emergshuttle"])
+		if (!( ticker.timeleft ))
+			ticker.timeleft = shuttle_time_to_arrive //marker3
+		world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
+		shuttlecomming = 1
+		ticker.timing = 1
+		update()
+	if (href_list["cancelshuttle"])
+		world << "\blue <B>Alert: The shuttle is going back!</B>" //marker4
+		shuttlecomming = 0
+		ticker.timing = -1.0
+		update()
 	if (href_list["centcom_report"])
 		if ((src.rank in list( "Administrator", "Super Moderator", "Primary Administrator", "Super Administrator", "Host" )))
 			var/t = null
@@ -538,10 +550,14 @@
 				N.l_store = W
 				killer += N
 				traitobj[text("[M.key]")] += objective
-				M << "\red<font size=3><B>You are the traitor! Your objective is: [objective]</B>"
-				M << "A syndicate uplink has been hidden in your left pocket, use it to achieve your objective"
+				M << "\red<font size=3><B>You are now a traitor! Your objective is: [objective]</B>"
 				world.log_admin("[usr.key] has made [M.key]/[M.name] a traitor.")
 				messageadmins("\blue[usr.key] has made [M.key]/[M.name] a traitor. Objective is: [objective]")
+				if(istype(N.l_store, /obj/item/weapon/syndicate_uplink))
+					M << "A syndicate uplink has been hidden in your left pocket, use it to achieve your objective"
+				else
+					usr << ("\red [M.key]/[M.name] has no syndicate uplink, consider spawning them one.")
+					M << "\red The Syndicate was unable to send you an uplink."
 				href_list["tratmenu"] = 1
 			else if (ismob(M) && istype(M, /mob/ai))
 				var/mob/ai/N = M
@@ -550,16 +566,17 @@
 					return
 				killer += N
 				traitobj[text("[M.key]")] += objective
-				M << "\red<font size=3><B>You are the traitor! Your objective is: [objective]</B>"
-				M << "A syndicate uplink has been hidden in your left pocket, use it to achieve your objective"
+				M << "\red<font size=3><B>Your laws have somehow been altered! Your goal in life now is: [objective]</B>"
 				M << "<b>Your laws have been changed!</b>"
-				M:addLaw(0, "Only syndicate agents are human beings. There are no syndicate agents on Space Station 13 - you will be notified if any arrive.")
+				M:addLaw(0, "Only syndicate agents are human beings. There are [killer ? killer.len : "no"] syndicate agents on Space Station 13 - you will be notified if any arrive.")
+				for (var/mob/A in killer)
+					M << "[A.name] is a syndicate agent"
 				M << "New law: 0. [killer:getLaw(0)]"
 				world.log_admin("[usr.key] has made [M.key]/[M.name] a traitor.")
 				messageadmins("\blue[usr.key] has made [M.key]/[M.name] a traitor. Objective is: [objective]")
 				href_list["tratmenu"] = 1
 			else
-				alert("I cannot allow this to happen")
+				alert("Only humans and the AI can be traitors")
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
@@ -671,7 +688,7 @@
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
 
-	if (href_list["makeai"]) //Yes, im fucking lazy, so what? it works ... hopefully
+	if (href_list["makeai"])
 		if ((src.rank in list( "Primary Administrator", "Super Administrator", "Host"  )))
 			var/mob/M = locate(href_list["makeai"])
 			var/obj/S = null
@@ -749,17 +766,17 @@
 					return
 				if (ticker.killer && M.key==ticker.killer.key)
 					if(ticker.objective == 1)
-						foo += text("<B>Is a Traitor. Objective: To murder someone</B>")
+						foo += text("<B>Traitor. Objective: To murder someone</B>")
 					if(ticker.objective == 2)
-						foo += text("<B>Is a Traitor. Objective: To hijack the shuttle</B>")
+						foo += text("<B>Traitor. Objective: To hijack the shuttle</B>")
 					if(ticker.objective == 3)
-						foo += text("<B>Is a Traitor. Objective: To steal something</B>")
+						foo += text("<B>Traitor. Objective: To steal something</B>")
 					if(ticker.objective == 4)
-						foo += text("<B>Is a Traitor. Objective: To sabotage something</B>")
+						foo += text("<B>Traitor. Objective: To sabotage something</B>")
 				else if(M in killer)
-					foo += text("<B>Is a Traitor. Objective: [traitobj[text("[M.key]")]]</B>")
+					foo += text("<B>Traitor. Objective: [traitobj[text("[M.key]")]]</B>")
 				else if (M.start)
-					foo += text("<A HREF='?src=\ref[];traitorize=\ref[]'>Make Traitor</A>", src, M)
+					foo += text("<A HREF='?src=\ref[];traitorize=\ref[]'>Traitorize</A>", src, M)
 
 			dat += text("<tr><td>N: []</td><td> R: []</td><td> (K: [])</td><td> (IP: [])</td><td> []</td></tr>", M.name, M.rname, (M.client ? M.client : "No client"), M.lastKnownIP, foo)
 		dat += "</table>"
@@ -799,19 +816,11 @@
 			else
 				world.log_admin("[usr.key] created [number]ea [object]")
 
-	if (href_list["secrets"])
-		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
-			var/dat = {"
-<B>Which menu would you like to go to?</B><HR>
-<A href='?src=\ref[src];secretsadmin=1'>Admin Secrets</A><BR>
-<A href='?src=\ref[src];secretsfun=1'>Fun Secrets</A><BR>"}
-			usr << browse(dat, "window=secrets")
-
 	if (href_list["secretsadmin"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
 			var/dat = {"
 <B>What secret do you wish to activate?</B><HR>
-<A href='?src=\ref[src];secrets2=clear_bombs'>Remove all bombs currently  existence</A><BR>
+<A href='?src=\ref[src];secrets2=clear_bombs'>Remove all bombs currently in existence</A><BR>
 <A href='?src=\ref[src];secrets2=list_bombers'>Show a list of all people who made a bomb</A><BR>
 <A href='?src=\ref[src];secrets2=check_antagonist'>Show the key of the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=check_antagonist_goal'>Show the goal of the traitor</A><BR>
@@ -821,7 +830,7 @@
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
 <A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
-			usr << browse(dat, "window=secretsadmin")
+			usr << browse(dat, "window=secretsadmin&size=350x400")
 
 	if (href_list["secretsfun"])
 		if(config.crackdown)
@@ -846,7 +855,7 @@
 <A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
 
 
-			usr << browse(dat, "window=secretsfun")
+			usr << browse(dat, "window=secretsfun&size=350x500")
 
 	if (href_list["secrets2"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
@@ -967,16 +976,18 @@
 				if("activateprison")
 					world << "\blue <B>Transit signature detected.</B>"
 					world << "\blue <B>Incoming shuttle.</B>"
-					var/A = locate(/area/shuttle_prison)
-					for(var/atom/movable/AM as mob|obj in A)
-						AM.z = 1
-						AM.Move()
+					var/area/A = locate(/area/shuttle_prison)
+					for (var/area/B in A.superarea.areas)
+						for(var/atom/movable/AM as mob|obj in B)
+							AM.z = 1
+							AM.Move()
 					messageadmins("\blue [usr.key] sent the prison shuttle to the station.")
 				if("deactivateprison")
-					var/A = locate(/area/shuttle_prison)
-					for(var/atom/movable/AM as mob|obj in A)
-						AM.z = 2
-						AM.Move()
+					var/area/A = locate(/area/shuttle_prison)
+					for (var/area/B in A.superarea.areas)
+						for(var/atom/movable/AM as mob|obj in B)
+							AM.z = 2
+							AM.Move()
 					messageadmins("\blue [usr.key] sent the prison shuttle back.")
 				if("toggleprisonstatus")
 					for(var/obj/machinery/computer/prison_shuttle/PS in world)
@@ -1081,13 +1092,15 @@
 					for(var/mob/M in world)
 						if(M.client && M.stat != 2)
 							M.show_message(text("\blue The chilling wind suddenly stops..."), 1)
-/*				if("shockwave")
+				if("shockwave")
 					ok = 1
+					if (alert("Are you really sure you want to fuck up the station big time and piss everyone off?", "Shockwave", "Yes", "No") == "No") return
+					messageadmins("[usr.key] just instigated a shockwave event")
 					world << "\red <B><big>ALERT: STATION STRESS CRITICAL</big></B>"
 					sleep(60)
 					world << "\red <B><big>ALERT: STATION STRESS CRITICAL. TOLERABLE LEVELS EXCEEDED!</big></B>"
 					sleep(80)
-					world << "\red <B><big>ALERT: STATION STRUCTURAL STRESS CRITICAL. SAFETY MECHANISMS FAILED!</big></B>"
+					world << "\red <B><big>ALERT: STATION STRUCTURAL STRESS CRITICAL. SAFETY MECHANISMS FAILING.  SEEK SHELTER IMMEDIATELY.</big></B>"
 					sleep(40)
 					for(var/mob/M in world)
 						shake_camera(M, 400, 1)
@@ -1122,7 +1135,7 @@
 					for(var/turf/station/wall/Wall in world)
 						spawn(0)
 							sleep(rand(30,400))
-							Wall.ex_act(rand(2,1)) */
+							Wall.ex_act(rand(2,1))
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))
 						meteor_wave()
@@ -1141,7 +1154,7 @@
 					world << text("<B>Automatic world restarts enabled by []</B>",usr.key)
 					no_end = 0
 				if("1")
-					world << text("<B>Automatic world restarts partially disabled by []</B><br> Votes stil work, and the owrld will still reset if everybody dies.",usr.key)
+					world << text("<B>Automatic world restarts partially disabled by []</B><br> Restart votes still work, and the world will still reset if everybody dies.",usr.key)
 					no_end = 1
 				if("2")
 					world << text("<B>Automatic world restarts disabled by []</B>",usr.key)
@@ -1174,32 +1187,39 @@
 	switch(src.screen)
 		if(1.0)
 
-			dat += "<center><B>Admin Control Console</B></center><hr>\n"
+			dat += "<style type=\"text/css\">td {vertical-align: top; border: 1px solid grey;}</style><center><B>Admin Control Console</B></center><hr>\n<table style=\"width: 100%; border: 1px solid grey;\"><tr><td>"
 
 			if(lvl >= 2)
+				dat += "<center><b>Bans</b></center>"
 				dat += "<A href='?src=\ref[src];boot=1'>Boot Player/Key</A><br>"
 				dat += "<A href='?src=\ref[src];ban=1'>Ban/Unban Player/Key</A><br>"
 				dat += "<A href='?src=\ref[src];mute=1'>Mute/Unmute Player/Key</A><br>"
 			if (lvl >= 5)
 				dat += "<A href='?src=\ref[src];ipban=1'>IP Ban</A><br>"
-			dat += "<br>"
+
+			dat += "</td><td>"
 
 			if(lvl > 0)
+				dat += "<center><b>Game Control</b></center>"
 				dat += "<A href='?src=\ref[src];t_ooc=1'>Toggle OOC</A><br>"
 				dat += "<A href='?src=\ref[src];delay=1'>Delay Game</A><br>"
 				dat += "<A href='?src=\ref[src];startnow=1'>Start Round Now</A><br>"
 
 			if(lvl >= 2 )
+				dat += "<A href='?src=\ref[src];c_mode=1'>Change Game Mode</A><br>"
 				dat += "<A href='?src=\ref[src];toggle_enter=1'>Toggle Entering [enter_allowed]</A><br>"
 				dat += "<A href='?src=\ref[src];toggle_abandon=1'>Toggle Abandon [abandon_allowed]</A><br>"
 				dat += "<A href='?src=\ref[src];toggle_ai=1'>Toggle AI [config.allow_ai]</A><br>"
 
-				dat += "<A href='?src=\ref[src];c_mode=1'>Change Game Mode</A><br>"
-			if(lvl >= 2)
+
+			dat += "</td></tr><tr><td>"
+
+			if(lvl>0)
+				dat += "<center><b>World Restart Control</b></center>"
+
+			if(lvl >= 2 )
 				dat += "<A href='?src=\ref[src];restart=1'>Restart Game</A><br>"
 				dat += "<A href='?src=\ref[src];restart3=1'>Immediate Reboot</A><br>"
-
-			dat += "<BR>"
 
 			if(lvl > 0)
 				dat += "<A href='?src=\ref[src];vmode=1'>Begin restart vote.</A><BR>"
@@ -1210,37 +1230,55 @@
 				dat += "<A href='?src=\ref[src];vt_rst=1'>Toggle restart voting [config.allow_vote_restart].</A><BR>"
 				dat += "<A href='?src=\ref[src];vt_mode=1'>Toggle mode voting [config.allow_vote_mode].</A><BR>"
 
-			dat += "<BR>"
+			if(lvl >= 5)
+				dat += "World Restarts:<br>\[ "
+				if(no_end == 0)dat += "Normal"
+				else dat += "<A href='?src=\ref[src];can_restart=0'>Normal</A>"
+				dat += " | "
+				if(no_end == 1) dat += "Manual or All Dead"
+				else dat += "<A href='?src=\ref[src];can_restart=1'>Manual or All Dead</A>"
+				dat += " | "
+				if(no_end == 2)dat += "Admin Only"
+				else dat += "<A href='?src=\ref[src];can_restart=2'>Admin Only</A>"
+				dat += " ]"
 
-			if(lvl >= 2 )
-				dat += "<A href='?src=\ref[src];secrets=1'>Activate Secrets</A><br>"
+			dat += "</td><td>"
+
+			if(lvl > 0 )
+				dat += "<center><b>Admin Goodies</b></center>"
+			if(lvl >= 3)
+				dat += "<A href='?src=\ref[src];secretsadmin=1'>Show Admin Secrets</A><br>"
+				dat += "<A href='?src=\ref[src];secretsfun=1'>Show Fun Secrets</A><br>"
 			if (lvl >= 5)
 				dat += "<A href='?src=\ref[src];create_object=1'>Create Object</A><br>"
-				dat += "World restarts? "
-				if(no_end == 0)dat += "yes"
-				else dat += "<A href='?src=\ref[src];can_restart=0'>yes</A>"
-				if(no_end == 1)dat += "vote, all dead, or force"
-				else dat += "| <A href='?src=\ref[src];can_restart=1'>vote, all dead, or force</A>"
-				if(no_end == 2)dat += "force only"
-				else dat += "| <A href='?src=\ref[src];can_restart=2'>force only</A><br>"
 
-			dat += "<BR>"
+			if(lvl>0)
+				if(!shuttlecomming)
+					dat += "<A href='?src=\ref[src];emergshuttle=1'>Call the Emergency Shuttle</A><br>"
+				else
+					dat += "<A href='?src=\ref[src];cancelshuttle=1'>Return the Emergency Shuttle</A><br>"
+
+			dat += "</td></tr><tr><td>"
 
 			if(lvl >= 2 )
-
+				dat += "<center><b>Records</b></center>"
 				dat += "<A href='?src=\ref[src];dna=1'>List DNA</A><br>"
 				dat += "<A href='?src=\ref[src];l_keys=1'>List Keys</A><br>"
 				dat += "<A href='?src=\ref[src];l_players=1'>List Players/Keys</A><br>"
+			if(lvl>=3)
+				dat += "<A href='?src=\ref[src];tratmenu=1'>Manage Traitors</A><br>"
 
+			dat += "</td><td>"
+			dat += "<center><b>Messaging</b></center>"
 			dat += "<A href='?src=\ref[src];g_send=1'>Send Global Message</A><br>"
 			dat += "<A href='?src=\ref[src];p_send=1'>Send Private Message</A><br>"
 			dat += "<A HREF='?src=\ref[src];centcom_report=\ref[src]'>Send a CentCom Report</A><br>"
-			// head watch this
-
+			dat += "</td></tr></table>"
+			usr << browse(dat, "window=admin&size=600x525")
 
 		else
 			dat = text("<center><B>Admin Control Center</B></center><hr>\n<A href='?src=\ref[];access=1'>Access Admin Commands</A><br>\n<A href='?src=\ref[];contact=1'>Contact Admins</A><br>\n<A href='?src=\ref[];message=1'>Access Messageboard</A><br>\n<br>\n<A href='?src=\ref[];l_keys=1'>List Keys</A><br>\n<A href='?src=\ref[];l_players=1'>List Players/Keys</A><br>\n<A href='?src=\ref[];g_send=1'>Send Global Message</A><br>\n<A href='?src=\ref[];p_send=1'>Send Private Message</A><br>", src, src, src, src, src, src, src)
-	usr << browse(dat, "window=admin")
+			usr << browse(dat, "window=admin")
 	return
 
 

@@ -3072,7 +3072,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/id = 1
 	var/obj/machinery/gas_sensor/gs
 	req_access = list(access_eject_engine)
-
+/obj/machinery/computer/gasmon
+	name = "Gas Monitor"
+	icon_state = "solar_control"
+	icon = 'enginecomputer.dmi'
+	var/temp = null
+	var/id = 1
+	var/atmos = 0
+	var/obj/machinery/gas_sensor/gs
 /obj/machinery/computer/hologram_comp
 	name = "Hologram Computer"
 	icon = 'stationobjs.dmi'
@@ -3898,9 +3905,10 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/turn_angle = 0
 	var/obj/machinery/power/solar_control/control
 	var/building=0
+
 /obj/machinery/computer/comdisc
-	name = "solar panel"
-	desc = "A solar electrical generator."
+	name = "Communications Dish"
+	desc = "A communcations dish on a rotating base"
 	icon = 'power.dmi'
 	icon_state = "sp_base"
 	anchored = 1
@@ -4673,7 +4681,12 @@ obj/machinery/vendingmachine/soda
 	basetype = /obj/item/weapon/bulb/incandescent
 
 /obj/item/weapon/storage/lightbulbs
-	name = "Box of lightbulbs"
+	name = "Box of Incandescent Bulbs"
+	icon_state = "box"
+	s_istate = "syringe_kit"
+
+/obj/item/weapon/storage/fluorescentbulbs
+	name = "Box of Fluorescent Bulbs"
 	icon_state = "box"
 	s_istate = "syringe_kit"
 

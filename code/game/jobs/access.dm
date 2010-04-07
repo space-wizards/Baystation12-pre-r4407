@@ -42,6 +42,7 @@
 	access_teleporter = 40
 	access_ai = 41
 	access_captain = 42
+	access_network = 43 //To be fully implemented with the network branch - Sukasa 06/04/10
 	/obj/var/list/req_access = null
 /obj/var/req_access_txt = "0"
 /obj/New()
@@ -112,6 +113,8 @@
 				access_genetics_lab, access_toxins_lab, access_security_storage, access_forensics, access_brig,
 				access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
 				access_change_ids, access_hos)
+		if("Network Technician")
+			return list(access_network, access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_electrical_storage)
 		if("Head of Research")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_medical_storage,
 				access_atmospherics, access_medical_records, access_medbay, access_chemical_lab, access_genetics_lab,
@@ -120,7 +123,7 @@
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_custodial_closet, access_tool_storage,
 				access_solar_array, access_electrical_storage, access_atmospherics, access_engine,
 				access_external_airlocks, access_eva, access_admin_atmos, access_apcs, access_eject_engine,
-				access_hom, access_bridge)
+				access_hom, access_bridge, access_supply_shuttle, access_network)
 		if("Supply Officer")
 			return list(access_supply_shuttle, access_disposal_units, access_maintenance_corridors)
 		if("Security Officer")
@@ -167,7 +170,7 @@
 	access_toxins_lab, access_hor, access_security_storage, access_forensics, access_brig,
 	access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
 	access_hos, /*access_legal_cabinet,*/ access_judge_bench, access_change_ids, access_hop, access_teleporter,
-	access_ai, access_captain)
+	access_ai, access_captain, access_network)
 
 /proc/get_access_desc(A)
 	switch(A)
@@ -257,7 +260,9 @@
 			return "access AI upload"
 		if(access_captain)
 			return "access the captain's quarters"
+		if(access_network)
+			return "access networking equipment and the network office"
 
 /proc/get_all_jobs()
-	return list("Captain", "Head of Personnel", "Head of Security", "Head of Research", "Head of Maintenance", "Security Officer", "Forensic Technician", "Plasma Researcher", "Geneticist", "Chemist", "Medical Doctor", "Fire Fighter", "Station Engineer", "Atmospheric Technician", "Supply Officer", "Chaplain", "Bartender", "Janitor", "Lawyer", "Assistant")
+	return list("Captain", "Head of Personnel", "Head of Security", "Head of Research", "Head of Maintenance", "Security Officer", "Forensic Technician", "Plasma Researcher", "Geneticist", "Chemist", "Medical Doctor", "Fire Fighter", "Station Engineer", "Atmospheric Technician", "Network Technician", "Supply Officer", "Chaplain", "Bartender", "Janitor", "Lawyer", "Assistant")
 

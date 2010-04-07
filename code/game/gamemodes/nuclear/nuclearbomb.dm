@@ -1,3 +1,29 @@
+//A pair of procs as a fuck-you to metagamers
+/obj/item/weapon/disk/nuclear/New()
+	..()
+	spawn(0)
+		while (1)
+			sleep(50)
+			if (roundover)
+				return
+			var/turf/L = get_turf(src)
+			if (L.z != 1)
+				world << "\red The Nuclear Disk is no longer in play"
+				world << "\red Creating new disk at nuclear bomb location"
+				world << "<B>Next time don't eject the disk!</B>"
+				var/turf/T = get_turf(locate(/obj/machinery/nuclearbomb))
+				new /obj/item/weapon/disk/nuclear(T)
+				return
+
+/obj/item/weapon/disk/nuclear/Del()
+	if (!roundover)
+		world << "\red Nuclear Disk Destroyed!"
+		world << "\red Creating new disk at nuclear bomb location"
+		world << "<B>Next time don't destroy the disk!</B>"
+		var/turf/T = get_turf(locate(/obj/machinery/nuclearbomb))
+		new /obj/item/weapon/disk/nuclear(T)
+	..()
+
 /obj/machinery/nuclearbomb/New()
 	if (nuke_code)
 		src.r_code = nuke_code
@@ -133,48 +159,58 @@
 	return
 
 /obj/machinery/nuclearbomb/proc/explode()
-	if (src.safety)
-		src.timing = 0
+	spawn(0)
+		if (src.safety)
+			src.timing = 0
+			return
+		if (nuclearend)
+			return
+		if(ticker.mode.name == "nuclear emergency")
+			world << "<FONT size = 3><B>Syndicate Victory</B></FONT>"
+			world << "<B>The Syndicate have successfully blown the nuke.</B> Next time, don't let them get the disk!"
+			nuclearend = 1
+			sleep(450)
+			world << "\blue Rebooting"
+			world.Reboot()
+			return
+		src.timing = -1.0
+		src.yes_code = 0
+		src.icon_state = "nuclearbomb3"
+		sleep(20)
+		var/turf/T = src.loc
+		while(!( istype(T, /turf) ))
+			T = T.loc
+		var/min = 50
+		var/med = 250
+		var/max = 500
+		var/sw = locate(1, 1, T.z)
+		var/ne = locate(world.maxx, world.maxy, T.z)
+
+		defer_powernet_rebuild = 1
+
+		var/num = 0
+		for(var/turf/U in block(sw, ne))
+			var/zone = 4
+			if ((U.y <= T.y + max && U.y >= T.y - max && U.x <= T.x + max && U.x >= T.x - max))
+				zone = 3
+			if ((U.y <= T.y + med && U.y >= T.y - med && U.x <= T.x + med && U.x >= T.x - med))
+				zone = 2
+			if ((U.y <= T.y + min && U.y >= T.y - min && U.x <= T.x + min && U.x >= T.x - min))
+				zone = 1
+			for(var/atom/A in U)
+				A.ex_act(zone)
+			U.ex_act(zone)
+			U.buildlinks()
+			num++
+			if(num>50)
+				sleep(1)
+				num = 0
+
+		defer_powernet_rebuild = 0
+		makepowernets()
+		ticker.nuclear(src.z)
+		del(src)
 		return
-	if(ticker.mode.name == "nuclear emergency")
-		world << "<FONT size = 3><B>Syndicate Victory</B></FONT>"
-		world << "<B>The Syndicate have successfully blown the nuke.</B> Next time, don't let them get the disk!"
-		sleep(450)
-		world << "\blue Rebooting"
-		world.Reboot()
-	src.timing = -1.0
-	src.yes_code = 0
-	src.icon_state = "nuclearbomb3"
-	sleep(20)
-	var/turf/T = src.loc
-	while(!( istype(T, /turf) ))
-		T = T.loc
-	var/min = 50
-	var/med = 250
-	var/max = 500
-	var/sw = locate(1, 1, T.z)
-	var/ne = locate(world.maxx, world.maxy, T.z)
-
-	defer_powernet_rebuild = 1
-
-	for(var/turf/U in block(sw, ne))
-		var/zone = 4
-		if ((U.y <= T.y + max && U.y >= T.y - max && U.x <= T.x + max && U.x >= T.x - max))
-			zone = 3
-		if ((U.y <= T.y + med && U.y >= T.y - med && U.x <= T.x + med && U.x >= T.x - med))
-			zone = 2
-		if ((U.y <= T.y + min && U.y >= T.y - min && U.x <= T.x + min && U.x >= T.x - min))
-			zone = 1
-		for(var/atom/A in U)
-			A.ex_act(zone)
-		U.ex_act(zone)
-		U.buildlinks()
-
-	defer_powernet_rebuild = 0
-	makepowernets()
-	ticker.nuclear(src.z)
-	del(src)
-	return
 
 /obj/machinery/nuclearbomb/ex_act(severity)
 	switch(severity)

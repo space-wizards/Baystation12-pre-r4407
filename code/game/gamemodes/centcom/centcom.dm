@@ -31,8 +31,8 @@ var/const/obj_1_security = 2
 // Access camera network
 var/const/obj_1_camera  = 3
 
-// Steal captains spair ID
-var/const/obj_2_spairid = 1
+// Steal captains spare ID
+var/const/ocj_2_spareid = 1
 // Access Comm console
 var/const/obj_2_comms = 2
 // Steal an injector with specified persons DNA
@@ -53,7 +53,7 @@ var/const/obj_3_onlyperson = 3
 	/var/objective = 0
 	/var/stage = 1
 	/var/mob/human/target
-	/var/obj/item/weapon/centcom_uplink/radio
+	/var/obj/item/weapon/centcom_uplink/cradio
 	/var/firstobj
 	/var/secondobj
 	/var/thirdobj
@@ -61,16 +61,13 @@ var/const/obj_3_onlyperson = 3
 /datum/game_mode/centcom/announce()
 	world << "<B>The current game mode is - Centcom</B>"
 	world << "<B>Nothing is wrong, please continue your research</B>"
-	world << "<B>This game mode is currently a work in progress</B>"
-
-
-
+	//world << "<B>This game mode is currently a work in progress</B>"
 
 // Similer to traitor, but doesn't include AIs
 /datum/game_mode/centcom/proc/get_synd_list()
 	var/list/mobs = list()
-	for(var/mob/M in world)
-		if (M.client && (istype(M, /mob/human)))
+	for(var/mob/human/M in world)
+		if (M.client)
 			if(M.be_syndicate && M.start)
 				mobs += M
 	if(mobs.len < 1)
@@ -121,7 +118,7 @@ var/const/obj_3_onlyperson = 3
 	if (objectiv == 4)
 		intercepttext += "\red <B>Transmission suggests future attempts at station sabotage ([prob_right_objective]% certainty)</B><BR>"
 
-	intercepttext += "\red <B>The intercepted transmission suggests that ([name]) is a sydicate agent([killerchance]% certainty)</BV><BR>"
+	intercepttext += "\red <B>The intercepted transmission suggests that ([name]) is a sydicate agent([killerchance]% certainty)</B><BR>"
 
 
 	for (var/obj/machinery/computer/communications/comm in world)
@@ -151,13 +148,13 @@ var/const/obj_3_onlyperson = 3
 	if(killer == null)
 		world << "Centcom operative unable to be found"
 		world << "This may be a bug"
-		world << "are there any non-AIs abord the station ?"
+		world << "are there any non-AIs aboard the station ?"
 
 
 	ticker.killer = killer
 	ticker.objective = obj_start
 	killer << "\red<font size=3><B>You are the Centcom section 13 operative</B> You must follow all centcom's given orders from the radio</font>"
-	killer.store_memory("<B>Objective:</B>Follow all section 13 orders", 0, 0)
+	killer.store_memory("<B>Objective:</B> Follow all section 13 orders", 0, 0)
 	uploadAI()
 
 	spawn (100)
@@ -211,8 +208,8 @@ var/const/obj_3_onlyperson = 3
 			T.icon_state = R.icon_state
 			T.origradio = R
 			killer << "Central Command have given you access to a long-range control radio in your [loc]. Centcom's section 13 operates on [freq]."
-			killer.store_memory("<B>Radio Freq:</B> [freq] ([R.name] [loc]).", 0, 0)
-			radio = T
+			killer.store_memory("<B>radio Freq:</B> [freq] ([R.name] [loc]).", 0, 0)
+			cradio = T
 
 
 /datum/game_mode/centcom/post_setup()
@@ -229,23 +226,23 @@ var/const/obj_3_onlyperson = 3
 
 // Picks a random objective for the traitor
 /datum/game_mode/centcom/proc/pickobjective()
-	world << "S"
+	//world << "S"
 	restartsearch:
-	objective = pick(1,2,3)
-	world << objective
-	radio.stage = stage
-	radio.objective = objective
-	world << "F"
+	//objective = pick(1,2,3)
+	//world << objective
+	cradio.stage = stage
+	cradio.objective = objective
+	//world << "F"
 	if(objective == obj_2_dna && stage == 2)
 		target = picktarget()
 		if(target == null)
 			goto restartsearch
-		radio.target = target
+		cradio.target = target
 	if(objective == obj_3_killtarget && stage == 3)
 		target = picktarget()
 		if(target == null)
 			goto restartsearch
-		radio.target = target
+		cradio.target = target
 	world << "T"
 	ticker.killer << "\red<font size=3><B>New objectives assigned</B>"
 	ticker.stage = stage
@@ -259,7 +256,7 @@ var/const/obj_3_onlyperson = 3
 		thirdobj = objective
 
 /datum/game_mode/centcom/proc/picktarget()
-	world << "R"
+	//world << "R"
 	var/list/mobs = list()
 	for(var/mob/human/M in world)
 		if (M.client && M.start && M.alive() && M != ticker.killer)
@@ -273,7 +270,7 @@ var/const/obj_3_onlyperson = 3
 	user.machine = src
 	var/dat
 	if (setup == 0)
-		dat = "<A href='byond://?src=\ref[src];setupradio=1'>Establish connection to section 13</A><BR>"
+		dat = "<A href='byond://?src=\ref[src];setupcradio=1'>Establish connection to section 13</A><BR>"
 	else
 		if (src.temp)
 			dat = "[src.temp]<BR><BR><A href='byond://?src=\ref[src];temp=1'>Clear</A>"
@@ -342,7 +339,7 @@ var/const/obj_3_onlyperson = 3
 		else if (href_list["item_openfire"])
 			firing = 1
 
-		else if (href_list["setupradio"])
+		else if (href_list["setupcradio"])
 			setup = 1
 			spawn(100)
 				fire_missiles()
@@ -417,7 +414,7 @@ var/const/obj_3_onlyperson = 3
 		if(firing == 1)
 			for (var/mob/ai/aiplayer in world)
 				aiplayer << "\red<font size=3><B>WARNING</B>"
-				aiplayer << "\red<font size=2><B>INCOMING MISSILES DETECTED</B>"
+				aiplayer << "\red<font size=2><B>MULTIPLE HEAT SIGNATURES ON COLLISION COURSE DETECTED</B>"
 
 			meteor_wave()
 
@@ -444,7 +441,7 @@ var/const/obj_3_onlyperson = 3
 
 
 		if(stage == 2)
-			if(objective == obj_2_spairid)
+			if(objective == ocj_2_spareid)
 				var/list/L = list()
 				L += ticker.killer.contents
 				for(var/obj/item/weapon/storage/S in ticker.killer.contents)
@@ -454,7 +451,7 @@ var/const/obj_3_onlyperson = 3
 					if (istype(G.gift, /obj/item/weapon/storage))
 						L += G.gift:return_inv()
 				for(var/obj/item/weapon/card/id/captains_spare in L)
-					world << "ID"
+					//world << "ID"
 					stage = 3
 					pickobjective()
 			if(objective == obj_2_dna)
@@ -470,12 +467,12 @@ var/const/obj_3_onlyperson = 3
 					if(ticker.killer.primarynew.uni_identity == T.dna)
 						stage = 3
 						pickobjective()
-						world << "DNA"
+						//world << "DNA"
 
 			if(objective == obj_2_comms)
 				for(var/obj/machinery/computer/communications/M in world)
 					if (M.traitorused == 1)
-						world << "COMM"
+						//world << "COMM"
 						stage = 3
 						pickobjective()
 		if(stage == 3)
@@ -536,14 +533,14 @@ var/const/obj_3_onlyperson = 3
 
 
 
-/datum/game_mode/centcom/proc/getfirstobjective()
+///datum/game_mode/centcom/proc/getfirstobjective()
 
 
 
 // What is the best way to do this
 // The code needs to be called from seperate objects :(
 
-// Gets discription of current objective
+// Gets description of current objective
 
 
 /obj/item/weapon/centcom_uplink/proc/getobjtext()
@@ -556,7 +553,7 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 1: Access security cameras"
 
 	else if(stage == 2)
-		if(objective == obj_2_spairid)
+		if(objective == ocj_2_spareid)
 			return "Objective 2: Steal the captains spair ID"
 		else if(objective == obj_2_comms)
 			return "Objective 2: Access the communications system and upload a worm"
@@ -581,7 +578,7 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 1: Access security cameras"
 
 	else if(stage == 2)
-		if(objective == obj_2_spairid)
+		if(objective == ocj_2_spareid)
 			return "Objective 2: Steal the captains spair ID"
 		else if(objective == obj_2_comms)
 			return "Objective 2: Access the communications system and upload a worm"

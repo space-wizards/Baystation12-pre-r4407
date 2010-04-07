@@ -143,8 +143,9 @@
 		for(var/obj/item/weapon/disk/nuclear/N in world)
 			if (N.loc)
 				var/turf/T = get_turf(N)
-				if ((T in A))
-					disk_on_shuttle = 1
+				for (var/area/B in A.superarea.areas)
+					if ((T in B))
+						disk_on_shuttle = 1
 			//Foreach goto(1327)
 		if (disk_on_shuttle)
 			world << "<FONT size = 3><B>The Research Staff has stopped the Syndicate Operatives!</B></FONT>"

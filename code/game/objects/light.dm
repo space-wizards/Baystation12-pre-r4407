@@ -1,6 +1,6 @@
 /obj/item/weapon/bulb/New()
 	..()
-	src.life = rand(1700, 10000) //Nanotransern's bulb suppliers have no quality control, who knows how long one'll last.
+	src.life = rand(2400, 40000) //Nanotransern's bulb suppliers have no quality control, who knows how long one'll last.
 								 //The values are approximately in seconds
 	extext()
 
@@ -205,7 +205,19 @@
 				icon_state = "[gset]-b"
 		else
 	return
+
+
 /obj/item/weapon/storage/lightbulbs/New()
+	..()
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+	new /obj/item/weapon/bulb/incandescent( src )
+
+/obj/item/weapon/storage/fluorescentbulbs/New()
 	..()
 	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )
