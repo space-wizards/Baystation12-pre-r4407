@@ -70,14 +70,17 @@ client/Command(C as command_text)
 				world.Reboot()
 
 			if("changemode")
-				if(src.holder.level < 2)
+				if(src.holder.level < MINLEVEL_CHANGEMODE)
 					return alert("You do not have permission to use that command")
 				if(ticker)
 					return alert("The game has already begun")
 				var/list/ModeNames = list()
 				for(var/datum/ModeSelectionItem/I in modes)
 					ModeNames += strip_html(I.FriendlyName)
+				ModeNames += "Cancel"
 				var/NewModeFName = input("Select New Game Mode", "Change Mode") in ModeNames
+				if (NewModeFName == "Cancel")
+					return
 				var/datum/ModeSelectionItem/NewMode = null
 				for(var/datum/ModeSelectionItem/I in modes)
 					if (I.FriendlyName == NewModeFName)
@@ -87,10 +90,10 @@ client/Command(C as command_text)
 				var/F = file(persistent_file)
 				fdel(F)
 				F << master_mode
-				world << "\blue The game mode this round has been changed to [NewMode.FriendlyName]"
+				world << "\blue The game mode this round has been changed to [NewMode.FriendlyName] by  [src.key] ([ranks[src.holder.level+1]])."
 
 			if("delay")
-				if(src.holder.level < 1)
+				if(src.holder.level < MINLEVEL_DELAYGAME)
 					return alert("You do not have permission to use that command")
 				if (ticker)
 					return alert("The game has already started")
@@ -112,7 +115,7 @@ client/Command(C as command_text)
 				spawn(config.vote_period*10)
 					global.vote.endvote()
 
-				world << "\red<B>*** A vote to change game mode has been initiated by [src.key] ([src.holder.level+1]])</B>"
+				world << "\red<B>*** A vote to change game mode has been initiated by [src.key] ([ranks[src.holder.level+1]])</B>"
 				world << "\red     You have [global.vote.timetext(config.vote_period)] to vote."
 				world.log_admin("Voting to change mode forced by [src.ranks[src.holder.level+1]] [src.key]")
 
@@ -133,9 +136,9 @@ client/Command(C as command_text)
 			if("killvote")
 				if(src.holder.level < MINLEVEL_CONTROLVOTES)
 					return alert("You do not have permission to use that command")
-				world << "\red <B>***Voting aborted by [usr.key].</B>"
+				world << "\red <B>***Voting aborted by [usr.key] ([src.holder.level+1]]).</B>"
 
-				world.log_admin("Voting aborted by [usr.key]")
+				world.log_admin("Voting aborted by [src.holder.level+1]] [usr.key]")
 
 				global.vote.voting = 0
 				global.vote.nextvotetime = world.timeofday + 10*config.vote_delay
@@ -156,7 +159,7 @@ client/Command(C as command_text)
 					world << "<B>You may no longer enter the game.</B>"
 				else
 					world << "<B>You may now enter the game.</B>"
-				world.log_admin("[usr.key] toggled new player game entering.")
+				world.log_admin("[usr.key] ([src.holder.level+1]]) toggled new player game entering.")
 				messageadmins("\blue [usr.key] toggled new player game entering.")
 				world.update_stat()
 				updateap()
@@ -166,13 +169,12 @@ client/Command(C as command_text)
 					alert("You don't have permission to alter that!")
 					updateap()
 					return
-				var/allowenter = winget(src, "ap_roundcontrol.allowai", "is-checked") == "true"
-				config.allow_ai = allowenter
+				config.allow_ai = winget(src, "ap_roundcontrol.allowai", "is-checked") == "true"
 				if (!( config.allow_ai ))
 					world << "<B>The AI job is no longer chooseable.</B>"
 				else
 					world << "<B>The AI job is chooseable now.</B>"
-				world.log_admin("[usr.key] toggled AI allowed.")
+				world.log_admin("[usr.key] ([src.holder.level+1]]) toggled AI allowed.")
 				messageadmins("\blue [usr.key] toggled the AI job.")
 				world.update_stat()
 				updateap()
@@ -182,15 +184,33 @@ client/Command(C as command_text)
 					alert("You don't have permission to alter that!")
 					updateap()
 					return
-				var/allowabandon = winget(src, "ap_roundcontrol.allowabandon", "is-checked") == "true"
-				abandon_allowed = allowabandon
+				abandon_allowed = winget(src, "ap_roundcontrol.allowabandon", "is-checked") == "true"
 				if (abandon_allowed)
-					world << "<B>You may now abandon mob.</B>"
+					world << "<B>You may now abandon your mobs.</B>"
 				else
-					world << "<B>You may no longer abandon mob :(</B>"
-				messageadmins("\blue[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
+					world << "<B>You may no longer abandon your mobs</B>"
+				messageadmins("\blue [usr.key] ([src.holder.level+1]]) toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
 				world.log_admin("[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
 				world.update_stat()
+
+			if("worldstart")
+				//
+
+			if("eshuttle")
+
+			if("allowooc")
+				if(src.holder.level < MINLEVEL_TOGGLE_OOCTALK)
+					alert("You don't have permission to alter that!")
+					updateap()
+					return
+				ooc_allowed = winget(src, "ap_roundcontrol.allowooc", "is-checked") == "true"
+				if (ooc_allowed)
+					world << "<B>The OOC channel has been globally enabled!</B>"
+				else
+					world << "<B>The OOC channel has been globally disabled!</B>"
+				world.log_admin("[usr.key] ([src.holder.level+1]]) toggled OOC.")
+				messageadmins("\blue [usr.key] toggled OOC.")
+				updateap()
 
 			else
 				..()
@@ -198,11 +218,15 @@ client/Command(C as command_text)
 		..()
 
 client/proc/SetupAdminPanel()
+	src.verbs -= /client/proc/ap
 	if(!src.holder) return
-	src.verbs += /client/proc/ap
+	if(src.holder.level >= MINLEVEL_SEEPANEL)
+		src.verbs += /client/proc/ap
+		SetupPanelAccessibility()
 
+client/proc/SetupPanelAccessibility()
 	//TODO Grey out controls you don't have access to
-
+	//     And let you access other controls that you do have access to
 
 client/proc/ap()
 	set name = "Administrator Panel 2.0"
@@ -224,3 +248,6 @@ proc/updateap()
 		else
 			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
 		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.alloabandon", "is-checked=[ abandon_allowed ? "true" : "false"]")

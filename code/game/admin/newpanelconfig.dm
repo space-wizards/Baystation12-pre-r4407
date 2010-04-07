@@ -24,6 +24,8 @@ client/var/global/list/modes = list(   	ModeItem("Extended Role-Play", "extended
 										ModeItem("Secret", "secret"),
 										ModeItem("Random", "random")	)
 
+//This just describes the various ranks of the users
+
 client/var/global/list/ranks = list(	"User",
 										"Moderator",
 										"Administrator",
@@ -42,11 +44,16 @@ client/var/global/list/ranks = list(	"User",
 #define LEVEL_USER = 0
 //==============================
 
-//Minimum access levels for sections in the admin panel.  CHANGE THESE.
-#define MINLEVEL_SEEPANEL     LEVEL_MODERATOR //<--Useless, since non-admins don't have a holder
-#define MINLEVEL_CONTROLVOTES LEVEL_MODERATOR //   object and thus can't see the panel anyways.
-#define MINLEVEL_STARTRESTART LEVEL_ADMIN
-#define MINLEVEL_REBOOTWORLD  LEVEL_SUPER_ADMIN
-#define MINLEVEL_TOGGLE_ENTERING LEVEL_ADMIN
-#define MINLEVEL_TOGGLE_AI LEVEL_ADMIN
-#define MINLEVEL_TOGGLE_ABANDON LEVEL_ADMIN
+//Minimum access levels for sections in the admin panel
+#define MINLEVEL_SEEPANEL     		LEVEL_MODERATOR //Useless, since non-admins don't have a holder anyways
+#define MINLEVEL_CONTROLVOTES 		LEVEL_MODERATOR
+#define MINLEVEL_DELAYGAME	 		LEVEL_MODERATOR
+#define MINLEVEL_CHANGEMODE	 		LEVEL_MODERATOR
+#define MINLEVEL_CHANGERESTARTMODE	LEVEL_PRIMARY_ADMIN
+#define MINLEVEL_CALLSHUTTLE		LEVEL_MODERATOR
+#define MINLEVEL_STARTRESTART 		LEVEL_ADMIN
+#define MINLEVEL_REBOOTWORLD  		LEVEL_SUPER_ADMIN
+#define MINLEVEL_TOGGLE_ENTERING 	LEVEL_MODERATOR
+#define MINLEVEL_TOGGLE_AI 			LEVEL_ADMIN
+#define MINLEVEL_TOGGLE_ABANDON 	LEVEL_ADMIN
+#define MINLEVEL_TOGGLE_OOCTALK		LEVEL_MODERATOR
