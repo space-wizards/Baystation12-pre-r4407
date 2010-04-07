@@ -1,7 +1,6 @@
 /obj/machinery/computer/comcontrol
 	name = "Communication Control"
-	icon = 'airtunnelcomputer.dmi'
-	icon_state = "console00"
+	icon_state = "comm"
 	var/cdir = 0
 	var/obj/machinery/computer/comdisc/relay = null
 /obj/machinery/computer/comcontrol/New()
@@ -13,10 +12,6 @@
 				whoop += wep
 		relay = pick(whoop)
 		relay.gotcomp = 1
-		if(relay)
-			world.log_game("found comdisc")
-		else
-			world.log_game("did not find comdisc")
 
 /obj/machinery/computer/comdisc
 	name = "Long Range Communication Relay"

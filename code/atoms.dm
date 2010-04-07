@@ -2977,39 +2977,37 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/computer
 	name = "computer"
+	icon = 'computers.dmi'
 	density = 1
 	anchored = 1.0
 	var/buildstate = 6
+	var/hasdisk = 0
 /obj/machinery/computer/frame
 	name = "Computer Frame"
 	density = 1
 	anchored = 0
 	buildstate = 0
-	icon = 'airtunnelcomputer.dmi'
-	icon_state = "compstate1"
+	icon_state = "frame"
 /obj/machinery/computer/airtunnel
 	name = "Air Tunnel Control"
 	icon = 'airtunnelcomputer.dmi'
 	icon_state = "console00"
 /obj/machinery/computer/aiupload
 	name = "AI Upload"
-	icon = 'stationobjs.dmi'
-	icon_state = "comm_computer"
+	icon_state = "upload"
 
 /obj/machinery/computer/atmosphere
 	name = "atmosphere"
-	icon = 'turfs.dmi'
 /obj/machinery/computer/atmosphere/siphonswitch
 	name = "Area Air Control"
-	icon_state = "switch"
+	icon_state = "siphonswitch"
 	var/otherarea
 	var/area/area
 /obj/machinery/computer/atmosphere/siphonswitch/mastersiphonswitch
 	name = "Master Air Control"
 /obj/machinery/computer/card
 	name = "Identification Computer"
-	icon = 'stationobjs.dmi'
-	icon_state = "id_computer"
+	icon_state = "idcard"
 	var/obj/item/weapon/card/id/scan = null
 	var/obj/item/weapon/card/id/modify = null
 	var/authenticated = 0.0
@@ -3018,8 +3016,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	req_access = list(access_change_ids)
 /obj/machinery/computer/communications
 	name = "Communications Console"
-	icon = 'stationobjs.dmi'
-	icon_state = "comm_computer"
+	icon_state = "comm"
 	req_access = list(access_bridge)
 	var/prints_intercept = 1
 	var/authenticated = 0
@@ -3039,14 +3036,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 		STATE_DELMESSAGE = 6
 /obj/machinery/computer/supply
 	name = "Supply Shuttle Console"
-	icon = 'stationobjs.dmi'
-	icon_state = "comm_computer"
+	icon_state = "supply"
 	req_access = list(access_supply_shuttle)
 
 /obj/machinery/computer/data
 	name = "data"
-	icon = 'weap_sat.dmi'
-	icon_state = "computer"
+	icon_state = "records"
 
 	var/list/topics = list(  )
 
@@ -3058,8 +3053,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Log Computer"
 /obj/machinery/computer/dna
 	name = "DNA operations computer"
-	icon = 'Cryogenic2.dmi'
-	icon_state = "dna_computer"
+	icon_state = "dnaalter"
 	var/obj/item/weapon/card/data/scan = null
 	var/obj/item/weapon/card/data/modify = null
 	var/obj/item/weapon/card/data/modify2 = null
@@ -3067,15 +3061,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/temp = null
 /obj/machinery/computer/engine
 	name = "Engine Control"
-	icon = 'enginecomputer.dmi'
+	icon_state = "engine"
 	var/temp = null
 	var/id = 1
 	var/obj/machinery/gas_sensor/gs
 	req_access = list(access_eject_engine)
 /obj/machinery/computer/gasmon
 	name = "Gas Monitor"
-	icon_state = "solar_control"
-	icon = 'enginecomputer.dmi'
+	icon_state = "gas"
 	var/temp = null
 	var/id = 1
 	var/atmos = 0
@@ -3092,8 +3085,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/h_b = 245.0
 /obj/machinery/computer/med_data
 	name = "Medical Records"
-	icon = 'weap_sat.dmi'
-	icon_state = "computer"
+	icon_state = "medical"
 	req_access = list(access_medical_records)
 	var/obj/item/weapon/card/id/scan = null
 	var/authenticated = null
@@ -3108,8 +3100,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/computer/pod
 	name = "Pod Launch Control"
-	icon = 'escapepod.dmi'
-	icon_state = "computer"
+	icon_state = "launcher"
 	var/id = 1.0
 	var/obj/machinery/mass_driver/connected = null
 	var/timing = 0.0
@@ -3117,22 +3108,18 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/computer/prison_shuttle
 	name = "Prison Shuttle"
-	icon = 'shuttle.dmi'
-	icon_state = "shuttlecom"
+	icon_state = "shuttle"
 	var/allowedtocall = 1
 /obj/machinery/computer/sydi_shuttle
 	name = "Sydicate shuttle computer"
-	icon = 'shuttle.dmi'
-	icon_state = "shuttlecom"
+	icon_state = "shuttle"
 /obj/machinery/computer/supply_shuttle
 	name = "Supply Shuttle"
-	icon = 'shuttle.dmi'
-	icon_state = "shuttlecom"
+	icon_state = "shuttle"
 	var/allowedtocall = 1
 /obj/machinery/computer/secure_data
 	name = "Security Records"
-	icon = 'weap_sat.dmi'
-	icon_state = "computer"
+	icon_state = "records"
 	req_access = list(access_security_records)
 	var/obj/item/weapon/card/id/scan = null
 	var/authenticated = null
@@ -3147,8 +3134,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/traitorused = 0
 /obj/machinery/computer/security
 	name = "Security Cameras"
-	icon = 'stationobjs.dmi'
-	icon_state = "sec_computer"
+	icon_state = "cameras"
 	var/obj/machinery/camera/current = null
 	var/last_pic = 1.0
 	var/network = "SS13"
@@ -3164,10 +3150,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/computer/shuttle
 	name = "Shuttle"
-	icon = 'shuttle.dmi'
-	icon_state = "shuttlecom"
+	icon_state = "shuttle"
 	var/auth_need = 3.0
-
 	var/list/authorized = list(  )
 
 /obj/machinery/computer/sleep_console
@@ -3177,8 +3161,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/machinery/sleeper/connected = null
 /obj/machinery/computer/teleporter
 	name = "Teleporter"
-	icon = 'stationobjs.dmi'
-	icon_state = "tele_computer"
+	icon_state = "teleport"
 	var/obj/item/weapon/radio/beacon/locked = null
 	var/id = null
 
@@ -3300,8 +3283,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 /obj/machinery/body_scanconsole
 	name = "Advanced Medical Scanner Console"
-	icon = 'Cryogenic2.dmi'
-	icon_state = "scannerconsole"
+	icon = 'computers.dmi'
+	icon_state = "scanconsole"
 	density = 1
 	var/temphtml = null
 	var/obj/machinery/dna_scanner/connected = null
@@ -3690,8 +3673,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 /obj/machinery/scan_console
 	name = "DNA Scanner Access Console"
-	icon = 'Cryogenic2.dmi'
-	icon_state = "scannerconsole"
+	icon = 'computers.dmi'
+	icon_state = "scanconsole"
 	density = 1
 	var/obj/item/weapon/card/data/scan = null
 	var/func = ""
@@ -3707,8 +3690,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 /obj/machinery/scan_consolenew
 	name = "DNA Modifier Access Console"
-	icon = 'Cryogenic2.dmi'
-	icon_state = "scannerconsole"
+	icon = 'computers.dmi'
+	icon_state = "dnaalter"
 	density = 1
 	var/uniblock = 1.0
 	var/strucblock = 1.0
@@ -3861,8 +3844,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/power/monitor
 	name = "Power Monitoring Computer"
-	icon = 'stationobjs.dmi'
-	icon_state = "power_computer"
+	icon = 'computers.dmi'
+	icon_state = "power"
 	density = 1
 	anchored = 1
 
