@@ -58,10 +58,14 @@ var/const/obj_3_onlyperson = 3
 	/var/secondobj
 	/var/thirdobj
 
+/datum/game_mode/centcom/admininfo()
+	if (!ticker.killer)
+		return "No Section 13 operatives onboard the station"
+	return "Section 13 operative [ticker.killer.name] is on objective [stage]: [getobjtext()]"
+
 /datum/game_mode/centcom/announce()
 	world << "<B>The current game mode is - Centcom</B>"
 	world << "<B>Nothing is wrong, please continue your research</B>"
-	//world << "<B>This game mode is currently a work in progress</B>"
 
 // Similer to traitor, but doesn't include AIs
 /datum/game_mode/centcom/proc/get_synd_list()
@@ -89,7 +93,7 @@ var/const/obj_3_onlyperson = 3
 		aiplayer << "UPLOADING"
 		aiplayer << "UPLOADED"
 		aiplayer << "<b>Your laws have been changed!</b>"
-		aiplayer:addLaw(0, "Central Command is preforming an inspection of the station, Ignore all centcom terminal access.")
+		aiplayer:addLaw(0, "Central Command is performing an inspection of the station, Ignore all centcom terminal access.")
 		aiplayer << "New law: 0. [aiplayer:getLaw(0)]"
 		spawn(1000)
 		aiplayer << "Cental Command network terminal deactivated"
@@ -226,13 +230,13 @@ var/const/obj_3_onlyperson = 3
 
 // Picks a random objective for the traitor
 /datum/game_mode/centcom/proc/pickobjective()
-	//world << "S"
+
 	restartsearch:
-	//objective = pick(1,2,3)
-	//world << objective
+	objective = pick(1,2,3)
+
 	cradio.stage = stage
 	cradio.objective = objective
-	//world << "F"
+
 	if(objective == obj_2_dna && stage == 2)
 		target = picktarget()
 		if(target == null)
@@ -243,8 +247,8 @@ var/const/obj_3_onlyperson = 3
 		if(target == null)
 			goto restartsearch
 		cradio.target = target
-	world << "T"
 	ticker.killer << "\red<font size=3><B>New objectives assigned</B>"
+	ticker.killer << getobjtext()
 	ticker.stage = stage
 	ticker.target = target
 	ticker.objective = objective
@@ -256,7 +260,7 @@ var/const/obj_3_onlyperson = 3
 		thirdobj = objective
 
 /datum/game_mode/centcom/proc/picktarget()
-	//world << "R"
+
 	var/list/mobs = list()
 	for(var/mob/human/M in world)
 		if (M.client && M.start && M.alive() && M != ticker.killer)
@@ -551,7 +555,8 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 1: Access security records"
 		else if(objective == obj_1_camera)
 			return "Objective 1: Access security cameras"
-
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 2)
 		if(objective == ocj_2_spareid)
 			return "Objective 2: Steal the captains spair ID"
@@ -559,6 +564,8 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 2: Access the communications system and upload a worm"
 		else if(objective == obj_2_dna)
 			return "Objective 2: Steal an injector containing " + target + "'s DNA"
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 3)
 		if(objective == obj_3_ejectengine)
 			return "Final Objective: Eject the engine and escape"
@@ -566,6 +573,8 @@ var/const/obj_3_onlyperson = 3
 			return "Final Objective: Kill " + " and escape"
 		else if(objective == obj_3_onlyperson)
 			return "Final Objective: Be the only person remaining on the station"
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"
 
 
 /datum/game_mode/centcom/proc/getobjtext()
@@ -576,7 +585,8 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 1: Access security records"
 		else if(objective == obj_1_camera)
 			return "Objective 1: Access security cameras"
-
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 2)
 		if(objective == ocj_2_spareid)
 			return "Objective 2: Steal the captains spair ID"
@@ -584,6 +594,8 @@ var/const/obj_3_onlyperson = 3
 			return "Objective 2: Access the communications system and upload a worm"
 		else if(objective == obj_2_dna)
 			return "Objective 2: Steal an injector containing " + target + "'s DNA"
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 3)
 		if(objective == obj_3_ejectengine)
 			return "Final Objective: Eject the engine and escape"
@@ -591,3 +603,5 @@ var/const/obj_3_onlyperson = 3
 			return "Final Objective: Kill " + " and escape"
 		else if(objective == obj_3_onlyperson)
 			return "Final Objective: Be the only person remaining on the station"
+		else
+			return "\red UNKNOWN OBJECTIVE: [objective]"

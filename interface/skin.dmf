@@ -454,7 +454,7 @@ window "ap_roundcontrol"
 		is-checked = true
 		group = ""
 		button-type = checkbox
-	elem "button2"
+	elem "btndelay"
 		type = BUTTON
 		pos = 16,84
 		size = 136x20

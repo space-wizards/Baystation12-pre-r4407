@@ -905,3 +905,447 @@
 10-53:ADMIN: crban_computerIDs was empty
 10-53:ADMIN: Loading jobban_rank
 10-53:ADMIN: Updating jobbanfile!
+11-31:GAME: Finished building powernets (24 nets)
+11-31:ADMIN: Loading crban_keylist
+11-31:ADMIN: Loading crban_reason
+11-31:ADMIN: Loading crban_time
+11-31:ADMIN: Loading crban_bannedby
+11-31:ADMIN: Loading crban_iplist
+11-31:ADMIN: Loading crban_unbanned
+11-31:ADMIN: Loading crban_ComputerIDs
+11-31:ADMIN: crban_computerIDs was empty
+11-31:ADMIN: Loading jobban_rank
+11-31:ADMIN: Updating jobbanfile!
+11-31:ACCESS: Login: Topkasa from 127.0.0.1
+11-31:GAME: starting game of traitor
+11-31:ACCESS: Logout: Topkasa
+11-42:GAME: Finished building powernets (24 nets)
+11-42:ADMIN: Loading crban_keylist
+11-42:ADMIN: Loading crban_reason
+11-42:ADMIN: Loading crban_time
+11-42:ADMIN: Loading crban_bannedby
+11-42:ADMIN: Loading crban_iplist
+11-42:ADMIN: Loading crban_unbanned
+11-42:ADMIN: Loading crban_ComputerIDs
+11-42:ADMIN: crban_computerIDs was empty
+11-42:ADMIN: Loading jobban_rank
+11-42:ADMIN: Updating jobbanfile!
+11-42:ACCESS: Login: Topkasa from 127.0.0.1
+11-42:ADMIN: Topkasa toggled AI allowed.
+11-42:ADMIN: Topkasa toggled AI allowed.
+11-42:ACCESS: Logout: Topkasa
+11-44:GAME: Finished building powernets (24 nets)
+11-44:ADMIN: Loading crban_keylist
+11-44:ADMIN: Loading crban_reason
+11-44:ADMIN: Loading crban_time
+11-44:ADMIN: Loading crban_bannedby
+11-44:ADMIN: Loading crban_iplist
+11-44:ADMIN: Loading crban_unbanned
+11-44:ADMIN: Loading crban_ComputerIDs
+11-44:ADMIN: crban_computerIDs was empty
+11-44:ADMIN: Loading jobban_rank
+11-44:ADMIN: Updating jobbanfile!
+11-44:ACCESS: Login: Topkasa from 127.0.0.1
+11-44:ADMIN: Topkasa toggled AI allowed.
+11-44:ADMIN: Topkasa toggled AI allowed.
+11-44:ADMIN: Topkasa toggled AI allowed.
+11-44:ADMIN: Topkasa toggled AI allowed.
+11-44:ACCESS: Logout: Topkasa
+11-45:GAME: Finished building powernets (24 nets)
+11-45:ADMIN: Loading crban_keylist
+11-45:ADMIN: Loading crban_reason
+11-45:ADMIN: Loading crban_time
+11-45:ADMIN: Loading crban_bannedby
+11-45:ADMIN: Loading crban_iplist
+11-45:ADMIN: Loading crban_unbanned
+11-45:ADMIN: Loading crban_ComputerIDs
+11-45:ADMIN: crban_computerIDs was empty
+11-45:ADMIN: Loading jobban_rank
+11-45:ADMIN: Updating jobbanfile!
+11-45:ACCESS: Login: Topkasa from 127.0.0.1
+11-45:ADMIN: Topkasa toggled AI allowed.
+11-45:ADMIN: Topkasa toggled AI allowed.
+11-45:ACCESS: Logout: Topkasa
+11-46:GAME: Finished building powernets (24 nets)
+11-46:ADMIN: Loading crban_keylist
+11-46:ADMIN: Loading crban_reason
+11-46:ADMIN: Loading crban_time
+11-46:ADMIN: Loading crban_bannedby
+11-46:ADMIN: Loading crban_iplist
+11-46:ADMIN: Loading crban_unbanned
+11-46:ADMIN: Loading crban_ComputerIDs
+11-46:ADMIN: crban_computerIDs was empty
+11-46:ADMIN: Loading jobban_rank
+11-46:ADMIN: Updating jobbanfile!
+11-46:ACCESS: Login: Topkasa from 127.0.0.1
+11-46:ACCESS: Logout: Topkasa
+11-46:ACCESS: Login: Topkasa from 127.0.0.1
+11-46:ADMIN: Topkasa toggled AI allowed.
+11-46:ADMIN: Topkasa toggled AI allowed.
+11-46:ACCESS: Logout: Topkasa
+11-50:GAME: Finished building powernets (24 nets)
+11-50:ADMIN: Loading crban_keylist
+11-50:ADMIN: Loading crban_reason
+11-50:ADMIN: Loading crban_time
+11-50:ADMIN: Loading crban_bannedby
+11-50:ADMIN: Loading crban_iplist
+11-50:ADMIN: Loading crban_unbanned
+11-50:ADMIN: Loading crban_ComputerIDs
+11-50:ADMIN: crban_computerIDs was empty
+11-50:ADMIN: Loading jobban_rank
+11-50:ADMIN: Updating jobbanfile!
+11-50:ACCESS: Login: Topkasa from 127.0.0.1
+11-50:ADMIN: Topkasa toggled AI allowed.
+11-50:ADMIN: Topkasa toggled AI allowed.
+11-50:ACCESS: Logout: Topkasa
+11-51:GAME: Finished building powernets (24 nets)
+11-51:ADMIN: Loading crban_keylist
+11-51:ADMIN: Loading crban_reason
+11-51:ADMIN: Loading crban_time
+11-51:ADMIN: Loading crban_bannedby
+11-51:ADMIN: Loading crban_iplist
+11-51:ADMIN: Loading crban_unbanned
+11-51:ADMIN: Loading crban_ComputerIDs
+11-51:ADMIN: crban_computerIDs was empty
+11-51:ADMIN: Loading jobban_rank
+11-51:ADMIN: Updating jobbanfile!
+11-51:ACCESS: Login: Topkasa from 127.0.0.1
+11-51:ADMIN: Topkasa toggled AI allowed.
+11-51:ADMIN: Topkasa toggled AI allowed.
+11-51:ADMIN: Topkasa toggled new player game entering.
+11-51:ADMIN: Topkasa toggled new player game entering.
+11-51:ACCESS: Logout: Topkasa
+11-55:GAME: Finished building powernets (24 nets)
+11-55:ADMIN: Loading crban_keylist
+11-55:ADMIN: Loading crban_reason
+11-55:ADMIN: Loading crban_time
+11-55:ADMIN: Loading crban_bannedby
+11-55:ADMIN: Loading crban_iplist
+11-55:ADMIN: Loading crban_unbanned
+11-55:ADMIN: Loading crban_ComputerIDs
+11-55:ADMIN: crban_computerIDs was empty
+11-55:ADMIN: Loading jobban_rank
+11-55:ADMIN: Updating jobbanfile!
+11-55:ACCESS: Login: Topkasa from 127.0.0.1
+11-55:GAME: Topkasa entered as Desmond Taggart
+11-55:ADMIN: Topkasa used start_now
+11-55:GAME: starting game of traitor
+11-55:ACCESS: Logout: 
+11-55:ACCESS: Login: Topkasa from 127.0.0.1
+11-55:ACCESS: They share computer ID's
+11-55:ADMIN: Topkasa toggled AI allowed.
+11-55:ADMIN: Topkasa toggled AI allowed.
+11-55:ADMIN: Topkasa toggled new player game entering.
+11-55:ADMIN: Topkasa toggled new player game entering.
+11-55:ADMIN: Topkasa toggled new player game entering.
+11-55:ADMIN: Topkasa toggled new player game entering.
+11-55:ADMIN: Topkasa toggled AI allowed.
+11-55:ADMIN: Topkasa toggled AI allowed.
+11-55:ACCESS: Logout: Topkasa
+12-00:GAME: Finished building powernets (24 nets)
+12-00:ADMIN: Loading crban_keylist
+12-00:ADMIN: Loading crban_reason
+12-00:ADMIN: Loading crban_time
+12-00:ADMIN: Loading crban_bannedby
+12-00:ADMIN: Loading crban_iplist
+12-00:ADMIN: Loading crban_unbanned
+12-00:ADMIN: Loading crban_ComputerIDs
+12-00:ADMIN: crban_computerIDs was empty
+12-00:ADMIN: Loading jobban_rank
+12-00:ADMIN: Updating jobbanfile!
+12-00:ACCESS: Login: Topkasa from 127.0.0.1
+12-00:ADMIN: Topkasa toggled abandon mob to On.
+12-00:ADMIN: Topkasa toggled abandon mob to Off.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ADMIN: Topkasa toggled new player game entering.
+12-00:ACCESS: Logout: Topkasa
+12-13:GAME: Finished building powernets (24 nets)
+12-13:ADMIN: Loading crban_keylist
+12-13:ADMIN: Loading crban_reason
+12-13:ADMIN: Loading crban_time
+12-13:ADMIN: Loading crban_bannedby
+12-13:ADMIN: Loading crban_iplist
+12-13:ADMIN: Loading crban_unbanned
+12-13:ADMIN: Loading crban_ComputerIDs
+12-13:ADMIN: crban_computerIDs was empty
+12-13:ADMIN: Loading jobban_rank
+12-13:ADMIN: Updating jobbanfile!
+12-13:ACCESS: Login: Topkasa from 127.0.0.1
+12-13:ADMIN: Topkasa used start_now
+12-13:GAME: starting game of traitor
+12-13:GAME: Topkasa entered as Desmond Taggart
+12-13:ADMIN: Topkasa toggled abandon mob to On.
+12-13:ADMIN: Topkasa toggled abandon mob to Off.
+12-13:ADMIN: Voting to restart forced by Host-Level Administrator Topkasa
+12-13:ADMIN: Voting to restart forced by Host-Level Administrator Topkasa
+12-13:ADMIN: Voting aborted by Topkasa
+12-13:ACCESS: Logout: Topkasa
+12-27:GAME: Finished building powernets (24 nets)
+12-27:ADMIN: Loading crban_keylist
+12-27:ADMIN: Loading crban_reason
+12-27:ADMIN: Loading crban_time
+12-27:ADMIN: Loading crban_bannedby
+12-27:ADMIN: Loading crban_iplist
+12-27:ADMIN: Loading crban_unbanned
+12-27:ADMIN: Loading crban_ComputerIDs
+12-27:ADMIN: crban_computerIDs was empty
+12-27:ADMIN: Loading jobban_rank
+12-27:ADMIN: Updating jobbanfile!
+12-27:ACCESS: Login: Topkasa from 127.0.0.1
+12-27:ADMIN: Topkasa (6]) toggled new player game entering.
+12-27:ADMIN: Topkasa (6]) toggled new player game entering.
+12-27:ADMIN: Voting to restart forced by Host-Level Administrator Topkasa
+12-27:ADMIN: Voting aborted by 6] Topkasa
+12-27:ACCESS: Logout: Topkasa
+12-45:GAME: Finished building powernets (24 nets)
+12-45:ADMIN: Loading crban_keylist
+12-45:ADMIN: Loading crban_reason
+12-45:ADMIN: Loading crban_time
+12-45:ADMIN: Loading crban_bannedby
+12-45:ADMIN: Loading crban_iplist
+12-45:ADMIN: Loading crban_unbanned
+12-45:ADMIN: Loading crban_ComputerIDs
+12-45:ADMIN: crban_computerIDs was empty
+12-45:ADMIN: Loading jobban_rank
+12-45:ADMIN: Updating jobbanfile!
+12-45:ACCESS: Login: Topkasa from 127.0.0.1
+12-45:GAME: Topkasa entered as Desmond Taggart
+12-45:ADMIN: Topkasa used start_now
+12-45:GAME: starting game of traitor
+12-45:ACCESS: Logout: 
+12-45:ACCESS: Login: Topkasa from 127.0.0.1
+12-45:ACCESS: They share computer ID's
+12-45:ADMIN: Topkasa (6]) toggled OOC.
+12-45:ADMIN: Topkasa (6]) toggled OOC.
+12-45:ADMIN: Topkasa (6]) toggled OOC.
+12-45:ADMIN: Topkasa (6]) toggled OOC.
+12-45:ADMIN: Topkasa (6]) toggled AI allowed.
+12-45:ADMIN: Topkasa (6]) toggled AI allowed.
+12-45:ADMIN: Topkasa (6]) toggled new player game entering.
+12-45:ADMIN: Topkasa (6]) toggled new player game entering.
+12-45:ADMIN: Topkasa toggled abandon mob to On.
+12-45:ADMIN: Topkasa toggled abandon mob to Off.
+12-45:ACCESS: Logout: Topkasa
+12-49:GAME: Finished building powernets (24 nets)
+12-49:ADMIN: Loading crban_keylist
+12-49:ADMIN: Loading crban_reason
+12-49:ADMIN: Loading crban_time
+12-49:ADMIN: Loading crban_bannedby
+12-49:ADMIN: Loading crban_iplist
+12-49:ADMIN: Loading crban_unbanned
+12-49:ADMIN: Loading crban_ComputerIDs
+12-49:ADMIN: crban_computerIDs was empty
+12-49:ADMIN: Loading jobban_rank
+12-49:ADMIN: Updating jobbanfile!
+12-49:ACCESS: Login: Topkasa from 127.0.0.1
+12-49:GAME: Topkasa entered as Desmond Taggart
+12-49:ADMIN: Topkasa used start_now
+12-49:GAME: starting game of traitor
+12-49:ACCESS: Logout: 
+12-49:ACCESS: Login: Topkasa from 127.0.0.1
+12-49:ACCESS: They share computer ID's
+12-49:ACCESS: Logout: Topkasa
+12-51:GAME: Finished building powernets (24 nets)
+12-51:ADMIN: Loading crban_keylist
+12-51:ADMIN: Loading crban_reason
+12-51:ADMIN: Loading crban_time
+12-51:ADMIN: Loading crban_bannedby
+12-51:ADMIN: Loading crban_iplist
+12-51:ADMIN: Loading crban_unbanned
+12-51:ADMIN: Loading crban_ComputerIDs
+12-51:ADMIN: crban_computerIDs was empty
+12-51:ADMIN: Loading jobban_rank
+12-51:ADMIN: Updating jobbanfile!
+12-51:ACCESS: Login: Topkasa from 127.0.0.1
+12-51:ADMIN: Topkasa toggled abandon mob to Off.
+12-51:ADMIN: Topkasa toggled abandon mob to On.
+12-51:ADMIN: Topkasa toggled abandon mob to Off.
+12-51:ADMIN: Topkasa toggled abandon mob to On.
+12-51:ADMIN: Topkasa (Host-Level Administrator) toggled OOC.
+12-51:ADMIN: Topkasa (Host-Level Administrator) toggled OOC.
+12-51:ADMIN: Voting to restart forced by Host-Level Administrator Topkasa
+12-51:ADMIN: Voting aborted by Host-Level Administrator Topkasa
+12-51:ADMIN: Voting to change mode forced by Host-Level Administrator Topkasa
+12-51:ADMIN: Voting aborted by Host-Level Administrator Topkasa
+12-51:ADMIN: Topkasa delayed the game.
+12-51:ADMIN: Topkasa removed the delay.
+12-51:ADMIN: Topkasa delayed the game.
+12-51:ACCESS: Logout: Topkasa
+13-05:GAME: Finished building powernets (24 nets)
+13-05:ADMIN: Loading crban_keylist
+13-05:ADMIN: Loading crban_reason
+13-05:ADMIN: Loading crban_time
+13-05:ADMIN: Loading crban_bannedby
+13-05:ADMIN: Loading crban_iplist
+13-05:ADMIN: Loading crban_unbanned
+13-05:ADMIN: Loading crban_ComputerIDs
+13-05:ADMIN: crban_computerIDs was empty
+13-05:ADMIN: Loading jobban_rank
+13-05:ADMIN: Updating jobbanfile!
+13-05:ACCESS: Login: Topkasa from 127.0.0.1
+13-05:GAME: Topkasa entered as Desmond Taggart
+13-05:ADMIN: Topkasa (Host-Level Administrator) toggled AI allowed.
+13-05:ADMIN: Topkasa used start_now
+13-05:GAME: starting game of extended
+13-05:ADMIN: Topkasa (Host-Level Administrator) toggled AI allowed.
+13-05:ADMIN: Topkasa initiated a reboot.
+13-05:ACCESS: Logout: Topkasa
+13-06:GAME: Finished building powernets (24 nets)
+13-06:ADMIN: Loading crban_keylist
+13-06:ADMIN: Loading crban_reason
+13-06:ADMIN: Loading crban_time
+13-06:ADMIN: Loading crban_bannedby
+13-06:ADMIN: Loading crban_iplist
+13-06:ADMIN: Loading crban_unbanned
+13-06:ADMIN: Loading crban_ComputerIDs
+13-06:ADMIN: crban_computerIDs was empty
+13-06:ADMIN: Loading jobban_rank
+13-06:ADMIN: Updating jobbanfile!
+13-06:ACCESS: Login: Topkasa from 127.0.0.1
+13-06:GAME: Topkasa entered as Desmond Taggart
+13-06:ADMIN: Topkasa delayed the game.
+13-06:ADMIN: Voting to change mode forced by Host-Level Administrator Topkasa
+13-06:ACCESS: Logout: Topkasa
+13-15:GAME: Finished building powernets (24 nets)
+13-15:ADMIN: Loading crban_keylist
+13-15:ADMIN: Loading crban_reason
+13-15:ADMIN: Loading crban_time
+13-15:ADMIN: Loading crban_bannedby
+13-15:ADMIN: Loading crban_iplist
+13-15:ADMIN: Loading crban_unbanned
+13-15:ADMIN: Loading crban_ComputerIDs
+13-15:ADMIN: crban_computerIDs was empty
+13-15:ADMIN: Loading jobban_rank
+13-15:ADMIN: Updating jobbanfile!
+13-15:ACCESS: Login: Topkasa from 127.0.0.1
+13-15:ADMIN: Topkasa used start_now
+13-15:GAME: starting game of Zombie Outbreak
+13-15:ACCESS: Logout: Topkasa
+13-17:GAME: Finished building powernets (24 nets)
+13-17:ADMIN: Loading crban_keylist
+13-17:ADMIN: Loading crban_reason
+13-17:ADMIN: Loading crban_time
+13-17:ADMIN: Loading crban_bannedby
+13-17:ADMIN: Loading crban_iplist
+13-17:ADMIN: Loading crban_unbanned
+13-17:ADMIN: Loading crban_ComputerIDs
+13-17:ADMIN: crban_computerIDs was empty
+13-17:ADMIN: Loading jobban_rank
+13-17:ADMIN: Updating jobbanfile!
+13-17:ACCESS: Login: Topkasa from 127.0.0.1
+13-17:ADMIN: Topkasa delayed the game.
+13-17:ADMIN: Topkasa removed the delay.
+13-17:ADMIN: Topkasa used start_now
+13-17:GAME: starting game of Zombie Outbreak
+13-17:GAME: Topkasa entered as Desmond Taggart
+13-17:ADMIN: Topkasa initiated a reboot.
+13-17:ACCESS: Logout: Topkasa
+13-18:GAME: Finished building powernets (24 nets)
+13-18:ADMIN: Loading crban_keylist
+13-18:ADMIN: Loading crban_reason
+13-18:ADMIN: Loading crban_time
+13-18:ADMIN: Loading crban_bannedby
+13-18:ADMIN: Loading crban_iplist
+13-18:ADMIN: Loading crban_unbanned
+13-18:ADMIN: Loading crban_ComputerIDs
+13-18:ADMIN: crban_computerIDs was empty
+13-18:ADMIN: Loading jobban_rank
+13-18:ADMIN: Updating jobbanfile!
+13-18:ACCESS: Login: Topkasa from 127.0.0.1
+13-18:GAME: Topkasa entered as Desmond Taggart
+13-18:ADMIN: Topkasa delayed the game.
+13-18:ADMIN: Topkasa used start_now
+13-18:GAME: starting game of centcom
+13-18:ACCESS: Logout: 
+13-18:ACCESS: Login: Topkasa from 127.0.0.1
+13-18:ACCESS: They share computer ID's
+13-18:ADMIN: Topkasa initiated a reboot.
+13-18:ACCESS: Logout: Topkasa
+13-19:GAME: Finished building powernets (24 nets)
+13-19:ADMIN: Loading crban_keylist
+13-19:ADMIN: Loading crban_reason
+13-19:ADMIN: Loading crban_time
+13-19:ADMIN: Loading crban_bannedby
+13-19:ADMIN: Loading crban_iplist
+13-19:ADMIN: Loading crban_unbanned
+13-19:ADMIN: Loading crban_ComputerIDs
+13-19:ADMIN: crban_computerIDs was empty
+13-19:ADMIN: Loading jobban_rank
+13-19:ADMIN: Updating jobbanfile!
+13-19:ACCESS: Login: Topkasa from 127.0.0.1
+13-19:GAME: Topkasa entered as Desmond Taggart
+13-19:ADMIN: Topkasa used start_now
+13-19:GAME: starting game of centcom
+13-19:ACCESS: Logout: Topkasa
+13-23:GAME: Finished building powernets (24 nets)
+13-23:ADMIN: Loading crban_keylist
+13-23:ADMIN: Loading crban_reason
+13-23:ADMIN: Loading crban_time
+13-23:ADMIN: Loading crban_bannedby
+13-23:ADMIN: Loading crban_iplist
+13-23:ADMIN: Loading crban_unbanned
+13-23:ADMIN: Loading crban_ComputerIDs
+13-23:ADMIN: crban_computerIDs was empty
+13-23:ADMIN: Loading jobban_rank
+13-23:ADMIN: Updating jobbanfile!
+13-23:ACCESS: Login: Topkasa from 127.0.0.1
+13-23:GAME: Topkasa entered as Desmond Taggart
+13-23:ADMIN: Topkasa used start_now
+13-23:GAME: starting game of centcom
+13-23:ACCESS: Logout: 
+13-23:ACCESS: Login: Topkasa from 127.0.0.1
+13-23:ACCESS: They share computer ID's
+13-23:ADMIN: Topkasa initiated a reboot.
+13-23:ACCESS: Logout: Topkasa
+13-24:GAME: Finished building powernets (24 nets)
+13-24:ADMIN: Loading crban_keylist
+13-24:ADMIN: Loading crban_reason
+13-24:ADMIN: Loading crban_time
+13-24:ADMIN: Loading crban_bannedby
+13-24:ADMIN: Loading crban_iplist
+13-24:ADMIN: Loading crban_unbanned
+13-24:ADMIN: Loading crban_ComputerIDs
+13-24:ADMIN: crban_computerIDs was empty
+13-24:ADMIN: Loading jobban_rank
+13-24:ADMIN: Updating jobbanfile!
+13-24:ACCESS: Login: Topkasa from 127.0.0.1
+13-24:GAME: Topkasa entered as Desmond Taggart
+13-24:ADMIN: Topkasa initiated a reboot.
+13-24:ACCESS: Logout: Topkasa
+13-25:GAME: Finished building powernets (24 nets)
+13-25:ADMIN: Loading crban_keylist
+13-25:ADMIN: Loading crban_reason
+13-25:ADMIN: Loading crban_time
+13-25:ADMIN: Loading crban_bannedby
+13-25:ADMIN: Loading crban_iplist
+13-25:ADMIN: Loading crban_unbanned
+13-25:ADMIN: Loading crban_ComputerIDs
+13-25:ADMIN: crban_computerIDs was empty
+13-25:ADMIN: Loading jobban_rank
+13-25:ADMIN: Updating jobbanfile!
+13-25:ACCESS: Login: Topkasa from 127.0.0.1
+13-25:GAME: Topkasa entered as Desmond Taggart
+13-25:ADMIN: Topkasa used start_now
+13-25:GAME: starting game of centcom
+13-25:ACCESS: Logout: Topkasa
+13-29:GAME: Finished building powernets (24 nets)
+13-29:ADMIN: Loading crban_keylist
+13-29:ADMIN: Loading crban_reason
+13-29:ADMIN: Loading crban_time
+13-29:ADMIN: Loading crban_bannedby
+13-29:ADMIN: Loading crban_iplist
+13-29:ADMIN: Loading crban_unbanned
+13-29:ADMIN: Loading crban_ComputerIDs
+13-29:ADMIN: crban_computerIDs was empty
+13-29:ADMIN: Loading jobban_rank
+13-29:ADMIN: Updating jobbanfile!
+13-29:ACCESS: Login: Topkasa from 127.0.0.1
+13-29:GAME: Topkasa entered as Desmond Taggart
+13-29:ADMIN: Topkasa used start_now
+13-29:GAME: starting game of centcom
+13-29:GAME: Finished building powernets (25 nets)
+13-29:ACCESS: Logout: Topkasa

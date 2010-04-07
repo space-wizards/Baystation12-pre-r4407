@@ -52,14 +52,15 @@ client/Command(C as command_text)
 					world << text("\red <B> Restarting world!</B>\blue  Initiated by []!", usr.key)
 					world.log_admin("[usr.key] initiated a reboot.")
 					no_end = 0
-					sleep(50)
-					world.Reboot()
+					spawn(50)
+						world.Reboot()
 				else
 					ticker = new /datum/control/gameticker()
 					spawn (0)
 						world.log_admin("[usr.key] used start_now")
 						ticker.process()
 					data_core = new /obj/datacore()
+					updateap()
 
 			if("reboot")
 				if(src.holder.level < MINLEVEL_REBOOTWORLD)
@@ -92,7 +93,7 @@ client/Command(C as command_text)
 				var/F = file(persistent_file)
 				fdel(F)
 				F << master_mode
-				world << "\blue The game mode this round has been changed to [NewMode.FriendlyName] by  [src.key] ([ranks[src.holder.level+1]])."
+				world << "\blue The game mode this round has been changed to [NewMode.FriendlyName] \blue by [src.key] ([ranks[src.holder.level+1]])."
 
 			if("delay")
 				if(src.holder.level < MINLEVEL_DELAYGAME)
@@ -106,6 +107,7 @@ client/Command(C as command_text)
 				else
 					world << "<B>The game will start soon thanks to [src.key] ([ranks[src.holder.level+1]])</B>"
 					world.log_admin("[src.key] removed the delay.")
+				updateap()
 
 			if("votemode")
 				if(src.holder.level < MINLEVEL_CONTROLVOTES)
@@ -236,6 +238,7 @@ client/Command(C as command_text)
 					messageadmins("\blue [usr.key] ([ranks[src.holder.level+1]]) sent the shuttle back")
 				else
 					alert("The shuttle has already arrived on station")
+				updateap()
 
 			if("allowooc")
 				if(src.holder.level < MINLEVEL_TOGGLE_OOCTALK)
@@ -284,8 +287,24 @@ proc/updateap()
 		if(!C.holder) continue //If not an admin, this doesn't concern them
 		if(ticker && ticker.mode)
 			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
+			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"End Round Now\"")
 		else
 			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
+			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"Start Round Now\"")
+
+		if (shuttlecomming)
+			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Return Emergency Shuttle\"")
+		else
+			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Call Emergency Shuttle\"")
+
+		if(ticker)
+			winset(C, "ap_roundcontrol.btndelay", "text=\"Game Started\"&is-disabled=true")
+		else
+			if(going)
+				winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
+			else
+				winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
+
 		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
 		winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
 		winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
