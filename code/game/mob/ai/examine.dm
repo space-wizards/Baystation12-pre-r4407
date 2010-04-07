@@ -19,3 +19,20 @@
 				if (src.knocked_out())
 					usr << text("\red [] doesn't seem to be responding.", src.name)
 	return
+/mob/ai/verb/atmoalert(var/area/A in world)
+	set category = "AI Commands"
+	set name = "Atmospheerical Alert"
+	usr.say("Irregular Atmospherical Conditions detected in [A]")
+/mob/ai/verb/hullalert(var/area/A in world)
+	set category = "AI Commands"
+	set name = "Hull Breach Alert"
+	usr.say("Hull Breach detected in [A]")
+	return
+/mob/ai/verb/firealert(var/area/A in world)
+	set category = "AI Commands"
+	set name = "Fire Alert"
+	usr.say("Fire detected in [A]")
+/mob/ai/verb/fightalert(var/area/A in world)
+	set category = "AI Commands"
+	set name = "Violence Alert"
+	usr.say("Violence detected in [A]")

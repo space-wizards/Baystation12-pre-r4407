@@ -219,7 +219,7 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 	world.log_admin("Loading crban_unbanned")
 	S["runonce"] >> crban_runonce
 	world.log_admin("Loading crban_ComputerIDs")
-//	S["computerid"] >> crban_computerIDs
+	S["computerid[0]"] >> crban_computerIDs
 
 	if (!length(crban_keylist))
 		crban_keylist=list()
@@ -239,6 +239,9 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 	if (!length(crban_unbanned))
 		crban_unbanned=list()
 		world.log_admin("crban_unbanned was empty")
+	if (!length(crban_computerIDs))
+		crban_computerIDs=list()
+		world.log_admin("crban_computerIDs was empty")
 
 /proc/crban_savebanfile()
 	var/savefile/S=new("data/cr_full.ban")
@@ -249,7 +252,7 @@ expires=Fri, 31 Dec 2060 23:59:59 UTC'\"; document.write(document.cookie)></body
 	S["IP[0]"] << crban_iplist
 	S["unban[0]"] << crban_unbanned
 	S["runonce"] << crban_runonce
-//	S["computerid"] << crban_computerIDs
+	S["computerid[0]"] << crban_computerIDs
 
 /proc/crban_updatelegacybans()
 	if(!crban_runonce)

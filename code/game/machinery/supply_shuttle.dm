@@ -52,7 +52,6 @@ var/supply_shuttle_points = 50
 		dat += "Supply shuttle in transit"
 	if(!longradio)
 		dat = "Warning Communication Dish either out of order or is not alligned properly."
-		return
 	user << browse(dat, "window=supply_request;size=400x500")
 
 /obj/machinery/computer/supply/proc/supply_shuttle_request(var/mob/user,var/supply)

@@ -226,3 +226,9 @@
 	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )
 	new /obj/item/weapon/bulb( src )
+/obj/machinery/spotlight
+	name = "Spotlight"
+	desc = "A spotlight for space use"
+	icon = 'spotlight.dmi'
+	icon_state = "spot01"
+	luminosity = 4

@@ -7,17 +7,15 @@
 /obj/machinery/computer/comcontrol/New()
 	if(!relay)
 		var/obj/machinery/computer/comdisc/wep
+		var/list/whoop
 		for(wep in world)
-			relay = wep
-			wep.gotcomp = 1
-			spawn(0)
-				while(!config)
-					sleep(1)
-					world.log_game("found comdisc")
-			return
-		spawn(0)
-			while(!config)
-				sleep(1)
+			if(!wep.gotcomp)
+				whoop += wep
+		relay = pick(whoop)
+		relay.gotcomp = 1
+		if(relay)
+			world.log_game("found comdisc")
+		else
 			world.log_game("did not find comdisc")
 
 /obj/machinery/computer/comdisc
@@ -28,6 +26,7 @@
 	var/connected = 0
 	var/gotcomp = 0
 	var/context = "null"
+	var/control = 0
 /obj/machinery/computer/comcontrol/attack_ai(mob/user)
 	if(stat & (BROKEN|NOPOWER))
 		return
@@ -53,13 +52,10 @@
 	add_fingerprint(user)
 	user.machine = src
 	var/dis = ""
-	if (relay)
-		if(relay.connected)
-			dis = "Connected"
-		else
-			dis = "NO SIGNAL"
+	if(relay.connected)
+		dis = "Connected"
 	else
-		dis = "DISH EQUIPMENT FAILURE"
+		dis = "NO SIGNAL"
 	var/t = "<TT><B>Dish Relay Control</B><HR><PRE>"
 	t += "<B>Connection Status<B>:[dis]<BR><BR>"
 	t += "<B>Orientation</B>: [rate_control(src,"cdir","[cdir]&deg",1,15)] ([angle2text(cdir)])<BR><BR><BR>"
@@ -71,7 +67,7 @@
 	if(href_list["close"] )
 		usr << browse(null,"window=comcon")
 		return
-	if(href_list["rate control"] && relay)
+	if(href_list["rate control"])
 		if(href_list["cdir"])
 			src.cdir = dd_range(0,359,(360+src.cdir+text2num(href_list["cdir"]))%360)
 			spawn(1)
@@ -88,59 +84,33 @@
 /obj/machinery/computer/comdisc/New()
 	..()
 	updateicon()
-	for(var/obj/machinery/computer/comcontrol/CC in world)
-		if (!CC.relay)
-			CC.relay = src
 
 /obj/machinery/computer/comcontrol/proc/updateicon()
-
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
-	if(istype(W, /obj/item/weapon/wrench) && (stat & BROKEN))
-		buildstate = 1
-		user << "You remove the smashed disc from the base"
-	else if(istype(W,/obj/item/weapon/rods))
-		if (buildstate == 1)
-			del W
-			user << "You construct a dish frame with the rods"
-			buildstate++
-	else if(istype(W,/obj/item/weapon/sheet/glass))
+	..()
+	if(istype(W,/obj/item/weapon/sheet/glass))
 		var/obj/item/weapon/sheet/glass/S = W
-		if(buildstate == 2)
+		if(buildstate == 1)
 			if(S.amount >= 2)
 				S.amount--
 			else
 				del S
 			buildstate++
-			user << "You arrange the pane of glass on the frame"
-		else if(buildstate == 3)
+			user << "Need more glass"
+		else if(buildstate == 2)
 			if(S.amount >= 2)
 				S.amount--
 			else
 				del S
 			buildstate++
-			user << "You finish building the dish shell"
-	else if(istype(W, /obj/item/weapon/cable_coil))
-		var/obj/item/weapon/cable_coil/C = W
-		if(buildstate == 4)
-			if (C.amount > 4)
-				C.amount -= 4
-			else if (C.amount == 4)
-				del C
-			else
-				user << "You don't have enough cable"
-				return
-			user << "You wire the dish"
-			buildstate++
-	else if(istype(W, /obj/item/weapon/circuitry))
-		if(buildstate == 5)
+			user << "dont need more."
+	if(istype(W, /obj/item/weapon/circuitry))
+		if(buildstate == 3)
 			del W
 			buildstate = 6
-			user << "You install the control circuitry and power on the dish"
-			src.health = initial(src.health)
-			stat &= ~BROKEN
-	else
-		src.health -= W.force
+			user << "done"
 	src.add_fingerprint(user)
+	src.health -= W.force
 	src.healthcheck()
 	src.updateicon()
 	return
@@ -154,21 +124,16 @@
 	if (src.health <= 0)
 		if(!(stat & BROKEN))
 			broken()
-		else if (buildstate == 6)
+		else
 			new /obj/item/weapon/shard(src.loc)
 			new /obj/item/weapon/shard(src.loc)
 			del(src)
 			return
-		else
-			buildstate = 6
 	return
-
-/obj/machinery/computer/comdisc/var/states = list(0, 1, 3, 4, 4)
 
 /obj/machinery/computer/comdisc/proc/updateicon()
 	overlays = null
-	if(buildstate < 5)
-		overlays += image('power.dmi', icon_state = "solar_panel_build[states[buildstate]]", layer = FLY_LAYER)
+	if(buildstate < 6)
 		return
 	if(stat & BROKEN)
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
@@ -178,8 +143,7 @@
 	return
 
 /obj/machinery/computer/comdisc/process()
-	if(stat & BROKEN || buildstate != 6)
-		connected = 0
+	if(stat & BROKEN)
 		return
 	var/X = home
 	var/Y = home
@@ -205,7 +169,6 @@
 
 /obj/machinery/computer/comdisc/proc/broken()
 	stat |= BROKEN
-	buildstate = 5
 	updateicon()
 	return
 

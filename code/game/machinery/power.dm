@@ -39,9 +39,17 @@
 /obj/machinery/light_switch/proc/propagate() //add this proc
 	src.on = src.area.lightswitch
 	updateicon()
-
+/obj/machinery/light_switch/attack_ai(mob/user)
+	if(hacked)
+		user << "Diagnostic:Cable has been serverd"
+		return
+	else
+		src.attack_hand(user)
 /obj/machinery/light_switch/attack_hand(mob/user)
-
+	if(istype(user,/mob/human))
+		if(hacked)
+			user << "You press the button but nothing happens."
+			return
 	on = !on
 
 	area.lightswitch = on
@@ -52,6 +60,17 @@
 		L.updateicon()
 
 	area.updateicon()
+
+/obj/machinery/light_switch/attackby(obj/item/weapon/clothing/gloves/W, mob/user)
+	if(istype(W, /obj/item/weapon/wirecutters))
+		if(!hacked)
+			hacked = 1
+			for(var/mob/O in viewers(src, null))
+				O.show_message("\red [user] cuts the cable.", 1)
+		else
+			hacked = 0
+			for(var/mob/O in viewers(src, null))
+				O.show_message("\red [user] reconnects the cable.", 1)
 
 /obj/machinery/light_switch/power_change()
 

@@ -10,6 +10,7 @@
 	var/adminobs = null
 	var/changes = 0
 	var/canplaysound = 1
+	var/mob/oldbody
 
 client/script = {"<style>
 .ooc_title, .ooc_text
