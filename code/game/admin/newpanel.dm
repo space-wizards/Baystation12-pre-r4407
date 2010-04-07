@@ -36,13 +36,12 @@ client/Command(C as command_text)
 
 	/*
 	Admin Panel command handler
+	At this point, a GIANT switch.  This should probably eventually be changed over to multiple smaller subroutines.
 	*/
 
 	if (src.holder)
 
 		switch(C)
-			if("oldpanel")
-				src.player_panel()
 
 			if("startnow")
 				if(src.holder.level < MINLEVEL_STARTRESTART)
@@ -146,6 +145,53 @@ client/Command(C as command_text)
 						M << browse(null, "window=vote")
 						M.client.showvote = 0
 
+			if("allowenter")
+				if(src.holder.level < MINLEVEL_TOGGLE_ENTERING)
+					alert("You don't have permission to alter that!")
+					updateap()
+					return
+				var/allowenter = winget(src, "ap_roundcontrol.allowenter", "is-checked") == "true"
+				enter_allowed = allowenter
+				if (!( enter_allowed ))
+					world << "<B>You may no longer enter the game.</B>"
+				else
+					world << "<B>You may now enter the game.</B>"
+				world.log_admin("[usr.key] toggled new player game entering.")
+				messageadmins("\blue [usr.key] toggled new player game entering.")
+				world.update_stat()
+				updateap()
+
+			if("allowai")
+				if(src.holder.level < MINLEVEL_TOGGLE_AI)
+					alert("You don't have permission to alter that!")
+					updateap()
+					return
+				var/allowenter = winget(src, "ap_roundcontrol.allowai", "is-checked") == "true"
+				config.allow_ai = allowenter
+				if (!( config.allow_ai ))
+					world << "<B>The AI job is no longer chooseable.</B>"
+				else
+					world << "<B>The AI job is chooseable now.</B>"
+				world.log_admin("[usr.key] toggled AI allowed.")
+				messageadmins("\blue [usr.key] toggled the AI job.")
+				world.update_stat()
+				updateap()
+
+			if("allowabandon")
+				if(src.holder.level < MINLEVEL_TOGGLE_ABANDON)
+					alert("You don't have permission to alter that!")
+					updateap()
+					return
+				var/allowabandon = winget(src, "ap_roundcontrol.allowabandon", "is-checked") == "true"
+				abandon_allowed = allowabandon
+				if (abandon_allowed)
+					world << "<B>You may now abandon mob.</B>"
+				else
+					world << "<B>You may no longer abandon mob :(</B>"
+				messageadmins("\blue[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
+				world.log_admin("[usr.key] toggled abandon mob to [abandon_allowed ? "On" : "Off"].")
+				world.update_stat()
+
 			else
 				..()
 	else
@@ -162,7 +208,8 @@ client/proc/ap()
 	set name = "Administrator Panel 2.0"
 	set category = "Commands"
 	if(!src.holder) return
-	updateap()
+	if(src.holder.level < MINLEVEL_SEEPANEL)
+		return alert("You do not have permission to see the panel.  Sux2BU")
 	winshow(src, "adminpanel",1)
 
 
@@ -176,3 +223,4 @@ proc/updateap()
 			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
 		else
 			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
+		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
