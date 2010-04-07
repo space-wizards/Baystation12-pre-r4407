@@ -1443,3 +1443,36 @@
 15-39:GAME: starting game of traitor
 15-39:ADMIN: Topkasa created /obj/item/weapon/card/id/captains_spare
 15-39:ACCESS: Logout: Topkasa
+15-47:GAME: Finished building powernets (27 nets)
+15-47:ADMIN: Loading crban_keylist
+15-47:ADMIN: Loading crban_reason
+15-47:ADMIN: Loading crban_time
+15-47:ADMIN: Loading crban_bannedby
+15-47:ADMIN: Loading crban_iplist
+15-47:ADMIN: Loading crban_unbanned
+15-47:ADMIN: Loading crban_ComputerIDs
+15-47:ADMIN: crban_computerIDs was empty
+15-47:ADMIN: Loading jobban_rank
+15-47:ADMIN: Updating jobbanfile!
+15-47:ACCESS: Login: Topkasa from 127.0.0.1
+15-47:GAME: Topkasa entered as Desmond Taggart
+15-47:ADMIN: Topkasa used start_now
+15-47:GAME: starting game of traitor
+15-47:ADMIN: Topkasa created /obj/item/weapon/card/id/captains_spare
+15-47:ACCESS: Logout: Topkasa
+16-02:GAME: Finished building powernets (27 nets)
+16-02:ADMIN: Loading crban_keylist
+16-02:ADMIN: Loading crban_reason
+16-02:ADMIN: Loading crban_time
+16-02:ADMIN: Loading crban_bannedby
+16-02:ADMIN: Loading crban_iplist
+16-02:ADMIN: Loading crban_unbanned
+16-02:ADMIN: Loading crban_ComputerIDs
+16-02:ADMIN: crban_computerIDs was empty
+16-02:ADMIN: Loading jobban_rank
+16-02:ADMIN: Updating jobbanfile!
+16-02:ACCESS: Login: Topkasa from 127.0.0.1
+16-02:GAME: Topkasa entered as Desmond Taggart
+16-02:ADMIN: Topkasa used start_now
+16-02:GAME: starting game of extended
+16-02:ACCESS: Logout: Topkasa
