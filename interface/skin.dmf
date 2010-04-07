@@ -263,7 +263,7 @@ window "ap_roundcontrol"
 		is-flat = false
 		stretch = false
 		is-checked = false
-		group = ""
+		group = "world"
 		button-type = radio
 	elem "world_alldead"
 		type = BUTTON
@@ -290,7 +290,7 @@ window "ap_roundcontrol"
 		is-flat = false
 		stretch = false
 		is-checked = false
-		group = ""
+		group = "world"
 		button-type = radio
 	elem "world_normal"
 		type = BUTTON
@@ -317,7 +317,7 @@ window "ap_roundcontrol"
 		is-flat = false
 		stretch = false
 		is-checked = true
-		group = ""
+		group = "world"
 		button-type = radio
 	elem "allowooc"
 		type = BUTTON

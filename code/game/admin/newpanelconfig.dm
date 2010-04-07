@@ -5,24 +5,25 @@
 //Config File for the new Admin Panel.  This should make basic maintenance (e.g. adding game modes) a lot easier
 //than digging through code.  Adding functionality will require you to still dig into the code/interface, though.
 
-//Note that this list allows the use of HTML and \color values in the friendly name (first parameter)
-//The second parameter is the internal name of the game mode
+//Note that this list allows the use of HTML and \color values in the friendly name (second parameter)
+//The third parameter is the internal name of the game mode
+//The first parameter is how it will appear in the selection list, and should not contain color or HTML code.
 
-client/var/global/list/modes = list(   	ModeItem("Extended Role-Play", "extended"),
-										ModeItem("Traitor", "traitor"),
-										ModeItem("Section 13", "centcom"),
-										ModeItem("Nuclear Emergency", "nuclear emergency"),
-										ModeItem("Sandbox Mode", "sandbox"),
-										ModeItem("Corporate Restructuring", "restructuring"),
-										ModeItem("Syndicate Revolution", "revolution"),
-										ModeItem("Monkey", "monkey"),
-										ModeItem("Zombie Nights", "zombie"),
-										ModeItem("Meteor Shower", "meteor"),
-										ModeItem("AI Malfunction", "malfunction"),
-										ModeItem("\green <B>Blob</B>", "blob"),
-										ModeItem("\red ARMOK HOLE", "armok"), //"OH FUCK" mode
-										ModeItem("Secret", "secret"),
-										ModeItem("Random", "random")	)
+client/var/global/list/modes = list(   	ModeItem("Extended Role-Play","Extended Role-Play", "extended"),
+										ModeItem("Traitor","Traitor", "traitor"),
+										ModeItem("Section 13","Section 13", "centcom"),
+										ModeItem("Nuclear Emergency","Nuclear Emergency", "nuclear emergency"),
+										ModeItem("Sandbox Mode","Sandbox Mode", "sandbox"),
+										ModeItem("Corporate Restructuring","Corporate Restructuring", "restructuring"),
+										ModeItem("Syndicate Revolution","Syndicate Revolution", "revolution"),
+										ModeItem("Monkey","Monkey", "monkey"),
+										ModeItem("Zombie Nights","Zombie Nights", "zombie"),
+										ModeItem("Meteor Shower","Meteor Shower", "meteor"),
+										ModeItem("AI Malfunction","AI Malfunction", "malfunction"),
+										ModeItem("Blob", "\green <B>Blob</B>", "blob"),
+										ModeItem("ARMOK HOLE", "armok"), //"OH FUCK" mode
+										ModeItem(,"Secret", "secret"),
+										ModeItem(,"Random", "random")	)
 
 //This just describes the various ranks of the users
 

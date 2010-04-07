@@ -572,9 +572,9 @@
 
 						U.buildlinks()
 						del(T)
+	roundover = 1
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
-	roundover = 1
 	world.Reboot()
 	return 1
 
