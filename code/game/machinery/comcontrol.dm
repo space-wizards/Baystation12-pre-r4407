@@ -53,10 +53,13 @@
 	add_fingerprint(user)
 	user.machine = src
 	var/dis = ""
-	if(relay.connected)
-		dis = "Connected"
+	if (relay)
+		if(relay.connected)
+			dis = "Connected"
+		else
+			dis = "NO SIGNAL"
 	else
-		dis = "NO SIGNAL"
+		dis = "DISH EQUIPMENT FAILURE"
 	var/t = "<TT><B>Dish Relay Control</B><HR><PRE>"
 	t += "<B>Connection Status<B>:[dis]<BR><BR>"
 	t += "<B>Orientation</B>: [rate_control(src,"cdir","[cdir]&deg",1,15)] ([angle2text(cdir)])<BR><BR><BR>"
@@ -68,7 +71,7 @@
 	if(href_list["close"] )
 		usr << browse(null,"window=comcon")
 		return
-	if(href_list["rate control"])
+	if(href_list["rate control"] && relay)
 		if(href_list["cdir"])
 			src.cdir = dd_range(0,359,(360+src.cdir+text2num(href_list["cdir"]))%360)
 			spawn(1)
@@ -85,6 +88,9 @@
 /obj/machinery/computer/comdisc/New()
 	..()
 	updateicon()
+	for(var/obj/machinery/computer/comcontrol/CC in world)
+		if (!CC.relay)
+			CC.relay = src
 
 /obj/machinery/computer/comcontrol/proc/updateicon()
 
@@ -172,7 +178,7 @@
 	return
 
 /obj/machinery/computer/comdisc/process()
-	if(stat & BROKEN)
+	if(stat & BROKEN || buildstate != 6)
 		connected = 0
 		return
 	var/X = home
