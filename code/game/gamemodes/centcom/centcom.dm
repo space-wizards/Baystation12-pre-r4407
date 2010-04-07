@@ -217,6 +217,7 @@ var/const/obj_3_onlyperson = 3
 
 
 /datum/game_mode/centcom/post_setup()
+	..()
 	spawn ( 0 )
 		randomchems()
 	var/list/mobs = get_mob_list()

@@ -13,8 +13,8 @@ Partial list of planned features:
 
 *"You are logged in as ___, a _____" (name, rank)
 *Traitor Management
-*Full Shuttle Control (All 4 shuttles [prison, supply, emergency, syndicate])
-*Round Control (Start, Restart, Reboot, Change-Mode)
+*Full Shuttle Control - All 4 shuttles (prison, supply, emergency [D], syndicate)
+*Round Control (Start, Restart, Reboot, Change-Mode) [DONE]
 *All the current functionality in the old Admin Panel
 *All the current functionality in the admin category
 *All the admin-only verbs in the Commands category
@@ -112,9 +112,9 @@ client/Command(C as command_text)
 			if("votemode")
 				if(src.holder.level < MINLEVEL_CONTROLVOTES)
 					return alert("You do not have permission to use that command")
-				global.vote.mode = 1 	// hack to yield 0=restart, 1=changemode
-				global.vote.voting = 1						// now voting
-				global.vote.votetime = world.timeofday + config.vote_period*10	// when the vote will end
+				global.vote.mode = 1
+				global.vote.voting = 1
+				global.vote.votetime = world.timeofday + config.vote_period*10
 
 				spawn(config.vote_period*10)
 					global.vote.endvote()
@@ -126,9 +126,9 @@ client/Command(C as command_text)
 			if("voterestart")
 				if(src.holder.level < MINLEVEL_CONTROLVOTES)
 					return alert("You do not have permission to use that command")
-				global.vote.mode = 0 	// hack to yield 0=restart, 1=changemode
-				global.vote.voting = 1						// now voting
-				global.vote.votetime = world.timeofday + config.vote_period*10	// when the vote will end
+				global.vote.mode = 0
+				global.vote.voting = 1
+				global.vote.votetime = world.timeofday + config.vote_period*10
 
 				spawn(config.vote_period*10)
 					global.vote.endvote()

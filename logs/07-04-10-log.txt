@@ -1349,3 +1349,52 @@
 13-29:GAME: starting game of centcom
 13-29:GAME: Finished building powernets (25 nets)
 13-29:ACCESS: Logout: Topkasa
+14-05:GAME: Finished building powernets (24 nets)
+14-05:ADMIN: Loading crban_keylist
+14-05:ADMIN: Loading crban_reason
+14-05:ADMIN: Loading crban_time
+14-05:ADMIN: Loading crban_bannedby
+14-05:ADMIN: Loading crban_iplist
+14-05:ADMIN: Loading crban_unbanned
+14-05:ADMIN: Loading crban_ComputerIDs
+14-05:ADMIN: crban_computerIDs was empty
+14-05:ADMIN: Loading jobban_rank
+14-05:ADMIN: Updating jobbanfile!
+14-05:ACCESS: Login: Topkasa from 127.0.0.1
+14-05:GAME: Topkasa entered as Desmond Taggart
+14-05:ADMIN: Topkasa used start_now
+14-05:GAME: starting game of centcom
+14-05:ACCESS: Logout: Topkasa
+14-09:GAME: Finished building powernets (24 nets)
+14-09:ADMIN: Loading crban_keylist
+14-09:ADMIN: Loading crban_reason
+14-09:ADMIN: Loading crban_time
+14-09:ADMIN: Loading crban_bannedby
+14-09:ADMIN: Loading crban_iplist
+14-09:ADMIN: Loading crban_unbanned
+14-09:ADMIN: Loading crban_ComputerIDs
+14-09:ADMIN: crban_computerIDs was empty
+14-09:ADMIN: Loading jobban_rank
+14-09:ADMIN: Updating jobbanfile!
+14-09:ACCESS: Login: Topkasa from 127.0.0.1
+14-09:GAME: Topkasa entered as Desmond Taggart
+14-09:ADMIN: Topkasa used start_now
+14-09:GAME: starting game of centcom
+14-09:ADMIN: Topkasa initiated a reboot.
+14-09:ACCESS: Logout: Topkasa
+14-11:GAME: Finished building powernets (24 nets)
+14-11:ADMIN: Loading crban_keylist
+14-11:ADMIN: Loading crban_reason
+14-11:ADMIN: Loading crban_time
+14-11:ADMIN: Loading crban_bannedby
+14-11:ADMIN: Loading crban_iplist
+14-11:ADMIN: Loading crban_unbanned
+14-11:ADMIN: Loading crban_ComputerIDs
+14-11:ADMIN: crban_computerIDs was empty
+14-11:ADMIN: Loading jobban_rank
+14-11:ADMIN: Updating jobbanfile!
+14-11:ACCESS: Login: Topkasa from 127.0.0.1
+14-11:GAME: Topkasa entered as Desmond Taggart
+14-11:ADMIN: Topkasa used start_now
+14-11:GAME: starting game of traitor
+14-11:ACCESS: Logout: Topkasa
