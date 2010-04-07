@@ -6,16 +6,10 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-<<<<<<< HEAD
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\baysay code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\jobs code\game\machinery code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\human 
-FILE: code\game\algorithm.dm
-LAST_COMPILE_TIME: 1269989452
-=======
 UPDATE_OBJ_TREE: ON
-DIR: code code\game code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\machinery code\game\machinery\doors code\game\mob\ai code\game\objects icons\ss13 maps 
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\gamemodes\malfunction code\game\gamemodes\nuclear code\game\gamemodes\revolution code\game\gamemodes\traitor code\game\machinery code\game\mob code\game\mob\observer code\game\objects icons icons\ss13 maps 
 FILE: maps\Bay Station 12 alpha.dmp
-LAST_COMPILE_TIME: 1270321289
->>>>>>> 453bad62e48cff74a0fb8025102f16dac4e8213c
+LAST_COMPILE_TIME: 1270605097
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -88,6 +82,7 @@ AUTO_FILE_DIR: ON
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
+#define DEBUG
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
@@ -137,6 +132,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
+#include "code\game\gamemodes\centcom\centcom.dm"
 #include "code\game\gamemodes\extended\extended.dm"
 #include "code\game\gamemodes\malfunction\malfunction.dm"
 #include "code\game\gamemodes\meteor\meteor.dm"
