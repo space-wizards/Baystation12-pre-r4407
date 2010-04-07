@@ -23,6 +23,7 @@
 	set name = "Return to your body"
 	if(src.client && src.dead())
 		src.client.mob = src.oldmob
+		src.client.mob.ckey = src.client.key
 	return
 /mob/observer/Move(NewLoc, direct)
 	if(NewLoc)
