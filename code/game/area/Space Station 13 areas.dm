@@ -369,8 +369,14 @@ area/solar/west
 /area/prison/cell_block
 	name = "Prison Cell Block"
 	icon_state = "brig"
+
 /area/comcenter
-	name = "Commmunication's Control"
+	name = "Commmunications Control"
+	icon_state = "purple"
+	linkarea = "comdish"
+
+/area/comdish
+	name = "Communications Dish"
 	icon_state = "purple"
 // CentComm
 /area/centcomm

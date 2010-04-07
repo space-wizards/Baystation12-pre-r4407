@@ -4680,6 +4680,11 @@ obj/machinery/vendingmachine/soda
 	instant = 1
 	basetype = /obj/item/weapon/bulb/incandescent
 
+/obj/machinery/light/incandescent/spotlight
+	basetype = /obj/item/weapon/bulb/incandescent/cfl
+	icon_state = "spot"
+	gset = "spot"
+
 /obj/item/weapon/storage/lightbulbs
 	name = "Box of Incandescent Bulbs"
 	icon_state = "box"

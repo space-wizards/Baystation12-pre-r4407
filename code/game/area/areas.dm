@@ -122,29 +122,13 @@
 	spawn(15)
 		src.power_change()		// all machines set to current power level, also updates lighting icon
 
-/* /area/vehicles/New()
-	..()
-	sleep(1)
-	var/obj/shut_controller/S = new /obj/shut_controller(  )
-	shuttles += S
-	for(var/obj/move/O in src)
-		S.parts += O
-		O.master = S
-		//Foreach goto(42)
-	return
-*/
-
 /proc/get_area(area/A)
 	while(!istype(A, /area) && A)
 		A = A.loc
 	return A
 
-/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source,var/super)
-/*
-	if (src.name == "Space") // space always has no atmos you dolt
-		return
-	src.updateicon()
-	// state 2 == normal, 1 == recovering, 0 == alarm
+/area/proc/atmosalert(var/state, var/obj/machinery/alarm/source, var/super)
+
 	var/list/cameras = list()
 	for (var/obj/machinery/camera/C in src)
 		cameras += C
@@ -152,50 +136,21 @@
 		// maybe it'll just be easier to check the retval from trigger/cancel
 		if (state == 0)
 			// send off a trigger
-			aiPlayer.triggerAlarm("Atmosphere", src, cameras, source)
+			if (!super)aiPlayer.triggerAlarm("Atmosphere", src, cameras, source)
 			atmos = 0
 			src.updateicon()
 		else if (state == 2)
-			var/retval = aiPlayer.cancelAlarm("Atmosphere", src, source)
-			if (retval == 0) // alarm(s) cleared
-				atmos = 1
-				src.updateicon()
-	return 1*/
-	// state 2 == normal, 1 == recovering, 0 == alarm
-	var/list/cameras = list()
-	for (var/obj/machinery/camera/C in src)
-		cameras += C
-	for (var/mob/ai/aiPlayer in world)
-		// maybe it'll just be easier to check the retval from trigger/cancel
-		if (state == 0)
-			// send off a trigger
-			aiPlayer.triggerAlarm("Atmosphere", src, cameras, source)
-			atmos = 0
-			src.updateicon()
-		else if (state == 2)
-			var/retval = aiPlayer.cancelAlarm("Atmosphere", src, source)
+			var/retval = !super && aiPlayer.cancelAlarm("Atmosphere", src, source)
 			if (retval == 0) // alarm(s) cleared
 				atmos = 1
 	if (super)
 		return 1
 	for (var/area/A in src.superarea.areas) //Propagate to the rest of the original area (The DAL library cuts up areas)
 		if (A != src)
-			A.atmos = src.atmos
+			A.atmosalert(state, source, 1)
 	return 1
+
 /area/proc/poweralert(var/state, var/source,var/super)
-/*
-	if (state != poweralm)
-		poweralm = state
-		var/list/cameras = list()
-		for (var/obj/machinery/camera/C in src)
-			cameras += C
-		for (var/mob/ai/aiPlayer in world)
-			if (state == 1)
-				aiPlayer.cancelAlarm("Power", src, source)
-			else
-				aiPlayer.triggerAlarm("Power", src, cameras, source)
-	return
-*/
 	if (state != poweralm)
 		poweralm = state
 		var/list/cameras = list()
@@ -213,26 +168,7 @@
 	return
 
 /area/proc/firealert(var/super)
-/*
-	if(src.name == "Space") //no fire alarms in space
-		return
-	if (!( src.fire ))
-		src.fire = 1
-		src.updateicon()
-		src.mouse_opacity = 0
-		for(var/obj/machinery/door/firedoor/D in src)
-			if(D.operating)
-				D.nextstate = CLOSED
-			else if(!D.density)
-				spawn(0)
-					D.closefire()
-		var/list/cameras = list()
-		for (var/obj/machinery/camera/C in src)
-			cameras += C
-		for (var/mob/ai/aiPlayer in world)
-			aiPlayer.triggerAlarm("Fire", src, cameras, src)
-	return
-*/
+
 	if(src.name == "Space") //no fire alarms in space
 		return
 	if (!( src.fire ))
@@ -257,21 +193,6 @@
 				A.firealert(1)
 	return
 /area/proc/firereset(var/super)
-/*
-	if (src.fire)
-		src.fire = 0
-		src.mouse_opacity = 0
-		src.updateicon()
-		for(var/obj/machinery/door/firedoor/D in src)
-			if(D.operating)
-				D.nextstate = OPEN
-			else if(D.density)
-				spawn(0)
-					D.openfire()
-		for (var/mob/ai/aiPlayer in world)
-			aiPlayer.cancelAlarm("Fire", src, src)
-	return
-	*/
 	if (src.fire)
 		src.fire = 0
 		src.mouse_opacity = 0
