@@ -2995,7 +2995,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/computer/aiupload
 	name = "AI Upload"
 	icon_state = "upload"
-
+	hasdisk = 1
 /obj/machinery/computer/atmosphere
 	name = "atmosphere"
 /obj/machinery/computer/atmosphere/siphonswitch
@@ -3013,6 +3013,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/authenticated = 0.0
 	var/mode = 0.0
 	var/printing = null
+	hasdisk = 1
 	req_access = list(access_change_ids)
 /obj/machinery/computer/communications
 	name = "Communications Console"
@@ -3042,6 +3043,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/computer/data
 	name = "data"
 	icon_state = "records"
+	hasdisk = 1
 
 	var/list/topics = list(  )
 
@@ -3054,6 +3056,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/computer/dna
 	name = "DNA operations computer"
 	icon_state = "dnaalter"
+	hasdisk = 1
 	var/obj/item/weapon/card/data/scan = null
 	var/obj/item/weapon/card/data/modify = null
 	var/obj/item/weapon/card/data/modify2 = null
@@ -3086,6 +3089,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/computer/med_data
 	name = "Medical Records"
 	icon_state = "medical"
+	hasdisk = 1
 	req_access = list(access_medical_records)
 	var/obj/item/weapon/card/id/scan = null
 	var/authenticated = null
@@ -3132,6 +3136,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/printing = null
 	var/can_change_id = 0
 	var/traitorused = 0
+	hasdisk = 1
 /obj/machinery/computer/security
 	name = "Security Cameras"
 	icon_state = "cameras"
