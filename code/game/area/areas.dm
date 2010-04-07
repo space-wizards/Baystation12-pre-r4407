@@ -182,7 +182,6 @@
 		if (A != src)
 			A.atmos = src.atmos
 	return 1
-
 /area/proc/poweralert(var/state, var/source,var/super)
 /*
 	if (state != poweralm)

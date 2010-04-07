@@ -3912,7 +3912,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/adir = SOUTH
 	var/ndir = SOUTH
 	var/turn_angle = 0
-	var/obj/machinery/computer/comcontrol/control
+
 
 
 /obj/machinery/power/solar_control
@@ -3986,6 +3986,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "light1"
 	anchored = 1.0
 	var/on = 1
+	var/hacked = 0
 	var/area/area = null
 	var/otherarea = null
 //	luminosity = 1

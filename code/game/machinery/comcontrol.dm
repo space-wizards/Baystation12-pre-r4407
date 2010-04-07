@@ -7,13 +7,16 @@
 /obj/machinery/computer/comcontrol/New()
 	if(!relay)
 		var/obj/machinery/computer/comdisc/wep
+		var/list/whoop
 		for(wep in world)
-			relay = wep
-			wep.gotcomp = 1
-			if(relay)
-				world.log_game("found comdisc")
-			else
-				world.log_game("did not find comdisc")
+			if(!wep.gotcomp)
+				whoop += wep
+		relay = pick(whoop)
+		relay.gotcomp = 1
+		if(relay)
+			world.log_game("found comdisc")
+		else
+			world.log_game("did not find comdisc")
 
 /obj/machinery/computer/comdisc
 	name = "Long Range Communication Relay"
@@ -23,6 +26,7 @@
 	var/connected = 0
 	var/gotcomp = 0
 	var/context = "null"
+	var/control = 0
 /obj/machinery/computer/comcontrol/attack_ai(mob/user)
 	if(stat & (BROKEN|NOPOWER))
 		return

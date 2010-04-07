@@ -102,11 +102,11 @@
 				src.updatehealth()
 			else
 				src.radiation = 0
-		else
+		else if(src.radiation > 1)
 			src.radiation -= 1
 		if(src.radiation > 1)
 			if(src.antitoxs > 1)
-				src.radiation -= round(src.antitoxs)
+				src.radiation -= (round(src.antitoxs) *2)
 /////////////////////////////////
 		if (!src.m_flag)
 			src.moved_recently = 0

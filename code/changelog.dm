@@ -4,6 +4,11 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Heads's Changes (someday, April 1-4th, 2010)</B></P>
+<li>Communication Disc has been added align it to call supplies or the shuttle</li>
+<li>New commands for ai right click and choose an area to use.</li>
+<li>Cameras and Atmos alarm added to supply..</li>
+
 <P><B>Sukasa's Changes (Tuesday, March 30th, 2010)</B></P>
 <li>Small balance changes to Blob mode and lights</li>
 <li>Added a new job: The Supply Officer.  Expect this job to be polished in the near future</li>

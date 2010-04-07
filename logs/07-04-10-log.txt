@@ -1,0 +1,559 @@
+03-37:ADMIN: Loading crban_keylist
+03-37:ADMIN: Loading crban_reason
+03-37:ADMIN: Loading crban_time
+03-37:ADMIN: Loading crban_bannedby
+03-37:ADMIN: Loading crban_iplist
+03-37:ADMIN: Loading crban_unbanned
+03-37:ADMIN: Loading crban_ComputerIDs
+03-37:ADMIN: Loading jobban_rank
+03-37:ADMIN: Updating jobbanfile!
+03-37:GAME: starting game of traitor
+03-37:ACCESS: Login: Segellion from 64.203.238.123
+03-37:OOC: Dorf Driver/Segellion : woot unban
+03-37:OOC: Dorf Driver/Segellion : moving to googols
+03-37:ACCESS: Logout: Segellion
+03-37:ACCESS: Login: X2yzh9 from 75.142.181.4
+03-37:ACCESS: Login: Headswe from 127.0.0.1
+03-37:ACCESS: Login: Cecilff2 from 4.254.220.110
+03-37:GAME: X2yzh9 entered as Cog Bedhammer
+03-37:OOC: Alucard Whoop/Headswe : Hmmm..
+03-37:VOTE: Voting to change mode started by Cog Bedhammer/X2yzh9
+03-37:OOC: Alucard Whoop/Headswe : Well that was intresting.
+03-37:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+03-37:OOC: Cerberius Grey/Cecilff2 : I have no idea what was happening
+03-37:OOC: Cerberius Grey/Cecilff2 : War was beginning...?
+03-37:OOC: Alucard Whoop/Headswe : And i who wanted to merge my source.
+03-37:GAME: Cecilff2 entered as Cerberius Grey
+03-37:OOC: Alucard Whoop/Headswe : Really the syndies were killing eachother.
+03-37:OOC: Alucard Whoop/Headswe : O.o
+03-37:GAME: Headswe entered as Alucard Whoop
+03-37:OOC: Cerberius Grey/Cecilff2 : Someone gave one of the syndicates traitor status
+03-37:ADMIN: Voting aborted by Headswe
+03-37:OOC: Cerberius Grey/Cecilff2 : With the objective to protect the station at all costs
+03-37:OOC: Alucard Whoop/Headswe : Kinda gay to give it in the shuttle btw.
+03-37:OOC: Alucard Whoop/Headswe : should have waited.
+03-37:OOC: Cerberius Grey/Cecilff2 : Yeah
+03-37:OOC: Cog Bedhammer/X2yzh9 : oh, and i might add that i do not kiss ass, in fact agilent was just now kissing ass
+03-37:OOC: Cerberius Grey/Cecilff2 : Still the other syndies wouldn&#39;t really have a chance
+03-37:OOC: Cog Bedhammer/X2yzh9 : but is agilent Denholm?
+03-37:ACCESS: Failed Login: Agilent Reason: Key banned
+03-37:GAME: Guest-1801901258 entered as Urist Drawbridgesoap
+03-37:OOC: Cerberius Grey/Cecilff2 : Ah there it is
+03-37:OOC: Cerberius Grey/Cecilff2 : Googolplexed has made DistortedAudio/Syndicate a traitor. Objective is: Help the station at all costs
+03-37:ACCESS: Login: Rogunz from 66.75.9.193
+03-37:OOC: Denholm Jenkins/Rogunz : Ah googol...
+03-37:GAME: Rogunz entered as Denholm Jenkins
+03-37:OOC: Cog Bedhammer/X2yzh9 : wait, isn&#39;t denholm banned?
+03-37:ACCESS: Login: Mrlabs from 69.126.52.233
+03-37:OOC: Cog Bedhammer/X2yzh9 : googol was just saying
+03-37:OOC: Alucard Whoop/Headswe : Dunno.
+03-37:OOC: Denholm Jenkins/Rogunz : Yes, but googols server is googols
+03-37:OOC: Denholm Jenkins/Rogunz : This is headswes
+03-37:OOC: Alucard Whoop/Headswe : Bay12 servers are bay12.
+03-37:OOC: Cerberius Grey/Cecilff2 : To be honest
+03-37:OOC: Alucard Whoop/Headswe : we share bans.
+03-37:OOC: Denholm Jenkins/Rogunz : Yes, I realize that
+03-37:OOC: Cerberius Grey/Cecilff2 : I have no idea what was going on
+03-37:OOC: Denholm Jenkins/Rogunz : But I had no reason to be banned
+03-37:OOC: Denholm Jenkins/Rogunz : Googol just ragequit
+03-37:OOC: Cog Bedhammer/X2yzh9 : oh no you did Rogunz
+03-37:OOC: Alucard Whoop/Headswe : Whoop in before OOC fight
+03-37:OOC: Alucard Whoop/Headswe : STOP IT
+03-37:GAME: Mrlabs entered as Samuel Vimes
+03-37:OOC: Cerberius Grey/Cecilff2 : Well that part was evident
+03-37:ACCESS: Logout: Mrlabs
+03-37:OOC: Denholm Jenkins/Rogunz : Yeah
+03-37:ACCESS: Login: Mrlabs from 69.126.52.233
+03-37:OOC: Denholm Jenkins/Rogunz : Oh fuck yes
+03-37:ACCESS: Logout: Mrlabs
+03-37:OOC: Denholm Jenkins/Rogunz : Who is sam vimes
+03-37:ACCESS: Login: Mrlabs from 69.126.52.233
+03-37:OOC: Cog Bedhammer/X2yzh9 : Bob dole
+03-37:OOC: Denholm Jenkins/Rogunz : Cecliff?
+03-37:OOC: Cerberius Grey/Cecilff2 : I&#39;m spartacus
+03-37:SAY: Samuel Vimes/Mrlabs : ;Woah! Where am I?!
+03-37:OOC: Alucard Whoop/Headswe : Gah i wanna update my server to get the new fancy admin panel
+03-37:OOC: Denholm Jenkins/Rogunz : Then headswe?
+03-37:OOC: Denholm Jenkins/Rogunz : Ah, distorted?
+03-37:OOC: Cog Bedhammer/X2yzh9 : can we have a restart vote?
+03-37:SAY: Cerberius Grey/Cecilff2 : ;Hellooooooo stalkers
+03-37:OOC: Cog Bedhammer/X2yzh9 : since we&#39;re all assistants
+03-37:SAY: Samuel Vimes/Mrlabs : ;I was just walking down treacle street and I suddelnly appeared here!
+03-37:SAY: Cerberius Grey/Cecilff2 : ;Blowout soon
+03-37:OOC: HELP: Denholm Jenkins/Rogunz : Yeah, Googol dosent like me, in essance
+03-37:SAY: Denholm Jenkins/Rogunz : ; ITS OK SAM
+03-37:ADMIN: PM: Headswe->Rogunz : And you somehow think i do?
+03-37:SAY: Denholm Jenkins/Rogunz : ; ILL BRING YOU SOME SPACE BEER
+03-37:SAY: Samuel Vimes/Mrlabs : ;I don&#39;t think this is the Discworld!
+03-37:ADMIN: PM: Rogunz->Headswe : Hmm?
+03-37:ADMIN: Headswe initiated a reboot.
+03-37:OOC: Cerberius Grey/Cecilff2 : Wheee
+03-37:ACCESS: Logout: X2yzh9
+03-37:ACCESS: Logout: Cecilff2
+03-37:ACCESS: Logout: Headswe
+03-37:ACCESS: Logout: Guest-1801901258
+03-37:ACCESS: Logout: Rogunz
+03-37:ACCESS: Logout: Mrlabs
+03-56:ADMIN: Loading crban_keylist
+03-56:ADMIN: Loading crban_reason
+03-56:ADMIN: Loading crban_time
+03-56:ADMIN: Loading crban_bannedby
+03-56:ADMIN: Loading crban_iplist
+03-56:ADMIN: Loading crban_unbanned
+03-56:ADMIN: Loading crban_ComputerIDs
+03-56:ADMIN: Loading jobban_rank
+03-56:ADMIN: Updating jobbanfile!
+03-56:ACCESS: Login: Headswe from 127.0.0.1
+03-56:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+03-56:ACCESS: Login: X2yzh9 from 75.142.181.4
+03-56:ACCESS: Login: Mrlabs from 69.126.52.233
+03-56:ACCESS: Login: Cecilff2 from 4.254.220.110
+03-56:GAME: X2yzh9 entered as Cog Bedhammer
+03-56:GAME: Mrlabs entered as Samuel Vimes
+03-56:VOTE: Voting to change mode started by Cog Bedhammer/X2yzh9
+03-56:GAME: Headswe entered as Alucard Whoop
+03-56:OOC: Alucard Whoop/Headswe : It for secret.
+03-56:ADMIN: Headswe delayed the game.
+03-56:GAME: Cecilff2 entered as Cerberius Grey
+03-56:GAME: Guest-1801901258 entered as Urist Drawbridgesoap
+03-56:OOC: Cog Bedhammer/X2yzh9 : Hum
+03-56:OOC: Samuel Vimes/Mrlabs : Aww cmon guys
+03-56:OOC: Samuel Vimes/Mrlabs : No it
+03-56:OOC: Alucard Whoop/Headswe : (it for secret)
+03-56:OOC: Cog Bedhammer/X2yzh9 : Nuclear is awesome
+03-56:OOC: Samuel Vimes/Mrlabs : Ok then
+03-56:OOC: Cog Bedhammer/X2yzh9 : i mean
+03-56:OOC: Cerberius Grey/Cecilff2 : OOC: Headswe/(67.52.31.93): It for secret.
+03-56:OOC: Cog Bedhammer/X2yzh9 : when it&#39;s a good Nuke round
+03-56:ACCESS: Login: Rogunz from 66.75.9.193
+03-56:OOC: Alucard Whoop/Headswe : Heh my ip
+03-56:VOTE: Voting closed, result was it
+03-56:GAME: Rogunz entered as Denholm Jenkins
+03-56:OOC: Cerberius Grey/Cecilff2 : Nuke is awesome when you don&#39;t have just 5 people
+03-56:OOC: Denholm Jenkins/Rogunz : Oops
+03-56:OOC: Alucard Whoop/Headswe : (4.254.220.110
+03-56:OOC: Samuel Vimes/Mrlabs : 1337
+03-56:OOC: Denholm Jenkins/Rogunz : Went on the wrong server
+03-56:OOC: Alucard Whoop/Headswe : cecliff2
+03-56:OOC: Cog Bedhammer/X2yzh9 : Good point there Cecilff
+03-56:OOC: Samuel Vimes/Mrlabs : I noticed that
+03-56:OOC: Alucard Whoop/Headswe : Whoop
+03-56:OOC: Cerberius Grey/Cecilff2 : Head it shows up when you connect
+03-56:OOC: Cerberius Grey/Cecilff2 : As this is your server after all
+03-56:OOC: Alucard Whoop/Headswe : I know :D
+03-56:OOC: Alucard Whoop/Headswe : You have funny ip you know that.
+03-56:ADMIN: Headswe set the mode as secret.
+03-56:OOC: Cerberius Grey/Cecilff2 : I am not in any sort of government agency or anything like that
+03-56:OOC: Denholm Jenkins/Rogunz : Heh...
+03-56:OOC: Cog Bedhammer/X2yzh9 : Can you start now?
+03-56:ADMIN: Headswe used start_now
+03-56:GAME: starting game of wizard
+03-56:ACCESS: Logout: 
+03-56:ACCESS: Login: Cecilff2 from 4.254.220.110
+03-56:ACCESS: They share computer ID's
+03-56:OOC: Denholm Jenkins/Rogunz : Accidently went to googols instead
+03-56:SAY: GREY/Cecilff2 : GREY online
+03-56:OOC: Cog Bedhammer/X2yzh9 : Oh god
+03-56:OOC: Denholm Jenkins/Rogunz : Ignore my corpse if you play there
+03-56:SAY: Samuel Vimes/Mrlabs : ;Great! A new freakish metal boat.
+03-56:OOC: GREY/Cecilff2 : Oh nice
+03-56:ACCESS: Logout: X2yzh9
+03-56:SAY: Samuel Vimes/Mrlabs : ;I just want to go back to Ankh-Morpork!
+03-56:SAY: Denholm Jenkins/Rogunz : ; Sam, I will guide you into this world of death and destruction
+03-56:OOC: GREY/Cecilff2 : I like this assignment designator
+03-56:OOC: GREY/Cecilff2 : I mean being able to see their position when they talk
+03-56:SAY: Samuel Vimes/Mrlabs : ;What&#39;s this? A corssbow?
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the table
+03-56:SAY: Denholm Jenkins/Rogunz : ; What is your job?
+03-56:OOC: Alucard Whoop/Headswe : Huh?
+03-56:SAY: Samuel Vimes/Mrlabs : ;My gods that&#39;s hot!
+03-56:SAY: Denholm Jenkins/Rogunz : ;What is your job?
+03-56:SAY: Denholm Jenkins/Rogunz : ; Your job is?
+03-56:SAY: Alucard Whoop/Headswe : SCYAR NILA MAINTENANCE
+03-56:OOC: HELP: Denholm Jenkins/Rogunz : My headset seems to be broke
+03-56:SAY: Denholm Jenkins/Rogunz : ; HELLO?
+03-56:ADMIN: Cecilff2/GREY : Denholm Jenkins(Captain)- [145.9]-broadcasts
+03-56:SAY: Denholm Jenkins/Rogunz : ;HELLO?
+03-56:SAY: Denholm Jenkins/Rogunz : DAMMIT
+03-56:SAY: Denholm Jenkins/Rogunz : MY HEADSET IS BROKED
+03-56:ADMIN: Cecilff2/GREY : I like the little parenthesis and position name
+03-56:SAY: Denholm Jenkins/Rogunz : Attention crew
+03-56:SAY: Denholm Jenkins/Rogunz : ...
+03-56:SAY: Samuel Vimes/Mrlabs : You!
+03-56:SAY: Denholm Jenkins/Rogunz : WHY DOES THE RADIO HATE ME
+03-56:SAY: GREY/Cecilff2 : Warning no engineer detected
+03-56:SAY: Denholm Jenkins/Rogunz : WHY
+03-56:ADMIN: PM: Headswe->Cecilff2 : Yea later on it will be clickable to take you to nearest camera
+03-56:OOC: Denholm Jenkins/Rogunz : Am I unable to use the radios for a reason?|
+03-56:SAY: Samuel Vimes/Mrlabs : Tell me where I am!
+03-56:SAY: Denholm Jenkins/Rogunz : Space station 13
+03-56:SAY: GREY/Cecilff2 : You are currently in the bridge
+03-56:OOC: Denholm Jenkins/Rogunz : Thanks
+03-56:SAY: Denholm Jenkins/Rogunz : ; Does it work now?
+03-56:SAY: Samuel Vimes/Mrlabs : Space Station?
+03-56:SAY: Denholm Jenkins/Rogunz : ; Good
+03-56:SAY: Alucard Whoop/Headswe : TALLI VERITHA
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the wizards staff
+03-56:SAY: Denholm Jenkins/Rogunz : We are in the sky
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the wizards staff
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the wizards staff
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:SAY: Denholm Jenkins/Rogunz : WHAT THE FUCK
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:SAY: GREY/Cecilff2 : There appears to be an overabundance of security staff this shift.
+03-56:SAY: Samuel Vimes/Mrlabs : ;Wizards!
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the wizards staff
+03-56:SAY: Samuel Vimes/Mrlabs : ;They follow me everywhere!
+03-56:SAY: Samuel Vimes/Mrlabs : ;I know how to deal with them!
+03-56:SAY: Denholm Jenkins/Rogunz : ; INVISIBLE MAN
+03-56:SAY: Denholm Jenkins/Rogunz : ; BEATING Me
+03-56:SAY: Denholm Jenkins/Rogunz : ; THERE IS AN INVISIBLE MAN ON THE STATION AI
+03-56:SAY: Alucard Whoop/Headswe : TALLI VERITHA
+03-56:SAY: Denholm Jenkins/Rogunz : ; HE IS DRESSED IN BLUE
+03-56:SAY: GREY/Cecilff2 : Searching...
+03-56:SAY: Alucard Whoop/Headswe : EI NATH
+03-56:SAY: Denholm Jenkins/Rogunz : ; AND HITS PEOPLE WITH A POLE
+03-56:SAY: Samuel Vimes/Mrlabs : Where?!
+03-56:SAY: Denholm Jenkins/Rogunz : HE DISSAPEARED
+03-56:SAY: Alucard Whoop/Headswe : ; lies
+03-56:SAY: GREY/Cecilff2 : There is a man in odd garb onboard the station
+03-56:SAY: Denholm Jenkins/Rogunz : ; LOCK HIM DOWN
+03-56:SAY: GREY/Cecilff2 : He appears to have killed Cog Bedhammer
+03-56:SAY: Denholm Jenkins/Rogunz : ; DAMMIT
+03-56:SAY: GREY/Cecilff2 : I have locked him into the bridge
+03-56:SAY: Samuel Vimes/Mrlabs : ;These damn future doors won&#39;t open!
+03-56:SAY: Denholm Jenkins/Rogunz : ; HE DISSAPEARED
+03-56:SAY: Denholm Jenkins/Rogunz : ; AGAIN
+03-56:SAY: GREY/Cecilff2 : Correction, he is in the court room
+03-56:SAY: Alucard Whoop/Headswe : TALLI VERITHA
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the taser gun
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Denholm Jenkins(Rogunz) with the taser gun
+03-56:SAY: Denholm Jenkins/Rogunz : ; DAMMIT AI
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:SAY: Denholm Jenkins/Rogunz : *collapse
+03-56:SAY: Alucard Whoop/Headswe : STI CALLIYE
+03-56:SAY: Alucard Whoop/Headswe : EI NATH
+03-56:OOC: Denholm Jenkins/Rogunz : I hate it when the wizards dont even atempt to RP
+03-56:SAY: GREY/Cecilff2 : Warning, the individual appears to have killed the captain
+03-56:SAY: GREY/Cecilff2 : Violence detected in Courtroom
+03-56:OOC: Denholm Jenkins/Rogunz : Also, telekenisis needs a debuff
+03-56:OOC: Denholm Jenkins/Rogunz : Desperatly
+03-56:SAY: Denholm Jenkins/Headswe : ; Hey im the captain leemme out
+03-56:OOC: HELP: Denholm Jenkins/Rogunz : He really
+03-56:OOC: HELP: Denholm Jenkins/Rogunz : Tried that?
+03-56:SAY: GREY/Cecilff2 : Searching manifest
+03-56:ADMIN: PM: Headswe->Rogunz : Ya
+03-56:ADMIN: PM: Rogunz->Headswe : Who...?
+03-56:SAY: GREY/Cecilff2 : Manifest currently lists Denholm Jenkins as captain
+03-56:ADMIN: PM: Rogunz->Headswe : You?
+03-56:ADMIN: PM: Headswe->Rogunz : ^^
+03-56:ADMIN: PM: Rogunz->Headswe : Hah
+03-56:SAY: Denholm Jenkins/Headswe : Im the HoP
+03-56:ADMIN: PM: Rogunz->Headswe : I guess its worth a try
+03-56:SAY: Denholm Jenkins/Headswe : ; Im the HoP
+03-56:SAY: Samuel Vimes/Mrlabs : ;What is going on dammit! I just want to get back to the Discworld!
+03-56:ADMIN: PM: Rogunz->Headswe : Congratz on killing me though
+03-56:ADMIN: PM: Headswe->Rogunz : Heh :P
+03-56:ADMIN: PM: Rogunz->Headswe : Probably shoudent have faked a collapse
+03-56:SAY: Alucard Whoop/Headswe : SCYAR NILA MEDICAL
+03-56:ADMIN: PM: Rogunz->Headswe : I thought you werent stunned
+03-56:SAY: GREY/Cecilff2 : Confirmed you are carrying a valid ID card.
+03-56:ADMIN: PM: Rogunz->Headswe : So I was going to fake death :P
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at the floor
+03-56:SAY: Alucard Whoop/Headswe : ;Ai locate other crewmembers
+03-56:SAY: GREY/Cecilff2 : You appear to be harming humans.  I cannot locate them for you
+03-56:ADMIN: PM: Rogunz->Headswe : Heh
+03-56:SAY: GREY/Cecilff2 : Security please come to the upload room
+03-56:MATTACK: Alucard Whoop(Headswe) clicked on Alucard Whoop(Headswe) with intent on harm
+03-56:SAY: GREY/Cecilff2 : Please do not punch yourself
+03-56:SAY: Samuel Vimes/Mrlabs : ;You! Fake voice! Kill that man
+03-56:SAY: Urist Drawbridgesoap/Guest-1801901258 : somthing odd in the chapel
+03-56:SAY: GREY/Cecilff2 : I cannot kill him.
+03-56:SAY: Samuel Vimes/Mrlabs : ;Why not?
+03-56:SAY: Urist Drawbridgesoap/Guest-1801901258 : say,a, something odd in teh chapel
+03-56:ADMIN: PM: Rogunz->Headswe : Try to fireball it?
+03-56:SAY: GREY/Cecilff2 : My programming prohibits me from using lethal force
+03-56:ADMIN: PM: Headswe->Rogunz : no fireball
+03-56:ADMIN: PM: Rogunz->Headswe : Magic missle
+03-56:ADMIN: PM: Rogunz->Headswe : Then
+03-56:SAY: Samuel Vimes/Mrlabs : ;Is he a wizard?!
+03-56:ADMIN: PM: Headswe->Rogunz : no staff
+03-56:ADMIN: PM: Rogunz->Headswe : Because that glass wont protect you
+03-56:SAY: GREY/Cecilff2 : Wizards do not exist
+03-56:SAY: Samuel Vimes/Mrlabs : ;I hate wizards
+03-56:SAY: Samuel Vimes/Mrlabs : ;And they sure do!
+03-56:ADMIN: PM: Rogunz->Headswe : Dodge between the turrents
+03-56:ADMIN: PM: Rogunz->Headswe : They can kill each other
+03-56:SAY: Samuel Vimes/Mrlabs : ;You&#39;ve never heard of the unseen university?
+03-56:ADMIN: PM: Rogunz->Headswe : fall before they shoot
+03-56:SAY: Samuel Vimes/Mrlabs : ;It&#39;s the tallest building in Ankh-Morpork
+03-56:SAY: GREY/Cecilff2 : Building not located in database
+03-56:OOC: Denholm Jenkins/Rogunz : INCORRECT
+03-56:OOC: Denholm Jenkins/Rogunz : The twoer of art is
+03-56:OOC: Denholm Jenkins/Rogunz : Er, tower*
+03-56:OOC: Samuel Vimes/Mrlabs : Derp
+03-56:OOC: Samuel Vimes/Mrlabs : MY bad
+03-56:OOC: Denholm Jenkins/Rogunz : Yep
+03-56:OOC: Samuel Vimes/Mrlabs : Wait
+03-56:SAY: GREY/Cecilff2 : Samuel Vimes, please report to the AI upload.
+03-56:SAY: Alucard Whoop/Headswe : ; AI STOP SHOOTING ME
+03-56:OOC: Samuel Vimes/Mrlabs : It&#39;s still part of the university
+03-56:OOC: Denholm Jenkins/Rogunz : Tower of art is like a mile high
+03-56:OOC: Denholm Jenkins/Rogunz : Eh
+03-56:SAY: Alucard Whoop/Headswe : ; i have aceese to ai upload
+03-56:OOC: Denholm Jenkins/Rogunz : That is debatable
+03-56:MATTACK: Samuel Vimes(Mrlabs)has shot a taser round at Alucard Whoop
+03-56:SAY: GREY/Cecilff2 : Please remove him from the upload
+03-56:MATTACK: Alucard Whoop(Headswe) clicked on Samuel Vimes(Mrlabs) with intent on harm
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:OOC: Alucard Whoop/Headswe : FUCK YOU:
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:SAY: GREY/Cecilff2 : Do not kill him
+03-56:OOC: Alucard Whoop/Headswe : Fucking faggot fuck
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with the wizards staff
+03-56:OOC: Denholm Jenkins/Rogunz : Well, you did alright headswe
+03-56:OOC: Denholm Jenkins/Rogunz : You managed to kill me
+03-56:SAY: Samuel Vimes/Mrlabs : Wizards!
+03-56:OOC: Denholm Jenkins/Rogunz : Hahahaha
+03-56:SAY: Denholm Jenkins/Rogunz : TURRENTS TO LETHAL
+03-56:SAY: Samuel Vimes/Mrlabs : Gods dammit! Why can&#39;t I move?!
+03-56:SAY: Denholm Jenkins/Rogunz : FOR THE GREATER GOOD
+03-56:SAY: GREY/Cecilff2 : Warning, all heads appear to be homocidal
+03-56:SAY: Samuel Vimes/Mrlabs : ;Fine, I&#39;ll arrest him
+03-56:SAY: Alucard Whoop/Headswe : ; GOD DAMMIT
+03-56:SAY: Samuel Vimes/Mrlabs : ;Bring him to the yard
+03-56:SAY: Alucard Whoop/Headswe : Just
+03-56:MATTACK: Samuel Vimes(Mrlabs)has grabbed Alucard Whoop(Headswe) aggressively (now hands) 
+03-56:SAY: Alucard Whoop/Headswe : lemme hold my staff
+03-56:OOC: Denholm Jenkins/Rogunz : WHOOO
+03-56:MATTACK: Samuel Vimes(Mrlabs)has grabbed Alucard Whoop(Headswe) aggressively (now hands) 
+03-56:ACCESS: Logout: Guest-1801901258
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:OOC: Denholm Jenkins/Rogunz : PUSH FIGHT!
+03-56:MATTACK: Alucard Whoop(Headswe) attcked by Samuel Vimes(Mrlabs) with the taser gun
+03-56:MATTACK: Samuel Vimes(Mrlabs) clicked on Alucard Whoop(Headswe) with intent on harm
+03-56:MATTACK: Samuel Vimes(Mrlabs) clicked on Alucard Whoop(Headswe) with intent on harm
+03-56:SAY: GREY/Cecilff2 : Violence detected in South Hallway
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+03-56:MATTACK: Samuel Vimes(Mrlabs) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+03-56:OOC: Alucard Whoop/Headswe : FUCKING FUCK
+03-56:OOC: Alucard Whoop/Headswe : Fuck you.
+03-56:OOC: Denholm Jenkins/Rogunz : heh
+03-56:SAY: GREY/Cecilff2 : Violence detected in East Hallway
+03-56:OOC: Alucard Whoop/Headswe : All
+03-56:OOC: Alucard Whoop/Headswe : Really.
+03-56:SAY: Samuel Vimes/Mrlabs : Damn wizard!
+03-56:OOC: Denholm Jenkins/Rogunz : Fire extinquishers rule
+03-56:OOC: Alucard Whoop/Headswe : Fuck fuck fuck
+03-56:ACCESS: Logout: Mrlabs
+03-56:ACCESS: Logout: Cecilff2
+03-56:ACCESS: Logout: Headswe
+03-56:ACCESS: Logout: Rogunz
+04-14:ADMIN: Loading crban_keylist
+04-14:ADMIN: Loading crban_reason
+04-14:ADMIN: Loading crban_time
+04-14:ADMIN: Loading crban_bannedby
+04-14:ADMIN: Loading crban_iplist
+04-14:ADMIN: Loading crban_unbanned
+04-14:ADMIN: Loading crban_ComputerIDs
+04-14:ADMIN: Loading jobban_rank
+04-14:ADMIN: Updating jobbanfile!
+04-14:ACCESS: Login: Headswe from 127.0.0.1
+04-14:ACCESS: Login: Rogunz from 66.75.9.193
+04-14:ACCESS: Login: Cecilff2 from 4.254.220.110
+04-14:GAME: Rogunz entered as Denholm Jenkins
+04-14:GAME: Headswe entered as Alucard Whoop
+04-14:GAME: Cecilff2 entered as Cerberius Grey
+04-14:OOC: Cerberius Grey/Cecilff2 : If you hadn&#39;t killed anyone yet I would have let you in
+04-14:OOC: Alucard Whoop/Headswe : Fuck this is the first time in a fucking long time ive been wizard/traitor
+04-14:OOC: Denholm Jenkins/Rogunz : Yeah
+04-14:OOC: Alucard Whoop/Headswe : and a decent ai for once.
+04-14:OOC: Denholm Jenkins/Rogunz : Do not kill untill after you alter the AI
+04-14:OOC: Alucard Whoop/Headswe : 99% of games the ai sucks badly.
+04-14:OOC: Denholm Jenkins/Rogunz : True, true
+04-14:OOC: Denholm Jenkins/Rogunz : Cecliff is a great one though
+04-14:OOC: Alucard Whoop/Headswe : Sasuke piss me off.
+04-14:OOC: Alucard Whoop/Headswe : That what i ment.
+04-14:OOC: Denholm Jenkins/Rogunz : Heh
+04-14:OOC: Alucard Whoop/Headswe : Fucking faggot.
+04-14:OOC: Alucard Whoop/Headswe : Man im fucking mad now
+04-14:OOC: Denholm Jenkins/Rogunz : Sukasa?
+04-14:OOC: Denholm Jenkins/Rogunz : You mean?
+04-14:OOC: Alucard Whoop/Headswe : i told him to fuck himself on teh forums
+04-14:OOC: Alucard Whoop/Headswe : whatever.
+04-14:OOC: Denholm Jenkins/Rogunz : Heh
+04-14:OOC: Denholm Jenkins/Rogunz : For finding a bug
+04-14:OOC: Cerberius Grey/Cecilff2 : Currently checking the forums
+04-14:OOC: Denholm Jenkins/Rogunz : Eh
+04-14:OOC: Alucard Whoop/Headswe : No because hes a dick about it
+04-14:OOC: Denholm Jenkins/Rogunz : I really dont like googol anymore
+04-14:OOC: Alucard Whoop/Headswe : I really don&#39;t like anymore.
+04-14:OOC: Denholm Jenkins/Rogunz : Headswe suddently seems better
+04-14:OOC: Denholm Jenkins/Rogunz : Its amazing
+04-14:OOC: Denholm Jenkins/Rogunz : :D
+04-14:OOC: Alucard Whoop/Headswe : I wonder if i should send you to space.
+04-14:OOC: Denholm Jenkins/Rogunz : Probably
+04-14:OOC: Cerberius Grey/Cecilff2 : The maze is horrible punishment now
+04-14:OOC: Cerberius Grey/Cecilff2 : It is just a very very dark room
+04-14:OOC: Denholm Jenkins/Rogunz : Oh?
+04-14:OOC: Denholm Jenkins/Rogunz : I LOVE THE MAZE
+04-14:OOC: Cerberius Grey/Cecilff2 : There&#39;s no light
+04-14:OOC: Denholm Jenkins/Rogunz : I have it memorized
+04-14:OOC: Cerberius Grey/Cecilff2 : At all
+04-14:OOC: Denholm Jenkins/Rogunz : Oh
+04-14:OOC: Alucard Whoop/Headswe : Well i&#39;ve got a perfect solution for everything
+04-14:OOC: Denholm Jenkins/Rogunz : So totaly dark
+04-14:OOC: Denholm Jenkins/Rogunz : Then its impossible
+04-14:OOC: Alucard Whoop/Headswe : lets sauskea code everything
+04-14:OOC: Denholm Jenkins/Rogunz : As you need internals
+04-14:OOC: Alucard Whoop/Headswe : GREAT HUH?
+04-14:GAME: starting game of Zombie Outbreak
+04-14:ACCESS: Logout: 
+04-14:ACCESS: Login: Cecilff2 from 4.254.220.110
+04-14:ACCESS: They share computer ID's
+04-14:OOC: Denholm Jenkins/Rogunz : Blah
+04-14:OOC: Denholm Jenkins/Rogunz : Always captain :(
+04-14:SAY: GREY/Cecilff2 : GREY online
+04-14:OOC: GREY/Cecilff2 : I hate being forced into captainship
+04-14:SAY: Alucard Whoop/Headswe : Hey
+04-14:SAY: Alucard Whoop/Headswe : Wanna get some Tea?
+04-14:SAY: GREY/Cecilff2 : Alert: No engineer detected.
+04-14:SAY: Denholm Jenkins/Rogunz : DAMMIT
+04-14:SAY: Denholm Jenkins/Rogunz : YOU ASSHOLE
+04-14:SAY: Denholm Jenkins/Rogunz : Time to finish changing I guess
+04-14:OOC: Alucard Whoop/Headswe : I won
+04-14:OOC: Alucard Whoop/Headswe : Where is everyone anyway?
+04-14:OOC: Denholm Jenkins/Rogunz : Yeah..
+04-14:OOC: Denholm Jenkins/Rogunz : The minute you got me
+04-14:OOC: Alucard Whoop/Headswe : So why the fuck is everyone chilling on googols server.
+04-14:SAY: GREY/Cecilff2 : Contaminant detected
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:OOC: Alucard Whoop/Headswe : fuck dickships
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Alucard Whoop
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:OOC: Alucard Whoop/Headswe : Fuck I&#39;m FULL DWAREN RAGE
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with the laser gun
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : I wanna tear some heads off.
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : Fucking tierd of everyone in DEV team.
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : nah really just sauskee
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : Fuck him
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : He can suck a cock
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:MATTACK: Denholm Jenkins(Rogunz) attcked by Alucard Whoop(Headswe) with Fire Extinguisher
+04-14:OOC: Alucard Whoop/Headswe : OH FANCY NETWORK SYSTEm
+04-14:OOC: Denholm Jenkins/Rogunz : DAMMIT
+04-14:OOC: Denholm Jenkins/Rogunz : SO CLOSE
+04-14:OOC: Denholm Jenkins/Rogunz : SO CLOOOOSE
+04-14:OOC: Alucard Whoop/Headswe : Who keeps fixing all the fucking bugs
+04-14:OOC: Denholm Jenkins/Rogunz : I almost killed you in time
+04-14:OOC: Denholm Jenkins/Rogunz : Almost
+04-14:OOC: Alucard Whoop/Headswe : Who thoes the underhood systems
+04-14:SAY: GREY/Cecilff2 : Courtroom locked down
+04-14:OOC: Denholm Jenkins/Rogunz : :(
+04-14:OOC: Alucard Whoop/Headswe : Fuck it.
+04-14:GAME: Rebooting due to end of game
+04-14:ACCESS: Logout: Headswe
+04-14:ACCESS: Logout: Rogunz
+04-14:ACCESS: Logout: Cecilff2
+04-22:ADMIN: Loading crban_keylist
+04-22:ADMIN: Loading crban_reason
+04-22:ADMIN: Loading crban_time
+04-22:ADMIN: Loading crban_bannedby
+04-22:ADMIN: Loading crban_iplist
+04-22:ADMIN: Loading crban_unbanned
+04-22:ADMIN: Loading crban_ComputerIDs
+04-22:ADMIN: Loading jobban_rank
+04-22:ADMIN: Updating jobbanfile!
+04-22:ACCESS: Login: Headswe from 127.0.0.1
+04-22:ACCESS: Login: Rogunz from 66.75.9.193
+04-22:GAME: Rogunz entered as Denholm Jenkins
+04-22:OOC: Denholm Jenkins/Rogunz : Yeah...
+04-22:OOC: Denholm Jenkins/Rogunz : It used to be me and googol aginst you..
+04-22:OOC: Denholm Jenkins/Rogunz : But now, everything has changed
+04-22:OOC: Denholm Jenkins/Rogunz : X2 is a loyal little zombie
+04-22:OOC: Denholm Jenkins/Rogunz : Googol and suska are concited idiots
+04-22:OOC: Denholm Jenkins/Rogunz : Most of the good people have quit
+04-22:GAME: starting game of AI malfunction
+04-22:OOC: HELP: Denholm Jenkins/Rogunz : The bay12 SS13 community has died
+04-22:OOC: HELP: Denholm Jenkins/Rogunz : Thats the long and short of it
+04-22:OOC: HELP: Denholm Jenkins/Rogunz : Adios
+04-22:ACCESS: Logout: Rogunz
+04-22:ACCESS: Failed Login: 0DarkShadow0 Reason: Key banned
+04-22:ACCESS: Logout: Headswe
