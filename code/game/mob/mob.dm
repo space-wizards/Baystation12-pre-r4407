@@ -1923,6 +1923,7 @@
 		if (admins.Find(src.ckey))
 			src.holder = new /obj/admins(src)
 			src.holder.rank = admins[src.ckey]
+			src.SetupAdminPanel()
 			switch (admins[src.ckey])
 				if ("Host")
 					src.holder.level = 5
