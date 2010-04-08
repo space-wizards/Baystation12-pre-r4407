@@ -4720,7 +4720,8 @@ obj/machinery/vendingmachine/soda
 	var/d1 = 0
 	var/d2 = 1
 	var/cabletype = ""
-	layer = 2.5
+	//layer = 2.5
+	layer = 10
 
 /obj/item/weapon/computercable_coil
 	name = "Network Cable Coil"
