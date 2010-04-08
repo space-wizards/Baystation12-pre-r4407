@@ -446,7 +446,7 @@
 /datum/control/gameticker/proc/check_win()
 	if (!mode.check_win())
 		return 0
-	if (!nuclearend)
+	if (nuclearend)
 		return 0
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
