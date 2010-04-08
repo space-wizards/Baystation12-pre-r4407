@@ -3019,6 +3019,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/printing = null
 	hasdisk = 1
 	req_access = list(access_change_ids)
+/obj/machinery/computer/networksniffer
+	name = "Network Monitor"
+	icon_state = "networksniffer"
+	var/list/packets = list()
+	req_access = list(access_network)
 /obj/machinery/computer/communications
 	name = "Communications Console"
 	icon_state = "comm"
@@ -4738,7 +4743,6 @@ obj/machinery/vendingmachine/soda
 	s_istate = "coil"
 
 /obj/item/weapon/computercable_coil/cut
-	icon = 'power.dmi'
 	icon_state = "coil2"
 	desc = "A cut-off piece of Network Cable"
 
