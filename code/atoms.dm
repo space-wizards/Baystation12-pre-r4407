@@ -1374,7 +1374,7 @@ obj/item/weapon/clothing/suit/labcoat
 	desc = "It has Network Technician rank stripes on it"
 	name = "Network Technician Suit"
 	icon_state = "network"
-	color = "greygreen"
+	color = "network"
 /obj/item/weapon/clothing/under/white
 	desc = "Made of a special fiber that gives special protection against biohazards."
 	name = "White Jumpsuit"
