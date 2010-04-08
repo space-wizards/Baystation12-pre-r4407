@@ -1370,7 +1370,11 @@ obj/item/weapon/clothing/suit/labcoat
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
 	color = "ffred"
-
+/obj/item/weapon/clothing/under/network
+	desc = "It has Network Technician rank stripes on it"
+	name = "Network Technician Suit"
+	icon_state = "network"
+	color = "greygreen"
 /obj/item/weapon/clothing/under/white
 	desc = "Made of a special fiber that gives special protection against biohazards."
 	name = "White Jumpsuit"
