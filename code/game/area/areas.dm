@@ -46,14 +46,17 @@
 /area/arrival/start
 	name = "Arrival Area"
 	icon_state = "start"
+	music = ""
 
 /area/admin
 	name = "Admin room"
 	icon_state = "start"
+	music = ""
 
 /area/arrival/shuttle
 	name = "Arrival Shuttle"
 	icon_state = "shuttle"
+	music = ""
 
 /area/shuttle
 	sd_lighting = 0
@@ -66,6 +69,7 @@
 	requires_power = 0
 	name = "Sydicate C2A Sector HQ"
 	icon_state = "shutte"
+	music = ""
 
 // === Trying to remove these areas:
 
@@ -77,16 +81,19 @@
 	requires_power = 0
 	name = "Prison Shuttle"
 	icon_state = "shuttle"
+	music = ""
 
 /area/shuttle_supply/
 	requires_power = 0
 	name = "Supply Shuttle"
 	icon_state = "shuttle"
+	music = ""
 
 /area/start            // will be unused once kurper gets his login interface patch done
 	name = "start area"
 	icon_state = "start"
 	sd_lighting = 0
+	music = ""
 
 // ===
 
