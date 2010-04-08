@@ -56,12 +56,16 @@
 	if(!istype(src,/obj/machinery/computer/security/telescreen))
 		if(stat & BROKEN)
 			icon_state = "[hasdisk ? "disk":""]broken"
-		else if(powered() && stat & NOPOWER)
+			if(powered())
+				stat &= ~NOPOWER
+			else
+				stat |= NOPOWER
+		else if(powered() && (stat & NOPOWER))
 			spawn(rand(4, 10))
 				icon_state = initial(icon_state)
 				flick("[hasdisk ? "disk":""]flick_poweron", src)
 			stat &= ~NOPOWER
-		else if (!stat & NOPOWER)
+		else if (!powered() && !(stat & NOPOWER))
 			spawn(rand(0, 15))
 				flick("[hasdisk ? "disk":""]flick_poweroff", src)
 				src.icon_state = "[hasdisk ? "disk":""]off"

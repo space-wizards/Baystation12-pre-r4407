@@ -551,7 +551,7 @@ var/update_state = 0
 				M.UpdateClothing()
 				return
 		sleep(10)
-		updateap()
+		updateap(1)
 
 	time = (++time %10)
 	supplytime = (++supplytime % 100)

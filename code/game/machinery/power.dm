@@ -1312,17 +1312,18 @@ var/powernet_nextlink_processing = 0
 
 
 /obj/machinery/power/monitor/power_change()
-
 	if(stat & BROKEN)
 		icon_state = "broken"
-	else
-		if( powered() )
+	else if(powered() && (stat & NOPOWER))
+		spawn(rand(4, 10))
 			icon_state = initial(icon_state)
-			stat &= ~NOPOWER
-		else
-			spawn(rand(0, 15))
-				src.icon_state = "c_unpowered"
-				stat |= NOPOWER
+			flick("flick_poweron", src)
+		stat &= ~NOPOWER
+	else if (!(stat & NOPOWER))
+		spawn(rand(0, 15))
+			flick("flick_poweroff", src)
+			src.icon_state = "off"
+		stat |= NOPOWER
 
 
 // the SMES

@@ -282,7 +282,7 @@ client/proc/ap()
 proc/worlddata()
 	return "Server active for [round(world.time/10)] game seconds.  Emergency shuttle is [shuttlecomming ? "en route" : "docked at [ shuttle_z == 1 ?"The Station":"CentCom"]"]"
 
-proc/updateap()
+proc/updateap(var/timeonly = 0)
 	for(var/client/C)
 		if(!C.holder) continue //If not an admin, this doesn't concern them
 		if(ticker && ticker.mode)
@@ -304,6 +304,8 @@ proc/updateap()
 				winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
 			else
 				winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
+
+		if(timeonly) return
 
 		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
 		winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
