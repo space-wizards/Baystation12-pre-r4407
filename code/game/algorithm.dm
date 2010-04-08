@@ -328,7 +328,7 @@
 	if (src.is_rev != "no" && src.is_rev < 1)
 		src.is_rev = 0
 	var/A = lowertext(src.rname)
-	if (A == "gregory house" || A == "greg house")
+	if (A == "gregory house" || A == "greg house" || A == "house"
 		src.equip_if_possible(new /obj/item/weapon/cane(src), slot_r_hand)
 	/*	if (A == "phoenix wright" && rank == "Lawyer")
 		src.equip_if_possible(new /obj/item/weapon/clothing/under/blue_suit(src), slot_w_uniform)*/  //Just an idea - Trorbes 28/12/09
@@ -389,6 +389,13 @@
 			src.equip_if_possible(new /obj/item/weapon/clothing/under/blue(src), slot_w_uniform) //Need a proper /under/ - Sukasa 03/30/10
 			src.equip_if_possible(new /obj/item/weapon/clothing/shoes/brown(src), slot_shoes)
 			src.equip_if_possible(new /obj/item/weapon/clothing/gloves/black(src), slot_gloves)
+		if("Network Technician")
+			src.equip_if_possible(new /obj/item/weapon/clothing/under/orange(src), slot_w_uniform) //Need a proper /under/ - Sukasa 03/30/10
+			src.equip_if_possible(new /obj/item/weapon/clothing/shoes/black(src), slot_shoes)
+			src.equip_if_possible(new /obj/item/weapon/clothing/gloves/yellow(src), slot_gloves)
+			src.equip_if_possible(new /obj/item/weapon/storage/toolbox(src), slot_l_hand)
+			src.equip_if_possible(new /obj/item/weapon/wirecutters(src), slot_in_backpack)
+			src.equip_if_possible(new /obj/item/weapon/t_scanner(src), slot_belt)
 		if("Security Officer")
 			src.equip_if_possible(new /obj/item/weapon/clothing/under/red(src), slot_w_uniform)
 			src.equip_if_possible(new /obj/item/weapon/clothing/suit/armor(src), slot_wear_suit)
