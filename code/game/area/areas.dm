@@ -6,6 +6,7 @@
 	var/party = null
 	level = null
 	name = "Space"
+
 	icon = 'areas.dmi'
 	icon_state = "unknown"
 	layer = 10
@@ -18,7 +19,7 @@
 	var/power_equip = 1
 	var/power_light = 1
 	var/power_environ = 1
-	var/music = "music/music.ogg"
+	var/music = "music/space.ogg"
 	var/used_equip = 0
 	var/used_light = 0
 	var/used_environ = 0
