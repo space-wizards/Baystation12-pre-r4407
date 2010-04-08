@@ -1319,7 +1319,7 @@ var/powernet_nextlink_processing = 0
 			icon_state = initial(icon_state)
 			flick("flick_poweron", src)
 		stat &= ~NOPOWER
-	else if (!(stat & NOPOWER))
+	else if (!powered() && !(stat & NOPOWER))
 		spawn(rand(0, 15))
 			flick("flick_poweroff", src)
 			src.icon_state = "off"
