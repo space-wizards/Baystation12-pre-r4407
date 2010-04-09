@@ -301,6 +301,18 @@
 		src << text("--- [] alarm in [] has been cleared.", class, A.name)
 		if (src.viewalerts) src.ai_alerts()
 	return !cleared
+/mob/ai/proc/findguy(var/mob/M)
+	var/area/A
+	var/list/list
+	list = list()
+	A = M.loc
+	for(var/obj/machinery/camera/C in A)
+		list += C
+	if(!list)
+		src << "no camera near his postion"
+	else
+		var/obj/machinery/camera/K = pick(list)
+		switchCamera(K)
 /mob/ai/cancel_camera()
 	set category = "AI Commands"
 	set name = "Cancel Camera View"

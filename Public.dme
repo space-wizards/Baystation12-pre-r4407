@@ -3,21 +3,6 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-<<<<<<< HEAD
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\baysay code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\jobs code\game\machinery code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\human 
-FILE: code\game\algorithm.dm
-LAST_COMPILE_TIME: 1269989452
-=======
-UPDATE_OBJ_TREE: ON
-DIR: code code\game code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\gamemodes\zombie code\game\machinery code\game\machinery\doors code\game\mob\ai code\game\objects icons\ss13 maps 
-FILE: maps\Bay Station 12 alpha.dmp
-LAST_COMPILE_TIME: 1270321289
->>>>>>> 453bad62e48cff74a0fb8025102f16dac4e8213c
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .

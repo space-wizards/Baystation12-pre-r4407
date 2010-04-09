@@ -1,0 +1,1811 @@
+00-54:GAME: Finished building powernets (24 nets)
+00-54:ADMIN: Loading crban_keylist
+00-54:ADMIN: Loading crban_reason
+00-54:ADMIN: Loading crban_time
+00-54:ADMIN: Loading crban_bannedby
+00-54:ADMIN: Loading crban_iplist
+00-54:ADMIN: Loading crban_unbanned
+00-54:ADMIN: Loading crban_ComputerIDs
+00-54:ADMIN: Loading jobban_rank
+00-54:ADMIN: Updating jobbanfile!
+00-54:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+00-54:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+00-54:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+00-54:ACCESS: Login: Guest-2052629378 from 24.224.213.81
+00-54:ACCESS: Login: Micro102 from 24.184.14.119
+00-54:ACCESS: Login: I-Aryn-I from 71.229.232.215
+00-54:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+00-54:ACCESS: Login: Rogunz from 66.75.9.193
+00-54:ACCESS: Login: Lucaboii from 94.168.104.138
+00-54:GAME: Rogunz entered as Denholm Jenkins
+00-54:ACCESS: Login: Owltalon012 from 173.22.241.67
+00-54:VOTE: Voting to restart round started by Denholm Jenkins/Rogunz
+00-54:GAME: I-Aryn-I entered as Lelouch vi Britannia
+00-54:GAME: Mr.Peanuts entered as Fred McBurger
+00-54:GAME: Lucaboii entered as Luca Foulger
+00-54:OOC: Fred McBurger/Mr.Peanuts : Why&gt;
+00-54:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+00-54:GAME: Owltalon012 entered as Seth "Owl" Wilson
+00-54:OOC: Denholm Jenkins/Rogunz : Because
+00-54:OOC: Fred McBurger/Mr.Peanuts : Are you Stark Raving Mad?
+00-54:OOC: Luca Foulger/Lucaboii : You got the wrong damn one &gt;.&gt;
+00-54:OOC: Denholm Jenkins/Rogunz : No
+00-54:OOC: Fred McBurger/Mr.Peanuts : STARK RAVING MAD!
+00-54:GAME: Guest-1801901258 entered as Vactor
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Still going to be no anyway
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : LOL RAVING
+00-54:OOC: Seth "Owl" Wilson/Owltalon012 : He did it so we couldn&#39;t change the mode.
+00-54:OOC: Denholm Jenkins/Rogunz : Yes
+00-54:OOC: Luca Foulger/Lucaboii : Fss
+00-54:OOC: Fred McBurger/Mr.Peanuts : Rogunz cancels vote; has gone stark raving mad
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : And we will change mode after this
+00-54:OOC: Luca Foulger/Lucaboii : ffs*
+00-54:VOTE: Voting closed, result was default
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : :)
+00-54:OOC: Fred McBurger/Mr.Peanuts : But secret is the best
+00-54:GAME: Guest-2052629378 entered as Urist Spikecarp
+00-54:OOC: Fred McBurger/Mr.Peanuts : SECRET IS BEST!
+00-54:OOC: Denholm Jenkins/Rogunz : Exactly
+00-54:ACCESS: Login: DistortedAudio from 74.107.126.183
+00-54:OOC: Fred McBurger/Mr.Peanuts : I see
+00-54:OOC: Denholm Jenkins/Rogunz : Which is why I did that vote
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Well true
+00-54:OOC: Luca Foulger/Lucaboii : Rogunz, People wanna do other stuff aswell &gt;.&gt;
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Didn&#39;t mean we was going to vote anywayz..
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : And true
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Maybe people don&#39;t like random
+00-54:OOC: Denholm Jenkins/Rogunz : But if a vote starts, it cant be stopped
+00-54:OOC: Denholm Jenkins/Rogunz : And we lose secret
+00-54:OOC: Fred McBurger/Mr.Peanuts : Lucaboii, secret is best. get over it.
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : No
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Just choose secret over again
+00-54:OOC: Denholm Jenkins/Rogunz : You cant vote for it?
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Yes
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : It is It
+00-54:ACCESS: Login: Guest-258188117 from 74.245.102.189
+00-54:OOC: Luca Foulger/Lucaboii : Mr. Peanuts, Secret is good but you don&#39;t need to FORCE everyone to play it again &gt;.&gt;
+00-54:OOC: Fred McBurger/Mr.Peanuts : I have not forced anything, I remind you that
+00-54:GAME: Guest-2337011188 entered as Jade
+00-54:OOC: Seth "Owl" Wilson/Owltalon012 : My god, just play the round.
+00-54:OOC: Seth "Owl" Wilson/Owltalon012 : We&#39;ll change it next round.
+00-54:OOC: Fred McBurger/Mr.Peanuts : I simply agree&#39;d with the party who did
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Oh no Theyh Killed Jackie Chan!
+00-54:GAME: Micro102 entered as Micro McGinley
+00-54:ACCESS: Login: Coolguy300 from 99.254.12.71
+00-54:OOC: Seth "Owl" Wilson/Owltalon012 : Oh god, I&#39;m Blind!
+00-54:OOC: Luca Foulger/Lucaboii : You then told me to Get over it. &gt;.&gt;
+00-54:GAME: starting game of Revolution
+00-54:ACCESS: Logout: 
+00-54:ACCESS: Login: Micro102 from 24.184.14.119
+00-54:ACCESS: They share computer ID's
+00-54:OOC: Luca Foulger/Lucaboii : Run in Circles Owl! It will save you! :o
+00-54:ACCESS: Logout: Owltalon012
+00-54:GAME: DistortedAudio entered as Hugo Stiglitz
+00-54:ACCESS: Login: Forteen from 70.134.86.183
+00-54:GAME: Forteen entered as Bob Robertson
+00-54:ACCESS: Login: Owltalon012 from 173.22.241.67
+00-54:GAME: Coolguy300 entered as Mikan Luzerdorf
+00-54:OOC: GLaDOS/Micro102 : Yay you guys now have the worlds best AI XD. Feel free to ask it about everything because it sees all
+00-54:OOC: Luca Foulger/Lucaboii : There is a Reason we only do Secret when admins are on...Because they have to F**ing choose what the secret is
+00-54:ACCESS: Logout: Guest-258188117
+00-54:SAY: Urist Spikecarp/Guest-2052629378 : hello
+00-54:OOC: Denholm Jenkins/Rogunz : No...?
+00-54:OOC: GLaDOS/Micro102 : No the modes are predetermined
+00-54:SAY: Jade/Guest-2337011188 : ;Hey seth.
+00-54:SAY: Jade/Guest-2337011188 : ;ARe you from owl city?
+00-54:OOC: GLaDOS/Micro102 : Admins can change which ones it randomly picks from though.
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Ja.
+00-54:SAY: Jade/Guest-2337011188 : ;Does it have a million fireflies?
+00-54:SAY: Denholm Jenkins/Rogunz : ; So you are the 40 year old living in his basement?
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : 50 million.
+00-54:SAY: Jade/Guest-2337011188 : ;Cool.
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : We can stop ths
+00-54:ACCESS: Login: Nono345 from 74.101.124.86
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Urist Spikecarp(Guest-2052629378) with the firesuit
+00-54:GAME: Nono345 entered as Alex Kaufman
+00-54:OOC: GLaDOS/Micro102 : Atmos atmos alarm bug still not fixed?
+00-54:OOC: Fred McBurger/Mr.Peanuts : nope
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Nude guy, alrighty.
+00-54:SAY: Denholm Jenkins/Rogunz : Hello
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Faggot
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : (omit)
+00-54:SAY: Denholm Jenkins/Rogunz : Off to fix the disk
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Is that a tophat?
+00-54:OOC: Denholm Jenkins/Rogunz : Er
+00-54:SAY: GLaDOS/Micro102 : Please start the engine
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Faggot
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : I want a tophat..
+00-54:SAY: Denholm Jenkins/Rogunz : Hello?
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hi
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : Sir?
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Ahhhhhhhh
+00-54:OOC: Denholm Jenkins/Rogunz : I seem to be unable to hear
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : What are you doing?
+00-54:SAY: Denholm Jenkins/Rogunz : WHY
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : Hello
+00-54:SAY: Denholm Jenkins/Rogunz : ; (test)
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hey you
+00-54:OOC: Denholm Jenkins/Rogunz : So only the radio..
+00-54:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Can you hear me?
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : SIR
+00-54:SAY: Denholm Jenkins/Rogunz : HELLO
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : aHAHAHAH
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : ;FUAJEW
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : ;What?
+00-54:SAY: Lelouch vi Britannia/I-Aryn-I : ;Craz.y
+00-54:SAY: Denholm Jenkins/Rogunz : HEY
+00-54:OOC: Denholm Jenkins/Rogunz : Anyone else having this problem?
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Got myself a badass tophat.
+00-54:SAY: Denholm Jenkins/Rogunz : HELLO?
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : Yes
+00-54:SAY: Denholm Jenkins/Rogunz : STOP
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : What?
+00-54:SAY: Denholm Jenkins/Rogunz : CAN YOU HEAR ME
+00-54:OOC: GLaDOS/Micro102 : Are you wearing earmuffs?
+00-54:SAY: Denholm Jenkins/Rogunz : ANSWER ON THE RADIO
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : Can&#39;t talk except over radio
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : We were born mute
+00-54:OOC: GLaDOS/Micro102 : o, weird
+00-54:OOC: Denholm Jenkins/Rogunz : Yeah..
+00-54:OOC: Denholm Jenkins/Rogunz : We all were, apperently
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Obviously
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Magnificent Vactor.
+00-54:SAY: Denholm Jenkins/Rogunz : ;(test)
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Urist Spikecarp(Guest-2052629378) with Radio Headset
+00-54:SAY: Luca Foulger/Lucaboii : Heya
+00-54:OOC: Denholm Jenkins/Rogunz : Yeah
+00-54:SAY: Hugo Stiglitz/DistortedAudio : ; need a job.
+00-54:OOC: Denholm Jenkins/Rogunz : Non-radio chat does not exist
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Maginifacent.
+00-54:OOC: Denholm Jenkins/Rogunz : Could be the secret
+00-54:SAY: Mikan Luzerdorf/Coolguy300 : Hello there.
+00-54:OOC: Luca Foulger/Lucaboii : Nooooooo
+00-54:SAY: Jade/Guest-2337011188 : Get in line.
+00-54:SAY: GLaDOS/Micro102 : Please start engine.
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Woo, tophat.
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : Fail.
+00-54:SAY: Jade/Guest-2337011188 : ...
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : What the hell was that.
+00-54:OOC: Denholm Jenkins/Rogunz : Temporal anomilys is better
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Security please
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : I love this tophat.
+00-54:SAY: Jade/Guest-2337011188 : Pick up the card citizen.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Security.
+00-54:OOC: GLaDOS/Micro102 : The ai can talk fine without an intercome.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : PLease.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Security please
+00-54:OOC: GLaDOS/Micro102 : I can see the plain talk chat.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : .;SEcurity please.
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : Just because you&#39;re mute, does NOT give you the right to incendiary-grenade the geneticist.
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Yeah I can&#39;t chat.
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : STOP
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Wrong say
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Dammit
+00-54:SAY: Urist Spikecarp/Guest-2052629378 : argh
+00-54:OOC: Mikan Luzerdorf/Coolguy300 : Does this server have a map?
+00-54:SAY: Urist Spikecarp/Guest-2052629378 : well
+00-54:SAY: Jade/Guest-2337011188 : Job?
+00-54:SAY: Alex Kaufman/Nono345 : Oh
+00-54:SAY: Alex Kaufman/Nono345 : I tripped
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Hello?
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : These will be useful in masturbation..
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:SAY: Alex Kaufman/Nono345 : ;help
+00-54:SAY: Denholm Jenkins/Rogunz : ; WHO THE FUCK
+00-54:OOC: Fred McBurger/Mr.Peanuts : What do you mean by map
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:SAY: Jade/Guest-2337011188 : ;I seem to be deaf or a mute.
+00-54:SAY: Alex Kaufman/Nono345 : ;i cant talk
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:SAY: Alex Kaufman/Nono345 : hello
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:SAY: Hugo Stiglitz/DistortedAudio : :Me neither.
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Vactor(Guest-1801901258) with the crowbar
+00-54:SAY: Denholm Jenkins/Rogunz : ; WHO KILLED TEH GENETICIST
+00-54:OOC: Fred McBurger/Mr.Peanuts : Because everygame has a map
+00-54:SAY: Denholm Jenkins/Rogunz : ; CAPTAIN CHECK WHO TEH CHEMIST IS
+00-54:OOC: Hugo Stiglitz/DistortedAudio : I can&#39;t talk on radio or regularly.
+00-54:SAY: Urist Spikecarp/Guest-2052629378 : well
+00-54:OOC: Fred McBurger/Mr.Peanuts : unless you mean an external projection of the game&#39;s map
+00-54:SAY: GLaDOS/Micro102 : Please check for fingerprtins
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Fine!
+00-54:OOC: Urist Spikecarp/Guest-2052629378 : ya can&#39;t talk on the radio....
+00-54:OOC: Fred McBurger/Mr.Peanuts : Then you are prob.dea distorted
+00-54:OOC: Fred McBurger/Mr.Peanuts : Then you are somehow deaf
+00-54:OOC: Hugo Stiglitz/DistortedAudio : uh.
+00-54:SAY: Denholm Jenkins/Rogunz : ; There wont be any, when its all been flamed
+00-54:SAY: Fred McBurger/Mr.Peanuts : hmm
+00-54:OOC: Hugo Stiglitz/DistortedAudio : I can&#39;t hear normal chat either.
+00-54:SAY: Fred McBurger/Mr.Peanuts : ; shit
+00-54:OOC: Hugo Stiglitz/DistortedAudio : but I can hear radio.
+00-54:SAY: Jade/Guest-2337011188 : *shrug
+00-54:SAY: Alex Kaufman/Nono345 : oh
+00-54:SAY: Alex Kaufman/Nono345 : you&#39;re okay
+00-54:OOC: Fred McBurger/Mr.Peanuts : I can hear it fine, but cannot speak normal chat at all, only radio
+00-54:SAY: Denholm Jenkins/Rogunz : ; AI, I need internals
+00-54:SAY: Jade/Guest-2337011188 : I can&#39;t hear/talk.
+00-54:SAY: GLaDOS/Micro102 : There is a pen inside chem lab, bring fingerprint scanner.
+00-54:OOC: Denholm Jenkins/Rogunz : Yeah
+00-54:SAY: Bob Robertson/Forteen : ;I saw some incendiary ingredients in the chemist&#39; lab
+00-54:OOC: Denholm Jenkins/Rogunz : None of us can
+00-54:SAY: Denholm Jenkins/Rogunz : ; Ok AI, Ill gather that
+00-54:OOC: GLaDOS/Micro102 : I can
+00-54:OOC: Hugo Stiglitz/DistortedAudio : This sucks.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : ;Hello?
+00-54:OOC: Mikan Luzerdorf/Coolguy300 : I was talking about a map of the entire station
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : It appears we are all infact deaf to normal conversation.
+00-54:OOC: Fred McBurger/Mr.Peanuts : use the radio then
+00-54:SAY: Denholm Jenkins/Rogunz : ; But I need internals
+00-54:OOC: GLaDOS/Micro102 : GLaDOS has normal chat
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Congrats.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Security.
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : It has rendered the game completely unplayable.
+00-54:OOC: Fred McBurger/Mr.Peanuts : It must be a server bug
+00-54:SAY: Vactor/Guest-1801901258 : thank you
+00-54:OOC: Luca Foulger/Lucaboii : I dunno, I like it, Take away tthe Speaker and they can&#39;t scream and shout ya no
+00-54:OOC: GLaDOS/Micro102 : It could be the secret mode.
+00-54:OOC: Fred McBurger/Mr.Peanuts : report it on the thread and lets get on the away
+00-54:OOC: GLaDOS/Micro102 : Someone try the antideaf syringe in genetics
+00-54:OOC: Denholm Jenkins/Rogunz : I was going to
+00-54:MATTACK: Alex Kaufman(Nono345) clicked on Alex Kaufman(Nono345) with a syringe
+00-54:MATTACK: Alex Kaufman(Nono345) injected Alex Kaufman(Nono345) with a syringe filled with 
+00-54:ACCESS: Failed Login: Samuri0500 Reason: Key banned
+00-54:SAY: Jade/Guest-2337011188 : Going to medbay.
+00-54:OOC: Denholm Jenkins/Rogunz : Genetic analyze us
+00-54:OOC: Denholm Jenkins/Rogunz : Micro, LET ME GET INTERNALS ALREADY
+00-54:ACCESS: Login: Backlash_12 from 24.2.62.73
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : Oh, and give us your fingerprints for future reference.
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : But then someone burned the whole lab for no apparent reason.
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *shake.
+00-54:OOC: Luca Foulger/Lucaboii : ENOUGH with the IC on OOC Idiots!
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *shake
+00-54:OOC: Lelouch vi Britannia/I-Aryn-I : THERE IS NO IC
+00-54:OOC: Hugo Stiglitz/DistortedAudio : I can emote though.
+00-54:SAY: Denholm Jenkins/Rogunz : ; Door AI
+00-54:SAY: GLaDOS/Micro102 : Someone bring fingerprint scanner to chem lab.
+00-54:SAY: Denholm Jenkins/Rogunz : ; Ill take it out
+00-54:SAY: Seth "Owl" Wilson/Owltalon012 : WHAT, IS MY KINDNESS NOT GOOD ENOUGH?!
+00-54:ACCESS: Logout: Guest-2337011188
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *shake
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Hugo Stiglitz
+00-54:SAY: Hugo Stiglitz/DistortedAudio : Dick
+00-54:SAY: Bob Robertson/Forteen : ,
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *shake
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *seizure
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *help
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Finger Print Card
+00-54:SAY: Hugo Stiglitz/DistortedAudio : *shake
+00-54:OOC: Hugo Stiglitz/DistortedAudio : The fuck?
+00-54:OOC: Hugo Stiglitz/DistortedAudio : That was SO grief.
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-54:OOC: Denholm Jenkins/Rogunz : It says we arnt deaf
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:OOC: Fred McBurger/Mr.Peanuts : Lucaboii, shut your face, you are not an admin, you do not show up on adminwho, you prob. don&#39;t even know an admin on this server. please be quiet as this is a server bug.
+00-54:MATTACK: Denholm Jenkins(Rogunz)has shot a taser round at Bob Robertson
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:OOC: Fred McBurger/Mr.Peanuts : ; I can verifie for a fact it is prob. a code bug which we are allowd to speak of in OOC and report on the thread.
+00-54:MATTACK: Denholm Jenkins(Rogunz) clicked on Bob Robertson(Forteen) with a DNA injector
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:ACCESS: Login: Nathan736 from 24.183.45.184
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:SAY: Bob Robertson/Forteen : .
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:SAY: Vactor/Guest-1801901258 : welcome
+00-54:SAY: Denholm Jenkins/Rogunz : Can you hear?
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:SAY: Bob Robertson/Forteen : *shake head
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) clicked on Vactor(Guest-1801901258) with intent on harm
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Hugo Stiglitz(DistortedAudio) with the taser gun
+00-54:OOC: Denholm Jenkins/Rogunz : Anything?
+00-54:SAY: Bob Robertson/Forteen : *help
+00-54:OOC: Bob Robertson/Forteen : Nope
+00-54:OOC: Fred McBurger/Mr.Peanuts : I am trying to be nice and not LOLCAPS at you or use profanity so you do not get pissy with me
+00-54:SAY: Fred McBurger/Mr.Peanuts : lulbox
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Yeah/
+00-54:GAME: Backlash_12 entered as Sam Fisher
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Owlton is a griefer.
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has grabbed Sam Fisher(Backlash_12) aggressively (now hands) 
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:SAY: Alex Kaufman/Nono345 : dont
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Vactor(Guest-1801901258) with the weldingtool
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Vactor(Guest-1801901258) with the weldingtool
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Vactor(Guest-1801901258) with the weldingtool
+00-54:SAY: Sam Fisher/Backlash_12 : THe hell, capn?!
+00-54:MATTACK: Urist Spikecarp(Guest-2052629378) attcked by Vactor(Guest-1801901258) with the weldingtool
+00-54:OOC: Luca Foulger/Lucaboii : ...Whatever &gt;.&gt;
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:GAME: Nathan736 entered as Urist Blockengraving
+00-54:SAY: GLaDOS/Micro102 : Voilence in SE maintenence corridor.
+00-54:MATTACK: Mikan Luzerdorf(Coolguy300) attcked by Denholm Jenkins(Rogunz) with the toolbox
+00-54:MATTACK: Mikan Luzerdorf(Coolguy300) attcked by Denholm Jenkins(Rogunz) with the toolbox
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Sam Fisher
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Sam Fisher
+00-54:OOC: Denholm Jenkins/Rogunz : Hahahahahaa
+00-54:OOC: HELP: Hugo Stiglitz/DistortedAudio : Owlaton fucking griefed me.
+00-54:ADMIN: HELP: DistortedAudio/Hugo Stiglitz: Owlaton fucking griefed me.
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Urist Blockengraving
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Urist Blockengraving
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Oh you son of a bitch.
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the taser gun
+00-54:SAY: Urist Blockengraving/Nathan736 : ; help mee
+00-54:OOC: Denholm Jenkins/Rogunz : Whoever Mikan was tried to grief me, and epicly failed
+00-54:SAY: Urist Blockengraving/Nathan736 : ; air
+00-54:OOC: Sam Fisher/Backlash_12 : So.  This round better not be counting.
+00-54:OOC: Hugo Stiglitz/DistortedAudio : No.
+00-54:OOC: Sam Fisher/Backlash_12 : Alrighty.
+00-54:OOC: Hugo Stiglitz/DistortedAudio : It&#39;s gonna be grief mania.
+00-54:OOC: Luca Foulger/Lucaboii : I wasn&#39;t even talking to you When i said Enough IC in OOC i was talking to Rogunz when he shouted to Micros or whatever his name was to OPen the door through OOC
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Captain is a fucking griefer.
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the laser gun
+00-54:SAY: Bob Robertson/Forteen : *nod
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the laser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the laser gun
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Sam Fisher(Backlash_12) with the laser gun
+00-54:ACCESS: Logout: Backlash_12
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Another dead body in the Arrival Shuttle.
+00-54:MATTACK: Denholm Jenkins(Rogunz) clicked on Lelouch vi Britannia(I-Aryn-I) with a DNA injector
+00-54:SAY: Urist Blockengraving/Nathan736 : ; ai
+00-54:ACCESS: Logout: 
+00-54:ACCESS: Login: I-Aryn-I from 71.229.232.215
+00-54:ACCESS: They share computer ID's
+00-54:SAY: Denholm Jenkins/Rogunz : CAN YOU HEAR US
+00-54:OOC: Denholm Jenkins/Rogunz : Try to talk, monkey person
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012) attcked by Luca Foulger(Lucaboii) with the laser gun
+00-54:SAY: Luca Foulger/Lucaboii : Captain&gt;?
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Luca Foulger
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Luca Foulger
+00-54:MATTACK: Seth "Owl" Wilson(Owltalon012)has shot a taser round at Luca Foulger
+00-54:SAY: monkey (9009)/I-Aryn-I : What?
+00-54:OOC: Denholm Jenkins/Rogunz : Well, they can chimper
+00-54:ACCESS: Login: Pick Yer Poison from 70.253.165.246
+00-54:SAY: monkey (9009)/I-Aryn-I : I can hear!
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Seth "Owl" Wilson(Owltalon012) with the crowbar
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Seth "Owl" Wilson(Owltalon012) with the crowbar
+00-54:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Seth "Owl" Wilson(Owltalon012) with the crowbar
+00-54:OOC: GLaDOS/Micro102 : Well this failed quickly, wanna restart?
+00-54:OOC: monkey (9009)/I-Aryn-I : I can hear as a monkey
+00-54:ACCESS: Logout: 
+00-54:ACCESS: Login: I-Aryn-I from 71.229.232.215
+00-54:ACCESS: They share computer ID's
+00-54:OOC: Denholm Jenkins/Rogunz : Wait
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Hell yes.
+00-54:OOC: Luca Foulger/Lucaboii : Yep
+00-54:OOC: Vactor/Guest-1801901258 : what failed?
+00-54:SAY: Urist Cheesemurdered/I-Aryn-I : Ahhh
+00-54:OOC: Hugo Stiglitz/DistortedAudio : and get Owl banned.
+00-54:SAY: Urist Cheesemurdered/I-Aryn-I : *gasp
+00-54:MATTACK: Luca Foulger(Lucaboii) attcked by Seth "Owl" Wilson(Owltalon012) with the laser gun
+00-54:ACCESS: Login: Miakiki from 99.30.169.65
+00-54:MATTACK: Luca Foulger(Lucaboii) attcked by Seth "Owl" Wilson(Owltalon012) with the laser gun
+00-54:OOC: Denholm Jenkins/Rogunz : WAIT
+00-54:OOC: GLaDOS/Micro102 : Grief right away and chat messed up
+00-54:OOC: Denholm Jenkins/Rogunz : Need to finish investigating bug
+00-54:OOC: Fred McBurger/Mr.Peanuts : Time to take out the captain then?
+00-54:OOC: GLaDOS/Micro102 : What rogun?
+00-54:GAME: Pick Yer Poison entered as Eric Donner
+00-54:OOC: Hugo Stiglitz/DistortedAudio : Captain is dead.
+00-54:OOC: Denholm Jenkins/Rogunz : And Ill go take him out
+00-54:ACCESS: Login: Evilgrim123 from 86.23.6.173
+00-54:OOC: Denholm Jenkins/Rogunz : Or not
+00-54:OOC: Luca Foulger/Lucaboii : Hes already Been taken out 
+00-54:SAY: Eric Donner/Pick Yer Poison : Um.
+00-54:SAY: Eric Donner/Pick Yer Poison : Please don&#39;t kill me.
+00-54:OOC: Luca Foulger/Lucaboii : He tried killing me with lasers
+00-54:VOTE: micro102 tried to force the world to restart via change gamemode
+00-54:VOTE: micro102 tried to force the world to restart via change gamemode
+00-54:OOC: Denholm Jenkins/Rogunz : Hahaha
+00-54:VOTE: Voting to change mode started by GLaDOS/Micro102
+00-54:OOC: Anaya Simmens/Evilgrim123 : Hey guys.
+00-54:GAME: Evilgrim123 entered as Anaya Simmens
+00-54:OOC: Denholm Jenkins/Rogunz : What
+00-54:OOC: Harold HockkleMucks/TheNewMakerGamer10 : That was so close
+00-54:SAY: Eric Donner/Pick Yer Poison : *scream
+00-54:OOC: Anaya Simmens/Evilgrim123 : Isay Well.. Shoot
+00-54:OOC: Denholm Jenkins/Rogunz : Dammit
+00-54:ACCESS: Logout: Guest-2052629378
+00-54:OOC: Denholm Jenkins/Rogunz : You didnt let us finish the bug
+00-54:OOC: GLaDOS/Micro102 : Traitor ftw
+00-54:SAY: Fred McBurger/Mr.Peanuts : ; captain I need to see you
+00-54:OOC: Eric Donner/Pick Yer Poison : Wow, that was quick.
+00-54:ACCESS: Login: Guest-854218554 from 69.119.158.103
+00-54:SAY: Fred McBurger/Mr.Peanuts : ; AI is captain on the arrivial shuttle?
+00-54:OOC: Denholm Jenkins/Rogunz : BE READY TO TALK
+00-54:VOTE: Voting closed, result was it
+00-54:OOC: GLaDOS/Micro102 : YES!
+00-54:GAME: Finished building powernets (30 nets)
+00-54:OOC: Luca Foulger/Lucaboii : but it was Equal (Traitor 3 It 3
+00-54:GAME: Rebooting due to mode vote
+00-54:ACCESS: Logout: Micro102
+00-54:ACCESS: Logout: Guest-1801901258
+00-54:ACCESS: Logout: TheNewMakerGamer10
+00-54:ACCESS: Logout: Rogunz
+00-54:ACCESS: Logout: Mr.Peanuts
+00-54:ACCESS: Logout: Guest-854218554
+00-54:ACCESS: Logout: DistortedAudio
+00-54:ACCESS: Logout: Owltalon012
+00-54:ACCESS: Logout: I-Aryn-I
+00-54:ACCESS: Logout: Lucaboii
+00-54:ACCESS: Logout: Nono345
+00-54:ACCESS: Logout: Nathan736
+00-54:ACCESS: Logout: Coolguy300
+00-54:ACCESS: Logout: Forteen
+00-54:ACCESS: Logout: Miakiki
+00-54:ACCESS: Logout: Pick Yer Poison
+00-54:ACCESS: Logout: Evilgrim123
+01-17:GAME: Finished building powernets (24 nets)
+01-17:ADMIN: Loading crban_keylist
+01-17:ADMIN: Loading crban_reason
+01-17:ADMIN: Loading crban_time
+01-17:ADMIN: Loading crban_bannedby
+01-17:ADMIN: Loading crban_iplist
+01-17:ADMIN: Loading crban_unbanned
+01-17:ADMIN: Loading crban_ComputerIDs
+01-17:ADMIN: Loading jobban_rank
+01-17:ADMIN: Updating jobbanfile!
+01-17:ACCESS: Login: Nathan736 from 24.183.45.184
+01-17:ACCESS: Login: Rogunz from 66.75.9.193
+01-17:ACCESS: Login: Guest-854218554 from 69.119.158.103
+01-17:ACCESS: Logout: Guest-854218554
+01-17:ACCESS: Login: DistortedAudio from 74.107.126.183
+01-17:ACCESS: Login: Owltalon012 from 173.22.241.67
+01-17:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+01-17:ACCESS: Login: Lucaboii from 94.168.104.138
+01-17:GAME: Rogunz entered as Denholm Jenkins
+01-17:GAME: Nathan736 entered as Urist Blockengraving
+01-17:ACCESS: Login: I-Aryn-I from 71.229.232.215
+01-17:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+01-17:ACCESS: Login: Nono345 from 74.101.124.86
+01-17:ACCESS: Login: Miakiki from 99.30.169.65
+01-17:VOTE: Voting to change mode started by Denholm Jenkins/Rogunz
+01-17:GAME: Mr.Peanuts entered as Fred McBurger
+01-17:ACCESS: Login: Guest-854218554 from 69.119.158.103
+01-17:ACCESS: Login: Pick Yer Poison from 70.253.165.246
+01-17:GAME: Lucaboii entered as Luca Foulger
+01-17:ACCESS: Login: Evilgrim123 from 86.23.6.173
+01-17:GAME: I-Aryn-I entered as Lelouch vi Britannia
+01-17:GAME: Owltalon012 entered as Kevin Dixon
+01-17:OOC: Vactor/Guest-1801901258 : it didn&#39;t help that half the people i converted to the revolution went on to try to kill me as soon as they awoke
+01-17:ACCESS: Login: Forteen from 70.134.86.183
+01-17:GAME: Pick Yer Poison entered as Eric Donner
+01-17:ACCESS: Login: QuinnR from 174.26.2.253
+01-17:GAME: DistortedAudio entered as Hugo Stiglitz
+01-17:OOC: Urist Blockengraving/Nathan736 : zombe!#!@
+01-17:SAY: Hugo Stiglitz/DistortedAudio : Can we speak?
+01-17:GAME: Guest-854218554 entered as Mick Jagger
+01-17:OOC: Cog Woodbed/QuinnR : HI
+01-17:SAY: Hugo Stiglitz/DistortedAudio : Nope.
+01-17:GAME: Nono345 entered as Jeff Meyer
+01-17:GAME: Guest-1801901258 entered as Vactor
+01-17:OOC: Fred McBurger/Mr.Peanuts : They didn&#39;t rp right then
+01-17:OOC: Hugo Stiglitz/DistortedAudio : and we still can&#39;t speak.
+01-17:SAY: Eric Donner/Pick Yer Poison : Oh dear.
+01-17:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+01-17:OOC: Cog Woodbed/QuinnR : Hrmm
+01-17:OOC: Fred McBurger/Mr.Peanuts : QUINNR!
+01-17:SAY: Cog Woodbed/QuinnR : Hi
+01-17:OOC: Urist Blockengraving/Nathan736 : i wasnt tryign to kill you
+01-17:OOC: Cog Woodbed/QuinnR : I can&#39;t speak
+01-17:OOC: Cog Woodbed/QuinnR : Just a sec
+01-17:OOC: Fred McBurger/Mr.Peanuts : Same
+01-17:OOC: Cog Woodbed/QuinnR : rebooting server.
+01-17:OOC: Fred McBurger/Mr.Peanuts : it is a server bug
+01-17:OOC: HELP: Hugo Stiglitz/DistortedAudio : Got banned.
+01-17:OOC: Cog Woodbed/QuinnR : Please wait
+01-17:OOC: Fred McBurger/Mr.Peanuts : yes sir
+01-17:OOC: HELP: Hugo Stiglitz/DistortedAudio : err Griefed.
+01-17:ADMIN: PM: QuinnR->DistortedAudio : what?
+01-17:VOTE: Voting closed, result was 
+01-17:ADMIN: PM: QuinnR->DistortedAudio : I see
+01-17:OOC: Urist Blockengraving/Nathan736 : ficl
+01-17:OOC: Luca Foulger/Lucaboii : Bugged round
+01-17:ADMIN: PM: DistortedAudio->QuinnR : Owlaton
+01-17:GAME: Evilgrim123 entered as Anaya Simmens
+01-17:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+01-17:OOC: Cog Woodbed/QuinnR : Lots of glitches
+01-17:OOC: Urist Blockengraving/Nathan736 : oh noz
+01-17:OOC: Cog Woodbed/QuinnR : I&#39;m doing a full reboot.
+01-17:OOC: Urist Blockengraving/Nathan736 : ok
+01-17:OOC: Lelouch vi Britannia/I-Aryn-I : Balls.
+01-17:ADMIN: QuinnR initiated an immediate reboot.
+01-17:OOC: Fred McBurger/Mr.Peanuts : Sir Yes Sir!
+01-17:ACCESS: Logout: Lucaboii
+01-17:ACCESS: Logout: Mr.Peanuts
+01-17:ACCESS: Logout: I-Aryn-I
+01-17:ACCESS: Logout: Guest-854218554
+01-17:ACCESS: Logout: Nono345
+01-17:ACCESS: Logout: Guest-1801901258
+01-17:ACCESS: Logout: DistortedAudio
+01-17:ACCESS: Logout: Owltalon012
+01-17:ACCESS: Logout: Miakiki
+01-17:ACCESS: Logout: Nathan736
+01-17:ACCESS: Logout: Rogunz
+01-17:ACCESS: Logout: Pick Yer Poison
+01-17:ACCESS: Logout: TheNewMakerGamer10
+01-17:ACCESS: Logout: Evilgrim123
+01-17:ACCESS: Logout: Forteen
+01-17:ACCESS: Logout: QuinnR
+01-19:GAME: Finished building powernets (24 nets)
+01-19:ADMIN: Loading crban_keylist
+01-19:ADMIN: Loading crban_reason
+01-19:ADMIN: Loading crban_time
+01-19:ADMIN: Loading crban_bannedby
+01-19:ADMIN: Loading crban_iplist
+01-19:ADMIN: Loading crban_unbanned
+01-19:ADMIN: Loading crban_ComputerIDs
+01-19:ADMIN: Loading jobban_rank
+01-19:ADMIN: Updating jobbanfile!
+01-19:ACCESS: Login: Lucaboii from 94.168.104.138
+01-19:ACCESS: Login: I-Aryn-I from 71.229.232.215
+01-19:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+01-19:ACCESS: Login: DistortedAudio from 74.107.126.183
+01-19:ACCESS: Login: Rogunz from 66.75.9.193
+01-19:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+01-19:GAME: Rogunz entered as Denholm Jenkins
+01-19:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+01-19:GAME: I-Aryn-I entered as Lelouch vi Britannia
+01-19:ACCESS: Login: Micro102 from 24.184.14.119
+01-19:ACCESS: Login: QuinnR from 174.26.2.253
+01-19:VOTE: Voting to change mode started by Denholm Jenkins/Rogunz
+01-19:ACCESS: Login: Nono345 from 74.101.124.86
+01-19:ACCESS: Login: Halberdear from 76.2.30.65
+01-19:GAME: Lucaboii entered as Luca Foulger
+01-19:GAME: Guest-1801901258 entered as Vactor
+01-19:ACCESS: Login: Pick Yer Poison from 70.253.165.246
+01-19:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+01-19:GAME: Mr.Peanuts entered as Fred McBurger
+01-19:OOC: Denholm Jenkins/Rogunz : Oh goddammit
+01-19:GAME: Nono345 entered as Jeff Meyer
+01-19:ACCESS: Login: Guest-854218554 from 69.119.158.103
+01-19:GAME: Pick Yer Poison entered as Eric Donner
+01-19:SAY: Jeff Meyer/Nono345 : fasd
+01-19:SAY: Cog Woodbed/QuinnR : hi
+01-19:GAME: Guest-854218554 entered as Mick Jagger
+01-19:OOC: Denholm Jenkins/Rogunz : At least we have a mod
+01-19:GAME: QuinnR entered as Cog Woodbed
+01-19:OOC: Fred McBurger/Mr.Peanuts : Quinn, we are glad you are here
+01-19:SAY: Cog Woodbed/QuinnR : Hmm
+01-19:SAY: Fred McBurger/Mr.Peanuts : FUWAF
+01-19:SAY: Fred McBurger/Mr.Peanuts : ; FWAF
+01-19:ACCESS: Login: Evilgrim123 from 86.23.6.173
+01-19:OOC: Cog Woodbed/QuinnR : Can&#39;t flipping talk.
+01-19:OOC: Fred McBurger/Mr.Peanuts : FWAFL!
+01-19:SAY: Denholm Jenkins/Rogunz : HETY
+01-19:GAME: DistortedAudio entered as Hugo Stiglitz
+01-19:OOC: Fred McBurger/Mr.Peanuts : Damn it didn&#39;t work
+01-19:ACCESS: Login: Owltalon012 from 173.22.241.67
+01-19:OOC: Denholm Jenkins/Rogunz : Yeah..
+01-19:OOC: Cog Woodbed/QuinnR : wait a minute
+01-19:OOC: Jeff Meyer/Nono345 : lets just to traitor we can use intercoms for that
+01-19:OOC: Lelouch vi Britannia/I-Aryn-I : Let me know when people can RP again.
+01-19:OOC: HELP: Hugo Stiglitz/DistortedAudio : Owlaton griefed me.
+01-19:GAME: Evilgrim123 entered as Anaya Simmens
+01-19:OOC: Denholm Jenkins/Rogunz : Try monkeying/reving everyone
+01-19:ACCESS: Logout: I-Aryn-I
+01-19:OOC: Denholm Jenkins/Rogunz : Monkeying let them talk
+01-19:OOC: Fred McBurger/Mr.Peanuts : Just set extended
+01-19:VOTE: Voting closed, result was 
+01-19:ADMIN: QuinnR modified Cog Woodbed's deafness to 0
+01-19:SAY: Cog Woodbed/QuinnR : test
+01-19:OOC: Hugo Stiglitz/DistortedAudio : Thunderdome
+01-19:OOC: Fred McBurger/Mr.Peanuts : and let us use intercom to speak
+01-19:OOC: Denholm Jenkins/Rogunz : Yeah, extended
+01-19:ACCESS: Login: Forteen from 70.134.86.183
+01-19:GAME: Owltalon012 entered as Kevin Dixon
+01-19:OOC: Cog Woodbed/QuinnR : It is time
+01-19:OOC: Denholm Jenkins/Rogunz : And we are mute
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : I am deaf
+01-19:SAY: Fred McBurger/Mr.Peanuts : TIJNE!
+01-19:SAY: Denholm Jenkins/Rogunz : Hello
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Can&#39;t talk mqybe
+01-19:SAY: Hugo Stiglitz/DistortedAudio : Hello.
+01-19:OOC: Cog Woodbed/QuinnR : for everyones a monkey mode!
+01-19:SAY: Denholm Jenkins/Rogunz : safafs
+01-19:OOC: Denholm Jenkins/Rogunz : YAY
+01-19:OOC: Fred McBurger/Mr.Peanuts : WHOO!
+01-19:OOC: Fred McBurger/Mr.Peanuts : WHOO!
+01-19:OOC: Fred McBurger/Mr.Peanuts : WHOO!
+01-19:OOC: Fred McBurger/Mr.Peanuts : WHOO!
+01-19:OOC: Denholm Jenkins/Rogunz : Though try monkeying and humaning
+01-19:OOC: Cog Woodbed/QuinnR : everyone ready?
+01-19:OOC: Fred McBurger/Mr.Peanuts : YEA!
+01-19:OOC: Fred McBurger/Mr.Peanuts : FUCK YEAS!
+01-19:OOC: Denholm Jenkins/Rogunz : Didnt get to try that
+01-19:GAME: Halberdear entered as Hal jones
+01-19:GAME: Forteen entered as Bob Robertson
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : I don&#39;t want to be monkey
+01-19:OOC: Kevin Dixon/Owltalon012 : http://www.youtube.com/watch?v=73Vp1EGCYlQ   Old Music FTW.
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Human I be
+01-19:OOC: Denholm Jenkins/Rogunz : Too bad
+01-19:SAY: Bob Robertson/Forteen : .
+01-19:OOC: HELP: Denholm Jenkins/Rogunz : And ban Owltalon
+01-19:ACCESS: Login: Coolguy300 from 99.254.12.71
+01-19:OOC: Cog Woodbed/QuinnR : Yeah, major glitchiness
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : I want to be a human
+01-19:OOC: Cog Woodbed/QuinnR : lets try a monkey game
+01-19:OOC: Fred McBurger/Mr.Peanuts : Quinn I think I know the source too
+01-19:ADMIN: PM: QuinnR->Rogunz : I will
+01-19:OOC: Denholm Jenkins/Rogunz : QuinnR
+01-19:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Never said anything about the mode
+01-19:OOC: Fred McBurger/Mr.Peanuts : It must have been a bug from a deafness gene
+01-19:OOC: Denholm Jenkins/Rogunz : Try reving someone
+01-19:ADMIN: QuinnR set the mode as extended.
+01-19:OOC: Fred McBurger/Mr.Peanuts : Or something
+01-19:ADMIN: QuinnR used start_now
+01-19:GAME: starting game of extended
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: QuinnR from 174.26.2.253
+01-19:ACCESS: They share computer ID's
+01-19:OOC: Denholm Jenkins/Rogunz : I almost got it
+01-19:OOC: Fred McBurger/Mr.Peanuts : so maybe genes are fucked
+01-19:OOC: Luca Foulger/Lucaboii : Monkeis! :D
+01-19:OOC: Fred McBurger/Mr.Peanuts : Plasma researching monkey, crap
+01-19:OOC: Denholm Jenkins/Rogunz : Er
+01-19:SAY: Hugo Stiglitz/DistortedAudio : WOOP
+01-19:OOC: Denholm Jenkins/Rogunz : Hah
+01-19:SAY: Bob Robertson/Forteen : m
+01-19:SAY: Hugo Stiglitz/DistortedAudio : AAAH
+01-19:SAY: Fred McBurger/Mr.Peanuts : hey
+01-19:GAME: Coolguy300 entered as Mikan Luzerdorf
+01-19:ADMIN: QuinnR used secret monkey
+01-19:SAY: Hugo Stiglitz/DistortedAudio : NAAH
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Lucaboii from 94.168.104.138
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: DistortedAudio from 74.107.126.183
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Rogunz from 66.75.9.193
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Nono345 from 74.101.124.86
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Halberdear from 76.2.30.65
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Pick Yer Poison from 70.253.165.246
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Guest-854218554 from 69.119.158.103
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Evilgrim123 from 86.23.6.173
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Owltalon012 from 173.22.241.67
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Forteen from 70.134.86.183
+01-19:ACCESS: They share computer ID's
+01-19:ACCESS: Logout: 
+01-19:ACCESS: Login: Coolguy300 from 99.254.12.71
+01-19:ACCESS: They share computer ID's
+01-19:SAY: A.R.M.O.K./QuinnR : ;Alert
+01-19:SAY: monkey (94c6)/DistortedAudio : WOOOSH
+01-19:SAY: monkey (94c6)/DistortedAudio : WOOOSH
+01-19:SAY: monkey (94c6)/DistortedAudio : WOOOSH
+01-19:OOC: monkey (ad36)/TheNewMakerGamer10 : You did that on purpose..
+01-19:SAY: monkey (2db2)/Mr.Peanuts : hey
+01-19:SAY: A.R.M.O.K./QuinnR : Major contamination.
+01-19:SAY: monkey (2db2)/Mr.Peanuts : IT WORKS!
+01-19:OOC: monkey (ad36)/TheNewMakerGamer10 : D:
+01-19:OOC: monkey (2db2)/Mr.Peanuts : IT WORKS
+01-19:OOC: A.R.M.O.K./QuinnR : What?
+01-19:OOC: A.R.M.O.K./QuinnR : talking?
+01-19:OOC: monkey (282b)/Rogunz : Oh dammit
+01-19:OOC: monkey (2db2)/Mr.Peanuts : Now change us back to see if it works
+01-19:SAY: monkey (8e69)/Guest-854218554 : GAH WTF
+01-19:SAY: monkey (7c26)/Forteen : n
+01-19:OOC: monkey (be2c)/Pick Yer Poison : Yikes.
+01-19:OOC: monkey (282b)/Rogunz : No gloves for monkeys
+01-19:OOC: A.R.M.O.K./QuinnR : mm
+01-19:OOC: monkey (2db2)/Mr.Peanuts : ; quinn it is a human gene fuck-up
+01-19:OOC: monkey (ad36)/TheNewMakerGamer10 : No monkey
+01-19:OOC: monkey (282b)/Rogunz : Change us back
+01-19:SAY: monkey (7c26)/Forteen : mmm
+01-19:GAME: Micro102 entered as Micro McGinley
+01-19:OOC: A.R.M.O.K./QuinnR : I don&#39;t know if there is an monkies to humans.
+01-19:OOC: monkey (282b)/Rogunz : Not neccisarily
+01-19:OOC: Micro McGinley/Micro102 : Wow what bugs
+01-19:SAY: monkey (984d)/Nono345 : ghf
+01-19:OOC: A.R.M.O.K./QuinnR : I&#39;ll try on one person.
+01-19:OOC: monkey (282b)/Rogunz : Set rev to 0
+01-19:OOC: monkey (282b)/Rogunz : I think
+01-19:OOC: monkey (282b)/Rogunz : Something with rev
+02-12:GAME: Finished building powernets (24 nets)
+02-12:ADMIN: Loading crban_keylist
+02-12:ADMIN: Loading crban_reason
+02-12:ADMIN: Loading crban_time
+02-12:ADMIN: Loading crban_bannedby
+02-12:ADMIN: Loading crban_iplist
+02-12:ADMIN: Loading crban_unbanned
+02-12:ADMIN: Loading crban_ComputerIDs
+02-12:ADMIN: Loading jobban_rank
+02-12:ADMIN: Updating jobbanfile!
+02-12:ACCESS: Login: Headswe from 127.0.0.1
+02-12:SAY: Alucard Whoop/Headswe : sadasd
+02-12:ACCESS: Logout: Headswe
+02-12:ACCESS: Login: Headswe from 127.0.0.1
+02-12:ADMIN: Headswe initiated an immediate reboot.
+02-12:ACCESS: Logout: Headswe
+02-14:GAME: Finished building powernets (24 nets)
+02-14:ADMIN: Loading crban_keylist
+02-14:ADMIN: Loading crban_reason
+02-14:ADMIN: Loading crban_time
+02-14:ADMIN: Loading crban_bannedby
+02-14:ADMIN: Loading crban_iplist
+02-14:ADMIN: Loading crban_unbanned
+02-14:ADMIN: Loading crban_ComputerIDs
+02-14:ADMIN: Loading jobban_rank
+02-14:ADMIN: Updating jobbanfile!
+02-14:ACCESS: Login: Headswe from 127.0.0.1
+02-14:SAY: Alucard Whoop/Headswe : asdasd
+02-14:GAME: Headswe entered as Alucard Whoop
+02-14:SAY: Alucard Whoop/Headswe : asdasdsda
+02-14:SAY: Alucard Whoop/Headswe : asdasd
+02-14:SAY: Alucard Whoop/Headswe : asdasd
+02-14:SAY: Alucard Whoop/Headswe : asdasd
+02-14:ADMIN: Headswe set the mode as sandbox.
+02-14:ADMIN: Headswe used start_now
+02-14:GAME: starting game of sandbox
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:ADMIN: Headswe used secret allowbigbombs
+02-14:SAY: Alucard Whoop/Headswe : Whoop
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:ADMIN: Headswe modified Station Intercom (Bridge)'s freq to 145.6
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : ; test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:SAY: Alucard Whoop/Headswe : ; test
+02-14:SAY: Alucard Whoop/Headswe : ; test
+02-14:SAY: Alucard Whoop/Headswe : test
+02-14:ADMIN: Headswe AIized Headswe
+02-14:ACCESS: Logout: 
+02-14:ACCESS: Login: Headswe from 127.0.0.1
+02-14:ACCESS: They share computer ID's
+02-14:ADMIN: Headswe teleported Corpse
+02-14:SAY: Corpse/ : lol
+02-14:SAY: Corpse/ : whooop
+02-14:ADMIN: Headswe Healed/Revived 
+02-14:SAY: Corpse/ : whoop
+02-14:ADMIN: Headswe teleported Corpse
+02-14:SAY: A.R.M.O.K./Headswe : test
+02-14:SAY: Corpse/ : lollolololololol
+02-14:SAY: Corpse/ : lololol,src
+02-14:ACCESS: Logout: 
+02-14:ACCESS: Login: headswe from 127.0.0.1
+02-14:ACCESS: They share computer ID's
+02-14:ADMIN: Headswe modified Corpse's key to headswe
+02-14:ADMIN: headswe jumped to A.R.M.O.K.
+02-14:SAY: Alucard Whoop/headswe : test
+02-14:SAY: Alucard Whoop/headswe : ; test
+02-14:SAY: Alucard Whoop/headswe : I: intercom
+02-14:SAY: Alucard Whoop/headswe : whoop
+02-14:ADMIN: headswe jumped to Courtroom
+02-14:ADMIN: headswe jumped to Centcomm
+02-14:GAME: headswe entered as Alucard Whoop
+02-14:SAY: Alucard Whoop/headswe : ; whoop
+02-14:ADMIN: headswe jumped to A.R.M.O.K.
+02-14:SAY: Alucard Whoop/headswe : Whoop
+02-14:ACCESS: Logout: 
+02-14:ACCESS: Login: Headswe from 127.0.0.1
+02-14:ACCESS: They share computer ID's
+02-14:ADMIN: Headswe modified A.R.M.O.K.'s key to Headswe
+02-14:SAY: A.R.M.O.K./Headswe : test
+02-14:ACCESS: Login: TheGrifter from 67.8.151.66
+02-14:GAME: TheGrifter entered as Johnny "Meth" Cash
+02-14:OOC: Johnny "Meth" Cash/TheGrifter : EEEY
+02-14:SAY: A.R.M.O.K./Headswe : ; hey
+02-14:SAY: A.R.M.O.K./Headswe : talk in the radio
+02-14:SAY: Johnny "Meth" Cash/TheGrifter : ; Ey...
+02-14:SAY: A.R.M.O.K./Headswe : Ddddick face.
+02-14:SAY: A.R.M.O.K./Headswe : Talk into a intercom
+02-14:SAY: Johnny "Meth" Cash/TheGrifter : Tramalfadoria,
+02-14:SAY: A.R.M.O.K./Headswe : Damm.
+02-14:SAY: Johnny "Meth" Cash/TheGrifter : Eternia, in an endless wink.
+02-14:SAY: A.R.M.O.K./Headswe : Well thanks
+02-14:SAY: A.R.M.O.K./Headswe : Atleast the say works now
+02-14:OOC: Johnny "Meth" Cash/TheGrifter : what was it for?
+02-14:SAY: A.R.M.O.K./Headswe : :P
+02-14:SAY: A.R.M.O.K./Headswe : ;P
+02-14:SAY: A.R.M.O.K./Headswe : :P
+02-14:OOC: A.R.M.O.K./Headswe : AI thingy test
+02-14:OOC: A.R.M.O.K./Headswe : and radio test.
+02-14:OOC: Johnny "Meth" Cash/TheGrifter : ah...
+02-14:ACCESS: Logout: TheGrifter
+02-14:ADMIN: Headswe modified Johnny "Meth" Cash's zombie to 1
+02-14:OOC: A.R.M.O.K./Headswe : Try both mic and intercom
+02-14:SAY: Johnny "Meth" Cash/TheGrifter : lol
+02-14:ADMIN: Headswe teleported Johnny "Meth" Cash
+02-14:SAY: Johnny "Meth" Cash/TheGrifter : lololol
+02-14:ACCESS: Failed Login: Karathai_Rou Reason: Ip banned
+02-14:ACCESS: Login: DarkKuta from 12.76.244.139
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : WHAT DO YOU NEED?!
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : My time is expensive.
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : HURRYZ!
+02-14:OOC: A.R.M.O.K./Headswe : Cake.
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : is a lie?
+02-14:OOC: A.R.M.O.K./Headswe : Someone else got here before you.
+02-14:OOC: A.R.M.O.K./Headswe : sorry.
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : Really? D:
+02-14:OOC: Drakkon "Dark" Draith/DarkKuta : Aw..
+02-14:ACCESS: Logout: DarkKuta
+02-14:ADMIN: Headswe initiated an immediate reboot.
+02-14:ACCESS: Logout: Headswe
+02-37:GAME: Finished building powernets (24 nets)
+02-37:ADMIN: Loading crban_keylist
+02-37:ADMIN: Loading crban_reason
+02-37:ADMIN: Loading crban_time
+02-37:ADMIN: Loading crban_bannedby
+02-37:ADMIN: Loading crban_iplist
+02-37:ADMIN: Loading crban_unbanned
+02-37:ADMIN: Loading crban_ComputerIDs
+02-37:ADMIN: Loading jobban_rank
+02-37:ADMIN: Updating jobbanfile!
+02-37:ACCESS: Login: Headswe from 127.0.0.1
+02-37:GAME: Headswe entered as Alucard Whoop
+02-37:ADMIN: Headswe used start_now
+02-37:GAME: starting game of sandbox
+02-37:SAY: Alucard Whoop/Headswe : Whoop
+02-37:ADMIN: Headswe modified Alucard Whoop's zombie to 1
+02-37:SAY: Alucard Whoop/Headswe : Test
+02-37:SAY: Alucard Whoop/Headswe : TEST
+02-37:SAY: Alucard Whoop/Headswe : ; test
+02-37:ACCESS: Login: Lucaboii from 94.168.104.138
+02-37:OOC: Luca Foulger/Lucaboii : Heya Headswe
+02-37:GAME: Lucaboii entered as Luca Foulger
+02-37:SAY: Alucard Whoop/Headswe : Test
+02-37:SAY: Alucard Whoop/Headswe : ; TEST
+02-37:ACCESS: Login: Guest-2013825017 from 192.168.1.166
+02-37:OOC: Alucard Whoop/Headswe : What do you see?
+02-37:GAME: Guest-2013825017 entered as Cog Magmamurdered
+02-37:OOC: Luca Foulger/Lucaboii : A Station, The starting Shuttle, Why?
+02-37:SAY: Alucard Whoop/Headswe : ; TEST
+02-37:SAY: Alucard Whoop/Headswe : sadasd
+02-37:SAY: Luca Foulger/Lucaboii : Ah! Who is this!?
+02-37:ADMIN: Headswe AIized Headswe
+02-37:ACCESS: Logout: 
+02-37:ACCESS: Login: Headswe from 127.0.0.1
+02-37:ACCESS: They share computer ID's
+02-37:ACCESS: Login: Thror Oakenshield from 65.243.185.249
+02-37:SAY: Cog Magmamurdered/Guest-2013825017 : ;lol
+02-37:GAME: Thror Oakenshield entered as Thrain Oakenshield
+02-37:ACCESS: Logout: Guest-2013825017
+02-37:SAY: Luca Foulger/Lucaboii : What?
+02-37:ACCESS: Logout: Thror Oakenshield
+02-37:OOC: Luca Foulger/Lucaboii : Hmmm how does one become a Zombie in Sandbox mode?
+02-37:ACCESS: Login: Bluephoenix222 from 124.185.220.212
+02-37:GAME: Bluephoenix222 entered as George Fisher
+02-37:SAY: George Fisher/Bluephoenix222 : test
+02-37:OOC: George Fisher/Bluephoenix222 : head why is everyone complaining that you cant speak here on your server?
+02-37:SAY: Luca Foulger/Lucaboii : test
+02-37:ACCESS: Login: Guest-1801901258 from 24.240.33.203
+02-37:OOC: George Fisher/Bluephoenix222 : or was it broken and you fixed it now
+02-37:GAME: Guest-1801901258 entered as Vactor
+02-37:SAY: George Fisher/Bluephoenix222 : hello?
+02-37:SAY: George Fisher/Bluephoenix222 : what are you wearing?
+02-37:SAY: Luca Foulger/Lucaboii : You! State your name rank and intention
+02-37:SAY: George Fisher/Bluephoenix222 : george fisher, assistant, firend
+02-37:OOC: A.R.M.O.K./Headswe : It was broken
+02-37:SAY: George Fisher/Bluephoenix222 : friend i mean
+02-37:OOC: A.R.M.O.K./Headswe : ADMIN POWAS
+02-37:OOC: George Fisher/Bluephoenix222 : ok then :P
+02-37:SAY: Luca Foulger/Lucaboii : Walk on &#39;George&#39;
+02-37:OOC: A.R.M.O.K./Headswe : Topkasas new walls are fugly
+02-37:OOC: George Fisher/Bluephoenix222 : i havent seen them yet
+02-37:SAY: George Fisher/Bluephoenix222 : *gasp
+02-37:SAY: George Fisher/Bluephoenix222 : syndicate!
+02-37:SAY: George Fisher/Bluephoenix222 : jesus
+02-37:SAY: George Fisher/Bluephoenix222 : dont kill me
+02-37:SAY: George Fisher/Bluephoenix222 : are you syndicate? I bet you are by the look of your space suit
+02-37:SAY: Vactor/Guest-1801901258 : i found this suit in that closet
+02-37:SAY: George Fisher/Bluephoenix222 : really?
+02-37:SAY: George Fisher/Bluephoenix222 : ;captain i need a jobchange
+02-37:ACCESS: Login: Coolguy300 from 99.254.12.71
+02-37:GAME: Coolguy300 entered as Mikan Luzerdorf
+02-37:MATTACK: Luca Foulger(Lucaboii) attcked by Luca Foulger(Lucaboii) with the rejuvenators
+02-37:MATTACK: Luca Foulger(Lucaboii) clicked on Luca Foulger(Lucaboii) with a syringe
+02-37:MATTACK: Luca Foulger(Lucaboii) injected Luca Foulger(Lucaboii) with a syringe filled with 
+02-37:MATTACK: Luca Foulger(Lucaboii) clicked on Luca Foulger(Lucaboii) with a syringe
+02-37:MATTACK: Luca Foulger(Lucaboii) injected Luca Foulger(Lucaboii) with a syringe filled with 
+02-37:MATTACK: Luca Foulger(Lucaboii) clicked on Luca Foulger(Lucaboii) with a syringe
+02-37:MATTACK: Luca Foulger(Lucaboii) injected Luca Foulger(Lucaboii) with a syringe filled with 
+02-37:ACCESS: Logout: Guest-1801901258
+02-37:ACCESS: Login: Jackofnotrades from 58.161.18.62
+02-37:GAME: Jackofnotrades entered as Peter Androkovich
+02-37:OOC: Peter Androkovich/Jackofnotrades : Lagging a fair bit then
+02-37:OOC: George Fisher/Bluephoenix222 : ?
+02-37:OOC: Peter Androkovich/Jackofnotrades : Yeah, I meant to add a question mark.
+02-37:OOC: Peter Androkovich/Jackofnotrades : I&#39;m getting a lot of lag.
+02-37:OOC: George Fisher/Bluephoenix222 : yeah me too but it only started to lag just now
+02-37:SAY: Peter Androkovich/Jackofnotrades : Now this looks like a plan.
+02-37:SAY: George Fisher/Bluephoenix222 : yeah
+02-37:SAY: George Fisher/Bluephoenix222 : i need the captains spare id
+02-37:SAY: Peter Androkovich/Jackofnotrades : How do you use thermite properly anyway? It&#39;s been bugging me.
+02-37:SAY: Peter Androkovich/Jackofnotrades : Also, once you have it, could you assign me a job?
+02-37:SAY: George Fisher/Bluephoenix222 : you put it on the wall
+02-37:SAY: George Fisher/Bluephoenix222 : and then use a welder on it
+02-37:SAY: George Fisher/Bluephoenix222 : sure
+02-37:SAY: Peter Androkovich/Jackofnotrades : That&#39;s what I thought.
+02-37:SAY: Peter Androkovich/Jackofnotrades : Thanks.
+02-37:SAY: George Fisher/Bluephoenix222 : no problem
+02-37:SAY: Luca Foulger/Lucaboii : Right here by my Sword.
+02-37:SAY: Peter Androkovich/Jackofnotrades : Hiii!
+02-37:SAY: Peter Androkovich/Jackofnotrades : *wave
+02-37:SAY: George Fisher/Bluephoenix222 : huh?
+02-37:SAY: Peter Androkovich/Jackofnotrades : There&#39;s a man outside.
+02-37:SAY: George Fisher/Bluephoenix222 : is he dead?
+02-37:SAY: Peter Androkovich/Jackofnotrades : Just floating there.
+02-37:SAY: Peter Androkovich/Jackofnotrades : In space gear, so no.
+02-37:SAY: George Fisher/Bluephoenix222 : hmm
+02-37:SAY: George Fisher/Bluephoenix222 : there we go
+02-37:SAY: Peter Androkovich/Jackofnotrades : Lovely Jubbly.
+02-37:SAY: Peter Androkovich/Jackofnotrades : I&#39;ll wait for you then.
+02-37:SAY: Peter Androkovich/Jackofnotrades : At arrivals
+02-37:SAY: Peter Androkovich/Jackofnotrades : Hey.
+02-37:SAY: Peter Androkovich/Jackofnotrades : Situation&#39;s been worked out.
+02-37:SAY: Peter Androkovich/Jackofnotrades : Got it then?
+02-37:SAY: Peter Androkovich/Jackofnotrades : Great.
+02-37:SAY: George Fisher/Bluephoenix222 : what should it be? engineer?
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Head of Engineering, if that&#39;s okay.
+02-37:SAY: George Fisher/Bluephoenix222 : there you go
+02-37:SAY: Peter Androkovich/Jackofnotrades : Alrighty then.
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Can anyone confirm that the engine is on?
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Can anyone confirm that the engine is on?
+02-37:SAY: George Fisher/Bluephoenix222 : ;anyone who needs a job please come to arrivals
+02-37:SAY: Luca Foulger/Lucaboii : Your crazy, Obviously; I should end your Misery
+02-37:SAY: George Fisher/Bluephoenix222 : ;anyone who needs a job please come to arrivals
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Engine isn&#39;t on. Activating.
+02-37:OOC: Peter Androkovich/Jackofnotrades : Any idea what&#39;s causing the lag? It&#39;s pretty bad for me.
+02-37:OOC: George Fisher/Bluephoenix222 : head is probably playing another game, or someone is stealing his internet
+02-37:SAY: Luca Foulger/Lucaboii : [ Vactor, What is up with all of the Flipping out, And the ile dakness Arriving ]
+02-37:ACCESS: Login: PONDING from 98.15.219.67
+02-37:GAME: PONDING entered as Urist Timesand
+02-37:ACCESS: Logout: PONDING
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Engine is active, SMES active. We&#39;re in buisness.
+02-37:ACCESS: Logout: 
+02-37:ACCESS: Login: Lucaboii from 94.168.104.138
+02-37:ACCESS: They share computer ID's
+02-37:ACCESS: Login: High-Lord Vin from 24.121.150.206
+02-37:GAME: High-Lord Vin entered as Vin Howard
+02-37:OOC: Vin Howard/High-Lord Vin : back
+02-37:ACCESS: Logout: Coolguy300
+02-37:SAY: George Fisher/Bluephoenix222 : ;anyone who needs a job just ask
+02-37:SAY: Vin Howard/High-Lord Vin : lol
+02-37:ACCESS: Logout: 
+02-37:ACCESS: Login: Lucaboii from 94.168.104.138
+02-37:ACCESS: They share computer ID's
+02-37:SAY: Vin Howard/High-Lord Vin : [wrom
+02-37:SAY: Vin Howard/High-Lord Vin : I am sith! fear me!
+02-37:SAY: Vin Howard/High-Lord Vin : ;found an enerfy sword?
+02-37:SAY: Vin Howard/High-Lord Vin : ;and I need job
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Enerfy?
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Enerfy?
+02-37:SAY: Vin Howard/High-Lord Vin : ;energy*
+02-37:SAY: George Fisher/Bluephoenix222 : ;sure vin one moment
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Woah, force wall in the east corridor.
+02-37:SAY: Peter Androkovich/Jackofnotrades : And an alert in plasma research.
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;And an alert in plasma research. This looks bad, actually.
+02-37:SAY: Peter Androkovich/Jackofnotrades : What&#39;s the problem?
+02-37:SAY: George Fisher/Bluephoenix222 : ;everything is fine
+02-37:SAY: Vin Howard/High-Lord Vin : ;ahhh
+02-37:SAY: Vin Howard/High-Lord Vin : no o2
+02-37:SAY: George Fisher/Bluephoenix222 : i dont know
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;Okay.
+02-37:SAY: Vin Howard/High-Lord Vin : ;ahh no o2
+02-37:SAY: Peter Androkovich/Jackofnotrades : ;I see.
+02-37:SAY: Vin Howard/High-Lord Vin : ;ahh no o2
+02-37:SAY: Vin Howard/High-Lord Vin : ;in arrival
+02-37:SAY: Vin Howard/High-Lord Vin : ;2 are geussed dead
+02-37:OOC: Luca Foulger/Lucaboii : Where is everyone else....Also anyone wanna restart?
+02-37:OOC: Vin Howard/High-Lord Vin : ya
+02-37:OOC: George Fisher/Bluephoenix222 : make a vote
+02-37:OOC: Peter Androkovich/Jackofnotrades : I&#39;m leaving, actually.
+02-37:VOTE: Voting to restart round started by Vin Howard/High-Lord Vin
+02-37:ACCESS: Logout: Jackofnotrades
+02-37:OOC: Vin Howard/High-Lord Vin : is thw world lagging?
+02-37:OOC: George Fisher/Bluephoenix222 : no its the server
+02-37:SAY: Vin Howard/High-Lord Vin : ;sydicate!
+02-37:OOC: Vin Howard/High-Lord Vin : voting has failed
+02-37:OOC: Vin Howard/High-Lord Vin : there is no air on this station!
+02-37:OOC: Vin Howard/High-Lord Vin : weee
+02-37:OOC: Vin Howard/High-Lord Vin : admin, plz manualy reart the world
+02-37:VOTE: Voting closed, result was restart
+02-37:OOC: Vin Howard/High-Lord Vin : ty
+02-37:GAME: Finished building powernets (27 nets)
+02-37:GAME: Rebooting due to restart vote
+02-37:ACCESS: Logout: Headswe
+02-37:ACCESS: Logout: Bluephoenix222
+02-37:ACCESS: Logout: Lucaboii
+02-37:ACCESS: Logout: High-Lord Vin
+03-36:GAME: Finished building powernets (24 nets)
+03-36:ADMIN: Loading crban_keylist
+03-36:ADMIN: Loading crban_reason
+03-36:ADMIN: Loading crban_time
+03-36:ADMIN: Loading crban_bannedby
+03-36:ADMIN: Loading crban_iplist
+03-36:ADMIN: Loading crban_unbanned
+03-36:ADMIN: Loading crban_ComputerIDs
+03-36:ADMIN: Loading jobban_rank
+03-36:ADMIN: Updating jobbanfile!
+03-36:ACCESS: Login: Bluephoenix222 from 124.185.220.212
+03-36:ACCESS: Login: Rawr359 from 71.105.162.167
+03-36:ACCESS: Login: Lucaboii from 94.168.104.138
+03-36:GAME: Lucaboii entered as Luca Foulger
+03-36:ACCESS: Logout: Bluephoenix222
+03-36:OOC: John Bison/Rawr359 : well im back
+03-36:GAME: Rawr359 entered as John Bison
+03-36:SAY: John Bison/Rawr359 : ...hello?
+03-36:OOC: Luca Foulger/Lucaboii : Doesnt seem everyone else is xD
+03-36:ACCESS: Login: Bluephoenix222 from 124.185.220.212
+03-36:OOC: John Bison/Rawr359 : lol
+03-36:OOC: John Bison/Rawr359 : You are correct.&#39;
+03-36:GAME: Bluephoenix222 entered as George Fisher
+03-36:OOC: John Bison/Rawr359 : bye
+03-36:ACCESS: Logout: Rawr359
+03-36:GAME: starting game of sandbox
+03-36:ACCESS: Logout: Bluephoenix222
+03-36:VOTE: Voting to restart round started by Luca Foulger/Lucaboii
+03-36:VOTE: Voting closed, result was restart
+03-36:GAME: Rebooting due to restart vote
+03-36:ACCESS: Logout: Lucaboii
+03-51:GAME: Finished building powernets (24 nets)
+03-51:ADMIN: Loading crban_keylist
+03-51:ADMIN: Loading crban_reason
+03-51:ADMIN: Loading crban_time
+03-51:ADMIN: Loading crban_bannedby
+03-51:ADMIN: Loading crban_iplist
+03-51:ADMIN: Loading crban_unbanned
+03-51:ADMIN: Loading crban_ComputerIDs
+03-51:ADMIN: Loading jobban_rank
+03-51:ADMIN: Updating jobbanfile!
+03-51:ACCESS: Failed Login: 0DarkShadow0 Reason: Key banned
+03-51:ACCESS: Login: Lucaboii from 94.168.104.138
+03-51:GAME: Lucaboii entered as Luca Foulger
+03-51:VOTE: Voting to change mode started by Luca Foulger/Lucaboii
+03-51:VOTE: Voting closed, result was it
+03-51:GAME: starting game of traitor
+03-51:ACCESS: Logout: Lucaboii
+03-51:ACCESS: Login: Lucaboii from 94.168.104.138
+03-51:ACCESS: Logout: Lucaboii
+03-51:GAME: Rebooting because of no live players
+03-51:GAME: Rebooting because of no live players
+03-51:GAME: Rebooting because of no live players
+04-40:GAME: Finished building powernets (24 nets)
+04-40:ADMIN: Loading crban_keylist
+04-40:ADMIN: Loading crban_reason
+04-40:ADMIN: Loading crban_time
+04-40:ADMIN: Loading crban_bannedby
+04-40:ADMIN: Loading crban_iplist
+04-40:ADMIN: Loading crban_unbanned
+04-40:ADMIN: Loading crban_ComputerIDs
+04-40:ADMIN: Loading jobban_rank
+04-40:ADMIN: Updating jobbanfile!
+04-40:GAME: starting game of traitor
+04-40:ACCESS: Login: QuinnR from 174.26.2.253
+04-40:GAME: QuinnR entered as Cog Woodbed
+04-40:ACCESS: Logout: QuinnR
+04-40:ACCESS: Login: Jatacc from 130.245.193.110
+04-40:ACCESS: Login: Lucaboii from 94.168.104.138
+04-40:GAME: Jatacc entered as Urist Uristmud
+04-40:GAME: Lucaboii entered as Luca Foulger
+04-40:ACCESS: Logout: Lucaboii
+04-40:ACCESS: Login: Marktklenke from 68.103.150.10
+04-40:ACCESS: Login: Tanglestar from 72.199.168.86
+04-40:GAME: Marktklenke entered as Rodrick Brachtt
+04-40:ACCESS: Login: DarkKuta from 12.76.244.139
+04-40:GAME: DarkKuta entered as Drakkon "Dark" Draith
+04-40:VOTE: marktklenke tried to force the world to restart via change gamemode
+04-40:ACCESS: Login: Micro102 from 24.184.14.119
+04-40:ACCESS: Logout: DarkKuta
+04-40:SAY: Urist Uristmud/Jatacc : ?...
+04-40:GAME: Tanglestar entered as Cog Vomitspike
+04-40:GAME: Micro102 entered as Micro McGinley
+04-40:OOC: Micro McGinley/Micro102 : Wtf IT mode? was it fixed?
+04-40:ACCESS: Logout: 
+04-40:ACCESS: Login: Marktklenke from 68.103.150.10
+04-40:ACCESS: They share computer ID's
+04-40:ACCESS: Logout: 
+04-40:ACCESS: Login: Marktklenke from 68.103.150.10
+04-40:ACCESS: They share computer ID's
+04-40:OOC: Rodrick Brachtt/Marktklenke : im never voting gamemode again lol
+04-40:SAY: Micro McGinley/Micro102 : ;I&#39;m gonna go grab the captain&#39;s ID
+04-40:SAY: Urist Uristmud/Jatacc : He&#39;s dead
+04-40:SAY: Cog Vomitspike/Tanglestar : Yeah
+04-40:SAY: Cog Vomitspike/Tanglestar : yes!
+04-40:SAY: Cog Vomitspike/Tanglestar : lets see what some of this stuff does...
+04-40:SAY: Cog Vomitspike/Tanglestar : uhh
+04-40:MATTACK: Cog Vomitspike(Tanglestar) attcked by Rodrick Brachtt(Marktklenke) with First-Aid
+04-40:SAY: Micro McGinley/Micro102 : ;I will soon have the captain&#39;s ID, everyone hold tight.
+04-40:SAY: Cog Vomitspike/Tanglestar : Whoops
+04-40:SAY: Urist Uristmud/Jatacc : Why did you take his clothes off??
+04-40:MATTACK: Cog Vomitspike(Tanglestar)has grabbed Rodrick Brachtt(Marktklenke) aggressively (now hands) 
+04-40:SAY: Rodrick Brachtt/Marktklenke : yay im naked
+04-40:SAY: Cog Vomitspike/Tanglestar : so he could get in this
+04-40:ACCESS: Login: Sunboy128 from 99.182.215.188
+04-40:SAY: Cog Vomitspike/Tanglestar : uhh
+04-40:VOTE: Voting to change mode started by Rodrick Brachtt/Marktklenke
+04-40:SAY: Urist Uristmud/Jatacc : Oh crap
+04-40:OOC: Micro McGinley/Micro102 : Zombie isn&#39;t good with only 4 people
+04-40:SAY: Urist Uristmud/Jatacc : I can&#39;t get the straight jacket off
+04-40:SAY: Urist Uristmud/Jatacc : Thanks
+04-40:VOTE: Voting closed, result was none
+04-40:SAY: Cog Vomitspike/Tanglestar : no problem
+04-40:GAME: Rebooting due to mode vote
+04-40:ACCESS: Logout: Jatacc
+04-40:ACCESS: Logout: Tanglestar
+04-40:ACCESS: Logout: Marktklenke
+04-40:ACCESS: Logout: Sunboy128
+04-40:ACCESS: Logout: Micro102
+05-27:GAME: Finished building powernets (24 nets)
+05-27:ADMIN: Loading crban_keylist
+05-27:ADMIN: Loading crban_reason
+05-27:ADMIN: Loading crban_time
+05-27:ADMIN: Loading crban_bannedby
+05-27:ADMIN: Loading crban_iplist
+05-27:ADMIN: Loading crban_unbanned
+05-27:ADMIN: Loading crban_ComputerIDs
+05-27:ADMIN: Loading jobban_rank
+05-27:ADMIN: Updating jobbanfile!
+05-27:ACCESS: Login: Jatacc from 130.245.193.110
+05-27:ACCESS: Login: Marktklenke from 68.103.150.10
+05-27:GAME: Marktklenke entered as Rodrick Brachtt
+05-27:GAME: Jatacc entered as Urist Hammercrossbow
+05-27:SAY: Urist Hammercrossbow/Jatacc : Why is it dark?...
+05-27:ACCESS: Login: Tanglestar from 72.199.168.86
+05-27:SAY: Rodrick Brachtt/Marktklenke : were BLIND
+05-27:SAY: Urist Hammercrossbow/Jatacc : Nooo
+05-27:ACCESS: Login: Micro102 from 24.184.14.119
+05-27:GAME: Tanglestar entered as Cog Vomitspike
+05-27:OOC: Urist Hammercrossbow/Jatacc : wtf
+05-27:OOC: Urist Hammercrossbow/Jatacc : this is stupid
+05-27:GAME: Micro102 entered as Micro McGinley
+05-27:OOC: Micro McGinley/Micro102 : Hold on
+05-27:OOC: Micro McGinley/Micro102 : It is longer then normal
+05-27:SAY: Urist Hammercrossbow/Jatacc : what is longer than normal?
+05-27:OOC: Micro McGinley/Micro102 : The wait for the game to begin
+05-27:GAME: starting game of wizard
+05-27:ACCESS: Logout: 
+05-27:ACCESS: Login: Micro102 from 24.184.14.119
+05-27:ACCESS: They share computer ID's
+05-27:OOC: Urist Hammercrossbow/Jatacc : oh crap
+05-27:SAY: GLaDOS/Micro102 : Welcome crew, to Bay station 12.
+05-27:OOC: GLaDOS/Micro102 : Ummm who is Rodrick?
+05-27:OOC: Rodrick Brachtt/Marktklenke : me
+05-27:OOC: Rodrick Brachtt/Marktklenke : why is it dark
+05-27:SAY: GLaDOS/Micro102 : Vomitspike you will be assigned as captain
+05-27:OOC: GLaDOS/Micro102 : I think your glitched &gt;_&gt;
+05-27:SAY: Cog Vomitspike/Tanglestar : hmm? 
+05-27:OOC: GLaDOS/Micro102 : Name?
+05-27:SAY: Cog Vomitspike/Tanglestar : hmm?
+05-27:OOC: GLaDOS/Micro102 : Are you Rodrick?
+05-27:OOC: Rodrick Brachtt/Marktklenke : yea
+05-27:SAY: Cog Vomitspike/Tanglestar : hmm?
+05-27:OOC: GLaDOS/Micro102 : Do you see anything other then darkness?
+05-27:OOC: Rodrick Brachtt/Marktklenke : me
+05-27:OOC: GLaDOS/Micro102 : hmmmm
+05-27:SAY: Cog Vomitspike/Tanglestar : hmm?
+05-27:OOC: Urist Hammercrossbow/Jatacc : i was stuck in darkness for a while
+05-27:SAY: Cog Vomitspike/Tanglestar : why? me
+05-27:OOC: Urist Hammercrossbow/Jatacc : but now i spawned properly
+05-27:OOC: GLaDOS/Micro102 : Was? are you out now?
+05-27:OOC: Urist Hammercrossbow/Jatacc : yes
+05-27:OOC: Rodrick Brachtt/Marktklenke : why am i stuck in darkness
+05-27:SAY: GLaDOS/Micro102 : Cog Vomitspike, please head to bridge for captain&#39;s ID
+05-27:OOC: Cog Vomitspike/Tanglestar : i was glitched and i didnt get my gear for the network tech when i started
+05-27:OOC: Urist Hammercrossbow/Jatacc : haha wtf
+05-27:OOC: GLaDOS/Micro102 : huh...
+05-27:ACCESS: Logout: Marktklenke
+05-27:ACCESS: Logout: Jatacc
+05-27:ACCESS: Logout: Tanglestar
+05-27:ACCESS: Logout: Micro102
+05-36:GAME: Finished building powernets (24 nets)
+05-36:ADMIN: Loading crban_keylist
+05-36:ADMIN: Loading crban_reason
+05-36:ADMIN: Loading crban_time
+05-36:ADMIN: Loading crban_bannedby
+05-36:ADMIN: Loading crban_iplist
+05-36:ADMIN: Loading crban_unbanned
+05-36:ADMIN: Loading crban_ComputerIDs
+05-36:ADMIN: Loading jobban_rank
+05-36:ADMIN: Updating jobbanfile!
+05-36:ACCESS: Login: Jatacc from 130.245.193.110
+05-36:ACCESS: Login: Marktklenke from 68.103.150.10
+05-36:GAME: Jatacc entered as Urist Hammercrossbow
+05-36:GAME: Marktklenke entered as Rodrick Brachtt
+05-36:ACCESS: Login: Tanglestar from 72.199.168.86
+05-36:OOC: Urist Hammercrossbow/Jatacc : goddamnit
+05-36:GAME: Tanglestar entered as Cog Vomitspike
+05-36:OOC: Rodrick Brachtt/Marktklenke : its dark again
+05-36:ACCESS: Login: Micro102 from 24.184.14.119
+05-36:GAME: Micro102 entered as Micro McGinley
+05-36:OOC: Urist Hammercrossbow/Jatacc : no admins are around?
+05-36:VOTE: Voting to change mode started by Rodrick Brachtt/Marktklenke
+05-36:VOTE: Voting closed, result was zombie
+05-36:OOC: Micro McGinley/Micro102 : Everyone knows not to touch the zombies right?
+05-36:GAME: starting game of Zombie Outbreak
+05-36:OOC: Urist Hammercrossbow/Jatacc : how many people are there?
+05-36:SAY: Micro McGinley/Micro102 : ;It seems we have an infection.
+05-36:OOC: Micro McGinley/Micro102 : 4
+05-36:SAY: Micro McGinley/Micro102 : ;Locate the infected person and restain them
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the chair
+05-36:SAY: Micro McGinley/Micro102 : ;The infected person seems to be immune to stuns
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the floor
+05-36:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Micro McGinley(Micro102) with intent on harm
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the floor
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the floor
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Firelock
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the floor
+05-36:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Cog Vomitspike(Tanglestar) with intent on harm
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the pipes
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at the pipes
+05-36:MATTACK: Micro McGinley(Micro102)has shot a taser round at Rodrick Brachtt
+05-36:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Cog Vomitspike(Tanglestar) with intent on harm
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Cog Vomitspike(Tanglestar) with intent on harm
+05-36:MATTACK: Cog Vomitspike(Tanglestar) attcked by Rodrick Brachtt(Marktklenke) with Fire Extinguisher
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Cog Vomitspike(Tanglestar) with intent on harm
+05-36:MATTACK: Cog Vomitspike(Tanglestar) attcked by Rodrick Brachtt(Marktklenke) with Fire Extinguisher
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:MATTACK: Micro McGinley(Micro102) attcked by Rodrick Brachtt(Marktklenke) with the oxygentank
+05-36:OOC: Urist Hammercrossbow/Jatacc : this does suck with 4 people
+05-36:OOC: Micro McGinley/Micro102 : Hold on
+05-36:OOC: Rodrick Brachtt/Marktklenke : i bit people
+05-36:OOC: Micro McGinley/Micro102 : If your the zombie things get fun
+05-36:SAY: Micro McGinley/Micro102 : You ok?
+05-36:SAY: Cog Vomitspike/Tanglestar : I guess..
+05-36:SAY: Micro McGinley/Micro102 : ;Do we have a janitor?
+05-36:SAY: Urist Hammercrossbow/Jatacc : ;Yes
+05-36:SAY: Micro McGinley/Micro102 : Can I have that first aid kit?
+05-36:SAY: Micro McGinley/Micro102 : Ointment?
+05-36:OOC: Urist Hammercrossbow/Jatacc : yay
+05-36:SAY: Cog Vomitspike/Tanglestar : sure
+05-36:GAME: Rebooting due to end of game
+05-36:ACCESS: Logout: Marktklenke
+05-36:ACCESS: Logout: Jatacc
+05-36:ACCESS: Logout: Tanglestar
+05-36:ACCESS: Logout: Micro102
+05-48:GAME: Finished building powernets (24 nets)
+05-48:ADMIN: Loading crban_keylist
+05-48:ADMIN: Loading crban_reason
+05-48:ADMIN: Loading crban_time
+05-48:ADMIN: Loading crban_bannedby
+05-48:ADMIN: Loading crban_iplist
+05-48:ADMIN: Loading crban_unbanned
+05-48:ADMIN: Loading crban_ComputerIDs
+05-48:ADMIN: Loading jobban_rank
+05-48:ADMIN: Updating jobbanfile!
+05-48:ACCESS: Login: Jatacc from 130.245.193.110
+05-48:ACCESS: Login: Tanglestar from 72.199.168.86
+05-48:ACCESS: Login: Marktklenke from 68.103.150.10
+05-48:GAME: Jatacc entered as Urist Hammercrossbow
+05-48:GAME: Marktklenke entered as Rodrick Brachtt
+05-48:ACCESS: Login: Micro102 from 24.184.14.119
+05-48:GAME: Micro102 entered as Micro McGinley
+05-48:GAME: Tanglestar entered as Cog Vomitspike
+05-48:VOTE: Voting to change mode started by Rodrick Brachtt/Marktklenke
+05-48:OOC: Micro McGinley/Micro102 : NO BOLB!
+05-48:OOC: Micro McGinley/Micro102 : OMG NO!
+05-48:OOC: Micro McGinley/Micro102 : Instant loss with only 4 people
+05-48:OOC: Micro McGinley/Micro102 : Zombie just failed
+05-48:OOC: Micro McGinley/Micro102 : Too easy 
+05-48:VOTE: Voting closed, result was traitor
+05-48:OOC: Urist Hammercrossbow/Jatacc : pretty much all of these modes suck with only 4 people
+05-48:OOC: Micro McGinley/Micro102 : ugh
+05-48:OOC: Micro McGinley/Micro102 : No traitor is pretty good
+05-48:OOC: Cog Vomitspike/Tanglestar : Not when you&#39;ve played it a billion times
+05-48:OOC: Micro McGinley/Micro102 : It usually comes down to &#34;we are the only 2 left, battle tot he death&#34;
+05-48:ACCESS: Logout: Jatacc
+05-48:GAME: starting game of Zombie Outbreak
+05-48:ACCESS: Logout: 
+05-48:ACCESS: Login: Micro102 from 24.184.14.119
+05-48:ACCESS: They share computer ID's
+05-48:SAY: GLaDOS/Micro102 : Hello crew. Welcome to Bay Station 12.
+05-48:SAY: GLaDOS/Micro102 : Biological infection detected
+05-48:SAY: GLaDOS/Micro102 : Infected personal is Rodrick, please aviod contact.
+05-48:SAY: GLaDOS/Micro102 : Please head to bridge
+05-48:SAY: GLaDOS/Micro102 : Janitor, please head to bridge.
+05-48:SAY: GLaDOS/Micro102 : Cog vomite spike can you hear me?
+05-48:SAY: Cog Vomitspike/Tanglestar : yes
+05-48:SAY: GLaDOS/Micro102 : Keep heading north
+05-48:ACCESS: Login: High-Lord Vin from 24.121.150.206
+05-48:ACCESS: Login: Rogunz from 66.75.9.193
+05-48:SAY: GLaDOS/Micro102 : then enter through the open door
+05-48:OOC: Denholm Jenkins/Rogunz : Yay, headswes
+05-48:GAME: High-Lord Vin entered as Vin Howard
+05-48:OOC: Vin Howard/High-Lord Vin : ahhh old map :(
+05-48:OOC: Denholm Jenkins/Rogunz : Admins wont make traitors to screw with malfunction here!
+05-48:GAME: Rogunz entered as Denholm Jenkins
+05-48:OOC: Denholm Jenkins/Rogunz : I hope
+05-48:SAY: GLaDOS/Micro102 : Head through the doors
+05-48:OOC: Vin Howard/High-Lord Vin : wth!
+05-48:ACCESS: Logout: High-Lord Vin
+05-48:SAY: GLaDOS/Micro102 : Obtain ID and open locker
+05-48:SAY: Denholm Jenkins/Rogunz : ; AI?
+05-48:SAY: GLaDOS/Micro102 : Vomitspike, obtain ID and use weapons int he locker.
+05-48:SAY: Denholm Jenkins/Rogunz : ;AI?
+05-48:SAY: Denholm Jenkins/Rogunz : ; AI?
+05-48:SAY: Cog Vomitspike/Tanglestar : Alright
+05-48:SAY: Cog Vomitspike/Tanglestar : Am i safe?
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:SAY: GLaDOS/Micro102 : Yes
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:SAY: Cog Vomitspike/Tanglestar : Thank god...
+05-48:MATTACK: Denholm Jenkins(Rogunz) attcked by Rodrick Brachtt(Marktklenke) with the toolbox
+05-48:SAY: GLaDOS/Micro102 : Grab the ID and equip yourself with weapons.
+05-48:SAY: GLaDOS/Micro102 : Stuns are ineffective.
+05-48:SAY: GLaDOS/Micro102 : 2 zombies now outside.
+05-48:SAY: Denholm Jenkins/Rogunz : THE WALL
+05-48:SAY: Rodrick Brachtt/Marktklenke : comming?
+05-48:SAY: Denholm Jenkins/Rogunz : Get over here
+05-48:SAY: Rodrick Brachtt/Marktklenke : door evil
+05-48:SAY: GLaDOS/Micro102 : Grab a laser gun
+05-48:SAY: Denholm Jenkins/Rogunz : Ill get the AI
+05-48:SAY: GLaDOS/Micro102 : I said to grab the ID
+05-48:SAY: GLaDOS/Micro102 : Head to toxins, south east of station.
+05-48:SAY: Denholm Jenkins/Rogunz : ; Actually, ill need you
+05-48:SAY: Denholm Jenkins/Rogunz : ; Come to atmos
+05-48:SAY: Cog Vomitspike/Tanglestar : I wish i still had that card
+05-48:SAY: GLaDOS/Micro102 : To contruct a bomb first get a plasma tank
+05-48:SAY: GLaDOS/Micro102 : A small one form the blue dispenser.
+05-48:SAY: Cog Vomitspike/Tanglestar : i lost my headset but i have this radio
+05-48:SAY: GLaDOS/Micro102 : Cog do you hear me?
+05-48:SAY: Denholm Jenkins/Rogunz : ; YAY FIRE
+05-48:SAY: GLaDOS/Micro102 : Cog Vomitspike?
+05-48:SAY: Cog Vomitspike/Tanglestar : open the door there is no air
+05-48:SAY: Denholm Jenkins/Rogunz : Shh
+05-48:SAY: Rodrick Brachtt/Marktklenke : you ok?
+05-48:SAY: Denholm Jenkins/Rogunz : Pull me into atmos
+05-48:SAY: Denholm Jenkins/Rogunz : Faking death
+05-48:SAY: Rodrick Brachtt/Marktklenke : wheres that
+05-48:SAY: Denholm Jenkins/Rogunz : We can get the AI
+05-48:SAY: Denholm Jenkins/Rogunz : Er
+05-48:SAY: Denholm Jenkins/Rogunz : Not atmos
+05-48:SAY: Denholm Jenkins/Rogunz : West matinence
+05-48:SAY: Denholm Jenkins/Rogunz : Or one of the sides
+05-48:SAY: Denholm Jenkins/Rogunz : We can get the AI
+05-48:SAY: Denholm Jenkins/Rogunz : Up here
+05-48:SAY: Denholm Jenkins/Rogunz : Corner
+05-48:SAY: GLaDOS/Micro102 : Cog Vomitspike can you hear me?
+05-48:SAY: GLaDOS/Micro102 : Is there any crew ont he station?
+05-48:SAY: Cog Vomitspike/Tanglestar : IM DIEING!
+05-48:SAY: Rodrick Brachtt/Marktklenke : whoops
+05-48:OOC: GLaDOS/Micro102 : You think it&#39;s that simple denholm?
+05-48:OOC: Denholm Jenkins/Rogunz : It is
+05-48:OOC: Rodrick Brachtt/Marktklenke : lol i got bodyarmor on my zombie
+05-48:SAY: Denholm Jenkins/Rogunz : Stand back
+05-48:OOC: Denholm Jenkins/Rogunz : Goddammit
+05-48:OOC: GLaDOS/Micro102 : Hehe
+05-48:OOC: Denholm Jenkins/Rogunz : Used to having armour
+05-48:OOC: Denholm Jenkins/Rogunz : You walk down, attack 5 times
+05-48:OOC: Denholm Jenkins/Rogunz : And are in, AI dead
+05-48:OOC: GLaDOS/Micro102 : Seems they added a &#34;you are immue to the infection&#34; variable
+05-48:OOC: Denholm Jenkins/Rogunz : Forgot I didnt have armour :(
+05-48:OOC: Rodrick Brachtt/Marktklenke : you alive?
+05-48:OOC: Denholm Jenkins/Rogunz : If im dragged out, yeah
+05-48:OOC: Denholm Jenkins/Rogunz : Into oxygen
+05-48:OOC: Rodrick Brachtt/Marktklenke : oh lol
+05-48:SAY: Denholm Jenkins/Rogunz : Thanks mate
+05-48:OOC: Denholm Jenkins/Rogunz : DERP
+05-48:SAY: Rodrick Brachtt/Marktklenke : thats how zombies revive?
+05-48:SAY: Denholm Jenkins/Rogunz : Yeah
+05-48:SAY: Denholm Jenkins/Rogunz : We need o2
+05-48:SAY: Denholm Jenkins/Rogunz : We wait, heal up
+05-48:SAY: Denholm Jenkins/Rogunz : Go get the AI
+05-48:SAY: Rodrick Brachtt/Marktklenke : oxygen is our healer?
+05-48:SAY: Denholm Jenkins/Rogunz : Yeah
+05-48:SAY: Rodrick Brachtt/Marktklenke : wheres the human?
+05-48:SAY: Denholm Jenkins/Rogunz : We can look after the AI
+05-48:OOC: GLaDOS/Micro102 : Very annoying how walking into a door doesn&#39;t trigger electrification.
+05-48:OOC: Denholm Jenkins/Rogunz : Heh
+05-48:SAY: Rodrick Brachtt/Marktklenke : ill do it
+05-48:OOC: GLaDOS/Micro102 : All people have to do is walk up to a door to see if it&#39;s electrified or not
+05-48:SAY: Denholm Jenkins/Rogunz : Ok
+05-48:SAY: Denholm Jenkins/Rogunz : Run down, break window
+05-48:SAY: Denholm Jenkins/Rogunz : That spot is sade
+05-48:SAY: Denholm Jenkins/Rogunz : Break the APC
+05-48:SAY: Rodrick Brachtt/Marktklenke : ok
+05-48:SAY: Denholm Jenkins/Rogunz : Claw it out
+05-48:SAY: Denholm Jenkins/Rogunz : And we are good
+05-48:SAY: GLaDOS/Micro102 : Cog Vomitspike to make a bomb put a plasma tank into the heater and heat to 500 degrees or as high as possible,
+05-48:OOC: GLaDOS/Micro102 : This would of gone differently if Vomitspike was halfway competent
+05-48:OOC: Denholm Jenkins/Rogunz : Yep
+05-48:OOC: GLaDOS/Micro102 : Restart?
+05-48:SAY: Denholm Jenkins/Rogunz : HALLO
+05-48:MATTACK: Rodrick Brachtt(Marktklenke) clicked on Cog Vomitspike(Tanglestar) with intent on harm
+05-48:OOC: Denholm Jenkins/Rogunz : Game
+05-48:VOTE: Voting to change mode started by GLaDOS/Micro102
+05-48:OOC: Rodrick Brachtt/Marktklenke : wait 1 guy left
+05-48:OOC: Denholm Jenkins/Rogunz : He is dying
+05-48:OOC: Denholm Jenkins/Rogunz : Got bitten
+05-48:OOC: GLaDOS/Micro102 : O
+05-48:OOC: GLaDOS/Micro102 : I love electric doors
+05-48:OOC: Denholm Jenkins/Rogunz : Dont we all
+05-48:OOC: GLaDOS/Micro102 : I electrified zombies about 20 times last round
+05-48:OOC: Denholm Jenkins/Rogunz : Heh
+05-48:OOC: Denholm Jenkins/Rogunz : You got me twice
+05-48:SAY: Rodrick Brachtt/Marktklenke : he is imune to zombie infection
+05-48:SAY: Denholm Jenkins/Rogunz : No
+05-48:VOTE: Voting closed, result was traitor
+05-48:SAY: Denholm Jenkins/Rogunz : ; It just takes time
+05-48:OOC: Denholm Jenkins/Rogunz : Dammit
+05-48:OOC: GLaDOS/Micro102 : Self opening doors need to be removed
+05-48:OOC: Denholm Jenkins/Rogunz : No
+05-48:GAME: Rebooting due to mode vote
+05-48:ACCESS: Logout: Marktklenke
+05-48:ACCESS: Logout: Tanglestar
+05-48:ACCESS: Logout: Rogunz
+05-48:ACCESS: Logout: Micro102
+06-17:GAME: Finished building powernets (24 nets)
+06-17:ADMIN: Loading crban_keylist
+06-17:ADMIN: Loading crban_reason
+06-17:ADMIN: Loading crban_time
+06-17:ADMIN: Loading crban_bannedby
+06-17:ADMIN: Loading crban_iplist
+06-17:ADMIN: Loading crban_unbanned
+06-17:ADMIN: Loading crban_ComputerIDs
+06-17:ADMIN: Loading jobban_rank
+06-17:ADMIN: Updating jobbanfile!
+06-17:ACCESS: Login: Marktklenke from 68.103.150.10
+06-17:ACCESS: Login: Micro102 from 24.184.14.119
+06-17:ACCESS: Login: Rogunz from 66.75.9.193
+06-17:GAME: Rogunz entered as Denholm Jenkins
+06-17:ACCESS: Login: Tanglestar from 72.199.168.86
+06-17:VOTE: Voting to change mode started by Denholm Jenkins/Rogunz
+06-17:GAME: Marktklenke entered as Rodrick Brachtt
+06-17:GAME: Micro102 entered as Micro McGinley
+06-17:OOC: Micro McGinley/Micro102 : And yes they should be removed
+06-17:OOC: Micro McGinley/Micro102 : Otherwise people won&#39;t get electrified.
+06-17:OOC: Denholm Jenkins/Rogunz : Eh
+06-17:VOTE: Voting closed, result was traitor
+06-17:ACCESS: Logout: Marktklenke
+06-17:ACCESS: Logout: Tanglestar
+06-17:OOC: Micro McGinley/Micro102 : I hope I am the traitor
+06-17:GAME: starting game of traitor
+06-17:ACCESS: Logout: 
+06-17:ACCESS: Login: Rogunz from 66.75.9.193
+06-17:ACCESS: They share computer ID's
+06-17:SAY: J.E.N.K.I.N.S./Rogunz : Irregular Atmospherical Conditions detected in Atmospherics
+06-17:OOC: Micro McGinley/Micro102 : Just the 2 of us?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : That is awesome
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : 3
+06-17:OOC: Micro McGinley/Micro102 : Wtf
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : 2 on station
+06-17:OOC: Micro McGinley/Micro102 : Captain VS AI
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Rodrick broke
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : He is nude on arrival
+06-17:OOC: Micro McGinley/Micro102 : Yeah they fixed the old annoying bugs and created new horrible ones
+06-17:SAY: J.E.N.K.I.N.S./Rogunz : Irregular Atmospherical Conditions detected in Bridge
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : This is me being a dick
+06-17:SAY: Micro McGinley/Micro102 : ;AI! open these doors!
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Lets just reboot
+06-17:OOC: Micro McGinley/Micro102 : No
+06-17:OOC: Micro McGinley/Micro102 : I have the radio remember
+06-17:OOC: Micro McGinley/Micro102 : O dam you
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : CAN YOU DO IT?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : &gt;emag
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : &gt;Captain
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Heh
+06-17:OOC: Micro McGinley/Micro102 : I.....Have no idea how to use this
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : It is?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : HAH
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Try it
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Wasnt that great?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : GAME!
+06-17:OOC: Micro McGinley/Micro102 : Fuuuu
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : That is why tank goes back
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : No matter what
+06-17:OOC: Micro McGinley/Micro102 : How do you use the tele?
+06-17:SAY: Micro McGinley/Micro102 : Tank?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : It randomly teles you nearby
+06-17:OOC: Micro McGinley/Micro102 : Tank?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Throw something through first
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : So you donbt end up in space
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : And know where you are
+06-17:OOC: Micro McGinley/Micro102 : Tank?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : ?
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Oxygen tank
+06-17:OOC: Micro McGinley/Micro102 : Yeah
+06-17:OOC: Micro McGinley/Micro102 : But I didn&#39;t really have anything else.
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Laser guns work better anyway
+06-17:OOC: Micro McGinley/Micro102 : O and never callt he shuttle that was too easy.
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Escape alone?
+06-17:OOC: Micro McGinley/Micro102 : Yeah
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Hah
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : I CAN COME WITH YOU
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Somehow
+06-17:OOC: Micro McGinley/Micro102 : I completly destroy any means of calling the shuttle and suck out all the atmospher
+06-17:OOC: Micro McGinley/Micro102 : Then wait.
+06-17:OOC: Micro McGinley/Micro102 : Bugged
+06-17:OOC: Micro McGinley/Micro102 : Call a vote
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Cant
+06-17:OOC: Micro McGinley/Micro102 : Dam server is dead bye
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : BYE!
+06-17:ACCESS: Logout: Micro102
+06-17:OOC: J.E.N.K.I.N.S./Rogunz : Going to topeskas
+06-17:ACCESS: Logout: Rogunz
+06-17:GAME: Rebooting due to end of game
+06-37:GAME: Finished building powernets (24 nets)
+06-37:ADMIN: Loading crban_keylist
+06-37:ADMIN: Loading crban_reason
+06-37:ADMIN: Loading crban_time
+06-37:ADMIN: Loading crban_bannedby
+06-37:ADMIN: Loading crban_iplist
+06-37:ADMIN: Loading crban_unbanned
+06-37:ADMIN: Loading crban_ComputerIDs
+06-37:ADMIN: Loading jobban_rank
+06-37:ADMIN: Updating jobbanfile!
+06-37:GAME: starting game of traitor
+06-37:GAME: Rebooting because of no live players
+06-37:GAME: Rebooting because of no live players
+07-11:GAME: Finished building powernets (24 nets)
+07-11:ADMIN: Loading crban_keylist
+07-11:ADMIN: Loading crban_reason
+07-11:ADMIN: Loading crban_time
+07-11:ADMIN: Loading crban_bannedby
+07-11:ADMIN: Loading crban_iplist
+07-11:ADMIN: Loading crban_unbanned
+07-11:ADMIN: Loading crban_ComputerIDs
+07-11:ADMIN: Loading jobban_rank
+07-11:ADMIN: Updating jobbanfile!
+07-11:GAME: starting game of traitor
+07-11:ACCESS: Login: BurntCornMuffin from 148.137.254.229
+07-11:GAME: BurntCornMuffin entered as Urist Wallblock
+07-11:ACCESS: Logout: BurntCornMuffin
+07-11:GAME: Rebooting because of no live players
+07-11:GAME: Rebooting because of no live players
+07-11:GAME: Rebooting because of no live players
+07-11:GAME: Rebooting because of no live players
+07-11:GAME: Rebooting because of no live players
+07-44:GAME: Finished building powernets (24 nets)
+07-44:ADMIN: Loading crban_keylist
+07-44:ADMIN: Loading crban_reason
+07-44:ADMIN: Loading crban_time
+07-44:ADMIN: Loading crban_bannedby
+07-44:ADMIN: Loading crban_iplist
+07-44:ADMIN: Loading crban_unbanned
+07-44:ADMIN: Loading crban_ComputerIDs
+07-44:ADMIN: Loading jobban_rank
+07-44:ADMIN: Updating jobbanfile!
+07-44:GAME: starting game of traitor
+07-44:GAME: Rebooting because of no live players
+07-44:GAME: Rebooting because of no live players
+07-44:GAME: Rebooting because of no live players
+08-18:GAME: Finished building powernets (24 nets)
+08-18:ADMIN: Loading crban_keylist
+08-18:ADMIN: Loading crban_reason
+08-18:ADMIN: Loading crban_time
+08-18:ADMIN: Loading crban_bannedby
+08-18:ADMIN: Loading crban_iplist
+08-18:ADMIN: Loading crban_unbanned
+08-18:ADMIN: Loading crban_ComputerIDs
+08-18:ADMIN: Loading jobban_rank
+08-18:ADMIN: Updating jobbanfile!
+08-18:GAME: starting game of traitor
+08-18:ACCESS: Login: Guest-3367507679 from 70.241.67.64
+08-18:ACCESS: Logout: Guest-3367507679
+08-18:ACCESS: Login: Guest-3379798175 from 67.185.80.199
+08-18:ACCESS: Logout: Guest-3379798175
+08-18:GAME: Rebooting because of no live players
+08-18:GAME: Rebooting because of no live players
+08-18:GAME: Rebooting because of no live players
+08-18:GAME: Rebooting because of no live players
+08-18:GAME: Rebooting because of no live players
+08-18:GAME: Rebooting because of no live players
+08-51:GAME: Finished building powernets (24 nets)
+08-51:ADMIN: Loading crban_keylist
+08-51:ADMIN: Loading crban_reason
+08-51:ADMIN: Loading crban_time
+08-51:ADMIN: Loading crban_bannedby
+08-51:ADMIN: Loading crban_iplist
+08-51:ADMIN: Loading crban_unbanned
+08-51:ADMIN: Loading crban_ComputerIDs
+08-51:ADMIN: Loading jobban_rank
+08-51:ADMIN: Updating jobbanfile!
+08-51:GAME: starting game of traitor
+08-51:GAME: Rebooting because of no live players
+08-51:GAME: Rebooting because of no live players
+08-51:GAME: Rebooting because of no live players
+09-25:GAME: Finished building powernets (24 nets)
+09-25:ADMIN: Loading crban_keylist
+09-25:ADMIN: Loading crban_reason
+09-25:ADMIN: Loading crban_time
+09-25:ADMIN: Loading crban_bannedby
+09-25:ADMIN: Loading crban_iplist
+09-25:ADMIN: Loading crban_unbanned
+09-25:ADMIN: Loading crban_ComputerIDs
+09-25:ADMIN: Loading jobban_rank
+09-25:ADMIN: Updating jobbanfile!
+09-25:GAME: starting game of traitor
+09-25:GAME: Rebooting because of no live players
+09-25:GAME: Rebooting because of no live players
+09-25:GAME: Rebooting because of no live players
+09-58:GAME: Finished building powernets (24 nets)
+09-58:ADMIN: Loading crban_keylist
+09-58:ADMIN: Loading crban_reason
+09-58:ADMIN: Loading crban_time
+09-58:ADMIN: Loading crban_bannedby
+09-58:ADMIN: Loading crban_iplist
+09-58:ADMIN: Loading crban_unbanned
+09-58:ADMIN: Loading crban_ComputerIDs
+09-58:ADMIN: Loading jobban_rank
+09-58:ADMIN: Updating jobbanfile!
+09-58:GAME: starting game of traitor
+09-58:GAME: Rebooting because of no live players
+09-58:GAME: Rebooting because of no live players
+10-32:GAME: Finished building powernets (24 nets)
+10-32:ADMIN: Loading crban_keylist
+10-32:ADMIN: Loading crban_reason
+10-32:ADMIN: Loading crban_time
+10-32:ADMIN: Loading crban_bannedby
+10-32:ADMIN: Loading crban_iplist
+10-32:ADMIN: Loading crban_unbanned
+10-32:ADMIN: Loading crban_ComputerIDs
+10-32:ADMIN: Loading jobban_rank
+10-32:ADMIN: Updating jobbanfile!
+10-32:GAME: starting game of traitor
+10-32:GAME: Rebooting because of no live players
+10-32:GAME: Rebooting because of no live players
+10-32:GAME: Rebooting because of no live players
+11-05:GAME: Finished building powernets (24 nets)
+11-05:ADMIN: Loading crban_keylist
+11-05:ADMIN: Loading crban_reason
+11-05:ADMIN: Loading crban_time
+11-05:ADMIN: Loading crban_bannedby
+11-05:ADMIN: Loading crban_iplist
+11-05:ADMIN: Loading crban_unbanned
+11-05:ADMIN: Loading crban_ComputerIDs
+11-05:ADMIN: Loading jobban_rank
+11-05:ADMIN: Updating jobbanfile!
+11-05:GAME: starting game of traitor
+11-05:GAME: Rebooting because of no live players
+11-05:GAME: Rebooting because of no live players
+11-05:GAME: Rebooting because of no live players
+11-05:GAME: Rebooting because of no live players
+11-05:GAME: Rebooting because of no live players
+11-05:GAME: Rebooting because of no live players
+11-39:GAME: Finished building powernets (24 nets)
+11-39:ADMIN: Loading crban_keylist
+11-39:ADMIN: Loading crban_reason
+11-39:ADMIN: Loading crban_time
+11-39:ADMIN: Loading crban_bannedby
+11-39:ADMIN: Loading crban_iplist
+11-39:ADMIN: Loading crban_unbanned
+11-39:ADMIN: Loading crban_ComputerIDs
+11-39:ADMIN: Loading jobban_rank
+11-39:ADMIN: Updating jobbanfile!
+11-39:GAME: starting game of traitor
+11-39:GAME: Rebooting because of no live players
+11-39:GAME: Rebooting because of no live players
+12-12:GAME: Finished building powernets (24 nets)
+12-12:ADMIN: Loading crban_keylist
+12-12:ADMIN: Loading crban_reason
+12-12:ADMIN: Loading crban_time
+12-12:ADMIN: Loading crban_bannedby
+12-12:ADMIN: Loading crban_iplist
+12-12:ADMIN: Loading crban_unbanned
+12-12:ADMIN: Loading crban_ComputerIDs
+12-12:ADMIN: Loading jobban_rank
+12-12:ADMIN: Updating jobbanfile!
+12-12:GAME: starting game of traitor
+12-12:ACCESS: Failed Login: Raveno9 Reason: Key banned
+12-12:GAME: Rebooting because of no live players
+12-12:GAME: Rebooting because of no live players
+12-45:GAME: Finished building powernets (24 nets)
+12-45:ADMIN: Loading crban_keylist
+12-45:ADMIN: Loading crban_reason
+12-45:ADMIN: Loading crban_time
+12-45:ADMIN: Loading crban_bannedby
+12-45:ADMIN: Loading crban_iplist
+12-45:ADMIN: Loading crban_unbanned
+12-45:ADMIN: Loading crban_ComputerIDs
+12-45:ADMIN: Loading jobban_rank
+12-45:ADMIN: Updating jobbanfile!
+12-45:GAME: starting game of traitor
+12-45:ACCESS: Login: Ihateoutside from 88.105.86.87
+12-45:GAME: Ihateoutside entered as Urist Arrowaxe
+12-45:GAME: Rebooting because of no live players
+12-45:ACCESS: Logout: Ihateoutside
+13-04:GAME: Finished building powernets (24 nets)
+13-04:ADMIN: Loading crban_keylist
+13-04:ADMIN: Loading crban_reason
+13-04:ADMIN: Loading crban_time
+13-04:ADMIN: Loading crban_bannedby
+13-04:ADMIN: Loading crban_iplist
+13-04:ADMIN: Loading crban_unbanned
+13-04:ADMIN: Loading crban_ComputerIDs
+13-04:ADMIN: Loading jobban_rank
+13-04:ADMIN: Updating jobbanfile!
+13-04:GAME: starting game of traitor
+13-04:GAME: Rebooting because of no live players
+13-04:GAME: Rebooting because of no live players
+13-04:GAME: Rebooting because of no live players
+13-04:GAME: Rebooting because of no live players
+13-04:GAME: Rebooting because of no live players
+13-38:GAME: Finished building powernets (24 nets)
+13-38:ADMIN: Loading crban_keylist
+13-38:ADMIN: Loading crban_reason
+13-38:ADMIN: Loading crban_time
+13-38:ADMIN: Loading crban_bannedby
+13-38:ADMIN: Loading crban_iplist
+13-38:ADMIN: Loading crban_unbanned
+13-38:ADMIN: Loading crban_ComputerIDs
+13-38:ADMIN: Loading jobban_rank
+13-38:ADMIN: Updating jobbanfile!
+13-38:GAME: starting game of traitor
+13-38:GAME: Rebooting because of no live players
+13-38:GAME: Rebooting because of no live players
+13-38:GAME: Rebooting because of no live players
+14-11:GAME: Finished building powernets (24 nets)
+14-11:ADMIN: Loading crban_keylist
+14-11:ADMIN: Loading crban_reason
+14-11:ADMIN: Loading crban_time
+14-11:ADMIN: Loading crban_bannedby
+14-11:ADMIN: Loading crban_iplist
+14-11:ADMIN: Loading crban_unbanned
+14-11:ADMIN: Loading crban_ComputerIDs
+14-11:ADMIN: Loading jobban_rank
+14-11:ADMIN: Updating jobbanfile!
+14-11:GAME: starting game of traitor
+14-11:ACCESS: Login: Evilgrim123 from 86.23.6.173
+14-11:GAME: Evilgrim123 entered as Anaya Simmens
+14-11:OOC: Anaya Simmens/Evilgrim123 : Hey, are these new walls?
+14-11:ACCESS: Logout: Evilgrim123
+14-11:GAME: Rebooting because of no live players
+14-11:GAME: Rebooting because of no live players
+14-11:GAME: Rebooting because of no live players
+14-45:GAME: Finished building powernets (24 nets)
+14-45:ADMIN: Loading crban_keylist
+14-45:ADMIN: Loading crban_reason
+14-45:ADMIN: Loading crban_time
+14-45:ADMIN: Loading crban_bannedby
+14-45:ADMIN: Loading crban_iplist
+14-45:ADMIN: Loading crban_unbanned
+14-45:ADMIN: Loading crban_ComputerIDs
+14-45:ADMIN: Loading jobban_rank
+14-45:ADMIN: Updating jobbanfile!
+14-45:GAME: starting game of traitor
