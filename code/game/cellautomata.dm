@@ -393,108 +393,6 @@
 
 /datum/control/gameticker/proc/timeup()
 
-/*
-	var/area/A = locate(/area/shuttle)
-	if (src.shuttle_location == shuttle_z)
-
-		var/list/srcturfs = list()
-		var/list/dstturfs = list()
-		var/throwx = 0
-
-		for(var/turf/T in A)
-			if (T.z == shuttle_z)
-				srcturfs += T
-			else
-				dstturfs += T
-			if(T.x > throwx)
-				throwx = T.x
-
-		// hey you, get out of the way!
-		for(var/turf/T in dstturfs)
-			// find the turf to move things to
-			var/turf/D = locate(throwx, T.y, 1)
-			var/turf/E = get_step(D, EAST)
-			for(var/atom/movable/AM as mob|obj in T)
-				// east! the mobs go east!
-				AM.Move(D)
-				spawn(0)
-					AM.throw_at(E, 1, 1)
-					return
-		for(var/turf/T in srcturfs)
-			for(var/atom/movable/AM as mob|obj in T)
-				// first of all, erase any non-space turfs in the zone in
-				var/turf/U = locate(T.x, T.y, 1)
-				if(!istype(U, /turf/space))
-					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
-					A.contents -= S
-					A.contents += S
-				AM.z = 1
-			var/turf/U = locate(T.x, T.y, shuttle_z)
-			U.oxygen = T.oxygen
-			U.poison = T.poison
-			U.co2 = T.co2
-
-			U.buildlinks()
-			del(T)
-		src.timeleft = shuttle_time_in_station
-		src.shuttle_location = 1
-		world << "<B>The emergency shuttle has docked with the station! You have [ticker.timeleft/600] minutes to board the shuttle.</B>"
-	else //marker2
-		world << "<B>The emergency shuttle is leaving!</B>"
-		shuttlecomming = 0
-		check_win()
-	return. */
-	/*
-	var/area/B = locate(/area/shuttle)
-	if (src.shuttle_location == shuttle_z) //replace station_z and shuttle_z with the correct values
-    //I made them variables set via specific obj/landmark objects, let me know if you want that too :P
-		var/list/srcturfs = list()
-		var/list/dstturfs = list()
-		var/throwx = 0
-		for (var/area/A in B.superarea.areas)
-			for(var/turf/T in A)
-				if (T.z == shuttle_z)
-					srcturfs += T
-				else
-					dstturfs += T
-				if(T.x > throwx)
-					throwx = T.x
-		// hey you, get out of the way!
-		for(var/turf/T in dstturfs)
-			// find the turf to move things to
-			var/turf/D = locate(throwx, T.y, T.z)
-			var/turf/E = get_step(D, EAST)
-			for(var/atom/movable/AM as mob|obj in T)
-				// east! the mobs go east!
-				AM.Move(D)
-				spawn(0)
-					AM.throw_at(E, 1, 1)
-					return
-
-		for(var/turf/T in srcturfs)
-			for(var/atom/movable/AM as mob|obj in T)
-				// first of all, erase any non-space turfs in the area
-				var/turf/U = locate(T.x, T.y, T.z)
-				if(!istype(T, /turf/space))
-					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
-					B.contents -= S
-					B.contents += S
-				AM.z = 0
-			var/turf/U = locate(T.x, T.y, T.z)
-			U.oxygen = T.oxygen
-			U.poison = T.poison
-			U.co2 = T.co2
-
-			U.buildlinks()
-			del(T)
-		src.timeleft = shuttle_time_in_station
-		src.shuttle_location = 1
-		world << "<B>The emergency shuttle has docked with the station! You have [ticker.timeleft/600] minutes to board the shuttle.</B>"
-	else
-		world << "<B>The emergency shuttle is leaving!</B>"
-		check_win()
-	return
-*/
 	var/area/B = locate(/area/shuttle)
 	if (src.shuttle_location == 2)
 
@@ -548,7 +446,7 @@
 /datum/control/gameticker/proc/check_win()
 	if (!mode.check_win())
 		return 0
-	if (!nuclearend)
+	if (nuclearend)
 		return 0
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
@@ -572,9 +470,9 @@
 
 						U.buildlinks()
 						del(T)
+	roundover = 1
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
-	roundover = 1
 	world.Reboot()
 	return 1
 
@@ -625,6 +523,8 @@
 		//Deleting Startpoints but we need the ai point to AIize people later
 		if (S.name != "AI")
 			del(S)
+			continue
+		S.icon_state = null
 
 // *****
 // MAIN LOOP OF PROGRAM
@@ -651,9 +551,12 @@ var/update_state = 0
 				M.UpdateClothing()
 				return
 		sleep(10)
+		updateap(1)
 
 	time = (++time %10)
 	supplytime = (++supplytime % 100)
+
+	updateap()
 
 	if (!supplytime && supply_shuttle_points < 75)
 		supply_shuttle_points += 1

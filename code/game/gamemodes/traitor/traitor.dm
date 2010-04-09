@@ -63,6 +63,10 @@
 	spawn (0)
 		ticker.extend_process()
 
+/datum/game_mode/traitor/admininfo()
+	if (!ticker.killer) return "No Traitor has been selected"
+	return "[ticker.killer.name] ([ticker.killer.key]) [goal_killer]"
+
 /datum/game_mode/traitor/proc/get_synd_list()
 	var/list/mobs = list()
 	for(var/mob/M in world)
@@ -82,7 +86,7 @@
 	switch (objective)
 		if (ai_obj_evacuate)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated.</font>"
-			goal_killer = "must cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated."
+			goal_killer = "must cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and not get deactivated."
 			killer.store_memory("<B>Objective:</B> Cause the death or evacuation of at least [percentage_station_evacuate]% of the crew and don't get deactivated.", 0, 0)
 			add_law_zero(killer)
 
@@ -90,21 +94,21 @@
 			ticker.target = pick(get_human_list())
 			var/targetdesc = get_target_desc(ticker.target)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must assassinate [targetdesc] and not get deactivated.</font>"
-			goal_killer = "assassinate [targetdesc] and not get deactivated."
+			goal_killer = "must assassinate [targetdesc] and not get deactivated."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught.</B>"
 			killer.store_memory("<B>Objective:</B> Assassinate [targetdesc] and don't get deactivated.", 0, 0)
 			add_law_zero(killer)
 
 		if(obj_hijack)
 			killer << "\red<font size=3><B>You are the traitor!</B> Be the lone survivor on the emergency shuttle.</font>"
-			goal_killer = "Be the lone survivor on the emergency shuttle."
+			goal_killer = "must be the lone survivor on the emergency shuttle."
 			killer.store_memory("<B>Objective:</B> Be the only person on the emergency shuttle.", 0, 0)
 
 		if (obj_murder)
 			ticker.target = pick_human_except(killer)
 			var/targetdesc = get_target_desc(ticker.target)
 			killer << "\red<font size=3><B>You are the traitor!</B> You must assassinate [targetdesc] and then escape.</font>"
-			goal_killer = "assassinate [targetdesc] and then escape."
+			goal_killer = "must assassinate [targetdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> Assassinate [targetdesc] and escape.", 0, 0)
 
@@ -113,7 +117,7 @@
 			var/itemdesc = get_item_desc(ticker.theft_obj)
 
 			killer << "\red<font size=3><B>You are the traitor!</B> You must steal [itemdesc] and then escape.</font>"
-			goal_killer = "steal [itemdesc] and then escape."
+			goal_killer = "must steal [itemdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> Steal [itemdesc] and escape.", 0, 0)
 
@@ -122,8 +126,8 @@
 			var/targetdesc = get_sab_desc(ticker.sab_target)
 			if(ticker.sab_target == destroy_ai)
 				ticker.target = get_mobs_with_rank("AI")[1]
-			killer << "\red<font size=3><B>You are the traitor!</B> [targetdesc] and then escape.</font>"
-			goal_killer = "[targetdesc] and then escape."
+			killer << "\red<font size=3><B>You are the traitor!</B> You must [targetdesc] and then escape.</font>"
+			goal_killer = "must [targetdesc] and then escape."
 			killer << "<B>You don't have to be the lone survivor. Just don't get caught. Just escape!</B>"
 			killer.store_memory("<B>Objective:</B> [targetdesc] and escape.", 0, 0)
 
@@ -233,7 +237,7 @@
 					target = ticker.sab_target
 				else
 					target = pick_sab_target()
-				intercepttext += "\red <B>Perceived objective: [get_sab_desc(target)] ([prob_right_target]% certainty)</B><BR>"
+				intercepttext += "\red <B>Perceived objective: To [get_sab_desc(target)] ([prob_right_target]% certainty)</B><BR>"
 
 	/*for (var/obj/machinery/computer/communications/comm in world)
 		if (!(comm.stat & (BROKEN | NOPOWER)) && comm.prints_intercept) //it works
@@ -386,7 +390,7 @@
 		if(obj_steal)
 			world << "<B>Objective: Steal [get_item_desc(ticker.theft_obj)] and escape.</B>"
 		if (obj_sabotage)
-			world << "<B>Objective: [get_sab_desc(ticker.sab_target)] and escape.</B>"
+			world << "<B>Objective: To [get_sab_desc(ticker.sab_target)] and escape.</B>"
 		else
 			world << "unknown traitor objective"
 	sleep(300)
@@ -496,19 +500,19 @@
 /datum/game_mode/traitor/proc/get_sab_desc(var/target)
 	switch(target)
 		if(destroy_plasma)
-			return "Destroy at least [percentage_plasma_destroy]% of the plasma canisters on the station"
+			return "destroy at least [percentage_plasma_destroy]% of the plasma canisters on the station"
 		if(destroy_ai)
-			return "Destroy the AI"
+			return "destroy the AI"
 		if(kill_monkeys)
 			var/count = 0
 			for(var/mob/monkey/Monkey in world)
 				if(Monkey.z == 1)
 					count++
-			return "Kill all [count] of the monkeys on the station"
+			return "kill all [count] of the monkeys on the station"
 		if(cut_power)
-			return "Cut power to at least [percentage_station_cut_power]% of the station"
+			return "cut power to at least [percentage_station_cut_power]% of the station"
 		else
-			return "Error: Invalid sabotage target: [target]"
+			return "error: Invalid sabotage target: [target]"
 
 /datum/game_mode/traitor/proc/get_turf_loc(mob/m) //gets the location of the turf that the mob is on, or what the mob is in is on, etc
 	//in case they're in a closet or sleeper or something

@@ -131,3 +131,5 @@ This is stuff you should already know as a character.
 -----------------------------------------------------------------------------------------------
 IF YOU ARE LAZY AND DON'T READ THIS MOTD, I WILL HATE YOU FOREVER!
 
+This is a temporary server since Heads is down.  I apologize for advance for any lag caused by my low upstream bandwidth.
+

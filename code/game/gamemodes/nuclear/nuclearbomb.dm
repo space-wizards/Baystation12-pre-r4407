@@ -7,7 +7,7 @@
 			if (roundover)
 				return
 			var/turf/L = get_turf(src)
-			if (L.z != 1)
+			if (L.z != 1 && ticker.mode.name == "nuclear emergency")
 				world << "\red The Nuclear Disk is no longer in play"
 				world << "\red Creating new disk at nuclear bomb location"
 				world << "<B>Next time don't eject the disk!</B>"
@@ -16,7 +16,7 @@
 				return
 
 /obj/item/weapon/disk/nuclear/Del()
-	if (!roundover)
+	if (!roundover && ticker.mode.name == "nuclear emergency")
 		world << "\red Nuclear Disk Destroyed!"
 		world << "\red Creating new disk at nuclear bomb location"
 		world << "<B>Next time don't destroy the disk!</B>"

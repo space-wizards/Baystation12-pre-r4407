@@ -17,7 +17,7 @@
 /obj/machinery/computer/meteorhit(var/obj/O as obj)
 	for(var/x in src.verbs)
 		src.verbs -= x
-	src.icon_state = "broken"
+	src.icon_state = "[hasdisk ? "disk":""]broken"
 	stat |= BROKEN
 	var/obj/effects/smoke/pasta = new /obj/effects/smoke( src.loc )
 	pasta.dir = pick(NORTH, SOUTH, EAST, WEST)
@@ -34,13 +34,13 @@
 			if (prob(50))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		if(3.0)
 			if (prob(25))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		else
 
@@ -48,21 +48,28 @@
 	if (prob(50))
 		for(var/x in src.verbs)
 			src.verbs -= x
-		src.icon_state = "broken"
+		src.icon_state = "[hasdisk ? "disk":""]broken"
 		src.stat |= BROKEN
 		src.density = 0
 
 /obj/machinery/computer/power_change()
 	if(!istype(src,/obj/machinery/computer/security/telescreen))
 		if(stat & BROKEN)
-			icon_state = "broken"
-		else if(powered())
-			icon_state = initial(icon_state)
-			stat &= ~NOPOWER
-		else
-			spawn(rand(0, 15))
-				src.icon_state = "c_unpowered"
+			icon_state = "[hasdisk ? "disk":""]broken"
+			if(powered())
+				stat &= ~NOPOWER
+			else
 				stat |= NOPOWER
+		else if(powered() && (stat & NOPOWER))
+			spawn(rand(4, 10))
+				icon_state = initial(icon_state)
+				flick("[hasdisk ? "disk":""]flick_poweron", src)
+			stat &= ~NOPOWER
+		else if (!powered() && !(stat & NOPOWER))
+			spawn(rand(0, 15))
+				flick("[hasdisk ? "disk":""]flick_poweroff", src)
+				src.icon_state = "[hasdisk ? "disk":""]off"
+			stat |= NOPOWER
 
 /obj/machinery/Topic(href, href_list)
 	if(stat & (NOPOWER|BROKEN))
@@ -481,27 +488,16 @@
 			if (prob(50))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		if(3.0)
 			if (prob(25))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		else
 	return
-
-/obj/machinery/computer/card/power_change()
-	if(stat & BROKEN)
-		icon_state = "broken"
-	else if( powered() )
-		icon_state = initial(icon_state)
-		stat &= ~NOPOWER
-	else
-		spawn(rand(0, 15))
-			src.icon_state = "id_unpowered"
-			stat |= NOPOWER
 
 /obj/machinery/computer/card/attack_ai(var/mob/user as mob)
 	return src.attack_hand(user)
@@ -660,13 +656,13 @@
 			if (prob(50))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		if(3.0)
 			if (prob(25))
 				for(var/x in src.verbs)
 					src.verbs -= x
-				src.icon_state = "broken"
+				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
 		else
 	return
