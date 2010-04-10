@@ -1809,3 +1809,3051 @@
 14-45:ADMIN: Loading jobban_rank
 14-45:ADMIN: Updating jobbanfile!
 14-45:GAME: starting game of traitor
+15-08:GAME: Finished building powernets (29 nets)
+15-08:ADMIN: Loading crban_keylist
+15-08:ADMIN: Loading crban_reason
+15-08:ADMIN: Loading crban_time
+15-08:ADMIN: Loading crban_bannedby
+15-08:ADMIN: Loading crban_iplist
+15-08:ADMIN: Loading crban_unbanned
+15-08:ADMIN: Loading crban_ComputerIDs
+15-08:ADMIN: crban_computerIDs was empty
+15-08:ADMIN: Loading jobban_rank
+15-08:ADMIN: Updating jobbanfile!
+15-08:ACCESS: Login: Jackofnotrades from 58.161.18.62
+15-08:ACCESS: Login: Evilgrim123 from 86.23.6.173
+15-08:ACCESS: Login: Headswe from 127.0.0.1
+15-08:GAME: Jackofnotrades entered as Peter Androkovich
+15-08:OOC: Peter Androkovich/Jackofnotrades : I am a super freak.
+15-08:GAME: Evilgrim123 entered as Anaya Simmens
+15-08:OOC: Peter Androkovich/Jackofnotrades : A super freak.
+15-08:OOC: Peter Androkovich/Jackofnotrades : I am super freaky.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Are not. Unless it&#39;s good. Or we&#39;re singing? 
+15-08:OOC: Peter Androkovich/Jackofnotrades : Not at all.
+15-08:OOC: Peter Androkovich/Jackofnotrades : I&#39;m just on in a flash.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Is this Music I hear? o_O
+15-08:OOC: Anaya Simmens/Evilgrim123 : Really?
+15-08:OOC: Peter Androkovich/Jackofnotrades : It&#39;s unnerved more than a few people.
+15-08:OOC: Peter Androkovich/Jackofnotrades : Yeah.
+15-08:OOC: Alucard Whoop/Headswe : Anyone else getting this crappy music?
+15-08:OOC: Peter Androkovich/Jackofnotrades : It&#39;s awesome.
+15-08:GAME: Headswe entered as Alucard Whoop
+15-08:OOC: Anaya Simmens/Evilgrim123 : It&#39;s unnerved me too.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Headswe, me.
+15-08:OOC: Peter Androkovich/Jackofnotrades : Music not doing it for you?
+15-08:OOC: Alucard Whoop/Headswe : it hurts my head.
+15-08:OOC: Peter Androkovich/Jackofnotrades : Hm.
+15-08:OOC: Peter Androkovich/Jackofnotrades : There&#39;s gotta be a shiny admin button to turn it off, right?
+15-08:OOC: Anaya Simmens/Evilgrim123 : I have a headache.. THE MUSIC IS NOT RELATED.
+15-08:OOC: Peter Androkovich/Jackofnotrades : And it&#39;s only whilst people are in the pre-game area.
+15-08:OOC: Anaya Simmens/Evilgrim123 : But yeah. I have a headache, but otherwise, I approve. UNLESS IT LOOPS.
+15-08:OOC: Alucard Whoop/Headswe : Still im seriously getting headache from it
+15-08:OOC: Anaya Simmens/Evilgrim123 : Note to self- Less of them caps.
+15-08:OOC: Alucard Whoop/Headswe : Oh it loops forver.
+15-08:OOC: Alucard Whoop/Headswe : forever
+15-08:GAME: starting game of traitor
+15-08:OOC: Anaya Simmens/Evilgrim123 : Not to self, at least attempt to appear sane around the nice admins.
+15-08:OOC: Alucard Whoop/Headswe : Dear shitty rwalls
+15-08:OOC: Peter Androkovich/Jackofnotrades : AAAH THE MUSIC HASN&#39;T STOPPED.
+15-08:OOC: Alucard Whoop/Headswe : your ugly.
+15-08:SAY: Anaya Simmens/Evilgrim123 : ;Good morning crew! This is your Admin speaking!
+15-08:SAY: Anaya Simmens/Evilgrim123 : ;CAPTAIN speaking.
+15-08:OOC: Peter Androkovich/Jackofnotrades : Whyyyyyy.
+15-08:OOC: Alucard Whoop/Headswe : Look at the fucking rwalls.
+15-08:OOC: Alucard Whoop/Headswe : LOOK AT THEM:
+15-08:OOC: Anaya Simmens/Evilgrim123 : I saw a new reinforced wall.. For like.. A second..
+15-08:SAY: Peter Androkovich/Jackofnotrades : ;Hey Cap. I know who you are, we go to the boozer together every friday.
+15-08:OOC: Anaya Simmens/Evilgrim123 : These ones.. Are.. No..
+15-08:SAY: Anaya Simmens/Evilgrim123 : ;Sure, why not. 
+15-08:OOC: Peter Androkovich/Jackofnotrades : Not so good, no.
+15-08:SAY: Anaya Simmens/Evilgrim123 : ;Hey! Today&#39;s Friday!
+15-08:OOC: Alucard Whoop/Headswe : AH THE NEW WALLS:
+15-08:SAY: Peter Androkovich/Jackofnotrades : ;Race you there!
+15-08:OOC: Alucard Whoop/Headswe : Oh my fucking god.
+15-08:OOC: Alucard Whoop/Headswe : and the new floor.
+15-08:OOC: Alucard Whoop/Headswe : *shock*
+15-08:SAY: Peter Androkovich/Jackofnotrades : ;Oh, and, head of research reporting in.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Wow, these new chairs are good though.
+15-08:OOC: Alucard Whoop/Headswe : Ya
+15-08:OOC: Peter Androkovich/Jackofnotrades : Yeah.
+15-08:OOC: Alucard Whoop/Headswe : Chairs are good
+15-08:OOC: Alucard Whoop/Headswe : BUT TEH WALLS
+15-08:SAY: Peter Androkovich/Jackofnotrades : To the boooze!
+15-08:OOC: Alucard Whoop/Headswe : AND THE FLOOR
+15-08:SAY: Anaya Simmens/Evilgrim123 : Booze.
+15-08:SAY: Peter Androkovich/Jackofnotrades : Ah man.
+15-08:SAY: Anaya Simmens/Evilgrim123 : Whee!
+15-08:SAY: Peter Androkovich/Jackofnotrades : Best years of our life, cap&#39;n.
+15-08:SAY: Peter Androkovich/Jackofnotrades : Best oh man.
+15-08:OOC: Alucard Whoop/Headswe : Oh my god the white floor is ugly too
+15-08:SAY: Peter Androkovich/Jackofnotrades : Strong stuff.
+15-08:SAY: Anaya Simmens/Evilgrim123 : Aye.
+15-08:SAY: Anaya Simmens/Evilgrim123 : Aye.
+15-08:OOC: Anaya Simmens/Evilgrim123 : On my way Headswe.
+15-08:SAY: Anaya Simmens/Evilgrim123 : Hehe.
+15-08:SAY: Peter Androkovich/Jackofnotrades : Waaargh.
+15-08:ADMIN: Headswe teleported Anaya Simmens
+15-08:OOC: Anaya Simmens/Evilgrim123 : I approve of the chairs though.
+15-08:SAY: Peter Androkovich/Jackofnotrades : And we all fall down.
+15-08:OOC: Anaya Simmens/Evilgrim123 : ADMIN SHENANIGANS.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Seconded. Ugly.
+15-08:OOC: Peter Androkovich/Jackofnotrades : Just you wait.
+15-08:SAY: Anaya Simmens/Evilgrim123 : HEy man, whersh your beeer?
+15-08:OOC: Peter Androkovich/Jackofnotrades : Soon enought those shenanigans will be mine to cause.
+15-08:OOC: Alucard Whoop/Headswe : Oh right gimme some monnies
+15-08:OOC: Anaya Simmens/Evilgrim123 : The walls I feel are to blame, they don&#39;t mix with these white floros, so.. They make it ugly..
+15-08:ACCESS: Login: Wrongnumber from 124.198.169.221
+15-08:OOC: Anaya Simmens/Evilgrim123 : And where exactly are we?
+15-08:OOC: Alucard Whoop/Headswe : Plasma research
+15-08:OOC: Anaya Simmens/Evilgrim123 : Ohh, never been here before. Thanks.
+15-08:ACCESS: Logout: Jackofnotrades
+15-08:OOC: Cog Boozepick/Wrongnumber : Hi all, and congrats Jack
+15-08:GAME: Wrongnumber entered as Cog Boozepick
+15-08:OOC: Anaya Simmens/Evilgrim123 : Hey Wrong Number.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Look at the R walls. 
+15-08:OOC: Alucard Whoop/Headswe : and normal walls for that mather.
+15-08:OOC: Anaya Simmens/Evilgrim123 : I haven&#39;t found any yet. I&#39;ll search now!
+15-08:OOC: Anaya Simmens/Evilgrim123 : OSH-
+15-08:OOC: Cog Boozepick/Wrongnumber : Yea ive seen them before, they look a bit wierd...
+15-08:OOC: Alucard Whoop/Headswe : No shit.
+15-08:OOC: Alucard Whoop/Headswe : They are shit they look shit
+15-08:OOC: Anaya Simmens/Evilgrim123 : Everything looks fuzzy.. And non defined..
+15-08:OOC: Cog Boozepick/Wrongnumber : Oh ok I though you made them was being polite... heh
+15-08:OOC: Anaya Simmens/Evilgrim123 : Floors and walls that is.
+15-08:OOC: Alucard Whoop/Headswe : Topkasa did them i guess.
+15-08:SAY: Anaya Simmens/Evilgrim123 : Whee!
+15-08:OOC: Cog Boozepick/Wrongnumber : Are the floor and the walls mold into one IT HURTS
+15-08:OOC: Alucard Whoop/Headswe : ITS HORRIBLE
+15-08:OOC: Anaya Simmens/Evilgrim123 : Yeah, normal walls are waay too blurry.
+15-08:OOC: Alucard Whoop/Headswe : They all suck
+15-08:OOC: Cog Boozepick/Wrongnumber : Oh man, thats not good on the old optic nerves.....
+15-08:OOC: Alucard Whoop/Headswe : the chairs are nice tho
+15-08:SAY: Anaya Simmens/Evilgrim123 : Is there any point to this BUT making bomb?
+15-08:OOC: Cog Boozepick/Wrongnumber : Yea the chairs are great take that goon heh
+15-08:SAY: Anaya Simmens/Evilgrim123 : Ohh yes, how do you do tha?
+15-08:OOC: Alucard Whoop/Headswe : They look atleast pretty.
+15-08:OOC: Alucard Whoop/Headswe : instead of these damm walls
+15-08:ADMIN: Headswe teleported Cog Boozepick
+15-08:SAY: Anaya Simmens/Evilgrim123 : Hey.
+15-08:OOC: Cog Boozepick/Wrongnumber : Yea something about the walls make my eyes go wierd....
+15-08:SAY: Anaya Simmens/Evilgrim123 : ;Is that girder.. EXACTLY the same as the goons girder?
+15-08:OOC: Alucard Whoop/Headswe : He has no lines around the walls
+15-08:OOC: Cog Boozepick/Wrongnumber : Whats the new fancy thing in Plasma?
+15-08:OOC: Alucard Whoop/Headswe : A &#34;engine&#34; for power
+15-08:OOC: Cog Boozepick/Wrongnumber : Generator? in plasma?
+15-08:OOC: Alucard Whoop/Headswe : No idea.
+15-08:OOC: Cog Boozepick/Wrongnumber : Now i didint see THAT part
+15-08:SAY: Anaya Simmens/Evilgrim123 : Gas Turbine generator.
+15-08:OOC: Alucard Whoop/Headswe : its producing a shitload of power
+15-08:OOC: Anaya Simmens/Evilgrim123 : I know how to make the walls better.. NERF GENETICS!
+15-08:OOC: Cog Boozepick/Wrongnumber : Goon station stuffed there proper engines so they boosted there solar array those things pump ALOT
+15-08:OOC: Cog Boozepick/Wrongnumber : Maybe this is the start of making science more important?
+15-08:OOC: Anaya Simmens/Evilgrim123 : Where&#39;s the Network office thing?
+15-08:OOC: Alucard Whoop/Headswe : near engineering
+15-08:OOC: Cog Boozepick/Wrongnumber : Its near EVA
+15-08:OOC: Anaya Simmens/Evilgrim123 : Thanks. I want to touch it.
+15-08:OOC: Alucard Whoop/Headswe : This is odd hallway
+15-08:OOC: Alucard Whoop/Headswe : WTF.
+15-08:OOC: Anaya Simmens/Evilgrim123 : Has Flashlight been changed?
+15-08:OOC: Alucard Whoop/Headswe : is this kind of hallway?
+15-08:OOC: Cog Boozepick/Wrongnumber : Those walls realy are making me strain....
+15-08:OOC: Anaya Simmens/Evilgrim123 : Seconded.
+15-08:OOC: Anaya Simmens/Evilgrim123 : I try not looking at them.. But it just.. Doesn&#39;t work..
+15-08:OOC: Alucard Whoop/Headswe : Agreed.
+15-08:ADMIN: Headswe created /obj/item/weapon/flashlight
+15-08:OOC: Cog Boozepick/Wrongnumber : Hard to avoid something thats ALWAYS THERE
+15-08:OOC: Anaya Simmens/Evilgrim123 : Walls are to easy to make. Nerf please.
+15-08:ACCESS: Login: Andrea the second from 151.33.201.135
+15-08:ADMIN: Headswe teleported Cog Boozepick
+15-08:OOC: Alucard Whoop/Headswe : BEST MOTHERFUCKING HALLWAY EVER
+15-08:SAY: Cog Boozepick/Wrongnumber : Like that heh
+15-08:OOC: Cog Boozepick/Wrongnumber : Yea to no where at all realy...
+15-08:OOC: Anaya Simmens/Evilgrim123 : Lighting should be fixed on new walls.
+15-08:OOC: Elspet Bennet/Andrea the second : is this... music?
+15-08:OOC: Alucard Whoop/Headswe : Oh god yes.
+15-08:OOC: Cog Boozepick/Wrongnumber : Huh?
+15-08:OOC: Alucard Whoop/Headswe : its fucking annoing
+15-08:OOC: Alucard Whoop/Headswe : come and check out the new walls.
+15-08:GAME: Andrea the second entered as Elspet Bennet
+15-08:OOC: Anaya Simmens/Evilgrim123 : Could an admin teleport me? Y&#39;know shenanigans and all.
+15-08:ADMIN: Headswe teleported Elspet Bennet
+15-08:SAY: Elspet Bennet/Andrea the second : augh
+15-08:SAY: Cog Boozepick/Wrongnumber : ;HMMM
+15-08:OOC: Anaya Simmens/Evilgrim123 : Well, shoot, gotta go. 
+15-08:ADMIN: Headswe teleported Cog Boozepick
+15-08:OOC: Anaya Simmens/Evilgrim123 : BYE. D:
+15-08:ACCESS: Logout: Evilgrim123
+15-08:ADMIN: Headswe teleported Anaya Simmens
+15-08:SAY: Elspet Bennet/Andrea the second : I am not sure I like them
+15-08:OOC: Alucard Whoop/Headswe : Bai
+15-08:SAY: Alucard Whoop/Headswe : Really?
+15-08:OOC: Cog Boozepick/Wrongnumber : Not shure you like them? they hurt my EYES
+15-08:SAY: Alucard Whoop/Headswe : I think the wonderfull /sarcasm.
+15-08:SAY: Elspet Bennet/Andrea the second : they seem a bit heavy, at least compared to floors
+15-08:OOC: Alucard Whoop/Headswe : man andrea your too nice.
+15-08:OOC: Elspet Bennet/Andrea the second : they are a punch in the eye?
+15-08:OOC: Alucard Whoop/Headswe : runa round a bit and they will hurt your damm eyyes
+15-08:OOC: Cog Boozepick/Wrongnumber : No one here made them, open fire
+15-08:OOC: Elspet Bennet/Andrea the second : oww... you are right. eyes hurt
+15-08:OOC: Alucard Whoop/Headswe : Im not really sure i aprove of the computers either
+15-08:OOC: Cog Boozepick/Wrongnumber : You had to suggest running, i hadint even got to that yet, dam thats even worse
+15-08:ACCESS: Login: Jackofnotrades from 58.161.18.62
+15-08:OOC: Alucard Whoop/Headswe : Im gonna go and replace these walls.
+15-08:OOC: Alucard Whoop/Headswe : Since i now have a huge headache
+15-08:OOC: Cog Boozepick/Wrongnumber : Thanks... thanks alot
+15-08:OOC: Elspet Bennet/Andrea the second : who made the walls?
+15-08:OOC: Alucard Whoop/Headswe : Topkasa.
+15-08:OOC: Cog Boozepick/Wrongnumber : Wheres that blindfold?
+15-08:OOC: Elspet Bennet/Andrea the second : too late, I just took it
+15-08:OOC: Elspet Bennet/Andrea the second : I think topsaka wll have to work more on the walls
+15-08:OOC: Cog Boozepick/Wrongnumber : Oh come on i&#39;ve been here slighty longer and it BURNS
+15-08:OOC: Cog Boozepick/Wrongnumber : Chairs are good though
+15-08:OOC: Cog Boozepick/Wrongnumber : Might go stare at a chair
+15-08:OOC: Cog Boozepick/Wrongnumber : AFK
+15-08:OOC: Elspet Bennet/Andrea the second : bye
+15-08:ACCESS: Logout: Andrea the second
+15-08:OOC: Cog Boozepick/Wrongnumber : Well im back and natural walls looked good so
+15-08:ADMIN: Headswe modified wall's icon to wall.dmi
+15-08:OOC: Alucard Whoop/Headswe : heh.
+15-08:ACCESS: Logout: Headswe
+15-08:ACCESS: Login: Headswe from 127.0.0.1
+15-08:OOC: Cog Boozepick/Wrongnumber : Nothing
+15-08:OOC: Alucard Whoop/Headswe : Aw
+15-08:OOC: Alucard Whoop/Headswe : i need to restart and recomplie i think mmmyes.
+15-08:OOC: Cog Boozepick/Wrongnumber : IT STILL BURNS
+15-08:OOC: Alucard Whoop/Headswe : server going down for around 15sec
+15-08:OOC: Alucard Whoop/Headswe : then normal walls back
+15-08:OOC: Cog Boozepick/Wrongnumber : May the force be with you
+15-08:OOC: Cog Boozepick/Wrongnumber : Dont forget R walls as well
+15-08:OOC: Alucard Whoop/Headswe : ofcourse not
+15-08:ACCESS: Logout: Headswe
+15-08:ACCESS: Logout: Jackofnotrades
+15-08:ACCESS: Logout: Wrongnumber
+15-33:GAME: Finished building powernets (29 nets)
+15-33:ADMIN: Loading crban_keylist
+15-33:ADMIN: Loading crban_reason
+15-33:ADMIN: Loading crban_time
+15-33:ADMIN: Loading crban_bannedby
+15-33:ADMIN: Loading crban_iplist
+15-33:ADMIN: Loading crban_unbanned
+15-33:ADMIN: Loading crban_ComputerIDs
+15-33:ADMIN: crban_computerIDs was empty
+15-33:ADMIN: Loading jobban_rank
+15-33:ADMIN: Updating jobbanfile!
+15-33:ACCESS: Login: Headswe from 127.0.0.1
+15-33:GAME: Headswe entered as Alucard Whoop
+15-33:ADMIN: Headswe jumped to Supply Warehouse
+15-33:ACCESS: Logout: Headswe
+15-33:ACCESS: Login: Jackofnotrades from 58.161.18.62
+15-33:OOC: Peter Androkovich/Jackofnotrades : What?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Server reset?
+15-33:GAME: Jackofnotrades entered as Peter Androkovich
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh...
+15-33:OOC: Peter Androkovich/Jackofnotrades : All alooooone.
+15-33:ACCESS: Login: Wrongnumber from 124.198.169.221
+15-33:OOC: Cog Boozepick/Wrongnumber : Ah good all fixed
+15-33:GAME: Wrongnumber entered as Cog Boozepick
+15-33:OOC: Peter Androkovich/Jackofnotrades : HELLO!
+15-33:OOC: Peter Androkovich/Jackofnotrades : Man, you startled me.
+15-33:OOC: Cog Boozepick/Wrongnumber : Oops sorry
+15-33:OOC: Peter Androkovich/Jackofnotrades : Hey, don&#39;t worry.
+15-33:OOC: Cog Boozepick/Wrongnumber : But more important CONGRATS
+15-33:OOC: Peter Androkovich/Jackofnotrades : Thanks.
+15-33:OOC: Peter Androkovich/Jackofnotrades : But I&#39;m not an admin yet.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Yet...
+15-33:OOC: Cog Boozepick/Wrongnumber : Well your on the shiny path
+15-33:ACCESS: Login: Matz05 from 142.179.233.70
+15-33:OOC: Peter Androkovich/Jackofnotrades : MWAHAHAHAHA
+15-33:OOC: Peter Androkovich/Jackofnotrades : Yeah, I was surprsied. I guess it helps to have never been banned.
+15-33:GAME: Matz05 entered as Urist Noblelever
+15-33:OOC: Peter Androkovich/Jackofnotrades : I didn&#39;t think they&#39;d go for me considering how many other people have asked.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Although I never expected Micro to get it.
+15-33:OOC: Cog Boozepick/Wrongnumber : Well good on you for asking because you got it
+15-33:ACCESS: Logout: Matz05
+15-33:OOC: Peter Androkovich/Jackofnotrades : Thanks again.
+15-33:ACCESS: Login: Matz05 from 142.179.233.70
+15-33:OOC: Peter Androkovich/Jackofnotrades : I&#39;m really pleased.
+15-33:GAME: starting game of traitor
+15-33:OOC: Cog Boozepick/Wrongnumber : Good, you should be
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh thank God, three people.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I was worried it&#39;d just be us two and traitor mode.
+15-33:OOC: Cog Boozepick/Wrongnumber : Oh what the hell are we doing here the other sever should be up now with head...
+15-33:OOC: Cog Boozepick/Wrongnumber : Or is this that serve?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Doesn&#39;t appear to be.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Only one server right now.
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Crew check please. Name and job, you know the drill.
+15-33:OOC: Cog Boozepick/Wrongnumber : Im seeing double hold on
+15-33:SAY: Cog Boozepick/Wrongnumber : ;Cog Boozepick, non working network tech man
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Alucard, you&#39;ve not been assigned a job. Want one?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Of course you do.
+15-33:OOC: Cog Boozepick/Wrongnumber : Still see it
+15-33:OOC: Cog Boozepick/Wrongnumber : Ill check it out
+15-33:OOC: Peter Androkovich/Jackofnotrades : This real life?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Because if so, ouch.
+15-33:OOC: Cog Boozepick/Wrongnumber : No no, two servers
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh.
+15-33:OOC: Cog Boozepick/Wrongnumber : Seeing double? Unless those walls truely fried my eyes
+15-33:OOC: Peter Androkovich/Jackofnotrades : Byond doesn&#39;t seem to want to refresh.
+15-33:OOC: Peter Androkovich/Jackofnotrades : HEY!
+15-33:OOC: Peter Androkovich/Jackofnotrades : Old walls back!
+15-33:OOC: Peter Androkovich/Jackofnotrades : Huzzah!
+15-33:OOC: Cog Boozepick/Wrongnumber : So this is the right server
+15-33:OOC: Peter Androkovich/Jackofnotrades : Huzzah and hurrah.
+15-33:OOC: Peter Androkovich/Jackofnotrades : And so forth.
+15-33:OOC: Cog Boozepick/Wrongnumber : The other one is stuffed so dont worry
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Nobody else wants to report, huh?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Screw you guys.
+15-33:OOC: Cog Boozepick/Wrongnumber : Non working tech man... should be fun at least i get to inside it
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;I&#39;ve got my Crew Manifest.
+15-33:SAY: Cog Boozepick/Wrongnumber : ;Oooo harsh words, they sting
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Not you Cog.
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;I have a heartfelt respect for you.
+15-33:SAY: Cog Boozepick/Wrongnumber : ;Oh ok, those words were never said
+15-33:SAY: Cog Boozepick/Wrongnumber : ;I didint say nuffin then
+15-33:SAY: Peter Androkovich/Jackofnotrades : Hey.
+15-33:SAY: Peter Androkovich/Jackofnotrades : You know, I never was trained with this.
+15-33:SAY: Cog Boozepick/Wrongnumber : Hi there
+15-33:SAY: Peter Androkovich/Jackofnotrades : Or even introduced to it.
+15-33:SAY: Cog Boozepick/Wrongnumber : Trained for what?
+15-33:SAY: Peter Androkovich/Jackofnotrades : Care to show me how it works?
+15-33:SAY: Cog Boozepick/Wrongnumber : Shure
+15-33:SAY: Peter Androkovich/Jackofnotrades : This whole network dealy.
+15-33:OOC: Cog Boozepick/Wrongnumber : MEH
+15-33:OOC: Cog Boozepick/Wrongnumber : It&#39;s not working yet
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh.
+15-33:OOC: Cog Boozepick/Wrongnumber : The rooms just here
+15-33:OOC: Peter Androkovich/Jackofnotrades : Awwww.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Maaan.
+15-33:OOC: Cog Boozepick/Wrongnumber : I know i know
+15-33:OOC: Peter Androkovich/Jackofnotrades : I was wondering why I couldn&#39;t access it as AI.
+15-33:SAY: Peter Androkovich/Jackofnotrades : Wow.
+15-33:OOC: Cog Boozepick/Wrongnumber : Cool jumpsuit though...
+15-33:SAY: Peter Androkovich/Jackofnotrades : Seems like... it&#39;s not doing anything.
+15-33:SAY: Peter Androkovich/Jackofnotrades : At all.
+15-33:SAY: Peter Androkovich/Jackofnotrades : Ah well.
+15-33:SAY: Cog Boozepick/Wrongnumber : Yea i know
+15-33:SAY: Peter Androkovich/Jackofnotrades : I&#39;ll go start the engine.
+15-33:SAY: Cog Boozepick/Wrongnumber : ;Thanks cap
+15-33:OOC: Cog Boozepick/Wrongnumber : Whats the time where your at?
+15-33:OOC: Peter Androkovich/Jackofnotrades : 11:45.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Faaaar too late.
+15-33:OOC: Cog Boozepick/Wrongnumber : 1:46 here.... HMM
+15-33:OOC: Peter Androkovich/Jackofnotrades : I might just go to bed soon, seriously.
+15-33:OOC: Peter Androkovich/Jackofnotrades : You can take over as acting cap.
+15-33:OOC: Cog Boozepick/Wrongnumber : With no one else here? fun heh
+15-33:OOC: Peter Androkovich/Jackofnotrades : Exactly.
+15-33:OOC: Cog Boozepick/Wrongnumber : Im waiting for head once he gets back..
+15-33:OOC: Peter Androkovich/Jackofnotrades : Me too.
+15-33:OOC: Peter Androkovich/Jackofnotrades : He&#39;ll probably knight me when he does.
+15-33:SAY: Cog Boozepick/Wrongnumber : WOOP WOOP I&#39;m so staying to see this
+15-33:OOC: Peter Androkovich/Jackofnotrades : And I will kiss his hand and proclaim my loalty to the crown!
+15-33:OOC: Cog Boozepick/Wrongnumber : WOOP WOOP I&#39;m staying to watch this
+15-33:OOC: Cog Boozepick/Wrongnumber : Sadly i think they arent part of the commonwealth so you may be short changed
+15-33:OOC: Peter Androkovich/Jackofnotrades : But what?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Damn them.
+15-33:OOC: Peter Androkovich/Jackofnotrades : DAMN THEM AND THEIR WHATEVER THE HELL COUNTRY THEY ARENESS!
+15-33:OOC: Peter Androkovich/Jackofnotrades : So what part of NZ, out of interest? I used to live in Tauranga.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Right next to Mount Maunganui.
+15-33:OOC: Cog Boozepick/Wrongnumber : Blenheim, Capital of wine growing for MILES AND MILES
+15-33:OOC: Peter Androkovich/Jackofnotrades : In the Bay of Plenty.
+15-33:OOC: Peter Androkovich/Jackofnotrades : It was nice because the Mount was a tourist destination.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Best damn beaches in NZ.
+15-33:OOC: Cog Boozepick/Wrongnumber : We have wine.... THATS IT
+15-33:OOC: Peter Androkovich/Jackofnotrades : Wine&#39;s nice.
+15-33:OOC: Cog Boozepick/Wrongnumber : Not when you see this many fields of dam grapes
+15-33:OOC: Peter Androkovich/Jackofnotrades : Born in Wellington though. I was practically raised in Te Papa.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Blenheim, that&#39;s South Island, right?
+15-33:OOC: Cog Boozepick/Wrongnumber : Hah, nice
+15-33:OOC: Cog Boozepick/Wrongnumber : Top of the south, Moulbrough how ever its spelt
+15-33:OOC: Cog Boozepick/Wrongnumber : Sunshine capital of 2009
+15-33:OOC: Peter Androkovich/Jackofnotrades : oooh, Marlwhatever. Nice place.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Hell yes.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I was camping in Picton not three years ago.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Took the ferry last year.
+15-33:OOC: Cog Boozepick/Wrongnumber : Picton? hmmmmm heh
+15-33:OOC: Peter Androkovich/Jackofnotrades : Got seasick, played Metal Slug, you know.
+15-33:OOC: Cog Boozepick/Wrongnumber : Sadly i board at Nelson so once these holidays are over, i wont be seeing much of  SS13
+15-33:OOC: Peter Androkovich/Jackofnotrades : Awww.
+15-33:OOC: Cog Boozepick/Wrongnumber : 3 shootings in nelson already, 2 deaths, 4 car crash deaths on one day, 2 major forest fire, fight with over 200 spectators.... thats the life
+15-33:OOC: Peter Androkovich/Jackofnotrades : Damn.
+15-33:OOC: Cog Boozepick/Wrongnumber : And well.... yea
+15-33:OOC: Cog Boozepick/Wrongnumber : Oh and the most racist place in NZ
+15-33:OOC: Cog Boozepick/Wrongnumber : Helps when your part Maori with that eh
+15-33:OOC: Cog Boozepick/Wrongnumber : So where you live in Auzzie?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Melbourn.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Melbourne.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Really nice.
+15-33:ACCESS: Login: Alfie275 from 88.111.31.164
+15-33:OOC: Peter Androkovich/Jackofnotrades : Semi-rural area, you know. Bout half an hour out.
+15-33:OOC: Cog Boozepick/Wrongnumber : Sweet as
+15-33:GAME: Alfie275 entered as Xen
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Hey Xen.
+15-33:OOC: Cog Boozepick/Wrongnumber : Oh hell i still need to do a round as a Maori damn.... Let it start
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Stay right there.
+15-33:OOC: Xen/Alfie275 : I think Im stuck
+15-33:OOC: Xen/Alfie275 : I presed ready but nothing happened
+15-33:OOC: Peter Androkovich/Jackofnotrades : Walk into it.
+15-33:OOC: Xen/Alfie275 : Cant move
+15-33:SAY: Peter Androkovich/Jackofnotrades : Hello?
+15-33:SAY: Peter Androkovich/Jackofnotrades : Hello.
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Want a job or not?
+15-33:OOC: Xen/Alfie275 : Ill try relloging
+15-33:OOC: Xen/Alfie275 : Wait
+15-33:OOC: Xen/Alfie275 : Im ok
+15-33:OOC: Peter Androkovich/Jackofnotrades : Lovely Jubblt.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Jubbly.
+15-33:OOC: Xen/Alfie275 : Bit laggy
+15-33:OOC: Cog Boozepick/Wrongnumber : Second that
+15-33:SAY: Xen/Alfie275 : Engineer
+15-33:OOC: Xen/Alfie275 : Did graphics update?
+15-33:OOC: Cog Boozepick/Wrongnumber : Yea, and some of it hurt ALOT but its been fixed
+15-33:SAY: Peter Androkovich/Jackofnotrades : We need some engineers.
+15-33:SAY: Peter Androkovich/Jackofnotrades : Well done.
+15-33:OOC: Cog Boozepick/Wrongnumber : I know a job they need to implement..
+15-33:OOC: Xen/Alfie275 : What?
+15-33:OOC: Cog Boozepick/Wrongnumber : Disk jockey/Radio man
+15-33:OOC: Peter Androkovich/Jackofnotrades : Hah, I love it.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Too easy to grief though.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Just playing songs everyone hates all the time.
+15-33:OOC: Peter Androkovich/Jackofnotrades : You&#39;d always need an Admin on.
+15-33:OOC: Xen/Alfie275 : Then they just switch to another radio station?
+15-33:OOC: Cog Boozepick/Wrongnumber : I could just imagine some person play Miley ALL ROUND
+15-33:OOC: Peter Androkovich/Jackofnotrades : OH GOD.
+15-33:OOC: Cog Boozepick/Wrongnumber : True dat
+15-33:OOC: Peter Androkovich/Jackofnotrades : Don&#39;t scare me like that!
+15-33:ACCESS: Login: Andrea the second from 151.33.201.135
+15-33:OOC: Cog Boozepick/Wrongnumber : Hey i nearly had a stroke thinking that
+15-33:OOC: Cog Boozepick/Wrongnumber : There used to be a guy in boarding who played it ALL DAY and sung it 
+15-33:OOC: Elspet Bennet/Andrea the second : hello
+15-33:OOC: Elspet Bennet/Andrea the second : AFK
+15-33:OOC: Peter Androkovich/Jackofnotrades : Heya.
+15-33:OOC: Xen/Alfie275 : &#39; OMG ENGINE SPLODED&#39; *rushes to egnine* *rick roll*
+15-33:OOC: Cog Boozepick/Wrongnumber : REALLY BADLY as well then he left boarding so my sanity is back
+15-33:OOC: Peter Androkovich/Jackofnotrades : Andrea. I herebye proclaim everlasting loyalty to the crown.
+15-33:OOC: Cog Boozepick/Wrongnumber : I wonder who Andrea the first was..
+15-33:OOC: Peter Androkovich/Jackofnotrades : Shhhhh.
+15-33:OOC: Cog Boozepick/Wrongnumber : Ok ok im lockin it
+15-33:OOC: Peter Androkovich/Jackofnotrades : We don&#39;t talk about that in front of Andrea.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Sore subject.
+15-33:OOC: Cog Boozepick/Wrongnumber : Realy? ow dare
+15-33:OOC: Elspet Bennet/Andrea the second : oh, it is you, jackrabbit?
+15-33:OOC: Peter Androkovich/Jackofnotrades : That&#39;s the chap.
+15-33:OOC: Elspet Bennet/Andrea the second : no andrea the first. It is just that often andrea is already taken, so I often use andrea_2nd or variations
+15-33:SAY: Elspet Bennet/Andrea the second : ; the crown accepts your everlasting loyalty
+15-33:OOC: Cog Boozepick/Wrongnumber : Ah ok that clears it
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh. I thought you&#39;d killed him and stashed his body in the boot of my car.
+15-33:OOC: Xen/Alfie275 : I always use Alfie275
+15-33:OOC: Peter Androkovich/Jackofnotrades : That... wasn&#39;t you?
+15-33:OOC: Elspet Bennet/Andrea the second : The crown accepts your everlasting loyalty
+15-33:OOC: Peter Androkovich/Jackofnotrades : Oh man. This is bad.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I kiss your hand good sir, as a sign of my good intent.
+15-33:OOC: Cog Boozepick/Wrongnumber : In your boot? man that would be awkward
+15-33:OOC: Peter Androkovich/Jackofnotrades : Of my car.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Not my boot boot.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I mean, if I didn&#39;t have my gumboots, where would I be?
+15-33:OOC: Xen/Alfie275 : Why not just make them into pies?
+15-33:OOC: Cog Boozepick/Wrongnumber : I was talking about a car the other just scares me
+15-33:OOC: Cog Boozepick/Wrongnumber : YOUD BE IN THE HOSPITAL
+15-33:OOC: Peter Androkovich/Jackofnotrades : I&#39;d be in the hospital or infirmary.
+15-33:OOC: Elspet Bennet/Andrea the second : goobye.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Because I&#39;d have a dose of the flue.
+15-33:OOC: Cog Boozepick/Wrongnumber : OR EVEN PLEUECY
+15-33:ACCESS: Logout: Andrea the second
+15-33:OOC: Peter Androkovich/Jackofnotrades : If I didn&#39;t have my feet.
+15-33:OOC: Cog Boozepick/Wrongnumber : IN YOU GUUUMMMBOOTS
+15-33:OOC: Cog Boozepick/Wrongnumber : YOUR i mean heh
+15-33:OOC: Peter Androkovich/Jackofnotrades : HOLY DAMN DUDE HOW AWESOME IS FRED DAGG?
+15-33:OOC: Peter Androkovich/Jackofnotrades : See you.
+15-33:SAY: Urist Noblelever/Matz05 : Do we have security?
+15-33:OOC: Cog Boozepick/Wrongnumber : Fred Dagg? hmmm not ringing any bells
+15-33:SAY: Urist Noblelever/Matz05 : ;Do we have security?
+15-33:OOC: Cog Boozepick/Wrongnumber : Oh hell it just clicked i never said that
+15-33:OOC: Peter Androkovich/Jackofnotrades : Yeah, sure it isn&#39;t.
+15-33:SAY: Xen/Alfie275 : ;Its called a toolbox
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Ha ha.
+15-33:SAY: Xen/Alfie275 : ;joke
+15-33:SAY: Urist Noblelever/Matz05 : ;Case if we do, could one of them come down here?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;No, we don&#39;t.
+15-33:SAY: Urist Noblelever/Matz05 : DARN!
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;I&#39;ll be functioning as security for now.
+15-33:OOC: Cog Boozepick/Wrongnumber : Fow Show, Al&#39;g Bow
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;What&#39;s the problem?
+15-33:SAY: Urist Noblelever/Matz05 : Okay. So could you come to gen?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Also, where are you?
+15-33:SAY: Urist Noblelever/Matz05 : ;could you come to gen?
+15-33:SAY: Cog Boozepick/Wrongnumber : ;Oh... Nah Nah man... You gota um...... Nah Bro, never mind its sweet as
+15-33:SAY: Urist Noblelever/Matz05 : ;could you come to gen?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;On my way.
+15-33:SAY: Peter Androkovich/Jackofnotrades : What&#39;s the deal?
+15-33:SAY: Urist Noblelever/Matz05 : If there are any bad people monkefie them
+15-33:SAY: Peter Androkovich/Jackofnotrades : Hey, hey, that&#39;s my call.
+15-33:SAY: Urist Noblelever/Matz05 : With that siringe
+15-33:SAY: Peter Androkovich/Jackofnotrades : But your suggestion is appreciate.
+15-33:SAY: Peter Androkovich/Jackofnotrades : And accepted.
+15-33:SAY: Peter Androkovich/Jackofnotrades : It&#39;s what I usually do anyway.
+15-33:SAY: Peter Androkovich/Jackofnotrades : I had this bad run-in with a monkey once.
+15-33:SAY: Urist Noblelever/Matz05 : Igf yopu need more just ask
+15-33:SAY: Xen/Alfie275 : ;Do we have medics?
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Genetisict will function as a medic as needed.
+15-33:SAY: Peter Androkovich/Jackofnotrades : ;Or me.
+15-33:SAY: Xen/Alfie275 : Doctor guy
+15-33:OOC: Cog Boozepick/Wrongnumber : Well i died in an embarecing way due to lag restart?
+15-33:OOC: Cog Boozepick/Wrongnumber : By the way im the traitor
+15-33:OOC: Peter Androkovich/Jackofnotrades : What happened?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Also you&#39;re probably not dead yet.
+15-33:SAY: Xen/Alfie275 : I was taking a plasma sample from the engine and the cannister exploded
+15-33:SAY: Urist Noblelever/Matz05 : Dont pay any atention to the twiching monkey.
+15-33:OOC: Unknown/Wrongnumber : Trust me im long dead
+15-33:OOC: Peter Androkovich/Jackofnotrades : Okay.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I gotta leave anyway.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Since whilst I&#39;m not admin I did swear fealty.
+15-33:SAY: Urist Noblelever/Matz05 : GREAT!
+15-33:OOC: Peter Androkovich/Jackofnotrades : So it&#39;s on its way.
+15-33:OOC: Unknown/Wrongnumber : Any way i had to destroy the canisters so.. Well i lagged and thats one hot fire
+15-33:SAY: Xen/Alfie275 : Twitch shouldnt be too hard to fix
+15-33:OOC: Unknown/Wrongnumber : Yea congrats again on that
+15-33:SAY: Xen/Alfie275 : For clever person like you
+15-33:SAY: Urist Noblelever/Matz05 : I know. Just experementing.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Thanks.
+15-33:OOC: Peter Androkovich/Jackofnotrades : I&#39;m in the courtroom if anyone wants to suddenly take my ID.
+15-33:SAY: Xen/Alfie275 : You are very good doctor?
+15-33:OOC: Peter Androkovich/Jackofnotrades : Just a suggestion.
+15-33:OOC: Peter Androkovich/Jackofnotrades : But I&#39;d say we restart.
+15-33:SAY: Urist Noblelever/Matz05 : I&#39;m gen.
+15-33:SAY: Xen/Alfie275 : Good one?
+15-33:VOTE: Voting to restart round started by Peter Androkovich/Jackofnotrades
+15-33:OOC: Unknown/Wrongnumber : Man that fires so hot i lost my clothes straight off...
+15-33:SAY: Urist Noblelever/Matz05 : Med bay is to the left.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Vote vote  vote.
+15-33:OOC: Peter Androkovich/Jackofnotrades : Night all.
+15-33:SAY: Xen/Alfie275 : No doctors
+15-33:OOC: Unknown/Wrongnumber : Seyaz
+15-33:ACCESS: Logout: Jackofnotrades
+15-33:SAY: Urist Noblelever/Matz05 : sigh. I&#39;ll come
+15-33:SAY: Xen/Alfie275 : med is up?
+15-33:OOC: Unknown/Wrongnumber : Vote people
+15-33:VOTE: Voting closed, result was restart
+15-33:SAY: Xen/Alfie275 : *deathgasp
+15-33:GAME: Rebooting due to restart vote
+15-33:ACCESS: Logout: Wrongnumber
+15-33:ACCESS: Logout: Matz05
+15-33:ACCESS: Logout: Alfie275
+16-15:GAME: Finished building powernets (29 nets)
+16-15:ADMIN: Loading crban_keylist
+16-15:ADMIN: Loading crban_reason
+16-15:ADMIN: Loading crban_time
+16-15:ADMIN: Loading crban_bannedby
+16-15:ADMIN: Loading crban_iplist
+16-15:ADMIN: Loading crban_unbanned
+16-15:ADMIN: Loading crban_ComputerIDs
+16-15:ADMIN: crban_computerIDs was empty
+16-15:ADMIN: Loading jobban_rank
+16-15:ADMIN: Updating jobbanfile!
+16-15:ACCESS: Login: Wrongnumber from 124.198.169.221
+16-15:ACCESS: Login: Matz05 from 142.179.233.70
+16-15:GAME: Matz05 entered as Urist Noblelever
+16-15:GAME: Wrongnumber entered as Cog Boozepick
+16-15:ACCESS: Logout: Matz05
+16-15:ACCESS: Login: Matz05 from 142.179.233.70
+16-15:VOTE: Voting to change mode started by Urist Noblelever/Matz05
+16-15:ACCESS: Logout: Wrongnumber
+16-15:ACCESS: Logout: Matz05
+16-15:VOTE: Voting closed, result was it
+16-15:ACCESS: Login: Xegeth from 77.103.224.146
+16-15:GAME: starting game of traitor
+16-15:GAME: Xegeth entered as Ashan Selfer
+16-15:SAY: Captain/Xegeth : ;Is anyone here?
+16-15:ACCESS: Logout: Xegeth
+16-15:GAME: Rebooting because of no live players
+16-52:GAME: Finished building powernets (29 nets)
+16-52:ADMIN: Loading crban_keylist
+16-52:ADMIN: Loading crban_reason
+16-52:ADMIN: Loading crban_time
+16-52:ADMIN: Loading crban_bannedby
+16-52:ADMIN: Loading crban_iplist
+16-52:ADMIN: Loading crban_unbanned
+16-52:ADMIN: Loading crban_ComputerIDs
+16-52:ADMIN: crban_computerIDs was empty
+16-52:ADMIN: Loading jobban_rank
+16-52:ADMIN: Updating jobbanfile!
+16-52:ACCESS: Login: Lucaboii from 94.168.104.138
+16-52:GAME: Lucaboii entered as Luca Foulger
+16-52:ACCESS: Logout: Lucaboii
+16-52:GAME: starting game of traitor
+16-52:ACCESS: Login: Wrongnumber from 124.198.169.221
+16-52:GAME: Wrongnumber entered as Cog Boozepick
+16-52:ACCESS: Logout: Wrongnumber
+16-52:GAME: Rebooting because of no live players
+16-52:GAME: Rebooting because of no live players
+16-52:GAME: Rebooting because of no live players
+17-40:GAME: Finished building powernets (29 nets)
+17-40:ADMIN: Loading crban_keylist
+17-40:ADMIN: Loading crban_reason
+17-40:ADMIN: Loading crban_time
+17-40:ADMIN: Loading crban_bannedby
+17-40:ADMIN: Loading crban_iplist
+17-40:ADMIN: Loading crban_unbanned
+17-40:ADMIN: Loading crban_ComputerIDs
+17-40:ADMIN: crban_computerIDs was empty
+17-40:ADMIN: Loading jobban_rank
+17-40:ADMIN: Updating jobbanfile!
+17-40:GAME: starting game of traitor
+17-40:GAME: Rebooting because of no live players
+17-40:GAME: Rebooting because of no live players
+17-40:GAME: Rebooting because of no live players
+17-40:GAME: Rebooting because of no live players
+18-14:GAME: Finished building powernets (29 nets)
+18-14:ADMIN: Loading crban_keylist
+18-14:ADMIN: Loading crban_reason
+18-14:ADMIN: Loading crban_time
+18-14:ADMIN: Loading crban_bannedby
+18-14:ADMIN: Loading crban_iplist
+18-14:ADMIN: Loading crban_unbanned
+18-14:ADMIN: Loading crban_ComputerIDs
+18-14:ADMIN: crban_computerIDs was empty
+18-14:ADMIN: Loading jobban_rank
+18-14:ADMIN: Updating jobbanfile!
+18-14:GAME: starting game of traitor
+18-14:ACCESS: Login: Jatacc from 130.245.193.110
+18-14:ACCESS: Logout: Jatacc
+18-14:ACCESS: Login: Coolguy300 from 99.254.12.71
+18-14:GAME: Coolguy300 entered as Mikan Luzerdorf
+18-14:ACCESS: Logout: Coolguy300
+18-14:GAME: Rebooting because of no live players
+18-14:GAME: Rebooting because of no live players
+18-14:GAME: Rebooting because of no live players
+18-47:GAME: Finished building powernets (29 nets)
+18-47:ADMIN: Loading crban_keylist
+18-47:ADMIN: Loading crban_reason
+18-47:ADMIN: Loading crban_time
+18-47:ADMIN: Loading crban_bannedby
+18-47:ADMIN: Loading crban_iplist
+18-47:ADMIN: Loading crban_unbanned
+18-47:ADMIN: Loading crban_ComputerIDs
+18-47:ADMIN: crban_computerIDs was empty
+18-47:ADMIN: Loading jobban_rank
+18-47:ADMIN: Updating jobbanfile!
+18-47:ACCESS: Login: I-Aryn-I from 71.229.232.215
+18-47:ACCESS: Logout: I-Aryn-I
+18-47:ACCESS: Login: Shadowgandor from 83.84.235.167
+18-47:ACCESS: Logout: Shadowgandor
+18-47:ACCESS: Login: I-Aryn-I from 71.229.232.215
+18-47:GAME: starting game of traitor
+18-47:GAME: I-Aryn-I entered as Lelouch vi Britannia
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:GAME: TechLord entered as Cog Doormurdered
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Hello
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Just playing around with genetics
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : The monkeys are everywhere.
+18-47:OOC: Cog Doormurdered/TechLord : yeah, i just fool around
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : SCIENCE!
+18-47:SAY: Cog Doormurdered/TechLord : : D
+18-47:OOC: Cog Doormurdered/TechLord : : D
+18-47:OOC: Cog Doormurdered/TechLord : How is this version different from Goon-Dev server?
+18-47:OOC: Cog Doormurdered/TechLord : Older? Newer?
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Older than the HUD.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Only under adifferent key, TikaPSO13.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : So much has changed in this version that I have to play around a bit though.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : I could probably tell you the origin of pretty much anything in the game though.
+18-47:OOC: Cog Doormurdered/TechLord : I am just a useless Peasant : P
+18-47:ACCESS: Login: Master of Apples from 86.164.189.237
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Hey, we&#39;re all peasants at one point.
+18-47:OOC: Conall Edge/Master of Apples : Lies
+18-47:GAME: Master of Apples entered as Conall Edge
+18-47:OOC: Conall Edge/Master of Apples : Also hai
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Hai
+18-47:OOC: Conall Edge/Master of Apples : Well damn
+18-47:OOC: Conall Edge/Master of Apples : Looks like I&#39;ll leave the iconing to Sukasa
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Yep
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Reminds me of a better Lost Worlds style almost.
+18-47:OOC: Conall Edge/Master of Apples : It&#39;s kinda more cartoonish
+18-47:OOC: Conall Edge/Master of Apples : There goes my other shot at PWOWAHHH :P
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Did you playLost Worlds?
+18-47:OOC: Conall Edge/Master of Apples : Yeah 
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Cool.
+18-47:OOC: Conall Edge/Master of Apples : Not a lot though
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Despite the name on the hub space, that&#39;s my game.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : TikaPSO13 is an old keyofmine.
+18-47:OOC: Conall Edge/Master of Apples : Ahh, sweet.
+18-47:OOC: Conall Edge/Master of Apples : Good job
+18-47:ACCESS: Login: Micro102 from 24.184.14.119
+18-47:OOC: Conall Edge/Master of Apples : I&#39;d love to learn BYOND code but I can&#39;t be bothered
+18-47:GAME: Micro102 entered as Micro McGinley
+18-47:OOC: Conall Edge/Master of Apples : Sup Micro
+18-47:OOC: Micro McGinley/Micro102 : Weird
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : It&#39;s the simplest, most complete code I&#39;ve ever learned, unlike C++
+18-47:OOC: Micro McGinley/Micro102 : It says teleporting but I didn&#39;t leave the starting area.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : C++ comes with nothin&#39;
+18-47:OOC: Micro McGinley/Micro102 : And I can&#39;t move.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Weird.
+18-47:OOC: Conall Edge/Master of Apples : I started the tutorial for byond, but something went wrong and I gave up :P
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Try relogging.
+18-47:OOC: Micro McGinley/Micro102 : There we go
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : NVM
+18-47:OOC: Micro McGinley/Micro102 : Awsome new chairs
+18-47:OOC: Micro McGinley/Micro102 : What happene dtot he blindingly horrible reinforced walls?
+18-47:OOC: Micro McGinley/Micro102 : I didn&#39;t ge tto see them
+18-47:OOC: Conall Edge/Master of Apples : Guess they were reverted
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Different host.
+18-47:OOC: Conall Edge/Master of Apples : I didn&#39;t see &#39;em either
+18-47:SAY: Micro McGinley/Micro102 : ;I need a job.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : And as I used to be TikaPSO13, that makes me older-than-dirt in SS13 time.
+18-47:OOC: Micro McGinley/Micro102 : O, a new pointless hallway.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Well, dirt is a relatively new turf ^_^
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Morelike older-than-tasers.
+18-47:OOC: Conall Edge/Master of Apples : ohsnap
+18-47:OOC: Conall Edge/Master of Apples : I&#39;ve known SS13 for a good time
+18-47:OOC: Micro McGinley/Micro102 : Is there a captain?
+18-47:OOC: Conall Edge/Master of Apples : I wouldn&#39;t put myself with the elders though
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : I&#39;m no AZA, but I&#39;mat least a midbie.
+18-47:OOC: Conall Edge/Master of Apples : Yeahh, I guess samish
+18-47:OOC: Micro McGinley/Micro102 : I started playing it shortly before we made bay station 12
+18-47:OOC: Conall Edge/Master of Apples : Long enough to know everything :P
+18-47:OOC: Conall Edge/Master of Apples : I&#39;m not known, really
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : The game&#39;s been through a lot. You used to have to use a toolbox as security.
+18-47:OOC: Conall Edge/Master of Apples : my main key is Chicken_Face
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Heh
+18-47:OOC: Conall Edge/Master of Apples : But I use Master of Apples cause it&#39;s relevant to my Bay12 username :P
+18-47:OOC: Micro McGinley/Micro102 : I think I found the horrible new walls.
+18-47:OOC: Micro McGinley/Micro102 : Gow they are ugly
+18-47:OOC: Conall Edge/Master of Apples : Whhheeeeeeere?
+18-47:OOC: Micro McGinley/Micro102 : Make a fake wall
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : The most recent pre-open source system is probably either genetics or power, depending on if you count Hobnob&#39;s decompilation as official.
+18-47:OOC: Conall Edge/Master of Apples : Yeah
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : OK, I&#39;ll stop spouting oldbie cred now.
+18-47:OOC: Conall Edge/Master of Apples : hah
+18-47:OOC: Micro McGinley/Micro102 : Protip
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : ?
+18-47:OOC: Micro McGinley/Micro102 : If you have the time, transfer all the tools in a toolbox to a normal box so it is storable in a backpack.
+18-47:OOC: Conall Edge/Master of Apples : OH GOD It&#39;S HORRIBLE
+18-47:OOC: Micro McGinley/Micro102 : Lol you made a fake wall?
+18-47:OOC: Conall Edge/Master of Apples : Yeah
+18-47:OOC: Conall Edge/Master of Apples : I mean wow
+18-47:OOC: Conall Edge/Master of Apples : That&#39;s bad by Sukasa&#39;s standard
+18-47:SAY: Micro McGinley/Micro102 : ;Hold on crew I will have the captains ID ina  while.
+18-47:OOC: Micro McGinley/Micro102 : What ever happened to water sprinklers with the fire alarms?
+18-47:OOC: Conall Edge/Master of Apples : They were lag machines, I believe.
+18-47:OOC: Micro McGinley/Micro102 : How would you go about turning rods back into metal?
+18-47:OOC: Conall Edge/Master of Apples : Welder, i think
+18-47:OOC: Micro McGinley/Micro102 : No
+18-47:OOC: Micro McGinley/Micro102 : Doesn&#39;t work
+18-47:OOC: Conall Edge/Master of Apples : Hm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;ve found a lot of the blocks responsible for disabilities.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : There are some that seem to have had no effect.
+18-47:OOC: Micro McGinley/Micro102 : Reinforced fake walls show ugly reinforced walls too
+18-47:OOC: Cog Doormurdered/TechLord : I go eat spinatcipizza in RL
+18-47:OOC: Conall Edge/Master of Apples : Omigod u so crazy
+18-47:OOC: Cog Doormurdered/TechLord : modify my DNA in the meanwhile as desired
+18-47:OOC: Conall Edge/Master of Apples : Sure thang
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Yay, a human test subject
+18-47:SAY: Micro McGinley/Micro102 : I will soon be the new captain
+18-47:SAY: Micro McGinley/Micro102 : ;I will soon be the new captain
+18-47:SAY: Conall Edge/Master of Apples : ;Whyyyyyyyy
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : 4, 6, 9, 10 and 14 all need human test subjects.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Whoah.
+18-47:SAY: Conall Edge/Master of Apples : Oh whoops
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : What
+18-47:SAY: Conall Edge/Master of Apples : Wrong person
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Also, anyone watch Code Geass?
+18-47:SAY: Unknown/Micro102 : ;Anyone who wants a job head to the job assignment room and wait
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:SAY: Captain/Micro102 : ;Hello?
+18-47:SAY: Conall Edge/Master of Apples : ;What
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:SAY: Captain/Micro102 : ;Do you want as job?
+18-47:SAY: Conall Edge/Master of Apples : ;Naaaaaaaaw
+18-47:SAY: Unknown/Micro102 : I can make you HoM
+18-47:SAY: Unknown/Micro102 : ;I can make you HoM
+18-47:SAY: Conall Edge/Master of Apples : ;Naaaaaaaaaaaaaaaaaaaw
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:MATTACK: Conall Edge(Master of Apples) attcked by () with the toolbox
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Uhm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : My test subject is glowing.
+18-47:SAY: Cog Doormurdered/TechLord : what are u doing?
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: Login: Evilgrim123 from 90.209.90.223
+18-47:OOC: Micro McGinley/Micro102 : rofl there is like 1 pixel of the captains spare ID poping out from underneath the table.
+18-47:GAME: Evilgrim123 entered as Anaya Simmens
+18-47:SAY: monkey (5d0d)/TechLord : I feel strange and warm.
+18-47:SAY: Conall Edge/Master of Apples : Huhwhat
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Micro McGinley/Micro102 : ;Welcome Anaya
+18-47:SAY: Urist Deathmaker/TechLord : Am I dead?
+18-47:SAY: Urist Deathmaker/TechLord : I cannt see
+18-47:SAY: Anaya Simmens/Evilgrim123 : What?
+18-47:OOC: Urist Deathmaker/TechLord : I feel strange, warm and cannt see.
+18-47:OOC: Conall Edge/Master of Apples : Interesting 
+18-47:SAY: Anaya Simmens/Evilgrim123 : I can do this myself Y&#39;know..
+18-47:OOC: Conall Edge/Master of Apples : Didn&#39;t we add a scanner for Genetics
+18-47:OOC: Urist Deathmaker/TechLord : And my health is red
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Yes
+18-47:SAY: Anaya Simmens/Evilgrim123 : Medical Doctor please.
+18-47:OOC: Micro McGinley/Micro102 : Did you inject yourself with something?
+18-47:SAY: Unknown/Micro102 : You know how to work a cryo?
+18-47:SAY: Anaya Simmens/Evilgrim123 : Yes. Of course.
+18-47:OOC: Urist Deathmaker/TechLord : Health yellow/blue.
+18-47:SAY: Anaya Simmens/Evilgrim123 : Hehe. I&#39;ve been a doctor all my life.. Sir.
+18-47:SAY: Anaya Simmens/Evilgrim123 : Thank you.
+18-47:OOC: Urist Deathmaker/TechLord : Am I int the cryo?
+18-47:OOC: Micro McGinley/Micro102 : Maybe
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Yes
+18-47:SAY: Micro McGinley/Micro102 : If you want to mess with chemicals get tot he job assignment area.
+18-47:SAY: Conall Edge/Master of Apples : FUCK
+18-47:ACCESS: Login: Wrongnumber from 124.198.169.221
+18-47:SAY: Conall Edge/Master of Apples : Sorry
+18-47:SAY: Conall Edge/Master of Apples : Slipped
+18-47:SAY: Micro McGinley/Micro102 : Out
+18-47:SAY: Conall Edge/Master of Apples : Pfffffffft
+18-47:SAY: Micro McGinley/Micro102 : Both of you
+18-47:SAY: Micro McGinley/Micro102 : I will give you jobs later.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;m saving a man&#39;s life
+18-47:OOC: Cog Boozepick/Wrongnumber : Hello people, If your interested i posted an idea for a mode as some guy realy wanted a dwarf one heh
+18-47:MATTACK: Micro McGinley(Micro102)has shot a taser round at Conall Edge
+18-47:GAME: Wrongnumber entered as Cog Boozepick
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : HEY
+18-47:MATTACK: Micro McGinley(Micro102)has shot a taser round at Conall Edge
+18-47:SAY: Conall Edge/Master of Apples : ow
+18-47:SAY: Conall Edge/Master of Apples : I slipped!
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;M SAVING A GUY HERE
+18-47:OOC: Conall Edge/Master of Apples : nooooooooo
+18-47:OOC: Conall Edge/Master of Apples : :P
+18-47:MATTACK: Micro McGinley(Micro102) attcked by Conall Edge(Master of Apples) with the taser gun
+18-47:OOC: Urist Deathmaker/TechLord : I still cannt see shit. Let me grow EYES!
+18-47:SAY: Conall Edge/Master of Apples : Wait what
+18-47:SAY: Micro McGinley/Micro102 : I&#39;ll let you out later.
+18-47:SAY: Conall Edge/Master of Apples : Kay
+18-47:OOC: Conall Edge/Master of Apples : Use the anti-bl;ind injector
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : You&#39;re in a sleeper
+18-47:OOC: Cog Boozepick/Wrongnumber : Nice....
+18-47:OOC: Urist Deathmaker/TechLord : Ah
+18-47:SAY: Anaya Simmens/Evilgrim123 : Hey.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Your stuff is in medical research.
+18-47:SAY: Anaya Simmens/Evilgrim123 : I guess you wont be needing to be frozen then?
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : The test was a success
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Although there were complications turning you human again
+18-47:SAY: Urist Deathmaker/TechLord : my health is still yellow/blue but.... DO MOARE EXPERIMENTS!
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Also, it appears that one of my experiments removed your underwear...
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Captain.
+18-47:OOC: Conall Edge/Master of Apples : DNA controls your nudity, duuuuuuh
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Captain
+18-47:SAY: Micro McGinley/Micro102 : ;Yes?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Request permission to be appointed the station geneticist.
+18-47:SAY: Micro McGinley/Micro102 : ;Ok
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Thank you.
+18-47:SAY: Micro McGinley/Micro102 : ;All who want a job come get one
+18-47:SAY: Micro McGinley/Micro102 : ;Also, ge tinto uniform!
+18-47:OOC: Urist Deathmaker/TechLord : Yummy, pizza ready. Fuck around with my body
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : O_o
+18-47:SAY: Conall Edge/Master of Apples : ;I kinda cant
+18-47:SAY: Unknown/Micro102 : Your first assignment, collect all the stray monkeys and put them back in cell.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Roger
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Ummm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Is he OK?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : What happened?
+18-47:SAY: Anaya Simmens/Evilgrim123 : No idea.
+18-47:SAY: Micro McGinley/Micro102 : Ok I will let you out if you tell me the formula for those mustard grenades.
+18-47:SAY: Conall Edge/Master of Apples : Okay
+18-47:SAY: Conall Edge/Master of Apples : You got a piece of paper?
+18-47:SAY: Micro McGinley/Micro102 : Just tell me
+18-47:SAY: Conall Edge/Master of Apples : Oxygen
+18-47:SAY: Conall Edge/Master of Apples : Sulfur
+18-47:SAY: Conall Edge/Master of Apples : Chlorine
+18-47:SAY: Conall Edge/Master of Apples : Nitrogen
+18-47:SAY: Conall Edge/Master of Apples : aaaaaaaaaand
+18-47:SAY: Conall Edge/Master of Apples : Potassium
+18-47:SAY: Micro McGinley/Micro102 : Ok thanks
+18-47:SAY: Conall Edge/Master of Apples : Ta
+18-47:SAY: Conall Edge/Master of Apples : I&#39;ll be engineer
+18-47:SAY: Conall Edge/Master of Apples : You probably need one
+18-47:SAY: Unknown/Micro102 : Yeah
+18-47:SAY: Unknown/Micro102 : You want a job too?
+18-47:SAY: Cog Boozepick/Wrongnumber : *yawn
+18-47:SAY: Cog Boozepick/Wrongnumber : You need me to be anything?
+18-47:SAY: Unknown/Micro102 : Hmmm
+18-47:SAY: Cog Boozepick/Wrongnumber : *yawn
+18-47:SAY: Unknown/Micro102 : Anything your skilled in?
+18-47:SAY: Unknown/Micro102 : O we need security.
+18-47:SAY: Cog Boozepick/Wrongnumber : I can...... do stuff
+18-47:SAY: Cog Boozepick/Wrongnumber : Thanks
+18-47:SAY: Cog Boozepick/Wrongnumber : *yawn
+18-47:OOC: Micro McGinley/Micro102 : Space cleaner is now one of my favorite items.
+18-47:ACCESS: Login: Holybond from 151.205.96.154
+18-47:OOC: Conall Edge/Master of Apples : Whyy
+18-47:OOC: Micro McGinley/Micro102 : It just takes the blood rigt off stuff.
+18-47:OOC: Conall Edge/Master of Apples : True
+18-47:OOC: Hob White/Holybond : hi everyone
+18-47:SAY: Micro McGinley/Micro102 : ;What the hell was that?
+18-47:OOC: Conall Edge/Master of Apples : Supo
+18-47:SAY: Conall Edge/Master of Apples : ;What?
+18-47:SAY: Micro McGinley/Micro102 : ;I felt the entire station shake.
+18-47:SAY: Conall Edge/Master of Apples : ;I felt nothing
+18-47:SAY: Cog Boozepick/Wrongnumber : ; Right.... you been sleeping ok?
+18-47:OOC: Hob White/Holybond : I haven&#39;t played ss13in a year wow..
+18-47:GAME: Holybond entered as Hob White
+18-47:OOC: Hob White/Holybond : How do I turn off the music?
+18-47:OOC: Cog Boozepick/Wrongnumber : Put louder music on
+18-47:OOC: Conall Edge/Master of Apples : Go into byond pager
+18-47:OOC: Hob White/Holybond : Lol that doesn&#39;t fix the problem!
+18-47:OOC: Hob White/Holybond : I know that one.
+18-47:OOC: Micro McGinley/Micro102 : Music?
+18-47:OOC: Conall Edge/Master of Apples : preferences -&gt; games
+18-47:OOC: Hob White/Holybond : but then I would have to turn it back on for another game.
+18-47:OOC: Conall Edge/Master of Apples : True
+18-47:OOC: Hob White/Holybond : Hmm I have to relearn a whole new map.
+18-47:OOC: Conall Edge/Master of Apples : This one&#39;s pretty simple
+18-47:OOC: Hob White/Holybond : Does anyone have map or something?!
+18-47:OOC: Conall Edge/Master of Apples : Naw
+18-47:OOC: Micro McGinley/Micro102 : It&#39;s a circle.
+18-47:OOC: Cog Boozepick/Wrongnumber : Well i have louder music on and it works for me
+18-47:OOC: Micro McGinley/Micro102 : In the middle is the gnine
+18-47:OOC: Micro McGinley/Micro102 : engine
+18-47:OOC: Hob White/Holybond : *nods* all right.
+18-47:OOC: Micro McGinley/Micro102 : bridge is top left, toxins is bottom right
+18-47:OOC: Micro McGinley/Micro102 : medical and genetics are the right side above toxins
+18-47:OOC: Hob White/Holybond : Medical is like center right.
+18-47:OOC: Hob White/Holybond : Yep.
+18-47:OOC: Cog Boozepick/Wrongnumber : Its very simple
+18-47:SAY: Hob White/Holybond : Hello.
+18-47:SAY: Cog Boozepick/Wrongnumber : Hi there
+18-47:SAY: Hob White/Holybond : *emote- taps on the glass
+18-47:OOC: Micro McGinley/Micro102 : Teleporter and EVA are on left side below bridge.
+18-47:SAY: Hob White/Holybond : Do you know where I should go to apply for a job?
+18-47:OOC: Micro McGinley/Micro102 : Ai foyer south middle
+18-47:SAY: Cog Boozepick/Wrongnumber : Go to arrival area
+18-47:OOC: Anaya Simmens/Evilgrim123 : Is near sightedness broken?
+18-47:SAY: Hob White/Holybond : Where would that be,sir?
+18-47:SAY: Cog Boozepick/Wrongnumber : ;Captain a guy wants a job change i sent him to arival area
+18-47:SAY: Cog Boozepick/Wrongnumber : Folow
+18-47:OOC: Anaya Simmens/Evilgrim123 : I have Need Glasses to Yes, but nothing is different when i don&#39;t have them on? 
+18-47:OOC: Micro McGinley/Micro102 : How do you make a reinforced wall?
+18-47:ACCESS: Login: Xegeth from 77.103.224.146
+18-47:SAY: Cog Boozepick/Wrongnumber : In there
+18-47:OOC: Conall Edge/Master of Apples : Construct wall
+18-47:SAY: Hob White/Holybond : So I just wait?
+18-47:OOC: Conall Edge/Master of Apples : Then make reinforced metal
+18-47:OOC: Conall Edge/Master of Apples : Use it on the wall
+18-47:SAY: Cog Boozepick/Wrongnumber : ;Captain to arival area
+18-47:SAY: Cog Boozepick/Wrongnumber : Yep
+18-47:OOC: Micro McGinley/Micro102 : Not working.
+18-47:OOC: Conall Edge/Master of Apples : It takes a while
+18-47:SAY: Hob White/Holybond : Roger..thank you.
+18-47:SAY: Cog Boozepick/Wrongnumber : Seya
+18-47:OOC: Micro McGinley/Micro102 : There we go, took a lot of clicks
+18-47:SAY: Cog Boozepick/Wrongnumber : *yawn
+18-47:OOC: Hob White/Holybond : Lol I remember when the nubcakes would log on.
+18-47:OOC: Hob White/Holybond : Picking up the great fire extinguisher.
+18-47:GAME: Xegeth entered as Ashan Selfer
+18-47:OOC: Hob White/Holybond : bashing their heads in hearing the &#34;Thump&#34; sound.
+18-47:SAY: Hob White/Holybond : Hello sir?
+18-47:SAY: Ashan Selfer/Xegeth : Hello.
+18-47:SAY: Micro McGinley/Micro102 : Good day
+18-47:SAY: Ashan Selfer/Xegeth : May I have a job?
+18-47:SAY: Hob White/Holybond : Are you the &#34;Captain?
+18-47:SAY: Hob White/Holybond : Hey pal..
+18-47:SAY: Hob White/Holybond : I was first.
+18-47:SAY: Hob White/Holybond : There&#39;s a line.
+18-47:SAY: Unknown/Micro102 : Yes I am and what job would you like.
+18-47:MATTACK: Anaya Simmens(Evilgrim123) attcked by Anaya Simmens(Evilgrim123) with the oxygentank
+18-47:SAY: Hob White/Holybond : Well I am pretty good in the field of research.
+18-47:SAY: Unknown/Micro102 : Ok
+18-47:OOC: Conall Edge/Master of Apples : AFK DINNER
+18-47:SAY: Ashan Selfer/Xegeth : I&#39;d like to be security please.
+18-47:SAY: Hob White/Holybond : *salute
+18-47:SAY: Hob White/Holybond : Thank you sir.
+18-47:SAY: Unknown/Micro102 : Your wlecome
+18-47:SAY: Ashan Selfer/Xegeth : Do you need my fingerprints?
+18-47:SAY: Unknown/Micro102 : No
+18-47:SAY: Ashan Selfer/Xegeth : Thanks.
+18-47:SAY: Unknown/Micro102 : Station was too chaotic to get fingerprints now.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : SCIENCE!
+18-47:SAY: Hob White/Holybond : Hello.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Hello
+18-47:SAY: Hob White/Holybond : ((Lol I see someone likes code geass.))
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;ve made a SHINY MAN.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ((And yes.))
+18-47:SAY: Hob White/Holybond : I am the Head of Research.
+18-47:SAY: Hob White/Holybond :  I shall be checking up from time to time.
+18-47:SAY: Micro McGinley/Micro102 : Why is he glowin?
+18-47:ACCESS: Login: DistortedAudio from 74.107.126.183
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Captain, I&#39;ve figured out the code to make people glow.
+18-47:SAY: Micro McGinley/Micro102 : Also get into uniform.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I am.
+18-47:SAY: Micro McGinley/Micro102 : Actually I think that is radiation.
+18-47:GAME: DistortedAudio entered as Hugo Stiglitz
+18-47:SAY: Micro McGinley/Micro102 : No, Hob
+18-47:ACCESS: Logout: Wrongnumber
+18-47:SAY: Hob White/Holybond : Hm?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Boom shakalock.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;I need a job.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Block 3, C3E.
+18-47:SAY: Micro McGinley/Micro102 : ;I&#39;ll be there soon
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: Evilgrim123 from 90.209.90.223
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Micro McGinley/Micro102 : Head of Personal sound good to you?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Yep.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : WAIT
+18-47:SAY: Hugo Stiglitz/DistortedAudio : HoS.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : I&#39;d rather HoS.
+18-47:SAY: Micro McGinley/Micro102 : Already have one
+18-47:SAY: Ghost/Evilgrim123 : Bwahahaa! 
+18-47:SAY: Hugo Stiglitz/DistortedAudio : HoP then.
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Lelouch vi Britannia(I-Aryn-I) with a DNA injector
+18-47:SAY: Hugo Stiglitz/DistortedAudio : NO!
+18-47:SAY: Micro McGinley/Micro102 : Please touch that
+18-47:SAY: Hugo Stiglitz/DistortedAudio : You take that.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : GLOWWWWW
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;It&#39;s confirmed.
+18-47:SAY: Ashan Selfer/Xegeth : ;What is?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;I can make people glow.
+18-47:SAY: Ashan Selfer/Xegeth : ;Why is Conall Edge covered in blood?
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Lelouch vi Britannia(I-Aryn-I) with a DNA injector
+18-47:ACCESS: Login: Gbroderix from 82.20.248.164
+18-47:SAY: Micro McGinley/Micro102 : Come with me
+18-47:SAY: Hob White/Holybond : Roger.
+18-47:SAY: Micro McGinley/Micro102 : Grab one please
+18-47:SAY: Micro McGinley/Micro102 : Then drop them
+18-47:SAY: Hob White/Holybond : Myself also?
+18-47:SAY: Micro McGinley/Micro102 : Yes
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Why is it that injectors don&#39;t cause radiation but DNA machines do?
+18-47:OOC: Hob White/Holybond : I think the injectors have been purified.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Dr. Manhattan.
+18-47:SAY: Hob White/Holybond : Hm.
+18-47:SAY: Hob White/Holybond : My name is Hob White.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ((XD))
+18-47:ACCESS: Login: Wrongnumber from 124.198.169.221
+18-47:SAY: Hob White/Holybond : You can call me Mr.White if you like.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Okay.
+18-47:SAY: Hob White/Holybond : Do not mind my formal dress..I just feel more comfortable this way.
+18-47:OOC: Cog Boozepick/Wrongnumber : Im back again
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I have yet to determine what the glowing does.
+18-47:SAY: Hob White/Holybond : *chuckle
+18-47:ACCESS: Logout: Evilgrim123
+18-47:SAY: Hob White/Holybond : Is that man alive?
+18-47:SAY: Micro McGinley/Micro102 : ;Hob your HoR right
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Supposedly.
+18-47:GAME: Gbroderix entered as Cog Vomitbed
+18-47:SAY: Micro McGinley/Micro102 : ;?
+18-47:SAY: Hob White/Holybond : ; Yes sir!
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : He&#39;s kind of absent.
+18-47:SAY: Hob White/Holybond : ; Yes sir.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;I am god.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Yes this is all true.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;m not sure whether the experiments caused it.
+18-47:SAY: Cog Vomitbed/Gbroderix : *scream
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Also we have 4 people in our crew manifest.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Can you speak?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Everyone get down here.
+18-47:SAY: Cog Boozepick/Wrongnumber : Good god
+18-47:SAY: Urist Deathmaker/TechLord : GRAAAWRGH
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Vomitbed.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Calm down.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Uhm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Yeahhhhh..
+18-47:SAY: Urist Deathmaker/TechLord : MUST EAT DEAMON RAT
+18-47:SAY: Hob White/Holybond : What!?
+18-47:SAY: Cog Boozepick/Wrongnumber : Yea?
+18-47:SAY: Hob White/Holybond : Secure that man.
+18-47:SAY: Cog Vomitbed/Gbroderix : *scream
+18-47:SAY: Hob White/Holybond : He is still alive.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:SAY: Micro McGinley/Micro102 : Ah good please grab a finger print card while your here
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Take him down.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by () with the oxygentank
+18-47:SAY: Hugo Stiglitz/DistortedAudio : TAKE HIM DOWN!
+18-47:SAY: Micro McGinley/Micro102 : Please give your finge rprints
+18-47:SAY: Cog Vomitbed/Gbroderix : *scream
+18-47:SAY: Micro McGinley/Micro102 : hello?
+18-47:SAY: Cog Vomitbed/Gbroderix : *scream
+18-47:SAY: Cog Boozepick/Wrongnumber : Hes down
+18-47:SAY: Hugo Stiglitz/DistortedAudio : We hate your kind Vomitbed!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Take him away.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Whose HoS?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Huzzah
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : I removed it.
+18-47:SAY: Urist Deathmaker/TechLord : glow gone : o
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SOEAK VOMITBED!
+18-47:SAY: Urist Deathmaker/TechLord : what was it?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SPEAK
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : No clue.
+18-47:SAY: Cog Vomitbed/Gbroderix : *shake
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Let&#39;s not do that again
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Beat him.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Once more.
+18-47:SAY: Hob White/Holybond : You went a tad bit crazy.
+18-47:SAY: Cog Boozepick/Wrongnumber : You shure?
+18-47:SAY: Hob White/Holybond : Unhand me.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Yes.
+18-47:SAY: Cog Vomitbed/Gbroderix : *scream
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SPEAK!
+18-47:SAY: Micro McGinley/Micro102 : ;Hmmmm maybe I only made a regular security officer....
+18-47:SAY: Cog Vomitbed/Gbroderix : *shake
+18-47:SAY: Hugo Stiglitz/DistortedAudio : BEAT HIM!
+18-47:SAY: Urist Deathmaker/TechLord : why? i was glowing
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SPEAK!
+18-47:SAY: Cog Vomitbed/Gbroderix : *shake
+18-47:SAY: Urist Deathmaker/TechLord : maybe i could burn by grabing
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Your clothes, should you wish to use them, are in that backpack.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : BEAT!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SPEAK!
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Well, you said things to the effect of GRARGH and MUST KILL DEMON RAT, so yeah.
+18-47:SAY: Micro McGinley/Micro102 : ;No, Ashten is HoS
+18-47:MATTACK: Cog Boozepick(Wrongnumber) attcked by Cog Vomitbed(Gbroderix) with Black Shoes
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Well, EAT.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : SPEAK
+18-47:SAY: Cog Vomitbed/Gbroderix : *shake
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Nein Nein.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Halt.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Do we have a Geneticist?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Yes.
+18-47:SAY: Micro McGinley/Micro102 : ;Yes
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Take him to the Gene Lab.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : For some &#34;modification.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;We have a subject for you.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Grab him.
+18-47:SAY: Micro McGinley/Micro102 : ;Use the monkeys.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ((Also, yes, I was the revolutionary leader at one point. It was referencetastic.))
+18-47:SAY: Conall Edge/Master of Apples : Hm?
+18-47:SAY: Micro McGinley/Micro102 : ;Put him in jail for a minute or 2 tot hink about what he has done.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;We are mein fuhrer.
+18-47:SAY: Hob White/Holybond : What is wrong with that man?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : He needs..
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Can I help you?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Modification.
+18-47:SAY: Hob White/Holybond : What is wrong with him?
+18-47:OOC: Micro McGinley/Micro102 : Who died????
+18-47:SAY: Hob White/Holybond : Like how?
+18-47:OOC: Hugo Stiglitz/DistortedAudio : No one.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Behavioral.
+18-47:OOC: Micro McGinley/Micro102 : But I see a ghost.
+18-47:OOC: Ashan Selfer/Xegeth : Isn&#39;t that IC in OOC?
+18-47:SAY: Cog Boozepick/Wrongnumber : *salute
+18-47:OOC: Micro McGinley/Micro102 : This really isn&#39;t a stable match
+18-47:SAY: Hob White/Holybond : You mean Torture.
+18-47:SAY: Cog Vomitbed/Gbroderix : *shake
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Ah, hello Mein Fuhrer.
+18-47:OOC: Micro McGinley/Micro102 : I broke into the captains room
+18-47:SAY: Hugo Stiglitz/DistortedAudio : *salute
+18-47:SAY: Hugo Stiglitz/DistortedAudio : No.
+18-47:SAY: Micro McGinley/Micro102 : Put him in jail
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Hugo Stiglitz/DistortedAudio : I mean riddilin.
+18-47:SAY: Micro McGinley/Micro102 : No genetic experiments.
+18-47:SAY: Cog Vomitbed/Gbroderix : *cough
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Don&#39;t worry.
+18-47:SAY: Cog Boozepick/Wrongnumber : Bring him out then
+18-47:SAY: Hugo Stiglitz/DistortedAudio : We&#39;re giving him a teeny tiny injection.
+18-47:SAY: Cog Vomitbed/Gbroderix : *collapses
+18-47:SAY: Hob White/Holybond : What act did he perform?
+18-47:SAY: Cog Vomitbed/Gbroderix : *collapse
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Murder.
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Cog Vomitbed/Gbroderix : *deathgasp
+18-47:SAY: Conall Edge/Master of Apples : ;Fuck
+18-47:SAY: Cog Boozepick/Wrongnumber : What the hell did you give him??
+18-47:SAY: Hugo Stiglitz/DistortedAudio : He is alive.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Do not worry.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Only an act.
+18-47:SAY: Cog Boozepick/Wrongnumber : Ah
+18-47:SAY: Micro McGinley/Micro102 : Please grab the fingerprint card.
+18-47:SAY: Conall Edge/Master of Apples : ;Some bastard welded me into the engine room
+18-47:SAY: Conall Edge/Master of Apples : ;And there&#39;s a body
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Riddilin.
+18-47:SAY: Micro McGinley/Micro102 : Now drop it
+18-47:SAY: Cog Vomitbed/Gbroderix : Do.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Here&#39;s hoping he doesn&#39;t live up to his name.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;N02!~
+18-47:SAY: Cog Vomitbed/Gbroderix : you know who i am?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;RELEASING FROM THE ENGINE!
+18-47:SAY: Conall Edge/Master of Apples : ;Really?
+18-47:SAY: Cog Boozepick/Wrongnumber : Ug i dont know what he did but the heads shure hate him
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : you&#39;re wearing your name on your card.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;YES!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;A TANK!
+18-47:SAY: Cog Vomitbed/Gbroderix : ;im the goddamn batman.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;INFRONT OF THE ROOM!
+18-47:ACCESS: Login: Shadowgandor from 83.84.235.167
+18-47:SAY: Conall Edge/Master of Apples : ;Well damn
+18-47:SAY: Cog Boozepick/Wrongnumber : Im off i need a break
+18-47:GAME: Shadowgandor entered as Bob Sundin
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Hmmm
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;INTERNALS!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;GET THEM!
+18-47:SAY: Hob White/Holybond : ; What?
+18-47:SAY: Conall Edge/Master of Apples : ;I can&#39;t get out
+18-47:SAY: Conall Edge/Master of Apples : ;Door&#39;s welded
+18-47:SAY: Cog Vomitbed/Gbroderix : hey...
+18-47:SAY: Cog Vomitbed/Gbroderix : uncuff me
+18-47:SAY: Micro McGinley/Micro102 : ;What door is welded where?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Deactivate the Fire Alert.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Conall.
+18-47:SAY: Cog Boozepick/Wrongnumber : I just found them here
+18-47:SAY: Hugo Stiglitz/DistortedAudio : &#39;;Conall!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Conall!
+18-47:SAY: Bob Sundin/Shadowgandor : ;Bob Sundin here, waiting for a job assignment.
+18-47:SAY: Conall Edge/Master of Apples : ;I&#39;m stuck in the control room
+18-47:SAY: Conall Edge/Master of Apples : ;It&#39;s welded
+18-47:SAY: Conall Edge/Master of Apples : ;and Ashan&#39;s body is here
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Not anylonger.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : It seems safe.
+18-47:SAY: Hob White/Holybond : Let&#39;s see if I remember anything.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Deactivate the fucking fire alert 
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Conall Edge/Master of Apples : ;It&#39;s not acive
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Conall Edge/Master of Apples : ;I think this door&#39;s welded too
+18-47:SAY: Cog Vomitbed/Gbroderix : *collapse
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : *emote hums to himself.
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : *help
+18-47:SAY: Bob Sundin/Shadowgandor : ;Does this station have a HoP? It sounds like there&#39;s some kind of trouble
+18-47:ACCESS: Login: Hamper700 from 92.8.23.34
+18-47:SAY: Conall Edge/Master of Apples : ;Unweld the 
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Conall Edge/Master of Apples : Oh
+18-47:SAY: Conall Edge/Master of Apples : Hey
+18-47:SAY: Hugo Stiglitz/DistortedAudio : The fuck?
+18-47:SAY: Conall Edge/Master of Apples : ;Oh
+18-47:SAY: Conall Edge/Master of Apples : ;The blood
+18-47:SAY: Conall Edge/Master of Apples : ;That&#39;s old
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Bob.
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Get in there.
+18-47:SAY: Conall Edge/Master of Apples : ;The captain and I had a conflict
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Cog Boozepick/Wrongnumber : Why sir?
+18-47:SAY: Cog Vomitbed/Gbroderix : *gasp
+18-47:SAY: Bob Sundin/Shadowgandor : ;Wait what?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : No need to.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Never mind.
+18-47:SAY: Bob Sundin/Shadowgandor : ;I haven&#39;t seen any blood yet
+18-47:SAY: Cog Vomitbed/Gbroderix : *deathgasp
+18-47:ACCESS: Logout: Hamper700
+18-47:SAY: Conall Edge/Master of Apples : ;Onb me
+18-47:ACCESS: Login: Hamper700 from 92.8.23.34
+18-47:SAY: Micro McGinley/Micro102 : ;We have an airloss in the northern security brig.
+18-47:SAY: Hob White/Holybond : *laugh
+18-47:SAY: Hob White/Holybond : Eureka!
+18-47:SAY: Cog Boozepick/Wrongnumber : What they do?
+18-47:SAY: Conall Edge/Master of Apples : ;Fuck
+18-47:ACCESS: Logout: Hamper700
+18-47:SAY: Micro McGinley/Micro102 : Your the onw who caught him
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : CO2 buildup.
+18-47:SAY: Micro McGinley/Micro102 : He blitzed the arrival hall,.
+18-47:SAY: Cog Boozepick/Wrongnumber : Not realy
+18-47:SAY: Cog Boozepick/Wrongnumber : Ah thats right
+18-47:SAY: Bob Sundin/Shadowgandor : ;Bob sundin here. Awaiting orders.
+18-47:SAY: Cog Boozepick/Wrongnumber : Dont make me come in there
+18-47:SAY: Micro McGinley/Micro102 : We will let you out soon
+18-47:OOC: Conall Edge/Master of Apples : Fuck.
+18-47:SAY: Cog Vomitbed/Gbroderix : *nod
+18-47:SAY: Urist Deathmaker/TechLord : u make a deathtrap for already dead moinkeys
+18-47:SAY: Micro McGinley/Micro102 : Don&#39;t make us make it longer.
+18-47:SAY: Hob White/Holybond : I have done it!
+18-47:SAY: Bob Sundin/Shadowgandor : Hello there
+18-47:SAY: Hob White/Holybond : I made a smoke bomb.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:SAY: Hob White/Holybond : Who is this man?
+18-47:SAY: Hob White/Holybond : Please exit this area.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:OOC: Micro McGinley/Micro102 : Wtf who did that?!?!?1
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:OOC: Cog Boozepick/Wrongnumber : Seya guy
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:MATTACK: Cog Vomitbed(Gbroderix) attcked by Cog Vomitbed(Gbroderix) with the pen
+18-47:SAY: Urist Deathmaker/TechLord : I am test subject 142
+18-47:OOC: Cog Boozepick/Wrongnumber : Did what?
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Micro McGinley/Micro102 : He released N2O into engine hallway.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : So, I think we should start UI tests.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Cog Boozepick/Wrongnumber : Yea its been there a while
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : It&#39;s a little-known area of genetics.
+18-47:OOC: Conall Edge/Master of Apples : I&#39;m down OMG IC IN OOOC HURT ME
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Micro McGinley/Micro102 : Please say these things...
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Cog Boozepick/Wrongnumber : Anyway gota get goin
+18-47:ACCESS: Logout: Wrongnumber
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Conall Edge/Master of Apples : Ciao
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Also, I need a lightbulb.
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:OOC: Bob Sundin/Shadowgandor : Printscreen. I know you love me
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:SAY: Hob White/Holybond : Hm..
+18-47:SAY: Hob White/Holybond : Did he willing sign up for this?
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:MATTACK: Cog Vomitbed(Gbroderix) clicked on Cog Vomitbed(Gbroderix) with intent on harm
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Yep.
+18-47:OOC: Micro McGinley/Micro102 : RP sleeping
+18-47:SAY: Bob Sundin/Shadowgandor : ;Anyone?
+18-47:SAY: Bob Sundin/Shadowgandor : ;Is anyone still alive? My radio seemed to have died
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;I&#39;m alive.
+18-47:SAY: Bob Sundin/Shadowgandor : ;I&#39;m not receiving anything?
+18-47:OOC: Hugo Stiglitz/DistortedAudio : Damn.
+18-47:OOC: Hugo Stiglitz/DistortedAudio : Got there too lat.e
+18-47:SAY: Bob Sundin/Shadowgandor : ;Stiglitz, what&#39;s going on?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Captain is dead.
+18-47:OOC: Conall Edge/Master of Apples : I are down, save meeeeeee
+18-47:OOC: Conall Edge/Master of Apples : inb4 ic in ooc
+18-47:SAY: Bob Sundin/Shadowgandor : ;May he rest in peace.
+18-47:OOC: Unknown/Micro102 : Genetics guy still alive? He knows how to revive us right?
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Yes.
+18-47:OOC: Conall Edge/Master of Apples : I&#39;m not deaaad
+18-47:SAY: Bob Sundin/Shadowgandor : Sir?
+18-47:OOC: Conall Edge/Master of Apples : ):
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Go back.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Go back!
+18-47:OOC: Unknown/Micro102 : I&#39;m watching you distorted.
+18-47:SAY: Conall Edge/Master of Apples : ooooooh
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK.
+18-47:SAY: Conall Edge/Master of Apples : Thank fuck
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Stay in here
+18-47:SAY: Hob White/Holybond : ; When did he die!?
+18-47:SAY: Conall Edge/Master of Apples : Nonono
+18-47:SAY: Conall Edge/Master of Apples : Wait
+18-47:SAY: Conall Edge/Master of Apples : The dead guy
+18-47:SAY: Hugo Stiglitz/DistortedAudio : What
+18-47:SAY: Conall Edge/Master of Apples : He&#39;s got a mask
+18-47:SAY: Conall Edge/Master of Apples : Get it for me
+18-47:SAY: Hugo Stiglitz/DistortedAudio : *sigh
+18-47:SAY: Conall Edge/Master of Apples : In control
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Hold on.
+18-47:SAY: Conall Edge/Master of Apples : I think
+18-47:SAY: Hob White/Holybond : ; We might be able to bring him back.
+18-47:SAY: Bob Sundin/Shadowgandor : Sir? Who released the plasma?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Also, I&#39;m not sure what the effects of nervousness are.
+18-47:SAY: Conall Edge/Master of Apples : Thanks
+18-47:OOC: Urist Deathmaker (as Cog Doormurdered)/TechLord : where can i see which nickname maps to which ingame name?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Don&#39;t know.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Intend to find out.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : With this...
+18-47:SAY: Conall Edge/Master of Apples : That&#39;s mine
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Bob.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Get the Captain.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Head to the Gene Lab.
+18-47:SAY: Bob Sundin/Shadowgandor : This guy looks like the captain
+18-47:SAY: Hob White/Holybond : Bob.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Damn.
+18-47:SAY: Hob White/Holybond : Do you have the Captain&#39;s id?
+18-47:SAY: Bob Sundin/Shadowgandor : Hob.
+18-47:SAY: Bob Sundin/Shadowgandor : No
+18-47:SAY: Bob Sundin/Shadowgandor : I just found him on the floor here
+18-47:SAY: Hob White/Holybond : Then how can you access this authorized place?
+18-47:SAY: Bob Sundin/Shadowgandor : Assistants can enter through that door
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Died from Loss of 02.
+18-47:SAY: Unknown/Xegeth : I wonder if I&#39;ll get raised at any point.
+18-47:ACCESS: Login: Jackmantograva from 83.87.158.35
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Lelouch.
+18-47:SAY: Unknown/Micro102 : I&#39;ll see you do where is your body?
+18-47:SAY: Bob Sundin/Shadowgandor : See? I can&#39;t open the actual research doors
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Get your ass to the Gene Lab.
+18-47:SAY: Unknown/Xegeth : Engine.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Damn.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Whole cities cower from the cyber-flavored cheese in yourarea.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Who is he?
+18-47:SAY: Bob Sundin/Shadowgandor : No clue
+18-47:SAY: Hugo Stiglitz/DistortedAudio : A clone?
+18-47:SAY: Bob Sundin/Shadowgandor : He seems real
+18-47:SAY: Hugo Stiglitz/DistortedAudio : He has no life.
+18-47:SAY: Urist Deathmaker (as Cog Doormurdered)/TechLord : I am test subject 142
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK Testee.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Come over here.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : I wanna test something.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Come right along.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : C&#39;mon.
+18-47:SAY: Urist Deathmaker (as Cog Doormurdered)/TechLord : dont kill me
+18-47:SAY: Hugo Stiglitz/DistortedAudio : I won&#39;t.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Now.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : They will revive you afterwards.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK?
+18-47:SAY: Urist Deathmaker (as Cog Doormurdered)/TechLord : : /
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK
+18-47:OOC: Bob Sundin/Shadowgandor : No emoticons like that IC
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OH FUCK!
+18-47:SAY: Bob Sundin/Shadowgandor : Idiot.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : DON&#39;T PLAY WITH FIRE
+18-47:OOC: Micro McGinley/Micro102 : Why not you could actually make that face.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : That is the lesson.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : OK.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Flamethrower is good.
+18-47:SAY: Bob Sundin/Shadowgandor : My waistcoat burned.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Lelouch.
+18-47:SAY: Bob Sundin/Shadowgandor : *frown
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Get to the GeneLab
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Bob Sundin/Shadowgandor : Sir
+18-47:SAY: Bob Sundin/Shadowgandor : Did you see that?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : What?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : How he got in?
+18-47:SAY: Bob Sundin/Shadowgandor : The chemist shouldn&#39;t be able to open that door
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Hugo Stiglitz/DistortedAudio : He should not.
+18-47:SAY: Conall Edge/Master of Apples : You aight?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Crap
+18-47:SAY: Hugo Stiglitz/DistortedAudio : What does that mean?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Burn him
+18-47:SAY: Bob Sundin/Shadowgandor : I think we&#39;ve found the captain&#39;s ID
+18-47:SAY: Hugo Stiglitz/DistortedAudio : I have the Cap&#39;s ID
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Yes
+18-47:ACCESS: Logout: Jackmantograva
+18-47:SAY: Hugo Stiglitz/DistortedAudio : HoP man
+18-47:SAY: Hugo Stiglitz/DistortedAudio : My duty.
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Just need some internals.
+18-47:OOC: Cog Vomitbed/Gbroderix : hmm, lelouch... that reminds me, i was gonna watch code geass again today.
+18-47:SAY: Bob Sundin/Shadowgandor : You took it from Micro?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : After he died.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Yes.
+18-47:SAY: Bob Sundin/Shadowgandor : Hmm
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Hey.
+18-47:ACCESS: Logout: Gbroderix
+18-47:OOC: Hugo Stiglitz/DistortedAudio : Why though
+18-47:OOC: Hugo Stiglitz/DistortedAudio : It&#39;s such a terrible show.
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Now.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Here is what I don&#39;t like.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Dead Monkey in the Chemist&#39;s are.a
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Lelouch.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;GET YOUR ASS TO GENETICS
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;OK
+18-47:SAY: Hugo Stiglitz/DistortedAudio : What are you doing?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Hmmm
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Why do you keep moving.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Stand still.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Jesus.
+18-47:SAY: Bob Sundin/Shadowgandor : *twitch
+18-47:SAY: Bob Sundin/Shadowgandor : MUST
+18-47:SAY: Bob Sundin/Shadowgandor : MOVE
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;I&#39;m trapped in the maintainence corridor. Watch for N2O.
+18-47:SAY: Bob Sundin/Shadowgandor : *twitch
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;Where aer you?
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Maintainence hall, near engine.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Lelouch.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Come on.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Two dead.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Revive them.
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: Login: Guest-1051163820 from 78.84.148.132
+18-47:ACCESS: Login: Paladinguy from 68.184.146.128
+18-47:GAME: Paladinguy entered as Kael
+18-47:SAY: Unknown/Xegeth : Looks like I&#39;m not getting raised any time soon.
+18-47:SAY: Conall Edge/Master of Apples : ;Ciao
+18-47:GAME: Finished building powernets (35 nets)
+18-47:SAY: Bob Sundin/Shadowgandor : ;May I ask what the purpose of that was?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : &#39;Conall?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;You dead?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;You dead Conall?
+18-47:SAY: Bob Sundin/Shadowgandor : SIR!
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Micro McGinley(Micro102) with a DNA injector
+18-47:SAY: Bob Sundin/Shadowgandor : Why did you eject the engine?
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: Micro102 from 24.184.14.119
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Bob Sundin/Shadowgandor : Are you MAD!
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Uh .
+18-47:SAY: Bob Sundin/Shadowgandor : ?
+18-47:SAY: Hugo Stiglitz/DistortedAudio : cuz I didn&#39;t.
+18-47:GAME: Guest-1051163820 entered as Cerol Combinedpulley
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : Hello
+18-47:SAY: Kael/Paladinguy : hey
+18-47:SAY: Hugo Stiglitz/DistortedAudio : That was some other retard.
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: Micro102 from 24.184.14.119
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Bob Sundin/Shadowgandor : Is he still on the bridge?
+18-47:SAY: Bob Sundin/Shadowgandor : He certainly wasn&#39;t located in engineering.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : No.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : He is in the engine.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : RIGHT NOW.
+18-47:SAY: Hugo Stiglitz/DistortedAudio : PLUMEETING THROUGH SPACE&gt;
+18-47:OOC: Hugo Stiglitz/DistortedAudio : Y&#39;know.
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Hugo Stiglitz/DistortedAudio : ;This round ain&#39;t too fun.
+18-47:SAY: Bob Sundin/Shadowgandor : I find that hard to believe, the engine was burning
+18-47:OOC: Hugo Stiglitz/DistortedAudio : I&#39;m about to end it.
+18-47:SAY: Bob Sundin/Shadowgandor : And I mean outside the combustion chamber
+18-47:SAY: Hugo Stiglitz/DistortedAudio : Suicide.
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : Uhhhmmmmm
+18-47:OOC: Cog Boozeaxe/Micro102 : Griefer..
+18-47:OOC: Lelouch vi Britannia/I-Aryn-I : May I ask how? O_O
+18-47:VOTE: Voting to restart round started by Bob Sundin/Shadowgandor
+18-47:OOC: Hugo Stiglitz/DistortedAudio : &#39;I&#39;m not a griefer.
+18-47:OOC: Cog Boozeaxe/Micro102 : Who ejected the engine
+18-47:SAY: Kael/Paladinguy : guess what!
+18-47:SAY: Bob Sundin/Shadowgandor : Idiot.
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Cog Boozeaxe(Micro102) with a syringe
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) injected Cog Boozeaxe(Micro102) with a syringe filled with 
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Cog Boozeaxe(Micro102) with a syringe
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) injected Cog Boozeaxe(Micro102) with a syringe filled with 
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) clicked on Cog Boozeaxe(Micro102) with a syringe
+18-47:MATTACK: Lelouch vi Britannia(I-Aryn-I) injected Cog Boozeaxe(Micro102) with a syringe filled with 
+18-47:SAY: Kael/Paladinguy : *starts to get crazy*
+18-47:SAY: Cerol Combinedpulley/Guest-1051163820 : yes?
+18-47:ACCESS: Logout: 
+18-47:ACCESS: Login: TechLord from 90.153.66.197
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:ACCESS: They share computer ID's
+18-47:SAY: Kael/Paladinguy : halusanates
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;Genetics has no power!
+18-47:OOC: Hugo Stiglitz/DistortedAudio : I honestly don&#39;t know who did.
+18-47:SAY: Kael/Paladinguy : im sick of this!
+18-47:OOC: Cog Boozeaxe/Micro102 : I guess someone doesn&#39;t know how to use the cryocell....
+18-47:OOC: Hugo Stiglitz/DistortedAudio : APPLES
+18-47:VOTE: Voting closed, result was restart
+18-47:SAY: Lelouch vi Britannia/I-Aryn-I : ;I&#39;m trapped,and there&#39;s a man dying.
+18-47:SAY: Bob Sundin/Shadowgandor : ;Power went out throughough the station
+18-47:SAY: Kael/Paladinguy : arrragh!
+18-47:MATTACK: Kael(Paladinguy) attcked by Cerol Combinedpulley(Guest-1051163820) with the crowbar
+18-47:GAME: Rebooting due to restart vote
+18-47:MATTACK: Bob Sundin(Shadowgandor) attcked by Hugo Stiglitz(DistortedAudio) with the toolbox
+18-47:MATTACK: Kael(Paladinguy) attcked by Cerol Combinedpulley(Guest-1051163820) with the crowbar
+18-47:ACCESS: Logout: TechLord
+18-47:ACCESS: Logout: I-Aryn-I
+18-47:ACCESS: Logout: Master of Apples
+18-47:ACCESS: Logout: Micro102
+18-47:ACCESS: Logout: Shadowgandor
+18-47:ACCESS: Logout: Guest-1051163820
+18-47:ACCESS: Logout: Holybond
+18-47:ACCESS: Logout: DistortedAudio
+18-47:ACCESS: Logout: Xegeth
+18-47:ACCESS: Logout: Paladinguy
+20-53:GAME: Finished building powernets (29 nets)
+20-53:ADMIN: Loading crban_keylist
+20-53:ADMIN: Loading crban_reason
+20-53:ADMIN: Loading crban_time
+20-53:ADMIN: Loading crban_bannedby
+20-53:ADMIN: Loading crban_iplist
+20-53:ADMIN: Loading crban_unbanned
+20-53:ADMIN: Loading crban_ComputerIDs
+20-53:ADMIN: crban_computerIDs was empty
+20-53:ADMIN: Loading jobban_rank
+20-53:ADMIN: Updating jobbanfile!
+20-53:ACCESS: Login: I-Aryn-I from 71.229.232.215
+20-53:ACCESS: Login: Xegeth from 77.103.224.146
+20-53:ACCESS: Login: Shadowgandor from 83.84.235.167
+20-53:GAME: Xegeth entered as Ashan Selfer
+20-53:ACCESS: Login: TechLord from 90.153.66.197
+20-53:GAME: I-Aryn-I entered as Lelouch vi Britannia
+20-53:GAME: Shadowgandor entered as Bob Sundin
+20-53:ACCESS: Login: Holybond from 151.205.96.154
+20-53:ACCESS: Login: DistortedAudio from 74.107.126.183
+20-53:ACCESS: Login: Master of Apples from 86.164.189.237
+20-53:GAME: Holybond entered as Hob White
+20-53:ACCESS: Login: Paladinguy from 68.184.146.128
+20-53:OOC: Lelouch vi Britannia/I-Aryn-I : OOC Lelouch is OOC.
+20-53:GAME: Paladinguy entered as Kael
+20-53:GAME: Master of Apples entered as Conall Edge
+20-53:VOTE: Voting to change mode started by Bob Sundin/Shadowgandor
+20-53:GAME: TechLord entered as Urist Boatriver
+20-53:GAME: DistortedAudio entered as Hugo Stiglitz
+20-53:SAY: Hugo Stiglitz/DistortedAudio : IT BURNS
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;ITBURNS
+20-53:SAY: Hugo Stiglitz/DistortedAudio : BURNS
+20-53:SAY: Hugo Stiglitz/DistortedAudio : BURNZ
+20-53:SAY: Hugo Stiglitz/DistortedAudio : BURNS
+20-53:SAY: Bob Sundin/Shadowgandor : Shut it!
+20-53:SAY: Bob Sundin/Shadowgandor : You woose
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Woose?
+20-53:ACCESS: Login: Micro102 from 24.184.14.119
+20-53:SAY: Hugo Stiglitz/DistortedAudio : The fuck?
+20-53:VOTE: Voting closed, result was traitor
+20-53:GAME: Micro102 entered as Micro McGinley
+20-53:OOC: Micro McGinley/Micro102 : I want to be a traitorous human, I&#39;m always the AI traitor.
+20-53:ACCESS: Login: Rogunz from 66.75.9.193
+20-53:GAME: Rogunz entered as Denholm Jenkins
+20-53:OOC: Bob Sundin/Shadowgandor : I&#39;ve been the traitor once, I was the HoP
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : *fails
+20-53:OOC: Bob Sundin/Shadowgandor : &#39;Steal a handteleporter&#39;
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : *help
+20-53:OOC: Conall Edge/Master of Apples : Why can&#39;t I press ready dammit
+20-53:OOC: Hugo Stiglitz/DistortedAudio : because YOU FAIL.
+20-53:OOC: Denholm Jenkins/Rogunz : Eh, that still requires a little work
+20-53:OOC: Bob Sundin/Shadowgandor : Ok. Station went to hell, we escaped on the escape shuttle
+20-53:GAME: starting game of traitor
+20-53:ACCESS: Logout: 
+20-53:ACCESS: Login: Rogunz from 66.75.9.193
+20-53:ACCESS: They share computer ID's
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : *signal-5
+20-53:SAY: Hugo Stiglitz/DistortedAudio : NO!
+20-53:SAY: Ashan Selfer/Xegeth : Hello.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Hey.
+20-53:OOC: Micro McGinley/Micro102 : ANYTHING BUT MEDICAL DOCTOR!!!!!!!
+20-53:OOC: Conall Edge/Master of Apples : Actually it was lag, nice one
+20-53:SAY: Hugo Stiglitz/DistortedAudio : D-D-D-D-D-D-D-Dick Magnum.
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : But medical docter is great
+20-53:SAY: Micro McGinley/Micro102 : ;Anyone know how to use a cryo cell?
+20-53:SAY: Ashan Selfer/Xegeth : What?
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : When you can RP with insane people
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : I am programmed to instruct in its use
+20-53:OOC: Conall Edge/Master of Apples : Why am I still in the starting area, despite being told I&#39;m chemist
+20-53:ACCESS: Logout: Master of Apples
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Lag, relog
+20-53:SAY: Micro McGinley/Micro102 : What are you doing?
+20-53:ACCESS: Login: Lucaboii from 94.168.104.138
+20-53:SAY: Urist Boatriver/TechLord : nothing
+20-53:OOC: Luca Foulger/Lucaboii : Rawr! :O
+20-53:GAME: Lucaboii entered as Luca Foulger
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : Lelouch, please release the gasses in teh vats, and connect C02
+20-53:OOC: Hugo Stiglitz/DistortedAudio : DENHOLM IS AI!
+20-53:MATTACK: Kael(Paladinguy)has shot a taser round at the r wall
+20-53:SAY: Ashan Selfer/Xegeth : ;Hi everyone. HoS here. Report in everyone.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : RUN!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;LELOUCH!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;DON&#39;T!
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Im actaully a decent AI
+20-53:SAY: Bob Sundin/Shadowgandor : ;Plasma researcher here.
+20-53:OOC: Luca Foulger/Lucaboii : Ahhhhhhhhhhhh!
+20-53:MATTACK: Kael(Paladinguy)has shot a taser round at the floor
+20-53:ACCESS: Login: DeTony from 88.196.108.69
+20-53:OOC: Luca Foulger/Lucaboii : Its every Luca for themselves! :O
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : A bit of a stalker though
+20-53:GAME: DeTony entered as Urist Daggerengraving
+20-53:SAY: Ashan Selfer/Xegeth : Have you even moved?
+20-53:SAY: Ashan Selfer/Xegeth : Are you there?
+20-53:ACCESS: Logout: DeTony
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;YES!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : I AM
+20-53:OOC: Micro McGinley/Micro102 : There really is no point in genetics if medibay has the same stuff.
+20-53:ACCESS: Login: DeTony from 88.196.108.69
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Lelouch do not release gas into the valves.
+20-53:OOC: Bob Sundin/Shadowgandor : Urh?
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : There iws
+20-53:OOC: Bob Sundin/Shadowgandor : Micro....
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;What?
+20-53:SAY: Ashan Selfer/Xegeth : Are you going to patrol?
+20-53:SAY: Hob White/Holybond : ; Genetics Researcher Hob White reporting in.
+20-53:OOC: Micro McGinley/Micro102 : Yes?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : He already has
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Yeah.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : I will.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : In a bit.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Godammit.
+20-53:SAY: Luca Foulger/Lucaboii : Gas in the Valves...? Greeeeeat
+20-53:OOC: Bob Sundin/Shadowgandor : Since when does a medical officer have a dna modifier&gt;?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : Leouch, you must connect canisters of C02 to generate power
+20-53:OOC: Micro McGinley/Micro102 : Since the last update.
+20-53:OOC: Bob Sundin/Shadowgandor : and does a geneticist have a huge stack of different medicines and all
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Sorry, I&#39;m used to another model.
+20-53:ACCESS: Login: Master of Apples from 86.164.189.237
+20-53:OOC: Micro McGinley/Micro102 : Yes they can accesss medical storage.
+20-53:ACCESS: Failed Login: Akp25oo Reason: Key banned
+20-53:OOC: Bob Sundin/Shadowgandor : The...medical officer has a dna modifier? They have an advanced health scanner, yes, but I don&#39;t htink they have a dna modifer
+20-53:OOC: Micro McGinley/Micro102 : Yeah they do I just saw it.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Welp.
+20-53:OOC: Conall Edge/Master of Apples : Naw they has scanner
+20-53:OOC: Hugo Stiglitz/DistortedAudio : If Rogunz is traitor.
+20-53:OOC: Conall Edge/Master of Apples : it look same
+20-53:OOC: Hugo Stiglitz/DistortedAudio : We&#39;re dead.
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Yes
+20-53:OOC: Micro McGinley/Micro102 : Why?
+20-53:SAY: Kael/Paladinguy : hey
+20-53:SAY: Conall Edge/Master of Apples : Howdy partner!
+20-53:SAY: Ashan Selfer/Xegeth : Hello.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Gas in the valves.
+20-53:OOC: Micro McGinley/Micro102 : I&#39;ll punch him until he dies, game over.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Now he can release C02 at will.
+20-53:OOC: Conall Edge/Master of Apples : He&#39;s atmos?
+20-53:SAY: Ashan Selfer/Xegeth : Why are you armed?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : The AI
+20-53:OOC: Conall Edge/Master of Apples : Remember, no metagaming :P
+20-53:OOC: Micro McGinley/Micro102 : He has to leave atmos to release the gas.
+20-53:SAY: Kael/Paladinguy : im going to stick with you
+20-53:OOC: Lelouch vi Britannia/I-Aryn-I : I&#39;m an engineer.
+20-53:OOC: Micro McGinley/Micro102 : O dam
+20-53:SAY: Kael/Paladinguy : oh sorry
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Sorry, I need to clarify, I released gas into the engine.
+20-53:SAY: Kael/Paladinguy : whats you rposition?
+20-53:SAY: Kael/Paladinguy : your*
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Oh.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Cool.
+20-53:OOC: Micro McGinley/Micro102 : Wait this could also be nuclear or rev
+20-53:OOC: Bob Sundin/Shadowgandor : even zombie is an option
+20-53:OOC: Micro McGinley/Micro102 : Nah we would of gotten a message by now.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Yep.
+20-53:OOC: Conall Edge/Master of Apples : DUN DUN DUUUUUUN
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Or extended
+20-53:OOC: Micro McGinley/Micro102 : I don&#39;t think extended is part of the random choice.
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Oh, random, not secret?
+20-53:SAY: Ashan Selfer/Xegeth : Hello.
+20-53:SAY: Bob Sundin/Shadowgandor : Good day sir
+20-53:OOC: Micro McGinley/Micro102 : No secret
+20-53:SAY: Hob White/Holybond : Hm..
+20-53:OOC: Micro McGinley/Micro102 : But it randomly picks one
+20-53:SAY: Hob White/Holybond : Sorry I seemed to blank out.
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Extened is a secret choiuce
+20-53:SAY: Urist Daggerengraving/DeTony : Could HoP report to his postition and assign me a job please.
+20-53:SAY: Ashan Selfer/Xegeth : I just wanted to request that you inform me about any bombs.
+20-53:SAY: Bob Sundin/Shadowgandor : Yes sir.
+20-53:SAY: Bob Sundin/Shadowgandor : By the way sir
+20-53:OOC: Micro McGinley/Micro102 : The modes are assigned by admins and I don&#39;t think an admin would put down extended RP as one of them.
+20-53:SAY: Ashan Selfer/Xegeth : Yes?
+20-53:SAY: Bob Sundin/Shadowgandor : Do you have any knowledge on how to safely siphon the heated plasma?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : We do not have a Head of Personel
+20-53:SAY: Bob Sundin/Shadowgandor : The canisters melt
+20-53:OOC: Hugo Stiglitz/DistortedAudio : How do you start the Syndi Shuttle?
+20-53:SAY: Ashan Selfer/Xegeth : Sorry, no.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Oh sorry found it
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : ...
+20-53:OOC: Micro McGinley/Micro102 : Lol don&#39;t listen to him
+20-53:SAY: Urist Daggerengraving/DeTony : Fun..
+20-53:OOC: Bob Sundin/Shadowgandor : ^_-
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Yeah
+20-53:OOC: Micro McGinley/Micro102 : He is obviously lying.
+20-53:OOC: Urist Boatriver/TechLord : what does rejuverator do?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : Kael, please assign Urist a job
+20-53:OOC: Micro McGinley/Micro102 : You should of gone.
+20-53:OOC: Micro McGinley/Micro102 : Ugh....Anyone know how to start the syndi shuttle? (/meta)
+20-53:OOC: J.E.N.K.I.N.S./Rogunz : Same as prison
+20-53:SAY: Urist Daggerengraving/DeTony : Well i&#39;ll be waiting here,at the entrance.To station.
+20-53:SAY: Ashan Selfer/Xegeth : Are you going to assign a HoP?
+20-53:SAY: Kael/Paladinguy : yes...
+20-53:OOC: Bob Sundin/Shadowgandor : Does anyone know how to siphon the heated plasma?
+20-53:SAY: Ashan Selfer/Xegeth : Why is that on?
+20-53:SAY: Kael/Paladinguy : i assign...
+20-53:OOC: Hugo Stiglitz/DistortedAudio : NO!
+20-53:SAY: Kael/Paladinguy : i just picked it up
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Operative 1
+20-53:SAY: Ashan Selfer/Xegeth : The radio.
+20-53:SAY: Kael/Paladinguy : i assign you
+20-53:OOC: Hugo Stiglitz/DistortedAudio : DO NOT SET BOMBS!
+20-53:SAY: Kael/Paladinguy : its not...
+20-53:SAY: Ashan Selfer/Xegeth : Hello AI.
+20-53:OOC: Micro McGinley/Micro102 : I am gonna murder Distorted when I see him...
+20-53:OOC: Bob Sundin/Shadowgandor : Connecting it to a connector using the wrench and then setting the lower pipes on  siphon melts the canister
+20-53:SAY: Kael/Paladinguy : i assign you Ashan
+20-53:SAY: Ashan Selfer/Xegeth : Nice to see you listening to private conversations.
+20-53:SAY: Ashan Selfer/Xegeth : I have a job.
+20-53:SAY: Kael/Paladinguy : huh?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : It is part of my programming
+20-53:SAY: Kael/Paladinguy : ok
+20-53:SAY: Kael/Paladinguy : ill find someone else
+20-53:ACCESS: Login: QuinnR from 174.26.2.253
+20-53:SAY: Ashan Selfer/Xegeth : Next time, you may want to turn it off first before turning the microphone on.
+20-53:GAME: QuinnR entered as Cog Woodbed
+20-53:SAY: Ashan Selfer/Xegeth : Can you do that, AI?
+20-53:OOC: Cog Woodbed/QuinnR : Updates?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Shut up JNKINS.
+20-53:SAY: Hob White/Holybond : Who is that man?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;You&#39;re a douche.
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : I have
+20-53:OOC: Cog Woodbed/QuinnR : Wait...where did my walls go?
+20-53:SAY: Kael/Paladinguy : i didnt know it was on
+20-53:OOC: Conall Edge/Master of Apples : They got killed for fugliness
+20-53:OOC: Conall Edge/Master of Apples : I think
+20-53:OOC: Cog Woodbed/QuinnR : ...
+20-53:OOC: Cog Woodbed/QuinnR : NOOOOOOO
+20-53:OOC: Conall Edge/Master of Apples : Unless you make a fake wall
+20-53:ACCESS: Login: Alfie275 from 88.111.31.164
+20-53:OOC: Cog Woodbed/QuinnR : Those walls were better.
+20-53:OOC: Conall Edge/Master of Apples : In which case they exist again
+20-53:SAY: Ashan Selfer/Xegeth : That&#39;s because it&#39;s my job to worry about security.
+20-53:GAME: Alfie275 entered as Xen
+20-53:OOC: Cog Woodbed/QuinnR : Wait, fake walls have the old graphics still?
+20-53:SAY: Ashan Selfer/Xegeth : I notice things like that.
+20-53:OOC: Bob Sundin/Shadowgandor : /hug QuinnR
+20-53:OOC: Cog Woodbed/QuinnR : doesn&#39;t that make it kinda easy to find?
+20-53:OOC: Xen/Alfie275 : Hi guys!
+20-53:OOC: Conall Edge/Master of Apples : Fake walls have your walls
+20-53:SAY: Kael/Paladinguy : im glad to have you as the head of security
+20-53:OOC: Cog Woodbed/QuinnR : Hello
+20-53:OOC: Cog Woodbed/QuinnR : not really mine..
+20-53:SAY: Ashan Selfer/Xegeth : ;Are people still waiting for jobs?
+20-53:OOC: Cog Woodbed/QuinnR : but they are awesome.
+20-53:OOC: Bob Sundin/Shadowgandor : Hi there
+20-53:OOC: Cog Woodbed/QuinnR : Gah spawning is lagging
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : Yes
+20-53:SAY: Cog Woodbed/QuinnR : ;I need a job.
+20-53:SAY: Ashan Selfer/Xegeth : Captain, assign them unless you want a riot.
+20-53:OOC: Bob Sundin/Shadowgandor : It&#39;s that annoying song that plays at the beginning
+20-53:OOC: Cog Woodbed/QuinnR : a song?
+20-53:SAY: Ashan Selfer/Xegeth : I&#39;ve seen it happen.
+20-53:SAY: Kael/Paladinguy : ok
+20-53:OOC: Xen/Alfie275 : Couldnt fake wall just use same icon as wall for its closed state?
+20-53:OOC: Bob Sundin/Shadowgandor : It&#39;s completely unnecesarry and annoying
+20-53:OOC: Bob Sundin/Shadowgandor : Yea, just wait. It&#39;s the reason why it&#39;s lagging
+20-53:OOC: Bob Sundin/Shadowgandor : Right now, you&#39;re downloading that song
+20-53:SAY: Ashan Selfer/Xegeth : Should I do it?
+20-53:OOC: Cog Woodbed/QuinnR : I am in now
+20-53:OOC: Cog Woodbed/QuinnR : I didn&#39;t know we had a song.
+20-53:SAY: Kael/Paladinguy : yes
+20-53:SAY: Xen/Alfie275 : ;HoP come to arrivals
+20-53:OOC: Cog Woodbed/QuinnR : I would turn my volume on.
+20-53:SAY: Cog Woodbed/QuinnR : ;Yeah
+20-53:SAY: Ashan Selfer/Xegeth : ;Everyone waiting for a job, I&#39;ll just be a moment.
+20-53:ACCESS: Login: Jatacc from 130.245.193.110
+20-53:SAY: Kael/Paladinguy : also...
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;XEN!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;SHUT UP!
+20-53:SAY: Kael/Paladinguy : how do i use my headset?
+20-53:OOC: Xen/Alfie275 : We should have DF theme for music
+20-53:SAY: Cog Woodbed/QuinnR : ;HoP to arrivals.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;WOODBED!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;SHUT UP!
+20-53:ACCESS: Login: Longshoots from 84.45.134.188
+20-53:GAME: Jatacc entered as Urist Hammercrossbow
+20-53:SAY: Urist Daggerengraving/DeTony : HoP to arrivals.
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : Connall Edge has attempted to break into plasma reserch
+20-53:OOC: Cog Crossbowsteel/Longshoots : Hey, which server is the right one?
+20-53:OOC: Cog Woodbed/QuinnR : this one
+20-53:ACCESS: Login: Tiny Turtle from 85.220.64.49
+20-53:SAY: Ashan Selfer/Xegeth : Speak into it. ((Use ;message))
+20-53:OOC: Cog Crossbowsteel/Longshoots : Okay, thank you
+20-53:SAY: Cog Woodbed/QuinnR : Hmm
+20-53:OOC: Micro McGinley/Micro102 : O wait that isn&#39;t a DNA modifier in medibay.
+20-53:SAY: Cog Woodbed/QuinnR : this won&#39;t move...
+20-53:OOC: Micro McGinley/Micro102 : It&#39;s an advanced scanner.
+20-53:OOC: Cog Woodbed/QuinnR : yeah, its glitched
+20-53:SAY: Bob Sundin/Shadowgandor : ;Someone attempted to break into Plasma Research
+20-53:SAY: Kael/Paladinguy : ;hello?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;URIST!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;SHUT UP!
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : That was Connal Edge
+20-53:ACCESS: Logout: DeTony
+20-53:SAY: Kael/Paladinguy : hello officer
+20-53:ACCESS: Login: Dalenus from 174.55.76.162
+20-53:SAY: Hugo Stiglitz/DistortedAudio : KAL
+20-53:SAY: Conall Edge/Master of Apples : ;What
+20-53:SAY: Hugo Stiglitz/DistortedAudio : SHUT UP!
+20-53:ACCESS: Logout: Jatacc
+20-53:ACCESS: Login: DeTony from 88.196.108.69
+20-53:SAY: Conall Edge/Master of Apples : Who did that?
+20-53:ACCESS: Logout: Tiny Turtle
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : ; He is located in the east hallway, outside plasma reserch
+20-53:SAY: Kael/Paladinguy : ...
+20-53:SAY: Ashan Selfer/Xegeth : ;I&#39;m assigning jobs. Security, deal with plasma research.
+20-53:SAY: Conall Edge/Master of Apples : ;Correct
+20-53:SAY: Cog Woodbed/QuinnR : Id like a job.
+20-53:ACCESS: Logout: DeTony
+20-53:SAY: Conall Edge/Master of Apples : ;hello!
+20-53:SAY: Micro McGinley/Micro102 : Bob, did you see anything?
+20-53:SAY: Cog Woodbed/QuinnR : Maybe chemist?
+20-53:SAY: Kael/Paladinguy : thats no way to treat your superiors
+20-53:SAY: Hugo Stiglitz/DistortedAudio : What?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : You can suck adick.
+20-53:SAY: Cog Woodbed/QuinnR : oh
+20-53:SAY: Xen/Alfie275 : Engineer please
+20-53:SAY: Cog Woodbed/QuinnR : thanks.
+20-53:SAY: Micro McGinley/Micro102 : ;Bob Sundin, did you see who tried to break into toxins?
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : He seems to be in possesion of an incinerary device
+20-53:SAY: Conall Edge/Master of Apples : ;Where&#39;d that
+20-53:SAY: Cog Woodbed/QuinnR : hey
+20-53:SAY: Conall Edge/Master of Apples : ;Fire
+20-53:SAY: Cog Woodbed/QuinnR : you need a job?
+20-53:SAY: Conall Edge/Master of Apples : ;Come from?
+20-53:SAY: Bob Sundin/Shadowgandor : ;No, I noticed it too late
+20-53:SAY: J.E.N.K.I.N.S./Rogunz : And has ignited the southern hallway
+20-53:SAY: Ashan Selfer/Xegeth : ;We have a HoP now.
+20-53:ACCESS: Logout: Holybond
+20-53:ACCESS: Logout: Lucaboii
+20-53:ACCESS: Logout: Micro102
+20-53:ACCESS: Logout: TechLord
+20-53:ACCESS: Logout: Alfie275
+20-53:ACCESS: Logout: Paladinguy
+20-53:ACCESS: Logout: Longshoots
+20-53:ACCESS: Logout: DistortedAudio
+20-53:ACCESS: Logout: Rogunz
+20-53:ACCESS: Logout: Xegeth
+20-53:ACCESS: Logout: Shadowgandor
+20-53:ACCESS: Logout: QuinnR
+20-53:ACCESS: Logout: Master of Apples
+20-53:ACCESS: Logout: I-Aryn-I
+20-53:ACCESS: Logout: Dalenus
+20-53:ACCESS: Login: I-Aryn-I from 71.229.232.215
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : What just happened?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I feel like I&#39;ve been out for about an hour.
+20-53:ACCESS: Login: DistortedAudio from 74.107.126.183
+20-53:OOC: Hugo Stiglitz/DistortedAudio : What?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Why...this is confusing.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Hey.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : You.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Where are we?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Engine room.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : and why shouldn&#39;t I kill you?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Because I&#39;m the engineer.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Cool.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : We&#39;re locked in?
+20-53:ACCESS: Login: BlackStars from 94.172.41.229
+20-53:SAY: Hugo Stiglitz/DistortedAudio : No nd.&#39;
+20-53:ACCESS: Login: Forteen from 70.134.86.183
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Engine&#39;s running smoothly.
+20-53:GAME: Forteen entered as Bob Robertson
+20-53:GAME: BlackStars entered as Linus Alvah
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Anyone else confused?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : I started out as my character in the engine room.
+20-53:ACCESS: Login: TheGrifter from 67.8.151.66
+20-53:GAME: TheGrifter entered as Johnny "Meth" Cash
+20-53:SAY: Hugo Stiglitz/DistortedAudio : AAAAAAAAAAH
+20-53:SAY: Hugo Stiglitz/DistortedAudio : DIE
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : What?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : I don&#39;t know.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;m the engineer.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : I know.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Want out by the way?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : OK.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : No.
+20-53:SAY: Linus Alvah/BlackStars : Got that right.
+20-53:SAY: Linus Alvah/BlackStars : That or Beer.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Trying to figure out how to kill you.&#39;
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Hmm.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Pew Pew.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Hello?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Anyone else here?
+20-53:SAY: Bob Robertson/Forteen : ;Everyone is in the arrival area
+20-53:SAY: Linus Alvah/BlackStars : ;The Line service at the start room is longer then my local post office.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Ello?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;We&#39;ve got no Cap&#39;n.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;No nothing.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : seeing how this round is pretty darn doomed to fail.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : wanna Deathmatch?
+20-53:OOC: Linus Alvah/BlackStars : Hell no
+20-53:OOC: Hugo Stiglitz/DistortedAudio : We have no Captain.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : HoP.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : HoR.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : HoS.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : No jobs
+20-53:OOC: Linus Alvah/BlackStars : Hop Is in the start room, he left
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : How&#39;re things going?
+20-53:SAY: Linus Alvah/BlackStars : Who wants a Job?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : No Jobs.
+20-53:OOC: Linus Alvah/BlackStars : Im issueing jobs at the starting room
+20-53:OOC: Linus Alvah/BlackStars : Just need people to get in line so i can issue them
+20-53:SAY: Linus Alvah/BlackStars : What you want bob?
+20-53:ACCESS: Login: Holybond from 151.205.96.154
+20-53:SAY: Bob Robertson/Forteen : Engine?
+20-53:OOC: Hob White/Holybond : Hi
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Dead.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Die.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Doing well?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Dier.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Die Hard.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Nope.
+20-53:SAY: Linus Alvah/BlackStars : ;Who else wants a joB?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : That sucks.
+20-53:SAY: Linus Alvah/BlackStars : ;Just come to the start room and i will give you one
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : KRUUULLL!
+20-53:SAY: Linus Alvah/BlackStars : What job you want?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : SIGNALLER FIGHT!
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Xen(Alfie275) with Remote Signaling Device
+20-53:SAY: Linus Alvah/BlackStars : And pass your id.
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Ashan Selfer(Xegeth) with Remote Signaling Device
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Cog Woodbed(QuinnR) with Remote Signaling Device
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Johnny "Meth" Cash(TheGrifter) with Remote Signaling Device
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : EVEN ME WILL GET NO MERCY
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Ashan Selfer(Xegeth) with Remote Signaling Device
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Johnny "Meth" Cash(TheGrifter) with Remote Signaling Device
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Xen(Alfie275) with Remote Signaling Device
+20-53:MATTACK: Johnny "Meth" Cash(TheGrifter) attcked by Urist Daggerengraving(DeTony) with Remote Signaling Device
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : SIGNALLER FIGHT!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : mocka.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Mockey.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Moka.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Moke.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Mocogny.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Hey listen here pal
+20-53:SAY: Hugo Stiglitz/DistortedAudio : You&#39;re dead.
+20-53:SAY: Linus Alvah/BlackStars : Get your jobs here!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Just not dead enough yet.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : CORNER TIME!
+20-53:SAY: Linus Alvah/BlackStars : ;Does anybody want a Fricking job?
+20-53:SAY: Bob Robertson/Forteen : That&#39;s great
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;I want you to shut the fuck up.
+20-53:SAY: Linus Alvah/BlackStars : ;When hell goes Cold!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : What?
+20-53:SAY: Linus Alvah/BlackStars : Do you need a job?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Do we need any heads? I heard we&#39;re short.
+20-53:SAY: Linus Alvah/BlackStars : We need A Captain
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Forteen.
+20-53:SAY: Linus Alvah/BlackStars : HoR
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Are you about to grief me?
+20-53:SAY: Linus Alvah/BlackStars : And lots of other jobs
+20-53:OOC: Bob Robertson/Forteen : You were being creepy
+20-53:SAY: Linus Alvah/BlackStars : Pretty much everything on the board is open.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : You can stp.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Right then. I&#39;ll be captain.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : (Stop)
+20-53:OOC: Bob Robertson/Forteen : Just barricading you in with cans
+20-53:SAY: Linus Alvah/BlackStars : Except HoP
+20-53:SAY: Linus Alvah/BlackStars : ID please.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Which you would release.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : and then burn.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Thank you.
+20-53:SAY: Linus Alvah/BlackStars : No problem
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Oh wait.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : You can go ahead.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : I wanna test something.
+20-53:SAY: Linus Alvah/BlackStars : ;We Just got a captain!!
+20-53:OOC: Bob Robertson/Forteen : About lockers?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : you can burn m.
+20-53:OOC: Bob Robertson/Forteen : They work
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Nah I wanna see how it&#39;ll be in a closet.
+20-53:SAY: Hob White/Holybond : say Hm?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : With full suit on.
+20-53:OOC: Linus Alvah/BlackStars : I thought you was on about the chair glitch.
+20-53:ACCESS: Login: Kenruler from 71.169.42.95
+20-53:OOC: Hugo Stiglitz/DistortedAudio : THere is a chair glitch?
+20-53:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+20-53:OOC: Linus Alvah/BlackStars : Used to be ages ago, dont know if it was patched.
+20-53:GAME: Guest-2337011188 entered as Jade
+20-53:OOC: Linus Alvah/BlackStars : Locks the persons movement, in some cases deletes there mob.
+20-53:GAME: Kenruler entered as Ronald "Rockstar" Geas
+20-53:ACCESS: Login: Headswe from 127.0.0.1
+20-53:OOC: Alucard Whoop/Headswe : what is glitched.
+20-53:SAY: Jade/Guest-2337011188 : The hell is this crap?
+20-53:OOC: Ronald "Rockstar" Geas/Kenruler : Oh, the bed glitch?
+20-53:OOC: Linus Alvah/BlackStars : No, The Chair Locker Glitch.
+20-53:OOC: Linus Alvah/BlackStars : Probebly fixed like i said.
+20-53:SAY: Jade/Guest-2337011188 : Hey linus.
+20-53:ACCESS: Logout: Headswe
+20-53:SAY: Linus Alvah/BlackStars : Do you need a Job?
+20-53:SAY: Jade/Guest-2337011188 : Yup.
+20-53:SAY: Linus Alvah/BlackStars : ID please.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : NOOOOOOOOOO
+20-53:SAY: Hugo Stiglitz/DistortedAudio : AAAAAAAAAAAAAAH
+20-53:SAY: Linus Alvah/BlackStars : Oh and what do you want?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : FIRE!
+20-53:SAY: Jade/Guest-2337011188 : What&#39;s open?
+20-53:OOC: Hob White/Holybond : is it the same power codes as the previous versions?
+20-53:SAY: Linus Alvah/BlackStars : HoR, And everything else other then Captain and HoP
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Attention crew of SS13.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Security without Armor looks wrong.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : This is your captain, Lelouch vi Brittania.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Their Jumpsuit looks like pajamas.
+20-53:SAY: Jade/Guest-2337011188 : Well research is cool with me.
+20-53:SAY: Jade/Guest-2337011188 : No pushing.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;d like to let you all know that I have recently taken command of this ship. Carry on.
+20-53:MATTACK: Hob White(Holybond) clicked on Cog Mountaingoblin() with a DNA injector
+20-53:SAY: Linus Alvah/BlackStars : do you want to be Head of?
+20-53:SAY: Linus Alvah/BlackStars : Hes AFK
+20-53:SAY: Jade/Guest-2337011188 : Yeah.
+20-53:SAY: Linus Alvah/BlackStars : Well...Brain Dead
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Rough.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Rough.
+20-53:SAY: Jade/Guest-2337011188 : Mind if I lock up all these zombies?
+20-53:SAY: Linus Alvah/BlackStars : Sure
+20-53:SAY: Linus Alvah/BlackStars : Do some science on em too if you want.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Any and all zombies are to be locked up.
+20-53:SAY: Jade/Guest-2337011188 : They&#39;ll be out of your hair soon.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Especially the ones that mention magma, diagonal flows, or levers.
+20-53:OOC: Hob White/Holybond : Is anyone great with the powers?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Powers?
+20-53:OOC: Ronald "Rockstar" Geas/Kenruler : I like the chairs
+20-53:OOC: Bob Robertson/Forteen : Genetics?
+20-53:OOC: Ronald "Rockstar" Geas/Kenruler : Forteen knows how to do that shit easy
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;LET ME OUT!
+20-53:SAY: Jade/Guest-2337011188 : ;There&#39;s a fire in the escape zone...
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;GENETICS!
+20-53:SAY: Linus Alvah/BlackStars : ;?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;ERR ENGINE!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;LET ME OUT!
+20-53:SAY: Jade/Guest-2337011188 : Hey.
+20-53:SAY: Jade/Guest-2337011188 : New boss here.
+20-53:SAY: Bob Robertson/Forteen : ;Just a sec
+20-53:SAY: Jade/Guest-2337011188 : What happened to him?
+20-53:SAY: Hob White/Holybond : Hm?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : RAWR
+20-53:SAY: Linus Alvah/BlackStars : ;Stations on fire!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Cool.
+20-53:SAY: Jade/Guest-2337011188 : Well I need your help rounding up the brain dead mucks running around.
+20-53:SAY: Linus Alvah/BlackStars : *salute
+20-53:ACCESS: Failed Login: Trashcanman Reason: Key banned
+20-53:SAY: Hob White/Holybond : May I test something on you?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:SAY: Linus Alvah/BlackStars : Hi
+20-53:SAY: Hob White/Holybond : Hm..
+20-53:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+20-53:SAY: Linus Alvah/BlackStars : Do you need a Job?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Nah
+20-53:SAY: Jade/Guest-2337011188 : Where&#39;d that guy go.
+20-53:MATTACK: Hob White(Holybond) clicked on Micro McGinley(Micro102) with a DNA injector
+20-53:SAY: Linus Alvah/BlackStars : Okay.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Bow.
+20-53:SAY: Linus Alvah/BlackStars : Funky Job.
+20-53:SAY: Linus Alvah/BlackStars : Theres a Bow emote?
+20-53:SAY: Linus Alvah/BlackStars : *help
+20-53:SAY: Linus Alvah/BlackStars : *bow
+20-53:MATTACK: Hob White(Holybond) clicked on Micro McGinley(Micro102) with a DNA injector
+20-53:SAY: Linus Alvah/BlackStars : Guess there is.
+20-53:SAY: Jade/Guest-2337011188 : Anyway help me round up the mucks.
+20-53:SAY: Hob White/Holybond : Hm..
+20-53:SAY: Hob White/Holybond : But..
+20-53:OOC: Hugo Stiglitz/DistortedAudio : What game mode is it?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : want in?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Well?
+20-53:SAY: Bob Robertson/Forteen : Already got in
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ah
+20-53:SAY: Jade/Guest-2337011188 : Hey cap.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hello.
+20-53:SAY: Jade/Guest-2337011188 : Wanna help me round up the brain dead?
+20-53:MATTACK: Linus Alvah(BlackStars) attcked by () with the toolbox
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Who&#39;s this guy?
+20-53:MATTACK: Linus Alvah(BlackStars) attcked by () with the toolbox
+20-53:MATTACK: Linus Alvah(BlackStars) attcked by () with the toolbox
+20-53:MATTACK: Linus Alvah(BlackStars) attcked by () with the toolbox
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I can see him from a mile away on thermals.
+20-53:SAY: Jade/Guest-2337011188 : The glowing guy?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Hy.
+20-53:MATTACK: Linus Alvah(BlackStars) attcked by () with the toolbox
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Catch Bob Robertson.
+20-53:SAY: Hob White/Holybond : Hm?
+20-53:SAY: Bob Robertson/Forteen : ;If you can
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;He was trying to break into security.
+20-53:SAY: Jade/Guest-2337011188 : That&#39;s hob&#39;s doing.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Why&#39;s he glowing.
+20-53:SAY: Jade/Guest-2337011188 : Hob injected him with glowing dna.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Ah, shut up!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;He has weapons.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Notyou.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Glowing DNA?
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s shiny.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Any other effects?
+20-53:SAY: Jade/Guest-2337011188 : His dna is very rare.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Hello?
+20-53:SAY: Jade/Guest-2337011188 : Probably.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Anyone here?
+20-53:SAY: Ronald "Rockstar" Geas/Kenruler : ;Yep.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Let me know if anything interesting comes up.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;You gonna catch him?
+20-53:SAY: Jade/Guest-2337011188 : Will do.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;or are we gonna ignore that it happened?
+20-53:SAY: Bob Robertson/Forteen : ;There&#39;s Johnny Cash, the &#34;Grand Mad Godking of the Three Space-Kingdoms
+20-53:SAY: Linus Alvah/BlackStars : ;Im being quiet because you told me to shut the fuck up, so im doing what you said, just to be nice.
+20-53:SAY: Ronald "Rockstar" Geas/Kenruler : ;I&#39;m just chilling.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Jade.
+20-53:SAY: Jade/Guest-2337011188 : Hm?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Help me catch Bob.
+20-53:SAY: Jade/Guest-2337011188 : That&#39;s not really my thing but ok.
+20-53:ACCESS: Logout: BlackStars
+20-53:MATTACK: Hugo Stiglitz(DistortedAudio)has shot a taser round at the floor
+20-53:SAY: Hugo Stiglitz/DistortedAudio : CATCH BOB!
+20-53:ACCESS: Login: BlackStars from 94.172.41.229
+20-53:ACCESS: Logout: Kenruler
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Where is h?
+20-53:OOC: Linus Alvah/BlackStars : Oh yeah, Almost forgot to ask something...
+20-53:SAY: Bob Robertson/Forteen : ;You&#39;ll never find me
+20-53:SAY: Bob Robertson/Forteen : ;And I&#39;m not in a locker
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Uh.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Bob.
+20-53:OOC: Linus Alvah/BlackStars : Aryn, can i have the hosting files for lost worlds? I want to host a Server.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Shut up.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Yeah I would like to play a round of that.
+20-53:OOC: Lelouch vi Britannia/I-Aryn-I : Later, when I&#39;m not captain.
+20-53:MATTACK: Hob White(Holybond) clicked on Hob White(Holybond) with a DNA injector
+20-53:SAY: Jade/Guest-2337011188 : We&#39;re looking for some guy.
+20-53:OOC: Linus Alvah/BlackStars : I just realized, im the one who assigned you that.
+20-53:SAY: Jade/Guest-2337011188 : Wanna help?
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;LELOUCH!
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;HELP US FIND BOB!
+20-53:SAY: Linus Alvah/BlackStars : Better then sitting dead at the entrence
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Lelouch here. No sign of him, I&#39;ll keep looking
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Not Bob Sundin.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Robertson.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Also grab Thermals.
+20-53:SAY: Hob White/Holybond : Agh..
+20-53:SAY: Hugo Stiglitz/DistortedAudio : This sucks.
+20-53:SAY: Hob White/Holybond : Damn it..
+20-53:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+20-53:OOC: Hugo Stiglitz/DistortedAudio : We really need...
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:OOC: Hugo Stiglitz/DistortedAudio : A.) More thermals.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : B.) Different ways to see cloaks.
+20-53:OOC: Linus Alvah/BlackStars : We need a Search &amp; Destroy bot from Exadvs test build
+20-53:OOC: Bob Robertson/Forteen : I agree with B, but there are too many thermals now
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : On B, no we dont.... Cloaks are already nerfed enough as it is
+20-53:OOC: Hugo Stiglitz/DistortedAudio : There is one set of Thermals.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Maybe 3.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : I meant 2.
+20-53:OOC: Bob Robertson/Forteen : It&#39;s impossible for a cloaked person to hide with all of the security having them
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : 2 are enough! The point of a cloak
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Dude.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Is invisibility!
+20-53:SAY: Jade/Guest-2337011188 : Alright?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Ugh
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Yes.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Only one person gets Thermals.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Not so everyone and their uncle can see em
+20-53:OOC: Linus Alvah/BlackStars : Maybe a way to build a thermal.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : No, 3 people get em!
+20-53:OOC: Hugo Stiglitz/DistortedAudio : and then aren&#39;t Cloaks Overkill?
+20-53:SAY: Jade/Guest-2337011188 : I&#39;d keep that on your back.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : The heads, and security can get em.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : All you have to do is throw one on and then blam grief.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Grifter there is only one pair in securit.y
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : And really, that&#39;s all who should have em
+20-53:OOC: Linus Alvah/BlackStars : Im a head and i dident get thermals
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : there&#39;s two pair. I stole one
+20-53:OOC: Hugo Stiglitz/DistortedAudio : and one in Captain.
+20-53:SAY: Jade/Guest-2337011188 : There&#39;s your gun.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Thans.
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s in supply.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Why do you feel the need to do dumb things every round?
+20-53:ACCESS: Failed Login: Thomaso9 Reason: Ip banned
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : taking thermals?
+20-53:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Where is he?
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Oh come on, everyone&#39;d do that.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;I&#39;m in Supply Office.
+20-53:SAY: Jade/Guest-2337011188 : He ran.
+20-53:GAME: Shiningsoul32 entered as Shin Taixera
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Where is he now?
+20-53:OOC: Hugo Stiglitz/DistortedAudio : No.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Ill get my job
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : SIRT
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at Bob Robertson
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : DON&#39;T BE BRAIN DEAD
+20-53:OOC: Hugo Stiglitz/DistortedAudio : You usually do stupid things just about every round.
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at the floor
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Give me a job
+20-53:OOC: Linus Alvah/BlackStars : I miss exadvs test build with its sub-intents...
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Where is he?
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Ah... Those rounds would probably be the ones in which I am high out of my  mind
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Unfortunately, I am out
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Maybe you should...I don&#39;t know stop getting high.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Blasphemy.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:OOC: Hugo Stiglitz/DistortedAudio : Seeing how.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I need my job
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Anyone know where he is
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : You ever play this game high? It&#39;s much more interesting..
+20-53:OOC: Hugo Stiglitz/DistortedAudio : I&#39;ve never gotten high.
+20-53:OOC: Hugo Stiglitz/DistortedAudio : So no.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:SAY: Linus Alvah/BlackStars : ;If i remember, he has a Engineering job card, so that limits where he can go.
+20-53:SAY: Jade/Guest-2337011188 : Hey there&#39;s someone at arrival needing a job.
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Forget about him.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Give me powers
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Who&#39;s Kael?
+20-53:SAY: Hob White/Holybond : Hm?
+20-53:SAY: Shin Taixera/Shiningsoul32 : Hmm...
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I want powers
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:SAY: Hob White/Holybond : Get out.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Kael?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : No
+20-53:SAY: Linus Alvah/BlackStars : ;The Brain-dead captain last time i checked
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;This is Lelouch, search all the closets as well.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I am going to kill you
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Your coughing already
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : My powers are working
+20-53:SAY: Hugo Stiglitz/DistortedAudio : ;Forget about him.Engineering.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Now..
+20-53:SAY: Jade/Guest-2337011188 : Supply again
+20-53:SAY: Hob White/Holybond : Shut up..
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Give me my powers
+20-53:ACCESS: Login: DarkKuta from 12.76.244.119
+20-53:SAY: Hob White/Holybond : ; Secuirty to genetics lab.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : We&#39;ll split him
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Your going to die
+20-53:SAY: Jade/Guest-2337011188 : He
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : You take the card.
+20-53:SAY: Hob White/Holybond : ; There is a man in here threatening me!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Ok  youll die
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s outside.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : I just want the uniform
+20-53:GAME: DarkKuta entered as Drakkon "Dark" Draith
+20-53:SAY: Hugo Stiglitz/DistortedAudio : Cool.
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : Oh, no.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I am doing is talking
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I am talking
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Thats it
+20-53:SAY: Hob White/Holybond : He is demanding &#34;Powers&#34; from me.
+20-53:SAY: Hob White/Holybond : He may be crazy.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hah!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : What do you think this is, X-men?
+20-53:SAY: Jade/Guest-2337011188 : Come to supply shuttle please.
+20-53:SAY: Linus Alvah/BlackStars : How about a Compromise?
+20-53:ACCESS: Logout: TheNewMakerGamer10
+20-53:OOC: Kael/DistortedAudio : WHat?
+20-53:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+20-53:SAY: Linus Alvah/BlackStars : How about we let The Hob experiment on you.
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at Firelock
+20-53:SAY: Jade/Guest-2337011188 : Hello.
+20-53:SAY: Kael/DistortedAudio : Where is he?
+20-53:SAY: Jade/Guest-2337011188 : He went outside.
+20-53:SAY: Linus Alvah/BlackStars : (( The Hob...lol ))
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hmm
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Let me in
+20-53:SAY: Kael/DistortedAudio : Going After him.
+20-53:SAY: Jade/Guest-2337011188 : I&#39;ll go after him.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Just sighted Bob
+20-53:SAY: Hob White/Holybond : ((lol.))
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Let me in
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Let me in
+20-53:SAY: Linus Alvah/BlackStars : Well hob, do you want him as a test subject?
+20-53:SAY: Hob White/Holybond : I do not need him.
+20-53:SAY: Kael/DistortedAudio : I&#39;ll go the other way.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : How do you like my outfit?
+20-53:SAY: Linus Alvah/BlackStars : Nice
+20-53:SAY: Jade/Guest-2337011188 : Guard chapel or here.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I need a Job
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Give me a job
+20-53:SAY: Linus Alvah/BlackStars : Can you help with the search Johny?
+20-53:SAY: Hob White/Holybond : Keep him away from me.
+20-53:SAY: Kael/DistortedAudio : ;Follow him.
+20-53:MATTACK: Hob White(Holybond) clicked on Cog Mountaingoblin() with a DNA injector
+20-53:SAY: Jade/Guest-2337011188 : Hugo let me out.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Plasma Researcher
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : sides, I haven&#39;t done anything stupid all round
+20-53:MATTACK: Hob White(Holybond) clicked on Hob White(Holybond) with a DNA injector
+20-53:SAY: Hob White/Holybond : Agh..
+20-53:OOC: Kael/DistortedAudio : Whoa.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;He&#39;s outside the station
+20-53:OOC: Kael/DistortedAudio : The Network room is Trip-E
+20-53:SAY: Linus Alvah/BlackStars : We are hunting Bob
+20-53:SAY: Kael/DistortedAudio : ;What?
+20-53:SAY: Jade/Guest-2337011188 : Supply.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Network Room? What the fuck is the network room?
+20-53:SAY: Bob Robertson/Forteen : Robber
+20-53:SAY: Kael/DistortedAudio : ;Someone get her out.
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : lol
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s at supply.
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : A new room that was added.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : You want a job?
+20-53:OOC: Kael/DistortedAudio : It&#39;s all this mail and shit dude.
+20-53:SAY: Jade/Guest-2337011188 : Heading up again.
+20-53:OOC: Kael/DistortedAudio : and like 3 routers.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Where?
+20-53:OOC: Kael/DistortedAudio : It&#39;s like the Matric.
+20-53:OOC: Kael/DistortedAudio : Matrix.
+20-53:SAY: Jade/Guest-2337011188 : He just left.
+20-53:SAY: Linus Alvah/BlackStars : Damn.
+20-53:SAY: Jade/Guest-2337011188 : In the halls.
+20-53:SAY: Linus Alvah/BlackStars : I wish i had some thermals
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : You want a job?
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : It does nothing right now, but in the future there suppose to be a network technician that can hack and crap.
+20-53:SAY: Kael/DistortedAudio : ;Get Bob!
+20-53:SAY: Kael/DistortedAudio : ;IS he outside?
+20-53:MATTACK: Linus Alvah(BlackStars)has shot a taser round at the floor
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s inside.
+20-53:SAY: Kael/DistortedAudio : ;Thought so.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Give me your card
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : and I&#39;ll assign you.
+20-53:OOC: Kael/DistortedAudio : This round is more annoying than fun.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : I&#39;m having fun... Course... It&#39;s not that good...
+20-53:SAY: Jade/Guest-2337011188 : Keep an eye on eva.
+20-53:SAY: Jade/Guest-2337011188 : He wanted space stuff for some reason.
+20-53:SAY: Hob White/Holybond : ; Help.
+20-53:SAY: Linus Alvah/BlackStars : ;I got a Shot off at bob, he dodged it, Hes wearing a Helmet with yellow jumpsuit
+20-53:SAY: Kael/DistortedAudio : ;Where?
+20-53:SAY: Linus Alvah/BlackStars : ;He has not got a cloak
+20-53:SAY: Linus Alvah/BlackStars : ;Back round at supply
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; DONT OPEN SUPPLY! LET HIM COOK!
+20-53:SAY: Hob White/Holybond : Help!
+20-53:SAY: Hob White/Holybond : I am blind!
+20-53:ACCESS: Login: Perruno from 200.117.84.135
+20-53:ACCESS: Login: Malamalajong from 151.205.96.154
+20-53:ACCESS: Notice: Malamalajong has same IP address as Holybond
+20-53:ACCESS: They share computer ID's
+20-53:SAY: Kael/DistortedAudio : ;Not in Supply
+20-53:SAY: Kael/DistortedAudio : ;GET TO EVA!
+20-53:ACCESS: Logout: Perruno
+20-53:ACCESS: Login: Perruno from 200.117.84.135
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Captain, shall I?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : You shall.
+20-53:SAY: Kael/DistortedAudio : Howse it looking?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : I&#39;ll clear the room first.
+20-53:SAY: Kael/DistortedAudio : Someone head back over to SUpply.
+20-53:ACCESS: Logout: Perruno
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Wait a bit
+20-53:SAY: Linus Alvah/BlackStars : He dont have a cloak.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Wait... he doesnt?
+20-53:ACCESS: Login: Perruno from 200.117.84.135
+20-53:SAY: Linus Alvah/BlackStars : No
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Shit... I just burned up EVA then
+20-53:SAY: Linus Alvah/BlackStars : I saw him with my naked guys.
+20-53:SAY: Linus Alvah/BlackStars : Whoops./..
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Er...
+20-53:GAME: Malamalajong entered as Bobby Kreig
+20-53:SAY: Jade/Guest-2337011188 : Here&#39;s johnny.So eva is on fire.
+20-53:SAY: Kael/DistortedAudio : OK.
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at Cog Woodbed
+20-53:SAY: Linus Alvah/BlackStars : I ,emt Naked Eyes...
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Don&#39;t go in there... 
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : CALLING Hop
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I saw him
+20-53:SAY: Linus Alvah/BlackStars : ;Yeah?
+20-53:SAY: Kael/DistortedAudio : Someone had to supply.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : He was a zombie
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Need a Job
+20-53:SAY: Linus Alvah/BlackStars : ;What is it Harold?
+20-53:SAY: Jade/Guest-2337011188 : Who set eva on fire?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Me... sorry... I was trying to kill bob
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : You are yellow
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Why
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hey
+20-53:OOC: Kael/DistortedAudio : Grift.
+20-53:SAY: Jade/Guest-2337011188 : So he was inside?
+20-53:OOC: Kael/DistortedAudio : You are actually more funny not high.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Astronaut
+20-53:SAY: Linus Alvah/BlackStars : I already gave you a Job
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Or..Eva Access
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Eh, life is subjective... 
+20-53:ACCESS: Logout: Perruno
+20-53:SAY: Linus Alvah/BlackStars : That aint gonna help
+20-53:SAY: Linus Alvah/BlackStars : EVA is on fire.
+20-53:SAY: Linus Alvah/BlackStars : Nasty fire too.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : .
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Fine..
+20-53:SAY: Kael/DistortedAudio : ;Fire is done
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : hmm
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Firefighter
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : Yeah... try not to go in there... it&#39;s like... super fire. These nades burn at like, engine temp
+20-53:OOC: Kael/DistortedAudio : Fire is done.
+20-53:OOC: Johnny "Meth" Cash/TheGrifter : shit. Wrong radio
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Someone in a suit!
+20-53:SAY: Unknown/DarkKuta : Um, anything really.
+20-53:SAY: Kael/DistortedAudio : ;WHERE!?
+20-53:SAY: Bobby Kreig/Malamalajong : Hello.
+20-53:SAY: Kael/DistortedAudio : ;COVER ALL EXITS!
+20-53:SAY: Unknown/DarkKuta : Anywhere you need help at.
+20-53:SAY: Kael/DistortedAudio : ;CHAPEL AND SUPPLY!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Nevermind, it&#39;s Jade
+20-53:SAY: Bobby Kreig/Malamalajong : I am this man&#39;s brother ((Other key.))
+20-53:SAY: Unknown/DarkKuta : Thank you, sir.
+20-53:SAY: Kael/DistortedAudio : ;Oh
+20-53:SAY: Bobby Kreig/Malamalajong : He seems to be blind.
+20-53:SAY: Cog Woodbed/Forteen : Hi
+20-53:SAY: Kael/DistortedAudio : ;Track him!
+20-53:SAY: Unknown/BlackStars : What you want?
+20-53:SAY: Jade/Guest-2337011188 : Who sent away the supply shuttle?
+20-53:SAY: Kael/DistortedAudio : ;TRACK THE FAG!
+20-53:SAY: Kael/DistortedAudio : ;Calling it back!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;The one in the spacesuit is still suspicious
+20-53:SAY: Kael/DistortedAudio : ;Someone go with me to Centcomm
+20-53:SAY: Linus Alvah/BlackStars : Go grab A ID
+20-53:SAY: Kael/DistortedAudio : ;Wait.
+20-53:SAY: Kael/DistortedAudio : ;Bob ain&#39;t on it.
+20-53:SAY: Kael/DistortedAudio : ;He ain&#39;t there.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : You!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Do you know how to fix airlocks?
+20-53:SAY: Kael/DistortedAudio : ;Who would send him...unless we&#39;ve got a sleeper agent.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I would try
+20-53:SAY: Kael/DistortedAudio : ;All heads to the Meeting Room.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : But I get Electricuted
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Fix that one then.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Nevermind then.
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s changed disguise.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Oww
+20-53:SAY: Kael/DistortedAudio : ;What?
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s in a suit now.
+20-53:SAY: Kael/DistortedAudio : ;Where?
+20-53:SAY: Jade/Guest-2337011188 : Near eva.
+20-53:SAY: Jade/Guest-2337011188 : He ran back inside.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I did not try to break in
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Tried to fix it
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Need help?
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;There&#39;s nobody in EVA.
+20-53:SAY: Kael/DistortedAudio : ;COVER CHAPEL!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Sorta
+20-53:SAY: Kael/DistortedAudio : ;;COVER EVA!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Oww
+20-53:SAY: Kael/DistortedAudio : ;COVER SUPPLY!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Door is fixed
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Just need a multi-tool
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Wait, who are we hunting again?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : We need a multi Toll
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Tool*
+20-53:SAY: Linus Alvah/BlackStars : ;Bob Robertson i believe.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Bob Robertson, but he&#39;s disguised.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : I can&#39;t get a multi-tool.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Disguised in what exactly?
+20-53:SAY: Kael/DistortedAudio : ;Don&#39;t worry.
+20-53:ACCESS: Login: Perruno from 200.117.84.135
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;I just saw this one dude with a gasmask running through the hallways.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Captain
+20-53:SAY: Linus Alvah/BlackStars : ;Yellow jumpsuit?
+20-53:SAY: Kael/DistortedAudio : ;Any sign yet?
+20-53:MATTACK: Hob White(Holybond) clicked on Hob White(Holybond) with a DNA injector
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;No.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Captain
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Need a 
+20-53:SAY: Kael/DistortedAudio : ;ade is that you outside of the station?
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s not wearing a yellow jumpsuit any more.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;He had a white jumpsuit on, with a doctor jacket on.
+20-53:SAY: Linus Alvah/BlackStars : ;Bobs a Engineer.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Multi tool
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Calling captain to open Electric storage
+20-53:GAME: Perruno entered as Urist Axestop
+20-53:SAY: Linus Alvah/BlackStars : ;He Might have looted a Doctor for gear, keep eyes sharp.
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s changed disguises again I think.
+20-53:SAY: Hob White/Holybond : Hello?
+20-53:SAY: Conall Edge/Forteen : ;Why are you hunting me so much?
+20-53:SAY: Kael/DistortedAudio : DrakkoN!
+20-53:SAY: Kael/DistortedAudio : ;DRAKKON!
+20-53:SAY: Conall Edge/Forteen : ;I just hacked into security
+20-53:SAY: Kael/DistortedAudio : ;FIND ROBERTSON
+20-53:SAY: Conall Edge/Forteen : ;That&#39;s it
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Hey, there&#39;s a dead doctor in supply shuttle room.
+20-53:SAY: Kael/DistortedAudio : ;WE CRACKDOWN ON CRIME!
+20-53:SAY: Kael/DistortedAudio : Drakkon.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Yes?
+20-53:SAY: Kael/DistortedAudio : FIND BOB!
+20-53:SAY: Conall Edge/Forteen : ;Dead when I found him
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hey you
+20-53:SAY: Linus Alvah/BlackStars : ;Alive when i last saw him.
+20-53:SAY: Kael/DistortedAudio : Making more dude?
+20-53:SAY: Jade/Guest-2337011188 : Outside
+20-53:SAY: Linus Alvah/BlackStars : Hmmm?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I need a Multi Tool
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : want some?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Please
+20-53:SAY: Linus Alvah/BlackStars : Aint got one
+20-53:SAY: Kael/DistortedAudio : ;He is outside!?
+20-53:SAY: Bobby Kreig/Malamalajong : Hm..
+20-53:SAY: Kael/DistortedAudio : Later.
+20-53:SAY: Kael/DistortedAudio : C&#39;mon
+20-53:SAY: Bobby Kreig/Malamalajong : Uh..
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : I made like, 4 batches
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;ATTENTION! There&#39;s an high possiblity Bob is wearing a doctor suit, a dead medical personnel was found in the supply shuttle area.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Please just open the Electric storage
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Thank you
+20-53:MATTACK: Shin Taixera(Shiningsoul32) attcked by Shin Taixera(Shiningsoul32) with Shin Taixera's ID Card (Security Officer)
+20-53:SAY: Kael/DistortedAudio : ;Someone get him out there!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;The medical personnel is named &#34;Conall Edge&#34;, does anyone know this person?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Attention: We are OUT of beakers... we have an abundance of fire nades
+20-53:SAY: Kael/DistortedAudio : Not in there
+20-53:SAY: Linus Alvah/BlackStars : ;Guard em all, we dont want him torching the station.
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at the plating
+20-53:MATTACK: Bobby Kreig(Malamalajong) clicked on Hob White(Holybond) with a DNA injector
+20-53:SAY: Kael/DistortedAudio : What do we do?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Oh, I&#39;ve got em all on me... Prolly should get a fire suit.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Where&#39;s the bad guys?
+20-53:SAY: Linus Alvah/BlackStars : ; Just Searched Atmos, its clear.
+20-53:SAY: Linus Alvah/BlackStars : ;Somewhere on this station.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Hey, is it legal to search places by throwing fire grenades in em?
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Yes..
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Wait.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;No.
+20-53:MATTACK: Kael(DistortedAudio)has shot a taser round at the floor
+20-53:SAY: Linus Alvah/BlackStars : ;Ask the Captain.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;FOUND HIM!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; My &#34;Search&#34; of engines is about to begin... I have a captain jumpsuit, does that count?
+20-53:SAY: Kael/DistortedAudio : ;WHERE!?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; WHERE?!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;HE RAN!
+20-53:SAY: Kael/DistortedAudio : ;CHASE &#39;EM!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; JINX YOU MOTHERFUCKER
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;HE&#39;S WEARING A DOCTOR SUIT WITH CONALL&#39;S ID!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Idiot.
+20-53:SAY: Linus Alvah/BlackStars : ;Where did you find him?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Okay... I&#39;ll initiate scorched earth. We&#39;ll burn him out.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Lock down station in able to search for the Masked man
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : AKA Identity Thefter
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Firealarm is active in eastern hallway.
+20-53:SAY: Kael/DistortedAudio : Oh hell no.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:SAY: Unknown/Forteen : ;If I remember correctly, you were the one who threatened to kill me
+20-53:SAY: Kael/DistortedAudio : Get me a suit.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Want a fire grenade?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Man electricuted
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hello
+20-53:SAY: Kael/DistortedAudio : Yes.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Yep.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : May be to death
+20-53:SAY: Kael/DistortedAudio : Yes I do
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : He did it twice.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Be careful.
+20-53:ACCESS: Logout: Shiningsoul32
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Don&#39;t touch the trigger...
+20-53:OOC: Harold HockkleMucks/TheNewMakerGamer10 : wtf
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : -facepalm-
+20-53:SAY: Kael/DistortedAudio : BOOM!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : And if you set it off accidentally, Run! RUN!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : also, it&#39;s lungburningly hot
+20-53:SAY: Kael/DistortedAudio : ;Burning out all halls.
+20-53:SAY: Kael/DistortedAudio : ;STARTING NOW!
+20-53:SAY: Linus Alvah/BlackStars : ;Best call the shuttle too.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Oww
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I can&#39;t feel my legs
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; We&#39;re gonna burn out the halls, to catch Bob
+20-53:SAY: Kael/DistortedAudio : BURN!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : You&#39;re alive.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Why in all hell did you touch that door?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I wanted to fi..fi..
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Then use gloves.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Crowbar medbay shut
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : I don&#39;t have a crowbar.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Where do I find those?
+20-53:SAY: Linus Alvah/BlackStars : ;If nanotrason asks what happened here, we are gonna need a answer.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Lots of expensive equipment.
+20-53:SAY: Jade/Guest-2337011188 : Can 
+20-53:SAY: Jade/Guest-2337011188 : I get a pair of thermal glasses.
+20-53:SAY: Kael/DistortedAudio : ;Search Space Jade.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Th ehell?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hey
+20-53:SAY: Bobby Kreig/Malamalajong : Uh..
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : (The hell?*)
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hi
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : So.. I think we probably got him...
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hmmm?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : The fire probably will do the trick.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : That, or...
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : *mumble
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Wha?
+20-53:SAY: Kael/DistortedAudio : ;Burn out the other halls Johnny.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Nothing... nothing
+20-53:SAY: Jade/Guest-2337011188 : Hey harold.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Yessir!
+20-53:MATTACK: Jade(Guest-2337011188)has shot a taser round at the floor
+20-53:MATTACK: Jade(Guest-2337011188)has shot a taser round at the pipes
+20-53:MATTACK: Jade(Guest-2337011188)has shot a taser round at Kael
+20-53:SAY: Kael/DistortedAudio : AH!
+20-53:MATTACK: Jade(Guest-2337011188)has shot a taser round at Kael
+20-53:SAY: Kael/DistortedAudio : WHAT THE FUCK?
+20-53:SAY: Kael/DistortedAudio : ;HELP!
+20-53:SAY: Kael/DistortedAudio : ;MATINNCE HALLS!
+20-53:SAY: Kael/DistortedAudio : ;JADE!
+20-53:SAY: Kael/DistortedAudio : ;INSANE!
+20-53:SAY: Kael/DistortedAudio : ;JOHNNY HELP!
+20-53:SAY: Cog Woodbed/Forteen : ;Not me
+20-53:SAY: Jade/Guest-2337011188 : What the hell.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; BURNING EM OUT NOW!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : EVERYONE
+20-53:SAY: Kael/DistortedAudio : She&#39;s crazy.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : GET TO THE SOUTH PART OF THE STATION
+20-53:SAY: Jade/Guest-2337011188 : Undo these.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I will handle the fire
+20-53:SAY: Kael/DistortedAudio : No.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : I shall take her to security.
+20-53:SAY: Jade/Guest-2337011188 : Captain.
+20-53:SAY: Kael/DistortedAudio : Nop.
+20-53:SAY: Kael/DistortedAudio : Into th fire she goes.
+20-53:SAY: Jade/Guest-2337011188 : Hugo has the old captain&#39;s id.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;I&#39;m in toxin lab
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Hmm.
+20-53:SAY: Kael/DistortedAudio : CHEER!
+20-53:SAY: Jade/Guest-2337011188 : And now he&#39;s arresting me...
+20-53:SAY: Kael/DistortedAudio : So.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;I can&#39;t reach security HQ.
+20-53:SAY: Kael/DistortedAudio : W catch him?
+20-53:ACCESS: Logout: Perruno
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Evacuate
+20-53:SAY: Linus Alvah/BlackStars : We aint got him yet.
+20-53:SAY: Jade/Guest-2337011188 : Mind giving me a hand.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I got ot kill this fire
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : GO
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Close the doors
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; If we ain&#39;t got bob yet, just throw more fire nades... We&#39;ll get him soon enough
+20-53:MATTACK: Drakkon "Dark" Draith(DarkKuta)has shot a taser round at the floor
+20-53:SAY: Jade/Guest-2337011188 : Cap.
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Jade/Guest-2337011188 : Uncuff me please.
+20-53:SAY: Kael/DistortedAudio : Don&#39;t.
+20-53:SAY: Jade/Guest-2337011188 : You&#39;re not the captain.
+20-53:SAY: Kael/DistortedAudio : She randomly stunned me.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : What&#39;d she do.
+20-53:MATTACK: Bobby Kreig(Malamalajong) clicked on Hob White(Holybond) with a DNA injector
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Damnit, I lost her.
+20-53:SAY: Kael/DistortedAudio : and I have a nade.
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s running around with someone else&#39;s id.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : I&#39;ll execute Jade...
+20-53:SAY: Kael/DistortedAudio : ;In this hall.
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : If you want
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Hand over the what?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : should I?
+20-53:SAY: Kael/DistortedAudio : By Grenad?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Whoah, no.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Why not?
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;There&#39;s an EVA suit in Jade&#39;s backpack.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Killing is fun!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : No-one gets executed for that.
+20-53:SAY: Kael/DistortedAudio : I don&#39;t know.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : *grin
+20-53:SAY: Jade/Guest-2337011188 : Hey.
+20-53:SAY: Jade/Guest-2337011188 : Uncuff me will you.
+20-53:MATTACK: Kael(DistortedAudio)has shot a taser round at the floor
+20-53:SAY: Kael/DistortedAudio : Take her to jail.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Oh, hey!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;ll handle this.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;I found that yellow jacket with the helmet.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Yellow jumpsuit or whatever.
+20-53:SAY: Kael/DistortedAudio : Burn this hall.
+20-53:SAY: Kael/DistortedAudio : I&#39;ll handl supply shuttle.
+20-53:SAY: Jade/Guest-2337011188 : ...
+20-53:SAY: Cog Woodbed/Forteen : ;SOmeone going to call the escape shuttle before you burnyourselves to death?
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Apparantly Bob had it on, then switch to a suit, then switch to a doctor suit when he found the body.
+20-53:SAY: Jade/Guest-2337011188 : And he&#39;s inside.
+20-53:SAY: Kael/DistortedAudio : RUN!
+20-53:SAY: Jade/Guest-2337011188 : The thanks I get for helping you lot.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Bob, just surrender, and I&#39;ll stop burning things
+20-53:SAY: Linus Alvah/BlackStars : ;Cog just left the station in a Space suit
+20-53:SAY: Cog Woodbed/Forteen : ;Hugo threatened to kill me!
+20-53:SAY: Linus Alvah/BlackStars : ;He might just be Bob.
+20-53:SAY: Jade/Guest-2337011188 : Now will you uncuff me.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Don&#39;t worry, I just want to know the story.
+20-53:SAY: Kael/DistortedAudio : ;Bob.
+20-53:SAY: Jade/Guest-2337011188 : He&#39;s running around with an id that isn&#39;t his.
+20-53:MATTACK: Bobby Kreig (as Hob White)(Malamalajong) clicked on Bobby Kreig(Malamalajong) with a DNA injector
+20-53:SAY: Hob White/Malamalajong : Hm.
+20-53:SAY: Unknown/Forteen : Hi
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Yeah.
+20-53:SAY: Jade/Guest-2337011188 : And bob was reported to have kael&#39;s id.
+20-53:SAY: Jade/Guest-2337011188 : So I though it was him.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : It should be turned over to me.
+20-53:SAY: Kael/DistortedAudio : ;IN SPACE!
+20-53:SAY: Hob White/Malamalajong : ; Who is Bob?
+20-53:SAY: Kael/DistortedAudio : ;HE IS IN SPACE!
+20-53:SAY: Kael/DistortedAudio : What is your problem?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Will the one wearing Kael&#39;s ID please turn it in at the bridge?
+20-53:SAY: Unknown/Forteen : I just hacked the door
+20-53:SAY: Kael/DistortedAudio : Illegal.
+20-53:SAY: Unknown/Forteen : Then you started the manhunt
+20-53:SAY: Jade/Guest-2337011188 : That&#39;d be hugo.
+20-53:SAY: Hob White/Malamalajong : HELP!
+20-53:SAY: Hob White/Malamalajong : ; Help!
+20-53:SAY: Unknown/Forteen : Now burning the station?
+20-53:SAY: Kael/DistortedAudio : Nah.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Where?
+20-53:SAY: Hob White/Malamalajong : Help..
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Why?
+20-53:SAY: Kael/DistortedAudio : Look.
+20-53:SAY: Hob White/Malamalajong : I need some things..
+20-53:SAY: Kael/DistortedAudio : What are you doing.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Hugo, we&#39;ll probably kill you even if you surrender, just to be honest...
+20-53:SAY: Kael/DistortedAudio : Why are you doing it?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Like what?
+20-53:SAY: Hob White/Malamalajong : Gasmask..
+20-53:SAY: Unknown/Forteen : Running
+20-53:SAY: Hob White/Malamalajong : Oxygen.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Wait... not hugo,
+20-53:SAY: Kael/DistortedAudio : ;What?
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Meant bob
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Come with me
+20-53:SAY: Kael/DistortedAudio : ;No I won&#39;t.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Meant Bob
+20-53:SAY: Unknown/Forteen : Because you&#39;re trying to kill me
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Heh
+20-53:SAY: Kael/DistortedAudio : I&#39;m not.
+20-53:SAY: Kael/DistortedAudio : Seriously I&#39;m not.
+20-53:SAY: Unknown/Forteen : They are
+20-53:SAY: Jade/Guest-2337011188 : Is there a charger around?
+20-53:SAY: Kael/DistortedAudio : I&#39;mm just trying to arrest you.
+20-53:ACCESS: Login: Guest-1958192925 from 99.240.83.13
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : There&#39;s one in North Security.
+20-53:SAY: Unknown/Forteen : Did you hear cash?
+20-53:SAY: Kael/DistortedAudio : ((I seriously am just trying to arrest you))
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Bob, we&#39;ll probably kill you even if you surrender... But wouldn&#39;t you prefer not to die in an agonizing fire?
+20-53:SAY: Jade/Guest-2337011188 : How&#39;s your space combat prowess?
+20-53:SAY: Kael/DistortedAudio : No.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Your a firefighter
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Not sure if there&#39;s one here.
+20-53:SAY: Unknown/Forteen : You hear that now?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Now you can&#39;t quit your job
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Pretty good.
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hehe
+20-53:MATTACK: Kael(DistortedAudio)has shot a taser round at Unknown
+20-53:SAY: Unknown/Forteen : Probably just going to kill you
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Shall I call the shuttle?
+20-53:SAY: Kael/DistortedAudio : Ah well
+20-53:SAY: Jade/Guest-2337011188 : That&#39;s up to you.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; In the same way that a guy who kills a bunch of people with an axe is an axe fighter, yes. Yes I am a fire fight
+20-53:MATTACK: Kael(DistortedAudio)has shot a taser round at the space
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Fire fighter
+20-53:SAY: Jade/Guest-2337011188 : There&#39;s the stuff you&#39;ll need if you&#39;re going after bob.
+20-53:ACCESS: Login: Headswe from 127.0.0.1
+20-53:SAY: Kael/DistortedAudio : Shit man.
+20-53:SAY: Kael/DistortedAudio : Stop dodging.
+20-53:OOC: Alucard Whoop/Headswe : No you
+20-53:SAY: Kael/DistortedAudio : Only gonna arrest you.
+20-53:GAME: Headswe entered as Alucard Whoop
+20-53:SAY: Unknown/Forteen : What am I supposed to do?
+20-53:SAY: Kael/DistortedAudio : Get your sentencing.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Wear that
+20-53:SAY: Unknown/Forteen : Death
+20-53:SAY: Unknown/Forteen : From Cash
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; Where&#39;s bob?
+20-53:OOC: Alucard Whoop/Headswe : Guess i should readd thoes walls
+20-53:SAY: Kael/DistortedAudio : Probably 10 minuts.
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : no u1
+20-53:SAY: Kael/DistortedAudio : 20.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Or atlease take it
+20-53:SAY: Hob White/Malamalajong : A black jumpsuit?
+20-53:SAY: Jade/Guest-2337011188 : Best of luck to you.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Yeah
+20-53:SAY: Linus Alvah/BlackStars : So this is where the bridge is...
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Yep.
+20-53:SAY: Jade/Guest-2337011188 : You should take linus for support.
+20-53:SAY: Unknown/Forteen : YOu know I can just move?
+20-53:SAY: Kael/DistortedAudio : Yeah.
+20-53:SAY: Jade/Guest-2337011188 : Also one more thing.
+20-53:SAY: Kael/DistortedAudio : but I really want to catch you.
+20-53:SAY: Jade/Guest-2337011188 : Order hugo to not bother me.
+20-53:ACCESS: Logout: Headswe
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : OK.
+20-53:SAY: Hob White/Malamalajong : Who is that?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Hugo, leave Jade alone. Captain&#39;s orders.
+20-53:SAY: Jade/Guest-2337011188 : Thanks.
+20-53:ACCESS: Login: Kenruler from 71.169.42.95
+20-53:SAY: Linus Alvah/BlackStars : We can always go to extreme measures to get him.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Hey, there&#39;s people in EVA.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;As for me, if you don&#39;t hear from me in about five minutes, I may be dead or captured.
+20-53:SAY: Jade/Guest-2337011188 : Not much more extreme than the captain gunning you down in space.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Hi
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Who&#39;s Hob White?
+20-53:SAY: Hob White/Malamalajong : He went that way!
+20-53:GAME: Guest-1958192925 entered as Jason Tesla
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : sup?
+20-53:SAY: Hob White/Malamalajong : I saw the criminal!
+20-53:SAY: Hob White/Malamalajong : He&#39;s in space.
+20-53:SAY: Ronald "Rockstar" Geas/Kenruler : Werd
+20-53:SAY: Linus Alvah/BlackStars : Only one thing to do..
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : BURN SPACE!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;So..
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Captain I order you to tell me where your going
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I can not let you get into bad hands
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;It&#39;s PB&amp;J TIME!
+20-53:SAY: Ronald "Rockstar" Geas/Kenruler : ;Hey, I want a job.
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; WHAT?!! SPACE IS UNBURNABLE! RETREAT! RETREAT!
+20-53:OOC: Drakkon "Dark" Draith/DarkKuta : lol..
+20-53:ACCESS: Login: Lucaboii from 94.168.104.138
+20-53:SAY: Linus Alvah/BlackStars : .Thats gonna be a problem
+20-53:SAY: Jason Tesla/Guest-1958192925 : ...
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Damn...
+20-53:SAY: Linus Alvah/BlackStars : Il assign the new guy
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : How am I going to fix it if I can&#39;t burn it?
+20-53:OOC: Luca Foulger/Lucaboii : I log into Deadness :o awesome
+20-53:ACCESS: Logout: Kenruler
+20-53:SAY: Linus Alvah/BlackStars : Guns
+20-53:MATTACK: Unknown(Forteen)has shot a taser round at the space
+20-53:MATTACK: Unknown(Forteen)has shot a taser round at the space
+20-53:SAY: Hob White/Malamalajong : ; I lost him!
+20-53:SAY: Hob White/Malamalajong : ; He was firing at me!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Why is there two Bob Whites?
+20-53:SAY: Hob White/Malamalajong : ; Hob?!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;I&#39;m okay.
+20-53:SAY: Jade/Guest-2337011188 : That you cap?
+20-53:SAY: Hob White/Malamalajong : ; One is my clone!
+20-53:SAY: Linus Alvah/BlackStars : Wheres the dude who wanted a job?
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;Hob, rather.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Engineer..Operative..Security Guard
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Yrs.
+20-53:SAY: Kael/DistortedAudio : ;Hey.
+20-53:SAY: Jade/Guest-2337011188 : Alrighty.
+20-53:SAY: Kael/DistortedAudio : ;I fell out.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I&#39;m sealing the prison bay.
+20-53:SAY: Jade/Guest-2337011188 : Roger.
+20-53:SAY: Hob White/Malamalajong : ; I am lost in space!
+20-53:SAY: Unknown/TheNewMakerGamer10 : Astronuat?
+20-53:SAY: Unknown/Forteen : You don&#39;t have to do this
+20-53:SAY: Unknown/BlackStars : Not gonna happen, if you want to go EVA though, I wont stop you
+20-53:SAY: Jade/Guest-2337011188 : That you?
+20-53:SAY: Unknown/BlackStars : We think Bob went into space.
+20-53:SAY: Unknown/Forteen : Just leave me alone and I won&#39;t have to fight
+20-53:SAY: Unknown/BlackStars : Yo ronald, you wanted a job right?
+20-53:SAY: Jade/Guest-2337011188 : There&#39;s an unknown near eva.
+20-53:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+20-53:SAY: Jade/Guest-2337011188 : Heading south I think in space.
+20-53:SAY: Unknown/Forteen : Just leave me alone
+20-53:ACCESS: Logout: 
+20-53:ACCESS: Login: Malamalajong from 151.205.96.154
+20-53:ACCESS: Notice: Malamalajong has same IP address as Holybond
+20-53:ACCESS: They share computer ID's
+20-53:ACCESS: They share computer ID's
+20-53:SAY: Jade/Guest-2337011188 : Why.
+20-53:SAY: Unknown/Forteen : I don&#39;t want to fight
+20-53:SAY: Jade/Guest-2337011188 : What&#39;d you do anyway.
+20-53:SAY: Unknown/Forteen : All I did was hack a single door
+20-53:ACCESS: Logout: Qwertyasd40
+20-53:SAY: Unknown/Forteen : And I left it there unopened
+20-53:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+20-53:SAY: Jade/Guest-2337011188 : Then why don&#39;t you just talk to the captain?
+20-53:GAME: Qwertyasd40 entered as Winchester Hughes
+20-53:SAY: Unknown/Forteen : Didn&#39;t you hear Cash?
+20-53:MATTACK: Lelouch vi Britannia(I-Aryn-I)has shot a taser round at Unknown
+20-53:SAY: Unknown/Forteen : &#34;Going to kill you anyways&#34;
+20-53:SAY: Jade/Guest-2337011188 : Cash isn&#39;t the captain.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I need cuffs
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Jade/Guest-2337011188 : Hey cap bob says all he&#39;s done is hack a door.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Still
+20-53:SAY: Jade/Guest-2337011188 : Drag him into eva.
+20-53:ACCESS: Logout: Qwertyasd40
+20-53:SAY: Unknown/Forteen : Ask Hugo
+20-53:SAY: Unknown/Forteen : He blew it out of proportion
+20-53:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+20-53:SAY: Unknown/Forteen : You got me
+20-53:SAY: Unknown/Forteen : Finally you catch me
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Mission Accomplished.
+20-53:SAY: Jade/Guest-2337011188 : You should take him to the bridge.
+20-53:SAY: Linus Alvah/BlackStars : ;You got him?
+20-53:ACCESS: Logout: Guest-1958192925
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Just give me Eva access pleaser
+20-53:SAY: Hob White/Holybond : ARGH!
+20-53:SAY: Hob White/Holybond : I live!
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : ;Yep
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : please*
+20-53:SAY: Hob White/Holybond : I am deaf!
+20-53:SAY: Winchester Hughes/Qwertyasd40 : ;Can anyone tell me how to uncompress files from .rar?
+20-53:SAY: Hob White/Holybond : HElp me!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : MUTANT!
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I need to get out
+20-53:ACCESS: Login: Guest-1958192925 from 99.240.83.13
+20-53:SAY: Winchester Hughes/Qwertyasd40 : ;whoop
+20-53:SAY: Unknown/Forteen : Nice talking to you anyways
+20-53:SAY: Hob White/Holybond : I&#39;m deaf I can not hear!
+20-53:SAY: Hob White/Holybond : *frown
+20-53:SAY: Winchester Hughes/Qwertyasd40 : s;Forget that statement
+20-53:SAY: Winchester Hughes/Qwertyasd40 : ;forget the statement
+20-53:SAY: Hob White/Holybond : Agh!
+20-53:SAY: Hob White/Holybond : I can hear!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Better?
+20-53:SAY: Hob White/Holybond : Yes.
+20-53:SAY: Hob White/Holybond : That man was an imposter.
+20-53:SAY: Unknown/Forteen : And you&#39;re leaving me to die?
+20-53:SAY: Jade/Guest-2337011188 : Nah.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : He is?
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Certainly not.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : He said he was your clone.
+20-53:SAY: Unknown/Forteen : Just why I didn&#39;t turn myself in
+20-53:SAY: Hob White/Holybond : He went to space.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Or rather, you&#39;re his clone.
+20-53:SAY: Linus Alvah/BlackStars : That whould be in-humane.
+20-53:SAY: Hob White/Holybond : And locked me up.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Who are you?
+20-53:SAY: Unknown/Forteen : Just don&#39;t let Cash anywhere near me
+20-53:SAY: Hob White/Holybond : I am Hob White..
+20-53:SAY: Unknown/Forteen : He&#39;s insane
+20-53:SAY: Hob White/Holybond : The real Hob White.
+20-53:SAY: Kael/DistortedAudio : ;Where is he?
+20-53:SAY: Hob White/Holybond : Ugh..
+20-53:SAY: Linus Alvah/BlackStars : We should take him with us
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Agreed.
+20-53:SAY: Jade/Guest-2337011188 : Did you set fire to the supply shuttle area?
+20-53:SAY: Unknown/Forteen : No
+20-53:OOC: Winchester Hughes/Qwertyasd40 : hey
+20-53:SAY: Linus Alvah/BlackStars : He can get a proper trial back home.
+20-53:SAY: Unknown/Forteen : That would probably be Cash
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Is the other Hob, Bob White or whoever?
+20-53:SAY: Hob White/Holybond : I called security in here to handle a nut.
+20-53:OOC: Winchester Hughes/Qwertyasd40 : how do i uncompress files?
+20-53:SAY: Unknown/Forteen : EVA too
+20-53:SAY: Hob White/Holybond : No.
+20-53:SAY: Linus Alvah/BlackStars : Cashs scorched earth to be precise.
+20-53:SAY: Jade/Guest-2337011188 : What did you want in security?
+20-53:SAY: Unknown/Forteen : And the west hallway
+20-53:SAY: Hob White/Holybond : He&#39;s a random guy ((my multi key))
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : ;ARREST HOB WHITE! He&#39;s an imposter!
+20-53:SAY: Unknown/Forteen : Some way of defending myself
+20-53:SAY: Jade/Guest-2337011188 : From...
+20-53:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Drakkon "Dark" Draith(DarkKuta) with a DNA injector
+20-53:ACCESS: Login: Shkane from 122.57.9.241
+20-53:SAY: Hob White/Holybond : Wait!
+20-53:SAY: Hob White/Holybond : You fool!
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Hmm?
+20-53:GAME: Shkane entered as Urist Blazehammer
+20-53:SAY: Hob White/Holybond : They
+20-53:SAY: Hob White/Holybond : will think I am the imposter.
+20-53:SAY: Unknown/Forteen : The &#34;Mad Godking of the Three Space-Kingdoms&#34;, aka Cash
+20-53:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Drakkon "Dark" Draith(DarkKuta) with a syringe
+20-53:MATTACK: Drakkon "Dark" Draith(DarkKuta) injected Drakkon "Dark" Draith(DarkKuta) with a syringe filled with 
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : ; I&#39;m gonna fire up the engines on the shuttle now.
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : Just come to the shuttle.
+20-53:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Shin Taixera(Shiningsoul32) with intent on harm
+20-53:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Shin Taixera(Shiningsoul32) with intent on harm
+20-53:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Shin Taixera(Shiningsoul32) with intent on harm
+20-53:SAY: Linus Alvah/BlackStars : Cash
+20-53:MATTACK: Harold HockkleMucks(TheNewMakerGamer10)has grabbed Shin Taixera(Shiningsoul32) aggressively (now hands) 
+20-53:SAY: Linus Alvah/BlackStars : The prisoner is comeing on the shuttle
+20-53:SAY: Unknown/Forteen : Also I didn&#39;t kill that chemist
+20-53:SAY: Unknown/Forteen : Oh god no not Cash
+20-53:SAY: Hob White (as Micro McGinley)/Holybond : I live..
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : Okay... Time to fire up the engines on this thing!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : BLAST OFF!
+20-53:SAY: Unknown/Forteen : So uh
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : We can talk about this when we get to CC.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Heh, CC.
+20-53:SAY: Hob White/Holybond : Move sir.
+20-53:SAY: Unknown/Forteen : I&#39;ll be here for the rest of the trip?
+20-53:SAY: Jade/Guest-2337011188 : Yup.
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : I have fondmemories of her.
+20-53:SAY: Linus Alvah/BlackStars : What, you think we are gonna chuck you out the airlock?
+20-53:SAY: Linus Alvah/BlackStars : Maybe sleeper...
+20-53:SAY: Linus Alvah/BlackStars : But not airlock.
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : WAIT
+20-53:SAY: Unknown/Forteen : OH GOD SEE?
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : WAIT
+20-53:SAY: Unknown/Forteen : HE HAD A GRENADE
+20-53:SAY: Linus Alvah/BlackStars : Hmmm...
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Also, we can get thiss off ya.
+20-53:SAY: Kael/DistortedAudio : ;WAIT!
+20-53:SAY: Johnny "Meth" Cash/TheGrifter : They&#39;re duds
+20-53:SAY: Hob White (as Micro McGinley)/Holybond : Oh.
+20-53:SAY: Hob White (as Micro McGinley)/Holybond : Sorry.
+20-53:SAY: Linus Alvah/BlackStars : I wonder what the company will do when the find out what happened here.
+20-53:SAY: Unknown/Forteen : Got my hopes up
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Thank god
+20-53:SAY: Drakkon "Dark" Draith/DarkKuta : *laugh
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Whew
+20-53:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I was raping this girl
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : *sigh
+20-53:SAY: Lelouch vi Britannia/I-Aryn-I : Fresh air.
+20-53:SAY: Jade/Guest-2337011188 : Eh.
+20-53:SAY: Bob Robertson/Forteen : Let me up?
+20-53:SAY: Kael/DistortedAudio : What?
+20-53:SAY: Kael/DistortedAudio : DICK
+20-53:SAY: Jade/Guest-2337011188 : How bout that.
+20-53:GAME: Rebooting due to end of game
+20-53:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Lelouch vi Britannia(I-Aryn-I) with intent on harm
+20-53:ACCESS: Logout: I-Aryn-I
+20-53:ACCESS: Logout: DistortedAudio
+20-53:ACCESS: Logout: TheNewMakerGamer10
+20-53:ACCESS: Logout: Forteen
+20-53:ACCESS: Logout: TheGrifter
+20-53:ACCESS: Logout: Holybond
+20-53:ACCESS: Logout: DarkKuta
+20-53:ACCESS: Logout: Guest-2337011188
+20-53:ACCESS: Logout: Guest-1958192925
+20-53:ACCESS: Logout: BlackStars
+20-53:ACCESS: Logout: Qwertyasd40
+20-53:ACCESS: Logout: Malamalajong
+20-53:ACCESS: Logout: Lucaboii
+20-53:ACCESS: Logout: Shkane

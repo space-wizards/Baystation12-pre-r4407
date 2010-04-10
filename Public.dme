@@ -6,9 +6,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\admin code\game\gamemodes\blob code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\zombie code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects 
-FILE: code\game\mob\ai\ai.dm
-LAST_COMPILE_TIME: 1270774196
+DIR: code code\game code\game\admin code\game\gamemodes\blob code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\zombie code\game\mob icons icons\ss13 
+FILE: icons\ss13\turfs.dmi
+LAST_COMPILE_TIME: 1270820028
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -54,6 +54,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "interface"
 #define FILE_DIR "maps"
 #define FILE_DIR "maps/backup"
+#define FILE_DIR "music"
 #define FILE_DIR "sound"
 #define FILE_DIR "sound/damage"
 #define FILE_DIR "sound/damage/glass"
@@ -124,6 +125,8 @@ AUTO_FILE_DIR: ON
 #include "code\game\admin\ban.dm"
 #include "code\game\admin\banjob.dm"
 #include "code\game\admin\create_object.dm"
+#include "code\game\admin\newpanel.dm"
+#include "code\game\admin\newpanelconfig.dm"
 #include "code\game\area\ai_monitored.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\Space Station 13 areas.dm"

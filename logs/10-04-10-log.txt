@@ -1,0 +1,704 @@
+00-08:GAME: Finished building powernets (29 nets)
+00-08:ADMIN: Loading crban_keylist
+00-08:ADMIN: Loading crban_reason
+00-08:ADMIN: Loading crban_time
+00-08:ADMIN: Loading crban_bannedby
+00-08:ADMIN: Loading crban_iplist
+00-08:ADMIN: Loading crban_unbanned
+00-08:ADMIN: Loading crban_ComputerIDs
+00-08:ADMIN: Loading jobban_rank
+00-08:ADMIN: Updating jobbanfile!
+00-08:ACCESS: Login: DarkKuta from 12.76.244.119
+00-08:ACCESS: Login: BlackStars from 94.172.41.229
+00-08:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+00-08:ACCESS: Login: Forteen from 70.134.86.183
+00-08:ACCESS: Login: Holybond from 151.205.96.154
+00-08:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+00-08:ACCESS: Login: Guest-1958192925 from 99.240.83.13
+00-08:ACCESS: Login: Lucaboii from 94.168.104.138
+00-08:ACCESS: Login: DistortedAudio from 74.107.126.183
+00-08:ACCESS: Login: I-Aryn-I from 71.229.232.215
+00-08:GAME: DarkKuta entered as Drakkon "Dark" Draith
+00-08:OOC: Bob Robertson/Forteen : Fun chase
+00-08:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+00-08:GAME: Holybond entered as Hob White
+00-08:OOC: Linus Alvah/BlackStars : That was actually a good round.
+00-08:GAME: Guest-1958192925 entered as Jason Tesla
+00-08:GAME: I-Aryn-I entered as Lelouch vi Britannia
+00-08:GAME: DistortedAudio entered as Hugo Stiglitz
+00-08:GAME: Lucaboii entered as Luca Foulger
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : Agreed.
+00-08:OOC: Linus Alvah/BlackStars : So, now we got to lost worlds?
+00-08:OOC: Bob Robertson/Forteen : I had about 5 IDs
+00-08:OOC: Hugo Stiglitz/DistortedAudio : WIsh there was a Serial Killer Mode.
+00-08:OOC: Bob Robertson/Forteen : And different outfits
+00-08:GAME: Qwertyasd40 entered as Winchester Hughes
+00-08:GAME: BlackStars entered as Linus Alvah
+00-08:OOC: Bob Robertson/Forteen : And I have to go
+00-08:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+00-08:ACCESS: Logout: Forteen
+00-08:ACCESS: Logout: Qwertyasd40
+00-08:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+00-08:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Some admin gave me rape verbs
+00-08:ACCESS: Login: TheGrifter from 67.8.151.66
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : One moment.
+00-08:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Jk
+00-08:GAME: TheGrifter entered as Johnny "Meth" Cash
+00-08:OOC: Luca Foulger/Lucaboii : XD
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : Also, if there&#39;s a rape verb on this server, *headdesk*
+00-08:OOC: Luca Foulger/Lucaboii : Sooo anyone gona Start a change mode vote?
+00-08:VOTE: Voting to change mode started by Harold HockkleMucks/TheNewMakerGamer10
+00-08:OOC: Hugo Stiglitz/DistortedAudio : ARMOK
+00-08:OOC: Hugo Stiglitz/DistortedAudio : ARMOK
+00-08:ACCESS: Login: Chamango from 82.112.149.166
+00-08:OOC: Luca Foulger/Lucaboii : Zombies! :D
+00-08:GAME: Guest-2337011188 entered as Jade
+00-08:OOC: Winchester Hughes/Qwertyasd40 : rev
+00-08:OOC: Winchester Hughes/Qwertyasd40 : omfg
+00-08:OOC: Winchester Hughes/Qwertyasd40 : better than zombie
+00-08:OOC: Winchester Hughes/Qwertyasd40 : NO
+00-08:VOTE: Voting closed, result was zombie
+00-08:OOC: Winchester Hughes/Qwertyasd40 : NNNONOONONONONONONNONO
+00-08:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Yeah someone had to vote Armok
+00-08:OOC: Luca Foulger/Lucaboii : Jeez don&#39;t Jizz yourself, Its only for one round o.o
+00-08:OOC: Winchester Hughes/Qwertyasd40 : like an hour
+00-08:OOC: Winchester Hughes/Qwertyasd40 : :(
+00-08:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Yeah but Hate=Zombies
+00-08:OOC: Winchester Hughes/Qwertyasd40 : and i still cant uncompress this file
+00-08:OOC: Winchester Hughes/Qwertyasd40 : :(
+00-08:OOC: Linus Alvah/BlackStars : Its basically a blood round, wont last long.
+00-08:OOC: Linus Alvah/BlackStars : Get 7zip
+00-08:GAME: starting game of Zombie Outbreak
+00-08:ACCESS: Logout: 
+00-08:ACCESS: Login: I-Aryn-I from 71.229.232.215
+00-08:ACCESS: They share computer ID's
+00-08:OOC: Winchester Hughes/Qwertyasd40 : thx
+00-08:GAME: Chamango entered as Cog Magmamaker
+00-08:OOC: Winchester Hughes/Qwertyasd40 : cuz i got windows 7
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Asshole stoled my job I wanted.
+00-08:OOC: Winchester Hughes/Qwertyasd40 : and no winrar
+00-08:OOC: Linus Alvah/BlackStars : Same
+00-08:ACCESS: Login: Guest-676202865 from 109.78.37.18
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *smile
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *wave
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Yo
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:OOC: HELP: Drakkon "Dark" Draith/DarkKuta : Your now immune to the zombies(Don&#39;t Metagame) &lt;-- ?
+00-08:ADMIN: HELP: DarkKuta/Drakkon "Dark" Draith: Your now immune to the zombies(Don&#39;t Metagame) &lt;-- ?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : *salute
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : Uhm, don&#39;t I get a change name option?
+00-08:OOC: Linus Alvah/BlackStars : ?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : So.. Does anyone want to hear a OP thing?
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : I got AI
+00-08:SAY: Luca Foulger/Lucaboii : Evening Crew, Captain speaking; You know the drill, All crew to the Stations, Keep me Informed of everythign of Importance yada yada, Oh and today&#39;s lunch is Meatballs
+00-08:SAY: Jade/Guest-2337011188 : Pick up the card citizen.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Your now immune to the zombies(Don&#39;t Metagame) &lt;--- Epic, no?
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Get Winrar.
+00-08:SAY: Linus Alvah/BlackStars : ;Yum.
+00-08:OOC: Hugo Stiglitz/DistortedAudio : It&#39;s fucking free.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Your dead?
+00-08:SAY: Jade/Guest-2337011188 : Now place it on the table.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Nice
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:SAY: Winchester Hughes/Qwertyasd40 : That is awesomely nice.
+00-08:OOC: Linus Alvah/BlackStars : I like 7zip, its also free.
+00-08:OOC: Hugo Stiglitz/DistortedAudio : How&#39;d you get that?
+00-08:SAY: Jade/Guest-2337011188 : Don&#39;t touch it again.
+00-08:OOC: Winchester Hughes/Qwertyasd40 : kk
+00-08:SAY: Jade/Guest-2337011188 : It&#39;s made of magic.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : I started with it.
+00-08:OOC: Luca Foulger/Lucaboii : XD thats Awesome Dark, doesn&#39;t that mean you can still get clawed to bits though?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *help
+00-08:SAY: Jade/Guest-2337011188 : Hand me your id.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Now I am a weapon against the plague.
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : I started as AI, but it didn&#39;t give me a change name box.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : I can still be claw.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *handshake
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : But not infected.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Can you still hold your job and stuff even if your dead?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shakehead
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:OOC: Linus Alvah/BlackStars : Unless you lose said trait through genetics?
+00-08:SAY: Jade/Guest-2337011188 : What job do you wanT?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;Hey guess what happened to Johnny?
+00-08:SAY: Luca Foulger/Lucaboii : Hmm a message from Cent com. And what happened Winchester?
+00-08:SAY: Linus Alvah/BlackStars : ;Died of starvation?
+00-08:SAY: Cog Magmamaker/Chamango : Is there anything understaffed?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;This is awesome, hes dead and still alive.
+00-08:SAY: Linus Alvah/BlackStars : ;I gotta see that!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;I dont think he can speak
+00-08:SAY: Jade/Guest-2337011188 : Security.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Guess thats a no
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Aww
+00-08:SAY: Jade/Guest-2337011188 : And engineering.
+00-08:SAY: Cog Magmamaker/Chamango : Security then
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Poor guy
+00-08:SAY: Cog Magmamaker/Chamango : Oh
+00-08:SAY: Jade/Guest-2337011188 : Engineering is more understaffed.
+00-08:SAY: Linus Alvah/BlackStars : Funky!
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Cog Magmamaker/Chamango : Engineering then
+00-08:SAY: Jade/Guest-2337011188 : Alright.
+00-08:SAY: Luca Foulger/Lucaboii : Dead and Still alive? Hes acting. Obviously, Johhny Get back to work
+00-08:SAY: Linus Alvah/BlackStars : Get a Camera from Forensics!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : He drops it whenever he trys to pick it up...
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : Uhm
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:SAY: Hugo Stiglitz/DistortedAudio : ;Where is he?
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : ;Where is Johnny?
+00-08:SAY: Cog Magmamaker/Chamango : Thanks
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;No
+00-08:SAY: Jade/Guest-2337011188 : No prob.
+00-08:SAY: Linus Alvah/BlackStars : ;I gotta Get a Camera from Forensics!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;Hes dead
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : I seem to have been uploaded into the ship&#39;s mainframe somehow.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : ;Where are you WINCHESTER?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;I scanned him
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;Medbay
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;I scanned him, hes dead.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : ;Hes crying
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : HI!
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : I need some pills.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:GAME: Guest-676202865 entered as Cog Bowdoor
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hey
+00-08:SAY: Winchester Hughes/Qwertyasd40 : What kind?
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *spit
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *help
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Talking to Johnny.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *mumble
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:SAY: Linus Alvah/BlackStars : Hey
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *mumble
+00-08:SAY: Jade/Guest-2337011188 : Hey.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *glar-
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : I need some, um.. Headache pills..
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Yeah.
+00-08:SAY: Luca Foulger/Lucaboii : What is he doing...?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:SAY: Linus Alvah/BlackStars : Can you add forensics on to my card access?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : He cant really speak
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *glare(Johnny)
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hes dead.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : I scanned him.
+00-08:SAY: Luca Foulger/Lucaboii : Johhny, Say something
+00-08:SAY: Jade/Guest-2337011188 : Why would I do that.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *glare-jonny
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Can I still hug him?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Yup
+00-08:SAY: Linus Alvah/BlackStars : I want to get a Camera to take a photo of the walking dead guy
+00-08:SAY: Hugo Stiglitz/DistortedAudio : *glare
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Linus Alvah/BlackStars : Plus my job is void
+00-08:SAY: Jade/Guest-2337011188 : *sigh
+00-08:SAY: Luca Foulger/Lucaboii : *stare
+00-08:SAY: Hugo Stiglitz/DistortedAudio : TAKE HIM DOWN!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : He cant pick up objects
+00-08:SAY: Jade/Guest-2337011188 : Alright.
+00-08:SAY: Luca Foulger/Lucaboii : Huge
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : I can&#39;t get in.
+00-08:SAY: Linus Alvah/BlackStars : Comm Array out of alignment.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hy
+00-08:SAY: Luca Foulger/Lucaboii : Hugo
+00-08:SAY: Winchester Hughes/Qwertyasd40 : NO
+00-08:SAY: Jade/Guest-2337011188 : Tell the captain to align it then.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hes only dead
+00-08:SAY: Luca Foulger/Lucaboii : He&#39;s obviously plauged, Its not right to just kill him
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : HI!
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio)has shot a taser round at the chair
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hob
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Hugo Stiglitz/DistortedAudio : Cuff him.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : You cant feel sorry for him?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hes crying.
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : Also, regrettably, I am now part of the AI system, and so must follow the three laws.
+00-08:SAY: Luca Foulger/Lucaboii : [ Oh come on Bite him! :o ]
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Hi, Johnny. Need a hug?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Let me in will ya..? Ya that after going to college together you would let me in by now
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : *hug
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : *hug Johnny
+00-08:SAY: Linus Alvah/BlackStars : *salute
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : Why does everybody hate the asian guy?!!
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : *HugJohnny
+00-08:SAY: Jade/Guest-2337011188 : Step on in.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : ;Lelouch.
+00-08:OOC: Linus Alvah/BlackStars : You know, i just remembered what i like most about Lost worlds, A Mix between being boarded by giant lizards or the science...
+00-08:SAY: Hugo Stiglitz/DistortedAudio : ;Are you stilla  douchebag?
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *nod
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Right, don&#39;t know where to put it into, but I guess I&#39;ll jack pick randomly.
+00-08:SAY: Hob White/Holybond : Hm..
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Can we play that?
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Johnny "Meth" Cash(TheGrifter) with a syringe
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) injected Johnny "Meth" Cash(TheGrifter) with a syringe filled with 
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Johnny "Meth" Cash(TheGrifter) with a syringe
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) injected Johnny "Meth" Cash(TheGrifter) with a syringe filled with 
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Johnny "Meth" Cash(TheGrifter) with a syringe
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) injected Johnny "Meth" Cash(TheGrifter) with a syringe filled with 
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : (Just*)
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : It depends.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *smile
+00-08:SAY: Linus Alvah/BlackStars : ;They got rid of the Camera!
+00-08:SAY: Hugo Stiglitz/DistortedAudio : ;You still a dumbass/
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Your now immune to the zombies(Don&#39;t Metagame)
+00-08:SAY: Luca Foulger/Lucaboii : It may be best to Quarentine him...Just for save cause
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Got to love it.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *shrug
+00-08:OOC: Luca Foulger/Lucaboii : Well this is new, The Only zombie isn&#39;t freaking Biting anyone
+00-08:SAY: Hugo Stiglitz/DistortedAudio : OPEN TH DOOR
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Dude get out
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : It&#39;s like steroids, but without the side-effects.
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : Zombocratic oath, man
+00-08:SAY: Linus Alvah/BlackStars : Cameras gone.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Place-bos
+00-08:SAY: Hugo Stiglitz/DistortedAudio : GIVE ME YOUR ID
+00-08:SAY: Winchester Hughes/Qwertyasd40 : I need to push closet in
+00-08:SAY: Hugo Stiglitz/DistortedAudio : OR PEN THE DOOR!
+00-08:SAY: Jade/Guest-2337011188 : You feel like stepping in now?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Hugo
+00-08:SAY: Jade/Guest-2337011188 : ...
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : Zombie doctors don&#39;t attack people. Why do you think hospitals are so safe on Z-Day
+00-08:SAY: Winchester Hughes/Qwertyasd40 : You k?
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : There seems to be some kind of anamoly in the medbay.
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : What?
+00-08:SAY: Hugo Stiglitz/DistortedAudio : NO!
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Hugo Stiglitz/DistortedAudio : HAROLD
+00-08:SAY: Hugo Stiglitz/DistortedAudio : OPEN THE DOOR!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : The hell?
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : Orders?
+00-08:ACCESS: Login: An Inmate from 68.231.87.39
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Gonna get some sleep toxins
+00-08:SAY: Jade/Guest-2337011188 : Need help?
+00-08:SAY: Luca Foulger/Lucaboii : You Ok Drakkon?
+00-08:ACCESS: Login: Kenruler from 71.169.42.95
+00-08:SAY: Jade/Guest-2337011188 : Do you know how to talk?
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Yes.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : MOVE
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Yeah.
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Why?
+00-08:GAME: Kenruler entered as Ronald "Rockstar" Geas
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Calm down
+00-08:SAY: Jade/Guest-2337011188 : Do you need help?
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I got you some antidote
+00-08:SAY: Luca Foulger/Lucaboii : I don&#39;t know he seemed to have went for you, No matter
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Yes please. I&#39;m a newbie.
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Johnny "Meth" Cash(TheGrifter) with Pill Canister- 'Placebos'
+00-08:OOC: Linus Alvah/BlackStars : Do a Zombie docter from left for dead.
+00-08:SAY: Jade/Guest-2337011188 : No problem.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Sorry
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : ;Good evening.
+00-08:SAY: Jade/Guest-2337011188 : You&#39;re in the arrival area.
+00-08:ACCESS: Logout: An Inmate
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Johnny "Meth" Cash(TheGrifter) with Pill Canister- 'Placebos'
+00-08:SAY: Jade/Guest-2337011188 : Here you get assigned a job.
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Seriously.
+00-08:ACCESS: Login: An Inmate from 68.231.87.39
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Oh my god
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Yes?
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Someone host this &#34;Lost Worlds&#34;
+00-08:SAY: Jade/Guest-2337011188 : I&#39;ll let you chill out here for a bit.
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Yeah, I picked assisstant
+00-08:OOC: Hugo Stiglitz/DistortedAudio : It sounds fun.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : What?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Whoah....
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Eat the danm Placebo&#39;s you 
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Johnny "Meth" Cash(TheGrifter) with Pill Canister- 'Placebos'
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : J
+00-08:OOC: Linus Alvah/BlackStars : Its Aryns game.
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : K
+00-08:SAY: Jade/Guest-2337011188 : Pick up the card citizen.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : I&#39;ve played Lost Worlds.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Feed him these
+00-08:OOC: Hugo Stiglitz/DistortedAudio : I haven&#39;t.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : STACK
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : (oops)
+00-08:ACCESS: Logout: An Inmate
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Accident.
+00-08:ACCESS: Login: An Inmate from 68.231.87.39
+00-08:SAY: Jade/Guest-2337011188 : What would you like?
+00-08:SAY: Hugo Stiglitz/DistortedAudio : UHN LUFTWALLE
+00-08:OOC: Linus Alvah/BlackStars : Fear BeAcOs.
+00-08:SAY: Unknown/Kenruler : Engineer, or something like that.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : STOP
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : This will heal you
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Aryn you gonna host.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Placbos make people unstable
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Johnny "Meth" Cash(TheGrifter) with a pill
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) forced Johnny "Meth" Cash(TheGrifter) to swallow pill
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:OOC: Hugo Stiglitz/DistortedAudio : or are we just gonna hear about how good your game is?
+00-08:SAY: Unknown/Kenruler : Thanks.
+00-08:SAY: Jade/Guest-2337011188 : No prob.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : He likes me!
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Johnny "Meth" Cash(TheGrifter) with a pill
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) forced Johnny "Meth" Cash(TheGrifter) to swallow pill
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Stop
+00-08:SAY: Hugo Stiglitz/DistortedAudio : UND LUFTWAFFLE!
+00-08:ACCESS: Logout: An Inmate
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : They might work
+00-08:OOC: Linus Alvah/BlackStars : Nothing quite beats mowing down lizards with a Assualt rifle...
+00-08:ACCESS: Login: An Inmate from 68.231.87.39
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : (BITE SOMEONE!! AHHHH! H4X MODE ACTIVATED!!!111!)
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Johnny "Meth" Cash(TheGrifter) with intent on harm
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Jade/Guest-2337011188 : Alright.
+00-08:SAY: Cog Bowdoor/Guest-676202865 : What should I do? Know where the chapel is?
+00-08:SAY: Jade/Guest-2337011188 : Here is where you would normally pick a job.
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : Or injecting exploding liquid into someone.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Jade/Guest-2337011188 : Chapel is down the hall and to the right.
+00-08:OOC: Hob White/Holybond : I think i&#39;ve played Lost worlds before.
+00-08:SAY: Luca Foulger/Lucaboii : Whats wrong?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Ughhh
+00-08:OOC: Linus Alvah/BlackStars : Yeah, BeAcOs, Explodes even if you drink it!
+00-08:OOC: Hob White/Holybond : I think I stepped in a puddle and died.
+00-08:SAY: Jade/Guest-2337011188 : Put your id on the desk for me.
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Ah. I might check it out. I&#39;m consulting the wiki at the moment
+00-08:SAY: Winchester Hughes/Qwertyasd40 : If only he could write
+00-08:SAY: Luca Foulger/Lucaboii : Keep Your distance..
+00-08:OOC: Linus Alvah/BlackStars : Theres something beyond BeAcOs, just cant remember it.
+00-08:SAY: Jade/Guest-2337011188 : Good idea.
+00-08:SAY: Jade/Guest-2337011188 : The wiki map is probably way out of date though.
+00-08:OOC: Big Gay Burtis Cain/An Inmate : Any idea why Character Setup aint working?
+00-08:ACCESS: Login: Linkdawolf from 69.133.198.41
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : TAKE IT
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : IT WILL HEAL YOU
+00-08:SAY: Luca Foulger/Lucaboii : [Bite someone already! &gt;.&gt; ]
+00-08:OOC: Big Gay Burtis Cain/An Inmate : Oh snap. I see Holybond
+00-08:SAY: Jade/Guest-2337011188 : I&#39;m gonna set you up as an engineer.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *frown
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Fair &#39;nough.
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Johnny "Meth" Cash(TheGrifter) with a pill
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) forced Johnny "Meth" Cash(TheGrifter) to swallow pill
+00-08:SAY: Jade/Guest-2337011188 : That will let you explore.
+00-08:GAME: Linkdawolf entered as Drew Bryde
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : Helllooooo
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Johnny "Meth" Cash(TheGrifter) with a pill
+00-08:SAY: Linus Alvah/BlackStars : ;Hmmmm?
+00-08:SAY: Jade/Guest-2337011188 : And there&#39;s plenty of engineers to help you.
+00-08:ACCESS: Logout: Linkdawolf
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *frown
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : MOVE
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Okay, thanks. I appreciate it.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *scream
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : There&#39;s some kind of walking dead man in the medical bay.
+00-08:OOC: Hugo Stiglitz/DistortedAudio : Inmate!
+00-08:SAY: Jade/Guest-2337011188 : The engine is in the center of the station.
+00-08:SAY: Linus Alvah/BlackStars : Can i punch it in the mouth?
+00-08:OOC: Hugo Stiglitz/DistortedAudio : It&#39;s blue....othello.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *frown
+00-08:SAY: Jade/Guest-2337011188 : Just look for another engineer.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *help
+00-08:SAY: Jade/Guest-2337011188 : He&#39;ll help you out.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Johnnu
+00-08:OOC: Ronald "Rockstar" Geas/Kenruler : ew
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Eat those
+00-08:SAY: Luca Foulger/Lucaboii : i Think we should Quarentine him..
+00-08:SAY: Cog Bowdoor/Guest-676202865 : Thanks for the help. Owe you one.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *glare-Drakkon
+00-08:SAY: Jade/Guest-2337011188 : No problem.
+00-08:OOC: Big Gay Burtis Cain/An Inmate : Hey dude. Long time no see.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : For yu weirdi cricke skin disaese
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *glare
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Luca Foulger/Lucaboii : Drakkon Stop that
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Pick up your ID.
+00-08:SAY: Drakkon "Dark" Draith/DarkKuta : Alright.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : He cant
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : Why do you hate asians so much, guys?
+00-08:SAY: Winchester Hughes/Qwertyasd40 : he drops it
+00-08:OOC: Linus Alvah/BlackStars : By the way, if your gonna play Lost Worlds, Read my Guide on Viral Control  http://byondlostworlds.proboards.com/index.cgi?board=lwgeneral&action=display&thread=35
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : See how&#39;s that is done?
+00-08:SAY: Luca Foulger/Lucaboii : Stop pushing me you moron
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : Sup.
+00-08:GAME: An Inmate entered as Big Gay Burtis Cain
+00-08:SAY: Cog Magmamaker/Chamango : Sup
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : What the fuck are you doing?
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Harold HockkleMucks(TheNewMakerGamer10) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Harold HockkleMucks(TheNewMakerGamer10) with intent on harm
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) clicked on Johnny "Meth" Cash(TheGrifter) with a pill
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) forced Johnny "Meth" Cash(TheGrifter) to swallow pill
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Luca Foulger/Lucaboii : [ CLick on Disarm to bite
+00-08:SAY: Cog Magmamaker/Chamango : Connecting the CO2 to the heat exchangers
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *scream
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *scream
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : You&#39;re releasing cold C02 into the engine..
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Luca Foulger/Lucaboii : Are you ok!?
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Jade/Guest-2337011188 : Pick up the card citizen.
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Hey buddy.
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Winchester Hughes/Qwertyasd40 : STOP
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Sure thing.
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Drakkon "Dark" Draith(DarkKuta) with intent on harm
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : These are not the heat exchangers.
+00-08:SAY: Jade/Guest-2337011188 : Id.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : They&#39;re in the other room.
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:SAY: Cog Magmamaker/Chamango : Dammit
+00-08:SAY: Winchester Hughes/Qwertyasd40 : stun him
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Johnny "Meth" Cash(TheGrifter) with the taser gun
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *cry
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Johnny "Meth" Cash(TheGrifter) with the taser gun
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Anything you say, sexy.
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Johnny "Meth" Cash(TheGrifter) with the taser gun
+00-08:OOC: Lelouch vi Britannia/I-Aryn-I : byond://BYOND.world.1017368610
+00-08:SAY: Cog Magmamaker/Chamango : Worst first day ever
+00-08:SAY: Luca Foulger/Lucaboii : STOP BEATING HIM
+00-08:SAY: Jade/Guest-2337011188 : What would you like?
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : No problem.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : What?
+00-08:OOC: Drakkon "Dark" Draith/DarkKuta : I remember you Aryn.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : SCREW YOU ALL!
+00-08:SAY: Winchester Hughes/Qwertyasd40 : Stun him once
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Winchester Hughes(Qwertyasd40) with the taser gun
+00-08:SAY: Big Gay Burtis Cain/An Inmate : What would -you- like?
+00-08:SAY: Cog Magmamaker/Chamango : Well thanks for saying before i started them
+00-08:SAY: Jade/Guest-2337011188 : To assign you a job sometime today.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I won&#39;t become one of them now
+00-08:SAY: Hugo Stiglitz/DistortedAudio : RAAH!
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Luca Foulger(Lucaboii) with intent on harm
+00-08:SAY: Luca Foulger/Lucaboii : GET HIM OUT
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : The placebo&#39;s weer them off
+00-08:SAY: Luca Foulger/Lucaboii : HELP
+00-08:SAY: Hugo Stiglitz/DistortedAudio : Jesus.&#34;
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : BITE THEM&#39;
+00-08:SAY: Hugo Stiglitz/DistortedAudio : AAAAHAHAHAH!
+00-08:OOC: Linus Alvah/BlackStars : Im going to lost worlds
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Oh. I see how it is. Ok. Give me anything.
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Johnny "Meth" Cash(TheGrifter) with the taser gun
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) attcked by Johnny "Meth" Cash(TheGrifter) with the taser gun
+00-08:ACCESS: Logout: BlackStars
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : WHAT?
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I&#39;ll adjust.
+00-08:SAY: Hugo Stiglitz/DistortedAudio : NO!
+00-08:SAY: Luca Foulger/Lucaboii : What the hjell
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : Just move these into the Engine Control room, and it&#39;ll probably look more familiar.
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : RUN!
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : RUN!
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : I&#39;ll sacrafice myself!
+00-08:SAY: Cog Magmamaker/Chamango : Will do
+00-08:SAY: Jade/Guest-2337011188 : How are you at beating people up?
+00-08:ACCESS: Logout: Qwertyasd40
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:OOC: Luca Foulger/Lucaboii : Wtf?
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : AAAH!
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Well I have to do that before I have my way with them! I&#39;m quite well rounded in the area.
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : YOU WOULDNT LISTEN!
+00-08:SAY: Jade/Guest-2337011188 : *chuckle
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : Why would nobody leave Doctor Zombie alone?
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Take the Placebo
+00-08:SAY: Luca Foulger/Lucaboii : YOY IDTIO!
+00-08:SAY: Jade/Guest-2337011188 : Security it is then.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Or youll die
+00-08:SAY: Luca Foulger/Lucaboii : YOU BLINDED ME!
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Sounds good.
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : It appears that the infection has spread.
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I get to be with the prison bitches!
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : All he wanted was to be left alone...
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Hugo Stiglitz(DistortedAudio) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:SAY: Jade/Guest-2337011188 : Not so many of those here.
+00-08:SAY: Luca Foulger/Lucaboii : RUN!
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : OH MY GOD
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Hugo Stiglitz
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at the floor
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Hugo Stiglitz
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : THERE IS ALOT OF THEM
+00-08:SAY: Jade/Guest-2337011188 : See you around.
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Hugo Stiglitz
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Hugo Stiglitz
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : DEAD BODIES
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I&#39;ll have to go find so-
+00-08:SAY: Jade/Guest-2337011188 : Ah great.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : EVERYWHERE
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Fantastic.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I think I am going to faint
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:ACCESS: Login: Qwertyasd40 from 76.200.145.46
+00-08:SAY: Luca Foulger/Lucaboii : Everyone! Find safe shelter!
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : SS13, attempt to subdue all infected.
+00-08:SAY: Winchester Hughes/Qwertyasd40 : im alive
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : You guys are a bunch of lifeist pricks
+00-08:SAY: Luca Foulger/Lucaboii : Pick up Any weapons You gun!
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I&#39;m locked in with a hetero...
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : I mean, the dead have rights too...
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Jade/Guest-2337011188 : You could go reset the alarm...
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : The lockdown is being breached!
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:OOC: Johnny "Meth" Cash/TheGrifter : It&#39;s just that if you dangle seven people in front of a zombie, and start attacking him, he will bite
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:SAY: Luca Foulger/Lucaboii : Open the Lockdown! You&#39;ve shut me in with Infected!
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Good idea.
+00-08:OOC: Winchester Hughes/Qwertyasd40 : wtf
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:SAY: Jason Tesla/Guest-1958192925 : why&#39;d you take my gloves?
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:OOC: Winchester Hughes/Qwertyasd40 : dont i revive when kiled by a zombie?
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:SAY: Luca Foulger/Lucaboii : Now Lockdown!
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:SAY: Jade/Guest-2337011188 : Security is down the hall to the left.
+00-08:OOC: Luca Foulger/Lucaboii : Only if you get bitten
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Drakkon "Dark" Draith(DarkKuta) clicked on Winchester Hughes(Qwertyasd40) with intent on harm
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Linus Alvah(BlackStars) with intent on harm
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : The lockdown is ineffective!
+00-08:ACCESS: Logout: Qwertyasd40
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I&#39;m dyslexic, but I know how to love.
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : The infected can breach doors.
+00-08:SAY: Luca Foulger/Lucaboii : Then there is no point in shutting us all in one Space, Cancel it, All uninfected crewmembers find safe shelter!
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Oo! Kinky!
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:ACCESS: Login: Falox The Fox from 76.112.121.111
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : ;
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Ronald "Rockstar" Geas/Kenruler : ;Whoaa.
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:GAME: Falox The Fox entered as Falox
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Luca Foulger/Lucaboii : Ai, Cancel the lockdown please
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : It appears the infected cannot grasp items because of their claws.
+00-08:ACCESS: Login: Jackofnotrades from 58.161.18.62
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Hugo Stiglitz/DistortedAudio : What happened with Lost?
+00-08:SAY: Hugo Stiglitz/DistortedAudio : Lost Worlds?
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : If you see someone you are uncertain of, check if they carry anything.
+00-08:MATTACK: Johnny "Meth" Cash(TheGrifter) clicked on Cog Bowdoor(Guest-676202865) with intent on harm
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:SAY: Big Gay Burtis Cain/An Inmate : Hey buddy.
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:SAY: Luca Foulger/Lucaboii : AI Cancel the Lockdown!
+00-08:ACCESS: Logout: Falox The Fox
+00-08:SAY: Jade/Guest-2337011188 : ;There is no ai...
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:GAME: Jackofnotrades entered as Peter Androkovich
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:OOC: Peter Androkovich/Jackofnotrades : Hey.
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Hugo Stiglitz(DistortedAudio) clicked on Big Gay Burtis Cain(An Inmate) with intent on harm
+00-08:SAY: Big Gay Burtis Cain/An Inmate : I love you.
+00-08:SAY: Jade/Guest-2337011188 : ;Whoa there is an ai?
+00-08:SAY: Luca Foulger/Lucaboii : Crew, Find safe shelter, Grab any weapons you can
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : Drakkon &#34;Dark&#34; Draith is a confirmed infected.
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Linus Alvah(BlackStars) with the weldingtool
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : And, sort of.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : SHIT
+00-08:ACCESS: Login: Falox The Fox from 76.112.121.111
+00-08:SAY: Cog Magmamaker/Chamango : I think the cold loop works now
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : BASTARDS
+00-08:SAY: Lelouch vi Britannia/I-Aryn-I : I got uploaded.
+00-08:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I AIN&#39;T GOING DOWN WITHOUT A FIGHT
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Big Gay Burtis Cain
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *salute
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Big Gay Burtis Cain
+00-08:MATTACK: Harold HockkleMucks(TheNewMakerGamer10) attcked by Big Gay Burtis Cain(An Inmate) with the weldingtool
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Big Gay Burtis Cain
+00-08:SAY: Peter Androkovich/Jackofnotrades : Shiiiit.
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Big Gay Burtis Cain
+00-08:SAY: Johnny "Meth" Cash/TheGrifter : *nod
+00-08:MATTACK: Luca Foulger(Lucaboii)has shot a taser round at Big Gay Burtis Cain
+00-08:SAY: Peter Androkovich/Jackofnotrades : Move.
+00-08:ACCESS: Logout: An Inmate
+00-08:ACCESS: Logout: Lucaboii
+00-08:ACCESS: Logout: Guest-676202865
+00-08:ACCESS: Logout: TheNewMakerGamer10
+00-08:ACCESS: Logout: Guest-2337011188
+00-08:ACCESS: Logout: Holybond
+00-08:ACCESS: Logout: TheGrifter
+00-08:ACCESS: Logout: DistortedAudio
+00-08:ACCESS: Logout: Falox The Fox
+00-08:ACCESS: Logout: Guest-1958192925
+00-08:ACCESS: Logout: Chamango
+00-08:ACCESS: Logout: I-Aryn-I
+00-08:ACCESS: Logout: Jackofnotrades
+00-08:ACCESS: Logout: Kenruler
+00-08:ACCESS: Logout: DarkKuta
