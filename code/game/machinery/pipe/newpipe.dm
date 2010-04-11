@@ -939,8 +939,9 @@
 	ngas = new/obj/substance/gas()
 	gasflowlist += src
 
-	h_dir = dir					// the h/e pipe is in obj dir
-	p_dir = turn(dir, 180)		// the reg pipe is in opposite dir
+	//Nasty old code is holding back progress.
+	//h_dir = dir					// the h/e pipe is in obj dir
+	//p_dir = turn(dir, 180)		// the reg pipe is in opposite dir
 
 
 /obj/machinery/junction/buildnodes()
@@ -1079,7 +1080,8 @@
 /obj/machinery/vent/New()
 
 	..()
-	p_dir = dir
+	//Bah! Old "p_dir = " must go!
+	//p_dir = dir
 	gas = new/obj/substance/gas(src)
 	gas.maximum = capacity
 	ngas = new/obj/substance/gas()
@@ -1166,7 +1168,8 @@
 
 	..()
 
-	p_dir = dir
+	//Ugh, another one?
+	//p_dir = dir
 	gas = new/obj/substance/gas(src)
 	gas.maximum = capacity
 	ngas = new/obj/substance/gas()
@@ -1330,11 +1333,13 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	switch(dir)
+
+	//You know, by now, I hope you don't need reminding of the evils of the past p_dir =
+/*	switch(dir)
 		if(1, 2)
 			p_dir = 3
 		if(4,8)
-			p_dir = 12
+			p_dir = 12*/
 
 	icon_state = "valve[open]"
 
@@ -1467,11 +1472,13 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	switch(dir)
+
+	//See comment in /mvalve/New()
+/*	switch(dir)
 		if(1, 2)
 			p_dir = 3
 		if(4,8)
-			p_dir = 12
+			p_dir = 12*/
 
 	icon_state = "dvalve[open]"
 
@@ -1612,7 +1619,8 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	p_dir = dir|turn(dir, 180)
+	//..... another one.
+	//p_dir = dir|turn(dir, 180)
 
 /obj/machinery/oneway/buildnodes()
 	var/turf/T = src.loc

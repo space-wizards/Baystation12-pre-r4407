@@ -2,7 +2,8 @@
 
 /obj/machinery/pipefilter/New()
 	..()
-	p_dir = (NORTH|SOUTH|EAST|WEST) ^ turn(dir, 180)
+	//[disdainful remark similar to those in newpipe.dm]
+	//p_dir = (NORTH|SOUTH|EAST|WEST) ^ turn(dir, 180)
 
 	src.gas = new /obj/substance/gas( src )
 	src.gas.maximum = src.capacity

@@ -3484,12 +3484,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A manually controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "valve0"
+	p_dir = 3
 
 /obj/machinery/valve/dvalve
 	name = "digital valve"
 	desc = "A digitally controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "dvalve0"
+	p_dir = 3
 
 /obj/machinery/oneway
 	name = "one-way pipe"
@@ -3507,6 +3509,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	capmult = 2
 	icon = 'pipes.dmi'
 	icon_state = "one-way"
+	p_dir = 3
 
 /obj/machinery/oneway/pipepump
 	name = "Pipe pump"
@@ -3582,7 +3585,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/capacity = 6000000
 	anchored = 1
 	dir = 2
-	p_dir = 3
+	h_dir = 2
+	p_dir = 1
 
 	var/obj/substance/gas/gas = null
 	var/obj/substance/gas/ngas = null

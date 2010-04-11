@@ -3,6 +3,13 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+FILE: code\game\cellautomata.dm
+LAST_COMPILE_TIME: 1270958473
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -83,7 +90,6 @@
 #include "todo.dm"
 #include "code\atoms.dm"
 #include "code\changelog.dm"
-#include "code\gamehelpers.dm"
 #include "code\globals.dm"
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
@@ -268,4 +274,5 @@
 #include "code\unused\musicplayer.dm"
 #include "code\unused\vehicle.dm"
 #include "interface\skin.dmf"
+#include "maps\Bay Station 12 alpha.dmp"
 // END_INCLUDE

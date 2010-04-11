@@ -107,7 +107,13 @@ var/map_loading = 1
 		//loading and the calculations after are
 		//somewhat slow, so spawn()ing allows them
 		//to occasionally sleep() to let the server run.
-		QML_loadMap("maps\\Bay Station 12 alpha.dmp",0,0,0)
+
+		//This line should only be used for testing the map loader,
+		//as it is still worse at loading full maps than the default.
+		//Still, uncomment it, uncheck the map for compiling, and
+		//the map should still load just fine.
+		//QML_loadMap("maps\\Bay Station 12 alpha.dmp",0,0,0)
+
 		load_map_modules()
 		sleep(10)
 		map_loading = 0
