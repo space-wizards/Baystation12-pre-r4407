@@ -1397,6 +1397,21 @@
 	new /obj/item/weapon/clothing/shoes/black( src )
 	return
 
+/obj/closet/wardrobe/network/New()
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/under/network( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	new /obj/item/weapon/clothing/shoes/black( src )
+	return
+
 /obj/closet/wardrobe/orange/New()
 	new /obj/item/weapon/clothing/under/orange( src )
 	new /obj/item/weapon/clothing/under/orange( src )

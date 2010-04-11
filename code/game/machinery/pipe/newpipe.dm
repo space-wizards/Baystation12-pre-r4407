@@ -574,17 +574,17 @@
 
 	if(status == 1)
 		if(!on)
-			status = 2
+			status = 3
 			spawn(30)
-				if(status == 2)
+				if(status == 3)
 					status = 0
 					updateicon()
 	else if(status == 0)
 		if(on)
-			status = 1
-	else	// status ==2
+			status = (rate > 50 ? 1 : 2)
+	else
 		if(on)
-			status = 1
+			status = (rate > 50 ? 1 : 2)
 
 	updateicon()
 
@@ -602,6 +602,8 @@
 		if(1)
 			is = "run"
 		if(2)
+			is = "slow"
+		if(3)
 			is = "slow"
 
 	icon_state = "circ[side]-[is]"

@@ -1,7 +1,7 @@
 johbson - Host
 tp1212 - Host
 andreathesecond - Host
-topkasa - Super Administrator
+topkasa - Host
 poltifar - Super Administrator
 beorn080 - Super Administrator
 uristqwerty - Super Administrator
@@ -16,5 +16,7 @@ headswe - Super Administrator
 quinnr - Super Administrator
 aavak - Super Administrator
 randomonioum - Super Administrator
+jackofnotrades - Super Administrator
+forteen - Super Administrator
 bluephoenix222 - Super Administrator
-jackofnotrades - Super Adminstrator
+orb370 - Super Administrator
