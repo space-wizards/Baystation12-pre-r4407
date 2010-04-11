@@ -3599,6 +3599,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "pipes"
 	icon = 'reg_pipe.dmi'
 	icon_state = "12"
+	p_dir = 12
 	var/capacity = 6000000.0
 	var/obj/machinery/node1 = null
 	var/obj/machinery/node2 = null
@@ -3642,6 +3643,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A stretch of pipe."
 	name = "normal pipe"
 /obj/machinery/pipes/heat_exch
+	h_dir = 12
 	icon = 'heat_pipe.dmi'
 	name = "heat exchange pipe"
 	desc = "A bundle of small pipes designed for maximum heat transfer."

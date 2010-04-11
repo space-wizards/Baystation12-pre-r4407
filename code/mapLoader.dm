@@ -42,8 +42,6 @@
 	return l
 
 /proc/QML_applySettings(var/datum/obj, var/dat)
-	if(istype(obj,/obj/machinery/pipes))
-		world.log_game("[dat]")
 	var/list/settings = QML_splitSettings(dat)
 	for(var/statement in settings)
 		var/split = findtext(statement," = ")
@@ -54,8 +52,6 @@
 			if(varName in obj.vars)
 				var/result = QML_parseSettings(copytext(statement,split+3,0))
 				obj.vars[varName] = result
-				if(istype(obj,/obj/machinery/pipes))
-					world.log_game("[copytext(statement,split+3,0)]; [varName]; [result]")
 
 /proc/QML_makeObject(var/turf/loc,var/dat)
 	if(findtext(dat,"{"))

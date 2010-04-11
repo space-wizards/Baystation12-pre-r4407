@@ -361,10 +361,12 @@
 
 	..()
 
-	if(istype(src, /obj/machinery/pipes/heat_exch))
+	//If we want to be able to make pipes mid-game,
+	//Setting the dir like that us unfortunately not allowed.
+	/*if(istype(src, /obj/machinery/pipes/heat_exch))
 		h_dir = text2num(icon_state)
 	else
-		p_dir = text2num(icon_state)
+		p_dir = text2num(icon_state)*/
 
 
 /obj/machinery/pipes/ispipe()		// return true since this is a pipe
@@ -703,7 +705,9 @@
 
 /obj/machinery/manifold/New()
 	..()
-	switch(dir)
+
+	//Once again, old code, prevents proper in-game spawning.
+/*	switch(dir)
 		if(NORTH)
 			p_dir = 13 //NORTH|EAST|WEST
 
@@ -715,7 +719,7 @@
 
 		if(WEST)
 			p_dir = 11 //WEST|NORTH|SOUTH
-
+*/
 
 
 	src.gas = new /obj/substance/gas( src )
