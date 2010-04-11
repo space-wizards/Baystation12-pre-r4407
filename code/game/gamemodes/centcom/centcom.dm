@@ -343,11 +343,10 @@ var/const/obj_3_onlyperson = 3
 				send_fake_intercept(name)
 		else if (href_list["item_openfire"])
 			firing = 1
+			fire_missiles()
 
 		else if (href_list["setupcradio"])
 			setup = 1
-			spawn(100)
-				fire_missiles()
 
 		else if (href_list["item_stopfire"])
 			firing = 0
@@ -410,19 +409,16 @@ var/const/obj_3_onlyperson = 3
 	del(src)
 	return
 
-// Checks wither missiles(Meteors until resprite) should be spawned
+// Checks whether missiles(Meteors until resprite) should be spawned
 // Based on if user asked section 13 to fire
 
 /obj/item/weapon/centcom_uplink/proc/fire_missiles()
-	while(1)
+	while(firing == 1)
 		sleep(300)
-		if(firing == 1)
-			for (var/mob/ai/aiplayer in world)
-				aiplayer << "\red<font size=3><B>WARNING</B>"
-				aiplayer << "\red<font size=2><B>MULTIPLE HEAT SIGNATURES ON COLLISION COURSE DETECTED</B>"
-
-			meteor_wave()
-
+		for (var/mob/ai/aiplayer in world)
+			aiplayer << "\red<font size=3><B>WARNING</B>"
+			aiplayer << "\red<font size=2><B>MULTIPLE HEAT SIGNATURES ON COLLISION COURSE DETECTED</B>"
+		meteor_wave()
 
 /datum/game_mode/centcom/proc/objloop()
 	while(1)
@@ -503,14 +499,16 @@ var/const/obj_3_onlyperson = 3
 
 
 /datum/game_mode/centcom/check_win()
-	var/area/shuttle = locate(/area/shuttle)
+	var/list/area/shuttles
+	for(var/area/A in world)
+		if (istype(A, /area/shuttle) || istype(A, /area/arrival) || istype(A, /area/shuttle_prison) || istype(A, /area/shuttle_supply))
+			shuttles += A
+
 	if(stage == 3 && objective == obj_3_onlyperson)
 		won = 1
 		for(var/mob/human/M in world)
 			if ((M != ticker.killer && M.client  && !(istype(M, /mob/observer))))
-				if (M.stat == 2 || M.loc in shuttle || istype(M.loc, /obj/machinery/vehicle/pod) || istype(M.loc, /turf/space))
-
-				else
+				if (!(M.z != 1 || M.stat == 2 || M.loc.loc in shuttles || istype(M.loc, /obj/machinery/vehicle/pod) || istype(M.loc, /turf/space)))
 					won = 0
 
 
@@ -530,11 +528,13 @@ var/const/obj_3_onlyperson = 3
 		world << "<B>But he died before completing his objectives"
 		world << "<B>They were</B>"
 		endgameobjectives()
+
 	if(won == 0 && ticker.killer.alive())
 		world << "<B>The section 13 operative was ([ticker.killer.rname])!</B>"
 		world << "<B>He never completed his objectives"
 		world << "<B>They were</B>"
 		endgameobjectives()
+	return 1
 
 
 
@@ -579,6 +579,8 @@ var/const/obj_3_onlyperson = 3
 
 
 /datum/game_mode/centcom/proc/getobjtext()
+	if(objective == 0)
+		return "No objective assigned"
 	if(stage == 1)
 		if(objective == obj_1_medical)
 			return "Objective 1: Access medical records"
@@ -587,16 +589,16 @@ var/const/obj_3_onlyperson = 3
 		else if(objective == obj_1_camera)
 			return "Objective 1: Access security cameras"
 		else
-			return "\red UNKNOWN OBJECTIVE: [objective]"
+			return "UNKNOWN OBJECTIVE [objective]"
 	else if(stage == 2)
 		if(objective == ocj_2_spareid)
-			return "Objective 2: Steal the captains spair ID"
+			return "Objective 2: Steal the captains spare ID"
 		else if(objective == obj_2_comms)
 			return "Objective 2: Access the communications system and upload a worm"
 		else if(objective == obj_2_dna)
 			return "Objective 2: Steal an injector containing " + target + "'s DNA"
 		else
-			return "\red UNKNOWN OBJECTIVE: [objective]"
+			return "UNKNOWN OBJECTIVE [objective]"
 	else if(stage == 3)
 		if(objective == obj_3_ejectengine)
 			return "Final Objective: Eject the engine and escape"
@@ -605,4 +607,4 @@ var/const/obj_3_onlyperson = 3
 		else if(objective == obj_3_onlyperson)
 			return "Final Objective: Be the only person remaining on the station"
 		else
-			return "\red UNKNOWN OBJECTIVE: [objective]"
+			return "UNKNOWN OBJECTIVE [objective]"

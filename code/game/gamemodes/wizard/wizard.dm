@@ -66,6 +66,10 @@
 	spawn (0)
 		ticker.extend_process()
 
+/datum/game_mode/wizard/admininfo()
+	if (!ticker.killer) return "Wizard, no wiz"
+	return "[ticker.killer.name], [objtext()]"
+
 /datum/game_mode/wizard/proc/get_synd_list()
 	var/list/mobs = list()
 	for(var/mob/M in world)
@@ -390,6 +394,19 @@
 		else
 			world << "unknown traitor objective"
 	return 1
+
+/datum/game_mode/wizard/proc/objtext()
+	switch(ticker.objective)
+		if(obj_hijack)
+			world << "<B>Objective: Escape alone on the shuttle.</B>"
+		if(obj_murder)
+			world << "<B>Objective: Kill [ticker.target] and escape.</B>"
+		if(obj_steal)
+			world << "<B>Objective: Steal [get_item_desc(ticker.theft_obj)] and escape.</B>"
+		if (obj_sabotage)
+			world << "<B>Objective: [get_sab_desc(ticker.sab_target)] and escape.</B>"
+		else
+			world << "unknown traitor objective"
 
 /datum/game_mode/wizard/proc/pick_objective(mob/killer)
 	var/list/mob_list = get_mob_list()

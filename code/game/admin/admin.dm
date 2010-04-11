@@ -875,8 +875,8 @@
 					for(var/obj/grille/O in world)
 						del(O)
 					for(var/obj/machinery/vehicle/pod/O in world)
-						for(var/mob/M in src)
-							M.loc = src.loc
+						for(var/mob/M in O)
+							M.loc = O.loc
 							if (M.client)
 								M.client.perspective = MOB_PERSPECTIVE
 								M.client.eye = M

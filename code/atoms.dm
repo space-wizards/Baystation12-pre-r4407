@@ -4497,6 +4497,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "wardrobe-g"
 	icon_closed = "wardrobe-g"
 
+/obj/closet/wardrobe/network
+	name = "Network Technician Wardrobe"
+	icon_state = "wardrobe-nt"
+	icon_closed = "wardrobe-nt"
+
 /obj/closet/wardrobe/mixed
 	name = "Mixed Wardrobe"
 	icon_state = "wardrobe-bp"

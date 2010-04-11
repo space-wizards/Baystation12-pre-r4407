@@ -57,6 +57,9 @@
 	if (user.stat)
 		return
 
+	if (istype(src, /obj/machinery/vehicle/pod))
+		return
+
 	if ((user in src))
 		if (direction & 1)
 			src.speed = max(src.speed - 1, 1)

@@ -325,6 +325,16 @@ area/maintenance/corridor/centercorridor
 	icon_state = "green"
 	music = ""
 
+area/escape/pods1
+	name = "Escape Pod Bay"
+	icon_state = "escape"
+	music = ""
+
+area/escape/pods2
+	name = "Escape Pod Bay"
+	icon_state = "escape"
+	music = ""
+
 // Engine
 area/engine/enginehall
 	name = "Engine Hallway"

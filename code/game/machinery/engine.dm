@@ -74,6 +74,13 @@
 		return
 	use_power(250)
 	src.updateDialog()
+	switch(engine_eject_control.status)
+		if(-1)
+			icon_state = "engine_ejected"
+		if(0)
+			icon_state = "engine"
+		else
+			icon_state = "engine_alert"
 	return
 
 /obj/machinery/computer/engine/Topic(href, href_list)
@@ -175,7 +182,7 @@
 
 		src.status = 1
 		for(var/obj/machinery/computer/engine/E in machines)
-			E.icon_state = "engaging"
+			E.icon_state = "engine_alert"
 			//Foreach goto(113)
 		spawn( 0 )
 			src.countdown()
@@ -237,7 +244,7 @@
 		makepowernets()
 	world << "\red <B>Engine Ejected!</B>"
 	for(var/obj/machinery/computer/engine/CE in machines)
-		CE.icon_state = "engaged"
+		CE.icon_state = "engine_engaged"
 	return
 
 /datum/engine_eject/proc/stopcount()
