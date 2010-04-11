@@ -705,6 +705,8 @@
 			spawn(0)
 				M.closepod()
 				return
+	if (P)
+		P.warptocentcom()
 
 /obj/machinery/computer/pod/New()
 	..()

@@ -2,8 +2,10 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\baysay code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\extended code\game\gamemodes\malfunction code\game\gamemodes\meteor 
-LAST_COMPILE_TIME: 1271004960
+UPDATE_OBJ_TREE: ON
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\baysay code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\extended code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\toolkit code\game\verbs code\game\verbs\admin code\unused maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1271011865
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS

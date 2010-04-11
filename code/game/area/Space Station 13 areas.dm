@@ -484,8 +484,31 @@ area/solar/west
 
 /area/centcomm/resupply
 	name = "Resupply Hangar"
-	icon_state = "purple"
 	requires_power = 0
+	music = ""
+
+/area/centcomm/podbay1
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay2
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay3
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay4
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay5
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay6
+	name = "Pod Bay"
 	music = ""
 
 // Misc.

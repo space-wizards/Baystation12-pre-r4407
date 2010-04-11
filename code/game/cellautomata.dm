@@ -39,6 +39,15 @@
 	if (name == "blobstart")
 		blobstart += src.loc
 		del(src)
+
+	if(name == "Pod-Dock")
+		poddocks += src.loc
+		del(src)
+
+	if(name == "Pod-Warp")
+		podspawns += src.loc
+		del(src)
+
 	return
 
 /obj/start/New()
@@ -572,6 +581,19 @@ var/update_state = 0
 
 	updateap()
 
+	for(var/T in poddocks)
+		for(var/obj/O in T)
+			if (istype(O, /obj/machinery/vehicle))
+				var/obj/machinery/vehicle/V = O
+				V.anchored = 1
+				poddocks -= T
+				spawn(10)
+					var/obj/machinery/door/poddoor/P = locate(/obj/machinery/door/poddoor) in get_step(T, NORTH)
+					P.closepod()
+					P = locate(/obj/machinery/door/poddoor) in get_step(T, SOUTH)
+					sleep(30)
+					P.openpod()
+
 	if (!supplytime && supply_shuttle_points < 75)
 		supply_shuttle_points += 1
 
@@ -613,9 +635,9 @@ var/update_state = 0
 	for(var/datum/powernet/P in powernets)
 		P.reset()
 
-
 	src.var_swap = !( src.var_swap )
 	if (src.processing)
 		sleep(2)
 		goto Label_6
+	world.log <<"\red <B>PROCESSING STOPPED"
 	return
