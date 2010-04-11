@@ -250,6 +250,7 @@
 #include "code\game\objects\flashlight.dm"
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
+#include "code\game\objects\ladder.dm"
 #include "code\game\objects\light.dm"
 #include "code\game\objects\miscitem.dm"
 #include "code\game\objects\multitool.dm"

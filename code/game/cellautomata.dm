@@ -549,6 +549,9 @@ var/update_state = 0
 	set background = 1
 	var/supplytime = 0
 
+	for(var/obj/machinery/light/L in world)
+		L.process()
+
 	Label_6:
 	main_tick++
 

@@ -107,7 +107,7 @@
 		src.superarea = new /datum/superarea
 		src.superarea.areas += src
 	src.icon = 'alert.dmi'
-	src.icon_state = "" //fix: stop atmos from having its icon_state match the one for the atmos alarm in alert.dmi
+	src.icon_state = "invi" //fix: stop atmos from having its icon_state match the one for the atmos alarm in alert.dmi
 	src.layer = 10
 
 	if(!requires_power)
