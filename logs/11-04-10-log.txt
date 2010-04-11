@@ -1,0 +1,144 @@
+03-21:GAME: Finished building powernets (29 nets)
+03-21:ADMIN: Loading crban_keylist
+03-21:ADMIN: Loading crban_reason
+03-21:ADMIN: Loading crban_time
+03-21:ADMIN: Loading crban_bannedby
+03-21:ADMIN: Loading crban_iplist
+03-21:ADMIN: Loading crban_unbanned
+03-21:ADMIN: Loading crban_ComputerIDs
+03-21:ADMIN: Loading jobban_rank
+03-21:ADMIN: Updating jobbanfile!
+03-21:ACCESS: Login: Headswe from 
+03-21:GAME: Headswe entered as Alucard Whoop
+03-21:ADMIN: Headswe used start_now
+03-21:GAME: starting game of Revolution
+03-21:ACCESS: Logout: 
+03-21:ACCESS: Login: Headswe from 
+03-21:ACCESS: They share computer ID's
+03-21:ADMIN: Headswe teleported Corpse
+03-21:ADMIN: Headswe Healed/Revived 
+03-21:ACCESS: Logout: 
+03-21:ACCESS: Login: Headswe from 
+03-21:ACCESS: They share computer ID's
+03-21:ADMIN: Headswe modified Corpse's key to Headswe
+03-21:GAME: Headswe entered as Alucard Whoop
+03-21:ADMIN: Headswe modified Alucard Whoop's zombie to 1
+03-21:SAY: Alucard Whoop/Headswe : test
+03-21:SAY: Alucard Whoop/Headswe : test
+03-21:SAY: Alucard Whoop/Headswe : test
+03-21:SAY: Alucard Whoop/Headswe : yes
+03-21:ADMIN: Headswe modified Alucard Whoop's zombie to 0
+03-21:ADMIN: Headswe modified Alucard Whoop's zombie to 1
+03-21:ADMIN: Headswe modified Alucard Whoop's rname to asdasd
+03-21:ACCESS: Logout: Headswe
+03-44:GAME: Finished building powernets (29 nets)
+03-44:ADMIN: Loading crban_keylist
+03-44:ADMIN: Loading crban_reason
+03-44:ADMIN: Loading crban_time
+03-44:ADMIN: Loading crban_bannedby
+03-44:ADMIN: Loading crban_iplist
+03-44:ADMIN: Loading crban_unbanned
+03-44:ADMIN: Loading crban_ComputerIDs
+03-44:ADMIN: Loading jobban_rank
+03-44:ADMIN: Updating jobbanfile!
+03-44:GAME: Finished building powernets (29 nets)
+03-44:ADMIN: Loading crban_keylist
+03-44:ADMIN: Loading crban_reason
+03-44:ADMIN: Loading crban_time
+03-44:ADMIN: Loading crban_bannedby
+03-44:ADMIN: Loading crban_iplist
+03-44:ADMIN: Loading crban_unbanned
+03-44:ADMIN: Loading crban_ComputerIDs
+03-44:ADMIN: Loading jobban_rank
+03-44:ADMIN: Updating jobbanfile!
+03-44:ACCESS: Login: Headswe from 127.0.0.1
+03-44:GAME: Headswe entered as Alucard Whoop
+03-44:ADMIN: Voting to change mode forced by Super Administrator Headswe
+03-44:ADMIN: Voting aborted by Super Administrator Headswe
+03-44:ADMIN: Headswe used start_now
+03-44:GAME: starting game of extended
+03-44:ACCESS: Logout: 
+03-44:ACCESS: Login: Headswe from 127.0.0.1
+03-44:ACCESS: They share computer ID's
+03-44:ADMIN: Headswe teleported Corpse
+03-44:ACCESS: Logout: 
+03-44:ACCESS: Login: Headswe from 127.0.0.1
+03-44:ACCESS: They share computer ID's
+03-44:ADMIN: Headswe modified Corpse's key to Headswe
+03-44:GAME: Headswe entered as Alucard Whoop
+03-44:ADMIN: Headswe Healed/Revived Headswe
+03-44:ADMIN: Headswe created /obj/item/weapon/bread
+03-44:ADMIN: Headswe created /obj/item/weapon/salami
+03-44:ACCESS: Logout: Headswe
+03-47:GAME: Finished building powernets (29 nets)
+03-47:ADMIN: Loading crban_keylist
+03-47:ADMIN: Loading crban_reason
+03-47:ADMIN: Loading crban_time
+03-47:ADMIN: Loading crban_bannedby
+03-47:ADMIN: Loading crban_iplist
+03-47:ADMIN: Loading crban_unbanned
+03-47:ADMIN: Loading crban_ComputerIDs
+03-47:ADMIN: Loading jobban_rank
+03-47:ADMIN: Updating jobbanfile!
+03-47:ACCESS: Login: Headswe from 127.0.0.1
+03-47:GAME: starting game of extended
+03-47:ACCESS: Logout: Headswe
+04-09:GAME: Finished building powernets (29 nets)
+04-09:ADMIN: Loading crban_keylist
+04-09:ADMIN: Loading crban_reason
+04-09:ADMIN: Loading crban_time
+04-09:ADMIN: Loading crban_bannedby
+04-09:ADMIN: Loading crban_iplist
+04-09:ADMIN: Loading crban_unbanned
+04-09:ADMIN: Loading crban_ComputerIDs
+04-09:ADMIN: Loading jobban_rank
+04-09:ADMIN: Updating jobbanfile!
+04-09:ACCESS: Login: Headswe from 127.0.0.1
+04-09:GAME: Headswe entered as Alucard Whoop
+04-09:ADMIN: Headswe used start_now
+04-09:GAME: starting game of extended
+04-09:ACCESS: Logout: 
+04-09:ACCESS: Login: Headswe from 127.0.0.1
+04-09:ACCESS: They share computer ID's
+04-09:ADMIN: Headswe teleported Corpse
+04-09:ADMIN: Headswe Healed/Revived 
+04-09:ACCESS: Logout: 
+04-09:ACCESS: Login: Headswe from 127.0.0.1
+04-09:ACCESS: They share computer ID's
+04-09:ADMIN: Headswe modified Corpse's key to Headswe
+04-09:GAME: Headswe entered as Alucard Whoop
+04-09:ADMIN: Headswe created /obj/item/weapon/food/bread
+04-09:ADMIN: Headswe created /obj/item/weapon/food/salami
+04-09:ADMIN: Headswe created /obj/item/weapon/food/butterpack
+04-09:ADMIN: Headswe modified Butter's icon_state to butter
+04-09:ADMIN: Headswe created /obj/item/weapon/food/butterknife
+04-09:ADMIN: Headswe modified Butter-knife's icon_state to sal
+04-09:ACCESS: Failed Login: UnstoppableBeast Reason: Key banned
+04-09:ACCESS: Failed Login: Guest-122219884 Reason: Ip banned
+04-09:ADMIN: Headswe modified Butter-knife's gotbutter to 1
+04-09:ACCESS: Login: Qoz from 98.221.32.187
+04-09:ACCESS: Logout: Qoz
+04-09:ACCESS: Logout: Headswe
+04-30:GAME: Finished building powernets (29 nets)
+04-30:ADMIN: Loading crban_keylist
+04-30:ADMIN: Loading crban_reason
+04-30:ADMIN: Loading crban_time
+04-30:ADMIN: Loading crban_bannedby
+04-30:ADMIN: Loading crban_iplist
+04-30:ADMIN: Loading crban_unbanned
+04-30:ADMIN: Loading crban_ComputerIDs
+04-30:ADMIN: Loading jobban_rank
+04-30:ADMIN: Updating jobbanfile!
+04-30:ACCESS: Failed Login: Candle Stick Reason: Key banned
+04-30:ACCESS: Login: Headswe from 127.0.0.1
+04-30:GAME: Headswe entered as Alucard Whoop
+04-30:ADMIN: Headswe used start_now
+04-30:GAME: starting game of extended
+04-30:ADMIN: Headswe created /obj/item/weapon/food/bread
+04-30:ADMIN: Headswe created /obj/item/weapon/food/salami
+04-30:ADMIN: Headswe created /obj/item/weapon/food/butterpack
+04-30:ADMIN: Headswe created /obj/item/weapon/food/butterknife
+04-30:ADMIN: Headswe modified Butter-knife's icon_state to sal
+04-30:ADMIN: Headswe modified Butter-knife's gotbutter to 1
+04-30:ADMIN: Headswe created /obj/item/weapon/food/bread
+04-30:ACCESS: Logout: Headswe

@@ -169,7 +169,7 @@ window "adminpanel"
 		drop-zone = false
 		right-click = false
 		saved-params = ""
-		tabs = "ap_roundcontrol"
+		tabs = "ap_roundcontrol,ap_testuser"
 		current-tab = "ap_roundcontrol"
 		multi-line = true
 		on-tab = ""

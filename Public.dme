@@ -3,14 +3,6 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\admin code\game\gamemodes\blob code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\zombie code\game\mob icons icons\ss13 
-FILE: icons\ss13\turfs.dmi
-LAST_COMPILE_TIME: 1270820028
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -238,6 +230,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\cleaner.dm"
 #include "code\game\objects\flamethrower.dm"
 #include "code\game\objects\flashlight.dm"
+#include "code\game\objects\food.dm"
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
 #include "code\game\objects\items.dm"

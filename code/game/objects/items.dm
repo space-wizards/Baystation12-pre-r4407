@@ -2157,7 +2157,7 @@
 
 					G.icon_state = "girder"
 					G.updatecell = 1
-					G.opacity = 0
+					sd_SetOpacity(0)
 					G.state = 1
 					G.density = 1
 					G.levelupdate()
@@ -4263,6 +4263,24 @@
 /obj/item/weapon/radio/intercom/attack_hand(mob/user as mob)
 
 	src.add_fingerprint(user)
+	if(user.zombie)
+		for(var/mob/C in viewers())
+			C.show_message("[user] flails at [src]")
+		if(prob(10))
+			if(broadcasting)
+				broadcasting = 0
+				user << "The microphone light flashes OFF."
+			else
+				broadcasting = 1
+				user << "The microphone light flashes ON."
+		if(prob(30))
+			if(listening)
+				listening = 0
+				user << "The speaker light flashes OFF."
+			else
+				listening = 1
+				user << "The speaker light flashes ON."
+		return
 	spawn( 0 )
 		attack_self(user)
 		return
@@ -4297,6 +4315,11 @@
 		return
 	if ((usr.contents.Find(src) || (get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf)) || (istype(usr, /mob/ai)))
 		usr.machine = src
+		if (href_list["track"])
+			var/mob/target = locate(href_list["track"])
+			var/mob/ai/A = locate(href_list["track2"])
+			A.switchCameramob(target)
+			return
 		if (href_list["freq"])
 			src.freq += text2num(href_list["freq"])
 			if (round(src.freq * 10, 1) % 2 == 0)
@@ -4399,7 +4422,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			else if(istype(O, /mob/ai))
 				var/mob/human/H = M
 				var/mob/ai/A = O
-				O.show_message(text("<font color=\"#008000\"><B><A href='?[A]=\ref[A];findguy[]'>[]([])</a>-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H,H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
+				O.show_message(text("<font color=\"#008000\"><B><a href='byond://?src=\ref[src];track2=\ref[A];track=\ref[]'>[]([])</a>-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H,H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
 				//O.show_message(text("<font color=\"#008000\"><B>[]([])-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
 			else
 				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)
