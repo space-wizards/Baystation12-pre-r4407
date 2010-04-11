@@ -674,54 +674,37 @@
 	if (!( src.connected ))
 		viewers(null, null) << "Cannot locate mass driver connector. Cancelling firing sequence!"
 		return
+
 	for(var/obj/machinery/door/poddoor/M in machines)
 		if (M.id == src.id)
 			spawn( 0 )
 				M.openpod()
 				return
-	sleep(20)
 
-	var/obj/machinery/vehicle/pod/P
+	sleep(25)
+
+	var/obj/machinery/vehicle/pod/P = null
+
 	for(var/obj/machinery/vehicle/pod/P2 in machines)
-		if(P2.id == src.id) P = P2
+		if(P2.id == src.id)
+			P = P2
+			break
 
-	if(P) P.anchored = 0
+	if (P)
+		P.anchored = 0
 
-	//src.connected.drive()		*****RM from 40.93.3S
 	for(var/obj/machinery/mass_driver/M in machines)
 		if(M.id == src.id)
 			M.power = src.connected.power
 			M.drive()
 
-	//*****
-	sleep(50)
+	sleep(25)
+
 	for(var/obj/machinery/door/poddoor/M in machines)
 		if (M.id == src.id)
-			spawn( 0 )
+			spawn(0)
 				M.closepod()
 				return
-	if(P && (locate(/obj/machinery/mass_driver/) in P.loc))
-		for(var/obj/machinery/door/poddoor/M in machines) if(M.id == "arrival_pod")
-			spawn
-				M.openpod()
-		sleep(40)
-		P.throwing = 0
-		P.loc = null
-		sleep(2)
-		P.loc = locate(26,138,2)
-		P.throw_at(locate(26,122,2), 5, 0.25)
-		sleep(20)
-		for(var/atom/movable/A in P)
-			A.loc = P.loc
-			if(istype(A,/mob) && A:client)
-				A:client:eye = A:client:mob
-		P.density = 0
-		P.throw_at(locate(26,134,2), 10, 1)
-		sleep(10)
-		for(var/obj/machinery/door/poddoor/M in machines) if(M.id == "arrival_pod")
-			spawn
-				M.closepod()
-		return
 
 /obj/machinery/computer/pod/New()
 	..()
@@ -877,7 +860,7 @@
 	for(var/atom/movable/O in src.loc)
 		if(!O.anchored)
 			spawn( 0 )
-				var/atom/targetarea = locate(src.x, src.y, src.z)
+				var/atom/targetarea = src.loc
 				//since NORTHEAST == NORTH & EAST, etc, doing it this way allows for diagonal mass drivers in the future
 				//and isn't really any more complicated
 				if(src.dir & NORTH)
@@ -888,6 +871,7 @@
 					targetarea = locate(world.maxx, targetarea.y, targetarea.z)
 				if(src.dir & WEST)
 					targetarea = locate(1, targetarea.y, targetarea.z)
+				//world << "Driving [O] \[[targetarea] [targetarea.x] [targetarea.y] [targetarea.z] [drive_range * src.power] [src.power]]"
 				O.throw_at(targetarea, drive_range * src.power, src.power)
 	flick("mass_driver1", src)
 	return
@@ -895,7 +879,7 @@
 obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(src.buildstate == 0)
 		if(istype(W,/obj/item/weapon/wrench))
-			icon_state = "compstate1"
+			icon_state = "frame"
 			src.anchored = 1
 			src.buildstate++
 			usr << "You wrench the frame into place."
@@ -917,7 +901,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 			usr << "You wire up the frame."
 			return
 		else if(istype(W, /obj/item/weapon/wrench) && src.anchored == 1)
-			icon_state = "compstate1"
+			icon_state = "frame"
 			src.anchored = 0
 			src.buildstate--
 			usr << "You can now move the frame"
