@@ -186,10 +186,11 @@
 												// also sets the vnodes for the pipelines
 
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
-		if (!PL.numnodes)
+		//Messes up plnum, thus removed.
+		/*if (!PL.numnodes)
 			plines -= PL
 			del PL
-			continue
+			continue*/
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
 
 // return a list of pipes (not including terminating machine)
@@ -203,6 +204,8 @@
 	var/obj/machinery/newnode
 
 	while(node)
+		if(node in L)
+			break
 		L += node
 		newnode = node.next(prev)
 		prev = node

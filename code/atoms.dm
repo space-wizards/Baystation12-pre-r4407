@@ -1773,6 +1773,18 @@ obj/item/weapon/clothing/suit/labcoat
 	throw_speed = 4
 	throw_range = 20
 
+/obj/item/weapon/pipe
+	name = "straight pipe"
+	icon_state = "item_straight"
+	icon = 'pipes.dmi'
+	throw_speed = 2
+	throw_range = 6
+	s_istate = "pipe"
+	w_class = 3.0
+/obj/item/weapon/pipe/corner
+	name = "corner pipe"
+	icon_state = "item_corner"
+
 /obj/item/weapon/m_pill
 	name = "pill"
 	icon_state = "pill"
