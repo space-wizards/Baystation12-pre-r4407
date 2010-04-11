@@ -87,6 +87,8 @@
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
+#include "code\mapLoader.dm"
+#include "code\mapModules.dm"
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
