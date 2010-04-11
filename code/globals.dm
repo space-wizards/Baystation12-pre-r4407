@@ -129,6 +129,7 @@ var
 	goal_killer = ""
 	home = 256
 	shuttleleft
+	allowbigbombs = 1
 world
 	mob = /mob/human
 	turf = /turf/space

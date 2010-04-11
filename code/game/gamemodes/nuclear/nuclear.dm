@@ -159,4 +159,9 @@
 		else
 			world << "<FONT size = 3><B>Neutral Victory</B></FONT>"
 			world << "<B>The Syndicate recovered the abandoned auth. disk but detonation of SS13 was averted.</B> Next time, don't lose the disk!"
+	sleep(300)
+	world.log_game("Rebooting due to end of game")
+	world << "\red Rebooting due to end of game"
+	roundover = 1
+	world.Reboot()
 	return 1

@@ -59,6 +59,16 @@
 	var/area/A = src.loc
 	var/d1
 	var/d2
+	if(user.zombie)
+		var/area/B = A.loc
+		for(var/mob/C in viewers())
+			C.show_message("[user.name] flails at [src]")
+		if(prob(10))
+			if(B.fire)
+				reset()
+			else
+				alarm()
+		return
 	if (istype(user, /mob/human) || istype(user, /mob/ai))
 		A = A.loc
 

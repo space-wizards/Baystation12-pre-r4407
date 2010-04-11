@@ -829,7 +829,8 @@
 <A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
-<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
+<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"
+<A href='?src=\ref[src];secrets2=allowbigbombs'>Allow Big Bombs = [allowbigbombs] (1= True)</A><BR>"}
 			usr << browse(dat, "window=secretsadmin&size=350x400")
 
 	if (href_list["secretsfun"])
@@ -938,6 +939,11 @@
 						spawn(0)
 							H.monkeyize()
 					ok = 1
+				if("disablebigbomb")
+					if(allowbigbombs)
+						allowbigbombs = 0
+					else
+						allowbigbombs = 1
 
 				if("check_logs")
 					usr << ftp(log_file,"Logs")

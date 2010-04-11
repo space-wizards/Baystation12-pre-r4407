@@ -393,6 +393,11 @@
 			world << "<B>Objective: To [get_sab_desc(ticker.sab_target)] and escape.</B>"
 		else
 			world << "unknown traitor objective"
+	sleep(300)
+	world.log_game("Rebooting due to end of game")
+	world << "\red Rebooting due to end of game"
+	roundover = 1
+	world.Reboot()
 	return 1
 
 /datum/game_mode/traitor/proc/pick_objective(mob/killer)

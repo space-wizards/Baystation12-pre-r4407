@@ -37,6 +37,7 @@ var/const/waittime_h = 3000
 		sleep 30
 		mobs = get_mob_list()
 	pick_zombie()
+	pick_immune()
 	spawn (rand(0, 500))
 		send_detection()
 	spawn (0)
@@ -50,6 +51,10 @@ var/const/waittime_h = 3000
 	killer.traitor_infect()
 	killer << "\red<font size=3><B>You are Patient Zero!</B>Braaiiinnns....(What do you think? Eat them all.)"
 	killer.store_memory("Either turn or kill all humans!.")
+/datum/game_mode/zombie/proc/pick_immune()
+	var/mob/human/M = pick(get_human_list())
+	M << "Your now immune to the zombies(Don't Metagame)"
+	M.zombieimmune = 1
 
 /datum/game_mode/zombie/proc/get_synd_list()
 	var/list/mobs = list()
@@ -77,17 +82,37 @@ var/const/waittime_h = 3000
 	zombies_left_lol = zombies_left
 	if(humans_left.len < 1 && zombies_left.len < 1)
 		world << "<FONT size = 3><B>Netrual Victory everyone died!</B></FONT>"
+		sleep(300)
+		world.log_game("Rebooting due to end of game")
+		world << "\red Rebooting due to end of game"
+		roundover = 1
+		world.Reboot()
 		return 1
 	else if(humans_left.len < 1)
 		world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 		ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
+		sleep(300)
+		world.log_game("Rebooting due to end of game")
+		world << "\red Rebooting due to end of game"
+		roundover = 1
+		world.Reboot()
 		return 1
 	else if(zombies_left.len < 1)
 		world << "<FONT size = 3>\blue <B>The humans have prevailed against the zombie threat</B></FONT>"
+		sleep(300)
+		world.log_game("Rebooting due to end of game")
+		world << "\red Rebooting due to end of game"
+		roundover = 1
+		world.Reboot()
 		return 1
 	else if(zombiewin == 1)
 		world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 		ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
+		sleep(300)
+		world.log_game("Rebooting due to end of game")
+		world << "\red Rebooting due to end of game"
+		roundover = 1
+		world.Reboot()
 		return 1
 	else if(shuttleleft)
 		for(var/mob/M in shuttle)
@@ -97,9 +122,19 @@ var/const/waittime_h = 3000
 			world << "<FONT size = 3>\red <B>You doomed the entire human race</B></FONT>"
 			world << "<FONT size = 3>\red <B>Zombies are Victorious</B></FONT>"
 			ticker.killer.unlock_medal("Patient Zero", 1, "Successfully win a round as Patient Zero.", "medium")
+			sleep(300)
+			world.log_game("Rebooting due to end of game")
+			world << "\red Rebooting due to end of game"
+			roundover = 1
+			world.Reboot()
 			return 1
 		else
 			world << "<FONT size = 3>\blue <B>The humans have prevailed against the zombie threat</B></FONT>"
+			sleep(300)
+			world.log_game("Rebooting due to end of game")
+			world << "\red Rebooting due to end of game"
+			roundover = 1
+			world.Reboot()
 			return 1
 
 
@@ -110,17 +145,17 @@ var/const/waittime_h = 3000
 
 
 /datum/game_mode/zombie/proc/get_human_list()
-	var/list/zombie = list()
-	for(var/mob/M in world)
-		if (M.stat<2 && M.client && M.start && istype(M, /mob/human) && M.zombie == 0)
-			zombie += M
-	return zombie
-/datum/game_mode/zombie/proc/get_zombies_list()
 	var/list/human = list()
 	for(var/mob/M in world)
-		if (M.stat<2 && M.client && M.start && istype(M, /mob/human) && M.zombie == 1)
+		if (M.stat<2 && M.client && M.start && istype(M, /mob/human) && M.zombie == 0)
 			human += M
 	return human
+/datum/game_mode/zombie/proc/get_zombies_list()
+	var/list/zombies = list()
+	for(var/mob/M in world)
+		if (M.stat<2 && M.client && M.start && istype(M, /mob/human) && M.zombie == 1)
+			zombies += M
+	return zombies
 
 /datum/game_mode/zombie/proc/get_mob_list()
 	var/list/mobs = list()
