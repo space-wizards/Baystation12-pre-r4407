@@ -214,7 +214,7 @@
 
 	defer_powernet_rebuild = 1
 	for(var/turf/T in engineturfs)
-		var/turf/S = new T.type( locate(T.x, T.y, ENGINE_EJECT_Z) )
+		var/turf/S = new T.type( locate(T.x, T.y, engine_eject_z_target) )
 
 		var/area/A = T.loc
 

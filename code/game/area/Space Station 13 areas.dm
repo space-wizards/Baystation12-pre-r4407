@@ -152,7 +152,7 @@ area/security/forensics
 area/administrative/bridge
 	name = "Bridge"
 	icon_state = "bridge"
-	music = ""
+	music = 'music/bridge.ogg'
 
 area/administrative/court/courtroom
 	name = "Courtroom"
@@ -317,6 +317,11 @@ area/maintenance/corridor/eastcorridor
 
 area/maintenance/corridor/westcorridor
 	name = "West Maintenance Corridor"
+	music = ""
+	icon_state = "green"
+
+area/maintenance/corridor/northconnector
+	name = "North Understation Maintenance Corridor"
 	music = ""
 	icon_state = "green"
 
@@ -593,22 +598,19 @@ area/prototype
 /area/tdome
 	name = "Thunderdome"
 	icon_state = "medical"
-	music = ""
+	music = 'music/THUNDERDOME.ogg'
 
 /area/tdome/tdome1
 	name = "Thunderdome (Team 1)"
 	icon_state = "green"
-	music = ""
 
 /area/tdome/tdome2
 	name = "Thunderdome (Team 2)"
 	icon_state = "yellow"
-	music = ""
 
 /area/tdome/tdomea
 	name = "Thunderdome (Admin.)"
 	icon_state = "purple"
-	music = ""
 
 // Syndicate
 /area/syndicate_ship

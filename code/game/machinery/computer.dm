@@ -692,6 +692,8 @@
 
 	if (P)
 		P.anchored = 0
+		for(var/mob/ai/AI in world)
+			AI << "\red Escape Pod Fired!"
 
 	for(var/obj/machinery/mass_driver/M in machines)
 		if(M.id == src.id)
@@ -898,7 +900,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del G
 			else
 				G.amount -= 1
-			icon_state = "compstate2"
+			icon_state = "build_wired"
 			src.buildstate++
 			usr << "You wire up the frame."
 			return
@@ -910,13 +912,13 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 			return
 	if(src.buildstate == 2)
 		if(istype(W, /obj/item/weapon/circuitry))
-			icon_state = "compstate3"
+			icon_state = "build_circuit"
 			del W
 			src.buildstate++
 			usr << "You place the ciruct board inside the frame."
 			return
 		else if(istype(W, /obj/item/weapon/wirecutters))
-			icon_state = "compstate1"
+			icon_state = "frame"
 			var/obj/item/weapon/cable_coil/cut/S = new(src)
 			S.loc = src.loc
 			S.amount = 1
@@ -930,12 +932,12 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del x
 			else
 				x.amount -= 1
-			icon_state = "compstate4"
+			icon_state = "build_screen"
 			src.buildstate++
 			usr << "You place the glass inside the frame."
 			return
 		else if(istype(W, /obj/item/weapon/screwdriver))
-			icon_state = "compstate2"
+			icon_state = "build_wired"
 			var/obj/item/weapon/circuitry/S = new(src)
 			S.loc = src.loc
 			src.buildstate--
@@ -972,7 +974,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del src
 				return
 			else if(istype(W, /obj/item/weapon/crowbar))
-				icon_state = "compstate3"
+				icon_state = "build_circuit"
 				var/obj/item/weapon/sheet/glass/S = new(src)
 				S.amount = 1
 				S.loc = src.loc
@@ -985,7 +987,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				var/obj/machinery/computer/frame/s = new(src)
 				s.loc = src.loc
 				s.buildstate = 4
-				s.icon_state = "compstate4"
+				s.icon_state = "build_screen"
 				del src
 				usr << "You erase the harddrive of [src]"
 				return

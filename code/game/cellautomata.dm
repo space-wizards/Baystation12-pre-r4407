@@ -7,6 +7,7 @@
 	if (name == "shuttle")
 		shuttle_z = src.z
 		del(src)
+		return
 
 	if (name == "airtunnel_stop")
 		airtunnel_stop = src.x
@@ -20,6 +21,7 @@
 	if (name == "monkey")
 		monkeystart += src.loc
 		del(src)
+		return
 
 	//prisoners
 	if (name == "prisonwarp")
@@ -35,18 +37,82 @@
 	if (name == "prisonsecuritywarp")
 		prisonsecuritywarp += src.loc
 		del(src)
+		return
 
 	if (name == "blobstart")
 		blobstart += src.loc
 		del(src)
+		return
 
 	if(name == "Pod-Dock")
 		poddocks += src.loc
 		del(src)
+		return
 
 	if(name == "Pod-Warp")
 		podspawns += src.loc
 		del(src)
+		return
+
+	if(name == "Station-Floor")
+		stationfloors += src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Floor")
+		centcomfloors += src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Emerg")
+		station_emerg_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Supply")
+		station_supply_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Prison")
+		station_prison_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Syndicate")
+		station_syndicate_dock = src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Dock-Supply")
+		centcom_supply_dock = src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Dock-Emerg")
+		centcom_emerg_dock = src.z
+		del(src)
+		return
+
+	if(name == "Shuttle-Move-Z")
+		shuttle_en_route_level = src.z
+		del(src)
+		return
+
+	if(name == "Syndicate-Dock")
+		syndicate_shuttle_dock = src.z
+		del(src)
+		return
+
+	if(name == "Prison-Dock")
+		prison_shuttle_dock = src.z
+		del(src)
+		return
+
+	if(name == "Engine-Eject-Target")
+		engine_eject_z_target = src.z
+		del(src)
+		return
 
 	return
 

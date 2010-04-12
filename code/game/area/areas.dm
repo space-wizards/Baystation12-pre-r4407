@@ -19,7 +19,7 @@
 	var/power_equip = 1
 	var/power_light = 1
 	var/power_environ = 1
-	var/music = "music/space.ogg"
+	var/music = 'music/space.ogg'
 	var/used_equip = 0
 	var/used_light = 0
 	var/used_environ = 0

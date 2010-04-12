@@ -13,6 +13,12 @@
 				t1--
 	return
 
+/obj/machinery/vehicle/attack_hand(mob/user)
+	src.board(user)
+
+/obj/machinery/vehicle/attack_paw(mob/user)
+	src.board(user)
+
 /obj/machinery/vehicle/pod/proc/warptocentcom()
 	if(anchored)
 		return
@@ -21,13 +27,14 @@
 		if (!podspawns.len)
 			return
 		var/turf/moveto = pick(podspawns)
+		podspawns -= moveto
 		src.loc = moveto
 		src.dir = 2
 		for(var/turf/T in poddocks)
 			if (T.x == moveto.x)
 				src.throw_at(T, (src.y - T.y) + 6, 1)
 				while(!anchored)
-					sleep(5)
+					sleep(15)
 					step(src, SOUTH)
 
 
