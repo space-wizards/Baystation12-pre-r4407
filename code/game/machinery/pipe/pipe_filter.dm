@@ -72,11 +72,11 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, n1dir)
+			T = get_step_3d(src, n1dir)
 		if(2)
-			T = get_step(src, n2dir)
+			T = get_step_3d(src, n2dir)
 		if(3)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 			if(T.density)
 				T = src.loc
 				if(T.density)
