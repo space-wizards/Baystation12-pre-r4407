@@ -7199,3 +7199,281 @@ There is a path, I assure you.
 22-22:ACCESS: Login: Topkasa from 127.0.0.1
 22-22:ACCESS: They share computer ID's
 22-22:ACCESS: Logout: Topkasa
+22-58:GAME: Finished building powernets (30 nets)
+22-58:ADMIN: Loading crban_keylist
+22-58:ADMIN: Loading crban_reason
+22-58:ADMIN: Loading crban_time
+22-58:ADMIN: Loading crban_bannedby
+22-58:ADMIN: Loading crban_iplist
+22-58:ADMIN: Loading crban_unbanned
+22-58:ADMIN: Loading crban_ComputerIDs
+22-58:ADMIN: Loading jobban_rank
+22-58:ADMIN: Updating jobbanfile!
+22-58:ACCESS: Login: Topkasa from 192.168.1.1
+22-58:ACCESS: Logout: Topkasa
+22-58:ACCESS: Login: Topkasa from 127.0.0.1
+22-58:ADMIN: Topkasa delayed the game.
+22-58:GAME: Topkasa entered as Desmond Taggart
+22-58:ACCESS: Login: Guest-2854149274 from 208.97.42.75
+22-58:OOC: Desmond Taggart/Topkasa : hi
+22-58:OOC: Desmond Taggart/Topkasa : if you&#39;re reading this, type ooc, space, then text
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : oh
+22-58:OOC: Desmond Taggart/Topkasa : use the arrow keys to move around
+22-58:OOC: Desmond Taggart/Topkasa : and when you&#39;re ready, hit &#34;Character Setup&#34;
+22-58:ACCESS: Login: Topkasa from 127.0.0.1
+22-58:OOC: Desmond Taggart/Topkasa : now, the important thing here
+22-58:OOC: Desmond Taggart/Topkasa : it in the oocupation choices category
+22-58:OOC: Desmond Taggart/Topkasa : select the link to set a choice
+22-58:OOC: Desmond Taggart/Topkasa : and click &#34;Assistant&#34;
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : k
+22-58:OOC: Desmond Taggart/Topkasa : that way I know where to find you on the station
+22-58:OOC: Desmond Taggart/Topkasa : once you&#39;re done setup, scroll that pane down and hit &#34;save setup&#34;
+22-58:OOC: Desmond Taggart/Topkasa : then close the window
+22-58:OOC: Desmond Taggart/Topkasa : for example, I sved mine so I&#39;m always the same guy every round for consistency
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : ah
+22-58:OOC: Desmond Taggart/Topkasa : Desmond Taggart
+22-58:OOC: Desmond Taggart/Topkasa : oh
+22-58:OOC: Desmond Taggart/Topkasa : and if you get yourself killed
+22-58:OOC: Desmond Taggart/Topkasa : I have the ability to magically heal you
+22-58:OOC: Desmond Taggart/Topkasa : lolol, Host-level admin powers
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : lol
+22-58:OOC: Desmond Taggart/Topkasa : okay, so now, hit the &#34;ready&#34; button in the command pane, where you hit Character Setup
+22-58:OOC: Desmond Taggart/Topkasa : should be near the bottom
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : aaah
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : I don&#39;t see a &#34;ready&#34; button
+22-58:OOC: Desmond Taggart/Topkasa : okay, you didn&#39;t open character setup and look there, did you?
+22-58:GAME: Guest-2854149274 entered as Cog Awesomeblood
+22-58:OOC: Desmond Taggart/Topkasa : there you ho
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : Oh derp
+22-58:OOC: Desmond Taggart/Topkasa : *go
+22-58:GAME: Topkasa entered as Desmond Taggart
+22-58:ADMIN: Topkasa used start_now
+22-58:GAME: starting game of extended
+22-58:OOC: Desmond Taggart/Topkasa : I&#39;ll come get you
+22-58:OOC: Desmond Taggart/Topkasa : you got warped to your starting position
+22-58:SAY: Desmond Taggart/Topkasa : hi
+22-58:OOC: Desmond Taggart/Topkasa : okay, so this is the station most gameplay takes place on
+22-58:SAY: Desmond Taggart/Topkasa : to talk like I am, just use &#34;say&#34; the same way you were using ooc
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Oh
+22-58:SAY: Desmond Taggart/Topkasa : You&#39;re an assistant right now, which means you get access to almost nowhere
+22-58:SAY: Desmond Taggart/Topkasa : so let&#39;s fix that first
+22-58:SAY: Desmond Taggart/Topkasa : to open doors
+22-58:SAY: Desmond Taggart/Topkasa : walk up to them, and either try to walk through them, or click on them with the left mouse button
+22-58:SAY: Desmond Taggart/Topkasa : you wait here,
+22-58:SAY: Desmond Taggart/Topkasa : okay, now, item management
+22-58:SAY: Desmond Taggart/Topkasa : to, say, take off your Id
+22-58:SAY: Desmond Taggart/Topkasa : click on it in the 3x3 blue pane in the bottom
+22-58:SAY: Desmond Taggart/Topkasa : that&#39;ll move it to your active hand
+22-58:SAY: Desmond Taggart/Topkasa : now, click on the table
+22-58:SAY: Desmond Taggart/Topkasa : thanks
+22-58:SAY: Desmond Taggart/Topkasa : to put the ID back on
+22-58:OOC: Desmond Taggart/Topkasa : just click on the place it was
+22-58:SAY: Desmond Taggart/Topkasa : not quite
+22-58:OOC: Cog Awesomeblood/Guest-2854149274 : derp
+22-58:SAY: Desmond Taggart/Topkasa : ah, there
+22-58:SAY: Desmond Taggart/Topkasa : also, see the red HAND button to the lower-right center of the hud?
+22-58:SAY: Desmond Taggart/Topkasa : that changes which hand you&#39;re trying to use
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Oh
+22-58:SAY: Desmond Taggart/Topkasa : you&#39;ll use that button a lot
+22-58:SAY: Desmond Taggart/Topkasa : along the right side of your screen are some blue icons and a temperature gauge
+22-58:SAY: Desmond Taggart/Topkasa : you really don&#39;t want those to look any different than they do now
+22-58:SAY: Desmond Taggart/Topkasa : because that&#39;s very very bad
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Naturally
+22-58:SAY: Desmond Taggart/Topkasa : O2 is whether you can breathe or not
+22-58:SAY: Desmond Taggart/Topkasa : the sparkly one means the air either has cloroform or poison/plasma in it
+22-58:SAY: Desmond Taggart/Topkasa : the fire one is obvious
+22-58:SAY: Desmond Taggart/Topkasa : the temperature gauge is too
+22-58:SAY: Desmond Taggart/Topkasa : if it&#39;s too low or high, you can pass out
+22-58:SAY: Desmond Taggart/Topkasa : and drop everything you&#39;re holding
+22-58:SAY: Desmond Taggart/Topkasa : the lowest is the most important
+22-58:SAY: Desmond Taggart/Topkasa : that&#39;s your overall health
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : I wanna say that blue is good
+22-58:SAY: Desmond Taggart/Topkasa : if it goes red, you&#39;re dying
+22-58:SAY: Desmond Taggart/Topkasa : if it&#39;s a skeleton, you&#39;re dead
+22-58:SAY: Desmond Taggart/Topkasa : blue is best
+22-58:SAY: Desmond Taggart/Topkasa : that&#39;s the basic part of it
+22-58:SAY: Desmond Taggart/Topkasa : now, you can also use radio communications
+22-58:SAY: Desmond Taggart/Topkasa : ;like this
+22-58:SAY: Desmond Taggart/Topkasa : to do that
+22-58:SAY: Desmond Taggart/Topkasa : prefix anything you want to say over the radio with a semicolon
+22-58:SAY: Desmond Taggart/Topkasa : as in say ;test
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : ;Oh
+22-58:SAY: Desmond Taggart/Topkasa : you need a radio headset for that to work, though
+22-58:SAY: Desmond Taggart/Topkasa : which you have
+22-58:SAY: Desmond Taggart/Topkasa : now, if you click on your backpack in the 3x3 there, you can open it and see what&#39;s inside, which for now is just a box
+22-58:SAY: Desmond Taggart/Topkasa : some items, like the backpack, can store other smaller items inside
+22-58:SAY: Desmond Taggart/Topkasa : here is the bar
+22-58:SAY: Desmond Taggart/Topkasa : if there&#39;s a bartender there, you can get durnk
+22-58:SAY: Desmond Taggart/Topkasa : Drunk
+22-58:SAY: Desmond Taggart/Topkasa : crew quarters
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : I sure hope that was intentional
+22-58:SAY: Desmond Taggart/Topkasa : never used
+22-58:SAY: Desmond Taggart/Topkasa : I wish it was
+22-58:SAY: Desmond Taggart/Topkasa : maintenance corridors.  these let you move around if the halls are blocked
+22-58:SAY: Desmond Taggart/Topkasa : they&#39;re also lit poorly
+22-58:SAY: Desmond Taggart/Topkasa : also
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : as any maintenance corridor in space should be
+22-58:SAY: Desmond Taggart/Topkasa : these are ladders
+22-58:SAY: Desmond Taggart/Topkasa : click it, go up or down a floor
+22-58:SAY: Desmond Taggart/Topkasa : but
+22-58:SAY: Desmond Taggart/Topkasa : they&#39;re new to this codebase (just wrote them this morning) so theyre not used muxh
+22-58:SAY: Desmond Taggart/Topkasa : much
+22-58:SAY: Desmond Taggart/Topkasa : now
+22-58:SAY: Desmond Taggart/Topkasa : these are your best friends
+22-58:SAY: Desmond Taggart/Topkasa : internals closets
+22-58:SAY: Desmond Taggart/Topkasa : gas mask and oxygen tank
+22-58:SAY: Desmond Taggart/Topkasa : let you breathe when there&#39;s no air
+22-58:SAY: Desmond Taggart/Topkasa : you can store both in your backpack
+22-58:SAY: Desmond Taggart/Topkasa : but if you&#39;re going out near space, it&#39;s generally advised that you put the oxygen tank on your back instead ot hte backpack
+22-58:SAY: Desmond Taggart/Topkasa : so if you pass out you don&#39;t drop your tank and then suffocate
+22-58:SAY: Desmond Taggart/Topkasa : the red lines are power cables, right now there&#39;s baout 240Kwatts through them
+22-58:SAY: Desmond Taggart/Topkasa : I generally bump that up to at least 400kw
+22-58:SAY: Desmond Taggart/Topkasa : in any game mode other than extended, there&#39;s usually a point to the round as well
+22-58:SAY: Desmond Taggart/Topkasa : so, there&#39;s a ton of stuff to actually do on the round
+22-58:SAY: Unknown/Guest-2854149274 : how do I put the oxygen tank on?
+22-58:SAY: Desmond Taggart/Topkasa : like run the engine, medical, genetics experimentation
+22-58:SAY: Desmond Taggart/Topkasa : okay,
+22-58:SAY: Desmond Taggart/Topkasa : drag the backpack into an open hand slot
+22-58:SAY: Desmond Taggart/Topkasa : then close the storage popup
+22-58:SAY: Desmond Taggart/Topkasa : then set your active hand to the one with the tank, and there you do
+22-58:SAY: Desmond Taggart/Topkasa : *go
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : woo
+22-58:SAY: Desmond Taggart/Topkasa : but, just having a tank won&#39;t help
+22-58:SAY: Desmond Taggart/Topkasa : you have to open the valve on it too
+22-58:SAY: Desmond Taggart/Topkasa : to do that
+22-58:SAY: Desmond Taggart/Topkasa : bring it into a hand
+22-58:SAY: Desmond Taggart/Topkasa : click on it
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : done
+22-58:SAY: Desmond Taggart/Topkasa : and click to open the valve
+22-58:SAY: Desmond Taggart/Topkasa : the internals thing on your sidebar is now green
+22-58:SAY: Desmond Taggart/Topkasa : you&#39;re on your own air supply
+22-58:SAY: Desmond Taggart/Topkasa : so the station is fairly detailed
+22-58:SAY: Desmond Taggart/Topkasa : we have a full jail and court system
+22-58:SAY: Desmond Taggart/Topkasa : firefighting
+22-58:SAY: Desmond Taggart/Topkasa : atmospherics control
+22-58:SAY: Desmond Taggart/Topkasa : an engine room
+22-58:SAY: Desmond Taggart/Topkasa : medical bay
+22-58:SAY: Desmond Taggart/Topkasa : plasma and medical research
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Wow
+22-58:SAY: Desmond Taggart/Topkasa : and no ethics to speak of
+22-58:SAY: Desmond Taggart/Topkasa : and there&#39;s lots more, too
+22-58:SAY: Desmond Taggart/Topkasa : The chapel, crew quarters, security, the AI, the bridge, EVA storage, all the other storages, the supply warehouse
+22-58:SAY: Desmond Taggart/Topkasa : centcom
+22-58:SAY: Desmond Taggart/Topkasa : lots
+22-58:SAY: Desmond Taggart/Topkasa : but the AI is run by a player, so without one it&#39;s offline
+22-58:SAY: Desmond Taggart/Topkasa : but right now,
+22-58:SAY: Desmond Taggart/Topkasa : ;I need to start the engine
+22-58:SAY: Desmond Taggart/Topkasa : welcome to engineering
+22-58:SAY: Desmond Taggart/Topkasa : this is the power plant for the station
+22-58:SAY: Desmond Taggart/Topkasa : this is the TEG
+22-58:SAY: Desmond Taggart/Topkasa : Thermo Electric generator
+22-58:SAY: Desmond Taggart/Topkasa : it&#39;s the main power source for the whole station
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Man, this IS detailed
+22-58:SAY: Desmond Taggart/Topkasa : This isn&#39;t the half of it
+22-58:SAY: Desmond Taggart/Topkasa : I&#39;m gonna start it, then explain how it works
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Lemme get my inventory in order
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Forgot to switch hands
+22-58:SAY: Desmond Taggart/Topkasa : okay so
+22-58:SAY: Desmond Taggart/Topkasa : right now I&#39;m just hooking up gas canisters
+22-58:SAY: Desmond Taggart/Topkasa : to provide fuel for the combustion chamber
+22-58:SAY: Desmond Taggart/Topkasa : 2550 AD and all we use is a fucking combustion engine on a space station
+22-58:SAY: Desmond Taggart/Topkasa : oh and
+22-58:SAY: Desmond Taggart/Topkasa : don&#39;t open valves on the CO2 or plasma canisters
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : ack, I keep getting file download dialogs
+22-58:SAY: Desmond Taggart/Topkasa : they&#39;ll kill you right quick
+22-58:SAY: Desmond Taggart/Topkasa : o_O
+22-58:SAY: Desmond Taggart/Topkasa : you should have only had to get a single dialog from this game
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : It keeps opening blank files
+22-58:SAY: Desmond Taggart/Topkasa : okay
+22-58:SAY: Desmond Taggart/Topkasa : now, I&#39;ll show you how the engine runs
+22-58:SAY: Desmond Taggart/Topkasa : the unit works like a carnot engine
+22-58:SAY: Desmond Taggart/Topkasa : one side is connected to the combustion chamber, and gets host
+22-58:SAY: Desmond Taggart/Topkasa : hot, rather
+22-58:SAY: Desmond Taggart/Topkasa : the other side vents heat to space
+22-58:SAY: Desmond Taggart/Topkasa : hot, cold, and the temperature difference is what is used to create the electricity the station equipment uses
+22-58:SAY: Desmond Taggart/Topkasa : In this game, we use CO2 as a transfer medium
+22-58:SAY: Desmond Taggart/Topkasa : which is what the two blackish canisters hold
+22-58:SAY: Desmond Taggart/Topkasa : The TEG has a pair of circulators, which do what they suggest
+22-58:SAY: Desmond Taggart/Topkasa : if they weren&#39;t circulating the gases, there&#39;d be no heat exchange
+22-58:SAY: Desmond Taggart/Topkasa : fairly detailed.
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Those are the tiles with blue around them, right?
+22-58:SAY: Desmond Taggart/Topkasa : these two things
+22-58:SAY: Desmond Taggart/Topkasa : the blue things are windows
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Oh
+22-58:SAY: Desmond Taggart/Topkasa : now, you can see that the TEG has a bar on it
+22-58:SAY: Desmond Taggart/Topkasa : that is slowly filling
+22-58:SAY: Desmond Taggart/Topkasa : that&#39;s an at-a-glace listing of how much power the TEG is producing
+22-58:SAY: Desmond Taggart/Topkasa : click the TEG for a more indepth view
+22-58:SAY: Desmond Taggart/Topkasa : we want to be producing about 1.6 million watts
+22-58:SAY: Desmond Taggart/Topkasa : it takes about a minute to heat up that much
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : To power the entire station?
+22-58:SAY: Desmond Taggart/Topkasa : no, the statio nruns about 260Kws load normally
+22-58:SAY: Desmond Taggart/Topkasa : but
+22-58:SAY: Desmond Taggart/Topkasa : I like to charge the SMES units at maximum rate
+22-58:SAY: Desmond Taggart/Topkasa : and that takes 200Kw each, and 8 SMES units
+22-58:SAY: Desmond Taggart/Topkasa : making 1.6Million watts from the teg
+22-58:SAY: Desmond Taggart/Topkasa : (incidentally, I made the graphics for the teg)
+22-58:SAY: Desmond Taggart/Topkasa : so, this is good
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Maybe if I stop closing the status window I won&#39;t get the download prompts
+22-58:SAY: Desmond Taggart/Topkasa : now for the next step
+22-58:SAY: Desmond Taggart/Topkasa : these are the superconducting magnetic enegery storage devices
+22-58:SAY: Desmond Taggart/Topkasa : look them up on wikipedia sometime
+22-58:SAY: Desmond Taggart/Topkasa : basically, they&#39;re giant batteries
+22-58:SAY: Desmond Taggart/Topkasa : they can charge from the energy the TEG puts out
+22-58:SAY: Desmond Taggart/Topkasa : and provide power to the station
+22-58:ADMIN: Topkasa created /obj/item/weapon/t_scanner
+22-58:SAY: Desmond Taggart/Topkasa : you can see how they&#39;re wired here
+22-58:SAY: Desmond Taggart/Topkasa : the outer ring wire connects to the TEG
+22-58:SAY: Desmond Taggart/Topkasa : and the inner grid is the station&#39;s main supply cable
+22-58:SAY: Desmond Taggart/Topkasa : now, for the SMES units along the bottom
+22-58:SAY: Desmond Taggart/Topkasa : click on it,
+22-58:SAY: Desmond Taggart/Topkasa : with the other hand
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Aaa
+22-58:SAY: Desmond Taggart/Topkasa : then click them to charge automatically
+22-58:SAY: Desmond Taggart/Topkasa : and click the right M by charge rate, to set it to maximum charge rate
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : This is getting annoying
+22-58:SAY: Desmond Taggart/Topkasa : this way, the SMES units won&#39;t run out of power
+22-58:SAY: Desmond Taggart/Topkasa : what is?
+22-58:SAY: Cog Awesomeblood/Guest-2854149274 : Mind if I restart the client real quick?
+22-58:SAY: Desmond Taggart/Topkasa : yeah, sure
+22-58:ACCESS: Logout: Guest-2854149274
+22-58:ACCESS: Login: Guest-2187449201 from 208.97.42.75
+22-58:ACCESS: Notice: Guest-2187449201 has same IP address as Guest-2854149274 did (Guest-2854149274 is no longer logged in).
+22-58:ACCESS: Logout: Guest-2187449201
+22-58:ACCESS: Login: Guest-2854149274 from 208.97.42.75
+22-58:SAY: Desmond Taggart/Topkasa : hi
+22-58:SAY: Desmond Taggart/Topkasa : wb
+22-58:ACCESS: Logout: Guest-2854149274
+22-58:ACCESS: Login: Guest-2854149274 from 208.97.42.75
+22-58:ACCESS: Logout: Guest-2854149274
+22-58:ADMIN: Topkasa modified Cog Awesomeblood's machine to Network Centre APC
+22-58:ADMIN: Topkasa modified Cog Awesomeblood's machine to 0
+22-58:ACCESS: Login: Guest-2844904195 from 208.97.42.75
+22-58:ACCESS: Notice: Guest-2844904195 has same IP address as Guest-2854149274 did (Guest-2854149274 is no longer logged in).
+22-58:ACCESS: Logout: Guest-2844904195
+22-58:ACCESS: Logout: Topkasa
+23-48:GAME: Finished building powernets (30 nets)
+23-48:ADMIN: Loading crban_keylist
+23-48:ADMIN: Loading crban_reason
+23-48:ADMIN: Loading crban_time
+23-48:ADMIN: Loading crban_bannedby
+23-48:ADMIN: Loading crban_iplist
+23-48:ADMIN: Loading crban_unbanned
+23-48:ADMIN: Loading crban_ComputerIDs
+23-48:ADMIN: Loading jobban_rank
+23-48:ADMIN: Updating jobbanfile!
+23-49:GAME: Finished building powernets (30 nets)
+23-49:ADMIN: Loading crban_keylist
+23-49:ADMIN: Loading crban_reason
+23-49:ADMIN: Loading crban_time
+23-49:ADMIN: Loading crban_bannedby
+23-49:ADMIN: Loading crban_iplist
+23-49:ADMIN: Loading crban_unbanned
+23-49:ADMIN: Loading crban_ComputerIDs
+23-49:ADMIN: Loading jobban_rank
+23-49:ADMIN: Updating jobbanfile!
+23-49:ACCESS: Login: Topkasa from 127.0.0.1
+23-49:GAME: Topkasa entered as Desmond Taggart
+23-49:ADMIN: Topkasa used start_now
+23-49:GAME: starting game of extended
+23-49:ACCESS: Logout: Topkasa

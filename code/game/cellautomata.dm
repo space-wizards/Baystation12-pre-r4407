@@ -552,9 +552,7 @@
 			world << "<b>[aiPlayer.name]'s laws when it was deactivated were:</b>"
 		aiPlayer.showLaws(1)
 
-	world << "Check Nuclearend"
 	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear, so don't move it back to centcom
-		world << "Moving Shuttle"
 		var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
 		if (src.shuttle_location == station_emerg_dock) //Altered to support superareas.
 			for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values

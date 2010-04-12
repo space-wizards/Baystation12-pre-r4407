@@ -8,12 +8,14 @@ PACKAGE_DME_CLEANCHECK: OFF
 PACKAGE_TYPE: 2
 PACKAGE_DMB_HUB: 
 PACKAGE_RSC_CLEANCHECK: ON
+UPDATE_OBJ_TREE: ON
 PACKAGE_DMB_CLEANCHECK: OFF
 PACKAGE_DME_START: 
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai code\game\objects code\game\verbs code\unused icons 
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai code\game\objects code\game\verbs code\unused icons icons\ss13 maps 
 PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
+FILE: maps\Bay Station 12 alpha.dmp
 PACKAGE_DME_INFO: 
-LAST_COMPILE_TIME: 1271049280
+LAST_COMPILE_TIME: 1271093772
 PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
 AUTO_FILE_DIR: ON
 PACKAGE_DMB_INFO: 
