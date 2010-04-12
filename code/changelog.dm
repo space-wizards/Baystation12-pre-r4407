@@ -4,6 +4,13 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Sukasa's Changes (Aprile 11th, 2010)</B></P>
+<li>Ladders and multiple Z levels OMFG</li>
+<li>Shuttle fixes, should go to centcom more often now</li>
+<li>Escape Pods have a destination, and it's not shit!</li>
+<li>CentCom improved</li>
+<li>Atmos shouldn't be in a state of perpetual alarm</li>
+
 <P><B>Sukasa's Changes (April 6th-10th 2010)</B></P>
 <li>ESCAPE POD BAYS</li>
 <li>Network Office and Storage</li>
