@@ -33,7 +33,9 @@
 		tdome1	+= src.loc
 	if (name == "tdome2")
 		tdome2 += src.loc
+
 	//not prisoners
+
 	if (name == "prisonsecuritywarp")
 		prisonsecuritywarp += src.loc
 		del(src)
@@ -53,6 +55,8 @@
 		podspawns += src.loc
 		del(src)
 		return
+
+	//Multiple Z level support
 
 	if(name == "Station-Floor")
 		stationfloors += src.z
@@ -91,6 +95,7 @@
 
 	if(name == "Centcom-Dock-Emerg")
 		centcom_emerg_dock = src.z
+		shuttle_z = src.z
 		del(src)
 		return
 
@@ -416,7 +421,10 @@
 		for(var/i = 0; i < 10; i++)
 			spawn_meteors()
 		if (src.timeleft <= 0 && src.timing)
-			src.timeup()
+			if(!roundover)
+				src.timeup()
+			else
+				check_win()
 
 		sleep(10)
 	while(src.processing)
@@ -438,7 +446,10 @@
 		if (prob(0.5))
 			spawn_meteors()
 		if (src.timeleft <= 0 && src.timing)
-			src.timeup()
+			if(!roundover)
+				src.timeup()
+			else
+				check_win()
 
 		sleep(10)
 	while(src.processing)
@@ -480,14 +491,14 @@
 /datum/control/gameticker/proc/timeup()
 
 	var/area/B = locate(/area/shuttle)
-	if (src.shuttle_location == 2)
+	if (src.shuttle_location == centcom_emerg_dock)
 
 		var/list/srcturfs = list()
 		var/list/dstturfs = list()
 		var/throwx = 0
 		for (var/area/A in B.superarea.areas)
 			for(var/turf/T in A)
-				if (T.z == shuttle_z)
+				if (T.z == centcom_emerg_dock)
 					srcturfs += T
 				else
 					dstturfs += T
@@ -513,7 +524,7 @@
 					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
 					B.contents -= S
 					B.contents += S
-				AM.z = 1
+				AM.z = station_emerg_dock
 			var/turf/U = locate(T.x, T.y, T.z)
 			U.oxygen = T.oxygen
 			U.poison = T.poison
@@ -521,7 +532,7 @@
 			U.buildlinks()
 			del(T)
 		src.timeleft = shuttle_time_in_station
-		src.shuttle_location = 1
+		src.shuttle_location = station_emerg_dock
 		world << "<B>The emergency shuttle has docked with the station! You have [ticker.timeleft/600] minutes to board the shuttle.</B>"
 	else
 		world << "<B>The emergency shuttle is leaving!</B>"
@@ -530,33 +541,34 @@
 	return
 
 /datum/control/gameticker/proc/check_win()
+	roundover = 1
 	if (!mode.check_win())
 		return 0
-	if (nuclearend)
-		return 0
+
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
-			world << "<b>The AI's laws at the end of the game were:</b>"
+			world << "<b>[aiPlayer.name]'s laws at the end of the game were:</b>"
 		else
-			world << "<b>The AI's laws when it was deactivated were:</b>"
+			world << "<b>[aiPlayer.name]'s laws when it was deactivated were:</b>"
 		aiPlayer.showLaws(1)
 
-	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear
+	world << "Check Nuclearend"
+	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear, so don't move it back to centcom
+		world << "Moving Shuttle"
 		var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
-		if (src.shuttle_location == 1) //Altered to support superareas.
+		if (src.shuttle_location == station_emerg_dock) //Altered to support superareas.
 			for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
 				for(var/turf/T in A)
-					if (T.z == 1)
+					if (T.z == station_emerg_dock)
 						for(var/atom/movable/AM as mob|obj in T)
-							A\M.z = shuttle_z
-						var/turf/U = locate(T.x, T.y, shuttle_z)
+							AM.z = centcom_emerg_dock
+						var/turf/U = locate(T.x, T.y, centcom_emerg_dock)
 						U.oxygen = T.oxygen
 						U.poison = T.poison
 						U.co2 = T.co2
 
 						U.buildlinks()
 						del(T)
-	roundover = 1
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
 	world.Reboot()

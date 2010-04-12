@@ -279,6 +279,11 @@ area/storage/northspare
 	icon_state = "toolstorage"
 	music = ""
 
+area/storage/emergency
+	name = "Emergency Storage"
+	icon_state = "toolstorage"
+	music = ""
+
 area/storage/network
 	name = "Network Storage"
 	icon_state = "network"
@@ -598,7 +603,7 @@ area/prototype
 /area/tdome
 	name = "Thunderdome"
 	icon_state = "medical"
-	music = 'music/THUNDERDOME.ogg'
+	music = "music/THUNDERDOME.ogg"
 
 /area/tdome/tdome1
 	name = "Thunderdome (Team 1)"

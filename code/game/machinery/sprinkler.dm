@@ -2,10 +2,15 @@
 	name = "Fire Suppression Emitter"
 	icon = 'stationobjs.dmi'
 	icon_state = "sprinkler"
+	anchored = 1.0
 	var/status = 1.0
 	var/operating = 0
-	anchored = 1.0
 	var/invuln = null
+	var/list/spraydirs
+
+/obj/machinery/sprinkler/New()
+	..()
+	src.spraydirs = list(1, 2, 4, 8) - turn(src.dir, 180)
 
 /obj/machinery/sprinkler/process()
 	if (!operating || !status)
@@ -16,11 +21,9 @@
 		return
 	use_power(75, ENVIRON)
 	var/turf/T = src.loc
-//	T.n2 += 1000000
-//	T.co2 += 10000
 	icon_state = "sprinkler1"
 	var/obj/effects/water/W = new /obj/effects/water( T )
-	W.dir = pick(1, 2, 4, 8)
+	W.dir = pick(spraydirs)
 	spawn( 0 )
 		W.Life()
 
@@ -33,5 +36,5 @@
 /obj/machinery/sprinkler/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/wirecutters))
 		src.status = !src.status
-		viewers(user, null) << text("\red [] has [] []'s power supply!", user,(src.status ? "connected" : "disconnected"), src)
-		user.add_medal("Firefighter",1,1,10)
+		viewers(user, null) << text("\red [] has [] []'s power supply!", user, (src.status ? "connected" : "disconnected"), src)
+		user.unlock_medal("Firefighter", 1, "Enable or disable firefighting apparatus", "easy")

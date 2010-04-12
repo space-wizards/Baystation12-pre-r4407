@@ -151,6 +151,7 @@
 			var/retval = !super && aiPlayer.cancelAlarm("Atmosphere", src, source)
 			if (retval == 0) // alarm(s) cleared
 				atmos = 1
+			icon_state = "invi"
 	if (super)
 		return 1
 	for (var/area/A in src.superarea.areas) //Propagate to the rest of the original area (The DAL library cuts up areas)
@@ -175,6 +176,25 @@
 		A.poweralm = src.poweralm
 	return
 
+/area/proc/lockdown(var/super)
+
+	if(src.name == "Space") //no fire alarms in space
+		return
+	src.updateicon()
+	src.mouse_opacity = 0
+	for(var/obj/machinery/door/firedoor/D in src)
+		if(D.operating)
+			D.nextstate = CLOSED
+		else if(!D.density)
+			spawn(0)
+				D.closefire()
+	if (super)
+		return
+	for (var/area/A in src.superarea.areas) //Propagate to the rest... you get the idea.
+		if (A != src)
+			A.lockdown(1)
+	return
+
 /area/proc/firealert(var/super)
 
 	if(src.name == "Space") //no fire alarms in space
@@ -192,6 +212,8 @@
 		var/list/cameras = list()
 		for (var/obj/machinery/camera/C in src)
 			cameras += C
+		for(var/obj/machinery/sprinkler/S in src)
+			S.operating = 1
 		for (var/mob/ai/aiPlayer in world)
 			aiPlayer.triggerAlarm("Fire", src, cameras, src)
 		if (super)
@@ -200,11 +222,34 @@
 			if (A != src)
 				A.firealert(1)
 	return
+
+/area/proc/lockdownreset(var/super)
+	if (src.fire)
+		return //Don't disable a lockdown if a fire has started
+	src.mouse_opacity = 0
+	src.updateicon()
+	for(var/obj/machinery/sprinkler/S in src)
+		S.operating = 0
+	for(var/obj/machinery/door/firedoor/D in src)
+		if(D.operating)
+			D.nextstate = OPEN
+		else if(D.density)
+			spawn(0)
+				D.openfire()
+	if (super)
+		return
+	for (var/area/A in src.superarea.areas)
+		if (A != src && A.fire == 1)
+			A.lockdownreset(1)
+	return
+
 /area/proc/firereset(var/super)
 	if (src.fire)
 		src.fire = 0
 		src.mouse_opacity = 0
 		src.updateicon()
+		for(var/obj/machinery/sprinkler/S in src)
+			S.operating = 0
 		for(var/obj/machinery/door/firedoor/D in src)
 			if(D.operating)
 				D.nextstate = OPEN
@@ -263,22 +308,9 @@
 			else if(party)
 				icon_state = "party"
 		else
-			icon_state = initial(icon_state)
-/*		else
-			if(lightswitch && power_light)
-				icon_state = null
-			else
-				icon_state = "dark128"
-		if(lightswitch && power_light)
-			luminosity = 1;
-		else
-			luminosity = 0;
-*/
-/*
-#define EQUIP 1
-#define LIGHT 2
-#define ENVIRON 3
-*/
+			icon_state = "invi"
+	else
+		icon_state = "party"
 
 
 /area/proc/light_switch()

@@ -7043,3 +7043,159 @@ There is a path, I assure you.
 15-27:ADMIN: Topkasa used start_now
 15-27:GAME: starting game of traitor
 15-27:ACCESS: Logout: Topkasa
+19-25:GAME: Finished building powernets (27 nets)
+19-25:ADMIN: Loading crban_keylist
+19-25:ADMIN: Loading crban_reason
+19-25:ADMIN: Loading crban_time
+19-25:ADMIN: Loading crban_bannedby
+19-25:ADMIN: Loading crban_iplist
+19-25:ADMIN: Loading crban_unbanned
+19-25:ADMIN: Loading crban_ComputerIDs
+19-25:ADMIN: Loading jobban_rank
+19-25:ADMIN: Updating jobbanfile!
+19-25:ACCESS: Login: Topkasa from 127.0.0.1
+19-25:GAME: Topkasa entered as Desmond Taggart
+19-25:ADMIN: Topkasa used start_now
+19-25:GAME: starting game of traitor
+19-25:ACCESS: Logout: Topkasa
+19-37:GAME: Finished building powernets (27 nets)
+19-37:ADMIN: Loading crban_keylist
+19-37:ADMIN: Loading crban_reason
+19-37:ADMIN: Loading crban_time
+19-37:ADMIN: Loading crban_bannedby
+19-37:ADMIN: Loading crban_iplist
+19-37:ADMIN: Loading crban_unbanned
+19-37:ADMIN: Loading crban_ComputerIDs
+19-37:ADMIN: Loading jobban_rank
+19-37:ADMIN: Updating jobbanfile!
+19-37:ACCESS: Login: Topkasa from 127.0.0.1
+19-37:GAME: Topkasa entered as Desmond Taggart
+19-37:ADMIN: Topkasa used start_now
+19-37:GAME: starting game of traitor
+19-37:ACCESS: Logout: Topkasa
+19-59:GAME: Finished building powernets (27 nets)
+19-59:ADMIN: Loading crban_keylist
+19-59:ADMIN: Loading crban_reason
+19-59:ADMIN: Loading crban_time
+19-59:ADMIN: Loading crban_bannedby
+19-59:ADMIN: Loading crban_iplist
+19-59:ADMIN: Loading crban_unbanned
+19-59:ADMIN: Loading crban_ComputerIDs
+19-59:ADMIN: Loading jobban_rank
+19-59:ADMIN: Updating jobbanfile!
+19-59:ACCESS: Login: Topkasa from 127.0.0.1
+19-59:GAME: Topkasa entered as Desmond Taggart
+19-59:ADMIN: Topkasa used start_now
+19-59:GAME: starting game of traitor
+19-59:ACCESS: Logout: Topkasa
+20-06:GAME: Finished building powernets (27 nets)
+20-06:ADMIN: Loading crban_keylist
+20-06:ADMIN: Loading crban_reason
+20-06:ADMIN: Loading crban_time
+20-06:ADMIN: Loading crban_bannedby
+20-06:ADMIN: Loading crban_iplist
+20-06:ADMIN: Loading crban_unbanned
+20-06:ADMIN: Loading crban_ComputerIDs
+20-06:ADMIN: Loading jobban_rank
+20-06:ADMIN: Updating jobbanfile!
+20-06:ACCESS: Login: Topkasa from 127.0.0.1
+20-06:GAME: Topkasa entered as Desmond Taggart
+20-06:ADMIN: Topkasa used start_now
+20-06:GAME: starting game of traitor
+20-06:ACCESS: Logout: Topkasa
+20-06:GAME: Rebooting due to end of game
+20-12:GAME: Finished building powernets (27 nets)
+20-12:ADMIN: Loading crban_keylist
+20-12:ADMIN: Loading crban_reason
+20-12:ADMIN: Loading crban_time
+20-12:ADMIN: Loading crban_bannedby
+20-12:ADMIN: Loading crban_iplist
+20-12:ADMIN: Loading crban_unbanned
+20-12:ADMIN: Loading crban_ComputerIDs
+20-12:ADMIN: Loading jobban_rank
+20-12:ADMIN: Updating jobbanfile!
+20-12:GAME: starting game of traitor
+20-54:GAME: Finished building powernets (27 nets)
+20-54:ADMIN: Loading crban_keylist
+20-54:ADMIN: Loading crban_reason
+20-54:ADMIN: Loading crban_time
+20-54:ADMIN: Loading crban_bannedby
+20-54:ADMIN: Loading crban_iplist
+20-54:ADMIN: Loading crban_unbanned
+20-54:ADMIN: Loading crban_ComputerIDs
+20-54:ADMIN: Loading jobban_rank
+20-54:ADMIN: Updating jobbanfile!
+20-54:ACCESS: Login: Topkasa from 127.0.0.1
+20-54:GAME: Topkasa entered as Desmond Taggart
+20-54:ADMIN: Topkasa used start_now
+20-54:GAME: starting game of traitor
+20-54:ACCESS: Logout: Topkasa
+22-14:GAME: Finished building powernets (30 nets)
+22-14:ADMIN: Loading crban_keylist
+22-14:ADMIN: Loading crban_reason
+22-14:ADMIN: Loading crban_time
+22-14:ADMIN: Loading crban_bannedby
+22-14:ADMIN: Loading crban_iplist
+22-14:ADMIN: Loading crban_unbanned
+22-14:ADMIN: Loading crban_ComputerIDs
+22-14:ADMIN: Loading jobban_rank
+22-14:ADMIN: Updating jobbanfile!
+22-14:ACCESS: Login: Topkasa from 127.0.0.1
+22-14:GAME: Topkasa entered as Desmond Taggart
+22-14:ADMIN: Topkasa used start_now
+22-14:GAME: starting game of traitor
+22-14:ADMIN: Topkasa initiated a reboot.
+22-14:ADMIN: Topkasa initiated an immediate reboot.
+22-14:ACCESS: Logout: Topkasa
+22-16:GAME: Finished building powernets (30 nets)
+22-16:ADMIN: Loading crban_keylist
+22-16:ADMIN: Loading crban_reason
+22-16:ADMIN: Loading crban_time
+22-16:ADMIN: Loading crban_bannedby
+22-16:ADMIN: Loading crban_iplist
+22-16:ADMIN: Loading crban_unbanned
+22-16:ADMIN: Loading crban_ComputerIDs
+22-16:ADMIN: Loading jobban_rank
+22-16:ADMIN: Updating jobbanfile!
+22-16:ACCESS: Login: Topkasa from 127.0.0.1
+22-16:GAME: Topkasa entered as Desmond Taggart
+22-16:ADMIN: Topkasa used start_now
+22-16:GAME: starting game of traitor
+22-16:ACCESS: Logout: 
+22-16:ACCESS: Login: Topkasa from 127.0.0.1
+22-16:ACCESS: They share computer ID's
+22-16:ACCESS: Logout: Topkasa
+22-20:GAME: Finished building powernets (30 nets)
+22-20:ADMIN: Loading crban_keylist
+22-20:ADMIN: Loading crban_reason
+22-20:ADMIN: Loading crban_time
+22-20:ADMIN: Loading crban_bannedby
+22-20:ADMIN: Loading crban_iplist
+22-20:ADMIN: Loading crban_unbanned
+22-20:ADMIN: Loading crban_ComputerIDs
+22-20:ADMIN: Loading jobban_rank
+22-20:ADMIN: Updating jobbanfile!
+22-20:ACCESS: Login: Topkasa from 127.0.0.1
+22-20:GAME: Topkasa entered as Desmond Taggart
+22-20:ADMIN: Topkasa used start_now
+22-20:GAME: starting game of traitor
+22-20:ADMIN: Topkasa initiated an immediate reboot.
+22-20:ACCESS: Logout: Topkasa
+22-22:GAME: Finished building powernets (30 nets)
+22-22:ADMIN: Loading crban_keylist
+22-22:ADMIN: Loading crban_reason
+22-22:ADMIN: Loading crban_time
+22-22:ADMIN: Loading crban_bannedby
+22-22:ADMIN: Loading crban_iplist
+22-22:ADMIN: Loading crban_unbanned
+22-22:ADMIN: Loading crban_ComputerIDs
+22-22:ADMIN: Loading jobban_rank
+22-22:ADMIN: Updating jobbanfile!
+22-22:ACCESS: Login: Topkasa from 127.0.0.1
+22-22:GAME: Topkasa entered as Desmond Taggart
+22-22:ADMIN: Topkasa used start_now
+22-22:GAME: starting game of traitor
+22-22:ACCESS: Logout: 
+22-22:ACCESS: Login: Topkasa from 127.0.0.1
+22-22:ACCESS: They share computer ID's
+22-22:ACCESS: Logout: Topkasa

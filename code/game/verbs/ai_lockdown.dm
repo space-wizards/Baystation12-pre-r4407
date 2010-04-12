@@ -12,7 +12,7 @@
 		spawn( 0 )
 			if(FA.lockdownbyai == 0)
 				FA.lockdownbyai = 1
-				FA.alarm()
+				FA.alarm(1)
 	for(var/obj/machinery/door/airlock/AL in world) //close airlocks
 		spawn( 0 )
 			if(AL.canAIControl() && AL.icon_state == "door0" && AL.lockdownbyai == 0)
@@ -39,7 +39,7 @@
 		spawn( 0 )
 			if(FA.lockdownbyai == 1)
 				FA.lockdownbyai = 0
-				FA.reset()
+				FA.reset(1)
 	for(var/obj/machinery/door/airlock/AL in world) //open airlocks
 		spawn ( 0 )
 			if(AL.canAIControl() && AL.lockdownbyai == 1)

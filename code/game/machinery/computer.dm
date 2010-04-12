@@ -372,7 +372,7 @@
 	return
 
 /proc/call_prison_shuttle(var/mob/usr)
-	if ((!( ticker ) || ticker.shuttle_location == 1))
+	if ((!( ticker ) || ticker.shuttle_location == station_emerg_dock))
 		return
 	if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
 		usr << "Under directive 7-10, SS13 is quarantined until further notice."
@@ -384,13 +384,13 @@
 		usr << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
 		return
 	if(ticker.mode.name == "AI malfunction")
-		usr << "Centcom will not allow the shuttle to be called."
+		usr << "Error calling for the prison shuttle."
 		return
 	for(var/obj/machinery/computer/prison_shuttle/PS in world)
 		if(!PS.allowedtocall)
 			usr << "\red Centcom will not allow the shuttle to be called"
 			return
-		if(PS.z == 3)
+		if(PS.z == shuttle_en_route_level)
 			usr << "\red Already in transit! Please wait!"
 			return
 		var/A = locate(/area/shuttle_prison)
@@ -400,17 +400,17 @@
 		sleep(10)
 	var/area/A = locate(/area/shuttle_prison)
 
-	if(A.z == 2)	//This is the laziest proc ever
+	if(A.z == prison_shuttle_dock)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 1
+				AM.z = station_prison_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
@@ -420,14 +420,14 @@
 	else
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 2
+				AM.z = prison_shuttle_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()

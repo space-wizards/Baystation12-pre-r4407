@@ -220,14 +220,14 @@
 
 		for(var/atom/movable/AM as mob|obj in T)
 			AM.loc = S
-			S.oxygen = T.oxygen
-			S.poison = T.poison
-			S.co2 = T.co2
-			S.sl_gas = T.sl_gas
-			S.n2 = T.n2
-			S.temp = T.temp
-			S.buildlinks()
 
+		S.oxygen = T.oxygen
+		S.poison = T.poison
+		S.co2 = T.co2
+		S.sl_gas = T.sl_gas
+		S.n2 = T.n2
+		S.temp = T.temp
+		S.buildlinks()
 
 		A.contents += S
 		var/turf/P = new T.type( locate(T.x, T.y, T.z) )
