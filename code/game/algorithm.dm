@@ -11,7 +11,10 @@
 
 	var/list/destructive = assistant_occupations.Copy()
 	var/dat = "<html><body>"
-	dat += "<b>Name:</b> <a href=\"byond://?src=\ref[src];rname=input\"><b>[src.rname]</b></a> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
+	if(src.client.player.choosename)
+		dat += "<b>Name:</b> <a href=\"byond://?src=\ref[src];rname=input\"><b>[src.rname]</b></a> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
+	else
+		dat += "<b>Name:</b> <b>[src.rname]</b> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
 	dat += "<b>Gender:</b> <a href=\"byond://?src=\ref[src];gender=input\"><b>[src.gender == "male" ? "Male" : "Female"]</b></a><br>"
 	dat += "<b>Age:</b> <a href='byond://?src=\ref[src];age=input'>[src.age]</a>"
 

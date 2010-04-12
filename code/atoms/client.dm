@@ -11,6 +11,9 @@
 	var/changes = 0
 	var/canplaysound = 1
 	var/mob/oldbody
+	var/admin = 0
+	var/player/selectedrecord = null
+	var/player/player = null
 
 client/script = {"<style>
 .ooc_title, .ooc_text

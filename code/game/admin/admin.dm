@@ -1163,6 +1163,24 @@
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
+
+	//AdminpanelV2 functions
+
+	if (href_list["changerecord"])
+		usr.client.selectedrecord = locate(href_list["changerecord"])
+		updateap()
+
+	if (href_list["togglename"])
+		var/player/player = locate(href_list["togglename"])
+		player.choosename = !player.choosename
+		updateap()
+
+		if (player.client.mob.gender == "male")
+			player.client.mob.rname = capitalize(pick(first_names_male) + " " + capitalize(pick(last_names)) + pick(last_names2))
+		else
+			player.client.mob.rname = capitalize(pick(first_names_female) + " " + capitalize(pick(last_names)) + pick(last_names2))
+
+
 	return
 
 

@@ -179,6 +179,7 @@
 	var/lastx = 0
 	var/lasty = 0
 	var/lastz = 0
+	var/hadclient
 
 /mob/human
 	name = "human"
