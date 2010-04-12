@@ -3,6 +3,14 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\game code\game\machinery code\game\machinery\pipe 
+FILE: code\game\machinery\pipe\pipe_items.dm
+LAST_COMPILE_TIME: 1271040483
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .

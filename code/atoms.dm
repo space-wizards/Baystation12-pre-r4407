@@ -1784,6 +1784,15 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/pipe/corner
 	name = "corner pipe"
 	icon_state = "item_corner"
+/obj/item/weapon/pipe/he
+	name = "heat exchange pipe"
+	icon_state = "item_he"
+/obj/item/weapon/pipe/he/corner
+	name = "heat exchange corner pipe"
+	icon_state = "item_he_corner"
+/obj/item/weapon/pipe/manifold
+	name = "Manifold"
+	icon_state = "item_manifold"
 
 /obj/item/weapon/m_pill
 	name = "pill"
