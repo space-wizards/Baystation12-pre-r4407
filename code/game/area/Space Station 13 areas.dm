@@ -256,7 +256,7 @@ area/maintenance/network
 
 area/maintenance/atmos
 	name = "Atmospherics"
-	icon_state = "atmos"
+	icon_state = "atmoss"
 	music = "music/atmos.wav"
 
 area/maintenance/janitor

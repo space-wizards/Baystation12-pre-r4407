@@ -1,6 +1,6 @@
 /proc/start_events() //add stuff
 	if(!event && prob(eventchance))
-		spawn_event(1)
+		spawn_event(pick(1,5,7))
 		hadevent = 1
 	spawn(1200)
 		start_events()
@@ -89,7 +89,16 @@
 				//world << "\red Cen. Com. has detected an ion storm near the station."
 				//world << "\red Please check all AI-controlled equipment for errors."
 
-	//	if(7)
+		if(7)
+			event = 1
+			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm Detected.</FONT>"
+			world << "\red Cen. Com. has detected an approaching ion storm."
+			world << "\red Please check all your radio equipment."
+			radio = 0
+			spawn(rand(1200,3000))
+			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm has passed.</FONT>"
+			radio = 1
+			return
 		//	event = 1
 			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			//world << "\red Cen. Com. has detected high levels of radiation near the station."

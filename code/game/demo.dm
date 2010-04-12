@@ -3170,13 +3170,24 @@
 	return
 
 /turf/station/wall/attackby(obj/item/weapon/W as obj, mob/user as mob)
-
+	if (!(istype(usr, /mob/human) || ticker) && ticker.mode.name != "monkey")
+		usr << "\red You don't have the dexterity to do this!"
+		return
 	if(istype(W, /obj/item/weapon/healthanalyzer))
 		if (!blood)
 			return
 		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
 		if(src.zombieblood == 1)
 			user << text("Contains traces of a unknown infectious agent")
+		return
+	if(istype(W,/obj/item/weapon/food/butterknife))
+		if(!blood)
+			return
+		var/obj/item/weapon/food/butterknife/G = W
+		G.gotblood = 1
+		G.overlays += "blood"
+		for(var/mob/C in viewers())
+			C.show_message("[user] puts some blood on [W]")
 		return
 	if (!(istype(usr, /mob/human) || ticker) && ticker.mode.name != "monkey")
 		usr << "\red You don't have the dexterity to do this!"
@@ -3483,11 +3494,28 @@ obj/bloodtemplate/New()
 	if (hulk == 1)
 		src.icon += rgb(0,100,0)
 	return
-obj/bloodtemplate/attackby(obj/item/weapon/C as obj, mob/user as mob)
-	if(istype(C, /obj/item/weapon/healthanalyzer/))
+obj/bloodtemplate/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/weapon/healthanalyzer/))
 		if (!blood)
 			return
 		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
 		if(src.zombieblood == 1)
 			user << text("Contains traces of a unknown infectious agent")
+	if(istype(W,/obj/item/weapon/food/butterknife))
+		if(!blood)
+			return
+		var/obj/item/weapon/food/butterknife/G = W
+		G.gotblood = 1
+		G.overlays += blood
+		for(var/mob/X in viewers())
+			X.show_message("[user] puts some blood on [W]")
+		return
 
+/obj/item/weapon/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/weapon/healthanalyzer/))
+		if (!blood)
+			return
+		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
+		if(src.zombieblood == 1)
+			user << text("Contains traces of a unknown infectious agent")
+	return ..()
