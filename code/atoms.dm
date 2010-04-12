@@ -3636,7 +3636,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A large bore pipe with high capacity."
 	name = "high capacity"
 	icon = 'hi_pipe.dmi'
-	density = 1
 	capacity = 1.8E7
 /obj/machinery/pipes/regular
 	desc = "A stretch of pipe."

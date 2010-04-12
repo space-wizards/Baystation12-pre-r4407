@@ -53,6 +53,11 @@
 	// CMB radiation temperature+
 	temp = 2.7
 
+/turf/space/New()
+	..()
+	if (icon_state == "space")
+		icon_state = "space[rand(1,7)]"
+
 /turf/station
 	name = "station"
 	intact = 1
