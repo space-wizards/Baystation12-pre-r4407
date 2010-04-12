@@ -8,8 +8,8 @@
 	if(user.loc == F)
 		user << "You can't lay a pipe where you are already standing."
 		return
-	for(var/obj/machinery/pipes/p in F)
-		user << "There's already a pipe there."
+	for(var/obj/machinery/m in F)
+		user << "There's already machinery there."
 		return
 	if(!(get_dir(F,user) in list(NORTH, SOUTH, EAST, WEST)))
 		user << "You cannot place a pipe diagonally from your location"
@@ -287,4 +287,33 @@
 		o.pl.setterm()
 	else if(isobj(p.node3))
 		p.node3.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/connector/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/connector/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+	else if(direction == "East")
+		p.dir = EAST
+	else if(direction == "South")
+		p.dir = SOUTH
+	else if(direction == "West")
+		p.dir = WEST
+	else
+		del(p)
+		return
+	p.p_dir = p.dir
+	p.buildnodes()
+	if(istype(p.node,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node))
+		p.node.buildnodes()
 	del(src)

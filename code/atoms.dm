@@ -1793,6 +1793,9 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/pipe/manifold
 	name = "Manifold"
 	icon_state = "item_manifold"
+/obj/item/weapon/pipe/connector
+	name = "Connector"
+	icon_state = "item_connector"
 
 /obj/item/weapon/m_pill
 	name = "pill"

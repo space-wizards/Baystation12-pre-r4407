@@ -481,6 +481,13 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 	//	L["sheet_3"] = "Make Sheet (30x20x.01) {6 cc}"
 	//	L["sheet_4"] = "Make Sheet (30x30x.01) {9 cc}"
 	//	L["sheet_5"] = "Make Sheet (62.5x62.5x4) {15625 cc}"
+		L["pipe"] = "Make a Pipe {37500 cc Metal}"
+		L["pipe-c"] = "Make a Corner Pipe {37500 cc Metal}"
+		L["pipe-h"] = "Make a Heat Exchange Pipe {37500 cc Metal}"
+		L["pipe-hc"] = "Make a Heat Exchange Corner Pipe {37500 cc Metal}"
+		L["manifold"] = "Make a Manifold Pipe {75000 cc Metal}"
+		L["connector"] = "Make a Connector {56250 cc Metal}"
+
 
 
 		for(var/t in L)
@@ -510,6 +517,12 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		C["metal_r"] = 74999
 		C["glass_s"] = 0
 		C["glass_r"] = 18749
+		C["pipe"] = 37500
+		C["pipe-c"] = 37500
+		C["pipe-h"] = 37500
+		C["pipe-hc"] = 37500
+		C["manifold"] = 75000
+		C["connector"] = 56250
 
 		var/list/D = list()
 		D["screwdriver"] = 0
@@ -523,6 +536,12 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		D["metal_r"] = 0
 		D["glass_s"] = 37499
 		D["glass_r"] = 37499
+		D["pipe"] = 0
+		D["pipe-c"] = 0
+		D["pipe-h"] = 0
+		D["pipe-hc"] = 0
+		D["manifold"] = 0
+		D["connector"] = 0
 
 
 		var/item = href_list["make"]
@@ -557,6 +576,18 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 						new /obj/item/weapon/sheet/glass(src.loc)
 					if ("glass_r")
 						new /obj/item/weapon/sheet/rglass(src.loc)
+					if ("pipe")
+						new /obj/item/weapon/pipe(src.loc)
+					if ("pipe-c")
+						new /obj/item/weapon/pipe/corner(src.loc)
+					if ("pipe-h")
+						new /obj/item/weapon/pipe/he(src.loc)
+					if ("pipe-hc")
+						new /obj/item/weapon/pipe/he/corner(src.loc)
+					if ("manifold")
+						new /obj/item/weapon/pipe/manifold(src.loc)
+					if ("connector")
+						new /obj/item/weapon/pipe/connector(src.loc)
 	for(var/mob/M in viewers(1, src))
 		if ((M.client && M.machine == src))
 			src.attack_hand(M)
