@@ -1006,6 +1006,14 @@
 
 	res += power_list(T, src, d2, 1)
 
+	if(!d1)
+		if(src.z < 6)
+			T = locate(src.x, src.y, src.z + 1)
+			res += power_list(T, src , d1, 1)
+		if(src.z > 1)
+			T = locate(src.x, src.y, src.z - 1)
+			res += power_list(T, src , d1, 1)
+
 	return res
 
 

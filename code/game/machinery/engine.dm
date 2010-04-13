@@ -214,20 +214,20 @@
 
 	defer_powernet_rebuild = 1
 	for(var/turf/T in engineturfs)
-		var/turf/S = new T.type( locate(T.x, T.y, ENGINE_EJECT_Z) )
+		var/turf/S = new T.type( locate(T.x, T.y, engine_eject_z_target) )
 
 		var/area/A = T.loc
 
 		for(var/atom/movable/AM as mob|obj in T)
 			AM.loc = S
-			S.oxygen = T.oxygen
-			S.poison = T.poison
-			S.co2 = T.co2
-			S.sl_gas = T.sl_gas
-			S.n2 = T.n2
-			S.temp = T.temp
-			S.buildlinks()
 
+		S.oxygen = T.oxygen
+		S.poison = T.poison
+		S.co2 = T.co2
+		S.sl_gas = T.sl_gas
+		S.n2 = T.n2
+		S.temp = T.temp
+		S.buildlinks()
 
 		A.contents += S
 		var/turf/P = new T.type( locate(T.x, T.y, T.z) )

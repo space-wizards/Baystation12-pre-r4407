@@ -39,4 +39,9 @@
 				else
 	else
 		world << "\blue <B>No one survived the meteor attack!</B>"
+	sleep(300)
+	world.log_game("Rebooting due to end of game")
+	world << "\red Rebooting due to end of game"
+	roundover = 1
+	world.Reboot()
 	return 1

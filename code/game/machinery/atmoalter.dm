@@ -482,10 +482,11 @@
 /obj/machinery/atmoalter/canister/process()
 	if (src.destroyed)
 		return
-	if(src.gas.temperature >= 2300)
-		src.health = 0
-		healthcheck()
-		return
+	if(!allowbigbombs)
+		if(src.gas.temperature >= 2300)
+			src.health = 0
+			healthcheck()
+			return
 	var/T = src.loc
 	if (istype(T, /turf))
 		if (locate(/obj/move, T))

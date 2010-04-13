@@ -54,8 +54,6 @@
 #define POWEROFF 4		// tbd
 #define MAINT 8			// under maintaince
 
-#define ENGINE_EJECT_Z 3
-
 #define EXCHANGE_SPEED 0.5 // speed at which two tiles near an equal pressure. 1 means that their pressure is equal after one tick.
 #define VACUUM_SPEED 3 // how fast air is sucked from a tile if there's a vacuum. air is divided by this number on each tick.
 #define GAS_PRECISION 1000 // to what number gas amounts should be rounded

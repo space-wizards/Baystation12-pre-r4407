@@ -44,16 +44,21 @@ var
 	list/shuttles = list(  )
 	list/reg_dna = list(  )
 	list/traitobj = list(  )
-//	Bans handled by Crispy Fullban in /admin/ban.dm now
-//	list/banned = list(  )
+
+	list/podspawns = list( ) //Pod Destinations
+	list/poddocks = list( )
 
 	CELLRATE = 0.002  // multiplier for watts per tick <> cell storage (eg: .002 means if there is a load of 1000 watts, 20 units will be taken from a cell per second)
 	CHARGELEVEL = 0.001 // Cap for how fast cells charge, as a percentage-per-tick (.001 means cellcharge is capped to 1% per second)
 
-	shuttle_z = 2	//default
+	shuttle_z = 2	//Where the shuttle is
+
+	//TODO either remove or use the air tunnel
+
 	airtunnel_start = 68 // default
 	airtunnel_stop = 68 // default
 	airtunnel_bottom = 72 // default
+
 	list/monkeystart = list()
 	list/prisonwarp = list()	//prisoners go to these
 	list/mazewarp = list()
@@ -95,6 +100,22 @@ var
 
 	shuttlecomming = 0
 
+
+	//Multi-Z-Level stuff
+
+	stationfloors = list( )
+	centcomfloors = list( )
+	centcom_supply_dock = 2
+	centcom_emerg_dock = 2
+	station_emerg_dock = 1
+	station_supply_dock = 1
+	station_prison_dock = 1
+	station_syndicate_dock = 1
+	prison_shuttle_dock = 2
+	syndicate_shuttle_dock = 6
+	shuttle_en_route_level = 3
+	engine_eject_z_target = 3
+
 	join_motd = "Welcome to SS13!"
 	auth_motd = "Welcome to SS13!, admin!"
 	no_auth_motd = null
@@ -118,19 +139,23 @@ var
 	const/AIR_DAMAGE_MODIFIER = 2.025 //More means less damage from hot air scalding lungs, less = more damage. (default 2.025)
 	const/INFINITY = 1e31 //closer then enough
 
-	//Don't set this very much higher then 1024 unless you like inviting people in to dos your server with message spam
+	//Don't set this very much higher then 1024 unless you like inviting people in to DoS your server with message spam
 	const/MAX_MESSAGE_LEN = 1024
 
-	const/shuttle_time_in_station = 1800 // 3 minutes in the station
-	const/shuttle_time_to_arrive = 6000 // 10 minutes to arrive
+	const/shuttle_time_in_station = 180 // 3 minutes in the station
+	const/shuttle_time_to_arrive = 600 // 10 minutes to arrive
+
 	/* Radio shit*/
-	radio = 1
-	longradio = 1
+	radio = 1 //???
+	longradio = 1 //Whether the comm dish is aligned
+
 	list/humans_left_lol = ""
 	list/zombies_left_lol = ""
 	goal_killer = ""
 	home = 256
 	shuttleleft
+	allowbigbombs = 1
+
 world
 	mob = /mob/human
 	turf = /turf/space
