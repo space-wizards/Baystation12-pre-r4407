@@ -20,7 +20,7 @@
 	spawn (0)
 		ticker.extend_process()
 	spawn ((18000+rand(3000)))
-		force_event()
+		//force_event()
 	spawn (1200)
 		var/hardban[]
 		hardban = list("Justgoaway1")

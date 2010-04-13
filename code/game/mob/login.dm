@@ -29,6 +29,7 @@
 				messageadmins("They share computer ID's, this means that they are on the same computer")
 				world.log_access("They share computer ID's")
 
+	src.hadclient = 1
 	src.client.screen -= main_hud1.contents
 	src.client.screen -= main_hud2.contents
 	world.update_stat()

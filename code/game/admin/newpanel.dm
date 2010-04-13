@@ -283,6 +283,7 @@ proc/worlddata()
 	return "Server active for [round(world.time/10)] game seconds.  Emergency shuttle is [shuttlecomming ? "en route" : "docked at [ shuttle_z == 1 ?"The Station":"CentCom"]"]"
 
 proc/updateap(var/timeonly = 0)
+
 	for(var/client/C)
 		if(!C.holder) continue //If not an admin, this doesn't concern them
 		if(ticker && ticker.mode)
@@ -324,3 +325,87 @@ proc/updateap(var/timeonly = 0)
 				winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
 				winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
 				winset(C, "ap_roundcontrol.world_force", "is-checked=true")
+		C << output(apmoblist(C), "ap_playercontrol.browser")
+		C << output(aprecords(C.selectedrecord,C), "ap_playerrecords.browser")
+proc/apmoblist(client/C)
+	var/dat = {"
+						<table width="100%">
+						<tr>
+							<th>Name</th>
+							<th>Real Name</th>
+							<th>Key</th>
+						</tr>
+	"}
+	for(var/mob/M in world)
+		if(M.client || M.hadclient)
+			var/foo = "<td><a href=\"byond://?src=\ref[C.holder];changerecord=\ref[M.client.player]\">View Record</a></td>"
+			dat += text("<tr><td>[]</td> <td>[]</td> <td>[]</td>[]</tr>", M.name, M.rname, (M.client ? M.client : "No client"), foo)
+	dat += "</table>"
+	return dat
+
+proc/aprecords(var/player/player,var/client/caller)
+	var/dat = ""
+
+	if(player != null)
+		dat += "<table width = '100%'><tr><th>[player.name]</th></tr>"
+		dat += "<tr><td><center>Last online:[player.activity == -1 ? "currently online (activity: [player.client.inactivity])" : (!player.activity ? "never" : time2text(player.activity))]</center></td></tr>"
+		var/player_warning/warning = player.GetBiggestWarning()
+		var/text
+		if(warning != 0)
+			text = warning.state2text()
+		else
+			text = "No warnings/bans"
+		dat += "<tr><td><center>Current Status:<a href=\"byond://?src=\ref[caller.holder];cmd=checkrecord;record=\ref[warning]\">[text]</center></td></tr>"
+		//This doesn't work yet
+		dat += "<tr><td><center>Associates: "
+
+		for(var/player/P in player.GetLinkedAccounts())
+			dat += "<a href=\"byond://?src=\ref[caller.holder];cmd=changerecord=\ref[P]\">[P.name]</a> "
+
+		dat += {"<table width="100%">
+<tr>
+<th>Past ban/warning history</th>
+</tr>
+<tr>
+<td><b>Author</b></td><td><b>Type</b></td><td><b>Expiration</b></td>
+</tr>"}
+
+		for(warning in player.warnings)
+			dat += "<tr><td>[warning.author]</td><td>[warning.state2text()]</td><td>[warning.expires2text()]</td></tr>"
+		dat += "</table>"
+
+		dat += "<a href=\"byond://?src=\ref[caller.holder];cmd=createwarning=\ref[player]\">Create warning</a>"
+
+
+		dat += "<br>Choose own name: <a href=\"byond://?src=\ref[caller.holder];togglename=\ref[player]\">[player.choosename ? "yes":"no"]</a>"
+
+		dat += "<table><tr><th>Denied Jobs</th></tr>"
+
+		for(var/job in player.denied_jobs)
+			dat += "<tr><td><a href=\"byond://?src=\ref[caller.holder];removedeniedjob=\ref[player];job=[job]\">[job]</a></td></tr>"
+		dat += "</table>"
+	//	dat += "<br><a href=\"byond://?src=\ref[caller.holder];addallowedjob=\ref[player]\">Add Allowed Job</a>"
+
+		dat += "<br><a href=\"byond://?src=\ref[caller.holder];adddeniedjob=\ref[player]\">Add Denied Job</a>"
+	else
+		dat += "NO RECORD SELECTED, PLACEHOLDER FOR SEARCH FUNCTION"
+	return dat
+/proc/SavePlayerData()
+	for(var/player/P in global.players) if(P.activity == -1) P.activity = world.realtime
+	if(fexists("player_data.sav"))
+		fcopy("player_data.sav", "player_data.sav.bak")
+		fdel("player_data.sav")
+	var/savefile/F = new("player_data.sav")
+	F << players
+/proc/LoadPlayerData()
+	if(fexists("player_data.sav"))
+		var/savefile/F = new("player_data.sav")
+		F >> players
+		for(var/player/P in players)
+			for(var/X in P.associates) if(!X) P.associates -= X
+	else players = new/list()
+/proc/SavePlayerLoop()
+	spawn(0)
+		while(1)
+			sleep(3000)
+			SavePlayerData()

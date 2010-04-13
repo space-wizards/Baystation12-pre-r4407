@@ -6,10 +6,22 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\admin code\game\area code\game\gamemodes\blob code\game\gamemodes\meteor code\game\gamemodes\monkey code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\sandbox code\game\gamemodes\zombie code\game\machinery code\game\mob\monkey code\game\objects code\game\objects\items code\game\objects\items\radio code\game\verbs code\game\verbs\admin maps 
-FILE: code\game\machinery\computer.dm
-LAST_COMPILE_TIME: 1271095395
+PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
+PACKAGE_DME_DEMO: 
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_TYPE: 2
+PACKAGE_DMB_HUB: 
+PACKAGE_RSC_CLEANCHECK: ON
+PACKAGE_DMB_CLEANCHECK: OFF
+PACKAGE_DME_START: 
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\gamemodes\sandbox code\game\gamemodes\traitor code\game\jobs code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects code\game\objects\items code\game\verbs 
+PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
+FILE: code\game\gamemodes\BaystationRecovery.dm
+PACKAGE_DME_INFO: 
+LAST_COMPILE_TIME: 1271133215
+PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
 AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: 
 */
 // END_INTERNALS
 // BEGIN_FILE_DIR
@@ -97,6 +109,7 @@ AUTO_FILE_DIR: ON
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
+#define DEBUG
 // END_PREFERENCES
 
 //Do not move this one include, it is here and not in the automatic section for a good reason.
@@ -133,6 +146,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\demo.dm"
 #include "code\game\events.dm"
 #include "code\game\hud.dm"
+#include "code\game\player.dm"
 #include "code\game\throwing.dm"
 #include "code\game\virus.dm"
 #include "code\game\vote.dm"
@@ -142,14 +156,17 @@ AUTO_FILE_DIR: ON
 #include "code\game\admin\create_object.dm"
 #include "code\game\admin\newpanel.dm"
 #include "code\game\admin\newpanelconfig.dm"
+#include "code\game\admin\player_control.dm"
 #include "code\game\area\ai_monitored.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
+#include "code\game\gamemodes\BaystationRecovery.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
+#include "code\game\gamemodes\centcom\centcom.dm"
 #include "code\game\gamemodes\extended\extended.dm"
 #include "code\game\gamemodes\malfunction\malfunction.dm"
 #include "code\game\gamemodes\meteor\meteor.dm"
@@ -237,7 +254,6 @@ AUTO_FILE_DIR: ON
 #include "code\game\mob\human\human.dm"
 #include "code\game\mob\human\life.dm"
 #include "code\game\mob\human\login.dm"
-#include "code\game\mob\human\npc.dm"
 #include "code\game\mob\human\say.dm"
 #include "code\game\mob\monkey\death.dm"
 #include "code\game\mob\monkey\emote.dm"
@@ -260,11 +276,12 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\food.dm"
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
-#include "code\game\objects\items.dm"
 #include "code\game\objects\ladder.dm"
 #include "code\game\objects\light.dm"
+#include "code\game\objects\miscitem.dm"
 #include "code\game\objects\multitool.dm"
 #include "code\game\objects\newobj.dm"
+#include "code\game\objects\portal.dm"
 #include "code\game\objects\proximity_sensor.dm"
 #include "code\game\objects\screen.dm"
 #include "code\game\objects\secure_area.dm"
@@ -273,6 +290,98 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\timer.dm"
 #include "code\game\objects\tscanner.dm"
 #include "code\game\objects\weapons.dm"
+#include "code\game\objects\items\procs.dm"
+#include "code\game\objects\items\storage.dm"
+#include "code\game\objects\items\weapon.dm"
+#include "code\game\objects\items\weapon_attack.dm"
+#include "code\game\objects\items\ground_items\bedsheetbin.dm"
+#include "code\game\objects\items\ground_items\displacedgirders.dm"
+#include "code\game\objects\items\ground_items\lattice.dm"
+#include "code\game\objects\items\ground_items\paper_bin.dm"
+#include "code\game\objects\items\ground_items\rack.dm"
+#include "code\game\objects\items\ground_items\table.dm"
+#include "code\game\objects\items\ground_items\watertank.dm"
+#include "code\game\objects\items\ground_items\weldfueltank.dm"
+#include "code\game\objects\items\health\brutepack.dm"
+#include "code\game\objects\items\health\dnainjector.dm"
+#include "code\game\objects\items\health\firstaid.dm"
+#include "code\game\objects\items\health\geneticana.dm"
+#include "code\game\objects\items\health\healthana.dm"
+#include "code\game\objects\items\health\ointment.dm"
+#include "code\game\objects\items\health\spreygel.dm"
+#include "code\game\objects\items\health\syringe.dm"
+#include "code\game\objects\items\health\bottle\bottle.dm"
+#include "code\game\objects\items\health\bottle\contents.dm"
+#include "code\game\objects\items\misc\backpack.dm"
+#include "code\game\objects\items\misc\cane.dm"
+#include "code\game\objects\items\misc\card.dm"
+#include "code\game\objects\items\misc\clipboard.dm"
+#include "code\game\objects\items\misc\cloak.dm"
+#include "code\game\objects\items\misc\electropack.dm"
+#include "code\game\objects\items\misc\eyedropper.dm"
+#include "code\game\objects\items\misc\gift.dm"
+#include "code\game\objects\items\misc\handtele.dm"
+#include "code\game\objects\items\misc\kits.dm"
+#include "code\game\objects\items\misc\locator.dm"
+#include "code\game\objects\items\misc\manifest.dm"
+#include "code\game\objects\items\misc\paint.dm"
+#include "code\game\objects\items\misc\paper.dm"
+#include "code\game\objects\items\misc\table.dm"
+#include "code\game\objects\items\misc\tele_scroll.dm"
+#include "code\game\objects\items\misc\wire.dm"
+#include "code\game\objects\items\misc\forenzics\fingerpcard.dm"
+#include "code\game\objects\items\misc\forenzics\fingerprint_holder.dm"
+#include "code\game\objects\items\misc\forenzics\fprintscanner.dm"
+#include "code\game\objects\items\misc\implant\freedom.dm"
+#include "code\game\objects\items\misc\implant\implant.dm"
+#include "code\game\objects\items\misc\implant\implantcase.dm"
+#include "code\game\objects\items\misc\implant\implanter.dm"
+#include "code\game\objects\items\misc\implant\pad.dm"
+#include "code\game\objects\items\misc\pen\anti_zombie.dm"
+#include "code\game\objects\items\misc\pen\sleepy.dm"
+#include "code\game\objects\items\misc\pen\zombie.dm"
+#include "code\game\objects\items\misc\pill\antitoxin.dm"
+#include "code\game\objects\items\misc\pill\canister.dm"
+#include "code\game\objects\items\misc\pill\cough.dm"
+#include "code\game\objects\items\misc\pill\cyanide.dm"
+#include "code\game\objects\items\misc\pill\epilepsy.dm"
+#include "code\game\objects\items\misc\pill\fever.dm"
+#include "code\game\objects\items\misc\pill\pill.dm"
+#include "code\game\objects\items\misc\pill\sleep.dm"
+#include "code\game\objects\items\misc\pill\superpill.dm"
+#include "code\game\objects\items\misc\pill\Tourette.dm"
+#include "code\game\objects\items\parts\circuitry.dm"
+#include "code\game\objects\items\parts\floor_tile.dm"
+#include "code\game\objects\items\parts\glass.dm"
+#include "code\game\objects\items\parts\metal.dm"
+#include "code\game\objects\items\parts\parts.dm"
+#include "code\game\objects\items\parts\rglass.dm"
+#include "code\game\objects\items\parts\rods.dm"
+#include "code\game\objects\items\parts\shard.dm"
+#include "code\game\objects\items\radio\beacon.dm"
+#include "code\game\objects\items\radio\intercom.dm"
+#include "code\game\objects\items\radio\radio.dm"
+#include "code\game\objects\items\radio\signaler.dm"
+#include "code\game\objects\items\radio\syndicate_uplink.dm"
+#include "code\game\objects\items\toolkit\analyser.dm"
+#include "code\game\objects\items\toolkit\igniter.dm"
+#include "code\game\objects\items\toolkit\screwdriver.dm"
+#include "code\game\objects\items\toolkit\toolbox.dm"
+#include "code\game\objects\items\toolkit\welder.dm"
+#include "code\game\objects\items\toolkit\wrench.dm"
+#include "code\game\objects\items\weapon\ammo.dm"
+#include "code\game\objects\items\weapon\axe.dm"
+#include "code\game\objects\items\weapon\baton.dm"
+#include "code\game\objects\items\weapon\fire_extinguisher.dm"
+#include "code\game\objects\items\weapon\flash.dm"
+#include "code\game\objects\items\weapon\flashbang.dm"
+#include "code\game\objects\items\weapon\handcuff.dm"
+#include "code\game\objects\items\weapon\shield.dm"
+#include "code\game\objects\items\weapon\sword.dm"
+#include "code\game\objects\items\weapon\gun\energy.dm"
+#include "code\game\objects\items\weapon\gun\laser.dm"
+#include "code\game\objects\items\weapon\gun\revolver.dm"
+#include "code\game\objects\items\weapon\gun\taser.dm"
 #include "code\game\verbs\achievements.dm"
 #include "code\game\verbs\ai_lockdown.dm"
 #include "code\game\verbs\authorize.dm"

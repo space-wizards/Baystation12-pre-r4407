@@ -8,7 +8,8 @@
 		zombify()
 		return
 	emote("deathgasp") //let the world KNOW WE ARE DEAD
-	src.client.oldbody = src
+	if(src.client)
+		src.client.oldbody = src
 	src.canmove = 0
 	if(src.client)
 		src.blind.layer = 0

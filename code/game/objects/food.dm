@@ -13,6 +13,7 @@
 	icon = 'food.dmi'
 	var/gotbutter = 0
 	var/gotblood = 0
+
 /obj/item/weapon/food/bread/examine()
 	if(!src.salami && !src.butter && !bread)
 		usr.show_message(text("A piece of bread with nothing on it.",),1)
@@ -94,6 +95,7 @@ obj/item/weapon/food/butterpack
 	icon_state = "butterpack"
 	desc = "I can't believe it's not butter."
 	var/charges = 5
+
 obj/item/weapon/food/butterknife
 	name = "Butter-knife"
 	icon = 'food.dmi'
