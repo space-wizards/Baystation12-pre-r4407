@@ -37,7 +37,7 @@
 				AffectedArea.power_change()
 
 	for(var/mob/M in world)
-		if ((M.client && M.awake()))
+		if ((M.client && M.alive()))
 			cancel = 1
 			break
 	if (!( cancel ))

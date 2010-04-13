@@ -853,7 +853,8 @@
 <A href='?src=\ref[src];secrets2=traitor_all'>Everyone is the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=wave'>Spawn a wave of meteors</A><BR>
 <A href='?src=\ref[src];secrets2=flicklights'>Ghost Mode</A><BR>"
-<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
+<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>
+<A href='?src=\ref[src];secrets2=disaster'>Station Disaster(You'd better have some good RPers)</A><BR>"}
 
 
 			usr << browse(dat, "window=secretsfun&size=350x500")
@@ -1142,6 +1143,11 @@
 						spawn(0)
 							sleep(rand(30,400))
 							Wall.ex_act(rand(2,1))
+
+				if("disaster")
+					messageadmins("[usr.key] just called a station disaster")
+					WreakStation()
+
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))
 						meteor_wave()

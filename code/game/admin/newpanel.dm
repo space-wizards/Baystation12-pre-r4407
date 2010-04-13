@@ -282,51 +282,56 @@ client/proc/ap()
 proc/worlddata()
 	return "Server active for [round(world.time/10)] game seconds.  Emergency shuttle is [shuttlecomming ? "en route" : "docked at [ shuttle_z == 1 ?"The Station":"CentCom"]"]"
 
-proc/updateap(var/timeonly = 0)
-
-	for(var/client/C)
-		if(!C.holder) continue //If not an admin, this doesn't concern them
-		if(ticker && ticker.mode)
-			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
-			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"End Round Now\"")
-		else
-			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
-			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"Start Round Now\"")
-
-		if (shuttlecomming)
-			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Return Emergency Shuttle\"")
-		else
-			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Call Emergency Shuttle\"")
-
-		if(ticker)
-			winset(C, "ap_roundcontrol.btndelay", "text=\"Game Started\"&is-disabled=true")
-		else
-			if(going)
-				winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
+proc/updateap(var/timeonly = 0,var/force = 0)
+	if(force)
+		lastapupdate = 0
+	if(0 == 0)
+		for(var/client/C)
+			if(!C.holder) continue //If not an admin, this doesn't concern them
+			if(ticker && ticker.mode)
+				winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
+				winset(C, "ap_roundcontrol.btnstartrestart", "text=\"End Round Now\"")
 			else
-				winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
+				winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
+				winset(C, "ap_roundcontrol.btnstartrestart", "text=\"Start Round Now\"")
 
-		if(timeonly) return
+			if (shuttlecomming)
+				winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Return Emergency Shuttle\"")
+			else
+				winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Call Emergency Shuttle\"")
 
-		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
-		winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
-		winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
-		winset(C, "ap_roundcontrol.allowabandon", "is-checked=[ abandon_allowed ? "true" : "false"]")
-		switch(no_end)
-			if(0)
-				winset(C, "ap_roundcontrol.world_normal", "is-checked=true")
-				winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
-				winset(C, "ap_roundcontrol.world_force", "is-checked=false")
-			if(1)
-				winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
-				winset(C, "ap_roundcontrol.world_alldead", "is-checked=true")
-				winset(C, "ap_roundcontrol.world_force", "is-checked=false")
-			if(2)
-				winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
-				winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
-				winset(C, "ap_roundcontrol.world_force", "is-checked=true")
-		C << output(apmoblist(C), "ap_playercontrol.browser")
-		C << output(aprecords(C.selectedrecord,C), "ap_playerrecords.browser")
+			if(ticker)
+				winset(C, "ap_roundcontrol.btndelay", "text=\"Game Started\"&is-disabled=true")
+			else
+				if(going)
+					winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
+				else
+					winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
+
+			if(timeonly) return
+
+			winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
+			winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
+			winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
+			winset(C, "ap_roundcontrol.allowabandon", "is-checked=[ abandon_allowed ? "true" : "false"]")
+			switch(no_end)
+				if(0)
+					winset(C, "ap_roundcontrol.world_normal", "is-checked=true")
+					winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
+					winset(C, "ap_roundcontrol.world_force", "is-checked=false")
+				if(1)
+					winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
+					winset(C, "ap_roundcontrol.world_alldead", "is-checked=true")
+					winset(C, "ap_roundcontrol.world_force", "is-checked=false")
+				if(2)
+					winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
+					winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
+					winset(C, "ap_roundcontrol.world_force", "is-checked=true")
+			C << output(apmoblist(C), "ap_playercontrol.browser")
+			C << output(aprecords(C.selectedrecord,C), "ap_playerrecords.browser")
+			lastapupdate = 50
+	else
+		lastapupdate -= 1
 proc/apmoblist(client/C)
 	var/dat = {"
 						<table width="100%">

@@ -704,7 +704,6 @@ var/update_state = 0
 	for(var/obj/move/S in world)
 		S.process()
 	sleep(2)
-
 	for(var/obj/machinery/M in machines)
 		M.process()
 
