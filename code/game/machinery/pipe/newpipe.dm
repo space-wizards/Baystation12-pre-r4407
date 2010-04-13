@@ -1,17 +1,19 @@
 //Bwahahaha! I am extending a built-in proc for personal gain!
 //(And a bit of nonpersonal gain, I guess)
 /proc/get_step_3d(atom/ref,dir)
+	if(!dir&(UP|DOWN))
+		return get_step(ref,dir)
 	//Well, it *did* use temporary vars dx, dy, and dz, but this probably should be as fast as possible
 	return locate(ref.x+((dir&EAST)?1:0)-((dir&WEST)?1:0),ref.y+((dir&NORTH)?1:0)-((dir&SOUTH)?1:0),ref.z+((dir&UP)?1:0)-((dir&DOWN)?1:0))
 
 /proc/reverse_dir_3d(dir)
-	if(dir&(NORTH|SOUTH) == NORTH || dir&(NORTH|SOUTH) == SOUTH)
-		dir ^= NORTH | SOUTH
-	if(dir&(EAST|WEST) == EAST || dir&(EAST|WEST) == WEST)
-		dir ^= EAST | WEST
-	if(dir&(UP|DOWN) == UP || dir&(UP|DOWN) == DOWN)
-		dir ^= UP | DOWN
-	return dir
+	var/ndir = (dir&NORTH)?SOUTH : 0
+	ndir |= (dir&SOUTH)?NORTH : 0
+	ndir |= (dir&EAST)?WEST : 0
+	ndir |= (dir&WEST)?EAST : 0
+	ndir |= (dir&UP)?DOWN : 0
+	ndir |= (dir&DOWN)?UP : 0
+	return ndir
 
 // pipeline datum for storings inter-machine links
 // create a pipeline
