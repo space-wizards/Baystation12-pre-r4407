@@ -5,23 +5,23 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
 LAST_COMPILE_VERSION: 464.1066
+PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
 PACKAGE_DME_DEMO: 
 PACKAGE_DME_CLEANCHECK: OFF
-PACKAGE_RSC_CLEANCHECK: ON
-PACKAGE_DMB_HUB: 
 PACKAGE_TYPE: 2
+PACKAGE_DMB_HUB: 
+PACKAGE_RSC_CLEANCHECK: ON
 PACKAGE_DMB_CLEANCHECK: OFF
 PACKAGE_DME_START: 
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes\traitor code\game\jobs code\game\machinery\doors code\game\mob code\game\mob\ai code\game\objects code\game\objects\items code\game\verbs 
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\gamemodes\sandbox code\game\gamemodes\traitor code\game\jobs code\game\machinery code\game\machinery\doors code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects code\game\objects\items code\game\verbs 
 PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
-FILE: code\game\admin\admin.dm
+FILE: code\game\gamemodes\BaystationRecovery.dm
 PACKAGE_DME_INFO: 
+LAST_COMPILE_TIME: 1271133215
 PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
-LAST_COMPILE_TIME: 1271124962
-PACKAGE_DMB_INFO: 
 AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: 
 */
 // END_INTERNALS
 // BEGIN_FILE_DIR
@@ -162,6 +162,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
+#include "code\game\gamemodes\BaystationRecovery.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
