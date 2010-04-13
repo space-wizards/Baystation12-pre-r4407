@@ -15,6 +15,8 @@
 
 #define FLOWFRAC 0.99				// fraction of gas transfered per process
 
+#define UP 16
+#define DOWN 32
 
 //FLAGS BITMASK
 #define ONBACK 1			// can be put in back slot

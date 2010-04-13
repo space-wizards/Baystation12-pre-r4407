@@ -65,6 +65,20 @@
 	var/wet = 0
 	var/chloro = 0
 
+/turf/station/open
+	name = "Open Space"
+	icon_state = "openspace"
+
+/turf/station/open/New()
+	spawn(0)
+		while(1)
+			var/turf/dest = locate(src.x, src.y, src.z + 1)
+			for(var/atom/movable/AM as mob|obj in src)
+				if (!AM.anchored)
+					AM.loc = dest
+			sleep(5)
+
+
 
 /turf/station/command
 	name = "command"

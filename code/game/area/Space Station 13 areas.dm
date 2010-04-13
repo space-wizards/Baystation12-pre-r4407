@@ -330,6 +330,11 @@ area/maintenance/corridor/northconnector
 	music = ""
 	icon_state = "green"
 
+area/maintenance/corridor/westconnector
+	name = "West Understation Maintenance Corridor"
+	music = ""
+	icon_state = "green"
+
 area/maintenance/corridor/centercorridor
 	name = "Central Maintenance Corridor"
 	icon_state = "green"

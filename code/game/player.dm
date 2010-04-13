@@ -174,7 +174,6 @@ player
 
 		CheckWarnState()
 			var
-				admin/A
 				client/C = src.client
 				player_warning/W = GetBiggestWarning()
 			if(!C || !W) return

@@ -252,6 +252,7 @@
 #include "code\game\objects\effects.dm"
 #include "code\game\objects\flamethrower.dm"
 #include "code\game\objects\flashlight.dm"
+#include "code\game\objects\food.dm"
 #include "code\game\objects\game_kit.dm"
 #include "code\game\objects\infrared_sensor.dm"
 #include "code\game\objects\ladder.dm"
