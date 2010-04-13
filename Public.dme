@@ -3,6 +3,26 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
+LAST_COMPILE_VERSION: 464.1066
+PACKAGE_DME_DEMO: 
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_RSC_CLEANCHECK: ON
+PACKAGE_DMB_HUB: 
+PACKAGE_TYPE: 2
+PACKAGE_DMB_CLEANCHECK: OFF
+PACKAGE_DME_START: 
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes\traitor code\game\jobs code\game\machinery\doors code\game\mob code\game\mob\ai code\game\objects code\game\objects\items code\game\verbs 
+PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
+FILE: code\game\admin\admin.dm
+PACKAGE_DME_INFO: 
+PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
+LAST_COMPILE_TIME: 1271124962
+PACKAGE_DMB_INFO: 
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .

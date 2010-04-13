@@ -1186,6 +1186,20 @@
 		else
 			player.client.mob.rname = capitalize(pick(first_names_female) + " " + capitalize(pick(last_names)) + pick(last_names2))
 
+	if (href_list["adddeniedjob"])
+		var/player/player = locate(href_list["adddeniedjob"])
+		var/list/L = occupations.Copy()
+		L += "Captain"
+		L -= player.allowed_jobs
+		L -= player.denied_jobs
+		var/job = input(usr, "Select a job.\nSelect a job to deny to this player", "Deny Job") as null|anything in L
+		if(job == null) return
+		player.AddDeniedJob(job)
+		updateap()
+	if (href_list["removedeniedjob"])
+		//world << "REMOVE JOB [href_list["job"]]"
+		var/player/player = locate(href_list["removedeniedjob"])
+		player.RemoveDeniedJob(href_list["job"])
 
 	return
 

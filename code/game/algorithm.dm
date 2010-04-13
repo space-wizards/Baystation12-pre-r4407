@@ -106,7 +106,7 @@
 		if(3.0)
 			HTML += "<b>Which occupation would you like if you couldn't have the others?</b><br><br>"
 		else
-	for(var/job in uniquelist(occupations + assistant_occupations) )
+	for(var/job in uniquelist(src.client.player.GetAllowedJobs()) )
 		if (job!="AI" || config.allow_ai)
 			HTML += text("<a href=\"byond://?src=\ref[];occ=[];job=[]\">[]</a><br>", src, occ, job, job)
 		//Foreach goto(105)

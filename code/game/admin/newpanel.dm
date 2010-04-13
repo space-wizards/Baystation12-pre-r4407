@@ -378,6 +378,15 @@ proc/aprecords(var/player/player,var/client/caller)
 
 
 		dat += "<br>Choose own name: <a href=\"byond://?src=\ref[caller.holder];togglename=\ref[player]\">[player.choosename ? "yes":"no"]</a>"
+
+		dat += "<table><tr><th>Denied Jobs</th></tr>"
+
+		for(var/job in player.denied_jobs)
+			dat += "<tr><td><a href=\"byond://?src=\ref[caller.holder];removedeniedjob=\ref[player];job=[job]\">[job]</a></td></tr>"
+		dat += "</table>"
+	//	dat += "<br><a href=\"byond://?src=\ref[caller.holder];addallowedjob=\ref[player]\">Add Allowed Job</a>"
+
+		dat += "<br><a href=\"byond://?src=\ref[caller.holder];adddeniedjob=\ref[player]\">Add Denied Job</a>"
 	else
 		dat += "NO RECORD SELECTED, PLACEHOLDER FOR SEARCH FUNCTION"
 	return dat

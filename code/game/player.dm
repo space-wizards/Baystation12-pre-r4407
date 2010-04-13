@@ -99,22 +99,26 @@ player
 		AddDeniedJob(var/job)
 			if(!denied_jobs) denied_jobs = new/list()
 			if(!(job in denied_jobs)) denied_jobs += job
-		RemoveDeniedJob(var/job)
+		RemoveAllowedJob(var/job)
 			if(!allowed_jobs) return
 			if(job in allowed_jobs) allowed_jobs -= job
 			if(!allowed_jobs.len) allowed_jobs = null
 
-		RemoveAllowedJob(var/job)
+		RemoveDeniedJob(var/job)
 			if(!denied_jobs) return
 			if(job in denied_jobs) denied_jobs -= job
 			if(!denied_jobs.len) denied_jobs = null
 
 		GetDeniedJobs()
-		/*
 			. = denied_jobs ? denied_jobs.Copy() : list()
-			for(var/player/P in GetAssociates())
+			for(var/player/P in GetLinkedAccounts())
 				for(var/job in P.denied_jobs)
-					if(!(job in .)) . += job*/
+					if(!(job in .)) . += job
+
+		GetAllowedJobs()
+			var/list/jobs = occupations.Copy()
+			jobs -= GetDeniedJobs()
+			return jobs
 
 		AddWarning(author,content,message,state,expires = 0)
 			if(!warnings) warnings = new/list()
