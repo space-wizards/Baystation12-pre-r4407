@@ -1796,6 +1796,12 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/pipe/connector
 	name = "Connector"
 	icon_state = "item_connector"
+/obj/item/weapon/pipe/valve
+	name = "Manual Valve"
+	icon_state = "item_mvalve"
+/obj/item/weapon/pipe/valve/digital
+	name = "Digital Valve"
+	icon_state = "item_dvalve"
 
 /obj/item/weapon/m_pill
 	name = "pill"

@@ -9,8 +9,13 @@
 		user << "You can't lay a pipe where you are already standing."
 		return
 	for(var/obj/machinery/m in F)
-		user << "There's already machinery there."
-		return
+		if(m.p_dir || m.h_dir)
+			user << "There's already pipe-compatible machinery there."
+			return
+	for(var/atom/o in F)
+		if(o.density && !istype(o,/obj/machinery/door/window) && !istype(o,/obj/window))
+			user << "\An [o.name] is in the way."
+			return
 	if(!(get_dir(F,user) in list(NORTH, SOUTH, EAST, WEST)))
 		user << "You cannot place a pipe diagonally from your location"
 		return
@@ -317,3 +322,79 @@
 	else if(isobj(p.node))
 		p.node.buildnodes()
 	del(src)
+
+/obj/item/weapon/pipe/valve/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North/South","East/West","cancel")
+	var/obj/machinery/valve/mvalve/p = new(F)
+	if(direction == "North/South")
+		p.dir = 2
+		p.p_dir = 3
+	else if(direction == "East/West")
+		p.dir = 4
+		p.p_dir = 12
+	else
+		del(p)
+		return
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/valve/digital/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North/South","East/West","cancel")
+	var/obj/machinery/valve/dvalve/p = new(F)
+	if(direction == "North/South")
+		p.dir = 2
+		p.p_dir = 3
+	else if(direction == "East/West")
+		p.dir = 4
+		p.p_dir = 12
+	else
+		del(p)
+		return
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	del(src)
+
+
