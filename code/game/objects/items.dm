@@ -4392,8 +4392,9 @@
 	return
 
 obj/item/weapon/radio/talk_into(mob/M as mob, msg)
-	if(radio == 0)
-		M << "*static*"
+	if(!global.shortradio)
+		for(var/mob/O in viewers())
+			O.show_message(text("\icon[] <I>*Static*,*Static*</I>", src), 2)
 		return
 	if (!( src.wires & 4 ))
 		return
@@ -4422,7 +4423,10 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			else if(istype(O, /mob/ai))
 				var/mob/human/H = M
 				var/mob/ai/A = O
-				O.show_message(text("<font color=\"#008000\"><B><a href='byond://?src=\ref[src];track2=\ref[A];track=\ref[]'>[]([])</a>-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H,H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
+				if(H.wear_id)
+					O.show_message(text("<font color=\"#008000\"><B><a href='byond://?src=\ref[src];track2=\ref[A];track=\ref[]'>[]([])</a>-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H,H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
+				else
+					O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H.rname, src, src.freq, msg), 2)
 				//O.show_message(text("<font color=\"#008000\"><B>[]([])-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", H.rname,H.wear_id.assignment, src, src.freq, msg), 2)
 			else
 				O.show_message(text("<font color=\"#008000\"><B>[]-\icon[]\[[]\]-broadcasts</B>: <I>[]</I></font>", M.rname, src, src.freq, stars(msg)), 2)

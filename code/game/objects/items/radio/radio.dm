@@ -140,8 +140,9 @@
 	return
 
 obj/item/weapon/radio/talk_into(mob/M as mob, msg)
-	if(radio == 0)
-		M << "*static*"
+	if(!global.shortradio)
+		for(var/mob/O in viewers())
+			O.show_message(text("\icon[] <I>*Static*,*Static*</I>", src), 2)
 		return
 	if (!( src.wires & 4 ))
 		return

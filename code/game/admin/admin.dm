@@ -169,7 +169,7 @@
 	if (href_list["emergshuttle"])
 		if (!( ticker.timeleft ))
 			ticker.timeleft = shuttle_time_to_arrive //marker3
-		world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
+		world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/60] minutes.</B>"
 		shuttlecomming = 1
 		ticker.timing = 1
 		update()

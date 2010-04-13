@@ -227,7 +227,7 @@ client/Command(C as command_text)
 				if(!shuttlecomming)
 					if(!( ticker.timeleft ))
 						ticker.timeleft = shuttle_time_to_arrive
-					world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
+					world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/60] minutes.</B>"
 					shuttlecomming = 1
 					ticker.timing = 1
 					messageadmins("\blue [usr.key] ([ranks[src.holder.level+1]]) called the shuttle")
