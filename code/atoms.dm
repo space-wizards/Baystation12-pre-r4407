@@ -1808,6 +1808,18 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/pipe/inlet
 	name = "Inlet"
 	icon_state = "item_inlet"
+/obj/item/weapon/pipe/junction
+	name = "Junction"
+	icon_state = "item_junction"
+/obj/item/weapon/pipe/filter
+	name = "Filter"
+	icon_state = "item_filter"
+/obj/item/weapon/pipe/oneway
+	name = "One-way pipe"
+	icon_state = "item_oneway"
+/obj/item/weapon/pipe/oneway/pump
+	name = "Pump"
+	icon_state = "item_pump"
 
 /obj/item/weapon/m_pill
 	name = "pill"

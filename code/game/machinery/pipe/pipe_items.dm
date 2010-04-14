@@ -455,4 +455,189 @@
 		p.node.buildnodes()
 	del(src)
 
+/obj/item/weapon/pipe/junction/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should the heat exchange end face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/junction/p = new(F)
+	if(direction == "North")
+		p.h_dir = NORTH
+		p.p_dir = SOUTH
+	else if(direction == "East")
+		p.h_dir = EAST
+		p.p_dir = WEST
+	else if(direction == "South")
+		p.h_dir = SOUTH
+		p.p_dir = NORTH
+	else if(direction == "West")
+		p.h_dir = WEST
+		p.p_dir = EAST
+	else
+		del(p)
+		return
+	p.dir = p.h_dir
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/oneway/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/oneway/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+		p.p_dir = NORTH | SOUTH
+	else if(direction == "East")
+		p.dir = EAST
+		p.p_dir = EAST | WEST
+	else if(direction == "South")
+		p.dir = SOUTH
+		p.p_dir = SOUTH |NORTH
+	else if(direction == "West")
+		p.dir = WEST
+		p.p_dir = WEST | EAST
+	else
+		del(p)
+		return
+	p.dir = p.h_dir
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/oneway/pump/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/oneway/pipepump/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+		p.p_dir = NORTH | SOUTH
+	else if(direction == "East")
+		p.dir = EAST
+		p.p_dir = EAST | WEST
+	else if(direction == "South")
+		p.dir = SOUTH
+		p.p_dir = SOUTH |NORTH
+	else if(direction == "West")
+		p.dir = WEST
+		p.p_dir = WEST | EAST
+	else
+		del(p)
+		return
+	p.dir = p.h_dir
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/filter/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/pipefilter/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+		p.p_dir = EAST | NORTH | WEST
+	else if(direction == "East")
+		p.dir = EAST
+		p.p_dir = EAST | NORTH | SOUTH
+	else if(direction == "South")
+		p.dir = SOUTH
+		p.p_dir = EAST | SOUTH | WEST
+	else if(direction == "West")
+		p.dir = WEST
+		p.p_dir = WEST | NORTH | SOUTH
+	else
+		del(p)
+		return
+	p.buildnodes()
+	if(istype(p.node1,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node1
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node1))
+		p.node1.buildnodes()
+	if(istype(p.node2,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node2
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node2))
+		p.node2.buildnodes()
+	if(istype(p.node3,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node3
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node3))
+		p.node3.buildnodes()
+	del(src)
 
