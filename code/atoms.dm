@@ -1802,6 +1802,12 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/pipe/valve/digital
 	name = "Digital Valve"
 	icon_state = "item_dvalve"
+/obj/item/weapon/pipe/vent
+	name = "Vent"
+	icon_state = "item_vent"
+/obj/item/weapon/pipe/inlet
+	name = "Inlet"
+	icon_state = "item_inlet"
 
 /obj/item/weapon/m_pill
 	name = "pill"

@@ -397,4 +397,62 @@
 		p.node2.buildnodes()
 	del(src)
 
+/obj/item/weapon/pipe/vent/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/vent/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+	else if(direction == "East")
+		p.dir = EAST
+	else if(direction == "South")
+		p.dir = SOUTH
+	else if(direction == "West")
+		p.dir = WEST
+	else
+		del(p)
+		return
+	p.p_dir = p.dir
+	p.buildnodes()
+	if(istype(p.node,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node))
+		p.node.buildnodes()
+	del(src)
+
+/obj/item/weapon/pipe/inlet/place_pipe(turf/station/floor/F, mob/user)
+	var/direction = input(user,"What directions should it face?","pipe direction","cancel") in list("North","East","South","West","cancel")
+	var/obj/machinery/inlet/p = new(F)
+	if(direction == "North")
+		p.dir = NORTH
+	else if(direction == "East")
+		p.dir = EAST
+	else if(direction == "South")
+		p.dir = SOUTH
+	else if(direction == "West")
+		p.dir = WEST
+	else
+		del(p)
+		return
+	p.p_dir = p.dir
+	p.buildnodes()
+	if(istype(p.node,/obj/machinery/pipes))
+		var/obj/machinery/pipes/o = p.node
+		if(!o.node1)
+			o.node1 = p
+		else
+			o.node2 = p
+		o.overlays = null
+		o.update()
+		o.pl.setterm()
+	else if(isobj(p.node))
+		p.node.buildnodes()
+	del(src)
+
 

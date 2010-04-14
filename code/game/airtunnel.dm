@@ -489,6 +489,8 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		L["connector"] = "Make a Connector {56250 cc Metal}"
 		L["mvalve"] = "Make a Manual Valve {56250 cc Metal ; 18750 cc Glass}"
 		L["dvalve"] = "Make a Digital Valve {56250 cc Metal ; 18750 cc Glass}"
+		L["vent"] = "Make a Vent {75000 cc Metal}"
+		L["inlet"] = "Make a Inlet {75000 cc Metal}"
 
 
 
@@ -527,6 +529,8 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		C["connector"] = 56250
 		C["mvalve"] = 56250
 		C["dvalve"] = 56250
+		C["vent"] = 75000
+		C["inlet"] = 75000
 
 		var/list/D = list()
 		D["screwdriver"] = 0
@@ -548,6 +552,8 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		D["connector"] = 0
 		D["mvalve"] = 18750
 		D["dvalve"] = 18750
+		D["vent"] = 0
+		D["inlet"] = 0
 
 
 		var/item = href_list["make"]
@@ -598,6 +604,10 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 						new /obj/item/weapon/pipe/valve(src.loc)
 					if ("dvalve")
 						new /obj/item/weapon/pipe/valve/digital(src.loc)
+					if ("vent")
+						new /obj/item/weapon/pipe/vent(src.loc)
+					if ("inlet")
+						new /obj/item/weapon/pipe/inlet(src.loc)
 	for(var/mob/M in viewers(1, src))
 		if ((M.client && M.machine == src))
 			src.attack_hand(M)
