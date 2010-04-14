@@ -1,3 +1,20 @@
+//Bwahahaha! I am extending a built-in proc for personal gain!
+//(And a bit of nonpersonal gain, I guess)
+/proc/get_step_3d(atom/ref,dir)
+	if(!dir&(UP|DOWN))
+		return get_step(ref,dir)
+	//Well, it *did* use temporary vars dx, dy, and dz, but this probably should be as fast as possible
+	return locate(ref.x+((dir&EAST)?1:0)-((dir&WEST)?1:0),ref.y+((dir&NORTH)?1:0)-((dir&SOUTH)?1:0),ref.z+((dir&UP)?1:0)-((dir&DOWN)?1:0))
+
+/proc/reverse_dir_3d(dir)
+	var/ndir = (dir&NORTH)?SOUTH : 0
+	ndir |= (dir&SOUTH)?NORTH : 0
+	ndir |= (dir&EAST)?WEST : 0
+	ndir |= (dir&WEST)?EAST : 0
+	ndir |= (dir&UP)?DOWN : 0
+	ndir |= (dir&DOWN)?UP : 0
+	return ndir
+
 // pipeline datum for storings inter-machine links
 // create a pipeline
 
@@ -117,7 +134,7 @@
 			else
 				ndirs = P.get_node_dirs()
 
-				T = get_step(P, ndirs[1])
+				T = get_step_3d(P, ndirs[1])
 
 
 		if(2)
@@ -127,7 +144,7 @@
 			else
 
 				ndirs = P.get_node_dirs()
-				T = get_step(P, ndirs[2])
+				T = get_step_3d(P, ndirs[2])
 	if (T==null)
 		return
 	if(T.density)
@@ -186,10 +203,11 @@
 												// also sets the vnodes for the pipelines
 
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
-		if (!PL.numnodes)
+		//Messes up plnum, thus removed.
+		/*if (!PL.numnodes)
 			plines -= PL
 			del PL
-			continue
+			continue*/
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
 
 // return a list of pipes (not including terminating machine)
@@ -203,6 +221,8 @@
 	var/obj/machinery/newnode
 
 	while(node)
+		if(node in L)
+			break
 		L += node
 		newnode = node.next(prev)
 		prev = node
@@ -361,10 +381,12 @@
 
 	..()
 
-	if(istype(src, /obj/machinery/pipes/heat_exch))
+	//If we want to be able to make pipes mid-game,
+	//Setting the dir like that us unfortunately not allowed.
+	/*if(istype(src, /obj/machinery/pipes/heat_exch))
 		h_dir = text2num(icon_state)
 	else
-		p_dir = text2num(icon_state)
+		p_dir = text2num(icon_state)*/
 
 
 /obj/machinery/pipes/ispipe()		// return true since this is a pipe
@@ -480,9 +502,9 @@
 // finds the machine with compatible p_dir in 1 step in dir from S
 /proc/get_machine(var/level, var/turf/S, mdir)
 
-	var/flip = turn(mdir, 180)
+	var/flip = reverse_dir_3d(mdir)
 
-	var/turf/T = get_step(S, mdir)
+	var/turf/T = get_step_3d(S, mdir)
 
 	for(var/obj/machinery/M in T.contents)
 		if(M.level == level)
@@ -494,9 +516,9 @@
 // finds the machine with compatible h_dir in 1 step in dir from S
 /proc/get_he_machine(var/level, var/turf/S, mdir)
 
-	var/flip = turn(mdir, 180)
+	var/flip = reverse_dir_3d(mdir)
 
-	var/turf/T = get_step(S, mdir)
+	var/turf/T = get_step_3d(S, mdir)
 
 	for(var/obj/machinery/M in T.contents)
 		if(M.level == level)
@@ -705,7 +727,9 @@
 
 /obj/machinery/manifold/New()
 	..()
-	switch(dir)
+
+	//Once again, old code, prevents proper in-game spawning.
+/*	switch(dir)
 		if(NORTH)
 			p_dir = 13 //NORTH|EAST|WEST
 
@@ -717,7 +741,7 @@
 
 		if(WEST)
 			p_dir = 11 //WEST|NORTH|SOUTH
-
+*/
 
 
 	src.gas = new /obj/substance/gas( src )
@@ -783,11 +807,11 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, n1dir)
+			T = get_step_3d(src, n1dir)
 		if(2)
-			T = get_step(src, n2dir)
+			T = get_step_3d(src, n2dir)
 		if(3)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 
 	if(T.density)
 		T = src.loc
@@ -817,8 +841,8 @@
 
 
 /obj/machinery/connector/buildnodes()
-	var/turf/T = get_step(src.loc, src.dir)
-	var/fdir = turn(src.p_dir, 180)
+	var/turf/T = get_step_3d(src.loc, src.dir)
+	var/fdir = reverse_dir_3d(src.p_dir)
 
 	for(var/obj/machinery/M in T)
 		if(M.p_dir & fdir)
@@ -919,7 +943,7 @@
 
 	//var/dbg = (tag == "dbg") && Debug
 
-	var/turf/T = get_step(src, dir)
+	var/turf/T = get_step_3d(src, dir)
 	if(T && !T.density)
 
 		//if(dbg) world.log << "CLT1: [gas.tostring()] ~ [ngas.tostring()]\nTg = [T.tostring()]"
@@ -937,8 +961,9 @@
 	ngas = new/obj/substance/gas()
 	gasflowlist += src
 
-	h_dir = dir					// the h/e pipe is in obj dir
-	p_dir = turn(dir, 180)		// the reg pipe is in opposite dir
+	//Nasty old code is holding back progress.
+	//h_dir = dir					// the h/e pipe is in obj dir
+	//p_dir = turn(dir, 180)		// the reg pipe is in opposite dir
 
 
 /obj/machinery/junction/buildnodes()
@@ -1012,9 +1037,9 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 		if(2)
-			T = get_step(src, turn(dir, 180) )
+			T = get_step_3d(src,reverse_dir_3d(dir))
 
 	if(T.density)
 		T = src.loc
@@ -1077,7 +1102,8 @@
 /obj/machinery/vent/New()
 
 	..()
-	p_dir = dir
+	//Bah! Old "p_dir = " must go!
+	//p_dir = dir
 	gas = new/obj/substance/gas(src)
 	gas.maximum = capacity
 	ngas = new/obj/substance/gas()
@@ -1086,8 +1112,8 @@
 
 /obj/machinery/vent/buildnodes()
 
-	var/turf/T = get_step(src.loc, src.dir)
-	var/fdir = turn(src.p_dir, 180)
+	var/turf/T = get_step_3d(src.loc, src.dir)
+	var/fdir = reverse_dir_3d(src.p_dir)
 
 	for(var/obj/machinery/M in T)
 		if(M.p_dir & fdir)
@@ -1153,7 +1179,7 @@
 // note this is a leak from the node, not the vent itself
 // thus acts as a link between the vent turf and the turf in step(dir)
 
-	var/turf/T = get_step(src, dir)
+	var/turf/T = get_step_3d(src, dir)
 	if(T && !T.density)
 		flow_to_turf(gas, ngas, T)
 
@@ -1164,7 +1190,8 @@
 
 	..()
 
-	p_dir = dir
+	//Ugh, another one?
+	//p_dir = dir
 	gas = new/obj/substance/gas(src)
 	gas.maximum = capacity
 	ngas = new/obj/substance/gas()
@@ -1173,8 +1200,8 @@
 
 /obj/machinery/inlet/buildnodes()
 
-	var/turf/T = get_step(src.loc, src.dir)
-	var/fdir = turn(src.p_dir, 180)
+	var/turf/T = get_step_3d(src.loc, src.dir)
+	var/fdir = reverse_dir_3d(src.p_dir)
 
 	for(var/obj/machinery/M in T)
 		if(M.p_dir & fdir)
@@ -1240,7 +1267,7 @@
 // note this is a leak from the node, not the inlet itself
 // thus acts as a link between the inlet turf and the turf in step(dir)
 
-	var/turf/T = get_step(src, dir)
+	var/turf/T = get_step_3d(src, dir)
 	if(T && !T.density)
 		flow_to_turf(gas, ngas, T)
 
@@ -1328,11 +1355,13 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	switch(dir)
+
+	//You know, by now, I hope you don't need reminding of the evils of the past p_dir =
+/*	switch(dir)
 		if(1, 2)
 			p_dir = 3
 		if(4,8)
-			p_dir = 12
+			p_dir = 12*/
 
 	icon_state = "valve[open]"
 
@@ -1348,7 +1377,7 @@
 
 	node1 = get_machine(level, T, dir )		// the h/e pipe
 
-	node2 = get_machine(level, T , turn(dir, 180) )	// the regular pipe
+	node2 = get_machine(level, T ,reverse_dir_3d(dir))	// the regular pipe
 
 	if(node1) vnode1 = node1.getline()
 	if(node2) vnode2 = node2.getline()
@@ -1418,9 +1447,9 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 		if(2)
-			T = get_step(src, turn(dir, 180) )
+			T = get_step_3d(src,reverse_dir_3d(dir))
 
 	if(T.density)
 		T = src.loc
@@ -1465,11 +1494,13 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	switch(dir)
+
+	//See comment in /mvalve/New()
+/*	switch(dir)
 		if(1, 2)
 			p_dir = 3
 		if(4,8)
-			p_dir = 12
+			p_dir = 12*/
 
 	icon_state = "dvalve[open]"
 
@@ -1487,7 +1518,7 @@
 
 	node1 = get_machine(level, T, dir )		// the h/e pipe
 
-	node2 = get_machine(level, T , turn(dir, 180) )	// the regular pipe
+	node2 = get_machine(level, T ,reverse_dir_3d(dir))	// the regular pipe
 
 	if(node1) vnode1 = node1.getline()
 	if(node2) vnode2 = node2.getline()
@@ -1564,9 +1595,9 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 		if(2)
-			T = get_step(src, turn(dir, 180) )
+			T = get_step_3d(src,reverse_dir_3d(dir))
 
 	if(T.density)
 		T = src.loc
@@ -1610,13 +1641,14 @@
 	ngas2 = new/obj/substance/gas()
 
 	gasflowlist += src
-	p_dir = dir|turn(dir, 180)
+	//..... another one.
+	//p_dir = dir|turn(dir, 180)
 
 /obj/machinery/oneway/buildnodes()
 	var/turf/T = src.loc
 
 	node1 = get_machine(level, T, dir )
-	node2 = get_machine(level, T , turn(dir, 180) )
+	node2 = get_machine(level, T ,reverse_dir_3d(dir))
 
 	if(node1) vnode1 = node1.getline()
 	if(node2) vnode2 = node2.getline()
@@ -1670,9 +1702,9 @@
 
 	switch(port)
 		if(1)
-			T = get_step(src, dir)
+			T = get_step_3d(src, dir)
 		if(2)
-			T = get_step(src, turn(dir, 180) )
+			T = get_step_3d(src,reverse_dir_3d(dir))
 
 	if(T.density)
 		T = src.loc
@@ -1729,8 +1761,8 @@
 	src.ngas = new /obj/substance/gas()
 
 /obj/machinery/inlet/filter/buildnodes()
-	var/turf/T = get_step(src.loc, src.dir)
-	var/fdir = turn(src.p_dir, 180)
+	var/turf/T = get_step_3d(src.loc, src.dir)
+	var/fdir = reverse_dir_3d(src.p_dir)
 
 	for(var/obj/machinery/M in T)
 		if(M.p_dir & fdir)
@@ -1785,7 +1817,7 @@
 /obj/machinery/inlet/filter/leak_to_turf()
 // note this is a leak from the node, not the inlet itself
 // thus acts as a link between the inlet turf and the turf in step(dir)
-	var/turf/T = get_step(src, dir)
+	var/turf/T = get_step_3d(src, dir)
 	if(T && !T.density)
 		flow_to_turf(gas, ngas, T)
 

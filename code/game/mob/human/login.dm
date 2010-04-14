@@ -98,6 +98,8 @@
 	src.throw_icon.layer = 52
 
 	if (!src.start)
+		while(map_loading)
+			sleep(10)
 		var/area/A = locate(/area/start)
 		var/list/L = list(  )
 		for(var/area/B in A.superarea.areas)

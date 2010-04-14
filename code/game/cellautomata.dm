@@ -164,6 +164,7 @@
 	if (features)
 		src.status += ": [dd_list2text(features, ", ")]"
 
+var/map_loading = 1
 /world/New()
 
 	config = new /datum/configuration()
@@ -175,7 +176,7 @@
 
 	sun = new /datum/sun()
 
-	//spawn(0)
+	spawn(0)
 		//----
 		//Indent this block and add a line here
 		//if, at a later date, run-time map loading
@@ -186,11 +187,21 @@
 		//loading and the calculations after are
 		//somewhat slow, so spawn()ing allows them
 		//to occasionally sleep() to let the server run.
-	for (var/turf/T in world)
-		T.updatelinks()
-	makepipelines()
-	powernets_building = 0
-	makepowernets()
+
+		//This line should only be used for testing the map loader,
+		//as it is still worse at loading full maps than the default.
+		//Still, uncomment it, uncheck the map for compiling, and
+		//the map should still load just fine.
+		//QML_loadMap("maps\\Bay Station 12 alpha.dmp",0,0,0)
+
+		load_map_modules()
+		sleep(10)
+		map_loading = 0
+		for (var/turf/T in world)
+			T.updatelinks()
+		makepipelines()
+		powernets_building = 0
+		makepowernets()
 		//----
 
 	crban_loadbanfile()
@@ -274,6 +285,8 @@
 	..()
 
 	sleep(50)
+	while(map_loading)
+		sleep(10)
 
 	nuke_code = text("[]", rand(10000, 99999.0))
 	for(var/obj/machinery/nuclearbomb/N in world)

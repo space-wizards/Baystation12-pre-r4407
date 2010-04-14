@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+UPDATE_OBJ_TREE: ON
+DIR: maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1271213621
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -100,10 +109,11 @@
 #include "code\atoms.dm"
 #include "code\changelog.dm"
 #include "code\gamehelpers.dm"
-#include "code\globals.dm"
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
+#include "code\mapLoader.dm"
+#include "code\mapModules.dm"
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
@@ -143,7 +153,6 @@
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
-#include "code\game\gamemodes\BaystationDisaster.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
@@ -217,6 +226,7 @@
 #include "code\game\machinery\pipe\filter_control.dm"
 #include "code\game\machinery\pipe\newpipe.dm"
 #include "code\game\machinery\pipe\pipe_filter.dm"
+#include "code\game\machinery\pipe\pipe_items.dm"
 #include "code\game\mob\achievements.dm"
 #include "code\game\mob\login.dm"
 #include "code\game\mob\logout.dm"
