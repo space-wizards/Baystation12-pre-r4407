@@ -7,7 +7,7 @@
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
 DIR: code code\game code\game\machinery code\game\machinery\pipe icons icons\ss13 
-FILE: code\game\airtunnel.dm
+FILE: icons\ss13\pipes.dmi
 LAST_COMPILE_TIME: 1271213621
 AUTO_FILE_DIR: ON
 */
@@ -152,7 +152,6 @@ AUTO_FILE_DIR: ON
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
-#include "code\game\gamemodes\BaystationDisaster.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
