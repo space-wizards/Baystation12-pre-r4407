@@ -2,25 +2,15 @@
 // All manual changes should be made outside the BEGIN_ and END_ blocks.
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
+
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
 LAST_COMPILE_VERSION: 464.1066
-PACKAGE_DME_DEMO: 
-PACKAGE_DME_CLEANCHECK: OFF
-PACKAGE_RSC_CLEANCHECK: ON
-PACKAGE_DMB_HUB: 
-PACKAGE_TYPE: 2
-PACKAGE_DMB_CLEANCHECK: OFF
-PACKAGE_DME_START: 
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\traitor code\game\jobs code\game\machinery code\game\machinery\doors code\game\mob code\game\objects code\game\objects\items code\game\objects\items\radio code\game\objects\items\toolkit 
-PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
-FILE: code\game\gamemodes\BaystationRecovery.dm
-PACKAGE_DME_INFO: 
-PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
-LAST_COMPILE_TIME: 1271148393
-PACKAGE_DMB_INFO: 
+UPDATE_OBJ_TREE: ON
+DIR: maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1271213621
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -119,10 +109,11 @@ AUTO_FILE_DIR: ON
 #include "code\atoms.dm"
 #include "code\changelog.dm"
 #include "code\gamehelpers.dm"
-#include "code\globals.dm"
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
+#include "code\mapLoader.dm"
+#include "code\mapModules.dm"
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
@@ -162,7 +153,6 @@ AUTO_FILE_DIR: ON
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
-#include "code\game\gamemodes\BaystationRecovery.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"
@@ -236,6 +226,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\pipe\filter_control.dm"
 #include "code\game\machinery\pipe\newpipe.dm"
 #include "code\game\machinery\pipe\pipe_filter.dm"
+#include "code\game\machinery\pipe\pipe_items.dm"
 #include "code\game\mob\achievements.dm"
 #include "code\game\mob\login.dm"
 #include "code\game\mob\logout.dm"

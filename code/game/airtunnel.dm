@@ -481,6 +481,21 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 	//	L["sheet_3"] = "Make Sheet (30x20x.01) {6 cc}"
 	//	L["sheet_4"] = "Make Sheet (30x30x.01) {9 cc}"
 	//	L["sheet_5"] = "Make Sheet (62.5x62.5x4) {15625 cc}"
+		L["pipe"] = "Make a Pipe {37500 cc Metal}"
+		L["pipe-c"] = "Make a Corner Pipe {37500 cc Metal}"
+		L["pipe-h"] = "Make a Heat Exchange Pipe {37500 cc Metal}"
+		L["pipe-hc"] = "Make a Heat Exchange Corner Pipe {37500 cc Metal}"
+		L["manifold"] = "Make a Manifold Pipe {75000 cc Metal}"
+		L["connector"] = "Make a Connector {56250 cc Metal}"
+		L["mvalve"] = "Make a Manual Valve {56250 cc Metal ; 18750 cc Glass}"
+		L["dvalve"] = "Make a Digital Valve {56250 cc Metal ; 18750 cc Glass}"
+		L["vent"] = "Make a Vent {75000 cc Metal}"
+		L["inlet"] = "Make a Inlet {75000 cc Metal}"
+		L["junction"] = "Make a Junction {56250 cc Metal}"
+		L["filter"] = "Make a Filter {75000 cc Metal ; 37500 cc Glass}"
+		L["oneway"] = "Make a One-way Pipe{56250 cc Metal}"
+		L["pump"] = "Make a Pipe Pump {56250 cc Metal ; 18750 cc Glass}"
+
 
 
 		for(var/t in L)
@@ -510,6 +525,20 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		C["metal_r"] = 74999
 		C["glass_s"] = 0
 		C["glass_r"] = 18749
+		C["pipe"] = 37500
+		C["pipe-c"] = 37500
+		C["pipe-h"] = 37500
+		C["pipe-hc"] = 37500
+		C["manifold"] = 75000
+		C["connector"] = 56250
+		C["mvalve"] = 56250
+		C["dvalve"] = 56250
+		C["vent"] = 75000
+		C["inlet"] = 75000
+		C["junction"] = 56250
+		C["filter"] = 75000
+		C["oneway"] = 56250
+		C["pump"] = 56250
 
 		var/list/D = list()
 		D["screwdriver"] = 0
@@ -523,6 +552,20 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		D["metal_r"] = 0
 		D["glass_s"] = 37499
 		D["glass_r"] = 37499
+		D["pipe"] = 0
+		D["pipe-c"] = 0
+		D["pipe-h"] = 0
+		D["pipe-hc"] = 0
+		D["manifold"] = 0
+		D["connector"] = 0
+		D["mvalve"] = 18750
+		D["dvalve"] = 18750
+		D["vent"] = 0
+		D["inlet"] = 0
+		D["junction"] = 0
+		D["filter"] = 37500
+		D["oneway"] = 0
+		D["pump"] = 18750
 
 
 		var/item = href_list["make"]
@@ -557,6 +600,34 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 						new /obj/item/weapon/sheet/glass(src.loc)
 					if ("glass_r")
 						new /obj/item/weapon/sheet/rglass(src.loc)
+					if ("pipe")
+						new /obj/item/weapon/pipe(src.loc)
+					if ("pipe-c")
+						new /obj/item/weapon/pipe/corner(src.loc)
+					if ("pipe-h")
+						new /obj/item/weapon/pipe/he(src.loc)
+					if ("pipe-hc")
+						new /obj/item/weapon/pipe/he/corner(src.loc)
+					if ("manifold")
+						new /obj/item/weapon/pipe/manifold(src.loc)
+					if ("connector")
+						new /obj/item/weapon/pipe/connector(src.loc)
+					if ("mvalve")
+						new /obj/item/weapon/pipe/valve(src.loc)
+					if ("dvalve")
+						new /obj/item/weapon/pipe/valve/digital(src.loc)
+					if ("vent")
+						new /obj/item/weapon/pipe/vent(src.loc)
+					if ("inlet")
+						new /obj/item/weapon/pipe/inlet(src.loc)
+					if ("junction")
+						new /obj/item/weapon/pipe/junction(src.loc)
+					if ("filter")
+						new /obj/item/weapon/pipe/filter(src.loc)
+					if ("oneway")
+						new /obj/item/weapon/pipe/oneway(src.loc)
+					if ("pump")
+						new /obj/item/weapon/pipe/oneway/pump(src.loc)
 	for(var/mob/M in viewers(1, src))
 		if ((M.client && M.machine == src))
 			src.attack_hand(M)

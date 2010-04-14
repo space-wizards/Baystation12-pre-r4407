@@ -169,16 +169,17 @@
 	return
 
 /obj/machinery/light/proc/turnon()
-	var/B = bright()
+	//var/B = bright()
 	if (!on)
+		var/B = bright()
 		on = 1
 		spawn(instant ? 0 : rand(3,13))
 			if (on)
 				updateicon()
 				sd_SetLuminosity(B)
-	else if (src.luminosity != B)
-		sd_SetLuminosity(B)
-		updateicon()
+	//else if (src.luminosity != B)
+	//	sd_SetLuminosity(B)
+	//	updateicon()
 
 /obj/machinery/light/proc/turnoff()
 	if (on)

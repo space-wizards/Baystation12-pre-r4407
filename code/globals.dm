@@ -120,6 +120,7 @@ var
 	auth_motd = "Welcome to SS13!, admin!"
 	no_auth_motd = null
 	forceblob = 0
+	lastapupdate = 0
 
 	var/global/player/players
 
