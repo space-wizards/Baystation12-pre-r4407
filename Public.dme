@@ -6,8 +6,8 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\machinery code\game\machinery\pipe icons icons\ss13 
-FILE: icons\ss13\pipes.dmi
+DIR: maps 
+FILE: todo.dm
 LAST_COMPILE_TIME: 1271213621
 AUTO_FILE_DIR: ON
 */
@@ -107,7 +107,6 @@ AUTO_FILE_DIR: ON
 #include "code\atoms.dm"
 #include "code\changelog.dm"
 #include "code\gamehelpers.dm"
-#include "code\globals.dm"
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
