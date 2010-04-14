@@ -3,6 +3,7 @@
 	icon_state = "comm"
 	var/cdir = 0
 	var/obj/machinery/computer/comdisc/relay = null
+
 /obj/machinery/computer/comcontrol/New()
 	if(!relay)
 		var/obj/machinery/computer/comdisc/wep
@@ -22,12 +23,14 @@
 	var/gotcomp = 0
 	var/context = "null"
 	var/control = 0
+
 /obj/machinery/computer/comcontrol/attack_ai(mob/user)
 	if(stat & (BROKEN|NOPOWER))
 		return
 	if(buildstate < 6)
 		return
 	attack_hand(user)
+
 /obj/machinery/computer/comcontrol/attack_hand(mob/user)
 	add_fingerprint(user)
 
@@ -36,6 +39,7 @@
 	if(buildstate < 6)
 		return
 	interact(user)
+
 /obj/machinery/computer/comcontrol/proc/interact(mob/user)
 	if(stat & (BROKEN | NOPOWER)) return
 	if ( (get_dist(src, user) > 1 ))
@@ -139,6 +143,8 @@
 
 /obj/machinery/computer/comdisc/process()
 	if(stat & BROKEN)
+		longradio = 0
+		connected = 0
 		return
 	var/X = home
 	var/Y = home

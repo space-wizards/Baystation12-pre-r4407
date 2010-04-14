@@ -78,6 +78,9 @@
 		return
 	return
 
+/obj/machinery/vehicle/pod/relaymove(mob/user as mob, direction)
+	return //pods have no engines
+
 /obj/machinery/vehicle/relaymove(mob/user as mob, direction)
 	if (user.stat)
 		return

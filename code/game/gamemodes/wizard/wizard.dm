@@ -403,15 +403,15 @@
 /datum/game_mode/wizard/proc/objtext()
 	switch(ticker.objective)
 		if(obj_hijack)
-			world << "<B>Objective: Escape alone on the shuttle.</B>"
+			return "Objective: Escape alone on the shuttle."
 		if(obj_murder)
-			world << "<B>Objective: Kill [ticker.target] and escape.</B>"
+			return "Objective: Kill [ticker.target] and escape."
 		if(obj_steal)
-			world << "<B>Objective: Steal [get_item_desc(ticker.theft_obj)] and escape.</B>"
+			return "Objective: Steal [get_item_desc(ticker.theft_obj)] and escape."
 		if (obj_sabotage)
-			world << "<B>Objective: [get_sab_desc(ticker.sab_target)] and escape.</B>"
+			return "Objective: [get_sab_desc(ticker.sab_target)] and escape."
 		else
-			world << "unknown traitor objective"
+			return "unknown traitor objective"
 
 /datum/game_mode/wizard/proc/pick_objective(mob/killer)
 	var/list/mob_list = get_mob_list()

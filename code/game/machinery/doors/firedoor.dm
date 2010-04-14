@@ -15,6 +15,9 @@
 	else
 		stat |= NOPOWER
 
+/obj/machinery/door/firedoor/Bumped(atom/movable/AM as mob|obj)
+	return
+
 /obj/machinery/door/firedoor/attackby(obj/item/weapon/C as obj, mob/user as mob)
 	src.add_fingerprint(user)
 	if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density) && !src.hulksmash)

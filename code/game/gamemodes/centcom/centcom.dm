@@ -32,7 +32,7 @@ var/const/obj_1_security = 2
 var/const/obj_1_camera  = 3
 
 // Steal captains spare ID
-var/const/ocj_2_spareid = 1
+var/const/obj_2_spareid = 1
 // Access Comm console
 var/const/obj_2_comms = 2
 // Steal an injector with specified persons DNA
@@ -442,7 +442,7 @@ var/const/obj_3_onlyperson = 3
 
 
 		if(stage == 2)
-			if(objective == ocj_2_spareid)
+			if(objective == obj_2_spareid)
 				var/list/L = list()
 				L += ticker.killer.contents
 				for(var/obj/item/weapon/storage/S in ticker.killer.contents)
@@ -534,6 +534,7 @@ var/const/obj_3_onlyperson = 3
 		world << "<B>He never completed his objectives"
 		world << "<B>They were</B>"
 		endgameobjectives()
+
 	return 1
 
 
@@ -549,6 +550,8 @@ var/const/obj_3_onlyperson = 3
 
 
 /obj/item/weapon/centcom_uplink/proc/getobjtext()
+	if(objective == 0)
+		return "No Objective Assigned"
 	if(stage == 1)
 		if(objective == obj_1_medical)
 			return "Objective 1: Access medical records"
@@ -559,19 +562,19 @@ var/const/obj_3_onlyperson = 3
 		else
 			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 2)
-		if(objective == ocj_2_spareid)
-			return "Objective 2: Steal the captains spair ID"
+		if(objective == obj_2_spareid)
+			return "Objective 2: Steal the captains spare ID"
 		else if(objective == obj_2_comms)
 			return "Objective 2: Access the communications system and upload a worm"
 		else if(objective == obj_2_dna)
-			return "Objective 2: Steal an injector containing " + target + "'s DNA"
+			return "Objective 2: Steal an injector containing [target]'s DNA"
 		else
 			return "\red UNKNOWN OBJECTIVE: [objective]"
 	else if(stage == 3)
 		if(objective == obj_3_ejectengine)
 			return "Final Objective: Eject the engine and escape"
 		else if(objective == obj_3_killtarget)
-			return "Final Objective: Kill " + " and escape"
+			return "Final Objective: Kill [target] and escape"
 		else if(objective == obj_3_onlyperson)
 			return "Final Objective: Be the only person remaining on the station"
 		else
@@ -591,19 +594,19 @@ var/const/obj_3_onlyperson = 3
 		else
 			return "UNKNOWN OBJECTIVE [objective]"
 	else if(stage == 2)
-		if(objective == ocj_2_spareid)
+		if(objective == obj_2_spareid)
 			return "Objective 2: Steal the captains spare ID"
 		else if(objective == obj_2_comms)
 			return "Objective 2: Access the communications system and upload a worm"
 		else if(objective == obj_2_dna)
-			return "Objective 2: Steal an injector containing " + target + "'s DNA"
+			return "Objective 2: Steal an injector containing [target]'s DNA"
 		else
 			return "UNKNOWN OBJECTIVE [objective]"
 	else if(stage == 3)
 		if(objective == obj_3_ejectengine)
 			return "Final Objective: Eject the engine and escape"
 		else if(objective == obj_3_killtarget)
-			return "Final Objective: Kill " + " and escape"
+			return "Final Objective: Kill [target] and escape"
 		else if(objective == obj_3_onlyperson)
 			return "Final Objective: Be the only person remaining on the station"
 		else

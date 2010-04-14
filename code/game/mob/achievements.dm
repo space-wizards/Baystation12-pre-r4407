@@ -25,6 +25,7 @@
 			else if (!announce)
 				src << "<b>Achievement Unlocked!: You unlocked the '<font color = [H]>[title]</font color>' achievement.</b></font>"
 				src << text("[desc]")
+
 /mob/proc/add_medal(name,announce,amount,req)
 
 	spawn()
@@ -35,4 +36,4 @@
 				total++
 			//messageadmins("[amount] [total] [req]")
 			if (total >= req)
-				unlock_medal(name,announce)
+				unlock_medal(name, announce)

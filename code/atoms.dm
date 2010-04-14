@@ -3649,7 +3649,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/vehicle
 	name = "Vehicle Pod"
 	icon = 'escapepod.dmi'
-	icon_state = "podfire"
+	icon_state = "pod"
 	density = 1
 	flags = FPRINT
 	anchored = 1.0
@@ -4634,7 +4634,7 @@ obj/machinery/vendingmachine/soda
 	name = "Fluorescent Bulb"
 	icon_state = "bulb"
 	var/bulbtype = "fluorescent"
-	icon = 'lights.dmi'
+	icon = 'items.dmi'
 	desc="The bulb appears to be in good condition"
 	var/life = 0
 	var/bright = 6
@@ -4643,7 +4643,6 @@ obj/machinery/vendingmachine/soda
 /obj/item/weapon/bulb/incandescent
 	name = "Incandescent Bulb"
 	bulbtype = "incandescent"
-	icon = 'lights.dmi'
 	bright = 4
 	icon_state = "incandescent"
 	w_class = 1.0 //But you can fit a 4" incandescent bulb, that makes sense.

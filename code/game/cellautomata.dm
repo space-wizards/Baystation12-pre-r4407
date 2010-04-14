@@ -165,11 +165,10 @@
 		src.status += ": [dd_list2text(features, ", ")]"
 
 /world/New()
+	..()
 
 	config = new /datum/configuration()
 	config.load("config/config.txt")
-
-	..()
 
 	src.update_stat()
 
@@ -246,7 +245,6 @@
 	if (motd)
 		join_motd = motd
 
-
 	var/ad_text = file2text("config/admins.txt")
 	var/list/L = dd_text2list(ad_text, "\n")
 	for(var/t in L)
@@ -269,15 +267,10 @@
 	main_hud2 = new /obj/hud/hud2(  )
 	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
-	..()
-
-	sleep(50)
-
 	nuke_code = text("[]", rand(10000, 99999.0))
 	for(var/obj/machinery/nuclearbomb/N in world)
 		if (N.r_code == "ADMIN")
 			N.r_code = nuke_code
-	sleep(50)
 
 	plmaster = new /obj/overlay(  )
 	plmaster.icon = 'plasma.dmi'
@@ -310,7 +303,8 @@
 			goto Label_482
 		return
 	worldsetup = 1
-	return
+	world.log << "World Setup Complete"
+
 
 /world/Reboot()
 	if(no_end)
@@ -337,6 +331,7 @@
 		return x
 	else if (T == "reboot" && master)
 		world.log << "TOPIC: Remote reboot from master ([addr])"
+		world << "Rebooting!  Initiated from master control"
 		no_end = 0
 		world.Reboot()
 	else if(T == "players")
@@ -543,7 +538,7 @@
 /datum/control/gameticker/proc/check_win()
 	roundover = 1
 	if (!mode.check_win())
-		return 0
+		return
 
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)

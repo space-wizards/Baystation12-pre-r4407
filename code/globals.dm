@@ -103,8 +103,8 @@ var
 
 	//Multi-Z-Level stuff
 
-	stationfloors = list( )
-	centcomfloors = list( )
+	stationfloors = list( ) //What Z levels are considered to be "on the station"
+	centcomfloors = list( ) //What Z levels are considered to be "on centcom"
 	centcom_supply_dock = 2
 	centcom_emerg_dock = 2
 	station_emerg_dock = 1
@@ -113,7 +113,7 @@ var
 	station_syndicate_dock = 1
 	prison_shuttle_dock = 2
 	syndicate_shuttle_dock = 6
-	shuttle_en_route_level = 3
+	shuttle_en_route_level = 3 //This may or may not be split up in future.
 	engine_eject_z_target = 3
 
 	join_motd = "Welcome to SS13!"
@@ -140,8 +140,8 @@ var
 	//Don't set this very much higher then 1024 unless you like inviting people in to DoS your server with message spam
 	const/MAX_MESSAGE_LEN = 1024
 
-	const/shuttle_time_in_station = 180 // 3 minutes in the station
-	const/shuttle_time_to_arrive = 600 // 10 minutes to arrive
+	const/shuttle_time_in_station = 1800 // 3 minutes in the station
+	const/shuttle_time_to_arrive = 6000 // 10 minutes to arrive
 
 	/* Radio shit*/
 	radio = 1 //???
