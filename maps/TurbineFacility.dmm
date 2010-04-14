@@ -1,0 +1,81 @@
+"aa" = (/turf/station/r_wall,/area)
+"ab" = (/obj/grille,/turf/station/engine/floor,/area)
+"ac" = (/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ad" = (/obj/machinery/light,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ae" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"af" = (/turf/station/engine/floor,/area)
+"ag" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ah" = (/obj/window{icon_state = "rwindow"; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ai" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aj" = (/obj/machinery/pipes{capacity = 7e+006; icon_state = "6"; name = "high-capacity pipes"; p_dir = 6; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ak" = (/obj/machinery/pipes{capacity = 1.2e+007; layer = 2; name = "high-capacity pipes"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"al" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{capacity = 1.2e+007; layer = 2; name = "high-capacity pipes"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"am" = (/obj/machinery/vent{capacity = 1.2e+007; desc = "A high-capacity gas pipe outlet vent."; dir = 8; name = "high-capacity vent"; p_dir = 4; tag = "2"},/obj/machinery/gas_sensor,/turf/station/engine/floor,/area)
+"an" = (/obj/machinery/igniter,/obj/machinery/door/poddoor,/turf/station/engine/floor,/area)
+"ao" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/machinery/compressor,/turf/station/floor,/area)
+"ap" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/power/turbine,/obj/cable{icon_state = "0-2"; d2 = 2},/turf/station/floor,/area)
+"aq" = (/obj/machinery/gas_sensor,/turf/station/engine/floor,/area)
+"ar" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"as" = (/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"at" = (/obj/cable{icon_state = "1-2"; d1 = 1; d2 = 2},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"au" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"av" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aw" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/power/turbine,/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/turf/station/floor,/area)
+"ax" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{capacity = 7e+006; icon_state = "6"; name = "high-capacity pipes"; p_dir = 6; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"ay" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"az" = (/obj/machinery/vent{capacity = 1.2e+007; desc = "A high-capacity gas pipe outlet vent."; name = "high-capacity vent"},/obj/machinery/gas_sensor,/turf/station/engine/floor,/area)
+"aA" = (/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aB" = (/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aC" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/obj/window{icon_state = "rwindow"; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aD" = (/obj/machinery/door/window{dir = 4; name = "Turbine Hall"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aE" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/cable{icon_state = "1-4"; d1 = 1; d2 = 4},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aF" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aG" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/obj/window{icon_state = "rwindow"; reinf = 1},/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aH" = (/obj/machinery/door/window{dir = 4; name = "Turbine Hall"},/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aI" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/cable{icon_state = "1-8"; d1 = 1; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plating"},/area)
+"aJ" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/turf/station/floor,/area)
+"aK" = (/obj/machinery/valve/mvalve,/turf/station/floor,/area)
+"aL" = (/turf/station/floor,/area)
+"aM" = (/obj/machinery/connector,/obj/machinery/atmoalter/canister/vat/oxygenvat,/turf/station/floor,/area)
+"aN" = (/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
+"aO" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
+"aP" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "5"; name = "high-capacity pipes"; p_dir = 9; tag = ""},/turf/station/floor,/area)
+"aQ" = (/obj/machinery/pipes{capacity = 1.2e+007; layer = 2; name = "high-capacity pipes"},/turf/station/floor,/area)
+"aR" = (/obj/machinery/manifold{capacity = 1.2e+007; desc = "A high-capacity three-port gas manifold."; dir = 2; name = "high-capacity manifold"},/turf/station/floor,/area)
+"aS" = (/obj/machinery/manifold{capacity = 1.2e+007; desc = "A high-capacity three-port gas manifold."; dir = 1; name = "high-capacity manifold"},/turf/station/floor,/area)
+"aT" = (/obj/machinery/pipes{capacity = 1.2e+007; icon_state = "3"; name = "high-capacity pipes"; p_dir = 3; tag = ""},/obj/machinery/pipes{capacity = 1.2e+007; layer = 2; name = "high-capacity pipes"},/turf/station/floor,/area)
+"aU" = (/obj/machinery/connector{dir = 8; p_dir = 8},/obj/machinery/atmoalter/canister/vat/plasmavat,/turf/station/floor,/area)
+"aV" = (/obj/machinery/connector{dir = 8; p_dir = 8},/obj/machinery/atmoalter/canister/vat/plasmavat,/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
+"aW" = (/obj/machinery/valve/mvalve,/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
+"aX" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
+"aY" = (/obj/machinery/connector{tag = ""; icon_state = "connector"; dir = 1; p_dir = 1},/obj/machinery/atmoalter/canister/vat/oxygenvat,/turf/station/floor,/area)
+"aZ" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area)
+"ba" = (/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaabaa
+aaacadacadacadacadaeafaaacadacadacadacadaeafaa
+aaagacacahahacacahaiafaaagacacahahacacahaiafaa
+aaajakalamanaoapaqafafaaajakalamanaoapaqafafaa
+aaaracacasasacatasauafaaaracacasasacatasauafaa
+aaavacacahahacatahaiafaaavacacahahacatahaiafaa
+aaarajalamanaoawaqafafaaarajalamanaoawaqafafaa
+aaavavacasasacatasauafaaavavacasasacatasauafaa
+aaaravacahahacatahaiafaaaravacahahacatahaiafaa
+aaavavaxamanaoawaqafafaaavavaxamanaoawaqafafaa
+aaaravavasasacatasauafaaaravavasasacatasauafaa
+aaavavavahahacatahaiafaaavavavahahacatahaiafaa
+aaaravayazanaoawaqafafaaaravayazanaoawaqafafaa
+aaavavavaAasacatasasasadavavavaAasacatasasasaa
+aaaravavavacacatacacacacavavavavacacatacacaBaa
+aaaCaCaCaCaDahaEaFaFaFaFaGaGaGaGaHaFaIahahahaa
+aaaJaJaJaKaLaLaMaMaLaLaLaJaJaJaKaLaLaMaMaLaNaa
+aaaOaJaKaPaQaRaSaTaQaUaLaJaJaKaPaQaRaSaTaQaUaa
+aaaJaKaPaQaRaSaQaSaQaUaLaJaKaPaQaRaSaQaSaQaVaa
+aaaWaPaQaQaSaRaQaRaQaUaLaKaPaQaQaSaRaQaRaQaUaa
+aaaPaQaQaQaQaSaRaTaQaUaLaPaQaQaQaQaSaRaTaQaVaa
+aaaXaLaLaLaLaLaYaYaLaLaLaLaLaLaLaLaLaYaYaLaLaa
+aaaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLaNaa
+aaaZaLbaaLbaaLbaaLbaaLbaaLbaaLbaaLbaaLbaaLbaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

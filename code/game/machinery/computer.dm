@@ -372,7 +372,7 @@
 	return
 
 /proc/call_prison_shuttle(var/mob/usr)
-	if ((!( ticker ) || ticker.shuttle_location == 1))
+	if ((!( ticker ) || ticker.shuttle_location == station_emerg_dock))
 		return
 	if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
 		usr << "Under directive 7-10, SS13 is quarantined until further notice."
@@ -384,13 +384,13 @@
 		usr << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
 		return
 	if(ticker.mode.name == "AI malfunction")
-		usr << "Centcom will not allow the shuttle to be called."
+		usr << "Error calling for the prison shuttle."
 		return
 	for(var/obj/machinery/computer/prison_shuttle/PS in world)
 		if(!PS.allowedtocall)
 			usr << "\red Centcom will not allow the shuttle to be called"
 			return
-		if(PS.z == 3)
+		if(PS.z == shuttle_en_route_level)
 			usr << "\red Already in transit! Please wait!"
 			return
 		var/A = locate(/area/shuttle_prison)
@@ -400,17 +400,17 @@
 		sleep(10)
 	var/area/A = locate(/area/shuttle_prison)
 
-	if(A.z == 2)	//This is the laziest proc ever
+	if(A.z == prison_shuttle_dock)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 1
+				AM.z = station_prison_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
@@ -420,14 +420,14 @@
 	else
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 2
+				AM.z = prison_shuttle_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
@@ -674,54 +674,41 @@
 	if (!( src.connected ))
 		viewers(null, null) << "Cannot locate mass driver connector. Cancelling firing sequence!"
 		return
+
 	for(var/obj/machinery/door/poddoor/M in machines)
 		if (M.id == src.id)
 			spawn( 0 )
 				M.openpod()
 				return
-	sleep(20)
 
-	var/obj/machinery/vehicle/pod/P
+	sleep(25)
+
+	var/obj/machinery/vehicle/pod/P = null
+
 	for(var/obj/machinery/vehicle/pod/P2 in machines)
-		if(P2.id == src.id) P = P2
+		if(P2.id == src.id)
+			P = P2
+			break
 
-	if(P) P.anchored = 0
+	if (P)
+		P.anchored = 0
+		for(var/mob/ai/AI in world)
+			AI << "\red Escape Pod Fired!"
 
-	//src.connected.drive()		*****RM from 40.93.3S
 	for(var/obj/machinery/mass_driver/M in machines)
 		if(M.id == src.id)
 			M.power = src.connected.power
 			M.drive()
 
-	//*****
-	sleep(50)
+	sleep(25)
+
 	for(var/obj/machinery/door/poddoor/M in machines)
 		if (M.id == src.id)
-			spawn( 0 )
+			spawn(0)
 				M.closepod()
 				return
-	if(P && (locate(/obj/machinery/mass_driver/) in P.loc))
-		for(var/obj/machinery/door/poddoor/M in machines) if(M.id == "arrival_pod")
-			spawn
-				M.openpod()
-		sleep(40)
-		P.throwing = 0
-		P.loc = null
-		sleep(2)
-		P.loc = locate(26,138,2)
-		P.throw_at(locate(26,122,2), 5, 0.25)
-		sleep(20)
-		for(var/atom/movable/A in P)
-			A.loc = P.loc
-			if(istype(A,/mob) && A:client)
-				A:client:eye = A:client:mob
-		P.density = 0
-		P.throw_at(locate(26,134,2), 10, 1)
-		sleep(10)
-		for(var/obj/machinery/door/poddoor/M in machines) if(M.id == "arrival_pod")
-			spawn
-				M.closepod()
-		return
+	if (P)
+		P.warptocentcom()
 
 /obj/machinery/computer/pod/New()
 	..()
@@ -877,7 +864,7 @@
 	for(var/atom/movable/O in src.loc)
 		if(!O.anchored)
 			spawn( 0 )
-				var/atom/targetarea = locate(src.x, src.y, src.z)
+				var/atom/targetarea = src.loc
 				//since NORTHEAST == NORTH & EAST, etc, doing it this way allows for diagonal mass drivers in the future
 				//and isn't really any more complicated
 				if(src.dir & NORTH)
@@ -888,6 +875,7 @@
 					targetarea = locate(world.maxx, targetarea.y, targetarea.z)
 				if(src.dir & WEST)
 					targetarea = locate(1, targetarea.y, targetarea.z)
+				//world << "Driving [O] \[[targetarea] [targetarea.x] [targetarea.y] [targetarea.z] [drive_range * src.power] [src.power]]"
 				O.throw_at(targetarea, drive_range * src.power, src.power)
 	flick("mass_driver1", src)
 	return
@@ -895,7 +883,7 @@
 obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(src.buildstate == 0)
 		if(istype(W,/obj/item/weapon/wrench))
-			icon_state = "compstate1"
+			icon_state = "frame"
 			src.anchored = 1
 			src.buildstate++
 			usr << "You wrench the frame into place."
@@ -912,25 +900,25 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del G
 			else
 				G.amount -= 1
-			icon_state = "compstate2"
+			icon_state = "build_wired"
 			src.buildstate++
 			usr << "You wire up the frame."
 			return
 		else if(istype(W, /obj/item/weapon/wrench) && src.anchored == 1)
-			icon_state = "compstate1"
+			icon_state = "frame"
 			src.anchored = 0
 			src.buildstate--
 			usr << "You can now move the frame"
 			return
 	if(src.buildstate == 2)
 		if(istype(W, /obj/item/weapon/circuitry))
-			icon_state = "compstate3"
+			icon_state = "build_circuit"
 			del W
 			src.buildstate++
 			usr << "You place the ciruct board inside the frame."
 			return
 		else if(istype(W, /obj/item/weapon/wirecutters))
-			icon_state = "compstate1"
+			icon_state = "frame"
 			var/obj/item/weapon/cable_coil/cut/S = new(src)
 			S.loc = src.loc
 			S.amount = 1
@@ -944,12 +932,12 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del x
 			else
 				x.amount -= 1
-			icon_state = "compstate4"
+			icon_state = "build_screen"
 			src.buildstate++
 			usr << "You place the glass inside the frame."
 			return
 		else if(istype(W, /obj/item/weapon/screwdriver))
-			icon_state = "compstate2"
+			icon_state = "build_wired"
 			var/obj/item/weapon/circuitry/S = new(src)
 			S.loc = src.loc
 			src.buildstate--
@@ -986,7 +974,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				del src
 				return
 			else if(istype(W, /obj/item/weapon/crowbar))
-				icon_state = "compstate3"
+				icon_state = "build_circuit"
 				var/obj/item/weapon/sheet/glass/S = new(src)
 				S.amount = 1
 				S.loc = src.loc
@@ -999,7 +987,7 @@ obj/machinery/computer/attackby(obj/item/weapon/W as obj, mob/user as mob)
 				var/obj/machinery/computer/frame/s = new(src)
 				s.loc = src.loc
 				s.buildstate = 4
-				s.icon_state = "compstate4"
+				s.icon_state = "build_screen"
 				del src
 				usr << "You erase the harddrive of [src]"
 				return

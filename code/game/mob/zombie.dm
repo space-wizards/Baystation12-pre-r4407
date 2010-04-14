@@ -1,4 +1,5 @@
 /mob/var/zombieleader = 0
+mob/var/zombieimmune = 0
 /mob/proc/zombify()
 	stat &= 1
 	health = 100
@@ -50,7 +51,8 @@
 	for(var/mob/M in viewers(src, null))
 		if ((M.client && !( M.blinded )))
 			M << "[biter.name] bites [name]"
-
+	if(zombieimmune)
+		return
 	if(prob(5))
 		zombify()
 	else if(prob(5))

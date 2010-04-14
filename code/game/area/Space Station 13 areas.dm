@@ -152,7 +152,7 @@ area/security/forensics
 area/administrative/bridge
 	name = "Bridge"
 	icon_state = "bridge"
-	music = ""
+	music = 'music/bridge.ogg'
 
 area/administrative/court/courtroom
 	name = "Courtroom"
@@ -256,7 +256,7 @@ area/maintenance/network
 
 area/maintenance/atmos
 	name = "Atmospherics"
-	icon_state = "atmos"
+	icon_state = "atmoss"
 	music = "music/atmos.wav"
 
 area/maintenance/janitor
@@ -276,6 +276,11 @@ area/storage/elecstorage
 
 area/storage/northspare
 	name = "Spare Storage"
+	icon_state = "toolstorage"
+	music = ""
+
+area/storage/emergency
+	name = "Emergency Storage"
 	icon_state = "toolstorage"
 	music = ""
 
@@ -320,9 +325,29 @@ area/maintenance/corridor/westcorridor
 	music = ""
 	icon_state = "green"
 
+area/maintenance/corridor/northconnector
+	name = "North Understation Maintenance Corridor"
+	music = ""
+	icon_state = "green"
+
+area/maintenance/corridor/westconnector
+	name = "West Understation Maintenance Corridor"
+	music = ""
+	icon_state = "green"
+
 area/maintenance/corridor/centercorridor
 	name = "Central Maintenance Corridor"
 	icon_state = "green"
+	music = ""
+
+area/escape/pods1
+	name = "Escape Pod Bay"
+	icon_state = "escape"
+	music = ""
+
+area/escape/pods2
+	name = "Escape Pod Bay"
+	icon_state = "escape"
 	music = ""
 
 // Engine
@@ -474,8 +499,31 @@ area/solar/west
 
 /area/centcomm/resupply
 	name = "Resupply Hangar"
-	icon_state = "purple"
 	requires_power = 0
+	music = ""
+
+/area/centcomm/podbay1
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay2
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay3
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay4
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay5
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay6
+	name = "Pod Bay"
 	music = ""
 
 // Misc.
@@ -560,22 +608,19 @@ area/prototype
 /area/tdome
 	name = "Thunderdome"
 	icon_state = "medical"
-	music = ""
+	music = "music/THUNDERDOME.ogg"
 
 /area/tdome/tdome1
 	name = "Thunderdome (Team 1)"
 	icon_state = "green"
-	music = ""
 
 /area/tdome/tdome2
 	name = "Thunderdome (Team 2)"
 	icon_state = "yellow"
-	music = ""
 
 /area/tdome/tdomea
 	name = "Thunderdome (Admin.)"
 	icon_state = "purple"
-	music = ""
 
 // Syndicate
 /area/syndicate_ship

@@ -4,6 +4,21 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Sukasa's Changes (April 11th, 2010)</B></P>
+<li>Ladders and multiple Z levels OMFG</li>
+<li>Shuttle fixes, should go to centcom more often now</li>
+<li>Escape Pods have a destination, and it's not shit!</li>
+<li>CentCom improved</li>
+<li>Atmos shouldn't be in a state of perpetual alarm</li>
+
+<P><B>Sukasa's Changes (April 6th-10th 2010)</B></P>
+<li>ESCAPE POD BAYS</li>
+<li>Network Office and Storage</li>
+<li>Scurity Records allows for any job now</li>
+<li>Computer Icons!<small>...mostly</small></li>
+<li>Some bugs fixed throughout the code</li>
+<li>And More!</li>
+
 <P><B>Heads's Changes (someday, April 1-4th, 2010)</B></P>
 <li>Communication Disc has been added align it to call supplies or the shuttle</li>
 <li>New commands for ai right click and choose an area to use.</li>

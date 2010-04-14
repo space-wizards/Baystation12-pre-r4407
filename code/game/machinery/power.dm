@@ -965,7 +965,7 @@
 
 /proc/power_list(var/turf/T, var/source, var/d, var/unmarked=0)
 	var/list/result = list()
-	var/fdir = (!d)? 0 : turn(d, 180)	// the opposite direction to d (or 0 if d==0)
+	var/fdir = (!d || d & (UP|DOWN))? 0 : turn(d, 180)	// the opposite direction to d (or 0 if d==0)
 
 	for(var/obj/machinery/power/P in T)
 		if(P.netnum < 0)	// exclude APCs
@@ -983,6 +983,9 @@
 		if(C.d1 == fdir || C.d2 == fdir)
 			if(!unmarked || !C.netnum)
 				result += C
+		if((C.d1 | d) == (UP|DOWN))
+			if(!unmarked || !C.netnum)
+				result += C
 
 	result -= source
 
@@ -996,14 +999,25 @@
 	var/turf/T
 	if(!d1)
 		T = src.loc		// if d1=0, same turf as src
-	else
+	else if(!(d1 & (UP|DOWN)))
 		T = get_step(src, d1)
 
-	res += power_list(T, src , d1, 1)
+	if(!(d1 & (UP|DOWN)))
+		res += power_list(T, src , d1, 1)
 
 	T = get_step(src, d2)
 
 	res += power_list(T, src, d2, 1)
+
+	if(d1 & (UP|DOWN))
+
+		if(d1 & UP)
+			T = locate(src.x, src.y, src.z + 1)
+			res += power_list(T, src , d1, 1)
+
+		if(d1 & DOWN)
+			T = locate(src.x, src.y, src.z - 1)
+			res += power_list(T, src , d1, 1)
 
 	return res
 

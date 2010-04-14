@@ -829,7 +829,8 @@
 <A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
-<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"}
+<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"
+<A href='?src=\ref[src];secrets2=allowbigbombs'>Allow Big Bombs = [allowbigbombs] (1= True)</A><BR>"}
 			usr << browse(dat, "window=secretsadmin&size=350x400")
 
 	if (href_list["secretsfun"])
@@ -852,7 +853,8 @@
 <A href='?src=\ref[src];secrets2=traitor_all'>Everyone is the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=wave'>Spawn a wave of meteors</A><BR>
 <A href='?src=\ref[src];secrets2=flicklights'>Ghost Mode</A><BR>"
-<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
+<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>
+<A href='?src=\ref[src];secrets2=disaster'>Station Disaster(You'd better have some good RPers)</A><BR>"}
 
 
 			usr << browse(dat, "window=secretsfun&size=350x500")
@@ -875,8 +877,8 @@
 					for(var/obj/grille/O in world)
 						del(O)
 					for(var/obj/machinery/vehicle/pod/O in world)
-						for(var/mob/M in src)
-							M.loc = src.loc
+						for(var/mob/M in O)
+							M.loc = O.loc
 							if (M.client)
 								M.client.perspective = MOB_PERSPECTIVE
 								M.client.eye = M
@@ -938,6 +940,11 @@
 						spawn(0)
 							H.monkeyize()
 					ok = 1
+				if("disablebigbomb")
+					if(allowbigbombs)
+						allowbigbombs = 0
+					else
+						allowbigbombs = 1
 
 				if("check_logs")
 					usr << ftp(log_file,"Logs")
@@ -1136,6 +1143,11 @@
 						spawn(0)
 							sleep(rand(30,400))
 							Wall.ex_act(rand(2,1))
+
+				if("disaster")
+					messageadmins("[usr.key] just called a station disaster")
+					WreakStation()
+
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))
 						meteor_wave()
@@ -1163,6 +1175,38 @@
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
+
+	//AdminpanelV2 functions
+
+	if (href_list["changerecord"])
+		usr.client.selectedrecord = locate(href_list["changerecord"])
+		updateap()
+
+	if (href_list["togglename"])
+		var/player/player = locate(href_list["togglename"])
+		player.choosename = !player.choosename
+		updateap()
+
+		if (player.client.mob.gender == "male")
+			player.client.mob.rname = capitalize(pick(first_names_male) + " " + capitalize(pick(last_names)) + pick(last_names2))
+		else
+			player.client.mob.rname = capitalize(pick(first_names_female) + " " + capitalize(pick(last_names)) + pick(last_names2))
+
+	if (href_list["adddeniedjob"])
+		var/player/player = locate(href_list["adddeniedjob"])
+		var/list/L = occupations.Copy()
+		L += "Captain"
+		L -= player.allowed_jobs
+		L -= player.denied_jobs
+		var/job = input(usr, "Select a job.\nSelect a job to deny to this player", "Deny Job") as null|anything in L
+		if(job == null) return
+		player.AddDeniedJob(job)
+		updateap()
+	if (href_list["removedeniedjob"])
+		//world << "REMOVE JOB [href_list["job"]]"
+		var/player/player = locate(href_list["removedeniedjob"])
+		player.RemoveDeniedJob(href_list["job"])
+
 	return
 
 

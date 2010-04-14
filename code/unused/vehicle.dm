@@ -13,6 +13,31 @@
 				t1--
 	return
 
+/obj/machinery/vehicle/attack_hand(mob/user)
+	src.board(user)
+
+/obj/machinery/vehicle/attack_paw(mob/user)
+	src.board(user)
+
+/obj/machinery/vehicle/pod/proc/warptocentcom()
+	if(anchored)
+		return
+	src.throwing = 0
+	spawn(1)
+		if (!podspawns.len)
+			return
+		var/turf/moveto = pick(podspawns)
+		podspawns -= moveto
+		src.loc = moveto
+		src.dir = 2
+		for(var/turf/T in poddocks)
+			if (T.x == moveto.x)
+				src.throw_at(T, (src.y - T.y) + 6, 1)
+				while(!anchored)
+					sleep(15)
+					step(src, SOUTH)
+
+
 /obj/machinery/vehicle/meteorhit(var/obj/O as obj)
 	for (var/obj/item/I in src)
 		I.loc = src.loc

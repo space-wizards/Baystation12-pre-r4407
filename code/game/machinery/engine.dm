@@ -74,6 +74,13 @@
 		return
 	use_power(250)
 	src.updateDialog()
+	switch(engine_eject_control.status)
+		if(-1)
+			icon_state = "engine_ejected"
+		if(0)
+			icon_state = "engine"
+		else
+			icon_state = "engine_alert"
 	return
 
 /obj/machinery/computer/engine/Topic(href, href_list)
@@ -175,7 +182,7 @@
 
 		src.status = 1
 		for(var/obj/machinery/computer/engine/E in machines)
-			E.icon_state = "engaging"
+			E.icon_state = "engine_alert"
 			//Foreach goto(113)
 		spawn( 0 )
 			src.countdown()
@@ -207,20 +214,20 @@
 
 	defer_powernet_rebuild = 1
 	for(var/turf/T in engineturfs)
-		var/turf/S = new T.type( locate(T.x, T.y, ENGINE_EJECT_Z) )
+		var/turf/S = new T.type( locate(T.x, T.y, engine_eject_z_target) )
 
 		var/area/A = T.loc
 
 		for(var/atom/movable/AM as mob|obj in T)
 			AM.loc = S
-			S.oxygen = T.oxygen
-			S.poison = T.poison
-			S.co2 = T.co2
-			S.sl_gas = T.sl_gas
-			S.n2 = T.n2
-			S.temp = T.temp
-			S.buildlinks()
 
+		S.oxygen = T.oxygen
+		S.poison = T.poison
+		S.co2 = T.co2
+		S.sl_gas = T.sl_gas
+		S.n2 = T.n2
+		S.temp = T.temp
+		S.buildlinks()
 
 		A.contents += S
 		var/turf/P = new T.type( locate(T.x, T.y, T.z) )
@@ -237,7 +244,7 @@
 		makepowernets()
 	world << "\red <B>Engine Ejected!</B>"
 	for(var/obj/machinery/computer/engine/CE in machines)
-		CE.icon_state = "engaged"
+		CE.icon_state = "engine_engaged"
 	return
 
 /datum/engine_eject/proc/stopcount()

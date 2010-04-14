@@ -60,4 +60,9 @@
 		for(var/mob/human/M in world)
 			if (M.client)
 				world << text("<B>[] was [].</B>", M.key, M)
+	sleep(300)
+	world.log_game("Rebooting due to end of game")
+	world << "\red Rebooting due to end of game"
+	roundover = 1
+	world.Reboot()
 	return 1

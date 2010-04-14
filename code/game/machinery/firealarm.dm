@@ -59,6 +59,16 @@
 	var/area/A = src.loc
 	var/d1
 	var/d2
+	if(user.zombie)
+		var/area/B = A.loc
+		for(var/mob/C in viewers())
+			C.show_message("[user.name] flails at [src]")
+		if(prob(10))
+			if(B.fire)
+				reset()
+			else
+				alarm()
+		return
 	if (istype(user, /mob/human) || istype(user, /mob/ai))
 		A = A.loc
 
@@ -117,24 +127,30 @@
 		return
 	return
 
-/obj/machinery/firealarm/proc/reset()
+/obj/machinery/firealarm/proc/reset(var/lock = 0)
 	if (!( src.working ))
 		return
 	var/area/A = src.loc
 	A = A.loc
 	if (!( istype(A, /area) ))
 		return
-	A.firereset()
+	if(lock)
+		A.lockdownreset()
+	else
+		A.firereset()
 	return
 
-/obj/machinery/firealarm/proc/alarm()
+/obj/machinery/firealarm/proc/alarm(var/lock = 0)
 	if (!( src.working ))
 		return
 	var/area/A = src.loc
 	A = A.loc
 	if (!( istype(A, /area) ))
 		return
-	A.firealert()
+	if(lock)
+		A.lockdown()
+	else
+		A.firealert()
 	return
 
 /obj/machinery/partyalarm/attack_paw(mob/user as mob)

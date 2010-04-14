@@ -179,6 +179,7 @@
 	var/lastx = 0
 	var/lasty = 0
 	var/lastz = 0
+	var/hadclient
 
 /mob/human
 	name = "human"
@@ -3689,7 +3690,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A large bore pipe with high capacity."
 	name = "high capacity"
 	icon = 'hi_pipe.dmi'
-	density = 1
 	capacity = 1.8E7
 /obj/machinery/pipes/regular
 	desc = "A stretch of pipe."
@@ -4550,6 +4550,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Green Wardrobe"
 	icon_state = "wardrobe-g"
 	icon_closed = "wardrobe-g"
+
+/obj/closet/wardrobe/network
+	name = "Network Technician Wardrobe"
+	icon_state = "wardrobe-nt"
+	icon_closed = "wardrobe-nt"
 
 /obj/closet/wardrobe/mixed
 	name = "Mixed Wardrobe"

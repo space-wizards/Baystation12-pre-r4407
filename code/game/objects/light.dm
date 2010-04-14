@@ -1,6 +1,6 @@
 /obj/item/weapon/bulb/New()
 	..()
-	src.life = rand(2400, 40000) //Nanotransern's bulb suppliers have no quality control, who knows how long one'll last.
+	src.life = rand(2400, 40000) //Nanotransen's bulb suppliers have no quality control, who knows how long one'll last.
 								 //The values are approximately in seconds
 	extext()
 
@@ -33,8 +33,10 @@
 			user << "The light is off"
 	else
 		user << "There is no bulb installed"
+
 /obj/machinery/light/attack_ai(mob/user as mob)
 	return
+
 /obj/machinery/light/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
 
@@ -167,16 +169,17 @@
 	return
 
 /obj/machinery/light/proc/turnon()
-	var/B = bright()
+	//var/B = bright()
 	if (!on)
+		var/B = bright()
 		on = 1
 		spawn(instant ? 0 : rand(3,13))
 			if (on)
 				updateicon()
 				sd_SetLuminosity(B)
-	else if (src.luminosity != B)
-		sd_SetLuminosity(B)
-		updateicon()
+	//else if (src.luminosity != B)
+	//	sd_SetLuminosity(B)
+	//	updateicon()
 
 /obj/machinery/light/proc/turnoff()
 	if (on)

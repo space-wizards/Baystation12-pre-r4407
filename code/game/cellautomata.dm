@@ -7,6 +7,7 @@
 	if (name == "shuttle")
 		shuttle_z = src.z
 		del(src)
+		return
 
 	if (name == "airtunnel_stop")
 		airtunnel_stop = src.x
@@ -20,6 +21,7 @@
 	if (name == "monkey")
 		monkeystart += src.loc
 		del(src)
+		return
 
 	//prisoners
 	if (name == "prisonwarp")
@@ -31,14 +33,92 @@
 		tdome1	+= src.loc
 	if (name == "tdome2")
 		tdome2 += src.loc
+
 	//not prisoners
+
 	if (name == "prisonsecuritywarp")
 		prisonsecuritywarp += src.loc
 		del(src)
+		return
 
 	if (name == "blobstart")
 		blobstart += src.loc
 		del(src)
+		return
+
+	if(name == "Pod-Dock")
+		poddocks += src.loc
+		del(src)
+		return
+
+	if(name == "Pod-Warp")
+		podspawns += src.loc
+		del(src)
+		return
+
+	//Multiple Z level support
+
+	if(name == "Station-Floor")
+		stationfloors += src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Floor")
+		centcomfloors += src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Emerg")
+		station_emerg_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Supply")
+		station_supply_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Prison")
+		station_prison_dock = src.z
+		del(src)
+		return
+
+	if(name == "Station-Dock-Syndicate")
+		station_syndicate_dock = src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Dock-Supply")
+		centcom_supply_dock = src.z
+		del(src)
+		return
+
+	if(name == "Centcom-Dock-Emerg")
+		centcom_emerg_dock = src.z
+		shuttle_z = src.z
+		del(src)
+		return
+
+	if(name == "Shuttle-Move-Z")
+		shuttle_en_route_level = src.z
+		del(src)
+		return
+
+	if(name == "Syndicate-Dock")
+		syndicate_shuttle_dock = src.z
+		del(src)
+		return
+
+	if(name == "Prison-Dock")
+		prison_shuttle_dock = src.z
+		del(src)
+		return
+
+	if(name == "Engine-Eject-Target")
+		engine_eject_z_target = src.z
+		del(src)
+		return
+
 	return
 
 /obj/start/New()
@@ -128,6 +208,8 @@ var/map_loading = 1
 	crban_updatelegacybans()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
+	LoadPlayerData()
+	SavePlayerLoop()
 	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 	spawn(0)
 		SetupOccupationsList()
@@ -254,6 +336,7 @@ var/map_loading = 1
 
 //Crispy fullban
 /world/Del()
+	SavePlayerData()
 	for(var/mob/M in world)
 		if(M.client)
 			M << sound('sound/NewRound.ogg')
@@ -354,7 +437,10 @@ var/map_loading = 1
 		for(var/i = 0; i < 10; i++)
 			spawn_meteors()
 		if (src.timeleft <= 0 && src.timing)
-			src.timeup()
+			if(!roundover)
+				src.timeup()
+			else
+				check_win()
 
 		sleep(10)
 	while(src.processing)
@@ -376,7 +462,10 @@ var/map_loading = 1
 		if (prob(0.5))
 			spawn_meteors()
 		if (src.timeleft <= 0 && src.timing)
-			src.timeup()
+			if(!roundover)
+				src.timeup()
+			else
+				check_win()
 
 		sleep(10)
 	while(src.processing)
@@ -418,14 +507,14 @@ var/map_loading = 1
 /datum/control/gameticker/proc/timeup()
 
 	var/area/B = locate(/area/shuttle)
-	if (src.shuttle_location == 2)
+	if (src.shuttle_location == centcom_emerg_dock)
 
 		var/list/srcturfs = list()
 		var/list/dstturfs = list()
 		var/throwx = 0
 		for (var/area/A in B.superarea.areas)
 			for(var/turf/T in A)
-				if (T.z == shuttle_z)
+				if (T.z == centcom_emerg_dock)
 					srcturfs += T
 				else
 					dstturfs += T
@@ -451,7 +540,7 @@ var/map_loading = 1
 					var/turf/space/S = new /turf/space( locate(U.x, U.y, U.z) )
 					B.contents -= S
 					B.contents += S
-				AM.z = 1
+				AM.z = station_emerg_dock
 			var/turf/U = locate(T.x, T.y, T.z)
 			U.oxygen = T.oxygen
 			U.poison = T.poison
@@ -459,7 +548,7 @@ var/map_loading = 1
 			U.buildlinks()
 			del(T)
 		src.timeleft = shuttle_time_in_station
-		src.shuttle_location = 1
+		src.shuttle_location = station_emerg_dock
 		world << "<B>The emergency shuttle has docked with the station! You have [ticker.timeleft/600] minutes to board the shuttle.</B>"
 	else
 		world << "<B>The emergency shuttle is leaving!</B>"
@@ -468,33 +557,32 @@ var/map_loading = 1
 	return
 
 /datum/control/gameticker/proc/check_win()
+	roundover = 1
 	if (!mode.check_win())
 		return 0
-	if (nuclearend)
-		return 0
+
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)
-			world << "<b>The AI's laws at the end of the game were:</b>"
+			world << "<b>[aiPlayer.name]'s laws at the end of the game were:</b>"
 		else
-			world << "<b>The AI's laws when it was deactivated were:</b>"
+			world << "<b>[aiPlayer.name]'s laws when it was deactivated were:</b>"
 		aiPlayer.showLaws(1)
 
-	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear
+	if(!nuclearend) //The shuttle exploded if the round ended due to nuclear, so don't move it back to centcom
 		var/area/B = locate(/area/shuttle) //Move shuttle to CentCom if it's on the station
-		if (src.shuttle_location == 1) //Altered to support superareas.
+		if (src.shuttle_location == station_emerg_dock) //Altered to support superareas.
 			for (var/area/A in B.superarea.areas) //replace station_z and shuttle_z with the correct values
 				for(var/turf/T in A)
-					if (T.z == 1)
+					if (T.z == station_emerg_dock)
 						for(var/atom/movable/AM as mob|obj in T)
-							A\M.z = shuttle_z
-						var/turf/U = locate(T.x, T.y, shuttle_z)
+							AM.z = centcom_emerg_dock
+						var/turf/U = locate(T.x, T.y, centcom_emerg_dock)
 						U.oxygen = T.oxygen
 						U.poison = T.poison
 						U.co2 = T.co2
 
 						U.buildlinks()
 						del(T)
-	roundover = 1
 	sleep(300)
 	world.log_game("Rebooting due to end of game")
 	world.Reboot()
@@ -562,6 +650,9 @@ var/update_state = 0
 	set background = 1
 	var/supplytime = 0
 
+	for(var/obj/machinery/light/L in world)
+		L.process()
+
 	Label_6:
 	main_tick++
 
@@ -581,6 +672,19 @@ var/update_state = 0
 	supplytime = (++supplytime % 100)
 
 	updateap()
+
+	for(var/T in poddocks)
+		for(var/obj/O in T)
+			if (istype(O, /obj/machinery/vehicle))
+				var/obj/machinery/vehicle/V = O
+				V.anchored = 1
+				poddocks -= T
+				spawn(10)
+					var/obj/machinery/door/poddoor/P = locate(/obj/machinery/door/poddoor) in get_step(T, NORTH)
+					P.closepod()
+					P = locate(/obj/machinery/door/poddoor) in get_step(T, SOUTH)
+					sleep(30)
+					P.openpod()
 
 	if (!supplytime && supply_shuttle_points < 75)
 		supply_shuttle_points += 1
@@ -613,7 +717,6 @@ var/update_state = 0
 	for(var/obj/move/S in world)
 		S.process()
 	sleep(2)
-
 	for(var/obj/machinery/M in machines)
 		M.process()
 
@@ -623,9 +726,9 @@ var/update_state = 0
 	for(var/datum/powernet/P in powernets)
 		P.reset()
 
-
 	src.var_swap = !( src.var_swap )
 	if (src.processing)
 		sleep(2)
 		goto Label_6
+	world.log <<"\red <B>PROCESSING STOPPED"
 	return

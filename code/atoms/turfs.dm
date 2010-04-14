@@ -53,12 +53,31 @@
 	// CMB radiation temperature+
 	temp = 2.7
 
+/turf/space/New()
+	..()
+	if (icon_state == "space")
+		icon_state = "space[rand(1,7)]"
+
 /turf/station
 	name = "station"
 	intact = 1
 	var/icon_old = null
 	var/wet = 0
 	var/chloro = 0
+
+/turf/station/open
+	name = "Open Space"
+	icon_state = "openspace"
+
+/turf/station/open/New()
+	spawn(0)
+		while(1)
+			var/turf/dest = locate(src.x, src.y, src.z + 1)
+			for(var/atom/movable/AM as mob|obj in src)
+				if (!AM.anchored)
+					AM.loc = dest
+			sleep(5)
+
 
 
 /turf/station/command
