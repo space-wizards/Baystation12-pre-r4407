@@ -2,27 +2,8 @@
 // All manual changes should be made outside the BEGIN_ and END_ blocks.
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
+
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
-LAST_COMPILE_VERSION: 464.1066
-PACKAGE_DME_DEMO: 
-PACKAGE_DME_CLEANCHECK: OFF
-PACKAGE_RSC_CLEANCHECK: ON
-PACKAGE_DMB_HUB: 
-PACKAGE_TYPE: 2
-PACKAGE_DMB_CLEANCHECK: OFF
-PACKAGE_DME_START: 
-DIR: code code\game code\game\gamemodes\traitor code\game\machinery code\game\machinery\doors code\game\objects\items dist\byond icons maps 
-PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
-FILE: maps\Bay Station 12 alpha.dmp
-PACKAGE_DME_INFO: 
-PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
-LAST_COMPILE_TIME: 1271311473
-PACKAGE_DMB_INFO: 
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -126,6 +107,8 @@ AUTO_FILE_DIR: ON
 #include "code\helperprocs.dm"
 #include "code\hubs.dm"
 #include "code\logging.dm"
+#include "code\mapLoader.dm"
+#include "code\mapModules.dm"
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
@@ -150,6 +133,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\demo.dm"
 #include "code\game\events.dm"
 #include "code\game\hud.dm"
+#include "code\game\player.dm"
 #include "code\game\throwing.dm"
 #include "code\game\virus.dm"
 #include "code\game\vote.dm"
@@ -159,6 +143,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\admin\create_object.dm"
 #include "code\game\admin\newpanel.dm"
 #include "code\game\admin\newpanelconfig.dm"
+#include "code\game\admin\player_control.dm"
 #include "code\game\area\ai_monitored.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\Space Station 13 areas.dm"
@@ -237,6 +222,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\pipe\filter_control.dm"
 #include "code\game\machinery\pipe\newpipe.dm"
 #include "code\game\machinery\pipe\pipe_filter.dm"
+#include "code\game\machinery\pipe\pipe_items.dm"
 #include "code\game\mob\achievements.dm"
 #include "code\game\mob\login.dm"
 #include "code\game\mob\logout.dm"

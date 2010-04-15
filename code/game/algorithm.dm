@@ -11,7 +11,10 @@
 
 	var/list/destructive = assistant_occupations.Copy()
 	var/dat = "<html><body>"
-	dat += "<b>Name:</b> <a href=\"byond://?src=\ref[src];rname=input\"><b>[src.rname]</b></a> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
+	if(src.client.player.choosename)
+		dat += "<b>Name:</b> <a href=\"byond://?src=\ref[src];rname=input\"><b>[src.rname]</b></a> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
+	else
+		dat += "<b>Name:</b> <b>[src.rname]</b> (<A href=\"byond://?src=\ref[src];rname=random\">&reg;</A>)<br>"
 	dat += "<b>Gender:</b> <a href=\"byond://?src=\ref[src];gender=input\"><b>[src.gender == "male" ? "Male" : "Female"]</b></a><br>"
 	dat += "<b>Age:</b> <a href='byond://?src=\ref[src];age=input'>[src.age]</a>"
 
@@ -103,7 +106,7 @@
 		if(3.0)
 			HTML += "<b>Which occupation would you like if you couldn't have the others?</b><br><br>"
 		else
-	for(var/job in uniquelist(occupations + assistant_occupations) )
+	for(var/job in uniquelist(src.client.player.GetAllowedJobs()) )
 		if (job!="AI" || config.allow_ai)
 			HTML += text("<a href=\"byond://?src=\ref[];occ=[];job=[]\">[]</a><br>", src, occ, job, job)
 		//Foreach goto(105)

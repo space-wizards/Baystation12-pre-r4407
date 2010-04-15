@@ -926,7 +926,6 @@
 		if(M.netnum >=0)
 			M.netnum = 0
 
-
 	for(var/obj/cable/PC in world)
 		if(!PC.netnum)
 			PC.netnum = ++netcount

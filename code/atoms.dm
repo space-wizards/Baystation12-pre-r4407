@@ -179,6 +179,7 @@
 	var/lastx = 0
 	var/lasty = 0
 	var/lastz = 0
+	var/hadclient
 
 /mob/human
 	name = "human"
@@ -1772,6 +1773,54 @@ obj/item/weapon/clothing/suit/labcoat
 	s_istate = "electronic"
 	throw_speed = 4
 	throw_range = 20
+
+/obj/item/weapon/pipe
+	name = "straight pipe"
+	icon_state = "item_straight"
+	icon = 'pipes.dmi'
+	throw_speed = 2
+	throw_range = 6
+	s_istate = "pipe"
+	w_class = 3.0
+/obj/item/weapon/pipe/corner
+	name = "corner pipe"
+	icon_state = "item_corner"
+/obj/item/weapon/pipe/he
+	name = "heat exchange pipe"
+	icon_state = "item_he"
+/obj/item/weapon/pipe/he/corner
+	name = "heat exchange corner pipe"
+	icon_state = "item_he_corner"
+/obj/item/weapon/pipe/manifold
+	name = "Manifold"
+	icon_state = "item_manifold"
+/obj/item/weapon/pipe/connector
+	name = "Connector"
+	icon_state = "item_connector"
+/obj/item/weapon/pipe/valve
+	name = "Manual Valve"
+	icon_state = "item_mvalve"
+/obj/item/weapon/pipe/valve/digital
+	name = "Digital Valve"
+	icon_state = "item_dvalve"
+/obj/item/weapon/pipe/vent
+	name = "Vent"
+	icon_state = "item_vent"
+/obj/item/weapon/pipe/inlet
+	name = "Inlet"
+	icon_state = "item_inlet"
+/obj/item/weapon/pipe/junction
+	name = "Junction"
+	icon_state = "item_junction"
+/obj/item/weapon/pipe/filter
+	name = "Filter"
+	icon_state = "item_filter"
+/obj/item/weapon/pipe/oneway
+	name = "One-way pipe"
+	icon_state = "item_oneway"
+/obj/item/weapon/pipe/oneway/pump
+	name = "Pump"
+	icon_state = "item_pump"
 
 /obj/item/weapon/m_pill
 	name = "pill"
@@ -3484,12 +3533,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A manually controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "valve0"
+	p_dir = 3
 
 /obj/machinery/valve/dvalve
 	name = "digital valve"
 	desc = "A digitally controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "dvalve0"
+	p_dir = 3
 
 /obj/machinery/oneway
 	name = "one-way pipe"
@@ -3507,6 +3558,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	capmult = 2
 	icon = 'pipes.dmi'
 	icon_state = "one-way"
+	p_dir = 3
 
 /obj/machinery/oneway/pipepump
 	name = "Pipe pump"
@@ -3582,7 +3634,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/capacity = 6000000
 	anchored = 1
 	dir = 2
-	p_dir = 3
+	h_dir = 2
+	p_dir = 1
 
 	var/obj/substance/gas/gas = null
 	var/obj/substance/gas/ngas = null
@@ -3599,6 +3652,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "pipes"
 	icon = 'reg_pipe.dmi'
 	icon_state = "12"
+	p_dir = 12
 	var/capacity = 6000000.0
 	var/obj/machinery/node1 = null
 	var/obj/machinery/node2 = null
@@ -3641,6 +3695,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A stretch of pipe."
 	name = "normal pipe"
 /obj/machinery/pipes/heat_exch
+	h_dir = 12
 	icon = 'heat_pipe.dmi'
 	name = "heat exchange pipe"
 	desc = "A bundle of small pipes designed for maximum heat transfer."

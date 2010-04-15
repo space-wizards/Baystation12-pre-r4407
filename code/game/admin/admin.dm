@@ -853,7 +853,8 @@
 <A href='?src=\ref[src];secrets2=traitor_all'>Everyone is the traitor</A><BR>
 <A href='?src=\ref[src];secrets2=wave'>Spawn a wave of meteors</A><BR>
 <A href='?src=\ref[src];secrets2=flicklights'>Ghost Mode</A><BR>"
-<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>"}
+<A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>
+<A href='?src=\ref[src];secrets2=disaster'>Station Disaster(You'd better have some good RPers)</A><BR>"}
 
 
 			usr << browse(dat, "window=secretsfun&size=350x500")
@@ -1142,6 +1143,11 @@
 						spawn(0)
 							sleep(rand(30,400))
 							Wall.ex_act(rand(2,1))
+
+				if("disaster")
+					messageadmins("[usr.key] just called a station disaster")
+					//WreakStation()
+
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))
 						meteor_wave()
@@ -1169,6 +1175,38 @@
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
+
+	//AdminpanelV2 functions
+
+	if (href_list["changerecord"])
+		usr.client.selectedrecord = locate(href_list["changerecord"])
+		updateap()
+
+	if (href_list["togglename"])
+		var/player/player = locate(href_list["togglename"])
+		player.choosename = !player.choosename
+		updateap()
+
+		if (player.client.mob.gender == "male")
+			player.client.mob.rname = capitalize(pick(first_names_male) + " " + capitalize(pick(last_names)) + pick(last_names2))
+		else
+			player.client.mob.rname = capitalize(pick(first_names_female) + " " + capitalize(pick(last_names)) + pick(last_names2))
+
+	if (href_list["adddeniedjob"])
+		var/player/player = locate(href_list["adddeniedjob"])
+		var/list/L = occupations.Copy()
+		L += "Captain"
+		L -= player.allowed_jobs
+		L -= player.denied_jobs
+		var/job = input(usr, "Select a job.\nSelect a job to deny to this player", "Deny Job") as null|anything in L
+		if(job == null) return
+		player.AddDeniedJob(job)
+		updateap()
+	if (href_list["removedeniedjob"])
+		//world << "REMOVE JOB [href_list["job"]]"
+		var/player/player = locate(href_list["removedeniedjob"])
+		player.RemoveDeniedJob(href_list["job"])
+
 	return
 
 

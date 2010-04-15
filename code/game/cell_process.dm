@@ -154,6 +154,7 @@
 			break
 	if (!src.updatecell)
 		return
+	/*
 	if (src.checkfire)
 		if (cellcontrol.var_swap)
 			var/divideby = 1
@@ -438,6 +439,7 @@
 			src.osl_gas = src.sl_gas
 			src.on2 = src.n2
 			src.otemp = src.temp
+			*/
 	if ((locate(/obj/effects/water, src.loc) || src.firelevel < 900000.0))
 		src.firelevel = 0
 		//cool due to water

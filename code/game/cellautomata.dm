@@ -164,6 +164,7 @@
 	if (features)
 		src.status += ": [dd_list2text(features, ", ")]"
 
+var/map_loading = 1
 /world/New()
 	..()
 
@@ -174,7 +175,7 @@
 
 	sun = new /datum/sun()
 
-	//spawn(0)
+	spawn(0)
 		//----
 		//Indent this block and add a line here
 		//if, at a later date, run-time map loading
@@ -185,17 +186,29 @@
 		//loading and the calculations after are
 		//somewhat slow, so spawn()ing allows them
 		//to occasionally sleep() to let the server run.
-	for (var/turf/T in world)
-		T.updatelinks()
-	makepipelines()
-	powernets_building = 0
-	makepowernets()
+
+		//This line should only be used for testing the map loader,
+		//as it is still worse at loading full maps than the default.
+		//Still, uncomment it, uncheck the map for compiling, and
+		//the map should still load just fine.
+		//QML_loadMap("maps\\Bay Station 12 alpha.dmp",0,0,0)
+
+		load_map_modules()
+		sleep(10)
+		map_loading = 0
+		for (var/turf/T in world)
+			T.updatelinks()
+		makepipelines()
+		powernets_building = 0
+		makepowernets()
 		//----
 
 	crban_loadbanfile()
 	crban_updatelegacybans()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
+	LoadPlayerData()
+	SavePlayerLoop()
 	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 	spawn(0)
 		SetupOccupationsList()
@@ -267,6 +280,9 @@
 	main_hud2 = new /obj/hud/hud2(  )
 	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
+	while(map_loading)
+		sleep(10)
+
 	nuke_code = text("[]", rand(10000, 99999.0))
 	for(var/obj/machinery/nuclearbomb/N in world)
 		if (N.r_code == "ADMIN")
@@ -315,6 +331,7 @@
 
 //Crispy fullban
 /world/Del()
+	SavePlayerData()
 	for(var/mob/M in world)
 		if(M.client)
 			M << sound('sound/NewRound.ogg')
@@ -696,7 +713,6 @@ var/update_state = 0
 	for(var/obj/move/S in world)
 		S.process()
 	sleep(2)
-
 	for(var/obj/machinery/M in machines)
 		M.process()
 

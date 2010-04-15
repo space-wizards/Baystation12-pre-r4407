@@ -1841,6 +1841,10 @@
 
 /client/New()
 	//Crispy fullban
+
+	src.player = FindPlayerKey(key, address, computer_id)
+	src.player.Login(src)
+	if(!src.player) del src
 	/var/loginmsg = 0
 	startofclient:
 	if(worldsetup == 1)
@@ -1921,6 +1925,7 @@
 			src.authorize()
 
 		if (admins.Find(src.ckey))
+			src.admin = 1
 			src.holder = new /obj/admins(src)
 			src.holder.rank = admins[src.ckey]
 			src.SetupAdminPanel()
@@ -2039,9 +2044,6 @@
 				src.holder.owner = src
 				src.verbs += /client/proc/player_panel
 
-			if (src.holder && src.key == "Feminition")				//player specific verbs
-				src.verbs += /client/proc/play_sound
-
 		if (ticker && ticker.mode.name =="sandbox" && src.authenticated)
 			mob.CanBuild()
 			if(src.holder  && (src.holder.level >= 3))
@@ -2055,6 +2057,7 @@
 
 /client/Del()
 	..()
+	if(src.player) src.player.Logout(src)
 	del(src.holder)
 	return
 

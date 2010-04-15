@@ -8,7 +8,8 @@
 		zombify()
 		return
 	emote("deathgasp") //let the world KNOW WE ARE DEAD
-	src.client.oldbody = src
+	if(src.client)
+		src.client.oldbody = src
 	src.canmove = 0
 	if(src.client)
 		src.blind.layer = 0
@@ -53,7 +54,7 @@
 
 	var/cancel
 	for (var/mob/M in world)
-		if ((M.client && M.awake()))
+		if ((M.client && M.alive()))
 			cancel = 1
 			break
 

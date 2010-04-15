@@ -6,7 +6,7 @@
 		if(src.authenticated && src.holder)
 			if(!src.mob)
 				return
-			if(src.holder.rank == "Coder")
+			if(src.holder.rank == "Host")
 				world.tick_lag = number
 			else
 				alert("Fuck off, no crashing dis server")
