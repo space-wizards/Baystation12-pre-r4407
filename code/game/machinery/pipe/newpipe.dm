@@ -45,6 +45,7 @@
 
 	var/obj/machinery/M = null
 
+
 	for(var/obj/machinery/pipes/P in nodes)
 		if(!M)			// special case for 1st pipe
 			if(P.node1 && P.node1.ispipe())
@@ -153,35 +154,30 @@
 	flow_to_turf(gas, ngas, T)
 
 // build the pipelines
+var/list/lines = list()
 /proc/makepipelines()
 
 	var/linecount = 0		// the line number
-
+	lines = list()
 	for(var/obj/machinery/pipes/P in machines)		// look for a pipe
 
 		if(!P.plnum)							// if not already part of a line
 			P.buildnodes(++linecount) // add it, and spread to all connected pipes
-
 	for(var/L = 1 to linecount)					// for count of lines found
 		var/obj/machinery/pipeline/PL = new()	// make a pipeline virtual object
 		PL.name = "pipeline #[L]"
+		PL.plnum = L
 		plines += PL							// and add it to the list
 
-
-
 	for(var/obj/machinery/pipes/P in machines)		// look for pipes
-
+		if(P.plnum == 359 || P.plnum == 264)
 		if(P.termination)						// true if pipe is terminated (ends in blank or a machine)
 			var/obj/machinery/pipeline/PL = plines[P.plnum]		// get the pipeline from the pipe's pl-number
 
 			var/list/pipes = pipelist(null, P)	// get a list of pipes from P until terminated
-			if (!pipes.len)
-				world.log_game("Built empty pipeline starting from pipe at \[[P.x] [P.y] [P.z]]!")
 			PL.nodes = pipes					// pipeline is this list of nodes
 			PL.numnodes = pipes.len				// with this many nodes
 			PL.capmult = PL.numnodes+1			// with this flow multiplier
-
-
 
 	for(var/obj/machinery/pipes/P in machines)		// all pipes
 		P.setline()								// 	set the pipeline object for this pipe
@@ -204,10 +200,6 @@
 
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
 		//Messes up plnum, thus removed.
-		/*if (!PL.numnodes)
-			plines -= PL
-			del PL
-			continue*/
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
 
 // return a list of pipes (not including terminating machine)

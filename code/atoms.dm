@@ -475,7 +475,7 @@
 	anchored = 1.0
 	flags = FPRINT
 	weight = 500000	// added
-	layer = 2.9
+	layer = 2.8
 /obj/securearea
 	desc = "A warning sign which reads 'SECURE AREA'"
 	name = "SECURE AREA"
@@ -3653,6 +3653,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'reg_pipe.dmi'
 	icon_state = "12"
 	p_dir = 12
+	layer = 2.9
 	var/capacity = 6000000.0
 	var/obj/machinery/node1 = null
 	var/obj/machinery/node2 = null
@@ -3674,7 +3675,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 	var/obj/machinery/vnode1
 	var/obj/machinery/vnode2
-
+	var/plnum = 0
 	invisibility = 101
 	capmult = 0
 	var/flow = 0
@@ -3686,6 +3687,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'wire.dmi'
 	capacity = 10.0
 	p_dir = 12.0
+	layer = 3
 /obj/machinery/pipes/high_capacity
 	desc = "A large bore pipe with high capacity."
 	name = "high capacity"
