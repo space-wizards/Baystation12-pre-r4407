@@ -143,8 +143,8 @@ var
 	//Don't set this very much higher then 1024 unless you like inviting people in to DoS your server with message spam
 	const/MAX_MESSAGE_LEN = 1024
 
-	const/shuttle_time_in_station = 180 // 3 minutes in the station
-	const/shuttle_time_to_arrive = 600 // 10 minutes to arrive
+	const/shuttle_time_in_station = 1800 // 3 minutes in the station
+	const/shuttle_time_to_arrive = 6000 // 10 minutes to arrive
 
 	/* Radio shit*/
 	shortradio = 1 //short range radios

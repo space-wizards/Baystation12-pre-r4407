@@ -1,19 +1,18 @@
 /client/proc/Jump(var/area/A in world)
 	set desc = "Area to jump to"
 	set category = "Admin"
-
 	if(!config.crackdown)
 		var/list/L = list()
-		for(var/turf/T in A)
-			if(!T.density)
-				var/clear = 1
-				for(var/obj/O in T)
-					if(O.density)
-						clear = 0
-						break
-				if(clear)
-					L+=T
-
+		for(var/B in A.superarea.areas)
+			for(var/turf/T in B)
+				if(!T.density)
+					var/clear = 1
+					for(var/obj/O in T)
+						if(O.density)
+							clear = 0
+							break
+					if(clear)
+						L+=T
 		usr << "\blue Jumping to [A]!"
 		world.log_admin("[usr.key] jumped to [A]")
 		messageadmins("[usr.key] jumped to [A]")
@@ -26,6 +25,7 @@
 			O.Life()
 	else
 		alert("Admin jumping is disabled.")
+
 
 /client/proc/Jumptomob(var/mob/M in world)
 	set category = "Admin"
@@ -73,16 +73,16 @@
 
 	if(!config.crackdown)
 		var/list/L = list()
-		for(var/turf/T in A)
-			if(!T.density)
-				var/clear = 1
-				for(var/obj/O in T)
-					if(O.density)
-						clear = 0
-						break
-				if(clear)
-					L+=T
-
+		for(var/B in A.superarea.areas)
+			for(var/turf/T in B)
+				if(!T.density)
+					var/clear = 1
+					for(var/obj/O in T)
+						if(O.density)
+							clear = 0
+							break
+					if(clear)
+						L+=T
 		usr << "\blue Done."
 		M.loc = pick(L)
 

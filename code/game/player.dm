@@ -38,7 +38,7 @@ proc/estimate_time(num)
         var/amount = round(num/36000,1)
         return "[amount] hour[amount != 1 ? "s" : ""]"
 
-    else if(num >= 600*3)
+    else if(num >= 60*3)
         //estimate in minutes
         var/amount = round(num/600,1)
         return "[amount] minute[amount != 1 ? "s" : ""]"

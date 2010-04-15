@@ -2969,8 +2969,9 @@
 		var/Dodmg = 0
 		for(var/mob/O in range(3,src)) // when zombie's swarm, they do more damage.
 			if (O.zombie)
-				Dodmg += 8
-		Dodmg -= 8
+				if(!(O.key == usr.key))
+					Dodmg += 8
+
 		if(usr.zombieleader)
 			Dodmg += 8
 		if(Dodmg == 0)
@@ -2980,7 +2981,7 @@
 			hitpoints -= Dodmg
 			if (hitpoints <= 0)
 				usr << text("\blue You claw through the wall.")
-				for(var/mob/O in oviewers())
+				for(var/mob/O in viewers())
 					if ((O.client && !( O.blinded )))
 						O << text("\red [] claws through the wall.", usr)
 				src.state = 0

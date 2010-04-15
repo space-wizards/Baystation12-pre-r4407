@@ -22,6 +22,7 @@
 
 //	if(src.authenticated && src.holder)
 	var/A
+	var/area/C
 	usr.verbs -= /mob/proc/teleport
 	spawn(450)
 		usr.verbs += /mob/proc/teleport
@@ -33,70 +34,70 @@
 			for(var/area/B in world)
 				if(istype(B, /area/engine) && !istype(B, /area/engine/combustion) && !istype(B, /area/engine/cooling) && !istype(B, /area/engine/engine_walls))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA ENGINE")
 		if ("Hallways")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/hallway))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA HALLWAY")
 		if ("Toxins")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/research) && !istype(B, /area/research/medical))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA TOXINS")
 		if ("Storage")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/storage))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA STORAGE")
 		if ("Maintenance")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/maintenance))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA MAINTENANCE")
 		if ("Crew Quarters")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/crewquarters))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA CREW QUARTERS")
 		if ("Medical")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/medical))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA MEDICAL")
 		if ("Security")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/security))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA SECURITY")
 		if ("Chapel")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/chapel))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA CHAPEL")
 		if ("Bridge")
 			var/list/L = list()
 			for(var/area/B in world)
 				if(istype(B, /area/administrative) && !istype(B, /area/administrative/court))
 					L += B
-			A = pick(L)
+			C = pick(L)
 			usr.say("SCYAR NILA BRIDGE")
 
 	var/obj/effects/smoke/Y = new /obj/effects/smoke( usr.loc )
@@ -105,15 +106,16 @@
 	spawn( 0 )
 		Y.Life()
 	var/list/L = list()
-	for(var/turf/T in A)
-		if(!T.density)
-			var/clear = 1
-			for(var/obj/O in T)
-				if(O.density)
-					clear = 0
-					break
-			if(clear)
-				L+=T
+	for(var/B in C.superarea.areas)
+		for(var/turf/T in B)
+			if(!T.density)
+				var/clear = 1
+				for(var/obj/O in T)
+					if(O.density)
+						clear = 0
+						break
+				if(clear)
+					L+=T
 
 //		usr << "\blue Jumping to [A]!"
 //		world.log_admin("[usr.key] jumped to [A]")

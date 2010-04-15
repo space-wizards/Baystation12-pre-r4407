@@ -88,7 +88,7 @@
 			sentmessage = text("<I>[]</I>", sentmessage)
 		if (src.zombie)
 			for(var/mob/M in L)
-				if (M.zombie)
+				if (istype(M, src.type) && (M.zombie))
 					M.show_message(text("<B>[src.rname]</B>: [sentmessage]"), 2)
 				else if (!M.zombie)
 					var/zombiespeak = ""
@@ -99,13 +99,15 @@
 				if (O)
 					O.hear_talk(usr, sentmessage)
 					return
+		if(src.zombie)
+			return
 		if (((src.oxygen && src.oxygen.icon_state == "oxy0") || (!( (istype(T, /turf) || istype(T, /obj/move)) ) || T.oxygen > 0)))
 			for(var/mob/M in L)
 				if (istype(src.wear_mask, /obj/item/weapon/clothing/mask/voicemask))
 					M.show_message(text("<B>[src.name]</B>: [message]"), 2)
 				else if (istype(M, src.type) && (!M.zombie)|| istype(M, /mob/ai) || istype(M, /mob/observer))
 					M.show_message(text("<B>[]</B>[]: []", src.rname, alt_name, sentmessage), 2)
-				else if (istype(M, src.type) && M.zombie)
+				else if (istype(M, src.type) && (M.zombie))
 					if(!(src.key == M.key))
 						M.show_message(text("The human: []", stars(sentmessage)), 2)
 		for(var/obj/O in view(obj_range, null))
