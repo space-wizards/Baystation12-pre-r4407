@@ -40,6 +40,8 @@
 
 // sets the vnode1&2 terminators to the joining machines (or null)
 /obj/machinery/pipeline/proc/setterm()
+	if(!nodes || !nodes.len)
+		return
 
 	//first make sure pipes are oriented correctly
 
