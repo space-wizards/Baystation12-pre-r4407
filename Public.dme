@@ -3,6 +3,26 @@
 // New source code should be placed in .dm files: choose File/New --> Code File.
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+PACKAGE_RSC_NAME: C:\Users\Sukasa\bs12\Public_rsc.zip
+LAST_COMPILE_VERSION: 464.1066
+PACKAGE_DME_DEMO: 
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_RSC_CLEANCHECK: ON
+PACKAGE_DMB_HUB: 
+PACKAGE_TYPE: 2
+PACKAGE_DMB_CLEANCHECK: OFF
+PACKAGE_DME_START: 
+DIR: code code\game code\game\gamemodes\traitor code\game\machinery code\game\machinery\doors code\game\objects\items dist\byond icons maps 
+PACKAGE_DME_NAME: C:\Users\Sukasa\bs12\Public_src.zip
+FILE: maps\Bay Station 12 alpha.dmp
+PACKAGE_DME_INFO: 
+PACKAGE_DMB_NAME: C:\Users\Sukasa\bs12\Public.zip
+LAST_COMPILE_TIME: 1271311473
+PACKAGE_DMB_INFO: 
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -109,6 +129,7 @@
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
+#include "code\takepicture.dm"
 #include "code\atoms\client.dm"
 #include "code\atoms\fakewalls.dm"
 #include "code\atoms\space.dm"
