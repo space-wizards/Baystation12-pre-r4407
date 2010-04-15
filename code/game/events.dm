@@ -94,11 +94,10 @@
 			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm Detected.</FONT>"
 			world << "\red Cen. Com. has detected an approaching ion storm."
 			world << "\red Please check all your radio equipment."
-			radio = 0
+			global.shortradio = 0
 			spawn(rand(1200,3000))
 			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm has passed.</FONT>"
-			radio = 1
-			return
+			global.shortradio = 1
 		//	event = 1
 			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			//world << "\red Cen. Com. has detected high levels of radiation near the station."

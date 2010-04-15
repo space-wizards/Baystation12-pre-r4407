@@ -168,6 +168,7 @@ PACKAGE_DMB_INFO:
 #include "code\game\area\Space Station 13 areas.dm"
 #include "code\game\area\unique.dm"
 #include "code\game\gamemodes\ArmokHole.dm"
+#include "code\game\gamemodes\BaystationRecovery.dm"
 #include "code\game\gamemodes\game_mode.dm"
 #include "code\game\gamemodes\blob\blob.dm"
 #include "code\game\gamemodes\blob\theblob.dm"

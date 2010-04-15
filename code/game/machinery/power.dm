@@ -1061,6 +1061,8 @@
 var/powernet_nextlink_counter = 0
 var/powernet_nextlink_processing = 0
 /proc/powernet_nextlink(var/obj/O, var/num)
+	if(global.powerfailure)
+		return
 	while(powernet_nextlink_processing)
 		sleep(1)
 	var/list/P

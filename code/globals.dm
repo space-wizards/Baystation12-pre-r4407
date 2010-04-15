@@ -147,13 +147,16 @@ var
 	const/shuttle_time_to_arrive = 6000 // 10 minutes to arrive
 
 	/* Radio shit*/
-	radio = 1 //???
+	shortradio = 1 //short range radios
 	longradio = 1 //Whether the comm dish is aligned
+	home = 256  // Direction for com dish.
 
+	/* Event */
+	powerfailure = 0
+	//Gamemode
 	list/humans_left_lol = ""
 	list/zombies_left_lol = ""
 	goal_killer = ""
-	home = 256
 	shuttleleft
 	allowbigbombs = 1
 

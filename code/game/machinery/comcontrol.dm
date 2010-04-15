@@ -91,7 +91,7 @@
 		var/obj/item/weapon/sheet/glass/S = W
 		if(buildstate == 1)
 			if(S.amount >= 2)
-				S.amount--
+				S.amount -= 2
 			else
 				del S
 			buildstate++
@@ -139,6 +139,9 @@
 	else
 		overlays += image('power.dmi', icon_state = "solar_panel", layer = FLY_LAYER)
 		src.dir = angle2dir(ndir)
+	return
+
+/obj/machinery/computer/comdisc/power_change()
 	return
 
 /obj/machinery/computer/comdisc/process()

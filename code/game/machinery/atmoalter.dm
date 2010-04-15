@@ -561,10 +561,11 @@
 	return src.attack_hand(user)
 
 /obj/machinery/atmoalter/canister/attack_hand(var/mob/user as mob)
-	if(src.gas.temperature >= 2300)
-		src.health = 0
-		healthcheck()
-		return
+	if(!allowbigbombs)
+		if(src.gas.temperature >= 2300)
+			src.health = 0
+			healthcheck()
+			return
 	if (src.destroyed)
 		return
 	user.machine = src
@@ -660,10 +661,11 @@ Pipe Valve Status: [ct]<BR>
 	return
 
 /obj/machinery/atmoalter/canister/attackby(var/obj/item/weapon/W as obj, var/mob/user as mob)
-	if(src.gas.temperature >= 2300)
-		src.health = 0
-		healthcheck()
-		return
+	if(!allowbigbombs)
+		if(src.gas.temperature >= 2300)
+			src.health = 0
+			healthcheck()
+			return
 
 	if ((istype(W, /obj/item/weapon/tank) && !( src.destroyed )))
 		if (src.holding)
