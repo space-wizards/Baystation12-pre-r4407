@@ -84,7 +84,8 @@
 	if (Tile.Width() != KSA_MAX_ICON_DIMENSION || Tile.Height() != KSA_MAX_ICON_DIMENSION)
 		world.log << "<B>BASE IMAGE DIMENSIONS ARE NOT [KSA_MAX_ICON_DIMENSION]x[KSA_MAX_ICON_DIMENSION]</B>"
 		world.log << "IF THEY ARE, IT MIGHT BE A BUG"
-		world.log << "At any rate, export failed.  Try restarting the server and resume exporting from [ImageX] [ImageY] [ImageZ]"
+		world.log << "At any rate, export failed.  Try restarting the server"
+		world.log << "then resume exporting from [ImageX] [ImageY] [ImageZ]"
 		sleep(3)
 		return KSA_TERMINALERR
 
@@ -116,6 +117,9 @@
 						Tile.Blend(icon(A.icon, A.icon_state, A.dir, 1, 0), ICON_OVERLAY, ((WorldX - ((ImageX - 1) * KSA_TILES_PER_IMAGE)) * KSA_ICON_SIZE) - 31 + A.pixel_x, ((WorldY - ((ImageY - 1) * KSA_TILES_PER_IMAGE)) * KSA_ICON_SIZE) - 31 + A.pixel_y)
 						HighestDrawnLayer = A.layer
 
+			var/area/Li = Turf.loc
+			if (Li.sd_light_level < 7 && Li.sd_light_level >= 0)
+				Tile.Blend(icon('sd_dark_alpha7.dmi', "[Li.sd_light_level]", SOUTH, 1, 0), ICON_OVERLAY, ((WorldX - ((ImageX - 1) * KSA_TILES_PER_IMAGE)) * KSA_ICON_SIZE) - 31, ((WorldY - ((ImageY - 1) * KSA_TILES_PER_IMAGE)) * KSA_ICON_SIZE) - 31)
 
 	usr << browse(Tile, "window=picture;file=[ImageX]-[ImageY]-[ImageZ].png;display=0")
 

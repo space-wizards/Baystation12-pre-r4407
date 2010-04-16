@@ -5,6 +5,7 @@
 	anchored = 1.0
 	var/status = 1.0
 	var/operating = 0
+	var/spray = 0
 	var/invuln = null
 	var/list/spraydirs
 
@@ -16,13 +17,17 @@
 	if (!operating || !status)
 		icon_state = "sprinkler"
 		return
+
 	if(stat & (NOPOWER|BROKEN))
 		icon_state = "sprinkler"
 		return
-	use_power(75, ENVIRON)
-	var/turf/T = src.loc
+
+	use_power(225, ENVIRON)
 	icon_state = "sprinkler1"
-	var/obj/effects/water/W = new /obj/effects/water( T )
+	spray = !spray
+	if (!spray)		//Halve the spray rate because these things SPAM water
+		return
+	var/obj/effects/water/W = new /obj/effects/water( src.loc )
 	W.dir = pick(spraydirs)
 	spawn( 0 )
 		W.Life()

@@ -498,7 +498,7 @@ turf
 						if(!(A in sd_outside_areas))
 							sd_outside_areas += A
 						A.sd_light_level = light
-						A.sd_LightLevel(light + sd_light_outside,0)
+						A.sd_LightLevel(light + sd_light_outside, 0)
 					else
 						A.sd_LightLevel(light)
 				A.contents += src	// move the turf into the area
@@ -583,7 +583,7 @@ area
 			else
 				luminosity = 0
 
-			sd_darkimage = image(sd_dark_icon,,num2text(level),sd_light_layer)
+			sd_darkimage = image(sd_dark_icon,,num2text(level), sd_light_layer)
 			overlays += sd_darkimage
 
 		ConnectTo(var/area/A)

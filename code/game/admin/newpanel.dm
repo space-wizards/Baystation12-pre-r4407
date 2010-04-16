@@ -342,8 +342,11 @@ proc/apmoblist(client/C)
 						</tr>
 	"}
 	for(var/mob/M in world)
-		if(M.client || M.hadclient)
+		if(M.client)
 			var/foo = "<td><a href=\"byond://?src=\ref[C.holder];changerecord=\ref[M.client.player]\">View Record</a></td>"
+			dat += text("<tr><td>[]</td> <td>[]</td> <td>[]</td>[]</tr>", M.name, M.rname, (M.client ? M.client : "No client"), foo)
+		else if (M.hadclient)
+			var/foo = "<td><i>Logged Out</i></td>"
 			dat += text("<tr><td>[]</td> <td>[]</td> <td>[]</td>[]</tr>", M.name, M.rname, (M.client ? M.client : "No client"), foo)
 	dat += "</table>"
 	return dat
