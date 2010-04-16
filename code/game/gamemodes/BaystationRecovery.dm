@@ -20,7 +20,7 @@
 		if(C.z==1 && prob(40))
 			Wrecks += C
 	for(var/obj/machinery/vehicle/V in world)
-		if(V.z==1)
+		if(V.z==1 && prob(80))
 			Wrecks += V
 	// delete em
 	for(var/obj/O in Wrecks)
@@ -41,6 +41,7 @@
 			M.toxloss = 200
 			M.ex_act(1)
 			M.ex_act(1)
+
 	for(var/mob/human/M in world)
 		if(!M.client)
 			M.toxloss = 200

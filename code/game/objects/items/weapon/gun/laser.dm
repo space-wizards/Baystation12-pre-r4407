@@ -1,3 +1,8 @@
+/obj/item/weapon/gun/energy/laser_gun/update_icon()
+	src.icon = initial(src.icon)
+	src.icon_state = "l_gun[src.charges]"
+	..()
+
 /obj/item/weapon/gun/energy/laser_gun/afterattack(atom/target as mob|obj|turf|area, mob/user as mob, flag)
 	if (usr.clumsy && prob(50))
 		usr << "\red The laser gun blows up in your face."

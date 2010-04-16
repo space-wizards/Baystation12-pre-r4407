@@ -6653,3 +6653,97 @@ Y/N?
 05-27:ACCESS: Logout: 
 05-27:ACCESS: Login: Alemourn from 68.230.207.201
 05-27:ACCESS: They share computer ID's
+12-22:ADMIN: Loading crban_keylist
+12-22:ADMIN: Loading crban_reason
+12-22:ADMIN: Loading crban_time
+12-22:ADMIN: Loading crban_bannedby
+12-22:ADMIN: Loading crban_iplist
+12-22:ADMIN: Loading crban_unbanned
+12-22:ADMIN: Loading crban_ComputerIDs
+12-22:ADMIN: Loading jobban_rank
+12-22:ADMIN: Updating jobbanfile!
+12-22:GAME: Finished building powernets (30 nets)
+12-22:ACCESS: Login: Topkasa from 127.0.0.1
+12-22:GAME: Topkasa entered as Desmond Taggart
+12-22:ADMIN: Topkasa used start_now
+12-22:GAME: starting game of Zombie Outbreak
+12-22:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-22:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-22:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-22:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-22:ADMIN: Topkasa initiated an immediate reboot.
+12-22:ACCESS: Logout: Topkasa
+12-23:ADMIN: Loading crban_keylist
+12-23:ADMIN: Loading crban_reason
+12-23:ADMIN: Loading crban_time
+12-23:ADMIN: Loading crban_bannedby
+12-23:ADMIN: Loading crban_iplist
+12-23:ADMIN: Loading crban_unbanned
+12-23:ADMIN: Loading crban_ComputerIDs
+12-23:ADMIN: Loading jobban_rank
+12-23:ADMIN: Updating jobbanfile!
+12-23:GAME: Finished building powernets (30 nets)
+12-23:ACCESS: Login: Topkasa from 127.0.0.1
+12-23:GAME: Topkasa entered as Desmond Taggart
+12-23:ADMIN: Topkasa used start_now
+12-23:GAME: starting game of extended
+12-23:MATTACK: Desmond Taggart(Topkasa)has grabbed Shorast Traphuman() aggressively (now hands) 
+12-23:ADMIN: Topkasa created /obj/item/weapon/bottle/rejuvenators
+12-23:MATTACK: Desmond Taggart(Topkasa) clicked on Shorast Traphuman() with a syringe
+12-23:MATTACK: Desmond Taggart(Topkasa) injected Shorast Traphuman() with a syringe filled with 
+12-23:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-23:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-23:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-23:MATTACK: Desmond Taggart (Topkasa) attacked Shorast Traphuman() with the taser gun
+12-23:ACCESS: Logout: Topkasa
+12-41:ADMIN: Loading crban_keylist
+12-41:ADMIN: Loading crban_reason
+12-41:ADMIN: Loading crban_time
+12-41:ADMIN: Loading crban_bannedby
+12-41:ADMIN: Loading crban_iplist
+12-41:ADMIN: Loading crban_unbanned
+12-41:ADMIN: Loading crban_ComputerIDs
+12-41:ADMIN: Loading jobban_rank
+12-41:ADMIN: Updating jobbanfile!
+12-41:GAME: Finished building powernets (30 nets)
+12-41:ACCESS: Login: Topkasa from 127.0.0.1
+12-41:GAME: Topkasa entered as Desmond Taggart
+12-41:ADMIN: Topkasa used start_now
+12-41:GAME: starting game of extended
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart (Topkasa) attacked Uvash Woodelf() with the taser gun
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the monkey (fd1d)
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the monkey (fd1d)
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the monkey (fd1d)
+12-41:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+12-41:MATTACK: Desmond Taggart (Topkasa) attacked Uvash Woodelf() with the laser gun
+12-41:ACCESS: Logout: Topkasa
+13-04:ADMIN: Loading crban_keylist
+13-04:ADMIN: Loading crban_reason
+13-04:ADMIN: Loading crban_time
+13-04:ADMIN: Loading crban_bannedby
+13-04:ADMIN: Loading crban_iplist
+13-04:ADMIN: Loading crban_unbanned
+13-04:ADMIN: Loading crban_ComputerIDs
+13-04:ADMIN: Loading jobban_rank
+13-04:ADMIN: Updating jobbanfile!
+13-04:GAME: Finished building powernets (30 nets)
+13-04:ACCESS: Login: Topkasa from 127.0.0.1
+13-04:GAME: Topkasa entered as Desmond Taggart
+13-04:ADMIN: Topkasa used start_now
+13-04:GAME: starting game of extended
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart (Topkasa) attacked Nomal Wallwood() with the taser gun
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:MATTACK: Desmond Taggart(Topkasa)has shot a taser round at the floor
+13-04:ACCESS: Logout: Topkasa
