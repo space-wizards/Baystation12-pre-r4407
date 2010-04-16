@@ -2176,6 +2176,8 @@
 	return
 
 /obj/window/ex_act(severity)
+	if(invincible)
+		return
 	var/B = pick(1,2,3,4)
 	src.hear_sound("sound/damage/glass/impact[B].wav",6)
 	switch(severity)
@@ -2198,6 +2200,8 @@
 	return
 
 /obj/window/blob_act()
+	if(invincible)
+		return
 	if(prob(50))
 		new /obj/item/weapon/shard( src.loc )
 		if(reinf) new /obj/item/weapon/rods( src.loc)
@@ -2225,6 +2229,8 @@
 	return 1
 
 /obj/window/meteorhit()
+	if(invincible)
+		return
 	var/B = pick(1,2,3,4)
 	src.hear_sound("sound/damage/glass/impact[B].wav",6)
 
@@ -2264,7 +2270,9 @@
 	return
 
 /obj/window/attack_hand()
-
+	if(invincible)
+		usr << "can't let you do that starfox"
+		return
 	if (usr.ishulk)
 		var/B = pick(1,2,3,4)
 		src.hear_sound("sound/damage/glass/impact[B].wav",6)
@@ -2294,6 +2302,9 @@
 	return
 
 /obj/window/attack_paw()
+	if(invincible)
+		usr << "can't let you do that starfox"
+		return
 	if (usr.ishulk)
 		var/B = pick(1,2,3,4)
 		src.hear_sound("sound/damage/glass/impact[B].wav",6)
@@ -2310,6 +2321,9 @@
 	return
 
 /obj/window/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(invincible)
+		usr << "can't let you do that starfox"
+		return
 
 	if (istype(W, /obj/item/weapon/chem/beaker))
 		var/obj/item/weapon/chem/beaker/V = W

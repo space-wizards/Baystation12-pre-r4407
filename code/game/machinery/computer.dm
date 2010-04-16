@@ -321,7 +321,9 @@
 	if(traitorused == 1)
 		dat = "This machine is out of action"
 	if(!longradio)
-		dat = "Warning Communication Dish either out of order or is not alligned properly."
+		dat = "<head><title>Communications Console</title></head><body>"
+		dat += "<br>Warning Communication Dish either out of order or is not alligned properly."
+		dat += "<br><A HREF='?src=\ref[user];mach_close=communications'>Close</A> \]"
 	user << browse(dat, "window=communications;size=400x500")
 
 /obj/machinery/computer/communications/proc/interact_ai(var/mob/ai/user as mob)
