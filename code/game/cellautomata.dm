@@ -191,6 +191,7 @@ var/map_loading = 1
 		//as it is still worse at loading full maps than the default.
 		//Still, uncomment it, uncheck the map for compiling, and
 		//the map should still load just fine.
+
 		//QML_loadMap("maps\\Bay Station 12 alpha.dmp",0,0,0)
 
 		load_map_modules()
