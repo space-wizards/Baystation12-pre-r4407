@@ -234,6 +234,9 @@ var/map_loading = 1
 	TELEKINESIS = L2[12]
 	DEAF = L2[13]
 
+	for(var/i = 0, i<3, i++)
+		zombie_genemask += 1<<rand(3*8)//3 blocks * 8 bits per block
+
 	// ****stuff for presistent mode picking
 	var/newmode = null
 

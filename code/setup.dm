@@ -1,3 +1,6 @@
+#define NO_MONKEY_REVIVE 0
+#define ENABLE_ZOMBIE_GENE 0
+
 #define CELLSTANDARD 3600000.0		// gas capacity of cell at STP
 
 #define O2STANDARD 756000.0			// O2 standard value (21%)
