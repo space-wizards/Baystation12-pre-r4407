@@ -1,0 +1,1317 @@
+20-09:ADMIN: Loading crban_keylist
+20-09:ADMIN: Loading crban_reason
+20-09:ADMIN: Loading crban_time
+20-09:ADMIN: Loading crban_bannedby
+20-09:ADMIN: Loading crban_iplist
+20-09:ADMIN: Loading crban_unbanned
+20-09:ADMIN: Loading crban_ComputerIDs
+20-09:ADMIN: Loading jobban_rank
+20-09:ADMIN: Updating jobbanfile!
+20-12:ADMIN: Loading crban_keylist
+20-12:ADMIN: Loading crban_reason
+20-12:ADMIN: Loading crban_time
+20-12:ADMIN: Loading crban_bannedby
+20-12:ADMIN: Loading crban_iplist
+20-12:ADMIN: Loading crban_unbanned
+20-12:ADMIN: Loading crban_ComputerIDs
+20-12:ADMIN: Loading jobban_rank
+20-12:ADMIN: Updating jobbanfile!
+20-12:ACCESS: Login: Headswe from 127.0.0.1
+20-12:GAME: starting game of sandbox
+20-12:ACCESS: Login: Randomonioum from 81.98.50.220
+20-12:OOC: Rando M. Onioum/Randomonioum : Yo
+20-12:OOC: Alucard Whoop/Headswe : Hey :P
+20-12:OOC: Rando M. Onioum/Randomonioum : Whoop
+20-12:ACCESS: Login: Forteen from 70.134.93.231
+20-12:GAME: Forteen entered as Bob Robertson
+20-12:OOC: Alucard Whoop/Headswe : Whoop can i restart?
+20-12:OOC: Alucard Whoop/Headswe : if this work its gonna be awesum.
+20-12:OOC: Rando M. Onioum/Randomonioum : Do eet
+20-12:ADMIN: Headswe initiated an immediate reboot.
+20-12:ACCESS: Logout: Headswe
+20-12:ACCESS: Logout: Randomonioum
+20-12:ACCESS: Logout: Forteen
+20-28:ADMIN: Loading crban_keylist
+20-28:ADMIN: Loading crban_reason
+20-28:ADMIN: Loading crban_time
+20-28:ADMIN: Loading crban_bannedby
+20-28:ADMIN: Loading crban_iplist
+20-28:ADMIN: Loading crban_unbanned
+20-28:ADMIN: Loading crban_ComputerIDs
+20-28:ADMIN: Loading jobban_rank
+20-28:ADMIN: Updating jobbanfile!
+20-28:ACCESS: Login: Forteen from 70.134.93.231
+20-28:ACCESS: Login: Headswe from 127.0.0.1
+20-28:GAME: Headswe entered as Alucard Whoop
+20-28:ACCESS: Login: Randomonioum from 81.98.50.220
+20-28:ADMIN: Headswe used start_now
+20-28:GAME: starting game of sandbox
+20-28:GAME: Forteen entered as Bob Robertson
+20-28:OOC: Rando M. Onioum/Randomonioum : You know, I got a carpel tunnel playing this game.
+20-28:OOC: Alucard Whoop/Headswe : why am i not suprised.
+20-28:OOC: Rando M. Onioum/Randomonioum : Also, I am on the prison station.
+20-28:OOC: Rando M. Onioum/Randomonioum : Somehow
+20-28:OOC: Alucard Whoop/Headswe : did you spawn there?
+20-28:OOC: Rando M. Onioum/Randomonioum : No, I ran there
+20-28:OOC: Rando M. Onioum/Randomonioum : Not sarcasm
+20-28:OOC: Alucard Whoop/Headswe : Come and help me find the invisble mob thingy
+20-28:OOC: Alucard Whoop/Headswe : aka human
+20-28:ADMIN: Randomonioum jumped to AI Upload Chamber
+20-28:OOC: Rando M. Onioum/Randomonioum : ... No I didn&#39;t?
+20-28:ADMIN: Headswe teleported Rando M. Onioum
+20-28:OOC: Rando M. Onioum/Randomonioum : OH GOD
+20-28:SAY: Alucard Whoop/Headswe : Its a ghoast. or something
+20-28:OOC: Rando M. Onioum/Randomonioum : So, what we looking for?
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with the shamwow
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with the shamwow
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with the shamwow
+20-28:ADMIN: Randomonioum has toggled Randomonioum's nodamage to 1
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with Fire Extinguisher
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with Fire Extinguisher
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with Fire Extinguisher
+20-28:MATTACK: Rando M. Onioum(Randomonioum) attcked by Rando M. Onioum(Randomonioum) with Fire Extinguisher
+20-28:OOC: Alucard Whoop/Headswe : something.
+20-28:OOC: Alucard Whoop/Headswe : lets restart again
+20-28:OOC: Rando M. Onioum/Randomonioum : ok...
+20-28:ADMIN: Headswe initiated an immediate reboot.
+20-28:ACCESS: Logout: Forteen
+20-28:ACCESS: Logout: Headswe
+20-28:ACCESS: Logout: Randomonioum
+20-34:ADMIN: Loading crban_keylist
+20-34:ADMIN: Loading crban_reason
+20-34:ADMIN: Loading crban_time
+20-34:ADMIN: Loading crban_bannedby
+20-34:ADMIN: Loading crban_iplist
+20-34:ADMIN: Loading crban_unbanned
+20-34:ADMIN: Loading crban_ComputerIDs
+20-34:ADMIN: Loading jobban_rank
+20-34:ADMIN: Updating jobbanfile!
+20-34:ACCESS: Login: Forteen from 70.134.93.231
+20-34:ACCESS: Login: Headswe from 127.0.0.1
+20-34:GAME: Headswe entered as Alucard Whoop
+20-34:ADMIN: Headswe used start_now
+20-34:GAME: starting game of sandbox
+20-34:GAME: Forteen entered as Bob Robertson
+20-34:ADMIN: Headswe modified Whoop's name to Whoop
+20-34:SAY: Alucard Whoop/Headswe : Gwad dammit
+20-34:OOC: Alucard Whoop/Headswe : Hey
+20-34:OOC: Bob Robertson/Forteen : Yeah?
+20-34:OOC: Alucard Whoop/Headswe : Restart time again ;P
+20-34:ADMIN: Headswe initiated an immediate reboot.
+20-34:ACCESS: Logout: Headswe
+20-34:ACCESS: Logout: Forteen
+20-43:ADMIN: Loading crban_keylist
+20-43:ADMIN: Loading crban_reason
+20-43:ADMIN: Loading crban_time
+20-43:ADMIN: Loading crban_bannedby
+20-43:ADMIN: Loading crban_iplist
+20-43:ADMIN: Loading crban_unbanned
+20-43:ADMIN: Loading crban_ComputerIDs
+20-43:ADMIN: Loading jobban_rank
+20-43:ADMIN: Updating jobbanfile!
+20-43:ACCESS: Login: Forteen from 70.134.93.231
+20-43:ACCESS: Login: Headswe from 127.0.0.1
+20-43:GAME: Headswe entered as Alucard Whoop
+20-43:ADMIN: Headswe used start_now
+20-43:GAME: starting game of sandbox
+20-43:GAME: Forteen entered as Bob Robertson
+20-43:OOC: Bob Robertson/Forteen : Ordering 50+ boxes of paper
+20-43:ACCESS: Login: Jarhead95 from 79.64.244.195
+20-43:ADMIN: Headswe unbanned segellion.
+20-43:OOC: Alucard Whoop/Headswe : sounds good.
+20-43:ACCESS: Logout: Jarhead95
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by () with the oxygentank
+20-43:SAY: Bob Robertson/Forteen : Can&#39;t find the comp
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by Bob Robertson(Forteen) with the oxygentank
+20-43:ADMIN: Headswe Healed/Revived Forteen
+20-43:SAY: Alucard Whoop/Headswe : Whats up?
+20-43:SAY: Bob Robertson/Forteen : Spawned another disk
+20-43:SAY: Alucard Whoop/Headswe : Trouble with the dish?
+20-43:SAY: Bob Robertson/Forteen : Now its not aligned
+20-43:SAY: Alucard Whoop/Headswe : Ofcourse not.
+20-43:SAY: Bob Robertson/Forteen : Was before
+20-43:SAY: Alucard Whoop/Headswe : its not connected to a computer.
+20-43:OOC: Bob Robertson/Forteen : Its good
+20-43:ACCESS: Login: Andrea the second from 151.33.201.135
+20-43:OOC: Bob Robertson/Forteen : Spawned another?
+20-43:OOC: Alucard Whoop/Headswe : nope
+20-43:OOC: Alucard Whoop/Headswe : and dont spawn another
+20-43:GAME: Andrea the second entered as Elspet Bennet
+20-43:OOC: Elspet Bennet/Andrea the second : hello
+20-43:ACCESS: Login: Falox The Fox from 98.250.42.151
+20-43:GAME: Falox The Fox entered as Falox
+20-43:OOC: Elspet Bennet/Andrea the second : since it is sandbox I suppose there is nothing wrong if I noclip to the comm dish... I really want to see how it works
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:ACCESS: Login: Blainee from 82.23.91.232
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:ACCESS: Login: Xegeth from 77.103.224.146
+20-43:GAME: Xegeth entered as Ashan Selfer
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:OOC: Elspet Bennet/Andrea the second : we are enough for a true round
+20-43:GAME: Blainee entered as EXODUS
+20-43:ADMIN: Andrea the second jumped to Falox
+20-43:OOC: Ashan Selfer/Xegeth : Should we vote to restart now?
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:VOTE: Voting to restart round started by Alucard Whoop/Headswe
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:ADMIN: Andrea the second has toggled Blainee's nodamage to 1
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:ADMIN: Andrea the second Healed/Revived Blainee
+20-43:ADMIN: Andrea the second Healed/Revived Andrea the second
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by Elspet Bennet(Andrea the second) with the oxygentank
+20-43:SAY: Elspet Bennet/Andrea the second : falox kills
+20-43:ADMIN: Headswe Healed/Revived Andrea the second
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:SAY: Alucard Whoop/Headswe : whoop
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:SAY: Elspet Bennet/Andrea the second : whoop too
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by Elspet Bennet(Andrea the second) with Fire Extinguisher
+20-43:MATTACK: Falox(Falox The Fox) attcked by EXODUS(Blainee) with Fire Extinguisher
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:ADMIN: Headswe booted Falox The Fox/Falox.
+20-43:ACCESS: Logout: Falox The Fox
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by EXODUS(Blainee) with the oxygentank
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by EXODUS(Blainee) with the oxygentank
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by EXODUS(Blainee) with the oxygentank
+20-43:MATTACK: EXODUS(Blainee) attcked by Falox(Falox The Fox) with the pen
+20-43:VOTE: Voting closed, result was restart
+20-43:MATTACK: Alucard Whoop(Headswe) attcked by EXODUS(Blainee) with the oxygentank
+20-43:GAME: Rebooting due to restart vote
+20-43:ACCESS: Logout: Forteen
+20-43:ACCESS: Logout: Headswe
+20-43:ACCESS: Logout: Andrea the second
+20-43:ACCESS: Logout: Blainee
+20-43:ACCESS: Logout: Xegeth
+21-03:ADMIN: Loading crban_keylist
+21-03:ADMIN: Loading crban_reason
+21-03:ADMIN: Loading crban_time
+21-03:ADMIN: Loading crban_bannedby
+21-03:ADMIN: Loading crban_iplist
+21-03:ADMIN: Loading crban_unbanned
+21-03:ADMIN: Loading crban_ComputerIDs
+21-03:ADMIN: Loading jobban_rank
+21-03:ADMIN: Updating jobbanfile!
+21-03:ACCESS: Login: Headswe from 127.0.0.1
+21-03:ACCESS: Login: Xegeth from 77.103.224.146
+21-03:ACCESS: Login: Falox The Fox from 98.250.42.151
+21-03:ACCESS: Login: Blainee from 82.23.91.232
+21-03:GAME: Xegeth entered as Ashan Selfer
+21-03:GAME: Falox The Fox entered as Falox
+21-03:GAME: Blainee entered as EXODUS
+21-03:ACCESS: Login: Andrea the second from 151.33.201.135
+21-03:ACCESS: Login: Forteen from 70.134.93.231
+21-03:SAY: Falox/Falox The Fox : What&#39;s the game mode?
+21-03:GAME: Andrea the second entered as Elspet Bennet
+21-03:OOC: Falox/Falox The Fox : What&#39;s the game mode going to be?
+21-03:VOTE: Voting to change mode started by Ashan Selfer/Xegeth
+21-03:GAME: Headswe entered as Alucard Whoop
+21-03:OOC: Alucard Whoop/Headswe : Dont grief because i will fucking ban you.
+21-03:GAME: Forteen entered as Bob Robertson
+21-03:ACCESS: Login: Chamango from 87.244.80.82
+21-03:OOC: Falox/Falox The Fox : Vote for IT.
+21-03:OOC: Falox/Falox The Fox : It&#39;s random.
+21-03:OOC: Falox/Falox The Fox : And more fun.
+21-03:OOC: Falox/Falox The Fox : Are you talking to me?
+21-03:VOTE: Voting closed, result was it
+21-03:GAME: Chamango entered as Cog Mclever
+21-03:ADMIN: Headswe delayed the game.
+21-03:ADMIN: Headswe set the mode as random.
+21-03:ADMIN: Headswe set the mode as secret.
+21-03:OOC: Alucard Whoop/Headswe : Yes.
+21-03:OOC: Falox/Falox The Fox : Why are you getting angry at me???
+21-03:OOC: Alucard Whoop/Headswe : Starting game in 1
+21-03:OOC: Alucard Whoop/Headswe : 2
+21-03:OOC: Alucard Whoop/Headswe : 3
+21-03:ADMIN: Headswe used start_now
+21-03:GAME: starting game of nuclear emergency
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Xegeth from 77.103.224.146
+21-03:ACCESS: They share computer ID's
+21-03:SAY: Friend Computer/Xegeth : Greetings humans.
+21-03:SAY: Alucard Whoop/Headswe : ; AI please try out the newly installed alert-o-matic 2000
+21-03:SAY: Friend Computer/Xegeth : Violence detected in AI Upload Chamber
+21-03:SAY: Syndicate Leader/Forteen : Captain&#39;s got it
+21-03:SAY: Syndicate Operative #2/Andrea the second : what is the plan?
+21-03:SAY: Syndicate Leader/Forteen : Comm
+21-03:SAY: Falox/Falox The Fox : Hello everyone, This is your Captain speaking.
+21-03:SAY: Syndicate Leader/Forteen : Blow it up
+21-03:SAY: Friend Computer/Xegeth : Alert is functional.
+21-03:SAY: Syndicate Leader/Forteen : THen hunt the captain down
+21-03:SAY: Friend Computer/Xegeth : Discard message.
+21-03:OOC: Alucard Whoop/Headswe : Btw you can right click and select the area and choose alarm
+21-03:SAY: Alucard Whoop/Headswe : ; Cap?
+21-03:SAY: Falox/Falox The Fox : Yes?
+21-03:SAY: Friend Computer/Xegeth : Plasma research does not appear to be in use. Shut down?
+21-03:SAY: Alucard Whoop/Headswe : ; Yes
+21-03:SAY: Syndicate Operative #2/Andrea the second : captain? what is the plan? should we use bombs to kill important parts of station?
+21-03:SAY: Syndicate/Forteen : Bomb the comms
+21-03:SAY: Syndicate/Forteen : Then hunt down the captain
+21-03:SAY: Syndicate/Forteen : I&#39;ll cause chaos by messing with the crew
+21-03:SAY: Falox/Falox The Fox : I have hidden all of my items in different areas.
+21-03:SAY: Alucard Whoop/Headswe : ; Ai i saw some damage on the outside and im gonna go and check on it
+21-03:SAY: Syndicate/Forteen : YOu find and get the disk
+21-03:SAY: Syndicate Operative #2/Andrea the second : and the AI? should we bomb it too?
+21-03:SAY: Syndicate/Forteen : Yes
+21-03:SAY: Falox/Falox The Fox : My Nuke disk is still in my room.
+21-03:SAY: Syndicate Operative #2/Andrea the second : I volunteer for the bombing
+21-03:SAY: Syndicate/Forteen : I&#39;ll get the comm
+21-03:ACCESS: Logout: Blainee
+21-03:SAY: Syndicate/Forteen : Let&#39;s dress on the shuttle
+21-03:SAY: Friend Computer/Xegeth : Warning, lockers are unlocked in the captain&#39;s quarters.
+21-03:SAY: Falox/Falox The Fox : I need some medical attention.
+21-03:SAY: Friend Computer/Xegeth : Warning, unlocked lockers in HoP quarters.
+21-03:SAY: Syndicate/Forteen : Looks like it&#39;s just the two of us
+21-03:SAY: Syndicate/Forteen : Let&#39;s get on the shuttle
+21-03:SAY: Alucard Whoop/Headswe : ; cap
+21-03:SAY: Alucard Whoop/Headswe : ; what did you need help with it?
+21-03:SAY: Syndicate/Forteen : ;YOu here?
+21-03:SAY: Syndicate/Andrea the second : ; wait
+21-03:SAY: Alucard Whoop/Headswe : Hey
+21-03:SAY: Friend Computer/Xegeth : Warning, com disk cannot be aligned.
+21-03:SAY: Cog Mclever/Chamango : Ahoy
+21-03:SAY: Syndicate/Andrea the second : did you take the bombs?
+21-03:SAY: Alucard Whoop/Headswe : ; Why not?
+21-03:SAY: Syndicate/Andrea the second : ; did you take the bombs? 
+21-03:SAY: Syndicate/Forteen : ;Yeah
+21-03:SAY: Friend Computer/Xegeth : Angle cannot be found.
+21-03:SAY: Syndicate/Andrea the second : I&#39;ll need at least 2...
+21-03:SAY: Falox/Falox The Fox : What is going on?
+21-03:OOC: Alucard Whoop/Headswe : i think i broke the com disc ,P
+21-03:SAY: Syndicate/Forteen : I&#39;ll get one
+21-03:SAY: Friend Computer/Xegeth : It is assumed that all angles would need to be checked, not just every 15. This would take time away from other duties.
+21-03:OOC: Falox/Falox The Fox : Nice.. 
+21-03:SAY: Syndicate/Andrea the second : ; nobody else?
+21-03:SAY: Syndicate/Forteen : We leave that idiot behind
+21-03:SAY: Falox/Falox The Fox : Mr. Janitor.
+21-03:SAY: Friend Computer/Xegeth : Lockers are still unlocked.
+21-03:SAY: Cog Mclever/Chamango : Yes?
+21-03:OOC: Alucard Whoop/Headswe : Ai can still call it
+21-03:SAY: Falox/Falox The Fox : Why do you have a Bio Suit on..?
+21-03:SAY: Syndicate/Andrea the second : how much will it take?
+21-03:SAY: Syndicate/Forteen : Get the AI, I&#39;ll get the comm
+21-03:SAY: Syndicate/Forteen : Maybe two
+21-03:SAY: Syndicate/Andrea the second : ok
+21-03:SAY: Syndicate/Forteen : For the AI
+21-03:SAY: Syndicate/Forteen : One to get in, the other to actually hit it
+21-03:ADMIN: Headswe/Alucard Whoop : Are you in the syndie if so whats takeing so damm long?
+21-03:SAY: Cog Mclever/Chamango : It was in my locker, and we&#39;re in a crisis
+21-03:SAY: Syndicate/Andrea the second : we cripple both soon, and station should go down easily. do you have a cloak?
+21-03:SAY: Friend Computer/Xegeth : Irregular Atmospherical Conditions detected in East Solar Panels
+21-03:SAY: Falox/Falox The Fox : Er.. Okay.
+21-03:SAY: Syndicate/Forteen : Don&#39;t need one
+21-03:ADMIN: Headswe jumped to Syndicate Operative #1
+21-03:ADMIN: PM: Andrea the second->Headswe : taking so long? we just finished loading the shuttle and are travelling. blame the syndi who left
+21-03:SAY: Syndicate/Forteen : Need to give them a chance
+21-03:SAY: Friend Computer/Xegeth : Warning, captain is armed with multiple weapons.
+21-03:ADMIN: Headswe jumped to Tool Storage
+21-03:SAY: Falox/Falox The Fox : What happened.. Is there any life signs out there?
+21-03:ADMIN: Headswe jumped to the monkey (7a28)
+21-03:SAY: Syndicate/Forteen : Want a taser?
+21-03:SAY: Syndicate/Andrea the second : I have a revolver and an energy sword
+21-03:ADMIN: PM: Headswe->Andrea the second : Oh lol.
+21-03:SAY: Syndicate/Forteen : Taser is better
+21-03:SAY: Friend Computer/Xegeth : No problems detected. Cause of loss of temperature unknown.
+21-03:SAY: Falox/Falox The Fox : Thank you A.I.
+21-03:SAY: Friend Computer/Xegeth : Engine not lit. Please light.
+21-03:SAY: Friend Computer/Xegeth : Hull Breach detected in Commmunication&#39;s Control
+21-03:SAY: Friend Computer/Xegeth : Bomb!
+21-03:SAY: Friend Computer/Xegeth : Irregular Atmospherical Conditions detected in South Hallway
+21-03:SAY: Friend Computer/Xegeth : Hull Breach detected in South Hallway
+21-03:MATTACK: Alucard Whoop(Headswe)has shot a taser round at the floor
+21-03:SAY: Friend Computer/Xegeth : Damage detected.
+21-03:SAY: Friend Computer/Xegeth : I am damaged.
+21-03:SAY: Falox/Falox The Fox : Are any weapons needed? Stun Or Lethal?
+21-03:SAY: Friend Computer/Xegeth : Hull Breach detected in Bridge
+21-03:ADMIN: PM: Andrea the second->Headswe : did you stun me?
+21-03:SAY: Friend Computer/Xegeth : Multiple intruders.
+21-03:SAY: Friend Computer/Xegeth : Bridge in danger.
+21-03:SAY: Syndicate Operative #2/Andrea the second : may I get my backpack back?
+21-03:ADMIN: PM: Headswe->Andrea the second : yep and you took a bomb hit
+21-03:SAY: Friend Computer/Xegeth : It is sealed.
+21-03:SAY: Alucard Whoop/Headswe : ; Cap?
+21-03:SAY: Falox/Falox The Fox : Yes?
+21-03:SAY: Alucard Whoop/Headswe : ; I caught someone
+21-03:SAY: Falox/Falox The Fox : Where are you?
+21-03:SAY: Alucard Whoop/Headswe : ; South security
+21-03:ADMIN: PM: Andrea the second->Headswe : I wish I could close the timing window after I start the timer. it makes seeing other things VERY hard
+21-03:SAY: Falox/Falox The Fox : Im in need of a oxy. tank.
+21-03:ADMIN: PM: Headswe->Andrea the second : i need to look into that.
+21-03:SAY: Syndicate Operative #2/Andrea the second : *deathgasp
+21-03:SAY: Alucard Whoop/Headswe : ; Got one here cap
+21-03:SAY: Alucard Whoop/Headswe : ; oh god.
+21-03:SAY: Alucard Whoop/Headswe : ; that pill he had.
+21-03:SAY: Alucard Whoop/Headswe : ; he ate it
+21-03:SAY: Friend Computer/Xegeth : Call shuttle?
+21-03:SAY: Alucard Whoop/Headswe : ; hes dead now
+21-03:SAY: Falox/Falox The Fox : Yes.
+21-03:SAY: Friend Computer/Xegeth : Captain&#39;s quarters being entered.
+21-03:SAY: Alucard Whoop/Headswe : ; Cap i got internals for you in sotuh security
+21-03:SAY: Alucard Whoop/Headswe : ; by whom?
+21-03:SAY: Syndicate/Forteen : ;I thought you got the AI?
+21-03:SAY: Friend Computer/Xegeth : Unknown.
+21-03:ACCESS: Login: Randomonioum from 81.98.50.220
+21-03:SAY: Falox/Falox The Fox :  Why is it blocked off?
+21-03:SAY: Friend Computer/Xegeth : Human not in records. He has sealed it.
+21-03:SAY: Falox/Falox The Fox : Unseal it.
+21-03:SAY: Friend Computer/Xegeth : EVA recommended.
+21-03:SAY: Friend Computer/Xegeth : I cannot. It is a wall.
+21-03:ADMIN: PM: Andrea the second->Headswe : I know I shouldn't ask, but did I manage to destroy AI?
+21-03:SAY: Falox/Falox The Fox : Oh..
+21-03:SAY: Falox/Falox The Fox : Sorry.
+21-03:ADMIN: PM: Headswe->Andrea the second : nop
+21-03:ADMIN: PM: Headswe->Andrea the second : crap.
+21-03:ADMIN: PM: Headswe->Andrea the second : insta ko from space.
+21-03:SAY: Friend Computer/Xegeth : Wall being destroyed.
+21-03:ADMIN: PM: Headswe->Andrea the second : never happend before.
+21-03:ADMIN: PM: Headswe->Andrea the second : im still warm oddly enough
+21-03:ADMIN: PM: Headswe->Andrea the second : fuck
+21-03:ADMIN: PM: Headswe->Andrea the second : brb
+21-03:SAY: Syndicate/Forteen : ;You there?
+21-03:SAY: Syndicate Operative #2/Andrea the second : caught
+21-03:SAY: Syndicate Operative #2/Andrea the second : ; they got me
+21-03:SAY: Falox/Falox The Fox : Where are any lifeforms. Give me the areas by who is not in our database.
+21-03:MATTACK: Syndicate Operative #2(Andrea the second) attcked by Syndicate Operative #2(Andrea the second) with Gaming Kit
+21-03:SAY: Friend Computer/Xegeth : Bridge.
+21-03:MATTACK: Syndicate Operative #2(Andrea the second) attcked by Syndicate Operative #2(Andrea the second) with Gaming Kit
+21-03:SAY: Syndicate/Forteen : ;You&#39;re dead, aren&#39;t you?
+21-03:SAY: Syndicate Operative #2/Andrea the second : NOOO!
+21-03:SAY: Friend Computer/Xegeth : South security.
+21-03:SAY: Syndicate/Forteen : ;Now the crew has your cloak and your energy sword
+21-03:SAY: Friend Computer/Xegeth : End of report.
+21-03:SAY: Syndicate/Forteen : ;Just great
+21-03:SAY: Falox/Falox The Fox : I need a Oxygen tank!
+21-03:ADMIN: PM: Andrea the second->Headswe : I wish gaming kits did damage
+21-03:SAY: Friend Computer/Xegeth : Dead human near com dish.
+21-03:ACCESS: Login: Beorn080 from 173.59.74.11
+21-03:SAY: Syndicate Operative #2/Andrea the second : hello
+21-03:MATTACK: Falox(Falox The Fox) attcked by Syndicate Operative #2(Andrea the second) with the laser gun
+21-03:SAY: Falox/Falox The Fox : Am I the only one left?
+21-03:SAY: Falox/Falox The Fox : I need that.
+21-03:SAY: Cog Mclever/Chamango : ;theres me
+21-03:SAY: Cog Mclever/Chamango : the tank?
+21-03:SAY: Falox/Falox The Fox : Yes.
+21-03:SAY: Falox/Falox The Fox : I need to get to them
+21-03:SAY: Cog Mclever/Chamango : No problem
+21-03:SAY: Friend Computer/Xegeth : Captain&#39;s quarters breached.
+21-03:MATTACK: Falox(Falox The Fox)has shot a taser round at the floor
+21-03:SAY: Syndicate Operative #2/Andrea the second : HELP!
+21-03:MATTACK: Syndicate Leader(Forteen) attcked by Friend Computer(Xegeth) with the revolver
+21-03:SAY: Friend Computer/Xegeth : I am gone.
+21-03:SAY: Syndicate/Forteen : Hi there
+21-03:SAY: Falox/Falox The Fox : Take that.
+21-03:SAY: Falox/Falox The Fox : Protect yourself.
+21-03:OOC: Rando M. Onioum/Randomonioum : Syndiefail
+21-03:SAY: Friend Computer/Xegeth : Do I still exist?
+21-03:SAY: Friend Computer/Xegeth : Ah. Dead.
+21-03:SAY: Rando M. Onioum/Randomonioum : Yep
+21-03:MATTACK: Falox(Falox The Fox)has shot a taser round at the pipes
+21-03:SAY: Syndicate Operative #2/Andrea the second : help
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Xegeth from 77.103.224.146
+21-03:ACCESS: They share computer ID's
+21-03:SAY: Ghost/Xegeth : In the past, didn&#39;t the AI stay alive all game?
+21-03:MATTACK: Falox(Falox The Fox)has shot a taser round at Syndicate Operative #2
+21-03:MATTACK: Falox(Falox The Fox)has shot a taser round at the floor
+21-03:SAY: Rando M. Onioum/Randomonioum : Yep
+21-03:ACCESS: Login: Hamper700 from 92.8.23.34
+21-03:OOC: Falox/Falox The Fox : Damn 
+21-03:GAME: Hamper700 entered as Carter Wood
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Falox The Fox from 98.250.42.151
+21-03:ACCESS: They share computer ID's
+21-03:OOC: Syndicate Operative #2/Andrea the second : what happened to that rom?
+21-03:OOC: Falox/Falox The Fox : A.I. did you die?
+21-03:SAY: Captain/Forteen : ;You&#39;re all going to die now
+21-03:OOC: Falox/Falox The Fox : Whoever the A.I. was.
+21-03:SAY: Ghost/Falox The Fox : Were all already dead.
+21-03:SAY: Syndicate Operative #2/Andrea the second : hello
+21-03:OOC: Friend Computer/Xegeth : Isn&#39;t that IC in OOC?
+21-03:SAY: Ghost/Xegeth : Hi.
+21-03:SAY: Carter Wood/Hamper700 : well ill be damned
+21-03:SAY: Syndicate Operative #2/Andrea the second : why did you try so hard to kill me? you just ended killing yourself
+21-03:SAY: Syndicate Operative #2/Andrea the second : left in prison, I would have been harmless
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Chamango from 87.244.80.82
+21-03:ACCESS: They share computer ID's
+21-03:OOC: Falox/Falox The Fox : No.
+21-03:OOC: Falox/Falox The Fox : I was just asking a questing..
+21-03:SAY: Ghost/Falox The Fox : I wanted to kill you.
+21-03:SAY: Ghost/Falox The Fox : You were a threat.
+21-03:SAY: Syndicate Operative #2/Andrea the second : it seem you bneeded that oxygen tank to survive
+21-03:OOC: Friend Computer/Xegeth : I meant, if I gave an answer, anyone still alive would get extra information.
+21-03:SAY: Ghost/Falox The Fox : ayaep
+21-03:SAY: Syndicate Operative #2/Andrea the second : I only wish energy sword wasn&#39;t so small.. if I could kill you...
+21-03:OOC: Falox/Falox The Fox : It&#39;s just a game anyways.
+21-03:OOC: Falox/Falox The Fox : Not that much of a epic big deal. 
+21-03:ACCESS: Login: Malanth from 198.237.179.254
+21-03:OOC: Falox/Falox The Fox : You could just PM me.
+21-03:OOC: Friend Computer/Xegeth : If you&#39;re dead, you can ask in dead chat anyway.
+21-03:GAME: Malanth entered as Gina Loraine
+21-03:SAY: Gina Loraine/Malanth : So
+21-03:SAY: Gina Loraine/Malanth : Sup
+21-03:SAY: Ghost/Chamango : sup
+21-03:SAY: Rando M. Onioum/Randomonioum : Yo
+21-03:SAY: Ghost/Falox The Fox : Did they get the nuke device?
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Malanth from 198.237.179.254
+21-03:ACCESS: They share computer ID's
+21-03:SAY: Ghost/Malanth : Dunno
+21-03:SAY: Syndicate Operative #2/Andrea the second : no
+21-03:SAY: Rando M. Onioum/Randomonioum : Observe the nuclear disc
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Malanth from 198.237.179.254
+21-03:ACCESS: They share computer ID's
+21-03:SAY: Syndicate Operative #2/Andrea the second : still on captain&#39;s body
+21-03:SAY: Ghost/Falox The Fox : That&#39;s cuz&#39; im cool.
+21-03:SAY: Rando M. Onioum/Randomonioum : What the hell is this guy doing, he has the captains ID
+21-03:SAY: Ghost/Falox The Fox : Can the A.I. call the shuttle.
+21-03:ACCESS: Logout: Malanth
+21-03:SAY: Rando M. Onioum/Randomonioum : yes
+21-03:SAY: Ghost/Xegeth : Some doors were bolted. Not that one though.
+21-03:SAY: Syndicate Operative #2/Andrea the second : he is looking for the disk
+21-03:SAY: Syndicate Operative #2/Andrea the second : I think we have no pinpointers
+21-03:SAY: Rando M. Onioum/Randomonioum : I can fix that
+21-03:SAY: Ghost/Falox The Fox : I have that.
+21-03:SAY: Ghost/Falox The Fox : I have it all.
+21-03:ADMIN: Randomonioum/Rando M. Onioum : Yo, can I hurry the game along by spawning the guy a pinpointer?
+21-03:SAY: Syndicate Operative #2/Andrea the second : syndi should have pinpointers too. 
+21-03:ADMIN: PM: Andrea the second->Randomonioum : I have nothing against it. but it will end soo nanyway
+21-03:SAY: Ghost/Xegeth : I thought they were in the starting area.
+21-03:ADMIN: PM: Andrea the second->Randomonioum : he can see captain from the window. he just have to walk in that corridor
+21-03:ADMIN: Randomonioum created /obj/item/weapon/pinpointer
+21-03:ACCESS: Logout: 
+21-03:ACCESS: Login: Randomonioum from 81.98.50.220
+21-03:SAY: Ghost/Xegeth : You still have three in one of the weapons lockers.
+21-03:ADMIN: Randomonioum created /obj/item/weapon/pinpointer
+21-03:SAY: Captain/Forteen : ;Oh hey
+21-03:SAY: Captain/Forteen : ;You guys are all dead for real now
+21-03:MATTACK: Captain(Forteen)has shot a taser round at the floor
+21-03:SAY: Ghost/Falox The Fox : I&#39;ll be back.
+21-03:OOC: Falox/Falox The Fox : I&#39;ll be back soon everyone.
+21-03:SAY: Carter Wood/Hamper700 : Damn
+21-03:OOC: Captain/Forteen : How dod everyone die?
+21-03:OOC: Rando M. Onioum/Randomonioum : PREPARE FOR LAG IN 3...2....1
+21-03:OOC: Captain/Forteen : Doesn&#39;t blow up
+21-03:OOC: Friend Computer/Xegeth : I was shot with a revolver. As AI.
+21-03:OOC: Rando M. Onioum/Randomonioum : fucking...
+21-03:OOC: Captain/Forteen : Yeah, I did that
+21-03:OOC: Carter Wood/Hamper700 : eh hem
+21-03:ACCESS: Logout: Xegeth
+21-03:ACCESS: Logout: Headswe
+21-03:ACCESS: Logout: Falox The Fox
+21-03:ACCESS: Logout: Randomonioum
+21-03:ACCESS: Logout: Andrea the second
+21-03:ACCESS: Logout: Forteen
+21-03:ACCESS: Logout: Chamango
+21-03:ACCESS: Logout: Beorn080
+21-03:ACCESS: Logout: Hamper700
+21-45:ADMIN: Loading crban_keylist
+21-45:ADMIN: Loading crban_reason
+21-45:ADMIN: Loading crban_time
+21-45:ADMIN: Loading crban_bannedby
+21-45:ADMIN: Loading crban_iplist
+21-45:ADMIN: Loading crban_unbanned
+21-45:ADMIN: Loading crban_ComputerIDs
+21-45:ADMIN: Loading jobban_rank
+21-45:ADMIN: Updating jobbanfile!
+21-45:ACCESS: Login: Forteen from 70.134.93.231
+21-45:ACCESS: Login: Chamango from 87.244.80.82
+21-45:ACCESS: Login: Andrea the second from 151.33.201.135
+21-45:ACCESS: Login: Xegeth from 77.103.224.146
+21-45:ACCESS: Login: Hamper700 from 92.8.23.34
+21-45:GAME: Xegeth entered as Ashan Selfer
+21-45:GAME: Andrea the second entered as Elspet Bennet
+21-45:GAME: Hamper700 entered as Carter Wood
+21-45:GAME: Chamango entered as John StJohn
+21-45:OOC: Carter Wood/Hamper700 : i blew myself up with mustard gas
+21-45:OOC: Elspet Bennet/Andrea the second : I was killed by headswe... just after I threw the second bomb. 
+21-45:GAME: Forteen entered as Bob Robertson
+21-45:OOC: Elspet Bennet/Andrea the second : well, actually he just captured me. captain killed me later, but I killed him too
+21-45:ACCESS: Login: Coaxxe from 67.237.170.166
+21-45:GAME: Coaxxe entered as Elisa Rodriguez
+21-45:OOC: Elspet Bennet/Andrea the second : hmm...
+21-45:OOC: Elisa Rodriguez/Coaxxe : hi
+21-45:OOC: Ashan Selfer/Xegeth : Hi.
+21-45:OOC: Carter Wood/Hamper700 : why they mentions zombies in MOTD?
+21-45:VOTE: Voting to change mode started by Elisa Rodriguez/Coaxxe
+21-45:OOC: Ashan Selfer/Xegeth : Because there&#39;s a zombie mode?
+21-45:GAME: starting game of traitor
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: Xegeth from 77.103.224.146
+21-45:ACCESS: They share computer ID's
+21-45:SAY: Carter Wood/Hamper700 : oh 
+21-45:SAY: Carter Wood/Hamper700 : zombie mode
+21-45:OOC: Carter Wood/Hamper700 : oh theres a zombie mode
+21-45:ACCESS: Login: Headswe from 127.0.0.1
+21-45:GAME: Headswe entered as Alucard Whoop
+21-45:OOC: Alucard Whoop/Headswe : Yo
+21-45:OOC: Friend Computer/Xegeth : That vote should probably be cancelled.
+21-45:ADMIN: Voting aborted by Headswe
+21-45:OOC: Friend Computer/Xegeth : Thanks.
+21-45:OOC: Elspet Bennet/Andrea the second : I can&#39;t close the side panel with belt, gloves, head, etc...
+21-45:SAY: Friend Computer/Xegeth : Greetings humans.
+21-45:SAY: Elspet Bennet/Andrea the second : ; greeting, siliceous being
+21-45:OOC: Alucard Whoop/Headswe : You sad because of that?
+21-45:OOC: Bob Robertson/Forteen : Can&#39;t close intent either?
+21-45:OOC: Alucard Whoop/Headswe : i never close it personlly.
+21-45:ADMIN: Headswe modified other's layer to 53
+21-45:OOC: Elspet Bennet/Andrea the second : can&#39;t close itnent either
+21-45:OOC: Alucard Whoop/Headswe : there you go.
+21-45:ADMIN: Headswe modified intent's layer to 53
+21-45:SAY: Elspet Bennet/Andrea the second : want to see a cool thing?
+21-45:SAY: Friend Computer/Xegeth : Warning. We appear to lack an engineer.
+21-45:ACCESS: Login: Beorn080 from 173.59.74.11
+21-45:SAY: John StJohn/Chamango : Absolutely hey
+21-45:SAY: Friend Computer/Xegeth : Plasma lab not in use. Disable?
+21-45:SAY: Elspet Bennet/Andrea the second : hehe
+21-45:SAY: Carter Wood/Hamper700 : AI
+21-45:OOC: Elspet Bennet/Andrea the second : thanks head
+21-45:SAY: Friend Computer/Xegeth : Yes?
+21-45:SAY: Carter Wood/Hamper700 : why is my supply office dish not online?
+21-45:SAY: Friend Computer/Xegeth : I can attempt to enable it.
+21-45:SAY: Carter Wood/Hamper700 : communications disk?
+21-45:SAY: Carter Wood/Hamper700 : dish sorry dish
+21-45:ACCESS: Login: Linkdawolf from 69.133.198.41
+21-45:SAY: John StJohn/Chamango : The hell?
+21-45:SAY: Friend Computer/Xegeth : Connection established.
+21-45:SAY: Carter Wood/Hamper700 : Thank You AI
+21-45:OOC: Drew Bryde/Linkdawolf : Holy shit thats alot of text..
+21-45:SAY: Elspet Bennet/Andrea the second : try jumping in
+21-45:SAY: Friend Computer/Xegeth : Seal plasma lab?
+21-45:SAY: Elisa Rodriguez/Coaxxe : What the hell happened to my bucket
+21-45:SAY: Alucard Whoop/Headswe : ; WHAT THE FUCK?
+21-45:SAY: Alucard Whoop/Headswe : ; i was just moved from one place to another
+21-45:SAY: Friend Computer/Xegeth : Warning. Do not use teleporters.
+21-45:SAY: Alucard Whoop/Headswe : ; HELP
+21-45:SAY: Alucard Whoop/Headswe : ; PROTO
+21-45:SAY: Elspet Bennet/Andrea the second : ; of course AI
+21-45:OOC: Alucard Whoop/Headswe : super ooc time.
+21-45:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+21-45:OOC: Alucard Whoop/Headswe : Who the fuck is laying hand teleporter traps?
+21-45:SAY: Friend Computer/Xegeth : Multiple humans in prototype engine.
+21-45:OOC: HELP: Elspet Bennet/Andrea the second : the traitor
+21-45:SAY: Friend Computer/Xegeth : Immediate help requested.
+21-45:OOC: Alucard Whoop/Headswe : nevermind.
+21-45:OOC: Alucard Whoop/Headswe : off to play AC2
+21-45:ADMIN: PM: Headswe->Andrea the second : whoop
+21-45:ACCESS: Logout: Linkdawolf
+21-45:SAY: Elspet Bennet/Andrea the second : ; somebody to EVA, soon!
+21-45:OOC: Cog Crossbowcrossbow/Beorn080 : AC2?
+21-45:OOC: Cog Crossbowcrossbow/Beorn080 : Armored Core?
+21-45:SAY: Friend Computer/Xegeth : Teleporter and EVA open.
+21-45:SAY: Friend Computer/Xegeth : Hurry.
+21-45:OOC: Cog Crossbowcrossbow/Beorn080 : Meh. I have an announcement. The Flea is a kick ass mech and should be respected in MP3.1. That is all
+21-45:SAY: Friend Computer/Xegeth : Warning. Captain may be a threat.
+21-45:GAME: SPARTAN-113 entered as Ender Riley
+21-45:SAY: Friend Computer/Xegeth : Orange pill spotted.
+21-45:SAY: Elspet Bennet/Andrea the second : I can tewleport you
+21-45:SAY: Friend Computer/Xegeth : Captain is a threat.
+21-45:SAY: Friend Computer/Xegeth : Help needed in EVA.
+21-45:SAY: Friend Computer/Xegeth : Violence detected in EVA Storage
+21-45:MATTACK: Elspet Bennet(Andrea the second)has grabbed John StJohn(Chamango) aggressively (now hands) 
+21-45:SAY: John StJohn/Chamango : Help, someone?
+21-45:SAY: Friend Computer/Xegeth : Please help.
+21-45:MATTACK: Ender Riley(SPARTAN-113) attcked by John StJohn(Chamango) with the toolbox
+21-45:ACCESS: Login: Orb370 from 4.229.192.116
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Ender Riley(SPARTAN-113) with the pen
+21-45:SAY: Friend Computer/Xegeth : Multiple humans harmed.
+21-45:SAY: Carter Wood/Hamper700 : on my way
+21-45:MATTACK: Elspet Bennet(Andrea the second)has grabbed Ender Riley(SPARTAN-113) aggressively (now hands) 
+21-45:GAME: Orb370 entered as Cog Swordwall
+21-45:SAY: Carter Wood/Hamper700 : AI im gonna need some gear
+21-45:OOC: Cog Swordwall/Orb370 : I find it strange that the shuttle is half the time &#34;called&#34; as soon as I spawn.
+21-45:SAY: Carter Wood/Hamper700 : If you want my help
+21-45:OOC: HELP: Ender Riley/SPARTAN-113 : Uh, I call grief on this, I was just killed after arriving on the station...
+21-45:SAY: Cog Swordwall/Orb370 : ; Er...whats happening?
+21-45:SAY: Friend Computer/Xegeth : Crew in serious danger. Shuttle has been called.
+21-45:SAY: Friend Computer/Xegeth : Beware of the captain.
+21-45:SAY: Cog Swordwall/Orb370 : ; Okey Dokey.
+21-45:SAY: Carter Wood/Hamper700 : direct me to EVA
+21-45:MATTACK: Elspet Bennet(Andrea the second)has grabbed Unknown(Chamango) aggressively (now hands) 
+21-45:SAY: Friend Computer/Xegeth : West side of the station.
+21-45:OOC: HELP: Ender Riley/SPARTAN-113 : Ender Riley has been stabbed with the pen by Elspet Bennet.#... You can almost hear someone talking ...#... You can almost hear someone talking ...#... You can almost hear someone talking ...#... You can almost hear someone talking ...#... You can almost hear someone talking ...#... You can almost hear someone talking ...#... You can almost hear someone talking ...#
+21-45:SAY: Friend Computer/Xegeth : He is heading north.
+21-45:ACCESS: Logout: Coaxxe
+21-45:ADMIN: PM: Andrea the second->SPARTAN-113 : sleepy pen, traitor
+21-45:ADMIN: PM: SPARTAN-113->Andrea the second : oh
+21-45:ADMIN: PM: SPARTAN-113->Andrea the second : damnit, I just joined, too lol
+21-45:SAY: Friend Computer/Xegeth : He is in security.
+21-45:SAY: Carter Wood/Hamper700 : AI
+21-45:SAY: Carter Wood/Hamper700 : were is the man with this id?
+21-45:SAY: Friend Computer/Xegeth : Captain now sealed in security.
+21-45:ACCESS: Logout: Hamper700
+21-45:SAY: Friend Computer/Xegeth : John is probably dead.
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at Carter Wood
+21-45:SAY: Cog Swordwall/Orb370 : ; I just saw the captain walk by AI
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at Carter Wood
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the floor
+21-45:SAY: Friend Computer/Xegeth : He is in EVA.
+21-45:SAY: Friend Computer/Xegeth : Help the human.
+21-45:MATTACK: Elspet Bennet(Andrea the second) clicked on Carter Wood(Hamper700) with a pill
+21-45:MATTACK: Elspet Bennet(Andrea the second) forced Carter Wood(Hamper700) to swallow orange pill
+21-45:SAY: Friend Computer/Xegeth : Captain back in security.
+21-45:SAY: Friend Computer/Xegeth : I cannot trap him.
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the floor
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at Cog Swordwall
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at Cog Swordwall
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:SAY: Bob Robertson/Forteen : ;Seal my door, AI
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Cog Swordwall(Orb370) with the taser gun
+21-45:SAY: Friend Computer/Xegeth : Sealed.
+21-45:SAY: Friend Computer/Xegeth : Captain in electrical storage.
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: Orb370 from 4.229.192.116
+21-45:ACCESS: They share computer ID's
+21-45:SAY: Friend Computer/Xegeth : He is out.
+21-45:SAY: Friend Computer/Xegeth : Tool storage.
+21-45:SAY: Friend Computer/Xegeth : EVA.
+21-45:OOC: Ender Riley/SPARTAN-113 : AI is stupid lol
+21-45:OOC: Friend Computer/Xegeth : How?
+21-45:OOC: Ender Riley/SPARTAN-113 : no offense
+21-45:OOC: Cog Swordwall/Orb370 : How?
+21-45:OOC: Ender Riley/SPARTAN-113 : Well I can&#39;t say, it&#39;d ruin the game lol
+21-45:OOC: Cog Swordwall/Orb370 : =/
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the floor
+21-45:OOC: Cog Swordwall/Orb370 : &#34;Pointless comments are pointless&#34;
+21-45:SAY: Friend Computer/Xegeth : Genetics in danger.
+21-45:SAY: Friend Computer/Xegeth : Warning.
+21-45:OOC: Ender Riley/SPARTAN-113 : &#34;Yet are given meaning by thhose who speak them.&#34;
+21-45:OOC: Cog Swordwall/Orb370 : Maybe.
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the toolbox
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the toolbox
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the toolbox
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by () with the toolbox
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the floor
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the artificial turf
+21-45:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the floor
+21-45:ADMIN: Headswe used secret check_antagonist_goal
+21-45:OOC: Cog Swordwall/Orb370 : Omg, that dude is faster than the captain, hehe.
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:OOC: Alucard Whoop/Headswe : HIS NECK.
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:OOC: Ender Riley/SPARTAN-113 : lol hooray monkies!
+21-45:MATTACK: Bob Robertson(Forteen) attcked by () with the toolbox
+21-45:OOC: Alucard Whoop/Headswe : no wait.
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+21-45:ACCESS: They share computer ID's
+21-45:OOC: Cog Swordwall/Orb370 : Hehe
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: Headswe from 127.0.0.1
+21-45:ACCESS: They share computer ID's
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: Chamango from 87.244.80.82
+21-45:ACCESS: They share computer ID's
+21-45:OOC: Cog Swordwall/Orb370 : Taser = Win
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:OOC: Cog Swordwall/Orb370 : Always. :P
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:OOC: Bob Robertson/Forteen : Lag
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:OOC: Cog Swordwall/Orb370 : NOEZ
+21-45:OOC: Ender Riley/SPARTAN-113 : HAHA
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:OOC: Alucard Whoop/Headswe : Oh god no.
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+21-45:ACCESS: Login: Incompleteness from 86.89.205.171
+21-45:ACCESS: Logout: Headswe
+21-45:OOC: Cog Swordwall/Orb370 : Hmm, hacking through two doors..
+21-45:SAY: Friend Computer/Xegeth : Is anyone still alive?
+21-45:OOC: Cog Swordwall/Orb370 : Hehe.
+21-45:OOC: Iriquois Pliskin/Incompleteness : Any new fun stuff?
+21-45:SAY: Bob Robertson/Forteen : Impossible, power&#39;s out
+21-45:GAME: Incompleteness entered as Iriquois Pliskin
+21-45:OOC: Cog Swordwall/Orb370 : Er, whats your definition of &#34;new&#34;?
+21-45:SAY: Bob Robertson/Forteen : if bolted
+21-45:SAY: Friend Computer/Xegeth : Stay on the shuttle.
+21-45:SAY: Ghost/Orb370 : Yep
+21-45:SAY: Ghost/SPARTAN-113 : No it isn&#39;t.
+21-45:OOC: Iriquois Pliskin/Incompleteness : Less then two weeks old.
+21-45:SAY: Iriquois Pliskin/Incompleteness : ;Who me?
+21-45:ACCESS: Logout: 
+21-45:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+21-45:ACCESS: They share computer ID's
+21-45:SAY: Bob Robertson/Forteen : He&#39;s doomed
+21-45:SAY: Ender Riley/SPARTAN-113 : Not really.
+21-45:SAY: Friend Computer/Xegeth : It is dangerous.
+21-45:SAY: Bob Robertson/Forteen : Can&#39;t get on, 20 secs
+21-45:SAY: Bob Robertson/Forteen : 10
+21-45:SAY: Iriquois Pliskin/Incompleteness : ;Why? Are the commies on board?
+21-45:SAY: Friend Computer/Xegeth : Captain is syndicate.
+21-45:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+21-45:SAY: Iriquois Pliskin/Incompleteness : ;Syndicate commies? Oh noes!
+21-45:OOC: Cog Swordwall/Orb370 : Wooo..
+21-45:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+21-45:OOC: Elspet Bennet/Andrea the second : now AI, you must tell me how did you see the orange pill
+21-45:OOC: Ender Riley/SPARTAN-113 : WTF then why did that Robertson guy have my body??
+21-45:OOC: Elspet Bennet/Andrea the second : you killed all my attempts to stealth
+21-45:OOC: Friend Computer/Xegeth : It was on the floor.
+21-45:GAME: Rebooting due to end of game
+21-45:ACCESS: Logout: Incompleteness
+21-45:ACCESS: Logout: Xegeth
+21-45:ACCESS: Logout: Andrea the second
+21-45:ACCESS: Logout: Chamango
+21-45:ACCESS: Logout: Forteen
+21-45:ACCESS: Logout: TheNewMakerGamer10
+21-45:ACCESS: Logout: Beorn080
+21-45:ACCESS: Logout: Orb370
+21-45:ACCESS: Logout: SPARTAN-113
+22-12:ADMIN: Loading crban_keylist
+22-12:ADMIN: Loading crban_reason
+22-12:ADMIN: Loading crban_time
+22-12:ADMIN: Loading crban_bannedby
+22-12:ADMIN: Loading crban_iplist
+22-12:ADMIN: Loading crban_unbanned
+22-12:ADMIN: Loading crban_ComputerIDs
+22-12:ADMIN: Loading jobban_rank
+22-12:ADMIN: Updating jobbanfile!
+22-12:ACCESS: Login: Incompleteness from 86.89.205.171
+22-12:ACCESS: Login: Chamango from 87.244.80.82
+22-12:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+22-12:ACCESS: Login: Xegeth from 77.103.224.146
+22-12:ACCESS: Login: Forteen from 70.134.93.231
+22-12:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+22-12:GAME: Incompleteness entered as Iriquois Pliskin
+22-12:GAME: Forteen entered as Bob Robertson
+22-12:GAME: SPARTAN-113 entered as Ender Riley
+22-12:GAME: Xegeth entered as Ashan Selfer
+22-12:ACCESS: Login: Orb370 from 4.229.192.116
+22-12:OOC: Ashan Selfer/Xegeth : Now, how was I stupid?
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Who booted me?
+22-12:GAME: TheNewMakerGamer10 entered as Harold HockkleMucks
+22-12:OOC: Bob Robertson/Forteen : Always
+22-12:GAME: Orb370 entered as Cog Swordwall
+22-12:OOC: Bob Robertson/Forteen : At the end of a round
+22-12:OOC: Bob Robertson/Forteen : Stuff happens
+22-12:VOTE: Voting to change mode started by Harold HockkleMucks/TheNewMakerGamer10
+22-12:OOC: Ender Riley/SPARTAN-113 : by not noticing the bodies in genetics lol
+22-12:OOC: Ashan Selfer/Xegeth : What should I have done?
+22-12:OOC: Bob Robertson/Forteen : I went to the prototype
+22-12:OOC: Cog Swordwall/Orb370 : It is secret?
+22-12:OOC: Ender Riley/SPARTAN-113 : unless that guy wasn&#39;t the killer and was helping...
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : IT FOR SECRET
+22-12:OOC: Bob Robertson/Forteen : I was reviving
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : MAKE IT MORE FUN
+22-12:OOC: Ender Riley/SPARTAN-113 : Ohhh
+22-12:OOC: Bob Robertson/Forteen : Then he came
+22-12:OOC: Ashan Selfer/Xegeth : Bodies are normal in genetics anyway.
+22-12:OOC: Ender Riley/SPARTAN-113 : I thought you were the guy who killed me lol
+22-12:ACCESS: Login: Andrea the second from 151.33.201.135
+22-12:OOC: Cog Swordwall/Orb370 : IT = Chance for selection of IT mode.
+22-12:OOC: Cog Swordwall/Orb370 : Hehe.
+22-12:VOTE: Voting closed, result was it
+22-12:OOC: Ender Riley/SPARTAN-113 : Nevermind then AI, sorry.
+22-12:GAME: Andrea the second entered as Elspet Bennet
+22-12:GAME: Chamango entered as John StJohn
+22-12:OOC: Bob Robertson/Forteen : Secret?
+22-12:OOC: Ender Riley/SPARTAN-113 : et&#39;s goooo....
+22-12:OOC: Cog Swordwall/Orb370 : Nah, lets have a rapaging dragon.
+22-12:OOC: Ender Riley/SPARTAN-113 : *let&#39;s
+22-12:OOC: Cog Swordwall/Orb370 : Rampaging* Heh.
+22-12:ACCESS: Logout: Chamango
+22-12:OOC: Ender Riley/SPARTAN-113 : lol rapaging
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Admiin should of update and put in an automatic start
+22-12:OOC: Cog Swordwall/Orb370 : THere is an automatic start.
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : No
+22-12:OOC: Cog Swordwall/Orb370 : Hmm?
+22-12:OOC: Ashan Selfer/Xegeth : It takes ages but it exists.
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : No I meant a faster one
+22-12:GAME: starting game of traitor
+22-12:ACCESS: Logout: 
+22-12:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+22-12:ACCESS: They share computer ID's
+22-12:OOC: Cog Swordwall/Orb370 : Er.
+22-12:OOC: Cog Swordwall/Orb370 : Thanks for telling us?
+22-12:SAY: Ashan Selfer/Xegeth : ;Hi crew. Doctor here.
+22-12:SAY: Ashan Selfer/Xegeth : ;Come to medbay if you need help.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Hi docter, Hop here.
+22-12:MATTACK: Bob Robertson(Forteen) clicked on Corpse() with intent on harm
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Genetics is restricted
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Only if someone dies is it allowed
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : So there is no reason for any of you to be in here
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Except the people who work here
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Accessing comm array.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Synching...
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Hey, is there a John StJohn on board?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : hmmm
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Connection confirmed, link established. Comm Array uplink complete.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Has anyone seen a John StJohn?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : noopre
+22-12:SAY: Cog Swordwall/Orb370 : ; Nope
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : He is aboard the arrival shuttle.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Ah, that makes sense then.
+22-12:SAY: Cog Swordwall/Orb370 : ; Also, the HoS is brain dead, I think.
+22-12:SAY: Ashan Selfer/Xegeth : ;Should I deal with him?
+22-12:SAY: Iriquois Pliskin/Incompleteness : Hey harold.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : I advise bringing him to our medical facilities.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I want to be chemist....Don&#39;t get me wrong
+22-12:SAY: Iriquois Pliskin/Incompleteness : Well, good thing you&#39;ve got a job as a chemist then!
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : But..I also want to be..a Atmos technician
+22-12:SAY: Ashan Selfer/Xegeth : ;AI, may I enter?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Multi jobs should be an option
+22-12:SAY: Iriquois Pliskin/Incompleteness : Why&#39;s that?
+22-12:SAY: Elspet Bennet/Andrea the second : hello
+22-12:SAY: Ashan Selfer/Xegeth : ;Thanks.
+22-12:SAY: Ashan Selfer/Xegeth : Are you ok?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Since you know..the Cavemen times
+22-12:SAY: Iriquois Pliskin/Incompleteness : Hmmmm.
+22-12:SAY: Elspet Bennet/Andrea the second : of course
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : They had all types of jobs
+22-12:SAY: Elspet Bennet/Andrea the second : how could you enter?
+22-12:SAY: Ashan Selfer/Xegeth : The others were worried.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Im jusst saying
+22-12:SAY: Ashan Selfer/Xegeth : AI let me in.
+22-12:SAY: Elspet Bennet/Andrea the second : fine. 
+22-12:SAY: Ashan Selfer/Xegeth : I&#39;ll get back now.
+22-12:SAY: Elspet Bennet/Andrea the second : sur
+22-12:SAY: Iriquois Pliskin/Incompleteness : Well, that was before our specializations required years of study.
+22-12:SAY: Iriquois Pliskin/Incompleteness : But we are short-handed.
+22-12:SAY: Ashan Selfer/Xegeth : ;He&#39;s fine.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Bridge
+22-12:SAY: Cog Swordwall/Orb370 : ;Hmm
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Well I don&#39;t think anyone else will take the responsiblility
+22-12:SAY: Cog Swordwall/Orb370 : ; I just saw someone with wings outside
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Hehe
+22-12:ACCESS: Failed Login: ROBOT92 Reason: Key banned
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Just saying
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in West Solar Panels
+22-12:ACCESS: Failed Login: Guest-1465624005 Reason: Ip banned
+22-12:SAY: Cog Swordwall/Orb370 : ; He has green wings..
+22-12:SAY: Ashan Selfer/Xegeth : ;Where?
+22-12:SAY: Cog Swordwall/Orb370 : ; Outside the supply shuttle
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Green wings
+22-12:OOC: Cog Swordwall/Orb370 : Er yah, we are playing &#34;It&#34; invincible dragons r us!
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Either a wizard or demon
+22-12:OOC: Cog Swordwall/Orb370 : Hehe.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Captain&#39;s Quarters
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : You better be careful
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : As for me
+22-12:SAY: Iriquois Pliskin/Incompleteness : What, I wasn&#39;t listening?
+22-12:SAY: Ashan Selfer/Xegeth : ;If anyone captures it, we should study it. Wings would be useful.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Green winged demon
+22-12:SAY: Elspet Bennet/Andrea the second : ; green wings, in space? space monster?
+22-12:SAY: Cog Swordwall/Orb370 : ; Possibluy
+22-12:SAY: Iriquois Pliskin/Incompleteness : Oh dear.
+22-12:SAY: Ashan Selfer/Xegeth : ;What is causing the atmosphere problems?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Chemist Card?
+22-12:SAY: Cog Swordwall/Orb370 : &#39;He has a human body.
+22-12:SAY: Elspet Bennet/Andrea the second : ; AI, how many security officers do we have?
+22-12:SAY: Cog Swordwall/Orb370 : ; He has a human body
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in East Solar Panels
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;None except you, Elspet.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Aww well....gotta go
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Plasma Research Lab
+22-12:SAY: Elspet Bennet/Andrea the second : ; captain, may I speak with you?
+22-12:SAY: Cog Swordwall/Orb370 : ; I believe the creature is making holes.
+22-12:SAY: Ashan Selfer/Xegeth : ;What is causing the problems?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Hull breach detected!
+22-12:SAY: Cog Swordwall/Orb370 : ; Er, why?
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : AI operate with me
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Note that I have given Harold the chemist access to atmospherics because we are short handed.
+22-12:SAY: Elspet Bennet/Andrea the second : ; we need to create a militia
+22-12:SAY: Ashan Selfer/Xegeth : ;Help in medbay!
+22-12:SAY: Cog Swordwall/Orb370 : ; We dont need people with guns running around.
+22-12:SAY: Ashan Selfer/Xegeth : ;It broke the wall!
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Airlock to Plasma Research Lab has been tampered with, and is electrified.
+22-12:SAY: Cog Swordwall/Orb370 : ; Coming!
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Im going to go do my best to figure this out
+22-12:SAY: Cog Swordwall/Orb370 : ; The creature is attacking
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, is the creature human?
+22-12:SAY: Elspet Bennet/Andrea the second : ; captain, we NEED peopel with guns around
+22-12:SAY: Ashan Selfer/Xegeth : ;Medbay is unusable.
+22-12:SAY: Iriquois Pliskin/Incompleteness : There was something wrong here?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : I am not aware of a &#34;creature&#34;.
+22-12:SAY: Ashan Selfer/Xegeth : The creature.
+22-12:SAY: Ashan Selfer/Xegeth : It broke the wall.
+22-12:SAY: Ashan Selfer/Xegeth : I&#39;m getting out of here.
+22-12:SAY: Cog Swordwall/Orb370 : ; Is the human with green wings concidered human?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Medical Bay
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Green wings
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Elspet, I&#39;ve you&#39;ve got a recruit, I&#39;ll sign up up for security. Otherwise you&#39;ll have to make due with me.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;If you&#39;ve got a recruit I mean.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : If someone has green wings
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : They are not human
+22-12:SAY: Ashan Selfer/Xegeth : ;The courtroom is the new medbay. AI, please bolt it open.
+22-12:SAY: Elspet Bennet/Andrea the second : ; all recruits are accepted
+22-12:SAY: Cog Swordwall/Orb370 : ; Elspet has permission to raise a militia, but they have to have the ID&gt;
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Some type of demon
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Don&#39;t you know this?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Bob Robertson is human, according to medical records.
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, why did you electricute your upload?
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;If she appoints them, I&#39;ll give them an ID.
+22-12:SAY: Cog Swordwall/Orb370 : ; Unelectricute your upload AI, and unbolt it
+22-12:SAY: Elspet Bennet/Andrea the second : send me all the recrutis you find
+22-12:SAY: Cog Swordwall/Orb370 : Heh.
+22-12:SAY: Ashan Selfer/Xegeth : Do you need medical help?
+22-12:SAY: Cog Swordwall/Orb370 : A little bit of ointment would be nice
+22-12:SAY: Iriquois Pliskin/Incompleteness : Slight technical difficulties?
+22-12:SAY: Cog Swordwall/Orb370 : Er, yah.
+22-12:SAY: Elspet Bennet/Andrea the second : ; got it
+22-12:ACCESS: Login: Randomonioum from 81.98.50.220
+22-12:SAY: Elspet Bennet/Andrea the second : ; HoS quarters
+22-12:SAY: Ashan Selfer/Xegeth : Where are you injured?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : For what purpose?
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with the taser gun
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with the taser gun
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with the taser gun
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:SAY: Cog Swordwall/Orb370 : ; SO I may change your laws.
+22-12:SAY: Ashan Selfer/Xegeth : I&#39;ll leave it here.
+22-12:SAY: Elspet Bennet/Andrea the second : ; send me sleep toxins
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, open this door also.
+22-12:SAY: Bob Robertson/Forteen : ;Jerk
+22-12:ACCESS: Logout: Randomonioum
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : NanoTrasen advises against changing the laws of an artificial intelligence.
+22-12:SAY: Iriquois Pliskin/Incompleteness : You found it?
+22-12:SAY: Cog Swordwall/Orb370 : ; Since when?
+22-12:SAY: Elspet Bennet/Andrea the second : ; He escaped. what were you all doing?
+22-12:SAY: Cog Swordwall/Orb370 : ; I have the right, as Captain, to change your laws if it benefits the crew.
+22-12:SAY: Elspet Bennet/Andrea the second : where is the enw recruit?
+22-12:SAY: Bob Robertson/Forteen : ;You&#39;re a jerk
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;I haven&#39;t seen one.
+22-12:SAY: Ashan Selfer/Xegeth : ;Don&#39;t most changes break rule 1?
+22-12:SAY: Elspet Bennet/Andrea the second : I need new recruits
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : The results will be unpredictable.
+22-12:SAY: Ashan Selfer/Xegeth : ;Courtroom is breached!
+22-12:SAY: Elspet Bennet/Andrea the second : ; people, sign up for station militia
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Yo please let me into this Supply Shuttle
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Head of Security&#39;s Quarters
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Northwest Maintenance Corridor
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : I need to see for myself
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Right, now recruiting for the Bay Station 12 monster hunting force under Elspet Bennet!
+22-12:SAY: Cog Swordwall/Orb370 : ; Bob Roberston has the green wings, correct?
+22-12:SAY: Elspet Bennet/Andrea the second : prepare a syringe of sleep toxins
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in Chapel
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : Your obviously coacoa in the head
+22-12:SAY: Cog Swordwall/Orb370 : ; Bob Robsersten is the creature, correct?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : He has wings.
+22-12:SAY: Cog Swordwall/Orb370 : ; Ok.
+22-12:SAY: Ashan Selfer/Xegeth : ;It&#39;s at the upload!
+22-12:SAY: Bob Robertson/Forteen : ;It?
+22-12:SAY: Bob Robertson/Forteen : ;That&#39;s mean
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;It flew out!
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in South Hallway
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;And Hull breach!
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in South Hallway
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;It&#39;s like it had a jetpack!
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : AHHHHHHHHHHH
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : HE HAS A JETPACK
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : DIE
+22-12:SAY: Ashan Selfer/Xegeth : ;Where are you?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : New law added.
+22-12:SAY: Cog Swordwall/Orb370 : ; AI laws changed.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Law accepted.
+22-12:SAY: Cog Swordwall/Orb370 : ; Well, new law added.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Harold, run.
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, is it safe outside your upload?
+22-12:SAY: Elspet Bennet/Andrea the second : ; AI, track bob
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;There&#39;s a hullbreach there, Cog.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Captain, my turrets are uasable...
+22-12:SAY: Cog Swordwall/Orb370 : ; Er, the dragon just locked me in the upload.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : KILL THE WINGED MAN
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : ALL TO THE UPLOAD
+22-12:SAY: Cog Swordwall/Orb370 : ; That is a lie AI, I just set them to stun
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Dragon?
+22-12:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at Bob Robertson
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : No, they can be used against Bob.
+22-12:SAY: Cog Swordwall/Orb370 : ; I am calling the green winged creature a dragon.
+22-12:MATTACK: Bob Robertson(Forteen) clicked on Ashan Selfer(Xegeth) with intent on harm
+22-12:SAY: Ashan Selfer/Xegeth : What do you want?
+22-12:SAY: Elspet Bennet/Andrea the second : free captain
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Harold HockkleMucks(TheNewMakerGamer10) with the toolbox
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Harold HockkleMucks(TheNewMakerGamer10) with the toolbox
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:SAY: Cog Swordwall/Orb370 : ; Could someone...
+22-12:SAY: Cog Swordwall/Orb370 : ; Unfuse the doors to the AI upload.
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:ACCESS: Login: Jarhead95 from 79.64.244.195
+22-12:SAY: Iriquois Pliskin/Incompleteness : Harold, could you let the captain out?
+22-12:SAY: Cog Swordwall/Orb370 : ; If not, I will be forced to use my personal teleporter.
+22-12:ACCESS: Logout: Jarhead95
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Whoah, carefull with that thing!
+22-12:SAY: Cog Swordwall/Orb370 : ; Woops
+22-12:SAY: Cog Swordwall/Orb370 : ; Close those doors AI
+22-12:SAY: Iriquois Pliskin/Incompleteness : So, should we chase the creature into space with jetpacks?
+22-12:SAY: Cog Swordwall/Orb370 : ; Er, yah, no 02
+22-12:SAY: Cog Swordwall/Orb370 : ; Im doomed
+22-12:SAY: Cog Swordwall/Orb370 : ; Goodbye cre
+22-12:SAY: Cog Swordwall/Orb370 : ; Phew
+22-12:SAY: Cog Swordwall/Orb370 : ; Close the doors AI
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : I can lock my airlocks open.
+22-12:SAY: Elspet Bennet/Andrea the second : ; AI, where is bob?
+22-12:SAY: Cog Swordwall/Orb370 : ; Ok, open your airlocks AI. Someone, please bring me internals, im at the AI upload computer.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Emergency Shuttle Bay.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : He has plasma.
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : AI
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : HE GOT PLASMA
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at Bob Robertson
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the space
+22-12:SAY: Harold HockkleMucks/TheNewMakerGamer10 : HELP
+22-12:SAY: Iriquois Pliskin/Incompleteness : harold!
+22-12:SAY: Cog Swordwall/Orb370 : ; If the dragon enters the AI upload, turn on your turrets.
+22-12:SAY: Iriquois Pliskin/Incompleteness : Elspet, come to the upload!
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the space
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, how far is the atmos unstable around the AI upload?
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : I always keep my capitals on in rounds to make it more epic
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Air Pressure: 19.9286%#
+22-12:SAY: Iriquois Pliskin/Incompleteness : Drag them in here!
+22-12:OOC: Cog Swordwall/Orb370 : ....and annoying.
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : hey..
+22-12:OOC: Cog Swordwall/Orb370 : Heh.
+22-12:SAY: Cog Swordwall/Orb370 : ; If someone wouldnt mind bringing the Captain internals..
+22-12:OOC: Ashan Selfer/Xegeth : Isn&#39;t that the point of an exclamation mark?
+22-12:SAY: Cog Swordwall/Orb370 : ; And not sufficate from plasma.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Fire detected in South Hallway
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Exclamation..Double top boring
+22-12:SAY: Cog Swordwall/Orb370 : ; Oh crap..
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Harold HockkleMucks(TheNewMakerGamer10) with the toolbox
+22-12:SAY: Cog Swordwall/Orb370 : ; I give up, I am probably going to be stuck in ehre forever.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Ashan&#39;s dead, Jim.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Do you have a handheld teleportation device captain?
+22-12:SAY: Cog Swordwall/Orb370 : ; Yes.
+22-12:SAY: Cog Swordwall/Orb370 : ; If I use it, I will sufficate.
+22-12:OOC: Harold HockkleMucks/TheNewMakerGamer10 : Proper grammar apply is in most games but is to..me not required
+22-12:SAY: Elspet Bennet/Andrea the second : ; captain, it is safe if you have itnernals
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Harold HockkleMucks(TheNewMakerGamer10) with the toolbox
+22-12:SAY: Cog Swordwall/Orb370 : ; I dont.
+22-12:SAY: Cog Swordwall/Orb370 : ; I didnt expect to lose air outside the upload.
+22-12:SAY: Elspet Bennet/Andrea the second : ; but there is an internal closet here!
+22-12:SAY: Cog Swordwall/Orb370 : ; Oh look, plasma.
+22-12:SAY: Elspet Bennet/Andrea the second : ; now let me out AI
+22-12:SAY: Cog Swordwall/Orb370 : ; Lets see, if I can get the internals faster then I can die.
+22-12:SAY: Cog Swordwall/Orb370 : ; Decisions, decisions.
+22-12:SAY: Elspet Bennet/Andrea the second : ; and keep me updated on bob&#39;s position
+22-12:SAY: Elspet Bennet/Andrea the second : ; AI!
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, chances of me getting internals and living?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : 90%
+22-12:SAY: Cog Swordwall/Orb370 : ; What is the atmos conditions in your upload?
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Elspet Bennet(Andrea the second) with the toolbox
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Elspet Bennet(Andrea the second) with the toolbox
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Unknown, no sensors were installed here, as human habitation was not intended.
+22-12:SAY: Cog Swordwall/Orb370 : ; Wow, I just remembered.
+22-12:SAY: Cog Swordwall/Orb370 : ; I have internals in my backpack.
+22-12:SAY: Cog Swordwall/Orb370 : ; Duh.
+22-12:SAY: Cog Swordwall/Orb370 : ; Fire in the upload?
+22-12:SAY: Cog Swordwall/Orb370 : ; Thats nice.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Fire detected in AI Upload Chamber
+22-12:OOC: Bob Robertson/Forteen : It can&#39;t move without a jetpack?
+22-12:OOC: Bob Robertson/Forteen : What is this?
+22-12:ACCESS: Login: Nono345 from 74.101.124.86
+22-12:OOC: Iriquois Pliskin/Incompleteness : You should be able to, just slower.
+22-12:OOC: Bob Robertson/Forteen : Nope
+22-12:OOC: Iriquois Pliskin/Incompleteness : Unless you&#39;re in space and didn&#39;t turn it on.
+22-12:OOC: Bob Robertson/Forteen : It ran out of furl
+22-12:OOC: Bob Robertson/Forteen : Fuel
+22-12:MATTACK: Elspet Bennet(Andrea the second) attcked by Bob Robertson(Forteen) with Stun Baton
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Elspet Bennet(Andrea the second) with the toolbox
+22-12:OOC: Cog Swordwall/Orb370 : Refuel it, like a good man?
+22-12:OOC: Cog Swordwall/Orb370 : Unless your in space..
+22-12:OOC: Bob Robertson/Forteen : Yeah
+22-12:ACCESS: Logout: 
+22-12:ACCESS: Login: TheNewMakerGamer10 from 65.78.58.186
+22-12:ACCESS: They share computer ID's
+22-12:OOC: Cog Swordwall/Orb370 : I would give him fuel, just this one time.
+22-12:OOC: Elspet Bennet/Andrea the second : by the way... driftin to other z levels is mightly annoying, s since you can&#39;t go back
+22-12:GAME: Nono345 entered as Alex Kaufman
+22-12:OOC: Cog Swordwall/Orb370 : Teleporter?
+22-12:OOC: Elspet Bennet/Andrea the second : I suggest all partecipants of the big space hunt be teleported back to station
+22-12:SAY: Bob Robertson/Forteen : ;You guys got lucky
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : The experimental storage in the bridge has been broken into, and most items have been stolen.
+22-12:OOC: Iriquois Pliskin/Incompleteness : Yeah, just teleport him to somewhere on the ship.
+22-12:SAY: Cog Swordwall/Orb370 : ; Lethal AI?
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;What was in there?
+22-12:SAY: Cog Swordwall/Orb370 : ; Alright..
+22-12:SAY: Bob Robertson/Forteen : ;Hey, come back here
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Lasers?
+22-12:SAY: Elspet Bennet/Andrea the second : ; kill bob!
+22-12:OOC: Cog Swordwall/Orb370 : Can the dragon die?
+22-12:SAY: Iriquois Pliskin/Incompleteness : Carefull, it&#39;s cold out here.
+22-12:OOC: Cog Swordwall/Orb370 : Like after a raging inferno or something?
+22-12:SAY: Bob Robertson/Forteen : ;Propelling myself with shoes
+22-12:ADMIN: Andrea the second jumped to Observation Deck
+22-12:OOC: Iriquois Pliskin/Incompleteness : No.
+22-12:OOC: Cog Swordwall/Orb370 : Like being inserted into the engine(if the server doesnt crash)
+22-12:SAY: Bob Robertson/Forteen : ;AHAHHA YES
+22-12:OOC: Cog Swordwall/Orb370 : Heh.
+22-12:OOC: Elspet Bennet/Andrea the second : umh... I was with bob, but I can&#39;t teleport myself
+22-12:SAY: Cog Swordwall/Orb370 : ; Anyone at the AI upload?
+22-12:SAY: Cog Swordwall/Orb370 : ; I will teleport myself there.
+22-12:SAY: Cog Swordwall/Orb370 : ; Dragon in upload!
+22-12:SAY: Elspet Bennet/Andrea the second : ; I am at the Ai sat I think
+22-12:SAY: Cog Swordwall/Orb370 : ; Teleporter*
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:OOC: Elspet Bennet/Andrea the second : aww... damn Ai turrets
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in AI Satellite
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:OOC: HELP: Elspet Bennet/Andrea the second : Is there a bug with admin jumping?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Wormhole detected in AI Sattelite.
+22-12:OOC: Cog Swordwall/Orb370 : Im getting 7.5 second lag, is that due to the turrets?
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;It&#39;s too fast! I can&#39;t hit it with my taser!
+22-12:OOC: Elspet Bennet/Andrea the second : no idea. I only know that because of malfunction in Adminpowers, I am now dead
+22-12:SAY: Iriquois Pliskin/Incompleteness : Is something amiss?
+22-12:SAY: Ashan Selfer/Nono345 : *shakes
+22-12:SAY: Ashan Selfer/Nono345 : *help
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : It is not moving.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Outside my upload.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Lasers: Lethal.
+22-12:SAY: Iriquois Pliskin/Incompleteness : What?
+22-12:SAY: Ashan Selfer/Nono345 : *frown
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : It is up.
+22-12:OOC: Elspet Bennet/Andrea the second : I am unsure if I should consider this a bug and revive...
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Headed east.
+22-12:OOC: Cog Swordwall/Orb370 : What, the turrets?
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at Bob Robertson
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : South Security Station
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:MATTACK: Iriquois Pliskin(Incompleteness)has shot a taser round at the floor
+22-12:OOC: Elspet Bennet/Andrea the second : no, the fact that I couldn&#39;t teleport myself
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : EVA
+22-12:OOC: Elspet Bennet/Andrea the second : I was stuck in another z- level like bob
+22-12:OOC: Cog Swordwall/Orb370 : What about the teleporter?
+22-12:OOC: Cog Swordwall/Orb370 : Er, I mean
+22-12:OOC: Elspet Bennet/Andrea the second : but after sending him back, adminpowers couldn&#39;t send ME back
+22-12:OOC: Cog Swordwall/Orb370 : You didnt have access to the teleporter?
+22-12:OOC: Elspet Bennet/Andrea the second : what teleporter? I was in space!
+22-12:OOC: Cog Swordwall/Orb370 : The AI sat has a teleporter.
+22-12:OOC: Bob Robertson/Forteen : AI sat teleporter
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : It escaped with a jetpack.
+22-12:OOC: Elspet Bennet/Andrea the second : a teleporter, and far too many turrets
+22-12:SAY: Bob Robertson/Forteen : ;Ehehehe
+22-12:OOC: Cog Swordwall/Orb370 : The only Z-lv you can access via flying through space is the AI sat.
+22-12:OOC: Cog Swordwall/Orb370 : You could have asked the AI to turn them off
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;I wonder what it wants.
+22-12:OOC: Elspet Bennet/Andrea the second : I&#39;ll just observe, then report the problem in the forum
+22-12:SAY: Cog Swordwall/Orb370 : ; Our bloody?
+22-12:SAY: Ashan Selfer/Nono345 : ;or maybe a friend
+22-12:OOC: Cog Swordwall/Orb370 : So what is the problem again&gt;?
+22-12:SAY: Cog Swordwall/Orb370 : ; Dragon in plasma
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Well, either is accepteble.
+22-12:OOC: Elspet Bennet/Andrea the second : hard to ask when dead :(. I never understood why z-levels worked that way. I mean.. if I can get from station to AI sat, why can&#39;t I go back?
+22-12:OOC: Elspet Bennet/Andrea the second : problem is that jumping doesn&#39;t seem to work, while it should
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Captain, permission to call emergency shuttle?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Fire detected in Plasma Research Lab
+22-12:SAY: Iriquois Pliskin/Incompleteness : Run!
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Fire detected in East Hallway
+22-12:SAY: Bob Robertson/Forteen : ;Fwoosh
+22-12:SAY: Cog Swordwall/Orb370 : ; Go ahead, little AI
+22-12:SAY: Cog Swordwall/Orb370 : ; No one is reviving, im guessing?
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;yeah, the thing set the fire.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Ashan, I advise getting the fire extinguisher.
+22-12:ACCESS: Logout: Forteen
+22-12:ACCESS: Login: Forteen from 70.134.93.231
+22-12:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+22-12:SAY: Cog Swordwall/Orb370 : We should stick together
+22-12:SAY: Cog Swordwall/Orb370 : It cant get us both
+22-12:SAY: Iriquois Pliskin/Incompleteness : I&#39;m thinking it might hit atmos next.
+22-12:SAY: Cog Swordwall/Orb370 : I need electrical gloves nayway
+22-12:OOC: HELP: Harold HockkleMucks/TheNewMakerGamer10 : I feel like I haven&#39;t died fairly yet..Can I get a second chance to play?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Oh dear.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : It is at the Comm Sattelite dish...
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : NO
+22-12:OOC: HELP: Harold HockkleMucks/TheNewMakerGamer10 : I mean..I pushed myself into space
+22-12:SAY: Ashan Selfer/Nono345 : ;AI open HoR quarters
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : IT DESTROYED IT
+22-12:SAY: Ashan Selfer/Nono345 : ;I need internals
+22-12:SAY: Cog Swordwall/Orb370 : ; The comm disk?
+22-12:SAY: Cog Swordwall/Orb370 : ; It cant do anything there.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Com Sat?
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Where did they attach that?
+22-12:SAY: Cog Swordwall/Orb370 : ; AI, can it do anything?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : The long-range communications dish is destroyed.
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Good thing we already sent for the shuttle.
+22-12:SAY: Cog Swordwall/Orb370 : ; Holy, the shuttle isnt coming?
+22-12:SAY: Cog Swordwall/Orb370 : ; What kind of whacked out rules does centcomm have?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : The shuttle is already inbound.
+22-12:SAY: Ashan Selfer/Nono345 : ;AI open HoR quarters!
+22-12:SAY: Cog Swordwall/Orb370 : ; Hmm, my device said otherwise
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : But I now have limited functionality.
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : ....
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Shuttle was... Aborted...
+22-12:SAY: Cog Swordwall/Orb370 : ; See?
+22-12:ADMIN: PM: Andrea the second->TheNewMakerGamer10 : and I am dead on AI sat because adminpowers can teleport other but not self. tell me how much better does it look to you
+22-12:SAY: Bob Robertson/Forteen : ;Cheaters
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Hey, it stalled!
+22-12:SAY: Cog Swordwall/Orb370 : ; Oh crap..
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Sub-Space Comm. Prototype X-9 still functional.
+22-12:ADMIN: PM: Andrea the second->TheNewMakerGamer10 : at most, I can take you to a tour of all the stations
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Did you extend the signal with atmospheric bounce?
+22-12:ADMIN: PM: Andrea the second->TheNewMakerGamer10 : have you ever been at prison station?
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Irregular Atmospherical Conditions detected in EVA Storage
+22-12:SAY: Bob Robertson/Forteen : *wave
+22-12:SAY: Cog Swordwall/Orb370 : ; Dragon on bridge
+22-12:ADMIN: Andrea the second jumped to Prison Supply Closet
+22-12:SAY: Bob Robertson/Forteen : Hi
+22-12:SAY: Cog Swordwall/Orb370 : ; Backup needed
+22-12:SAY: Cog Swordwall/Orb370 : hello, monster.
+22-12:OOC: HELP: Harold HockkleMucks/TheNewMakerGamer10 : No
+22-12:SAY: Iriquois Pliskin/Incompleteness : ;Any sightings?
+22-12:ACCESS: Logout: Andrea the second
+22-12:SAY: Cog Swordwall/Orb370 : ; Bridge..
+22-12:ACCESS: Login: Andrea the second from 151.33.201.135
+22-12:SAY: Cog Swordwall/Orb370 : ; Backup at bridge..
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Violence detected in Bridge
+22-12:ADMIN: Andrea the second modified Elspet Bennet's z to 1
+22-12:SAY: C:\\ S.P.A.R.T.A.N. - 113/SPARTAN-113 : Hull Breach detected in Bridge
+22-12:MATTACK: Cog Swordwall(Orb370)has shot a taser round at the reinforced window
+22-12:ADMIN: Andrea the second jumped to Prison Cell Block
+22-12:MATTACK: Bob Robertson(Forteen) attcked by Cog Swordwall(Orb370) with the toolbox
+22-12:ADMIN: Andrea the second jumped to Space

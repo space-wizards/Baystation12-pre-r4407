@@ -68,6 +68,11 @@
 		return
 	if ((usr.contents.Find(src) || (get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf)) || (istype(usr, /mob/ai)))
 		usr.machine = src
+		if (href_list["track"])
+			var/mob/target = locate(href_list["track"])
+			var/mob/ai/A = locate(href_list["track2"])
+			A.switchCameramob(target)
+			return
 		if (href_list["freq"])
 			src.freq += text2num(href_list["freq"])
 			if (round(src.freq * 10, 1) % 2 == 0)
