@@ -103,8 +103,8 @@ var
 
 	//Multi-Z-Level stuff
 
-	stationfloors = list( )
-	centcomfloors = list( )
+	stationfloors = list( ) //What Z levels are considered to be "on the station"
+	centcomfloors = list( ) //What Z levels are considered to be "on centcom"
 	centcom_supply_dock = 2
 	centcom_emerg_dock = 2
 	station_emerg_dock = 1
@@ -113,7 +113,7 @@ var
 	station_syndicate_dock = 1
 	prison_shuttle_dock = 2
 	syndicate_shuttle_dock = 6
-	shuttle_en_route_level = 3
+	shuttle_en_route_level = 3 //This may or may not be split up in future.
 	engine_eject_z_target = 3
 
 	join_motd = "Welcome to SS13!"

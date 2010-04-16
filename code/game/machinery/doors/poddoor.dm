@@ -26,6 +26,9 @@
 			return
 	return
 
+/obj/machinery/door/poddoor/Bumped(atom/movable/AM as mob|obj)
+	return
+
 /obj/machinery/door/poddoor/proc/openpod()
 	set src in oview(1)
 

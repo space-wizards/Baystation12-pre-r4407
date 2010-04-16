@@ -526,6 +526,18 @@ area/solar/west
 	name = "Pod Bay"
 	music = ""
 
+/area/centcomm/podbay7
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay8
+	name = "Pod Bay"
+	music = ""
+
+/area/centcomm/podbay9
+	name = "Pod Bay"
+	music = ""
+
 // Misc.
 area/tele
 	name = "Teleporter Room"

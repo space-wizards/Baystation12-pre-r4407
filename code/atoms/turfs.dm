@@ -56,7 +56,7 @@
 /turf/space/New()
 	..()
 	if (icon_state == "space")
-		icon_state = "space[rand(1,7)]"
+		icon_state = "space[rand(1, 10)]"
 
 /turf/station
 	name = "station"
@@ -112,6 +112,19 @@
 	icon_state = "floor"
 	updatecell = 1
 
+/turf/station/elevator
+	icon = 'shuttle.dmi'
+
+/turf/station/elevator/floor
+	name = "Elevator Floor"
+	icon_state = "floor3"
+
+/turf/station/elevator/wall
+	name = "Elevator Floor"
+	icon_state = "wall"
+	density = 1
+	opacity = 1
+
 /turf/station/floor
 	name = "floor"
 	icon = 'Icons.dmi'
@@ -119,7 +132,6 @@
 	var/health = 150.0
 	var/burnt = null
 	updatecell = 1
-	v
 
 /turf/station/floor/grid
 	icon = 'weap_sat.dmi'

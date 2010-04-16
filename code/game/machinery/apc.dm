@@ -19,6 +19,7 @@
 
 	icon_state = "apc0"
 	anchored = 1
+	layer = 3.1
 	req_access = list(access_apcs)
 	var/area/area
 	var/obj/item/weapon/cell/cell

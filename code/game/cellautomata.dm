@@ -166,11 +166,10 @@
 
 var/map_loading = 1
 /world/New()
+	..()
 
 	config = new /datum/configuration()
 	config.load("config/config.txt")
-
-	..()
 
 	src.update_stat()
 
@@ -235,6 +234,9 @@ var/map_loading = 1
 	TELEKINESIS = L2[12]
 	DEAF = L2[13]
 
+	for(var/i = 0, i<3, i++)
+		zombie_genemask += 1<<rand(3*8)//3 blocks * 8 bits per block
+
 	// ****stuff for presistent mode picking
 	var/newmode = null
 
@@ -259,7 +261,6 @@ var/map_loading = 1
 	if (motd)
 		join_motd = motd
 
-
 	var/ad_text = file2text("config/admins.txt")
 	var/list/L = dd_text2list(ad_text, "\n")
 	for(var/t in L)
@@ -282,9 +283,6 @@ var/map_loading = 1
 	main_hud2 = new /obj/hud/hud2(  )
 	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
-	..()
-
-	sleep(50)
 	while(map_loading)
 		sleep(10)
 
@@ -292,7 +290,6 @@ var/map_loading = 1
 	for(var/obj/machinery/nuclearbomb/N in world)
 		if (N.r_code == "ADMIN")
 			N.r_code = nuke_code
-	sleep(50)
 
 	plmaster = new /obj/overlay(  )
 	plmaster.icon = 'plasma.dmi'
@@ -325,7 +322,8 @@ var/map_loading = 1
 			goto Label_482
 		return
 	worldsetup = 1
-	return
+	world.log << "World Setup Complete"
+
 
 /world/Reboot()
 	if(no_end)
@@ -353,6 +351,7 @@ var/map_loading = 1
 		return x
 	else if (T == "reboot" && master)
 		world.log << "TOPIC: Remote reboot from master ([addr])"
+		world << "Rebooting!  Initiated from master control"
 		no_end = 0
 		world.Reboot()
 	else if(T == "players")
@@ -559,7 +558,7 @@ var/map_loading = 1
 /datum/control/gameticker/proc/check_win()
 	roundover = 1
 	if (!mode.check_win())
-		return 0
+		return
 
 	for (var/mob/ai/aiPlayer in world)
 		if (aiPlayer.stat!=2)

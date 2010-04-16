@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+UPDATE_OBJ_TREE: ON
+DIR: code code\atoms code\datums code\game code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\machinery code\game\mob code\game\mob\human code\game\objects code\game\objects\items code\game\objects\items\misc code\game\objects\items\misc\implant code\game\objects\items\radio code\game\objects\items\weapon code\game\objects\items\weapon\gun code\game\verbs maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1271359247
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .

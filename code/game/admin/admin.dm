@@ -1146,7 +1146,7 @@
 
 				if("disaster")
 					messageadmins("[usr.key] just called a station disaster")
-					WreakStation()
+					//WreakStation()
 
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))

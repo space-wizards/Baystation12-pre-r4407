@@ -17,6 +17,8 @@ var
 	TELEKINESIS = 12
 	DEAF = 13
 
+var/zombie_genemask = 0
+
 /proc/getleftblocks(input,blocknumber,blocksize)
 	var/string
 	string = copytext(input,1,((blocksize*blocknumber)-(blocksize-1)))
@@ -251,6 +253,16 @@ var
 		M.ear_deaf = 1
 		M << "\red Its kinda quiet..."
 
+
+	if(ENABLE_ZOMBIE_GENE)
+		//Zombie "gene". More of an idea/proof of concept implementation.
+		//Start with the XOR of hulk and monkey...
+		var/b = getblock(M.primarynew.struc_enzyme, 14,3) ^ getblock(M.primarynew.struc_enzyme, HULK,3)
+		if(b&zombie_genemask == 0)
+			M.unzombify()
+		else if(b&zombie_genemask == zombie_genemask)
+			M.zombify()
+
 //////////////////////////////////////////////////////////// Monkey Block
 	if (isblockon(getblock(M.primarynew.struc_enzyme, 14,3),14) && istype(M, /mob/human))
 	// human > monkey
@@ -299,6 +311,8 @@ var
 			C.occupant = O
 			connected = null
 		O.name = text("monkey ([])",copytext(md5(M.rname), 2, 6))
+		if(NO_MONKEY_REVIVE)
+			O.stat = M.stat
 		del(M)
 		return
 
@@ -365,9 +379,12 @@ var
 				O.rname = randomname
 				i++
 		updateappearance(O,O.primarynew.uni_identity)
+		if(NO_MONKEY_REVIVE)
+			O.stat = M.stat
 		del(M)
 		return
 //////////////////////////////////////////////////////////// Monkey Block
+
 	M.UpdateClothing()
 	return null
 
