@@ -245,7 +245,7 @@
 			user.hear_sound("sound/weapon/generic/hit[QQ].wav",6)
 	for(var/mob/O in viewers(M, null))
 		O.show_message(text("\red <B>[] has been attacked with [][] </B>", M, src, (user ? text(" by [].", user) : ".")), 1)
-	world.log_Mattack(text("[usr.rname]([usr.key]) attcked by [M.rname]([M.key]) with [src]"))
+	world.log_Mattack(text("[M.rname]([M.key]) attcked by [usr.rname]([usr.key]) with [src]"))
 	var/power = src.force
 //	if (M.health >= -60.0)
 	if (istype(M, /mob/human))
@@ -3522,7 +3522,7 @@
 	src.boxes.master = src
 	src.boxes.icon_state = "block"
 	src.boxes.screen_loc = "7,7 to 10,8"
-	src.boxes.layer = 19
+	src.boxes.layer = 52
 	src.closer = new /obj/screen/close(  )
 	src.closer.master = src
 	src.closer.icon_state = "x"
@@ -4392,7 +4392,7 @@
 	return
 
 obj/item/weapon/radio/talk_into(mob/M as mob, msg)
-	if(!global.shortradio)
+	if(!shortradio)
 		for(var/mob/O in viewers())
 			O.show_message(text("\icon[] <I>*Static*,*Static*</I>", src), 2)
 		return

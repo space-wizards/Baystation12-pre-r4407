@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+UPDATE_OBJ_TREE: ON
+DIR: code code\atoms code\datums code\game code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\machinery code\game\mob code\game\mob\human code\game\objects code\game\objects\items code\game\objects\items\misc code\game\objects\items\misc\implant code\game\objects\items\radio code\game\objects\items\weapon code\game\objects\items\weapon\gun code\game\verbs maps 
+FILE: maps\Bay Station 12 alpha.dmp
+LAST_COMPILE_TIME: 1271359247
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -55,9 +64,6 @@
 #define FILE_DIR "code/game/verbs"
 #define FILE_DIR "code/game/verbs/admin"
 #define FILE_DIR "code/unused"
-#define FILE_DIR "dist"
-#define FILE_DIR "dist/byond"
-#define FILE_DIR "dist/byond/cfg"
 #define FILE_DIR "icons"
 #define FILE_DIR "icons/ss13"
 #define FILE_DIR "icons/ss13/test"
@@ -112,7 +118,6 @@
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
-#include "code\takepicture.dm"
 #include "code\atoms\client.dm"
 #include "code\atoms\fakewalls.dm"
 #include "code\atoms\space.dm"

@@ -191,14 +191,14 @@ obj/hud/New()
 	using.name = "other"
 	using.icon_state = "other"
 	using.screen_loc = "4,2"
-	using.layer = 52
+	using.layer = 53
 	src.adding += using
 
 	using = new src.h_type( src )
 	using.name = "intent"
 	using.icon_state = "intent"
 	using.screen_loc = "14,15"
-	using.layer = 52
+	using.layer = 53
 	src.adding += using
 
 	using = new src.h_type( src )

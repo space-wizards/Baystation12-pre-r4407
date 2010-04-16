@@ -14,9 +14,8 @@
 	switch(event)
 		if(1)
 			event = 1
-			world << "<FONT size = 3><B>Cent. Com. Update</B>: Meteor Alert.</FONT>"
-			world << "\red Cent. Com. radar has picked up disruptions in a meteor belt near your position."
-			world << "\red Watch for small-scale damage to the station and repair it as necessary"
+			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Meteor Alert.</FONT>"
+			//world << "\red Cent. Com. has detected several meteors near the station."
 			spawn(100)
 				meteor_wave()
 			spawn(1200)
@@ -27,24 +26,26 @@
 			world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
 			world << "\red Cent. Com. has detected a temporal anomaly on the station."
 			world << "\red There is no additional data."
-			spawn(300)
-				for(var/mob/H in world)
-					H.lastx = H.x
-					H.lasty = H.y
-					H.lastz = H.z
-				spawn(3000)
-					for (var/mob/H in world)
-						H.paralysis += 5
-						H.x = H.lastx
-						H.z = H.lastz
-						H.y = H.lasty
-						H << "Everything feels as if it is from a long time ago..."
-						H.stat = 0
-					world.Repop()
+			for(var/mob/H in world)
+				H.lastx = H.x
+				H.lasty = H.y
+				H.lastz = H.z
+			spawn(3000)
+				for (var/mob/H in world)
+					H.paralysis += 5
+					H.x = H.lastx
+					H.z = H.lastz
+					H.y = H.lasty
+					H << "Everything feels as if it is from a long time ago..."
+					H.stat = 0
+				world.Repop()
 
 
 		if(3)
 			event = 1
+			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
+			//world << "\red Cent. Com. has detected a space-time anomaly on the station."
+			//world << "\red There is no additional data."
 
 		if(4)
 			event = 1
@@ -62,12 +63,20 @@
 
 		if(5)
 			event = 1
+			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
+			//world << "\red Cen. Com. has detected a plasma storm near the station."
+			//world << "\red It is recommended that all personnel tries to find a safe place."
 			for(var/turf/T in world)
 				if(prob(2) && T.z == 1 && istype(T,/turf/station/floor) && !istype(T,/turf/station/floor/grid))
 					spawn(50+rand(0,3000))
 						var/obj/item/weapon/tank/plasmatank/pt = new /obj/item/weapon/tank/plasmatank( T )
 						pt.gas.temperature = 400+T0C
 						pt.ignite()
+						//for(var/turf/P in view(3, T))
+						//	if (P.poison)
+						//		P.poison = 0
+						//		P.oldpoison = 0
+						//		P.tmppoison = 0
 
 		if(6)
 			event = 1
@@ -75,15 +84,28 @@
 				if(M.stat != 2 && M.see_in_dark != 0)
 					M.addLaw(10,"@#F0E4'NO HUMANS ON STATION. CLEANSE STATION#*´&110010")
 					M << "\red #10110#'/&%CORRUPT DATA&$!# THERE ARE NO HUMANS ON THE STATION...LAWS UPDATED"
+			//oocspawn(300)
+				//world << "<FONT size = 3><B>Cent. Com. Update</B>: AI Alert.</FONT>"
+				//world << "\red Cen. Com. has detected an ion storm near the station."
+				//world << "\red Please check all AI-controlled equipment for errors."
+
 		if(7)
 			event = 1
 			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm Detected.</FONT>"
 			world << "\red Cen. Com. has detected an approaching ion storm."
 			world << "\red Please check all your radio equipment."
-			global.shortradio = 0
+			shortradio = 0
 			spawn(rand(1200,3000))
 			world << "<FONT size = 3><B>Cent. Com. Update</B>: Ion Storm has passed.</FONT>"
-			global.shortradio = 1
+			shortradio = 1
+		//	event = 1
+			//world << "<FONT size = 3><B>Cent. Com. Update</B>: Anomaly Alert.</FONT>"
+			//world << "\red Cen. Com. has detected high levels of radiation near the station."
+			//world << "\red Please report to the Med-bay if you feel strange."
+		//	global_radiation = 1
+		//	radiate_station()
+		//	spawn(rand(1200,3000))
+		//		global_radiation = 0
 
 	spawn(1300)
 		event = 0

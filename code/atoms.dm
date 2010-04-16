@@ -4369,6 +4369,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "window"
 	desc = "A window."
 	density = 1
+	var/invincible = 0
 	var/health = 14.0
 	var/ini_dir = null
 	var/state = 0
