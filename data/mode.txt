@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-traitor
-=======
-monkey
->>>>>>> 3188e6271d43810d7019b63716d52ad9dedcdfb7
+extended
