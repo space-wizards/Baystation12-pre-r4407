@@ -170,6 +170,7 @@ var/list/lines = list()
 		plines += PL							// and add it to the list
 
 	for(var/obj/machinery/pipes/P in machines)		// look for pipes
+
 		if(P.termination)						// true if pipe is terminated (ends in blank or a machine)
 			var/obj/machinery/pipeline/PL = plines[P.plnum]		// get the pipeline from the pipe's pl-number
 
