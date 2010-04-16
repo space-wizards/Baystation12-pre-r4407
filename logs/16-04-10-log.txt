@@ -6653,3 +6653,291 @@ Y/N?
 05-27:ACCESS: Logout: 
 05-27:ACCESS: Login: Alemourn from 68.230.207.201
 05-27:ACCESS: They share computer ID's
+20-39:ADMIN: Loading crban_keylist
+20-39:ADMIN: Loading crban_reason
+20-39:ADMIN: Loading crban_time
+20-39:ADMIN: Loading crban_bannedby
+20-39:ADMIN: Loading crban_iplist
+20-39:ADMIN: Loading crban_unbanned
+20-39:ADMIN: Loading crban_ComputerIDs
+20-39:ADMIN: Loading jobban_rank
+20-39:ADMIN: Updating jobbanfile!
+20-39:GAME: Finished building powernets (30 nets)
+20-39:ACCESS: Login: Micro102 from 24.184.14.119
+20-39:GAME: Micro102 entered as Micro McGinley
+20-39:ACCESS: Login: Headswe from 127.0.0.1
+20-39:VOTE: Voting to change mode started by Micro McGinley/Micro102
+20-39:GAME: Headswe entered as Cog Mountaincopper
+20-39:ACCESS: Login: Electroncis111 from 78.150.84.80
+20-39:GAME: Electroncis111 entered as Bob Marley
+20-39:ACCESS: Login: Randomonioum from 81.98.16.10
+20-39:VOTE: Voting closed, result was 
+20-39:OOC: Micro McGinley/Micro102 : yay I BROKE IT!
+20-39:OOC: Rando M. Onioum/Randomonioum : HIDE THE WOMEN AND DROWN THE CHILDREN, RANDO HAS GOT A MOUSE
+20-39:GAME: Randomonioum entered as Rando M. Onioum
+20-39:OOC: Micro McGinley/Micro102 : Who is Rando
+20-39:OOC: Rando M. Onioum/Randomonioum : Me, boi
+20-39:OOC: Micro McGinley/Micro102 : Whats a boi?
+20-39:GAME: starting game of extended
+20-39:ACCESS: Logout: 
+20-39:ACCESS: Login: Micro102 from 24.184.14.119
+20-39:ACCESS: They share computer ID's
+20-39:OOC: Rando M. Onioum/Randomonioum : A respectful version of the commonly used pronoun, biatch.
+20-39:OOC: GLaDOS/Micro102 : O I thoight it was fake gansta talk for boy...
+20-39:ACCESS: Login: Wrongnumber from 124.198.182.86
+20-39:OOC: Cog Mountaincopper/Headswe : Heh.
+20-39:OOC: Cog Mountaincopper/Headswe : *shoots micro*
+20-39:OOC: Cog Mountaincopper/Headswe : I feel good.
+20-39:OOC: GLaDOS/Micro102 : lol I was being annoying onpurpose :P
+20-39:ACCESS: Login: Master of Apples from 81.155.42.175
+20-39:GAME: Wrongnumber entered as Cog Vomitblaze
+20-39:OOC: Cog Mountaincopper/Headswe : I&#39;ve fixed most hud issues anyway.
+20-39:OOC: Cog Vomitblaze/Wrongnumber : The mode is a dot?
+20-39:OOC: GLaDOS/Micro102 : But the lag is still here :(
+20-39:GAME: Master of Apples entered as Conall Edge
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:OOC: Conall Edge/Master of Apples : LAAAAAAG
+20-39:OOC: Rando M. Onioum/Randomonioum : LETS SPICE THIS SHITUP
+20-39:OOC: Conall Edge/Master of Apples : IN MY SS13?
+20-39:OOC: Cog Mountaincopper/Headswe : The big problem for me is
+20-39:OOC: Cog Mountaincopper/Headswe : THAT ATMOS IS FUCKED
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:OOC: Cog Vomitblaze/Wrongnumber : Man that is some crazy lag
+20-39:OOC: Rando M. Onioum/Randomonioum : WHOOP APPLES
+20-39:OOC: Cog Mountaincopper/Headswe : Air Pressure: 108.139%#Nitrogen: 78.999 Oxygen: 20.995 Plasma: 0 CO2: 0.006 NO2: 0#Temperature: 20.0188
+20-39:OOC: Cog Mountaincopper/Headswe : ;:S
+20-39:SAY: Conall Edge/Master of Apples : SHIT BARAH
+20-39:SAY: Conall Edge/Master of Apples : DYING HERE
+20-39:OOC: Rando M. Onioum/Randomonioum : Yep, Im getting the lag too
+20-39:OOC: Cog Mountaincopper/Headswe : Hmm.
+20-39:OOC: Conall Edge/Master of Apples : Mine&#39;s K
+20-39:OOC: Conall Edge/Master of Apples : SUP RANDOMMM
+20-39:SAY: Cog Vomitblaze/Wrongnumber : Say what?
+20-39:SAY: Conall Edge/Master of Apples : OXYGEN
+20-39:OOC: Cog Mountaincopper/Headswe : Might be the fuckers upstairs
+20-39:OOC: Rando M. Onioum/Randomonioum : &#39;SPECT
+20-39:OOC: Conall Edge/Master of Apples : Fuckers
+20-39:ACCESS: Login: Ihateoutside from 88.105.86.87
+20-39:OOC: Conall Edge/Master of Apples : up
+20-39:OOC: Conall Edge/Master of Apples : stairs
+20-39:OOC: Conall Edge/Master of Apples : Fucking
+20-39:SAY: GLaDOS/Micro102 : NUUUUUUUUU!
+20-39:OOC: Conall Edge/Master of Apples : fuck fuck
+20-39:OOC: Conall Edge/Master of Apples : yeah go shoot em
+20-39:OOC: Rando M. Onioum/Randomonioum : What the dick, I cant open my door.
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:SAY: GLaDOS/Micro102 : Beep
+20-39:SAY: GLaDOS/Micro102 : Boop
+20-39:OOC: Cog Mountaincopper/Headswe : Air Pressure: 24.7116%#Nitrogen: 78.972 Oxygen: 21.024 Plasma: 0 CO2: 0.004 NO2: 0#Temperature: 20.0068
+20-39:OOC: Cog Mountaincopper/Headswe : in the vat room
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:OOC: Cog Vomitblaze/Wrongnumber : RAGE: Lag bunnys eating my SOUL
+20-39:OOC: Cog Mountaincopper/Headswe : Something is bad
+20-39:OOC: Rando M. Onioum/Randomonioum : Well fuck, I had to noclip through a stuck door
+20-39:OOC: Cog Mountaincopper/Headswe : God i shouldent have merged...
+20-39:OOC: Cog Mountaincopper/Headswe : They always fuck something up
+20-39:OOC: Rando M. Onioum/Randomonioum : OI, HEAD, HoS CANT OPEN THE HoS ROOM DOOR
+20-39:OOC: GLaDOS/Micro102 : No that was me
+20-39:OOC: Conall Edge/Master of Apples : HEY HEAD
+20-39:OOC: GLaDOS/Micro102 : Apparently he didn&#39;t notice me flashing the lights turning on the fire alarm and screaming over the intercom
+20-39:OOC: Conall Edge/Master of Apples : I sent ylll da apples
+20-39:OOC: Cog Vomitblaze/Wrongnumber : Non moving ping 0.48, do you know the biggist lag ive had is
+20-39:OOC: Conall Edge/Master of Apples : 0.25, Not too bad
+20-39:OOC: Cog Vomitblaze/Wrongnumber : 35 seconds... YEA
+20-39:OOC: Rando M. Onioum/Randomonioum : Good lord, I almost went to ajust my G_FPS settings.
+20-39:OOC: Conall Edge/Master of Apples : Headdeeersee
+20-39:OOC: Conall Edge/Master of Apples : I sent apples
+20-39:OOC: Conall Edge/Master of Apples : kthx
+20-39:OOC: GLaDOS/Micro102 : Why is the airpressure in engine decreasing?
+20-39:OOC: Cog Mountaincopper/Headswe : I DONT KNOW :D
+20-39:OOC: Conall Edge/Master of Apples : Dis shit be trippen yo
+20-39:OOC: Rando M. Onioum/Randomonioum : Fire
+20-39:OOC: Rando M. Onioum/Randomonioum : FIRE
+20-39:OOC: Rando M. Onioum/Randomonioum : FIIIIIIIIIIIRE!
+20-39:OOC: Cog Vomitblaze/Wrongnumber : Man i REALLY REALLY need some sleep im off seya guys
+20-39:OOC: Cog Mountaincopper/Headswe : ...
+20-39:OOC: Conall Edge/Master of Apples : Ciao
+20-39:ACCESS: Logout: Wrongnumber
+20-39:OOC: Conall Edge/Master of Apples : Don&#39;t have nightmares
+20-39:GAME: Ihateoutside entered as Fath Riverblock
+20-39:OOC: Rando M. Onioum/Randomonioum : I have nightmares of bloody clowns chasing me with toolboxes... And they dont ever stop.
+20-39:OOC: GLaDOS/Micro102 : What should the AI do if the captain is taking insulated gloves?
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:ADMIN: Headswe Healed/Revived Headswe
+20-39:OOC: Conall Edge/Master of Apples : I have nightmares of my avatar ):
+20-39:ADMIN: Headswe has toggled Headswe's nodamage to 1
+20-39:SAY: Conall Edge/Master of Apples : HOWDY
+20-39:OOC: Rando M. Onioum/Randomonioum : Oh god, that thing is scary
+20-39:SAY: Fath Riverblock/Ihateoutside : Heya
+20-39:OOC: Conall Edge/Master of Apples : It&#39;s better than a lolcat though
+20-39:SAY: Conall Edge/Master of Apples : ;Suo
+20-39:OOC: Rando M. Onioum/Randomonioum : Damn straight
+20-39:SAY: Conall Edge/Master of Apples : ;we got a hop or some shit
+20-39:OOC: GLaDOS/Micro102 : How do you turnt he escape pods on?
+20-39:OOC: Cog Mountaincopper/Headswe : GOD DAMMIT
+20-39:OOC: Fath Riverblock/Ihateoutside : Has everything gone to shit?
+20-39:SAY: Rando M. Onioum/Randomonioum : Dude, what the fuck.
+20-39:OOC: Cog Mountaincopper/Headswe : YES.
+20-39:OOC: GLaDOS/Micro102 : Why are the names of people now links?
+20-39:OOC: Cog Mountaincopper/Headswe : Because you can click them
+20-39:OOC: Fath Riverblock/Ihateoutside : intruiging...
+20-39:OOC: GLaDOS/Micro102 : To do what?
+20-39:OOC: Rando M. Onioum/Randomonioum : NOT FOR ME, SUPER ADMIN POWERS AWAY!
+20-39:OOC: Cog Mountaincopper/Headswe : WELL TRY IT.
+20-39:SAY: Cog Mountaincopper/Headswe : ; YOU LIKE POTATOS AI?
+20-39:SAY: Conall Edge/Master of Apples : Sup
+20-39:OOC: Fath Riverblock/Ihateoutside : No links on names for me
+20-39:SAY: Conall Edge/Master of Apples : Need a jobyo
+20-39:OOC: Cog Mountaincopper/Headswe : Rand jump to me.
+20-39:SAY: Rando M. Onioum/Randomonioum : ; THAT IS A DIRTY WORD. I am taking you in.
+20-39:SAY: GLaDOS/Micro102 : I cannot like food. I have no taste buds.
+20-39:SAY: Bob Marley/Electroncis111 : k
+20-39:OOC: Cog Mountaincopper/Headswe : you have to be an AI
+20-39:OOC: GLaDOS/Micro102 : I click onthe names but they don&#39;t do anything
+20-39:OOC: Cog Mountaincopper/Headswe : *facepalm*
+20-39:ADMIN: Randomonioum jumped to Cog Mountaincopper
+20-39:OOC: Cog Mountaincopper/Headswe : they break everything
+20-39:OOC: Conall Edge/Master of Apples : ze names, zey do noting!
+20-39:SAY: Rando M. Onioum/Randomonioum : AIR
+20-39:SAY: Cog Mountaincopper/Headswe : NICE EY?
+20-39:SAY: Rando M. Onioum/Randomonioum : NICE
+20-39:ADMIN: Headswe teleported Rando M. Onioum
+20-39:ADMIN: Randomonioum Healed/Revived Randomonioum
+20-39:SAY: Unknown/Master of Apples : Head of *
+20-39:SAY: Unknown/Master of Apples : Anything
+20-39:ADMIN: Randomonioum has toggled Randomonioum's nodamage to 1
+20-39:SAY: Cog Mountaincopper/Headswe : I said he fixed all the P_dirs on the map
+20-39:SAY: Cog Mountaincopper/Headswe : id say hes lieing
+20-39:SAY: Fath Riverblock/Ihateoutside : head of sewage disposal?
+20-39:SAY: Rando M. Onioum/Randomonioum : Hell yes
+20-39:SAY: Conall Edge/Master of Apples : Ta
+20-39:OOC: Cog Mountaincopper/Headswe : They break everything
+20-39:OOC: Cog Mountaincopper/Headswe : Fuck fuck fuck
+20-39:SAY: Unknown/Electroncis111 : what job do you want?
+20-39:SAY: Unknown/Ihateoutside : Station engineer
+20-39:OOC: Rando M. Onioum/Randomonioum : FIRE WILL SOLVE IT
+20-39:OOC: Conall Edge/Master of Apples : Silly headswe
+20-39:OOC: Conall Edge/Master of Apples : apples don&#39;t break stuff ):
+20-39:SAY: Fath Riverblock/Ihateoutside : thanks
+20-39:OOC: Conall Edge/Master of Apples : the doctor should spawn with apples
+20-39:ADMIN: Randomonioum/Rando M. Onioum : Head, let us admins spawn toxins and c02 and other gases too
+20-39:OOC: Conall Edge/Master of Apples : And candy
+20-39:ADMIN: Randomonioum modified Rando M. Onioum's telekinesis to 1
+20-39:SAY: Unknown/Electroncis111 : Cog?
+20-39:ADMIN: PM: Headswe->Randomonioum : you can.
+20-39:ADMIN: PM: Headswe->Randomonioum : right click a floor
+20-39:OOC: Fath Riverblock/Ihateoutside : If a doctor eats an apple they should die immediatly. After all apples keep doctors away
+20-39:OOC: Unknown/Master of Apples : I c wat u did thar
+20-39:ADMIN: Randomonioum/Rando M. Onioum : Only c02 and n20
+20-39:OOC: Unknown/Master of Apples : Also I said that if you eat an apple, doctrs shouldn&#39;t be able to see you
+20-39:OOC: Unknown/Master of Apples : Don&#39;t think it&#39;s gonna happen
+20-39:OOC: Unknown/Master of Apples : However, apples do have cyanide in
+20-39:OOC: Unknown/Master of Apples : So they -could- kill
+20-39:OOC: Unknown/Master of Apples : if you eat loads
+20-39:OOC: Fath Riverblock/Ihateoutside : Surely thats abusable being invisible?
+20-39:OOC: GLaDOS/Micro102 : Eat loads of anything and it could kill you
+20-39:OOC: Rando M. Onioum/Randomonioum : In their pips they do
+20-39:OOC: GLaDOS/Micro102 : Why are some doors overlapped by pipes?
+20-39:ADMIN: PM: Headswe->Randomonioum : odd.
+20-39:SAY: Fath Riverblock/Ihateoutside : what the?!
+20-39:ADMIN: PM: Randomonioum->Headswe : Oh?
+20-39:SAY: Cog Mountaincopper/Headswe : Whoops
+20-39:SAY: Cog Mountaincopper/Headswe : WEll that sucks
+20-39:OOC: Cog Mountaincopper/Headswe : Whoops Mr.Riverblock
+20-39:SAY: GLaDOS/Micro102 : Fire in engine hallway
+20-39:OOC: Fath Riverblock/Ihateoutside : admin abuse lol *cries*
+20-39:ADMIN: Randomonioum/Rando M. Onioum : BRING THEM DOWN IN FLAMES!
+20-39:OOC: Cog Mountaincopper/Headswe : So..
+20-39:OOC: Cog Mountaincopper/Headswe : Im gonna need a few mins to fix these issues
+20-39:OOC: Rando M. Onioum/Randomonioum : Im gonna be a streaking ghost.
+20-39:OOC: GLaDOS/Micro102 : Fire just went through a fire door
+20-39:OOC: GLaDOS/Micro102 : I thini
+20-39:OOC: GLaDOS/Micro102 : No nvm
+20-39:OOC: Conall Edge/Master of Apples : imma be
+20-39:OOC: Conall Edge/Master of Apples : err
+20-39:OOC: GLaDOS/Micro102 : Who are you apples?
+20-39:OOC: Conall Edge/Master of Apples : Me
+20-39:OOC: Conall Edge/Master of Apples : Conall Edge.
+20-39:ADMIN: Headswe spawned the event Meteor.
+20-39:ADMIN: Headswe spawned the event Blob.
+20-39:OOC: GLaDOS/Micro102 : Can I torture you?
+20-39:ADMIN: Headswe spawned the event Plasma Storm.
+20-39:ADMIN: Headswe spawned the event Ion Storm.
+20-39:ADMIN: Headswe spawned the event Temporal Disturbance.
+20-39:GAME: Finished building powernets (31 nets)
+20-39:OOC: Fath Riverblock/Ihateoutside : whats a temporal anomaly?
+20-39:SAY: Bob Marley/Electroncis111 : ; AI locate biohazard
+20-39:OOC: Cog Mountaincopper/Headswe : TIME TO BRING DOWN TEH SERVER.
+20-39:OOC: Rando M. Onioum/Randomonioum : WE. ARE GOING. TO DIE. :(
+20-39:OOC: Conall Edge/Master of Apples : OH GOD NO
+20-39:GAME: Finished building powernets (32 nets)
+20-39:OOC: Conall Edge/Master of Apples : NOT AN ANOMALY
+20-39:OOC: Bob Marley/Electroncis111 : just in time...
+20-39:GAME: Finished building powernets (31 nets)
+20-39:OOC: Cog Mountaincopper/Headswe : FOR EXTENDED MAINTENES BECAUSE SAUKUES BROKE EVERYTHING
+20-39:GAME: Finished building powernets (31 nets)
+20-39:GAME: Finished building powernets (31 nets)
+20-39:OOC: Conall Edge/Master of Apples : actually it was you liar
+20-39:GAME: Finished building powernets (35 nets)
+20-39:OOC: Cog Mountaincopper/Headswe : Sadly no.
+20-39:OOC: Conall Edge/Master of Apples : oh
+20-39:GAME: Finished building powernets (35 nets)
+20-39:OOC: Conall Edge/Master of Apples : well, add apples k?
+20-39:ADMIN: Randomonioum modified Rando M. Onioum's isslime to 1
+20-39:OOC: Cog Mountaincopper/Headswe : why do pepole keep blameing me for shit
+20-39:GAME: Finished building powernets (37 nets)
+20-39:GAME: Finished building powernets (41 nets)
+20-39:OOC: Cog Mountaincopper/Headswe : Pisses me off.
+20-39:GAME: Finished building powernets (45 nets)
+20-39:GAME: Finished building powernets (45 nets)
+20-39:GAME: Finished building powernets (48 nets)
+20-39:GAME: Finished building powernets (49 nets)
+20-39:OOC: Conall Edge/Master of Apples : add apples
+20-39:GAME: Finished building powernets (49 nets)
+20-39:OOC: Conall Edge/Master of Apples : I will forgive you
+20-39:SAY: Conall Edge/Master of Apples : ;err
+20-39:ADMIN: Randomonioum jumped to Tirist Soapspear
+20-39:SAY: Conall Edge/Master of Apples : ;Shit went boom in my office
+20-39:SAY: Conall Edge/Master of Apples : ;Or something
+20-39:ACCESS: Login: Longshoots from 84.45.134.188
+20-39:GAME: Finished building powernets (49 nets)
+20-39:OOC: Fath Riverblock/Ihateoutside : The admins are enjoying themsleves aren&#39;t they?
+20-39:OOC: Cog Mountaincopper/Headswe : Whatever.
+20-39:GAME: Finished building powernets (49 nets)
+20-39:GAME: Finished building powernets (49 nets)
+20-39:GAME: Longshoots entered as Urist Spikeblood
+20-39:GAME: Finished building powernets (51 nets)
+20-39:OOC: Conall Edge/Master of Apples : Micro that&#39;s not even funnny
+20-39:OOC: Cog Mountaincopper/Headswe : The server will down for up to 5min to fix these annoying issues
+20-39:GAME: Finished building powernets (52 nets)
+20-39:OOC: GLaDOS/Micro102 : O see abuse of walking through the doors
+20-39:GAME: Finished building powernets (53 nets)
+20-39:GAME: Finished building powernets (54 nets)
+20-39:OOC: GLaDOS/Micro102 : The door wouldn&#39;t automatically open so he knows not to touch it
+20-39:GAME: Finished building powernets (55 nets)
+20-39:GAME: Finished building powernets (55 nets)
+20-39:OOC: Conall Edge/Master of Apples : I clicked it
+20-39:GAME: Finished building powernets (55 nets)
+20-39:GAME: Finished building powernets (58 nets)
+20-39:OOC: GLaDOS/Micro102 : No you didn&#39;t because it was electrified.
+20-39:GAME: Finished building powernets (60 nets)
+20-39:OOC: Conall Edge/Master of Apples : Obviously not
+20-39:ADMIN: Announce: Headswe : COME BACK IN FIVE MIN
+
+20-39:ACCESS: Logout: Headswe
+20-39:ACCESS: Logout: Longshoots
+20-39:OOC: Conall Edge/Master of Apples : I just clicked the hell outta that door
+20-39:ACCESS: Logout: Micro102
+20-39:ACCESS: Logout: Electroncis111
+20-39:ACCESS: Logout: Randomonioum
+20-39:ACCESS: Logout: Master of Apples
+20-39:ACCESS: Logout: Ihateoutside
+21-15:ADMIN: Loading crban_keylist
+21-15:ADMIN: Loading crban_reason
+21-15:ADMIN: Loading crban_time
+21-15:ADMIN: Loading crban_bannedby
+21-15:ADMIN: Loading crban_iplist
+21-15:ADMIN: Loading crban_unbanned
+21-15:ADMIN: Loading crban_ComputerIDs
+21-15:ADMIN: Loading jobban_rank
+21-15:ADMIN: Updating jobbanfile!
