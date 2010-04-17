@@ -38,6 +38,8 @@ var
 	enter_allowed = 1
 	shuttle_frozen = 0
 
+	random_illnesses = 1
+
 	list/bombers = list(  )
 	list/lastsignalers = list(	)	//keeps last 100 signals here in format: "[src] used \ref[src] @ location [src.loc]: [freq]/[code]"
 	list/admins = list(  )

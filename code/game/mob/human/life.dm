@@ -122,15 +122,16 @@
 				src.paralysis = max(10, src.paralysis)
 		if (src.disabilities & 4)
 			if ((prob(5) && src.paralysis <= 1 && src.r_ch_cou < 1))
-				src.drop_item()
 				spawn( 0 )
 					emote("cough")
+					sleep(10)
+					emote("gasp")
 					return
 		if (src.disabilities & 8)
 			if ((prob(10) && src.paralysis <= 1 && src.r_Tourette < 1))
-				src.stunned = max(10, src.stunned)
 				spawn( 0 )
 					emote("twitch")
+					say(pick(loggedsay))
 					return
 		if (src.disabilities & 16)
 			if (prob(10))
