@@ -39,9 +39,10 @@
 				V.amount = amount - 10
 
 /obj/virus/proc/spread(mob/M)
-	if(M.has_air_contact() || !M.internal)
-		if(prob(40) && !(locate(/obj/virus/) in M.loc))
-			new src.type(M.loc)
+	if(M != null)
+		if(M.has_air_contact() || !M.internal)
+			if(prob(40) && !(locate(/obj/virus/) in M.loc))
+				new src.type(M.loc)
 
 /obj/virus/proc/infect(mob/M)
 	if(!(locate(type) in M.viri))
@@ -93,10 +94,50 @@
 					H.paralysis += 5
 		if(progress > 800)
 			M.r_fever += 10
+			M.toxloss += 1
 
-	if(!M.internal || prob(30))
+	if(!M.internal && prob(15))
 		if(progress > 200)
-			if(istype(M,/mob/human))
+			if(istype(M,/mob/human) )
 				var/mob/human/H = M
 				H.emote("cough")
-			spread()
+			spread(M)
+
+/obj/virus/spacemonkey
+	amount = 100
+	var/progress = 0
+
+/obj/virus/spacemonkey/affect(mob/M)
+	if(istype(M,/mob/human))
+
+		if(progress < 1000 && M.r_fever > 1)
+			if(prob(M.r_fever / 10)) M.cure(/obj/virus/fever)
+			return
+		progress++
+		if(!M.sleeping || prob(50))
+			if(progress > 80)
+				M.bodytemperature += 1
+			if(progress > 160)
+				M.bodytemperature += 2
+			if(progress > 300)
+				M.drowsyness = 1
+				M.bodytemperature += 3
+			if(progress > 400)
+				M.weakened = 1
+				M.bodytemperature += 6
+			if(progress > 500)
+				M.bodytemperature += 12
+				if(prob(10) && istype(M,/mob/human))
+					var/mob/human/H = M
+					spawn(10)
+						H.emote("wimper")
+						H.paralysis += 5
+			if(progress > 800)
+				var/mob/human/H = M
+				H.monkeyize()
+		if(!M.internal && prob(15))
+			if(progress > 200)
+				if(istype(M,/mob/human) )
+					var/mob/human/H = M
+					H.emote("wimper")
+				spread(M)
