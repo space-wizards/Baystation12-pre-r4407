@@ -7,11 +7,11 @@
 	if(!istype(M, /mob))
 		return
 
-	if(usr.clumsy && prob(50))
-		M << "\red You decide to use the Screwdriver to stab yourself in the eye."
-		M.sdisabilities |= 1
-		M.weakened += 4
-		M.bruteloss += 10
+	if(user.clumsy && prob(50))
+		user << "\red You decide to use the Screwdriver to stab yourself in the eye."
+		user.sdisabilities |= 1
+		user.weakened += 4
+		user.bruteloss += 10
 
 	src.add_fingerprint(user)
 	if(!(user.zone_sel.selecting == ("eyes" || "head")))
