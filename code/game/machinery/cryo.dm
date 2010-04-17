@@ -919,6 +919,7 @@
 	M.paralysis -= 4
 	M.weakened -= 4
 	M.stunned -= 4
+	M.drowsyness -= 4
 	if (M.paralysis <= 1)
 		M.paralysis = 3
 	if (M.weakened <= 1)
