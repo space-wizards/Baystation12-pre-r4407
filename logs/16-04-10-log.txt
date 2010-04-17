@@ -7084,3 +7084,35 @@ Y/N?
 13-29:ADMIN: Topkasa modified floor's poison to 100000
 13-29:ADMIN: Topkasa modified floor's poison to 1e+008
 13-29:ACCESS: Logout: Topkasa
+17-34:ADMIN: Loading crban_keylist
+17-34:ADMIN: Loading crban_reason
+17-34:ADMIN: Loading crban_time
+17-34:ADMIN: Loading crban_bannedby
+17-34:ADMIN: Loading crban_iplist
+17-34:ADMIN: Loading crban_unbanned
+17-34:ADMIN: Loading crban_ComputerIDs
+17-34:ADMIN: Loading jobban_rank
+17-34:ADMIN: Updating jobbanfile!
+17-34:GAME: Finished building powernets (30 nets)
+17-34:ACCESS: Login: Topkasa from 127.0.0.1
+17-34:GAME: Topkasa entered as Desmond Taggart
+17-34:ADMIN: Topkasa used start_now
+17-34:GAME: starting game of extended
+17-34:ADMIN: Topkasa has toggled Topkasa's nodamage to 1
+17-34:ADMIN: Topkasa modified Desmond Taggart's z to 3
+17-34:ACCESS: Logout: Topkasa
+17-45:ADMIN: Loading crban_keylist
+17-45:ADMIN: Loading crban_reason
+17-45:ADMIN: Loading crban_time
+17-45:ADMIN: Loading crban_bannedby
+17-45:ADMIN: Loading crban_iplist
+17-45:ADMIN: Loading crban_unbanned
+17-45:ADMIN: Loading crban_ComputerIDs
+17-45:ADMIN: Loading jobban_rank
+17-45:ADMIN: Updating jobbanfile!
+17-45:GAME: Finished building powernets (30 nets)
+17-45:ACCESS: Login: Topkasa from 127.0.0.1
+17-45:GAME: Topkasa entered as Desmond Taggart
+17-45:ADMIN: Topkasa used start_now
+17-45:GAME: starting game of extended
+17-45:ACCESS: Logout: Topkasa
