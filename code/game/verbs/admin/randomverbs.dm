@@ -245,11 +245,12 @@
 	set category = "Admin"
 	set name = "Spawn Virus"
 	if(src.authenticated)
-		var/virus = input("Choose a virus") as null|anything in list("Fever")
+		var/virus = input("Choose a virus") as null|anything in list("Fever","Spacemonkey")
 		if(!virus) return
 		var/tp = 0
 		switch(virus)
 			if("Fever") tp = /obj/virus/fever
+			if("Spacemonkey") tp = /obj/virus/spacemonkey
 		var/mob/target = input("Choose a target") as null|mob in world
 		if(!target) return
 		var/obj/virus/V = new tp

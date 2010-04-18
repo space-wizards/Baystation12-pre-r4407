@@ -517,6 +517,7 @@
 	var/damtype = "brute"
 	var/throwforce = null
 	var/r_speed = 1.0
+	var/mob/human/whoseblood = null
 	var/health = null
 	var/burn_point = null
 	var/burning = null
@@ -1608,21 +1609,21 @@ obj/item/weapon/clothing/suit/labcoat
 	s_istate = "gun"
 /obj/item/weapon/gun/energy
 	name = "energy"
-	var/charges = 10.0
-	var/maximum_charges = 10.0
+	var/charges = 5
+	var/maximum_charges = 5
+	s_istate = "gun"
+
 /obj/item/weapon/gun/energy/taser_gun
 	name = "taser gun"
-	icon_state = "t_gun"
+	icon_state = "t_gun5"
 	w_class = 3.0
-	s_istate = "gun"
 	force = 10.0
 	throw_speed = 2
 	throw_range = 10
-	charges = 4
-	maximum_charges = 4
+
 /obj/item/weapon/gun/energy/laser_gun
 	name = "laser gun"
-	icon_state = "gun"
+	icon_state = "l_gun5"
 	w_class = 3.0
 	throw_speed = 2
 	throw_range = 10

@@ -90,6 +90,7 @@
 			I.Blend(new /icon('blood.dmi', "itemblood"),ICON_MULTIPLY)
 			I.Blend(new /icon(src.icon, src.icon_state),ICON_UNDERLAY)
 			src.icon = I
+			source2.whoseblood = M
 			src.blood = M.primarynew.uni_identity
 			if(M.zombie == 1)
 				src.zombieblood = 1
@@ -105,14 +106,6 @@
 			this.blood = M.primarynew.uni_identity
 			if(M.zombie == 1)
 				this.zombieblood = 1
-			//headsweisbajs
-
-			//old stuff
-			//source2.icon_old = src.icon
-			//var/icon/I = new /icon(src.icon, src.icon_state)
-			//I.Blend(new /icon('blood.dmi', "floorblood"),ICON_OVERLAY)
-			//src.icon = I
-			//src.blood = M.primarynew.uni_identity
 		else if (istype(src, /mob/human))
 			src.blood = M.primarynew.uni_identity
 		else

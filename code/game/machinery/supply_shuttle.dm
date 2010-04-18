@@ -56,7 +56,7 @@ var/supply_shuttle_points = 50
 	user << browse(dat, "window=supply_request;size=400x500")
 
 /obj/machinery/computer/supply/proc/supply_shuttle_request(var/mob/user,var/supply)
-	if(supply_shuttle_z == 2)
+	if(supply_shuttle_z == centcom_supply_dock)
 		var/area/A = locate(/area/shuttle_supply)
 		var/list/B = list()
 		var/full
@@ -310,7 +310,7 @@ var/supply_shuttle_points = 50
 	if (!( ticker ))
 		return
 
-	if(supply_shuttle_z == 2)	//This is the laziest proc ever
+	if(supply_shuttle_z == centcom_supply_dock)	//This is the laziest proc ever
 		user << "The supply shuttle has been called"
 		var/area/A = locate(/area/shuttle_supply)
 		for(var/area/B in A.superarea.areas)
@@ -319,23 +319,23 @@ var/supply_shuttle_points = 50
 				spawn(0)	shake_camera(M, 10, 1)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
-		supply_shuttle_z = 3
+		supply_shuttle_z = shuttle_en_route_level
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 1
+				AM.z = station_supply_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
 				M.show_message("\red Supply shuttle has arrived at station!")
 				spawn(0)	shake_camera(M, 2, 1)
-		supply_shuttle_z = 1
-	else if (supply_shuttle_z == 1)
+		supply_shuttle_z = station_supply_dock
+	else if (supply_shuttle_z == station_supply_dock)
 		user << "The supply shuttle has been sent back to CentCom"
 		var/area/A = locate(/area/shuttle_supply)
 		for(var/area/B in A.superarea.areas)
@@ -344,22 +344,22 @@ var/supply_shuttle_points = 50
 				spawn(0)	shake_camera(M, 10, 1)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 3
+				AM.z = shuttle_en_route_level
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
-		supply_shuttle_z = 3
+		supply_shuttle_z = shuttle_en_route_level
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
-				AM.z = 2
+				AM.z = centcom_supply_dock
 				AM.Move()
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
 				M.show_message("\red Supply shuttle has arrived at Centcom!")
 				spawn(0)	shake_camera(M, 2, 1)
-		supply_shuttle_z = 2
+		supply_shuttle_z = centcom_supply_dock
 	else
 		user << "\red Supply shuttle in transit already"
 	if(0)world << "send shuttle 5"

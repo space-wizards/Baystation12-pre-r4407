@@ -195,7 +195,7 @@
 			M.show_message("\red Launch sequence initiated!")
 			spawn(0)	shake_camera(M, 10, 1)
 		sleep(10)
-
+	world << shuttle_en_route_level
 	if(src.z == centcom_supply_dock)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)

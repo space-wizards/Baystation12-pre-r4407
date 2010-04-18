@@ -51,7 +51,7 @@
 		del(src)
 		return
 
-	if(name == "Pod-Warp")
+	if(name == "Pod-Spawn")
 		podspawns += src.loc
 		del(src)
 		return

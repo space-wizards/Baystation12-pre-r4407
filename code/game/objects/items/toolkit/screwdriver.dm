@@ -7,15 +7,16 @@
 	if(!istype(M, /mob))
 		return
 
-	if(usr.clumsy && prob(50))
-		M << "\red You decide to use the Screwdriver to stab yourself in the eye."
-		M.sdisabilities |= 1
-		M.weakened += 4
-		M.bruteloss += 10
+	if(user.clumsy && prob(50))
+		user << "\red You decide to use the Screwdriver to stab yourself in the eye."
+		user.sdisabilities |= 1
+		user.weakened += 4
+		user.bruteloss += 10
 
 	src.add_fingerprint(user)
 	if(!(user.zone_sel.selecting == ("eyes" || "head")))
 		return ..()
+	M = user
 	var/mob/human/H = M
 	if(istype(M, /mob/human) && ((H.head && H.head.flags & HEADCOVERSEYES) || (H.wear_mask && H.wear_mask.flags & MASKCOVERSEYES) || (H.glasses && H.glasses.flags & GLASSESCOVERSEYES)))
 		// you can't stab someone in the eyes wearing a mask!

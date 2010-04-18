@@ -1,7 +1,7 @@
 /obj/item/weapon/gun/energy/taser_gun/update_icon()
-	var/ratio = src.charges / maximum_charges
-	ratio = round(ratio, 0.25) * 100
-	src.icon_state = text("t_gun[]", ratio)
+	src.icon = initial(src.icon)
+	src.icon_state = "t_gun[src.charges]"
+	..()
 
 /obj/item/weapon/gun/energy/taser_gun/afterattack(atom/target as mob|obj|turf|area, mob/user as mob, flag)
 	if(flag)
