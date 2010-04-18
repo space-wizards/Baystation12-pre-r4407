@@ -22,7 +22,7 @@
 			else if (M.lastKnownIP && M.lastKnownIP == src.client.address && M.ckey != src.ckey && M.key)
 				world.log_access("Notice: [src.key] has same IP address as [M.key] did ([M.key] is no longer logged in).")
 				messageadmins("<font color='blue'><B>Notice:</B> <A href='?src=\ref[usr];priv_msg=\ref[src]'>[src.key]</A> has same IP address as [M.key] did ([M.key] is no longer logged in).</font>")
-				if (crban_isbanned(M.client))
+				if (isbanned(M.client))
 					world.log_access("Further notice: [M.key] was banned.")
 					messageadmins("<font color='blue'><B>Further notice:</B> [M.key] was banned.</font>")
 			if(src.client.computer_id == M.lastKnownID)

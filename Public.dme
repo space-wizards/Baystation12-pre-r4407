@@ -7,9 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\atoms code\datums code\game code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\machinery code\game\mob code\game\mob\human code\game\mob\monkey code\game\objects code\game\objects\items code\game\objects\items\misc code\game\objects\items\radio code\game\objects\items\weapon code\game\objects\items\weapon\gun icons icons\ss13 maps 
-FILE: icons\ss13\items.dmi
-LAST_COMPILE_TIME: 1271445316
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\mob\observer code\game\objects code\game\verbs code\game\verbs\admin maps Lib 
+FILE: code\atoms\space.dm
+LAST_COMPILE_TIME: 1271556803
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -104,9 +104,11 @@ AUTO_FILE_DIR: ON
 //Do not move this one include, it is here and not in the automatic section for a good reason.
 #include "code\game\admin\newpanelconfig.dm"
 // BEGIN_INCLUDE
+#include <dantom\db\db.dme>
 #include "todo.dm"
 #include "code\atoms.dm"
 #include "code\changelog.dm"
+#include "code\database.dm"
 #include "code\gamehelpers.dm"
 #include "code\globals.dm"
 #include "code\helperprocs.dm"

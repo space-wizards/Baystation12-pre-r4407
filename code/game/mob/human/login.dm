@@ -109,7 +109,7 @@
 		var/turf/Trand = pick(L)
 		src.loc = Trand
 
-		if (src.savefile_load() == 0)
+		if (!src.savefile_load())
 			ShowChoices()
 
 	if (!isturf(src.loc))

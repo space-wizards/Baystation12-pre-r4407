@@ -790,47 +790,59 @@
 // returns 0 if savefile did not exist
 
 /mob/human/proc/savefile_load(var/silent = 1)
-	if (fexists(text("players/[].sav", src.ckey)))
-		var/savefile/F = new /savefile( text("players/[].sav", src.ckey) )
-		var/test = null
-		F["version"] >> test
-		if (test != savefile_ver)
-			fdel(text("players/[].sav", src.ckey))
-			if(!silent)
-				alert("Your savefile was incompatible with this version and was deleted.")
-			return 1
-		F["rname"] >> src.rname
-		F["gender"] >> src.gender
-		F["age"] >> src.age
-		F["occupation1"] >> src.occupation1
-		F["occupation2"] >> src.occupation2
-		F["occupation3"] >> src.occupation3
-		F["nr_hair"] >> src.nr_hair
-		F["ng_hair"] >> src.ng_hair
-		F["nb_hair"] >> src.nb_hair
-		F["nr_facial"] >> src.nr_facial
-		F["ng_facial"] >> src.ng_facial
-		F["nb_facial"] >> src.nb_facial
-		F["ns_tone"] >> src.ns_tone
-		F["h_style"] >> src.h_style
-		F["h_style_r"] >> src.h_style_r
-		F["f_style"] >> src.f_style
-		F["f_style_r"] >> src.f_style_r
-		F["r_eyes"] >> src.r_eyes
-		F["g_eyes"] >> src.g_eyes
-		F["b_eyes"] >> src.b_eyes
-		F["b_type"] >> src.b_type
-		F["need_gl"] >> src.need_gl
-		F["be_epil"] >> src.be_epil
-		F["be_tur"] >> src.be_tur
-		F["be_cough"] >> src.be_cough
-		F["be_stut"] >> src.be_stut
-		F["be_music"] >> src.be_music
-		F["be_syndicate"] >> src.be_syndicate
-		F["be_nudist"] >> src.be_nudist
-		F["achievements"] >> src.achievements
-		return 1
+	var/test
+	var/DBQuery/gquery = dbcon.NewQuery("SELECT * FROM `players` WHERE ckey='[src.ckey]'")
+	if(!gquery.Execute())
+		world.log_admin("[gquery.ErrorMsg()]")
 	else
+		while(gquery.NextRow())
+			var/list/column_data = gquery.GetRowData()
+			test = column_data["ckey"]
+	if(test)
+		var/DBQuery/xquery = dbcon.NewQuery("SELECT * FROM `players` WHERE ckey='[src.ckey]'")
+		if(xquery.Execute())
+			while(xquery.NextRow())
+				var/list/column_data = xquery.GetRowData()
+				src.rname = column_data["rname"]
+				src.gender = column_data["gender"]
+				src.occupation1 = column_data["occupation1"]
+				src.occupation2 = column_data["occupation2"]
+				src.occupation3 = column_data["occupation3"]
+				src.nr_hair = column_data["nr_hair"]
+				src.ng_hair = column_data["ng_hair"]
+				src.nb_hair = column_data["nb_hair"]
+				src.nr_facial = column_data["nr_facial"]
+				src.ng_facial = column_data["ng_facial"]
+				src.nb_facial = column_data["nb_facial"]
+				src.ns_tone = column_data["ns_tone"]
+				src.h_style = column_data["h_style"]
+				src.h_style_r = column_data["h_style_r"]
+				src.f_style = column_data["f_style"]
+				src.f_style_r = column_data["f_style_r"]
+				src.r_eyes = column_data["r_eyes"]
+				src.g_eyes = column_data["g_eyes"]
+				src.b_eyes = column_data["b_eyes"]
+				src.b_type = column_data["b_type"]
+				src.need_gl = column_data["need_gl"]
+				src.be_epil = column_data["be_epil"]
+				src.be_tur = column_data["be_tur"]
+				src.be_cough = column_data["be_cough"]
+				src.be_stut = column_data["be_stut"]
+				src.be_music = column_data["be_music"]
+				src.be_syndicate = column_data["be_syndicate"]
+				src.be_nudist = column_data["be_nudist"]
+				world << column_data["be_nudist"]
+				world << column_data["be_tur"]
+				src << "Player Profile has been loaded"
+				src << browse(null, "window=mob_occupation")
+			return 1
+		else
+			world.log_admin("[xquery.ErrorMsg()]")
+			return 0
+	else
+		var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '[src.nr_hair]', '[src.ng_hair]', '[src.nb_hair]', '[src.nr_facial]', '[src.ng_facial]', '[src.nb_facial]', '[src.ns_tone]', '[src.h_style]', '[src.h_style_r]', '[src.f_style]', '[src.f_style_r]', '[src.r_eyes]', '[src.g_eyes]', '[src.b_eyes]', '[src.b_type]', '[src.need_gl]', '[src.be_epil]', '[src.be_tur]', '[src.be_cough]', '[src.be_stut]', '[src.be_music]', '[src.be_syndicate]', '[src.be_nudist]');")
+		query.Execute()
+		src << browse(null, "window=mob_occupation")
 		return 0
 
 /mob/human/Topic(href, href_list)
@@ -1010,38 +1022,13 @@
 		else if (findtext(href, "b_syndicate", 1, null))
 			src.be_syndicate = !( src.be_syndicate )
 		else if (!IsGuestKey(src.key) && findtext(href, "save", 1, null))
-			var/savefile/F = new /savefile("players/[src.ckey].sav")
-			F["version"] << savefile_ver
-			F["rname"] << src.rname
-			F["gender"] << src.gender
-			F["age"] << src.age
-			F["occupation1"] << src.occupation1
-			F["occupation2"] << src.occupation2
-			F["occupation3"] << src.occupation3
-			F["nr_hair"] << src.nr_hair
-			F["ng_hair"] << src.ng_hair
-			F["nb_hair"] << src.nb_hair
-			F["nr_facial"] << src.nr_facial
-			F["ng_facial"] << src.ng_facial
-			F["nb_facial"] << src.nb_facial
-			F["ns_tone"] << src.ns_tone
-			F["h_style"] << src.h_style
-			F["h_style_r"] << src.h_style_r
-			F["f_style"] << src.f_style
-			F["f_style_r"] << src.f_style_r
-			F["r_eyes"] << src.r_eyes
-			F["g_eyes"] << src.g_eyes
-			F["b_eyes"] << src.b_eyes
-			F["b_type"] << src.b_type
-			F["need_gl"] << src.need_gl
-			F["be_epil"] << src.be_epil
-			F["be_tur"] << src.be_tur
-			F["be_cough"] << src.be_cough
-			F["be_stut"] << src.be_stut
-			F["be_music"] << src.be_music
-			F["be_syndicate"] << src.be_syndicate
-			F["be_nudist"] << src.be_nudist
-		else if (!IsGuestKey(src.key) && findtext(href, "load", 1, null))
+			var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '[src.nr_hair]', '[src.ng_hair]', '[src.nb_hair]', '[src.nr_facial]', '[src.ng_facial]', '[src.nb_facial]', '[src.ns_tone]', '[src.h_style]', '[src.h_style_r]', '[src.f_style]', '[src.f_style_r]', '[src.r_eyes]', '[src.g_eyes]', '[src.b_eyes]', '[src.b_type]', '[src.need_gl]', '[src.be_epil]', '[src.be_tur]', '[src.be_cough]', '[src.be_stut]', '[src.be_music]', '[src.be_syndicate]', '[src.be_nudist]');")
+			if(!query.Execute())
+				usr << query.ErrorMsg()
+				usr << "Report this."
+			else
+				usr << "Saved"
+		else if (!IsGuestKey(src.ckey) && findtext(href, "load", 1, null))
 			if (!src.savefile_load(0))
 				alert("You do not have a savefile.")
 
@@ -1770,7 +1757,8 @@
 					if (src.mob.drowsyness > 0)
 						src.move_delay += 6
 					src.move_delay += 1
-					if(src.mob.zombie) src.move_delay += 4
+					if((src.mob.zombie) && (!src.mob.zombieleader)) src.move_delay += 4
+					if(src.mob.zombieleader) src.move_delay += 2
 				if("face")
 					src.mob.dir = direct
 					return
@@ -1848,56 +1836,18 @@
 	/var/loginmsg = 0
 	startofclient:
 	if(worldsetup == 1)
-
-		for (var/X in crban_ipranges)
-			if (findtext(address,X)==1)
-				if (crban_unbanned.Find(ckey))
-					//We've been unbanned
-					world.log_access("[src] bypassed an ip-range ban by being on the unban list")
-				else
-					world.log_access("Failed Login: [src] Reason: Banned by iprange")
-					src << crban_bannedmsg
-					var/reason = "Iprange ban"
-					messageadmins("\blue[src] was autobanned. Reason: [reason]")
-					crban_fullbanclient(src, reason)
-					del src
-
-		if (crban_keylist.Find(ckey))
-			src << crban_bannedmsg
-			world.log_access("Failed Login: [src] Reason: Key banned")
-			if (!IsGuestKey(key))
-				var/reason = "Key banned (Multikey)"
-				messageadmins("\blue[src] was autobanned. Reason: [reason]")
-				crban_fullbanclient(src, reason)	//No reason because they'll already have one if they're keybanned
+		if(isbanned(src))
+			var/DBQuery/keys = dbcon.NewQuery("SELECT * FROM `crban`WHERE ckey='[src.ckey]'")
+			var/reas
+			var/bywho
+			if(keys.Execute())
+				while(keys.NextRow())
+					var/list/column_data = keys.GetRowData()
+					reas = column_data["reason"]
+					bywho = column_data["bannedby"]
+			alert("\red You're banned from Baystation 12 Reason:[reas] by [bywho].")
+			messageadmins("\blue Failed Login: [src] Reason:[reas] by [bywho] ")
 			del src
-
-		if (crban_iplist.Find(address))
-			if (crban_unbanned.Find(ckey))
-				//We've been unbanned
-				crban_iplist.Remove(address)
-			else
-				//We're still banned
-				world.log_access("Failed Login: [src] Reason: Ip banned")
-				src << crban_bannedmsg
-				var/reason = "Ip banned (Multikey)"
-				messageadmins("\blue[src] was autobanned. Reason: [reason]")
-				crban_fullbanclient(src, reason)
-				del src
-
-		var/savefile/S=Import()
-		if (ckey(world.url) in S)
-			if (crban_unbanned.Find(ckey))
-				//We've been unbanned
-				S[world.url] << 0
-				Export(S)
-			else
-				//We're still banned
-				world.log_access("Failed Login: [src] Reason: Cookie Banned")
-				src << crban_bannedmsg
-				var/reason = "Cookie banned (Multikey)"
-				messageadmins("\blue[src] was autobanned. Reason: [reason]")
-				crban_fullbanclient(src, reason)
-				del src
 
 		if (address && address!="127.0.0.1" && address!="localhost")
 			var/html="<html><head><script language=\"JavaScript\">\

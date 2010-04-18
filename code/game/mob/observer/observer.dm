@@ -22,8 +22,8 @@
 /mob/observer/proc/turningback()
 	set name = "Return to your body"
 	if(src.client && src.dead())
-		var/mob/deadbody = src.client.oldbody
-		deadbody.ckey = src.client.key
+		src.client.mob = src.oldmob
+		src.client.ckey = src.oldckey
 	return
 /mob/observer/Move(NewLoc, direct)
 	if(NewLoc)

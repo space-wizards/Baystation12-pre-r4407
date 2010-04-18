@@ -1,4 +1,4 @@
-/mob/var/zombieleader = 0
+mob/var/zombieleader = 0
 mob/var/zombieimmune = 0
 /mob/proc/zombify()
 	stat &= 1

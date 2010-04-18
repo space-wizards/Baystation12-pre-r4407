@@ -26,7 +26,7 @@
 		hardban = list("Justgoaway1")
 		for(var/mob/M in world)
 			if (hardban.Find(M.key) || hardban.Find(M.ckey) || hardban.Find(M.client))
-				crban_fullban(M, "Autoban", "Autobanner")
+				fullban(M, "Autoban", "Autobanner")
 
 /datum/game_mode/proc/check_win()
 	var/list/L = list(  )

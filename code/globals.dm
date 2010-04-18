@@ -37,7 +37,9 @@ var
 	abandon_allowed = 1
 	enter_allowed = 1
 	shuttle_frozen = 0
-
+	database = "bay12"
+	var/username = "head"// This variable contains the username data.
+	var/password = "123456"// This variable contains the password data.
 	list/bombers = list(  )
 	list/lastsignalers = list(	)	//keeps last 100 signals here in format: "[src] used \ref[src] @ location [src.loc]: [freq]/[code]"
 	list/admins = list(  )

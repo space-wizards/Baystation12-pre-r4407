@@ -204,8 +204,8 @@ var/map_loading = 1
 		makepowernets()
 		//----
 
-	crban_loadbanfile()
-	crban_updatelegacybans()
+//	crban_loadbanfile()
+//	crban_updatelegacybans()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
 	LoadPlayerData()
@@ -322,6 +322,7 @@ var/map_loading = 1
 			sleep(100)
 			goto Label_482
 		return
+	getdb()
 	worldsetup = 1
 	world.log << "World Setup Complete"
 

@@ -26,7 +26,20 @@
 	else
 		alert("Admin jumping is disabled.")
 
+/client/proc/shuttlebump(var/area/A)
+	var/list/L = list()
+	for(var/B in A.superarea.areas)
+		for(var/turf/T in B)
+			if(!T.density)
+				var/clear = 1
+				for(var/obj/O in T)
+					if(O.density)
+						clear = 0
+						break
+					if(clear)
+						L+=T
 
+		usr.loc = pick(L)
 /client/proc/Jumptomob(var/mob/M in world)
 	set category = "Admin"
 	set name = "Jump to Mob"

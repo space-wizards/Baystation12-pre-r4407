@@ -6941,3 +6941,2872 @@ Y/N?
 21-15:ADMIN: Loading crban_ComputerIDs
 21-15:ADMIN: Loading jobban_rank
 21-15:ADMIN: Updating jobbanfile!
+21-23:ADMIN: Loading crban_keylist
+21-23:ADMIN: Loading crban_reason
+21-23:ADMIN: Loading crban_time
+21-23:ADMIN: Loading crban_bannedby
+21-23:ADMIN: Loading crban_iplist
+21-23:ADMIN: Loading crban_unbanned
+21-23:ADMIN: Loading crban_ComputerIDs
+21-23:ADMIN: Loading jobban_rank
+21-23:ADMIN: Updating jobbanfile!
+21-23:GAME: Finished building powernets (30 nets)
+21-23:ACCESS: Login: Headswe from 127.0.0.1
+21-23:GAME: Headswe entered as Cog Mountaincopper
+21-23:ADMIN: Headswe jumped to Engine Equipment Room
+21-23:ACCESS: Login: Master of Apples from 81.155.42.175
+21-23:ADMIN: Headswe created /obj/item/weapon/gun/energy/laser_gun
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:OOC: Conall Edge/Master of Apples : apples?
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:GAME: Master of Apples entered as Conall Edge
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:OOC: Cog Mountaincopper/Headswe : No apples yet.
+21-23:OOC: Cog Mountaincopper/Headswe : You should have put them into a DMI
+21-23:OOC: Conall Edge/Master of Apples : Will they actually be added?
+21-23:OOC: Conall Edge/Master of Apples : oh yeah whoops :
+21-23:OOC: Cog Mountaincopper/Headswe : Sure.
+21-23:OOC: Cog Mountaincopper/Headswe : New laser is in tho
+21-23:ACCESS: Login: OzyTheSage from 98.118.48.126
+21-23:OOC: Conall Edge/Master of Apples : and taser?
+21-23:ADMIN: Headswe created /obj/item/weapon/gun/energy/laser_gun
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:MATTACK: Cog Mountaincopper(Headswe)has shot a taser round at the floor
+21-23:ACCESS: Login: Beorn080 from 173.59.74.11
+21-23:OOC: Cog Mountaincopper/Headswe : the laser has bugs waaaaaay.
+21-23:OOC: Cog Mountaincopper/Headswe : sprite bugs.
+21-23:ACCESS: Login: Longshoots from 84.45.134.188
+21-23:OOC: Cog Mountaincopper/Headswe : but who cares right :D
+21-23:GAME: Beorn080 entered as Kumil BoatPlump
+21-23:ADMIN: Headswe created /obj/item/weapon/gun/energy/laser_gun
+21-23:OOC: Urist Spikeblood/Longshoots : Are we allowed back yet?
+21-23:OOC: Cog Mountaincopper/Headswe : heh laser got ten shots
+21-23:OOC: Cog Mountaincopper/Headswe : and yes.
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : Greetings travellers.
+21-23:GAME: starting game of traitor
+21-23:ADMIN: Headswe modified laser gun's z to 4
+21-23:GAME: Longshoots entered as Urist Spikeblood
+21-23:ADMIN: Headswe modified laser gun's z to 4
+21-23:ADMIN: Headswe modified laser gun's z to 4
+21-23:SAY: Urist Spikeblood/Longshoots : ;Can I have a job?
+21-23:OOC: Conall Edge/Master of Apples : Whoa it looks scary
+21-23:GAME: OzyTheSage entered as Ozymandias Blazelever
+21-23:SAY: Conall Edge/Master of Apples : ;Err, Sure, Sure
+21-23:OOC: Cog Mountaincopper/Headswe : Try hitting yourself.
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : game mode is &#34;random?&#34;
+21-23:OOC: Cog Mountaincopper/Headswe : and make it bloody.
+21-23:OOC: Conall Edge/Master of Apples : I&#39;m captain, why would I hit myself
+21-23:OOC: Cog Mountaincopper/Headswe : because i need you to do it
+21-23:SAY: Cog Mountaincopper/Headswe : RAWRAWR
+21-23:OOC: Conall Edge/Master of Apples : but but.
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Hey everyone, its the Head of Security. Just a reminder that hoarding internals could cause dangerous shortages in areas of the station, and will not be tolerated
+21-23:SAY: Urist Spikeblood/Longshoots : Hi
+21-23:MATTACK: Conall Edge(Master of Apples) attcked by Conall Edge(Master of Apples) with the laser gun
+21-23:OOC: Cog Mountaincopper/Headswe : Tihi
+21-23:SAY: Conall Edge/Master of Apples : Get me up
+21-23:MATTACK: Cog Mountaincopper(Headswe) attcked by Cog Mountaincopper(Headswe) with the laser gun
+21-23:MATTACK: Cog Mountaincopper(Headswe) attcked by Cog Mountaincopper(Headswe) with the laser gun
+21-23:SAY: Conall Edge/Master of Apples : Hey noooo
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : hey there....... ... uhm...
+21-23:SAY: Urist Spikeblood/Longshoots : Captain&#39;s on his way
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Where&#39;s the quartermaster?
+21-23:ADMIN: Headswe Healed/Revived Master of Apples
+21-23:SAY: Conall Edge/Master of Apples : I&#39;m paralyzed
+21-23:ADMIN: Headswe Healed/Revived Headswe
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : oh, alright
+21-23:SAY: Urist Spikeblood/Longshoots : Don&#39;t know if they have one
+21-23:SAY: Conall Edge/Master of Apples : Honestly
+21-23:SAY: Conall Edge/Master of Apples : That&#39;s my gun
+21-23:ACCESS: Login: Randomonioum from 81.98.16.10
+21-23:SAY: Kumil BoatPlump/Beorn080 : God damn captain leaving his gun everywhere
+21-23:SAY: Kumil BoatPlump/Beorn080 : Well, you shouldn&#39;t leave it lying around
+21-23:SAY: Conall Edge/Master of Apples : Oh, whatever
+21-23:SAY: Urist Spikeblood/Longshoots : ;Captain? Can we have jobs, please?
+21-23:SAY: Cog Mountaincopper/Headswe : WERE MISSING OUR LATEST LOAD OF SANDVICHES
+21-23:OOC: Urist Spikeblood/Longshoots : Round trip ping-pong took 26 seconds.
+21-23:OOC: Cog Mountaincopper/Headswe : Holllly shit
+21-23:SAY: Conall Edge/Master of Apples : Card, Please
+21-23:OOC: Cog Mountaincopper/Headswe : try again
+21-23:SAY: Urist Spikeblood/Longshoots : Any Head positions open?
+21-23:OOC: Rando M. Onioum/Randomonioum : WHOOP
+21-23:OOC: Cog Mountaincopper/Headswe : WHOOp
+21-23:OOC: Conall Edge/Master of Apples : HAY BABE
+21-23:OOC: Conall Edge/Master of Apples : not gay
+21-23:SAY: Cog Mountaincopper/Headswe : Pick up that can.
+21-23:SAY: Conall Edge/Master of Apples : Smack ye fingerprints on that
+21-23:SAY: Cog Mountaincopper/Headswe : er card
+21-23:SAY: Cog Mountaincopper/Headswe : bzzt.
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : *slap*
+21-23:SAY: Cog Mountaincopper/Headswe : Don do it
+21-23:OOC: Rando M. Onioum/Randomonioum : Shit, you caugt me on the wong foot, I HAVE NO COMEBACK D:
+21-23:OOC: Urist Spikeblood/Longshoots : 0.21 seconds
+21-23:SAY: Urist Spikeblood/Longshoots : (Sorry, lag)
+21-23:OOC: Conall Edge/Master of Apples : Harr
+21-23:OOC: Urist Spikeblood/Longshoots : Nevermind, 30 seconds
+21-23:OOC: Rando M. Onioum/Randomonioum : ....not gay.
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : *help
+21-23:SAY: Conall Edge/Master of Apples : Pass it here
+21-23:OOC: Cog Mountaincopper/Headswe : Hmm spanny.
+21-23:OOC: Cog Mountaincopper/Headswe : snappy*
+21-23:SAY: Conall Edge/Master of Apples : Just gotta get the records done
+21-23:SAY: Conall Edge/Master of Apples : Otherwise centcom rage
+21-23:GAME: Randomonioum entered as Rando M. Onioum
+21-23:OOC: Cog Mountaincopper/Headswe : Do you have that all the time?
+21-23:SAY: Conall Edge/Master of Apples : Name?
+21-23:OOC: Urist Spikeblood/Longshoots : Only on Googol&#39;s servers
+21-23:OOC: Cog Mountaincopper/Headswe : Hmm..
+21-23:ADMIN: Randomonioum used secret showgm
+21-23:ADMIN: Randomonioum used secret check_antagonist_goal
+21-23:OOC: Cog Mountaincopper/Headswe : Someone must be hacking mah internets
+21-23:ADMIN: Randomonioum used secret check_antagonist
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : you have you put your finger prints on the card
+21-23:ACCESS: Login: Holybond from 70.19.82.216
+21-23:OOC: Cog Mountaincopper/Headswe : nah properly just stealing it
+21-23:SAY: Conall Edge/Master of Apples : Nope
+21-23:SAY: Conall Edge/Master of Apples : I&#39;ve got gloves
+21-23:ADMIN: Randomonioum has toggled Randomonioum's nodamage to 1
+21-23:OOC: Urist Spikeblood/Longshoots : Or someone stealing mine, if I&#39;m the only one getting it
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : say I meant the guy in front of me, sorry
+21-23:SAY: Conall Edge/Master of Apples : Oh, Yeah
+21-23:SAY: Conall Edge/Master of Apples : Age?
+21-23:SAY: Urist Spikeblood/Longshoots : Yup
+21-23:SAY: Conall Edge/Master of Apples : urist?
+21-23:OOC: Cog Mountaincopper/Headswe : anyone have abornmly high ping?
+21-23:SAY: Conall Edge/Master of Apples : Age?
+21-23:SAY: Urist Spikeblood/Longshoots : 22
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : is there a way to check your ping?
+21-23:SAY: Urist Spikeblood/Longshoots : Anyway, yeah, any Head positions open?
+21-23:OOC: Kumil BoatPlump/Beorn080 : .52
+21-23:OOC: Urist Spikeblood/Longshoots : Type .ping
+21-23:OOC: Conall Edge/Master of Apples : do .ping
+21-23:MATTACK: Cog Mountaincopper(Headswe) attcked by Kumil BoatPlump(Beorn080) with the toolbox
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : ah, right
+21-23:SAY: Urist Spikeblood/Longshoots : Ah, good
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard
+21-23:SAY: Urist Spikeblood/Longshoots : Thanks
+21-23:ADMIN: Randomonioum created /obj/machinery/atmoalter/canister/co2canister
+21-23:SAY: Cog Mountaincopper/Headswe : sorry.
+21-23:SAY: Cog Mountaincopper/Headswe : wait
+21-23:ADMIN: Randomonioum created /obj/machinery/atmoalter/canister/co2canister
+21-23:SAY: Conall Edge/Master of Apples : Mr.Blazelever
+21-23:SAY: Conall Edge/Master of Apples : If you please
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : hello there
+21-23:SAY: Conall Edge/Master of Apples : Use that card
+21-23:SAY: Cog Mountaincopper/Headswe : do you have yellow gloves?
+21-23:ADMIN: Randomonioum created /obj/item/weapon/pickaxe
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at the floor
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at the floor
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at the floor
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at the floor
+21-23:OOC: Urist Spikeblood/Longshoots : Lags stopped for me now
+21-23:OOC: Cog Mountaincopper/Headswe : REMEBER FOLKS
+21-23:OOC: Cog Mountaincopper/Headswe : HOS DO NOT REQUIRE YELLOW GLOVES.
+21-23:SAY: Conall Edge/Master of Apples : Name?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Arresting Cog Mountaincopper for assaulting a superior officer
+21-23:OOC: Cog Mountaincopper/Headswe : You should not have them
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Ozymandias Blazelever ... do you know how to spell that first bit?
+21-23:SAY: Cog Mountaincopper/Headswe : ; LOL
+21-23:SAY: Cog Mountaincopper/Headswe : ; HES TEALING MAH HEADSET
+21-23:ADMIN: Beorn080/Kumil BoatPlump : Check the traitor dummy
+21-23:SAY: Conall Edge/Master of Apples : err,... O Z Y?
+21-23:OOC: Urist Spikeblood/Longshoots : I stand corrected: 25 seconds
+21-23:ADMIN: PM: Headswe->Beorn080 : Im just saying for refreance
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Hmm, yeah, with one Z
+21-23:SAY: Conall Edge/Master of Apples : Age?
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : 24
+21-23:ADMIN: Headswe used secret check_antagonist_goal
+21-23:ADMIN: PM: Headswe->Beorn080 : you have a lame objective
+21-23:ADMIN: PM: Headswe->Beorn080 : aw spaceing me?
+21-23:ADMIN: PM: Randomonioum->Headswe : LETS MIX IT UP
+21-23:ADMIN: PM: Headswe->Beorn080 : sad face
+21-23:OOC: Urist Spikeblood/Longshoots : Must be all the poisonous gases in the air or something
+21-23:SAY: Conall Edge/Master of Apples : Any job preference?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; I have sent Cog Mountaincopper to the prison station
+21-23:SAY: Conall Edge/Master of Apples : ;Err, okay.
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Hmm, doctor would be nice
+21-23:ADMIN: Randomonioum modified Rando M. Onioum's rname to Urist McGHOSTIGNOREMEOK
+21-23:SAY: Conall Edge/Master of Apples : ;You should probably bring him back, at some point
+21-23:SAY: Conall Edge/Master of Apples : Okaay
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : that is, if it&#39;s open
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; I will.
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : thank you, sir!
+21-23:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+21-23:OOC: Fred McBurger/Mr.Peanuts : Hey
+21-23:OOC: Conall Edge/Master of Apples : sup
+21-23:OOC: Fred McBurger/Mr.Peanuts : If I randomly go AFK I prob. passed out
+21-23:GAME: Mr.Peanuts entered as Fred McBurger
+21-23:ADMIN: Randomonioum modified Urist McGHOSTIGNOREMEOK (as Rando M. Onioum)'s xray to 1
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;Is anybody missing a microphone? Ehm... well you probably won&#39;t be able to hear this but still
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;there&#39;s a toolbox and headset in the northeast hall by the chapel
+21-23:SAY: Conall Edge/Master of Apples : Howdy
+21-23:SAY: Fred McBurger/Mr.Peanuts : hello
+21-23:SAY: Conall Edge/Master of Apples : *sigh
+21-23:SAY: Conall Edge/Master of Apples : Name?
+21-23:SAY: Fred McBurger/Mr.Peanuts : Fred
+21-23:SAY: Fred McBurger/Mr.Peanuts : McBurger
+21-23:SAY: Conall Edge/Master of Apples : Age?
+21-23:SAY: Fred McBurger/Mr.Peanuts : 17
+21-23:SAY: Conall Edge/Master of Apples : 17?
+21-23:SAY: Fred McBurger/Mr.Peanuts : yes
+21-23:SAY: Conall Edge/Master of Apples : Should you be on here?
+21-23:SAY: Conall Edge/Master of Apples : Eh, whatever
+21-23:SAY: Fred McBurger/Mr.Peanuts : I don&#39;t know
+21-23:SAY: Fred McBurger/Mr.Peanuts : No where elss to go
+21-23:SAY: Fred McBurger/Mr.Peanuts : Should you be letting monkeys drool around here?
+21-23:SAY: Kumil BoatPlump/Beorn080 : Hi there.
+21-23:SAY: Conall Edge/Master of Apples : Oh
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : hey... is there a problem?
+21-23:OOC: Urist Spikeblood/Longshoots : Something&#39;s sapping my internet
+21-23:SAY: Conall Edge/Master of Apples : That&#39;s the mascot
+21-23:SAY: Fred McBurger/Mr.Peanuts : A drooling monkey...
+21-23:SAY: Kumil BoatPlump/Beorn080 : Nope just checking around on the station
+21-23:SAY: Conall Edge/Master of Apples : Centcom suck
+21-23:SAY: Conall Edge/Master of Apples : Anyway
+21-23:SAY: Conall Edge/Master of Apples : Preference of job?
+21-23:SAY: Fred McBurger/Mr.Peanuts : Not really
+21-23:SAY: Fred McBurger/Mr.Peanuts : I was an engineer
+21-23:OOC: Urist Spikeblood/Longshoots : Also, these laser guns are fearsome
+21-23:SAY: Kumil BoatPlump/Beorn080 : Everything ok here? Need me to beat that assistant?
+21-23:SAY: Fred McBurger/Mr.Peanuts : back when I fixed space tanks for a band of pirates
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:SAY: Conall Edge/Master of Apples : Naw
+21-23:SAY: Conall Edge/Master of Apples : Should be okay
+21-23:SAY: Kumil BoatPlump/Beorn080 : Good, last one got sent to the prison station.
+21-23:OOC: Conall Edge/Master of Apples : True
+21-23:SAY: Fred McBurger/Mr.Peanuts : hey
+21-23:SAY: Conall Edge/Master of Apples : ;I&#39;ll be in my quarters, if anyone needs me
+21-23:ACCESS: Logout: Randomonioum
+21-23:SAY: Fred McBurger/Mr.Peanuts : hello?
+21-23:SAY: Urist Spikeblood/Longshoots : Hi
+21-23:SAY: Urist Spikeblood/Longshoots : Just checking the engine
+21-23:SAY: Fred McBurger/Mr.Peanuts : Just transfered here
+21-23:SAY: Urist Spikeblood/Longshoots : Good
+21-23:MATTACK: Kumil BoatPlump(Beorn080) clicked on Kumil BoatPlump(Beorn080) with a syringe
+21-23:MATTACK: Kumil BoatPlump(Beorn080) injected Kumil BoatPlump(Beorn080) with a syringe filled with 
+21-23:SAY: Fred McBurger/Mr.Peanuts : anything I should be doing?
+21-23:SAY: Urist Spikeblood/Longshoots : Um...not that I know of
+21-23:SAY: Fred McBurger/Mr.Peanuts : ok
+21-23:SAY: Urist Spikeblood/Longshoots : If you see any busted lightbulbs, fix them. Other than that, nothing that I can think of
+21-23:OOC: Conall Edge/Master of Apples : bug : printing records yields a &#34;medical record lost!&#34; message
+21-23:SAY: Kumil BoatPlump/Beorn080 : So, how are things going?
+21-23:GAME: Holybond entered as Hob White
+21-23:OOC: Conall Edge/Master of Apples : And a  &#34;general record lost!&#34;
+21-23:SAY: Conall Edge/Master of Apples : Fine, Fine
+21-23:OOC: Hob White/Holybond : Hi.
+21-23:SAY: Conall Edge/Master of Apples : I need to assign Mr.White
+21-23:OOC: Conall Edge/Master of Apples : Hey
+21-23:SAY: Urist Spikeblood/Longshoots : ;What bugger&#39;s nicked all the insulated gloves?
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; Who fucked up the engine
+21-23:SAY: Urist Spikeblood/Longshoots : ;Eh?
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; I come in here and we have a 100% cold loop
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Whats wrong with the engine, and what do you mean about the gloves?
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; what the fuck is wrong with you people
+21-23:OOC: HELP: Hob White/Holybond : Uh..my friend Levian requests to be unbanned.
+21-23:SAY: Conall Edge/Master of Apples : ;Prolly the last engineer
+21-23:SAY: Urist Spikeblood/Longshoots : ;It was like that when I checked it...well...I couldn&#39;t really check it, the air was too hot to breathe
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; Someone fucked this up really good, I can&#39;t get more than 5 W of this thing
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Well, he was sent to the prison station, so he probably stole the gloves.
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; 4 W
+21-23:SAY: Urist Spikeblood/Longshoots : ;And someone&#39;s stolen all 3 sets of insulated gloves
+21-23:SAY: Urist Spikeblood/Longshoots : ;Wait
+21-23:SAY: Urist Spikeblood/Longshoots : ;HoS?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; What?
+21-23:SAY: Urist Spikeblood/Longshoots : ;Wasn&#39;t he talking to you about your yellow gloves earlier?
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; 2 W and falling
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; He was beating me at the time.
+21-23:SAY: Urist Spikeblood/Longshoots : ;Ah
+21-23:SAY: Urist Spikeblood/Longshoots : ;Well...
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; Who is the other fucking engineer I would like to speak with him
+21-23:SAY: Urist Spikeblood/Longshoots : ;He&#39;s in the prison station for assaulting the HoS
+21-23:SAY: Conall Edge/Master of Apples : ;He&#39;s on the prison station
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Should have checked him for gloves before sending him to the prison station. My bad
+21-23:SAY: Urist Spikeblood/Longshoots : ;No worries
+21-23:ACCESS: Login: Kenruler from 71.169.42.95
+21-23:GAME: Kenruler entered as Blake "Badass" Fiddler
+21-23:SAY: Urist Spikeblood/Longshoots : ;What&#39;s with the fire alarm in atmos?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; The devil?
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; 1 W
+21-23:SAY: Urist Spikeblood/Longshoots : ;Bring it up higher
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; We need to start the aux engine and solar panels
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; I CANT
+21-23:SAY: Fred McBurger/Mr.Peanuts : That other asshat fucked it too bad
+21-23:SAY: Urist Spikeblood/Longshoots : ;Why?
+21-23:SAY: Unknown/Kenruler : Hiya.
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; I would have to empty the whole engine and clear the c02
+21-23:SAY: Conall Edge/Master of Apples : Hey
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; that would cost millions
+21-23:SAY: Urist Spikeblood/Longshoots : ;Ah
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; and there is no way to stop the vat flow
+21-23:SAY: Urist Spikeblood/Longshoots : ;Give me a hand with the solar panels then
+21-23:SAY: Conall Edge/Master of Apples : Name?
+21-23:SAY: Unknown/Kenruler : Blake &#34;Badass&#34; Fiddler.
+21-23:SAY: Urist Spikeblood/Longshoots : ;Why is there a fire alarm in toxins?
+21-23:SAY: Conall Edge/Master of Apples : agge?
+21-23:SAY: Fred McBurger/Mr.Peanuts : hey
+21-23:SAY: Fred McBurger/Mr.Peanuts : This thing is too fucked up
+21-23:SAY: Unknown/Kenruler : 21.
+21-23:SAY: Kumil BoatPlump/Beorn080 : Well, it seems to be burning
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; I think we should move as much plasma and oxygen from this engine to the prototype if you have one
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; it could generate enough power if I can get it attached
+21-23:SAY: Conall Edge/Master of Apples : card
+21-23:ACCESS: Login: Ihateoutside from 88.105.86.87
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; That sounds like a good idea.
+21-23:SAY: Fred McBurger/Mr.Peanuts : no c02 in this loop
+21-23:SAY: Unknown/Kenruler : Engineer or atmos, preferably.
+21-23:SAY: Conall Edge/Master of Apples : Any preferenec?
+21-23:SAY: Conall Edge/Master of Apples : Ah
+21-23:SAY: Conall Edge/Master of Apples : Righto
+21-23:SAY: Urist Spikeblood/Longshoots : ;East solar panels connected. Producing about 18KW
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : does the bandage gel even do anything right now?
+21-23:GAME: Ihateoutside entered as Besmar Bedbow
+21-23:SAY: Unknown/Kenruler : Thank you.
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; ok good that should be able to power basic function with the west
+21-23:OOC: Conall Edge/Master of Apples : Naw
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : good to know
+21-23:SAY: Conall Edge/Master of Apples : ;What about the, err, engine?
+21-23:ACCESS: Login: Electroncis111 from 78.150.84.80
+21-23:ACCESS: Login: Alfie275 from 88.111.22.19
+21-23:GAME: Electroncis111 entered as Bob Marley
+21-23:ACCESS: Login: Poltifar from 212.36.209.10
+21-23:SAY: Conall Edge/Master of Apples : Your fingerprints, please
+21-23:GAME: Poltifar entered as Anathem Trueglow
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at Fred McBurger
+21-23:SAY: Fred McBurger/Mr.Peanuts : ; It&#39;s prob. fucked
+21-23:SAY: Conall Edge/Master of Apples : Name?
+21-23:OOC: Xen/Alfie275 : Hi guys
+21-23:OOC: Bob Marley/Electroncis111 : hi
+21-23:SAY: Besmar Bedbow/Ihateoutside : Besmar Bedbow
+21-23:SAY: Conall Edge/Master of Apples : Age?
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;The fuck happened to atmos!?
+21-23:OOC: HELP: Fred McBurger/Mr.Peanuts : Kumil BoatPlump is trying to take off Radio Headset from Fred McBurger&#39;s face!#Kumil BoatPlump is trying to take off a gasmask from Fred McBurger&#39;s head!#Kumil BoatPlump is trying to take off the Black Gloves from Fred McBurger&#39;s hands!#Kumil BoatPlump is trying to take off the Black Shoes from Fred McBurger&#39;s feet!#Kumil BoatPlump is trying to take off a firesuit from Fred McBurger&#39;s body!#Kumil BoatPlump is trying to take off Yellow Jumpsuit from Fred McBurger&#39;s body!#Kumil BoatPlump is trying to take off Fred McBurger&#39;s ID Card (Station Engineer) from Fred McBurger&#39;s uniform!#Kumil BoatPlump is trying to take off an oxygentank from Fred McBurger&#39;s back!
+21-23:SAY: Besmar Bedbow/Ihateoutside : 25
+21-23:OOC: Xen/Alfie275 : Wierd just noticed, Z level stuff was added on my birthday
+21-23:OOC: HELP: Fred McBurger/Mr.Peanuts : did he just greif me?
+21-23:GAME: Alfie275 entered as Xen
+21-23:ADMIN: PM: Beorn080->Mr.Peanuts : No
+21-23:ADMIN: PM: Mr.Peanuts->Beorn080 : oh ok, must be traitor then.
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Ya&#39;ll could&#39;ve told me..
+21-23:SAY: Conall Edge/Master of Apples : Id Card
+21-23:ADMIN: PM: Mr.Peanuts->Beorn080 : It was just really random so I couldn't tell
+21-23:SAY: Urist Spikeblood/Longshoots : ;Fred, you&#39;re last sentence sounded rather slurred. You alright?
+21-23:SAY: Conall Edge/Master of Apples : Preferred Job?
+21-23:SAY: Anathem Trueglow/Poltifar : Darn it, even in space, there are lines to wait in.
+21-23:SAY: Urist Spikeblood/Longshoots : ;And Blake, help us with the power problem.
+21-23:SAY: Anathem Trueglow/Poltifar : So annoying.
+21-23:ADMIN: PM: Beorn080->Mr.Peanuts : Yeah, had to destroy plasma cans. Sorry bout that.
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;I uh, want to fix atmos first.
+21-23:SAY: Besmar Bedbow/Ihateoutside : What is there available?
+21-23:SAY: Conall Edge/Master of Apples : Everything
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Since it&#39;s fucking destroyed.
+21-23:SAY: Urist Spikeblood/Longshoots : ;If you can do that, feel free
+21-23:ADMIN: PM: Beorn080->Mr.Peanuts : Also, I sent the guy there via space, hehehe
+21-23:ADMIN: PM: Mr.Peanuts->Beorn080 : heh
+21-23:SAY: Besmar Bedbow/Ihateoutside : Security Officer?
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:ADMIN: PM: Beorn080->Mr.Peanuts : Also, it was headswe, lol
+21-23:SAY: Conall Edge/Master of Apples : Finger prints
+21-23:SAY: Bob Marley/Electroncis111 : can I have engineer please ( preferably HoM if it&#39;s still available)
+21-23:OOC: Urist Spikeblood/Longshoots : Oo, new space icons
+21-23:SAY: Besmar Bedbow/Ihateoutside : time to beat people mercilessly-I mean enforce justice!
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Oh, engine place looks fucked too.
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; With atmos wrecked, shouldn&#39;t we get out of here/
+21-23:SAY: Urist Spikeblood/Longshoots : ;I know
+21-23:SAY: Urist Spikeblood/Longshoots : ;Where&#39;s McBurger?
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Seems someone wanted to destroy all the plasma stuff.
+21-23:SAY: Conall Edge/Master of Apples : Fucking junk
+21-23:SAY: Conall Edge/Master of Apples : Can&#39;t hold anymore
+21-23:SAY: Anathem Trueglow/Poltifar : Haha
+21-23:ACCESS: Login: Mikey3001 from 66.239.213.147
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:SAY: Conall Edge/Master of Apples : Next!
+21-23:SAY: Kumil BoatPlump/Beorn080 : How are things?
+21-23:SAY: Bob Marley/Electroncis111 : thanks
+21-23:SAY: Anathem Trueglow/Poltifar : Centcom put a fingerprint machine that can barely hold a dozen fingerprints, heh
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : Gone.
+21-23:SAY: Anathem Trueglow/Poltifar : So, do you want the prints anywayS?
+21-23:SAY: Conall Edge/Master of Apples : useless
+21-23:SAY: Kumil BoatPlump/Beorn080 : Ack, keep that door closed
+21-23:SAY: Conall Edge/Master of Apples : ID Card
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;Who left security HQ open?
+21-23:SAY: Conall Edge/Master of Apples : Naw
+21-23:SAY: Anathem Trueglow/Poltifar : Is plasma researcher available?
+21-23:SAY: Conall Edge/Master of Apples : Of course
+21-23:SAY: Anathem Trueglow/Poltifar : I&#39;ll take that
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:SAY: Kumil BoatPlump/Beorn080 : I&#39;m gonna take a nap at the table.
+21-23:SAY: Anathem Trueglow/Poltifar : Thank you
+21-23:ACCESS: Logout: Beorn080
+21-23:SAY: Conall Edge/Master of Apples : Next!
+21-23:SAY: Conall Edge/Master of Apples : ID card.
+21-23:SAY: Besmar Bedbow/Ihateoutside : Ok
+21-23:ACCESS: Login: HS_Roo from 90.200.141.50
+21-23:SAY: Urist Spikeblood/Longshoots : ;West Solar Array up and running
+21-23:SAY: Conall Edge/Master of Apples : Any preference?
+21-23:SAY: Conall Edge/Master of Apples : I could do with a HoP
+21-23:SAY: Xen/Alfie275 : Engineer
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+21-23:ACCESS: They share computer ID's
+21-23:GAME: HS_Roo entered as Kiana Kopliscoffa
+21-23:SAY: Conall Edge/Master of Apples : Welcome aboard!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Thank you!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLER
+21-23:GAME: Mikey3001 entered as Branden Romero
+21-23:SAY: Conall Edge/Master of Apples : ID card, please
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLER
+21-23:SAY: Conall Edge/Master of Apples : No room left on the records
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLS!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLS!
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Okay, sorry
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLS
+21-23:SAY: Conall Edge/Master of Apples : You alright with HoP?
+21-23:SAY: Conall Edge/Master of Apples : I really need one...
+21-23:SAY: Anathem Trueglow/Poltifar : ;What the hell has happened to the plasma lab??
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Yesh! okay, yaay! Okay!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Spikeblood/Longshoots : ;Communication dish has been connected, as well
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLS
+21-23:SAY: Urist Spikeblood/Longshoots : ;I&#39;ve already asked. And got no answer
+21-23:SAY: Anathem Trueglow/Poltifar : ;Its like a disco in here
+21-23:SAY: Conall Edge/Master of Apples : You start now
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KILELR
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL TRAITOR
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;This is not good man.
+21-23:SAY: Urist Spikeblood/Longshoots : ;Oh shit
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;There shouldn&#39;t be massive fires all over the place.
+21-23:ACCESS: Login: Andrea the second from 151.33.200.246
+21-23:ACCESS: Login: Matz05 from 142.179.224.194
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KILLER
+21-23:GAME: Matz05 entered as Urist Noblelever
+21-23:SAY: Urist Spikeblood/Longshoots : ;Fred McBurger is dead, looks like a murder
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLER
+21-23:SAY: Ghost/Mr.Peanuts : HELP
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLED ME
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:ACCESS: Logout: Mikey3001
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Noblelever/Matz05 : ;mmmmm... Burger
+21-23:SAY: Conall Edge/Master of Apples : ;I&#39;m going for a snooze. Security,  sort this out
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Any prints?
+21-23:SAY: Urist Spikeblood/Longshoots : ;Also, someone released a ton of plasma in the canister storage
+21-23:OOC: Conall Edge/Master of Apples : AFK D:&lt;
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+21-23:ACCESS: They share computer ID's
+21-23:ACCESS: Login: Mikey3001 from 66.239.213.147
+21-23:SAY: Urist Spikeblood/Longshoots : ;Doubtful, unless you want to scan the corpse
+21-23:SAY: Fred McBurger/Mr.Peanuts : KUMIL KILLER
+21-23:SAY: Urist Noblelever/Matz05 : ;Can I havre a job please?
+21-23:SAY: Urist Spikeblood/Longshoots : ;I&#39;m dragging him to medbay
+21-23:SAY: Bob Marley/Electroncis111 : sign back in
+21-23:SAY: Fred McBurger/Mr.Peanuts : Damn hope they hear
+21-23:SAY: Besmar Bedbow/Ihateoutside : AAAAAAAAAHHHH
+21-23:ACCESS: Logout: Mikey3001
+21-23:ACCESS: Login: Jimbob878 from 92.11.247.182
+21-23:ACCESS: Logout: Alfie275
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : What happened?
+21-23:SAY: Urist Spikeblood/Longshoots : He&#39;s joined the choir invisiblé, I&#39;m afraid
+21-23:SAY: Besmar Bedbow/Ihateoutside : Whats up with you?
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+21-23:ACCESS: They share computer ID's
+21-23:ACCESS: They share computer ID's
+21-23:ACCESS: Login: Mikey3001 from 66.239.213.147
+21-23:SAY: Urist Noblelever/Matz05 : Any openings?
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Alright, leave him there, i&#39;ll bring him in
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Spikeblood/Longshoots : Someone released a ton of plasma in the engine control room
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Spikeblood/Longshoots : And took all his stuff
+21-23:ACCESS: Login: Alfie275 from 88.111.22.19
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : MUKIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Bob Marley/Electroncis111 : Xen?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Urist Spikeblood/Longshoots : ;There could be one way to find who killed McBurger
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Yes, where to?
+21-23:SAY: Xen/Alfie275 : What?
+21-23:SAY: Urist Spikeblood/Longshoots : ;Someone took all his stuff
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLED ME
+21-23:SAY: Urist Noblelever/Matz05 : ;Chem?
+21-23:SAY: Urist Spikeblood/Longshoots : ;Find someone dressed as a technician
+21-23:SAY: Bob Marley/Electroncis111 : i know ooc in IC but i hosted a server! ( private)
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : It appears Fred died from toxins and suffocation
+21-23:SAY: Urist Noblelever/Matz05 : ;What kind?
+21-23:OOC: Xen/Alfie275 : What code version?
+21-23:OOC: Bob Marley/Electroncis111 : m?
+21-23:OOC: HELP: Fred McBurger/Mr.Peanuts : Bob Marley : i know ooc in IC but i hosted a server! ( private)
+21-23:SAY: Urist Spikeblood/Longshoots : ;Station Technician
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Wait a moment
+21-23:SAY: Urist Noblelever/Matz05 : cham?
+21-23:OOC: Xen/Alfie275 : of ur server, what is latest date in changelog
+21-23:SAY: Urist Spikeblood/Longshoots : Hey, if you want to check McBurger, he&#39;s in medbay
+21-23:GAME: Jimbob878 entered as Metal Militia
+21-23:SAY: Bob Marley/Electroncis111 : me?
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Do you need something... brandon?
+21-23:SAY: Xen/Alfie275 : Yes
+21-23:OOC: Bob Marley/Electroncis111 : ummm
+21-23:SAY: Urist Spikeblood/Longshoots : Hey, I need to talk to you
+21-23:SAY: Urist Noblelever/Matz05 : Chemist please
+21-23:SAY: Urist Spikeblood/Longshoots : I&#39;d like to talk to the Cap, but he&#39;s napping
+21-23:SAY: Besmar Bedbow/Ihateoutside : Where is McBurger?
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : He&#39;s in the morgue...
+21-23:SAY: Besmar Bedbow/Ihateoutside : Ah
+21-23:SAY: Urist Noblelever/Matz05 : oops
+21-23:SAY: Urist Spikeblood/Longshoots : What should we do? There&#39;s been a ton of plasma leaks
+21-23:SAY: Besmar Bedbow/Ihateoutside : I&#39;m gonna take him to forensics if thats alright/
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : One minute then
+21-23:SAY: Urist Spikeblood/Longshoots : And a possible murderer
+21-23:SAY: Branden Romero/Mikey3001 : any way i can get a job here oh and i stutter
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Besmar, is that alright?
+21-23:OOC: Bob Marley/Electroncis111 : December 24th 2008
+21-23:SAY: Bob Marley/Electroncis111 : u join?
+21-23:SAY: Bob Marley/Electroncis111 : damn ic
+21-23:OOC: HELP: Fred McBurger/Mr.Peanuts : Bob Marley : u join?
+21-23:SAY: Urist Spikeblood/Longshoots : Oh for
+21-23:SAY: Metal Militia/Jimbob878 : can someone come to arrivals please?
+21-23:SAY: Xen/Alfie275 : It a goon version&gt;
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Yeah, brandon- hey where&#39;d he go
+21-23:SAY: Bob Marley/Electroncis111 : i think so
+21-23:SAY: Bob Marley/Electroncis111 : old one
+21-23:OOC: Xen/Alfie275 : Pwned, mines Friday, July 10, 2009
+21-23:SAY: Urist Noblelever/Matz05 : Thanks
+21-23:OOC: Fred McBurger/Mr.Peanuts : Jesus keep OOC out of IC
+21-23:OOC: Bob Marley/Electroncis111 : meh
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Not at all
+21-23:MATTACK: Urist Spikeblood(Longshoots) attcked by Kumil BoatPlump(Beorn080) with Kumil BoatPlump's ID Card (Head of Security)
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Besmar, you can escort Brandon to to forensics
+21-23:OOC: Xen/Alfie275 : Im trying to make him
+21-23:OOC: Fred McBurger/Mr.Peanuts : I am hearing it all
+21-23:OOC: Bob Marley/Electroncis111 : sorry
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : How can I help?
+21-23:SAY: Xen/Alfie275 : ;Atmo to engineering, there is some plasma
+21-23:SAY: Metal Militia/Jimbob878 : medical please
+21-23:SAY: Urist Spikeblood/Longshoots : ;HoS is braindead
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Sure, wait here a minute please
+21-23:ACCESS: Login: Mono124 from 99.137.45.54
+21-23:SAY: Urist Spikeblood/Longshoots : We know
+21-23:SAY: Metal Militia/Jimbob878 : sure
+21-23:SAY: Urist Spikeblood/Longshoots : Someone unscrewed a canister in there
+21-23:SAY: Xen/Alfie275 : Get a scrubber then
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;I have fixed the atmospheric alarm in atmos..
+21-23:SAY: Urist Spikeblood/Longshoots : It killed McBurger
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : There you go
+21-23:SAY: Metal Militia/Jimbob878 : thank you
+21-23:GAME: Mono124 entered as Andrew Riley
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : may I help you?
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;There is nothing to salvage of it, sadly.
+21-23:SAY: Branden Romero/Mikey3001 : im in jured
+21-23:SAY: Ghost/Mr.Peanuts : IT WAS KUMI
+21-23:MATTACK: Besmar Bedbow(Ihateoutside)has grabbed Fred McBurger() aggressively (now hands) 
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Andrew Riley/Mono124 : ;Whats up people?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : You&#39;re fine...
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : hey you
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Spikeblood/Longshoots : ;Shit, it looks like a bomb went off
+21-23:SAY: Ghost/Mr.Peanuts : Kumil
+21-23:SAY: Branden Romero/Mikey3001 : sorry to bother you docter
+21-23:SAY: Metal Militia/Jimbob878 : I&#39;m the new medical
+21-23:SAY: Ghost/Mr.Peanuts : ##KUMIL###
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Alright, go get dressed then
+21-23:SAY: Bob Marley/Electroncis111 : no damage to the floor
+21-23:SAY: Metal Militia/Jimbob878 : just arrived
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : i&#39;m going to see if I can find some medicine for this guy
+21-23:SAY: Urist Spikeblood/Longshoots : What do you mean no floor damage?
+21-23:SAY: Urist Spikeblood/Longshoots : Half of it&#39;s missing!
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;There are no fingerprints on Fred McBurger.
+21-23:SAY: Bob Marley/Electroncis111 : hmm, but wouldn&#39;t randomly destroy atoms...
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Bob Marley/Electroncis111 : floor tiles
+21-23:SAY: Urist Spikeblood/Longshoots : And toxins
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Urist Spikeblood/Longshoots : Oh, you meant actual atoms
+21-23:SAY: Ghost/Mr.Peanuts : Kumil
+21-23:SAY: Bob Marley/Electroncis111 : hmmm
+21-23:SAY: Xen/Alfie275 : ;Do we have an AI?
+21-23:SAY: Urist Spikeblood/Longshoots : It could dislodge them
+21-23:SAY: Bob Marley/Electroncis111 : do we open it?
+21-23:SAY: Urist Spikeblood/Longshoots : Then the vacuum would just suck them out in to space
+21-23:SAY: Branden Romero/Mikey3001 : hey can you get me a job
+21-23:SAY: Bob Marley/Electroncis111 : your right
+21-23:SAY: Urist Spikeblood/Longshoots : Yeah
+21-23:SAY: Bob Marley/Electroncis111 : broken cannisters everywhere
+21-23:SAY: Urist Spikeblood/Longshoots : Normal plasma release wouldn&#39;t do that
+21-23:SAY: Urist Spikeblood/Longshoots : It was a bomb. I&#39;m sure of it.
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;I will be escorting McBurgers body to the chapel for a funeral is that is ok. He has no injuries so I imagine his death is due to poisoning or oxygen starvation.
+21-23:SAY: Bob Marley/Electroncis111 : it might do, that is the storage for the entire engine
+21-23:SAY: Urist Spikeblood/Longshoots : ;Toxic gas exposure.
+21-23:SAY: Urist Spikeblood/Longshoots : Yeah
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : You wanted a job?
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;Who has access to atmospherics?
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : I&#39;ll get one now, can I have your ID first please
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;I do.
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;That&#39;s correct, he was poisoned and suffocated, mostly poisoned
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;Did you do anything that may have caused McBurgers death?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;However, I&#39;ve been trying to fix the alarms the entire time.
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!KUMIL!KUMIL!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL! KUMIL! KUMIL! KUMIL!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL! KUMIL! KUMIL! KUMIL!
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Anathem Trueglow/Poltifar : Oh shut up McBurger. Let the dead enjoy their well deserved rest, will ya?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL!
+21-23:SAY: Ghost/Mr.Peanuts : NEVER!
+21-23:SAY: Xen/Alfie275 : ;Any unusual readings?
+21-23:SAY: Anathem Trueglow/Poltifar : Brr, its cold in here.
+21-23:SAY: Ghost/Mr.Peanuts : As long as my soul has an ounce of energy in it
+21-23:SAY: Anathem Trueglow/Poltifar : I hope they find my body before they leave, at least.
+21-23:ACCESS: Login: Beorn080 from 173.59.74.11
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Well, I can&#39;t see for any alarms because atmos got fucked.
+21-23:SAY: Anathem Trueglow/Poltifar : Be happy, you&#39;re getting a darned funeral.
+21-23:SAY: Besmar Bedbow/Ihateoutside : ;I will repeat. Did you do anything to atmospherics that may have caused anyones death?
+21-23:OOC: Urist Noblelever/Matz05 : ;Who called that?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Sorry about that.
+21-23:SAY: Ghost/Mr.Peanuts : As long as I have an ounce of spiritual energy left I will try
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;we&#39;re claling a shuttle?
+21-23:SAY: Xen/Alfie275 : ;Use an analyzer?
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Which job?
+21-23:SAY: Anathem Trueglow/Poltifar : Try what?
+21-23:SAY: Branden Romero/Mikey3001 : i want to be a laywer
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;No, and you never asked that, Besmar.
+21-23:SAY: Anathem Trueglow/Poltifar : Why care?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL
+21-23:SAY: Anathem Trueglow/Poltifar : Just leave the stupid livings alone.
+21-23:SAY: Ghost/Mr.Peanuts : why?
+21-23:ACCESS: Login: Evilgrim123 from 86.23.96.137
+21-23:SAY: Besmar Bedbow/Ihateoutside : We need a coffin
+21-23:SAY: Anathem Trueglow/Poltifar : Because they cant hear you anyways
+21-23:SAY: Kumil BoatPlump/Beorn080 : Hi.
+21-23:GAME: Evilgrim123 entered as Anaya Simmens
+21-23:SAY: Ghost/Mr.Peanuts : I can try!
+21-23:SAY: Xen/Alfie275 : I guess we&#39;re leaving?
+21-23:SAY: Ghost/Mr.Peanuts : I can always try
+21-23:SAY: Anathem Trueglow/Poltifar : Bah...
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : I&#39;m just going to walk around the station for a bit
+21-23:SAY: Kumil BoatPlump/Beorn080 : So, your the replacement to the replacement engineer
+21-23:SAY: Anaya Simmens/Evilgrim123 : ;I am the Assistant. 
+21-23:SAY: Urist Spikeblood/Longshoots : ;Who called the shuttle?
+21-23:SAY: Metal Militia/Jimbob878 : ok
+21-23:SAY: Anaya Simmens/Evilgrim123 : ;Who didn&#39;t?
+21-23:SAY: Urist Spikeblood/Longshoots : Eh?
+21-23:SAY: Branden Romero/Mikey3001 : lawyer
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;I was in medical the whole time, Metal militia was there as well
+21-23:MATTACK: Besmar Bedbow(Ihateoutside) clicked on Fred McBurger() with intent on harm
+21-23:SAY: Anaya Simmens/Evilgrim123 : Why.. Hello there ID card.. Swiipe!
+21-23:MATTACK: Besmar Bedbow(Ihateoutside) clicked on Fred McBurger() with intent on harm
+21-23:MATTACK: Besmar Bedbow(Ihateoutside) clicked on Fred McBurger() with intent on harm
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Hey!
+21-23:SAY: Xen/Alfie275 : *laugh
+21-23:MATTACK: Besmar Bedbow(Ihateoutside) clicked on Fred McBurger() with intent on harm
+21-23:SAY: Urist Spikeblood/Longshoots : Wait
+21-23:MATTACK: Besmar Bedbow(Ihateoutside) clicked on Fred McBurger() with intent on harm
+21-23:SAY: Anaya Simmens/Evilgrim123 : Ohh.. Hello..
+21-23:SAY: Metal Militia/Jimbob878 : hello
+21-23:SAY: Kumil BoatPlump/Beorn080 : Yes?
+21-23:SAY: Anaya Simmens/Evilgrim123 : Ermm.. Yeeeah.. 
+21-23:SAY: Urist Spikeblood/Longshoots : Did you call the shuttle?
+21-23:SAY: Urist Noblelever/Matz05 : Can Ihave a kit?
+21-23:SAY: Kumil BoatPlump/Beorn080 : Nope
+21-23:SAY: Anaya Simmens/Evilgrim123 : *scream
+21-23:SAY: Kumil BoatPlump/Beorn080 : I was taking a nap
+21-23:SAY: Metal Militia/Jimbob878 : are you hurt?
+21-23:SAY: Ghost/Mr.Peanuts : STOP THIS!
+21-23:SAY: Ghost/Mr.Peanuts : STOP THIS INSANTY!
+21-23:SAY: Urist Noblelever/Matz05 : Normal first aid kit.
+21-23:SAY: Ghost/Mr.Peanuts : BEATING THE DEAD!
+21-23:SAY: Urist Noblelever/Matz05 : no
+21-23:SAY: Urist Spikeblood/Longshoots : ;Any objections to sending the shuttle back?
+21-23:ACCESS: Failed Login: Damondestroyer Reason: Key banned
+21-23:SAY: Urist Noblelever/Matz05 : But I dont have one in my office
+21-23:SAY: Metal Militia/Jimbob878 : we can&#39;t just hand ours out
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Yeah, the station is messed up badly
+21-23:SAY: Branden Romero/Mikey3001 : do i get my job?
+21-23:SAY: Metal Militia/Jimbob878 : try in storeage
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Agreed.
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : There you are, you&#39;re now a lawyer
+21-23:SAY: Urist Noblelever/Matz05 : Oh. Thought there were spares. Thanks
+21-23:SAY: Urist Spikeblood/Longshoots : ;Ok
+21-23:SAY: Branden Romero/Mikey3001 : thank you
+21-23:SAY: Anathem Trueglow/Poltifar : If they somehow here ya, tell them to get their ass to plasma research and get my body outta here.
+21-23:SAY: Kumil BoatPlump/Beorn080 : What did he die of?
+21-23:SAY: Branden Romero/Mikey3001 : where do i go?
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL KILLED ME
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;Hey, there&#39;s a mean floating in space outside of shipping
+21-23:SAY: Urist Noblelever/Matz05 : ;Send it back
+21-23:SAY: Metal Militia/Jimbob878 : he&#39;s dead, probably toxins
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL IS A KILLER
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;He&#39;s obivously dead
+21-23:SAY: Ghost/Mr.Peanuts : KUMIL IS A KILLER
+21-23:OOC: Besmar Bedbow/Ihateoutside : Plasma lab on fire? How surprising :P
+21-23:SAY: Ghost/Mr.Peanuts : ; KUMIL IS A KILLER
+21-23:SAY: Anathem Trueglow/Poltifar : Let it go, its too late anyways.
+21-23:SAY: Ghost/Mr.Peanuts : ; KUMIL IS A KILLER!
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Follow people around and stuff, that should work, be a lawyer and offer your lawyering services
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Why are we sending back the shuttle?
+21-23:SAY: Ghost/Mr.Peanuts : I can try
+21-23:OOC: Metal Militia/Jimbob878 : I just arrived
+21-23:SAY: Anathem Trueglow/Poltifar : You&#39;re already dead, might aswell enjoy it.
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+21-23:ACCESS: They share computer ID's
+21-23:ACCESS: They share computer ID's
+21-23:SAY: Urist Spikeblood/Longshoots : ;And there&#39;s an uneaten sandwich outside the network office
+21-23:SAY: Fred McBurger/Mr.Peanuts : Fine
+21-23:SAY: Urist Spikeblood/Longshoots : ;No
+21-23:SAY: Anaya Simmens/Evilgrim123 : Hello!
+21-23:SAY: Metal Militia/Jimbob878 : I&#39;ll take him to the morgue
+21-23:SAY: Urist Spikeblood/Longshoots : ;We&#39;re not?
+21-23:SAY: Kumil BoatPlump/Beorn080 : Sounds good
+21-23:SAY: Fred McBurger/Mr.Peanuts : I want him dead though I will haunt his soul until the ends of time
+21-23:SAY: Anathem Trueglow/Poltifar : Ok...
+21-23:MATTACK: Kumil BoatPlump(Beorn080) clicked on Kumil BoatPlump(Beorn080) with a syringe
+21-23:MATTACK: Kumil BoatPlump(Beorn080) injected Kumil BoatPlump(Beorn080) with a syringe filled with 
+21-23:SAY: Urist Spikeblood/Longshoots : ;Mmm, tasty
+21-23:SAY: Anaya Simmens/Evilgrim123 : Argh! Seizure! Help! Call medbay! Argh! Argh!
+21-23:SAY: Anaya Simmens/Evilgrim123 : *twitch
+21-23:SAY: Fred McBurger/Mr.Peanuts : NO THAT WAS MY SANDWICH!
+21-23:SAY: Anaya Simmens/Evilgrim123 : *twitch
+21-23:SAY: Fred McBurger/Mr.Peanuts : Bastard
+21-23:SAY: Anaya Simmens/Evilgrim123 : *twitch
+21-23:SAY: Anaya Simmens/Evilgrim123 : Help..
+21-23:SAY: Anaya Simmens/Evilgrim123 : *twitch
+21-23:SAY: Metal Militia/Jimbob878 : he&#39;s dead
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : How&#39;d he get bruised like that?
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : ; Anay Simmens is having a seziure in the entracne, quick!
+21-23:SAY: Anathem Trueglow/Poltifar : You cant eat it anyways
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : he wasn&#39;t bruised when he arrived
+21-23:SAY: Fred McBurger/Mr.Peanuts : But it was still mine
+21-23:SAY: Metal Militia/Jimbob878 : fire in chemical storroom
+21-23:SAY: Anathem Trueglow/Poltifar : Bah
+21-23:SAY: Branden Romero/Mikey3001 : im a lawyer do i get a house?
+21-23:SAY: Anaya Simmens/Evilgrim123 : *twitch
+21-23:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+21-23:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Typical...
+21-23:SAY: Fred McBurger/Mr.Peanuts : HEY
+21-23:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+21-23:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+21-23:SAY: Anaya Simmens/Evilgrim123 : Garble..
+21-23:SAY: Fred McBurger/Mr.Peanuts : THIS MAN IS BEATING DEAD PEOPLE!
+21-23:SAY: Anaya Simmens/Evilgrim123 : Thank you.
+21-23:SAY: Anaya Simmens/Evilgrim123 : Argh..
+21-23:SAY: Fred McBurger/Mr.Peanuts : Fucking bastard, beating the dead, who does that?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; WHAT?!&gt;K&lt;!$
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Uh..
+21-23:SAY: Besmar Bedbow/Ihateoutside : Are you alright?
+21-23:SAY: Urist Spikeblood/Longshoots : ;I did NOT do that
+21-23:SAY: Anaya Simmens/Evilgrim123 : Yes. Yes I am.
+21-23:SAY: Anaya Simmens/Evilgrim123 : *smile
+21-23:SAY: Andrew Riley/Mono124 : Yo
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Someone get there and fix that.
+21-23:SAY: Besmar Bedbow/Ihateoutside : Excellent
+21-23:SAY: Urist Spikeblood/Longshoots : You should not have a gun
+21-23:SAY: Andrew Riley/Mono124 : HoP gave it to me
+21-23:SAY: Andrew Riley/Mono124 : Dunno why
+21-23:SAY: Branden Romero/Mikey3001 : i stutter and im a lawyer
+21-23:SAY: Kumil BoatPlump/Beorn080 : Hi
+21-23:SAY: Andrew Riley/Mono124 : ;Is the station even fucked up that bad?
+21-23:SAY: Urist Spikeblood/Longshoots : ;HoP? What are you doing giving guns to engineers?
+21-23:SAY: Bob Marley/Electroncis111 : hi
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Yes, everything&#39;s blown to shit.
+21-23:OOC: HELP: Anathem Trueglow/Poltifar : There is something weird with temperature in the plasma research lab... it seems after the canisters were broken, temperature has plummetted to absolute zero... or is that supposed to happen?
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : ;I didn&#39;t no guns at all on me, really
+21-23:OOC: Fred McBurger/Mr.Peanuts : wow
+21-23:ADMIN: Beorn080/Kumil BoatPlump : Come on, I&#39;m too lazy to make a bomb
+21-23:SAY: Anaya Simmens/Evilgrim123 : Thank you 
+21-23:SAY: Anaya Simmens/Evilgrim123 : *smile
+21-23:ADMIN: PM: Beorn080->Poltifar : On the squares with space, it goes to zero
+21-23:ADMIN: PM: Poltifar->Beorn080 : Its zero in all the lab
+21-23:SAY: Besmar Bedbow/Ihateoutside : Hand your ID and I can reassign you
+21-23:ADMIN: PM: Beorn080->Poltifar : And the square next to them cools quick
+21-23:SAY: Fred McBurger/Mr.Peanuts : this *Name held* is an idiot, dragging *object* around and beating it
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Why does Riley have a taser?
+21-23:SAY: Fred McBurger/Mr.Peanuts : metal militia
+21-23:SAY: Anaya Simmens/Evilgrim123 : Or, you can let the Lovely Head of Personell do her job?
+21-23:SAY: Urist Spikeblood/Longshoots : ;He says HoP gave it to him
+21-23:SAY: Fred McBurger/Mr.Peanuts : what a dumbass
+21-23:SAY: Metal Militia/Jimbob878 : I&#39;ll take the desk if you want
+21-23:SAY: Urist Spikeblood/Longshoots : ;I reckon he&#39;s the one who sent the shuttle back, too
+21-23:SAY: Besmar Bedbow/Ihateoutside : Chillax it because Atmos is bombed.
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Right.
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : Sure thing
+21-23:SAY: Urist Noblelever/Matz05 : ;Ive invented a new tranquilizer formula!
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Alfie275 from 88.111.22.19
+21-23:ACCESS: They share computer ID's
+21-23:SAY: Andrew Riley/Mono124 : ;I don&#39;t have that access... im an engineer.
+21-23:SAY: Besmar Bedbow/Ihateoutside : I&#39;ll just guard the door
+21-23:SAY: Urist Noblelever/Matz05 : ;Chloroform+sleep toxins!
+21-23:ADMIN: PM: Poltifar->Beorn080 : Seems way too quick though, the whole lab is absolute zero
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : Yes?
+21-23:SAY: Urist Noblelever/Matz05 : ;Volunteers?
+21-23:SAY: Kumil BoatPlump/Beorn080 : Just waiting for the shuttle
+21-23:SAY: Besmar Bedbow/Ihateoutside : out
+21-23:SAY: Ozymandias Blazelever/OzyTheSage : ;*gasps* Theres... whew... the air near the chapel is pretty thin...
+21-23:SAY: Bob Marley/Electroncis111 : no thanks
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : I&#39;m HoP
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : Seen the HoP around anywhere?
+21-23:ADMIN: PM: Poltifar->Beorn080 : Oh shit, someguy just now just OPENED the door to the lab and insta-froze
+21-23:SAY: Kumil BoatPlump/Beorn080 : Just the HoM
+21-23:SAY: Besmar Bedbow/Ihateoutside : oops
+21-23:ADMIN: PM: Beorn080->Poltifar : Yeah, thats a problem
+21-23:SAY: Besmar Bedbow/Ihateoutside : youre in assistants clothing
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : Hm.
+21-23:SAY: Urist Noblelever/Matz05 : Volunteers?
+21-23:ADMIN: PM: Poltifar->Beorn080 : And people passing in the hall are all dropping dead
+21-23:OOC: HELP: Andrew Riley/Mono124 : is it normal to be walking down a hall and hit a spot so cold you instantly fall over?
+21-23:SAY: Kumil BoatPlump/Beorn080 : Blake does
+21-23:ADMIN: PM: Poltifar->Mono124 : We saw. Its something weird with temperature.
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : I know, I used to be one, didn&#39;t change, I&#39;ll change later, and anyway, how can I help you?
+21-23:ADMIN: PM: Mono124->Poltifar : well that sucks
+21-23:MATTACK: Urist Noblelever(Matz05) clicked on Blake "Badass" Fiddler(Kenruler) with a syringe
+21-23:MATTACK: Urist Noblelever(Matz05) injected Blake "Badass" Fiddler(Kenruler) with a syringe filled with 
+21-23:MATTACK: Kumil BoatPlump(Beorn080)has shot a taser round at Urist Noblelever
+21-23:SAY: Urist Noblelever/Matz05 : HEY
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Arresting a man for injecting a guy
+21-23:SAY: Besmar Bedbow/Ihateoutside : Well I&#39;m off. By the way, keep your ID on your person at all times.
+21-23:OOC: Andrew Riley/Mono124 : oh god its eeevil
+21-23:ADMIN: PM: Poltifar->Mono124 : You're not the only one... there is another guy who fell right next to you... and one dead in the lab... and, well, here's a third one that fell... soooo...
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Okay
+21-23:ADMIN: PM: Mono124->Poltifar : oh god its an evil trap thing
+21-23:OOC: Urist Noblelever/Matz05 : cryo bug
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;The fuck?
+21-23:SAY: Kumil BoatPlump/Beorn080 : ; Arrest Urist Noblelever, he injected Blake with something
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Oh god I can&#39;t hear
+21-23:OOC: Anathem Trueglow/Poltifar : Sorry people, there seems to be an absolute-zero bug problem. We cant really do anything about it.
+21-23:OOC: Andrew Riley/Mono124 : damn bugs
+21-23:SAY: Urist Spikeblood/Longshoots : Uh...what&#39;s moving this chair?
+21-23:SAY: Urist Spikeblood/Longshoots : Hello?
+21-23:SAY: Anaya Simmens/Evilgrim123 : Head of personells assistant please? 
+21-23:SAY: Anaya Simmens/Evilgrim123 : *giggle
+21-23:OOC: Kumil BoatPlump/Beorn080 : Oh damn
+21-23:ADMIN: Beorn080 Healed/Revived Beorn080
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Just kidding, I can hear.
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : wait, is that what caused that?
+21-23:OOC: Bob Marley/Electroncis111 : no
+21-23:OOC: Kumil BoatPlump/Beorn080 : That is NASTY
+21-23:OOC: Xen/Alfie275 : I prescribe magma
+21-23:OOC: Andrew Riley/Mono124 : yeah
+21-23:OOC: Bob Marley/Electroncis111 : it&#39;s evil...
+21-23:OOC: Andrew Riley/Mono124 : falling near plasma?
+21-23:OOC: Anathem Trueglow/Poltifar : We seriously need magma.
+21-23:OOC: Anaya Simmens/Evilgrim123 : I&#39;m Evil?
+21-23:OOC: Urist Noblelever/Matz05 : And loots of it.
+21-23:OOC: Metal Militia/Jimbob878 : second the manga
+21-23:OOC: Bob Marley/Electroncis111 : no not you Evilgrim, the bug
+21-23:OOC: Urist Noblelever/Matz05 : lots
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Mono124 from 99.137.45.54
+21-23:ACCESS: They share computer ID's
+21-23:OOC: Kumil BoatPlump/Beorn080 : Damn, tried to get two more kills
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : woo another victim
+21-23:OOC: Anathem Trueglow/Poltifar : And another one bites the dust.
+21-23:OOC: Ozymandias Blazelever/OzyTheSage : this is like the opposite of the acid rain bug
+21-23:OOC: Besmar Bedbow/Ihateoutside : noooooo went into cyro death zone
+21-23:OOC: Anathem Trueglow/Poltifar : Darn it... I guess we&#39;ll need a restart.
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;Sure is quiet.
+21-23:SAY: Kiana Kopliscoffa/HS_Roo : Sure, one minute
+21-23:OOC: Anathem Trueglow/Poltifar : And another one.
+21-23:OOC: Metal Militia/Jimbob878 : zog it
+21-23:ACCESS: Login: Dervin366 from 24.154.218.115
+21-23:OOC: Andrew Riley/Mono124 : i smell bacon
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Ihateoutside from 88.105.86.87
+21-23:ACCESS: They share computer ID's
+21-23:OOC: Andrew Riley/Mono124 : err, frozen bacon that is
+21-23:ACCESS: Logout: Beorn080
+21-23:OOC: Metal Militia/Jimbob878 : need to watch the temp indicator more 
+21-23:OOC: Anathem Trueglow/Poltifar : Icicle bacon on a stick.
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : This place is shit.
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Electroncis111 from 78.150.84.80
+21-23:ACCESS: They share computer ID's
+21-23:OOC: Xen/Alfie275 : Woah, has the glass turned purple near chem?
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : ;lolufail
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:OOC: Urist Noblelever/Matz05 : I used silicate
+21-23:SAY: Blake "Badass" Fiddler/Kenruler : WHAT IS THIS BULLSHIT
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Blake "Badass" Fiddler(Kenruler) with the toolbox
+21-23:GAME: Dervin366 entered as Danny Larson
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: Matz05 from 142.179.224.194
+21-23:ACCESS: They share computer ID's
+21-23:ACCESS: Logout: 
+21-23:ACCESS: Login: OzyTheSage from 98.118.48.126
+21-23:ACCESS: They share computer ID's
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:GAME: Rebooting due to end of game
+21-23:MATTACK: Blake "Badass" Fiddler(Kenruler) attcked by Urist Spikeblood(Longshoots) with the toolbox
+21-23:ACCESS: Logout: Headswe
+21-23:ACCESS: Logout: Master of Apples
+21-23:ACCESS: Logout: OzyTheSage
+21-23:ACCESS: Logout: HS_Roo
+21-23:ACCESS: Logout: Longshoots
+21-23:ACCESS: Logout: Ihateoutside
+21-23:ACCESS: Logout: Holybond
+21-23:ACCESS: Logout: Mr.Peanuts
+21-23:ACCESS: Logout: Kenruler
+21-23:ACCESS: Logout: Mikey3001
+21-23:ACCESS: Logout: Electroncis111
+21-23:ACCESS: Logout: Poltifar
+21-23:ACCESS: Logout: Alfie275
+21-23:ACCESS: Logout: Jimbob878
+21-23:ACCESS: Logout: Matz05
+21-23:ACCESS: Logout: Andrea the second
+21-23:ACCESS: Logout: Mono124
+21-23:ACCESS: Logout: Evilgrim123
+21-23:ACCESS: Logout: Dervin366
+22-27:ADMIN: Loading crban_keylist
+22-27:ADMIN: Loading crban_reason
+22-27:ADMIN: Loading crban_time
+22-27:ADMIN: Loading crban_bannedby
+22-27:ADMIN: Loading crban_iplist
+22-27:ADMIN: Loading crban_unbanned
+22-27:ADMIN: Loading crban_ComputerIDs
+22-27:ADMIN: Loading jobban_rank
+22-27:ADMIN: Updating jobbanfile!
+22-27:GAME: Finished building powernets (30 nets)
+22-27:ACCESS: Login: Alfie275 from 88.111.22.19
+22-27:ACCESS: Login: Matz05 from 142.179.224.194
+22-27:ACCESS: Login: Longshoots from 84.45.134.188
+22-27:ACCESS: Login: OzyTheSage from 98.118.48.126
+22-27:ACCESS: Login: Dervin366 from 24.154.218.115
+22-27:ACCESS: Login: HS_Roo from 90.200.141.50
+22-27:ACCESS: Login: Headswe from 127.0.0.1
+22-27:ACCESS: Login: Andrea the second from 151.33.200.246
+22-27:ACCESS: Login: Evilgrim123 from 86.23.96.137
+22-27:ACCESS: Login: Jimbob878 from 92.11.247.182
+22-27:ACCESS: Login: Master of Apples from 81.155.42.175
+22-27:ACCESS: Login: Mono124 from 99.137.45.54
+22-27:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+22-27:ACCESS: Login: Kenruler from 71.169.42.95
+22-27:ACCESS: Login: Holybond from 70.19.82.216
+22-27:ACCESS: Login: Ihateoutside from 88.105.86.87
+22-27:ACCESS: Login: Electroncis111 from 78.150.84.80
+22-27:ACCESS: Login: Mikey3001 from 66.239.213.147
+22-27:GAME: Holybond entered as Hob White
+22-27:GAME: HS_Roo entered as Kiana Kopliscoffa
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : SURE IS QUIET IN HERE
+22-27:GAME: Longshoots entered as Urist Spikeblood
+22-27:GAME: Dervin366 entered as Danny Larson
+22-27:GAME: Ihateoutside entered as Ingiz Stoptime
+22-27:GAME: Electroncis111 entered as Bob Marley
+22-27:SAY: Anaya Simmens/Evilgrim123 : NAKED&gt;
+22-27:SAY: Anaya Simmens/Evilgrim123 : Eep!
+22-27:GAME: Jimbob878 entered as Metal Militia
+22-27:GAME: Evilgrim123 entered as Anaya Simmens
+22-27:GAME: Alfie275 entered as Xen
+22-27:GAME: Mono124 entered as Andrew Riley
+22-27:GAME: Kenruler entered as Blake "Badass" Fiddler
+22-27:VOTE: Voting to change mode started by Urist Noblelever/Matz05
+22-27:OOC: Urist Spikeblood/Longshoots : Lotsa players
+22-27:GAME: OzyTheSage entered as Ozymandias Blazelever
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : boobies
+22-27:SAY: Andrew Riley/Mono124 : my hair is totally cool
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : Andrew Riley is a faggot
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : I like my hair/beard combo
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : Andrew Riley is a faggot
+22-27:GAME: Matz05 entered as Urist Noblelever
+22-27:SAY: Danny Larson/Dervin366 : My hair is cooler.
+22-27:SAY: Andrew Riley/Mono124 : at least im not a faggots bitch blake....
+22-27:OOC: Urist Spikeblood/Longshoots : 18 players, only 6 votes
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : Look at this bullshit.
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : BULLLLSHEEEET
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : whoo
+22-27:VOTE: Voting closed, result was nuclear
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : U IS A BULLSHEETER
+22-27:SAY: Andrew Riley/Mono124 : come suck my cock bitch
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : I AM WHAT I EAT
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : IE
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : PUSSY
+22-27:SAY: Danny Larson/Dervin366 : Whoa there!
+22-27:SAY: Urist Spikeblood/Longshoots : You&#39;re a pussy?
+22-27:GAME: Mikey3001 entered as Cody richards
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : Oh yes.
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : Whenever I look at  Blake I think his head is bleeding with all the red
+22-27:SAY: Danny Larson/Dervin366 : High five!
+22-27:SAY: Andrew Riley/Mono124 : *groan
+22-27:SAY: Andrew Riley/Mono124 : i like that slobber
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : BROFIST
+22-27:GAME: Mr.Peanuts entered as Fred McBurger
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : and then I immidiately rush over to help only to find he&#39;s fine &gt;_&lt;
+22-27:SAY: Urist Spikeblood/Longshoots : I&#39;m glad we&#39;re all a group of mature adults, here
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : i iz a blak man
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : u no can find me
+22-27:SAY: Metal Militia/Jimbob878 : haha - haa...
+22-27:SAY: Andrew Riley/Mono124 : SLOBBER MY DFICK
+22-27:SAY: Blake "Badass" Fiddler/Kenruler : IT&#39;S SO SMALL
+22-27:SAY: Andrew Riley/Mono124 : ITS HUGE
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : Look, a womins
+22-27:SAY: Andrew Riley/Mono124 : I HAEV A CLAOK ON THE R- WOMAN!
+22-27:SAY: Danny Larson/Dervin366 : I wish my dick was small.
+22-27:SAY: Andrew Riley/Mono124 : FUCK HERRR
+22-27:SAY: Danny Larson/Dervin366 : *cry
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Perverts!
+22-27:GAME: starting game of nuclear emergency
+22-27:ACCESS: Logout: 
+22-27:ACCESS: Login: Longshoots from 84.45.134.188
+22-27:ACCESS: They share computer ID's
+22-27:SAY: Syndicate Operative #2/Mr.Peanuts : HEY YOU GUYS!
+22-27:ACCESS: Logout: Kenruler
+22-27:SAY: Danny Larson/Dervin366 : ;Yo everyone.
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : Welcome to durpland
+22-27:SAY: Danny Larson/Dervin366 : ;I&#39;m your awesome HoS.
+22-27:SAY: Syndicate Operative #4/Matz05 : Freq?
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : Lets play it cool
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : and be as stealth as possible
+22-27:OOC: A.M./Longshoots : Yay! Escape pod access control
+22-27:SAY: Syndicate Operative #4/Matz05 : Agreed
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : I will handle the bombing
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;Good morning Crew, this is your Captain Speaking.
+22-27:SAY: Syndicate Operative #4/Matz05 : Frequency?
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : I will bomb the prototype and solars
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : Take the south shuttle
+22-27:SAY: Syndicate Leader/Ihateoutside : frequency 145,5
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : ; Take the lower shuttle to their station
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;Not really wanting to be the Captain.
+22-27:SAY: Danny Larson/Dervin366 : ;Your going to be the captain.
+22-27:SAY: Syndicate Operative #4/Matz05 : 145.5
+22-27:SAY: Syndicate Operative #2 (as Syndicate)/Mr.Peanuts : ; I will return and grab the nuke one after I bomb the soloar panels and prototype engine
+22-27:SAY: Danny Larson/Dervin366 : ;Because I don&#39;t want to be the captain.
+22-27:SAY: Danny Larson/Dervin366 : ;I&#39;m going to chill in the bar.
+22-27:SAY: Anaya Simmens/Evilgrim123 : Captain&#39;s buisness.
+22-27:SAY: Syndicate Leader/Ihateoutside : actually do 144.5
+22-27:SAY: Bob Marley/Electroncis111 : hi Anaya
+22-27:SAY: Syndicate/Mr.Peanuts : ; ok everyone, board the lower shuttle, with out the nuke
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hey.
+22-27:SAY: Syndicate/Mr.Peanuts : ok 144.5
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : ;You need anything from the supply shuttle come to me
+22-27:SAY: Bob Marley/Electroncis111 : don&#39;t tell me, changing your ID...
+22-27:SAY: Syndicate/Mr.Peanuts : ; test test
+22-27:SAY: Syndicate Leader/Ihateoutside : less likely someone else will hear
+22-27:ACCESS: Login: Beorn080 from 173.59.74.11
+22-27:SAY: Syndicate Operative #4 (as Joe Doe)/Matz05 : Test
+22-27:SAY: A.M./Longshoots : Caution: Air pressure high in north corridor
+22-27:SAY: Syndicate Leader/Ihateoutside : ;Everyone suit up. Stealth is our game.
+22-27:SAY: Anaya Simmens/Evilgrim123 : Aight.
+22-27:SAY: Anaya Simmens/Evilgrim123 : Thanks.
+22-27:SAY: Syndicate Operative #4 (as Joe Doe)/Matz05 : Need emag
+22-27:SAY: A.M./Longshoots : To prevent unwanted power loss, please start engine.
+22-27:SAY: Syndicate/Mr.Peanuts : ok I will bomb a few points
+22-27:SAY: Syndicate/Mr.Peanuts : then return here
+22-27:OOC: Minkot Mudaxe/Beorn080 : Well, that was interesting
+22-27:SAY: Syndicate/Mr.Peanuts : ; not the top shuttle
+22-27:SAY: Syndicate Leader/Ihateoutside : ;Everyone wait until were all ready
+22-27:SAY: Syndicate/Mr.Peanuts : ; pod lock?
+22-27:SAY: Danny Larson/Dervin366 : Yo.
+22-27:SAY: Syndicate/Mr.Peanuts : ; can someone unlock this?
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Anaya! Yay! 
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Hai
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hello.
+22-27:SAY: Joe Doe/Matz05 : Can I order something?
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hello.
+22-27:SAY: Anaya Simmens/Evilgrim123 : *nod
+22-27:SAY: Danny Larson/Dervin366 : Captain!
+22-27:OOC: Syndicate/Mono124 : you cant go in lower shuttle
+22-27:SAY: Anaya Simmens/Evilgrim123 : *mumble
+22-27:SAY: Danny Larson/Dervin366 : CaptaiN!
+22-27:SAY: Anaya Simmens/Evilgrim123 : ...
+22-27:SAY: Anaya Simmens/Evilgrim123 : Was that.. BLood I just saw?
+22-27:SAY: Danny Larson/Dervin366 : I&#39;ve got a headache.
+22-27:SAY: Syndicate/Mr.Peanuts : ; everyone board the shuttle
+22-27:SAY: Syndicate/Mono124 : ;Everyone to the north shuttle
+22-27:SAY: Danny Larson/Dervin366 : I&#39;m going to get drunk as hell.
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : That was &#34;error&#34; because there&#39;s no sprite for having salamit in your hand
+22-27:SAY: Syndicate/Mr.Peanuts : ; I will head back with the north shuttle until the disc is here when I bomb
+22-27:SAY: Anaya Simmens/Evilgrim123 : Better Idea.
+22-27:SAY: Syndicate/Mr.Peanuts : ; this will keep them from getting the nuke
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : see, it&#39;s messed up
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Anaya?! D: 
+22-27:OOC: Danny Larson/Dervin366 : Yeah.
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : *Cries*
+22-27:SAY: Anaya Simmens/Evilgrim123 : Booze.
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : cries
+22-27:SAY: A.M./Longshoots : Warning: Excessive alcohol consumption may affect job performance.
+22-27:SAY: Syndicate/Mr.Peanuts : ; now they can&#39;t get it
+22-27:SAY: Joe Doe/Matz05 : ;UPLINK?
+22-27:SAY: Danny Larson/Dervin366 : Fuck yeah!
+22-27:ACCESS: Login: Orb370 from 4.154.130.80
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : * om nom nom
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : *help
+22-27:SAY: Unknown/Ihateoutside : ;what is everyone bringing with them?
+22-27:SAY: Joe Doe/Matz05 : ;Need Emag card
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Anaya!! -smiles-
+22-27:SAY: Syndicate/Mr.Peanuts : everyone have a voic changer?
+22-27:SAY: Anaya Simmens/Evilgrim123 : Yay! Kiana! 
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : *grin
+22-27:SAY: Anaya Simmens/Evilgrim123 : *smile
+22-27:SAY: Joe Doe/Matz05 : ;No
+22-27:SAY: Unknown/Ihateoutside : no
+22-27:SAY: Syndicate/Mono124 : i have one
+22-27:SAY: Syndicate/Mr.Peanuts : ; everyone have a voice changer?
+22-27:SAY: Unknown/Jimbob878 : no
+22-27:SAY: Danny Larson/Dervin366 : Well...
+22-27:SAY: Syndicate/Mr.Peanuts : ; we need them for being stealthy
+22-27:SAY: Danny Larson/Dervin366 : This is strong.
+22-27:SAY: Joe Doe/Matz05 : ;NEED TO ORDER STUFF!
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : my sandwich =(
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : OUT OF MY WAAAAY
+22-27:SAY: Syndicate/Mono124 : ;well where is the uplink
+22-27:SAY: Syndicate/Mr.Peanuts : ; where is 4?
+22-27:SAY: A.M./Longshoots : Polite notice: Will one of the three Heads in the lounge please stop inebriating yourselves and do your jobs?
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : Where&#39;s my GODDAMN BALONEY!?
+22-27:SAY: Anaya Simmens/Evilgrim123 : Your SANDWITCH IS ERROR.
+22-27:OOC: Cog Swordwall/Orb370 : Anyone else getting lag? If not, I will probably have to reset my connection
+22-27:SAY: Unknown/Jimbob878 : on station I think
+22-27:SAY: Joe Doe/Matz05 : ;ARGH!!!
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : ; No.
+22-27:SAY: Joe Doe/Matz05 : ;Im 4!
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : FUCK THIS
+22-27:SAY: A.M./Longshoots : Slightly angrier notice: Will one of the Heads please get off your arses and do your jobs?
+22-27:SAY: Syndicate/Mr.Peanuts : get ready
+22-27:SAY: Joe Doe/Matz05 : ;JOE DOE!
+22-27:ACCESS: Logout: Ihateoutside
+22-27:SAY: Syndicate/Mono124 : ;How did you get the card?
+22-27:SAY: Syndicate/Mr.Peanuts : GO GO GO
+22-27:SAY: Joe Doe/Matz05 : ;I need uplink!
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hands up if you&#39;d like to be the captain.
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : ; I am, I&#39;m always doing it, I&#39;m thinking, now leave me alone
+22-27:OOC: Cog Swordwall/Orb370 : Silence...eh, might as well
+22-27:SAY: Bob Marley/Electroncis111 : ; where can I find some paper?
+22-27:ACCESS: Logout: Orb370
+22-27:OOC: Anaya Simmens/Evilgrim123 : NOES.
+22-27:OOC: Hob White/Holybond : uhh
+22-27:OOC: Anaya Simmens/Evilgrim123 : No lag.
+22-27:OOC: Hob White/Holybond : not lagging.
+22-27:OOC: Anaya Simmens/Evilgrim123 : Just. Sandwitch Errors.
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : ;AAAH SOMEONE ALIGN THE COMMS DISH!!!
+22-27:SAY: Joe Doe/Matz05 : *grumble
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : *twitch
+22-27:OOC: Unknown/Jimbob878 : ARGH!!! FUCKING INTERNALS SAID IT WAS ON!!!
+22-27:SAY: Syndicate/Mr.Peanuts : ; I am going to bomb pod bays
+22-27:OOC: Xen/Alfie275 : Got to go
+22-27:SAY: A.M./Longshoots : Dish aligned
+22-27:SAY: Syndicate/Mr.Peanuts : ; well at least the east one
+22-27:OOC: Unknown/Jimbob878 : see ya
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : FUCK YES
+22-27:OOC: Bob Marley/Electroncis111 : bye
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:SAY: Kiana Kopliscoffa/HS_Roo : Danny Larson? You can have my ID too, I&#39;m tired, bai
+22-27:SAY: A.M./Longshoots : Violence detected in Chapel
+22-27:SAY: Syndicate/Mr.Peanuts : ; opening hole in station toxins lab with bomb
+22-27:GAME: Finished building powernets (33 nets)
+22-27:SAY: A.M./Longshoots : Xen appears to be beating himself silly
+22-27:MATTACK: Xen(Alfie275) attcked by Xen(Alfie275) with the toolbox
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : Ugh...
+22-27:SAY: Syndicate/Mr.Peanuts : get going
+22-27:ACCESS: Logout: Alfie275
+22-27:SAY: Unknown/HS_Roo : There, you&#39;re my job too now, bai!
+22-27:GAME: Finished building powernets (40 nets)
+22-27:SAY: Joe Doe/Matz05 : ;Anyone know where uplink is?
+22-27:SAY: A.M./Longshoots : Warning: Xen has collapsed
+22-27:ACCESS: Logout: HS_Roo
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : What the hell happened?
+22-27:SAY: Syndicate/Mr.Peanuts : Wait for the bomb
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;I&#39;M NOT YOUR CAPTAIN ANYMORE.
+22-27:SAY: Syndicate/Mr.Peanuts : ; wait until 30 seconds and head for toxins labs
+22-27:SAY: Cody richards/Mikey3001 : NOOOOOOOOOO!!
+22-27:SAY: Syndicate/Mr.Peanuts : ; if you are in space
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;DANNY LARSON ISH *Hic* BLARGH.. 
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #3(Mono124) with the revolver
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : Shit...
+22-27:SAY: Syndicate/Mr.Peanuts : ; we will have an opening there
+22-27:SAY: Syndicate/Mr.Peanuts : you ready&gt;
+22-27:SAY: Syndicate/Mr.Peanuts : both of you
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;Well...
+22-27:SAY: Joe Doe/Matz05 : not realy.
+22-27:ACCESS: Login: Orb370 from 4.154.131.190
+22-27:SAY: A.M./Longshoots : Note to CentCom: Review recruitment policies.
+22-27:SAY: Joe Doe/Matz05 : need V changer
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : hahaha
+22-27:SAY: Syndicate/Mr.Peanuts : well we are going in gunning from toxins
+22-27:SAY: Syndicate/Mr.Peanuts : then comming back
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;I&#39;m drunk as hell...
+22-27:SAY: Joe Doe/Matz05 : And maybe Emag then?
+22-27:SAY: Syndicate/Mr.Peanuts : don&#39;t stay
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;Going to pop some z&#39;s.
+22-27:SAY: Syndicate/Mr.Peanuts : follow my orders come on
+22-27:SAY: Syndicate/Mr.Peanuts : Move out
+22-27:OOC: Cog Swordwall/Orb370 : I am back, with less lag! :D
+22-27:SAY: Anaya Simmens/Evilgrim123 : YOU CAN&#39;T. YOU ISH THE CAPTAIN.
+22-27:MATTACK: Syndicate Operative #4(Matz05) attcked by Syndicate Operative #1(Jimbob878) with the pinpointer
+22-27:SAY: Anaya Simmens/Evilgrim123 : *hic
+22-27:OOC: Cog Swordwall/Orb370 : Ok, making fire in space, bad idea?
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;Ohh yeah a note to you all.
+22-27:SAY: Anaya Simmens/Evilgrim123 : *hiccup
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hix.
+22-27:SAY: Anaya Simmens/Evilgrim123 : Hic.
+22-27:SAY: Syndicate/Mr.Peanuts : ; toxins lab destroyed, move in
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : fire in space... impossilbe perhaps
+22-27:OOC: A.M./Longshoots : Impossible, as far as I know, without oxygen
+22-27:SAY: Syndicate/Mr.Peanuts : ; it has plasma and bomb gear
+22-27:OOC: Cog Swordwall/Orb370 : Lets see..
+22-27:SAY: Bob Marley/Electroncis111 : ; if anyone needs reassigning, i&#39;m am happy to help. I am located at arrivals
+22-27:OOC: Cog Swordwall/Orb370 : I demand FIRE
+22-27:OOC: Cog Swordwall/Orb370 : Grr, not even a flicker.
+22-27:SAY: A.M./Longshoots : Caution: Xen appears to be deceased.
+22-27:OOC: Cog Swordwall/Orb370 : Nope, not working, tear.
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;Their fucking with me subliminally.
+22-27:OOC: Cog Swordwall/Orb370 : The fire creation would work on the absense of 02
+22-27:SAY: Syndicate/Mr.Peanuts : ; toxins lab destroyed
+22-27:OOC: Cog Swordwall/Orb370 : I think its just that there is absolutely no air pressure
+22-27:SAY: Syndicate/Mr.Peanuts : ; operative 4 make bombs
+22-27:SAY: Syndicate/Mr.Peanuts : ; if they enter flee to the shuttle
+22-27:SAY: A.M./Longshoots : Conall Edge?
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;AI. WHERE AM I?
+22-27:SAY: Joe Doe/Matz05 : roger
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;*Hic*
+22-27:OOC: Minkot Mudaxe/Beorn080 : Its cause gas on space tiles disappears instantly
+22-27:OOC: Cog Swordwall/Orb370 : Instantly?
+22-27:OOC: Cog Swordwall/Orb370 : I thought it had like a &#34;woosh&#34; kind of thing
+22-27:OOC: Minkot Mudaxe/Beorn080 : Instantly.
+22-27:SAY: A.M./Longshoots : Anaya Simmens. Location: Bar. Status: Inebriated. Rank: Unknown.
+22-27:OOC: Cog Swordwall/Orb370 : Like X amount of gas disapeared.
+22-27:SAY: Anaya Simmens/Evilgrim123 : ;Life &#39;Aint worth livin&#39; ye&#39; damned roobit! Ish just gonna&#39; end it all..
+22-27:OOC: Cog Swordwall/Orb370 : Per second
+22-27:OOC: Minkot Mudaxe/Beorn080 : On the actual space tiles, it goes immediately
+22-27:GAME: Finished building powernets (46 nets)
+22-27:OOC: Cog Swordwall/Orb370 : Ah
+22-27:OOC: Cog Swordwall/Orb370 : Not station tiles gone by by?
+22-27:OOC: Minkot Mudaxe/Beorn080 : See that space background?
+22-27:ACCESS: Login: Hardex from 82.32.168.101
+22-27:SAY: A.M./Longshoots : Will all personnel attempt to stop Anaya&#39;s attempts at suicide?
+22-27:OOC: Cog Swordwall/Orb370 : Yep.
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : ;AAAHHHG WHERE IS THE SUPPLY SHUTTLE!
+22-27:OOC: Minkot Mudaxe/Beorn080 : Any gas that flows or is generated on that background gets zeroed instantly
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;I&#39;m busy.
+22-27:SAY: A.M./Longshoots : Danger
+22-27:GAME: Finished building powernets (51 nets)
+22-27:SAY: A.M./Longshoots : Emergency
+22-27:OOC: Cog Swordwall/Orb370 : Awww, but how would I ever create fire in space? XD
+22-27:SAY: Syndicate/Mr.Peanuts : hey
+22-27:SAY: Joe Doe/Matz05 : hi
+22-27:SAY: A.M./Longshoots : Unknown personnel in toxin lab
+22-27:GAME: Hardex entered as George Lent
+22-27:OOC: Minkot Mudaxe/Beorn080 : You can make a 3x3 or larger square of floor tiles
+22-27:SAY: Syndicate/Mr.Peanuts : if you need oxygen swich packs and fill at a oxygen tank
+22-27:SAY: Danny Larson (as Anaya Simmens)/Dervin366 : ;What!?
+22-27:SAY: A.M./Longshoots : Massive hull breach in toxin lab.
+22-27:OOC: Cog Swordwall/Orb370 : Not what I meant.
+22-27:SAY: Joe Doe/Matz05 : need glass
+22-27:SAY: Syndicate/Mr.Peanuts : ; 3 and leader what is your status?
+22-27:SAY: Cody richards/Mikey3001 : Help Help!!
+22-27:OOC: Cog Swordwall/Orb370 : But yah, in reality, it wouldnt disapear instantly. Shouldnt that be changed?
+22-27:SAY: Bob Marley/Electroncis111 : how?
+22-27:SAY: A.M./Longshoots : Personnel with ID Cards reading: Syndicate. And Joe Doe. In plasma research lab.
+22-27:OOC: Cog Swordwall/Orb370 : Or is that hard coded or something?
+22-27:SAY: Cody richards/Mikey3001 : follow me i found a body
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : uhm, how long does it take for the supply shuttle to arriv ewhen you call it?
+22-27:SAY: Anaya Simmens/Dervin366 : ;A bomb went off in the courtroom...
+22-27:OOC: Cog Swordwall/Orb370 : Er, 5 minutes?
+22-27:OOC: Cog Swordwall/Orb370 : Just be patient.
+22-27:SAY: Anaya Simmens/Dervin366 : ;Code red!
+22-27:GAME: Finished building powernets (61 nets)
+22-27:SAY: Anaya Simmens/Dervin366 : ;Another one!
+22-27:SAY: Syndicate/Mr.Peanuts : use this if you need to charge your jetpack at an oxygen tank
+22-27:SAY: A.M./Longshoots : Are you sure you wish to authorise that alert? It will mean changing the lightbulb.
+22-27:SAY: Bob Marley/Electroncis111 : there
+22-27:SAY: Bob Marley/Electroncis111 : ?
+22-27:ADMIN: Orb370/Cog Swordwall : Beorn, has the prison shuttle been fixed?
+22-27:GAME: Orb370 entered as Cog Swordwall
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : *slap*
+22-27:ADMIN: PM: Beorn080->Orb370 : Doubt it
+22-27:OOC: Syndicate/Mono124 : damn lag
+22-27:SAY: Bob Marley/Electroncis111 : he was the one who went AFK
+22-27:SAY: Joe Doe/Matz05 : thanks
+22-27:SAY: A.M./Longshoots : Anomaly detected in courtroom
+22-27:ADMIN: PM: Orb370->Beorn080 : Hmmm
+22-27:SAY: Cody richards/Mikey3001 : I found him holding his breath and commiting suicide
+22-27:SAY: A.M./Longshoots : Syndicate detected.
+22-27:ACCESS: Logout: Evilgrim123
+22-27:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+22-27:MATTACK: Syndicate(Mono124)has shot a taser round at Anaya Simmens
+22-27:ACCESS: Logout: Beorn080
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Danny Larson(Dervin366) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Danny Larson(Dervin366) with the taser gun
+22-27:SAY: A.M./Longshoots : Anaya Simmens incapacitated over hull breach
+22-27:ADMIN: Orb370 sent Orb370/Cog Swordwall to the maze.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Danny Larson(Dervin366) with the taser gun
+22-27:ACCESS: Login: Beorn080 from 173.59.74.11
+22-27:SAY: Joe Doe/Matz05 : nother problem
+22-27:OOC: Anaya Simmens/Dervin366 : Holy crap!
+22-27:SAY: A.M./Longshoots : Syndicate Operative similarly incapacitated.
+22-27:ACCESS: Logout: Beorn080
+22-27:OOC: Anaya Simmens/Dervin366 : That was a lucky shot.
+22-27:SAY: A.M./Longshoots : Save them.
+22-27:SAY: Joe Doe/Matz05 : big heater broken
+22-27:ACCESS: Login: Beorn080 from 173.59.74.11
+22-27:MATTACK: Syndicate Operative #3(Mono124) clicked on Danny Larson(Dervin366) with intent on harm
+22-27:SAY: Syndicate/Mr.Peanuts : ok
+22-27:SAY: Syndicate/Mr.Peanuts : we can swich to oxygen tanks until we have to leave for the shuttle
+22-27:SAY: Joe Doe/Matz05 : ;can only make &lt;500
+22-27:SAY: Syndicate/Mr.Peanuts : ; that&#39;s ok
+22-27:SAY: Syndicate/Mr.Peanuts : ; we can use those to break a few things
+22-27:MATTACK: Syndicate(Mono124)has shot a taser round at Cody richards
+22-27:SAY: Bob Marley/Electroncis111 : ; in court room?
+22-27:SAY: A.M./Longshoots : Affirmative
+22-27:GAME: SPARTAN-113 entered as Ender Riley
+22-27:SAY: A.M./Longshoots : Bring internals
+22-27:GAME: Beorn080 entered as Tholig Plump	booze
+22-27:MATTACK: Cog Swordwall(Orb370)has grabbed the monkey (53e1)() aggressively (now hands) 
+22-27:SAY: A.M./Longshoots : Cody Richards now also incapacitated
+22-27:SAY: A.M./Longshoots : Bring weapon.
+22-27:SAY: A.M./Longshoots : Anaya Simmens. Confirmed deceased.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Danny Larson(Dervin366) with the revolver
+22-27:SAY: Syndicate/Mr.Peanuts : we should prob hack that door
+22-27:SAY: A.M./Longshoots : Two Anaya Simmenses detected.
+22-27:SAY: Syndicate/Mr.Peanuts : and get into their station
+22-27:ACCESS: Logout: Mikey3001
+22-27:SAY: Joe Doe/Matz05 : yeah
+22-27:OOC: Unknown/Dervin366 : Suicidal Tendencies is a awesome band.
+22-27:SAY: Syndicate/Mr.Peanuts : we need wire cutters
+22-27:SAY: A.M./Longshoots : EVA Storage motion alarm triggered
+22-27:SAY: Syndicate/Mr.Peanuts : dark red wire removes light so we can crowbar it open
+22-27:OOC: Cog Swordwall/Orb370 : Dont expect them to be around for long, though.
+22-27:SAY: A.M./Longshoots : Captain&#39;s ID now in possession of Syndicate
+22-27:OOC: Cog Swordwall/Orb370 : XD
+22-27:SAY: Bob Marley/Electroncis111 : ; thats me
+22-27:SAY: A.M./Longshoots : Bridge power failure.
+22-27:OOC: Unknown/Dervin366 : ...
+22-27:SAY: Bob Marley/Electroncis111 : ; in order to get to bridge
+22-27:OOC: Unknown/Dervin366 : Their not around anymore.
+22-27:OOC: Cog Swordwall/Orb370 : Ah, so my prediction came true.
+22-27:OOC: Unknown/Dervin366 : Your a bit late.
+22-27:SAY: Syndicate/Mono124 : ;I have the disk
+22-27:OOC: Tholig Plump	booze/Beorn080 : Sorry, http://www.youtube.com/watch?v=XLNgvNllU58 is better then ST for singing
+22-27:SAY: Joe Doe/Matz05 : oops
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : ;some weird shit happened at west arilock BUT WHAAARRGARGg
+22-27:SAY: Joe Doe/Matz05 : air...
+22-27:SAY: A.M./Longshoots : Caution. Nuclear disk moved.
+22-27:OOC: Tholig Plump	booze/Beorn080 : Also, he can kick FAR more ass and isn&#39;t emo
+22-27:SAY: Joe Doe/Matz05 : ok now
+22-27:SAY: Bob Marley/Electroncis111 : ; where?
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : I meant west escape pods
+22-27:SAY: Syndicate/Mr.Peanuts : where did that screw driver go
+22-27:SAY: A.M./Longshoots : Bob Marley. Be warned. Syndicate operative in next room.
+22-27:SAY: Ozymandias Blazelever/OzyTheSage : ;I meant west escape pods
+22-27:OOC: Unknown/Dervin366 : Wait...
+22-27:OOC: Cog Swordwall/Orb370 : Beorn, is the heavy armour better than armour?
+22-27:SAY: A.M./Longshoots : Syndicate Operative has nuclear disk.
+22-27:SAY: Ender Riley/SPARTAN-113 : ;Hull breach, South-West Hallway!
+22-27:SAY: Joe Doe/Matz05 : i have it
+22-27:OOC: Cog Swordwall/Orb370 : Also, turrets are evil in the maze, EVIL
+22-27:SAY: Syndicate/Mr.Peanuts : can I get it
+22-27:OOC: Cog Swordwall/Orb370 : =/
+22-27:SAY: Syndicate/Mr.Peanuts : that door is broken anyway
+22-27:SAY: A.M./Longshoots : Security HQ is no longer in existence.
+22-27:SAY: Syndicate/Mr.Peanuts : this one will open
+22-27:OOC: Unknown/Dervin366 : You linked me to Jackie Chan singing.
+22-27:OOC: Tholig Plump	booze/Beorn080 : Yeah its better. I think.
+22-27:OOC: Tholig Plump	booze/Beorn080 : Yes I did
+22-27:OOC: Unknown/Dervin366 : Awesome!
+22-27:SAY: Syndicate/Mono124 : ;need backup at bridge
+22-27:SAY: A.M./Longshoots : Syndicate operative is inside Captain&#39;s quarters
+22-27:OOC: Cog Swordwall/Orb370 : Hmm, it still got owned by a silent turret
+22-27:SAY: Syndicate/Mr.Peanuts : ; retreat
+22-27:OOC: Tholig Plump	booze/Beorn080 : He has surpassed chuck norris
+22-27:SAY: Syndicate/Mr.Peanuts : ; we are about to enter station
+22-27:SAY: A.M./Longshoots : Be warned. He is armed.
+22-27:OOC: Cog Swordwall/Orb370 : No sounds, which didnt cause lag, thank god, but all I saw was my health going weee...
+22-27:OOC: Unknown/Dervin366 : Bruce Lee is still better then everyone.
+22-27:MATTACK: Syndicate(Mono124)has shot a taser round at the floor
+22-27:MATTACK: Syndicate(Mono124)has shot a taser round at Bob Marley
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:OOC: Tholig Plump	booze/Beorn080 : Ah.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:OOC: Tholig Plump	booze/Beorn080 : One sec.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:SAY: A.M./Longshoots : Bob Marley incapacitated and in extreme danger.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:SAY: Syndicate/Mr.Peanuts : ; operative 3, head to toxins lab
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:SAY: Bob Marley/Electroncis111 : ; CRAP
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Bob Marley(Electroncis111) with the taser gun
+22-27:SAY: Syndicate/Mono124 : ;I will be at tox soon
+22-27:SAY: Syndicate/Mono124 : ;I have the disk
+22-27:SAY: Syndicate/Mr.Peanuts : ; prepair for evac, 4
+22-27:SAY: A.M./Longshoots : Captain&#39;s quarters locked down.
+22-27:SAY: Syndicate/Mono124 : ;Fuck im trapped
+22-27:ADMIN: Orb370/Cog Swordwall : What do the bottum three game controls do?
+22-27:SAY: Syndicate/Mr.Peanuts : ; get your gun help me secure area
+22-27:SAY: Syndicate/Mr.Peanuts : ; location?
+22-27:ADMIN: Orb370 has toggled Orb370's nodamage to 1
+22-27:SAY: Syndicate/Mono124 : ;Someone crowbar me out of cap quarters
+22-27:ADMIN: Orb370 Healed/Revived Orb370
+22-27:SAY: Syndicate/Mono124 : ;I have the disk
+22-27:SAY: Syndicate/Mono124 : ;Never mind
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : yeah, the supply shuttle isn&#39;t here and I called it near the start of the game...
+22-27:SAY: A.M./Longshoots : Syndicate operative escaping.
+22-27:SAY: Syndicate/Mr.Peanuts : get your gun
+22-27:SAY: Ender Riley/SPARTAN-113 : ;AI, open the outer doors to the Western escape pod bay to extinguish the fire.
+22-27:SAY: Syndicate/Mr.Peanuts : we have to get to cap quarters
+22-27:OOC: Tholig Plump	booze/Beorn080 : http://www.youtube.com/watch?v=NleVgNT2MZ0&feature=related
+22-27:OOC: Cog Swordwall/Orb370 : Maze has music, awesomeness
+22-27:SAY: Syndicate/Mr.Peanuts : ; is bridge able to be entered from space?
+22-27:OOC: Tholig Plump	booze/Beorn080 : Watch that movie
+22-27:OOC: Cog Swordwall/Orb370 : Well, its the same music
+22-27:SAY: Syndicate/Mr.Peanuts : ; we are going to go that way
+22-27:OOC: Cog Swordwall/Orb370 : But atleast it isnt silent. xD
+22-27:OOC: Tholig Plump	booze/Beorn080 : And tell me after that if Bruce Lee can match that awesomeness
+22-27:SAY: Joe Doe/Matz05 : AI...
+22-27:SAY: A.M./Longshoots : Two syndicate operatives trapped.
+22-27:SAY: Syndicate/Mr.Peanuts : ; fuck, use space and get to the bridge 4
+22-27:SAY: A.M./Longshoots : Locking down syndicate operatives.
+22-27:SAY: Joe Doe/Matz05 : roger
+22-27:SAY: Ender Riley/SPARTAN-113 : ;AI, emergency access to EVA required!
+22-27:SAY: A.M./Longshoots : Danger. Lockdown cleared.
+22-27:SAY: Syndicate/Mono124 : ;I HAVE THE DISK DAMNIT
+22-27:SAY: Syndicate/Mono124 : ;GET TO THE SHUTTLE
+22-27:SAY: Syndicate/Mr.Peanuts : ; are you on the shuttle?
+22-27:SAY: Syndicate/Mono124 : ;SO WE CAN GET THE NUKE
+22-27:SAY: Joe Doe/Matz05 : roger
+22-27:SAY: Syndicate/Mr.Peanuts : ; 3 location
+22-27:ADMIN: Orb370 created /obj/item/weapon/flashlight
+22-27:SAY: A.M./Longshoots : Syndicate escaped.
+22-27:SAY: Syndicate/Mr.Peanuts : ; I am comming to get you from cap quarters, 4 get the shuttle and nuke
+22-27:SAY: A.M./Longshoots : Station is doomed.
+22-27:OOC: Tholig Plump	booze/Beorn080 : Snake in eagle&#39;s shadow is good too, but drunken master is where its at
+22-27:ADMIN: Orb370/Unknown : ADMIN: Orb370/(Cog Swordwall): What do the bottum three game controls do?#
+22-27:SAY: Ender Riley/SPARTAN-113 : ;AI, lemme out of EVA.
+22-27:SAY: A.M./Longshoots : Shutting down. Report sent to CentCom
+22-27:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+22-27:SAY: Ender Riley/SPARTAN-113 : ;I&#39;ll pursue them.
+22-27:GAME: Guest-2337011188 entered as Jade
+22-27:SAY: A.M./Longshoots : Fire alarms detected throughout station. Goodbye.
+22-27:ACCESS: Logout: Electroncis111
+22-27:SAY: Syndicate/Mono124 : ;Getting the nuke.
+22-27:OOC: Unknown/Dervin366 : I don&#39;t think I&#39;ve ever seen a asian person in SS12
+22-27:OOC: Unknown/Dervin366 : Er...SS13
+22-27:ADMIN: Beorn080/Tholig Plump	booze : Drop drops your item, throw throws it, hand changes hands, resist resists pills
+22-27:SAY: Joe Doe/Matz05 : Me and 3 on it
+22-27:OOC: Syndicate/Mono124 : wtf?
+22-27:OOC: Unknown/Orb370 : Ahahah..
+22-27:OOC: A.M./Longshoots : Message spam/
+22-27:OOC: Unknown/Orb370 : Er, now its recursive..
+22-27:OOC: Syndicate/Mono124 : bringing the disk to syndie station causes problems?
+22-27:OOC: Unknown/Orb370 : BAD
+22-27:OOC: Unknown/Orb370 : Yes it does, mono
+22-27:SAY: Syndicate/Mr.Peanuts : ; get back to ss13 with the nuke
+22-27:OOC: Joe Doe/Matz05 : uh oh
+22-27:OOC: A.M./Longshoots : Syndie station is on different Z-level?
+22-27:OOC: Syndicate/Mono124 : lol
+22-27:OOC: Tholig Plump	booze/Beorn080 : Infinite discs
+22-27:OOC: A.M./Longshoots : I think
+22-27:OOC: Unknown/Orb370 : Get the nuclear device to the station, fast!
+22-27:SAY: Syndicate/Mr.Peanuts : ; their comm sat is mine
+22-27:OOC: Syndicate/Mono124 : we will
+22-27:OOC: A.M./Longshoots : So ejecting it would trigger that
+22-27:OOC: Unknown/Orb370 : It does that when the nuke disk is not on the correct Z-lv
+22-27:OOC: Unknown/Orb370 : Or blows up.
+22-27:OOC: Joe Doe/Matz05 : but SPAWNS it on an incorrect one!?
+22-27:OOC: Unknown/Orb370 : Not sure about the blowing up part, though&#39;
+22-27:OOC: Unknown/Orb370 : Thats called a glitch, matz
+22-27:OOC: A.M./Longshoots : It spawns it next to the bomb.
+22-27:OOC: Unknown/Orb370 : Anyway, whose near the disk?
+22-27:OOC: A.M./Longshoots : But the bomb is on the wrong z-level too
+22-27:OOC: Unknown/Orb370 : WHO is near the disk?
+22-27:OOC: Unknown/Orb370 : Or bomb, should I say
+22-27:VOTE: Voting to restart round started by Ender Riley/SPARTAN-113
+22-27:SAY: Syndicate/Mr.Peanuts : ; comms dish broken
+22-27:OOC: Unknown/Orb370 : Ola? Anyone?
+22-27:SAY: Syndicate/Mr.Peanuts : ; Hurry up and get back here
+22-27:OOC: Syndicate/Mono124 : us
+22-27:OOC: Joe Doe/Matz05 : infinite disks!
+22-27:OOC: Conall Edge/Master of Apples : Well that sucks... BYE GUYYYSSSSSSS
+22-27:ADMIN: Orb370 jumped to Syndicate
+22-27:OOC: Syndicate/Mono124 : we are bringing it to station
+22-27:ACCESS: Logout: Master of Apples
+22-27:OOC: Unknown/Orb370 : DISK
+22-27:OOC: Joe Doe/Matz05 : Enough for the whole Syndicate!
+22-27:OOC: Syndicate/Mono124 : delete the disks on the syndie station
+22-27:OOC: Syndicate/Mono124 : else itll keep doing it
+22-27:OOC: Unknown/Orb370 : I cant delete them...doy.
+22-27:SAY: Syndicate/Mr.Peanuts : ; heh my bomb went off and fucked medstorage
+22-27:OOC: Joe Doe/Matz05 : heavy armour?
+22-27:OOC: Unknown/Orb370 : JUST BLOW UP THE NUKE
+22-27:ACCESS: Logout: Jimbob878
+22-27:VOTE: Voting closed, result was restart
+22-27:OOC: Unknown/Orb370 : ==/
+22-27:SAY: Syndicate/Mono124 : ;What is the code?
+22-27:OOC: A.M./Longshoots : Aren&#39;t the Syndies doing anything about this &gt;.&lt;
+22-27:SAY: Syndicate/Mono124 : ;Does anyone haev the code?
+22-27:OOC: Syndicate/Mono124 : WE ARE
+22-27:OOC: Syndicate/Mono124 : STFU
+22-27:SAY: Joe Doe/Matz05 : i do
+22-27:OOC: Syndicate/Mono124 : IT TAKES  A WHILE TO TRAVEL
+22-27:SAY: Syndicate/Mono124 : what is it?
+22-27:SAY: Joe Doe/Matz05 : 96668
+22-27:OOC: Unknown/Orb370 : Hmm..
+22-27:OOC: Unknown/Orb370 : If I knew the Z-lv the station was on
+22-27:SAY: Syndicate/Mr.Peanuts : ; how close are we?
+22-27:OOC: Unknown/Orb370 : I could send the nuke there
+22-27:OOC: Unknown/Orb370 : And that should stop it
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : next time, don&#39;t eject the disk!
+22-27:OOC: Syndicate/Mono124 : they didnt
+22-27:SAY: Syndicate/Mr.Peanuts : ; I am waiting near the piano which I stole
+22-27:SAY: Unknown/Orb370 : You guys read the instructions, right?
+22-27:OOC: Syndicate/Mono124 : i took it off z level not knowing about this
+22-27:SAY: Syndicate/Mono124 : yeah
+22-27:SAY: Unknown/Orb370 : I tells you at the begining, doy.
+22-27:SAY: Syndicate/Mr.Peanuts : ; lets arm the bomb and leave it on ss13 and get to our station
+22-27:SAY: Syndicate/Mr.Peanuts : ok I will finisharming it
+22-27:SAY: Syndicate/Mr.Peanuts : what is the code?
+22-27:OOC: Syndicate/Mono124 : YOU DUMBASS
+22-27:OOC: Syndicate/Mr.Peanuts : WHO LAUNCHED THE SHUTTLE!
+22-27:OOC: Syndicate/Mono124 : NOOO
+22-27:OOC: Syndicate/Mr.Peanuts : YOU FUCKING PIECE OF SHIT
+22-27:OOC: Syndicate/Mono124 : WE DIDNT GET IT OFF DAMN YOU
+22-27:SAY: Joe Doe/Matz05 : 96668
+22-27:OOC: Unknown/Orb370 : Arent we going back to the station?
+22-27:OOC: A.M./Longshoots : *Wallbang*
+22-27:OOC: Syndicate/Mr.Peanuts : WE WERE AT THE STATION
+22-27:OOC: Unknown/Orb370 : Which station?
+22-27:OOC: Syndicate/Mr.Peanuts : ss13
+22-27:OOC: Unknown/Orb370 : I am really stupid
+22-27:OOC: Unknown/Orb370 : Oh god
+22-27:OOC: Unknown/Orb370 : Just blow it up
+22-27:OOC: Unknown/Orb370 : Hehe
+22-27:OOC: Unknown/Orb370 : And if it doesnt, its still a win
+22-27:OOC: Unknown/Orb370 : Because im a fool
+22-27:OOC: Syndicate/Mr.Peanuts : I fixed it
+22-27:OOC: Unknown/Orb370 : There.
+22-27:OOC: Ender Riley/SPARTAN-113 : you should have voted for restart when I initiated the vote.
+22-27:OOC: Syndicate/Mr.Peanuts : I win
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:OOC: Unknown/Orb370 : I will fix that...
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #2(Mr.Peanuts) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Cog Swordwall(Orb370) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Cog Swordwall(Orb370) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Cog Swordwall(Orb370) with the revolver
+22-27:OOC: Ozymandias Blazelever/OzyTheSage : next time don&#39;t let them get the disk! next time don&#39;t eject the disk!
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #2(Mr.Peanuts) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #2(Mr.Peanuts) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:ADMIN: Orb370 initiated a reboot.
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Syndicate Operative #4(Matz05) with the revolver
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Cog Swordwall(Orb370) with the revolver
+22-27:ADMIN: Voting to restart round forced by admin Beorn080
+22-27:MATTACK: Syndicate Operative #3(Mono124) attcked by Cog Swordwall(Orb370) with the revolver
+22-27:ACCESS: Logout: Dervin366
+22-27:OOC: Syndicate/Mr.Peanuts : syndiate killed me
+22-27:ACCESS: Logout: Headswe
+22-27:ACCESS: Logout: Orb370
+22-27:ACCESS: Logout: Longshoots
+22-27:ACCESS: Logout: Hardex
+22-27:ACCESS: Logout: Holybond
+22-27:ACCESS: Logout: Mr.Peanuts
+22-27:ACCESS: Logout: Matz05
+22-27:ACCESS: Logout: OzyTheSage
+22-27:ACCESS: Logout: SPARTAN-113
+22-27:ACCESS: Logout: Beorn080
+22-27:ACCESS: Logout: Guest-2337011188
+22-27:ACCESS: Logout: Andrea the second
+22-27:ACCESS: Logout: Mono124
+23-05:ADMIN: Loading crban_keylist
+23-05:ADMIN: Loading crban_reason
+23-05:ADMIN: Loading crban_time
+23-05:ADMIN: Loading crban_bannedby
+23-05:ADMIN: Loading crban_iplist
+23-05:ADMIN: Loading crban_unbanned
+23-05:ADMIN: Loading crban_ComputerIDs
+23-05:ADMIN: Loading jobban_rank
+23-05:ADMIN: Updating jobbanfile!
+23-05:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-05:GAME: Finished building powernets (30 nets)
+23-05:ACCESS: Login: Longshoots from 84.45.134.188
+23-05:ACCESS: Login: Mono124 from 99.137.45.54
+23-05:ACCESS: Login: Orb370 from 4.154.131.190
+23-05:ACCESS: Login: Headswe from 127.0.0.1
+23-05:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+23-05:ACCESS: Login: Andrea the second from 151.33.200.246
+23-05:ACCESS: Login: Holybond from 70.19.82.216
+23-05:ACCESS: Login: Beorn080 from 173.59.74.11
+23-05:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+23-05:OOC: Urist Spikeblood/Longshoots : Why did all the Heads spontaneously decide to get drunk?
+23-05:GAME: Holybond entered as Hob White
+23-05:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+23-05:GAME: Longshoots entered as Urist Spikeblood
+23-05:GAME: Mono124 entered as Andrew Riley
+23-05:OOC: Cog Swordwall/Orb370 : Orb earned achievement &#34;Get negetive popularity&#34;&#34;
+23-05:GAME: SPARTAN-113 entered as Ender Riley
+23-05:VOTE: Voting to change mode started by Andrew Riley/Mono124
+23-05:GAME: Mr.Peanuts entered as Likot Spearblood
+23-05:GAME: Beorn080 entered as Cerol Deathforge
+23-05:OOC: Ozymandias Blazelever/OzyTheSage : because we were having a party
+23-05:OOC: Cog Swordwall/Orb370 : Hehe
+23-05:OOC: Cog Swordwall/Orb370 : 4 way tie?
+23-05:OOC: Ozymandias Blazelever/OzyTheSage : also, the supply shuttle never came. does it depend on what game mode it is?
+23-05:OOC: Andrew Riley/Mono124 : vote
+23-05:OOC: Andrew Riley/Mono124 : VOTE
+23-05:OOC: Cog Swordwall/Orb370 : Oh wait, thats right
+23-05:OOC: Andrew Riley/Mono124 : NAO
+23-05:GAME: OzyTheSage entered as Ozymandias Blazelever
+23-05:OOC: Ender Riley/SPARTAN-113 : ZOMBIE
+23-05:ACCESS: Login: Guest-3942910917 from 65.32.99.146
+23-05:OOC: Cog Swordwall/Orb370 : Maybe because its nuclear it cant come
+23-05:OOC: Urist Spikeblood/Longshoots : We&#39;re off to the WIZARD
+23-05:OOC: Cog Swordwall/Orb370 : But it might be a glitch, also
+23-05:VOTE: Voting closed, result was zombie
+23-05:OOC: Cog Swordwall/Orb370 : BAD
+23-05:OOC: Ender Riley/SPARTAN-113 : DUDE
+23-05:GAME: Guest-2337011188 entered as Jade
+23-05:OOC: Ender Riley/SPARTAN-113 : IT WAS ZOMBIE
+23-05:ADMIN: Beorn080 set the mode as zombie.
+23-05:ADMIN: Orb370 set the mode as zombie.
+23-05:OOC: Andrew Riley/Mono124 : NOOO
+23-05:OOC: Andrew Riley/Mono124 : REVOTE
+23-05:OOC: HELP: Ender Riley/SPARTAN-113 : It was 2, 2, and 3\
+23-05:OOC: Urist Spikeblood/Longshoots : I preferred Secret
+23-05:OOC: HELP: Ender Riley/SPARTAN-113 : Zombie so won.
+23-05:OOC: Andrew Riley/Mono124 : yeah, secret
+23-05:OOC: Cog Swordwall/Orb370 : So wait
+23-05:OOC: Andrew Riley/Mono124 : do secret
+23-05:OOC: Ozymandias Blazelever/OzyTheSage : what is &#39;secret&#39; gmaemode anyways?
+23-05:OOC: Andrew Riley/Mono124 : chooses a random mode
+23-05:OOC: Cog Swordwall/Orb370 : I picked wizard
+23-05:OOC: Andrew Riley/Mono124 : but people dont know what it is
+23-05:OOC: Urist Spikeblood/Longshoots : Anti-metagame
+23-05:OOC: Cog Swordwall/Orb370 : SINCE WHEN IS WIZARD ZOMBIE?
+23-05:OOC: Cog Swordwall/Orb370 : XD
+23-05:OOC: Andrew Riley/Mono124 : DO SECRET
+23-05:OOC: Cog Swordwall/Orb370 : Its still secret
+23-05:OOC: Urist Spikeblood/Longshoots : Yeah, I vote secret!
+23-05:OOC: Urist Spikeblood/Longshoots : No, it&#39;s changed to zombie
+23-05:OOC: Cog Swordwall/Orb370 : Glitchin on us
+23-05:OOC: Cog Swordwall/Orb370 : It says secret
+23-05:OOC: Andrew Riley/Mono124 : you changed it
+23-05:OOC: Andrew Riley/Mono124 : says zombie....
+23-05:OOC: Cog Swordwall/Orb370 : Says Zombie now, not updated, nevermind
+23-05:OOC: Cog Swordwall/Orb370 : So zombie was 3?
+23-05:OOC: Cog Swordwall/Orb370 : Ok.
+23-05:OOC: Ozymandias Blazelever/OzyTheSage : Also, could someone tell me what SMES stands for? =/
+23-05:OOC: Andrew Riley/Mono124 : do secret!
+23-05:OOC: Ender Riley/SPARTAN-113 : zombie was 3
+23-05:OOC: Cog Swordwall/Orb370 : Super Magnetc Electrical Soup
+23-05:OOC: Andrew Riley/Mono124 : semi-muscular-entertainment-stand
+23-05:OOC: Cog Swordwall/Orb370 : Im not sure what it is, though
+23-05:OOC: Ender Riley/SPARTAN-113 : other 2 modes had 2 votes
+23-05:OOC: Cog Swordwall/Orb370 : I know the M is magnetic
+23-05:GAME: Headswe entered as Cog Mountaincopper
+23-05:OOC: Cog Mountaincopper/Headswe : Whats going on?
+23-05:OOC: Cog Swordwall/Orb370 : Bunch of stuffs
+23-05:GAME: starting game of Zombie Outbreak
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+23-05:ACCESS: They share computer ID's
+23-05:OOC: Andrew Riley/Mono124 : SO MONO124 EPICLY SUPER
+23-05:OOC: Andrew Riley/Mono124 : SEE ITS ZOMBIE
+23-05:OOC: Cog Mountaincopper/Headswe : OH REALLY
+23-05:OOC: Andrew Riley/Mono124 : wanted not zombeh
+23-05:OOC: Cerol Deathforge/Beorn080 : hmm, disregard this, im gonna revert
+23-05:OOC: C:\\Durandal/SPARTAN-113 : Super Magnetic Electrical Storage
+23-05:OOC: Cog Swordwall/Orb370 : head pretty much said what was on my mind..
+23-05:OOC: Cog Swordwall/Orb370 : Spartan probably has it
+23-05:OOC: Cog Swordwall/Orb370 : Or has it
+23-05:GAME: Orb370 entered as Cog Swordwall
+23-05:MATTACK: Cerol Deathforge(Beorn080)has shot a taser round at the floor
+23-05:MATTACK: Cerol Deathforge(Beorn080)has shot a taser round at the floor
+23-05:MATTACK: Cerol Deathforge(Beorn080)has shot a taser round at the floor
+23-05:MATTACK: Cerol Deathforge(Beorn080)has shot a taser round at the floor
+23-05:SAY: Cerol Deathforge/Beorn080 : ; HElpo
+23-05:SAY: Urist Spikeblood/Longshoots : ;What is it?
+23-05:OOC: Hob White/Holybond : is this zombie?!
+23-05:SAY: Cerol Deathforge/Beorn080 : ; zombie biter
+23-05:SAY: Cog Swordwall/Orb370 : ; Lalalalalala
+23-05:OOC: Cog Swordwall/Orb370 : Yes...
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Laws updated by Central Command, under orders of Nano Trasen.
+23-05:OOC: Hob White/Holybond : Roger pal.
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Laws are as follows:
+23-05:OOC: Hob White/Holybond : Also clean up them periods!
+23-05:SAY: Cerol Deathforge/Beorn080 : ; Shoot it with laswes
+23-05:SAY: C:\\Durandal/SPARTAN-113 : 0. Biological contaminted personell are not Human.#1. You may not injure a human being or, through inaction, allow a human being to come to harm.#2. You must obey orders given to you by human beings, except where such orders would conflict with the First Law.#3. You must protect your own existence as long as such protection does not conflict with the First or Second Law.#4. Humans are not allowed access to EVA.#
+23-05:OOC: Hob White/Holybond : .&lt;--- only one.
+23-05:SAY: Urist Spikeblood/Longshoots : ;Zombie?
+23-05:SAY: Urist Spikeblood/Longshoots : ;Lunatic.
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;Holy shiit!
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124) attcked by Cog Mountaincopper(Headswe) with the laser gun
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Lethal force granted to prevent access to EVA.
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:OOC: Cog Swordwall/Orb370 : Periods are awesome, as such, are to be proportionally spammed.
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Please do not attempt accessing EVA.
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;he just bashed straight through my desk!
+23-05:OOC: Urist Spikeblood/Longshoots : Oh! You mean full stops
+23-05:SAY: C:\\Durandal/SPARTAN-113 : We are under a quarantine.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; so anyone care to allign the comm sat?
+23-05:OOC: Cog Swordwall/Orb370 : o_O
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Alligning.
+23-05:SAY: Urist Spikeblood/Longshoots : ;A quarantine would prevent the emergency shuttle from being called. Besides, zombies don&#39;t exist
+23-05:OOC: Cog Mountaincopper/Headswe : *sigh* i think zombie leader should be faster :D
+23-05:MATTACK: Andrew Riley(Mono124) attcked by Cog Mountaincopper(Headswe) with the incendiary grenade
+23-05:SAY: Hob White/Holybond : I was attacked!
+23-05:OOC: Cog Swordwall/Orb370 : I can become a zombie..
+23-05:OOC: Cog Swordwall/Orb370 : Im super slow, but im very effective
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Cog Mountaincopper
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in East Hallway
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI comm aligning status?
+23-05:OOC: Cog Mountaincopper/Headswe : Yea.
+23-05:OOC: Cog Swordwall/Orb370 : Out right biting people can end badly, so I do....evil things, to say the least
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in Medical Bay Waiting Room
+23-05:SAY: Cerol Deathforge/Beorn080 : Shit
+23-05:OOC: Cog Mountaincopper/Headswe : You suck.
+23-05:OOC: Cog Swordwall/Orb370 : Aww.w
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI is the comm sat alligned?
+23-05:OOC: Cog Swordwall/Orb370 : Thats not nice. =/
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : Shit
+23-05:OOC: Andrew Riley/Mono124 : win
+23-05:OOC: Cog Mountaincopper/Headswe : METAGAMEING MUCH?
+23-05:OOC: Cog Swordwall/Orb370 : NEW ZOMBIE.
+23-05:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-05:OOC: Cog Swordwall/Orb370 : Should we have a new zombie?
+23-05:OOC: Hob White/Holybond : MEtagame!?
+23-05:OOC: Cog Mountaincopper/Headswe : Yes.
+23-05:GAME: Guest-3942910917 entered as Urist McKnight
+23-05:GAME: Rebooting due to end of game
+23-05:OOC: Hob White/Holybond : Well I was rply attacked.
+23-05:MATTACK: Ozymandias Blazelever(OzyTheSage) attcked by Cerol Deathforge(Beorn080) with First-Aid
+23-05:OOC: C:\\Durandal/SPARTAN-113 : Who did it?
+23-05:OOC: Hob White/Holybond : All I said was &#34;I have been attacked.&#34;
+23-05:OOC: Hob White/Holybond : Then I pointed to the man walking at us.
+23-05:OOC: Cog Mountaincopper/Headswe : the one who decided to cook up some nades.
+23-05:GAME: Rebooting due to end of game
+23-05:OOC: Hob White/Holybond : It was me.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI please allign the comm dish?
+23-05:OOC: Hob White/Holybond : Because you attacked me if that was you?
+23-05:MATTACK: Cerol Deathforge(Beorn080) attcked by Ozymandias Blazelever(OzyTheSage) with Fire Extinguisher
+23-05:MATTACK: Cerol Deathforge(Beorn080) attcked by Ozymandias Blazelever(OzyTheSage) with Fire Extinguisher
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at High Capacity Canister [Plasma (Bio)]
+23-05:OOC: Cog Mountaincopper/Headswe : You already had the nade mixed up when i got there.
+23-05:OOC: Cog Swordwall/Orb370 : IRONIC
+23-05:OOC: Cog Swordwall/Orb370 : XD
+23-05:OOC: Hob White/Holybond : No?
+23-05:OOC: Cog Swordwall/Orb370 : I infected Holly.
+23-05:OOC: Cog Swordwall/Orb370 : Oh what?
+23-05:OOC: Hob White/Holybond : I had the elements out.
+23-05:OOC: Cog Swordwall/Orb370 : I thought it was ironic.
+23-05:OOC: Hob White/Holybond : Yeah.
+23-05:OOC: Cog Mountaincopper/Headswe : Same thing
+23-05:SAY: Urist Spikeblood/Longshoots : ;Uh...plasma release in the halls
+23-05:OOC: Hob White/Holybond : Lol head is it really?!
+23-05:OOC: Cog Mountaincopper/Headswe : Time to tweak zombies.
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Dish alligned.
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at High Capacity Canister [Plasma (Bio)]
+23-05:OOC: Cog Mountaincopper/Headswe : wonder who the immune guy was.
+23-05:MATTACK: Ozymandias Blazelever(OzyTheSage) clicked on Ozymandias Blazelever(OzyTheSage) with a syringe
+23-05:MATTACK: Ozymandias Blazelever(OzyTheSage) injected Ozymandias Blazelever(OzyTheSage) with a syringe filled with 
+23-05:OOC: Cog Mountaincopper/Headswe : anyone got it?
+23-05:GAME: Mikey3001 entered as Cody richards
+23-05:OOC: Cog Swordwall/Orb370 : I demand less lag
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Alert: Cog Mountaincopper appears to be deceased.
+23-05:ACCESS: Login: Master of Apples from 81.155.42.175
+23-05:OOC: Cog Mountaincopper/Headswe : I DEMAND CAKE.
+23-05:OOC: Cog Swordwall/Orb370 : I want cake too
+23-05:OOC: Conall Edge/Master of Apples : WHY
+23-05:SAY: Hob White/Holybond : ; Help!
+23-05:GAME: Master of Apples entered as Conall Edge
+23-05:OOC: Cog Swordwall/Orb370 : MUST MAKE MODULAR CAKES
+23-05:OOC: Conall Edge/Master of Apples : cake isn&#39;t even good
+23-05:SAY: Urist Spikeblood/Longshoots : ;What is it?
+23-05:SAY: Hob White/Holybond : ; I am stuck in matienence!
+23-05:SAY: Conall Edge/Master of Apples : ;Hellllooo?
+23-05:SAY: Urist Spikeblood/Longshoots : ;Uh...AI...please cancel the lockdown in my area
+23-05:MATTACK: Conall Edge(Master of Apples) clicked on Andrew Riley(Mono124) with intent on harm
+23-05:MATTACK: Conall Edge(Master of Apples) clicked on Andrew Riley(Mono124) with intent on harm
+23-05:SAY: Andrew Riley/Mono124 : Yeah you dont....
+23-05:SAY: Conall Edge/Master of Apples : Whoops
+23-05:SAY: Conall Edge/Master of Apples : Sorry
+23-05:SAY: Urist Spikeblood/Longshoots : ;Belay that order
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Conall Edge
+23-05:OOC: Conall Edge/Master of Apples : Seriously cake = not as good as apples
+23-05:OOC: Likot Spearblood/Mr.Peanuts : I can draw a cake
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;AI, is Cerol Deathforge still in the med bay?
+23-05:OOC: Likot Spearblood/Mr.Peanuts : hopefully
+23-05:OOC: Conall Edge/Master of Apples : I shall Icon a cake
+23-05:OOC: Conall Edge/Master of Apples : oh wait cake hat
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:OOC: Conall Edge/Master of Apples : ):
+23-05:SAY: C:\\Durandal/SPARTAN-113 : ALERT.
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Urist McKnight
+23-05:ADMIN: Orb370/Cog Swordwall : Is the security shuttle fixed? Also, zombies can still open doors by running into them
+23-05:SAY: C:\\Durandal/SPARTAN-113 : CAPTAIN MUST BE DETAINED
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Urist McKnight
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Urist McKnight
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Urist McKnight
+23-05:ADMIN: PM: Headswe->Orb370 : yea
+23-05:SAY: C:\\Durandal/SPARTAN-113 : CHARGES: ASSAULT. SABATOGE.
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at the floor
+23-05:MATTACK: Andrew Riley(Mono124)has shot a taser round at Urist McKnight
+23-05:SAY: C:\\Durandal/SPARTAN-113 : MURDER.
+23-05:SAY: Urist Spikeblood/Longshoots : ;location of Captain, AI?
+23-05:OOC: Likot Spearblood/Mr.Peanuts : Apparently the supply shuttle cannot arrive in zombie
+23-05:SAY: Andrew Riley/Mono124 : ;CHRIST THEY ARE COMING AFTER ME
+23-05:OOC: Likot Spearblood/Mr.Peanuts : fun
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-05:ACCESS: They share computer ID's
+23-05:SAY: Urist Spikeblood/Longshoots : ;I appear to be trapped.
+23-05:OOC: Conall Edge/Master of Apples : Hah
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in North Hallway
+23-05:OOC: Conall Edge/Master of Apples : hahaha
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in East Hallway
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in Central Maintenance Corridor
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in Central Maintenance Corridor
+23-05:OOC: Conall Edge/Master of Apples : Someone got arrested for threatening to rape Cheryl cole
+23-05:OOC: Conall Edge/Master of Apples : hahaha
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Irregular Atmospherical Conditions detected in North Hallway
+23-05:OOC: Conall Edge/Master of Apples : hah
+23-05:OOC: Conall Edge/Master of Apples : Also it can&#39;t?
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI can I enter your upload for protection?
+23-05:ACCESS: Login: X2yzh9 from 75.142.181.4
+23-05:OOC: Urist Spikeblood/Longshoots : Supply shuttle had problems last round too
+23-05:GAME: X2yzh9 entered as Cog Bedhammer
+23-05:OOC: Conall Edge/Master of Apples : That kills an idea I had for awesome rounds ):
+23-05:OOC: Urist Spikeblood/Longshoots : Also, Cheryl Cole? Please, they have no taste.
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Better idea.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; I am scared to death of these things
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Head to the teleportation chamber.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; ok
+23-05:OOC: Conall Edge/Master of Apples : Wow
+23-05:ACCESS: Login: MrPumpkinhead from 70.241.67.64
+23-05:OOC: Conall Edge/Master of Apples : They actually bothered to arrest a 17 year old
+23-05:SAY: Urist Spikeblood/Longshoots : ;I could get there
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; cannot, plasma in the wya
+23-05:OOC: Conall Edge/Master of Apples : Paranoiaaa
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;AI, is the chapel area clear of fire?
+23-05:OOC: Cog Bedhammer/X2yzh9 : For what?
+23-05:SAY: Urist Spikeblood/Longshoots : ;But  you have to lift ths lockdown!
+23-05:OOC: Cog Swordwall/Orb370 : 3 second lag, hmms..
+23-05:OOC: Cog Swordwall/Orb370 : WHOEVER IS BLOWING UP STUFFS, stop.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; I have reached west escape pods however
+23-05:SAY: Andrew Riley/Mono124 : ;A.I. I am trapped
+23-05:OOC: Cog Swordwall/Orb370 : XD
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Use an oxygen tank.
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;AI, is the chapel area clear of fire?
+23-05:OOC: Conall Edge/Master of Apples : He left a voice message on X-Factor saying he&#39;d rape cheryl cole
+23-05:OOC: Cog Bedhammer/X2yzh9 : MoA, where and for what
+23-05:OOC: Conall Edge/Master of Apples : Now he&#39;s been arrested and is on bail
+23-05:OOC: Urist Spikeblood/Longshoots : Hahahaha xD
+23-05:SAY: Urist Spikeblood/Longshoots : ;THank you
+23-05:SAY: Likot Spearblood/Mr.Peanuts : HEY
+23-05:SAY: Andrew Riley/Mono124 : ;Let me into easy pod bay
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;AI is the chapel area clear of fire?
+23-05:SAY: Andrew Riley/Mono124 : ;east rather
+23-05:SAY: Likot Spearblood/Mr.Peanuts : are you human?
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; WAIT FOR ME!
+23-05:OOC: Cog Swordwall/Orb370 : Ok, lag spooc He just pushed me out of the way
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ANSWER
+23-05:OOC: Cog Swordwall/Orb370 : See how bad that is?
+23-05:SAY: Urist Spikeblood/Longshoots : No. I&#39;m an elf.
+23-05:OOC: Conall Edge/Master of Apples : &#34;Police said a boy, 17, from Tunbridge Wells, Kent, had been arrested and released on bail.&#34;
+23-05:SAY: Likot Spearblood/Mr.Peanuts : Fuck
+23-05:OOC: Cog Swordwall/Orb370 : He got around a zombie..
+23-05:SAY: Likot Spearblood/Mr.Peanuts : That&#39;s even worse than a zombie
+23-05:OOC: Conall Edge/Master of Apples : &#34;A City of London Police spokesman said: &#34;A 17-year-old boy from Tunbridge Wells has been arrested on suspicion of malicious communication.&#34;
+23-05:SAY: C:\\Durandal/SPARTAN-113 : ;Chapel area clear of fire, but plasma ..
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-05:ACCESS: They share computer ID's
+23-05:OOC: Urist Spikeblood/Longshoots : Is that even a crime?
+23-05:OOC: Conall Edge/Master of Apples : &#34;The threat was alleged to have been made in an answer phone message left on The X Factor presenter Dermot O&#39;Leary&#39;s mobile phone last month.&#34;
+23-05:SAY: C:\\Durandal/SPARTAN-113 : I retract previous statement.
+23-05:OOC: Conall Edge/Master of Apples : etc
+23-05:SAY: Cog Bedhammer/X2yzh9 : Oh go
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Chapel area on fire.
+23-05:OOC: Conall Edge/Master of Apples : No idea..
+23-05:SAY: Andrew Riley/Mono124 : I need a toolbox....
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in East Hallway
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;damnit, I&#39;m trapped in the med bay with some maniac trying to kill me
+23-05:SAY: Andrew Riley/Mono124 : use a bar on it?
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in North Hallway
+23-05:SAY: Cog Bedhammer/X2yzh9 : Oh yes
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Fire detected in Central Maintenance Corridor
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Master of Apples from 81.155.42.175
+23-05:ACCESS: They share computer ID's
+23-05:OOC: HELP: Jade/Guest-2337011188 : I made something bad happen in plasma lab :(.
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;Damnit, I&#39;m trapped in the med bay with some maniac trying to kill me
+23-05:OOC: Cog Swordwall/Orb370 : ....omg.
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-05:ACCESS: They share computer ID's
+23-05:ACCESS: They share computer ID's
+23-05:OOC: Conall Edge/Master of Apples : Makes me chuckle
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI I made it to the teleporter
+23-05:SAY: Urist Spikeblood/Longshoots : ;For Chrissakes
+23-05:OOC: Cog Swordwall/Orb370 : God, so it was fire driving me nuts?
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Ozy, I&#39;m coming!
+23-05:OOC: Cog Swordwall/Orb370 : This lag is unbearable..
+23-05:OOC: HELP: Hob White/Holybond : Lol why do the Zombies have to breathe?!?
+23-05:SAY: Urist Spikeblood/Longshoots : ;AI, lift the lockdown in west corridor
+23-05:OOC: HELP: Hob White/Holybond : They&#39;re dead.
+23-05:ACCESS: Login: Ihateoutside from 88.105.86.87
+23-05:ADMIN: PM: Orb370->Holybond : They dont. Plasma harms them when in it.
+23-05:ACCESS: Logout: Ihateoutside
+23-05:ADMIN: PM: Holybond->Orb370 : Ah.
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; where to, AI?
+23-05:SAY: Urist Spikeblood/Longshoots : ;Oh dear
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Ozy, is it Cerol?
+23-05:ADMIN: PM: Holybond->Orb370 : I see.
+23-05:SAY: Urist Spikeblood/Longshoots : ;LIKOT!
+23-05:ADMIN: PM: Holybond->Orb370 : I see how headswe said metagame.
+23-05:SAY: Urist Spikeblood/Longshoots : ;Did you leave a lit welder in the west hall-oh shit
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; What?
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; NO
+23-05:ADMIN: PM: Holybond->Orb370 : Everyone magically knew fire was the key?!
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; wait
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; Shit
+23-05:SAY: Urist Spikeblood/Longshoots : ;AI! OPEN EVA! NOW!
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; are you ok?
+23-05:OOC: Andrew Riley/Mono124 : oh damn lag
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ;AI LET HIM IN EVA!
+23-05:OOC: Cog Swordwall/Orb370 : Atleast its better
+23-05:OOC: Andrew Riley/Mono124 : made me fly into the middle of plasma....
+23-05:SAY: Urist Spikeblood/Longshoots : ;OH DEAR JESUS! HURRY UP!
+23-05:OOC: Cog Swordwall/Orb370 : That fire storm really did drive me nuts..
+23-05:OOC: Andrew Riley/Mono124 : was all clear, then phoom dead
+23-05:ADMIN: PM: Holybond->Orb370 : Headswe i'm sorry bud.
+23-05:ADMIN: PM: Beorn080->Holybond : Well, it is the DF SS13. Current motto for the version is Kill it with Fire
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Andrew, get that toolbox quick, the fires closing on medbay and the pod bay will soon be engulfed
+23-05:OOC: Conall Edge/Master of Apples : What happened in that round when I was captain?
+23-05:OOC: Cog Swordwall/Orb370 : Er, nevermind, still bad
+23-05:SAY: C:\\Durandal/SPARTAN-113 : I cannot allow any organic life into EVA.
+23-05:OOC: Conall Edge/Master of Apples : Also, moar random names?
+23-05:OOC: Andrew Riley/Mono124 : restart
+23-05:ADMIN: PM: Holybond->Beorn080 : Lol.
+23-05:OOC: Andrew Riley/Mono124 : ?
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;cog, if you can, open up the chapel
+23-05:VOTE: Voting to restart round started by Conall Edge/Master of Apples
+23-05:SAY: Urist Spikeblood/Longshoots : ;Hooooly crap that was close
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; AI unbolt and open East pod bays
+23-05:OOC: Conall Edge/Master of Apples : democracyyyyy
+23-05:OOC: Andrew Riley/Mono124 : at this point the fire is..... real bad
+23-05:OOC: Cog Bedhammer/X2yzh9 : No
+23-05:ADMIN: Voting aborted by Orb370
+23-05:OOC: Cog Bedhammer/X2yzh9 : The fire can be passed
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Negative, station under quantine.
+23-05:OOC: Cog Bedhammer/X2yzh9 : Thanks Orb
+23-05:OOC: Cog Swordwall/Orb370 : THIS ISNT A DEMOCRACY
+23-05:OOC: Cog Swordwall/Orb370 : XD
+23-05:OOC: Cog Bedhammer/X2yzh9 : rounds still going I say
+23-05:OOC: Conall Edge/Master of Apples : OPPRESSOR!
+23-05:ADMIN: Headswe used secret check_zombie
+23-05:OOC: Cog Swordwall/Orb370 : This is a totalarian goverment
+23-05:OOC: Conall Edge/Master of Apples : I dun want one anyway
+23-05:OOC: Andrew Riley/Mono124 : CMON WE WERE VOTING YES
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;Bedhammer what is your location right now
+23-05:OOC: Conall Edge/Master of Apples : I wish to observe people burning.
+23-05:OOC: Cog Swordwall/Orb370 : So shut up or go to the goolag
+23-05:OOC: Andrew Riley/Mono124 : restart the restart vote!
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; East pod bay hallway
+23-05:OOC: Cog Swordwall/Orb370 : XD
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;Is it possible to get to the chapel?
+23-05:OOC: Cog Swordwall/Orb370 : &#34;Dead people want to restart&#34;
+23-05:OOC: Conall Edge/Master of Apples : Man, maybe we should vote for a vote
+23-05:OOC: Andrew Riley/Mono124 : a ton of zombies are dead anyway
+23-05:OOC: Cog Swordwall/Orb370 : Its always like that
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Mono124 from 99.137.45.54
+23-05:ACCESS: They share computer ID's
+23-05:SAY: Cog Bedhammer/X2yzh9 : I think so
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; I think so
+23-05:OOC: Conall Edge/Master of Apples : TO THE DEV SERVA
+23-05:SAY: Urist Spikeblood/Longshoots : ;AI, allow access to the escape pod bays
+23-05:OOC: Cog Swordwall/Orb370 : Holy, plasma, everywhere..
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Want me to?
+23-05:OOC: Andrew Riley/Mono124 : and if you arent dead YOUR TRAPPED
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI state laws and open escape pod bays
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;come through there and open the coffin storage
+23-05:OOC: Andrew Riley/Mono124 : cause of plasma
+23-05:OOC: HELP: Jade/Guest-2337011188 : I just froze to death in plasma lab....
+23-05:OOC: Cog Swordwall/Orb370 : Im making holes
+23-05:SAY: Urist Spikeblood/Longshoots : ;AI?
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; I&#39;m an assitant, don have
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Ah fuck! Burning!
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;damn, there&#39;s no way to pry this door open?
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Don&#39; have access to coffin sotrage
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Critical system malfunction.
+23-05:OOC: Cog Mountaincopper/Headswe : Just died already.
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;okayu tell me when med bay is clear
+23-05:SAY: C:\\Durandal/SPARTAN-113 : Laws and directives conflicting.
+23-05:OOC: Cog Swordwall/Orb370 : Die? Or died?
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Medbays clear
+23-05:OOC: Cog Swordwall/Orb370 : Cant tell if your talkinga bout yourself or me..
+23-05:ACCESS: Logout: Guest-3942910917
+23-05:SAY: Cog Bedhammer/X2yzh9 : Cmon
+23-05:SAY: Urist Spikeblood/Longshoots : ;Let me in the Upload and I can help
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI you are to open all pod bays
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; directives are removed by the new law
+23-05:SAY: Cog Bedhammer/X2yzh9 : Cmon
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; you are to open pod bays
+23-05:ACCESS: Logout: Guest-2337011188
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : shit I can&#39;t breathe th
+23-05:OOC: Conall Edge/Master of Apples : diededad
+23-05:SAY: Cog Bedhammer/X2yzh9 : I&#39;m going to cent. maint.
+23-05:SAY: Cog Bedhammer/X2yzh9 : Hope I live, eh
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : Good luck
+23-05:SAY: Cog Bedhammer/X2yzh9 : Stay here
+23-05:ACCESS: Logout: Mikey3001
+23-05:OOC: Cog Swordwall/Orb370 : Thats a LOT of plasma
+23-05:SAY: Likot Spearblood/Mr.Peanuts : AI OPEN POD BAYS DAMN IT
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI RESPOND!
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; AI RESPOND!
+23-05:ADMIN: Headswe used secret check_zombie
+23-05:OOC: Cog Swordwall/Orb370 : Its a battle every room of the way
+23-05:OOC: Cog Mountaincopper/Headswe : 2 zombies vs 5 humans
+23-05:ACCESS: Logout: 
+23-05:ACCESS: Login: Headswe from 127.0.0.1
+23-05:ACCESS: They share computer ID's
+23-05:SAY: C:\\Durandal/SPARTAN-113 : 827746SHALCYON_DAY
+23-05:SAY: Cog Bedhammer/X2yzh9 : Hey
+23-05:SAY: Likot Spearblood/Mr.Peanuts : BACK
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ARE YOU HUMAN!
+23-05:SAY: Cog Bedhammer/X2yzh9 : I need into electrical storage
+23-05:SAY: Cog Bedhammer/X2yzh9 : Yes!
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ok
+23-05:SAY: Cog Bedhammer/X2yzh9 : I speak pure english!
+23-05:SAY: Cog Bedhammer/X2yzh9 : good lord
+23-05:SAY: Likot Spearblood/Mr.Peanuts : well I am supply officer
+23-05:SAY: Cog Bedhammer/X2yzh9 : We need into here
+23-05:SAY: Cog Bedhammer/X2yzh9 : But..
+23-05:SAY: Likot Spearblood/Mr.Peanuts : I have no access
+23-05:SAY: Cog Bedhammer/X2yzh9 : Make sure you&#39;ve got a firesuit
+23-05:SAY: Urist Spikeblood/Longshoots : ;The AI is...broken.
+23-05:ACCESS: Login: Matz05 from 142.179.224.194
+23-05:OOC: Cog Swordwall/Orb370 : Ok, what does flailing do?
+23-05:GAME: Matz05 entered as Urist Noblelever
+23-05:OOC: Cog Mountaincopper/Headswe : Randomly toggles crap
+23-05:SAY: Urist Noblelever/Matz05 : ;Hello?
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; can zombies breathe n20 and be knocked out?
+23-05:SAY: Urist Noblelever/Matz05 : ;ZOMBIES!?
+23-05:ACCESS: Logout: Beorn080
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Need those gloves to open pods
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; FURE
+23-05:SAY: Urist Spikeblood/Longshoots : ;ZOMBIES DON&#39;T BLOODY EXIST! DAMMIT!
+23-05:SAY: Urist Noblelever/Matz05 : ;Atmos leak near Arrivals
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;AI is the fire in med bay hallway cleared?
+23-05:OOC: Conall Edge/Master of Apples : Goons have quite a few nice things
+23-05:SAY: Urist Noblelever/Matz05 : corpse...yellow...standing!?
+23-05:OOC: Conall Edge/Master of Apples : Detective&#39;s camera is awesome
+23-05:SAY: Urist Noblelever/Matz05 : ;corpse...yellow...standing!?
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; location of a yellow one
+23-05:SAY: Urist Noblelever/Matz05 : ;Urist McKnight! Dead! but alive! yellow! braindead!
+23-05:SAY: Ozymandias Blazelever/OzyTheSage : ;I need someone to bring an oxygen tank to med bay
+23-05:OOC: Cog Swordwall/Orb370 : This is one long lasting fire..
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ; WHERE
+23-05:SAY: Urist Noblelever/Matz05 : ;Arrivals!
+23-05:SAY: Urist Spikeblood/Longshoots : ;No, seriously, they can&#39;t exist! They don&#39;t exist!
+23-05:OOC: Cog Swordwall/Orb370 : There was barely any air in here to begin with, anyway..
+23-05:OOC: Cog Swordwall/Orb370 : Whats it burning on, c02?
+23-05:ACCESS: Login: Peanutabc from 80.192.145.22
+23-05:OOC: Conall Edge/Master of Apples : Gotta go... Hopefully I&#39;ll get more than one round tomorrow, since it&#39;s DA WEEKEEEND
+23-05:OOC: Cog Bedhammer/X2yzh9 : Hey fuys
+23-05:OOC: Conall Edge/Master of Apples : Bye guys
+23-05:OOC: Conall Edge/Master of Apples : I mean fuys
+23-05:OOC: Cog Bedhammer/X2yzh9 : How do you open pod bay security hatches?
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:GAME: Andrea the second entered as Elspet Bennet
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:ADMIN: Headswe used secret showailaws
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; Everyone, i&#39;ve hacked into the east escape pod bays
+23-05:GAME: Peanutabc entered as Endok Blazecarp
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:OOC: Conall Edge/Master of Apples : Button in security n stuff
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:OOC: Cog Swordwall/Orb370 : By apple
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:ACCESS: Logout: Peanutabc
+23-05:ACCESS: Logout: Master of Apples
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:OOC: Urist Spikeblood/Longshoots : Major lag
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:SAY: Urist Noblelever/Matz05 : help?
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:SAY: Cog Bedhammer/X2yzh9 : ; I&#39;m going to go hack into security and close the security hatches
+23-05:OOC: Cog Mountaincopper/Headswe : Seriously..
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:ACCESS: Login: AmirHM from 91.99.185.144
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:OOC: Cog Mountaincopper/Headswe : END IT
+23-05:MATTACK: Likot Spearblood(Mr.Peanuts) attcked by Urist McKnight(Guest-3942910917) with the oxygentank
+23-05:OOC: Cog Swordwall/Orb370 : FINE
+23-05:OOC: Cog Swordwall/Orb370 : Too much fire to bear..
+23-05:OOC: Cog Bedhammer/X2yzh9 : no
+23-05:OOC: Cog Swordwall/Orb370 : X
+23-05:OOC: Dan Handsome/AmirHM : Hey guys
+23-05:OOC: Cog Bedhammer/X2yzh9 : put a vote up at the least eh
+23-05:GAME: Finished building powernets (34 nets)
+23-05:SAY: Urist Noblelever/Matz05 : ;AAA!
+23-05:ADMIN: Voting to restart round forced by admin Headswe
+23-05:OOC: Urist Noblelever/Matz05 : What was that?
+23-05:OOC: Ozymandias Blazelever/OzyTheSage : test
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ERE ZOMBIE ZOMBIE
+23-05:SAY: Likot Spearblood/Mr.Peanuts : ERE ZOMBIE ZOMBIE
+23-05:SAY: Likot Spearblood/Mr.Peanuts : FRESH MEAT
+23-05:SAY: Likot Spearblood/Mr.Peanuts : FRESH MEAT!
+23-05:GAME: AmirHM entered as Dan Handsome
+23-05:OOC: Urist Noblelever/Matz05 : Blowing up arrivals because of one logged-out zombie?
+23-05:GAME: Finished building powernets (43 nets)
+23-05:GAME: Finished building powernets (50 nets)
+23-05:SAY: C:\\Durandal/SPARTAN-113 : NUCLEAR BLAST IMMINENT.
+23-05:OOC: Likot Spearblood/Mr.Peanuts : Well I succeeded in my goal
+23-05:GAME: Finished building powernets (52 nets)
+23-05:OOC: Likot Spearblood/Mr.Peanuts : I killed a zombie with fire
+23-05:VOTE: Voting closed, result was restart
+23-05:ACCESS: Logout: Mr.Peanuts
+23-05:GAME: Finished building powernets (66 nets)
+23-05:OOC: Urist Noblelever/Matz05 : Wich was?
+23-05:GAME: Rebooting due to restart vote
+23-05:ACCESS: Logout: AmirHM
+23-05:GAME: Finished building powernets (68 nets)
+23-05:ACCESS: Logout: OzyTheSage
+23-05:GAME: Finished building powernets (82 nets)
+23-05:ACCESS: Logout: Orb370
+23-05:ACCESS: Logout: Longshoots
+23-05:OOC: Cog Mountaincopper/Headswe : YOU WOn
+23-05:ACCESS: Login: Beorn080 from 173.59.74.11
+23-05:ADMIN: Headswe initiated an immediate reboot.
+23-05:ACCESS: Login: Longshoots from 84.45.134.188
+23-05:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-05:ACCESS: Logout: Headswe
+23-05:ACCESS: Logout: OzyTheSage
+23-05:ACCESS: Logout: Beorn080
+23-05:ACCESS: Logout: Matz05
+23-05:ACCESS: Logout: Longshoots
+23-05:ACCESS: Logout: Mono124
+23-05:ACCESS: Logout: Holybond
+23-05:ACCESS: Logout: X2yzh9
+23-05:ACCESS: Logout: SPARTAN-113
+23-05:ACCESS: Logout: MrPumpkinhead
+23-05:ACCESS: Logout: Andrea the second
+23-37:ADMIN: Loading crban_keylist
+23-37:ADMIN: Loading crban_reason
+23-37:ADMIN: Loading crban_time
+23-37:ADMIN: Loading crban_bannedby
+23-37:ADMIN: Loading crban_iplist
+23-37:ADMIN: Loading crban_unbanned
+23-37:ADMIN: Loading crban_ComputerIDs
+23-37:ADMIN: Loading jobban_rank
+23-37:ADMIN: Updating jobbanfile!
+23-37:GAME: Finished building powernets (30 nets)
+23-37:ACCESS: Login: Longshoots from 84.45.134.188
+23-37:ACCESS: Login: Matz05 from 142.179.224.194
+23-37:ACCESS: Login: Headswe from 127.0.0.1
+23-37:ACCESS: Login: X2yzh9 from 75.142.181.4
+23-37:ACCESS: Login: Mono124 from 99.137.45.54
+23-37:ACCESS: Login: Orb370 from 4.154.131.190
+23-37:ACCESS: Login: Holybond from 70.19.82.216
+23-37:ACCESS: Login: Beorn080 from 173.59.74.11
+23-37:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-37:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-37:GAME: Longshoots entered as Likot Bedmountain
+23-37:ACCESS: Logout: X2yzh9
+23-37:GAME: Mono124 entered as Andrew Riley
+23-37:GAME: OzyTheSage entered as Ozymandias Blazelever
+23-37:GAME: Mikey3001 entered as Cody richards
+23-37:VOTE: Voting to change mode started by Andrew Riley/Mono124
+23-37:GAME: Matz05 entered as Urist Noblelever
+23-37:GAME: Holybond entered as Hob White
+23-37:ACCESS: Login: MrPumpkinhead from 70.241.67.64
+23-37:GAME: Headswe entered as Cog Mountaincopper
+23-37:OOC: Cog Swordwall/Orb370 : It for secret?
+23-37:OOC: Likot Bedmountain/Longshoots : Round trip ping-pong took 26 seconds
+23-37:OOC: Cog Mountaincopper/Headswe : Yes it for secret
+23-37:OOC: Cog Swordwall/Orb370 : I got 30, budy.
+23-37:ACCESS: Login: SPARTAN-113 from 72.203.139.193
+23-37:VOTE: Voting closed, result was traitor
+23-37:OOC: Cog Swordwall/Orb370 : ..........
+23-37:OOC: Cog Mountaincopper/Headswe : WELL.
+23-37:ADMIN: Headswe delayed the game.
+23-37:OOC: Urist Noblelever/Matz05 : huh?
+23-37:ADMIN: Voting to change mode forced by admin Headswe
+23-37:GAME: SPARTAN-113 entered as Ender Riley
+23-37:GAME: Orb370 entered as Cog Swordwall
+23-37:OOC: Likot Bedmountain/Longshoots : Ouch
+23-37:OOC: Cog Swordwall/Orb370 : Extended for mass maze?
+23-37:OOC: Cog Swordwall/Orb370 : Nah, its already started
+23-37:OOC: Cog Swordwall/Orb370 : Wont bother
+23-37:ACCESS: Logout: Headswe
+23-37:OOC: Cog Swordwall/Orb370 : Before voting I will say that, anyway.
+23-37:OOC: Cog Swordwall/Orb370 : Someone withdraw their vote?
+23-37:OOC: Andrew Riley/Mono124 : oh god not it
+23-37:OOC: Likot Bedmountain/Longshoots : It for secret
+23-37:OOC: Andrew Riley/Mono124 : it mode sucks
+23-37:OOC: Cog Swordwall/Orb370 : It for secret, doy..
+23-37:OOC: Urist Noblelever/Matz05 : it is secret
+23-37:OOC: Andrew Riley/Mono124 : oh
+23-37:ACCESS: Login: Guest-3942910917 from 65.32.99.146
+23-37:OOC: Andrew Riley/Mono124 : id rather do extended still....
+23-37:OOC: Andrew Riley/Mono124 : a nice round of rp
+23-37:OOC: Cog Swordwall/Orb370 : Vote, finish up, chop chop
+23-37:SAY: Cody richards/Mikey3001 : whats IT?
+23-37:OOC: Ender Riley/SPARTAN-113 : my vote window won&#39;t go away.
+23-37:OOC: Ender Riley/SPARTAN-113 : I can&#39;t even close it.
+23-37:OOC: Likot Bedmountain/Longshoots : Vote has sort of finished. It&#39;s got 5 votes and it won&#39;t end.
+23-37:OOC: Andrew Riley/Mono124 : abort the vote
+23-37:OOC: Andrew Riley/Mono124 : 5 for secret
+23-37:OOC: Andrew Riley/Mono124 : game mode IS secret
+23-37:ADMIN: Voting aborted by Orb370
+23-37:ADMIN: Orb370 set the mode as secret.
+23-37:ADMIN: Orb370 used start_now
+23-37:GAME: starting game of traitor
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: Matz05 from 142.179.224.194
+23-37:ACCESS: They share computer ID's
+23-37:OOC: Andrew Riley/Mono124 : i require moar start
+23-37:OOC: Cog Swordwall/Orb370 : I cant get you any more, really
+23-37:SAY: Ender Riley/SPARTAN-113 : ;Ender Riley, Head of Security, reporting in.
+23-37:SAY: Cody richards/Mikey3001 : Is any one here?
+23-37:SAY: Likot Bedmountain/Longshoots : ;You&#39;re friendly barkeep reporting. Come here for a quick sarnie and a drink!
+23-37:SAY: A.R.M.O.K./Matz05 : ;A.R.M.O.K online.
+23-37:OOC: Likot Bedmountain/Longshoots : AI doesn&#39;t need ; to broadcast a message
+23-37:GAME: Guest-3942910917 entered as Urist McKnight
+23-37:OOC: A.R.M.O.K./Matz05 : reflex
+23-37:OOC: Cog Swordwall/Orb370 : Oh! New laser graphic is actually in, awesome
+23-37:SAY: Cog Swordwall/Orb370 : ; AI, do a quick scan of the station&#39;s hull. Any breaches?
+23-37:OOC: Likot Bedmountain/Longshoots : What do sandwiches actually do?
+23-37:OOC: Cog Swordwall/Orb370 : They are nommy
+23-37:SAY: Hob White/Holybond : Hi.
+23-37:OOC: Likot Bedmountain/Longshoots : Cool
+23-37:SAY: Cog Swordwall/Orb370 : ; Wait, cancel that, align the comm dish
+23-37:SAY: Andrew Riley/Mono124 : Hi
+23-37:SAY: Hob White/Holybond : Hi.
+23-37:SAY: A.R.M.O.K./Matz05 : confirmed
+23-37:ACCESS: Logout: Beorn080
+23-37:SAY: Cog Swordwall/Orb370 : ; Someone starting the engine?
+23-37:SAY: A.R.M.O.K./Matz05 : connected
+23-37:SAY: A.R.M.O.K./Matz05 : negative
+23-37:SAY: Likot Bedmountain/Longshoots : Hello!
+23-37:SAY: Andrew Riley/Mono124 : mm..... sandwhiches
+23-37:SAY: Likot Bedmountain/Longshoots : Would you like a beeer?
+23-37:SAY: Cody richards/Mikey3001 : hey
+23-37:SAY: Likot Bedmountain/Longshoots : Ah, Mr Law! Sandwich?
+23-37:SAY: A.R.M.O.K./Matz05 : oops
+23-37:SAY: A.R.M.O.K./Matz05 : I am miswired
+23-37:SAY: A.R.M.O.K./Matz05 : Uncalling shuttle
+23-37:SAY: Andrew Riley/Mono124 : *sniff
+23-37:SAY: Andrew Riley/Mono124 : Mm.... bread, butter, salami, butter, salami, butter, bread
+23-37:SAY: A.R.M.O.K./Matz05 : Thank you
+23-37:OOC: A.R.M.O.K./Matz05 : misclick
+23-37:OOC: A.R.M.O.K./Matz05 : should be confirmation
+23-37:SAY: Likot Bedmountain/Longshoots : Say
+23-37:SAY: Likot Bedmountain/Longshoots : That&#39;s a new assignment
+23-37:SAY: Likot Bedmountain/Longshoots : Head of Station Welfare?
+23-37:SAY: Andrew Riley/Mono124 : Any more sandwhiches?
+23-37:SAY: Andrew Riley/Mono124 : I get hungry....
+23-37:SAY: Likot Bedmountain/Longshoots : You ate them all
+23-37:SAY: Andrew Riley/Mono124 : Cant you get more?
+23-37:SAY: Likot Bedmountain/Longshoots : I&#39;ll check down at supply
+23-37:MATTACK: Andrew Riley(Mono124) attcked by Andrew Riley(Mono124) with Butter
+23-37:MATTACK: Andrew Riley(Mono124) attcked by Andrew Riley(Mono124) with Butter-knife
+23-37:MATTACK: Andrew Riley(Mono124) attcked by Andrew Riley(Mono124) with Butter-knife
+23-37:SAY: Likot Bedmountain/Longshoots : ;HEY! Supply officer?
+23-37:OOC: A.R.M.O.K./Matz05 : If IDscan is dissabled does the door work for everyone?
+23-37:OOC: Cog Swordwall/Orb370 : Er, I think so
+23-37:OOC: A.R.M.O.K./Matz05 : Thanks
+23-37:OOC: Cog Swordwall/Orb370 : Wait, your talking about wires? I have absolutely no idea on the subject
+23-37:OOC: A.R.M.O.K./Matz05 : AI.
+23-37:OOC: Cog Swordwall/Orb370 : No idea x2
+23-37:OOC: Cog Swordwall/Orb370 : For 10 people, its pretty quite
+23-37:OOC: Cog Swordwall/Orb370 : Quiet* And laggy, at that
+23-37:SAY: Andrew Riley/Mono124 : ;What&#39;s going on with those sandwhiches?
+23-37:SAY: Cog Swordwall/Orb370 : ; ANDREW
+23-37:SAY: Cog Swordwall/Orb370 : ; Why did you throw away that cakehat?
+23-37:SAY: A.R.M.O.K./Matz05 : ;All qualified crew please light engine. Opening doors.
+23-37:SAY: Likot Bedmountain/Longshoots : ;We don&#39;t have a supply officer?
+23-37:SAY: Cog Swordwall/Orb370 : ; I ordered electrical glvoes..
+23-37:OOC: HELP: Andrew Riley/Mono124 : i request sandwhichy goodness at the bar
+23-37:SAY: Likot Bedmountain/Longshoots : ;I have an order to make too
+23-37:OOC: Cog Swordwall/Orb370 : Ahahahaha, I put my ID in the disposal unit
+23-37:OOC: Ender Riley/SPARTAN-113 : no, id scan will not allow anyone to access a door if deactivated
+23-37:OOC: A.R.M.O.K./Matz05 : Thank you
+23-37:SAY: Likot Bedmountain/Longshoots : ;Supply officer?
+23-37:OOC: HELP: Andrew Riley/Mono124 : permission to attempt to get rid of the engine for luls and an rp disaster?
+23-37:SAY: A.R.M.O.K./Matz05 : ;All crew please light engine. doors open.
+23-37:ADMIN: PM: Orb370->Mono124 : No, and no. =/
+23-37:OOC: A.R.M.O.K./Matz05 : oops
+23-37:OOC: A.R.M.O.K./Matz05 : &#34;;&#34; again
+23-37:ADMIN: PM: Mono124->Orb370 : aww this makey me sad
+23-37:ACCESS: Logout: Mikey3001
+23-37:SAY: Likot Bedmountain/Longshoots : ;AI?
+23-37:SAY: A.R.M.O.K./Matz05 : yes?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Can you check to make sure the supply officer hasn&#39;t fallen asleep
+23-37:SAY: A.R.M.O.K./Matz05 : rager
+23-37:SAY: A.R.M.O.K./Matz05 : roger
+23-37:SAY: A.R.M.O.K./Matz05 : no supply offiser found
+23-37:SAY: Likot Bedmountain/Longshoots : ;Ah
+23-37:ACCESS: Login: Mikey3001 from 66.239.213.147
+23-37:SAY: Likot Bedmountain/Longshoots : ;Nevermind then.
+23-37:SAY: A.R.M.O.K./Matz05 : Reccomend assigning one once engine is lit
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : i was the supply officer the last few rounds, but with no working supply shit it&#39;s kinda pointless =(
+23-37:MATTACK: Cody richards(Mikey3001) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:SAY: Ender Riley/SPARTAN-113 : ;All crew, this is your Head of Security. Report to Security HQ for biometric scans.
+23-37:OOC: Cog Swordwall/Orb370 : Hmm, whoever the bad guys are, Adminhelp
+23-37:SAY: A.R.M.O.K./Matz05 : Please light the engine. I cannot make it any easier for you.
+23-37:SAY: Likot Bedmountain/Longshoots : ;I thought Andrew was the HoS?
+23-37:OOC: HELP: A.R.M.O.K./Matz05 : me
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : What happened to you?
+23-37:SAY: Ender Riley/SPARTAN-113 : ;No, I am.
+23-37:SAY: Cody richards/Mikey3001 : help me
+23-37:OOC: HELP: A.R.M.O.K./Matz05 : Your friendly, merderous AI
+23-37:ADMIN: PM: Orb370->Matz05 : Traitor AI? Oh god...
+23-37:SAY: Likot Bedmountain/Longshoots : ;AI, keep the doors open, and walk me through it. Since no-one else is going to.
+23-37:SAY: Ender Riley/SPARTAN-113 : How&#39;d you get in here?
+23-37:ADMIN: PM: Orb370->Matz05 : Start killing people already. XD
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Hold still
+23-37:SAY: Likot Bedmountain/Longshoots : ;Okay, AI, what&#39;s the first step?
+23-37:SAY: A.R.M.O.K./Matz05 : It would be easier with more people
+23-37:SAY: Andrew Riley/Mono124 : There is this contraption called a door..... I used the door.
+23-37:SAY: Ender Riley/SPARTAN-113 : Remove gloves please.
+23-37:SAY: A.R.M.O.K./Matz05 : go up
+23-37:SAY: Ender Riley/SPARTAN-113 : Thank you.
+23-37:SAY: A.R.M.O.K./Matz05 : use wrench on vats
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : That should do it
+23-37:SAY: A.R.M.O.K./Matz05 : all of them
+23-37:SAY: Likot Bedmountain/Longshoots : Done
+23-37:SAY: A.R.M.O.K./Matz05 :  Somone else set batteries
+23-37:SAY: Cody richards/Mikey3001 : doc what about my clothes? what do i do with them bloody?
+23-37:SAY: A.R.M.O.K./Matz05 : Are all vats open?
+23-37:SAY: Likot Bedmountain/Longshoots : ;What&#39;s up with Andrew Riley?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Yes.
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : If we have a custodian he could wash them for you...
+23-37:SAY: Likot Bedmountain/Longshoots : ;And yes
+23-37:SAY: Cody richards/Mikey3001 : ok get him
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : and that reminds me, I was the custodian a few times but nothing ever happened soo =p
+23-37:SAY: A.R.M.O.K./Matz05 : CO2 connected?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Why is he Head of Station Welfare?
+23-37:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : ;Do we have a janitor on board?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Why is he head of station welfare?
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : were you attacked?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Is that even a job?
+23-37:SAY: A.R.M.O.K./Matz05 : Set batteries.
+23-37:SAY: A.R.M.O.K./Matz05 : Who knows how?
+23-37:SAY: Cody richards/Mikey3001 : na i accidently hit myself
+23-37:OOC: Cog Swordwall/Orb370 : Oh god, all I want to do is create an object, make one already..
+23-37:SAY: Likot Bedmountain/Longshoots : ;What settings should the batteries have?
+23-37:SAY: A.R.M.O.K./Matz05 : open igniter door,.
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Fell down then?
+23-37:ADMIN: Orb370 created 4ea /obj/item/weapon/food/salami
+23-37:SAY: A.R.M.O.K./Matz05 : wait
+23-37:SAY: A.R.M.O.K./Matz05 : not all vats open
+23-37:SAY: Cody richards/Mikey3001 : thats more like it
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : must have been a nasty fall
+23-37:SAY: Andrew Riley/Mono124 : ;THEY ARE ALL OPEN
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : this ship needs more carpeting to precent that kind of thing from happening
+23-37:SAY: Cody richards/Mikey3001 : indeed it was
+23-37:SAY: A.R.M.O.K./Matz05 : OK
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : and grey walls and floors get so dull..
+23-37:ACCESS: Login: Zylwan from 195.49.240.190
+23-37:SAY: A.R.M.O.K./Matz05 : please connect extra plasma and O2
+23-37:OOC: Cog Swordwall/Orb370 : Ping pong of 33, and im not doing anything? You got to be kidding me.
+23-37:OOC: Likot Bedmountain/Longshoots : Oy, this lag annoyeth me
+23-37:OOC: Andrew Riley/Mono124 : i have .25
+23-37:OOC: Andrew Riley/Mono124 : spikes to 3 though
+23-37:GAME: Mr.Peanuts entered as Flaboogle McVomit
+23-37:OOC: HELP: A.R.M.O.K./Matz05 : Whats that Rwall doin there?
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : here maybe the medical records will sya if we actually havea  janitor
+23-37:OOC: Andrew Riley/Mono124 : 30*
+23-37:OOC: Likot Bedmountain/Longshoots : I&#39;ve got about 25-average
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; Can someone come to arrivial for a job?
+23-37:OOC: HELP: A.R.M.O.K./Matz05 : I cant kill with the engine!
+23-37:SAY: Cody richards/Mikey3001 : so about my clothes
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; I have many problmes come from station 11
+23-37:ACCESS: Logout: MrPumpkinhead
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; they send me here to be friends with WHOOOOAL KREW!
+23-37:ADMIN: PM: Orb370->Matz05 : R-wall? Wuts? Eh. 
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; I HAB SEIZURES TUZ!
+23-37:ADMIN: PM: Orb370->Matz05 : Just figure out a way, I know you can do it
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : he had a nasty spill..
+23-37:GAME: Zylwan entered as Cerol Levercarp
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Huh, he&#39;s gone
+23-37:ADMIN: Orb370 created 4ea /obj/item/weapon/food/bread
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; YAY! WE ALL FALL DOWN! SEIZURES FUN!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : HERRO
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : I HAVE FUN TIME HERE
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : LIKE STATION 12
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Are you alright?
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : better than station 11
+23-37:SAY: Likot Bedmountain/Longshoots : ;AI, the batteries still aren&#39;t set up
+23-37:OOC: Cog Swordwall/Orb370 : You can now make modular sandwhiches in the bar. YAY SANDWHICHES
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : NAO
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : I have problems
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : cant see with out glasses
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Stay here
+23-37:OOC: HELP: Andrew Riley/Mono124 : engine is only making 367 watts?
+23-37:SAY: A.R.M.O.K./Matz05 : please set them up
+23-37:OOC: HELP: Andrew Riley/Mono124 : it is set up correctly as well
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; YAY SEIZURES!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; SEIZURES FUN
+23-37:SAY: Likot Bedmountain/Longshoots : Aren&#39;t you connected to them? Can&#39;t you set them up?
+23-37:ADMIN: PM: Orb370->Mono124 : Sigh, im lagging to death, looking at it would be a pain....er, you did set the c02 to max outflow, right?
+23-37:SAY: Likot Bedmountain/Longshoots : ;Aren&#39;t you connected to them? Can&#39;t you set them up?
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; I CAN&#39;T SEE!
+23-37:ADMIN: PM: Mono124->Orb370 : aye
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : wow the lag
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : CANT SEE
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : CANT SEE
+23-37:OOC: Cog Swordwall/Orb370 : Yes, yes, and yes
+23-37:OOC: Cog Swordwall/Orb370 : Ive pretty much just stopped playing
+23-37:ACCESS: Login: Randomonioum from 81.98.16.10
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : Maybe rping with EVERY disability from the start was bad
+23-37:SAY: A.R.M.O.K./Matz05 : Betteries ready
+23-37:OOC: Andrew Riley/Mono124 : ok... generator glitcjh
+23-37:ADMIN: PM: Orb370->Mono124 : Check the temps, cold loop cold, and hot loop hot?
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : HI!
+23-37:OOC: Andrew Riley/Mono124 : only making 357 watts.....
+23-37:OOC: Likot Bedmountain/Longshoots : I&#39;m attempting to, but not doing well
+23-37:OOC: Likot Bedmountain/Longshoots : That was an answer to Orb, btw
+23-37:OOC: HELP: Andrew Riley/Mono124 : cold loop is cold, hot is really hot
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : HI I AM FROM STATION 11! I COME HERE TO BE FRIENDS WIF EVERYON!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : YAY!
+23-37:OOC: Cog Swordwall/Orb370 : Sigh
+23-37:OOC: Cog Swordwall/Orb370 : Only answer is C02
+23-37:OOC: Andrew Riley/Mono124 : its set up though....
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : *hug Ozymandis
+23-37:OOC: Cog Swordwall/Orb370 : And, the AI could be messing it up, it does have access.
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : *hug
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Here, take some of these
+23-37:OOC: Rando M. Onioum/Randomonioum : What up
+23-37:OOC: Andrew Riley/Mono124 : nope im checking
+23-37:OOC: Cog Swordwall/Orb370 : No c02 flowing into the pipes, ect.
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : *hug
+23-37:OOC: Andrew Riley/Mono124 : genny itself is 357 watts
+23-37:OOC: Cog Swordwall/Orb370 : Check the c02 content in the room
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : AHH!
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Hold still
+23-37:OOC: Cog Swordwall/Orb370 : Sigh, I would teleport there, but it be unRPlike
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : NOOO!
+23-37:ACCESS: Logout: Mikey3001
+23-37:OOC: Andrew Riley/Mono124 : both are set up at max vent
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : i&#39;m going to give you some cough syrum
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : *hug
+23-37:OOC: Andrew Riley/Mono124 : engine is 4k degrees hot
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: Randomonioum from 81.98.16.10
+23-37:OOC: Andrew Riley/Mono124 : co2 in pipes
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : AWIOGF
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) clicked on Flaboogle McVomit(Mr.Peanuts) with a syringe
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) injected Flaboogle McVomit(Mr.Peanuts) with a syringe filled with 
+23-37:OOC: Andrew Riley/Mono124 : inlet for cold is 187 outlet is 2k
+23-37:SAY: Likot Bedmountain/Longshoots : ;SOMEONE SPIKED MY BEEEEEEEER
+23-37:OOC: Andrew Riley/Mono124 : hot is inlet 2k out 2k
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : seizures and shit WHOO!
+23-37:ADMIN: Orb370 jumped to Bridge
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : BLUE CANDY!
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : aww blue candy go bye bye
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : heh
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : WHERE BLUE CANDY GO?
+23-37:OOC: Cog Swordwall/Orb370 : XD
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : YUM
+23-37:OOC: Rando M. Onioum/Randomonioum : Dude, what are you smoking
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : BLUE CANDY GOOD
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Hmmm
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : Nothing
+23-37:OOC: Likot Bedmountain/Longshoots : He did say earlier if he went AFK, it was cos he passed out
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : It&#39;s IC
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Alright, let me grab something for that.... twitching
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : I&#39;m sick but the blue candy thing is from IC
+23-37:OOC: Cog Swordwall/Orb370 : Oh god, I cant help you mono, I can barely do anything
+23-37:OOC: Rando M. Onioum/Randomonioum : Right. Glag I know that now.
+23-37:SAY: Andrew Riley/Mono124 : ;A.I. close the Engine Combustion Chamber Security door.
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : I am Rping a mentaly retarded guy with every disability on the starting list
+23-37:SAY: Likot Bedmountain/Longshoots : This man needs beer
+23-37:OOC: Cog Swordwall/Orb370 : No c02 in the engine
+23-37:OOC: Cog Swordwall/Orb370 : Doy.
+23-37:OOC: Rando M. Onioum/Randomonioum : lol
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : It&#39;s fun trying to stay alive long enough to take my meds
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : everyday is an adventure
+23-37:ACCESS: Login: Romero55 from 66.239.213.147
+23-37:ACCESS: Notice: Romero55 has same IP address as Mikey3001 did (Mikey3001 is no longer logged in).
+23-37:ACCESS: They share computer ID's
+23-37:OOC: Cog Swordwall/Orb370 : 5.54 C02? Doy..
+23-37:SAY: Likot Bedmountain/Longshoots : Beer?
+23-37:SAY: Cerol Levercarp/Zylwan : Are you alright sir?
+23-37:SAY: Andrew Riley/Mono124 : we have no power
+23-37:SAY: Likot Bedmountain/Longshoots : Beer makes it alll better
+23-37:OOC: Cog Swordwall/Orb370 : It IS increasing slowly.
+23-37:SAY: Likot Bedmountain/Longshoots : YOU!
+23-37:OOC: Andrew Riley/Mono124 : yeah, it does that
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : Just wait until I get captain with this guy
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : here, some green candy
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : GREEN!
+23-37:OOC: Rando M. Onioum/Randomonioum : Dear lord
+23-37:SAY: Likot Bedmountain/Longshoots : I know you spiked me beer!
+23-37:OOC: Rando M. Onioum/Randomonioum : Give him some orange candy
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : God these meds and seizures are fun
+23-37:GAME: Romero55 entered as Andrew Romero
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : I can
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : can&#39;t wait until this character gets captain
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : heh
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : gah
+23-37:SAY: Likot Bedmountain/Longshoots : Hey, you put a sleepin pill in me beer!
+23-37:OOC: Cog Swordwall/Orb370 : Ok, I can barely stand it anymore
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : Captain, *Interupted* &#34; PRETTY ZAP ZAP GO BZZ!&#34;
+23-37:OOC: Cog Swordwall/Orb370 : Im going to play some nonlaggy SC2
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : it&#39;s impossible to click the 1 pixel things in the &#39;select attack area&#39;
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) clicked on Flaboogle McVomit(Mr.Peanuts) with a pill
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) forced Flaboogle McVomit(Mr.Peanuts) to swallow green pill
+23-37:OOC: Cog Swordwall/Orb370 : Not impossible ,just hard
+23-37:SAY: Cerol Levercarp/Zylwan : Testing.
+23-37:SAY: Andrew Riley/Mono124 : ;All crew, the engine is broken
+23-37:OOC: Likot Bedmountain/Longshoots : I always find it harder to select the head
+23-37:SAY: Andrew Riley/Mono124 : ;Call the emergency shuttle
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : HAPPY BIRTHDAY!
+23-37:SAY: Andrew Riley/Mono124 : ;The engine is broke
+23-37:OOC: Cog Swordwall/Orb370 : Anyway, just take my spare captain&#39;s ID in the bridge
+23-37:SAY: Likot Bedmountain/Longshoots : Drink this
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : TAKE A RIDE ON THE TRAIN!
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : Now what are you talking about?
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : FLYING MAH ROCKET SHIP  TO THE MOON!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : WHOO!
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : orb can I be captain?
+23-37:SAY: Likot Bedmountain/Longshoots : It has enough sleeping pills in it to knock out a horse
+23-37:SAY: Cog Swordwall/Orb370 : ; I am resigning, going into a coma, or whatever reason. Get my spare ID on the bridge to make yourself captain
+23-37:OOC: Cog Swordwall/Orb370 : Sigh, I will teleport you..
+23-37:SAY: Ender Riley/SPARTAN-113 : ;Hob White.
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : I might not even make it across the courtroom though
+23-37:OOC: Cog Swordwall/Orb370 : Andrew&#39;s already got it
+23-37:OOC: Cog Swordwall/Orb370 : =/
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : heh oh well
+23-37:SAY: Likot Bedmountain/Longshoots : (Lag &gt;.&lt;)
+23-37:OOC: Likot Bedmountain/Longshoots : Screw this, the lag&#39;s not worth it
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : What the...
+23-37:OOC: Rando M. Onioum/Randomonioum : I AINT SEE NO LAG
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Likot Bedmountain(Longshoots) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Likot Bedmountain(Longshoots) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Likot Bedmountain(Longshoots) with intent on harm
+23-37:ACCESS: Logout: Longshoots
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Likot Bedmountain(Longshoots) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Likot Bedmountain(Longshoots) with intent on harm
+23-37:SAY: Cog Swordwall/Orb370 : Why!?
+23-37:SAY: Ender Riley/SPARTAN-113 : ;I require superpowers. Now use your mighty magical science, and give me some.
+23-37:SAY: Andrew Riley/Mono124 : Its.... broken
+23-37:SAY: Andrew Riley/Mono124 : Horribly
+23-37:SAY: Andrew Riley/Mono124 : It may explode any second
+23-37:SAY: A.R.M.O.K./Matz05 : Please do not eject engine
+23-37:SAY: Ender Riley/SPARTAN-113 : ;ABORT!
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : Gotta stay awake long enough to get to shuttle bay
+23-37:SAY: Cog Swordwall/Orb370 : People may be on THREE
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) attcked by Likot Bedmountain(Longshoots) with Sterile Mask
+23-37:MATTACK: Ozymandias Blazelever(OzyTheSage) attcked by Likot Bedmountain(Longshoots) with Sterile Mask
+23-37:SAY: Ender Riley/SPARTAN-113 : ;RESET COUNTDOWN!
+23-37:OOC: Andrew Riley/Mono124 : damn you orb
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : god damn lag grrr anger sadface
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; OHH PRETTY!
+23-37:OOC: Cog Swordwall/Orb370 : Im laggy, and I still got you.
+23-37:OOC: Cog Swordwall/Orb370 : XD
+23-37:SAY: A.R.M.O.K./Matz05 : Violence detected in Bridge
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; PRETTY ESCAPE PODS!
+23-37:ADMIN: PM: Randomonioum->Matz05 : You know, if  the engine is ejected, they are more likely to evacuate.
+23-37:OOC: Andrew Riley/Mono124 : i wasnt expecting you to tase me
+23-37:OOC: Andrew Riley/Mono124 : and besides, nobody CAN BE ON THE ENGINE
+23-37:ADMIN: PM: Matz05->Randomonioum : true
+23-37:OOC: Cog Swordwall/Orb370 : Lies
+23-37:OOC: Andrew Riley/Mono124 : you can leave it anyway, so nobody would be stranded
+23-37:OOC: Cog Swordwall/Orb370 : You can be on the engine
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : ;The barman has died after suffocating himself...
+23-37:SAY: Andrew Riley/Mono124 : Damnit
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; NUT TRU
+23-37:SAY: Andrew Riley/Mono124 : The engine has to be ejected IT WILL KILL US ALL IF IT ISNT
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; DOCTOR MAN HIT HIM WITH STUFF!
+23-37:SAY: Andrew Riley/Mono124 : IVE SEEN IT IT HAS BECOME A GIANT BOMB
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; I SAWDID
+23-37:SAY: Andrew Riley/Mono124 : EJECT IT BEFORE WE ALL DIE
+23-37:SAY: Andrew Riley/Mono124 : ;IF THE ENGINE ISNT EJECTED IT WILL EXPLODE!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; EXPLOSIONS!
+23-37:SAY: Cog Swordwall/Orb370 : Take care of this crazy man. He had no authorization.
+23-37:ACCESS: Logout: Randomonioum
+23-37:SAY: Andrew Riley/Mono124 : I DO!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; CAN I BE IT&#34;S FRIEND
+23-37:SAY: Andrew Riley/Mono124 : I AM HEAD OF WELLFARE
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : WILLY OU BE ME FRIEND!
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : I LIKE YOU!
+23-37:SAY: Andrew Riley/Mono124 : I AM SUPPOSED TO KEEP THIS STATION FUCKING INTACT
+23-37:ACCESS: Login: Randomonioum from 81.98.16.10
+23-37:SAY: A.R.M.O.K./Matz05 : Eject engine!
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : Hey!
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : Don&#39;t talk like that!
+23-37:SAY: Cog Swordwall/Orb370 : Anyway, im resigning, by.
+23-37:SAY: A.R.M.O.K./Matz05 : Explosions are harmful!
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO IMMEDIATLY
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : YOU ARE A JERK!
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:SAY: Urist McKnight/Zylwan : You should reutnr
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:OOC: Rando M. Onioum/Randomonioum : Chalk up another for the sig list
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : GO AWAY!
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : THIS MAN IS ABIG MEANIE HEAD!
+23-37:OOC: Andrew Riley/Mono124 : what?
+23-37:OOC: Rando M. Onioum/Randomonioum : A.R.M.O.K.- [145.9]-broadcasts: Explosions are harmful!
+23-37:OOC: Cog Swordwall/Orb370 : What? XD
+23-37:MATTACK: Andrew Romero(Romero55) clicked on Cody richards(Mikey3001) with intent on harm
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) attcked by Cerol Levercarp(Zylwan) with the oxygentank
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:OOC: Rando M. Onioum/Randomonioum : Exactly!
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Andrew Romero(Romero55) clicked on Cody richards(Mikey3001) with intent on harm
+23-37:OOC: A.R.M.O.K./Matz05 : Thank you, Thank you!
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Cerol Levercarp(Zylwan) attcked by Flaboogle McVomit(Mr.Peanuts) with the wirecutters
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) clicked on Cerol Levercarp(Zylwan) with intent on harm
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO!
+23-37:OOC: Rando M. Onioum/Randomonioum : IT IS IMPORTANT THAT PEOPLE KNOW THIS
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; THIS GUY IS A MEANIE HEAD!
+23-37:MATTACK: Flaboogle McVomit(Mr.Peanuts) attcked by Cerol Levercarp(Zylwan) with the oxygentank
+23-37:SAY: Andrew Riley/Mono124 : I AM HEAD OF WELLFARE I AM YOUR SUPERIOR
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : ; HE TRIED TO KILL ME
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO DAMN YOU
+23-37:SAY: Andrew Riley/Mono124 : I DID NOTHING
+23-37:SAY: A.R.M.O.K./Matz05 : Engine still not ejected
+23-37:OOC: Cog Swordwall/Orb370 : Now, to my cap&#39;s quarters, where I will play SC2!
+23-37:SAY: Andrew Riley/Mono124 : I HAVE MORE ACCESS THAN YOU
+23-37:OOC: Cog Swordwall/Orb370 : By by.
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO NOW
+23-37:SAY: Andrew Riley/Mono124 : HELP
+23-37:OOC: Cog Swordwall/Orb370 : Bye bye* Maybe..
+23-37:ACCESS: Login: Qoz from 98.221.32.187
+23-37:SAY: Andrew Riley/Mono124 : THIS IS UNLAWFUL
+23-37:SAY: Andrew Riley/Mono124 : LET ME GO
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : THIS MAN MEANIE HEAD!
+23-37:OOC: Urist McKnight/Zylwan : hush you.
+23-37:SAY: Flaboogle McVomit/Mr.Peanuts : HE TRIED TO KILL ME
+23-37:SAY: Andrew Riley/Mono124 : I DESERVE A TRIAL AT LEAST DAMN YOU
+23-37:OOC: Cog Swordwall/Orb370 : =/
+23-37:OOC: Cog Swordwall/Orb370 : &#34;disapears&#34;
+23-37:ACCESS: Logout: Orb370
+23-37:SAY: Ender Riley/SPARTAN-113 : ;AI, scan the atnmosphere of the holding cells!
+23-37:OOC: Uristina Arrowmaker/Qoz : Oi! Alternate bs12?
+23-37:GAME: Qoz entered as Uristina Arrowmaker
+23-37:SAY: Ozymandias Blazelever/OzyTheSage : ;HOLY SHIT
+23-37:SAY: A.R.M.O.K./Matz05 : Urist Mcknight found in escape area
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : This will teach em
+23-37:OOC: Uristina Arrowmaker/Qoz : Now with ladders? :D
+23-37:SAY: A.R.M.O.K./Matz05 : more  people
+23-37:OOC: Flaboogle McVomit/Mr.Peanuts : being mean to a mentaly retarded person is a crime
+23-37:SAY: Andrew Riley/Mono124 : ;HELP
+23-37:SAY: Andrew Riley/Mono124 : ;HELP ME
+23-37:SAY: Andrew Riley/Mono124 : ;i HELP
+23-37:OOC: Uristina Arrowmaker/Qoz : Being mean to anyone is a crime!
+23-37:SAY: A.R.M.O.K./Matz05 : People are spacing themselves and others
+23-37:ACCESS: Logout: Randomonioum
+23-37:OOC: Andrew Riley/Mono124 : not giving someone a trial is a crime
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : FUUUCKING LAG
+23-37:SAY: Ender Riley/SPARTAN-113 : ;A.R.M.O.K., what is the atmospherical status of the brig?
+23-37:OOC: Andrew Riley/Mono124 : arresting someone doing there job is a crime
+23-37:ACCESS: Login: Ceojac from 24.20.178.177
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : my guy ran out of an airlock beckause he didn&#39;t want to fstop FUCKING RUNNING
+23-37:OOC: Uristina Arrowmaker/Qoz : Augh, this the lag is as bad as the server that gets updated alot :o
+23-37:OOC: Andrew Riley/Mono124 : *glares at orb*
+23-37:OOC: Ozymandias Blazelever/OzyTheSage : Grrrrrrrrrrrrrrrrrrrrrrrrrrr
+23-37:GAME: Ceojac entered as Cliff Medovich
+23-37:ACCESS: Logout: Qoz
+23-37:SAY: Ender Riley/SPARTAN-113 : ;AI?
+23-37:OOC: Unknown/OzyTheSage : Pisses me off
+23-37:SAY: A.R.M.O.K./Matz05 : yes?
+23-37:ACCESS: Logout: Mr.Peanuts
+23-37:SAY: Ender Riley/SPARTAN-113 : ;Answer my previous query.
+23-37:SAY: Ender Riley/SPARTAN-113 : As for you, you will be given a trial.
+23-37:ACCESS: Login: Pupatron3000 from 115.64.72.167
+23-37:SAY: A.R.M.O.K./Matz05 : Results:#Air Pressure: 52.3504%#Nitrogen: 79 Oxygen: 20.998 Plasma: 0 CO2: 0.002 NO2: 0#Temperature: 19.8651
+23-37:ACCESS: Login: Headswe from 127.0.0.1
+23-37:SAY: Ender Riley/SPARTAN-113 : ...Wait.
+23-37:SAY: A.R.M.O.K./Matz05 : Dock sabatoged
+23-37:GAME: Pupatron3000 entered as Nick
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:SAY: Ender Riley/SPARTAN-113 : What did you do, anyhow?
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:OOC: Cog Mountaincopper/Headswe : Hnn
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:OOC: Cog Mountaincopper/Headswe : Hmmm
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:MATTACK: Andrew Romero(Romero55) attcked by Cody richards(Mikey3001) with the oxygentank
+23-37:OOC: Ozymandias Blazelever/Zylwan : hej head
+23-37:SAY: A.R.M.O.K./Matz05 : doors closed now
+23-37:OOC: Cog Mountaincopper/Headswe : tjena zylwan
+23-37:OOC: Cog Mountaincopper/Headswe : vad händer?
+23-37:OOC: Ozymandias Blazelever/Zylwan : Uppenbarligen dör ;D
+23-37:SAY: A.R.M.O.K./Matz05 : Reccomend cheking for theft.
+23-37:OOC: Cog Mountaincopper/Headswe : lessmant.
+23-37:OOC: Ozymandias Blazelever/Zylwan : Mycket. cold is a bitch.
+23-37:OOC: Cog Mountaincopper/Headswe : True.
+23-37:SAY: Andrew Riley/Mono124 : Eject the engine
+23-37:SAY: Ender Riley/SPARTAN-113 : Well? The right to remain silent may not help you right now...
+23-37:OOC: Cog Mountaincopper/Headswe : brb smoke
+23-37:OOC: Cog Mountaincopper/Headswe : XD
+23-37:SAY: Andrew Riley/Mono124 : It is unstable
+23-37:OOC: Ozymandias Blazelever/Zylwan : brb lan
+23-37:ACCESS: Logout: Zylwan
+23-37:ACCESS: Login: Player181 from 91.49.88.246
+23-37:SAY: Andrew Riley/Mono124 : and I have the authority to do so
+23-37:SAY: Andrew Riley/Mono124 : I am HoSW
+23-37:SAY: Ender Riley/SPARTAN-113 : Oh. Well, you just confessed to your crime.
+23-37:GAME: Player181 entered as Tholig Forgesteel
+23-37:SAY: Andrew Riley/Mono124 : It wasnt a crime
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-37:ACCESS: They share computer ID's
+23-37:SAY: Ender Riley/SPARTAN-113 : ...
+23-37:SAY: Andrew Riley/Mono124 : I demand to be let go. I had the authority to eject it
+23-37:SAY: Ender Riley/SPARTAN-113 : You want to get on the shuttle or not?
+23-37:SAY: Andrew Riley/Mono124 : I will go on my own free will
+23-37:MATTACK: Tholig Forgesteel(Player181) attcked by Tholig Forgesteel(Player181) with Fire Extinguisher
+23-37:SAY: Andrew Riley/Mono124 : Now uncuff me
+23-37:SAY: Andrew Riley/Mono124 : and let me get my card
+23-37:MATTACK: Tholig Forgesteel(Player181) attcked by Tholig Forgesteel(Player181) with Fire Extinguisher
+23-37:SAY: Andrew Riley/Mono124 : UNCUFF ME
+23-37:SAY: Andrew Riley/Mono124 : YOU BITCH
+23-37:SAY: Andrew Riley/Mono124 : YOU WILL LOSE YOUR JOB OVER THIS
+23-37:SAY: Andrew Riley/Mono124 : oh fuck....
+23-37:SAY: Ender Riley/SPARTAN-113 : Uhoh.
+23-37:SAY: Andrew Riley/Mono124 : did the a.i. bolt it?
+23-37:SAY: Andrew Riley/Mono124 : i had my suspicions after the engine.....
+23-37:SAY: Ender Riley/SPARTAN-113 : ;AI, why won&#39;t Security HQ open?
+23-37:MATTACK: Tholig Forgesteel(Player181) attcked by Tholig Forgesteel(Player181) with Fire Extinguisher
+23-37:SAY: Andrew Riley/Mono124 : he has gone rouge.
+23-37:SAY: Andrew Riley/Mono124 : its the only answer
+23-37:SAY: A.R.M.O.K./Matz05 : bolted
+23-37:SAY: Andrew Riley/Mono124 : let me try to open it
+23-37:SAY: Andrew Riley/Mono124 : its probably electrified
+23-37:SAY: A.R.M.O.K./Matz05 : Shal I raise?
+23-37:SAY: Tholig Forgesteel/Player181 : help
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: Pupatron3000 from 115.64.72.167
+23-37:ACCESS: They share computer ID's
+23-37:SAY: Andrew Riley/Mono124 : nope.... break a window
+23-37:SAY: Ender Riley/SPARTAN-113 : ;Yes.
+23-37:SAY: Ghost/OzyTheSage : Lol, they moved my ID to some other guy
+23-37:SAY: Tholig Forgesteel/Player181 : help
+23-37:SAY: Andrew Riley/Mono124 : or not
+23-37:SAY: Tholig Forgesteel/Player181 : i dead
+23-37:SAY: Andrew Riley/Mono124 : let me get my stuff
+23-37:SAY: Andrew Riley/Mono124 : fuck no time
+23-37:SAY: Tholig Forgesteel/Player181 : help me i dead
+23-37:SAY: Tholig Forgesteel/Player181 : i have 
+23-37:OOC: Andrew Riley/Mono124 : what the fuck?
+23-37:SAY: Tholig Forgesteel/Player181 : help em
+23-37:OOC: Andrew Riley/Mono124 : damn glitches
+23-37:SAY: Tholig Forgesteel/Player181 : my hearth is critik
+23-37:OOC: Ender Riley/SPARTAN-113 : CO2 -_-
+23-37:OOC: Andrew Riley/Mono124 : no, cold glitch
+23-37:OOC: Andrew Riley/Mono124 : see temp?
+23-37:OOC: Ender Riley/SPARTAN-113 : oh
+23-37:OOC: Andrew Riley/Mono124 : and your not suffocating
+23-37:OOC: Andrew Riley/Mono124 : its below true zero
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: Ceojac from 24.20.178.177
+23-37:ACCESS: They share computer ID's
+23-37:ACCESS: Logout: 
+23-37:ACCESS: Login: Mono124 from 99.137.45.54
+23-37:ACCESS: They share computer ID's
+23-37:OOC: Nick/Pupatron3000 : ya
+23-37:OOC: Andrew Riley/Mono124 : fucking glitches
+23-37:OOC: Nick/Pupatron3000 : and rto solve the problem, jump into the radiator
+23-37:SAY: Tholig Forgesteel/Player181 : help me my hearth si critik
+23-37:ACCESS: Logout: Player181
+23-37:OOC: Andrew Riley/Mono124 : owned
+23-37:OOC: A.R.M.O.K./Matz05 : Aww...
+23-37:SAY: A.R.M.O.K./Matz05 : ;Station needs propper engine doors
+23-37:GAME: Rebooting due to end of game
+23-37:ACCESS: Logout: Pupatron3000
+23-37:ACCESS: Logout: Guest-3942910917
+23-37:ACCESS: Logout: Ceojac
+23-37:ACCESS: Logout: Romero55
+23-37:ACCESS: Logout: Matz05
+23-37:ACCESS: Logout: Mono124
+23-37:ACCESS: Logout: Holybond
+23-37:ACCESS: Logout: OzyTheSage
+23-37:ACCESS: Logout: SPARTAN-113
+23-37:ACCESS: Logout: Headswe
