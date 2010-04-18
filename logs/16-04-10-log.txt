@@ -7116,3 +7116,3041 @@ Y/N?
 17-45:ADMIN: Topkasa used start_now
 17-45:GAME: starting game of extended
 17-45:ACCESS: Logout: Topkasa
+21-25:ADMIN: Loading crban_keylist
+21-25:ADMIN: Loading crban_reason
+21-25:ADMIN: Loading crban_time
+21-25:ADMIN: Loading crban_bannedby
+21-25:ADMIN: Loading crban_iplist
+21-25:ADMIN: Loading crban_unbanned
+21-25:ADMIN: Loading crban_ComputerIDs
+21-25:ADMIN: Loading jobban_rank
+21-25:ADMIN: Updating jobbanfile!
+21-25:GAME: Finished building powernets (30 nets)
+21-25:ACCESS: Login: OzyTheSage from 98.118.48.126
+21-25:ACCESS: Login: Adhesive from 71.38.129.154
+21-25:ACCESS: Failed Login: Adhesive Reason: Cookie Banned
+21-25:ACCESS: Logout: Adhesive
+21-25:ACCESS: Login: Bluephoenix222 from 123.211.225.187
+21-25:GAME: OzyTheSage entered as Ozymandias Blazelever
+21-25:ACCESS: Login: Mono124 from 99.137.45.54
+21-25:OOC: Kumil Makermicrocline/Mono124 : sigh
+21-25:GAME: Bluephoenix222 entered as George Fisher
+21-25:OOC: Kumil Makermicrocline/Mono124 : i dont really get why they wanted to ban me
+21-25:ACCESS: Login: Dervin366 from 24.154.218.115
+21-25:GAME: Dervin366 entered as Oddum Rocknoble
+21-25:OOC: George Fisher/Bluephoenix222 : you were spamming flashes
+21-25:OOC: Kumil Makermicrocline/Mono124 : i used a feature so i could take out a room of hostiles without getting owned, cause all of em had tasers
+21-25:OOC: Kumil Makermicrocline/Mono124 : i didnt spam
+21-25:OOC: George Fisher/Bluephoenix222 : flashbangs rather
+21-25:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+21-25:OOC: Kumil Makermicrocline/Mono124 : i used as many as i needed to incap them all
+21-25:OOC: George Fisher/Bluephoenix222 : hmm
+21-25:OOC: Kumil Makermicrocline/Mono124 : would YOU flashbang a room and walk in with half of the hostiles still standing?
+21-25:OOC: George Fisher/Bluephoenix222 : i think orb overreacted
+21-25:GAME: ZCHRIS13 entered as Urist Bronzedriven
+21-25:VOTE: Voting to change mode started by Urist Bronzedriven/ZCHRIS13
+21-25:OOC: George Fisher/Bluephoenix222 : you are right
+21-25:OOC: Kumil Makermicrocline/Mono124 : i used total, one box
+21-25:OOC: George Fisher/Bluephoenix222 : i saw that
+21-25:GAME: starting game of extended
+21-25:SAY: Oddum Rocknoble/Dervin366 : ;Hello everyone.
+21-25:SAY: Urist Bronzedriven/ZCHRIS13 : ; This is your captain
+21-25:ACCESS: Login: Topkasa from 127.0.0.1
+21-25:GAME: Mono124 entered as Kumil Makermicrocline
+21-25:OOC: Desmond Taggart/Topkasa : hey guys
+21-25:SAY: Urist Bronzedriven/ZCHRIS13 : ;Everyone, please report to the bar
+21-25:OOC: Kumil Makermicrocline/Mono124 : hey top
+21-25:OOC: Desmond Taggart/Topkasa : don&#39;t use the dump map options
+21-25:OOC: George Fisher/Bluephoenix222 : hi
+21-25:OOC: Oddum Rocknoble/Dervin366 : Hello.
+21-25:OOC: Desmond Taggart/Topkasa : they fuck up my CPU
+21-25:OOC: Kumil Makermicrocline/Mono124 : o...k.....
+21-25:OOC: Desmond Taggart/Topkasa : I meant to remove them, whoops
+21-25:OOC: Desmond Taggart/Topkasa : also
+21-25:SAY: Urist Bronzedriven/ZCHRIS13 : ; Excepting the Engineer
+21-25:OOC: Desmond Taggart/Topkasa : after this round, I need to take down the server for like 10 seconds
+21-25:OOC: Desmond Taggart/Topkasa : you guys all right with that?
+21-25:OOC: Urist Bronzedriven/ZCHRIS13 : Also, this round is not serious RP
+21-25:VOTE: Voting closed, result was zombie
+21-25:OOC: Desmond Taggart/Topkasa : hahaha
+21-25:OOC: Desmond Taggart/Topkasa : convenient
+21-25:OOC: Urist Bronzedriven/ZCHRIS13 : BOOBS
+21-25:GAME: Rebooting due to mode vote
+21-25:ACCESS: Logout: OzyTheSage
+21-25:ACCESS: Logout: Bluephoenix222
+21-25:ACCESS: Logout: Mono124
+21-25:ACCESS: Logout: Dervin366
+21-25:ACCESS: Logout: ZCHRIS13
+21-25:ACCESS: Logout: Topkasa
+21-31:ADMIN: Loading crban_keylist
+21-31:ADMIN: Loading crban_reason
+21-31:ADMIN: Loading crban_time
+21-31:ADMIN: Loading crban_bannedby
+21-31:ADMIN: Loading crban_iplist
+21-31:ADMIN: Loading crban_unbanned
+21-31:ADMIN: Loading crban_ComputerIDs
+21-31:ADMIN: Loading jobban_rank
+21-31:ADMIN: Updating jobbanfile!
+21-31:ADMIN: Loading crban_keylist
+21-31:ADMIN: Loading crban_reason
+21-31:ADMIN: Loading crban_time
+21-31:ADMIN: Loading crban_bannedby
+21-31:ADMIN: Loading crban_iplist
+21-31:ADMIN: Loading crban_unbanned
+21-31:ADMIN: Loading crban_ComputerIDs
+21-31:ADMIN: Loading jobban_rank
+21-31:ADMIN: Updating jobbanfile!
+21-31:ACCESS: Login: Topkasa from 127.0.0.1
+21-31:GAME: Finished building powernets (30 nets)
+21-31:ACCESS: Login: OzyTheSage from 98.118.48.126
+21-31:ACCESS: Login: Bluephoenix222 from 123.211.225.187
+21-31:OOC: Desmond Taggart/Topkasa : there, server should be able to stay up now.  Also, you guys are going to fucking love what head is working on
+21-31:OOC: Desmond Taggart/Topkasa : as will us devs
+21-31:GAME: OzyTheSage entered as Ozymandias Blazelever
+21-31:ACCESS: Login: X2yzh9 from 75.142.181.4
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : what is head working on?
+21-31:GAME: Bluephoenix222 entered as George Fisher
+21-31:OOC: Desmond Taggart/Topkasa : That&#39;s a surprise
+21-31:ACCESS: Login: Mono124 from 99.137.45.54
+21-31:ACCESS: Login: Dervin366 from 24.154.218.115
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : aww
+21-31:OOC: Desmond Taggart/Topkasa : suffice it to say
+21-31:OOC: Desmond Taggart/Topkasa : you won&#39;t keep losing your save files
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : when do you think it will be ready?
+21-31:OOC: Desmond Taggart/Topkasa : or having to manage them every time you go to a new server
+21-31:GAME: X2yzh9 entered as Cog Bedhammer
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : also, I&#39;ve never lost a save file? o_o
+21-31:GAME: Dervin366 entered as Danny Larson
+21-31:OOC: Desmond Taggart/Topkasa : ready?  He&#39;s testing the last of it now, maybe within a day or two
+21-31:GAME: Mono124 entered as Geshud Rockblock
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : oh, that would be nice, have one persistent dood
+21-31:OOC: Desmond Taggart/Topkasa : also
+21-31:OOC: Desmond Taggart/Topkasa : The network branch is getting closer to completion
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : I&#39;ll be awqay at the beginning of the week thouggh
+21-31:OOC: Desmond Taggart/Topkasa : while you guys play on this server
+21-31:OOC: Desmond Taggart/Topkasa : I&#39;m busy wiring the map
+21-31:SAY: Danny Larson/Dervin366 : Your a bit pale Ozy.
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : what is the networking thing going to do anwyays
+21-31:OOC: Desmond Taggart/Topkasa : okay
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : no u
+21-31:OOC: Desmond Taggart/Topkasa : right now, the station has a ton of computer equipment
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : durp durp durp
+21-31:SAY: Danny Larson/Dervin366 : No...
+21-31:SAY: Danny Larson/Dervin366 : You.
+21-31:OOC: Desmond Taggart/Topkasa : but their communications and everything is just abstracted away, right?
+21-31:OOC: Desmond Taggart/Topkasa : We&#39;re fixing that
+21-31:OOC: Desmond Taggart/Topkasa : so that every device is connected to an actual simulated computer network
+21-31:OOC: Desmond Taggart/Topkasa : and in order to, say, close a pod door
+21-31:OOC: Desmond Taggart/Topkasa : an actual data packet has to be sent
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : *collapse
+21-31:SAY: Danny Larson/Dervin366 : *deathstroke
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : bnlaragagag
+21-31:OOC: Desmond Taggart/Topkasa : which you guys, if clever and having the right equipment,
+21-31:SAY: Danny Larson/Dervin366 : *deathgasp
+21-31:OOC: Desmond Taggart/Topkasa : could intecept
+21-31:OOC: Desmond Taggart/Topkasa : thus
+21-31:OOC: Desmond Taggart/Topkasa : gfiving you the ability to open all the pod doors yourself
+21-31:OOC: Geshud Rockblock/Mono124 : holy shit
+21-31:OOC: Danny Larson/Dervin366 : Wait we could hack it?
+21-31:OOC: Desmond Taggart/Topkasa : well not all, but you get the idea
+21-31:OOC: Geshud Rockblock/Mono124 : thats awesome
+21-31:OOC: Desmond Taggart/Topkasa : yes
+21-31:OOC: Geshud Rockblock/Mono124 : hacking?
+21-31:OOC: Desmond Taggart/Topkasa : we designed the network to use a text protocol
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : how would it affect the AI
+21-31:OOC: Geshud Rockblock/Mono124 : holy crap that will put us hella ahead of the goons
+21-31:OOC: Desmond Taggart/Topkasa : for example
+21-31:OOC: Desmond Taggart/Topkasa : This is a REAL packet that was sent during dev once
+21-31:SAY: Cog Bedhammer/X2yzh9 : SMUG MAN IS SMUG
+21-31:OOC: Desmond Taggart/Topkasa : 023 DE35 INFO NETWORKROUTER SERVICE 3 NETS AT BRIDGE
+21-31:OOC: Desmond Taggart/Topkasa : telling me
+21-31:GAME: starting game of traitor
+21-31:OOC: Danny Larson/Dervin366 : So if there is say, robots in the future you could hack them and control them?
+21-31:OOC: Desmond Taggart/Topkasa : sorta
+21-31:OOC: Desmond Taggart/Topkasa : what the packet I typed tells me
+21-31:OOC: Desmond Taggart/Topkasa : is that a Network router on the bridge is connected to three computer nets
+21-31:OOC: Desmond Taggart/Topkasa : and that I could ask it for more information to get those nets
+21-31:OOC: Desmond Taggart/Topkasa : so I could, say
+21-31:OOC: Desmond Taggart/Topkasa : then flash the lights in the captain&#39;s cabin on and off
+21-31:OOC: Desmond Taggart/Topkasa : from halfway across the station
+21-31:OOC: Danny Larson/Dervin366 : That sounds awesome.
+21-31:OOC: Desmond Taggart/Topkasa : or perhaps send a control packet to the bridge APC telling it to shut down all the power on the bridge
+21-31:SAY: Danny Larson/Dervin366 : ;Hello this is your doctor speaking.
+21-31:OOC: Desmond Taggart/Topkasa : cool, huh?
+21-31:SAY: Danny Larson/Dervin366 : ;I would like to inform you of free massages today.
+21-31:OOC: Geshud Rockblock/Mono124 : yeah
+21-31:OOC: Danny Larson/Dervin366 : Of course.
+21-31:OOC: Geshud Rockblock/Mono124 : will they be connected wirelessly or via wires?
+21-31:OOC: Desmond Taggart/Topkasa : the AI also has some awesome network abilities
+21-31:SAY: Danny Larson/Dervin366 : ;And checkups.
+21-31:OOC: Geshud Rockblock/Mono124 : wireless hubs?
+21-31:OOC: Desmond Taggart/Topkasa : via wires
+21-31:OOC: Desmond Taggart/Topkasa : that you can see
+21-31:OOC: Geshud Rockblock/Mono124 : ah
+21-31:OOC: Desmond Taggart/Topkasa : with a T-ray scanner
+21-31:OOC: Desmond Taggart/Topkasa : and cut or make
+21-31:SAY: Danny Larson/Dervin366 : ;I suggest you come in for the check ups.
+21-31:OOC: Cog Bedhammer/X2yzh9 : Top, fixed the prison shuttle?
+21-31:SAY: George Fisher/Bluephoenix222 : everything allriht?
+21-31:SAY: Danny Larson/Dervin366 : ;No one wants a check up?
+21-31:SAY: Danny Larson/Dervin366 : ;I&#39;ll give you a treat.
+21-31:SAY: George Fisher/Bluephoenix222 : what are you working on
+21-31:OOC: Geshud Rockblock/Mono124 : maybe in the future, have things connected to a wireless hub the broadcasts in a X by X square. Hub has to connect to another hub or to the main servers via (if hub wireless) or (if servers wires). if its connected to a hub and the main one goes down than all connected hubs go down
+21-31:MATTACK: George Fisher(Bluephoenix222) clicked on Geshud Rockblock(Mono124) with a pill
+21-31:MATTACK: George Fisher(Bluephoenix222) forced Geshud Rockblock(Mono124) to swallow orange pill
+21-31:OOC: Geshud Rockblock/Mono124 : :(
+21-31:OOC: Desmond Taggart/Topkasa : mono: wireless APs are eventually intended for the headsets, etc
+21-31:OOC: Geshud Rockblock/Mono124 : i feel owned
+21-31:OOC: Cog Bedhammer/X2yzh9 : Maybe a backup hub?
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : will food actually do anythinf? like will you need to eat something after a while?
+21-31:OOC: Geshud Rockblock/Mono124 : btw to the person who KNOWS who they are.... i was typing you ass
+21-31:SAY: Danny Larson/Dervin366 : ;Anyone!?
+21-31:SAY: Danny Larson/Dervin366 : You there!
+21-31:SAY: Cog Bedhammer/X2yzh9 : Danny
+21-31:SAY: Cog Bedhammer/X2yzh9 : I have a question for you
+21-31:SAY: Danny Larson/Dervin366 : Sir would you like a check up?
+21-31:SAY: Danny Larson/Dervin366 : Yes?
+21-31:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+21-31:SAY: Cog Bedhammer/X2yzh9 : I&#39;m willing to install you tracking implants
+21-31:OOC: Desmond Taggart/Topkasa : food does nthing atm
+21-31:SAY: Danny Larson/Dervin366 : ..
+21-31:SAY: Cog Bedhammer/X2yzh9 : They kill you if you get stunned, but your our only doctor
+21-31:SAY: Cog Bedhammer/X2yzh9 : We&#39;d like to be able to find a body, and then we could revive you
+21-31:GAME: ZCHRIS13 entered as Urist Bronzedriven
+21-31:SAY: Danny Larson/Dervin366 : Sir...
+21-31:SAY: Cog Bedhammer/X2yzh9 : So i&#39;m wondering if you want me to setup a tracking syringe for you
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : uhm, are we supposed to be able to see these network cables?
+21-31:SAY: Cog Bedhammer/X2yzh9 : completely optional
+21-31:SAY: Danny Larson/Dervin366 : I&#39;d have to refuse for right now.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Geneticist
+21-31:SAY: Cog Bedhammer/X2yzh9 : if you don&#39;t want to i&#39;ll be on my way
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Please
+21-31:SAY: Cog Bedhammer/X2yzh9 : Alright, I respect your decision
+21-31:SAY: Danny Larson/Dervin366 : *nod
+21-31:SAY: George Fisher/Bluephoenix222 : we allready have one
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Chemist
+21-31:OOC: Desmond Taggart/Topkasa : no
+21-31:OOC: Desmond Taggart/Topkasa : why, can you?
+21-31:SAY: Danny Larson/Dervin366 : ;Urist!
+21-31:GAME: Topkasa entered as Desmond Taggart
+21-31:SAY: Danny Larson/Dervin366 : ;Report to medbay.
+21-31:SAY: George Fisher/Bluephoenix222 : how about security?
+21-31:ACCESS: Login: Forteen from 70.134.84.80
+21-31:SAY: Danny Larson/Dervin366 : ;Desmond report to medbay!
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : What was that
+21-31:SAY: Desmond Taggart/Topkasa : yeah?\
+21-31:OOC: HELP: Cog Bedhammer/X2yzh9 : Shit, I thinki the cryo bug happened again. Can you check and make sure it didn&#39;t?
+21-31:SAY: Desmond Taggart/Topkasa : ((here as admin only))
+21-31:SAY: Danny Larson/Dervin366 : Uhh...
+21-31:ADMIN: PM: Topkasa->X2yzh9 : what is the bug
+21-31:SAY: Danny Larson/Dervin366 : ;Nevermind then Desmond.
+21-31:SAY: George Fisher/Bluephoenix222 : i need your id
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Handing out tracking implants at medbay. Note that if you get stunned with these in your system you die, however
+21-31:GAME: Forteen entered as Bob Robertson
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Umm... what head positions are available
+21-31:ADMIN: PM: Bluephoenix222->Topkasa : people falling out of the cryo
+21-31:ADMIN: PM: Topkasa->Bluephoenix222 : o_O
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; But we can find your body if we can track you
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : How about Doctor?
+21-31:ADMIN: PM: Bluephoenix222->Topkasa : randomly
+21-31:ADMIN: PM: X2yzh9->Topkasa : Genetics cryo bug
+21-31:SAY: Danny Larson/Dervin366 : ;All new arrivals come to medbay.
+21-31:ADMIN: PM: Topkasa->Bluephoenix222 : no idea
+21-31:SAY: George Fisher/Bluephoenix222 : ok
+21-31:SAY: Danny Larson/Dervin366 : ;For your check up.
+21-31:ADMIN: Forteen/Bob Robertson : I thought the cryo bug was with really low temps
+21-31:ADMIN: PM: X2yzh9->Topkasa : I see a dead guy next to it and a guy inside of it
+21-31:OOC: Desmond Taggart/Topkasa : oh, wierd
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Do we have a doctor?
+21-31:OOC: Desmond Taggart/Topkasa : these cables shouldn&#39;t be visible
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : Yes
+21-31:OOC: Desmond Taggart/Topkasa : whyt are they
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Oh
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : Danny is the doc
+21-31:SAY: George Fisher/Bluephoenix222 : we need two
+21-31:ADMIN: PM: X2yzh9->Topkasa : dunno if it's the bug or traitor, don't want to check it either way
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Got it
+21-31:SAY: Danny Larson/Dervin366 : Captain.
+21-31:SAY: Cog Bedhammer/X2yzh9 : *nod
+21-31:SAY: Cog Bedhammer/X2yzh9 : Yes?
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : I was wondering if you needed any positions filled
+21-31:SAY: Danny Larson/Dervin366 : What the hell is wrong with the arrivals?
+21-31:SAY: Danny Larson/Dervin366 : ;Come to the damn medbay!
+21-31:SAY: Cog Bedhammer/X2yzh9 : Heh, no idea Danny
+21-31:SAY: George Fisher/Bluephoenix222 : umm
+21-31:SAY: George Fisher/Bluephoenix222 : let me see
+21-31:SAY: Danny Larson/Dervin366 : You there.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Hi, captain!
+21-31:SAY: Cog Bedhammer/X2yzh9 : Bronzedriven
+21-31:SAY: George Fisher/Bluephoenix222 : how about supply officer?
+21-31:SAY: Cog Bedhammer/X2yzh9 : would you like a trakcing implant?
+21-31:SAY: Bob Robertson/Forteen : Oh, hey, mind if I get a job too?
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : Sure
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : No, I&#39;m good
+21-31:SAY: George Fisher/Bluephoenix222 : why do you think i stand here
+21-31:SAY: Cog Bedhammer/X2yzh9 : alright
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Thank you
+21-31:OOC: Desmond Taggart/Topkasa : hey, hguys?
+21-31:SAY: Danny Larson/Dervin366 : Strip down if you would.
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : HIIII
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Just want to try it out?
+21-31:SAY: Bob Robertson/Forteen : Could I take a look at the network center?
+21-31:OOC: Desmond Taggart/Topkasa : I&#39;m desmond taggart, and I&#39;m only logged in to look at bugs
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Why?
+21-31:OOC: Desmond Taggart/Topkasa : so..  ignore my mob IC
+21-31:SAY: Danny Larson/Dervin366 : Your check up of course.
+21-31:ADMIN: Topkasa has toggled Topkasa's nodamage to 1
+21-31:SAY: Danny Larson/Dervin366 : Captain I would appreciate if you left the room.
+21-31:SAY: Danny Larson/Dervin366 : For his privacy.
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : Alright then
+21-31:SAY: Danny Larson/Dervin366 : You still need a check up.
+21-31:SAY: Cog Bedhammer/X2yzh9 : Oh yes
+21-31:SAY: Cog Bedhammer/X2yzh9 : you might want to do it in there
+21-31:SAY: Bob Robertson/Forteen : Thank you
+21-31:SAY: George Fisher/Bluephoenix222 : have a godo stay
+21-31:SAY: Danny Larson/Dervin366 : Well I was going to scan him using this.
+21-31:SAY: Cog Bedhammer/X2yzh9 : Ah, right
+21-31:SAY: Danny Larson/Dervin366 : Over here sir.
+21-31:ACCESS: Login: Igamiwarrior from 204.191.58.141
+21-31:SAY: Bob Robertson/Forteen : Does it actually do anything yet?
+21-31:SAY: Danny Larson/Dervin366 : Your jumpsuit needs to be off.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m going to go get myself some scrubs
+21-31:OOC: Desmond Taggart/Topkasa : okay I think I have the cables fixed
+21-31:SAY: Desmond Taggart/Topkasa : no
+21-31:SAY: Desmond Taggart/Topkasa : not even in the network branch
+21-31:SAY: Desmond Taggart/Topkasa : but
+21-31:SAY: Danny Larson/Dervin366 : Your check up damnit!
+21-31:SAY: Desmond Taggart/Topkasa : we&#39;re getting there!
+21-31:ACCESS: Logout: Igamiwarrior
+21-31:SAY: Danny Larson/Dervin366 : Goddamn stubborn people!
+21-31:SAY: Cog Bedhammer/X2yzh9 : heh
+21-31:SAY: Cog Bedhammer/X2yzh9 : certainly they are.
+21-31:OOC: Desmond Taggart/Topkasa : fix should go in next round
+21-31:SAY: Bob Robertson/Forteen : Lots of new visual stuff
+21-31:SAY: Desmond Taggart/Topkasa : yeah
+21-31:SAY: Desmond Taggart/Topkasa : tasers and lasers got updated
+21-31:SAY: Danny Larson/Dervin366 : ;Damnit Urist!
+21-31:SAY: Desmond Taggart/Topkasa : and their blood stuff works right
+21-31:SAY: Danny Larson/Dervin366 : ;You need a check up!
+21-31:SAY: Desmond Taggart/Topkasa : like the blinkenlights on the routers?
+21-31:SAY: Desmond Taggart/Topkasa : :P
+21-31:SAY: Cog Bedhammer/X2yzh9 : Urist
+21-31:SAY: Cog Bedhammer/X2yzh9 : get your checkup
+21-31:SAY: Cog Bedhammer/X2yzh9 : Captains orders
+21-31:SAY: Bob Robertson/Forteen : Nice
+21-31:SAY: Cog Bedhammer/X2yzh9 : Right
+21-31:SAY: Cog Bedhammer/X2yzh9 : in the med scanner
+21-31:SAY: Danny Larson/Dervin366 : Jesus christ!
+21-31:SAY: Cog Bedhammer/X2yzh9 : Urist you need to strip anyway
+21-31:SAY: Cog Bedhammer/X2yzh9 : URIST
+21-31:SAY: Cog Bedhammer/X2yzh9 : YOU NEED TO STRIP TO GET IN THE SCANNER ANYWAY
+21-31:SAY: Danny Larson/Dervin366 : Urist!
+21-31:SAY: Danny Larson/Dervin366 : Come here!
+21-31:SAY: Bob Robertson/Forteen : Next round going to mess with the settings to make my face a giant flesh colored blob
+21-31:SAY: Danny Larson/Dervin366 : Damn him!
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Comms dish is not aligned
+21-31:SAY: Desmond Taggart/Topkasa : haha
+21-31:SAY: Cog Bedhammer/X2yzh9 : URIST ARE YOU DEAF?
+21-31:SAY: Danny Larson/Dervin366 : Should we forcefully shove him in?
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Maybe
+21-31:SAY: Cog Bedhammer/X2yzh9 : Maybe
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : I might be deaf
+21-31:SAY: Cog Bedhammer/X2yzh9 : he&#39;s ignoring Captains orders
+21-31:SAY: Danny Larson/Dervin366 : Just a second.
+21-31:SAY: Danny Larson/Dervin366 : The sleep toxins.
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : is topkasa desmond?
+21-31:OOC: Desmond Taggart/Topkasa : yes
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : ok
+21-31:OOC: Desmond Taggart/Topkasa : like I said, ignore my mob IC :P
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : well I didn&#39;t know what your ic mob name was &gt;_,
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Danny, he&#39;s going in the med scanner
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Come supervise
+21-31:OOC: Desmond Taggart/Topkasa : no, it&#39;s all right ozy
+21-31:OOC: Desmond Taggart/Topkasa : :p
+21-31:SAY: Danny Larson/Dervin366 : *shrug.
+21-31:SAY: Danny Larson/Dervin366 : *shrug
+21-31:SAY: Cog Bedhammer/X2yzh9 : Scan him, then get him dressed.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Hey
+21-31:SAY: Danny Larson/Dervin366 : He seems fine.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Can you hear me?
+21-31:SAY: Bob Robertson/Forteen : Multitools should have more use
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : I can hear me
+21-31:SAY: Danny Larson/Dervin366 : One basic check up.
+21-31:SAY: Cog Bedhammer/X2yzh9 : If he needs help being new to the job, please introduce him to it
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Can you?
+21-31:SAY: Bob Robertson/Forteen : Only used in hacking now, right?
+21-31:SAY: Danny Larson/Dervin366 : Okay spread your cheeks.
+21-31:SAY: Desmond Taggart/Topkasa : right now
+21-31:SAY: Danny Larson/Dervin366 : And cough twice.
+21-31:SAY: Desmond Taggart/Topkasa : they&#39;re also used to erase computer hard drives
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : I wonder if the supply ship even works
+21-31:SAY: Danny Larson/Dervin366 : Wait...
+21-31:SAY: Bob Robertson/Forteen : Oh nice
+21-31:OOC: Desmond Taggart/Topkasa : yes
+21-31:SAY: Danny Larson/Dervin366 : Thats from my last job.
+21-31:OOC: Desmond Taggart/Topkasa : I fixed it
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Comms dish is still unaligned
+21-31:SAY: Cog Bedhammer/X2yzh9 : Urist, stop it
+21-31:SAY: Danny Larson/Dervin366 : What the hell man!?
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Your turn
+21-31:SAY: Cog Bedhammer/X2yzh9 : He&#39;s already done a checkup
+21-31:SAY: Danny Larson/Dervin366 : I&#39;m the chief medical doctor.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Yeah
+21-31:SAY: Cog Bedhammer/X2yzh9 : Danny does not need a checkup
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Me too
+21-31:SAY: Danny Larson/Dervin366 : I&#39;ve done my job.
+21-31:SAY: Cog Bedhammer/X2yzh9 : Bronzedriven
+21-31:SAY: Cog Bedhammer/X2yzh9 : Danny is the CMO
+21-31:SAY: Cog Bedhammer/X2yzh9 : chief medical officer
+21-31:SAY: Cog Bedhammer/X2yzh9 : Now
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Then go get an ID that says that
+21-31:SAY: Cog Bedhammer/X2yzh9 : My statement is final
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Yeah yeah yeah
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Whatever
+21-31:SAY: Cog Bedhammer/X2yzh9 : Now
+21-31:SAY: Bob Robertson/Forteen : ;I&#39;ll go align it if I have access
+21-31:SAY: Danny Larson/Dervin366 : I&#39;m starting to hate this guy.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : out of my rooms
+21-31:SAY: Cog Bedhammer/X2yzh9 : I don&#39;t want any problems
+21-31:SAY: Cog Bedhammer/X2yzh9 : Me to Danny
+21-31:SAY: Cog Bedhammer/X2yzh9 : Urist
+21-31:SAY: Cog Bedhammer/X2yzh9 : I am the CAPTAIN
+21-31:SAY: Bob Robertson/Forteen : ;Nope, no access
+21-31:SAY: Cog Bedhammer/X2yzh9 : I have access and full permission to be in here
+21-31:ADMIN: Bluephoenix222/George Fisher : I hope you will not forget to add the ingnitors of the engine and so on to the network :P
+21-31:SAY: Cog Bedhammer/X2yzh9 : without justification
+21-31:ADMIN: PM: Topkasa->Bluephoenix222 : I will eventually
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Ai respond if you&#39;re active
+21-31:ADMIN: Topkasa/Desmond Taggart : but right now
+21-31:SAY: Cog Bedhammer/X2yzh9 : So actually
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Doesn&#39;t stop you from being in the way
+21-31:ADMIN: Topkasa/Desmond Taggart : they&#39;re &#34;dumb&#34; things which are just always on
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ...
+21-31:SAY: Cog Bedhammer/X2yzh9 : you don&#39;t seem qualified for the medical career
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : *cough
+21-31:ADMIN: Topkasa/Desmond Taggart : unless tey have no power
+21-31:SAY: Cog Bedhammer/X2yzh9 : hand me your ID
+21-31:SAY: Danny Larson/Dervin366 : Also Urist, do you have HIV?
+21-31:ADMIN: Bluephoenix222/George Fisher : Yeah just saying
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Excuse me?
+21-31:ADMIN: Topkasa/Desmond Taggart : I will probably add network control to them later
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ;HELP
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; I NEED HELP IN ARRIVALS
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;What&#39;s wrong?
+21-31:SAY: Danny Larson/Dervin366 : ;Nothing.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; THE CAPTAIN IS MUGGING ME
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; TAKING MY ID
+21-31:ADMIN: Bluephoenix222/George Fisher : will cansiters still burst if heat or pressure is high enough?
+21-31:SAY: Danny Larson/Dervin366 : ;The captain is stripping him of his permission.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; Hey HoP? Can you come up here?
+21-31:SAY: Cog Bedhammer/X2yzh9 : l am the captain and am demoting Bronzedriven
+21-31:SAY: Danny Larson/Dervin366 : ;Er...Job.
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; for disorderly conduct and disrespect
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : You&#39;re also a dickweed
+21-31:SAY: Bob Robertson/Forteen : Oh, uh, captain
+21-31:SAY: Bob Robertson/Forteen : Mind if I go align the comms?
+21-31:SAY: Cog Bedhammer/X2yzh9 : I don&#39;t mind Bob
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : *spit
+21-31:SAY: Bob Robertson/Forteen : I&#39;ll need to mess with the doors a bit though
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : *help
+21-31:SAY: Bob Robertson/Forteen : Alright with you?
+21-31:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll do it myself then
+21-31:ADMIN: Topkasa/Desmond Taggart : yes
+21-31:ADMIN: Topkasa/Desmond Taggart : afaik
+21-31:SAY: Bob Robertson/Forteen : Ah, okay
+21-31:SAY: Cog Bedhammer/X2yzh9 : I don&#39;t want the comm dishs messingujp
+21-31:ADMIN: Bluephoenix222/George Fisher : ok
+21-31:SAY: Bob Robertson/Forteen : Oh, of course
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : *glare-Cog Bedhammer
+21-31:SAY: Cog Bedhammer/X2yzh9 : Bronzedriven
+21-31:SAY: Cog Bedhammer/X2yzh9 : Throw it again and I ain&#39;t given it back
+21-31:ADMIN: Bluephoenix222/George Fisher : hmm plasma research has a bug
+21-31:ADMIN: Topkasa/Desmond Taggart : what&#39;s that?
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Comm relay aligned
+21-31:SAY: Desmond Taggart/Topkasa : you&#39;re in for a boring round
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Status is connected, crew!
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Okay, dish is aligned it seems
+21-31:SAY: Desmond Taggart/Topkasa : the cables don&#39;t work either
+21-31:SAY: Desmond Taggart/Topkasa : you can&#39;t lay them yet
+21-31:ADMIN: Bluephoenix222/George Fisher : I entered the mixing room area and I got very cold
+21-31:SAY: Bob Robertson/Forteen : Always can mess around
+21-31:SAY: Desmond Taggart/Topkasa : that you can
+21-31:ADMIN: Bluephoenix222/George Fisher : and am dead now
+21-31:SAY: Ozymandias Blazelever/OzyTheSage : ;ready to call supplies when theya re needed
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; We are now receiving satellite TV
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; In the bar/lounge area
+21-31:ADMIN: Topkasa/Desmond Taggart : whoa
+21-31:SAY: Bob Robertson/Forteen : ;We got an AI?
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; HoP?
+21-31:ADMIN: Topkasa Healed/Revived Topkasa
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; Urist Bronzedriven is a janitor. I am the captain
+21-31:ADMIN: Bluephoenix222 Healed/Revived Bluephoenix222
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; do not change his position no matter what, my orders
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : You say that like you don&#39;t believe it
+21-31:ADMIN: Topkasa Healed/Revived Topkasa
+21-31:SAY: Cog Bedhammer/X2yzh9 : Urist
+21-31:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+21-31:ADMIN: Bluephoenix222/George Fisher : thats a bug right?
+21-31:SAY: Cog Bedhammer/X2yzh9 : You really need to learn discipline
+21-31:ADMIN: Topkasa/Desmond Taggart : yeah, definitely
+21-31:ADMIN: Forteen/Bob Robertson : How much did you put in there?
+21-31:SAY: Cog Bedhammer/X2yzh9 : Maybe on our next stay at the station((Next round)) You will improve
+21-31:ADMIN: Topkasa/Desmond Taggart : I have no idea what happened
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : You really need to learn to just sit back and smoke a blunt
+21-31:SAY: Cog Bedhammer/X2yzh9 : But for this trip your a janitor
+21-31:ADMIN: Topkasa/Desmond Taggart : just a sec
+21-31:ACCESS: Logout: 
+21-31:ACCESS: Login: Bluephoenix222 from 123.211.225.187
+21-31:ACCESS: They share computer ID's
+21-31:SAY: Cog Bedhammer/X2yzh9 : Hell I don&#39;t think we even have one
+21-31:ADMIN: Topkasa/Desmond Taggart : deleting my mob so I can log back in
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : Man, what has your panties all in a bunch.
+21-31:ACCESS: Login: Topkasa from 127.0.0.1
+21-31:SAY: Cog Bedhammer/X2yzh9 : Seriously bronzedriven
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : It must be something nasty
+21-31:GAME: Topkasa entered as Desmond Taggart
+21-31:ADMIN: Topkasa has toggled Topkasa's nodamage to 1
+21-31:SAY: Danny Larson/Dervin366 : ;Urist come to medbay for your pack.
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : SEe you in hell
+21-31:ADMIN: Bluephoenix222/George Fisher : i am the traitor and am dead now
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : also, when do you think the bigger variety of names will be implemented/
+21-31:ADMIN: Bluephoenix222/George Fisher : and for some reason the crew didnt win
+21-31:ADMIN: Topkasa/Desmond Taggart : wtf
+21-31:ADMIN: Topkasa/Desmond Taggart : where is the plasma coming from
+21-31:SAY: Danny Larson/Dervin366 : *nod
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : What is with the captain?
+21-31:SAY: Danny Larson/Dervin366 : Dunno.
+21-31:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Urist Bronzedriven
+21-31:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Urist Bronzedriven
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; HELP MNE
+21-31:SAY: Danny Larson/Dervin366 : Ohh jesus christ!
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ;I&#39;M BEING ATTACKED
+21-31:SAY: Danny Larson/Dervin366 : What the hell captain!?
+21-31:ADMIN: Forteen/Bob Robertson : Inlet bug?
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; IN MEDBAY
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; SECURITY
+21-31:SAY: Cog Bedhammer/X2yzh9 : Now
+21-31:SAY: Cog Bedhammer/X2yzh9 : Listen here
+21-31:SAY: Cog Bedhammer/X2yzh9 : These are not his-
+21-31:SAY: Cog Bedhammer/X2yzh9 : god
+21-31:SAY: Cog Bedhammer/X2yzh9 : he left
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; I confiscated his jacket
+21-31:ADMIN: Topkasa/Desmond Taggart : looks like it might be
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; I don&#39;t want anyone mistaking him for a doctor
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : hELP ME
+21-31:SAY: Urist Bronzedriven/ZCHRIS13 : ; NO DOn&#39;T GO
+21-31:ACCESS: Login: Topkasa from 127.0.0.1
+21-31:SAY: Cog Bedhammer/X2yzh9 : Store these please Danny
+21-31:SAY: Bob Robertson/Forteen : ;He&#39;s naked and dragging around some assistant
+21-31:GAME: Topkasa entered as Desmond Taggart
+21-31:ADMIN: Topkasa has toggled Topkasa's nodamage to 1
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; where Bob
+21-31:SAY: Bob Robertson/Forteen : ;Get away from me
+21-31:SAY: Danny Larson/Dervin366 : ;Watch out!
+21-31:SAY: Cog Bedhammer/X2yzh9 : ; WHERE BOB?
+21-31:GAME: Guest-2337011188 entered as Jade
+21-31:SAY: Bob Robertson/Forteen : ;SOuth
+21-31:SAY: Danny Larson/Dervin366 : ;My scans came up with the possibility of HIV.
+21-31:ADMIN: Topkasa Healed/Revived Topkasa
+21-31:SAY: Unknown/ZCHRIS13 : ;HELP ME
+21-31:ACCESS: Login: Topkasa from 127.0.0.1
+21-31:GAME: Topkasa entered as Desmond Taggart
+21-31:ADMIN: Topkasa has toggled Topkasa's nodamage to 1
+21-31:ADMIN: Forteen/Bob Robertson : YOu died because of a bug. Sohuldn&#39;t you revive yourself?
+21-31:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+21-31:ADMIN: Topkasa/Desmond Taggart : I keep deleting myself instead
+21-31:ADMIN: Topkasa/Desmond Taggart : so I can log in
+21-31:ADMIN: Topkasa/Desmond Taggart : whatever this bug is
+21-31:SAY: Unknown/ZCHRIS13 : ; Captain, why are you doing this to me? The HIV isn&#39;t my fault! She said she was clean!
+21-31:ADMIN: Topkasa/Desmond Taggart : it killed you instantly and you can&#39;t heal yourself
+21-31:SAY: Unknown/ZCHRIS13 : Don&#39;t do this!
+21-31:SAY: Danny Larson/Dervin366 : ;Need to calm him down?
+21-31:ADMIN: PM: Bluephoenix222->Topkasa : ah well
+21-31:SAY: Danny Larson/Dervin366 : ;I&#39;ve got sleep toxins.
+21-31:SAY: Cog Bedhammer/X2yzh9 : We&#39;re shipping you to centcomm aboard the prison transport
+21-31:ADMIN: Forteen modified Bob Robertson's firemut to 1
+21-31:ADMIN: PM: Bluephoenix222->Topkasa : lets restart
+21-31:SAY: Unknown/ZCHRIS13 : Why?
+21-31:ADMIN: Forteen has toggled Forteen's nodamage to 1
+21-31:ADMIN: Topkasa/Desmond Taggart : any time you want to, go ahead
+21-31:GAME: Shiningsoul32 entered as Elemin Taixera
+21-31:SAY: Danny Larson/Dervin366 : Yes?
+21-31:ADMIN: Bluephoenix222 initiated a reboot.
+21-31:OOC: Cog Bedhammer/X2yzh9 : FUCING
+21-31:OOC: Ozymandias Blazelever/OzyTheSage : oh dear
+21-31:OOC: George Fisher/Bluephoenix222 : traitor is dead
+21-31:ACCESS: Logout: OzyTheSage
+21-31:ACCESS: Logout: Topkasa
+21-31:ACCESS: Logout: Bluephoenix222
+21-31:ACCESS: Logout: X2yzh9
+21-31:ACCESS: Logout: Mono124
+21-31:ACCESS: Logout: Dervin366
+21-31:ACCESS: Logout: ZCHRIS13
+21-31:ACCESS: Logout: Forteen
+21-31:ACCESS: Logout: Guest-2337011188
+21-31:ACCESS: Logout: Shiningsoul32
+22-03:ADMIN: Loading crban_keylist
+22-03:ADMIN: Loading crban_reason
+22-03:ADMIN: Loading crban_time
+22-03:ADMIN: Loading crban_bannedby
+22-03:ADMIN: Loading crban_iplist
+22-03:ADMIN: Loading crban_unbanned
+22-03:ADMIN: Loading crban_ComputerIDs
+22-03:ADMIN: Loading jobban_rank
+22-03:ADMIN: Updating jobbanfile!
+22-03:GAME: Finished building powernets (30 nets)
+22-03:ACCESS: Login: Guest-2337011188 from 71.53.96.75
+22-03:ACCESS: Login: Dervin366 from 24.154.218.115
+22-03:ACCESS: Login: X2yzh9 from 75.142.181.4
+22-03:ACCESS: Login: Topkasa from 127.0.0.1
+22-03:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: Login: Mono124 from 99.137.45.54
+22-03:ACCESS: Login: Bluephoenix222 from 123.211.225.187
+22-03:ACCESS: Login: Forteen from 70.134.84.80
+22-03:ACCESS: Login: OzyTheSage from 98.118.48.126
+22-03:GAME: X2yzh9 entered as Cog Bedhammer
+22-03:OOC: Cog Bedhammer/X2yzh9 : ...
+22-03:OOC: Cog Bedhammer/X2yzh9 : If everyone restarted the game when the traitor was dead, this would be easier
+22-03:OOC: Cog Bedhammer/X2yzh9 : but sadly no one does
+22-03:ADMIN: Topkasa/Desmond Taggart : okay
+22-03:OOC: Cog Bedhammer/X2yzh9 : point is I was having fun
+22-03:GAME: Dervin366 entered as Danny Larson
+22-03:GAME: Guest-2337011188 entered as Jade
+22-03:GAME: Shiningsoul32 entered as Elemin Taixera
+22-03:ADMIN: Topkasa/Desmond Taggart : I fixed the inlet, but not fast enough tog et it into this round
+22-03:ACCESS: Login: Outcast Orange from 71.201.146.5
+22-03:OOC: George Fisher/Bluephoenix222 : it should have restarted on its own
+22-03:ADMIN: Topkasa/Desmond Taggart : I still don&#39;t know why it bugs so strangely
+22-03:ADMIN: PM: Bluephoenix222->Topkasa : hmm k
+22-03:GAME: Topkasa entered as Desmond Taggart
+22-03:GAME: Bluephoenix222 entered as George Fisher
+22-03:GAME: ZCHRIS13 entered as Urist Bronzedriven
+22-03:VOTE: Voting to change mode started by Urist Bronzedriven/ZCHRIS13
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Would YOU put your life into the hands of a man with a faghawk? I know I would.
+22-03:OOC: Cog Bedhammer/X2yzh9 : Centcom. *Ubersmug*!
+22-03:OOC: Danny Larson/Dervin366 : Yes.
+22-03:VOTE: Voting closed, result was none
+22-03:OOC: Elemin Taixera/Shiningsoul32 : No who just voted Traitor? *Stabs*
+22-03:OOC: Elemin Taixera/Shiningsoul32 : &gt;:
+22-03:SAY: Danny Larson/Dervin366 : I have a sexy goatee
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Centcom is lame
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I am here.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : On your knees bitch.
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Still a noob.
+22-03:SAY: Cog Bedhammer/X2yzh9 : I hauf a neckveard
+22-03:ACCESS: Failed Login: Rogunz Reason: Key banned
+22-03:SAY: Desmond Taggart/Topkasa : wtf
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : Hi there
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Cog
+22-03:SAY: Elemin Taixera/Shiningsoul32 : I hav a beard...on my HEAD.
+22-03:ADMIN: Topkasa used start_now
+22-03:GAME: starting game of Revolution
+22-03:GAME: OzyTheSage entered as Ozymandias Blazelever
+22-03:SAY: Desmond Taggart/Topkasa : ;All crew, report in
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Hello.
+22-03:OOC: Desmond Taggart/Topkasa : hi
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Hello.
+22-03:SAY: George Fisher/Bluephoenix222 : ;supply officer reporting in
+22-03:SAY: Elemin Taixera/Shiningsoul32 : I am ze docta--
+22-03:SAY: Danny Larson/Dervin366 : Welcome!
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; HoP reporting in
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : What is happening?
+22-03:MATTACK: Urist Bronzedriven(ZCHRIS13)has grabbed the monkey (a2f6)() aggressively (now hands) 
+22-03:OOC: Danny Larson/Dervin366 : Um...
+22-03:OOC: Desmond Taggart/Topkasa : oh good
+22-03:SAY: Jade/Guest-2337011188 : You look like someone I know.
+22-03:OOC: Desmond Taggart/Topkasa : the network cabling is hidden now
+22-03:OOC: Danny Larson/Dervin366 : Read the mode.
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : random =o
+22-03:ADMIN: Bluephoenix222 modified Jade Walker's name to Jade Walker
+22-03:OOC: Danny Larson/Dervin366 : Well...
+22-03:OOC: Danny Larson/Dervin366 : Crap...
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : *help
+22-03:OOC: Danny Larson/Dervin366 : I don&#39;t know how to explain this to you without ruining anything.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : ;This is the doctor speaking...recent medical exams show that our station is in need of a crew checkup, starting with the engineers.
+22-03:ADMIN: PM: Bluephoenix222->Guest-2337011188 : please use a normal name for your character one with a last name that is
+22-03:OOC: Urist Mudgoblin/Mono124 : hmm
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : drop a hint =o
+22-03:OOC: Urist Mudgoblin/Mono124 : topkasa, check out my post in b12
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : wait
+22-03:ADMIN: PM: Bluephoenix222->Guest-2337011188 : now update your id
+22-03:OOC: Elemin Taixera/Shiningsoul32 : It&#39;s random now stfu. &lt;3
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : JAde is fine
+22-03:OOC: Urist Mudgoblin/Mono124 : i had some suggestions for computers, and stuff
+22-03:SAY: Jade/Guest-2337011188 : Hmm.
+22-03:OOC: Danny Larson/Dervin366 : We have a new person.
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : Why does that guest need to change their name
+22-03:OOC: Urist Mudgoblin/Mono124 : any of it possible? any of it already implemented?
+22-03:ADMIN: PM: Bluephoenix222->Guest-2337011188 : allright its fine
+22-03:SAY: Danny Larson/Dervin366 : ((Its revolution)
+22-03:ADMIN: PM: Bluephoenix222->Topkasa : jade is not an rp name
+22-03:SAY: Elemin Taixera/Shiningsoul32 : ((I know that. Shh.))
+22-03:SAY: Danny Larson/Dervin366 : ((Well why&#39;d you ask?
+22-03:ADMIN: PM: Bluephoenix222->Topkasa : it needs a last name
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : At least it's a decent name
+22-03:SAY: Elemin Taixera/Shiningsoul32 : (Before I beat your head in with a hammer. I&#39;m not the one who asked.)
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : and her player is a good RP'er
+22-03:SAY: Danny Larson/Dervin366 : ((Someone had good timing then))
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : so they get a bit of slack with the name
+22-03:ACCESS: Login: Wrongnumber from 124.198.182.86
+22-03:SAY: Elemin Taixera/Shiningsoul32 : ((Oddly they did. Now go flash more innocents. Avoid heads like a boss.)
+22-03:SAY: Cog Bedhammer/X2yzh9 : Sorry for the wait
+22-03:SAY: Cog Bedhammer/X2yzh9 : Truly
+22-03:ADMIN: PM: Bluephoenix222->Topkasa : well I told him/her allready last week
+22-03:SAY: Danny Larson/Dervin366 : Like a boss.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Actually.
+22-03:SAY: Jade/Guest-2337011188 : Whatcha making?
+22-03:SAY: Cog Bedhammer/X2yzh9 : anyway, what&#39;s your area of expertise?
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : It&#39;s alright
+22-03:GAME: Wrongnumber entered as Nomal Murderedhammer
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Stay here.
+22-03:SAY: Danny Larson/Dervin366 : *shrugh
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : What do you need done?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Super powered monkey humans
+22-03:SAY: Danny Larson/Dervin366 : *shrug
+22-03:SAY: Elemin Taixera/Shiningsoul32 : I&#39;ll go and call them in for medical examination.
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : ah.  well, still
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Same as always
+22-03:SAY: Unknown/X2yzh9 : Let me see.. Hm, engineers and security
+22-03:GAME: Outcast Orange entered as Uvash Murderedcabinet
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : maybe on heads server
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Hello Jade.
+22-03:ADMIN: PM: Topkasa->Bluephoenix222 : but on this one, Jade's fine :)
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : I&#39;ll take either one
+22-03:SAY: Jade/Guest-2337011188 : Hello.
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Oh.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Don&#39;t
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Wiat
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Wait
+22-03:SAY: Unknown/X2yzh9 : There you go
+22-03:SAY: Elemin Taixera/Shiningsoul32 : What&#39;s happening in here?
+22-03:SAY: Jade/Guest-2337011188 : How about taking a different approach.
+22-03:SAY: Unknown/X2yzh9 : Next!
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : Alright then
+22-03:ACCESS: Logout: Mono124
+22-03:ADMIN: PM: Bluephoenix222->Topkasa : ok then :) just wasnt sure
+22-03:SAY: Jade/Guest-2337011188 : *shrug
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Got a chemist?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Making a super powered monkey human
+22-03:SAY: Jade/Guest-2337011188 : Abominations.
+22-03:SAY: Unknown/X2yzh9 : I think so
+22-03:SAY: Jade/Guest-2337011188 : Thinks like that.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Are you sure that is a good idea?
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I like how you can hide behind chairs.
+22-03:SAY: Unknown/X2yzh9 : Security?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *sigh
+22-03:SAY: Unknown/X2yzh9 : You fine with that?
+22-03:ADMIN: PM: Topkasa->Guest-2337011188 : Don't worry, just keep using JAde, it's all sorted out :)
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yea shure
+22-03:ADMIN: PM: Guest-2337011188->Topkasa : Thanks :).
+22-03:SAY: Cog Bedhammer/X2yzh9 : Have a great stay
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *nod
+22-03:GAME: Forteen entered as Likot Stopsword
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Thanks
+22-03:SAY: Cog Bedhammer/X2yzh9 : and hope to see you &#39;round station!
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Wait!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Im waiting
+22-03:SAY: Danny Larson/Dervin366 : You here for a check up?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : If you are new in the station I am required to bring you in for a medical exam.
+22-03:SAY: Jade/Guest-2337011188 : Anyway I want you to take a differet approach this time.
+22-03:SAY: Desmond Taggart/Topkasa : ;How is the station, crew?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Realy? Ok hold on
+22-03:SAY: Cog Bedhammer/X2yzh9 : I havn&#39;t gotten one in a while
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yes I&#39;m here for a checkup
+22-03:SAY: Danny Larson/Dervin366 : Come here then.
+22-03:SAY: Jade/Guest-2337011188 : Make a monkey that&#39;s so crippled it can&#39;t walk 2 steps without passing out.
+22-03:SAY: Danny Larson/Dervin366 : Lay down.
+22-03:SAY: Cog Bedhammer/X2yzh9 : The scanner?
+22-03:SAY: George Fisher/Bluephoenix222 : ;if anyone would like anything ordered please put it on a piece of paper with your name and rank at the end
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : This one is deaf
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Are we playing for real?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : ;Doctor prepare the medbay for exam, I am bringing someone new to the station in a few moments.
+22-03:OOC: Desmond Taggart/Topkasa : yeaqh
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s a start.
+22-03:SAY: Danny Larson/Dervin366 : Just lay down
+22-03:SAY: Jade/Guest-2337011188 : But make it worse.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It was one of the first three
+22-03:SAY: Cog Bedhammer/X2yzh9 : Sorry, I&#39;m a bit paranoid
+22-03:SAY: Danny Larson/Dervin366 : First we have to go through the basic tests.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Um
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Danny Larson
+22-03:SAY: Danny Larson/Dervin366 : What?
+22-03:SAY: Danny Larson/Dervin366 : The hell!
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Danny Larson
+22-03:SAY: Danny Larson/Dervin366 : Fucking stop!
+22-03:SAY: Cog Bedhammer/X2yzh9 : A pen
+22-03:SAY: Danny Larson/Dervin366 : Yes I was going to write a prescription!
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Are you almost done in there sir?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Please follow me.
+22-03:SAY: Desmond Taggart/Topkasa : can I help you?
+22-03:OOC: Danny Larson/Dervin366 : Okay seriously.
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Bagged and tagged
+22-03:OOC: Danny Larson/Dervin366 : What the hell?
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Medbay doctor has been detected as having sleepy pen
+22-03:SAY: Cog Bedhammer/X2yzh9 : He had a pen
+22-03:SAY: Elemin Taixera/Shiningsoul32 : JADE.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : What are you doing th the doctor?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : He had a pen?
+22-03:SAY: Desmond Taggart/Topkasa : ;Comm dish aligned
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : I was just looking.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Bedhammer?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Are you kidding?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : A pen is not a weapon. Let him go.
+22-03:SAY: Cog Bedhammer/X2yzh9 : listen
+22-03:SAY: Cog Bedhammer/X2yzh9 : The pen puts someone to sleep
+22-03:SAY: Cog Bedhammer/X2yzh9 : I have training in this area
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Bedhammer just arrested someone for having A PEN
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Oh...
+22-03:SAY: Danny Larson/Dervin366 : What the hell!?
+22-03:SAY: Cog Bedhammer/X2yzh9 : A pen
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;I&#39;m going to go ahead and start the engine
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Did he attempt to use it on someone?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Sir you have no proof
+22-03:SAY: Danny Larson/Dervin366 : You have no right!
+22-03:SAY: Cog Bedhammer/X2yzh9 : A &#39;sleepy&#39; pen
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yes I do
+22-03:SAY: Cog Bedhammer/X2yzh9 : watch
+22-03:SAY: Danny Larson/Dervin366 : You have no right!
+22-03:SAY: Cog Bedhammer/X2yzh9 : observe
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Elemin Taixera(Shiningsoul32) with the pen
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Dam it save him!
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Forteen from 70.134.84.80
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Cog Bedhammer/X2yzh9 : woops
+22-03:SAY: Cog Bedhammer/X2yzh9 : sorry
+22-03:SAY: Cog Bedhammer/X2yzh9 : Guess it wore out
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Can only the rebel leader use the flashbangs to flash someone?
+22-03:SAY: Cog Bedhammer/X2yzh9 : anyway
+22-03:SAY: Cog Bedhammer/X2yzh9 : ah shit
+22-03:SAY: Cog Bedhammer/X2yzh9 : he&#39;s
+22-03:SAY: Cog Bedhammer/X2yzh9 : he&#39;s gone
+22-03:OOC: George Fisher/Bluephoenix222 : yes but this isnt rev
+22-03:SAY: Cog Bedhammer/X2yzh9 : Anyway
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Damn it...
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : It&#39;s not flashbangs
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Dummy
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Flashes
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : There is a difference
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll prepare him for the funeral.
+22-03:OOC: George Fisher/Bluephoenix222 : flash exactly
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Sir you preety much killed a man for having a pen
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Well excuse me. &gt;.&gt;;
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Nomal
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Once again, the pen wore out
+22-03:SAY: George Fisher/Bluephoenix222 : *yawn
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; I tested it on hm
+22-03:SAY: Desmond Taggart/Topkasa : your console should be working now, crewman
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; To see if it was a pen
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;So its just a pen isint it?
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; He commited suicide anyway
+22-03:SAY: George Fisher/Bluephoenix222 : thank you
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; It is not
+22-03:OOC: Elemin Taixera/Shiningsoul32 : It makes SO much of a difference. You throw it at someone and it blinds them. :l
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; The pen injected sleep toxins into his bloodstream
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : What ever man..
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; A &#39;sleepy&#39; pen
+22-03:SAY: Jade/Guest-2337011188 : Hey guys.
+22-03:SAY: Jade/Guest-2337011188 : What&#39;s all this?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : It&#39;s ok sir...I just dont think that we handled this well.
+22-03:SAY: Desmond Taggart/Topkasa : Uvash
+22-03:SAY: Elemin Taixera/Shiningsoul32 : He&#39;s dead.
+22-03:SAY: Jade/Guest-2337011188 : Why&#39;s he dead?
+22-03:SAY: Desmond Taggart/Topkasa : is there a need for yout o be in emergency storage?
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : Yes?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : He...held his breath and suffocated.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *sigh
+22-03:SAY: Desmond Taggart/Topkasa : where&#39;s the fire?
+22-03:SAY: Jade/Guest-2337011188 : ...
+22-03:SAY: Desmond Taggart/Topkasa : *chuckle
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : What a first day
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : I&#39;m just looking around.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Normally a man would start to breath again after passing out...i&#39;m not certain how it killed him.
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;m going to prepare him for funeral
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yo docter man lets do this
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Do what?
+22-03:SAY: Jade/Guest-2337011188 : So why is he dead?
+22-03:SAY: Elemin Taixera/Shiningsoul32 : I&#39;m not allowed to do the exam, only he was.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : I&#39;m not sure...like I said, it looked like he died from holding his breath.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Well you are the head doc now so
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Everyone come to the chapel. We are having a open casket funeral for Danny Larson
+22-03:SAY: Jade/Guest-2337011188 : I never really knew him.
+22-03:SAY: Jade/Guest-2337011188 : In fact the first time I saw him.
+22-03:SAY: Jade/Guest-2337011188 : Is probably gonna be the last.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Well
+22-03:SAY: Jade/Guest-2337011188 : But I bet he was a good doc.
+22-03:SAY: Jade/Guest-2337011188 : And a fine man.
+22-03:SAY: Desmond Taggart/Topkasa : het, who spun the chairs?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I never knew the victim here
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I just realized...do you shoot the person in the coffin out like in a certain not to be named show?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : When i first saw him he was being beaten with a stun batton
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Are you supposed to keep your player/account connection secret?
+22-03:OOC: Desmond Taggart/Topkasa : yes
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *help
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *handshake
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Yes to me?
+22-03:SAY: Cog Bedhammer/X2yzh9 : And now
+22-03:SAY: Cog Bedhammer/X2yzh9 : we release him to space
+22-03:OOC: Desmond Taggart/Topkasa : yes, yes to you
+22-03:SAY: Cog Bedhammer/X2yzh9 : He always like the routine space walks
+22-03:SAY: Jade/Guest-2337011188 : From the stars we came.
+22-03:ACCESS: Login: CaptainBG from 124.181.136.61
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; Can anyone help me out here in genetics?
+22-03:SAY: Jade/Guest-2337011188 : And to the stars we shall return.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Rest In Peace, Danny Larson.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; I&#39;m having a rough time of it
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Can we get this over with and just shoot the man into space?
+22-03:ACCESS: Login: Guest-2911562950 from 24.151.183.112
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *shrug
+22-03:SAY: Desmond Taggart/Topkasa : Cog, if you could move his coffin please
+22-03:OOC: Danny Larson/Dervin366 : ...
+22-03:SAY: Jade/Guest-2337011188 : Permission to give him a 1 gun salute?
+22-03:OOC: Danny Larson/Dervin366 : You all are good friends.
+22-03:OOC: Danny Larson/Dervin366 : Except for you Elemin.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : &lt;3
+22-03:SAY: Desmond Taggart/Topkasa : permission granted
+22-03:OOC: Danny Larson/Dervin366 : an we get this over with and just shoot the man into space?#
+22-03:MATTACK: Nomal Murderedhammer(Wrongnumber)has shot a taser round at the chapel floor
+22-03:MATTACK: Jade(Guest-2337011188)has shot a taser round at the chapel floor
+22-03:MATTACK: Jade(Guest-2337011188)has shot a taser round at the chapel floor
+22-03:OOC: Danny Larson/Dervin366 : What the hell man!?
+22-03:MATTACK: Jade(Guest-2337011188)has shot a taser round at the chapel floor
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Plating
+22-03:MATTACK: Jade(Guest-2337011188)has shot a taser round at the chapel floor
+22-03:MATTACK: Jade(Guest-2337011188)has shot a taser round at the chapel floor
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Hey, I have to say, I just wanted to see you shot into space. I&#39;m sorry. *Shrugs*
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Now for the bar
+22-03:SAY: Jade/Guest-2337011188 : Rest in peace dude.
+22-03:SAY: Jade/Guest-2337011188 : Rest in peace.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Heh...that was cool.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;After match at the bar!
+22-03:ACCESS: Logout: Guest-2911562950
+22-03:SAY: Cog Bedhammer/X2yzh9 : A woops
+22-03:GAME: CaptainBG entered as Boris Berko
+22-03:SAY: Cog Bedhammer/X2yzh9 : anyway..
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : WHAT THE HELL
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Did i just see that?
+22-03:SAY: Boris Berko/CaptainBG : ;Can I have a job change.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Or am i going mad?
+22-03:SAY: Danny Larson/Dervin366 : Anyone else dead?
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : oh dear
+22-03:SAY: Boris Berko/CaptainBG : Plasma please.
+22-03:SAY: Ghost/Forteen : Messed up on face color
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Now I really want to be a villain so I can put someone into a coffin, weld it shut, and shoot it into space. :l
+22-03:SAY: Cog Bedhammer/X2yzh9 : Ah, that was delicious
+22-03:SAY: Danny Larson/Dervin366 : So you killed yourself?
+22-03:SAY: Boris Berko/CaptainBG : How&#39;s the station going?
+22-03:SAY: Desmond Taggart/Topkasa : prints, please
+22-03:SAY: Ghost/Forteen : Yeah
+22-03:SAY: Danny Larson/Dervin366 : Jesus christ.
+22-03:SAY: Desmond Taggart/Topkasa : good
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;I think that death really shocked me now i see chairs turning them selves
+22-03:SAY: Danny Larson/Dervin366 : Atleast I killed myself for a reason.
+22-03:SAY: Ghost/Forteen : Tried to make it look like a giant blob of flesh
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s odd.
+22-03:SAY: Ghost/Forteen : But it didn&#39;t go too well
+22-03:SAY: Jade/Guest-2337011188 : It&#39;s like I&#39;m hearing my food talk.
+22-03:SAY: Danny Larson/Dervin366 : I like how they didn&#39;t even try to revive me.
+22-03:SAY: Jade/Guest-2337011188 : Om nom nom.
+22-03:SAY: Danny Larson/Dervin366 : Assholes!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : All good in here?
+22-03:SAY: Ghost/Forteen : THe cryo was rjust right there
+22-03:SAY: Boris Berko/CaptainBG : The in flight movie sucked.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Yeah
+22-03:SAY: Danny Larson/Dervin366 : I was in medbay..
+22-03:SAY: Ghost/Forteen : Were you the traitor?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : These monkeys are crazy
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Good good, be nice to the monkeys
+22-03:SAY: Danny Larson/Dervin366 : Its rev.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : a real pain in the rear
+22-03:SAY: Ghost/Forteen : Oh
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yea they normaly are
+22-03:SAY: Desmond Taggart/Topkasa : report to the plasma lab, please
+22-03:SAY: Desmond Taggart/Topkasa : ;Jade
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : I thought it wasn&#39;t that bad.
+22-03:SAY: Desmond Taggart/Topkasa : ;I&#39;ve assigned you a plasma researcher
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Stay and chat, why don&#39;t you
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Good luck hope you make a break through
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Oh ok
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : Later.
+22-03:SAY: Desmond Taggart/Topkasa : Uvash, do you want an assignment as well?
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : I don&#39;t think so.
+22-03:SAY: Desmond Taggart/Topkasa : all right
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : DAMN YOU HEADSWE
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : DAMN YOU
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : I may have fucked something up, damnit...
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I just got murked
+22-03:OOC: Danny Larson/Dervin366 : Murked?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Stupid flashes
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Stupid security
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : OOps
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Dude im wearing glasses
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : What can I say?
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : Hey!
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : Come back here!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;HoS i need you at the brig
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;A man just tried to flash me
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Where&#39;s my freedom implant when I need it?
+22-03:SAY: Uvash Murderedcabinet/Outcast Orange : Meh.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Know what I mean?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Wheres your what?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I can offer you power
+22-03:SAY: Ghost/Forteen : What&#39;s the biggest beard style?
+22-03:SAY: Danny Larson/Dervin366 : Dunno.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;And hes rambeling on about a freedom planter...
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Power beyond your wildest dreams
+22-03:SAY: Danny Larson/Dervin366 : I have a goatee.
+22-03:SAY: Danny Larson/Dervin366 : Its pretty sex.
+22-03:SAY: Danny Larson/Dervin366 : Sexy*
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You won&#39;t have to answer to that silly Head anymore
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : NOW
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : DO IT
+22-03:SAY: Cog Bedhammer/X2yzh9 : Was this the man
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yes sir
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : SAVE YOURSeLF
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : FIGHT THE POWER
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : FIGHT THE POWER
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Dervin366 from 24.154.218.115
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Nomal
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Was that doctor the man?
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Dervin366 from 24.154.218.115
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; If so keep him in for 2 minutes, confiscate his flash and any other possibly dangerous or illegal items, and set him free
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I hope you like the orange
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Understood and he is the geneticist
+22-03:SAY: Boris Berko/CaptainBG : ;Do we have a HoR?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : In other news, I can offer you a position of power in the new station order, if you only help me.
+22-03:OOC: Danny Larson/Dervin366 : I hate my life.
+22-03:SAY: Elemin Taixera/Shiningsoul32 : ;I&#39;m actually in the chapel...someone seems to have broken the windows to the...coffin launcher.
+22-03:SAY: Jade/Guest-2337011188 : Oh hey.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;And he was going on about fighting the power and freedom implants?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Oh yes
+22-03:SAY: Elemin Taixera/Shiningsoul32 : See?
+22-03:SAY: Cog Bedhammer/X2yzh9 : that was me on accidetn
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : YOU CANNOT CARRY INFO FROM ONE ROUND TO THE NEXT, GUYS
+22-03:SAY: Cog Bedhammer/X2yzh9 : we were doing the one gun salute for Danny
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : That&#39;s bad RP
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Oh.
+22-03:OOC: Danny Larson/Dervin366 : I don&#39;t.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Don&#39;t do that
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Well your in here for a few minites so enjoy your stay
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Stupid head of Personel
+22-03:SAY: Jade/Guest-2337011188 : Yo.
+22-03:SAY: Jade/Guest-2337011188 : I need a charge.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I mean Security
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Hey
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Don&#39;t do that
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Please
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I get to keep them safe sorry
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : That&#39;s where they keep the radio!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : What radio?...
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I can&#39;t contact them without my shoe radio!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;HoS?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : What am I going to do without that!
+22-03:ACCESS: Login: Mudgut from 119.12.86.10
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *frown
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I know we can check names with a mouse-over, but can our characters tell each other&#39;s names somehow? Like are there nametags?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;I think he may need to move to the lunatic area
+22-03:OOC: Danny Larson/Dervin366 : Yes.
+22-03:GAME: Mudgut entered as Besmar Filthblood
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Hes going on about shoe phones and stuff
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; SHOE RADIO
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; NOT SHOE PHONE
+22-03:ACCESS: Login: Mono124 from 99.137.45.54
+22-03:OOC: Danny Larson/Dervin366 : If they have no ID when you mouse over them it just says Unknown.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Uh, yes
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : He has a screw loose
+22-03:OOC: George Fisher/Bluephoenix222 : your character can check who the person is by voice, face and id
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll call the prison shuttle and they&#39;ll get him to a top-class luny-bin.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; What do you think this is, a 1970&#39;s spy show?
+22-03:MATTACK: Besmar Filthblood (Mudgut) attacked Besmar Filthblood(Mudgut) with the salami
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Ok
+22-03:OOC: George Fisher/Bluephoenix222 : if he has no id and a gasmask it will say unknown
+22-03:OOC: George Fisher/Bluephoenix222 : but you can hear his voice
+22-03:OOC: Danny Larson/Dervin366 : Yes.
+22-03:OOC: Danny Larson/Dervin366 : What he said.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Want me to go over and look after him there?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Be back in a jiff
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Inb4 shock of doom. :l
+22-03:OOC: Danny Larson/Dervin366 : Unless you get a voice changer.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yes
+22-03:SAY: Cog Bedhammer/X2yzh9 : that&#39;d be nice
+22-03:SAY: Cog Bedhammer/X2yzh9 : Stay here
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Can you free me?
+22-03:MATTACK: Boris Berko (CaptainBG) attacked Boris Berko(CaptainBG) with the analyzer
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I never hurt you
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : No chance in hell Convict
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I never hurt you
+22-03:OOC: Boris Berko/CaptainBG : WHAT!
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : You will know there voice by the message display, right?
+22-03:OOC: Boris Berko/CaptainBG : It happened again!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : You tryed to flash me which i see as a threat
+22-03:MATTACK: Besmar Filthblood (Mudgut) attacked Besmar Filthblood(Mudgut) with the gasmask
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : A threat?
+22-03:OOC: Boris Berko/CaptainBG : Does using tanks of O2 freeze you?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yes sir
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : A disposable camera flash is a threat?
+22-03:OOC: George Fisher/Bluephoenix222 : yes that is correct orang
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : How long?
+22-03:SAY: Cog Bedhammer/X2yzh9 : It will arrive soon, I think
+22-03:OOC: George Fisher/Bluephoenix222 : the first name in the chat window is what he sounds like
+22-03:SAY: Cog Bedhammer/X2yzh9 : Not sure exactly
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ((Is it fixed?))
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; Hey, guys, come save me
+22-03:OOC: George Fisher/Bluephoenix222 : if there are two
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ; I need backup
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((Top said it is))
+22-03:SAY: George Fisher/Bluephoenix222 : ;where
+22-03:OOC: Besmar Filthblood/Mudgut : hi everyone
+22-03:OOC: George Fisher/Bluephoenix222 : hi
+22-03:OOC: Danny Larson/Dervin366 : Hello.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Ill hold them off
+22-03:OOC: Desmond Taggart/Topkasa : hi
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : So now I can&#39;t talk on the radio.
+22-03:OOC: Boris Berko/CaptainBG : So, why did I freeze to death in Plasma Research?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Great
+22-03:OOC: Desmond Taggart/Topkasa : bug
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I&#39;ll be going to bed soon, but first: What do assistants generally do?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Hey!
+22-03:OOC: Boris Berko/CaptainBG : So it is a bug?
+22-03:OOC: George Fisher/Bluephoenix222 : fix lights
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Where are you going?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yeah?
+22-03:OOC: Desmond Taggart/Topkasa : yeah, and we have no idea what the bug is
+22-03:SAY: Cog Bedhammer/X2yzh9 : Need to go check on a few things, be right back
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You want a piece of me?
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I did not just own myself. Nah uh.
+22-03:OOC: Desmond Taggart/Topkasa : what did you do in plasma research before you froze
+22-03:OOC: Cog Bedhammer/X2yzh9 : Top, you fixed the prison shuttle?
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Anoy people Orange mainly or be a heads helper
+22-03:OOC: Desmond Taggart/Topkasa : should have
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Otherwise I should just wander around?
+22-03:ADMIN: Forteen/Likot Stopsword : Looks like he turned on the inlet
+22-03:OOC: Boris Berko/CaptainBG : It&#39;s happened twice, both times after turning connecting and opening an O2 tank.
+22-03:ADMIN: Topkasa/Desmond Taggart : okay, so it&#39;s definitely the inlet that breaks shut
+22-03:OOC: George Fisher/Bluephoenix222 : no you should get a job
+22-03:OOC: Danny Larson/Dervin366 : Jesus Shining!
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Yea get a job 
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Top, did you or did you not fix the prison shuttle
+22-03:OOC: Danny Larson/Dervin366 : What did you do to yourself!?
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : And a perm
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : Assistant is a job.
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; ((Sorry, mischat))
+22-03:OOC: Desmond Taggart/Topkasa : I did fix it
+22-03:OOC: Elemin Taixera/Shiningsoul32 : SHUT UP DERVIN. xD
+22-03:ADMIN: Forteen/Likot Stopsword : I checked before with firemut and a mask
+22-03:OOC: Desmond Taggart/Topkasa : at least, I believe I did
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Oh bugger
+22-03:OOC: Cog Bedhammer/X2yzh9 : Ah, okay top
+22-03:ADMIN: Forteen/Likot Stopsword : Temp is exactly 0
+22-03:ADMIN: Topkasa/Desmond Taggart : hm, strange
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Can I have my ID back?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Please
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: CaptainBG from 124.181.136.61
+22-03:ACCESS: They share computer ID's
+22-03:OOC: Cog Bedhammer/X2yzh9 : How long does it take now, Top?
+22-03:OOC: Cog Bedhammer/X2yzh9 : to arrive
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Noo way convict
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It&#39;s nice when it&#39;s on my uniform
+22-03:SAY: Cog Bedhammer/X2yzh9 : What Nomal said
+22-03:OOC: Desmond Taggart/Topkasa : I don&#39;t know
+22-03:SAY: Elemin Taixera/Shiningsoul32 : Ow...
+22-03:ACCESS: Logout: Forteen
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : The simple pleasures are what get me
+22-03:OOC: Elemin Taixera/Shiningsoul32 : :x
+22-03:OOC: Danny Larson/Dervin366 : ...
+22-03:OOC: Elemin Taixera/Shiningsoul32 : DO NOT SAY ANYTHING DERVIN.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : The simple pleasures are what get me
+22-03:OOC: Elemin Taixera/Shiningsoul32 : JUST STFU. xD
+22-03:OOC: Elemin Taixera/Shiningsoul32 : &lt;3
+22-03:OOC: Danny Larson/Dervin366 : Fail.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I know I know.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I did not have a multitool. Next time i&#39;ll just go around the door.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You already have handcuffs on me
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Shackles?
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I have a multitool.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Hah
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yep..
+22-03:OOC: Boris Berko/CaptainBG : I&#39;m so pissed off right now.
+22-03:SAY: Jade/Guest-2337011188 : ;Cog where you at?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Can I have my shoe radio back?
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Psst. Someone ressurect the dead fail hacker.
+22-03:OOC: Desmond Taggart/Topkasa : sorry captain
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I spaced your shoes to be safe
+22-03:OOC: Desmond Taggart/Topkasa : bugs happen, this one&#39;s a new bug
+22-03:OOC: Desmond Taggart/Topkasa : it came in withint he last couple days in the pipes update
+22-03:SAY: Besmar Filthblood/Mudgut : ;is any one calling for the shuttle
+22-03:OOC: Desmond Taggart/Topkasa : it&#39;ll get fixed
+22-03:SAY: Danny Larson/Dervin366 : Elemin!?
+22-03:OOC: Uvash Murderedcabinet/Outcast Orange : I&#39;ll be back on tomorrow sometime. Later.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;No need
+22-03:SAY: Danny Larson/Dervin366 : Why did you not try to revive me!?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;The stations fine
+22-03:OOC: Boris Berko/CaptainBG : Can I asked to be resurected in ooc or is that ic?
+22-03:OOC: George Fisher/Bluephoenix222 : bye
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Come on shuttle
+22-03:OOC: Desmond Taggart/Topkasa : bug
+22-03:SAY: Cog Bedhammer/X2yzh9 : Moving you to this nearer room
+22-03:OOC: George Fisher/Bluephoenix222 : thats ic
+22-03:OOC: Desmond Taggart/Topkasa : I&#39;ll resurrect yo
+22-03:ACCESS: Logout: Outcast Orange
+22-03:SAY: Cog Bedhammer/X2yzh9 : You can roam freely now around the room
+22-03:OOC: Boris Berko/CaptainBG : Thanks man.
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: CaptainBG from 124.181.136.61
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Danny Larson/Dervin366 : Elemin!
+22-03:SAY: Cog Bedhammer/X2yzh9 : Mostly, that is
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;I found Alemin&#39;s body in southwest corridor
+22-03:OOC: George Fisher/Bluephoenix222 : exept when its a bug ofc
+22-03:SAY: Cog Bedhammer/X2yzh9 : but you know how it goes
+22-03:OOC: Desmond Taggart/Topkasa : just a sec and I&#39;ll bring you back
+22-03:SAY: Besmar Filthblood/Mudgut : ;that why there a lot for dead people
+22-03:SAY: Jade/Guest-2337011188 : Hello my good man.
+22-03:SAY: George Fisher/Bluephoenix222 : *yawn
+22-03:SAY: George Fisher/Bluephoenix222 : hi
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *frown
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *smile
+22-03:SAY: Danny Larson/Dervin366 : ELEMIN!
+22-03:SAY: Jade/Guest-2337011188 : I&#39;d like to order something.
+22-03:OOC: Boris Berko/CaptainBG : It must get really cold because it knocks you out instantly.
+22-03:SAY: Cog Bedhammer/X2yzh9 : So
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Told you hes mad
+22-03:SAY: George Fisher/Bluephoenix222 : what would you like to order
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *glare-Nomal Murderedhammer
+22-03:SAY: Cog Bedhammer/X2yzh9 : Were any of you guys lucky enough to be born on Earth?
+22-03:SAY: Jade/Guest-2337011188 : Hmmmm.
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Yooohooo shuttle where are you?
+22-03:SAY: Cog Bedhammer/X2yzh9 : I certainly wasn&#39;t.
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;a corpse floating in space at the dock
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yup
+22-03:SAY: Jade/Guest-2337011188 : A firesuit and scredriver.
+22-03:SAY: Cog Bedhammer/X2yzh9 : where on Earth?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I don&#39;t really give half a damn
+22-03:SAY: George Fisher/Bluephoenix222 : that all?
+22-03:ADMIN: Topkasa teleported Boris Berko
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : To a 3rd world like family though..
+22-03:SAY: Jade/Guest-2337011188 : Mhmmm.
+22-03:ADMIN: Topkasa Healed/Revived CaptainBG
+22-03:SAY: Cog Bedhammer/X2yzh9 : They talked about it in Nanotrasen History class
+22-03:SAY: George Fisher/Bluephoenix222 : maybe some folders
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It&#39;s been too long
+22-03:SAY: Jade/Guest-2337011188 : Good idea.
+22-03:SAY: George Fisher/Bluephoenix222 : and paper
+22-03:SAY: Jade/Guest-2337011188 : And paper.
+22-03:SAY: George Fisher/Bluephoenix222 : ok
+22-03:SAY: Jade/Guest-2337011188 : And pens.
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : Someone&#39;s body is floatijng out by the docks...
+22-03:SAY: Cog Bedhammer/X2yzh9 : Aye
+22-03:OOC: Boris Berko/CaptainBG : Um, I&#39;m now alive, but still dying.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You will never win
+22-03:OOC: Desmond Taggart/Topkasa : yeah
+22-03:OOC: Desmond Taggart/Topkasa : I&#39;m fixing it
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;d like to go back to Earth for a vacation some day
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You can&#39;t stop the revolution
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : The shuttle is taken its time
+22-03:ADMIN: Topkasa modified Boris Berko's bodytemperature to 20
+22-03:SAY: Jade/Guest-2337011188 : I&#39;ll get it.
+22-03:ADMIN: Topkasa Healed/Revived CaptainBG
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : The revolution? Hahahahaha
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : We will win
+22-03:OOC: Danny Larson/Dervin366 : Elemin!
+22-03:SAY: Desmond Taggart/Topkasa : any better?
+22-03:OOC: Boris Berko/CaptainBG : Thanks.
+22-03:OOC: Desmond Taggart/Topkasa : HEY GUYS
+22-03:SAY: Boris Berko/CaptainBG : I feel weird...
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Thats a good joke
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : You will be purged
+22-03:OOC: Desmond Taggart/Topkasa : STAY OUT OF THE PLASMA LAB
+22-03:OOC: Danny Larson/Dervin366 : I&#39;m trying to talk to you in deadchat.
+22-03:SAY: Boris Berko/CaptainBG : What happened?
+22-03:OOC: Desmond Taggart/Topkasa : IT IS BUGGED TO HELL
+22-03:SAY: Desmond Taggart/Topkasa : you pased out
+22-03:SAY: Boris Berko/CaptainBG : Can I get a job change?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yea yea what ever
+22-03:SAY: Desmond Taggart/Topkasa : might want to head to medlab, and sure
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Urist Bronzedriven(ZCHRIS13) aggressively (now hands) 
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Urist Bronzedriven(ZCHRIS13) aggressively (now hands) 
+22-03:SAY: Desmond Taggart/Topkasa : I have your prints on file, so ID please
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Wow easy sir!
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right
+22-03:SAY: Desmond Taggart/Topkasa : preference?
+22-03:SAY: Unknown/CaptainBG : Anything, except plasma...
+22-03:SAY: Cog Bedhammer/X2yzh9 : er
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : You cant do this!
+22-03:SAY: Cog Bedhammer/X2yzh9 : Point being
+22-03:SAY: Cog Bedhammer/X2yzh9 : Wait
+22-03:SAY: Cog Bedhammer/X2yzh9 : ah, okay?
+22-03:SAY: Desmond Taggart/Topkasa : that good for you?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Not good
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Its gona kill him
+22-03:SAY: Boris Berko/CaptainBG : Fine, thanks.
+22-03:SAY: Cog Bedhammer/X2yzh9 : ahem
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : No air
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : No air in ther
+22-03:OOC: Desmond Taggart/Topkasa : captain
+22-03:SAY: Cog Bedhammer/X2yzh9 : mm
+22-03:SAY: Cog Bedhammer/X2yzh9 : Well
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : No air in there
+22-03:OOC: Desmond Taggart/Topkasa : did you try and turn on the filter inlet at all
+22-03:SAY: Cog Bedhammer/X2yzh9 : anyway
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s odd.
+22-03:SAY: Cog Bedhammer/X2yzh9 : offf to the medbay luny-bin
+22-03:OOC: Desmond Taggart/Topkasa : before you froze, that is
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *cough
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Top, the prison shuttle isint coming can you force it or something?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : But seriously, HIV?
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Ok I found out why I failed at hacking. I was ghettoing it.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Not cool
+22-03:OOC: Boris Berko/CaptainBG : Um.
+22-03:OOC: Danny Larson/Dervin366 : HIV?
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Jade/Guest-2337011188 : They&#39;re dead.
+22-03:ADMIN: Bluephoenix222/George Fisher : when I did it I turned the inlet on and then it happened
+22-03:OOC: Danny Larson/Dervin366 : Where&#39;d you get that from?
+22-03:SAY: Jade/Guest-2337011188 : Don&#39;t mess with them please.
+22-03:OOC: HELP: Cog Bedhammer/X2yzh9 : Top, can you force the prison shuttle to come?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : They made like I had HIV and it was a pain in my rear
+22-03:OOC: Boris Berko/CaptainBG : I turned the tank on to put O2 into the pipes.
+22-03:ADMIN: Topkasa used secret activateprison
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Its here
+22-03:SAY: Cog Bedhammer/X2yzh9 : Oh thankg od
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Oh, fun
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : NO AIR
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : aurgh
+22-03:OOC: Danny Larson/Dervin366 : Atleast your not dead.
+22-03:OOC: Danny Larson/Dervin366 : :&#39;(
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I think...they put me in cryo and forgot me. xD
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Urist Bronzedriven(ZCHRIS13) aggressively (now hands) 
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Bad idea
+22-03:SAY: Jade/Guest-2337011188 : ;Is there anyone around here?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Oh you got it
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right
+22-03:OOC: Danny Larson/Dervin366 : I died right next to cryon.
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Cog Bedhammer/X2yzh9 : Let&#39;s get these controls punched in
+22-03:OOC: Danny Larson/Dervin366 : Cryo*
+22-03:SAY: Jade/Guest-2337011188 : Captain!
+22-03:SAY: Desmond Taggart/Topkasa : yes?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : im good from here
+22-03:SAY: Jade/Guest-2337011188 : Have you seen cog?
+22-03:SAY: Desmond Taggart/Topkasa : no
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Good luck on the station
+22-03:SAY: Jade/Guest-2337011188 : Also the powers going out.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : THIS IS SOOOO LAME
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right, I&#39;ll get you there
+22-03:OOC: Danny Larson/Dervin366 : No one loves me.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right
+22-03:SAY: Desmond Taggart/Topkasa : hm
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I should be kicking ass!
+22-03:SAY: Jade/Guest-2337011188 : And where have you been?
+22-03:SAY: Jade/Guest-2337011188 : Also there&#39;s more dead people.
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Not being shut up in some lousy shuttle
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right, i&#39;ll comm you when i&#39;m back station-side
+22-03:SAY: Cog Bedhammer/X2yzh9 : Then just punch in the controls ((Right click on terminal&gt;take off))
+22-03:SAY: Boris Berko/CaptainBG : ;Hey guys, there&#39;s someone in cryo, anyone know him?
+22-03:SAY: George Fisher/Bluephoenix222 : ;jade your shipment has arrived
+22-03:SAY: Desmond Taggart/Topkasa : great
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Right seya man you have been good company
+22-03:OOC: Elemin Taixera/Shiningsoul32 : SUDDENLY A nothing.
+22-03:ACCESS: Logout: Mudgut
+22-03:SAY: Jade/Guest-2337011188 : Oh boy.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Alright convict
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Hey
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : We&#39;re all alone here
+22-03:OOC: Danny Larson/Dervin366 : And you guys launched me off the station.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Its me and you all alone in space
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Nomal, I&#39;m back station-side. Good luck
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Free me
+22-03:OOC: Danny Larson/Dervin366 : I have no chance of being revived.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Thank you sir
+22-03:SAY: Jade/Guest-2337011188 : A toolbox?
+22-03:SAY: George Fisher/Bluephoenix222 : there was no firesuit to order
+22-03:SAY: George Fisher/Bluephoenix222 : i am sorry
+22-03:SAY: George Fisher/Bluephoenix222 : yes
+22-03:SAY: George Fisher/Bluephoenix222 : there is the screwdriver in there
+22-03:SAY: Jade/Guest-2337011188 : Well thanks.
+22-03:SAY: George Fisher/Bluephoenix222 : no problem
+22-03:SAY: Jade/Guest-2337011188 : I&#39;ll stop by if I think of anything else.
+22-03:SAY: George Fisher/Bluephoenix222 : you should get firesuit from the fire station
+22-03:SAY: George Fisher/Bluephoenix222 : ok
+22-03:SAY: Danny Larson/Dervin366 : ELEMIN!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Ok off we go
+22-03:SAY: Cog Bedhammer/X2yzh9 : Hey
+22-03:SAY: Cog Bedhammer/X2yzh9 : I want to come with
+22-03:ADMIN: Bluephoenix222/George Fisher : we should really add all the items to the supply shuttle
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : You shure?
+22-03:SAY: Cog Bedhammer/X2yzh9 : I have a few old friends back at the prison
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : WHy?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Your a head though
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : There&#39;s nobody on the prison station...
+22-03:ADMIN: Topkasa/Desmond Taggart : yeah, sometime
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : What ever ok hold on
+22-03:SAY: Cog Bedhammer/X2yzh9 : I know, I&#39;ll come back
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : DUR
+22-03:ADMIN: Bluephoenix222/George Fisher : when someone ordered a firesuit I coulnt order it because it was not on the list
+22-03:SAY: Cog Bedhammer/X2yzh9 : When the time is right
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : AAAAAAAAAAAAAAAAAAAA
+22-03:ADMIN: Topkasa/Desmond Taggart : or use the crates method
+22-03:SAY: Cog Bedhammer/X2yzh9 : Ah, the starts are beutifal
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : What the hell
+22-03:SAY: Jade/Guest-2337011188 : Much better.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : holy crap
+22-03:ADMIN: Bluephoenix222/George Fisher : crates method?
+22-03:SAY: Jade/Guest-2337011188 : Have you seen cog?
+22-03:SAY: Desmond Taggart/Topkasa : the power was low earlier
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : You go on in ill get the convict
+22-03:SAY: Desmond Taggart/Topkasa : no, but I heard him ont he radio
+22-03:ADMIN: Topkasa/Desmond Taggart : like the goons have
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Wow
+22-03:ADMIN: Topkasa/Desmond Taggart : order crates of items
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : say &#34;free me and I can give you a position of power in the new order. Together, we can overthrow our oppressors, and conquer the station, ruling side by side with our fellow man.
+22-03:OOC: Cog Bedhammer/X2yzh9 : hehe
+22-03:OOC: Desmond Taggart/Topkasa : ...
+22-03:OOC: Cog Bedhammer/X2yzh9 : big mischat
+22-03:SAY: Jade/Guest-2337011188 : So...
+22-03:OOC: Desmond Taggart/Topkasa : did you mean to say that in SAY?
+22-03:SAY: Desmond Taggart/Topkasa : I have no idea where he is
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Best mischat ever.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : No, it&#39;s just funny as hell
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Lmfao.
+22-03:SAY: Jade/Guest-2337011188 : Don&#39;t you think that&#39;s a little odd?
+22-03:OOC: Danny Larson/Dervin366 : Yes I heard that.
+22-03:SAY: Desmond Taggart/Topkasa : yeah
+22-03:SAY: Cog Bedhammer/X2yzh9 : Ahem
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : free me and I can give you a position of power in the new order. Together, we can overthrow our oppressors, and conquer the station, ruling side by side with our fellow man.
+22-03:SAY: Cog Bedhammer/X2yzh9 : shold we just space em?
+22-03:OOC: Danny Larson/Dervin366 : Since I&#39;ve been dead the whole round.
+22-03:SAY: Jade/Guest-2337011188 : Wanna go investigate?
+22-03:SAY: Desmond Taggart/Topkasa : the crew have been.. strange
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Nah
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Can I ask something totally weird? Actually nevermind it&#39;s better I dont.
+22-03:SAY: Jade/Guest-2337011188 : Also I need to charge my gun.
+22-03:SAY: Desmond Taggart/Topkasa : one person&#39;s been following me around a lot
+22-03:SAY: Desmond Taggart/Topkasa : sure
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : This is gona be fun...
+22-03:OOC: Danny Larson/Dervin366 : I blame Elemin.
+22-03:SAY: Jade/Guest-2337011188 : I don&#39;t follow you alot.
+22-03:SAY: Desmond Taggart/Topkasa : not you
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : VIV LA REVOLUTION
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Shut up Dervin. Just because I fail in revo. &gt;.&lt;
+22-03:SAY: Desmond Taggart/Topkasa : some Uvash fellow
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : SHUT UP
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I&#39;m a fail hacker. Did not have a multi tool.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Oh okay alright
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : If you say so.
+22-03:OOC: Cog Bedhammer/X2yzh9 : Also Top
+22-03:OOC: Cog Bedhammer/X2yzh9 : If your still on
+22-03:SAY: Jade/Guest-2337011188 : What&#39;s up with that?
+22-03:SAY: Desmond Taggart/Topkasa : oh
+22-03:OOC: Danny Larson/Dervin366 : Your a horrible teammate.
+22-03:SAY: Desmond Taggart/Topkasa : I left a T-ray scanning in my cabin
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m taking a nap, so don&#39;t be worried if I don&#39;t wake up
+22-03:OOC: Cog Bedhammer/X2yzh9 : the prison shuttle doesn&#39;t lead to the prison station
+22-03:OOC: Desmond Taggart/Topkasa : I am
+22-03:OOC: Cog Bedhammer/X2yzh9 : just empty space
+22-03:OOC: Desmond Taggart/Topkasa : ...whoops
+22-03:SAY: Jade/Guest-2337011188 : Ok...
+22-03:OOC: HELP: Elemin Taixera/Shiningsoul32 : Can you do me a favor? Ressurect Dervin in game but outside of the station with no internals. Thanks. &lt;3
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : We here?
+22-03:SAY: Jade/Guest-2337011188 : Well I&#39;m charged.
+22-03:OOC: Cog Bedhammer/X2yzh9 : can you force it there?
+22-03:OOC: Desmond Taggart/Topkasa : sorry, no
+22-03:SAY: Boris Berko/CaptainBG : ;What&#39;s going to happen to the two stiffs in the medbay.
+22-03:ADMIN: PM: Bluephoenix222->Shiningsoul32 : why should we do that?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Let&#39;s uh
+22-03:ADMIN: PM: Shiningsoul32->Bluephoenix222 : I have cookies and lots of them?
+22-03:SAY: Cog Bedhammer/X2yzh9 : *cough
+22-03:SAY: Cog Bedhammer/X2yzh9 : hey
+22-03:SAY: Desmond Taggart/Topkasa : you want a baton?
+22-03:SAY: Jade/Guest-2337011188 : There&#39;s a prisoner.
+22-03:OOC: Cog Bedhammer/X2yzh9 : nevermind
+22-03:SAY: Jade/Guest-2337011188 : Nah I&#39;m good.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Welcome to prison convict
+22-03:OOC: Cog Bedhammer/X2yzh9 : it just takes a long time to travel
+22-03:SAY: Cog Bedhammer/X2yzh9 : we&#39;re here!
+22-03:SAY: Jade/Guest-2337011188 : Or was.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Got the prisoner?
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I liked it more when it was bugged...andIkilledeveryoneonboard.
+22-03:SAY: Jade/Guest-2337011188 : In the brig...
+22-03:SAY: Cog Bedhammer/X2yzh9 : wait
+22-03:SAY: Cog Bedhammer/X2yzh9 : stay here
+22-03:SAY: Jade/Guest-2337011188 : He&#39;s gone!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Set the solars could you?
+22-03:SAY: Desmond Taggart/Topkasa : looks like they took the prison shuttle
+22-03:SAY: Jade/Guest-2337011188 : No air!
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yea I will
+22-03:SAY: Cog Bedhammer/X2yzh9 : also, come with me
+22-03:SAY: Desmond Taggart/Topkasa : those idiots
+22-03:SAY: Desmond Taggart/Topkasa : they can&#39;t even operate a damn airlock
+22-03:SAY: Cog Bedhammer/X2yzh9 : we&#39;ll find a way
+22-03:SAY: Jade/Guest-2337011188 : Should we go after them?
+22-03:SAY: Cog Bedhammer/X2yzh9 : where is the solars
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Oh hi
+22-03:ADMIN: PM: Shiningsoul32->Bluephoenix222 : It was a joke by the way Blue. Sorry for the bother. <3
+22-03:SAY: Desmond Taggart/Topkasa : who was with them?
+22-03:OOC: Danny Larson/Dervin366 : I wish Urist would break out.
+22-03:OOC: Danny Larson/Dervin366 : And rip their eyes out.
+22-03:SAY: Jade/Guest-2337011188 : There was a security guard.
+22-03:ADMIN: PM: Bluephoenix222->Shiningsoul32 : Yeah no problem
+22-03:SAY: Jade/Guest-2337011188 : My geneticist.
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s all I saw on camera.
+22-03:ACCESS: Login: Guest-3278432552 from 69.114.95.49
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right
+22-03:SAY: Jade/Guest-2337011188 : That was a while ago though.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Ok
+22-03:SAY: Desmond Taggart/Topkasa : hm
+22-03:SAY: Cog Bedhammer/X2yzh9 : where&#39;s the solars?
+22-03:SAY: Desmond Taggart/Topkasa : strange
+22-03:ADMIN: PM: Bluephoenix222->Shiningsoul32 : Just dont use adminhelp for that please :P
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I&#39;m trying, mate
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Hold the prisnor
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I&#39;m trying
+22-03:SAY: Desmond Taggart/Topkasa : ;Captain to the Prison shuttle passengers
+22-03:SAY: Cog Bedhammer/X2yzh9 : Alright
+22-03:SAY: Desmond Taggart/Topkasa : ;Please report your situation
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; This is HoP bedhammer
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; We&#39;ve arrived and are setting up the solars
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Got a crowbar?
+22-03:ADMIN: PM: Shiningsoul32->Bluephoenix222 : Mk i'm sorry. :[
+22-03:SAY: Desmond Taggart/Topkasa : ;Cog!  Where are you
+22-03:SAY: Cog Bedhammer/X2yzh9 : yeah
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Oh, doors?
+22-03:SAY: Desmond Taggart/Topkasa : ;Prison station?  Why are you there?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Fancy
+22-03:SAY: Jade/Guest-2337011188 : Why is there a prison station anyway.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Chuck her over would you?
+22-03:SAY: Cog Bedhammer/X2yzh9 : i do, pull the prisoner
+22-03:SAY: Cog Bedhammer/X2yzh9 : to where?
+22-03:SAY: Desmond Taggart/Topkasa : most stations are serviced by it when they need someone off their station
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : hi
+22-03:SAY: Desmond Taggart/Topkasa : we don&#39;t use it much, though
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I just need the bar please
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Transporting high-value prisoner
+22-03:OOC: Danny Larson/Dervin366 : You ever seen Urist naked?
+22-03:SAY: Jade/Guest-2337011188 : Makes sense.
+22-03:SAY: Desmond Taggart/Topkasa : ;Who and why, Cog
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : don&#39;t do that to me
+22-03:SAY: Desmond Taggart/Topkasa : so it tends to be neglected
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; Urist bronzedriven
+22-03:SAY: Desmond Taggart/Topkasa : no power, little food...  that sort of thing
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; For alot of reasons, mutliple infractions, inciting revolution
+22-03:SAY: Desmond Taggart/Topkasa : ;Why have you arrested our genetecist?
+22-03:SAY: Desmond Taggart/Topkasa : ((it&#39;s geneticist, isn&#39;t it... )
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : OH SNAP
+22-03:SAY: Jade/Guest-2337011188 : Ayup.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : BACKFIRE
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Is it just me or does the butter look like top wrote in &#34;Bu-&#34; then got bored and made it a squigly line?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;No power? HoR you got an APC cleared ID?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yea I do Nomal
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; I do Nomal
+22-03:SAY: Cog Bedhammer/X2yzh9 : ; where you at?
+22-03:OOC: George Fisher/Bluephoenix222 : it says butter for me
+22-03:OOC: Dejano Parx/Guest-3278432552 : Hey, nub here. Anyone mind helping me out?
+22-03:OOC: Danny Larson/Dervin366 : I would.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Ohhh
+22-03:OOC: George Fisher/Bluephoenix222 : if you have question just ask
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Bummer
+22-03:OOC: Danny Larson/Dervin366 : If I wasn&#39;t dead.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Dam it we are stuffed
+22-03:SAY: Cog Bedhammer/X2yzh9 : Well
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I know how to fix this, but you&#39;ll have to release me first
+22-03:SAY: Desmond Taggart/Topkasa : anywhere you want to go?
+22-03:SAY: Desmond Taggart/Topkasa : we know where Cog is now
+22-03:OOC: Dejano Parx/Guest-3278432552 : Well, what the hell should I do first? I just joined and i&#39;m pretty much naked and clueless
+22-03:SAY: Cog Bedhammer/X2yzh9 : Should we just leave him in the prisoner garden?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Yea
+22-03:SAY: Cog Bedhammer/X2yzh9 : Shut up Urist
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I can fix this
+22-03:SAY: Jade/Guest-2337011188 : I&#39;d like to check on urist.
+22-03:OOC: George Fisher/Bluephoenix222 : naked?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I can
+22-03:SAY: Desmond Taggart/Topkasa : okay
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : seriously
+22-03:SAY: Jade/Guest-2337011188 : Since he&#39;s research staff.
+22-03:SAY: Desmond Taggart/Topkasa : I&#39;ll request they send the shuttle
+22-03:OOC: George Fisher/Bluephoenix222 : whats your characters name
+22-03:OOC: Dejano Parx/Guest-3278432552 : Yep
+22-03:OOC: HELP: Cog Bedhammer/X2yzh9 : top, are the solar arrays on prison station buggeD?
+22-03:OOC: Dejano Parx/Guest-3278432552 : Dejano Parx
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : How then? And if you say you get an easyer time
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It&#39;s not even that hard
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((Hold on, adminhelping about the solar arrays))
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I mean the label on the actual butter itself Blue.
+22-03:ADMIN: PM: Topkasa->X2yzh9 : allt he solar stuff is just wierd
+22-03:OOC: George Fisher/Bluephoenix222 : oh
+22-03:SAY: Desmond Taggart/Topkasa : it&#39;s on its way
+22-03:SAY: Jade/Guest-2337011188 : Thanks.
+22-03:OOC: George Fisher/Bluephoenix222 : right click on the ground underneath you
+22-03:ADMIN: PM: X2yzh9->Topkasa : Zoom to me.. We see no solars
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It&#39;s easier than you would think, but I have to run around and check to make sure
+22-03:OOC: George Fisher/Bluephoenix222 : and select ready
+22-03:SAY: Jade/Guest-2337011188 : You&#39;re just gonna chill out here?
+22-03:SAY: Desmond Taggart/Topkasa : ((actually I have to warp to the p. station to check a bug report :P))
+22-03:SAY: Desmond Taggart/Topkasa : yeah
+22-03:SAY: Jade/Guest-2337011188 : I&#39;ll look the other way.
+22-03:OOC: George Fisher/Bluephoenix222 : right click on you, begin, and click ready
+22-03:ADMIN: PM: Topkasa->X2yzh9 : what's your name
+22-03:ADMIN: PM: X2yzh9->Topkasa : Cog Bedhammer
+22-03:ADMIN: Topkasa jumped to Cog Bedhammer
+22-03:OOC: Boris Berko/CaptainBG : Or just type in &#39;Ready&#39;
+22-03:GAME: Guest-3278432552 entered as Dejano Parx
+22-03:OOC: George Fisher/Bluephoenix222 : or that
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((Hold on, he&#39;s responding))
+22-03:OOC: Dejano Parx/Guest-3278432552 : Alright, so I&#39;m here now
+22-03:SAY: Desmond Taggart/Topkasa : the solar panels are on the north and south walls of the station
+22-03:SAY: Desmond Taggart/Topkasa : you can&#39;t see them from here
+22-03:OOC: George Fisher/Bluephoenix222 : now you are on the arrivals shuttle
+22-03:SAY: Desmond Taggart/Topkasa : but they&#39;re there
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Oh hi
+22-03:SAY: George Fisher/Bluephoenix222 : proceed to the south
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : How did you get here, captain?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Alright, will power them up
+22-03:SAY: Desmond Taggart/Topkasa : hope you brought a cell :P
+22-03:SAY: Cog Bedhammer/X2yzh9 : Nomal, stay here, I&#39;ll-
+22-03:SAY: Cog Bedhammer/X2yzh9 : Shit
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Nope...
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : We may need some Lithium phosphate
+22-03:OOC: Dejano Parx/Guest-3278432552 : So what next?
+22-03:OOC: George Fisher/Bluephoenix222 : now if the HoP would do his job right there would be someone sitting on the desk
+22-03:SAY: Desmond Taggart/Topkasa : ((I&#39;ll spawn you one for convenience))
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yes
+22-03:SAY: Cog Bedhammer/X2yzh9 : yalso
+22-03:OOC: Boris Berko/CaptainBG : Wow, I&#39;m really lagging.
+22-03:SAY: Cog Bedhammer/X2yzh9 : a question
+22-03:ADMIN: Topkasa created /obj/item/weapon/cell
+22-03:SAY: Cog Bedhammer/X2yzh9 : where do we insert the cell?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : APC
+22-03:OOC: George Fisher/Bluephoenix222 : type say ; HoP or captain i need a job
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : inside the apc
+22-03:SAY: Cog Bedhammer/X2yzh9 : any one of them?
+22-03:ADMIN: Topkasa modified power cell's charge to 100000
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : We need an ID though 
+22-03:SAY: Cog Bedhammer/X2yzh9 : Mine will work
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : you need a crowbar
+22-03:OOC: Dejano Parx/Guest-3278432552 : I could use a job too I guess
+22-03:SAY: Cog Bedhammer/X2yzh9 : Alright, so this APC right?
+22-03:SAY: Desmond Taggart/Topkasa : yes
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Thanks alot
+22-03:SAY: Desmond Taggart/Topkasa : now set up the solar computer
+22-03:SAY: Desmond Taggart/Topkasa : I&#39;m off
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yeah, thanks Top
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ALready am
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I can do this
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Guys
+22-03:ADMIN: Topkasa jumped to Captain's Quarters
+22-03:OOC: George Fisher/Bluephoenix222 : yeah once you got a job I will help you further unless you dont want one right now
+22-03:SAY: Cog Bedhammer/X2yzh9 : Also, can I have the crowbar?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Convict dont make me start
+22-03:OOC: George Fisher/Bluephoenix222 : and prefered to learn the basics
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Dont worry its working
+22-03:SAY: Boris Berko/CaptainBG : ;I&#39;m going to test something I made in arrivals, if you see me knocked out, try and revive me.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I helped out my close friend, he loved this type of stuff
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : The thing is on im just setting it up
+22-03:OOC: Dejano Parx/Guest-3278432552 : Learning the basics first sounds like a better idea
+22-03:OOC: George Fisher/Bluephoenix222 : ok
+22-03:OOC: Dejano Parx/Guest-3278432552 : I&#39;ve got movement down it seems. xD
+22-03:SAY: Cog Bedhammer/X2yzh9 : also
+22-03:SAY: Cog Bedhammer/X2yzh9 : there&#39;s the power cell
+22-03:SAY: Cog Bedhammer/X2yzh9 : Below you
+22-03:OOC: George Fisher/Bluephoenix222 : if you want to say something in character type say press space and then type what you want to say
+22-03:SAY: Boris Berko/CaptainBG : I shall test my new drug!
+22-03:MATTACK: Boris Berko(CaptainBG) clicked on Boris Berko(CaptainBG) with a syringe
+22-03:MATTACK: Boris Berko(CaptainBG) injected Boris Berko(CaptainBG) with a syringe filled with 
+22-03:OOC: George Fisher/Bluephoenix222 : that way people that can see you will hear you
+22-03:MATTACK: Boris Berko(CaptainBG) clicked on Boris Berko(CaptainBG) with a syringe
+22-03:MATTACK: Boris Berko(CaptainBG) injected Boris Berko(CaptainBG) with a syringe filled with 
+22-03:SAY: Cog Bedhammer/X2yzh9 : Now, we need to power This very APC right to my right if i&#39;m correct
+22-03:MATTACK: Boris Berko(CaptainBG) clicked on Boris Berko(CaptainBG) with a syringe
+22-03:MATTACK: Boris Berko(CaptainBG) injected Boris Berko(CaptainBG) with a syringe filled with 
+22-03:MATTACK: Boris Berko(CaptainBG) clicked on Boris Berko(CaptainBG) with a syringe
+22-03:MATTACK: Boris Berko(CaptainBG) injected Boris Berko(CaptainBG) with a syringe filled with 
+22-03:SAY: Dejano Parx/Guest-3278432552 : Hey all
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It&#39;s already powered
+22-03:SAY: Cog Bedhammer/X2yzh9 : convict, let me get you to your cell real quick, o?
+22-03:SAY: Boris Berko/CaptainBG : It&#39;s not working!
+22-03:SAY: Cog Bedhammer/X2yzh9 : okay
+22-03:SAY: Boris Berko/CaptainBG : Hey, man...
+22-03:SAY: Boris Berko/CaptainBG : My drug didn&#39;t work...
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : OKAY
+22-03:SAY: Dejano Parx/Guest-3278432552 : What ain&#39;t working?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Dude
+22-03:OOC: George Fisher/Bluephoenix222 : if you want to let everyone hear what you said type say press space and type ; and then type what you want to say
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : yes!
+22-03:OOC: George Fisher/Bluephoenix222 : that way people on the entire station will hear what you say
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : finally
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;How&#39;s the power looking?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : lights
+22-03:OOC: George Fisher/Bluephoenix222 : if they got a headset that is
+22-03:SAY: Boris Berko/CaptainBG : It was chloroform.
+22-03:SAY: Cog Bedhammer/X2yzh9 : working?
+22-03:OOC: Dejano Parx/Guest-3278432552 : alright
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : get the lights on man,
+22-03:SAY: Boris Berko/CaptainBG : But. I&#39;m not sure how to use it.
+22-03:OOC: George Fisher/Bluephoenix222 : try it now
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Hold on
+22-03:SAY: Dejano Parx/Guest-3278432552 : ; Test
+22-03:OOC: George Fisher/Bluephoenix222 : ok thats it
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Its gona take a while to find a sun
+22-03:OOC: Dejano Parx/Guest-3278432552 : Eh?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yeah
+22-03:OOC: Dejano Parx/Guest-3278432552 : Cool
+22-03:OOC: George Fisher/Bluephoenix222 : the green text is the radio
+22-03:SAY: Cog Bedhammer/X2yzh9 : that&#39;s true
+22-03:SAY: Cog Bedhammer/X2yzh9 : You know
+22-03:OOC: George Fisher/Bluephoenix222 : the black is normal voice
+22-03:SAY: Boris Berko/CaptainBG : ;Another failed experiment!
+22-03:SAY: Cog Bedhammer/X2yzh9 : the plasma will run out some day
+22-03:SAY: Cog Bedhammer/X2yzh9 : just like the oil back on Earth
+22-03:OOC: George Fisher/Bluephoenix222 : now  we learn to pick stuff up
+22-03:OOC: Dejano Parx/Guest-3278432552 : how about putting stuff in my inventory or something?
+22-03:OOC: George Fisher/Bluephoenix222 : click on it
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I ant planing to stay here that long
+22-03:OOC: George Fisher/Bluephoenix222 : now click drop to drop it
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Oil? HAHAHAHA good joke man i wish there was oil left
+22-03:MATTACK: Dejano Parx (Guest-3278432552) attacked Dejano Parx(Guest-3278432552) with Fire Extinguisher
+22-03:OOC: George Fisher/Bluephoenix222 : to switch hands click drop in the menu
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yeah, everything is synthetic plastic nowadays.
+22-03:OOC: George Fisher/Bluephoenix222 : you find drop in the bottom of your gaming screen
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Get the lights working, will ya?
+22-03:SAY: Cog Bedhammer/X2yzh9 : We&#39;re trying Urist
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Dervin366 from 24.154.218.115
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Jade/Guest-2337011188 : Oh hey.
+22-03:SAY: Desmond Taggart/Topkasa : *nods
+22-03:SAY: Desmond Taggart/Topkasa : *nod
+22-03:SAY: Jade/Guest-2337011188 : Shuttle here?
+22-03:SAY: Desmond Taggart/Topkasa : not yet
+22-03:SAY: Desmond Taggart/Topkasa : still waiting
+22-03:SAY: Jade/Guest-2337011188 : Been looking at the power network.
+22-03:SAY: Desmond Taggart/Topkasa : oh?
+22-03:SAY: Boris Berko/CaptainBG : ;Where can I find a shamwow?
+22-03:SAY: Jade/Guest-2337011188 : A few of those apcs looks overloaded.
+22-03:SAY: Desmond Taggart/Topkasa : hm
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ((is there no sun or what?))
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((I hope there is))
+22-03:SAY: Desmond Taggart/Topkasa : yeah
+22-03:SAY: Desmond Taggart/Topkasa : some of the lighting systems draw a fair bit
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((We&#39;re getting close, I think?))
+22-03:SAY: Jade/Guest-2337011188 : Might want to consider breaking up the load.
+22-03:SAY: Desmond Taggart/Topkasa : ((used to be, the south hall drew over 30 Kw))
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ((You would hope its about to hit 360))
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I DIDN&#39;T EVEN RESIST ARREST
+22-03:SAY: Jade/Guest-2337011188 : Or maybe even an auxillary powernet.
+22-03:OOC: George Fisher/Bluephoenix222 : sorry but I have to go now, if you need further help type adminhelp to get help from admins or ask in ooc
+22-03:SAY: Desmond Taggart/Topkasa : yeah, I&#39;ll talk to Centcom about that
+22-03:SAY: Cog Bedhammer/X2yzh9 : ((60 degrees left))
+22-03:OOC: George Fisher/Bluephoenix222 : bye all ill back in 1 hour or so
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I didn&#39;t even resist arrest, you can&#39;t do this to me
+22-03:ACCESS: Logout: Bluephoenix222
+22-03:SAY: Desmond Taggart/Topkasa : I&#39;ll see if the prison shuttle is here yet
+22-03:SAY: Cog Bedhammer/X2yzh9 : Urist
+22-03:SAY: Jade/Guest-2337011188 : Alrighty.
+22-03:SAY: Cog Bedhammer/X2yzh9 : what do you mean?
+22-03:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : I didn&#39;t even resist arrest!
+22-03:ADMIN: PM: Topkasa->ZCHRIS13 : what happened
+22-03:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : I do not deserve to be on the prison station
+22-03:SAY: Desmond Taggart/Topkasa : ;Not here yet, Jade
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : There is no solar power on the prison station it appear
+22-03:SAY: Cog Bedhammer/X2yzh9 : Weird
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : YOU JUST SUCK
+22-03:SAY: Cog Bedhammer/X2yzh9 : We still have some unexlpored degrees left?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *help 
+22-03:SAY: Cog Bedhammer/X2yzh9 : Urist, sahddup
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : *help
+22-03:OOC: Cog Bedhammer/X2yzh9 : What wrongnumber said
+22-03:OOC: Desmond Taggart/Topkasa : the solar system is buggy as all hell
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : YOU JUST SUCK AT IT
+22-03:OOC: Dejano Parx/Guest-3278432552 : how do I equip things?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : If you want me to do it, I can
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I wont run
+22-03:OOC: Cog Bedhammer/X2yzh9 : Zchris
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Amazingly making the power units full works.... hmm
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Not like I have anywere to go
+22-03:OOC: Cog Bedhammer/X2yzh9 : Seriously, we went through every signel degree
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It takes a while for the panels to turn
+22-03:SAY: Jade/Guest-2337011188 : You&#39;re not supposed to be in here.
+22-03:SAY: Boris Berko/CaptainBG : Why not?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : It takes a while for the panels to turn
+22-03:SAY: Jade/Guest-2337011188 : Oh wait I guess you are.
+22-03:OOC: Desmond Taggart/Topkasa : guys
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : And the sun turns too
+22-03:SAY: Jade/Guest-2337011188 : Why aren&#39;t you wearing white?
+22-03:OOC: Desmond Taggart/Topkasa : the reason you aren&#39;t getting any power notification
+22-03:OOC: Desmond Taggart/Topkasa : is taht the solar control computer&#39;s connected to the wrong powernet
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : HAHAHA
+22-03:SAY: Boris Berko/CaptainBG : Never got around to wearing my lab coat.
+22-03:OOC: Desmond Taggart/Topkasa : you&#39;ll have to guess it based on the SMES charge lights
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Yes
+22-03:OOC: Desmond Taggart/Topkasa : I&#39;ll fix it on the map now
+22-03:SAY: Jade/Guest-2337011188 : Probably should.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Oh wait, I can do this now
+22-03:SAY: Cog Bedhammer/X2yzh9 : watch
+22-03:SAY: Jade/Guest-2337011188 : Anyway don&#39;t kill yourself.
+22-03:OOC: Desmond Taggart/Topkasa : the control computer is reporting the power available OUT of the smes units, not IN to them
+22-03:SAY: Boris Berko/CaptainBG : It&#39;s missing, but I&#39;ll get one.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : low power 
+22-03:OOC: Desmond Taggart/Topkasa : fixed in the map
+22-03:SAY: Cog Bedhammer/X2yzh9 : weird
+22-03:OOC: Desmond Taggart/Topkasa : fix goes in next round
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Good
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Nobody is being sent to the prison station though
+22-03:SAY: Cog Bedhammer/X2yzh9 : not exactly workin
+22-03:SAY: Boris Berko/CaptainBG : ;I shall be making another test!
+22-03:MATTACK: Dejano Parx (Guest-3278432552) attacked Uvash Murderedcabinet(Outcast Orange) with the toolbox
+22-03:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : WHY THE PRISON STATION
+22-03:OOC: Cog Bedhammer/X2yzh9 : Top, in the meantime can you use your awesome admin powers to turn the power on anyway?
+22-03:SAY: Boris Berko/CaptainBG : ;To arrivals!
+22-03:SAY: Desmond Taggart/Topkasa : still nothing
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Yeah
+22-03:SAY: Desmond Taggart/Topkasa : no idea where it is
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I need light
+22-03:SAY: Dejano Parx/Guest-3278432552 : erm, shit
+22-03:OOC: Desmond Taggart/Topkasa : I can go that
+22-03:SAY: Dejano Parx/Guest-3278432552 : sayMy bad
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : My master plan needs power
+22-03:SAY: Jade/Guest-2337011188 : Maybe the signal wasn&#39;t received.
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : there&#39;s no power?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I cannot escape without power
+22-03:SAY: Cog Bedhammer/X2yzh9 : Also, crowbar please?
+22-03:SAY: Dejano Parx/Guest-3278432552 :  new to the game, still trying to figure shit out
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Thats right people its PRISON BREAK TIME
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : PRISON BREAK TIME
+22-03:ADMIN: Topkasa jumped to Cog Bedhammer
+22-03:MATTACK: Boris Berko(CaptainBG) clicked on Boris Berko(CaptainBG) with a syringe
+22-03:MATTACK: Boris Berko(CaptainBG) injected Boris Berko(CaptainBG) with a syringe filled with 
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : You do realise just how epic the prison station is?
+22-03:SAY: Boris Berko/CaptainBG : DAYM!
+22-03:ADMIN: Topkasa modified power storage unit's charge to 1e+012
+22-03:OOC: Danny Larson/Dervin366 : Epic!
+22-03:OOC: Danny Larson/Dervin366 : I want to live there.
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : I&#39;m walking around the station and everything is powered fine
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Alcatraz level
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Got milk?
+22-03:ADMIN: Topkasa modified power storage unit's charge to 1e+011
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : PRISON STATION
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : NOT NORMAL STATION
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : oooh
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : DOFUS
+22-03:OOC: Danny Larson/Dervin366 : I want to live there next round!
+22-03:SAY: Desmond Taggart/Topkasa : there we go
+22-03:SAY: Cog Bedhammer/X2yzh9 : YES
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : HI
+22-03:SAY: Boris Berko/CaptainBG : Wow...
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Cheers sir
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : ADMIN POOF AWAY!!!
+22-03:OOC: Danny Larson/Dervin366 : That actually doesn&#39;t sound that bad.
+22-03:SAY: Boris Berko/CaptainBG : ;I think... it worked.
+22-03:OOC: Danny Larson/Dervin366 : As long as theres no showers.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : It&#39;s alcatraz level epic
+22-03:SAY: Cog Bedhammer/X2yzh9 : Alright, prisone
+22-03:OOC: Danny Larson/Dervin366 : *shudders*
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Terrible
+22-03:SAY: Cog Bedhammer/X2yzh9 : We&#39;ve got your schedule
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : you suck
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Come fight me
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I cant close the dam door
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: They share computer ID's
+22-03:SAY: Cog Bedhammer/X2yzh9 : Morning, eat shitty breakfast, evening, walk in shitty garden, midnight sleep
+22-03:ACCESS: Logout: CaptainBG
+22-03:SAY: Dejano Parx/Guest-3278432552 : ooc erm, ca someone please help a noob at the arrival checkpoint?
+22-03:SAY: Cog Bedhammer/X2yzh9 : HOKE HOGAN STLYE
+22-03:SAY: Cog Bedhammer/X2yzh9 : WE GONNA IFGHt
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Did he just take his cuffs off?
+22-03:OOC: Dejano Parx/Guest-3278432552 : erm, can someone please help a noob at the arrival checkpoint?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;M DUALWIELDING CUFFS
+22-03:SAY: Cog Bedhammer/X2yzh9 : I took em off
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : YOU GONNA DIE
+22-03:OOC: Danny Larson/Dervin366 : The breakfast is delicious in the prison station.
+22-03:SAY: Cog Bedhammer/X2yzh9 : so he could wallk aroudn his cell
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Restrain him
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Back on the bed
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with Stun Baton
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : head of personell should be helping you, guest
+22-03:SAY: Cog Bedhammer/X2yzh9 : woops
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Bit to hard man ill get the kit
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : NUTS
+22-03:SAY: Jade/Guest-2337011188 : Hello.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : nuts
+22-03:OOC: Desmond Taggart/Topkasa : the HoP isn&#39;t available
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Cuff him and restrain him
+22-03:OOC: Dejano Parx/Guest-3278432552 : well I can&#39;t seem to find him
+22-03:OOC: Desmond Taggart/Topkasa : and I&#39;m stuck dealing with some bugs
+22-03:OOC: Danny Larson/Dervin366 : I call abuse!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Have fun now
+22-03:SAY: Jade/Guest-2337011188 : How are you?
+22-03:OOC: Danny Larson/Dervin366 : On the police.
+22-03:ADMIN: Topkasa modified power cell's charge to 1000
+22-03:ADMIN: Topkasa modified Prison Security APC's cell to the power cell
+22-03:OOC: HELP: Elemin Taixera/Shiningsoul32 : As a dead man can I request to be a prison warden and stay on the prison station only? :O
+22-03:SAY: Cog Bedhammer/X2yzh9 : We&#39;ll be bac kin 5
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Urist Bronzedriven
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Cuff him again
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at the artificial turf
+22-03:SAY: Dejano Parx/Guest-3278432552 : A bit confused to be honest, I
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at the artificial turf
+22-03:SAY: Desmond Taggart/Topkasa : WHAT ARE YOU TWO DOING
+22-03:SAY: Jade/Guest-2337011188 : It&#39;s quite alright.
+22-03:SAY: Dejano Parx/Guest-3278432552 : I&#39;m new here. Name&#39;s Dejano.
+22-03:SAY: Desmond Taggart/Topkasa : quit abusing the prisoner!
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : so, you guys are all on the prisons hip/
+22-03:SAY: Jade/Guest-2337011188 : Let me give you the tour eh?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Cog isint to bright about not taking cuffs off
+22-03:SAY: Dejano Parx/Guest-3278432552 : That&#39;d be nice, thanks.
+22-03:SAY: Jade/Guest-2337011188 : Easy there.
+22-03:SAY: Dejano Parx/Guest-3278432552 : heh
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s the bar.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : X2 i&#39;m laughing so hard at you right now. xD
+22-03:SAY: Jade/Guest-2337011188 : You drink and eat in here.
+22-03:OOC: Danny Larson/Dervin366 : http://www.youtube.com/watch?v=1M8vei3L0L8
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : uhhhm
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : WEEEEEE
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : YEAY
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : FUN
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Not cool man, not cool
+22-03:SAY: Jade/Guest-2337011188 : Sleeping room.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : That hurt!
+22-03:SAY: Cog Bedhammer/X2yzh9 : your now going tos tay in that shitty garden for 10 minutes
+22-03:SAY: Jade/Guest-2337011188 : You sleep in here.
+22-03:SAY: Jade/Guest-2337011188 : Or hide.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Get me some first aid, please
+22-03:SAY: Dejano Parx/Guest-3278432552 : Never would have guessed
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m injured
+22-03:SAY: Jade/Guest-2337011188 : Dark tunnels.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : *sigh
+22-03:SAY: Jade/Guest-2337011188 : Great place to be murdered at.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I need first aid
+22-03:SAY: Dejano Parx/Guest-3278432552 : Or stalked by xenos
+22-03:SAY: Cog Bedhammer/X2yzh9 : oh yes
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : haha, got solar panel to pick up power at main station
+22-03:SAY: Jade/Guest-2337011188 : That too.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I need first aid
+22-03:SAY: Cog Bedhammer/X2yzh9 : your anal probing you have to go through once you arrrive
+22-03:ADMIN: Topkasa jumped to Captain's Quarters
+22-03:SAY: Cog Bedhammer/X2yzh9 : of course!
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at the artificial turf
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Urist Bronzedriven
+22-03:SAY: Jade/Guest-2337011188 : More dark tunnels.
+22-03:SAY: Jade/Guest-2337011188 : This is the chapel.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : This is just great
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I&#39;m loving this
+22-03:SAY: Jade/Guest-2337011188 : Supposed to be for religion.
+22-03:SAY: Dejano Parx/Guest-3278432552 : Seems a bit... Satanic
+22-03:ADMIN: Topkasa used secret activateprison
+22-03:SAY: Cog Bedhammer/X2yzh9 : With a cane!
+22-03:SAY: Desmond Taggart/Topkasa : ;Jade
+22-03:SAY: Jade/Guest-2337011188 : But it&#39;s usually used for murder.
+22-03:SAY: Desmond Taggart/Topkasa : ;The prison shuttle is here
+22-03:OOC: Danny Larson/Dervin366 : Suicide!
+22-03:SAY: Cog Bedhammer/X2yzh9 : But it&#39;s space cane
+22-03:OOC: Danny Larson/Dervin366 : Be like the cool kids.
+22-03:SAY: Jade/Guest-2337011188 : This way.
+22-03:OOC: Danny Larson/Dervin366 : Like me!
+22-03:SAY: Cog Bedhammer/X2yzh9 : ANAL PROBE
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:SAY: Desmond Taggart/Topkasa : ;Meet me outside security if you want to go, Jade
+22-03:OOC: Danny Larson/Dervin366 : Or gnaw there balls off!
+22-03:SAY: Jade/Guest-2337011188 : Mind if he tags along?
+22-03:SAY: Jade/Guest-2337011188 : He&#39;s new.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;When you get to the station wait outside the office for me to let you in the convict is being anoying
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;am I allowed to come?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Ouch
+22-03:SAY: Jade/Guest-2337011188 : This is security hq.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : My chest
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : It stings
+22-03:SAY: Jade/Guest-2337011188 : And the brig.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Just a bruise pack to the chest, please
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : yes, just like that
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Also people there is genetics and chems so if you come under those jobs, and bring the monkeys though
+22-03:SAY: Jade/Guest-2337011188 : This is the prison shuttle.
+22-03:SAY: Cog Bedhammer/X2yzh9 : You know what I just realized
+22-03:SAY: Cog Bedhammer/X2yzh9 : Germans like shit was too much for it to be healthy for them
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;I&#39;m outside security
+22-03:SAY: Jade/Guest-2337011188 : We&#39;re going to the prison station.
+22-03:SAY: Jade/Guest-2337011188 : Hopefully.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : You ok?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Alright
+22-03:SAY: Cog Bedhammer/X2yzh9 : probing complete
+22-03:SAY: Desmond Taggart/Topkasa : wait
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : That was fun
+22-03:SAY: Jade/Guest-2337011188 : Have we departed?
+22-03:SAY: Desmond Taggart/Topkasa : I just need to get off first
+22-03:SAY: Dejano Parx/Guest-3278432552 : From what i&#39;ve heard it&#39;s supposed to be pretty nice there
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;I guess I can&#39;t come then?
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Pass him over he can have a sleep...
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yeah
+22-03:OOC: Danny Larson/Dervin366 : Act like your getting off on it Urist!
+22-03:SAY: Jade/Guest-2337011188 : If you&#39;re not a prisoner.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m still injured
+22-03:SAY: Cog Bedhammer/X2yzh9 : No
+22-03:SAY: Jade/Guest-2337011188 : Did you want to stay with the captain?
+22-03:OOC: Danny Larson/Dervin366 : Call them your dirty bitch.
+22-03:SAY: Desmond Taggart/Topkasa : ;Have a good trip, Jade
+22-03:SAY: Cog Bedhammer/X2yzh9 : that&#39;s just the bloody shirt
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : My right hand
+22-03:SAY: Jade/Guest-2337011188 : He could show you around.
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : How the hells... ah ok
+22-03:SAY: Desmond Taggart/Topkasa : ;Oh, wait
+22-03:SAY: Jade/Guest-2337011188 : And give you a job.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : my right hand is hurt
+22-03:SAY: Desmond Taggart/Topkasa : ;Ozy, you want to com too?
+22-03:SAY: Dejano Parx/Guest-3278432552 : That&#39;d be cool
+22-03:SAY: Jade/Guest-2337011188 : ;Captain.
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I need a medic
+22-03:SAY: Jade/Guest-2337011188 : ;Dejano would like to stay with you.
+22-03:SAY: Jade/Guest-2337011188 : ;And see the rest of the station.
+22-03:SAY: Desmond Taggart/Topkasa : all right
+22-03:SAY: Cog Bedhammer/X2yzh9 : Rest for 5 minutes
+22-03:SAY: Desmond Taggart/Topkasa : parx, you&#39;re with me
+22-03:SAY: Jade/Guest-2337011188 : Stick with him.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : say &#34;I mean left hand
+22-03:SAY: Dejano Parx/Guest-3278432552 : Hello
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Because I&#39;m still out cold
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Hey top how do you activate the shiny riot doors?
+22-03:SAY: Desmond Taggart/Topkasa : ;Have a good trip, Jade
+22-03:SAY: Jade/Guest-2337011188 : ;Thanks.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : There is a button
+22-03:OOC: Desmond Taggart/Topkasa : there&#39;s a button somewhere
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : A big button
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Fun button
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : My left hand
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : it&#39;s hurt
+22-03:SAY: Cog Bedhammer/X2yzh9 : Gah
+22-03:SAY: Cog Bedhammer/X2yzh9 : it&#39;s just a bruise
+22-03:SAY: Jade/Guest-2337011188 : ;Cleared of take off?
+22-03:OOC: Danny Larson/Dervin366 : http://www.youtube.com/watch?v=GMc9q29IB_4&feature=related
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I need a bruise pack
+22-03:OOC: Danny Larson/Dervin366 : The hell.
+22-03:SAY: Dejano Parx/Guest-3278432552 : Jade mentioned I could get a Job from you
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;Jade once here just wait at arrivals checkpoint
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Don&#39;t mistreat prisoners
+22-03:SAY: Cog Bedhammer/X2yzh9 : Right, i&#39;ll give you one
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;we&#39;re the only two coming right?
+22-03:OOC: Desmond Taggart/Topkasa : say..  uh
+22-03:OOC: Desmond Taggart/Topkasa : no, there isn&#39;t
+22-03:OOC: Desmond Taggart/Topkasa : wierd
+22-03:SAY: Desmond Taggart/Topkasa : yeah
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Big shiny doors no button
+22-03:OOC: Desmond Taggart/Topkasa : the button must have been erased by accident
+22-03:SAY: Jade/Guest-2337011188 : ;Taking off....
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : ;HoP you ok?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Yep!
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : Hmmm
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : COME OUT AND FIGHT
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;ll SMACK YOU
+22-03:OOC: Desmond Taggart/Topkasa : guys
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I&#34;LL SMACK YOU WITH THE BRUISE PACK
+22-03:SAY: Nomal Murderedhammer/Wrongnumber : I was going to ask if you were ok...
+22-03:OOC: Desmond Taggart/Topkasa : I need to hit the sack soon
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : Yeah I&#39;m fine
+22-03:OOC: Cog Bedhammer/X2yzh9 : Keep servar running overnight
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Dinner tiime woop woop i shall be back
+22-03:OOC: Cog Bedhammer/X2yzh9 : we shall make the prison station
+22-03:OOC: Elemin Taixera/Shiningsoul32 : I swear to god I would be beating Urist every five seconds. xD
+22-03:OOC: Desmond Taggart/Topkasa : so I&#39;ll probably restart the server to push the latest bugs
+22-03:OOC: Cog Bedhammer/X2yzh9 : omega station
+22-03:OOC: Desmond Taggart/Topkasa : *bug fixes
+22-03:OOC: Desmond Taggart/Topkasa : lolo
+22-03:OOC: Elemin Taixera/Shiningsoul32 : OMEGA STATIONNNN~
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Are you putting shiny button?
+22-03:SAY: Cog Bedhammer/X2yzh9 : Oh yeah baby
+22-03:SAY: Cog Bedhammer/X2yzh9 : molestation
+22-03:SAY: Cog Bedhammer/X2yzh9 : hard
+22-03:OOC: Desmond Taggart/Topkasa : I&#39;ll do that now
+22-03:SAY: Cog Bedhammer/X2yzh9 : Lemme go grab the cane
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Holy shit X2 stop making me laugh.
+22-03:OOC: Danny Larson/Dervin366 : Cog is going crazy with power.
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Prison round ill go prisoner for that woop
+22-03:OOC: Danny Larson/Dervin366 : Anal probing is unhealthy.
+22-03:OOC: Nomal Murderedhammer/Wrongnumber : Right now to dinner
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:OOC: Danny Larson/Dervin366 : It&#39;s like 5 cigarettes.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Inb4 hard rape SS13 style.
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the cane
+22-03:SAY: Cog Bedhammer/X2yzh9 : that&#39;s right you dirty whore
+22-03:OOC: Danny Larson/Dervin366 : I&#39;m straight outta Compton.
+22-03:SAY: Cog Bedhammer/X2yzh9 : you take it like a man
+22-03:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : TOPKASA SAVE ME
+22-03:OOC: Elemin Taixera/Shiningsoul32 : xDDDD
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll come back for seconds
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Oh my god. xD
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Dying irl brb.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : XD
+22-03:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll just leave this here.
+22-03:SAY: Jade/Guest-2337011188 : We landed.
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : Ah
+22-03:OOC: Danny Larson/Dervin366 : I&#39;m glad theres no penetration in this game.
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : a bit late
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Top should add rape into this game for the prison. xDDDD
+22-03:OOC: Elemin Taixera/Shiningsoul32 : *Kidding*
+22-03:SAY: Cog Bedhammer/X2yzh9 : next time we&#39;re doing it with a cane and a power cell
+22-03:SAY: Cog Bedhammer/X2yzh9 : Bitch
+22-03:SAY: Jade/Guest-2337011188 : Oh shit.
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Cane + Power cell = ???
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : ;uhmmm
+22-03:SAY: Jade/Guest-2337011188 : ;Someone wanna open the door?
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : I have rights too
+22-03:OOC: Desmond Taggart/Topkasa : okay guys
+22-03:SAY: Urist Bronzedriven/ZCHRIS13 : bastard
+22-03:OOC: Danny Larson/Dervin366 : Take him out Urist!
+22-03:SAY: Cog Bedhammer/X2yzh9 : welcoem
+22-03:OOC: Danny Larson/Dervin366 : Be ghetto!
+22-03:OOC: Desmond Taggart/Topkasa : restart the server and the riot doors should be usable
+22-03:SAY: Cog Bedhammer/X2yzh9 : wanna rape the prsioners?
+22-03:SAY: Cog Bedhammer/X2yzh9 : anally?
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Ooh Riot doors...
+22-03:SAY: Cog Bedhammer/X2yzh9 : Cmon kids!
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Do people spawn on the prison station? They should as security. :[
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I told you it was hardcore
+22-03:OOC: Danny Larson/Dervin366 : Stand toe to toe with him!
+22-03:SAY: Cog Bedhammer/X2yzh9 : 2 on 1, hardcore
+22-03:SAY: Cog Bedhammer/X2yzh9 : you grab the cane
+22-03:OOC: Danny Larson/Dervin366 : Fuck his shit up yo!
+22-03:SAY: Jade/Guest-2337011188 : Sup.
+22-03:SAY: Cog Bedhammer/X2yzh9 : i&#39;ll grab the power cell!
+22-03:OOC: Danny Larson/Dervin366 : Curbstomp his ass!
+22-03:OOC: Danny Larson/Dervin366 : Stick the pillow in his  ass!
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the power cell
+22-03:OOC: Danny Larson/Dervin366 : Throw shoes at his head!
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the power cell
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the power cell
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the power cell
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Lol I &lt;3 Cog.
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the power cell
+22-03:SAY: Jade/Guest-2337011188 : That&#39;s weird.
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Bronzedriven(ZCHRIS13) with the taser gun
+22-03:SAY: Jade/Guest-2337011188 : So what&#39;d he do anyway?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : You killed me
+22-03:OOC: Danny Larson/Dervin366 : Goddamnit Jade do something!
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : I&#39;m dead
+22-03:SAY: Cog Bedhammer/X2yzh9 : oh
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : Faggots
+22-03:SAY: Cog Bedhammer/X2yzh9 : lots of stuff
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Jade is like &#34;He&#39;s taking it like a man&#34;
+22-03:SAY: Cog Bedhammer/X2yzh9 : wut?
+22-03:OOC: Danny Larson/Dervin366 : You just stood around and let someone die.
+22-03:OOC: Danny Larson/Dervin366 : DAMN YOU ALL
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Oh god Dervin i&#39;m laughing like crazy irl.
+22-03:SAY: Cog Bedhammer/X2yzh9 : wait, we have a medbay
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Have not found something that funny in a LONG time.
+22-03:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : You&#39;re just going to stand by while they hold me captive, beat me?
+22-03:OOC: Danny Larson/Dervin366 : Cog couldn&#39;t even fight like a man!
+22-03:OOC: Cog Bedhammer/X2yzh9 : don&#39;t succumb chris
+22-03:OOC: Cog Bedhammer/X2yzh9 : we have a medbay
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : DAMN YOU ALL
+22-03:OOC: Elemin Taixera/Shiningsoul32 : &#34;Rape gone wrong, ends with death.&#34;
+22-03:SAY: Jade/Guest-2337011188 : You beat the shit out of him.
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : DAMN YOU ALL
+22-03:OOC: Danny Larson/Dervin366 : We&#39;ll get them back!
+22-03:SAY: Jade/Guest-2337011188 : Have a sandvich.
+22-03:OOC: Danny Larson/Dervin366 : Orally!
+22-03:SAY: Jade/Guest-2337011188 : Uh oh.
+22-03:OOC: Danny Larson/Dervin366 : Fuck the police!
+22-03:SAY: Jade/Guest-2337011188 : He dead?
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : YEAH I&#39;M DEAD YOU FAGGOTS
+22-03:OOC: Danny Larson/Dervin366 : I&#39;ll be Ice Cube next round.
+22-03:SAY: Cog Bedhammer/X2yzh9 : we have genetics
+22-03:SAY: Jade/Guest-2337011188 : Om nom nom.
+22-03:OOC: Danny Larson/Dervin366 : Their goddamn bundles of sticks!
+22-03:OOC: Urist Bronzedriven/ZCHRIS13 : MAKE SURE YOU BACKUP MY STRUCTURE FIRST
+22-03:OOC: Danny Larson/Dervin366 : DAMN THEM TO HELL!
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+22-03:ACCESS: They share computer ID's
+22-03:ACCESS: Logout: Guest-3278432552
+22-03:SAY: Jade/Guest-2337011188 : Why does this place have a chem lab?
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : Hahaha
+22-03:SAY: Cog Bedhammer/X2yzh9 : QUICJLY
+22-03:OOC: Elemin Taixera/Shiningsoul32 : Next round i&#39;m going to RP a man who thinks he is a rock. A rock is not insane, it is just a rock.
+22-03:SAY: Cog Bedhammer/X2yzh9 : RAPE THE MONKEY
+22-03:SAY: Cog Bedhammer/X2yzh9 : GET THE CANE
+22-03:OOC: Danny Larson/Dervin366 : Anyone ever seen American History X?
+22-03:OOC: Danny Larson/Dervin366 : Thats whats going to happen Cog!
+22-03:SAY: Jade/Guest-2337011188 : Can you put a monkey in the trash can?
+22-03:OOC: Danny Larson/Dervin366 : I&#39;ll curbstomp your friend!
+22-03:MATTACK: Cog Bedhammer(X2yzh9)has grabbed the monkey (2d4c)(ZCHRIS13) aggressively (now hands) 
+22-03:SAY: monkey (2d4c)/ZCHRIS13 : don&#39;t choke me
+22-03:SAY: Cog Bedhammer/X2yzh9 : watch and learn
+22-03:SAY: monkey (2d4c)/ZCHRIS13 : idiot
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:SAY: monkey (2d4c)/ZCHRIS13 : You&#39;re all gay!
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:SAY: Cog Bedhammer/X2yzh9 : OBSERVE
+22-03:OOC: HELP: monkey (2d4c)/ZCHRIS13 : DUDE AGAIN
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:OOC: Danny Larson/Dervin366 : Chris just be glad he can&#39;t penetrate you.
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:OOC: HELP: monkey (2d4c)/ZCHRIS13 : TOPKASA =
+22-03:SAY: Cog Bedhammer/X2yzh9 : PROBING IS A NECESSITY
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the cane
+22-03:OOC: HELP: monkey (2d4c)/ZCHRIS13 : GRIEF
+22-03:OOC: Danny Larson/Dervin366 : He can only whack you in the balls repeatedly.
+22-03:MATTACK: Cog Bedhammer (X2yzh9) attacked Urist Sandmountain(ZCHRIS13) with the taser gun
+22-03:SAY: Jade/Guest-2337011188 : Stuff him in the trash?
+22-03:OOC: Danny Larson/Dervin366 : With a cane.
+22-03:ACCESS: Logout: 
+22-03:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+22-03:ACCESS: They share computer ID's
+22-03:OOC: Danny Larson/Dervin366 : I like how everyone stands around!
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : TOXIC DAMAGE
+22-03:OOC: Danny Larson/Dervin366 : Who lets someone rape a HIV infected monkey!?
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : HEAL
+22-03:SAY: Ozymandias Blazelever/OzyTheSage : oops
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : HEAL
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : ANTITOX
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : ANTITOX
+22-03:OOC: Cog Bedhammer/X2yzh9 : Chris we know
+22-03:SAY: Cog Bedhammer/X2yzh9 : is there a cryo?
+22-03:OOC: Danny Larson/Dervin366 : My name is MUd!
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : NO DON&#39;T TALK JUST HEAL
+22-03:SAY: Jade/Guest-2337011188 : I have no idea.
+22-03:SAY: Cog Bedhammer/X2yzh9 : Doesn&#39;t seem like it
+22-03:SAY: Cog Bedhammer/X2yzh9 : give me antitox syringe
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : Still damaged
+22-03:MATTACK: Cog Bedhammer(X2yzh9) clicked on Cog Bedhammer(X2yzh9) with intent on harm
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : By the way, does anybody ever suffer from the fever yet?
+22-03:MATTACK: Cog Bedhammer(X2yzh9) clicked on Nomal Vomitmagma(ZCHRIS13) with a syringe
+22-03:MATTACK: Cog Bedhammer(X2yzh9) injected Nomal Vomitmagma(ZCHRIS13) with a syringe filled with 
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : suffocation!
+22-03:MATTACK: Cog Bedhammer(X2yzh9) clicked on Nomal Vomitmagma(ZCHRIS13) with a syringe
+22-03:MATTACK: Cog Bedhammer(X2yzh9) injected Nomal Vomitmagma(ZCHRIS13) with a syringe filled with 
+22-03:OOC: Danny Larson/Dervin366 : I vote to restart.
+22-03:MATTACK: Cog Bedhammer(X2yzh9) clicked on Nomal Vomitmagma(ZCHRIS13) with a syringe
+22-03:MATTACK: Cog Bedhammer(X2yzh9) injected Nomal Vomitmagma(ZCHRIS13) with a syringe filled with 
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : &lt;0 health!
+22-03:OOC: Danny Larson/Dervin366 : Since like half the people are dead.
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : Okay
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : breathing
+22-03:OOC: Cog Bedhammer/X2yzh9 : Wait your breathing?
+22-03:OOC: Cog Bedhammer/X2yzh9 : your healing? Shits
+22-03:OOC: Cog Bedhammer/X2yzh9 : didn&#39;t know, that was some lucky stuff
+22-03:OOC: Ozymandias Blazelever/OzyTheSage : you can start a vote
+22-03:OOC: Nomal Vomitmagma/ZCHRIS13 : I have blue oxygen marker
+22-03:VOTE: Voting to restart round started by Danny Larson/Dervin366
+22-03:OOC: Cog Bedhammer/X2yzh9 : No
+22-03:OOC: Cog Bedhammer/X2yzh9 : we&#39;re having fun anally probing
+22-03:ACCESS: Logout: Topkasa
+22-03:OOC: Danny Larson/Dervin366 : Goddamnit!
+22-03:OOC: Danny Larson/Dervin366 : Thats boring as shit!
+22-03:OOC: HELP: Nomal Vomitmagma/ZCHRIS13 : Just thunderdome the people who died
+22-03:ADMIN: HELP: ZCHRIS13/Nomal Vomitmagma: Just thunderdome the people who died
+22-03:OOC: Danny Larson/Dervin366 : I&#39;m just watching you whack some dude with a cain!
+22-03:OOC: Danny Larson/Dervin366 : In his balls.
+22-03:SAY: Cog Bedhammer/X2yzh9 : WHELP
+22-03:ACCESS: Login: Guest-1039121743 from 74.185.237.20
+22-03:OOC: Danny Larson/Dervin366 : Vote damnit!
+22-03:OOC: Cog Bedhammer/X2yzh9 : IT WAS ANAL PROBING
+22-03:VOTE: Voting closed, result was restart
+22-03:OOC: Cog Bedhammer/X2yzh9 : WE MUST PROBE
+22-03:OOC: Danny Larson/Dervin366 : Yes!
+22-03:SAY: Jade/Guest-2337011188 : Need to see to him.
+22-03:GAME: Rebooting due to restart vote
+22-03:SAY: Jade/Guest-2337011188 : Or not.
+22-03:ACCESS: Logout: Guest-1039121743
+22-03:ACCESS: Logout: OzyTheSage
+22-03:ACCESS: Logout: Dervin366
+22-03:ACCESS: Logout: ZCHRIS13
+22-03:ACCESS: Logout: Guest-2337011188
+22-03:ACCESS: Logout: X2yzh9
+22-03:ACCESS: Logout: Shiningsoul32
+22-03:ACCESS: Logout: Wrongnumber
+22-03:ACCESS: Logout: Mono124
+23-36:ADMIN: Loading crban_keylist
+23-36:ADMIN: Loading crban_reason
+23-36:ADMIN: Loading crban_time
+23-36:ADMIN: Loading crban_bannedby
+23-36:ADMIN: Loading crban_iplist
+23-36:ADMIN: Loading crban_unbanned
+23-36:ADMIN: Loading crban_ComputerIDs
+23-36:ADMIN: Loading jobban_rank
+23-36:ADMIN: Updating jobbanfile!
+23-36:GAME: Finished building powernets (31 nets)
+23-36:ACCESS: Login: Mono124 from 99.137.45.54
+23-36:ACCESS: Login: Wrongnumber from 124.198.182.86
+23-36:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+23-36:ACCESS: Login: ZCHRIS13 from 64.20.150.215
+23-36:ACCESS: Login: Dervin366 from 24.154.218.115
+23-36:GAME: Dervin366 entered as Danny Larson
+23-36:ACCESS: Login: X2yzh9 from 75.142.181.4
+23-36:GAME: X2yzh9 entered as Cog Bedhammer
+23-36:ACCESS: Login: Po Lazarus from 74.185.237.20
+23-36:VOTE: Voting to change mode started by Cog Bedhammer/X2yzh9
+23-36:SAY: Danny Larson/Dervin366 : Hello Cog.
+23-36:GAME: ZCHRIS13 entered as Urist Bronzedriven
+23-36:OOC: Cog Bedhammer/X2yzh9 : let&#39;s play probe mode
+23-36:SAY: Cog Bedhammer/X2yzh9 : Hey Danny
+23-36:SAY: Danny Larson/Dervin366 : FUCK THE WORLD!
+23-36:OOC: Cog Bedhammer/X2yzh9 : Extended
+23-36:OOC: Cog Bedhammer/X2yzh9 : in other words
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : No, don&#39;t
+23-36:SAY: Danny Larson/Dervin366 : FUCK THE POLICE!
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : don&#39;t do it
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : no
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : NOT GOOD
+23-36:OOC: Cog Bedhammer/X2yzh9 : Yes do
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : NO BAD
+23-36:SAY: Danny Larson/Dervin366 : FUCK THE POLICE
+23-36:OOC: Cog Bedhammer/X2yzh9 : Don&#39;t worry, chris
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : With 7 players!
+23-36:OOC: Cog Bedhammer/X2yzh9 : Don&#39;t worry
+23-36:VOTE: Voting closed, result was extended
+23-36:OOC: Cog Bedhammer/X2yzh9 : tehe
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : NOT eNOUGH PEOPLE
+23-36:SAY: Danny Larson/Dervin366 : I&#39;m black!
+23-36:SAY: Danny Larson/Dervin366 : The cops hate me!
+23-36:SAY: Danny Larson/Dervin366 : Because I&#39;m black!
+23-36:SAY: Danny Larson/Dervin366 : And a teenager
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Who beat me up?
+23-36:ACCESS: Logout: Po Lazarus
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : That wasn&#39;t cool
+23-36:SAY: Danny Larson/Dervin366 : *shake
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Seriously
+23-36:SAY: Danny Larson/Dervin366 : I was egging you on!
+23-36:SAY: Danny Larson/Dervin366 : I love you Urist!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Shut up
+23-36:SAY: Danny Larson/Dervin366 : ...
+23-36:SAY: Danny Larson/Dervin366 : *cry
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;ll beat your ass too
+23-36:SAY: Danny Larson/Dervin366 : Bring it bitch!
+23-36:SAY: Cog Bedhammer/X2yzh9 : Cog Bedhammer has been ecstatic. He has recently anally probed someone.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : *glare-Danny Larson
+23-36:SAY: Danny Larson/Dervin366 : We&#39;ll stand toe to toe!
+23-36:SAY: Danny Larson/Dervin366 : Anyway.
+23-36:SAY: Danny Larson/Dervin366 : I told you to rip out their eyes!
+23-36:GAME: starting game of extended
+23-36:GAME: Wrongnumber entered as Urist Glasssword
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : ; Now you are all fucked
+23-36:OOC: Urist Glasssword/Wrongnumber : Im back
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : No admins, and I&#39;m the captain
+23-36:SAY: Danny Larson/Dervin366 : ;I was trying to help you Urist!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : ; No admins, and I&#39;m the captian
+23-36:SAY: Danny Larson/Dervin366 : ;Lets band together!
+23-36:SAY: Danny Larson/Dervin366 : ;I don&#39;t want to be raped!
+23-36:OOC: Urist Glasssword/Wrongnumber : We doing prison round?
+23-36:SAY: Unknown/X2yzh9 : ID
+23-36:SAY: Unknown/X2yzh9 : and requested job
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : NO
+23-36:OOC: Danny Larson/Dervin366 : More like get raped round.
+23-36:OOC: Danny Larson/Dervin366 : But not me!
+23-36:SAY: Urist Glasssword/Wrongnumber : Chem
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : If so, you all get to be the prisoners, and I&#39;m the warden
+23-36:OOC: Urist Glasssword/Wrongnumber : Shure what ever...
+23-36:SAY: Danny Larson/Dervin366 : ;
+23-36:OOC: Urist Glasssword/Wrongnumber : Im just keen for a prison round or something dif
+23-36:ACCESS: Login: QuinnR from 70.190.73.150
+23-36:OOC: Urist Glasssword/Wrongnumber : So  yes or no?
+23-36:ACCESS: Login: Guest-3278432552 from 69.114.95.49
+23-36:SAY: Danny Larson/Dervin366 : ;Anyone?
+23-36:SAY: Urist Glasssword/Wrongnumber : ;Huh?
+23-36:SAY: Danny Larson/Dervin366 : ;Here?
+23-36:SAY: Cog Bedhammer/X2yzh9 : I SEE YOU
+23-36:SAY: Danny Larson/Dervin366 : AHH!
+23-36:MATTACK: Urist Bronzedriven(ZCHRIS13)has shot a taser round at Cog Bedhammer
+23-36:SAY: Danny Larson/Dervin366 : ;Rapist!
+23-36:SAY: Cog Bedhammer/X2yzh9 : Dun dun
+23-36:SAY: Urist Glasssword/Wrongnumber : ;What?
+23-36:SAY: Cog Bedhammer/X2yzh9 : Rape rape
+23-36:SAY: Urist Glasssword/Wrongnumber : ;HUH?
+23-36:GAME: QuinnR entered as Cog Woodbed
+23-36:SAY: Danny Larson/Dervin366 : ;Actually.
+23-36:OOC: Cog Woodbed/QuinnR : Why are there names other than urist and cog?
+23-36:GAME: Guest-3278432552 entered as Dejano Parx
+23-36:OOC: Cog Woodbed/QuinnR : shame!
+23-36:OOC: Cog Bedhammer/X2yzh9 : oh shit, quinn is heere
+23-36:OOC: Cog Woodbed/QuinnR : -bans universe-
+23-36:OOC: Urist Glasssword/Wrongnumber : Shits going down now
+23-36:SAY: Danny Larson/Dervin366 : Because my name is awesome.
+23-36:SAY: Cog Woodbed/QuinnR : I need a jooob
+23-36:SAY: Cog Woodbed/QuinnR : can I be a bartender?
+23-36:OOC: Danny Larson/Dervin366 : Because my name is awesome.
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Hey, QuinnR, I need some help here
+23-36:SAY: Unknown/X2yzh9 : Requested position
+23-36:OOC: Danny Larson/Dervin366 : Duh.
+23-36:SAY: Unknown/X2yzh9 : sue
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Yeah
+23-36:OOC: Urist Glasssword/Wrongnumber : Nnnnno
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : What?
+23-36:SAY: Unknown/X2yzh9 : ID
+23-36:SAY: Dejano Parx/Guest-3278432552 : Hey man, I need a job
+23-36:SAY: Cog Woodbed/QuinnR : Bartender please
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : I&#39;ve been getting griefed constantly, Topkasa was helping THEM, and all that
+23-36:SAY: Unknown/X2yzh9 : Yes Dejano
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Them who?
+23-36:SAY: Unknown/X2yzh9 : Put your ID on the table
+23-36:SAY: Dejano Parx/Guest-3278432552 : Engineer
+23-36:SAY: Unknown/X2yzh9 : and state the job you want
+23-36:MATTACK: Urist Bronzedriven(ZCHRIS13)has shot a taser round at the reinforced window
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : And who was griefing you?
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : Cog Bedhammer
+23-36:SAY: Unknown/X2yzh9 : ID
+23-36:SAY: Unknown/X2yzh9 : on the table
+23-36:OOC: Dejano Parx/Guest-3278432552 : Cog, help me out here
+23-36:OOC: Urist Glasssword/Wrongnumber : So no it P round is it?
+23-36:OOC: Dejano Parx/Guest-3278432552 : I&#39;m new
+23-36:SAY: Unknown/X2yzh9 : ((Double click table
+23-36:OOC: Unknown/X2yzh9 : quinn, newbie guide this guy
+23-36:OOC: Unknown/X2yzh9 : he needs a newbie guide
+23-36:OOC: Unknown/X2yzh9 : to protect him
+23-36:OOC: Cog Woodbed/QuinnR : maybe...
+23-36:OOC: Dejano Parx/Guest-3278432552 : there we go
+23-36:OOC: HELP: Unknown/X2yzh9 : his name is Dejano Parx
+23-36:ADMIN: PM: QuinnR->X2yzh9 : I thought you said it was Cog Bedhammer
+23-36:OOC: Urist Glasssword/Wrongnumber : Newbie guide with super admin powers GO! And prison round you know you want to
+23-36:ADMIN: QuinnR/Cog Woodbed : oops
+23-36:ADMIN: PM: X2yzh9->QuinnR : That's my name. Dejano Parx is the newbies name
+23-36:ADMIN: QuinnR/Cog Woodbed : thats you
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Dude this sucks
+23-36:SAY: Danny Larson/Dervin366 : *sigh
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Did you kill Urist Bronzedriven?
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Usually it doesn&#39;t do that
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : What?
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : I AM URIST BRONZEDRIVEN
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Wrong button
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : Also, holy shit I ended up in space save e
+23-36:ADMIN: PM: QuinnR->X2yzh9 : Did you kill Urist Bronzedriven
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : save me
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : You talked as I was clicking him..
+23-36:SAY: Danny Larson/Dervin366 : ;I would like job change please.
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : with your super admin powers
+23-36:ADMIN: QuinnR teleported Urist Bronzedriven
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Crew, be advised I have called the prison shuttle
+23-36:ADMIN: PM: QuinnR->X2yzh9 : Hello...
+23-36:SAY: Danny Larson/Dervin366 : ;...Why?
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Centcomm has informed us that they need us to get their prison station up and running
+23-36:SAY: Cog Woodbed/QuinnR : ;With beer?
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; And to restrain the prisoners running amok inside there.
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : Now can you save me with super admin powers?
+23-36:SAY: Urist Glasssword/Wrongnumber : ;MWAHAHA WOOFWOOF DEALER
+23-36:SAY: Danny Larson/Dervin366 : ;What?
+23-36:OOC: Dejano Parx/Guest-3278432552 : err, howcan i put things in my inventory?
+23-36:SAY: Danny Larson/Dervin366 : ;WoofWoof?
+23-36:ACCESS: Login: Po Lazarus from 74.185.237.20
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Possibly...or I can leave your body to find, which is more IC
+23-36:SAY: Urist Glasssword/Wrongnumber : ;Come to the chemist to find out
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : Nobody can put my body back together correctly
+23-36:SAY: Urist Glasssword/Wrongnumber : ;And bring something to trade
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Really, reviving is for glitches mostly.
+23-36:SAY: Danny Larson/Dervin366 : Something like Head of Security.
+23-36:SAY: Danny Larson/Dervin366 : Please.
+23-36:SAY: Unknown/X2yzh9 : Next
+23-36:ACCESS: Login: Ceojac from 24.20.178.177
+23-36:ACCESS: Logout: Po Lazarus
+23-36:SAY: Danny Larson/Dervin366 : *nod
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : I thought that it would take me back to the last portal I laid down
+23-36:GAME: Ceojac entered as Nomal Engravingnoble
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : What would?
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : the hand tele
+23-36:SAY: Danny Larson/Dervin366 : ;Coming
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : If you were using a hand tele than you should be dead...
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : they are prototype afterall
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : lay down 2 portals, jump between them
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : That's how I though it worked
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : Nope...
+23-36:OOC: HELP: Cog Bedhammer/X2yzh9 : Quinn, will you force the prison shuttle to arrive? I think it might be still broken
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : don't punish my stupidity, at the BEGINNING of a long round of extended
+23-36:ADMIN: PM: QuinnR->X2yzh9 : okay
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : That is why I brought you back from space
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : The RP hasn't been serious for a long time
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : fine..
+23-36:ADMIN: QuinnR teleported Urist Bronzedriven
+23-36:OOC: Urist Glasssword/Wrongnumber : So we doing it or not? I must tamper with new shiny riot button
+23-36:SAY: Danny Larson/Dervin366 : *nod
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : and nobody is good enough to actually be able to revive me
+23-36:ADMIN: QuinnR Healed/Revived ZCHRIS13
+23-36:OOC: Cog Bedhammer/X2yzh9 : We are Wrongnumber
+23-36:OOC: Cog Bedhammer/X2yzh9 : where is the riot button anyway?
+23-36:SAY: Danny Larson/Dervin366 : You got the stuff?
+23-36:SAY: Urist Glasssword/Wrongnumber : What you got to trade?
+23-36:ACCESS: Login: Poltifar from 212.36.209.10
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hello?
+23-36:OOC: Cog Woodbed/QuinnR : No idea
+23-36:SAY: Cog Woodbed/QuinnR : Hello.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Excuse me
+23-36:SAY: Danny Larson/Dervin366 : It&#39;s full.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m walking here
+23-36:SAY: Urist Glasssword/Wrongnumber : One jab at a time ok?
+23-36:SAY: Urist Glasssword/Wrongnumber : I dont want you dieing now
+23-36:ADMIN: QuinnR Healed/Revived QuinnR
+23-36:SAY: Danny Larson/Dervin366 : This will help on the new station.
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : If your gonna kill me when I revive you
+23-36:SAY: Danny Larson/Dervin366 : Thanks!
+23-36:ADMIN: PM: X2yzh9->QuinnR : Is the prison shuttle not able to be forced?
+23-36:ADMIN: PM: QuinnR->X2yzh9 : I'm trying
+23-36:ADMIN: PM: X2yzh9->QuinnR : Top did it last round
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Only a taser
+23-36:ADMIN: PM: QuinnR->X2yzh9 : I'm a bit busy
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Only a taser
+23-36:ADMIN: PM: X2yzh9->QuinnR : Mkay
+23-36:OOC: Urist Glasssword/Wrongnumber : Ok hold on im getting some gear for the trip
+23-36:ADMIN: QuinnR used secret activateprison
+23-36:ADMIN: PM: QuinnR->X2yzh9 : done
+23-36:OOC: Nomal Engravingnoble/Ceojac : What are you doing
+23-36:ADMIN: PM: X2yzh9->QuinnR : Thanks!
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Everyone, gather outside security HQ
+23-36:SAY: Cog Woodbed/QuinnR : Out
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I don&#39;t have my ID
+23-36:SAY: Cog Woodbed/QuinnR : of my bar.
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; We are going to save that prison station
+23-36:SAY: Cog Woodbed/QuinnR : Get out
+23-36:SAY: Danny Larson/Dervin366 : ;I&#39;ll pilot the ship.
+23-36:SAY: Cog Bedhammer/X2yzh9 : cmon
+23-36:SAY: Cog Bedhammer/X2yzh9 : this way
+23-36:SAY: Danny Larson/Dervin366 : ;I piloted one that was like this in the Navy.
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/head/wizhat
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/suit/wizrobe
+23-36:SAY: Cog Bedhammer/X2yzh9 : gather up there
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/shoes/sandal
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/shoes/sandal
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/shoes/sandal
+23-36:ADMIN: QuinnR created /obj/item/weapon/clothing/shoes/sandal
+23-36:ADMIN: QuinnR created /obj/item/weapon/staff
+23-36:ADMIN: QuinnR created /obj/item/weapon/SWF_uplink
+23-36:ADMIN: QuinnR created /obj/item/weapon/SWF_uplink
+23-36:ADMIN: QuinnR created /obj/item/weapon/SWF_uplink
+23-36:ADMIN: QuinnR created /obj/item/weapon/SWF_uplink
+23-36:ADMIN: QuinnR created /obj/item/weapon/SWF_uplink
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Alright
+23-36:SAY: Danny Larson/Dervin366 : Everyone out of the cockpit!
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Is everyone aboard the prison shuttle?
+23-36:GAME: Poltifar entered as Tirist Anam
+23-36:SAY: Urist Glasssword/Wrongnumber : Im going convict ok?
+23-36:SAY: Danny Larson/Dervin366 : Out!
+23-36:SAY: Danny Larson/Dervin366 : ;Stay out of the cockpit!
+23-36:SAY: Tirist Anam/Poltifar : ;Goooood day, station. Might I have a job?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : You will drink my beer
+23-36:SAY: Cog Woodbed/QuinnR : ;Free sandals in the bar!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : You will enjjoy it
+23-36:SAY: Danny Larson/Dervin366 : ;I need to concentrate when we undock.
+23-36:SAY: Cog Bedhammer/X2yzh9 : yes
+23-36:SAY: Urist Glasssword/Wrongnumber : ;Every one on
+23-36:SAY: Cog Woodbed/QuinnR : ;WAIT
+23-36:SAY: Danny Larson/Dervin366 : ;All aboard!
+23-36:SAY: Cog Woodbed/QuinnR : ;I wanna see the pirson
+23-36:SAY: Urist Glasssword/Wrongnumber : Im going convict you giving me a cell?
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Woodbed
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Security HQ
+23-36:SAY: Tirist Anam/Poltifar : ;What, are we going on a prison tour?
+23-36:SAY: Cog Woodbed/QuinnR : SCYAR NILA SECURITY
+23-36:MATTACK: Urist Bronzedriven(ZCHRIS13)has shot a taser round at the floor
+23-36:SAY: Urist Glasssword/Wrongnumber : God dam it stop
+23-36:MATTACK: Urist Bronzedriven(ZCHRIS13)has shot a taser round at the floor
+23-36:SAY: Cog Woodbed/QuinnR : ;I&#39;m in forensics
+23-36:SAY: Danny Larson/Dervin366 : ;We&#39;re getting up and working.
+23-36:SAY: Cog Woodbed/QuinnR : ;My teleport went wrong...
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at the floor
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Urist Bronzedriven
+23-36:SAY: Danny Larson/Dervin366 : &#39;We&#39;re getting it up.
+23-36:SAY: Tirist Anam/Poltifar : What is happening?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m the goddamn captain
+23-36:SAY: Danny Larson/Dervin366 : ;We&#39;re getting it up and working.
+23-36:SAY: Cog Bedhammer/X2yzh9 : captain shot
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : You answer to me
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : YOU ANSWER TO ME
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Bedhammer/X2yzh9 : sure
+23-36:SAY: Tirist Anam/Poltifar : Huh...
+23-36:SAY: Danny Larson/Dervin366 : ;...Teleport?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : When I shoot, you deserve it
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Woodbed
+23-36:SAY: Cog Woodbed/QuinnR : ;I&#39;m coming
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; In here
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Through the door, i have thermals now
+23-36:SAY: Cog Woodbed/QuinnR : there
+23-36:SAY: Cog Woodbed/QuinnR : what the
+23-36:SAY: Cog Bedhammer/X2yzh9 : he uh[
+23-36:SAY: Tirist Anam/Poltifar : A wiz?
+23-36:SAY: Cog Bedhammer/X2yzh9 : shot a taser
+23-36:SAY: Danny Larson/Dervin366 : ;Come on!
+23-36:SAY: Cog Bedhammer/X2yzh9 : at me
+23-36:SAY: Cog Woodbed/QuinnR : oh he shot me
+23-36:SAY: Tirist Anam/Poltifar : What the hell is happening here?
+23-36:SAY: Cog Woodbed/QuinnR : earlier
+23-36:SAY: Danny Larson/Dervin366 : ;Eta five minutes!
+23-36:GAME: Shiningsoul32 entered as Elemin Taixera
+23-36:SAY: Cog Bedhammer/X2yzh9 : let&#39;s go, ok?
+23-36:SAY: Cog Bedhammer/X2yzh9 : follow
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Here they go again, thinking they have the right to do whatever they want
+23-36:SAY: Danny Larson/Dervin366 : ;Five minutes until launch.
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Come save my ass, would you?
+23-36:SAY: Urist Glasssword/Wrongnumber : Cell sir?
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Urist Bronzedriven(ZCHRIS13) aggressively (now hands) 
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;Wait guys!
+23-36:SAY: Danny Larson/Dervin366 : ;Will we be facing anything like space junk?
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;Where are you going?
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : AW HELL
+23-36:SAY: Tirist Anam/Poltifar : This place is cramped
+23-36:SAY: Urist Glasssword/Wrongnumber : Sir under the condition i get to keep my gear in my bags etc im ok with this
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : THIS ISN&#34;T FUNNY
+23-36:SAY: Danny Larson/Dervin366 : ;This things weapons are as weak as the lasers we carry.
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : :D
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Danny, the centcomm agents said there might be some
+23-36:SAY: Danny Larson/Dervin366 : Damnit Normal!
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : >: (
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : I didn't do anything
+23-36:SAY: Danny Larson/Dervin366 : Keep the door closed!
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : YOU DIDN'T SAVE MY ASS IS WHAT YOU DIDN'T DO
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : THIS IS GRIEF
+23-36:SAY: Urist Glasssword/Wrongnumber : Cell sir?
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : THIS IS A TRAVESTY
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : I just revived you
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : And you get arrested...
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY
+23-36:SAY: Cog Bedhammer/X2yzh9 : 2 prisoners
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : NO
+23-36:SAY: Cog Bedhammer/X2yzh9 : anway
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Urist Glasssword/Wrongnumber : sir over here
+23-36:SAY: Cog Bedhammer/X2yzh9 : let&#39;s lanch
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : HE ATTACKED ME
+23-36:SAY: Cog Bedhammer/X2yzh9 : i&#39;ll gaurd th edoor
+23-36:ADMIN: PM: ZCHRIS13->QuinnR : ATTACKED ME
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : YEAH
+23-36:SAY: Danny Larson/Dervin366 : ;Ready to launch?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : GET HIM
+23-36:SAY: Urist Glasssword/Wrongnumber : Dude what the hell?
+23-36:SAY: Cog Woodbed/QuinnR : that was interesting
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;WAIT!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : BLAST HIM
+23-36:SAY: Cog Bedhammer/X2yzh9 : WOODBED
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : YES
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : REVOLT
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;Where are you guys?
+23-36:SAY: Cog Woodbed/QuinnR : ;No revolt!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP ME WIZARD
+23-36:SAY: Danny Larson/Dervin366 : Help Woof WOof dealer!
+23-36:SAY: Danny Larson/Dervin366 : The batons!
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Urist Glasssword/Wrongnumber : Ok STOP
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP ME WIZARD
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Nomal Engravingnoble
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has shot a taser round at Nomal Engravingnoble
+23-36:SAY: Cog Woodbed/QuinnR : ;Who am I helping
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP ME WIZARD
+23-36:SAY: Danny Larson/Dervin366 : ;No one.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP ME WIZARD
+23-36:SAY: Cog Woodbed/QuinnR : whoa
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY AAHHHH
+23-36:SAY: Cog Woodbed/QuinnR : what&#39;s going on?
+23-36:SAY: Urist Glasssword/Wrongnumber : Now just get me a dam cell
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP ME WIZARD
+23-36:SAY: Danny Larson/Dervin366 : You hit me with a baton!
+23-36:SAY: Nomal Engravingnoble/Ceojac : AAAAAAAAAAAAAHHH MY WRISTS
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HELP
+23-36:SAY: Nomal Engravingnoble/Ceojac : IT HURTS
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Nomal Engravingnoble(Ceojac) aggressively (now hands) 
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : NAKED ON THE BED
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Nomal Engravingnoble(Ceojac) aggressively (now hands) 
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HLEP
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Blast the window
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HAHA
+23-36:SAY: Cog Woodbed/QuinnR : ;Wizards don&#39;t like police brutality//
+23-36:SAY: Cog Woodbed/QuinnR : ;Oh well
+23-36:MATTACK: Cog Bedhammer(X2yzh9)has grabbed Nomal Engravingnoble(Ceojac) aggressively (now hands) 
+23-36:SAY: Danny Larson/Dervin366 : ;Next one into the cockpit gets shot.
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY AHHH
+23-36:SAY: Cog Woodbed/QuinnR : ;Shot?
+23-36:SAY: Urist Glasssword/Wrongnumber : Can i get a cell now?
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALTIY
+23-36:SAY: Danny Larson/Dervin366 : ;Anyway it wasn&#39;t brutality.
+23-36:SAY: Cog Woodbed/QuinnR : ;With a tazer or laser?
+23-36:SAY: Danny Larson/Dervin366 : ;Tased.
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY MUTINY
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : WIZARDS HAVE NO USE FOR BOOLITS
+23-36:OOC: Tirist Anam/Poltifar : Quick questions: Is this round a serious one or not? :/
+23-36:SAY: Danny Larson/Dervin366 : ;Meteors!
+23-36:SAY: Danny Larson/Dervin366 : ;Hurry Elemin!
+23-36:OOC: Cog Bedhammer/X2yzh9 : Trying to be serious
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : SERIOUS ENOUGH THAT YOU DOn&#39;T ARREST THE CAPTIN
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : FAGGOT
+23-36:SAY: Urist Glasssword/Wrongnumber : Someone get me in that cell
+23-36:SAY: Nomal Engravingnoble/Ceojac : HELP ME WIZARD I WILL BE YOUR APPRENTICE
+23-36:OOC: Tirist Anam/Poltifar : That&#39;s not very serious.
+23-36:OOC: Cog Bedhammer/X2yzh9 : Zchris
+23-36:OOC: Cog Woodbed/QuinnR : ..
+23-36:SAY: Urist Glasssword/Wrongnumber : Bedhammer could you?
+23-36:OOC: Cog Woodbed/QuinnR : The captain can be arrested if he does things bad
+23-36:SAY: Danny Larson/Dervin366 : ;You here!?
+23-36:OOC: Cog Bedhammer/X2yzh9 : The captain can&#39;t do whatever he want
+23-36:OOC: Cog Bedhammer/X2yzh9 : what quinn said
+23-36:OOC: Cog Woodbed/QuinnR : Yeah
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : No, I can&#39;t.
+23-36:SAY: Nomal Engravingnoble/Ceojac : WIZAAARD
+23-36:SAY: Cog Bedhammer/X2yzh9 : In transit?
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : Never claimed to be able to
+23-36:SAY: Danny Larson/Dervin366 : No.
+23-36:SAY: Cog Woodbed/QuinnR : ;Stop whining about how I&#39;m a wizard
+23-36:SAY: Danny Larson/Dervin366 : Waiting for people.
+23-36:OOC: Cog Bedhammer/X2yzh9 : Chris, you shot at me in sec Q
+23-36:SAY: Nomal Engravingnoble/Ceojac : THIS IS POLICE BRUTALITY THE HANDCUFFS HURT MY WRISTS
+23-36:SAY: Cog Woodbed/QuinnR : ;Or I wil turn you into a zombie
+23-36:SAY: Danny Larson/Dervin366 : Shut up!
+23-36:OOC: Cog Woodbed/QuinnR : He shot me too, which I said
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : Oh yeah that was fun
+23-36:SAY: Nomal Engravingnoble/Ceojac : WIZARD PLEASE HELP
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I tased you
+23-36:SAY: Urist Glasssword/Wrongnumber : Bedhammer get me a cell would you?
+23-36:SAY: Nomal Engravingnoble/Ceojac : I WILL LOVE YOU
+23-36:SAY: Danny Larson/Dervin366 : ;Elemin!
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : I tased you, it didn&#39;t hurt you
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Is anyone not onboard the prison shuttle?
+23-36:SAY: Nomal Engravingnoble/Ceojac : PLEASE WIZARD HELP ME
+23-36:SAY: Danny Larson/Dervin366 : ;Are you here!?
+23-36:SAY: Nomal Engravingnoble/Ceojac : THIS IS MUTINY
+23-36:SAY: Cog Bedhammer/X2yzh9 : Wizard
+23-36:SAY: Cog Woodbed/QuinnR : hey
+23-36:SAY: Nomal Engravingnoble/Ceojac : POLICE BRUTALITY
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;I am not onboard the shuttle.
+23-36:SAY: Cog Bedhammer/X2yzh9 : engravingnoble is a anti-wizard
+23-36:SAY: Danny Larson/Dervin366 : ;You&#39;ve got one minute.
+23-36:SAY: Cog Bedhammer/X2yzh9 : he hates wizards
+23-36:SAY: Nomal Engravingnoble/Ceojac : NO I AM NOT
+23-36:SAY: Danny Larson/Dervin366 : Cog go let him on.
+23-36:SAY: Cog Woodbed/QuinnR : Can we change their scentence to the death scentence?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Yo, glasssword
+23-36:SAY: Urist Glasssword/Wrongnumber : ;They probaly cant get past the doors
+23-36:OOC: Tirist Anam/Poltifar : Seriously, it doesnt LOOK like a serious round. The staff is planning to take us on a prison tour with a wizard. Does that make much sense? Does any of it make ANY sense?
+23-36:SAY: Nomal Engravingnoble/Ceojac : THAT IS A LIE TO MAKE YOU NOT HELP ME
+23-36:OOC: Cog Woodbed/QuinnR : I&#39;m a magician!
+23-36:OOC: Cog Bedhammer/X2yzh9 : A trip to the prison station to repair it
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Woodbed/QuinnR : You
+23-36:OOC: Danny Larson/Dervin366 : Yeah he can&#39;t do real magic.
+23-36:SAY: Cog Woodbed/QuinnR : should shut up
+23-36:OOC: Tirist Anam/Poltifar : ...with a magician.
+23-36:SAY: Nomal Engravingnoble/Ceojac : SAVE ME PLEASE THEY WILL EXECUTE ME
+23-36:OOC: Danny Larson/Dervin366 : Nevermind!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hey, Glasssword, the magic combo is SCREWDRIVER, CROWBAR, SCREWDRIVER
+23-36:SAY: Nomal Engravingnoble/Ceojac : THEY ARE GOING TO SENTENCE ME TO DEATH
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Reinforced glass, make it happen
+23-36:SAY: Danny Larson/Dervin366 : Let him on Cog!
+23-36:OOC: Cog Woodbed/QuinnR : I&#39;m here for the tour
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Please
+23-36:SAY: Danny Larson/Dervin366 : Elemin!
+23-36:OOC: Tirist Anam/Poltifar : I see.
+23-36:SAY: Danny Larson/Dervin366 : ;Cogs coming.
+23-36:SAY: Nomal Engravingnoble/Ceojac : If you uncuff me I will tell you a secret
+23-36:SAY: Urist Glasssword/Wrongnumber : Yea?
+23-36:SAY: Cog Woodbed/QuinnR : TARCOL MINTI ZHERI
+23-36:SAY: Danny Larson/Dervin366 : Get outta the way.
+23-36:SAY: Urist Glasssword/Wrongnumber : Nice
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;I am now opening the door to board along with you.
+23-36:SAY: Cog Woodbed/QuinnR : a secret?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hey, could someone help me here?
+23-36:SAY: Nomal Engravingnoble/Ceojac : Welp you&#39;re not getting the secret now
+23-36:SAY: Urist Glasssword/Wrongnumber : err wizard dude?
+23-36:SAY: Nomal Engravingnoble/Ceojac : And it&#39;s a big one
+23-36:SAY: Elemin Taixera/Shiningsoul32 : I am quite obviously magic.
+23-36:SAY: Cog Woodbed/QuinnR : yes?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I&#39;m... a little tied down.
+23-36:SAY: Cog Bedhammer/X2yzh9 : in there
+23-36:SAY: Danny Larson/Dervin366 : ;You on?
+23-36:SAY: Nomal Engravingnoble/Ceojac : You could rule the station wizard
+23-36:SAY: Cog Woodbed/QuinnR : in where?
+23-36:SAY: Cog Bedhammer/X2yzh9 : stay in your respective cells for the duration of the flight, crew
+23-36:SAY: Nomal Engravingnoble/Ceojac : If only you didn&#39;t do that
+23-36:SAY: Urist Glasssword/Wrongnumber : Thanks that was tight
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Tirist Anam/Poltifar : I&#39;m stuck
+23-36:SAY: Danny Larson/Dervin366 : ;If we get hit by meteors and die.
+23-36:SAY: Danny Larson/Dervin366 : ;I will kill you.
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Tirist Anam/Poltifar : What the hell
+23-36:SAY: Urist Glasssword/Wrongnumber : Cell please?
+23-36:SAY: Cog Bedhammer/X2yzh9 : Glasssword
+23-36:SAY: Cog Bedhammer/X2yzh9 : in there
+23-36:SAY: Urist Glasssword/Wrongnumber : Door?
+23-36:SAY: Danny Larson/Dervin366 : ;Hurry up damnit!
+23-36:SAY: Elemin Taixera/Shiningsoul32 : DISAPPEAR!
+23-36:SAY: Cog Woodbed/QuinnR : STI CALLIYE
+23-36:SAY: Cog Bedhammer/X2yzh9 : ; Danny, he&#39;s on
+23-36:SAY: Nomal Engravingnoble/Ceojac : Where is the wizard
+23-36:SAY: Danny Larson/Dervin366 : ;Launching in 1
+23-36:SAY: Danny Larson/Dervin366 : ; 2
+23-36:SAY: Nomal Engravingnoble/Ceojac : I NEED TO DISCUSS SOMETHING WITH THE GOOD SIR
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hey, Glasssword, what&#39;s in that beaker
+23-36:SAY: Urist Glasssword/Wrongnumber : MY EYES!
+23-36:SAY: Danny Larson/Dervin366 : ; 3
+23-36:SAY: Danny Larson/Dervin366 : ;Take off!
+23-36:SAY: Cog Woodbed/QuinnR : ;we already launchd
+23-36:SAY: Urist Glasssword/Wrongnumber : Ah jesus!
+23-36:SAY: Cog Bedhammer/X2yzh9 : So
+23-36:SAY: Danny Larson/Dervin366 : Yes?
+23-36:SAY: Urist Glasssword/Wrongnumber : Im a blind man can this get any worse!
+23-36:SAY: Cog Bedhammer/X2yzh9 : how&#39;s our course plot going?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Yes it can
+23-36:SAY: Cog Woodbed/QuinnR : yes
+23-36:SAY: Danny Larson/Dervin366 : Fine.
+23-36:SAY: Cog Woodbed/QuinnR : and your vision will return
+23-36:SAY: Elemin Taixera/Shiningsoul32 : I BELIEVE IN MAGIC
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Danny Larson/Dervin366 : I had to blast some meteors
+23-36:SAY: Urist Glasssword/Wrongnumber : Dont say... never mind
+23-36:SAY: Nomal Engravingnoble/Ceojac : ;Cog
+23-36:SAY: Cog Bedhammer/X2yzh9 : Good, good
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : You could not free me from my prison
+23-36:SAY: Cog Woodbed/QuinnR : if you shut up/
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Hehehe. :x
+23-36:SAY: Elemin Taixera/Shiningsoul32 : I DO BELIEVE IN MAGIC!
+23-36:SAY: Nomal Engravingnoble/Ceojac : Wizard
+23-36:SAY: Elemin Taixera/Shiningsoul32 : I DO! I DO!
+23-36:SAY: Urist Glasssword/Wrongnumber : Yeow that hurt
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Alright
+23-36:SAY: Nomal Engravingnoble/Ceojac : I will tell you a secret
+23-36:SAY: Danny Larson/Dervin366 : Me might hit some turbulence.
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Danny Larson/Dervin366 : Er...We.
+23-36:SAY: Nomal Engravingnoble/Ceojac : That may allow you to rule the station
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;I BELIEVE IN MAGIC!
+23-36:SAY: Cog Woodbed/QuinnR : BIRUZ BENNAR
+23-36:SAY: Nomal Engravingnoble/Ceojac : If you uncuff me
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;I DO! I DO!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : ALLIE ALLIE AUXEN FREE
+23-36:SAY: Cog Woodbed/QuinnR : ;Me too
+23-36:SAY: Urist Glasssword/Wrongnumber : Space D&#39;s and WoofWoof.. OW
+23-36:SAY: Elemin Taixera/Shiningsoul32 : ;Hello?
+23-36:SAY: Elemin Taixera/Shiningsoul32 : WHERE IS MY STAAATIOOON.
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Woodbed/QuinnR : hello
+23-36:SAY: Nomal Engravingnoble/Ceojac : Wizard
+23-36:SAY: Nomal Engravingnoble/Ceojac : Come here
+23-36:SAY: Cog Woodbed/QuinnR : are we ther yet?
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Nomal Engravingnoble/Ceojac : If you uncuff me
+23-36:SAY: Cog Woodbed/QuinnR : oh
+23-36:SAY: Cog Bedhammer/X2yzh9 : fixing the window
+23-36:SAY: Cog Woodbed/QuinnR : Nomal is trying to bribe me
+23-36:SAY: Nomal Engravingnoble/Ceojac : Look
+23-36:SAY: Urist Glasssword/Wrongnumber : Nomal i swear ill pump you full of toxins soon
+23-36:SAY: Cog Woodbed/QuinnR : can I kill him?
+23-36:SAY: Nomal Engravingnoble/Ceojac : If you let me free
+23-36:SAY: Urist Glasssword/Wrongnumber : Are we in transet?
+23-36:SAY: Nomal Engravingnoble/Ceojac : I will tell you how you can become the most powerful man on the station
+23-36:OOC: Cog Woodbed/QuinnR : prison windows are weird
+23-36:OOC: Cog Woodbed/QuinnR : I destroyed the shuttle windows
+23-36:OOC: Cog Woodbed/QuinnR : but can&#39;t walk on it
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:OOC: Tirist Anam/Poltifar : They leave some kind of grille
+23-36:SAY: Cog Bedhammer/X2yzh9 : We&#39;re here!
+23-36:SAY: Tirist Anam/Poltifar : Hey, let me out
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Nomal Engravingnoble/Ceojac : Guess you don&#39;t want to be the most powerful man on the station
+23-36:SAY: Cog Bedhammer/X2yzh9 : Thanks for the piloting
+23-36:SAY: Nomal Engravingnoble/Ceojac : Hmmm
+23-36:SAY: Urist Glasssword/Wrongnumber : Woops one more time?
+23-36:SAY: Danny Larson/Dervin366 : ;I updated some recordds.
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Bedhammer/X2yzh9 : right
+23-36:SAY: Cog Bedhammer/X2yzh9 : you take engraving, i&#39;ll take the ex-captain
+23-36:SAY: Cog Woodbed/QuinnR : Very nice prison
+23-36:SAY: Cog Woodbed/QuinnR : ;Nice prison
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:ACCESS: Logout: Shiningsoul32
+23-36:SAY: Nomal Engravingnoble/Ceojac : LOOK
+23-36:SAY: Nomal Engravingnoble/Ceojac : Uncuff me
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Nomal Engravingnoble/Ceojac : And you can become a captain
+23-36:SAY: Nomal Engravingnoble/Ceojac : I know how
+23-36:MATTACK: Danny Larson(Dervin366)has shot a taser round at the floor
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:MATTACK: Danny Larson(Dervin366)has shot a taser round at Nomal Engravingnoble
+23-36:MATTACK: Danny Larson(Dervin366)has shot a taser round at Nomal Engravingnoble
+23-36:SAY: Urist Glasssword/Wrongnumber : ;No power but hey
+23-36:SAY: Cog Woodbed/QuinnR : ;It has power
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HEY
+23-36:SAY: Tirist Anam/Poltifar : ;Woah, dark in here
+23-36:SAY: Cog Woodbed/QuinnR : ;just no lights
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : OVER HERE
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : FAGGOTS
+23-36:SAY: Cog Woodbed/QuinnR : ;get the emergency flashlights
+23-36:SAY: Urist Glasssword/Wrongnumber : Can i get a cell?
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Bedhammer/X2yzh9 : Right
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : HEY
+23-36:SAY: Cog Bedhammer/X2yzh9 : we&#39;re going to let it track power
+23-36:SAY: Danny Larson/Dervin366 : If we can get this working
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Over here
+23-36:SAY: Urist Glasssword/Wrongnumber : *yawn
+23-36:SAY: Cog Bedhammer/X2yzh9 : I think we can
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Help
+23-36:SAY: Danny Larson/Dervin366 : We can run this station fine.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : help
+23-36:SAY: Nomal Engravingnoble/Ceojac : Bitches
+23-36:SAY: Nomal Engravingnoble/Ceojac : FUCK YOU ALL
+23-36:SAY: Cog Bedhammer/X2yzh9 : Alright
+23-36:SAY: Danny Larson/Dervin366 : ;How long do we have to be here?
+23-36:SAY: Nomal Engravingnoble/Ceojac : ASSSSSS
+23-36:SAY: Cog Woodbed/QuinnR : ;where is nomal?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : What do you have in that beaker, Glasssword?
+23-36:SAY: Urist Glasssword/Wrongnumber : Nothing
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : What did you have?
+23-36:SAY: Nomal Engravingnoble/Ceojac : The fuck?
+23-36:ADMIN: QuinnR created /obj/item/weapon/flashlight
+23-36:ADMIN: QuinnR created /obj/item/weapon/flashlight
+23-36:ADMIN: QuinnR created /obj/item/weapon/flashlight
+23-36:ADMIN: QuinnR created /obj/item/weapon/flashlight
+23-36:ADMIN: QuinnR created /obj/item/weapon/flashlight
+23-36:SAY: Urist Glasssword/Wrongnumber : Got no beaker and whats in the bag and my pocket IS MINE
+23-36:SAY: Cog Woodbed/QuinnR : here
+23-36:SAY: Nomal Engravingnoble/Ceojac : Fine
+23-36:SAY: Nomal Engravingnoble/Ceojac : Fuck the word
+23-36:SAY: Tirist Anam/Poltifar : LIGHT!
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hey Danny
+23-36:SAY: Urist Glasssword/Wrongnumber : Door please
+23-36:SAY: Nomal Engravingnoble/Ceojac : Fuck you all
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Let me out
+23-36:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+23-36:SAY: Urist Glasssword/Wrongnumber : Can i get my cell open?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : As your captain, I order you to let me out!
+23-36:SAY: Cog Bedhammer/X2yzh9 : Temp lighting
+23-36:ACCESS: Login: Fairleystuff from 71.165.237.51
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Erm...guys?
+23-36:SAY: Urist Glasssword/Wrongnumber : Cog?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : As your captain, I order you to let me out!
+23-36:SAY: Danny Larson/Dervin366 : NOOO!
+23-36:OOC: Elemin Taixera/Shiningsoul32 : What exactly HAPPENED to everyone?
+23-36:SAY: Urist Glasssword/Wrongnumber : We have genetics...
+23-36:SAY: Cog Woodbed/QuinnR : is nomal alive?
+23-36:SAY: Urist Glasssword/Wrongnumber : Door please?
+23-36:ACCESS: Logout: Fairleystuff
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Let me OUT
+23-36:SAY: Danny Larson/Dervin366 : He&#39;s killing himself.
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:SAY: Cog Woodbed/QuinnR : Hello
+23-36:SAY: Cog Woodbed/QuinnR : you should run.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : Hi
+23-36:SAY: Cog Woodbed/QuinnR : You are annoying
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I can&#39;t
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Fml.
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I can&#39;t run
+23-36:SAY: Urist Glasssword/Wrongnumber : Cog?
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I would
+23-36:SAY: Cog Woodbed/QuinnR : Oh well..
+23-36:SAY: Urist Glasssword/Wrongnumber : Door man
+23-36:SAY: Cog Bedhammer/X2yzh9 : Woodbed
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : But I can&#39;t
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Set off, then walked out of the shuttle.
+23-36:SAY: Cog Woodbed/QuinnR : I can&#39;t open it
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Fuck you bagel!
+23-36:SAY: Cog Bedhammer/X2yzh9 : I&#39;ll go get the cane!
+23-36:SAY: Cog Woodbed/QuinnR : just walk through it
+23-36:SAY: Urist Bronzedriven/ZCHRIS13 : I don&#39;t have automagic wizard powers
+23-36:SAY: Cog Woodbed/QuinnR : EI NATH
+23-36:OOC: Danny Larson/Dervin366 : Shit!
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:OOC: Danny Larson/Dervin366 : I almost walked into space.
+23-36:SAY: Urist Glasssword/Wrongnumber : ;Is any one opening this cell or am i sifting?
+23-36:SAY: Cog Woodbed/QuinnR : that is what annoying people get.
+23-36:SAY: Cog Woodbed/QuinnR : DEATH
+23-36:SAY: Tirist Anam/Poltifar : Erm, why did you kill him?
+23-36:SAY: Danny Larson/Dervin366 : We have no prisoners.
+23-36:SAY: Danny Larson/Dervin366 : ...
+23-36:SAY: Cog Woodbed/QuinnR : because he was insanely annoying
+23-36:SAY: Tirist Anam/Poltifar : Well... lets head back to station then?
+23-36:SAY: Cog Bedhammer/X2yzh9 : your cell
+23-36:OOC: HELP: Urist Bronzedriven/ZCHRIS13 : Now if that&#39;s not grief, then what is?
+23-36:OOC: HELP: Elemin Taixera/Shiningsoul32 : Could I get a res on the prison station since I fail? :[
+23-36:SAY: Cog Woodbed/QuinnR : SCYAR NILA ENGINE
+23-36:SAY: Danny Larson/Dervin366 : Tirist
+23-36:ADMIN: PM: QuinnR->ZCHRIS13 : I gave my reasons
+23-36:SAY: Danny Larson/Dervin366 : Come with me.
+23-36:SAY: Tirist Anam/Poltifar : Yes?
+23-36:ACCESS: Logout: 
+23-36:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+23-36:ACCESS: They share computer ID's
+23-36:SAY: Tirist Anam/Poltifar : Why?
+23-36:ADMIN: PM: QuinnR-> : What happened
+23-36:ADMIN: PM: QuinnR-> : What happened?
+23-36:SAY: Tirist Anam/Poltifar : Erm, why do i have to go there?
+23-36:VOTE: Voting to restart round started by Urist Bronzedriven/ZCHRIS13
+23-36:SAY: Danny Larson/Dervin366 : Your room.
+23-36:OOC: Urist Glasssword/Wrongnumber : You killed yourself
+23-36:SAY: Tirist Anam/Poltifar : But... i dont wana be locked in there
+23-36:OOC: HELP: Cog Bedhammer/X2yzh9 : Quinn, I&#39;m Cog Bedhammer. We forgot to bring a power cell, and so  now the solar panel controls are down
+23-36:ADMIN: PM: QuinnR->X2yzh9 : rofls
+23-36:ADMIN: PM: QuinnR->X2yzh9 : you vote yet?
+23-36:ADMIN: PM: X2yzh9->QuinnR : Uras
+23-36:ACCESS: Logout: 
+23-36:ACCESS: Login: Ceojac from 24.20.178.177
+23-36:ACCESS: They share computer ID's
+23-36:ADMIN: PM: X2yzh9->QuinnR : Yes
+23-36:ADMIN: PM: QuinnR->X2yzh9 : I'lll get you one
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : I want some serious Nuke action here.
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : That&#39;s where the money is
+23-36:OOC: Cog Bedhammer/X2yzh9 : no chris, bad chris
+23-36:OOC: Elemin Taixera/Shiningsoul32 : Restart please? I&#39;m a failure.
+23-36:OOC: Urist Glasssword/Wrongnumber : Nuke?... no thanks
+23-36:ADMIN: PM: QuinnR->X2yzh9 : ZCHRIS is angry I killed him
+23-36:OOC: Urist Glasssword/Wrongnumber : Aww come on
+23-36:ADMIN: PM: X2yzh9->QuinnR : lulz.
+23-36:ADMIN: PM: QuinnR->X2yzh9 : But even IC someone can get pissed off.
+23-36:OOC: Urist Glasssword/Wrongnumber : gah
+23-36:SAY: Cog Woodbed/QuinnR : AULIE OXIN FIERA
+23-36:OOC: Elemin Taixera/Shiningsoul32 : I jumped out of the shuttle on accident since I did not know where you guys went.
+23-36:OOC: Urist Bronzedriven/ZCHRIS13 : What do you mean No nuke?
+23-36:VOTE: Voting closed, result was restart
+23-36:OOC: Elemin Taixera/Shiningsoul32 : I was sad and lonely. :[
+23-36:OOC: Cog Bedhammer/X2yzh9 : FUCKINg
+23-36:OOC: Cog Bedhammer/X2yzh9 : NO
+23-36:OOC: Cog Woodbed/QuinnR : damn
+23-36:GAME: Rebooting due to restart vote
+23-36:ACCESS: Logout: ZCHRIS13
+23-36:ACCESS: Logout: Shiningsoul32
+23-36:ACCESS: Logout: Dervin366
+23-36:ACCESS: Logout: X2yzh9
+23-36:ACCESS: Logout: QuinnR
+23-36:ACCESS: Logout: Guest-3278432552
+23-36:ACCESS: Logout: Poltifar
+23-36:ACCESS: Logout: Ceojac
+23-36:ACCESS: Logout: Wrongnumber
+23-36:ACCESS: Logout: Mono124

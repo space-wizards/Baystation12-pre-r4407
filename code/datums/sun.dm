@@ -4,22 +4,22 @@
 	var/dy
 	var/counter = 50		// to make the vars update during 1st call
 	var/rate
+	var/dir = 0
 
 /datum/sun/New()
-	rate = rand(75,125)/100			// 75% - 125% of standard rotation
-	if(prob(50))
-		rate = -rate
+	rate = rand(25,125)			// 75% - 125% of standard rotation
+	dir = prob(50) ? -1 : 1
 
 // calculate the sun's position given the time of day
 
 /datum/sun/proc/calc_position()
 
 	counter++
-	if(counter<50)		// count 50 pticks (50 seconds, roughly - about a 5deg change)
+	if(counter < rate)		// count 50 pticks (50 seconds, roughly - about a 5deg change)
 		return
 	counter = 0
 
-	angle = ((rate*world.realtime/100)%360 + 360)%360		// gives about a 60 minute rotation time
+	angle += dir		// gives about a 60 minute rotation time
 															// now 45 - 75 minutes, depending on rate
 	// now calculate and cache the (dx,dy) increments for line drawing
 
