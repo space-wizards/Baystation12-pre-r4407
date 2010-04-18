@@ -134,6 +134,7 @@
 #include "code\game\events.dm"
 #include "code\game\hud.dm"
 #include "code\game\player.dm"
+#include "code\game\radiation.dm"
 #include "code\game\throwing.dm"
 #include "code\game\virus.dm"
 #include "code\game\vote.dm"

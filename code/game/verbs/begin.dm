@@ -177,6 +177,15 @@
 	M.primarynew.uni_identity = temp
 	//world << temp
 
+	if(prob(5) && random_illnesses)
+		var/dis = pick(list(1,2,3))
+		if(dis == 1)
+			M.be_cough = 1
+		else if(dis == 2)
+			M.be_tur = 1
+		else if(dis == 3)
+			M.be_stut = 1
+
 // HAI PERSH!
 	var/mutvis
 	if (M.need_gl) //on
