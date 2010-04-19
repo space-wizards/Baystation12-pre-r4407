@@ -750,7 +750,7 @@
 	O.lastKnownIP = src.client.address
 	src.primary = null
 	if (src.client)
-		src.client.mob = O
+		O.key = src.key
 	O.loc = src.loc
 	O << "<B>You are playing the station's AI. The AI cannot move, but can interact with many objects while viewing them (through cameras).</B>"
 	O << "<B>To look at other parts of the station, double-click yourself to get a camera menu.</B>"
@@ -830,9 +830,7 @@
 				src.be_stut = column_data["be_stut"]
 				src.be_music = column_data["be_music"]
 				src.be_syndicate = column_data["be_syndicate"]
-				src.be_nudist = column_data["be_nudist"]
-				world << column_data["be_nudist"]
-				world << column_data["be_tur"]
+				src.be_nudist = 0
 				src << "Player Profile has been loaded"
 				src << browse(null, "window=mob_occupation")
 			return 1
@@ -840,7 +838,7 @@
 			world.log_admin("[xquery.ErrorMsg()]")
 			return 0
 	else
-		var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '[src.nr_hair]', '[src.ng_hair]', '[src.nb_hair]', '[src.nr_facial]', '[src.ng_facial]', '[src.nb_facial]', '[src.ns_tone]', '[src.h_style]', '[src.h_style_r]', '[src.f_style]', '[src.f_style_r]', '[src.r_eyes]', '[src.g_eyes]', '[src.b_eyes]', '[src.b_type]', '[src.need_gl]', '[src.be_epil]', '[src.be_tur]', '[src.be_cough]', '[src.be_stut]', '[src.be_music]', '[src.be_syndicate]', '[src.be_nudist]');")
+		var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '100', '100', '100', '100', '100', '100', '100', 'Short Hair', 'hair_a', 'Shaved', 'bald', '100', '100', '0', 'A+', '0', '0', '0', '0', '0', '0', '1', '0');")
 		query.Execute()
 		src << browse(null, "window=mob_occupation")
 		return 0
@@ -1845,8 +1843,14 @@
 					var/list/column_data = keys.GetRowData()
 					reas = column_data["reason"]
 					bywho = column_data["bannedby"]
-			alert("\red You're banned from Baystation 12 Reason:[reas] by [bywho].")
-			messageadmins("\blue Failed Login: [src] Reason:[reas] by [bywho] ")
+			if(!reas)
+				reas = "Unspecified"
+			if(!bywho)
+				bywho = "Unspecified"
+			src << ("<FONT size = 3>\red You're banned from Baystation 12</font>")
+			src << "Reason:[reas]"
+			src << "Banned by:[bywho]."
+			messageadmins("\blue Failed Login: [src] Reason:[reas] Banned by:[bywho] ")
 			del src
 
 		if (address && address!="127.0.0.1" && address!="localhost")

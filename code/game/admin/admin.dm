@@ -291,26 +291,31 @@
 			for(var/mob/M in world)
 				dat += text("<A href='?src=\ref[];ban2=\ref[]'>N: <B>[]</B> R: [] (K: []) (IP: [])</A><BR>", src, M, M.name, M.rname, (M.client ? M.client : "No client"), M.lastKnownIP)
 			dat += "<HR><B>Unban Player:</B><HR>"
-	/*		for(var/t in crban_keylist)
-				dat += text("<A href='?src=\ref[];unban2=[]'>K: <B>[]</B> (IP: []) (Time: []) (By: []) (Reason: [])</A><BR>", src, ckey(t), t, crban_keylist[ckey(t)], crban_time[ckey(t)], crban_bannedby[ckey(t)], crban_reason[ckey(t)])
-			dat += "<HR><B>Caught IP's:</B><HR>"
-			for(var/t in crban_iplist)
-				dat += text("IP: [] (N: [])<BR>", ckey(t), crban_iplist[t])
-			dat += "<HR><B>Unbanned Key's: (Safe to remove from this list once they have rejoined once!)</B><HR>"
-			for(var/t in crban_unbanned)
-			//	dat += text("K: []<BR>", ckey(t))
-				dat += text("<A href='?src=\ref[];ununban=[]'>N: [] (By: [])</A><BR>", src, ckey(t), t, crban_unbanned[ckey(t)])*/
+			var/DBQuery/my_query = dbcon.NewQuery("SELECT * FROM `crban`")
+			var/DBQuery/my_query2 = dbcon.NewQuery("SELECT ckey FROM `crban`")
+			var/reas
+			var/bywho
+			var/lolkey
+			var/lolip
+			var/time
+			var/list/keys
+			if(my_query2.Execute())
+				while(my_query2.NextRow())
+					keys  = my_query2.GetRowData()
+			if(my_query.Execute())
+				while(my_query.NextRow())
+					var/list/column_data = my_query.GetRowData()
+					for(var/P in keys)
+						reas = column_data["reason"]
+						bywho = column_data["bannedby"]
+						lolkey = column_data["ckey"]
+						lolip = column_data["ips"]
+						time = column_data["time"]
+						dat += text("<A href='?src=\ref[];unban2=[]'>K: <B>[]</B> (IP: []) (Time: []) (By: []) (Reason: [])</A><BR>", src,lolkey,lolkey,lolip,time,bywho,reas)
 			usr << browse(dat, "window=ban;size=800x600")
-/*	if (href_list["ipban"])
-		if (src.rank == "Host")
-			var/range = (input("What range?","IP Ban","0.0.0.0") as text)
-			if (range)
-				//crban_iprange(range)
-
 
 	if (href_list["ununban"])	//NOTE THIS SAYS UNUNBAN. As in un unban them. unbanananananana!
 		messageadmins("Ununban is broke")
-*/
 	if (href_list["ban2"])
 		messageadmins("Got to stage 3!")
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host" )))
@@ -340,7 +345,7 @@
 	if (href_list["unban2"])
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host" )))
 			var/t = href_list["unban2"]
-			if(t && !isbanned(t))
+			if(t && isbannedadv(t,1))
 				world.log_admin("[usr.key] unbanned [t].")
 				messageadmins("\blue[usr.key] unbanned [t]")
 				unban(t, usr.ckey)

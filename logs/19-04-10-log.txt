@@ -1,0 +1,1371 @@
+01-01:ADMIN: Loading jobban_rank
+01-01:ADMIN: Updating jobbanfile!
+01-01:GAME: Finished building powernets (30 nets)
+01-01:ACCESS: Login: Headswe from 127.0.0.1
+01-01:ACCESS: Logout: Headswe
+01-04:ADMIN: Loading jobban_rank
+01-04:ADMIN: Updating jobbanfile!
+01-04:GAME: Finished building powernets (30 nets)
+01-04:ACCESS: Login: Headswe from 127.0.0.1
+01-04:ADMIN: Headswe unbanned testjerk.
+01-04:ADMIN: Unknown column 'CKeys' in 'field list'
+01-04:GAME: starting game of sandbox
+01-04:ADMIN: Headswe jumped to Plasma Research Lab
+01-04:ADMIN: Headswe modified Fath Crossbowriver's firemut to 1
+01-04:ADMIN: Headswe modified manual valve's gas1 to the gas
+01-04:ADMIN: Headswe modified manual valve's ngas1 to the gas
+01-04:ACCESS: Logout: Headswe
+01-30:ADMIN: Loading jobban_rank
+01-30:ADMIN: Updating jobbanfile!
+01-30:GAME: Finished building powernets (30 nets)
+01-34:ADMIN: Loading jobban_rank
+01-34:ADMIN: Updating jobbanfile!
+01-34:GAME: Finished building powernets (30 nets)
+01-34:ACCESS: Login: Headswe from 127.0.0.1
+01-34:GAME: Headswe entered as Fath Crossbowriver
+01-34:ADMIN: Headswe used start_now
+01-34:GAME: starting game of sandbox
+01-34:ADMIN: Headswe jumped to Plasma Research Lab
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:OOC: Minkot Murderedglass/Shiningsoul32 : Why Headswe.
+01-34:OOC: Minkot Murderedglass/Shiningsoul32 : Just why?
+01-34:ACCESS: Login: Eternalnight264 from 24.77.134.166
+01-34:GAME: Shiningsoul32 entered as Besmar Hammerpick
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Oh
+01-34:GAME: Eternalnight264 entered as Besmar Daggerdagger
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : I see a glitch
+01-34:SAY: Besmar Daggerdagger/Eternalnight264 : ...
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Was there a bunch of server updates or something?
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-34:OOC: Fath Crossbowriver/Headswe : Hmm?
+01-34:OOC: Fath Crossbowriver/Headswe : Where is this glitch?
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Not going to map?
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Can you enable respawn, Prehaps?
+01-34:ADMIN: Headswe jumped to Besmar Daggerdagger
+01-34:ADMIN: Headswe Healed/Revived Eternalnight264
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Was there a server update?
+01-34:OOC: Fath Crossbowriver/Headswe : Yes
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 :  
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : Can we play something?
+01-34:ACCESS: Login: Cacophony from 71.136.51.144
+01-34:OOC: Besmar Daggerdagger/Eternalnight264 : I is dead, And I cannot respawn...
+01-34:ADMIN: Headswe toggled abandon mob to On.
+01-34:GAME: Besmar Daggerdagger/Eternalnight264 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Eternalnight264 from 24.77.134.166
+01-34:ACCESS: They share computer ID's
+01-34:GAME: Cacophony entered as Virgil Lamb
+01-34:GAME: Eternalnight264 entered as Shorast Magmatrap
+01-34:MATTACK: Shorast Magmatrap(Eternalnight264)has shot a taser round at the grille
+01-34:MATTACK: Shorast Magmatrap(Eternalnight264)has shot a taser round at the grille
+01-34:MATTACK: Shorast Magmatrap(Eternalnight264)has shot a taser round at the grille
+01-34:MATTACK: Shorast Magmatrap(Eternalnight264)has shot a taser round at the grille
+01-34:MATTACK: Shorast Magmatrap(Eternalnight264)has shot a taser round at the grille
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Virgil, Why is my other char not loaded?
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Is that a totally different server?
+01-34:SAY: Shorast Magmatrap/Eternalnight264 : hey monkey
+01-34:OOC: Fath Crossbowriver/Headswe : This server is a MYSQL powered server.
+01-34:OOC: Fath Crossbowriver/Headswe : This is the ultra secret speical super awesome beta server
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Is there not another server as well?
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Is mister muggles an NPC?
+01-34:OOC: Unknown/Shiningsoul32 : Ah you fixed the shocks?
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with the laser gun
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:MATTACK: Shorast Magmatrap (Eternalnight264) attacked () with Fire Extinguisher
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : I think I just killed mister muggles..
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : ...
+01-34:OOC: Fath Crossbowriver/Headswe : Shocks?
+01-34:OOC: Fath Crossbowriver/Headswe : Hopefully i fixed the cold bug
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Heads, I swear there was another server..
+01-34:OOC: Unknown/Shiningsoul32 : I think it was just one.
+01-34:OOC: Unknown/Shiningsoul32 : I survived it.
+01-34:OOC: Unknown/Shiningsoul32 : That time however...
+01-34:SAY: Virgil Lamb/Cacophony : Wakey wakey.
+01-34:OOC: Unknown/Shiningsoul32 : I just pushed the door and it electrocuted me.
+01-34:GAME: Unknown/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:GAME: Besmar Hammerpick/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Fath Crossbowriver(Headswe) with the energy sword
+01-34:ADMIN: Headswe Healed/Revived Headswe
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:MATTACK: Fath Crossbowriver (Headswe) attacked Besmar Hammerpick(Shiningsoul32) with the energy sword
+01-34:GAME: Besmar Hammerpick/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:ADMIN: Headswe Healed/Revived Headswe
+01-34:ADMIN: Headswe Healed/Revived Headswe
+01-34:OOC: Besmar Hammerpick/Shiningsoul32 : MOTHER FER. xD
+01-34:ADMIN: Headswe Healed/Revived Headswe
+01-34:ADMIN: Headswe Healed/Revived Headswe
+01-34:GAME: Besmar Hammerpick/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:GAME: Besmar Hammerpick/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:SAY: Virgil Lamb/Cacophony : Need you.
+01-34:SAY: Shorast Magmatrap/Eternalnight264 : For what?
+01-34:OOC: Besmar Hammerpick/Shiningsoul32 : I sense an admin. xD
+01-34:SAY: Virgil Lamb/Cacophony : Your enzymes.  
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : What?
+01-34:OOC: Shorast Rockmicrocline/Shiningsoul32 : Bad Headswe.
+01-34:OOC: Shorast Rockmicrocline/Shiningsoul32 : BAD.
+01-34:GAME: Shorast Rockmicrocline/Shiningsoul32 used abandon mob.
+01-34:ACCESS: Logout: 
+01-34:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-34:ACCESS: They share computer ID's
+01-34:SAY: Virgil Lamb/Cacophony : So we can revive people.   
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : You are turning me into a monkey I know it
+01-34:SAY: Virgil Lamb/Cacophony : Strip down and get into the modifier, so I can save it in the buffer.  
+01-34:ADMIN: Headswe jumped to Virgil Lamb
+01-34:GAME: Shiningsoul32 entered as Nil Arrowzombie
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : I founds heads, ANd lost 
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Virgil, Was there not another server, And I was the chemist?
+01-34:SAY: Virgil Lamb/Cacophony : Yep.   There was.  
+01-34:OOC: Nil Arrowzombie/Shiningsoul32 : My toolbox command seems broken.
+01-34:OOC: Nil Arrowzombie/Shiningsoul32 : It&#39;s not listed.
+01-34:OOC: Fath Crossbowriver/Headswe : toolbox command?
+01-34:OOC: Shorast Magmatrap/Eternalnight264 : Virgil, Whatever your OOC name is, Was ther enot another server
+01-34:OOC: Nil Arrowzombie/Shiningsoul32 : Sandbox.
+01-34:OOC: Nil Arrowzombie/Shiningsoul32 : D:
+01-34:ADMIN: Headswe initiated an immediate reboot.
+01-34:ACCESS: Logout: Headswe
+01-34:ACCESS: Logout: Shiningsoul32
+01-34:ACCESS: Logout: Eternalnight264
+01-34:ACCESS: Logout: Cacophony
+01-56:ADMIN: Loading jobban_rank
+01-56:ADMIN: Updating jobbanfile!
+01-56:GAME: Finished building powernets (30 nets)
+01-56:ACCESS: Login: Headswe from 127.0.0.1
+01-56:ACCESS: Login: Eternalnight264 from 24.77.134.166
+01-56:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+01-56:GAME: Headswe entered as Fath Crossbowriver
+01-56:GAME: Eternalnight264 entered as Besmar Daggerdagger
+01-56:VOTE: Voting to change mode started by Besmar Daggerdagger/Eternalnight264
+01-56:ADMIN: Headswe used start_now
+01-56:GAME: starting game of sandbox
+01-56:ADMIN: Headswe jumped to the start area
+01-56:OOC: Fath Crossbowriver/Headswe : Shiining
+01-56:OOC: Fath Crossbowriver/Headswe : Press ready.
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Cancel the vote,
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Canceell
+01-56:ADMIN: Voting aborted by Headswe
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Thank you
+01-56:ACCESS: Login: Cacophony from 71.136.51.144
+01-56:GAME: Cacophony entered as Virgil Lamb
+01-56:SAY: Virgil Lamb/Cacophony : Don&#39;t cut the trees, man.
+01-56:SAY: Virgil Lamb/Cacophony : Urist cancels flipping the fuck out: Doing the entrance dance.
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Not sure how I did it
+01-56:SAY: Virgil Lamb/Cacophony : DWARFS!
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : I ahdncuffed myself
+01-56:SAY: Virgil Lamb/Cacophony : Diagonal flow sucks!
+01-56:OOC: Fath Crossbowriver/Headswe : Haha.
+01-56:OOC: Besmar Hammerpick/Shiningsoul32 : You clicked on yourself with handcuffs. xD
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Screw it
+01-56:SAY: Virgil Lamb/Cacophony : You seem to have a carp stuck in your beard..
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : I&#39;m choking mr.muggles to death
+01-56:ACCESS: Login: Kenruler from 71.169.42.95
+01-56:SAY: Virgil Lamb/Cacophony : Magma solves everything.&#39;
+01-56:OOC: Besmar Hammerpick/Shiningsoul32 : Eating food from some place. It&#39;s go--
+01-56:SAY: Bing Whoopers/Kenruler : loluglitched
+01-56:OOC: Besmar Hammerpick/Shiningsoul32 : DOOD. Leave mr. Muggles alone.
+01-56:SAY: Bing Whoopers/Kenruler : SUX2BU
+01-56:GAME: Kenruler entered as Bing Whoopers
+01-56:SAY: Virgil Lamb/Cacophony : Diagonal flow sucks!
+01-56:SAY: Bing Whoopers/Kenruler : Well
+01-56:SAY: Bing Whoopers/Kenruler : shit
+01-56:SAY: Bing Whoopers/Kenruler : this sucks
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Can we play meteor after?
+01-56:SAY: Virgil Lamb/Cacophony : You seem to have a carp stuck in your beard..
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : then get these cufffs off of meeee
+01-56:OOC: Bing Whoopers/Kenruler : lol&#39;d at me and the guy in the spawning area
+01-56:SAY: Virgil Lamb/Cacophony : Diagonal flow sucks!
+01-56:SAY: Virgil Lamb/Cacophony : BURN THEM!
+01-56:SAY: Virgil Lamb/Cacophony : Where are my socks?
+01-56:OOC: Fath Crossbowriver/Headswe : Thats me.
+01-56:SAY: Virgil Lamb/Cacophony : Where are my socks?
+01-56:OOC: Fath Crossbowriver/Headswe : Fuck.
+01-56:OOC: Bing Whoopers/Kenruler : Way to ruin the fun
+01-56:OOC: Fath Crossbowriver/Headswe : Only some bug.
+01-56:SAY: Virgil Lamb/Cacophony : Burn the trees! HAHAHA!
+01-56:SAY: Virgil Lamb/Cacophony : Urist cancels flipping the fuck out: Doing the entrance dance.
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : You
+01-56:SAY: Virgil Lamb/Cacophony : Urist wuz here, lulz.
+01-56:SAY: Bing Whoopers/Kenruler : Need some help?
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : get these cuffs off of me
+01-56:SAY: Virgil Lamb/Cacophony : Diagonal flow sucks!
+01-56:SAY: Bing Whoopers/Kenruler : I AM THE DESTROYER OF WORLDS
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : Wheere are we going?
+01-56:SAY: Bing Whoopers/Kenruler : There you go.
+01-56:SAY: Virgil Lamb/Cacophony : DWARFS!
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : ; Help!
+01-56:SAY: Virgil Lamb/Cacophony : Where are my socks?
+01-56:GAME: Shiningsoul32 entered as Besmar Hammerpick
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : ; Help, I am tied up in arrival
+01-56:MATTACK: Virgil Lamb(Cacophony) clicked on Virgil Lamb(Cacophony) with a DNA injector
+01-56:SAY: Besmar Daggerdagger/Eternalnight264 : ; He is going to blow the wall
+01-56:ACCESS: Logout: 
+01-56:ACCESS: Login: Cacophony from 71.136.51.144
+01-56:ACCESS: They share computer ID's
+01-56:SAY: Bing Whoopers/Kenruler : There you go.
+01-56:ACCESS: Logout: 
+01-56:ACCESS: Login: Cacophony from 71.136.51.144
+01-56:ACCESS: They share computer ID's
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:ACCESS: Login: Agilent from 66.75.9.193
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:SAY: Denholm Jenkins/Agilent : Erm
+01-56:SAY: Denholm Jenkins/Agilent : Hi
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : How  do I choke teh monky?
+01-56:MATTACK: Besmar Daggerdagger(Eternalnight264) clicked on Besmar Daggerdagger(Eternalnight264) with intent on harm
+01-56:OOC: Fath Crossbowriver/Headswe : Only a few bug out
+01-56:ACCESS: Logout: Kenruler
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : How do I choke someone
+01-56:SAY: Minkot Goblinmagma/Cacophony : Dawwww.
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:ADMIN: Headswe Healed/Revived Headswe
+01-56:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+01-56:SAY: Fath Crossbowriver/Headswe : Press ready
+01-56:SAY: Fath Crossbowriver/Headswe : Do it.
+01-56:SAY: Fath Crossbowriver/Headswe : or suffer.
+01-56:SAY: Denholm Jenkins/Agilent : Going to
+01-56:SAY: Fath Crossbowriver/Headswe : a BAN
+01-56:GAME: Agilent entered as Denholm Jenkins
+01-56:SAY: Fath Crossbowriver/Headswe : Oh lovely
+01-56:SAY: Denholm Jenkins/Agilent : Hehehe
+01-56:MATTACK: Besmar Hammerpick(Shiningsoul32) clicked on Besmar Daggerdagger(Eternalnight264) with intent on harm
+01-56:MATTACK: Besmar Hammerpick(Shiningsoul32) clicked on Besmar Daggerdagger(Eternalnight264) with intent on harm
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : Lol
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the energy sword
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : See, I told you, he is blowing the station
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : How do I respawn?
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : How do I repawn?
+01-56:ACCESS: Login: Mono124 from 99.137.45.54
+01-56:SAY: Andrew Riley/Mono124 : now THAT
+01-56:SAY: Andrew Riley/Mono124 : is ODD
+01-56:SAY: Andrew Riley/Mono124 : LUL FLASHBANG
+01-56:GAME: Mono124 entered as Andrew Riley
+01-56:OOC: Besmar Daggerdagger/Eternalnight264 : How to Respawn
+01-56:SAY: Minkot Goblinmagma/Cacophony : Doop de doo.
+01-56:OOC: Fath Crossbowriver/Headswe : Restarting to see if the start bug is fixed
+01-56:ACCESS: Logout: Agilent
+01-56:ADMIN: Headswe initiated an immediate reboot.
+01-56:ACCESS: Logout: Headswe
+01-56:ACCESS: Logout: Shiningsoul32
+01-56:ACCESS: Logout: Mono124
+01-56:ACCESS: Logout: Eternalnight264
+01-56:ACCESS: Logout: Cacophony
+02-10:ADMIN: Loading jobban_rank
+02-10:ADMIN: Updating jobbanfile!
+02-10:ACCESS: Login: Headswe from 127.0.0.1
+02-10:GAME: Finished building powernets (30 nets)
+02-10:ACCESS: Login: Mono124 from 99.137.45.54
+02-10:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+02-10:GAME: Shiningsoul32 entered as Besmar Hammerpick
+02-10:ACCESS: Login: Eternalnight264 from 24.77.134.166
+02-10:GAME: Mono124 entered as Andrew Riley
+02-10:VOTE: Voting to change mode started by Fath Crossbowriver/Headswe
+02-10:ACCESS: Login: Cacophony from 71.136.51.144
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : Seems to work.
+02-10:GAME: Eternalnight264 entered as Besmar Daggerdagger
+02-10:OOC: Fath Crossbowriver/Headswe : The bug occours after start.
+02-10:OOC: Andrew Riley/Mono124 : is A.I. fixed?!?
+02-10:OOC: Fath Crossbowriver/Headswe : -.-
+02-10:OOC: Fath Crossbowriver/Headswe : whats wrong with the ai?
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Meteor?
+02-10:OOC: Andrew Riley/Mono124 : you will see if i get a.i.
+02-10:OOC: Andrew Riley/Mono124 : :/
+02-10:GAME: Cacophony entered as Virgil Lamb
+02-10:OOC: Fath Crossbowriver/Headswe : Just tell me.
+02-10:OOC: Fath Crossbowriver/Headswe : or adminhelp it
+02-10:VOTE: Voting closed, result was extended
+02-10:OOC: Andrew Riley/Mono124 : cant do anything, graphic shows up as only hair
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Is there AI in extended
+02-10:ADMIN: Headswe used start_now
+02-10:GAME: starting game of extended
+02-10:OOC: Andrew Riley/Mono124 : no a.i. controls, cant su
+02-10:OOC: HELP: Andrew Riley/Mono124 : come to teh chambers
+02-10:GAME: Headswe entered as Fath Crossbowriver
+02-10:OOC: HELP: Andrew Riley/Mono124 : see for yourself
+02-10:OOC: Andrew Riley/Mono124 : i have a temp bar and thats it
+02-10:OOC: Andrew Riley/Mono124 : cant suicide
+02-10:OOC: Andrew Riley/Mono124 : only hair for graphics
+02-10:OOC: Andrew Riley/Mono124 : cant choose name
+02-10:OOC: Andrew Riley/Mono124 : no a.i. bar
+02-10:OOC: Andrew Riley/Mono124 : cant manipulate objects i CAN see
+02-10:OOC: Andrew Riley/Mono124 : but i can talk
+02-10:SAY: Andrew Riley/Mono124 : bla bla
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Umm, how to be head of personnal?
+02-10:ADMIN: Headswe jumped to AI Upload Chamber
+02-10:SAY: Andrew Riley/Mono124 : hi head
+02-10:SAY: Andrew Riley/Mono124 : nice day eh?
+02-10:SAY: Andrew Riley/Mono124 : im some floating hair
+02-10:SAY: Fath Crossbowriver/Headswe : I cant even see you.
+02-10:SAY: Andrew Riley/Mono124 : HOW DO YA LIKE ME NOW!?
+02-10:SAY: Andrew Riley/Mono124 : oh
+02-10:ADMIN: Headswe teleported Andrew Riley
+02-10:SAY: Andrew Riley/Mono124 : well that sucks
+02-10:SAY: Andrew Riley/Mono124 : i can see hair
+02-10:ADMIN: Headswe AIized Mono124
+02-10:OOC: Fath Crossbowriver/Headswe : Well.
+02-10:SAY: R.E.D./Mono124 : nothin
+02-10:OOC: Fath Crossbowriver/Headswe : This is odd.
+02-10:SAY: R.E.D./Mono124 : no panels
+02-10:SAY: R.E.D./Mono124 : cant manipulate
+02-10:SAY: R.E.D./Mono124 : cant suicide
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Lets go kill mr muggles!
+02-10:SAY: R.E.D./Mono124 : :/
+02-10:OOC: R.E.D./Mono124 : yeah
+02-10:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+02-10:OOC: R.E.D./Mono124 : been like that for 2 days
+02-10:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+02-10:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+02-10:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+02-10:MATTACK: Besmar Daggerdagger (Eternalnight264) attacked () with Fire Extinguisher
+02-10:OOC: Fath Crossbowriver/Headswe : On my server only or?
+02-10:SAY: Besmar Daggerdagger/Eternalnight264 : Yes?
+02-10:OOC: R.E.D./Mono124 : only your server
+02-10:OOC: R.E.D./Mono124 : tops is fine
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:OOC: Fath Crossbowriver/Headswe : Damm.
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : When is tops&#39;s server going to be back up
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:OOC: R.E.D./Mono124 : never
+02-10:OOC: R.E.D./Mono124 : hopefully
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:OOC: R.E.D./Mono124 : i lag on it... bad
+02-10:OOC: R.E.D./Mono124 : 3 sec ping on average
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:OOC: R.E.D./Mono124 : 5 if tons o people
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:SAY: R.E.D./Mono124 : dooby doo ba ba
+02-10:OOC: R.E.D./Mono124 : KAZOW
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Okay, THis has to be illegal
+02-10:OOC: R.E.D./Mono124 : what?
+02-10:SAY: R.E.D./Mono124 : I HAVE A TURRET IN MY UPLOAD
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:SAY: Besmar Daggerdagger/Eternalnight264 : ; AI lockdown
+02-10:SAY: R.E.D./Mono124 : TURRET IN MY UPLOAD
+02-10:SAY: Besmar Daggerdagger/Eternalnight264 : : LOCKDOWN AI
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:SAY: Besmar Daggerdagger/Eternalnight264 : ;; AI lockdown
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:SAY: R.E.D./Mono124 : WHAT A.I.
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with Stun Baton
+02-10:SAY: R.E.D./Mono124 : I AM FLOATING HAIR! FEAR ME!
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the taser gun
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the taser gun
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the taser gun
+02-10:MATTACK: Besmar Hammerpick (Shiningsoul32) attacked Besmar Daggerdagger(Eternalnight264) with the taser gun
+02-10:MATTACK: Besmar Hammerpick(Shiningsoul32) clicked on Besmar Daggerdagger(Eternalnight264) with intent on harm
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Well, this sucks..
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : I&#39;mevil.
+02-10:OOC: R.E.D./Mono124 : only your momma t- never mind
+02-10:ADMIN: Headswe AIized Headswe
+02-10:OOC: R.E.D./Mono124 : im floating hair
+02-10:MATTACK: Virgil Lamb(Cacophony) clicked on Shorast Deathforge() with a pill
+02-10:MATTACK: Virgil Lamb(Cacophony) forced Shorast Deathforge() to swallow red/blue pill
+02-10:MATTACK: Virgil Lamb(Cacophony) clicked on Shorast Deathforge() with a pill
+02-10:MATTACK: Virgil Lamb(Cacophony) forced Shorast Deathforge() to swallow red/blue pill
+02-10:SAY: R.E.D./Mono124 : OWNED
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : What do we do now?
+02-10:OOC: R.E.D./Mono124 : bomb the a.i. chambers
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : See what happens when you try to harm mr. Muggles?
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Well, i wante to, But this idiot killed me
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : How do I respawn
+02-10:OOC: R.E.D./Mono124 : you dont
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Hmm
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : VIVA MR. MUGGLES!
+02-10:OOC: R.E.D./Mono124 : VIVA LA REVOLU- MR MUGGLES!
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : THANK YOU MONO!
+02-10:OOC: R.E.D./Mono124 : NO THANK YOU
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : NO KIND SIR, THANK YOU!
+02-10:OOC: R.E.D./Mono124 : THANK YOUR MOM FOR LAST NIGHT
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : Lets restart one more time so we can Bomb the AI chambers
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : I&#39;m going to chaplain and act like Mr. Muggles is my god.
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : And i will RP a murderous monkey hater
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : You will also be ejected into space in a coffin.
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : 5 mins untill we can start a new round
+02-10:ACCESS: Logout: Mono124
+02-10:ACCESS: Login: Mono124 from 99.137.45.54
+02-10:OOC: Besmar Hammerpick/Shiningsoul32 : Suddenly a jewish man appears! What do you do?
+02-10:OOC: R.E.D./Mono124 : ask for a withdrawl from my bank
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:OOC: Besmar Daggerdagger/Eternalnight264 : You understand I have no non racist answer, Right?
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:MATTACK: Virgil Lamb (Cacophony) attacked Shorast Deathforge() with the taser gun
+02-10:ADMIN: Headswe initiated an immediate reboot.
+02-10:ACCESS: Logout: Shiningsoul32
+02-10:ACCESS: Logout: Cacophony
+02-10:ACCESS: Logout: Headswe
+02-10:ACCESS: Logout: Eternalnight264
+02-10:ACCESS: Logout: Mono124
+02-26:ADMIN: Loading jobban_rank
+02-26:ADMIN: Updating jobbanfile!
+02-26:GAME: Finished building powernets (30 nets)
+02-26:ACCESS: Login: Cacophony from 71.136.51.144
+02-26:ACCESS: Login: Headswe from 127.0.0.1
+02-26:ACCESS: Login: Mono124 from 99.137.45.54
+02-26:GAME: Cacophony entered as Virgil Lamb
+02-26:GAME: BROKE NEAR OTHER TICKER
+02-26:GAME: BROKE NEAR TICKER
+02-26:GAME: BROKE NEAR TELE
+02-26:GAME: BROKE after TELE
+02-26:ACCESS: Logout: Mono124
+02-26:ACCESS: Login: Mono124 from 99.137.45.54
+02-26:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+02-26:GAME: Mono124 entered as Andrew Riley
+02-26:GAME: BROKE NEAR OTHER TICKER
+02-26:GAME: BROKE NEAR TICKER
+02-26:GAME: BROKE NEAR TELE
+02-26:GAME: BROKE after TELE
+02-26:GAME: Shiningsoul32 entered as Kumil Whipfloor
+02-26:GAME: BROKE NEAR OTHER TICKER
+02-26:GAME: BROKE NEAR TICKER
+02-26:GAME: BROKE NEAR TELE
+02-26:GAME: BROKE after TELE
+02-26:OOC: Andrew Riley/Mono124 : head
+02-26:OOC: Andrew Riley/Mono124 : fix it?
+02-26:SAY: Kumil Whipfloor/Shiningsoul32 : Andrew Riley, I declare you my bitch.
+02-26:SAY: Andrew Riley/Mono124 : YOU ARE MY BITCH
+02-26:SAY: Andrew Riley/Mono124 : GET DOWN ON YOUR KNEES
+02-26:SAY: Kumil Whipfloor/Shiningsoul32 : DID I GIVE YOU PERMISSION TO SPEAK BITCH?
+02-26:OOC: Fath Crossbowriver/Headswe : looking at it.
+02-26:SAY: Andrew Riley/Mono124 : DOWN BITCH!
+02-26:SAY: Andrew Riley/Mono124 : GET DOWN
+02-26:OOC: Fath Crossbowriver/Headswe : really no idea where the problem is.
+02-26:SAY: Kumil Whipfloor/Shiningsoul32 : BEND OVER.
+02-26:SAY: Kumil Whipfloor/Shiningsoul32 : OVER THE CHAIR WHORE.
+02-26:SAY: Andrew Riley/Mono124 : ON YOUR KNEES
+02-26:ADMIN: Headswe used start_now
+02-26:GAME: starting game of extended
+02-26:GAME: Headswe entered as Fath Crossbowriver
+02-26:GAME: BROKE NEAR OTHER TICKER
+02-26:GAME: BROKE NEAR TICKER
+02-26:OOC: Kumil Whipfloor/Shiningsoul32 : xD.
+02-26:OOC: Fath Crossbowriver/Headswe : GOD DAMMIT
+02-26:OOC: Fath Crossbowriver/Headswe : What the hell is wrong with this shit
+02-26:OOC: Andrew Riley/Mono124 : wut
+02-26:OOC: Kumil Whipfloor/Shiningsoul32 : Headswe I know the problem.
+02-26:OOC: Kumil Whipfloor/Shiningsoul32 : You seem to be a noob.
+02-26:OOC: Kumil Whipfloor/Shiningsoul32 : *jk*
+02-26:ADMIN: Headswe initiated an immediate reboot.
+02-26:ACCESS: Logout: Headswe
+02-26:ACCESS: Logout: Cacophony
+02-26:ACCESS: Logout: Mono124
+02-26:ACCESS: Logout: Shiningsoul32
+02-30:ADMIN: Loading jobban_rank
+02-30:ADMIN: Updating jobbanfile!
+02-30:GAME: Finished building powernets (30 nets)
+02-30:ACCESS: Login: Cacophony from 71.136.51.144
+02-30:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+02-30:ACCESS: Login: Headswe from 127.0.0.1
+02-30:ACCESS: Login: Mono124 from 99.137.45.54
+02-30:ADMIN: Headswe used start_now
+02-30:GAME: starting game of extended
+02-30:GAME: Headswe entered as Fath Crossbowriver
+02-30:GAME: BROKE NEAR OTHER TICKER
+02-30:GAME: BROKE NEAR TICKER
+02-30:GAME: BROKE INSIDE TICKER
+02-30:GAME: BROKE NEAR TELE
+02-30:GAME: BROKE after TELE
+02-30:OOC: Fath Crossbowriver/Headswe : Oh yeah.
+02-30:GAME: Mono124 entered as Andrew Riley
+02-30:GAME: BROKE NEAR OTHER TICKER
+02-30:GAME: BROKE NEAR TICKER
+02-30:GAME: BROKE INSIDE TICKER
+02-30:GAME: BROKE NEAR TELE
+02-30:GAME: BROKE after TELE
+02-30:OOC: Fath Crossbowriver/Headswe : I fixed it!
+02-30:ADMIN: Headswe AIized Headswe
+02-30:OOC: A.R.M.O.K./Headswe : Hey can someone scan themself with a genetic analyzer?
+02-30:GAME: Cacophony entered as Virgil Lamb
+02-30:GAME: BROKE NEAR OTHER TICKER
+02-30:GAME: BROKE NEAR TICKER
+02-30:GAME: BROKE INSIDE TICKER
+02-30:GAME: BROKE NEAR TELE
+02-30:GAME: BROKE after TELE
+02-30:MATTACK: Andrew Riley (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked () with Fire Extinguisher
+02-30:ADMIN: Headswe teleported Andrew Riley
+02-30:OOC: Andrew Riley/Mono124 : no codde
+02-30:OOC: Andrew Riley/Mono124 : no code
+02-30:OOC: Andrew Riley/Mono124 : :/;
+02-30:OOC: A.R.M.O.K./Headswe : :/
+02-30:OOC: Andrew Riley/Mono124 : Analyzing Results for Andrew Riley: #### Bad Vision: 0## Unknown: No## Epilepsy: No## Stumble: No## Cough: No## Clumsy: No## Twitch: No## Unknown: No## Nervous: No## Unknown: No## Blind: No## Unknown: No## Deaf: No
+02-30:OOC: A.R.M.O.K./Headswe : Get into the dna machien
+02-30:GAME: Shiningsoul32 entered as Kumil Whipfloor
+02-30:GAME: BROKE NEAR OTHER TICKER
+02-30:GAME: BROKE NEAR TICKER
+02-30:GAME: BROKE INSIDE TICKER
+02-30:GAME: BROKE NEAR TELE
+02-30:GAME: BROKE after TELE
+02-30:SAY: Virgil Lamb/Cacophony : Need some help?
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Headswe from 127.0.0.1
+02-30:ACCESS: They share computer ID's
+02-30:ADMIN: Headswe modified monkey (c248)'s key to Headswe
+02-30:ADMIN: Headswe jumped to A.R.M.O.K.
+02-30:OOC: monkey (c248)/Headswe : DNA IS BROKE :D
+02-30:OOC: Andrew Riley/Mono124 : uhoh
+02-30:SAY: Andrew Riley/Mono124 : EVIL HEADSWE
+02-30:SAY: Andrew Riley/Mono124 : EVIL!
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:OOC: Kumil Whipfloor/Shiningsoul32 : Good job Headswe...you broke someone that has never really been broken before. :D
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:SAY: Virgil Lamb/Cacophony : Tsk.  
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Fath Timemicrocline(Headswe) with Fire Extinguisher
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Headswe from 127.0.0.1
+02-30:ACCESS: They share computer ID's
+02-30:ACCESS: They share computer ID's
+02-30:MATTACK: Andrew Riley (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Andrew Riley(Mono124) clicked on Kumil Arrowboat(Headswe) with intent on harm
+02-30:MATTACK: Andrew Riley(Mono124) clicked on Kumil Arrowboat(Headswe) with intent on harm
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Andrew Riley(Mono124) with Fire Extinguisher
+02-30:OOC: Andrew Riley/Mono124 : lol?
+02-30:OOC: Andrew Riley/Mono124 : wtf
+02-30:OOC: Andrew Riley/Mono124 : died
+02-30:SAY: Virgil Lamb/Cacophony : Dead.  No use.
+02-30:SAY: Virgil Lamb/Cacophony : Let&#39;s fix that.
+02-30:MATTACK: Virgil Lamb(Cacophony)has grabbed the monkey (bf4a)() aggressively (now hands) 
+02-30:OOC: Kumil Whipfloor/Shiningsoul32 : Andrew, I am not injecting plasma into your body right now. Relax.
+02-30:MATTACK: Virgil Lamb(Cacophony) clicked on Andrew Riley(Mono124) with a DNA injector
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Mono124 from 99.137.45.54
+02-30:ACCESS: They share computer ID's
+02-30:OOC: monkey (11a3)/Mono124 : LOOK WHAT YO
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:ADMIN: Headswe modified Kumil Arrowboat's primarynew to the dna
+02-30:OOC: Kumil Whipfloor/Shiningsoul32 : HOLY MONKEYDRE--
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Besmar Pickdrawbridge(Mono124) with the shard
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Besmar Pickdrawbridge(Mono124) with the shard
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Besmar Pickdrawbridge(Mono124) with the shard
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Besmar Pickdrawbridge(Mono124) with the shard
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:SAY: Virgil Lamb/Cacophony : Stop that!
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:OOC: Kumil Whipfloor/Shiningsoul32 : Oh frell I got owned by a monkey.
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:OOC: Kumil Whipfloor/Shiningsoul32 : You would think a shard could hurt someone more than a fire extinguisher in a way.
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:SAY: Virgil Lamb/Cacophony : *sigh
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:SAY: monkey (11a3)/Mono124 : *roar
+02-30:ADMIN: Headswe Healed/Revived Shiningsoul32
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:ADMIN: Headswe Healed/Revived 
+02-30:MATTACK: Besmar Pickdrawbridge (Mono124) attacked Kumil Whipfloor(Shiningsoul32) with Fire Extinguisher
+02-30:ADMIN: Headswe Healed/Revived Headswe
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked Besmar Pickdrawbridge(Mono124) with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Mono124 from 99.137.45.54
+02-30:ACCESS: They share computer ID's
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Kumil Whipfloor (Shiningsoul32) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze(Mono124) clicked on Urist Glassbronze(Mono124) with a syringe
+02-30:MATTACK: Urist Glassbronze(Mono124) injected Urist Glassbronze(Mono124) with a syringe filled with 
+02-30:MATTACK: Urist Glassbronze(Mono124) clicked on Urist Glassbronze(Mono124) with a syringe
+02-30:MATTACK: Urist Glassbronze(Mono124) injected Urist Glassbronze(Mono124) with a syringe filled with 
+02-30:MATTACK: Urist Glassbronze(Mono124) clicked on Urist Glassbronze(Mono124) with a syringe
+02-30:MATTACK: Urist Glassbronze(Mono124) injected Urist Glassbronze(Mono124) with a syringe filled with 
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Kumil Arrowboat(Headswe) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Ingiz Elfspike() with the crowbar
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:ACCESS: Logout: Headswe
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Ingiz Elfspike() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:OOC: Unknown/Shiningsoul32 : Hey Head?
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:OOC: Unknown/Shiningsoul32 : About the electricity thing...
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:OOC: Unknown/Shiningsoul32 : Yeah. It&#39;s still broken. My bad.
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked () with Fire Extinguisher
+02-30:ACCESS: Logout: Mono124
+02-30:ACCESS: Login: Mono124 from 99.137.45.54
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Urist Helmetbed() with Fire Extinguisher
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Urist Helmetbed() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Urist Helmetbed() with the crowbar
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Urist Helmetbed() with the crowbar
+02-30:ACCESS: Logout: Shiningsoul32
+02-30:MATTACK: Virgil Lamb (Cacophony) attacked Urist Helmetbed() with the crowbar
+02-30:MATTACK: Urist Glassbronze(Mono124) clicked on Virgil Lamb(Cacophony) with intent on harm
+02-30:MATTACK: Urist Glassbronze(Mono124) clicked on Virgil Lamb(Cacophony) with intent on harm
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:MATTACK: Urist Glassbronze (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Cacophony from 71.136.51.144
+02-30:ACCESS: They share computer ID's
+02-30:ACCESS: Logout: 
+02-30:ACCESS: Login: Cacophony from 71.136.51.144
+02-30:ACCESS: They share computer ID's
+02-30:ACCESS: Login: Matz05 from 199.126.147.68
+02-30:ACCESS: Login: Headswe from 127.0.0.1
+02-30:ACCESS: They share computer ID's
+02-30:ADMIN: Headswe initiated an immediate reboot.
+02-30:ACCESS: Logout: Mono124
+02-30:ACCESS: Logout: Cacophony
+02-30:ACCESS: Logout: Matz05
+02-30:ACCESS: Logout: Headswe
+02-48:ADMIN: Loading jobban_rank
+02-48:ADMIN: Updating jobbanfile!
+02-48:GAME: Finished building powernets (30 nets)
+02-48:ACCESS: Login: Headswe from 127.0.0.1
+02-48:ACCESS: Login: Mono124 from 99.137.45.54
+02-48:ACCESS: Login: Cacophony from 71.136.51.144
+02-48:ADMIN: Headswe used start_now
+02-48:GAME: starting game of extended
+02-48:GAME: Headswe entered as Nomal Crossbowblaze
+02-48:GAME: BROKE NEAR OTHER TICKER
+02-48:GAME: BROKE NEAR TICKER
+02-48:GAME: BROKE INSIDE TICKER
+02-48:GAME: BROKE NEAR TELE
+02-48:GAME: BROKE after TELE
+02-48:GAME: Mono124 entered as Sarvesh Axemurdered
+02-48:GAME: BROKE NEAR OTHER TICKER
+02-48:GAME: BROKE NEAR TICKER
+02-48:GAME: BROKE INSIDE TICKER
+02-48:GAME: BROKE NEAR TELE
+02-48:GAME: BROKE after TELE
+02-48:ADMIN: Headswe created /obj/item/weapon/geneticsanalyzer
+02-48:ACCESS: Login: Matz05 from 199.126.147.68
+02-48:SAY: Sarvesh Axemurdered/Mono124 : YOU HAS DNA?
+02-48:SAY: Nomal Crossbowblaze/Headswe : YES
+02-48:GAME: Cacophony entered as Virgil Lamb
+02-48:GAME: BROKE NEAR OTHER TICKER
+02-48:GAME: BROKE NEAR TICKER
+02-48:GAME: BROKE INSIDE TICKER
+02-48:GAME: BROKE NEAR TELE
+02-48:GAME: BROKE after TELE
+02-48:SAY: Sarvesh Axemurdered/Mono124 : SLAP ON BACK
+02-48:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-48:SAY: Sarvesh Axemurdered/Mono124 : WE HAS DNA!
+02-48:SAY: Sarvesh Axemurdered/Mono124 : ALL GET SLAP ON BACK!
+02-48:MATTACK: Sarvesh Axemurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-48:MATTACK: Sarvesh Axemurdered (Mono124) attacked Sarvesh Axemurdered(Mono124) with Fire Extinguisher
+02-48:GAME: Matz05 entered as Urist Noblelever
+02-48:GAME: BROKE NEAR OTHER TICKER
+02-48:GAME: BROKE NEAR TICKER
+02-48:GAME: BROKE INSIDE TICKER
+02-48:GAME: BROKE NEAR TELE
+02-48:GAME: BROKE after TELE
+02-48:SAY: Sarvesh Axemurdered/Mono124 : SLAP ON BACK
+02-48:ADMIN: Headswe initiated an immediate reboot.
+02-48:ACCESS: Logout: Mono124
+02-48:ACCESS: Logout: Cacophony
+02-48:ACCESS: Logout: Headswe
+02-48:ACCESS: Logout: Matz05
+02-50:ADMIN: Loading jobban_rank
+02-50:ADMIN: Updating jobbanfile!
+02-50:ACCESS: Login: Mono124 from 99.137.45.54
+02-50:GAME: Finished building powernets (30 nets)
+02-50:ACCESS: Login: Matz05 from 199.126.147.68
+02-50:ACCESS: Login: Headswe from 127.0.0.1
+02-50:ACCESS: Login: Cacophony from 71.136.51.144
+02-50:GAME: Mono124 entered as Sarvesh Axemurdered
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:ADMIN: Headswe used start_now
+02-50:GAME: starting game of extended
+02-50:OOC: Sarvesh Axemurdered/Mono124 : HEADSWE DESERVE SLAP ON BACK
+02-50:GAME: Headswe entered as Nomal Crossbowblaze
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE INSIDE TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:OOC: Sarvesh Axemurdered/Mono124 : OH GOD
+02-50:OOC: Sarvesh Axemurdered/Mono124 : I HAVE ERROR
+02-50:ADMIN: Headswe created /obj/item/weapon/geneticsanalyzer
+02-50:GAME: Cacophony entered as Virgil Lamb
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE INSIDE TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:OOC: Nomal Crossbowblaze/Headswe : Huh?
+02-50:OOC: Urist Noblelever/Matz05 : What for?
+02-50:GAME: Matz05 entered as Urist Noblelever
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE INSIDE TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:SAY: Sarvesh Axemurdered/Mono124 : ERROR
+02-50:SAY: Sarvesh Axemurdered/Mono124 : ERROR
+02-50:SAY: Sarvesh Axemurdered/Mono124 : I HAVE AN ERROR
+02-50:MATTACK: Sarvesh Axemurdered(Mono124)has shot a taser round at Urist Noblelever
+02-50:OOC: Nomal Crossbowblaze/Headswe : What error?
+02-50:ADMIN: Headswe jumped to Sarvesh Axemurdered
+02-50:MATTACK: Sarvesh Axemurdered(Mono124)has grabbed Urist Noblelever(Matz05) aggressively (now hands) 
+02-50:SAY: Sarvesh Axemurdered/Mono124 : KILLING FIX ERROR
+02-50:SAY: Nomal Crossbowblaze/Headswe : Did you forget something?
+02-50:SAY: Sarvesh Axemurdered/Mono124 : NO
+02-50:SAY: Nomal Crossbowblaze/Headswe : Like setting your profile?
+02-50:SAY: Sarvesh Axemurdered/Mono124 : WHY DO I HAVE NO HAIR
+02-50:SAY: Sarvesh Axemurdered/Mono124 : WHAT THE HECK
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:SAY: Sarvesh Axemurdered/Mono124 : THE ERRORNESS
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:SAY: Sarvesh Axemurdered/Mono124 : CAUSE BLOOD!
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:SAY: Sarvesh Axemurdered/Mono124 : A.I. WORK!??
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Virgil Lamb(Cacophony)has grabbed the monkey (0210)() aggressively (now hands) 
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:SAY: Sarvesh Axemurdered/Mono124 : HEADSWE SMASH!
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:OOC: Urist Noblelever/Matz05 : Sarvesh Axemurdered is killing everyone
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Sarvesh Axemurdered(Mono124) with Fire Extinguisher
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Sarvesh Axemurdered(Mono124) with the taser gun
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Sarvesh Axemurdered(Mono124) with the taser gun
+02-50:OOC: HELP: Urist Noblelever/Matz05 :  Sarvesh Axemurdered is killing everyone
+02-50:MATTACK: Sarvesh Axemurdered (Mono124) attacked Sarvesh Axemurdered(Mono124) with the taser gun
+02-50:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+02-50:OOC: Urist Noblelever/Matz05 : Thanks
+02-50:GAME: Shiningsoul32 entered as Ingiz Plottrap
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE INSIDE TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:OOC: Ingiz Plottrap/Shiningsoul32 : I see dead people.
+02-50:OOC: Urist Noblelever/Matz05 : Sarvesh
+02-50:OOC: Ingiz Plottrap/Shiningsoul32 : How do you confirm your identity at a machine? D:
+02-50:ACCESS: Logout: Matz05
+02-50:ACCESS: Login: Matz05 from 199.126.147.68
+02-50:OOC: Ingiz Plottrap/Shiningsoul32 : Nevermind.
+02-50:ADMIN: Headswe Healed/Revived Matz05
+02-50:ADMIN: Headswe Healed/Revived Headswe
+02-50:ACCESS: Logout: Matz05
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Sarvesh Axemurdered(Mono124) with the armor
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Sarvesh Axemurdered(Mono124) with the armor
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Sarvesh Axemurdered(Mono124) with the armor
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Sarvesh Axemurdered(Mono124) with the armor
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Sarvesh Axemurdered/Mono124 : the error made me insanes
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Sarvesh Axemurdered/Mono124 : :(
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Sarvesh Axemurdered/Mono124 : :D
+02-50:OOC: Nomal Crossbowblaze/Headswe : *kicks you in the head*
+02-50:OOC: Nomal Crossbowblaze/Headswe : atlesat your errors were usefull
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Nomal Crossbowblaze/Headswe : showed me a bug
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Sarvesh Axemurdered/Mono124 : *roundhouse kicks in nuts*
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Nomal Crossbowblaze/Headswe : *bans*
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:ACCESS: Login: Matz05 from 199.126.147.68
+02-50:ADMIN: Headswe banned Mono124/Sarvesh Axemurdered. Reason: Testing bans
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:SAY: Ingiz Plottrap (as Sarvesh Axemurdered)/Shiningsoul32 : ;Captain dead.
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Ingiz Plottrap (as Sarvesh Axemurdered)/Shiningsoul32 : I&#39;m pro.
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Ingiz Plottrap (as Sarvesh Axemurdered)/Shiningsoul32 : &gt;.&gt;
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:ADMIN: Headswe unbanned mono124.
+02-50:ADMIN: Incorrect datetime value: '' for column 'BanTime' at row 1
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:ACCESS: Login: Mono124 from 99.137.45.54
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:GAME: Mono124 entered as Tirist Bloodmurdered
+02-50:GAME: BROKE NEAR OTHER TICKER
+02-50:GAME: BROKE NEAR TICKER
+02-50:GAME: BROKE INSIDE TICKER
+02-50:GAME: BROKE NEAR TELE
+02-50:GAME: BROKE after TELE
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Tirist Bloodmurdered/Mono124 : i had epic sadface of epic
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the crowbar
+02-50:OOC: Nomal Crossbowblaze/Headswe : Ban test.
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:SAY: Tirist Bloodmurdered/Mono124 : NO ERROR
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the fire helmet
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Virgil Lamb (Cacophony) attacked Likot Koboldspear() with the gasmask
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:OOC: Tirist Bloodmurdered/Mono124 : the fuck?
+02-50:SAY: Nomal Crossbowblaze/Headswe : HE CAN BE AN ERROR
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:OOC: Tirist Bloodmurdered/Mono124 : i couldnt get an extinguisher to defend myself :(
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Urist Noblelever (Matz05) attacked Nomal Crossbowblaze(Headswe) with the taser gun
+02-50:MATTACK: Urist Noblelever (Matz05) attacked Nomal Crossbowblaze(Headswe) with the taser gun
+02-50:ADMIN: Headswe Healed/Revived Mono124
+02-50:ADMIN: Headswe Healed/Revived Headswe
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:SAY: Nomal Crossbowblaze/Headswe : Whoop
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:ADMIN: Headswe Healed/Revived Headswe
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Nomal Crossbowblaze(Headswe) with Fire Extinguisher
+02-50:SAY: Nomal Crossbowblaze/Headswe : Dont geif the admi
+02-50:ADMIN: Headswe Healed/Revived Headswe
+02-50:SAY: Tirist Bloodmurdered/Mono124 : KILL THE CAPTAIIIIN
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:SAY: Urist Noblelever/Matz05 : I QUIT
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Urist Noblelever(Matz05) with Fire Extinguisher
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Urist Noblelever(Matz05) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:MATTACK: Nomal Crossbowblaze (Headswe) attacked Tirist Bloodmurdered(Mono124) with the taser gun
+02-50:ADMIN: Headswe Healed/Revived Matz05
+02-50:SAY: Nomal Crossbowblaze/Headswe : RUN FOREST 
+02-50:OOC: Tirist Bloodmurdered/Mono124 : murdurific
+02-50:ADMIN: Headswe Healed/Revived Mono124
+02-50:OOC: Nomal Crossbowblaze/Headswe : Stop it mono
+02-50:OOC: Tirist Bloodmurdered/Mono124 : err murderific
+02-50:OOC: Tirist Bloodmurdered/Mono124 : anyway, restart?
+02-50:MATTACK: Virgil Lamb(Cacophony) clicked on Urist Noblelever(Matz05) with a DNA injector
+02-50:ACCESS: Logout: 
+02-50:ACCESS: Login: Matz05 from 199.126.147.68
+02-50:ACCESS: They share computer ID's
+02-50:SAY: monkey (4a4d)/Matz05 : thanks
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Likot Koboldspear() with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Likot Koboldspear() with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Likot Koboldspear() with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Likot Koboldspear() with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Virgil Lamb(Cacophony) clicked on Tirist Bloodmurdered(Mono124) with intent on harm
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:VOTE: Voting to restart round started by Ingiz Plottrap (as Sarvesh Axemurdered)/Shiningsoul32
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered (Mono124) attacked Virgil Lamb(Cacophony) with Fire Extinguisher
+02-50:MATTACK: Tirist Bloodmurdered(Mono124) clicked on Virgil Lamb(Cacophony) with a DNA injector
+02-50:ACCESS: Logout: 
+02-50:ACCESS: Login: Cacophony from 71.136.51.144
+02-50:ACCESS: They share computer ID's
+02-50:VOTE: Voting closed, result was restart
+02-50:GAME: Rebooting due to restart vote
+02-50:ACCESS: Logout: Mono124
+02-50:ACCESS: Logout: Cacophony
+02-50:ACCESS: Logout: Headswe
+02-50:ACCESS: Logout: Matz05
+02-50:ACCESS: Logout: Shiningsoul32
+03-07:ADMIN: Loading jobban_rank
+03-07:ADMIN: Updating jobbanfile!
+03-07:GAME: Finished building powernets (30 nets)
+03-07:ACCESS: Login: Mono124 from 99.137.45.54
+03-07:ACCESS: Login: Shiningsoul32 from 24.238.132.82
+03-07:ACCESS: Login: Cacophony from 71.136.51.144
+03-07:OOC: Andrew Riley/Mono124 : uh...
+03-07:OOC: Andrew Riley/Mono124 : blood type: 100
+03-07:ACCESS: Login: Headswe from 127.0.0.1
+03-07:OOC: Andrew Riley/Mono124 : hair style: 100
+03-07:GAME: Mono124 entered as Andrew Riley
+03-07:GAME: BROKE NEAR OTHER TICKER
+03-07:GAME: BROKE NEAR TICKER
+03-07:GAME: BROKE NEAR TELE
+03-07:GAME: BROKE after TELE
+03-07:OOC: Andrew Riley/Mono124 : oh god
+03-07:OOC: Andrew Riley/Mono124 : i has error
+03-07:OOC: Nomal Crossbowblaze/Headswe : press SAVE.
+03-07:OOC: Nomal Crossbowblaze/Headswe : you fail
+03-07:OOC: Andrew Riley/Mono124 : i did
+03-07:GAME: Cacophony entered as Virgil Lamb
+03-07:GAME: BROKE NEAR OTHER TICKER
+03-07:GAME: BROKE NEAR TICKER
+03-07:GAME: BROKE NEAR TELE
+03-07:GAME: BROKE after TELE
+03-07:OOC: Andrew Riley/Mono124 : :9
+03-07:SAY: Andrew Riley/Mono124 : ERRORIFIC
+03-07:SAY: Virgil Lamb/Cacophony : At least we have fun with genetics.
+03-07:SAY: Andrew Riley/Mono124 : WARNING BRAIN UNSTABLE REASON: ERROR
+03-07:SAY: Andrew Riley/Mono124 : MUST DELETE ALL NON ERRORS
+03-07:GAME: Shiningsoul32 entered as Minkot Noblebronze
+03-07:GAME: BROKE NEAR OTHER TICKER
+03-07:GAME: BROKE NEAR TICKER
+03-07:GAME: BROKE NEAR TELE
+03-07:GAME: BROKE after TELE
+03-07:SAY: Andrew Riley/Mono124 : CYBERMEN ARE SUPERIOR
+03-07:SAY: Andrew Riley/Mono124 : ALL CYBERMEN ERRORS ARE SUPERIOR TO NON ERRORS
+03-07:ADMIN: Headswe banned Mono124/Andrew Riley. Reason: You suck
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : Pssst. Headswe.
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : I&#34;m a blue error. :D
+03-07:OOC: Nomal Crossbowblaze/Headswe : Yea. yea
+03-07:GAME: starting game of extended
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;This is captain Blue speaking.
+03-07:GAME: Headswe entered as Nomal Crossbowblaze
+03-07:GAME: BROKE NEAR OTHER TICKER
+03-07:GAME: BROKE NEAR TICKER
+03-07:GAME: BROKE INSIDE TICKER
+03-07:GAME: BROKE NEAR TELE
+03-07:GAME: BROKE after TELE
+03-07:ADMIN: Headswe AIized Headswe
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : So how exactly does the hand porter work?
+03-07:SAY: Virgil Lamb/Cacophony : ;Prepping the engine.  
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;The air pressure in the arrival area appears to be too high.
+03-07:ADMIN: Headswe modified A.R.M.O.K.'s icon to 
+03-07:SAY: Virgil Lamb/Cacophony : ;AI?
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;AI, are you online?
+03-07:SAY: A.R.M.O.K./Headswe : FUCK
+03-07:SAY: A.R.M.O.K./Headswe : GET OUT
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : AI.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : I am trying.
+03-07:SAY: A.R.M.O.K./Headswe : AI IS BROKE
+03-07:SAY: A.R.M.O.K./Headswe : GO AWAY
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;THe AI seems to be online.
+03-07:ACCESS: Logout: Headswe
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;The AI seems to be...rather...moody.
+03-07:SAY: Virgil Lamb/Cacophony : ;I can fix that.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : Better AI?
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : Hello sir.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : Is the engine running properly?
+03-07:SAY: Virgil Lamb/Cacophony : Captain.  It&#39;s all running just fine.  
+03-07:SAY: Virgil Lamb/Cacophony : I&#39;m going to take a look at the SMES, now.  
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : Thank you. I was getting lonely. Sorry for the intrusion.
+03-07:MATTACK: Minkot Noblebronze(Shiningsoul32)has grabbed Sarvesh Cheesesword() aggressively (now hands) 
+03-07:SAY: Virgil Lamb/Cacophony : ;SMES charging.  We&#39;re set for power.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;Good job Sir, state your name and job on this ship.
+03-07:SAY: Virgil Lamb/Cacophony : Virgil Lamb.  Station Engineer.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;Staff I am sorry to say the monkey did not survive my...erm..experiment.
+03-07:SAY: Minkot Noblebronze/Shiningsoul32 : ;I shall put him into a coffin and sacrifice him to the planets.
+03-07:SAY: Virgil Lamb/Cacophony : ;Uh-huh.  I&#39;m going to be in the engine if anyone needs me.  
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : Erm...
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : Might I ask what is killing me--low temperature fuck.
+03-07:SAY: Virgil Lamb/Cacophony : ;Engine running a bit hot.
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : I just got killed by extreme cold in the plasma research lab.
+03-07:SAY: Virgil Lamb/Cacophony : ;There&#39;s another server.  Let&#39;s move over.
+03-07:ACCESS: Logout: Cacophony
+03-07:OOC: Minkot Noblebronze/Shiningsoul32 : Ok.
+03-07:ACCESS: Logout: Shiningsoul32
+03-07:ACCESS: Login: Headswe from 127.0.0.1
+03-07:ACCESS: Logout: Headswe

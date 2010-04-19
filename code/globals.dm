@@ -37,16 +37,16 @@ var
 	abandon_allowed = 1
 	enter_allowed = 1
 	shuttle_frozen = 0
-	database = "bay12"
-	var/username = "head"// This variable contains the username data.
-	var/password = "123456"// This variable contains the password data.
+	database = "bay12" // mysql db
+	var/username = "head"// This variable contains the username data for mysql.
+	var/password = "123456"// This variable contains the password data for mysql.
 	list/bombers = list(  )
 	list/lastsignalers = list(	)	//keeps last 100 signals here in format: "[src] used \ref[src] @ location [src.loc]: [freq]/[code]"
 	list/admins = list(  )
 	list/shuttles = list(  )
 	list/reg_dna = list(  )
 	list/traitobj = list(  )
-
+	random_illnesses = 1
 	list/podspawns = list( ) //Pod Destinations
 	list/poddocks = list( )
 

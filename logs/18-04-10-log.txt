@@ -3355,3 +3355,2085 @@
 04-31:ADMIN: Headswe created /obj/machinery/atmoalter/canister/oxygencanister
 04-31:ACCESS: Logout: Headswe
 04-31:ACCESS: Logout: Guest-542076612
+16-34:ADMIN: Loading jobban_rank
+16-34:ADMIN: Updating jobbanfile!
+16-34:GAME: Finished building powernets (30 nets)
+16-34:ACCESS: Login: Headswe from 127.0.0.1
+16-34:GAME: Headswe entered as Fath Crossbowriver
+16-34:GAME: starting game of traitor
+16-34:ACCESS: Login: Master of Apples from 81.152.77.45
+16-34:OOC: Fath Crossbowriver/Headswe : Yo.
+16-34:OOC: Fath Crossbowriver/Headswe : Im gonna have to ban your ass.
+16-34:OOC: Fath Crossbowriver/Headswe : just try to come back after it.
+16-34:OOC: Tirist Spearsword/Master of Apples : OHSHI
+16-34:OOC: Tirist Spearsword/Master of Apples : K
+16-34:ADMIN: Headswe banned Master of Apples/Tirist Spearsword. Reason: Apples
+16-34:ADMIN: Incorrect datetime value: '18-Apr-2010' for column 'time' at row 1
+16-34:OOC: Fath Crossbowriver/Headswe : Gwad dammit
+16-34:OOC: Fath Crossbowriver/Headswe : seems like someone broke mah code.
+16-34:OOC: Tirist Spearsword/Master of Apples : bwahaha
+16-34:OOC: Fath Crossbowriver/Headswe : Restarting time
+16-34:ADMIN: Headswe initiated an immediate reboot.
+16-34:ACCESS: Logout: Headswe
+16-34:ACCESS: Logout: Master of Apples
+16-44:ADMIN: Loading jobban_rank
+16-44:ADMIN: Updating jobbanfile!
+16-44:GAME: Finished building powernets (30 nets)
+16-44:ACCESS: Login: Headswe from 127.0.0.1
+16-44:ACCESS: Login: Master of Apples from 81.152.77.45
+16-44:ADMIN: Headswe banned Master of Apples/Fath Bowwood. Reason: Apples
+16-44:GAME: starting game of traitor
+16-44:ACCESS: Login: Gvazdas from 78.62.234.20
+16-44:ACCESS: Login: Master of Apples from 81.152.77.45
+16-44:ACCESS: Login: Alfie275 from 88.111.21.212
+16-44:GAME: Gvazdas entered as Edwin Jackson
+16-44:OOC: Edwin Jackson/Gvazdas : Hello everyone.
+16-44:ACCESS: Login: Mr.Conscious from 90.214.26.162
+16-44:OOC: Xen/Alfie275 : Did other server crash?
+16-44:GAME: Alfie275 entered as Xen
+16-44:OOC: HELP: Geshud Doorwhip/Mr.Conscious : hey btw Headswe, can i be unbanned? The whole multikey thing was an accident :/
+16-44:GAME: Mr.Conscious entered as Geshud Doorwhip
+16-44:MATTACK: Xen (Alfie275) attacked Nil Noblemountain(Master of Apples) with Radio Headset
+16-44:SAY: Edwin Jackson/Gvazdas : damn i accidentaly put off my headset! How do i put it back?
+16-44:GAME: Master of Apples entered as Nil Noblemountain
+16-44:OOC: Nil Noblemountain/Master of Apples : yeah
+16-44:SAY: Geshud Doorwhip/Mr.Conscious : Look a tthe bottom right
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:SAY: Edwin Jackson/Gvazdas : but how do i put it back on
+16-44:SAY: Geshud Doorwhip/Mr.Conscious : Click the picture where he has a few black lines by his ear
+16-44:MATTACK: Xen (Alfie275) attacked Fath Crossbowriver(Headswe) with Black Shoes
+16-44:SAY: Edwin Jackson/Gvazdas : oh thx it works
+16-44:SAY: Geshud Doorwhip/Mr.Conscious : Therer you go
+16-44:OOC: Fath Crossbowriver/Headswe : Great.
+16-44:ADMIN: PM: Headswe->Mr.Conscious : Now your multikeying again
+16-44:OOC: Xen/Alfie275 : sucks, I almost finished all my objectives
+16-44:ADMIN: PM: Mr.Conscious->Headswe : Eh?
+16-44:SAY: Edwin Jackson/Gvazdas : Where is the Captain?
+16-44:SAY: Geshud Doorwhip/Mr.Conscious : No idea
+16-44:SAY: Edwin Jackson/Gvazdas : I need the Captain at Arrival!
+16-44:SAY: Edwin Jackson/Gvazdas : I need Captain arrival for a Job!
+16-44:ACCESS: Login: TheSurvivor from 81.152.77.45
+16-44:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+16-44:SAY: Edwin Jackson/Gvazdas : I repeat! I need a Captain in Arrival Checkpoint for an assignment!
+16-44:SAY: Xen/Alfie275 : ;HoP to arrivals
+16-44:GAME: TheSurvivor entered as Shorast Noblemud
+16-44:SAY: Edwin Jackson/Gvazdas : I NEED A CAPTAIN AT ARRIVAL FOR A JOB!
+16-44:OOC: HELP: Shorast Noblemud/TheSurvivor : Hey Heasdwe
+16-44:SAY: Xen/Alfie275 : use a radio!
+16-44:OOC: Edwin Jackson/Gvazdas : I need a Captain in Arrival for a Job!
+16-44:SAY: Xen/Alfie275 : ;HoP or captain to arrivals
+16-44:OOC: Xen/Alfie275 : NO IC IN OOC
+16-44:SAY: Geshud Doorwhip/Mr.Conscious : Hack that door
+16-44:SAY: Shorast Noblemud/TheSurvivor : Hello
+16-44:SAY: Shorast Noblemud/TheSurvivor : What job would you like
+16-44:ADMIN: PM: Headswe->Mr.Conscious : What's your main key?
+16-44:ADMIN: PM: Mr.Conscious->Headswe : The one i use all the time?
+16-44:SAY: Xen/Alfie275 : Are you HoP?
+16-44:SAY: Shorast Noblemud/TheSurvivor : Kay I&#39;ll go get equipment
+16-44:ADMIN: PM: Headswe->Mr.Conscious : Yes...
+16-44:ADMIN: PM: Mr.Conscious->Headswe : Damondestroyer
+16-44:SAY: Xen/Alfie275 : You cant hack those thin doors
+16-44:SAY: Edwin Jackson/Gvazdas : I need a Captain at Arrival Checkpoint!
+16-44:SAY: Xen/Alfie275 : ;Get gloves!
+16-44:ADMIN: PM: Headswe->Mr.Conscious : Please reconnect
+16-44:ADMIN: PM: Mr.Conscious->Headswe : With damondestroyer or me?
+16-44:ADMIN: PM: Headswe->Mr.Conscious : with this key you have now
+16-44:ACCESS: Logout: Mr.Conscious
+16-44:ACCESS: Login: Mr.Conscious from 90.214.26.162
+16-44:SAY: Edwin Jackson/Gvazdas : :(
+16-44:OOC: HELP: Geshud Doorwhip/Mr.Conscious : Done
+16-44:SAY: Edwin Jackson/Gvazdas : Someone help
+16-44:SAY: Edwin Jackson/Gvazdas : Im in Maintenance i got hit by a shock need a kit! help1
+16-44:SAY: Edwin Jackson/Gvazdas : I am after Arrival checkpoint left side first 2 doors to maintenance
+16-44:SAY: Shorast Noblemud/TheSurvivor : ;It&#39;s done.
+16-44:SAY: Edwin Jackson/Gvazdas : Help...Me...Someone...
+16-44:SAY: Edwin Jackson/Gvazdas : Ah. Thanks man.
+16-44:OOC: HELP: Geshud Doorwhip/Mr.Conscious : Just asking, why did i need to reconnect?
+16-44:SAY: Edwin Jackson/Gvazdas : I need a Captain in Arrival Checkpoint for my assignment!(job)
+16-44:SAY: Shorast Noblemud/TheSurvivor : Stop pushing, dick
+16-44:SAY: Edwin Jackson/Gvazdas : Captain! Please come to Arrival for my job!
+16-44:SAY: Shorast Noblemud/TheSurvivor : Good idea
+16-44:ACCESS: Login: Mikey3001 from 66.239.213.67
+16-44:SAY: Edwin Jackson/Gvazdas : Captain!?
+16-44:SAY: Edwin Jackson/Gvazdas : hurrdurr
+16-44:SAY: Shorast Noblemud/TheSurvivor : What tool next?
+16-44:OOC: Fath Crossbowriver/Headswe : Can we restart?
+16-44:OOC: Xen/Alfie275 : Why?
+16-44:SAY: Edwin Jackson/Gvazdas : No!
+16-44:OOC: HELP: Shorast Noblemud/TheSurvivor : Headsweeee
+16-44:SAY: Edwin Jackson/Gvazdas : IS THERE A CAPTAIN IN THIS SERVER? OR HoP?
+16-44:OOC: Nil Noblemountain/Master of Apples : CALL DAT SHUTTELL
+16-44:SAY: Edwin Jackson/Gvazdas : OMG! CAPTAIN??
+16-44:SAY: Xen/Alfie275 : Need more fuel
+16-44:SAY: Edwin Jackson/Gvazdas : When a Captain or CoP arrives at Arrival Checkpoint, please tell.
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : ;I&#39;m the new captain
+16-44:GAME: Mikey3001 entered as Thomas Watson
+16-44:VOTE: Voting to restart round started by Fath Crossbowriver/Headswe
+16-44:SAY: Xen/Alfie275 : How so?
+16-44:OOC: Fath Crossbowriver/Headswe : FOR ME PLEASE :S
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : I got the ID
+16-44:SAY: Xen/Alfie275 : I got us in!
+16-44:SAY: Xen/Alfie275 : i wanna be captain too
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : I hacked the ID
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : Fine
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : We&#39;ll both be Captain
+16-44:OOC: Fath Crossbowriver/Headswe : Btw this is the Super aweomse hidden dev serve.r
+16-44:SAY: Shorast Noblemud (as Captain)/TheSurvivor : Come on
+16-44:OOC: Fath Crossbowriver/Headswe : expect its not hidden
+16-44:OOC: Nil Noblemountain/Master of Apples : I GOT TO GO ON IT
+16-44:OOC: Nil Noblemountain/Master of Apples : Wooo
+16-44:VOTE: Voting closed, result was default
+16-44:OOC: Fath Crossbowriver/Headswe : and pepole get stuck in spawn for some reason
+16-44:OOC: Fath Crossbowriver/Headswe : Guys.
+16-44:OOC: Fath Crossbowriver/Headswe : I really need the restart.
+16-44:OOC: Xen/Alfie275 : K
+16-44:OOC: Xen/Alfie275 : its ur server
+16-44:ADMIN: Headswe initiated a reboot.
+16-44:ACCESS: Logout: Headswe
+16-44:ACCESS: Logout: Gvazdas
+16-44:ACCESS: Logout: Master of Apples
+16-44:ACCESS: Logout: Alfie275
+16-44:ACCESS: Logout: Mr.Conscious
+16-44:ACCESS: Logout: TheSurvivor
+16-44:ACCESS: Logout: Mikey3001
+17-05:ADMIN: Loading jobban_rank
+17-05:ADMIN: Updating jobbanfile!
+17-05:GAME: Finished building powernets (30 nets)
+17-05:ACCESS: Login: Headswe from 127.0.0.1
+17-05:ACCESS: Login: Mikey3001 from 66.239.213.67
+17-05:ACCESS: Login: Alfie275 from 88.111.21.212
+17-05:ACCESS: Login: Gvazdas from 78.62.234.20
+17-05:GAME: Gvazdas entered as Edwin Jackson
+17-05:OOC: Fath Crossbowriver/Headswe : Yay.
+17-05:ACCESS: Login: Master of Apples from 81.152.77.45
+17-05:OOC: Fath Crossbowriver/Headswe : Go ip bans!
+17-05:SAY: Edwin Jackson/Gvazdas : traitor again please.
+17-05:OOC: Edwin Jackson/Gvazdas : traitor again, please.
+17-05:ACCESS: Login: TheSurvivor from 81.152.77.45
+17-05:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+17-05:VOTE: Voting to change mode started by Edwin Jackson/Gvazdas
+17-05:GAME: TheSurvivor entered as Shorast Noblemud
+17-05:GAME: Alfie275 entered as Xen
+17-05:OOC: Edwin Jackson/Gvazdas : oh i thought default was something else
+17-05:GAME: Mikey3001 entered as Thomas Watson
+17-05:OOC: HELP: Shorast Noblemud/TheSurvivor : Headswe answeer me
+17-05:OOC: Xen/Alfie275 : IP bans are uselss? Doesnt ur IP change every time you connect to internet?
+17-05:GAME: Master of Apples entered as Kumil Axesword
+17-05:VOTE: Voting closed, result was centcom
+17-05:SAY: Edwin Jackson/Gvazdas : Start pls
+17-05:OOC: Edwin Jackson/Gvazdas : start plz
+17-05:OOC: Edwin Jackson/Gvazdas : start???
+17-05:GAME: starting game of centcom
+17-05:SAY: Edwin Jackson/Gvazdas : ooh nice
+17-05:SAY: Xen/Alfie275 : ;HoM reporting
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; Chemist reporting
+17-05:SAY: Kumil Axesword/Master of Apples : ;Forensix technician
+17-05:SAY: Kumil Axesword/Master of Apples : ;Howdy
+17-05:SAY: Edwin Jackson/Gvazdas : This is the Captain. If you are experiencing problems with a part of the ship, please report to Arrival Checkpoint.
+17-05:OOC: Xen/Alfie275 : Is network stuff in yet?
+17-05:OOC: Kumil Axesword/Master of Apples : Nope
+17-05:OOC: Xen/Alfie275 : Network offic looks cool
+17-05:SAY: Thomas Watson/Mikey3001 : i want to change my job
+17-05:SAY: Edwin Jackson/Gvazdas : Uh.. Hi? Do you need a new job?
+17-05:SAY: Thomas Watson/Mikey3001 : yeah
+17-05:SAY: Edwin Jackson/Gvazdas : Give me your ID card. And tell me your wanted job.
+17-05:SAY: Edwin Jackson/Gvazdas : What job do you want
+17-05:SAY: Thomas Watson/Mikey3001 : is head of security open?
+17-05:SAY: Edwin Jackson/Gvazdas : No, sorry.
+17-05:SAY: Thomas Watson/Mikey3001 : head of matience?
+17-05:SAY: Edwin Jackson/Gvazdas : Uhh, no. Nobody is, but first you are have to get promoted. Get a little lower job.
+17-05:OOC: Fath Crossbowriver/Headswe : Failed Login: Mr.Conscious Reason: by  #Failed Login: Mr.Conscious Reason: by  
+17-05:SAY: Edwin Jackson/Gvazdas : Enginner or scientist, whatever.
+17-05:OOC: Kumil Axesword/Master of Apples : hah
+17-05:OOC: Fath Crossbowriver/Headswe : Alfie
+17-05:OOC: Fath Crossbowriver/Headswe : Some do.
+17-05:SAY: Thomas Watson/Mikey3001 : okay engineer
+17-05:SAY: Edwin Jackson/Gvazdas : Okay... Please wait.
+17-05:OOC: Fath Crossbowriver/Headswe : like i have a non static ip
+17-05:OOC: Fath Crossbowriver/Headswe : but some have static ips
+17-05:OOC: Xen/Alfie275 : Me too
+17-05:OOC: Fath Crossbowriver/Headswe : and theres more ways to ban pepole :)
+17-05:OOC: Xen/Alfie275 : Sort of annoying
+17-05:GAME: Headswe entered as Fath Crossbowriver
+17-05:SAY: Edwin Jackson/Gvazdas : Here you go.
+17-05:OOC: HELP: Shorast Noblemud/TheSurvivor : Headswe, you&#39;ll see that I&#39;m on the admin list but somewhere along the way my adminess has been removed, would you mind making me admin?
+17-05:SAY: Thomas Watson/Mikey3001 : so where the equptment room?
+17-05:ADMIN: PM: Headswe->TheSurvivor : You were removed because of  inactiveness.
+17-05:SAY: Edwin Jackson/Gvazdas : follow me
+17-05:ACCESS: Login: Nickbond12 from 74.36.159.213
+17-05:SAY: Edwin Jackson/Gvazdas : get to me.
+17-05:ADMIN: PM: TheSurvivor->Headswe : Ohhh..Does that mean I have to apply again or what?
+17-05:SAY: Edwin Jackson/Gvazdas : that room&#39;s closed
+17-05:GAME: Nickbond12 entered as bill nye
+17-05:SAY: Edwin Jackson/Gvazdas : AI, can you please show me where Engeering room is at?
+17-05:SAY: Kumil Axesword/Master of Apples : ;Forensiiics helleyeahhh
+17-05:SAY: Edwin Jackson/Gvazdas : Thomas, just snoop around you will find it.
+17-05:SAY: Edwin Jackson/Gvazdas : look at the door names.
+17-05:SAY: Thomas Watson/Mikey3001 : ok
+17-05:SAY: Edwin Jackson/Gvazdas : Bill nye do you need a job?
+17-05:SAY: bill nye/Nickbond12 : yes
+17-05:SAY: Edwin Jackson/Gvazdas : follow me please.
+17-05:SAY: Edwin Jackson/Gvazdas : stay here please.
+17-05:SAY: Edwin Jackson/Gvazdas : give me your ID card please.
+17-05:SAY: Edwin Jackson/Gvazdas : Your job will be Medical Doctor. Is that fine for you?
+17-05:SAY: bill nye/Nickbond12 : hmmmmm ya
+17-05:SAY: Edwin Jackson/Gvazdas : here you goi.
+17-05:SAY: bill nye/Nickbond12 : thank you
+17-05:OOC: Fath Crossbowriver/Headswe : Well i have to go.
+17-05:ACCESS: Logout: Headswe
+17-05:SAY: Edwin Jackson/Gvazdas : cya.
+17-05:OOC: Shorast Noblemud/TheSurvivor : Bye.
+17-05:ACCESS: Login: Ihateoutside from 88.105.71.204
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; Um
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; Xen
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; Why do you have full EVA gear?
+17-05:SAY: Xen/Alfie275 : ; I might need it
+17-05:SAY: Xen/Alfie275 : ;Incase of breach
+17-05:OOC: Xen/Alfie275 : AFK
+17-05:GAME: Ihateoutside entered as Tirist Spearsoap
+17-05:SAY: Edwin Jackson/Gvazdas : Fuck! I lost my ID card!
+17-05:SAY: Tirist Spearsoap/Ihateoutside : Haha
+17-05:SAY: Edwin Jackson/Gvazdas : I am stuck in my room... Doh.
+17-05:SAY: Edwin Jackson/Gvazdas : Not in my room, in arrival.
+17-05:SAY: Tirist Spearsoap/Ihateoutside : check the machines
+17-05:SAY: Edwin Jackson/Gvazdas : I dropped in the garbage can in accident, and now i cant take it back
+17-05:SAY: Tirist Spearsoap/Ihateoutside : Your screwed
+17-05:SAY: Edwin Jackson/Gvazdas : Yeah, i am leaving anyways.
+17-05:SAY: Tirist Spearsoap/Ihateoutside : ;Hey guys the captain accidently binned his ID
+17-05:SAY: Edwin Jackson/Gvazdas : Is anyone here high enough ranked that he can go into captain&#39;s office and take his ID card?
+17-05:SAY: Shorast Noblemud/TheSurvivor : ;No one can
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; BUt if you want
+17-05:SAY: Edwin Jackson/Gvazdas : Im so screwed.
+17-05:SAY: Shorast Noblemud/TheSurvivor : ; I could break in
+17-05:SAY: Edwin Jackson/Gvazdas : Wel... Okay....
+17-05:SAY: Edwin Jackson/Gvazdas : Take 2 of these id cards please
+17-05:SAY: Edwin Jackson/Gvazdas : I need to go into my own properties
+17-05:SAY: Edwin Jackson/Gvazdas : and do some stuff
+17-05:SAY: Edwin Jackson/Gvazdas : Please hurry.
+17-05:ACCESS: Login: Jakkarra from 90.202.19.118
+17-05:SAY: Shorast Noblemud/TheSurvivor : Wait
+17-05:SAY: Shorast Noblemud/TheSurvivor : you&#39;re stuck there?
+17-05:SAY: Edwin Jackson/Gvazdas : Yeah..
+17-05:SAY: Edwin Jackson/Gvazdas : nw everyone can go in
+17-05:SAY: Edwin Jackson/Gvazdas : follow me
+17-05:SAY: Shorast Noblemud/TheSurvivor : ;; Where are you?
+17-05:SAY: bill nye/Nickbond12 : captain
+17-05:OOC: Xen/Alfie275 : Back
+17-05:SAY: Shorast Noblemud/TheSurvivor : Woah
+17-05:SAY: Shorast Noblemud/TheSurvivor : FFack off
+17-05:SAY: Edwin Jackson/Gvazdas : this is my 
+17-05:SAY: Edwin Jackson/Gvazdas : break into this please
+17-05:SAY: bill nye/Nickbond12 : some asstiaint tried to inject me with something
+17-05:SAY: Edwin Jackson/Gvazdas : ah nevermind.
+17-05:OOC: Osbert Shaffer/Jakkarra : Okidoke
+17-05:GAME: Jakkarra entered as Osbert Shaffer
+17-05:SAY: Osbert Shaffer/Jakkarra : Thief! Protect the horde from the skulking filth!
+17-05:OOC: Osbert Shaffer/Jakkarra : Admin: Jakkarra arrived
+17-05:SAY: Osbert Shaffer/Jakkarra : I mandate adamantine socks! Lots of them!
+17-05:SAY: Osbert Shaffer/Jakkarra : Pull the lever!
+17-05:SAY: Edwin Jackson/Gvazdas : ATTENTION ALL PERSONELL ! TIRIST SPEARSOAP IS A DANGEROUS PERSON! PLEASE DISARM HIS SYRINGE AND BRING HIM TO ARRIVAL IMMEDIATELY!
+17-05:SAY: Osbert Shaffer/Jakkarra : A vile force of darkness has arrived!
+17-05:MATTACK: Tirist Spearsoap(Ihateoutside) clicked on Tirist Spearsoap(Ihateoutside) with a DNA injector
+17-05:SAY: Osbert Shaffer/Jakkarra : Magma! RUN!
+17-05:SAY: Osbert Shaffer/Jakkarra : Burn the trees! HAHAHA!
+17-05:SAY: Osbert Shaffer/Jakkarra : ; What&#39;s happening here?
+17-05:SAY: Osbert Shaffer/Jakkarra : captain?
+17-05:SAY: Osbert Shaffer/Jakkarra : i found this laser
+17-05:SAY: Edwin Jackson/Gvazdas : I LOST MY FUCKING ID CARD!
+17-05:OOC: Kumil Axesword/Master of Apples : Nowayy
+17-05:VOTE: Voting to restart round started by Edwin Jackson/Gvazdas
+17-05:SAY: Osbert Shaffer/Jakkarra : Where are my socks?
+17-05:SAY: Kumil Axesword/Master of Apples : ;You put it in the bin
+17-05:MATTACK: The monkey (e3cf) (as Tirist Spearsoap)(Ihateoutside) clicked on monkey (e3cf)(Ihateoutside) with a DNA injector
+17-05:SAY: Edwin Jackson/Gvazdas : everyone vote yes please!
+17-05:ACCESS: Logout: 
+17-05:ACCESS: Login: Ihateoutside from 88.105.71.204
+17-05:ACCESS: They share computer ID's
+17-05:OOC: Xen/Alfie275 : DONT OOC IN IC!
+17-05:SAY: Edwin Jackson/Gvazdas : The whole round got messed up
+17-05:SAY: Osbert Shaffer/Jakkarra : Magma! RUN!
+17-05:SAY: Osbert Shaffer/Jakkarra : Magma! RUN!
+17-05:OOC: Xen/Alfie275 : BECAUSE OF YOU
+17-05:SAY: Osbert Shaffer/Jakkarra : You seem to have a carp stuck in your beard..
+17-05:SAY: Osbert Shaffer/Jakkarra : DWARFS!
+17-05:OOC: Kumil Axesword/Master of Apples : Alfie, you&#39;re being a hypocrite
+17-05:OOC: Xen/Alfie275 : SORRY
+17-05:SAY: Osbert Shaffer/Jakkarra : Urist wuz here, lulz.
+17-05:OOC: Edwin Jackson/Gvazdas : 1 more yes!
+17-05:SAY: Osbert Shaffer/Jakkarra : Urist cancels flipping the fuck out: Doing the entrance dance.
+17-05:MATTACK: Osbert Shaffer(Jakkarra)has shot a taser round at the monkey (92ec)
+17-05:OOC: Shorast Noblemud/TheSurvivor : Gvazdas what the fuck dude.
+17-05:VOTE: Voting closed, result was default
+17-05:OOC: Xen/Alfie275 : I just get annoyed when they OOC in IC and restart because they did something stupid
+17-05:MATTACK: Osbert Shaffer(Jakkarra)has shot a taser round at the monkey (92ec)
+17-05:MATTACK: Osbert Shaffer(Jakkarra)has shot a taser round at the monkey (92ec)
+17-05:SAY: Xen/Alfie275 : ;Comm dish aligned
+17-05:MATTACK: Osbert Shaffer(Jakkarra)has shot a taser round at the floor
+17-05:ACCESS: Logout: Gvazdas
+17-05:SAY: Osbert Shaffer/Jakkarra : DWARFS!
+17-05:SAY: Osbert Shaffer/Jakkarra : Urist wuz here, lulz.
+17-05:SAY: Osbert Shaffer/Jakkarra : Pull the lever!
+17-05:SAY: Osbert Shaffer/Jakkarra : gotcha
+17-05:SAY: Osbert Shaffer/Jakkarra : DWARFS!
+17-05:MATTACK: Osbert Shaffer(Jakkarra)has grabbed the monkey (92ec)(Ihateoutside) aggressively (now hands) 
+17-05:SAY: Osbert Shaffer/Jakkarra : You seem to have a carp stuck in your beard..
+17-05:SAY: Osbert Shaffer/Jakkarra : you little bastard
+17-05:SAY: Osbert Shaffer/Jakkarra : Thief! Protect the horde from the skulking filth!
+17-05:SAY: Thomas Watson/Mikey3001 : as an engineer what if m not needed?
+17-05:SAY: Osbert Shaffer/Jakkarra : Burn the trees! HAHAHA!
+17-05:SAY: Osbert Shaffer/Jakkarra : Urist wuz here, lulz.
+17-05:ADMIN: Jakkarra initiated a reboot.
+17-05:SAY: Osbert Shaffer/Jakkarra : Where are my socks?
+17-05:ACCESS: Logout: Ihateoutside
+17-05:ACCESS: Logout: Alfie275
+17-05:ACCESS: Logout: Mikey3001
+17-05:ACCESS: Logout: Master of Apples
+17-05:ACCESS: Logout: TheSurvivor
+17-05:ACCESS: Logout: Nickbond12
+17-05:ACCESS: Logout: Jakkarra
+17-31:ADMIN: Loading jobban_rank
+17-31:ADMIN: Updating jobbanfile!
+17-31:ACCESS: Login: Master of Apples from 81.152.77.45
+17-31:ACCESS: Login: Alfie275 from 88.111.21.212
+17-31:GAME: Finished building powernets (30 nets)
+17-31:ACCESS: Login: Mikey3001 from 66.239.213.67
+17-31:ACCESS: Login: Nickbond12 from 74.36.159.213
+17-31:ACCESS: Login: TheSurvivor from 81.152.77.45
+17-31:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+17-31:ACCESS: Login: Ihateoutside from 88.105.71.204
+17-31:ACCESS: Login: Jakkarra from 90.202.19.118
+17-31:GAME: Jakkarra entered as Osbert Shaffer
+17-31:GAME: Nickbond12 entered as Ingiz Drawbridgeengraving
+17-31:GAME: Ihateoutside entered as Tirist Spearsoap
+17-31:GAME: Master of Apples entered as Kumil Doorhuman
+17-31:OOC: Osbert Shaffer/Jakkarra : Ok
+17-31:GAME: TheSurvivor entered as Shorast Noblemud
+17-31:GAME: Alfie275 entered as Xen
+17-31:OOC: Osbert Shaffer/Jakkarra : i restarted the round
+17-31:OOC: Shorast Noblemud/TheSurvivor : Why&#39;d you do that?
+17-31:OOC: Osbert Shaffer/Jakkarra : I was asked to
+17-31:OOC: Osbert Shaffer/Jakkarra : what the bloody hell was happening&gt;
+17-31:OOC: Shorast Noblemud/TheSurvivor : Nothing was happening
+17-31:OOC: Xen/Alfie275 : Captain binned his ID
+17-31:OOC: Osbert Shaffer/Jakkarra : Why was the station seemingly filled with a toxic gas then?
+17-31:GAME: Mikey3001 entered as Thomas Watson
+17-31:OOC: Xen/Alfie275 : Was it?
+17-31:OOC: Osbert Shaffer/Jakkarra : I saw people choking
+17-31:OOC: Ingiz Drawbridgeengraving/Nickbond12 : filled with toxic gas my bare ass
+17-31:OOC: Osbert Shaffer/Jakkarra : and i was
+17-31:OOC: Osbert Shaffer/Jakkarra : Ok
+17-31:OOC: Osbert Shaffer/Jakkarra : lets go
+17-31:OOC: Osbert Shaffer/Jakkarra : reasy, gentlemen?
+17-31:ADMIN: Jakkarra used start_now
+17-31:GAME: starting game of centcom
+17-31:ACCESS: Logout: 
+17-31:ACCESS: Login: Master of Apples from 81.152.77.45
+17-31:ACCESS: They share computer ID's
+17-31:ACCESS: Notice: Master of Apples has same IP address as TheSurvivor
+17-31:OOC: Tirist Spearsoap/Ihateoutside : that&#39;d be one of the new diseases.
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; I need a new job
+17-31:OOC: Osbert Shaffer/Jakkarra : Insane-o virus?
+17-31:SAY: Shorast Noblemud/TheSurvivor : Chemist please
+17-31:OOC: Osbert Shaffer/Jakkarra : that makes people stutter and spout shite?
+17-31:SAY: A.R.M.O.K./Master of Apples : Greetings, Humans.
+17-31:SAY: A.R.M.O.K./Master of Apples : I will be serving you today
+17-31:SAY: Osbert Shaffer/Jakkarra : ; Osbert Shaffer here
+17-31:OOC: Tirist Spearsoap/Ihateoutside : I meant the coughing not the mental retardation
+17-31:SAY: Osbert Shaffer/Jakkarra : ; Station lawyer
+17-31:OOC: Osbert Shaffer/Jakkarra : i see
+17-31:SAY: Osbert Shaffer/Jakkarra : ; Crew? please report
+17-31:OOC: Xen/Alfie275 : Also, it appears that all the disabilities in character setup are turned on by defualt now
+17-31:ACCESS: Login: Casings from 69.14.78.214
+17-31:SAY: Xen/Alfie275 : :Captain here
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;Medical doctor here
+17-31:ACCESS: Logout: Alfie275
+17-31:ACCESS: Login: Alfie275 from 88.111.21.212
+17-31:SAY: Shorast Humanelf/Casings : Uhn,..
+17-31:SAY: Xen/Alfie275 : Hi
+17-31:SAY: Osbert Shaffer/Jakkarra : hi
+17-31:SAY: Xen/Alfie275 : ;Engineering, is the comm dish aligned?
+17-31:SAY: A.R.M.O.K./Master of Apples : We do not currently have any Humans in the Engineer role
+17-31:SAY: Xen/Alfie275 : ;AI, align dish
+17-31:OOC: Shorast Humanelf/Casings : How do I get out of start zone
+17-31:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+17-31:GAME: Casings entered as Shorast Humanelf
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : trist
+17-31:SAY: A.R.M.O.K./Master of Apples : It appears that this a fault in all humans
+17-31:OOC: Xen/Alfie275 : Press ready
+17-31:OOC: Shorast Humanelf/Casings : Nvm
+17-31:SAY: A.R.M.O.K./Master of Apples : Certainly, captain.
+17-31:OOC: Shorast Humanelf/Casings : I just did
+17-31:OOC: Shorast Humanelf/Casings : XD
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : i got to ask how do it equip gloves
+17-31:OOC: Cog Cogcog/Mr.Peanuts : IC IN OOC!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : SHUT IT
+17-31:SAY: Shorast Humanelf/Casings : Hiya mister muggles
+17-31:OOC: Xen/Alfie275 : How so?
+17-31:SAY: Shorast Humanelf/Casings : How ya been?
+17-31:SAY: Osbert Shaffer/Jakkarra : ; i don&#39;t like that whole &#34;This seems to be a fault in all humans&#34; statement
+17-31:OOC: Cog Cogcog/Mr.Peanuts : oh nevermind
+17-31:OOC: Cog Cogcog/Mr.Peanuts : thought he said I just died
+17-31:SAY: A.R.M.O.K./Master of Apples : I am not programmed to like your species.
+17-31:SAY: Tirist Spearsoap/Ihateoutside : (use ooc) put them in your hand then select the glove square
+17-31:OOC: Cog Cogcog/Mr.Peanuts : sorry
+17-31:SAY: A.R.M.O.K./Master of Apples : I am here merely to serve.
+17-31:SAY: A.R.M.O.K./Master of Apples : Comms dish Is alighned.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : didn&#39;t look at it fully because of the character thing
+17-31:GAME: Mr.Peanuts entered as Cog Cogcog
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : thanks
+17-31:SAY: A.R.M.O.K./Master of Apples : Violence detected in Arrival Checkpoint
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; can I get a job please?
+17-31:SAY: A.R.M.O.K./Master of Apples : Affirmative
+17-31:SAY: A.R.M.O.K./Master of Apples : The required personel will arrive shortly
+17-31:SAY: Shorast Humanelf/Casings : Um..
+17-31:SAY: Xen/Alfie275 : ;Who was being viloent?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : wow there
+17-31:SAY: Shorast Humanelf/Casings : What are you doing?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : nothing
+17-31:SAY: Osbert Shaffer/Jakkarra : ; HE NEEDS A LAWYER
+17-31:SAY: Cog Cogcog/Mr.Peanuts : waiting for a job
+17-31:SAY: Shorast Humanelf/Casings : .. What?
+17-31:SAY: A.R.M.O.K./Master of Apples : They were merely pushing each ohter
+17-31:SAY: A.R.M.O.K./Master of Apples : *other
+17-31:SAY: Osbert Shaffer/Jakkarra : ; YOU CAN&#39;T PROVE A THING
+17-31:SAY: Cog Cogcog/Mr.Peanuts : that&#39;s all
+17-31:SAY: Xen/Alfie275 : ;Ok
+17-31:SAY: Osbert Shaffer/Jakkarra : what arew you doing here
+17-31:SAY: Xen/Alfie275 : Yes?
+17-31:SAY: Osbert Shaffer/Jakkarra : hey
+17-31:SAY: Cog Cogcog/Mr.Peanuts : I can be a lawyer
+17-31:SAY: Osbert Shaffer/Jakkarra : bugger off
+17-31:SAY: Osbert Shaffer/Jakkarra : We have a lawyer
+17-31:SAY: Cog Cogcog/Mr.Peanuts : but I have no job because some one is lacking in their duty
+17-31:SAY: Osbert Shaffer/Jakkarra : go be an engineer or something
+17-31:SAY: Cog Cogcog/Mr.Peanuts : cant
+17-31:SAY: Xen/Alfie275 : I can set job
+17-31:SAY: Osbert Shaffer/Jakkarra : i don&#39;t need competition
+17-31:SAY: Xen/Alfie275 : gimme ur ID
+17-31:SAY: A.R.M.O.K./Master of Apples : I advise, Humans, that an engineer is assigned
+17-31:SAY: Cog Cogcog/Mr.Peanuts : no one is giving me a job
+17-31:ACCESS: Logout: Mikey3001
+17-31:SAY: Xen/Alfie275 : what job?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I can be an engineer
+17-31:SAY: Shorast Humanelf/Casings : Ugh..
+17-31:SAY: Cog Cogcog/Mr.Peanuts : I like fire
+17-31:ACCESS: Login: Qwertyasd40 from 99.163.50.29
+17-31:SAY: Osbert Shaffer/Jakkarra : NOT LAWYER
+17-31:SAY: Cog Cogcog/Mr.Peanuts : a lot
+17-31:SAY: Cog Cogcog/Mr.Peanuts : A LOT
+17-31:SAY: A.R.M.O.K./Master of Apples : I am also de-activating non-used areas of the station
+17-31:SAY: Cog Cogcog/Mr.Peanuts : shut up
+17-31:SAY: Cog Cogcog/Mr.Peanuts : idiot
+17-31:SAY: Tirist Spearsoap/Ihateoutside : what?
+17-31:SAY: Osbert Shaffer/Jakkarra : Fuck you
+17-31:SAY: Shorast Humanelf/Casings : I want to join the doctors.
+17-31:GAME: Qwertyasd40 entered as Winchester Hughes
+17-31:SAY: Osbert Shaffer/Jakkarra : I am a higer rank than you, numbnuts
+17-31:SAY: Tirist Spearsoap/Ihateoutside : You need to be reasigned
+17-31:SAY: Cog Cogcog/Mr.Peanuts : lawyer is a real low rank
+17-31:SAY: Shorast Humanelf/Casings : Well
+17-31:SAY: Osbert Shaffer/Jakkarra : Lies
+17-31:SAY: Shorast Humanelf/Casings : Theres nobody at the assigning desk
+17-31:SAY: Osbert Shaffer/Jakkarra : lies and slander
+17-31:SAY: Shorast Humanelf/Casings : So Im afraid I cant
+17-31:SAY: Cog Cogcog/Mr.Peanuts : I don&#39;t see how you are higher
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : shor ask the captain to reasine you
+17-31:SAY: Osbert Shaffer/Jakkarra : Cap&#39;n
+17-31:SAY: Osbert Shaffer/Jakkarra : please explain to this ruffian
+17-31:SAY: Shorast Humanelf/Casings : HOLY CRAP
+17-31:SAY: A.R.M.O.K./Master of Apples : Warning
+17-31:SAY: Xen/Alfie275 : Go start engine
+17-31:SAY: Shorast Humanelf/Casings : Get a fire extingusher
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ok
+17-31:SAY: A.R.M.O.K./Master of Apples : Fire detected in Medical Bay
+17-31:SAY: Xen/Alfie275 : NOW
+17-31:SAY: Osbert Shaffer/Jakkarra : Damn kids
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;FIRE IN MEDBAY IM STUCK
+17-31:SAY: Osbert Shaffer/Jakkarra : running around like they own the place
+17-31:SAY: A.R.M.O.K./Master of Apples : Human: Tirist Spearsoap
+17-31:SAY: A.R.M.O.K./Master of Apples : Please remain where you are
+17-31:ACCESS: Login: Romero55 from 66.239.213.67
+17-31:ACCESS: Notice: Romero55 has same IP address as Mikey3001 did (Mikey3001 is no longer logged in).
+17-31:ACCESS: They share computer ID's
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;HELP MEEEEEE
+17-31:SAY: Shorast Humanelf/Casings : LTE EM IN
+17-31:SAY: Shorast Humanelf/Casings : I CAN PUT IT OUT
+17-31:SAY: A.R.M.O.K./Master of Apples : The fire has deceased
+17-31:SAY: Shorast Humanelf/Casings : LET ME IN
+17-31:SAY: Shorast Humanelf/Casings : ILL PUT IT OUT
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;What happened!?
+17-31:SAY: Shorast Humanelf/Casings : I put it out..
+17-31:SAY: A.R.M.O.K./Master of Apples : I am unable to determine cause of fire
+17-31:SAY: Shorast Humanelf/Casings : UHNN
+17-31:SAY: Osbert Shaffer/Jakkarra : Success!
+17-31:SAY: A.R.M.O.K./Master of Apples : Please repair the damage in Medical bay
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;Medbay is trashed now
+17-31:SAY: Xen/Alfie275 : Crowvbar
+17-31:SAY: Osbert Shaffer/Jakkarra : here you are
+17-31:ACCESS: Login: Gvazdas from 78.62.234.20
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : armok someone tossed a bottle in the place and it caught fire
+17-31:GAME: Gvazdas entered as Edwin Jackson
+17-31:SAY: Shorast Humanelf/Casings : AHH
+17-31:OOC: Edwin Jackson/Gvazdas : hi all
+17-31:SAY: Osbert Shaffer/Jakkarra : they wasted good booze?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : hello
+17-31:SAY: A.R.M.O.K./Master of Apples : I suspect the chemist may be responsible
+17-31:OOC: Edwin Jackson/Gvazdas : aw wtf i am stuck at spawn and i cant move outtya there
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; ME?
+17-31:SAY: Xen/Alfie275 : ;Who is chemist?
+17-31:SAY: Osbert Shaffer/Jakkarra : owie
+17-31:SAY: Shorast Humanelf/Casings : WHO TRAPPED ME IN THERE
+17-31:SAY: A.R.M.O.K./Master of Apples : I advise you check a crew manifest
+17-31:SAY: A.R.M.O.K./Master of Apples : I have bolted the Chemistry Lab
+17-31:SAY: Shorast Noblemud/TheSurvivor : :i&#39;m the chemist
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;I need a job please
+17-31:SAY: A.R.M.O.K./Master of Apples : Several incendiary grenades have been detected.
+17-31:ACCESS: Logout: Casings
+17-31:SAY: Edwin Jackson/Gvazdas : I am stuck in spawn! What do I do ?
+17-31:SAY: Shorast Noblemud/TheSurvivor : :yeah
+17-31:SAY: Xen/Alfie275 : ;Atmo or maintance get some ari to that hallway
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;Yeah I made a couple
+17-31:SAY: A.R.M.O.K./Master of Apples : I adbise Shorast Noblemud is detained
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; But I haven&#39;t used any
+17-31:SAY: Shorast Noblemud/TheSurvivor : :Wait
+17-31:GAME: Romero55 entered as Andrew Romero
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; I didm&#39;t do anything!
+17-31:SAY: A.R.M.O.K./Master of Apples : The evidence does not 
+17-31:SAY: Xen/Alfie275 : ;Weapon produuction?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;AHHHHH
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;FIRE IN COURTROOM
+17-31:SAY: Osbert Shaffer/Jakkarra : you there
+17-31:SAY: A.R.M.O.K./Master of Apples : Warning
+17-31:SAY: Edwin Jackson/Gvazdas : IM STUCK AT THE SPAWN BEING AN ASSISTANT!
+17-31:SAY: Osbert Shaffer/Jakkarra : please fill out a report for my file
+17-31:SAY: A.R.M.O.K./Master of Apples : There was a fire in the courtroom
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I am starting engine
+17-31:SAY: Edwin Jackson/Gvazdas : WHAT DO I DO I AM STUCK IN SPAWN!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : NO OOC IN IC!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Edwin
+17-31:SAY: Tirist Spearsoap/Ihateoutside : IM busy fixing up the place
+17-31:SAY: Shorast Noblemud/TheSurvivor : :AI, let me out, I&#39;m not doing anything
+17-31:SAY: Xen/Alfie275 : ;HELP
+17-31:SAY: Osbert Shaffer/Jakkarra : ; what the hell is a &#34;Spawn&#34;?
+17-31:SAY: A.R.M.O.K./Master of Apples : The chemist is to be apprehended
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;Ai let me out, I didn&#39;t do anything
+17-31:OOC: Edwin Jackson/Gvazdas : I AM STUCK IN SPAWN WHAT DO I DO? I AM ASSISTANT!
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; You have no proof
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; a spawn?
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 :  armok i belive it was Shorast Humanelf because shortly before the fire started he entered
+17-31:OOC: Edwin Jackson/Gvazdas : Spawn is where you start, but I am assistant!
+17-31:SAY: A.R.M.O.K./Master of Apples : Human Shorast
+17-31:OOC: Osbert Shaffer/Jakkarra : ugh
+17-31:SAY: Xen/Alfie275 : Thanks
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; how can you be suck in a spawn, we don&#39;t even have any spawns of creatures on this station
+17-31:SAY: Winchester Hughes/Qwertyasd40 : Can i have a job?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : ...
+17-31:SAY: Osbert Shaffer/Jakkarra : what the hell
+17-31:OOC: Cog Cogcog/Mr.Peanuts : *shake head
+17-31:SAY: A.R.M.O.K./Master of Apples : Please display the incendiary grenades that you have not used
+17-31:OOC: Edwin Jackson/Gvazdas : when you press ready you teleport to the game, but I am pressed ready and I am in the spawn place where you are only with trousers and must press ready!
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;Let me out
+17-31:SAY: Osbert Shaffer/Jakkarra : i blacked out for a second there
+17-31:SAY: Osbert Shaffer/Jakkarra : hey
+17-31:SAY: A.R.M.O.K./Master of Apples : My database indicates that when created, 3 are made.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Bug
+17-31:SAY: A.R.M.O.K./Master of Apples : I can only detect two
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Will report
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;They&#39;re in the Chemist place
+17-31:SAY: Osbert Shaffer/Jakkarra : you alreight buddy
+17-31:SAY: A.R.M.O.K./Master of Apples : Negative
+17-31:SAY: Xen/Alfie275 : ;Open
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; Oh
+17-31:SAY: A.R.M.O.K./Master of Apples : Only two are detected
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; Look
+17-31:OOC: Cog Cogcog/Mr.Peanuts : on the tracker
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; Look
+17-31:SAY: Osbert Shaffer/Jakkarra : Shiiit
+17-31:SAY: A.R.M.O.K./Master of Apples : I am observing
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; See?
+17-31:OOC: Edwin Jackson/Gvazdas : what do i do i am stuck!
+17-31:SAY: A.R.M.O.K./Master of Apples : Warning
+17-31:SAY: Xen/Alfie275 : ;AI, open
+17-31:SAY: A.R.M.O.K./Master of Apples : Crewman Shorast is in posession of mustard gas
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; Yeah
+17-31:SAY: Xen/Alfie275 : ;Ok
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; True
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; Well AI
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; If there&#39;s only two in the Chemist lab
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; One must have been stolen
+17-31:SAY: Osbert Shaffer/Jakkarra : did you just weld GLASS?
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; But can you just let me out!?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : nothing
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : armok ventilate the medbay
+17-31:OOC: Cog Cogcog/Mr.Peanuts : I reported it to the bug tracker though
+17-31:OOC: Cog Cogcog/Mr.Peanuts : or adminhelp it
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;I need some metal for a table one sheet please
+17-31:SAY: A.R.M.O.K./Master of Apples : The medical bay appears to be fine
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;AI! let me out.
+17-31:OOC: Edwin Jackson/Gvazdas : what do i do i am stuck in the fucking spawn but i already pressed ready and I am an assistant!!!!!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;I need a job!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : DID YOU NOT READ WHAT I SAID
+17-31:OOC: Cog Cogcog/Mr.Peanuts : FUCKING ADMIN HELP IT
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Jesus christ
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Looks like someone pulled up sometiles
+17-31:SAY: A.R.M.O.K./Master of Apples : Captain
+17-31:SAY: A.R.M.O.K./Master of Apples : What do you wish me to do
+17-31:OOC: Cog Cogcog/Mr.Peanuts : sorry
+17-31:OOC: Cog Cogcog/Mr.Peanuts : I&#39;m just fed up with idiots today
+17-31:SAY: Xen/Alfie275 : ;Hmmm
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;AI locate metal sheets for me
+17-31:OOC: Winchester Hughes/Qwertyasd40 : me too
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;I&#39;ll get rid of these nades?
+17-31:OOC: HELP: Edwin Jackson/Gvazdas : I am stuck at the spawn! I already pressed ready but I am an assistant!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : I reported 3 bugs to the bug tracker too
+17-31:OOC: Cog Cogcog/Mr.Peanuts : two are minor but the third is game breaking
+17-31:OOC: Edwin Jackson/Gvazdas : did you report this one ?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : did I say I did?
+17-31:OOC: Edwin Jackson/Gvazdas : Well... no but you should
+17-31:OOC: Shorast Noblemud/TheSurvivor : HAve you tried opening the door, Gvazdas?
+17-31:SAY: Xen/Alfie275 : ;Still a bit hot
+17-31:OOC: Cog Cogcog/Mr.Peanuts : OOC: Mr.Peanuts: I reported it to the bug tracker though
+17-31:SAY: Shorast Noblemud/TheSurvivor : ; AI for FUCKS SAKE
+17-31:OOC: Cog Cogcog/Mr.Peanuts : ...
+17-31:OOC: Edwin Jackson/Gvazdas : dude, i am at place where the grass is with white bricks!
+17-31:SAY: Xen/Alfie275 : ;Where is shorast?
+17-31:ACCESS: Login: Headswe from 127.0.0.1
+17-31:OOC: Cog Cogcog/Mr.Peanuts : silver bricks
+17-31:SAY: A.R.M.O.K./Master of Apples : He is located in the medical lab
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;SOMEONE PLEASE GIVE ME A JOB.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : and they are tiles
+17-31:SAY: A.R.M.O.K./Master of Apples : However
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;STOP TRAPPING ME
+17-31:SAY: A.R.M.O.K./Master of Apples : He can leave
+17-31:OOC: Cog Cogcog/Mr.Peanuts : half tiles
+17-31:OOC: Edwin Jackson/Gvazdas : yay!
+17-31:ACCESS: Login: Poltifar from 212.36.209.10
+17-31:SAY: Xen/Alfie275 : ;KILL SHORAST
+17-31:SAY: A.R.M.O.K./Master of Apples : Fire detected in East Hallway
+17-31:SAY: A.R.M.O.K./Master of Apples : Fire detected in Medical Research Labs
+17-31:OOC: Cog Cogcog/Mr.Peanuts : I think the ready command and the enter command were stiched together
+17-31:SAY: Osbert Shaffer/Jakkarra : CAPTAIN
+17-31:OOC: Cog Cogcog/Mr.Peanuts : and that happenedto cause the bug
+17-31:SAY: Xen/Alfie275 : Yes?
+17-31:SAY: Osbert Shaffer/Jakkarra : there&#39;s people trapped in there
+17-31:SAY: Edwin Jackson/Gvazdas : How do I put a second item in my storage?
+17-31:SAY: Xen/Alfie275 : ;People, hide in lockers
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Because we used to have a ready, where you get your shit, and a enter where you enter the game
+17-31:SAY: Xen/Alfie275 : ;To avoid fire
+17-31:OOC: Cog Cogcog/Mr.Peanuts : so the enter command part of the code is bugged
+17-31:SAY: Edwin Jackson/Gvazdas : I need a job. Is there a Captain or someone else who can give me one?
+17-31:SAY: Osbert Shaffer/Jakkarra : FUCK
+17-31:OOC: Cog Cogcog/Mr.Peanuts : good thing I know my ss13.
+17-31:SAY: A.R.M.O.K./Master of Apples : I advise that Shorast is apprehended
+17-31:SAY: Osbert Shaffer/Jakkarra : get your ass outta there
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;What happened to east corridor
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Theres no one
+17-31:SAY: Edwin Jackson/Gvazdas : I am at the Arrival Checkpoint waiting for assignment.
+17-31:SAY: Xen/Alfie275 : ;Was it shorast noblemud?
+17-31:GAME: Poltifar entered as Richard Godson
+17-31:SAY: Edwin Jackson/Gvazdas : Holy shit what the fucking christ
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;the cptain insists on not giving jobs
+17-31:SAY: Osbert Shaffer/Jakkarra : i dunno
+17-31:SAY: Xen/Alfie275 : ;Dont we have HoP?
+17-31:SAY: A.R.M.O.K./Master of Apples : Shorast Noblemud is not detected
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;The captain is fucking busy!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;NO WE DO NOT
+17-31:ACCESS: Login: TheGrifter from 67.8.149.174
+17-31:SAY: Xen/Alfie275 : ;Ok,  go to arrivals and you cna be HoP
+17-31:SAY: Edwin Jackson/Gvazdas : I am locked in the arrival checkpoint with the Fire closements!!!!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;ALL I DO IS WALK AROUND ESTINGUISHING FIRES.
+17-31:SAY: Richard Godson/Poltifar : ;Erm, yeah, I&#39;m locked in the shuttle
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Ill get ya out
+17-31:GAME: TheGrifter entered as Caius Cassius Longinus
+17-31:SAY: Richard Godson/Poltifar : ;Thank you
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;Is the damage to medlab bad?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; AI please set all SMES to auto charge and output at 200000
+17-31:SAY: Edwin Jackson/Gvazdas : engineer or cop please
+17-31:ACCESS: Logout: Romero55
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Noble caesar.
+17-31:ACCESS: Login: Beorn080 from 173.59.74.11
+17-31:SAY: Richard Godson/Poltifar : Caesar?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; fire locks went off in engine storage area and main part, what is it?
+17-31:SAY: Xen/Alfie275 : ur HoP
+17-31:ACCESS: Logout: Jakkarra
+17-31:SAY: Edwin Jackson/Gvazdas : Fine.
+17-31:SAY: A.R.M.O.K./Master of Apples : Medlab iis okay
+17-31:SAY: Xen/Alfie275 : u give people jobs
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Caesar, will you assign me?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; AI set up all SMES in engineering
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; please
+17-31:SAY: A.R.M.O.K./Master of Apples : Certainly
+17-31:SAY: Richard Godson/Poltifar : ;So, where is the new HoP
+17-31:SAY: Tirist Spearsoap/Ihateoutside : ;Does any glass need repairing?
+17-31:OOC: Nil Mudmagma/Beorn080 : holy fuck
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Noble Brutus, we must speak.
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : armok the fire is out. turn of the firealarm
+17-31:OOC: Cog Cogcog/Mr.Peanuts : what?
+17-31:SAY: Richard Godson/Poltifar : Well.... can I be plasma researcher or somesuch?
+17-31:SAY: Richard Godson/Poltifar : Brutus? Huh, you speak weird
+17-31:SAY: Edwin Jackson/Gvazdas : Sure. Plasma researcher it is.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : If it&#39;s the start thing with cloths I reported that on the bug tracker
+17-31:SAY: Winchester Hughes/Qwertyasd40 : hmm
+17-31:OOC: Nil Mudmagma/Beorn080 : my screen. purple and blue crosshatches, a multicolored 3x3 square in the SW corner, my hud looks like the chapel and the engine had sexs
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Ah, Casca.
+17-31:SAY: Richard Godson/Poltifar : ... Who?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : hud bug, clear cache and rejoin
+17-31:SAY: Edwin Jackson/Gvazdas : wtf i cant log in
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Hence, what did you see at the Lupercal?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : It happens after updates usualy
+17-31:SAY: Edwin Jackson/Gvazdas : I can&#39;t login!
+17-31:ACCESS: Logout: Beorn080
+17-31:SAY: Richard Godson/Poltifar : ... WHERE?
+17-31:SAY: Xen/Alfie275 : ;USE UR ID
+17-31:ACCESS: Login: Beorn080 from 173.59.74.11
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ;cant log in to what?
+17-31:OOC: Edwin Jackson/Gvazdas : I cannot login to the PC i inserted my ID!
+17-31:SAY: Richard Godson/Poltifar : Edwin... I guess you should tell the captain guy...
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;UGHHHH
+17-31:OOC: Xen/Alfie275 : In the right slot?
+17-31:SAY: Richard Godson/Poltifar : I mean Caesar, or whatever
+17-31:OOC: Edwin Jackson/Gvazdas : to idenification PC
+17-31:OOC: Edwin Jackson/Gvazdas : YES EVERYTHING IS IN RIGHT SLOT
+17-31:OOC: Nil Mudmagma/Beorn080 : There has to be an id in both slots
+17-31:OOC: Cog Cogcog/Mr.Peanuts : no access
+17-31:OOC: Edwin Jackson/Gvazdas : duh i did that
+17-31:SAY: A.R.M.O.K./Master of Apples : captain
+17-31:OOC: Edwin Jackson/Gvazdas : i am A COP!
+17-31:OOC: Cog Cogcog/Mr.Peanuts : you don&#39;t have right access
+17-31:SAY: Shorast Noblemud/TheSurvivor : ;hmm
+17-31:SAY: A.R.M.O.K./Master of Apples : Shorast Noblemud is still not detected
+17-31:OOC: Cog Cogcog/Mr.Peanuts : we don&#39;t have cops
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Indeed... Caesar, our noble leader.. has done us a grave injustice.
+17-31:MATTACK: Ingiz Drawbridgeengraving (Nickbond12) attacked Tirist Spearsoap(Ihateoutside) with the glass
+17-31:OOC: Nil Mudmagma/Beorn080 : Security doesn&#39;t have access to ID machine
+17-31:OOC: Cog Cogcog/Mr.Peanuts : and only HOP, Captain and HOS can change IDs
+17-31:OOC: Nil Mudmagma/Beorn080 : HoS can&#39;t
+17-31:SAY: A.R.M.O.K./Master of Apples : captain
+17-31:OOC: Xen/Alfie275 : I made a HoP
+17-31:SAY: Edwin Jackson/Gvazdas : riuchard please step up
+17-31:SAY: Caius Cassius Longinus/TheGrifter : I fear he has disloyalty in his heart... and may make a deal with the syndicate.
+17-31:SAY: A.R.M.O.K./Master of Apples : Shorast NoblemUd detected
+17-31:SAY: Ingiz Drawbridgeengraving/Nickbond12 : help!
+17-31:SAY: Richard Godson/Poltifar : Huh
+17-31:SAY: Xen/Alfie275 : ;Where?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : oh nevermind then HOS part then
+17-31:SAY: Edwin Jackson/Gvazdas : sorry, i cannot seem to have acces to the identification computer.
+17-31:SAY: A.R.M.O.K./Master of Apples : The medical lab
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Now, I love Caesar as much as anyone of you.
+17-31:SAY: A.R.M.O.K./Master of Apples : I have bolted it
+17-31:SAY: Richard Godson/Poltifar : Bah
+17-31:SAY: Winchester Hughes/Qwertyasd40 : YES YOU CAN
+17-31:SAY: Winchester Hughes/Qwertyasd40 : OH MY GOSH
+17-31:SAY: Richard Godson/Poltifar : Oh great.
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; engine starting in 30 seconds
+17-31:SAY: A.R.M.O.K./Master of Apples : I advise you be careful
+17-31:SAY: A.R.M.O.K./Master of Apples : He still has a grenade
+17-31:SAY: Caius Cassius Longinus/TheGrifter : But I believe that we should investigate...
+17-31:SAY: Edwin Jackson/Gvazdas : fucking shit! I can&#39;t go to my cop room!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : iD PLEASE
+17-31:MATTACK: Xen(Alfie275)has shot a taser round at Shorast Noblemud
+17-31:SAY: Richard Godson/Poltifar : Oh hey, what is happening!
+17-31:MATTACK: Xen(Alfie275)has shot a taser round at Shorast Noblemud
+17-31:SAY: Shorast Noblemud/TheSurvivor : Dude
+17-31:MATTACK: Xen(Alfie275)has shot a taser round at Shorast Noblemud
+17-31:OOC: Cog Cogcog/Mr.Peanuts : what the fuck? cop room?
+17-31:MATTACK: Xen(Alfie275)has shot a taser round at Shorast Noblemud
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ITS NOT A COP ROOM
+17-31:SAY: Shorast Noblemud/TheSurvivor : I did nothing wrong
+17-31:SAY: Edwin Jackson/Gvazdas : Winchester you didnt give me your ID?
+17-31:SAY: Shorast Noblemud/TheSurvivor : STOP SHOOTING
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:SAY: Winchester Hughes/Qwertyasd40 : Give me yours
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:SAY: Edwin Jackson/Gvazdas : dude, peanuts there is such a room
+17-31:SAY: Shorast Noblemud/TheSurvivor : YOU DONT HAVE TO FUCKING SHOOT LIKE 10 TIMES
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:SAY: Shorast Noblemud/TheSurvivor : FUCKING ELL
+17-31:SAY: Shorast Noblemud/TheSurvivor : STOP
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:SAY: Shorast Noblemud/TheSurvivor : DUDE
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Brutus, the people demand your aid...
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the crowbar
+17-31:SAY: A.R.M.O.K./Master of Apples : Violence detected in Medical Research Labs
+17-31:SAY: Shorast Noblemud/TheSurvivor : FUCKING| STOP
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Edwin Jackson- [145.9]-broadcasts: dude, peanuts there is such a room
+17-31:SAY: Edwin Jackson/Gvazdas : Head of personell quarters
+17-31:OOC: Cog Cogcog/Mr.Peanuts : OOC in IC
+17-31:SAY: Richard Godson/Poltifar : ... What?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : YOU MEAN HoP quarters
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ID
+17-31:MATTACK: Xen(Alfie275)has shot a taser round at the floor
+17-31:SAY: Winchester Hughes/Qwertyasd40 : im geting very impatient here
+17-31:SAY: Shorast Noblemud/TheSurvivor : YOU PHYSCO
+17-31:OOC: Edwin Jackson/Gvazdas : anyway that room is blocked with the FIRE plate thing
+17-31:MATTACK: Edwin Jackson (Gvazdas) attacked Winchester Hughes(Qwertyasd40) with the toolbox
+17-31:SAY: Richard Godson/Poltifar : We noticed.
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the taser gun
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the taser gun
+17-31:SAY: A.R.M.O.K./Master of Apples : Captain
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the taser gun
+17-31:SAY: Shorast Noblemud/TheSurvivor : I DIDNT DO ANYTHING WRONG
+17-31:MATTACK: Xen (Alfie275) attacked Shorast Noblemud(TheSurvivor) with the taser gun
+17-31:SAY: Winchester Hughes/Qwertyasd40 : so
+17-31:SAY: A.R.M.O.K./Master of Apples : Please arrest him
+17-31:SAY: A.R.M.O.K./Master of Apples : Death is not needed
+17-31:MATTACK: Edwin Jackson (Gvazdas) attacked Caius Cassius Longinus(TheGrifter) with the toolbox
+17-31:MATTACK: Edwin Jackson (Gvazdas) attacked Caius Cassius Longinus(TheGrifter) with the toolbox
+17-31:OOC: Cog Cogcog/Mr.Peanuts : fire lock
+17-31:SAY: A.R.M.O.K./Master of Apples : Furthermore
+17-31:SAY: Richard Godson/Poltifar : ;Something crazy is happening in arrival.
+17-31:MATTACK: Edwin Jackson (Gvazdas) attacked Caius Cassius Longinus(TheGrifter) with the toolbox
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; engine online
+17-31:OOC: HELP: Shorast Noblemud/TheSurvivor : Ahh police brutality.
+17-31:SAY: Richard Godson/Poltifar : ;I have no idea what exactly.
+17-31:SAY: A.R.M.O.K./Master of Apples : There are two people lying down outside
+17-31:MATTACK: Winchester Hughes (Qwertyasd40) attacked Edwin Jackson(Gvazdas) with the toolbox
+17-31:MATTACK: Winchester Hughes (Qwertyasd40) attacked Edwin Jackson(Gvazdas) with the toolbox
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; we are producing power
+17-31:SAY: Edwin Jackson/Gvazdas : OMG CASIUS STOLE MY ID]
+17-31:SAY: A.R.M.O.K./Master of Apples : I am unable to deduce why
+17-31:SAY: Winchester Hughes/Qwertyasd40 : DUDE
+17-31:OOC: Edwin Jackson/Gvazdas : fucking cunt.
+17-31:OOC: Ingiz Drawbridgeengraving/Nickbond12 : help me and trist are knocked out
+17-31:SAY: Winchester Hughes/Qwertyasd40 : OUT
+17-31:MATTACK: Winchester Hughes(Qwertyasd40)has grabbed Edwin Jackson(Gvazdas) aggressively (now hands) 
+17-31:OOC: Cog Cogcog/Mr.Peanuts : HELP IC IN OOC
+17-31:OOC: Edwin Jackson/Gvazdas : grrr why the fuck do idiots want to steal my ID card? :D
+17-31:OOC: Ingiz Drawbridgeengraving/Nickbond12 : because of the heat
+17-31:SAY: Xen/Alfie275 : ;AI open
+17-31:OOC: Cog Cogcog/Mr.Peanuts : GRR why do idiots want to do IC in OOC and OOC in IC so much?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : that needs to be in the MODT
+17-31:SAY: Xen/Alfie275 : ;AI, I think he suicided
+17-31:OOC: Cog Cogcog/Mr.Peanuts : MOTD
+17-31:OOC: Cog Cogcog/Mr.Peanuts : BIG LETTERS TOO
+17-31:SAY: Xen/Alfie275 : ;Im gonna check
+17-31:OOC: Tirist Spearsoap/Ihateoutside : &gt; Idiots are idiots derp
+17-31:SAY: Richard Godson/Poltifar : ;Sooo... the HoP is unconscious, the table in the job-assingment room is broken, and there is a monkey here. Do i get a job now or what?
+17-31:OOC: Edwin Jackson/Gvazdas : ... Restart please - this is messed up. Everyone is rioting and the arrival checkpoint got invaded and the table got blocked, people killed me and stiole my ID card, fire signs all over the place and shit&#39;s gone wrong
+17-31:MATTACK: Xen(Alfie275)has grabbed the monkey (43f6)() aggressively (now hands) 
+17-31:OOC: HELP: Shorast Noblemud/TheSurvivor : Who is Zen?
+17-31:OOC: Edwin Jackson/Gvazdas : in other words - shit hit the fan
+17-31:SAY: Winchester Hughes/Qwertyasd40 : DUDE
+17-31:OOC: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : Because you were a shitty HOP! When the heads are shitty, the proles rebel.
+17-31:SAY: A.R.M.O.K./Master of Apples : Captain
+17-31:OOC: Cog Cogcog/Mr.Peanuts : GOD DAMN IT BE QUIET
+17-31:OOC: HELP: Shorast Noblemud/TheSurvivor : Xen*
+17-31:SAY: Winchester Hughes/Qwertyasd40 : let me explain this
+17-31:SAY: A.R.M.O.K./Master of Apples : It appears that humans have done as they always do
+17-31:SAY: Winchester Hughes/Qwertyasd40 : whyd you attavck me
+17-31:SAY: Xen/Alfie275 : ;Yes?
+17-31:SAY: Edwin Jackson/Gvazdas : hooh thanks man. i still lost my ID card
+17-31:OOC: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : That&#39;s true in real life too.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : You IC in OOC is really making me mad gvaz
+17-31:OOC: Cog Cogcog/Mr.Peanuts : and OOC in IC too
+17-31:SAY: A.R.M.O.K./Master of Apples : There are various deceased all over that station
+17-31:SAY: Edwin Jackson/Gvazdas : That fucking cunt caius cassius longinus stole my id card
+17-31:SAY: Richard Godson/Poltifar : So, job now. yes?
+17-31:SAY: A.R.M.O.K./Master of Apples : My records show that on a total of 50 stations, 49 of them have been failures
+17-31:SAY: Winchester Hughes/Qwertyasd40 : i know
+17-31:SAY: Richard Godson/Poltifar : I guess thats a no?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : dont attack me again
+17-31:SAY: A.R.M.O.K./Master of Apples : On all of these stations, the fault was in the humans
+17-31:SAY: Winchester Hughes/Qwertyasd40 : thats it
+17-31:SAY: Edwin Jackson/Gvazdas : i cant acces the computer
+17-31:SAY: A.R.M.O.K./Master of Apples : What are your orders, captain?
+17-31:SAY: Edwin Jackson/Gvazdas : casius stole my ID card
+17-31:SAY: Winchester Hughes/Qwertyasd40 : was going to show you how
+17-31:ACCESS: Logout: 
+17-31:ACCESS: Login: TheSurvivor from 81.152.77.45
+17-31:ACCESS: They share computer ID's
+17-31:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+17-31:SAY: Winchester Hughes/Qwertyasd40 : get cleaned up in medbay
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I vote we strip edwin of his position and make him janitor
+17-31:ACCESS: Login: Randomonioum from 81.98.19.45
+17-31:SAY: Richard Godson/Poltifar : *sigh
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; because he sucks at his job
+17-31:SAY: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : ; Agreed.
+17-31:SAY: Edwin Jackson/Gvazdas : For what?
+17-31:ACCESS: Logout: 
+17-31:ACCESS: Login: TheSurvivor from 81.152.77.45
+17-31:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+17-31:ACCESS: They share computer ID's
+17-31:SAY: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : ; Agreed.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;I have basically detained edwin
+17-31:SAY: Edwin Jackson/Gvazdas : I just lost my goddamn ID card and caius stole my id card!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; ALL IN FAVOR SAY AYE
+17-31:SAY: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : ; If  I am guaranteed a safe return,
+17-31:SAY: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : ; I will assign jobs.
+17-31:OOC: Rando M. Onioum/Randomonioum : OMG Z LEVELS
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; All in favor say AYE
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; AYE
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;AYE
+17-31:OOC: Rando M. Onioum/Randomonioum : No wait, I knew about that already
+17-31:SAY: Edwin Jackson/Gvazdas : Well you don&#39;t have that job and you can&#39;t steal COP&#39;s cards!
+17-31:SAY: Richard Godson/Poltifar : ;I really cant care any more or less who is the HoP and who gets detained. I just want a damned job already.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ; ido too
+17-31:SAY: Caius Cassius Longinus (as Edwin Jackson)/TheGrifter : ; I argue that I CAN, and just DID, Edwin.
+17-31:OOC: Tirist Spearsoap/Ihateoutside : still stuck unconcious &gt;.&lt;
+17-31:SAY: Edwin Jackson/Gvazdas : Caius Cassius stole my fucking ID card. Can you fucking explain - WHY?!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; explain why you suck at your job first
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Yes we can explain
+17-31:SAY: Edwin Jackson/Gvazdas : Because you want to be a fake COP?
+17-31:SAY: Edwin Jackson/Gvazdas : What did i do wrong?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Because your bad at your job
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; because you can&#39;t even do anything right edwin
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;You need demotion
+17-31:SAY: Edwin Jackson/Gvazdas : I entered both ID cards for richard and i wasn&#39;t able to log in
+17-31:SAY: Richard Godson/Poltifar : ;You do know its called HOP, not COP, yes?
+17-31:SAY: Edwin Jackson/Gvazdas : probably some bug
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; You can&#39;t even run a ID computer
+17-31:SAY: Winchester Hughes/Qwertyasd40 : &#39;;Bug?
+17-31:SAY: Edwin Jackson/Gvazdas : yeah hop sorry
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I can run and ID computer and I am an engineer, you cant
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;Bug?
+17-31:SAY: Xen/Alfie275 : ;Did you pout them in the right slots?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; What the fuck is COP?
+17-31:SAY: Edwin Jackson/Gvazdas : Yesd!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;YEAH
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; any idiot can put things in slots
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; wow
+17-31:SAY: Winchester Hughes/Qwertyasd40 : clean up!
+17-31:SAY: Edwin Jackson/Gvazdas : I put richard&#39;s in in target and mine in confirm identity
+17-31:SAY: Edwin Jackson/Gvazdas : i pressed log in but nothing happened!
+17-31:OOC: Tirist Spearsoap/Ihateoutside : stop talking so much getting mega you can almost hear someone talking spam
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; You must be a pretty dedicated idiot to mess that up Edwin
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; why the shuttle?
+17-31:SAY: Richard Godson/Poltifar : ;Oh great, what now.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;DONT CALL THE SHUTTLE
+17-31:SAY: A.R.M.O.K./Master of Apples : Shuttle incoming
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;WHY?
+17-31:SAY: A.R.M.O.K./Master of Apples : Please confirm
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; Why are we sending the shuttle?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; Send it back
+17-31:SAY: Xen/Alfie275 : ;BECAUSE NOONE CAN DO ANYTHING RIGHT
+17-31:ACCESS: Login: Mono124 from 99.137.45.54
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; we are in no danger
+17-31:SAY: Xen/Alfie275 : ;Yes we are
+17-31:SAY: Winchester Hughes/Qwertyasd40 : ;thats only edwin
+17-31:SAY: Edwin Jackson/Gvazdas : It was a bug, then casius destroyed the table came in, stole my ID card but luckily winchester saved me!
+17-31:SAY: A.R.M.O.K./Master of Apples : The captain has requested the shuttle
+17-31:OOC: Ingiz Drawbridgeengraving/Nickbond12 : someone get me
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; Xen we are in no danger, I started the engine
+17-31:SAY: Xen/Alfie275 : ;Loads of dead people
+17-31:MATTACK: Caius Cassius Longinus(TheGrifter)has shot a taser round at Edwin Jackson
+17-31:MATTACK: Caius Cassius Longinus(TheGrifter)has shot a taser round at Edwin Jackson
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; and edwin is being removed for being and idiot
+17-31:OOC: Richard Godson/Poltifar : All i can say for this round is *facepalm*
+17-31:SAY: Winchester Hughes/Qwertyasd40 : no tase
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I reccomend we eject him into space
+17-31:OOC: Tirist Spearsoap/Ihateoutside : *nods
+17-31:OOC: Rando M. Onioum/Randomonioum : What the dick went wrong?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : get him out of your room
+17-31:SAY: Edwin Jackson/Gvazdas : And I stil ldon&#39;t have an id card of my own.
+17-31:GAME: Mono124 entered as Andrew Riley
+17-31:OOC: Andrew Riley/Mono124 : daw
+17-31:OOC: Richard Godson/Poltifar : What DIDNT
+17-31:OOC: Andrew Riley/Mono124 : why is it always centcom?
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Well Edwin is a HOP from dumbassville
+17-31:OOC: Rando M. Onioum/Randomonioum : I just got here :c
+17-31:OOC: Cog Cogcog/Mr.Peanuts : so that must have started it
+17-31:SAY: Edwin Jackson/Gvazdas : im so gonna kill you fucking cunt
+17-31:OOC: Cog Cogcog/Mr.Peanuts : and well I arrived late and am the only one who started the engine
+17-31:SAY: Richard Godson/Poltifar : I&#39;ll just... wait. I guess.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : so now we have power only mid gay
+17-31:OOC: Cog Cogcog/Mr.Peanuts : mane
+17-31:OOC: Cog Cogcog/Mr.Peanuts : game
+17-31:OOC: Cog Cogcog/Mr.Peanuts : sory
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; There. Now ends Edwin&#39;s rule. Now, I will assign jobs.
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Sorry
+17-31:OOC: Cog Cogcog/Mr.Peanuts : fucking keyboard
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Table up,
+17-31:SAY: Winchester Hughes/Qwertyasd40 : whatd you do?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; can we eject him into space please?
+17-31:SAY: Caius Cassius Longinus/TheGrifter : He&#39;s alive. In there.
+17-31:SAY: Xen/Alfie275 : ;Yes
+17-31:SAY: Winchester Hughes/Qwertyasd40 : good
+17-31:OOC: Tirist Spearsoap/Ihateoutside : your keyboard conspires against you!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; He&#39;s a real idiot
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Till I can figure out what to do with him.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : HoS job please
+17-31:OOC: Cog Cogcog/Mr.Peanuts : IT DOES!
+17-31:SAY: Xen/Alfie275 : ;But keep him alive
+17-31:SAY: Richard Godson/Poltifar : Just do as the guy says, he seems competent enough.
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Put the table up, please, Casca.
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; YAY!
+17-31:SAY: Edwin Jackson/Gvazdas : ugh... What&#39;s... going on? uhh...Casius...
+17-31:SAY: Unknown/Qwertyasd40 : HoS please
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; CENT COM US GOOD!
+17-31:OOC: Tirist Spearsoap/Ihateoutside : Why the hell am I still unconcious?
+17-31:SAY: Edwin Jackson/Gvazdas : AW THE FUCK1?!!!
+17-31:ACCESS: Login: Hardex from 82.32.168.101
+17-31:OOC: Xen/Alfie275 : Are you dead?
+17-31:SAY: Unknown/Qwertyasd40 : Same as HoS?
+17-31:SAY: Richard Godson/Poltifar : I&#39;ll take plasma researcher
+17-31:OOC: Rando M. Onioum/Randomonioum : Please admin help stuff like that, so we know your IC name and jazz
+17-31:ACCESS: Login: Randomkid272 from 75.60.195.5
+17-31:OOC: Tirist Spearsoap/Ihateoutside : nope
+17-31:SAY: Richard Godson/Poltifar : In roman
+17-31:OOC: Edwin Jackson/Gvazdas : NO CASIUS TRAPPED ME IN A LOCKER
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; where id Edwin?
+17-31:SAY: Winchester Hughes/Qwertyasd40 : *salute
+17-31:SAY: Edwin Jackson/Gvazdas : it seems like for no reason
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; is sorry
+17-31:OOC: A.R.M.O.K./Master of Apples : Seriously, STFU
+17-31:GAME: Randomkid272 entered as Cog Bedwall
+17-31:SAY: Winchester Hughes/Qwertyasd40 : Head of Centarion division reporting in.
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; shut up edwin
+17-31:OOC: Edwin Jackson/Gvazdas : casius trapped me in a welded locker for, it seems, no reason.
+17-31:ACCESS: Logout: 
+17-31:ACCESS: Login: Ihateoutside from 88.105.71.204
+17-31:ACCESS: They share computer ID's
+17-31:OOC: HELP: Andrew Riley/Mono124 : so... i am an assistant but i am stuck in the start area
+17-31:OOC: Cog Cogcog/Mr.Peanuts : OMG IC IN OOC AGAIN
+17-31:OOC: Cog Cogcog/Mr.Peanuts : SHUT THE FUCK UP ALREADY
+17-31:ADMIN: Randomonioum toggled OOC.
+17-31:GAME: Hardex entered as George Lent
+17-31:OOC: Rando M. Onioum/Randomonioum : Right, thats enough of that
+17-31:OOC: HELP: A.R.M.O.K./Master of Apples : OOC- OFF = PROFIT oh damn you did it just as I Sent this ):
+17-31:SAY: Richard Godson/Poltifar : Erm, time for... Greek firemaking i guess
+17-31:ACCESS: Logout: Beorn080
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; Crew, vote in. Should I release Edwin Jackson?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : caius
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; no
+17-31:OOC: Rando M. Onioum/Randomonioum : QUIET THE FUCK DOWN, OK?
+17-31:SAY: A.R.M.O.K./Master of Apples : Yes
+17-31:SAY: Winchester Hughes/Qwertyasd40 : Cauis
+17-31:ADMIN: Randomonioum toggled OOC.
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; let me see him
+17-31:SAY: Winchester Hughes/Qwertyasd40 : I DID NOT GET HOS ACESS
+17-31:SAY: Xen/Alfie275 : ;No
+17-31:ACCESS: Login: Casings from 69.14.78.214
+17-31:SAY: Cog Cogcog/Mr.Peanuts : Caius where is he?
+17-31:SAY: Caius Cassius Longinus/TheGrifter : I didn&#39;t give you it?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : I need to speak with him
+17-31:SAY: Xen/Alfie275 : ;Send him on prison shuttle
+17-31:SAY: A.R.M.O.K./Master of Apples : Humans have a history of killing each other
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Sorry, give me the card again.
+17-31:OOC: Tirist Spearsoap/Ihateoutside : loads of people have turned to X&#39;s
+17-31:SAY: Cog Cogcog/Mr.Peanuts : And in space he shall go
+17-31:OOC: Cog Cogcog/Mr.Peanuts : Hud bug
+17-31:OOC: Cog Cogcog/Mr.Peanuts : clear cache and restart
+17-31:ACCESS: Logout: Mono124
+17-31:SAY: Unknown/Qwertyasd40 : ;Prison shuttle for him!]
+17-31:OOC: Tirist Spearsoap/Ihateoutside : K back in a second
+17-31:OOC: Cog Cogcog/Mr.Peanuts : restart this game that is
+17-31:ACCESS: Login: Mono124 from 99.137.45.54
+17-31:SAY: Unknown/Qwertyasd40 : ;I agree
+17-31:OOC: Cog Cogcog/Mr.Peanuts : not computer
+17-31:SAY: Edwin Jackson/Gvazdas : my goddamn headset is broken
+17-31:SAY: Richard Godson/Poltifar : ;How about we just let him go and forget all this?
+17-31:ACCESS: Logout: Ihateoutside
+17-31:SAY: Edwin Jackson/Gvazdas : Ahh!!! can anybody hear me!?
+17-31:OOC: Andrew Riley/Mono124 : hey random
+17-31:SAY: Cog Cogcog/Mr.Peanuts : can you take me to edwin caius
+17-31:OOC: Andrew Riley/Mono124 : me and george need a tele
+17-31:SAY: Edwin Jackson/Gvazdas : I am in the HOP&#39;s room! Trapped in a locker!
+17-31:OOC: Rando M. Onioum/Randomonioum : yes?
+17-31:OOC: Andrew Riley/Mono124 : :/
+17-31:SAY: Cog Cogcog/Mr.Peanuts : once he is done
+17-31:SAY: Cog Bedwall/Randomkid272 : hi
+17-31:OOC: Rando M. Onioum/Randomonioum : Ok
+17-31:SAY: Xen/Alfie275 : ;Where is edwin?
+17-31:SAY: Edwin Jackson/Gvazdas : Anyone?!
+17-31:ACCESS: Logout: 
+17-31:ACCESS: Login: Randomonioum from 81.98.19.45
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; I will leave Edwin&#39;s death chest in the arrival shuttle. He&#39;s anyone&#39;s property now.
+17-31:SAY: Cog Cogcog/Mr.Peanuts : with his assignment
+17-31:SAY: Edwin Jackson/Gvazdas : Hellloooo?!
+17-31:SAY: Richard Godson/Poltifar : ;We hear ya
+17-31:SAY: Edwin Jackson/Gvazdas : its you again...
+17-31:SAY: Edwin Jackson/Gvazdas : help!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : ; I TAKE HIm
+17-31:SAY: Edwin Jackson/Gvazdas : CASIUS IS A FREAK
+17-31:SAY: Edwin Jackson/Gvazdas : YHELP!!!
+17-31:SAY: Edwin Jackson/Gvazdas : YHELPP!!!!!!!
+17-31:SAY: Shorast Humanelf/Casings : AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!
+17-31:SAY: Edwin Jackson/Gvazdas : IM IN THE LOCKER!!!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : MOVE@
+17-31:SAY: Edwin Jackson/Gvazdas : HELP GET ME OUT
+17-31:ACCESS: Logout: Hardex
+17-31:SAY: Richard Godson/Poltifar : ;Why are there 3 dead people in this hallway?
+17-31:SAY: Edwin Jackson/Gvazdas : PLEASE! SOMEONEEEE
+17-31:SAY: A.R.M.O.K./Master of Apples : Warning
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; Yes, we know you&#39;re in the locker, Edwin.
+17-31:SAY: Edwin Jackson/Gvazdas : anyone&gt;?!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : THATS MINE
+17-31:SAY: Xen/Alfie275 : ;THERES NO MERCY IN THIS DOJO!
+17-31:SAY: A.R.M.O.K./Master of Apples : Multiple deaths deteted outside medlab
+17-31:SAY: Winchester Hughes/Qwertyasd40 : Dude
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; Now, can we get back to business?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : MOVE
+17-31:SAY: Winchester Hughes/Qwertyasd40 : relax
+17-31:SAY: Edwin Jackson/Gvazdas : Winchester can you unweld the door\
+17-31:SAY: Edwin Jackson/Gvazdas : ?
+17-31:SAY: Cog Cogcog/Mr.Peanuts : Cog move it 
+17-31:ADMIN: Announce: Randomonioum : Ok, shit in this round has gone fucked up, its been shit overall, and I need to restart to hopefully fix some bugs. Just letting you know.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : HoP
+17-31:SAY: Caius Cassius Longinus/TheGrifter : ; Anyone who needs a job, please report to the arrival amphitheater.
+17-31:SAY: Winchester Hughes/Qwertyasd40 : who should have edwin
+17-31:ACCESS: Login: Mattie2009 from 90.194.7.125
+17-31:SAY: Cog Cogcog/Mr.Peanuts : me
+17-31:SAY: Cog Bedwall/Randomkid272 : i want diffrent job
+17-31:SAY: Edwin Jackson/Gvazdas : Please unweld the door someone!
+17-31:SAY: Cog Cogcog/Mr.Peanuts : because i am spacing him
+17-31:OOC: HELP: A.R.M.O.K./Master of Apples : I -think- there&#39;s a cold bug outside medlab goddamit stop ninja-ing me
+17-31:SAY: Caius Cassius Longinus/TheGrifter : Allow the people to decide.
+17-31:OOC: Andrew Riley/Mono124 : suggests immediate restart
+17-31:SAY: Edwin Jackson/Gvazdas : I am in the fucking locker!
+17-31:SAY: Winchester Hughes/Qwertyasd40 : i want him
+17-31:ADMIN: Randomonioum initiated a reboot.
+17-31:SAY: Caius Cassius Longinus/TheGrifter : This is rome.
+17-31:SAY: Xen/Alfie275 : ;AI, please turn on rest of staion
+17-31:OOC: Andrew Riley/Mono124 : yay
+17-31:OOC: Shorast Humanelf/Casings : Yay
+17-31:ACCESS: Logout: Nickbond12
+17-31:ACCESS: Logout: Alfie275
+17-31:ACCESS: Logout: TheSurvivor
+17-31:ACCESS: Logout: Qwertyasd40
+17-31:ACCESS: Logout: Master of Apples
+17-31:ACCESS: Logout: Casings
+17-31:ACCESS: Logout: Headswe
+17-31:ACCESS: Logout: Mr.Peanuts
+17-31:ACCESS: Logout: Randomonioum
+17-31:ACCESS: Logout: Gvazdas
+17-31:ACCESS: Logout: Poltifar
+17-31:ACCESS: Logout: Mono124
+17-31:ACCESS: Logout: TheGrifter
+17-31:ACCESS: Logout: Randomkid272
+17-31:ACCESS: Logout: Mattie2009
+18-15:ADMIN: Loading jobban_rank
+18-15:ADMIN: Updating jobbanfile!
+18-15:GAME: Finished building powernets (30 nets)
+18-15:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+18-15:ACCESS: Login: Qwertyasd40 from 99.163.50.29
+18-15:ACCESS: Login: Nickbond12 from 74.36.159.213
+18-15:ACCESS: Login: TheSurvivor from 81.152.77.45
+18-15:ACCESS: Login: Randomkid272 from 75.60.195.5
+18-15:ACCESS: Login: TheGrifter from 67.8.149.174
+18-15:ACCESS: Login: Poltifar from 212.36.209.10
+18-15:ACCESS: Login: Mono124 from 99.137.45.54
+18-15:ACCESS: Logout: TheGrifter
+18-15:ACCESS: Login: TheGrifter from 67.8.149.174
+18-15:ACCESS: Login: Casings from 69.14.78.214
+18-15:GAME: Mono124 entered as Andrew Riley
+18-15:ACCESS: Login: Gvazdas from 78.62.234.20
+18-15:GAME: TheGrifter entered as Caius Cassius Longinus
+18-15:GAME: Nickbond12 entered as Ingiz Drawbridgeengraving
+18-15:GAME: Mr.Peanuts entered as Sarvesh Deathiron
+18-15:VOTE: Voting to change mode started by Andrew Riley/Mono124
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : I hope I get engineer
+18-15:GAME: Casings entered as Shorast Humanelf
+18-15:OOC: Edwin Jackson/Gvazdas : there was a lot of crazy shit going on. at least i got trapped in a fucking locker and got trapped achievement.
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : because I am the only one who seems to start the engine recently
+18-15:GAME: Gvazdas entered as Edwin Jackson
+18-15:GAME: TheSurvivor entered as Cog Plotspike
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : Good
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : Next time don&#39;t be a head
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : be something like a janitor and learn to RP
+18-15:OOC: Edwin Jackson/Gvazdas : i didn&#39;t do anything wrong
+18-15:GAME: Poltifar entered as Richard Godson
+18-15:OOC: Caius Cassius Longinus/TheGrifter : Zombie!
+18-15:ACCESS: Login: Mattie2009 from 90.194.7.125
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : or a chaplain
+18-15:OOC: Edwin Jackson/Gvazdas : I got a ID bug and wasn&#39;t able to enter the computer!
+18-15:OOC: Caius Cassius Longinus/TheGrifter : If you like freedom, pick Zombie!
+18-15:GAME: Randomkid272 entered as Kenny Karson
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : zombie is gay
+18-15:VOTE: Voting closed, result was nuclear
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : pick wizard
+18-15:OOC: Edwin Jackson/Gvazdas : agree.
+18-15:OOC: Ingiz Ironrock/Mattie2009 : Hey-oh
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : NUKE!
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : YES!
+18-15:OOC: Shorast Humanelf/Casings : NUKE FTW
+18-15:ACCESS: Login: Randomonioum from 81.98.19.45
+18-15:OOC: Edwin Jackson/Gvazdas : ok i wil lbe a fucking cunt janitor. janitor practically does NOTHINGG. :(
+18-15:OOC: Shorast Humanelf/Casings : Start teh startness
+18-15:SAY: Edwin Jackson/Gvazdas : xD
+18-15:ACCESS: Logout: Casings
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : NO X&#39;s AND D&#39;S
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : EVER!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : I MEAN IT!
+18-15:OOC: Caius Cassius Longinus/TheGrifter : Start teh suckness...
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : I WILL KILL YOUR SOAL!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : SOLE!
+18-15:GAME: Qwertyasd40 entered as Winchester Hughes
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : SOAL!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : SOULS!
+18-15:OOC: Edwin Jackson/Gvazdas : I will be a janitor this round. What does janitor do? Sit around and do nothing? OK. That will raise me, for suuure!
+18-15:SAY: Kenny Karson/Randomkid272 : *help
+18-15:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-15:OOC: Edwin Jackson/Gvazdas : /sarcasm
+18-15:SAY: Kenny Karson/Randomkid272 : *fart
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : I WILL KILL YOUR SOULS!
+18-15:ADMIN: Randomonioum used start_now
+18-15:GAME: starting game of nuclear emergency
+18-15:OOC: Caius Cassius Longinus/TheGrifter : Make large puddles.
+18-15:SAY: Kenny Karson/Randomkid272 : *fart
+18-15:SAY: Syndicate Leader/Qwertyasd40 : YES
+18-15:OOC: Richard Godson/Poltifar : You could be any non-head job easily, you know
+18-15:SAY: Cog Plotspike/TheSurvivor : Great
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : kill souls
+18-15:GAME: Ihateoutside entered as Tirist Spearsoap
+18-15:SAY: Syndicate Operative #1/TheGrifter : WOO!
+18-15:SAY: Cog Plotspike/TheSurvivor : Great
+18-15:SAY: Syndicate Leader/Qwertyasd40 : Listen up
+18-15:SAY: Syndicate Operative #1/TheGrifter : HAPPY FUN TIMES FOR ALL!
+18-15:SAY: Cog Plotspike/TheSurvivor : Frickin
+18-15:SAY: Cog Plotspike/TheSurvivor : What the fuck
+18-15:SAY: Syndicate Leader/Qwertyasd40 : This is the plan
+18-15:SAY: Syndicate Leader/Qwertyasd40 : Theres no ai
+18-15:SAY: Syndicate Operative #1/TheGrifter : Me am like rabbits...
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist cancels flipping the fuck out: Doing the entrance dance.
+18-15:SAY: Cog Plotspike/TheSurvivor : BURN THEM!
+18-15:SAY: Syndicate Operative #1/TheGrifter : Durr... Me no think this am where Jeff sposed to be... This not Daycare!
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : I am going to half ass the engine
+18-15:OOC: Blaze Xelon/Mattie2009 : IGNORE ME
+18-15:SAY: Cog Plotspike/TheSurvivor : Diagonal flow sucks!
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : because nuke never lasts long enough for engine to work out
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma solves everything.&#39;
+18-15:SAY: Cog Plotspike/TheSurvivor : DWARFS!
+18-15:OOC: HELP: Tirist Spearsoap/Ihateoutside : Stuck in spawn. The small grassy rectangle area. Already clicked ready
+18-15:OOC: HELP: Cog Plotspike/TheSurvivor : Woah. Either this is some fxcked up disease, or by some stupid bug, i&#39;ve got every possible medical problem
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist wuz here, lulz.
+18-15:OOC: HELP: Andrew Riley/Mono124 : i am glitched... badly
+18-15:SAY: Cog Plotspike/TheSurvivor : I mandate adamantine socks! Lots of them!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; hello?
+18-15:OOC: HELP: Andrew Riley/Mono124 : I am the a.i. but.... not the a.i.
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; anyone there?
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Me no think this am where jeff sposed to be! This not Daycare!
+18-15:OOC: HELP: Syndicate Leader/Qwertyasd40 : i think nuke is glitched
+18-15:SAY: Edwin Jackson/Gvazdas : This is the Captain reporting in. The station has just started working, and if you need additional properties for your job or just change it, please don&#39;t hesitate and come to Arrival Checkpoint and I will see what I can do !
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:OOC: HELP: Andrew Riley/Mono124 : can you manually A.I. me?
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : FUCK NO
+18-15:GAME: Mattie2009 entered as Blaze Xelon
+18-15:SAY: Cog Plotspike/TheSurvivor : DWARFS!
+18-15:ADMIN: PM: Randomonioum->Mono124 : One sec
+18-15:OOC: Richard Godson/Poltifar : We are getting shittons of bug reports.
+18-15:ACCESS: Logout: 
+18-15:ACCESS: Login: Randomonioum from 81.98.19.45
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : ; WE ARE FUCKED NOW!
+18-15:OOC: Blaze Xelon/Mattie2009 : What
+18-15:SAY: Cog Plotspike/TheSurvivor : Don&#39;t cut the trees, man.
+18-15:OOC: HELP: Syndicate Leader/Qwertyasd40 : the syndie closets dont appear
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : Captain... is...
+18-15:OOC: HELP: Syndicate Leader/Qwertyasd40 : so we cant get space suits
+18-15:OOC: Edwin Jackson/Gvazdas : whats going on
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:OOC: Sarvesh Deathiron/Mr.Peanuts : Gah damn it
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Me take bus now!
+18-15:OOC: Edwin Jackson/Gvazdas : test me.
+18-15:ADMIN: Randomonioum toggled OOC.
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma! RUN!
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist wuz here, lulz.
+18-15:SAY: Cog Plotspike/TheSurvivor : You seem to have a carp stuck in your beard..
+18-15:OOC: Rando M. Onioum/Randomonioum : RIGHT
+18-15:SAY: Syndicate Leader/Qwertyasd40 : NOT YET
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma! RUN!
+18-15:SAY: Cog Plotspike/TheSurvivor : Diagonal flow sucks!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; captain we need can I see that nuclear disc please?
+18-15:OOC: Rando M. Onioum/Randomonioum : Some problems have come up I cant fix
+18-15:SAY: Andrew Riley/Mono124 : sigh
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; I think it should be put somewhere safe
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma solves everything.&#39;
+18-15:SAY: Cog Plotspike/TheSurvivor : Thief! Protect the horde from the skulking filth!
+18-15:OOC: Rando M. Onioum/Randomonioum : Im going to get head on it asap
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; just incase
+18-15:SAY: Edwin Jackson/Gvazdas : Sure. Since I haven&#39;t played Nuclear before, where is the disk right now?
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Where am Jeff?
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist wuz here, lulz.
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; your quarters?
+18-15:OOC: Rando M. Onioum/Randomonioum : Until then, piss about or whatever, the games borked.
+18-15:SAY: Cog Plotspike/TheSurvivor : ;What?
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; in the small locked thing
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma solves everything.&#39;
+18-15:SAY: Edwin Jackson/Gvazdas : Oh. i am rushing in fast
+18-15:ADMIN: Randomonioum toggled abandon mob to On.
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : but whatever elss you said I am confused
+18-15:SAY: Cog Plotspike/TheSurvivor : Pull the lever!
+18-15:SAY: Cog Plotspike/TheSurvivor : Burn the trees! HAHAHA!
+18-15:SAY: Cog Plotspike/TheSurvivor : You seem to have a carp stuck in your beard..
+18-15:ACCESS: Login: Eternalnight264 from 24.77.134.166
+18-15:GAME: Tirist Spearsoap/Ihateoutside used abandon mob.
+18-15:ACCESS: Logout: 
+18-15:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-15:ACCESS: They share computer ID's
+18-15:OOC: HELP: Andrew Riley/Mono124 : so can you manually a.i. me? I know theres an A.I. command
+18-15:OOC: Richard Godson/Poltifar : Let the carnage... BEGIN
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Durr... this am Jeff... Jeff no think he is where sposed to be... This not daycare...
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:SAY: Cog Plotspike/TheSurvivor : I mandate adamantine socks! Lots of them!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; PENIS VAGINA
+18-15:SAY: Cog Plotspike/TheSurvivor : You seem to have a carp stuck in your beard..
+18-15:SAY: Blaze Xelon/Mattie2009 : FUN TIMES
+18-15:ADMIN: Randomonioum AIized Mono124
+18-15:GAME: Ihateoutside entered as Tirist Spearsoap2
+18-15:SAY: Blaze Xelon/Mattie2009 : I&#39;m stuck
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist cancels flipping the fuck out: Doing the entrance dance.
+18-15:GAME: Eternalnight264 entered as Besmar Daggerdagger
+18-15:SAY: Blaze Xelon/Mattie2009 : NOW SO ARE YOU
+18-15:SAY: Cog Plotspike/TheSurvivor : DWARFS!
+18-15:OOC: HELP: R.E.D/Mono124 : didnt work... :( can you kill me? I cant suicide
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:ACCESS: Login: Master of Apples from 81.152.77.45
+18-15:ACCESS: Notice: Master of Apples has same IP address as TheSurvivor
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; captain would you let me into bridge?
+18-15:SAY: Blaze Xelon/Mattie2009 : How dare you commit suicide
+18-15:SAY: Cog Plotspike/TheSurvivor : Pull the lever!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; I need to see that disc
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Cat-Pan?
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:SAY: Edwin Jackson/Gvazdas : Sure. I am in my office right now
+18-15:SAY: Kenny Karson/Randomkid272 : hi
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; No operative one not catpan
+18-15:MATTACK: Tirist Spearsoap2 (Ihateoutside) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Tirist Spearsoap2 (Ihateoutside) attacked Tirist Spearsoap() with Box
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : hello there
+18-15:MATTACK: Tirist Spearsoap2 (Ihateoutside) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Tirist Spearsoap2 (Ihateoutside) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:MATTACK: Blaze Xelon (Mattie2009) attacked Tirist Spearsoap() with Box
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma solves everything.&#39;
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Jeff not understand.
+18-15:SAY: Kenny Karson/Randomkid272 : cap
+18-15:SAY: Besmar Daggerdagger/Eternalnight264 : What do we do?
+18-15:SAY: Richard Godson/Poltifar : ;Why is there a retarded guy called Syndicate Operative #1 spewing bullshit on this frequency?
+18-15:SAY: Cog Plotspike/TheSurvivor : A vile force of darkness has arrived!
+18-15:SAY: Edwin Jackson/Gvazdas : Anyway, how does the disk look like in my office?
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; plotspike
+18-15:SAY: Nil Murderedurist/Master of Apples : Err
+18-15:SAY: Tirist Spearsoap2/Ihateoutside : We&#39;re stuck admin help
+18-15:SAY: Nil Murderedurist/Master of Apples : What the hell
+18-15:SAY: Cog Plotspike/TheSurvivor : I mandate adamantine socks! Lots of them!
+18-15:SAY: Syndicate Leader/Qwertyasd40 : noooo
+18-15:SAY: Richard Godson/Poltifar : ;It looks disky
+18-15:GAME: Master of Apples entered as Nil Murderedurist
+18-15:SAY: Blaze Xelon/Mattie2009 : I say we smash the windows
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; can I get into the bridge to help the captain please
+18-15:SAY: Syndicate Leader/Qwertyasd40 : he took the shuttle
+18-15:SAY: Nil Murderedurist/Master of Apples : ;Howdy
+18-15:SAY: Kenny Karson/Randomkid272 : ;captain we should arm ourselves
+18-15:SAY: Besmar Daggerdagger/Eternalnight264 : THat is stupid!
+18-15:SAY: Cog Plotspike/TheSurvivor : BURN THEM!
+18-15:SAY: Besmar Daggerdagger/Eternalnight264 : Lets do it
+18-15:SAY: Blaze Xelon/Mattie2009 : So is this round
+18-15:SAY: Syndicate Operative #1/TheGrifter : Jeff sleepy...
+18-15:SAY: Cog Plotspike/TheSurvivor : ; Captain isn&#39;t in the bridge..
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; captain would you arrange for me to be let into the bridge?
+18-15:SAY: Cog Plotspike/TheSurvivor : Don&#39;t cut the trees, man.
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist cancels flipping the fuck out: Doing the entrance dance.
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; he is in his quarters
+18-15:SAY: Edwin Jackson/Gvazdas : Yes. Definetly.
+18-15:SAY: Cog Plotspike/TheSurvivor : A vile force of darkness has arrived!
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:SAY: Cog Plotspike/TheSurvivor : ; Nope, he&#39;s not
+18-15:SAY: Nil Murderedurist/Master of Apples : ;Can I get a job?
+18-15:OOC: HELP: Syndicate Leader/Qwertyasd40 : wait what are the syndies stuck on syndie station supposed to do?
+18-15:SAY: Edwin Jackson/Gvazdas : Can you meet me near my office?
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : ; plotspike please let me in
+18-15:SAY: Cog Plotspike/TheSurvivor : BURN THEM!
+18-15:SAY: Kenny Karson/Randomkid272 : fuck this im going to melt the walls to get in bridge
+18-15:SAY: Cog Plotspike/TheSurvivor : Magma solves everything.&#39;
+18-15:SAY: Cog Plotspike/TheSurvivor : Where are my socks?
+18-15:SAY: Cog Plotspike/TheSurvivor : Move
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : cant
+18-15:SAY: Blaze Xelon/Mattie2009 : Jesus this is taking ages
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : door
+18-15:OOC: Rando M. Onioum/Randomonioum : IM GOING TO RESTART ONE LAST TIME, AND SET ANOTHER ROUND FOR YOU TO FUCK ABOUT IN UNTIL THE PROBLEMS ARE FIXED
+18-15:SAY: Cog Plotspike/TheSurvivor : Diagonal flow sucks!
+18-15:SAY: Tirist Spearsoap2/Ihateoutside : fucks sake
+18-15:SAY: Cog Plotspike/TheSurvivor : Burn the trees! HAHAHA!
+18-15:SAY: Sarvesh Deathiron/Mr.Peanuts : captain said he needs tos ee me
+18-15:SAY: Syndicate Operative #1/TheGrifter : ; Jeff tired! This not Jeff daycare!
+18-15:ADMIN: Randomonioum initiated a reboot.
+18-15:SAY: Cog Plotspike/TheSurvivor : sucide
+18-15:ACCESS: Logout: Gvazdas
+18-15:SAY: Blaze Xelon/Mattie2009 : ;Because shut up.
+18-15:SAY: Cog Plotspike/TheSurvivor : Urist wuz here, lulz.
+18-15:ACCESS: Logout: Randomkid272
+18-15:ACCESS: Logout: Mr.Peanuts
+18-15:ACCESS: Logout: Mattie2009
+18-15:ACCESS: Logout: TheSurvivor
+18-15:ACCESS: Logout: Poltifar
+18-15:ACCESS: Logout: Nickbond12
+18-15:ACCESS: Logout: Qwertyasd40
+18-15:ACCESS: Logout: Eternalnight264
+18-15:ACCESS: Logout: Mono124
+18-15:ACCESS: Logout: TheGrifter
+18-15:ACCESS: Logout: Ihateoutside
+18-15:ACCESS: Logout: Randomonioum
+18-15:ACCESS: Logout: Master of Apples
+18-26:ADMIN: Loading jobban_rank
+18-26:ADMIN: Updating jobbanfile!
+18-26:GAME: Finished building powernets (30 nets)
+18-26:ACCESS: Login: Mattie2009 from 90.194.7.125
+18-26:ACCESS: Login: Master of Apples from 81.152.77.45
+18-26:ACCESS: Login: Mono124 from 99.137.45.54
+18-26:ACCESS: Login: TheSurvivor from 81.152.77.45
+18-26:ACCESS: Notice: TheSurvivor has same IP address as Master of Apples
+18-26:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+18-26:ACCESS: Login: Qwertyasd40 from 99.163.50.29
+18-26:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-26:ACCESS: Login: Randomkid272 from 75.60.195.5
+18-26:ACCESS: Login: Gvazdas from 78.62.234.20
+18-26:ACCESS: Login: TheGrifter from 67.8.149.174
+18-26:ACCESS: Login: Poltifar from 212.36.209.10
+18-26:GAME: TheSurvivor entered as Cog Plotspike
+18-26:ACCESS: Login: Nickbond12 from 74.36.159.213
+18-26:GAME: Gvazdas entered as Edwin Jackson
+18-26:GAME: Ihateoutside entered as Tirist Spearsoap2
+18-26:GAME: Qwertyasd40 entered as Fath Forgebed
+18-26:GAME: TheGrifter entered as Caius Cassius Longinus
+18-26:GAME: Poltifar entered as Richard Godson
+18-26:GAME: Nickbond12 entered as Ingiz Drawbridgeengraving
+18-26:GAME: Mattie2009 entered as Blaze Xelon
+18-26:GAME: Mr.Peanuts entered as Uvash Pickmountain
+18-26:OOC: Fath Forgebed/Qwertyasd40 : whys the game glitching so hard?
+18-26:GAME: Master of Apples entered as Conall Edge
+18-26:ACCESS: Login: Eternalnight264 from 24.77.134.166
+18-26:ACCESS: Login: Alfie275 from 88.111.21.212
+18-26:OOC: Edwin Jackson/Gvazdas : beats me
+18-26:OOC: Conall Edge/Master of Apples : It&#39;s the DEV server
+18-26:GAME: Eternalnight264 entered as Besmar Daggerdagger
+18-26:ACCESS: Login: Jack Antonio from 97.95.32.5
+18-26:OOC: Richard Godson/Poltifar : No idea, it wasnt doing so earlier
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Because you guys broke the code
+18-26:GAME: Alfie275 entered as Xen
+18-26:ACCESS: Login: Randomonioum from 81.98.19.45
+18-26:GAME: Randomkid272 entered as Kenny Karson
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : really bad
+18-26:OOC: Edwin Jackson/Gvazdas : virus! ruuun! :D
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I looked on some stuff and saw the shittle tack job with the ready and enter command
+18-26:OOC: Blaze Xelon/Mattie2009 : Hey, the graphics are better
+18-26:ADMIN: Randomonioum toggled abandon mob to On.
+18-26:ADMIN: Randomonioum set the mode as extended.
+18-26:OOC: Edwin Jackson/Gvazdas : So who will be this time?
+18-26:ADMIN: Randomonioum set the mode as sandbox.
+18-26:OOC: Richard Godson/Poltifar : So, Random, until the bugs are fixed... can we just go on a rampage?
+18-26:OOC: Fath Forgebed/Qwertyasd40 : doedst his mean we can go mad a kil each other?
+18-26:OOC: Cog Plotspike/TheSurvivor : Yep
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Mattie fun fact, I drew the taser,laser and escape pods
+18-26:OOC: Tirist Spearsoap2/Ihateoutside : aww yeah
+18-26:OOC: Cog Plotspike/TheSurvivor : YAAAAAY
+18-26:OOC: Fath Forgebed/Qwertyasd40 : we respawn after all
+18-26:OOC: Conall Edge/Master of Apples : Oh. Shit.
+18-26:OOC: Richard Godson/Poltifar : LETS FUCKING DO THIS
+18-26:OOC: Fath Forgebed/Qwertyasd40 : AWESOME
+18-26:OOC: Conall Edge/Master of Apples : RANDOM WHAT HAVE YOU DONE.
+18-26:OOC: Kenny Karson/Randomkid272 : yay
+18-26:OOC: Edwin Jackson/Gvazdas : OMG KILLING RANDOMNESS?
+18-26:OOC: Fath Forgebed/Qwertyasd40 : PWN YA WITH MY STUFF
+18-26:OOC: Xen/Alfie275 : ur saint?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : NOO
+18-26:OOC: Fath Forgebed/Qwertyasd40 : RANDOM
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : DAMN IT
+18-26:OOC: Edwin Jackson/Gvazdas : OMG PLEASE NO RANDOM KILLING?!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : RANDOM KILLING NO FUN!
+18-26:OOC: Fath Forgebed/Qwertyasd40 : THANK YOUUUUUU
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Lol
+18-26:OOC: Conall Edge/Master of Apples : Imma hide...
+18-26:OOC: Cog Plotspike/TheSurvivor : go go goooo
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : WHOO OOC RAGE!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : WHOO!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : WHOO!
+18-26:OOC: Blaze Xelon/Mattie2009 : WHAT IS THIS I DON&#39;T EVEN
+18-26:OOC: Fath Forgebed/Qwertyasd40 : :D :D :D RAMPAGE
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : YEAH!
+18-26:OOC: Edwin Jackson/Gvazdas : pleaseee no random killing
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : WHOO!
+18-26:OOC: Cog Plotspike/TheSurvivor : PARTTAAAAIII
+18-26:OOC: Kenny Karson/Randomkid272 : hmm ima hide to
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : This is where the station explodes :P
+18-26:OOC: Edwin Jackson/Gvazdas : this is RP, not fucking deathmatch
+18-26:OOC: Fath Forgebed/Qwertyasd40 : YES!
+18-26:OOC: Tirist Spearsoap2/Ihateoutside : lets IC only in OOC and OOC in IC
+18-26:ACCESS: Logout: Randomonioum
+18-26:OOC: Richard Godson/Poltifar : The station ALWAYS explodes.
+18-26:OOC: Conall Edge/Master of Apples : I may or may not be Plasma research..
+18-26:OOC: Fath Forgebed/Qwertyasd40 : Me going to get ultimate weapon
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : WHOO
+18-26:OOC: Cog Plotspike/TheSurvivor : No this mode is deathmatch
+18-26:ACCESS: Login: Guest-3629298384 from 85.23.72.192
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Apples you should work with me
+18-26:OOC: Fath Forgebed/Qwertyasd40 : yea
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : because we could make a great team
+18-26:OOC: Edwin Jackson/Gvazdas : fucking shit lets play
+18-26:OOC: Fath Forgebed/Qwertyasd40 : Lets make teams
+18-26:OOC: Richard Godson/Poltifar : I think i&#39;ll build myself a base on centcom or something.
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Apple I want to work with you in destroying the station
+18-26:OOC: Edwin Jackson/Gvazdas : i will be in the janitor team! :D
+18-26:OOC: Conall Edge/Master of Apples : Peanuts where we chattin
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Qwerty, apples and I
+18-26:OOC: Blaze Xelon/Mattie2009 : Let&#39;s burn this place down
+18-26:GAME: Mono124 entered as Andrew Riley
+18-26:OOC: Fath Forgebed/Qwertyasd40 : WOHOO
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Ahh
+18-26:GAME: Jack Antonio entered as Irvine Shoomer
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : apples go to court room
+18-26:OOC: Blaze Xelon/Mattie2009 : BECAUSE WE CAN
+18-26:OOC: Edwin Jackson/Gvazdas : omg no lets just rp not go shitfacing everyone
+18-26:OOC: Fath Forgebed/Qwertyasd40 : Meet at courtroom?
+18-26:OOC: Conall Edge/Master of Apples : Add me on pager yo.
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Mkay, Lets starter up then
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : ok
+18-26:OOC: Blaze Xelon/Mattie2009 : Huzzah!
+18-26:OOC: Richard Godson/Poltifar : Now then... LETS GO
+18-26:ADMIN: Poltifar used start_now
+18-26:GAME: starting game of sandbox
+18-26:OOC: Kenny Karson/Randomkid272 : ok
+18-26:OOC: Edwin Jackson/Gvazdas : lets rp not go random killing please
+18-26:ACCESS: Login: Guest-172411796 from 80.192.145.22
+18-26:SAY: Richard Godson/Poltifar : BWAHAHAHA
+18-26:OOC: Andrew Riley/Mono124 : dope
+18-26:OOC: Richard Godson/Poltifar : Bah, who votes for random killing?
+18-26:OOC: Andrew Riley/Mono124 : stuck as the a.i.
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Sandbox
+18-26:SAY: Edwin Jackson/Gvazdas : This is engineer reporting.
+18-26:OOC: Andrew Riley/Mono124 : and the a.i. is glitched
+18-26:OOC: Fath Forgebed/Qwertyasd40 : wait
+18-26:SAY: Fath Forgebed/Qwertyasd40 : YO
+18-26:SAY: Conall Edge/Master of Apples : SUP
+18-26:SAY: Fath Forgebed/Qwertyasd40 : YOU IN THE EMPIRE?
+18-26:SAY: Conall Edge/Master of Apples : FO SHO
+18-26:SAY: Fath Forgebed/Qwertyasd40 : (WHAT USER)
+18-26:GAME: Guest-172411796 entered as Cerol Filthpick
+18-26:SAY: Conall Edge/Master of Apples : (APPLES)
+18-26:SAY: Fath Forgebed/Qwertyasd40 : (WOOT 0
+18-26:SAY: Edwin Jackson/Gvazdas : how do i start the engine
+18-26:SAY: Caius Cassius Longinus/TheGrifter : ; More like Engin-queer!
+18-26:SAY: Fath Forgebed/Qwertyasd40 : hey
+18-26:SAY: Conall Edge/Master of Apples : howdy Sir
+18-26:SAY: Fath Forgebed/Qwertyasd40 : you in the empire?
+18-26:SAY: Conall Edge/Master of Apples : we&#39;re just chillin&#39;
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Apples?
+18-26:SAY: Conall Edge/Master of Apples : That&#39;s a yes
+18-26:ACCESS: Login: X2yzh9 from 75.142.181.4
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : So apples, Lets get this straight, In order to use the oxygen tank, I need to click on it?
+18-26:SAY: Cog Plotspike/TheSurvivor :  WOOOOOOTTT
+18-26:SAY: Conall Edge/Master of Apples : Join us cracka
+18-26:ACCESS: Logout: Guest-172411796
+18-26:OOC: Conall Edge/Master of Apples : Yeah
+18-26:SAY: Fath Forgebed/Qwertyasd40 : WOOOOOTWOOOTOT
+18-26:SAY: Cog Plotspike/TheSurvivor : Join you?
+18-26:OOC: Conall Edge/Master of Apples : Then restore gas flow
+18-26:SAY: Cog Plotspike/TheSurvivor : Me?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Apples answer the page...
+18-26:OOC: Caius Cassius Longinus/TheGrifter : I like apples.
+18-26:OOC: Conall Edge/Master of Apples : Peanuts, Courtroom
+18-26:SAY: Fath Forgebed/Qwertyasd40 : Evveryones here
+18-26:SAY: Fath Forgebed/Qwertyasd40 : I(wanna rp syndicate operatives)
+18-26:GAME: X2yzh9 entered as Endok Goblinpick
+18-26:OOC: Caius Cassius Longinus/TheGrifter : they keep doctors away
+18-26:SAY: Edwin Jackson/Gvazdas : guys how do i start the engine? everyone says it should be always on
+18-26:SAY: Fath Forgebed/Qwertyasd40 : (or rioter for wage)
+18-26:SAY: Conall Edge/Master of Apples : Well that sucks
+18-26:SAY: Conall Edge/Master of Apples : YO BROS
+18-26:SAY: Conall Edge/Master of Apples : Cog and I
+18-26:SAY: Conall Edge/Master of Apples : are aAFK
+18-26:SAY: Conall Edge/Master of Apples : So like
+18-26:SAY: Cog Plotspike/TheSurvivor : Yes
+18-26:OOC: Endok Goblinpick/X2yzh9 : HOW DID THIS HAPPEN
+18-26:SAY: Conall Edge/Master of Apples : party n stuff
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : so I got security access
+18-26:SAY: Conall Edge/Master of Apples : Hide me someplace
+18-26:SAY: Cog Plotspike/TheSurvivor : We&#39;ll be quick!
+18-26:SAY: Conall Edge/Master of Apples : take my card if you must
+18-26:OOC: Blaze Xelon/Mattie2009 : HOW DID WHAT HAPPEN
+18-26:ACCESS: Login: SlenderMan from 69.114.95.49
+18-26:OOC: Endok Goblinpick/X2yzh9 : I typed ready and i&#39;m still in the regular place
+18-26:SAY: Cog Plotspike/TheSurvivor : And me
+18-26:OOC: Endok Goblinpick/X2yzh9 : that you start in
+18-26:OOC: Blaze Xelon/Mattie2009 : That happened last time too
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : so guys
+18-26:SAY: Fath Forgebed/Qwertyasd40 : So whats our plan
+18-26:OOC: Edwin Jackson/Gvazdas : that happened to me too. go to admin and write in adminhelp to help you
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : I think we should take the engine
+18-26:SAY: Fath Forgebed/Qwertyasd40 : YES
+18-26:SAY: Fath Forgebed/Qwertyasd40 : And fortify it
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : and use it as a base
+18-26:SAY: Fath Forgebed/Qwertyasd40 : Or go to space
+18-26:OOC: Blaze Xelon/Mattie2009 : We bashed in the windows out of protest
+18-26:OOC: HELP: Endok Goblinpick/X2yzh9 : stuck in ready room after typing ready
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : after we eject it
+18-26:OOC: Edwin Jackson/Gvazdas : i got teleported somewhere last time
+18-26:GAME: SlenderMan entered as Pig Benis
+18-26:SAY: Fath Forgebed/Qwertyasd40 : and build our own
+18-26:ACCESS: Logout: Guest-3629298384
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : YEA1
+18-26:SAY: Fath Forgebed/Qwertyasd40 : Okay
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : KICK ASS!
+18-26:SAY: Fath Forgebed/Qwertyasd40 : BOOOHYEAH
+18-26:SAY: Fath Forgebed/Qwertyasd40 : GET A LOCATER
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : So lets take the engineer and tie him in in atmos
+18-26:SAY: Fath Forgebed/Qwertyasd40 : Okay
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : and I will mug him and release slow flow plasma
+18-26:OOC: Richard Godson/Poltifar : People, remember that this is sandbox, so you can spawn building-related stuff
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Lets go
+18-26:SAY: Kenny Karson/Randomkid272 : hi
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ))AFK PEOPLE GET DRAGGED))(
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ()()()( OMG OOC)()()()()()(
+18-26:OOC: Edwin Jackson/Gvazdas : what the hell why can&#39;t i put my id back from my right hand into the id slot? 
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : I will get engineer
+18-26:OOC: Blaze Xelon/Mattie2009 : Because
+18-26:OOC: Xen/Alfie275 : Are you wearing a jumpsuit?
+18-26:ACCESS: Logout: Jack Antonio
+18-26:SAY: Kenny Karson/Randomkid272 : sir
+18-26:OOC: Richard Godson/Poltifar : Might be yet another bug
+18-26:ACCESS: Login: Beorn080 from 173.59.74.11
+18-26:SAY: Kenny Karson/Randomkid272 : who are you
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : I am
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : Besmar Daggerdagger
+18-26:OOC: Richard Godson/Poltifar : Welcome Beorn, to crazy town.
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; hey plotspike can you open this door please?
+18-26:ACCESS: Login: Andrea the second from 151.33.200.72
+18-26:SAY: Cog Plotspike/TheSurvivor : im a idiot
+18-26:SAY: Kenny Karson/Randomkid272 : oh well hello
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Beorn we are having sandbox
+18-26:OOC: Richard Godson/Poltifar : Oh great, Andrea is here too.
+18-26:OOC: Blaze Xelon/Mattie2009 : Gibble
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : it&#39;s going to be fun
+18-26:SAY: Fath Forgebed/Qwertyasd40 : We&#39;ll take the station
+18-26:OOC: Edwin Jackson/Gvazdas : i want to change my jumpsuit to firesuit but i can&#39;t change it because it doesnt put on!
+18-26:ACCESS: Logout: Beorn080
+18-26:GAME: Andrea the second entered as Elspet Bennet
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : ;because fire suits are exosuits
+18-26:OOC: Edwin Jackson/Gvazdas : nvm fixed it
+18-26:ACCESS: Login: Beorn080 from 173.59.74.11
+18-26:OOC: Elspet Bennet/Andrea the second : hello
+18-26:ACCESS: Logout: Mono124
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : You okay?
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; engineer can you open the door
+18-26:SAY: Kenny Karson/Randomkid272 : i think
+18-26:ACCESS: Logout: Beorn080
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Hello Andrewa
+18-26:OOC: Blaze Xelon/Mattie2009 : firesuit is o_clothing, I think
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Andrea*
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : That is not good
+18-26:ACCESS: Login: Beorn080 from 173.59.74.11
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; I need to speak with you
+18-26:SAY: Kenny Karson/Randomkid272 : well its only a cough
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : What part of the station is this?
+18-26:ACCESS: Logout: Beorn080
+18-26:SAY: Kenny Karson/Randomkid272 : research area
+18-26:OOC: Endok Goblinpick/X2yzh9 : No admin is answering my call
+18-26:SAY: Fath Forgebed/Qwertyasd40 : KNOCK HIM OUT
+18-26:OOC: Edwin Jackson/Gvazdas : FUCKER
+18-26:ADMIN: Poltifar modified gas's temperature to 1000
+18-26:ADMIN: Poltifar modified Canister [Plasma (Bio)]'s gas to the gas
+18-26:OOC: Blaze Xelon/Mattie2009 : Don&#39;t mind me, I&#39;m just looking around the new station
+18-26:OOC: Endok Goblinpick/X2yzh9 : Protest!
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : ; I think there is an outbreak of some sort of flu in the research area
+18-26:OOC: Elspet Bennet/Andrea the second : wghat call?
+18-26:OOC: Edwin Jackson/Gvazdas : IM NOT GONNA IC A LOT BUT SECURITY: RUN TO THE FUCKING ENGINEERING ROOM?!
+18-26:SAY: Fath Forgebed/Qwertyasd40 : move out people
+18-26:OOC: HELP: Endok Goblinpick/X2yzh9 : stuck in ready room after typing ready
+18-26:OOC: Edwin Jackson/Gvazdas : cuz im fucking dead
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : ; This man appears to be coughing uncontrollably
+18-26:ADMIN: PM: Poltifar->X2yzh9 : Yes, this is a horrible bug we cant fix before Head gest here
+18-26:OOC: Fath Forgebed/Qwertyasd40 : u can respawn
+18-26:OOC: Blaze Xelon/Mattie2009 : There&#39;s a blob in the fire station
+18-26:ACCESS: Login: Beorn080 from 173.59.74.11
+18-26:ADMIN: Andrea the second teleported Endok Goblinpick
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; engine secure men
+18-26:SAY: Kenny Karson/Randomkid272 : i think im sick
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : How do I mix chemicals?
+18-26:SAY: Endok Goblinpick/X2yzh9 : ; I AM ENDOK, FROM ZOR IX
+18-26:ADMIN: PM: Poltifar->X2yzh9 : That's why we're playing sandbox until he gets here, because of this bug and mony others
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; is everyone here?
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:SAY: Fath Forgebed/Qwertyasd40 : no
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Fath is that all?
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : Go!
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : who is left?
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;RESEARCHER
+18-26:SAY: Edwin Jackson/Gvazdas : HELP! SECURITY TO ENGINEERING ROOM!!!!!
+18-26:SAY: Kenny Karson/Randomkid272 : i think i cought a virus
+18-26:ADMIN: Beorn080 deleted Airlock at (53,39,7)
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;COME TO ENGINE TOXINS RESERCHER
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : ; Kenny karson is dying
+18-26:OOC: Nil Mudmagma/Beorn080 : Please dont make airlocks in the start.
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : he is to be kept alive
+18-26:ADMIN: Beorn080/Nil Mudmagma : What bug?
+18-26:GAME: Beorn080 entered as Nil Mudmagma
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts) clicked on Edwin Jackson(Gvazdas) with intent on harm
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Shut up prisoner
+18-26:SAY: Kenny Karson/Randomkid272 : ugh
+18-26:ADMIN: PM: Poltifar->Beorn080 : The biggest one is people getting stuck in the start area
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : ; He has some coughing disease
+18-26:SAY: Kenny Karson/Randomkid272 : i must get to medbay
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : ; I think I have contracted it too
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; get the researcher and lets get out of here
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts) clicked on Edwin Jackson(Gvazdas) with intent on harm
+18-26:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the wall
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Why are you trying to rat us out?
+18-26:ADMIN: PM: Poltifar->Beorn080 : But there are smaller bugs like problems with IDs, problems with insta-freezing, and who knows what else
+18-26:SAY: Besmar Daggerdagger/Eternalnight264 : Help.
+18-26:OOC: Edwin Jackson/Gvazdas : I DONT GIVE A SHIT IF IM TALKING IC: SECURITY COME TO THE FUCKING ENGINEERING ROOM!!!!
+18-26:SAY: Kenny Karson/Randomkid272 : i got a fever
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;get connall
+18-26:OOC: Nil Mudmagma/Beorn080 : Well, I can fix the start area as a temp fix
+18-26:MATTACK: Elspet Bennet(Andrea the second)has shot a taser round at the chair
+18-26:ACCESS: Login: Chamango from 82.112.130.50
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : there is no security
+18-26:GAME: Tirist Spearsoap2/Ihateoutside used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-26:ACCESS: They share computer ID's
+18-26:SAY: Kenny Karson/Randomkid272 : i got a fever virus
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts) clicked on Edwin Jackson(Gvazdas) with intent on harm
+18-26:ADMIN: Beorn080 created /obj/machinery/teleport
+18-26:OOC: Edwin Jackson/Gvazdas : bullshithorseshit.
+18-26:GAME: Chamango entered as John StJohn
+18-26:MATTACK: Blaze Xelon(Mattie2009) clicked on Kenny Karson(Randomkid272) with a syringe
+18-26:MATTACK: Blaze Xelon(Mattie2009) injected Kenny Karson(Randomkid272) with a syringe filled with 
+18-26:ADMIN: Beorn080 created /obj/machinery/teleport/station
+18-26:OOC: Elspet Bennet/Andrea the second : Security can&#39;t enter engineering. wait till I spawn the needed card
+18-26:GAME: Ihateoutside entered as Sarvesh Humanfilth
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Why are you trying to rat us out?
+18-26:ADMIN: Beorn080 created /obj/machinery/teleport/hub
+18-26:MATTACK: Blaze Xelon(Mattie2009) clicked on Blaze Xelon(Mattie2009) with a syringe
+18-26:MATTACK: Blaze Xelon(Mattie2009) injected Blaze Xelon(Mattie2009) with a syringe filled with 
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/teleporter
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts) clicked on Edwin Jackson(Gvazdas) with intent on harm
+18-26:OOC: Elspet Bennet/Andrea the second : Beside, this is sandbox. you are going to get revived
+18-26:MATTACK: Blaze Xelon(Mattie2009) clicked on Kenny Karson(Randomkid272) with a syringe
+18-26:MATTACK: Blaze Xelon(Mattie2009) injected Kenny Karson(Randomkid272) with a syringe filled with 
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:OOC: Fath Forgebed/Qwertyasd40 : YEA
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; HURRY UP FAITH
+18-26:OOC: Edwin Jackson/Gvazdas : im just gonna leave the game :P
+18-26:OOC: Fath Forgebed/Qwertyasd40 : JUSTR RESPAWN
+18-26:SAY: Nil Mudmagma/Beorn080 : Hop in the teleporter
+18-26:OOC: Blaze Xelon/Mattie2009 : How do I cure fever
+18-26:ACCESS: Logout: Gvazdas
+18-26:ADMIN: Andrea the second created /obj/item/weapon/card/id/captains_spare
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : He isn&#39;t dead
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ready
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : we are doing a RP with the engine and using it
+18-26:SAY: Kenny Karson/Randomkid272 : i need water
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; Commence lift off
+18-26:ADMIN: Beorn080 deleted Teleportation Chamber at (36,65,1)
+18-26:MATTACK: Blaze Xelon(Mattie2009)has grabbed Kenny Karson(Randomkid272) aggressively (now hands) 
+18-26:ADMIN: Beorn080 deleted Teleportation Chamber at (37,65,1)
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ALRIGHT
+18-26:ADMIN: Poltifar modified Canister [Plasma (Bio)]'s icon to test.dmi
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;ALL SYSTEMS READY
+18-26:ACCESS: Login: Gvazdas from 78.62.234.20
+18-26:OOC: Sarvesh Humanfilth/Ihateoutside : No longer have sandbox panel
+18-26:OOC: Nil Mudmagma/Beorn080 : Alright, I set up a teleporter in the ready area to the teleporter room. People can get out
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : no access
+18-26:ADMIN: Beorn080/Nil Mudmagma : God, think outside the box.
+18-26:OOC: Edwin Jackson/Gvazdas : NEXT TIME - FUCKING MAKE SOME SECURITY BECAUSE ENGINEERING GOT TAKEN OVER!
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Hey eplspet
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : want to join us?
+18-26:OOC: Edwin Jackson/Gvazdas : muahhahaha good for us
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Hey
+18-26:SAY: Kenny Karson/Randomkid272 : ;help in medbay
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Thats our prisoner
+18-26:SAY: Elspet Bennet (as Captain)/Andrea the second : where are you going?
+18-26:SAY: Edwin Jackson/Gvazdas : fine... ill join you.
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : space
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : not you edwin
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : leave him here
+18-26:SAY: Elspet Bennet (as Captain)/Andrea the second : fine. but he is free
+18-26:SAY: Edwin Jackson/Gvazdas : oh ok then just kill me
+18-26:OOC: Sarvesh Humanfilth/Ihateoutside : I dont have the sandbox panel.
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : we are taking the engine
+18-26:OOC: Endok Goblinpick/X2yzh9 : in sandbox how do you spawn a revolver?
+18-26:SAY: Ingiz Drawbridgeengraving/Nickbond12 : remove that forecwall
+18-26:SAY: Kenny Karson/Randomkid272 : ;help in medbay
+18-26:OOC: Blaze Xelon/Mattie2009 : It&#39;s respawn tiem
+18-26:GAME: John StJohn/Chamango used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Chamango from 82.112.130.50
+18-26:ACCESS: They share computer ID's
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : put edwin in the matenence hall and help us eject out of here
+18-26:OOC: Elspet Bennet (as Captain)/Andrea the second : either you can find it in object list, or you ask an admin
+18-26:OOC: Richard Godson/Poltifar : You dont spawn ANYTHING you want, just building stuff
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : How do I spawn stuff?
+18-26:GAME: Blaze Xelon/Mattie2009 used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Mattie2009 from 90.194.7.125
+18-26:ACCESS: They share computer ID's
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : edwin
+18-26:SAY: Kenny Karson/Randomkid272 : help
+18-26:OOC: HELP: Endok Goblinpick/X2yzh9 : spawn a revolver for me please
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts)has shot a taser round at Edwin Jackson
+18-26:OOC: Richard Godson/Poltifar : In the commands tab, &#34;sandbox panel&#34;
+18-26:MATTACK: Uvash Pickmountain(Mr.Peanuts)has shot a taser round at Edwin Jackson
+18-26:MATTACK: Uvash Pickmountain (Mr.Peanuts) attacked Edwin Jackson(Gvazdas) with the taser gun
+18-26:OOC: Nil Mudmagma/Beorn080 : I&#39;mma gonna see if I can make my own mass driver
+18-26:OOC: Edwin Jackson/Gvazdas : I HOPE IM DEAD
+18-26:GAME: Chamango entered as Steve McSteve
+18-26:SAY: Fath Forgebed/Qwertyasd40 : borrow id please
+18-26:ADMIN: Beorn080 created /obj/machinery/mass_driver
+18-26:OOC: Edwin Jackson/Gvazdas : no im not... fuck you.
+18-26:OOC: Caius Cassius Longinus/TheGrifter : So do I, buddy
+18-26:OOC: Richard Godson/Poltifar : I&#39;m gona spawn random weapons and hide them all over the station.
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Go to hell
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : commence lift off
+18-26:GAME: Mattie2009 entered as Blaze Xelon II
+18-26:SAY: Edwin Jackson/Gvazdas : cassius! 
+18-26:OOC: HELP: Sarvesh Humanfilth/Ihateoutside : I respawned and now my sandbox panel is gone.
+18-26:OOC: Edwin Jackson/Gvazdas : casius get back please!
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; delay engine starting until further notice
+18-26:OOC: Blaze Xelon II/Mattie2009 : TELEPORT GO
+18-26:SAY: Kenny Karson/Randomkid272 : no
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;Ready
+18-26:SAY: Endok Goblinpick/X2yzh9 : ; OPENE ENGINEERING
+18-26:ADMIN: Poltifar jumped to Richard Godson
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;Denied
+18-26:SAY: Endok Goblinpick/X2yzh9 : ; I WANT IN, TO HELP BUILD
+18-26:SAY: Endok Goblinpick/X2yzh9 : ; I want to help build
+18-26:SAY: Elspet Bennet (as Captain)/Andrea the second : air is strange
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; NO DONT DO THAT
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; stupid AI
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : ; Stop that
+18-26:GAME: Kenny Karson/Randomkid272 used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Randomkid272 from 75.60.195.5
+18-26:ACCESS: They share computer ID's
+18-26:ACCESS: Login: Lucaboii from 94.168.104.138
+18-26:SAY: Fath Forgebed/Qwertyasd40 : ;Recommence lift off
+18-26:SAY: Elspet Bennet (as Captain)/Andrea the second : what may be the problem?
+18-26:ADMIN: PM: Beorn080->Ihateoutside : type ready in the ready rom
+18-26:GAME: Sarvesh Humanfilth/Ihateoutside used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-26:ACCESS: They share computer ID's
+18-26:ACCESS: They share computer ID's
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : Restart liftoff
+18-26:SAY: Endok Goblinpick/X2yzh9 : ;  AI, keeep resetting
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : bad AI
+18-26:GAME: Ihateoutside entered as Kumil Rockhammer
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : BO
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : NO
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : BAD!
+18-26:OOC: Nil Mudmagma/Beorn080 : Uh, I&#39;ve got a REALLY wierd bug
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : that&#39;s a very mean thing to do
+18-26:OOC: Nil Mudmagma/Beorn080 : Also, wtf
+18-26:OOC: Blaze Xelon II/Mattie2009 : Goddamn teleporter
+18-26:GAME: Randomkid272 entered as Kenny Carson
+18-26:OOC: Elspet Bennet (as Captain)/Andrea the second : wow... I just fell unconscious. odd, because atmosphere looks normal
+18-26:ADMIN: PM: Ihateoutside->Beorn080 : Its still not there
+18-26:ADMIN: Poltifar created /obj/item/weapon/card/id/captains_spare
+18-26:ACCESS: Logout: Lucaboii
+18-26:ACCESS: Logout: Qwertyasd40
+18-26:OOC: Edwin Jackson/Gvazdas : THIS IS ENGINEER SPEAKING. I HAVE BEEN DISARMED FROM HEAD TO FEET AND I CANNOT LEAVE THE FACILITY!
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : commence lift off again please?
+18-26:ADMIN: Beorn080/Nil Mudmagma : I see a single baloon in toxin storage as a plasma can
+18-26:OOC: Edwin Jackson/Gvazdas : I AM ALSO COUGHING TOO MUCH!
+18-26:ADMIN: Poltifar created /obj/item/weapon/clothing/suit/heavy_armor
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : elspet?
+18-26:OOC: Unknown/SlenderMan : IC in OOC
+18-26:OOC: Unknown/SlenderMan : &gt;.&gt;
+18-26:ACCESS: Logout: Randomkid272
+18-26:OOC: Caius Cassius Longinus/TheGrifter : Gvazdas, STOP BITCHING OVER OOC... everyone hates it! There is no excuses, no exceptions, you are not special, cut it out.
+18-26:ADMIN: PM: Poltifar->Beorn080 : The balloon was me
+18-26:ACCESS: Login: Randomkid272 from 75.60.195.5
+18-26:ACCESS: They share computer ID's
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/comcontrol
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : That&#39;s the main reason I don&#39;t like him
+18-26:ADMIN: Beorn080 created /obj/machinery/door_control
+18-26:OOC: Kumil Rockhammer/Ihateoutside : Gvazdas is very special
+18-26:OOC: Endok Goblinpick/X2yzh9 : This thing is telling me I have particles of thermite
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : he also OOC&#39;s in IC
+18-26:ADMIN: Beorn080 created /obj/machinery/door_control
+18-26:SAY: Captain/Andrea the second : owww
+18-26:OOC: Endok Goblinpick/X2yzh9 : how do i make it so I have thermite, not just particles?
+18-26:OOC: Nil Mudmagma/Beorn080 : That is thermite
+18-26:SAY: Edwin Jackson/Gvazdas : help! anyone?&gt;
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : How do I wake up?
+18-26:ADMIN: Beorn080 created /obj/shut_controller
+18-26:OOC: Endok Goblinpick/X2yzh9 : I apply it by just clicking the wall, right?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Who is releasing viryses
+18-26:GAME: Ingiz Drawbridgeengraving/Nickbond12 used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Nickbond12 from 74.36.159.213
+18-26:ACCESS: They share computer ID's
+18-26:SAY: Edwin Jackson/Gvazdas : steve!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : viruses
+18-26:SAY: Kenny Carson/Randomkid272 : virus
+18-26:SAY: Edwin Jackson/Gvazdas : help!
+18-26:ACCESS: Logout: SlenderMan
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Fucking asshole
+18-26:SAY: Steve McSteve/Chamango : What
+18-26:SAY: Kenny Carson/Randomkid272 : run
+18-26:ADMIN: Andrea the second Healed/Revived Andrea the second
+18-26:OOC: Nil Mudmagma/Beorn080 : Click and stay still till it disappears
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : I am aslep, How do I wake up?
+18-26:ADMIN: Andrea the second deleted fever at (71,75,1)
+18-26:SAY: Uvash Pickmountain/Mr.Peanuts : WE ARE GOINGTO DIE
+18-26:OOC: Captain/Poltifar : THIS IS INSANE
+18-26:OOC: Nil Mudmagma/Beorn080 : Also, chapel is heating up?
+18-26:OOC: Endok Goblinpick/X2yzh9 : you carefully begin to affix the beaker to the wall?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Who fucked it up with viruses
+18-26:ADMIN: Andrea the second deleted fever at (72,75,1)
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Ban them
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:SAY: Kenny Carson/Randomkid272 : no
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I demand a ban for the idiot who spawned viruses
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:SAY: Edwin Jackson/Gvazdas : where.. am i?
+18-26:SAY: Ingiz Drawbridgeengraving/Nickbond12 : ready
+18-26:MATTACK: Blaze Xelon II (Mattie2009) attacked Blaze Xelon II(Mattie2009) with the wrench
+18-26:ADMIN: Beorn080 Healed/Revived Beorn080
+18-26:SAY: Steve McSteve/Chamango : Medbay
+18-26:OOC: Captain/Andrea the second : You can&#39;t wake up at the moment. there are viruses, and we are all forced to stay down
+18-26:SAY: Edwin Jackson/Gvazdas : uhhh...
+18-26:OOC: Endok Goblinpick/X2yzh9 : Peanuts, stop demanding bans
+18-26:VOTE: Voting to restart round started by Besmar Daggerdagger/Eternalnight264
+18-26:OOC: Endok Goblinpick/X2yzh9 : you should&#39;ve been banned yesterday
+18-26:OOC: Blaze Xelon II/Mattie2009 : Suiciding by wrench i fun
+18-26:OOC: Xen/Alfie275 : Why restart?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Thanks X2, great job putting things behind you like we all agreed
+18-26:ADMIN: Beorn080/Nil Mudmagma : What. The. Hell
+18-26:OOC: Endok Goblinpick/X2yzh9 : We didn&#39;t agree to that
+18-26:ADMIN: Voting aborted by Poltifar
+18-26:ADMIN: Restart voting toggled to Off by Poltifar.
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : And really get out, you were not even here to understand why this is dumb
+18-26:ADMIN: Beorn080/Nil Mudmagma : I&#39;m trying to figure out mass drivers
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Aww
+18-26:OOC: Captain/Poltifar : Dont bother voting before the bugs are fixed.
+18-26:ADMIN: Beorn080 Healed/Revived Beorn080
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Someone just decided to spawn a thousand viruses
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : kay
+18-26:OOC: Captain/Poltifar : Well just end up like this anyways
+18-26:OOC: Endok Goblinpick/X2yzh9 : I know peanuts
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : and we hae a super OOC in IC and IC in OOC man
+18-26:GAME: Kumil Rockhammer/Ihateoutside used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Ihateoutside from 88.105.71.204
+18-26:ACCESS: They share computer ID's
+18-26:ACCESS: They share computer ID's
+18-26:ACCESS: They share computer ID's
+18-26:OOC: Captain/Andrea the second : no, they just spawned one and it spread
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : have
+18-26:OOC: Blaze Xelon II/Mattie2009 : Brain damage
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : anyway
+18-26:OOC: Edwin Jackson/Gvazdas : those fucking bitches really planned on how to brake in
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Poltifar
+18-26:GAME: Ihateoutside entered as Oddum Riverspike
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : How do I wake up?
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Yes we did gvaz
+18-26:OOC: Captain/Poltifar : Yes?
+18-26:OOC: Edwin Jackson/Gvazdas : now someone keeps making me go down
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : and it worked so well
+18-26:OOC: Edwin Jackson/Gvazdas : next time im gonna call security first
+18-26:OOC: Captain/Poltifar : There is a button &#34;asleep&#34; on the right of the screen, click it
+18-26:SAY: Caius Cassius Longinus/TheGrifter : FUCK YOU
+18-26:OOC: HELP: Endok Goblinpick/X2yzh9 : Is thermiite working? Whenever I click on a wall w/ a beaker w/ particles of thermite in it it just affixes the beaker to the wall
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : ; but I was security
+18-26:OOC: Edwin Jackson/Gvazdas : ooh im awake
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : the only security might I add
+18-26:OOC: Captain/Poltifar : But it seems everyone is sick, so waking up might not work
+18-26:SAY: Kenny Carson/Randomkid272 : we burn
+18-26:SAY: Caius Cassius Longinus/TheGrifter : YOU DIE TOO!
+18-26:ADMIN: Beorn080 Healed/Revived Beorn080
+18-26:SAY: Caius Cassius Longinus/TheGrifter : FUCK YOU ALL!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : dieing of extreme heat now
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : great
+18-26:OOC: Captain/Andrea the second : eternalnight, in the bottom right corner there should be a little picture of a man lying down. click it
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/airtunnel
+18-26:OOC: Kenny Carson/Randomkid272 : killed virus in engine area
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/aiupload
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Someone released fire in engineering
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Good, I&#39;m awake, one last thing, Where can I find chemicals/
+18-26:SAY: Edwin Jackson/Gvazdas : good.. god
+18-26:OOC: Endok Goblinpick/X2yzh9 : Is thermite working? Whenever a click a wall with thermite in a beaker, it just affixes it to the wll
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I might be the only survivior
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/atmosphere/siphonswitch/mastersiphonswitch
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/atmosphere/siphonswitch
+18-26:ADMIN: Beorn080 created /obj/machinery/computer/atmosphere
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : as I am the only one with fire suit
+18-26:OOC: Steve McSteve/Chamango : You need to ignite the thermite
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : X2 use lit welder on wall
+18-26:OOC: Caius Cassius Longinus/TheGrifter : CH-CH-CH-CHANGES... Turn and face the strange... CHANGES... Don&#39;t wanna be a richer man...
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : What si the code for firesuit?
+18-26:OOC: Nil Mudmagma/Beorn080 : Then you have to light it with a welder
+18-26:ACCESS: Login: Casings from 69.14.78.214
+18-26:OOC: Kenny Carson/Randomkid272 : fire always kills viruses
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I WILL SURVIVE!
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I WILL SURVIVE THIS FIRE!
+18-26:OOC: Kenny Carson/Randomkid272 : no
+18-26:ADMIN: Beorn080 jumped to Medical Bay
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : I refuse to die with my fire suit
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : How to get firesuit
+18-26:OOC: Kenny Carson/Randomkid272 : burn baby burn
+18-26:ADMIN: Andrea the second Healed/Revived Master of Apples
+18-26:ADMIN: Beorn080 has toggled Beorn080's nodamage to 1
+18-26:SAY: Edwin Jackson/Gvazdas : uhhh. what... good.. so many.. bodies... must... get ... ou..t.....
+18-26:SAY: Edwin Jackson/Gvazdas : cant.. move...
+18-26:ADMIN: Andrea the second deleted fever at (76,75,1)
+18-26:OOC: Blaze Xelon II/Mattie2009 : WHY AM I STILL ALIVE
+18-26:SAY: Edwin Jackson/Gvazdas : someoe!
+18-26:SAY: Edwin Jackson/Gvazdas : anyone?
+18-26:ADMIN: Andrea the second deleted fever at (75,72,1)
+18-26:GAME: Shorast Humanelf/Casings used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Casings from 69.14.78.214
+18-26:OOC: Kenny Carson/Randomkid272 : i must kill all viruse
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Because you might be as badass as my character
+18-26:GAME: Kenny Carson/Randomkid272 used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Randomkid272 from 75.60.195.5
+18-26:ACCESS: They share computer ID's
+18-26:ACCESS: They share computer ID's
+18-26:GAME: Casings entered as Shorast Humanelf
+18-26:OOC: Captain/Andrea the second : because this is a cold fire. I&#39;ll make an hotter one if you wish
+18-26:SAY: Edwin Jackson/Gvazdas : uhhh.... this...
+18-26:ACCESS: Logout: Nickbond12
+18-26:SAY: Edwin Jackson/Gvazdas : i.. can&#39;t move....
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : Random we might as well just flame boil the whole station
+18-26:OOC: Nil Mudmagma/Beorn080 : I can&#39;t stand. 
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : and get it over with
+18-26:OOC: Uvash Pickmountain/Mr.Peanuts : with admin fire
+18-26:SAY: Edwin Jackson/Gvazdas : uhhh... uhhhh.... this.. 
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : Wait, HOw do I start a fire?
+18-26:OOC: Blaze Xelon II/Mattie2009 : I&#39;m unconscious in engine room with serious wrench-damage
+18-26:SAY: Edwin Jackson/Gvazdas : ughh... somebody... kill.... meee....
+18-26:GAME: Randomkid272 entered as Kenny Garson
+18-26:ADMIN: Andrea the second modified floor's oxygen to 1e+011
+18-26:OOC: Blaze Xelon II/Mattie2009 : And I seem to be undying
+18-26:OOC: Captain/Poltifar : remember, if you die, you can respawn.
+18-26:OOC: Edwin Jackson/Gvazdas : i am half-dead i keep waking up and sleeeping in some room in a sleepere
+18-26:ADMIN: Beorn080 modified Nil Mudmagma's viri to 
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : What is a blob?
+18-26:OOC: Endok Goblinpick/X2yzh9 : woops
+18-26:OOC: Nil Mudmagma/Beorn080 : I think I cured me
+18-26:SAY: Edwin Jackson/Gvazdas : someone.. kill... meeee.... please...
+18-26:OOC: Kenny Garson/Randomkid272 : how
+18-26:OOC: Unknown/Andrea the second : see? now after it finishes burning we will all be ok
+18-26:SAY: Captain/Poltifar : Oh my
+18-26:GAME: Unknown/Mr.Peanuts used abandon mob.
+18-26:ACCESS: Logout: 
+18-26:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+18-26:ACCESS: They share computer ID's
+18-26:ADMIN: Beorn080 modified Kenny Karson's viri to 
+18-26:ADMIN: Andrea the second deleted fever at (74,75,1)
+18-26:GAME: Mr.Peanuts entered as Tirist Bronzeblood
+18-26:OOC: Besmar Daggerdagger/Eternalnight264 : What is a blob&gt;/
+18-26:SAY: Oddum Riverspike (as Kenny Karson)/Ihateoutside : hey
+18-26:SAY: Unknown/Andrea the second : ok, maybe it was too much
+18-26:SAY: Edwin Jackson/Gvazdas : Someone.. kill... me... please.... please....
+18-26:ADMIN: Beorn080 modified Steve McSteve's viri to 
