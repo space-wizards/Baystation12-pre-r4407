@@ -57,6 +57,7 @@
 
 			p3.gas.temperature = btemp +T0C
 			p2.status = 1
+
 		//bombvest
 		if(3)
 			var/obj/item/weapon/clothing/suit/a_i_a_ptank/R = new /obj/item/weapon/clothing/suit/a_i_a_ptank(src.loc)

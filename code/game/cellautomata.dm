@@ -90,6 +90,7 @@
 
 	if(name == "Centcom-Dock-Supply")
 		centcom_supply_dock = src.z
+		world.log << centcom_supply_dock
 		del(src)
 		return
 

@@ -4,7 +4,7 @@ var/supply_shuttle_points = 50
 /obj/machinery/computer/supply/proc/show_supply_shuttle_menu(var/mob/user)
 	user.machine = null
 	var/dat = ""
-	if(supply_shuttle_z == 2)
+	if(supply_shuttle_z == centcom_supply_dock)
 		dat += "[supply_shuttle_points] requisition points remaining<br><br>"
 
 		dat += "<A HREF='?src=\ref[src];supply_request=metal'>50 metal sheets(10)</A><br>"
@@ -46,7 +46,7 @@ var/supply_shuttle_points = 50
 		//dat += "<A HREF='?src=\ref[src];supply_request=bear'>Space bear(50)</A><br>"
 
 		dat += "<BR>\[ <A HREF='?src=\ref[src];operation=call-supply'>Send Shutle</A> \]"
-	else if(supply_shuttle_z == 1)
+	else if(supply_shuttle_z == station_supply_dock)
 		dat += "<BR>\[ <A HREF='?src=\ref[src];operation=call-supply'>Return Shutle</A> \]"
 	else
 		dat += "Supply shuttle in transit"
@@ -291,14 +291,6 @@ var/supply_shuttle_points = 50
 					var/obj/item/weapon/baton/I = new
 					I.loc = F.loc
 				else req = 1
-			/*if("bear")
-				if(supply_shuttle_points >= 50)
-					supply_shuttle_points -= 50
-					var/mob/monkey/I = new
-					I.loc = F.loc
-					I.name = "Space Bear"
-					I.rname = "Space Bear"
-				else req = 1*/
 
 		if(req)
 			user << "\red Unable to order: Not enough requisition points remaining"
@@ -336,7 +328,7 @@ var/supply_shuttle_points = 50
 				spawn(0)	shake_camera(M, 2, 1)
 		supply_shuttle_z = station_supply_dock
 	else if (supply_shuttle_z == station_supply_dock)
-		user << "The supply shuttle has been sent back to CentCom"
+		user << "The supply shuttle has been sent back to CentCom \[[centcom_supply_dock]]"
 		var/area/A = locate(/area/shuttle_supply)
 		for(var/area/B in A.superarea.areas)
 			for(var/mob/M in B)

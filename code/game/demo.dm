@@ -364,7 +364,7 @@
 /obj/item/weapon/tank/plasmatank/proc/ignite()
 	spawn(0)
 		var/strength = ((src.gas.plasma + src.gas.oxygen/2.0) / 1600000.0) * src.gas.temperature
-		//if ((src.gas.plasma < 1600000.0 || src.gas.temperature < 773))		//500degC
+
 		if (strength < 773.0)
 			var/turf/T = get_turf(src.loc)
 			T.poison += src.gas.plasma
@@ -374,7 +374,7 @@
 			if(src.master)
 				src.master.loc = null
 
-			//if ((src.gas.temperature > (450+T0C) && src.gas.plasma == 1600000.0))
+
 			if (strength > (450+T0C))
 				var/turf/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 				var/turf/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
@@ -389,19 +389,19 @@
 					for(var/atom/A in U)
 						if(A != src)
 							A.ex_act(zone)
-						//Foreach goto(342)
+
 					U.ex_act(zone)
 					U.buildlinks()
 					num++;
-					if(num>100)
-						sleep(1)
+					if(num>250)
+						sleep(0)
 						num = 0
-					//Foreach goto(170)
+
 				defer_powernet_rebuild = 0
 				makepowernets()
 
 			else
-				//if ((src.gas.temperature > (300+T0C) && src.gas.plasma == 1600000.0))
+
 				if (strength > (300+T0C))
 					var/turf/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 					var/turf/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
@@ -415,20 +415,19 @@
 						for(var/atom/A in U)
 							if(A != src)
 								A.ex_act(zone)
-							//Foreach goto(598)
+
 						U.ex_act(zone)
 						U.buildlinks()
 						num++;
-						if(num>100)
-							sleep(1)
+						if(num>250)
+							sleep(0)
 							num = 0
-						//Foreach goto(498)
+
 					defer_powernet_rebuild = 0
 					makepowernets()
 
-			//src.master = null
+
 			del(src.master)
-			//SN src = null
 			del(src)
 			return
 
@@ -441,15 +440,14 @@
 
 		for(var/mob/M in range(T))
 			flick("flash", M.flash)
-			//Foreach goto(732)
-		//var/m_range = 2
+
 		var/m_range = round(strength / 387)
 		for(var/obj/machinery/atmoalter/canister/C in range(2, T))
 			if (!( C.destroyed ))
 				if (C.gas.plasma >= 35000)
 					C.destroyed = 1
 					m_range++
-			//Foreach goto(776)
+
 		var/min = m_range
 		var/med = m_range * 2
 		var/max = m_range * 3
@@ -465,31 +463,27 @@
 
 
 			var/zone = 4
-			if ((U.y <= (T.y + max) && U.y >= (T.y - max) && U.x <= (T.x + max) && U.x >= (T.x - max) ))
-				zone = 3
-			if ((U.y <= (T.y + med) && U.y >= (T.y - med) && U.x <= (T.x + med) && U.x >= (T.x - med) ))
-				zone = 2
 			if ((U.y <= (T.y + min) && U.y >= (T.y - min) && U.x <= (T.x + min) && U.x >= (T.x - min) ))
 				zone = 1
+			else if ((U.y <= (T.y + med) && U.y >= (T.y - med) && U.x <= (T.x + med) && U.x >= (T.x - med) ))
+				zone = 2
+			else if ((U.y <= (T.y + max) && U.y >= (T.y - max) && U.x <= (T.x + max) && U.x >= (T.x - max) ))
+				zone = 3
 			for(var/atom/A in U)
 				if(A != src)
 					A.ex_act(zone)
-				//Foreach goto(1217)
+
 			U.ex_act(zone)
 			U.buildlinks()
 			num++;
-			if(num>100)
-				sleep(1)
+			if(num>250)
+				sleep(0)
 				num = 0
-			//U.mark(zone)
 
-			//Foreach goto(961)
-		//src.master = null
 		defer_powernet_rebuild = 0
 		makepowernets()
 
 		del(src.master)
-		//SN src = null
 		del(src)
 		return
 
