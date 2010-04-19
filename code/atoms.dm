@@ -4064,7 +4064,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/d1 = 0
 	var/d2 = 1
 	layer = 2.5
-	layer = 10
+	l//ayer = 10
 
 /obj/manifest
 	name = "manifest"
@@ -4793,7 +4793,7 @@ obj/machinery/vendingmachine/soda
 	var/d2 = 1
 	var/cabletype = ""
 	layer = 2.5
-	layer = 10
+	//layer = 10
 
 /obj/item/weapon/computercable_coil
 	name = "Network Cable Coil"
