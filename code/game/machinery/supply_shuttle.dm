@@ -328,7 +328,7 @@ var/supply_shuttle_points = 50
 				spawn(0)	shake_camera(M, 2, 1)
 		supply_shuttle_z = station_supply_dock
 	else if (supply_shuttle_z == station_supply_dock)
-		user << "The supply shuttle has been sent back to CentCom \[[centcom_supply_dock]]"
+		user << "The supply shuttle has been sent back to CentCom"
 		var/area/A = locate(/area/shuttle_supply)
 		for(var/area/B in A.superarea.areas)
 			for(var/mob/M in B)
