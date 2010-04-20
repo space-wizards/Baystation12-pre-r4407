@@ -284,9 +284,7 @@
 				del(M.client)
 
 	if (href_list["ban"])
-		messageadmins("Got to stage 1")
 		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host" )))
-			messageadmins("Got to stage 2")
 			var/dat = "<B>Ban Player:</B><HR>"
 			for(var/mob/M in world)
 				dat += text("<A href='?src=\ref[];ban2=\ref[]'>N: <B>[]</B> R: [] (K: []) (IP: [])</A><BR>", src, M, M.name, M.rname, (M.client ? M.client : "No client"), M.lastKnownIP)
@@ -1144,7 +1142,7 @@
 
 				if("disaster")
 					messageadmins("[usr.key] just called a station disaster")
-					//WreakStation()
+					WreakStation()
 
 				if("wave")
 					if ((src.rank in list("Primary Administrator", "Super Administrator", "Host"  )))

@@ -4,6 +4,14 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\extended code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\mob\observer code\game\objects code\game\objects\items code\game\objects\items\health code\game\objects\items\weapon code\game\objects\items\weapon\gun code\game\verbs code\game\verbs\admin maps Lib 
+FILE: code\game\mob\mob.dm
+LAST_COMPILE_TIME: 1271773639
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .

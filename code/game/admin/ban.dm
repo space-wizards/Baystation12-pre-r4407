@@ -96,27 +96,6 @@
 			return 1
 		else
 			return 0
-proc/isbannedckey(X as text)
-	var/DBQuery/key_query = dbcon.NewQuery("SELECT ckey FROM `crban`WHERE ckey='[X]'")
-	var/DBQuery/ip_query = dbcon.NewQuery("SELECT ips FROM `crban`WHERE ckey='[X]'")
-	var/dude
-	var/dudeip
-	if(!key_query.Execute())
-		messageadmins("\red [key_query.ErrorMsg()]")
-		world.log_admin("[key_query.ErrorMsg()]")
-	else
-		while(key_query.NextRow())
-			var/list/column_data = key_query.GetRowData()
-			dude = column_data["ckey"]
-	if(!ip_query.Execute())
-		messageadmins("\red [ip_query.ErrorMsg()]")
-		world.log_admin("[ip_query.ErrorMsg()]")
-	else
-		while(ip_query.NextRow())
-			var/list/column_data = ip_query.GetRowData()
-			dudeip = column_data["ip"]
-	if((dudeip) || (dude == X)) return 1
-	else return 0
 /proc/unban(key as text, by as text)
 	//Unban a key and associated IP address
 	var/ckey=ckey(key)
@@ -149,3 +128,8 @@ proc/isbannedckey(X as text)
 			return 1
 	else
 		return 0
+/proc/ifmultikey(client/X)
+	for(var/mob/M in world)
+		if(M.client)
+			if(M.client.address == X.address)
+				messageadmins("[M.key] and [X] has the same ip address")

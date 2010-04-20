@@ -5,7 +5,6 @@
 	src.lastKnownID = src.client.computer_id
 	if (src.lastKnownIP == "127.0.0.1")
 		src.lastKnownIP = "67.52.31.93"
-
 	if (config.log_access)
 		for (var/mob/M in world)
 			if(M == src)
@@ -28,7 +27,6 @@
 			if(src.client.computer_id == M.lastKnownID)
 				messageadmins("They share computer ID's, this means that they are on the same computer")
 				world.log_access("They share computer ID's")
-
 	src.hadclient = 1
 	src.client.screen -= main_hud1.contents
 	src.client.screen -= main_hud2.contents

@@ -96,7 +96,6 @@
 	src.sleep.layer = 52
 	src.rest.layer = 52
 	src.throw_icon.layer = 52
-
 	if (!src.start)
 		while(map_loading)
 			sleep(10)
@@ -115,7 +114,6 @@
 	if (!isturf(src.loc))
 		src.client.eye = src.loc
 		src.client.perspective = EYE_PERSPECTIVE
-
 	src.lastx = src.x
 	src.lasty = src.y
 	src.lastz = src.z

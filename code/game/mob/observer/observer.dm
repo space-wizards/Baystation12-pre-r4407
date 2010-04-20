@@ -10,20 +10,19 @@
 	src.verbs += /mob/observer/proc/Teleport
 	src.verbs += /mob/observer/proc/turningback
 /mob/
-	var/oldmob
+	var/mob/oldmob
 /mob/observer/proc/turninghost()
 	set name = "Turn into ghost"
 	set desc = "You cannot be revived as a ghost"
 	if(src.client && src.dead())
-		src.oldckey = client.ckey
-		src.oldmob = client.mob
+		src.oldmob = src
 		src.client.mob = new/mob/observer(src)
 	return
 /mob/observer/proc/turningback()
 	set name = "Return to your body"
 	if(src.client && src.dead())
-		src.client.mob = src.oldmob
-		src.client.ckey = src.oldckey
+		src.oldmob.key = src.key
+		client.mob = src.oldmob
 	return
 /mob/observer/Move(NewLoc, direct)
 	if(NewLoc)

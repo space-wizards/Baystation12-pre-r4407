@@ -591,7 +591,7 @@ var/map_loading = 1
 
 /datum/control/gameticker/process()
 
-	shuttle_location = shuttle_z
+	shuttle_location = centcom_emerg_dock
 
 	world.update_stat()
 	world << "<B>Welcome to the Space Station 13!</B>\n\n"
