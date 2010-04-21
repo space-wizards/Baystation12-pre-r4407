@@ -537,49 +537,57 @@ area/solar/west
 /area/centcomm
 	name = "Centcomm"
 	icon_state = "purple"
-	requires_power = 0
+	music = "music/ending.ogg"
+
+/area/centcomm/medical
+	name = "Centcomm Medical"
+	icon_state = "purple"
+	music = "music/ending.ogg"
+
+/area/centcomm/bar
+	name = "Bar"
+	icon_state = "purple"
 	music = "music/ending.ogg"
 
 /area/centcomm/resupply
 	name = "Resupply Hangar"
-	requires_power = 0
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay1
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay2
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay3
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay4
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay5
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay6
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay7
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay8
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay9
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 // Misc.
 area/tele

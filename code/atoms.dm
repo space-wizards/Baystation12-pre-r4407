@@ -150,7 +150,7 @@
 
 	var/inertia_dir = 0
 
-	var/be_music = 1
+	var/be_music = 0
 	var/music_lastplayed = "null"
 
 	var/be_nudist = 0
