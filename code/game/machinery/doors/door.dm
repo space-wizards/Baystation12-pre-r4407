@@ -3,12 +3,15 @@
 	return
 
 /obj/machinery/door/Move()
+	block_zoning = 0
+	OpenWall(src)
 	..()
 	if (src.density)
 		var/turf/location = src.loc
 		if (istype(location, /turf))
 			location.updatecell = 0
-			location.buildlinks()
+			block_zoning = 1
+			CloseWall(src)
 	return
 
 /obj/machinery/door/attack_ai(mob/user as mob)
@@ -133,7 +136,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		T.buildlinks()
+		OpenDoor(src)
 	if(operating == 1) //emag again
 		src.operating = 0
 	if(autoclose)
@@ -153,7 +156,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		T.buildlinks()
+		CloseDoor(src)
 	sleep(15)
 	src.operating = 0
 	return

@@ -59,7 +59,7 @@
 	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
-		T.buildlinks()
+		OpenDoor(src)
 	if(operating == 1) //emag again
 		src.operating = 0
 	return 1
@@ -77,6 +77,6 @@
 	sleep(15)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
-		T.buildlinks()
+		CloseDoor(src)
 	src.operating = 0
 	return

@@ -165,9 +165,7 @@
 				else
 					if (src.health < -50.0)
 						t = 1.0E-4
-				if (locate(/obj/move, T))
-					T = locate(/obj/move, T)
-				var/turf_total = T.oxygen + T.poison + T.sl_gas + T.co2 + T.n2
+				var/turf_total = T.per_turf()//T.oxygen + T.poison() + T.sl_gas + T.co2 + T.n2
 				var/obj/substance/gas/G = new /obj/substance/gas(  )
 				G.maximum = 10000 //* T.tot_gas() / CELLSTANDARD // increase the mass of gas you can breath in with the pressure
 				if (src.internal)
@@ -175,14 +173,21 @@
 					if (src.internals)
 						src.internals.icon_state = "internal1"
 					if (( src.wear_mask.flags & 4 && (!( istype(src.head, /obj/item/weapon/clothing/head) ) || !( src.head.flags & 2 ))))
-						G.turf_add(T, G.tot_gas() * 0.5)
-						G.turf_take(T, t / 2 * turf_total - G.tot_gas())
+						//G.turf_add(T, G.tot_gas() * 0.5)
+						//G.turf_take(T, t / 2 * turf_total - G.tot_gas()*0.5)
+						G.turf_take(T, (t/2) * turf_total)
 				else
 					if (src.internals)
 						src.internals.icon_state = "internal0"
 					G.turf_take(T, t * turf_total)
 				if (G.tot_gas() > 650)
 					G.turf_add(T, G.tot_gas() - 650)
+				if (locate(/obj/move, T))
+					G.oxygen = O2STANDARD
+					G.n2 = N2STANDARD
+					G.plasma = 0
+					G.sl_gas = 0
+					G.co2 = 0
 				src.aircheck(G)
 				if(!src.internal)
 					for(var/obj/virus/V in T) V.infect(src)

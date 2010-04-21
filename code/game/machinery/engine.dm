@@ -213,6 +213,7 @@
 			engineturfs += ET
 
 	defer_powernet_rebuild = 1
+	moving_zone = 1
 	for(var/turf/T in engineturfs)
 		var/turf/S = new T.type( locate(T.x, T.y, engine_eject_z_target) )
 
@@ -221,13 +222,18 @@
 		for(var/atom/movable/AM as mob|obj in T)
 			AM.loc = S
 
-		S.oxygen = T.oxygen
-		S.poison = T.poison
+		/*S.oxygen = T.oxygen
+		S.poison = T.poison()
 		S.co2 = T.co2
 		S.sl_gas = T.sl_gas
 		S.n2 = T.n2
 		S.temp = T.temp
-		S.buildlinks()
+		S.buildlinks()*/
+		var/zone/Z = T.zone
+		if(Z)
+			Z.contents -= T
+			Z.contents += Z
+			S.zone = Z
 
 		A.contents += S
 		var/turf/P = new T.type( locate(T.x, T.y, T.z) )
@@ -240,6 +246,7 @@
 		P.buildlinks()
 
 	defer_powernet_rebuild = 0
+	moving_zone = 0
 	spawn(1)
 		makepowernets()
 	world << "\red <B>Engine Ejected!</B>"
@@ -316,7 +323,7 @@
 
 		t += "CO2: [t1]<BR>"
 
-		t1 = add_tspace(round(T.poison/turf_total * 100, 0.001),5)
+		t1 = add_tspace(round(T.poison()/turf_total * 100, 0.001),5)
 
 		t += "Plasma: [t1] "
 

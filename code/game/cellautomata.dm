@@ -90,7 +90,6 @@
 
 	if(name == "Centcom-Dock-Supply")
 		centcom_supply_dock = src.z
-		world.log << centcom_supply_dock
 		del(src)
 		return
 
@@ -199,7 +198,8 @@ var/map_loading = 1
 		sleep(10)
 		map_loading = 0
 		for (var/turf/T in world)
-			T.updatelinks()
+			T.checkfire = (T.x % 2 && T.y % 2)
+			//T.updatelinks()
 		makepipelines()
 		powernets_building = 0
 		makepowernets()
@@ -302,6 +302,11 @@ var/map_loading = 1
 	slmaster.icon = 'plasma.dmi'
 	slmaster.icon_state = "sl_gas"
 	slmaster.layer = FLY_LAYER
+
+	indmaster = new /obj/overlay(  )
+	indmaster.icon = 'plasma.dmi'
+	indmaster.icon_state = "indicator"
+	indmaster.layer = FLY_LAYER
 
 	cellcontrol = new /datum/control/cellular()
 	spawn (0)
@@ -544,7 +549,7 @@ var/map_loading = 1
 				AM.z = station_emerg_dock
 			var/turf/U = locate(T.x, T.y, T.z)
 			U.oxygen = T.oxygen
-			U.poison = T.poison
+			U.poison = T.poison()
 			U.co2 = T.co2
 			U.buildlinks()
 			del(T)
@@ -579,7 +584,7 @@ var/map_loading = 1
 							AM.z = centcom_emerg_dock
 						var/turf/U = locate(T.x, T.y, centcom_emerg_dock)
 						U.oxygen = T.oxygen
-						U.poison = T.poison
+						U.poison = T.poison()
 						U.co2 = T.co2
 
 						U.buildlinks()
@@ -696,17 +701,12 @@ var/update_state = 0
 		spawn(-1)
 			for(var/turf/space/space in world)
 				if (space.updatecell && space.update_again)
-					space.exchange()
-					space.updatecell()
 					sleep(0)
 			return
 
 	for(var/turf/station/T in world)
 		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
-			T.exchange()
-			T.updatecell()
-			if(!time)
-				T.conduction()
+			sleep(0)
 	sleep(3)
 	for(var/mob/M in world)
 		spawn( 0 )

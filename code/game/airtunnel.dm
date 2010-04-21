@@ -691,7 +691,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	if (locate(/obj/move, T))
 		T = locate(/obj/move, T)
-	var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+	var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 	turf_total = max(turf_total, 1)
 
 	//if (!( (75 < t1 && t1 < 125) ))
@@ -704,7 +704,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 
 	var/ppO2   = P * (T.oxygen / turf_total)
 	var/ppCO2  = P * (T.co2 / turf_total)
-	var/ppPlas = P * (T.poison / turf_total)
+	var/ppPlas = P * (T.poison() / turf_total)
 
 	// world.log << "[A.name] : P = [P] | FO2 = [FO2] | ppO2 = [ppO2]"
 	if (P < 0.90 || P > 1.10) // pressure alarm
@@ -761,7 +761,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		if (!( istype(T, /turf) ))
 			return
 
-		var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+		var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 		turf_total = max(turf_total, 1)
 		usr.show_message("\blue <B>Results:</B>", 1)
 		var/t = ""
@@ -770,31 +770,31 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 			usr.show_message(text("\blue Air Pressure: []%", t1), 1)
 		else
 			usr.show_message(text("\blue Air Pressure:\red []%", t1), 1)
-		t1 = T.n2 / turf_total * 100
+		t1 = T.n2() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if ((60 < t1 && t1 < 80))
 			t += text("<font color=blue>Nitrogen: []</font> ", t1)
 		else
 			t += text("<font color=red>Nitrogen: []</font> ", t1)
-		t1 = T.oxygen / turf_total * 100
+		t1 = T.oxygen() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if ((20 < t1 && t1 < 24))
 			t += text("<font color=blue>Oxygen: []</font> ", t1)
 		else
 			t += text("<font color=red>Oxygen: []</font> ", t1)
-		t1 = T.poison / turf_total * 100
+		t1 = T.poison() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 0.5)
 			t += text("<font color=blue>Plasma: []</font> ", t1)
 		else
 			t += text("<font color=red>Plasma: []</font> ", t1)
-		t1 = T.co2 / turf_total * 100
+		t1 = T.co2() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 1)
 			t += text("<font color=blue>CO2: []</font> ", t1)
 		else
 			t += text("<font color=red>CO2: []</font> ", t1)
-		t1 = T.sl_gas / turf_total * 100
+		t1 = T.sl_gas() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 5)
 			t += text("<font color=blue>NO2: []</font>", t1)
@@ -821,12 +821,12 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	if (locate(/obj/move, T))
 		T = locate(/obj/move, T)
-	var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+	var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 	turf_total = max(turf_total, 1)
 	var/t1 = turf_total / CELLSTANDARD * 100
 	if (!( (90 < t1 && t1 < 110) ))
 		safe = 0
-	t1 = T.oxygen / turf_total * 100
+	t1 = T.oxygen() / turf_total * 100
 	if (!( (20 < t1 && t1 < 30) ))
 		safe = 0
 	src.icon_state = text("indicator[]", safe)

@@ -14,6 +14,7 @@ var
 	obj/datacore/data_core = null
 	obj/overlay/plmaster = null
 	obj/overlay/slmaster = null
+	obj/overlay/indmaster = null
 	going = 1.0
 	master_mode = "random"//"extended"
 	air_cycle = 5
