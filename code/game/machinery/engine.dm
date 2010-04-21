@@ -1,24 +1,5 @@
 /obj/machinery/computer/engine/req_access = list(access_eject_engine)
 
-/obj/machinery/computer/engine/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
 /obj/machinery/computer/engine/New()
 	if (!( engine_eject_control ))
 		engine_eject_control = new /datum/engine_eject(  )
@@ -289,6 +270,19 @@
 			L += A
 
 	return L
+
+/obj/machinery/gas_sensor/receivemessage(message, srcmachine)
+	if(..())
+		return
+	var/list/mess = dd_text2list(stripnetworkmessage(message), " ")
+	if (uppertext(mess[1]) == "SENSE")
+		var/turf/T = src.loc
+		var/turf_total = T.tot_gas()
+		var/g1 = "[round(T.oxygen/turf_total * 100, 0.1)] [round(T.co2/turf_total * 100, 0.1)]"
+		var/g2 = "[round(T.poison/turf_total * 100, 0.1)]  [round(T.sl_gas/turf_total * 100, 0.1)]"
+		var/g3 = "[round(T.n2/turf_total * 100, 0.1)]  [round(turf_total / CELLSTANDARD * 100, 0.1)]"
+		transmitmessage(createmessagetomachine("REPORT GAS [tag] [g1] [g2] [g3] [round(T.temp - T0C,0.1)]", srcmachine))
+
 
 /obj/machinery/gas_sensor/proc/sense_string()
 

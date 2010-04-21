@@ -817,20 +817,26 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 
 	var/safe = 1
 	var/turf/T = src.loc
+
 	if (!( istype(T, /turf) ))
 		return
+
 	if (locate(/obj/move, T))
 		T = locate(/obj/move, T)
+
 	var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+
 	turf_total = max(turf_total, 1)
+
 	var/t1 = turf_total / CELLSTANDARD * 100
 	if (!( (90 < t1 && t1 < 110) ))
 		safe = 0
+
 	t1 = T.oxygen / turf_total * 100
 	if (!( (20 < t1 && t1 < 30) ))
 		safe = 0
+
 	src.icon_state = text("indicator[]", safe)
-	SS13_airtunnel.air_stat = safe
 	return
 
 /datum/air_tunnel/air_tunnel1/New()

@@ -259,6 +259,49 @@ area/maintenance/atmos
 	icon_state = "atmoss"
 	music = "music/atmos.wav"
 
+area/maintenance/atmos/mixing
+	name = "Atmospherics Mixing Chamber"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmos/mixingroom
+	name = "Atmospherics Mixing room"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmos/canister
+	name = "Atmospherics Canister Storage"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmostanks/oxygen
+	name = "Oxygen Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/plasma
+	name = "Plasma Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/carbondioxide
+	name = "CO2 Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/anesthetic
+	name = "N2O Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/nitrogen
+	name = "N2 Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/other
+	name = "Waste Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/burn
+	name = "Burnoff Chamber"
+	icon_state = "atmoss"
+
 area/maintenance/janitor
 	name = "Custodial Closet"
 	icon_state = "green"

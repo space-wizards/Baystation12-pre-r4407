@@ -605,7 +605,7 @@ var/list/lines = list()
 	updateicon()
 
 
-/obj/machinery/circulator/proc/updateicon()
+/obj/machinery/circulator/updateicon()
 
 	if(stat & NOPOWER)
 		icon_state = "circ[side]-p"
@@ -1607,7 +1607,10 @@ var/list/lines = list()
 	return src.attack_hand(user)
 
 /obj/machinery/valve/dvalve/attack_ai(var/mob/user as mob)
-	return src.attack_hand(user)
+	if(istype(user,/mob/ai))
+		var/mob/ai/AI = user
+		var/password = accesspasswords["[password_digitalvalve]"]
+		AI.sendcommand("[password] TOGGLE",src)
 
 /obj/machinery/valve/dvalve/attack_hand(mob/user)
 	..()
@@ -1624,6 +1627,40 @@ var/list/lines = list()
 		icon_state = "dvalve0"
 		sleep(10)
 	open = !open
+
+
+/obj/machinery/valve/dvalve/receivemessage(message,sender)
+	var/listofcommand = getcommandlist(message)
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "TOGGLE")
+			spawn(0)
+				if(!open)		// now opening
+					flick("dvalve01", src)
+					icon_state = "dvalve1"
+					sleep(10)
+				else			// now closing
+					flick("dvalve10", src)
+					icon_state = "dvalve0"
+					sleep(10)
+				open = !open
+
+		else if(listofcommand[2] == "RELEASE")
+
+			if(!open)
+				spawn(0)
+					flick("dvalve01", src)
+					icon_state = "dvalve1"
+					sleep(10)
+					open = !open
+
+		else if(listofcommand[2] == "PASS")
+			if(open)
+				spawn(0)
+					flick("dvalve10", src)
+					icon_state = "dvalve0"
+					sleep(10)
+					open = !open
+
 
 // one way pipe
 
@@ -1733,7 +1770,7 @@ var/list/lines = list()
 	else
 		leak_to_turf(2)
 
-/obj/machinery/oneway/pipepump/proc/updateicon()
+/obj/machinery/oneway/pipepump/updateicon()
 	icon_state = "pipepump-[(stat & NOPOWER) ? "stop" : "run"]"
 
 /obj/machinery/oneway/pipepump/power_change()
@@ -1824,7 +1861,7 @@ var/list/lines = list()
 		updateicon()
 	return
 
-/obj/machinery/inlet/filter/proc/updateicon()
+/obj/machinery/inlet/filter/updateicon()
 	if(stat & NOPOWER)
 		icon_state = "inlet_filter-0"
 		return
@@ -1852,7 +1889,7 @@ var/list/lines = list()
 		updateicon()
 	return
 
-/obj/machinery/vent/filter/proc/updateicon()
+/obj/machinery/vent/filter/updateicon()
 	if(stat & NOPOWER)
 		icon_state = "vent_filter-0"
 		return

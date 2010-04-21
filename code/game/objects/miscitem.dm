@@ -285,7 +285,11 @@
 						src.attack_paw(usr, usr.hand)
 					else
 						if (istype(usr, /mob/ai))
-							src.attack_ai(usr, usr.hand)
+							var/mob/ai/aiusr = usr
+							if(istype(src, /obj/machinery))
+								aiusr.sendcommand("CONTROL", src)
+							else
+								src.attack_ai(usr)
 		else
 			if (istype(usr, /mob/human))
 				src.hand_h(usr, usr.hand)

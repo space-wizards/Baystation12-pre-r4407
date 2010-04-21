@@ -5,6 +5,7 @@
 	var/obj/machinery/computer/comdisc/relay = null
 
 /obj/machinery/computer/comcontrol/New()
+	..()
 	if(!relay)
 		var/obj/machinery/computer/comdisc/wep
 		var/list/whoop
@@ -84,7 +85,7 @@
 	..()
 	updateicon()
 
-/obj/machinery/computer/comcontrol/proc/updateicon()
+/obj/machinery/computer/comcontrol/updateicon()
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
 	..()
 	if(istype(W,/obj/item/weapon/sheet/glass))
@@ -130,7 +131,7 @@
 			return
 	return
 
-/obj/machinery/computer/comdisc/proc/updateicon()
+/obj/machinery/computer/comdisc/updateicon()
 	overlays = null
 	if(buildstate < 6)
 		return

@@ -43,6 +43,12 @@
 	access_ai = 41
 	access_captain = 42
 	access_network = 43 //To be fully implemented with the network branch - Sukasa 06/04/10
+	password_firedoor = 100
+	password_smeg = 101
+	password_digitalvalve = 102
+	password_router = 103
+
+
 	/obj/var/list/req_access = null
 /obj/var/req_access_txt = "0"
 /obj/New()
@@ -56,6 +62,27 @@
 					req_access = list()
 				req_access += n
 	..()
+
+
+/obj/proc/get_password()
+	if(!src.req_access || !istype(src.req_access, /list) || !src.req_access.len)
+		return "0"
+	return accesspasswords["[req_access[1]]"]
+
+/obj/proc/check_password(var/password)
+	if(!src.req_access) //no requirements
+		return 1
+	if(!istype(src.req_access, /list)) //something's very wrong
+		return 1
+
+	var/list/L = src.req_access
+	if(!L.len) //no requirements
+		return 1
+
+	for(var/req in src.req_access)
+		if(accesspasswords["[req]"] == password) //doesn't have this access
+			return 1
+	return 0
 
 //returns 1 if this mob has sufficient access to use this object
 /obj/proc/allowed(mob/M)
@@ -92,6 +119,13 @@
 		if(!(req in I.access)) //doesn't have this access
 			return 0
 	return 1
+
+/proc/gen_access()
+	for(var/access in get_all_accesses())
+		accesspasswords["[access]"] = num2hex(rand(1, 65535),4)
+	for(var/access in get_all_passwords())
+		accesspasswords["[access]"] = num2hex(rand(1, 65535),4)
+
 
 /proc/get_access(job)
 	switch(job)
@@ -171,6 +205,9 @@
 	access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
 	access_hos, /*access_legal_cabinet,*/ access_judge_bench, access_change_ids, access_hop, access_teleporter,
 	access_ai, access_captain, access_network)
+
+/proc/get_all_passwords()
+	return list(password_smeg,password_firedoor,password_digitalvalve,password_router)
 
 /proc/get_access_desc(A)
 	switch(A)

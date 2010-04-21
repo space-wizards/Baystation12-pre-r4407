@@ -73,6 +73,21 @@
 	src.operating = 0
 	return
 
+/obj/machinery/door/poddoor/receivemessage(message,sender)
+	if(..())
+		return 1
+	var/command = uppertext(stripnetworkmessage(message))
+	world << "DOOR REC [command]"
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "OPEN")
+			spawn(0)
+				openpod()
+		else if(listofcommand[2] == "CLOSE")
+			spawn(0)
+				closepod()
+	return 0
+
 ///////////////////////
 //Stationwide shields//
 ///////////////////////

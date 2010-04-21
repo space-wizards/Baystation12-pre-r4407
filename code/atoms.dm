@@ -294,6 +294,9 @@
 	var/cameraFollow = null
 	var/alarms = list("Motion"=list(), "Fire"=list(), "Atmosphere"=list(), "Power"=list())
 	var/viewalerts = 0
+	var/obj/machinery/AIconnector/connectora
+	var/obj/machinery/connector = null
+	var/list/connectors = list()
 
 /obj
 	var/datum/module/mod
@@ -2830,6 +2833,9 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/global/list/usedids = list()
 	var/netID = 0
 	var/sniffer = 0
+	var/ailabel = ""
+	var/list/mob/ai/ais = list()
+	var/nohack = 0
 
 /obj/machinery/alarm
 	name = "alarm"
@@ -2837,10 +2843,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "alarm:0"
 	anchored = 1.0
 	var/old_safe = - 1 // used to avoid broadcasting the alarm's state when nothng changed
+	layer = 3.1
+
 /obj/machinery/alarm/indicator
 	name = "indicator"
 	icon = 'airtunnel.dmi'
 	icon_state = "indicator"
+
 /obj/machinery/at_indicator
 	name = "Air Tunnel Indicator"
 	icon = 'airtunnel.dmi'
@@ -2953,29 +2962,31 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/siphs/fullairsiphon/air_vent
 	name = "Air regulator"
 	icon = 'aircontrol.dmi'
+	layer = 2.7
 	icon_state = "vent2"
 	t_status = 4.0
 	alterable = 0.0
 	density = 0	//*****
 /obj/machinery/atmoalter/siphs/fullairsiphon/port
-	name = "Portable Siphon"
+	name = "Portable Air Regulator"
 	icon = 'stationobjs.dmi'
 	flags = FPRINT
 	anchored = 0.0
 /obj/machinery/atmoalter/siphs/scrubbers
-	name = "scrubbers"
+	name = "Scrubber"
 	icon = 'turfs2.dmi'
 	icon_state = "siphon:0"
 /obj/machinery/atmoalter/siphs/scrubbers/air_filter
-	name = "air filter"
+	name = "Air Filter"
 	icon = 'aircontrol.dmi'
 	icon_state = "vent2"
 	t_status = 4.0
 	alterable = 0.0
+	layer = 2.7
 	density = 0 //*****
 
 /obj/machinery/atmoalter/siphs/scrubbers/port
-	name = "Portable Siphon"
+	name = "Portable Scrubber"
 	icon = 'stationobjs.dmi'
 	icon_state = "scrubber:0"
 	flags = FPRINT
@@ -3036,6 +3047,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 	var/buildstate = 6
 	var/hasdisk = 0
+	luminosity = 2
+
 /obj/machinery/computer/frame
 	name = "Computer Frame"
 	density = 1
@@ -3263,6 +3276,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/substance/gas/ngas
 	var/capacity = 6000000
 	capmult = 2
+	cnetdontadd = 1
 
 /obj/machinery/inlet/filter
 	name = "filter inlet"
@@ -3271,6 +3285,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A gas pipe inlet with a remote controlled filter on it."
 	var/control = null
 	var/f_mask = 0
+	cnetdontadd = 0
 
 /obj/machinery/vent
 	name = "vent"
@@ -3285,6 +3300,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/substance/gas/ngas
 	var/capacity = 6000000
 	capmult = 2
+	cnetdontadd = 1
 
 /obj/machinery/vent/filter
 	name = "filter vent"
@@ -3293,6 +3309,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A gas pipe outlet vent with a remote controlled filter on it."
 	var/control = null
 	var/f_mask = 0
+	cnetdontadd = 0
 
 /obj/machinery/cryo_cell
 	name = "cryo cell"
@@ -3567,6 +3584,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'pipes2.dmi'
 	icon_state = "pipepump-run"
 	var/rate = 6000000.0
+	cnetdontadd = 1
 
 /obj/machinery/manifold
 	name = "manifold"
@@ -3589,6 +3607,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/machinery/vnode1
 	var/obj/machinery/vnode2
 	var/obj/machinery/vnode3
+	cnetdontadd = 1
 
 
 	capmult = 3
@@ -3663,6 +3682,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/insulation = NORMPIPERATE
 	var/plnum = 0
 	var/obj/machinery/pipeline/pl
+	cnetdontadd = 1
 
 
 
@@ -3680,6 +3700,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	invisibility = 101
 	capmult = 0
 	var/flow = 0
+	cnetdontadd = 1
 
 
 /obj/machinery/pipes/flexipipe
@@ -3717,6 +3738,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/can_rotate = 1
 	var/can_maximize_speed = 0
 	var/one_person_only = 0
+	cnetdontadd = 1
 
 /obj/machinery/vehicle/pod
 	name = "Escape Pod"
@@ -3801,6 +3823,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/machinery/door/d2 = null
 	anchored = 1.0
 	req_access = list(access_brig)
+	nohack = 1
 
 /obj/machinery/door_control
 	name = "Remote Door Control"
@@ -3809,6 +3832,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A remote control switch for a door."
 	var/id = null
 	anchored = 1.0
+	nohack = 1
 
 /obj/machinery/filter_control
 	name = "Remote Filter Control"
@@ -3818,6 +3842,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/control = null
 	req_access = list(access_atmospherics)
 	anchored = 1.0
+	nohack = 1
 	var/f_mask = 0	//to stay synced with what we control
 	var/locked = 1 //keep track of if we got screwdrivered or no
 	var/emagged = 0 //Keep track of emag sprite + if everyone is allowed to access controls
@@ -3892,6 +3917,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	level = 1
 	var/obj/machinery/power/master = null
 	anchored = 1
+	cnetdontadd = 1
 	directwired = 0		// must have a cable on same turf connecting to terminal
 
 /obj/machinery/power/generator
@@ -3919,6 +3945,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "power"
 	density = 1
 	anchored = 1
+	luminosity = 2
 
 #define SMESMAXCHARGELEVEL 200000
 #define SMESMAXOUTPUT 200000
@@ -3959,6 +3986,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/turn_angle = 0
 	var/obj/machinery/power/solar_control/control
 	var/building=0
+	luminosity = 0
 
 /obj/machinery/computer/comdisc
 	name = "Communications Dish"
@@ -4001,6 +4029,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/item/weapon/tank/holding
 	anchored = 0
 	netnum = -1
+	cnetdontadd = 1
 	directwired = 0
 
 /obj/machinery/compressor
@@ -4017,6 +4046,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/rpm = 0
 	var/rpmtarget = 0
 	var/capacity = 1e6
+	cnetdontadd = 1
 
 /obj/machinery/power/turbine
 	name = "gas turbine generator"
@@ -4039,6 +4069,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "ccharger0"
 	var/obj/item/weapon/cell/charging = null
 	var/chargelevel = -1
+	cnetdontadd = 1
 	anchored = 1
 
 /obj/machinery/light_switch
@@ -4817,7 +4848,8 @@ obj/machinery/vendingmachine/soda
 	anchored = 1.0
 	density = 1
 	var/list/datum/computernet/connectednets = list()
-	var/mob/ai/AI = null //Link to the current connected AI
+	var/list/datum/computernet/disconnectednets = list()
+	req_access_txt = "103"
 
 /obj/machinery/mailserver
 	name = "Mail Server"

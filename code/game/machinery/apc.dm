@@ -1,3 +1,56 @@
+// the power cell
+// charge from 0 to 100%
+// fits in APC to provide backup power
+
+/obj/item/weapon/cell/New()
+	..()
+
+	charge = charge * maxcharge/100.0		// map obj has charge as percentage, convert to real value here
+
+	spawn(5)
+		updateicon()
+
+
+/obj/item/weapon/cell/proc/updateicon()
+
+	if(maxcharge <= 2500)
+		icon_state = "cell"
+	else
+		icon_state = "hpcell"
+
+	overlays = null
+
+	if(charge < 0.01)
+		return
+	else if(charge/maxcharge >=0.995)
+		overlays += image('power.dmi', "cell-o2")
+	else
+		overlays += image('power.dmi', "cell-o1")
+
+/obj/item/weapon/cell/proc/percent()		// return % charge of cell
+	return 100.0*charge/maxcharge
+
+/obj/item/weapon/cell/examine()
+	set src in view(1)
+	if(usr && !usr.stat)
+		if(maxcharge <= 2500)
+			usr << "[desc]\nThe manufacturer's label states this cell has a power rating of [maxcharge], and that you should not swallow it.\nThe charge meter reads [round(src.percent() )]%."
+		else
+			usr << "This power cell has an exciting chrome finish, as it is an uber-capacity cell type! It has a power rating of [maxcharge]!!!\nThe charge meter reads [round(src.percent() )]%."
+
+// common helper procs for all power machines
+/obj/item/weapon/cell/attackby(obj/item/weapon/clothing/gloves/W, mob/user)
+	if(charge < 5000)
+		return
+	else
+		var/a = charge
+		W.elecgen = 1
+		W.uses = 1
+		charge = a - 5000
+		updateicon()
+		user << "\red These gloves are now temporarily electrically charged!"
+
+
 #define APC_WIRE_IDSCAN 1
 #define APC_WIRE_MAIN_POWER1 2
 #define APC_WIRE_MAIN_POWER2 3
@@ -145,7 +198,7 @@
 
 // update the APC icon to show the three base states
 // also add overlays for indicator lights
-/obj/machinery/power/apc/proc/updateicon()
+/obj/machinery/power/apc/updateicon()
 	if(repair_state > 0)
 		icon_state = "apc_r[repair_state]"
 		src.overlays = null
@@ -361,7 +414,8 @@
 
 	user.machine = src
 	var/t = "<TT><B>Area Power Controller</B> ([area.name])<HR>"
-
+	if(locked && (!istype(user,/mob/ai)))
+		t += "<A href='?src=\ref[src];locki=1'>Unlock Interface</A><BR>"
 	if(locked && (!istype(user, /mob/ai)))
 		t += "<I>(Swipe ID card to unlock inteface.)</I><BR>"
 		t += "Main breaker : <B>[operating ? "On" : "Off"]</B><BR>"
@@ -381,10 +435,11 @@
 
 		t += "<BR>Total load: [lastused_light + lastused_equip + lastused_environ] W</PRE>"
 		t += "<HR>Cover lock: <B>[coverlocked ? "Engaged" : "Disengaged"]</B>"
-
 	else
 		if (!istype(user, /mob/ai))
 			t += "<I>(Swipe ID card to lock interface.)</I><BR>"
+		else if (!locked)
+			t += "<A href='?src=\ref[src];locki=1'>Lock Interface</A><BR>"
 		t += "Main breaker: [operating ? "<B>On</B> <A href='?src=\ref[src];breaker=1'>Off</A>" : "<A href='?src=\ref[src];breaker=1'>On</A> <B>Off</B>" ]<BR>"
 		t += "External power : <B>[ main_status ? (main_status ==2 ? "<FONT COLOR=#004000>Good</FONT>" : "<FONT COLOR=#D09000>Low</FONT>") : "<FONT COLOR=#F00000>None</FONT>"]</B><BR>"
 		if(cell)
@@ -454,6 +509,8 @@
 
 /obj/machinery/power/apc/proc/update()
 	if(operating && !shorted)
+		//if (area.power_light != (lighting > 1))
+			//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] POWER [lighting > 1 ? "ON":"OFF"]"))
 		area.power_light = (lighting > 1)
 		area.power_equip = (equipment > 1)
 		area.power_environ = (environ > 1)
@@ -625,10 +682,40 @@
 				src.updateDialog()
 
 
+/obj/machinery/power/apc/proc/AITopic(href, href_list, mob/ai/user)
+	var/password = accesspasswords["[access_apcs]"]
+	if (href_list["lock"])
+		user.sendcommand("[password] [coverlocked?"":"UN"]LOCK COVER", src)
+	else if (href_list["locki"])
+		user.sendcommand("[password] [locked?"":"UN"]LOCK INTERFACE", src)
+	else if (href_list["breaker"])
+		user.sendcommand("[password] O[operating?"FF":"N"] BREAKER", src)
+	else if (href_list["cmode"])
+		user.sendcommand("[password] CHARGE [chargemode?"OFF":"AUTO"]", src)
+	else if (href_list["eqp"])
+		var/val = text2num(href_list["eqp"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] EQUIP", src)
+	else if (href_list["lgt"])
+		var/val = text2num(href_list["lgt"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] LIGHT", src)
+	else if (href_list["env"])
+		var/val = text2num(href_list["env"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] ENVIRON", src)
+	else if( href_list["close"] )
+		usr << browse(null, "window=apc")
+		usr.machine = null
+	else if (href_list["close2"])
+		usr << browse(null, "window=apcwires")
+		usr.machine = null
+	return
+
 /obj/machinery/power/apc/Topic(href, href_list)
 	..()
 	if ((((get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf))) || ((istype(usr, /mob/ai) && !(src.aidisabled))))
 		usr.machine = src
+		if (istype(usr,/mob/ai))
+			return AITopic(href, href_list, usr)
+
 		if (href_list["apcwires"])
 			var/t1 = text2num(href_list["apcwires"])
 			if (!( istype(usr.equipped(), /obj/item/weapon/wirecutters) ))
@@ -920,3 +1007,90 @@
 
 	operating = 0
 	update()
+
+/obj/machinery/power/apc/receivemessage(message,sender)
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		if(listofcommand[3] == "ALL")
+			if(listofcommand[2] == "ON")
+				lighting = 2
+				equipment = 2
+				environ = 2
+				operating = 1
+			else if(listofcommand[2] == "OFF")
+				lighting = 0
+				equipment = 0
+				environ = 0
+				operating = 0
+			else if(listofcommand[2] == "AUTO")
+				lighting = 3
+				equipment = 3
+				environ = 3
+				operating = 1
+			updateicon()
+			update()
+			updateDialog()
+
+		if(listofcommand[3] == "BREAKER")
+			if(listofcommand[2] == "ON")
+				operating = 1
+			else if(listofcommand[2] == "OFF")
+				operating = 0
+			src.update()
+			updateicon()
+			updateDialog()
+
+		else if(listofcommand[3] == "LIGHT")
+			if(listofcommand[2] == "ON")
+				lighting = 2
+			else if(listofcommand[2] == "OFF")
+				lighting = 0
+			else if(listofcommand[2] == "AUTO")
+				lighting = 3
+			updateicon()
+			update()
+		else if(listofcommand[3] == "ENVIRON")
+			if(listofcommand[2] == "ON")
+				environ = 2
+			else if(listofcommand[2] == "OFF")
+				environ = 0
+			else if(listofcommand[2] == "AUTO")
+				environ = 3
+			updateicon()
+			update()
+			updateDialog()
+
+		else if(listofcommand[3] == "EQUIP")
+			if(listofcommand[2] == "ON")
+				equipment = 2
+			else if(listofcommand[2] == "OFF")
+				equipment = 0
+			else if(listofcommand[2] == "AUTO")
+				equipment = 3
+			updateicon()
+			update()
+			updateDialog()
+
+		else if(listofcommand[2] == "UNLOCK")
+			if(listofcommand[3] == "INTERFACE")
+				locked = 0
+			else if(listofcommand[3] == "PANEL")
+				coverlocked = 0
+			updateDialog()
+		else if(listofcommand[2] == "LOCK")
+			if(listofcommand[3] == "INTERFACE")
+				locked = 1
+			else if(listofcommand[3] == "PANEL")
+				coverlocked = 1
+			updateDialog()
+		else if(listofcommand[2] == "CHARGE")
+			if(listofcommand[3] == "AUTO")
+				chargemode = 1
+			else if(listofcommand[3] == "OFF")
+				chargemode = 0
+				charging = 0
+			updateicon()
+			updateDialog()

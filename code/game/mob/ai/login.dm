@@ -13,3 +13,13 @@
 		src.client.eye = src.loc
 		src.client.perspective = EYE_PERSPECTIVE
 	return
+
+
+/mob/ai/New()
+	..()
+	src.connector = new /obj/machinery/AIconnector(src.loc)
+	connectora = src.connector
+	connectora.ais += src
+	connector.ailabel = "Local Hardlink"
+	src.connectors["Local Hardlink"] = src.connector
+	makecomputernets(1)

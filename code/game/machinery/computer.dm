@@ -15,6 +15,8 @@
 	return 1
 
 /obj/machinery/computer/meteorhit(var/obj/O as obj)
+	if (stat & BROKEN)
+		return
 	for(var/x in src.verbs)
 		src.verbs -= x
 	src.icon_state = "[hasdisk ? "disk":""]broken"
@@ -28,6 +30,7 @@
 /obj/machinery/computer/communications/ex_act(severity)
 	switch(severity)
 		if(1.0)
+			sd_SetLuminosity(0)
 			del(src)
 			return
 		if(2.0)
@@ -36,12 +39,14 @@
 					src.verbs -= x
 				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
+				sd_SetLuminosity(0)
 		if(3.0)
 			if (prob(25))
 				for(var/x in src.verbs)
 					src.verbs -= x
 				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
+				sd_SetLuminosity(0)
 		else
 
 /obj/machinery/computer/blob_act()
@@ -50,6 +55,7 @@
 			src.verbs -= x
 		src.icon_state = "[hasdisk ? "disk":""]broken"
 		src.stat |= BROKEN
+		sd_SetLuminosity(0)
 		src.density = 0
 
 /obj/machinery/computer/power_change()
@@ -64,11 +70,13 @@
 			spawn(rand(4, 10))
 				icon_state = initial(icon_state)
 				flick("[hasdisk ? "disk":""]flick_poweron", src)
+				sd_SetLuminosity(initial(src.luminosity))
 			stat &= ~NOPOWER
 		else if (!powered() && !(stat & NOPOWER))
 			spawn(rand(0, 15))
 				flick("[hasdisk ? "disk":""]flick_poweroff", src)
 				src.icon_state = "[hasdisk ? "disk":""]off"
+				spawn(3) sd_SetLuminosity(0)
 			stat |= NOPOWER
 
 /obj/machinery/Topic(href, href_list)
@@ -481,26 +489,6 @@
 
 	return
 
-/obj/machinery/computer/card/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		else
-	return
-
 /obj/machinery/computer/card/attack_ai(var/mob/user as mob)
 	return src.attack_hand(user)
 
@@ -646,27 +634,6 @@
 
 /obj/machinery/computer/card/attackby(I as obj, user as mob)
 	src.attack_hand(user)
-	return
-
-/obj/machinery/computer/pod/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		else
 	return
 
 /obj/machinery/computer/pod/proc/alarm()

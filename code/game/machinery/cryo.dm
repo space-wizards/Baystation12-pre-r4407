@@ -369,11 +369,13 @@
 			//SN src = null
 			del(src)
 			return
+			sd_SetLuminosity(0)
 		if(2.0)
 			if (prob(50))
 				//SN src = null
 				del(src)
 				return
+				sd_SetLuminosity(0)
 		else
 	return
 
