@@ -149,11 +149,13 @@
 								src << "Connection verified. Searching for APC in power network."
 								sleep(50)
 								var/obj/machinery/power/apc/theAPC = null
-								for (var/something in loc)
-									if (istype(something, /obj/machinery/power/apc))
-										if (!(something:stat & BROKEN))
-											theAPC = something
-											break
+								find_apc:
+									for (var/area/A in loc.superarea.areas)
+										for (var/something in A)
+											if (istype(something, /obj/machinery/power/apc))
+												if (!(something:stat & BROKEN))
+													theAPC = something
+													break find_apc
 								if (theAPC==null)
 									src << "Unable to locate APC!"
 									src:aiRestorePowerRoutine = 2
@@ -166,11 +168,13 @@
 								src << "APC located. Optimizing route to APC to avoid needless power waste."
 								sleep(50)
 								theAPC = null
-								for (var/something in loc)
-									if (istype(something, /obj/machinery/power/apc))
-										if (!(something:stat & BROKEN))
-											theAPC = something
-											break
+								find_apc2:
+									for (var/area/A in loc.superarea.areas)
+										for (var/something in A)
+											if (istype(something, /obj/machinery/power/apc))
+												if (!(something:stat & BROKEN))
+													theAPC = something
+													break find_apc2
 								if (theAPC==null)
 									src << "APC connection lost!"
 									src:aiRestorePowerRoutine = 2
@@ -183,11 +187,13 @@
 								src << "Best route identified. Hacking offline APC power port."
 								sleep(50)
 								theAPC = null
-								for (var/something in loc)
-									if (istype(something, /obj/machinery/power/apc))
-										if (!(something:stat & BROKEN))
-											theAPC = something
-											break
+								find_apc3:
+									for (var/area/A in loc.superarea.areas)
+										for (var/something in A)
+											if (istype(something, /obj/machinery/power/apc))
+												if (!(something:stat & BROKEN))
+													theAPC = something
+													break find_apc3
 								if (theAPC==null)
 									src << "APC connection lost!"
 									src:aiRestorePowerRoutine = 2
@@ -200,11 +206,13 @@
 								src << "Power port upload access confirmed. Loading control program into APC power port software."
 								sleep(50)
 								theAPC = null
-								for (var/something in loc)
-									if (istype(something, /obj/machinery/power/apc))
-										if (!(something:stat & BROKEN))
-											theAPC = something
-											break
+								find_apc4:
+									for (var/area/A in loc.superarea.areas)
+										for (var/something in A)
+											if (istype(something, /obj/machinery/power/apc))
+												if (!(something:stat & BROKEN))
+													theAPC = something
+													break find_apc4
 								if (theAPC==null)
 									src << "APC connection lost!"
 									src:aiRestorePowerRoutine = 2
@@ -216,10 +224,11 @@
 										return
 								src << "Transfer complete. Forcing APC to execute program."
 								sleep(50)
-								src << "Receiving control information from APC."
+								src << "Forcing APC equipment power channel on"
 								sleep(2)
 								//bring up APC dialog
-								theAPC.attack_ai(src)
+								theAPC.equipment = 2
+								theAPC.update()
 								src:aiRestorePowerRoutine = 3
 								src << "Your laws have been reset:"
 								src.showLaws(0)

@@ -1,24 +1,5 @@
-/obj/machinery/computer/prison_shuttle/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
-
 /obj/machinery/computer/prison_shuttle/verb/take_off()
-
+	set name = "Take Off"
 	set src in oview(1)
 
 	if (usr.stat || usr.restrained())
@@ -167,28 +148,8 @@
 				spawn(0)	shake_camera(M, 2, 1)
 
 
-
-
-/obj/machinery/computer/supply_shuttle/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
 /obj/machinery/computer/supply_shuttle/verb/take_off()
-
+	set name = "Take Off"
 	var/area/A = locate(/area/shuttle_supply)
 	for(var/area/B in A.superarea.areas)
 		for(var/mob/M in B)
@@ -266,24 +227,6 @@
 			M.show_message("\red <B>Supply shuttle atmosphere restabilized!</B>")
 	return
 
-/obj/machinery/computer/shuttle/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
 
 /obj/machinery/computer/shuttle/verb/restabalize()
 /*

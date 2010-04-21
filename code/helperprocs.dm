@@ -1,3 +1,39 @@
+/proc/replace(haystack, needle, newneedle)
+	var
+		list/find_list = stringsplit(needle, haystack)
+		final_text = listjoin(find_list,newneedle)
+	return final_text
+
+/proc/listjoin(list/list,delimiter)
+	var
+		final_text
+		iter = 1
+	for(var/E in list)
+		if(iter > 1) final_text += "[delimiter]"
+		final_text += E
+		iter++
+	return final_text
+
+/proc/stringsplit(character, txt)
+	var
+		cur_text = txt
+		last_found = 1
+		found_char = findtext(cur_text,character)
+		list/list = list()
+	if(found_char)
+		var/fs = copytext(cur_text,last_found,found_char)
+		list += fs
+		last_found = found_char+length(character)
+		found_char = findtext(cur_text,character,last_found)
+	while(found_char)
+		var
+			found_string = copytext(cur_text,last_found,found_char)
+		last_found = found_char+length(character)
+		list += found_string
+		found_char = findtext(cur_text,character,last_found)
+	list += copytext(cur_text,last_found,length(cur_text)+1)
+	return list
+
 /proc/hex2num(hex)
 
 	if (!( istext(hex) ))

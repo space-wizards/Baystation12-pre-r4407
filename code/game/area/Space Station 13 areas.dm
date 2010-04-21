@@ -259,6 +259,49 @@ area/maintenance/atmos
 	icon_state = "atmoss"
 	music = "music/atmos.wav"
 
+area/maintenance/atmos/mixing
+	name = "Atmospherics Mixing Chamber"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmos/mixingroom
+	name = "Atmospherics Mixing room"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmos/canister
+	name = "Atmospherics Canister Storage"
+	icon_state = "atmoss"
+	music = "music/atmos.wav"
+
+area/maintenance/atmostanks/oxygen
+	name = "Oxygen Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/plasma
+	name = "Plasma Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/carbondioxide
+	name = "CO2 Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/anesthetic
+	name = "N2O Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/nitrogen
+	name = "N2 Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/other
+	name = "Waste Tank"
+	icon_state = "atmoss"
+
+area/maintenance/atmostanks/burn
+	name = "Burnoff Chamber"
+	icon_state = "atmoss"
+
 area/maintenance/janitor
 	name = "Custodial Closet"
 	icon_state = "green"
@@ -494,49 +537,57 @@ area/solar/west
 /area/centcomm
 	name = "Centcomm"
 	icon_state = "purple"
-	requires_power = 0
+	music = "music/ending.ogg"
+
+/area/centcomm/medical
+	name = "Centcomm Medical"
+	icon_state = "purple"
+	music = "music/ending.ogg"
+
+/area/centcomm/bar
+	name = "Bar"
+	icon_state = "purple"
 	music = "music/ending.ogg"
 
 /area/centcomm/resupply
 	name = "Resupply Hangar"
-	requires_power = 0
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay1
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay2
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay3
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay4
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay5
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay6
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay7
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay8
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 /area/centcomm/podbay9
 	name = "Pod Bay"
-	music = ""
+	music = "music/ending.ogg"
 
 // Misc.
 area/tele

@@ -43,7 +43,7 @@
 	spawn(1)
 		updateicon()
 
-/obj/machinery/conveyor/proc/updateicon()
+/obj/machinery/conveyor/updateicon()
 	src.icon_state = text("[]", on && !(stat & (NOPOWER|BROKEN)))
 
 
@@ -111,7 +111,7 @@
 				A.soundwarning()
 	src.updateUsrDialog()
 
-/obj/machinery/conveyor_control/proc/updateicon()
+/obj/machinery/conveyor_control/updateicon()
 	overlays = null
 	overlays += image('conveyor.dmi', "cb-s[state]")
 

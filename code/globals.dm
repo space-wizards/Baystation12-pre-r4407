@@ -81,18 +81,23 @@ var
 	datum/configuration/config = null
 	datum/vote/vote = null
 	datum/sun/sun = null
+	datum/rtable/routingtable = new /datum/rtable()
 
 	list/plines = list()
 	list/gasflowlist = list()
 	list/machines = list()
 
 	list/powernets = null
+	list/datum/computernet/computernets = null
+	list/accesspasswords = list()
 
 	defer_powernet_rebuild = 0		// true if net rebuild will be called manually after an event
+	defer_computernet_rebuild = 0   // like above, but for computer nets
 	powernets_building = 1
 
 	Debug = 0	// global debug switch
 	Debug2 = 0
+	DebugN = 0
 
 	datum/debug/debugobj
 

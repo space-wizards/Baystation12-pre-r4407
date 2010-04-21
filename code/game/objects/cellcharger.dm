@@ -14,7 +14,7 @@
 			chargelevel = -1
 		updateicon()
 
-/obj/machinery/cell_charger/proc/updateicon()
+/obj/machinery/cell_charger/updateicon()
 	icon_state = "ccharger[charging ? 1 : 0]"
 
 	if(charging && !(stat & (BROKEN|NOPOWER)) )

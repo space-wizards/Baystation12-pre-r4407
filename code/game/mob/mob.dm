@@ -781,6 +781,13 @@
 	O.verbs += /mob/ai/proc/disablelockdown
 	O.verbs -= /mob/verb/switch_hud
 //	O.verbs += /mob/ai/proc/ai_cancel_call
+	O.verbs += /mob/ai/proc/hackinterface
+	O.verbs += /mob/ai/proc/changeinterface
+	O.verbs += /mob/ai/proc/changeinterface2
+	O.verbs += /mob/ai/proc/showpassword
+	O.verbs += /mob/ai/proc/netid
+	O.verbs += /mob/ai/proc/send_raw_packet
+	O.verbs += /mob/ai/proc/listinterfaces
 	del(src)
 	return
 

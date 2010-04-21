@@ -8,6 +8,34 @@
 	//		fbi.reset = 30.0
 	return
 
+
+/obj/machinery/firealarm/receivemessage(message,sender)
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	var/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand[1] == "ALARM")
+		if(listofcommand[2] == "SET")
+			alarm()
+		else if(listofcommand[2] == "CLEAR")
+			reset()
+		src.updateUsrDialog()
+	if(listofcommand[1] == "LOCK")
+		if(listofcommand[2] == "SET")
+			alarm(1)
+		else if(listofcommand[2] == "CLEAR")
+			reset(1)
+		src.updateUsrDialog()
+	else if (listofcommand[1] == "TIMER")
+		switch (listofcommand[2])
+			if ("SET")
+				src.time = text2num(listofcommand[3])
+			if ("START")
+				src.timing = 1
+			if ("STOP")
+				src.timing = 0
+		src.updateUsrDialog()
+
 /obj/machinery/firealarm/attack_ai(mob/user as mob)
 	return src.attack_hand(user)
 

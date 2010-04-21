@@ -605,12 +605,14 @@ About the new airlock wires panel:
 	else
 		//AI
 		if (!src.canAIControl())
-			usr << "Airlock control connection lost!"
+			usr << "Airlock control network connection lost!"
 			return
 		//aiDisable - 1 idscan, 2 disrupt main power, 3 disrupt backup power, 4 drop door bolts, 5 un-electrify door, 7 close door
 		//aiEnable - 1 idscan, 4 raise door bolts, 5 electrify door for 30 seconds, 6 electrify door indefinitely, 7 open door
 		if (href_list["aiDisable"])
 			var/code = text2num(href_list["aiDisable"])
+			var/password = get_password()
+			var/mob/ai/AI = usr
 			switch (code)
 				if (1)
 					//disable idscan
@@ -619,17 +621,17 @@ About the new airlock wires panel:
 					else if (src.aiDisabledIdScanner)
 						usr << "You've already disabled the IdScan feature."
 					else
-						src.aiDisabledIdScanner = 1
+						AI.sendcommand("[password] ACCESS OFF",src)
 				if (2)
 					//disrupt main power
 					if (src.secondsMainPowerLost == 0)
-						src.loseMainPower()
+						AI.sendcommand("[password] DISRUPT MAIN",src)
 					else
 						usr << "Main power is already offline."
 				if (3)
 					//disrupt backup power
 					if (src.secondsBackupPowerLost == 0)
-						src.loseBackupPower()
+						AI.sendcommand("[password] DISRUPT BACKUP",src)
 					else
 						usr << "Backup power is already offline."
 				if (4)
@@ -637,15 +639,15 @@ About the new airlock wires panel:
 					if (src.isWireCut(AIRLOCK_WIRE_DOOR_BOLTS))
 						usr << "You can't drop the door bolts - The door bolt dropping wire has been cut."
 					else if (src.locked!=1)
-						src.locked = 1
+						AI.sendcommand("[password] BOLTS DOWN",src)
 				if (5)
 					//un-electrify door
 					if (src.isWireCut(AIRLOCK_WIRE_ELECTRIFY))
 						usr << text("Can't un-electrify the airlock - The electrification wire is cut.<br>\n")
 					else if (src.secondsElectrified==-1)
-						src.secondsElectrified = 0
+						AI.sendcommand("[password] ELEC OFF",src)
 					else if (src.secondsElectrified>0)
-						src.secondsElectrified = 0
+						AI.sendcommand("[password] ELEC OFF",src)
 				if (7)
 					//close door
 					if (src.blocked)
@@ -653,19 +655,21 @@ About the new airlock wires panel:
 					else if (src.locked)
 						usr << text("The door bolts are down!<br>\n")
 					else if (!src.density)
-						close()
+						AI.sendcommand("[password] CLOSE",src)
 					else
 						usr << text("The airlock is already closed.<br>\n")
 
 		else if (href_list["aiEnable"])
 			var/code = text2num(href_list["aiEnable"])
+			var/password = get_password()
+			var/mob/ai/AI = usr
 			switch (code)
 				if (1)
 					//enable idscan
 					if (src.isWireCut(AIRLOCK_WIRE_IDSCAN))
 						usr << "You can't enable IdScan - The IdScan wire has been cut."
 					else if (src.aiDisabledIdScanner)
-						src.aiDisabledIdScanner = 0
+						AI.sendcommand("[password] ACCESS ON",src)
 					else
 						usr << "The IdScan feature is not disabled."
 				if (4)
@@ -675,10 +679,10 @@ About the new airlock wires panel:
 					else if (!src.locked)
 						usr << text("The door bolts are already up.<br>\n")
 					else
-						if (src.arePowerSystemsOn())
-							src.locked = 0
-						else
+						if (!src.arePowerSystemsOn())
 							usr << text("Cannot raise door bolts due to power failure.<br>\n")
+						else
+							AI.sendcommand("[password] BOLTS UP",src)
 
 				if (5)
 					//electrify door for 30 seconds
@@ -689,7 +693,7 @@ About the new airlock wires panel:
 					else if (src.secondsElectrified!=0)
 						usr << text("The door is already electrified. You can't re-electrify it while it's already electrified.<br>\n")
 					else
-						src.secondsElectrified = 30
+						AI.sendcommand("[password] ELEC 30",src)
 						spawn(10)
 							while (src.secondsElectrified>0)
 								src.secondsElectrified-=1
@@ -706,7 +710,7 @@ About the new airlock wires panel:
 					else if (src.secondsElectrified!=0)
 						usr << text("The door is already electrified. You can't re-electrify it while it's already electrified.<br>\n")
 					else
-						src.secondsElectrified = -1
+						AI.sendcommand("[password] ELEC ON",src)
 				if (7)
 					//open door
 					if (src.blocked)
@@ -714,7 +718,7 @@ About the new airlock wires panel:
 					else if (src.locked)
 						usr << text("The door bolts are down!<br>\n")
 					else if (src.density)
-						open()
+						AI.sendcommand("[password] OPEN",src)
 	//					close()
 					else
 						usr << text("The airlock is already opened.<br>\n")
@@ -945,3 +949,49 @@ About the new airlock wires panel:
 
 /obj/machinery/door/airlock/var/running = 0
 /obj/machinery/door/airlock/var/count = 3
+
+
+/obj/machinery/door/airlock/identinfo()
+	return "AIRLOCK [!src.density ? "OPEN" : "CLOSED"]"
+
+/obj/machinery/door/airlock/receivemessage(message,sender)
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	world << "AIRLOCK REC [command]"
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		switch(listofcommand[2])
+			if("ELEC")
+				switch(listofcommand[3])
+					if("ON")
+						src.secondsElectrified = -1
+					if("30")
+						src.secondsElectrified = 30
+						spawn(10)
+							while (src.secondsElectrified>0)
+								src.secondsElectrified-=1
+								if (src.secondsElectrified<0)
+									src.secondsElectrified = 0
+								sleep(10)
+					if("OFF")
+						src.secondsElectrified = 0
+			if("BOLTS")
+				switch(listofcommand[3])
+					if("UP")
+						if(src.arePowerSystemsOn())
+							src.locked = 0
+					if("DOWN")
+						src.locked = 1
+			if("ACCESS")
+				switch(listofcommand[3])
+					if("ON")
+						src.aiDisabledIdScanner = 0
+					if("OFF")
+						src.aiDisabledIdScanner = 1
+			if("DISRUPT")
+				switch(listofcommand[3])
+					if("MAIN")
+						src.loseMainPower()
+					if("BACKUP")
+						src.loseBackupPower()

@@ -167,6 +167,7 @@
 var/map_loading = 1
 /world/New()
 	..()
+	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 
 	config = new /datum/configuration()
 	config.load("config/config.txt")
@@ -203,15 +204,16 @@ var/map_loading = 1
 		makepipelines()
 		powernets_building = 0
 		makepowernets()
+		makecomputernets()
 		//----
 
 	crban_loadbanfile()
+	gen_access()
 	crban_updatelegacybans()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
 	LoadPlayerData()
 	SavePlayerLoop()
-	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 	spawn(0)
 		SetupOccupationsList()
 		return

@@ -14,8 +14,16 @@
 			CloseWall(src)
 	return
 
+
 /obj/machinery/door/attack_ai(mob/user as mob)
-	return src.attack_hand(user)
+	if(istype(user,/mob/ai))
+		var/mob/ai/AI = user
+		var/password = get_password()
+		if(src.density)
+			AI.sendcommand("[password] OPEN",src)
+		else
+			AI.sendcommand("[password] CLOSE",src)
+
 
 /obj/machinery/door/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
@@ -181,3 +189,24 @@
 	if (src.density && src.allowed(AM))
 		open()
 	return
+
+
+/obj/machinery/door/identinfo()
+	return "DOOR [!src.density ? "OPEN" : "CLOSED"]"
+
+/obj/machinery/door/receivemessage(message,sender)
+	if(..())
+		return 1
+	if (istype(src,/obj/machinery/door/poddoor) || istype(src,/obj/machinery/door/firedoor))
+		return 0
+	var/command = uppertext(stripnetworkmessage(message))
+	world << "DOOR REC [command]"
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "OPEN")
+			spawn(0)
+				open()
+		else if(listofcommand[2] == "CLOSE")
+			spawn(0)
+				close()
+	return 0

@@ -109,7 +109,7 @@
 		usr.machine = null
 		return
 
-/obj/machinery/filter_control/proc/updateicon()
+/obj/machinery/filter_control/updateicon()
 	overlays = null
 	if(stat & NOPOWER)
 		icon_state = "filter_control-nopower"

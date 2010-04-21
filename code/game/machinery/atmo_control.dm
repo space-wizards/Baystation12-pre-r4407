@@ -41,6 +41,15 @@
 	average = 0
 	return
 
+/obj/machinery/meter/receivemessage(message as text, var/obj/machinery/srcmachine)
+	if(..())
+		return
+	var/list/commands = getcommandlist(message)
+	if(!commands.len)
+		return
+	if(commands[1] == "SENSE")
+		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
+
 /obj/machinery/meter/process()
 	if(!target)
 		icon_state = "meterX"
@@ -56,20 +65,6 @@
 	var/val = min(18, round( 18.99 * ((abs(average) / 2500000)**0.25)) )
 	icon_state = "meter[val]"
 
-/*
-/obj/machinery/meter/examine()
-	set src in oview(1)
-
-	var/t = "A gas flow meter. "
-	if (src.target)
-		t += text("Results:\nMass flow []%\nPressure [] kPa", round(100*average/src.target.gas.maximum, 0.1), round(pressure(), 0.1) )
-	else
-		t += "It is not functioning."
-
-	usr << t
-
-*/
-
 /obj/machinery/meter/Click()
 	if(stat & (NOPOWER|BROKEN))
 		return
@@ -82,14 +77,14 @@
 		usr << "\blue <B>You are too far away.</B>"
 	return
 
-/*
-/obj/machinery/meter/proc/pressure()
 
-	if(src.target && src.target.gas)
-		return (average * target.gas.temperature)/100000.0
-	else
-		return 0
-*/
+///obj/machinery/meter/proc/pressure()
+//
+//	if(src.target && src.target.gas)
+//		return (average * target.gas.temperature)/100000.0
+//	else
+//		return 0
+
 
 /obj/machinery/atmoalter/siphs/New()
 	..()
