@@ -958,7 +958,6 @@ About the new airlock wires panel:
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "AIRLOCK REC [command]"
 	var/listofcommand = dd_text2list(command," ",null)
 	if(check_password(listofcommand[1]))
 		switch(listofcommand[2])

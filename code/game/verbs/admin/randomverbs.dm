@@ -8,6 +8,12 @@
 	else
 		alert("Hosts only baby")
 		return
+/client/proc/Set_ZAS_Cycle_Time(n as num)
+		set category = "Debug"
+		set name = "Set ZAS Cycle time"
+		n = max(1,n)
+		zas_cycle = n
+
 
 /client/proc/callproc()
 	set category = "Debug"
