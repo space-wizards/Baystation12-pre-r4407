@@ -115,3 +115,6 @@ proc/WinCheck(turf/T,d)
 		lock=0
 	if(lock > 1) return 1
 	else return 0
+
+obj/machinery/door/block_zoning = 1
+obj/machinery/door/poddoor/block_zoning = 1

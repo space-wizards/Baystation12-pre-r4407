@@ -37,6 +37,7 @@ turf
 	var/fireicon = 0
 	var/burn_level = 0
 	proc/Burn()
+		if(!zone) return
 		if (oxygen() < 1000)
 			burn = 0
 		if(1)
@@ -47,8 +48,8 @@ turf
 				//icon_state = "burning"
 				sd_SetLuminosity(4)
 
-				src.oxygen(max(src.oxygen() - 5000, 0))
-				src.poison(max(src.poison() - 5000, 0))
+				zone.gases["O2"] = max(zone.gases["O2"] - 5000, 0)
+				src.poison = max(src.poison - 5000, 0)
 				src.co2(5000)
 
 				if(src.oxygen == 0 || src.poison == 0)

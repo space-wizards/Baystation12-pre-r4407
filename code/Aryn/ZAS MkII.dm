@@ -666,6 +666,7 @@ proc/DirBlock(turf/X,turf/Y,block) //This function determines whether a given tu
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
+					if(D.is_open) continue
 					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
 					else d = SOUTH
 				if(d == SOUTHWEST) return D
@@ -674,6 +675,7 @@ proc/DirBlock(turf/X,turf/Y,block) //This function determines whether a given tu
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
+					if(D.is_open) continue
 					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
 					else d = SOUTH
 				if(d == SOUTHWEST) return D

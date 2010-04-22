@@ -1,10 +1,12 @@
+#define GAS_FLOW_DELAY 5
+
 turf/var/list/dist_links
 turf/var
 	has_plasma
 	has_n2o
 	dist_timer
 turf/proc/DistributeGas()
-	dist_timer = (dist_timer + 1) % 3
+	dist_timer = (dist_timer + 1) % GAS_FLOW_DELAY
 	if(!dist_timer)
 		dist_links = GetCardinals(src)
 		for(var/turf/T in dist_links)
@@ -33,8 +35,10 @@ turf/proc/DistributeGas()
 			else if(T.has_n2o)
 				T.overlays -= slmaster
 				T.has_n2o = 0
-		if(zone)
-			zone.gases["Plasma"] += poison * 0.001
-			poison -= poison * 0.001
-			zone.gases["N2O"] += sl_gas * 0.001
-			sl_gas -= sl_gas * 0.001
+		//if(zone)
+		//	zone.gases["Plasma"] += poison * 0
+		//	poison -= poison * 0
+		//	zone.gases["N2O"] += sl_gas * 0
+		//	sl_gas -= sl_gas * 0
+
+		//To make plasma and N2O become gases over time, use this.

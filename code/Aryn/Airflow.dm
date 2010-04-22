@@ -1,5 +1,5 @@
 var
-	AF_MOVEMENT_THRESHOLD = 50000
+	AF_MOVEMENT_THRESHOLD = 10000
 	AF_DAMAGE_MULTIPLIER = 100
 	AF_STUN_MULTIPLIER = 1
 
@@ -21,9 +21,9 @@ proc/Airflow(zone/A,zone/B,n)
 			//world << "Sonovabitch! [M] won't move!"
 			if(!M.airflow_dest)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.GotoAirflowDest(abs(n) / 20000)
+				spawn M.GotoAirflowDest(abs(n) / AF_MOVEMENT_THRESHOLD)
 			else
-				M.airflow_speed = abs(n) / 20000
+				M.airflow_speed = abs(n) / AF_MOVEMENT_THRESHOLD
 		for(var/atom/movable/M in pplz)
 			//world << "[M] / \..."
 			if(istype(M,/mob/ai)) continue
@@ -116,3 +116,6 @@ zone/proc/movables()
 	for(var/turf/T in contents)
 		for(var/atom/A in T)
 			. += A
+
+obj/machinery/door/is_door = 1
+obj/machinery/door/poddoor/is_door = 1
