@@ -326,6 +326,7 @@
 	var/a_level = 0.0
 	var/screen = 1.0
 	var/owner = null
+	var/stealthmode = 0
 /obj/barrier
 	name = "barrier"
 	icon = 'stationobjs.dmi'

@@ -1175,6 +1175,10 @@
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
+	if (href_list["stealthmode"])
+		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
+			src.stealthmode = !src.stealthmode
+			usr << "You are now [src.stealthmode?"hidden":"visible"] on adminwho to non-admins"
 
 	//AdminpanelV2 functions
 
@@ -1293,6 +1297,7 @@
 			if(lvl >= 3)
 				dat += "<A href='?src=\ref[src];secretsadmin=1'>Show Admin Secrets</A><br>"
 				dat += "<A href='?src=\ref[src];secretsfun=1'>Show Fun Secrets</A><br>"
+				dat += "<A href='?src=\ref[src];stealthmode=1'>Toggle Stealth Mode</A><br>"
 			if (lvl >= 5)
 				dat += "<A href='?src=\ref[src];create_object=1'>Create Object</A><br>"
 
