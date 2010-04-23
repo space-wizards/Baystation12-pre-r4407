@@ -16,11 +16,10 @@ world/New()
 		while(!ticker)
 			sleep(5)
 		for(var/obj/O)
-			if(O.is_door)
-				if(!O.density && !(O.type in directional_types))
+			if(istype(O,/obj/machinery/door))
+				if(!O.density && O:checkForMultipleDoors() && !(O.type in directional_types))
 					ZoneSetup(O)
-					if(!PracBlocked(O.loc))
-						OpenDoor(O)
+					OpenDoor(O)
 turf/proc
 	//isempty()
 	//	return !Dense(src)
@@ -30,7 +29,8 @@ turf/proc
 	//	else
 	//		return 0
 	oxygen(n)
-		if(zone && n) zone.gases["O2"] += n
+		if(zone && n)
+			zone.gases["O2"] += n
 		else
 			if(locate(/obj/move) in src) return O2STANDARD
 			return per_turf("O2")
@@ -40,7 +40,8 @@ turf/proc
 			if(locate(/obj/move) in src) return 0
 			return per_turf("Plasma") + poison
 	n2(n)
-		if(zone && n) zone.gases["N2"] += n
+		if(zone && n)
+			zone.gases["N2"] += n
 		else
 			if(locate(/obj/move) in src) return N2STANDARD
 			return per_turf("N2")
@@ -118,3 +119,11 @@ proc/WinCheck(turf/T,d)
 
 obj/machinery/door/block_zoning = 1
 obj/machinery/door/poddoor/block_zoning = 1
+
+turf/verb/Show_Zone()
+	set src in view()
+	ShowZone(zone)
+	world << "<u>Z[zones.Find(zone)]</u>"
+	for(var/g in zone.gases)
+		world << "<b>[g]</b>: [zone.turf_cache[g]] ([zone.gases[g]] total) - [zone.partial_pressure(g)]"
+	world << "<br><b>Total Pressure</b>: [zone.pressure()]"

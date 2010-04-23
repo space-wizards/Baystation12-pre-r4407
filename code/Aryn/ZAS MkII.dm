@@ -31,12 +31,12 @@ var/list
 
 var/zas_cycle = 2
 //The amount of ticks an air cycle will last. Change in case of lag.
-mob/verb
+client/proc
 	Set_ZAS_Cycle_Time(n as num)
 		set category = "ZAS"
 		n = max(1,n)
 		zas_cycle = n
-		//world << "Zones will now update every [n] ticks."
+		world.log << "Zones will now update every [n] ticks."
 
 var/manual_calc = 0
 
@@ -133,10 +133,14 @@ zone
 
 				sleep(-1)
 
+				var/t_gas
 				for(var/g in gases)
 					if(gases[g] != gas_cache[g])
-						rebuild_cache()
-						break
+						gas_cache[g] = gases[g]
+						turf_cache[g] = gases[g] / contents.len
+					t_gas += turf_cache[g]
+				total_cache = t_gas
+
 
 				if(contents_cache != contents.len)
 					rebuild_cache()
@@ -216,6 +220,12 @@ zone
 						T.overlays.Remove( slmaster )
 					n2o_overlay = 0
 
+				if(pressure() > 500)
+					update = 0
+					CRASH("It's over NINE THOUSAAAAAND!")
+					for(var/turf/T in contents)
+						T.overlays += 'Connect.dmi'
+
 		rebuild_cache(x)
 			if(!contents.len) return 0
 			total_cache = 0
@@ -293,6 +303,7 @@ zone
 		//All the turfs in list L will create new child zones with the same per-turf concentrations as this one.
 		//Used internally in Update() to clear zones_to_split.
 			if(L.len)
+				world << "Splitting..."
 				for(var/atom/A)
 					if(src in associations(A.connected_zones))
 						spawn(1) ZoneSetup(A)
@@ -322,7 +333,7 @@ zone
 		//All the zones in list L will add their contents and gas values to this one and be deleted.
 		//Used internally in Update() to clear zones_to_merge.
 			if(L.len)
-				//world << "Merging..."
+				world << "Merging..."
 				for(var/zone/Z in L)
 					if(Z == src) continue //Do not merge with self!
 					//world << "Pooling gas..."
@@ -368,9 +379,15 @@ zone
 		GasPerTurf(g,n)
 		//Sets the total amount of gas g to n * length(contents).
 		//Used to set per-tile concentration when splitting.
-			. = n * contents_cache
-			if(. < 0.001) gases[g] = 0
-			else gases[g] = .
+			. = n * contents.len
+			if(. < 0.001)
+				gases[g] = 0
+				gas_cache[g] = 0
+				turf_cache[g] = 0
+			else
+				gases[g] = .
+				gas_cache[g] = .
+				turf_cache[g] = n
 
 		AddPerTurf(g,n)
 			if(!(g in gases)) gases += g
@@ -648,6 +665,7 @@ proc/Blocked(turf/T) //This function is like Dense(), but bases its decision on 
 	if(!isturf(T)) return 1
 	if(!T.accept_zoning) return 1
 	for(var/atom/A in T)
+		if(A.type in directional_types) continue
 		if(A.block_zoning) return 1
 	return 0
 
@@ -655,6 +673,7 @@ proc/PracBlocked(turf/T) //This function is like Blocked() but considers open do
 	if(!isturf(T)) return 1
 	if(!T.accept_zoning) return 1
 	for(var/atom/A in T)
+		if(A.type in directional_types) continue
 		if(A.block_zoning && !A.is_open) return 1
 	return 0
 
@@ -666,20 +685,20 @@ proc/DirBlock(turf/X,turf/Y,block) //This function determines whether a given tu
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
-					if(D.is_open) continue
+					//if(D.is_open) continue
 					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
 					else d = SOUTH
 				if(d == SOUTHWEST) return D
-				if(d == get_dir(X,Y) && D.dir_density) return D
+				if(d == get_dir(X,Y) && !D.is_open) return D
 		for(var/obj/D in Y)
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
-					if(D.is_open) continue
+					//if(D.is_open) continue
 					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
 					else d = SOUTH
 				if(d == SOUTHWEST) return D
-				if(d == get_dir(Y,X) && D.dir_density) return D
+				if(d == get_dir(Y,X) && !D.is_open) return D
 	else
 		for(var/obj/D in X)
 			if(D.type in directional_types)
@@ -734,7 +753,7 @@ proc
 	OpenDoor(atom/A) //This is called when a door is opened between two zones, to connect them.
 		////world << "Opening door..."
 		if(moving_zone) return
-		if(A.is_door) A.is_open = 1
+		A.is_open = 1
 		if(!A.connected_zones || null_entries(A.connected_zones))
 			ZoneSetup(A)
 			////world << "Set up zones. [A.connected_zones.len]"
@@ -753,10 +772,12 @@ proc
 			for(var/turf/D in A.connected_zones)
 				if(C.zone == D.zone) continue
 				AddConnection(C.zone,T,D.zone)
+		if(istype(A,/obj/machinery/door/window))
+			A:dir_density = 0
 
 	CloseDoor(atom/A) //This is called when a door is closed between two zones, to subtract the flow.
 		if(moving_zone) return
-		if(A.is_door) A.is_open = 0
+		A.is_open = 0
 		////world << "Closing Door"
 		if(!A.connected_zones || null_entries(A.connected_zones))
 			ZoneSetup(A)
@@ -775,6 +796,8 @@ proc
 			for(var/turf/D in A.connected_zones)
 				if(C == D) continue
 				RemoveConnection(C.zone,T,D.zone)
+		if(istype(A,/obj/machinery/door/window))
+			A:dir_density = 1
 
 	ZoneSetup(atom/A) //This sets up the door's zone variables. If two valid zones are found, returns 1, otherwise 0.
 
@@ -815,8 +838,7 @@ proc
 
 		var/list/turfs = GetCardinals(X)
 		for(var/turf/N in turfs)
-			if(DirBlock(X,N)) turfs -= N
-			if(N.density) turfs -= N
+			if(Airtight(N,X)) turfs -= N
 
 		for(var/turf/T in turfs)
 			if(T.zone == C.zone) continue
@@ -971,6 +993,7 @@ proc
 		//	W.loc = T
 	NewWindow(obj/window/W)
 		//world << "<u>Window created: [W]([W.x],[W.y])</u>"
+		if(world.time < 10) return
 		var
 			needs_split = 0
 			turf

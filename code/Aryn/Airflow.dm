@@ -1,7 +1,14 @@
 var
-	AF_MOVEMENT_THRESHOLD = 10000
-	AF_DAMAGE_MULTIPLIER = 100
-	AF_STUN_MULTIPLIER = 1
+	AF_MOVEMENT_THRESHOLD = 25000
+	AF_SPEED_MULTIPLIER = 0.5 //airspeed per movement threshold value crossed.
+	AF_DAMAGE_MULTIPLIER = 1
+	AF_STUN_MULTIPLIER = 2
+
+client/proc
+	Change_Airflow_Threshold(n as num)
+		set category = "ZAS"
+		AF_MOVEMENT_THRESHOLD = n
+		world.log << "AF_MOVEMENT_THRESHOLD set to [n]."
 
 proc/Airflow(zone/A,zone/B,n)
 	if(n < 0) return
@@ -19,11 +26,11 @@ proc/Airflow(zone/A,zone/B,n)
 				if(M in range(U)) fail = 0
 			if(fail) continue
 			//world << "Sonovabitch! [M] won't move!"
-			if(!M.airflow_dest)
+			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.GotoAirflowDest(abs(n) / AF_MOVEMENT_THRESHOLD)
+				spawn M.GotoAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
 			else
-				M.airflow_speed = abs(n) / AF_MOVEMENT_THRESHOLD
+				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
 		for(var/atom/movable/M in pplz)
 			//world << "[M] / \..."
 			if(istype(M,/mob/ai)) continue
@@ -33,36 +40,44 @@ proc/Airflow(zone/A,zone/B,n)
 				if(M in range(U)) fail = 0
 			if(fail) continue
 			//world << "Sonovabitch! [M] won't move either!"
-			if(!M.airflow_dest)
+			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.RepelAirflowDest(abs(n) / 10000)
+				spawn M.RepelAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
 			else
-				M.airflow_speed = abs(n) / 10000
+				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
 atom/movable
 	var/turf/airflow_dest
 	var/airflow_speed = 0
 	proc/GotoAirflowDest(n)
-		airflow_speed = n
+		if(airflow_speed)
+			airflow_speed = n
+			return
+		airflow_speed = min(round(n),9)
+		//world << "[src]'s headed to [airflow_dest] at [n] times the SPEED OF LIGHT!"
 		var
 			xo = src.x - airflow_dest.x
 			yo = src.x - airflow_dest.y
 		airflow_dest = null
-		while(airflow_dest && airflow_speed > 0)
+		while(airflow_speed > 0)
 			airflow_speed = min(airflow_speed,9)
 			sleep(10-airflow_speed)
 			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))
 				src.airflow_dest = locate(min(max(src.x + xo, 1), world.maxx), min(max(src.y + yo, 1), world.maxy), src.z)
+				//world << "New destination: [airflow_dest]"
 			if ((src.x == 1 || src.x == world.maxx || src.y == 1 || src.y == world.maxy))
 				return
 			step_towards(src, src.airflow_dest)
 		airflow_dest = null
 	proc/RepelAirflowDest(n)
-		airflow_speed = n
+		if(airflow_speed)
+			airflow_speed = n
+			return
+		airflow_speed = min(round(n),9)
 		var
 			xo = -(src.x - airflow_dest.x)
 			yo = -(src.x - airflow_dest.y)
 		airflow_dest = null
-		while(airflow_dest && airflow_speed > 0)
+		while(airflow_speed > 0)
 			airflow_speed = min(airflow_speed,9)
 			sleep(10-airflow_speed)
 			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))

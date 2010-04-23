@@ -144,12 +144,12 @@
 					G.turf_take(T, t / 2 * turf_total)
 			else
 				G.turf_take(T, t * turf_total)
-			if (locate(/obj/move, T))
-				G.oxygen = O2STANDARD
-				G.n2 = N2STANDARD
+			if(locate(/obj/move) in T)
+				G.oxygen = 200
+				G.n2 = 0
 				G.plasma = 0
-				G.sl_gas = 0
 				G.co2 = 0
+				G.sl_gas = 0
 			src.aircheck(G)
 			//second pass at body temp
 			var/thermal_layers = 1.5
@@ -185,7 +185,7 @@
 		else if (istype(T, /obj))
 			var/obj/O = T
 			O.alter_health(src)
-		if ((istype(src.loc, /turf/space) && !( locate(/obj/move, src.loc) )))
+		if ((istype(src.loc, /turf/space) && !( locate(/obj/move,src.loc) )))
 			var/layers = 20
 
 			// ****** Check

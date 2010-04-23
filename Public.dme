@@ -4,6 +4,14 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\Aryn code\game code\game\mob\human code\game\mob\monkey maps sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
+FILE: code\Aryn\Airflow.dm
+LAST_COMPILE_TIME: 1272000067
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -14,6 +22,18 @@
 #define FILE_DIR ".git/logs/refs"
 #define FILE_DIR ".git/logs/refs/heads"
 #define FILE_DIR ".git/objects"
+#define FILE_DIR ".git/objects/11"
+#define FILE_DIR ".git/objects/1b"
+#define FILE_DIR ".git/objects/87"
+#define FILE_DIR ".git/objects/8a"
+#define FILE_DIR ".git/objects/a2"
+#define FILE_DIR ".git/objects/a3"
+#define FILE_DIR ".git/objects/ad"
+#define FILE_DIR ".git/objects/ae"
+#define FILE_DIR ".git/objects/b7"
+#define FILE_DIR ".git/objects/bb"
+#define FILE_DIR ".git/objects/c0"
+#define FILE_DIR ".git/objects/ca"
 #define FILE_DIR ".git/objects/pack"
 #define FILE_DIR ".git/refs"
 #define FILE_DIR ".git/refs/heads"
