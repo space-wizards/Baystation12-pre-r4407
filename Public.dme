@@ -15,6 +15,7 @@ AUTO_FILE_DIR: ON
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+<<<<<<< HEAD
 #define FILE_DIR ".git"
 #define FILE_DIR ".git/hooks"
 #define FILE_DIR ".git/info"
@@ -37,6 +38,8 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/pack"
 #define FILE_DIR ".git/refs"
 #define FILE_DIR ".git/refs/heads"
+=======
+>>>>>>> 057da1f04c904a1dcae0718ae54d1fb520aa132f
 #define FILE_DIR "code"
 #define FILE_DIR "code/Aryn"
 #define FILE_DIR "code/atoms"
@@ -87,19 +90,13 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "code/game/verbs"
 #define FILE_DIR "code/game/verbs/admin"
 #define FILE_DIR "code/unused"
-#define FILE_DIR "config"
-#define FILE_DIR "config/names"
-#define FILE_DIR "data"
 #define FILE_DIR "icons"
 #define FILE_DIR "icons/ss13"
 #define FILE_DIR "icons/ss13/test"
 #define FILE_DIR "interface"
-#define FILE_DIR "logs"
-#define FILE_DIR "logs/old"
 #define FILE_DIR "maps"
 #define FILE_DIR "maps/backup"
 #define FILE_DIR "music"
-#define FILE_DIR "players"
 #define FILE_DIR "sound"
 #define FILE_DIR "sound/damage"
 #define FILE_DIR "sound/damage/glass"
@@ -125,7 +122,6 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "sound/weapon/revolver"
 #define FILE_DIR "sound/weapon/taser"
 #define FILE_DIR "sound/weapon/turret"
-#define FILE_DIR "sss"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
