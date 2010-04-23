@@ -45,9 +45,9 @@
 	if(..())
 		return
 	var/list/commands = getcommandlist(message)
-	if(!commands.len)
+	if(commands.len < 1)
 		return
-	if(commands[1] == "SENSE")
+	if(checkcommand(commands,1,"SENSE"))
 		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
 
 /obj/machinery/meter/process()

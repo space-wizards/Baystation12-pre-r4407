@@ -55,7 +55,9 @@
 /obj/machinery/light_switch/receivemessage(message, srcmachine)
 	if(..())
 		return
-	var/listofcommand = getcommandlist(message)
+	var/list/listofcommand = getcommandlist(message)
+	if(listofcommand.len < 3)
+		return
 	if (listofcommand[2] == "STATUS" && (listofcommand[1] == "*" || listofcommand[1] == area.superarea.areaid))
 		on = text2num(listofcommand[3])
 		updateicon()

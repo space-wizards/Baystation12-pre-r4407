@@ -360,22 +360,22 @@
 	var/command = uppertext(stripnetworkmessage(message))
 	var/listofcommand = dd_text2list(command," ",null)
 	if(check_password(listofcommand[1]))
-		if(listofcommand[2] == "TURRETS")
-			if(listofcommand[3] == "OFF")
+		if(checkcommand(listofcommand,2,"TURRETS"))
+			if(checkcommand(listofcommand,3,"OFF"))
 				src.enabled = 0
 				src.lethal = 0
-			else if(listofcommand[3] == "STUN")
+			else if(checkcommand(listofcommand,3,"STUN"))
 				src.enabled = 1
 				src.lethal = 0
-			else if(listofcommand[3] == "LETHAL")
+			else if(checkcommand(listofcommand,3,"LETHAL"))
 				src.enabled = 1
 				src.lethal = 1
 			src.updateTurrets()
 			src.updateUsrDialog()
-		else if(listofcommand[3] == "INTERFACE")
-			if(listofcommand[2] == "LOCK")
+		else if(checkcommand(listofcommand,3,"INTERFACE"))
+			if(checkcommand(listofcommand,2,"LOCK"))
 				src.locked = 1
-			else if(listofcommand[2] == "UNLOCK")
+			else if(checkcommand(listofcommand,2,"UNLOCK"))
 				src.locked = 0
 			src.updateUsrDialog()
 

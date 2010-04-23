@@ -214,7 +214,9 @@
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	var/listofcommand = dd_text2list(command," ",null)
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 3)
+		return
 	if(listofcommand[2] == "LIGHTS" && (listofcommand[1] == "*" || listofcommand[1] == area.superarea.areaid))
 		if(listofcommand[3] == "OFF")
 			turnoff()

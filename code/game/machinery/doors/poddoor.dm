@@ -77,8 +77,10 @@
 	if(..())
 		return 1
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "DOOR REC [command]"
+	//world << "DOOR REC [command]"
 	var/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand < 2)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "OPEN")
 			spawn(0)

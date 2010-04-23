@@ -269,7 +269,9 @@
 /obj/machinery/pipefilter/receivemessage(message,sender)
 	if(..())
 		return
-	var/listofcommand = getcommandlist(message)
+	var/list/listofcommand = getcommandlist(message)
+	if(listofcommand.len < 3)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "RATE")
 			var/num = text2num(listofcommand[3])

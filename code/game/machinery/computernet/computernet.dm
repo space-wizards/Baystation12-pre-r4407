@@ -91,6 +91,8 @@
 		AI.AIreceivemessage(message,srcmachine)
 
 	var/list/commands = dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
+	if(commands.len < 1)
+		return
 	switch (commands[1])
 		if ("POWER")
 			switch (commands[2])
@@ -148,4 +150,8 @@ obj/machinery/proc/createmessagetomachine(var/message as text, var/obj/machinery
 	else																 //"123 MULTI *** COMMAND" => "COMMAND"
 		return copytext(message,10,0) //"123 4567 COMMAND" => "COMMAND"
 
-
+/proc/checkcommand(var/list/message,var/index,var/word)
+	if(message.len >= index)
+		if(message[index] == word)
+			return 1
+	return 0
