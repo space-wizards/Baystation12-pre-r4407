@@ -182,12 +182,12 @@
 					G.turf_take(T, t * turf_total)
 				if (G.tot_gas() > 650)
 					G.turf_add(T, G.tot_gas() - 650)
-				if (locate(/obj/move, T))
-					G.oxygen = O2STANDARD
-					G.n2 = N2STANDARD
+				if(locate(/obj/move) in T)
+					G.oxygen = 200
+					G.n2 = 0
 					G.plasma = 0
-					G.sl_gas = 0
 					G.co2 = 0
+					G.sl_gas = 0
 				src.aircheck(G)
 				if(!src.internal)
 					for(var/obj/virus/V in T) V.infect(src)

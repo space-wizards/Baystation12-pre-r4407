@@ -52,6 +52,7 @@ proc/estimate_time(num)
         return "1 second"
 proc
 	FindPlayerKey(key, address, computer_id)
+		if(!istype(players,/list)) players = list()
 		var/ckey = ckey(key)
 		var/player/P
 		for(P in players) //check for existing keys
