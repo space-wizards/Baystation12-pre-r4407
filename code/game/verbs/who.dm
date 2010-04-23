@@ -23,5 +23,5 @@
 	usr << "<b>Current Admins:</b>"
 
 	for (var/mob/M in world)
-		if(M && M.client && M.client.holder && M.client.authenticated)
+		if(M && M.client && M.client.holder && M.client.authenticated && (!M.client.holder.stealthmode || src.holder))
 			usr << "\t[M.client]"
