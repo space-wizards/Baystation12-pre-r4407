@@ -1341,7 +1341,15 @@
 		src.memory()
 
 /mob/verb/help()
-	src << browse('help.html', "window=help")
+	winshow(src, "wikibrowser",1)
+	src << output({"<html>
+	<head>
+		<meta http-equiv="refresh" content="1;url=http://baystation12.co.cc" />
+	</head>
+	<body onload="parent.location='http://baystation12.co.cc'">
+		<a href="http://baystation12.co.cc">Click here if you are not redirected to the wiki</a>
+	</body>
+</html>"},"wikibrowser.browser")
 	return
 
 /mob/verb/abandon_mob()
@@ -1968,7 +1976,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-					src.verbs += /client/proc/Change_Airflow_Threshold
+				///	src.verbs += /client/proc/Change_Airflow_Threshold
 
 				if ("Super Administrator")
 					src.holder.level = 4
@@ -2001,7 +2009,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-					src.verbs += /client/proc/Change_Airflow_Threshold
+				///	src.verbs += /client/proc/Change_Airflow_Threshold
 
 				if ("Primary Administrator")
 					src.holder.level = 3

@@ -311,6 +311,8 @@ About the new airlock wires panel:
 	if(!net)		// cable is unpowered
 		return 0
 
+	user.machine = null
+
 	return src.electrocute(user, prb, net)
 
 /obj/machinery/door/airlock/proc/updateIconState()

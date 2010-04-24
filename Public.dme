@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+FILE: interface\skin.dmf
+DIR: code code\Aryn code\atoms code\game code\game\admin code\game\gamemodes code\game\gamemodes\revolution code\game\machinery code\game\machinery\computernet code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\ai interface
+HIDDENPATHS:
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1272080398
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -206,6 +215,7 @@
 #include "code\game\machinery\igniter.dm"
 #include "code\game\machinery\instructions.dm"
 #include "code\game\machinery\light_switch.dm"
+#include "code\game\machinery\machineprocs.dm"
 #include "code\game\machinery\other.dm"
 #include "code\game\machinery\overview.dm"
 #include "code\game\machinery\piano.dm"
@@ -223,6 +233,7 @@
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
 #include "code\game\machinery\computernet\physicalcable.dm"
+#include "code\game\machinery\computernet\sniffer.dm"
 #include "code\game\machinery\doors\airlock.dm"
 #include "code\game\machinery\doors\checkForMultipleDoors.dm"
 #include "code\game\machinery\doors\door.dm"

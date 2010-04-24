@@ -36,7 +36,7 @@
 			dat += "<A href='byond://?src=\ref[src];item_sleepypen=1'>Sleepy Pen</A> (1)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_card=1'>Syndicate Card</A> (1)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_emag=1'>Electromagnet Card</A> (2)<BR>"
-			dat += "<A href='byond://?src=\ref[src];item_ai_module=1'>'OxygenIsToxicToHumans' AI Module</A> (2)<BR>"
+			dat += "<A href='byond://?src=\ref[src];item_ai_module=1'>Freeform AI Module</A> (2)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_revolver=1'>Revolver</A> (2)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_voice=1'>Voice-Changer</A> (2)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_cloak=1'>Cloaking Device</A> (3)<BR>"
@@ -97,7 +97,7 @@
 		else if (href_list["item_ai_module"])
 			if (src.uses >= 2)
 				src.uses -= 2
-				new /obj/item/weapon/aiModule/oxygen( H.loc )
+				new /obj/item/weapon/aiModule/freeform( H.loc )
 		else if (href_list["item_bomb"])
 			if (src.uses >= 3)
 				src.uses -= 3

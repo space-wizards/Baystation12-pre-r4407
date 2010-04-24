@@ -187,6 +187,10 @@
 	if (src.operating)
 		return
 	if (src.density && src.allowed(AM))
+		if(istype(AM,/mob/human))
+			var/mob/human/H = AM
+			if(H.zombie)
+				return
 		open()
 	return
 
