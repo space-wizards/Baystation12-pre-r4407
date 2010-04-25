@@ -1976,11 +1976,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-<<<<<<< HEAD
 					src.verbs += /client/proc/Change_Airflow_Constants
-=======
-				///	src.verbs += /client/proc/Change_Airflow_Threshold
->>>>>>> 136d0ffa3842d6a4b259b270cb5f9ce1c9b0427f
 
 				if ("Super Administrator")
 					src.holder.level = 4
@@ -2013,12 +2009,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-<<<<<<< HEAD
 					src.verbs += /client/proc/Change_Airflow_Constants
-
-=======
-				///	src.verbs += /client/proc/Change_Airflow_Threshold
->>>>>>> 136d0ffa3842d6a4b259b270cb5f9ce1c9b0427f
 
 				if ("Primary Administrator")
 					src.holder.level = 3
