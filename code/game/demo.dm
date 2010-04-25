@@ -359,7 +359,7 @@
 		T.firelevel = temp * 3600.0
 		T.res_vars()
 
-
+#define MAX_BOMB_TILES 350
 
 /obj/item/weapon/tank/plasmatank/proc/ignite()
 	spawn(0)
@@ -379,6 +379,7 @@
 				var/turf/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 				var/turf/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
 				defer_powernet_rebuild = 1
+				defer_computernet_rebuild = 1
 				var/num = 0
 				for(var/turf/U in shuffle(block(sw, ne)))
 					var/zone = 4
@@ -393,12 +394,14 @@
 					U.ex_act(zone)
 					U.buildlinks()
 					num++;
-					if(num>250)
+					if(num>MAX_BOMB_TILES)
 						sleep(0)
 						num = 0
 
 				defer_powernet_rebuild = 0
+				defer_computernet_rebuild = 0
 				makepowernets()
+				makecomputernets()
 
 			else
 
@@ -406,6 +409,7 @@
 					var/turf/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 					var/turf/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
 					defer_powernet_rebuild = 1
+					defer_computernet_rebuild = 1
 
 					var/num = 0
 					for(var/turf/U in shuffle(block(sw, ne)))
@@ -419,12 +423,14 @@
 						U.ex_act(zone)
 						U.buildlinks()
 						num++;
-						if(num>250)
+						if(num>MAX_BOMB_TILES)
 							sleep(0)
 							num = 0
 
 					defer_powernet_rebuild = 0
+					defer_computernet_rebuild = 0
 					makepowernets()
+					makecomputernets()
 
 
 			del(src.master)
@@ -457,6 +463,7 @@
 		var/turf/ne = locate(min(T.x + u_max, world.maxx), min(T.y + u_max, world.maxy), T.z)
 
 		defer_powernet_rebuild = 1
+		defer_computernet_rebuild = 1
 
 		var/num = 0
 		for(var/turf/U in shuffle(block(sw, ne)))
@@ -476,12 +483,14 @@
 			U.ex_act(zone)
 			U.buildlinks()
 			num++;
-			if(num>250)
+			if(num>MAX_BOMB_TILES)
 				sleep(0)
 				num = 0
 
 		defer_powernet_rebuild = 0
+		defer_computernet_rebuild = 0
 		makepowernets()
+		makecomputernets()
 
 		del(src.master)
 		del(src)

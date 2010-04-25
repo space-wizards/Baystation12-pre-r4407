@@ -45,9 +45,39 @@
 	usednetids += I
 	return I
 
+
+/datum/computernet/proc/propagate(packet, messagelist, sendingunit)
+
+	if (disrupted)
+		return 0
+
+	for (var/obj/machinery/M in sniffers)
+		M.receivemessage(packet, sendingunit) //Sniffers get it too (they might get it twice, if the packet was directed at them)
+
+
+	if(messagelist[1] != src.id && messagelist[1] != "000") return
+
+	if(messagelist[2] != "MULTI") //If so, is this a multicast or single-reciever packet
+
+		if(nodes[messagelist[2]]) //Single-reciever, can we find it on the network?
+			var/obj/machinery/M = nodes[messagelist[2]]
+			M.receivemessage(packet, sendingunit)
+
+	else //Multicast
+
+		if (messagelist[3] == "***") //TO EVERYONE
+			for (var/obj/machinery/M in nodes)
+				M.receivemessage(packet, sendingunit)
+
+		else //To everyone of TypeId ___
+
+			messagelist[3] = uppertext(messagelist[3])
+			for (var/obj/machinery/M in nodes)
+				if (messagelist[3] == M.typeID)
+					M.receivemessage(packet, sendingunit)
+	return 1
+
 /datum/computernet/proc/send(var/packet as text, var/obj/machinery/sendingunit)
-	if (src.disrupted)
-		return
 
 	//Ok, lets break down the message into its key components
 	var/list/messagelist = dd_text2list(packet," ",null)
@@ -56,33 +86,19 @@
 	messagelist[2] = uppertext(messagelist[2])
 
 	if (messagelist[1] == "000" || messagelist[1] == id) //Check if it's the local net code, or if the netid is the loopback code
-		if(messagelist[2] != "MULTI") //If so, is this a multicast or single-reciever packet
-			if(nodes[messagelist[2]]) //Single-reciever, can we find it on the network?
-				var/obj/machinery/M = nodes[messagelist[2]]
-				M.receivemessage(packet, sendingunit)
 
-		else //Multicast
-			if (messagelist[3] == "***") //TO EVERYONE
-				for (var/obj/machinery/M in nodes)
-					M.receivemessage(packet, sendingunit)
-
-			else //To everyone of TypeId ___
-
-				messagelist[3] = uppertext(messagelist[3])
-				for (var/obj/machinery/M in nodes)
-					if (messagelist[3] == M.typeID)
-						M.receivemessage(packet, sendingunit)
+		src.propagate(packet, messagelist, sendingunit)
 
 	else //No, it's on another net
-		if (!(id in routingtable.sourcenets) || !(messagelist[1] in routingtable.sourcenets[id]) || !routingtable.sourcenets[id][messagelist[1]])
+		if (!(id in routingtable.sourcenets) || !(messagelist[1] in routingtable.sourcenets[src.id]) || !routingtable.sourcenets[src.id][messagelist[1]])
 			return //But it can't get there from here, or better yet either this net or the dest net aren't in the routing table
 				   //If it's one of the latter, hopefully it was caused by a human typoing an id
-		var/datum/computernet/targnet = routingtable.sourcenets[id][messagelist[1]]
-		world.log << "Forwarding packet [packet] from [src.id] to [targnet.id]"
-		targnet.send(packet, sendingunit) //or if it can, send it!
 
-	for (var/obj/machinery/M in sniffers)
-		M.receivemessage(packet, sendingunit) //Sniffers get it too (they might get it twice, if the packet was directed at them)
+		var/list/datum/computernet/nets = routingtable.sourcenets[src.id][messagelist[1]]
+
+		for(var/datum/computernet/net in nets)
+			if (!net.propagate(packet, messagelist, sendingunit))
+				return
 
 /obj/machinery/proc/receivemessage(var/message, var/obj/machinery/srcmachine)
 	if (stat & BROKEN) return 1 //Broken things never respond, but they may be able to recieve packets when off
@@ -146,6 +162,6 @@ obj/machinery/proc/createmessagetomachine(var/message as text, var/obj/machinery
 	if(uppertext(messagelist[2]) == "MULTI")
 		return copytext(message,15 + (messagelist[3] == "***" ? 0 : 3),0) //"123 MULTI 456789 COMMAND" => "COMMAND"
 	else																 //"123 MULTI *** COMMAND" => "COMMAND"
-		return copytext(message,10,0) //"123 4567 COMMAND" => "COMMAND"
+		return copytext(message,10) //"123 4567 COMMAND" => "COMMAND"
 
 

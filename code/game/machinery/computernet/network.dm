@@ -19,7 +19,8 @@
 		if(!PC.cnetnum)
 			PC.cnetnum = ++netcount
 
-			if(DebugN) world.log << "Starting compnet mpn at [PC.x],[PC.y] ([PC.d1]/[PC.d2]) #[netcount]"
+
+			world.log << "Starting computernet #[netcount] at [PC.x],[PC.y],[PC.z] ([PC.d1]/[PC.d2])"
 			computernet_nextlink_counter = 0
 			computernet_nextlink(PC, PC.cnetnum)
 
@@ -29,7 +30,6 @@
 		var/datum/computernet/PN = new()
 		computernets += PN
 		PN.number = L
-
 
 	for(var/obj/computercable/C in world)
 		var/datum/computernet/PN = computernets[C.cnetnum]
@@ -48,9 +48,10 @@
 			M.computernet = computernets[M.cnetnum]
 			if (DebugN) world.log << "[M.name] added to Computer Network [M.cnetnum]"
 			if(!M.computerID)
-				world.log << "[M] Has bad code"
+				world.log << "[M] is not calling its ..() in New()!"
 			M.computernet.nodes[M.computerID] = M
 			M.computernet.nodes += M //Add both as an association and directly.
+
 			if(M.sniffer)
 				M.computernet.sniffers += M
 
@@ -68,9 +69,11 @@
 
 	for(var/obj/machinery/router/R in world)
 		if (R.connectednets.len)
-			R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
+			//R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
+			R.computernet = R.connectednets[1]
 
 	BuildRoutingTable()
+
 	if (!silence)
 		spawn(rand(20, 200))
 			for (var/mob/ai/AI in world)
@@ -90,7 +93,6 @@
 			if (C.d1 == get_dir(T, source.loc) || C.d2 == get_dir(T, source.loc))
 				result += C
 
-
 	result -= source
 
 	return result
@@ -100,11 +102,7 @@
 
 	var/list/res = list()	// this will be a list of all connected  objects
 
-	var/turf/T
-	if(!d1)
-		T = src.loc		// if d1=0, same turf as src
-	else
-		T = get_step_3d(src, d1)
+	var/turf/T = get_step_3d(src, d1)
 
 	res += computer_list(T, src , d1, 1)
 
@@ -145,18 +143,9 @@ var/computernet_nextlink_processing = 0
 
 
 /proc/computernet_nextlink(var/obj/O, var/num)
-	while(computernet_nextlink_processing)
-		sleep(1)
 	var/list/P
-	computernet_nextlink_counter = 0
 
 	while(1)
-		computernet_nextlink_counter++
-		if(computernet_nextlink_counter > 40)
-			computernet_nextlink_processing = 1
-			sleep(1)//During this sleep(), another nextlink() *could* begin processing, so stop it early.
-			computernet_nextlink_processing = 0
-			computernet_nextlink_counter = 0
 		if( istype(O, /obj/computercable) )
 			var/obj/computercable/C = O
 
@@ -169,7 +158,6 @@ var/computernet_nextlink_processing = 0
 			P = C.get_connections()
 
 		if(P.len == 0)
-//			world.log << "end1"
 			return
 
 		O = P[1]
@@ -179,21 +167,11 @@ var/computernet_nextlink_processing = 0
 
 			computernet_nextlink(P[L], num)
 
-//		world.log << "next: [O] at [O.x].[O.y]"
-
-
-
-
-
-
-
 // cut a powernet at this cable object
 
 /datum/computernet/proc/cut_cable(var/obj/computercable/C)
 
-	var/turf/T1 = C.loc
-	if(C.d1)
-		T1 = get_step_3d(C, C.d1)
+	var/turf/T1 = get_step_3d(C, C.d1)
 
 	var/turf/T2 = get_step_3d(C, C.d2)
 

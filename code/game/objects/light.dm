@@ -214,7 +214,7 @@
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	var/listofcommand = dd_text2list(command," ",null)
+	var/listofcommand = dd_text2list(command, " ", null)
 	if(listofcommand[2] == "LIGHTS" && (listofcommand[1] == "*" || listofcommand[1] == area.superarea.areaid))
 		if(listofcommand[3] == "OFF")
 			turnoff()
@@ -222,7 +222,7 @@
 			turnon()
 
 /obj/machinery/light/identinfo()
-	return "LIGHTS [!src.on ? "ON" : "OFF"] [bulb ? bulb.life : "NONE"] [area.superarea.areaid]"
+	return "LIGHT [!src.on ? "ON" : "OFF"] [bulb ? bulb.life : "NONE"] [area.superarea.areaid]"
 
 /obj/item/weapon/storage/lightbulbs/New()
 	..()
