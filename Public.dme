@@ -8,6 +8,7 @@
 // BEGIN_FILE_DIR
 #define FILE_DIR .
 #define FILE_DIR "code"
+#define FILE_DIR "code/Aryn"
 #define FILE_DIR "code/atoms"
 #define FILE_DIR "code/datums"
 #define FILE_DIR "code/game"
@@ -113,6 +114,11 @@
 #include "code\names.dm"
 #include "code\sd_DynamicAreaLighting.dm"
 #include "code\setup.dm"
+#include "code\Aryn\Airflow.dm"
+#include "code\Aryn\Fire.dm"
+#include "code\Aryn\ZAS Implementation.dm"
+#include "code\Aryn\ZAS MkII.dm"
+#include "code\Aryn\ZAS Plasma.dm"
 #include "code\atoms\client.dm"
 #include "code\atoms\fakewalls.dm"
 #include "code\atoms\space.dm"
@@ -220,7 +226,6 @@
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
 #include "code\game\machinery\computernet\physicalcable.dm"
-#include "code\game\machinery\computernet\testing.dm"
 #include "code\game\machinery\doors\airlock.dm"
 #include "code\game\machinery\doors\checkForMultipleDoors.dm"
 #include "code\game\machinery\doors\door.dm"

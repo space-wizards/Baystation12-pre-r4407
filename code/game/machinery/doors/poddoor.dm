@@ -21,7 +21,7 @@
 			var/turf/T = src.loc
 			if (istype(T, /turf) && checkForMultipleDoors())
 				T.updatecell = 1
-				T.buildlinks()
+				OpenDoor(T)
 			src.operating = 0
 			return
 	return
@@ -47,7 +47,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		T.buildlinks()
+		OpenDoor(T)
 	src.operating = 0
 	return
 
@@ -68,7 +68,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		T.buildlinks()
+		CloseDoor(T)
 	sleep(15)
 	src.operating = 0
 	return
@@ -77,8 +77,10 @@
 	if(..())
 		return 1
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "DOOR REC [command]"
+	//world << "DOOR REC [command]"
 	var/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand < 2)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "OPEN")
 			spawn(0)

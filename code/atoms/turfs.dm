@@ -57,6 +57,7 @@
 	..()
 	if (icon_state == "space")
 		icon_state = "space[rand(1, 10)]"
+	sd_LumUpdate()
 
 /turf/station
 	name = "station"
@@ -77,6 +78,7 @@
 				if (!AM.anchored)
 					AM.loc = dest
 			sleep(5)
+	sd_LumUpdate()
 
 
 
@@ -216,6 +218,7 @@
 			sleep(rand(200,300))
 			if(radiation > 1)
 				radiation -= min(rand(0,3), radiation)
+	sd_LumUpdate()
 
 /turf/station/Del()
 	..()

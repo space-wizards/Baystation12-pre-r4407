@@ -6312,6 +6312,7 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			if (usr.client && usr.machine==src) // && M.machine == src is omitted because if we triggered this by using the dialog, it doesn't matter if our machine changed in between triggering it and this - the dialog is probably still supposed to refresh.
 				src.attack_ai(usr)
 
+
 /obj/proc/updateDialog()
 	var/list/nearby = viewers(1, src)
 	for(var/mob/M in nearby)

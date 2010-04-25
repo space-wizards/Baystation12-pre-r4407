@@ -45,9 +45,9 @@
 	if(..())
 		return
 	var/list/commands = getcommandlist(message)
-	if(!commands.len)
+	if(commands.len < 1)
 		return
-	if(commands[1] == "SENSE")
+	if(checkcommand(commands,1,"SENSE"))
 		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
 
 /obj/machinery/meter/process()
@@ -163,8 +163,12 @@
 
 	..()
 	if(!empty)
-		src.gas.oxygen = 2.73E7
-		src.gas.n2 = 1.027E8
+		if(istype(src,/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon))
+			src.gas.oxygen = 1.365E7
+			src.gas.n2 = 5.135E7
+		else
+			src.gas.oxygen = 2.73E7
+			src.gas.n2 = 1.027E8
 	return
 
 /obj/machinery/atmoalter/siphs/fullairsiphon/port/reset(valve, auto)

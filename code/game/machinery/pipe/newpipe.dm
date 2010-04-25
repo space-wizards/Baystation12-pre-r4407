@@ -1630,7 +1630,9 @@ var/list/lines = list()
 
 
 /obj/machinery/valve/dvalve/receivemessage(message,sender)
-	var/listofcommand = getcommandlist(message)
+	var/list/listofcommand = getcommandlist(message)
+	if(listofcommand.len < 2)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "TOGGLE")
 			spawn(0)

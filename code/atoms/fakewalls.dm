@@ -20,6 +20,7 @@
 	src.levelupdate()
 	spawn(10)	// so that if it's getting created by the map it works, and if it isn't this will just return
 		src.setFloorUnderlay('Icons.dmi', "Floor1", 0, 100, 0, "floor")
+	sd_LumUpdate()
 
 /turf/station/wall/false_wall/proc/setFloorUnderlay(FloorIcon, FloorIcon_State, Floor_Intact, Floor_Health, Floor_Burnt, Floor_Name)
 	if(src.underlays.len)	return 0	//only one underlay
@@ -175,6 +176,7 @@
 	src.levelupdate()
 	spawn(10)	// so that if it's getting created by the map it works, and if it isn't this will just return
 		src.setFloorUnderlay('Icons.dmi', "Floor1", 0, 100, 0, "floor")
+	sd_LumUpdate()
 
 /turf/station/wall/false_rwall/proc/setFloorUnderlay(FloorIcon, FloorIcon_State, Floor_Intact, Floor_Health, Floor_Burnt, Floor_Name)
 	if(src.underlays.len)	return 0	//only one underlay

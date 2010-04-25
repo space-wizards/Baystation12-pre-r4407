@@ -326,6 +326,7 @@
 	var/a_level = 0.0
 	var/screen = 1.0
 	var/owner = null
+	var/stealthmode = 0
 /obj/barrier
 	name = "barrier"
 	icon = 'stationobjs.dmi'
@@ -2956,9 +2957,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 	var/empty =  null
 /obj/machinery/atmoalter/siphs/fullairsiphon
-	name = "Air siphon"
+	name = "Air Siphon"
 	icon = 'turfs.dmi'
 	icon_state = "siphon:0"
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon
+	name = "Airlock Siphon"
 /obj/machinery/atmoalter/siphs/fullairsiphon/air_vent
 	name = "Air regulator"
 	icon = 'aircontrol.dmi'
@@ -3087,6 +3090,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "networksniffer"
 	var/list/packets = list()
 	req_access = list(access_network)
+	sniffer = 1
 /obj/machinery/computer/communications
 	name = "Communications Console"
 	icon_state = "comm"
@@ -4313,6 +4317,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/visible = 1.0
 	var/operating = null
 	anchored = 1.0
+	block_zoning = 1
+	is_door = 1
 /obj/start
 	name = "start"
 	icon = 'screen1.dmi'
@@ -4873,6 +4879,7 @@ obj/machinery/vendingmachine/soda
 	density = 1
 	anchored = 1
 	desc = "A computer system designed to monitor network activity"
+	var/browser
 
 /obj/machinery/sniffer/syndicate
 	name = "Portable Network Packet Monitor"

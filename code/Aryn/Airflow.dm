@@ -1,0 +1,229 @@
+var
+	AF_MOVEMENT_THRESHOLD = 25 //% difference to move stuff.
+	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
+	AF_DAMAGE_MULTIPLIER = 5
+	AF_STUN_MULTIPLIER = 2
+	AF_SPEED_DECAY = 0.5
+
+client/proc
+	Change_Airflow_Constants()
+		set category = "ZAS"
+
+		var/choice = input("Which constant will you modify?","Change Airflow Constants")\
+		as null|anything in list("Movement Threshold","Speed Multiplier","Damage Multiplier","Stun Multiplier","Speed Decay")
+
+		var/n
+
+		switch(choice)
+			if("Movement Threshold")
+				n = input("What will you change it to","Change Airflow Constants",AF_MOVEMENT_THRESHOLD) as num
+				n = max(1,n)
+				AF_MOVEMENT_THRESHOLD = n
+				world.log << "AF_MOVEMENT_THRESHOLD set to [n]."
+			if("Speed Multiplier")
+				n = input("What will you change it to","Change Airflow Constants",AF_SPEED_MULTIPLIER) as num
+				n = max(1,n)
+				AF_SPEED_MULTIPLIER = n
+				world.log << "AF_SPEED_MULTIPLIER set to [n]."
+			if("Damage Multiplier")
+				n = input("What will you change it to","Change Airflow Constants",AF_DAMAGE_MULTIPLIER) as num
+				AF_DAMAGE_MULTIPLIER = n
+				world.log << "AF_DAMAGE_MULTIPLIER set to [n]."
+			if("Stun Multiplier")
+				n = input("What will you change it to","Change Airflow Constants",AF_STUN_MULTIPLIER) as num
+				AF_STUN_MULTIPLIER = n
+				world.log << "AF_STUN_MULTIPLIER set to [n]."
+			if("Speed Decay")
+				n = input("What will you change it to","Change Airflow Constants",AF_SPEED_DECAY) as num
+				AF_SPEED_DECAY = n
+				world.log << "AF_SPEED_DECAY set to [n]."
+
+proc/Airflow(zone/A,zone/B,n)
+	if(n < 0) return
+	var/list/connected_turfs = A.connections[B]
+	var/list/pplz = A.movables()
+	var/list/otherpplz = B.movables()
+	if(abs(n) > AF_MOVEMENT_THRESHOLD)
+		//world << "SWASH!"
+		for(var/atom/movable/M in otherpplz)
+			//world << "[M] / \..."
+			if(M.anchored && !ismob(M)) continue
+			if(istype(M,/mob/observer)) continue
+			if(istype(M,/mob/ai)) continue
+			var/fail = 1
+			for(var/turf/U in connected_turfs)
+				if(M in range(U)) fail = 0
+			if(fail) continue
+			//world << "Sonovabitch! [M] won't move!"
+			if(!M.airflow_speed)
+				M.airflow_dest = pick(connected_turfs)
+				spawn M.GotoAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
+			else
+				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+		for(var/atom/movable/M in pplz)
+			//world << "[M] / \..."
+			if(istype(M,/mob/ai)) continue
+			if(istype(M,/mob/observer)) continue
+			if(M.anchored && !ismob(M)) continue
+			var/fail = 1
+			for(var/turf/U in connected_turfs)
+				if(M in range(U)) fail = 0
+			if(fail) continue
+			//world << "Sonovabitch! [M] won't move either!"
+			if(!M.airflow_speed)
+				M.airflow_dest = pick(connected_turfs)
+				spawn M.RepelAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
+			else
+				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+atom/movable
+	var/turf/airflow_dest
+	var/airflow_speed = 0
+	proc/GotoAirflowDest(n)
+		if(!airflow_dest) return
+		if(airflow_speed < 0) return
+		if(airflow_speed)
+			airflow_speed = n
+			return
+		airflow_speed = min(round(n),9)
+		//world << "[src]'s headed to [airflow_dest] at [n] times the SPEED OF LIGHT!"
+		airflow_dest = get_step(src,Get_Dir(src,airflow_dest))
+		var
+			xo = src.x - airflow_dest.x
+			yo = src.x - airflow_dest.y
+			od = 0
+		airflow_dest = null
+		if(!density)
+			density = 1
+			od = 1
+		while(airflow_speed > 0)
+			if(airflow_speed < 0) return
+			airflow_speed = min(airflow_speed,9)
+			airflow_speed -= AF_SPEED_DECAY
+			sleep(10-airflow_speed)
+			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))
+				src.airflow_dest = locate(min(max(src.x + xo, 1), world.maxx), min(max(src.y + yo, 1), world.maxy), src.z)
+				//world << "New destination: [airflow_dest]"
+			if ((src.x == 1 || src.x == world.maxx || src.y == 1 || src.y == world.maxy))
+				return
+			step_towards(src, src.airflow_dest)
+		airflow_dest = null
+		if(od)
+			density = 0
+	proc/RepelAirflowDest(n)
+		if(!airflow_dest) return
+		if(airflow_speed < 0) return
+		if(airflow_speed)
+			airflow_speed = n
+			return
+		airflow_speed = min(round(n),9)
+		airflow_dest = get_step(src,Get_Dir(airflow_dest,src))
+		var
+			xo = (src.x - airflow_dest.x)
+			yo = (src.x - airflow_dest.y)
+			od = 0
+		airflow_dest = null
+		if(!density)
+			density = 1
+			od = 1
+		while(airflow_speed > 0)
+			if(airflow_speed < 0) return
+			airflow_speed = min(airflow_speed,9)
+			airflow_speed -= AF_SPEED_DECAY
+			sleep(10-airflow_speed)
+			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))
+				src.airflow_dest = locate(min(max(src.x + xo, 1), world.maxx), min(max(src.y + yo, 1), world.maxy), src.z)
+			if ((src.x == 1 || src.x == world.maxx || src.y == 1 || src.y == world.maxy))
+				return
+			step_towards(src, src.airflow_dest)
+		airflow_dest = null
+		if(od)
+			density = 0
+	Bump(atom/A)
+		. = ..()
+		if(airflow_speed && airflow_dest)
+
+			viewers(src) << "\red <b>[src] slams into [A]!</b>"
+			if(ismob(src) && !istype(src,/mob/ai))
+				var/b_loss = airflow_speed * AF_DAMAGE_MULTIPLIER
+				for(var/organ in src:organs)
+					var/obj/item/weapon/organ/external/temp = src:organs[text("[]", organ)]
+					if (istype(temp, /obj/item/weapon/organ/external))
+						switch(temp.name)
+							if("head")
+								temp.take_damage(b_loss * 0.2, 0)
+							if("chest")
+								temp.take_damage(b_loss * 0.4, 0)
+							if("diaper")
+								temp.take_damage(b_loss * 0.1, 0)
+							if("l_arm")
+								temp.take_damage(b_loss * 0.05, 0)
+							if("r_arm")
+								temp.take_damage(b_loss * 0.05, 0)
+							if("l_hand")
+								temp.take_damage(b_loss * 0.0225, 0)
+							if("r_hand")
+								temp.take_damage(b_loss * 0.0225, 0)
+							if("l_leg")
+								temp.take_damage(b_loss * 0.05, 0)
+							if("r_leg")
+								temp.take_damage(b_loss * 0.05, 0)
+							if("l_foot")
+								temp.take_damage(b_loss * 0.0225, 0)
+							if("r_foot")
+								temp.take_damage(b_loss * 0.0225, 0)
+				spawn src:UpdateDamageIcon()
+				if(airflow_speed > 5)
+					src:paralysis += airflow_speed*AF_STUN_MULTIPLIER
+					src:stunned = max(src:stunned,src:paralysis + 3)
+				else
+					src:stunned += airflow_speed * AF_STUN_MULTIPLIER/2
+			airflow_speed = -1
+			spawn(50) airflow_speed = 0
+			airflow_dest = null
+
+zone/proc/movables()
+	. = list()
+	for(var/turf/T in contents)
+		for(var/atom/A in T)
+			. += A
+
+obj/machinery/door/is_door = 1
+obj/machinery/door/poddoor/is_door = 1
+
+
+proc/Get_Dir(atom/S,atom/T) //Shamelessly stolen from AJX.AdvancedGetDir
+	var/GDist=get_dist(S,T)
+	var/GDir=get_dir(S,T)
+	if(GDist<=3)
+		if(GDist==0) return 0
+		if(GDist==1)
+			return GDir
+
+
+	var/X1=S.x*10
+	var/X2=T.x*10
+	var/Y1=S.y*10
+	var/Y2=T.y*10
+	var/Ref
+	if(GDir==NORTHEAST)
+		Ref=(X2/X1)*Y1
+		if(Ref-1>Y2) .=EAST
+		else if(Ref+1<Y2) .=NORTH
+		else .=NORTHEAST
+	else if(GDir==NORTHWEST)
+		Ref=(1+((1-(X2/X1))))*Y1
+		if(Ref-1>Y2) .=WEST
+		else if(Ref+1<Y2) .=NORTH
+		else .=NORTHWEST
+	else if(GDir==SOUTHEAST)
+		Ref=(1-((X2/X1)-1))*Y1
+		if(Ref-1>Y2) .=SOUTH
+		else if(Ref+1<Y2) .=EAST
+		else .=SOUTHEAST
+	else if(GDir==SOUTHWEST)
+		Ref=(X2/X1)*Y1
+		if(Ref-1>Y2) .=SOUTH
+		else if(Ref+1<Y2) .=WEST
+		else .=SOUTHWEST
+	else
+		return GDir

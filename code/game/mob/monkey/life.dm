@@ -23,7 +23,7 @@
 			var/turf/U
 			U = src.loc
 			if (istype(U, /turf))
-				U.firelevel = U.poison
+				U.firelevel = U.poison()
 		if (src.clumsy && prob(1))
 			if (!src.lying)
 				src << "\red You stumble and hit your head."
@@ -133,18 +133,23 @@
 			else
 				if (src.health < 40)
 					t = 1.0E-4
-			if (locate(/obj/move, T))
-				T = locate(/obj/move, T)
-			var/turf_total = T.oxygen + T.poison + T.sl_gas + T.co2 + T.n2
+			//if (locate(/obj/move, T))
+			//	T = locate(/obj/move, T)
+			var/turf_total = T.per_turf()//T.oxygen + T.poison() + T.sl_gas + T.co2 + T.n2
 			var/obj/substance/gas/G = new /obj/substance/gas(  )
 			G.maximum = 10000
 			if (src.internal)
 				src.internal.process(src, G)
 				if (src.wear_mask.flags & 4)
-					G.turf_add(T, G.tot_gas() * 0.5)
-					G.turf_take(T, t / 2 * turf_total - G.tot_gas())
+					G.turf_take(T, t / 2 * turf_total)
 			else
 				G.turf_take(T, t * turf_total)
+			if(locate(/obj/move) in T)
+				G.oxygen = 200
+				G.n2 = 0
+				G.plasma = 0
+				G.co2 = 0
+				G.sl_gas = 0
 			src.aircheck(G)
 			//second pass at body temp
 			var/thermal_layers = 1.5
@@ -180,7 +185,7 @@
 		else if (istype(T, /obj))
 			var/obj/O = T
 			O.alter_health(src)
-		if ((istype(src.loc, /turf/space) && !( locate(/obj/move, src.loc) )))
+		if ((istype(src.loc, /turf/space) && !( locate(/obj/move,src.loc) )))
 			var/layers = 20
 
 			// ****** Check

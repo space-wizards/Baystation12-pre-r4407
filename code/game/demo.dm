@@ -343,10 +343,10 @@
 
 /obj/item/weapon/tank/plasmatank/proc/release()
 	var/turf/T = get_turf(src.loc)
-	T.poison += src.gas.plasma * src.gas.temperature / 25.0
-	T.oxygen += src.gas.oxygen * src.gas.temperature / 25.0
-	T.n2 += src.gas.n2 * src.gas.temperature / 25.0
-	T.sl_gas += src.gas.sl_gas * src.gas.temperature / 25.0
+	T.poison(src.gas.plasma * src.gas.temperature / 25.0)
+	T.oxygen(src.gas.oxygen * src.gas.temperature / 25.0)
+	T.n2(src.gas.n2 * src.gas.temperature / 25.0)
+	T.sl_gas(src.gas.sl_gas * src.gas.temperature / 25.0)
 	T.res_vars()
 
 	src.gas.plasma = 0
@@ -364,17 +364,17 @@
 /obj/item/weapon/tank/plasmatank/proc/ignite()
 	spawn(0)
 		var/strength = ((src.gas.plasma + src.gas.oxygen/2.0) / 1600000.0) * src.gas.temperature
-
+		//if ((src.gas.plasma < 1600000.0 || src.gas.temperature < 773))		//500degC
 		if (strength < 773.0)
 			var/turf/T = get_turf(src.loc)
-			T.poison += src.gas.plasma
-			T.firelevel = T.poison
+			T.poison(src.gas.plasma)
+			T.firelevel = T.poison()
 			T.res_vars()
 
 			if(src.master)
 				src.master.loc = null
 
-
+			//if ((src.gas.temperature > (450+T0C) && src.gas.plasma == 1600000.0))
 			if (strength > (450+T0C))
 				var/turf/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 				var/turf/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
@@ -390,14 +390,14 @@
 					for(var/atom/A in U)
 						if(A != src)
 							A.ex_act(zone)
-
+						//Foreach goto(342)
 					U.ex_act(zone)
 					U.buildlinks()
 					num++;
 					if(num>MAX_BOMB_TILES)
 						sleep(0)
 						num = 0
-
+					//Foreach goto(170)
 				defer_powernet_rebuild = 0
 				defer_computernet_rebuild = 0
 				makepowernets()
@@ -470,12 +470,12 @@
 
 
 			var/zone = 4
+			if ((U.y <= (T.y + max) && U.y >= (T.y - max) && U.x <= (T.x + max) && U.x >= (T.x - max) ))
+				zone = 3
+			if ((U.y <= (T.y + med) && U.y >= (T.y - med) && U.x <= (T.x + med) && U.x >= (T.x - med) ))
+				zone = 2
 			if ((U.y <= (T.y + min) && U.y >= (T.y - min) && U.x <= (T.x + min) && U.x >= (T.x - min) ))
 				zone = 1
-			else if ((U.y <= (T.y + med) && U.y >= (T.y - med) && U.x <= (T.x + med) && U.x >= (T.x - med) ))
-				zone = 2
-			else if ((U.y <= (T.y + max) && U.y >= (T.y - max) && U.x <= (T.x + max) && U.x >= (T.x - max) ))
-				zone = 3
 			for(var/atom/A in U)
 				if(A != src)
 					A.ex_act(zone)
@@ -2414,6 +2414,7 @@
 		if (src.dir == SOUTHWEST)
 			usr << "You can't rotate this! "
 			return 0
+	TurnWindow(src,turn(src.dir,90))
 	src.dir = turn(src.dir, 90)
 	src.ini_dir = src.dir
 	src.loc.buildlinks()
@@ -2426,6 +2427,7 @@
 
 	src.ini_dir = src.dir
 	src.loc.buildlinks()
+	NewWindow(src)
 	if(reinf)
 		icon_state = "rwindow"
 		desc = "A reinforced window."
@@ -2438,10 +2440,12 @@
 /obj/window/Del()
 	src.density = 0
 	src.loc.buildlinks()
+	DelWindow(src)
 	..()
 
-/obj/window/Move()
+/obj/window/Move(turf/nloc)
 	var/turf/sl = src.loc
+	MoveWindow(src,nloc)
 	..()
 	src.dir = src.ini_dir
 	sl.buildlinks()
@@ -2572,13 +2576,14 @@
 		src.opacity = 1
 		src.density = 1
 		src.updatecell = 0
-		src.buildlinks()
+		CloseWall(src)
 	else
 		src.icon_state = "r_girder"
 		src.opacity = 0
 		src.density = 1
 		src.updatecell = 1
-		src.buildlinks()
+		src.accept_zoning = 1
+		OpenWall(src)
 	return
 
 /turf/station/r_wall/unburn()
@@ -2620,15 +2625,7 @@
 		A = src.loc
 		W = new /turf/station/floor( locate(src.x, src.y, src.z) )
 
-	W.oxygen = src.oxygen
-
-	W.poison = src.poison
-
-	W.co2 = src.co2
-
-	W.sl_gas = src.sl_gas
-
-	W.n2 = src.n2
+	W.zone = zone
 
 	W.temp = src.temp
 
@@ -2638,6 +2635,7 @@
 		if (A!=world.area)
 			A.contents -= W
 			A.contents += W
+	OpenWall(W)
 	return W
 
 /turf/station/Entered(mob/human/M as mob, mob/user as mob)
@@ -2679,23 +2677,14 @@
 			S.previousArea = null
 	else
 		S.previousArea = oldAreaArea
+	S.zone = src.zone
 	new /area( locate(src.x, src.y, src.z) )
+	OpenWall(S)
 	return S
 
 /turf/proc/ReplaceWithWall()
 	var oldAreaArea = src.loc
 	var/turf/station/wall/S = new /turf/station/wall( locate(src.x, src.y, src.z) )
-
-	S.oxygen = src.oxygen
-
-	S.poison = src.poison
-
-	S.co2 = src.co2
-
-	S.sl_gas = src.sl_gas
-
-	S.n2 = src.n2
-
 	S.temp = src.temp
 	if (oldAreaArea==world.area)
 		if (istype(src, /turf/station/wall) || istype(src, /turf/station/r_wall) || istype(src, /turf/space))
@@ -2705,21 +2694,12 @@
 	else
 		S.previousArea = oldAreaArea
 	new /area( locate(src.x, src.y, src.z) )
+	CloseWall(S)
 	return S
 
 /turf/proc/ReplaceWithRWall()
 	var oldAreaArea = src.loc
 	var/turf/station/r_wall/S = new /turf/station/r_wall( locate(src.x, src.y, src.z) )
-	S.oxygen = src.oxygen
-
-	S.poison = src.poison
-
-	S.co2 = src.co2
-
-	S.sl_gas = src.sl_gas
-
-	S.n2 = src.n2
-
 	S.temp = src.temp
 	if (oldAreaArea==world.area)
 		if (istype(src, /turf/station/wall) || istype(src, /turf/station/r_wall) || istype(src, /turf/space))
@@ -2729,6 +2709,7 @@
 	else
 		S.previousArea = oldAreaArea
 	new /area( locate(src.x, src.y, src.z) )
+	CloseWall(S)
 	return S
 
 /turf/station/r_wall/ex_act(severity)
@@ -2773,6 +2754,8 @@
 				new /obj/item/weapon/sheet/metal( src )
 				new /obj/item/weapon/sheet/metal( src )
 				src.icon_state = "girder"
+				src.accept_zoning = 1
+				OpenWall(src)
 				update()
 		else
 	return
@@ -2799,6 +2782,8 @@
 			src.levelupdate()
 			new /obj/item/weapon/sheet/metal( src )
 			src.icon_state = "girder"
+			accept_zoning = 1
+			OpenWall(src)
 			update()
 
 
@@ -3053,6 +3038,8 @@
 				new /obj/item/weapon/sheet/metal( src )
 				new /obj/item/weapon/sheet/metal( src )
 				src.icon_state = "girder"
+				accept_zoning = 1
+				OpenWall(src)
 			else
 				src.state = 0
 				//var/turf/station/floor/F = new /turf/station/floor( locate(src.x, src.y, src.z) )
@@ -3075,6 +3062,8 @@
 				new /obj/item/weapon/sheet/metal( src )
 				new /obj/item/weapon/sheet/metal( src )
 				src.icon_state = "girder"
+				accept_zoning = 1
+				OpenWall(src)
 		else
 	return
 /*
@@ -3117,6 +3106,8 @@
 			levelupdate()
 			new /obj/item/weapon/sheet/metal( src )
 			src.icon_state = "girder"
+			accept_zoning = 1
+			OpenWall(src)
 
 
 
@@ -3282,6 +3273,8 @@
 			new /obj/item/weapon/sheet/metal( src )
 			new /obj/item/weapon/sheet/metal( src )
 			src.icon_state = "girder"
+			accept_zoning = 1
+			OpenWall(src)
 	else if (istype(W, /obj/item/weapon/sheet/metal) && src.state == 1 && W:amount >= 2)
 		var/turf/T = user.loc
 		if (!istype(T, /turf))
@@ -3299,7 +3292,8 @@
 			src.updatecell = 0
 			src.intact = 1
 			src.levelupdate()
-			src.buildlinks()
+			src.accept_zoning = 0
+			CloseWall(src)
 			W:amount -= 2
 			if(W:amount <= 0)
 				del(W)

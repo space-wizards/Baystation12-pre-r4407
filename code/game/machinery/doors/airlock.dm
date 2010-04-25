@@ -75,6 +75,10 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	var/build_state = 0
 	var/health = 100
 	autoclose = 1
+
+	is_door = 1
+	block_zoning = 1
+
 /*
 About the new airlock wires panel:
 *	An airlock wire dialog can be accessed by the normal way or by using wirecutters or a multitool on the door while the wire-panel is open. This would show the following wires, which you can either wirecut/mend or send a multitool pulse through. There are 9 wires.
@@ -307,6 +311,8 @@ About the new airlock wires panel:
 	if(!net)		// cable is unpowered
 		return 0
 
+	user.machine = null
+
 	return src.electrocute(user, prb, net)
 
 /obj/machinery/door/airlock/proc/updateIconState()
@@ -486,8 +492,9 @@ About the new airlock wires panel:
 					src.hulksmash1 = 1
 					var/turf/T = src.loc
 					if (istype(T, /turf) && checkForMultipleDoors())
-						T.updatecell = 1
-						T.buildlinks()
+						//T.updatecell = 1
+						//T.buildlinks()
+						OpenDoor(src)
 					return
 				else
 					user << "You claw the door!"
@@ -740,6 +747,8 @@ About the new airlock wires panel:
 				R.amount = 5
 			var/obj/item/weapon/sheet/metal/R = new /obj/item/weapon/sheet/metal( src.loc )
 			R.amount = 5
+			src.block_zoning = 0
+			OpenWall(src)
 			del(src)
 		else if(src.build_state == 1)
 			if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density))
@@ -853,7 +862,7 @@ About the new airlock wires panel:
 				var/turf/T = src.loc
 				if (istype(T, /turf) && checkForMultipleDoors())
 					T.updatecell = 1
-					T.buildlinks()
+					OpenDoor(T)
 				src.operating = 0
 				return
 		else
@@ -868,7 +877,7 @@ About the new airlock wires panel:
 					var/turf/T = src.loc
 					if (istype(T, /turf))
 						T.updatecell = 0
-						T.buildlinks()
+						CloseDoor(T)
 					sleep(15)
 					src.operating = 0
 
@@ -951,9 +960,10 @@ About the new airlock wires panel:
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "AIRLOCK REC [command]"
-	var/listofcommand = dd_text2list(command," ",null)
-	if(check_password(listofcommand[1]))
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
+	if(check_password(listofcommand[1]) && listofcommand.len >= 3)
 		switch(listofcommand[2])
 			if("ELEC")
 				switch(listofcommand[3])

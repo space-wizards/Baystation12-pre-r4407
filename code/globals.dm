@@ -14,6 +14,7 @@ var
 	obj/datacore/data_core = null
 	obj/overlay/plmaster = null
 	obj/overlay/slmaster = null
+	obj/overlay/indmaster = null
 	going = 1.0
 	master_mode = "random"//"extended"
 	air_cycle = 5
@@ -129,7 +130,7 @@ var
 	forceblob = 0
 	lastapupdate = 0
 
-	var/global/list/player/players
+	var/global/list/player/players = list()
 
 	//airlockWireColorToIndex takes a number representing the wire color, e.g. the orange wire is always 1, the dark red wire is always 2, etc. It returns the index for whatever that wire does.
 	//airlockIndexToWireColor does the opposite thing - it takes the index for what the wire does, for example AIRLOCK_WIRE_IDSCAN is 1, AIRLOCK_WIRE_POWER1 is 2, etc. It returns the wire color number.

@@ -3,12 +3,15 @@
 	return
 
 /obj/machinery/door/Move()
+	block_zoning = 0
+	OpenWall(src)
 	..()
 	if (src.density)
 		var/turf/location = src.loc
 		if (istype(location, /turf))
 			location.updatecell = 0
-			location.buildlinks()
+			block_zoning = 1
+			CloseWall(src)
 	return
 
 
@@ -141,7 +144,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		T.buildlinks()
+		OpenDoor(src)
 	if(operating == 1) //emag again
 		src.operating = 0
 	if(autoclose)
@@ -161,7 +164,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		T.buildlinks()
+		CloseDoor(src)
 	sleep(15)
 	src.operating = 0
 	return
@@ -184,6 +187,10 @@
 	if (src.operating)
 		return
 	if (src.density && src.allowed(AM))
+		if(istype(AM,/mob/human))
+			var/mob/human/H = AM
+			if(H.zombie)
+				return
 		open()
 	return
 
@@ -197,8 +204,9 @@
 	if (istype(src,/obj/machinery/door/poddoor) || istype(src,/obj/machinery/door/firedoor))
 		return 0
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "DOOR REC [command]"
-	var/listofcommand = dd_text2list(command," ",null)
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "OPEN")
 			spawn(0)

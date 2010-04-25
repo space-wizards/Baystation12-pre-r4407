@@ -1238,41 +1238,43 @@ var/powernet_nextlink_processing = 0
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	var/listofcommand = dd_text2list(command," ",null)
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
 	if(check_password(listofcommand[1]))
-		if(listofcommand[2] == "CHARGE")
-			if(listofcommand[3] == "AUTO")
+		if(checkcommand(listofcommand,2,"CHARGE"))
+			if(checkcommand(listofcommand,3,"AUTO"))
 				chargemode = 1
 				updateicon()
 
-			else if(listofcommand[3] == "OFF")
+			else if(checkcommand(listofcommand,3,"OFF"))
 				chargemode = 0
 				charging = 0
 				updateicon()
 
-		else if(listofcommand[2] == "OUTPUT")
-			if(listofcommand[3] == "ONLINE")
+		else if(checkcommand(listofcommand,2,"OUTPUT"))
+			if(checkcommand(listofcommand,3,"ONLINE"))
 				online = 1
 				updateicon()
 
-			else if(listofcommand[3] == "OFFLINE")
+			else if(checkcommand(listofcommand,3,"OFFLINE"))
 				online = 0
 				updateicon()
 
-		else if(listofcommand[2] == "ALTERCHARGE")
+		else if(checkcommand(listofcommand,2,"ALTERCHARGE") && listofcommand.len >= 3)
 			var/num
 			num = text2num(listofcommand[3])
 			if(num >= 0 && num <= SMESMAXCHARGELEVEL)
 				chargelevel = num
 
 
-		else if(listofcommand[2] == "ALTEROUTPUT")
+		else if(checkcommand(listofcommand,2,"ALTEROUTPUT") && listofcommand.len >= 3)
 			var/num
 			num = text2num(listofcommand[3])
 			if(num >= 0 && num <= SMESMAXOUTPUT)
 				output = num
 
-		else if (listofcommand[2] == "SENSE")
+		else if (checkcommand(listofcommand,2,"SENSE"))
 			transmitmessage(createmessagetomachine("REPORT POWER [tag] [src.chargemode ? "AUTO" : "OFF"] [src.charging ? "CHARGING" : "NOT CHARGING"] [charge] [src.online ? "ONLINE" : "OFFLINE"] [chargelevel] [output]", sender))
 
 
