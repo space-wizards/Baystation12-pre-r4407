@@ -1968,7 +1968,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-					src.verbs += /client/proc/Change_Airflow_Threshold
+					src.verbs += /client/proc/Change_Airflow_Constants
 
 				if ("Super Administrator")
 					src.holder.level = 4
@@ -2001,7 +2001,7 @@
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
-					src.verbs += /client/proc/Change_Airflow_Threshold
+					src.verbs += /client/proc/Change_Airflow_Constants
 
 
 				if ("Primary Administrator")

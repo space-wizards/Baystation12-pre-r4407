@@ -119,11 +119,14 @@ proc/WinCheck(turf/T,d)
 
 obj/machinery/door/block_zoning = 1
 obj/machinery/door/poddoor/block_zoning = 1
+obj/shuttle/door/block_zoning = 1
+obj/shuttle/door/is_door = 1
+obj/move/wall/block_zoning = 1
 
-turf/verb/Show_Zone()
-	set src in view()
-	ShowZone(zone)
-	world << "<u>Z[zones.Find(zone)]</u>"
-	for(var/g in zone.gases)
-		world << "<b>[g]</b>: [zone.turf_cache[g]] ([zone.gases[g]] total) - [zone.partial_pressure(g)]"
-	world << "<br><b>Total Pressure</b>: [zone.pressure()]"
+//turf/verb/Show_Zone()
+//	set src in view()
+//	ShowZone(zone)
+//	world << "<u>Z[zones.Find(zone)]</u>"
+//	for(var/g in zone.gases)
+//		world << "<b>[g]</b>: [zone.turf_cache[g]] ([zone.gases[g]] total) - [zone.partial_pressure(g)]"
+//	world << "<br><b>Total Pressure</b>: [zone.pressure()]"

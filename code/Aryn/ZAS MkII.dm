@@ -172,7 +172,7 @@ zone
 					var/flow = connection_cache[Z]
 					if(!flow) continue
 
-					var/gas_diff = per_turf() - Z.per_turf()
+					var/gas_diff = pressure() - Z.pressure()
 					if(gas_diff > AF_MOVEMENT_THRESHOLD)// && more_air_here)
 						Airflow(src,Z,gas_diff)
 
