@@ -5,16 +5,25 @@
 
 // BEGIN_INTERNALS
 /*
+FILE: interface\skin.dmf
+DIR: code code\Aryn code\atoms code\game code\game\admin code\game\gamemodes code\game\gamemodes\revolution code\game\machinery code\game\machinery\computernet code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\ai interface
+HIDDENPATHS:
 MAP_ICON_TYPE: 0
+<<<<<<< HEAD
 LAST_COMPILE_VERSION: 464.1066
 DIR: code code\Aryn code\game\gamemodes\sandbox code\game\mob code\game\mob\human code\game\mob\monkey sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon Lib 
 FILE: code\Aryn\Airflow.dm
 LAST_COMPILE_TIME: 1272171739
+=======
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1272080398
+>>>>>>> 136d0ffa3842d6a4b259b270cb5f9ce1c9b0427f
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+<<<<<<< HEAD
 #define FILE_DIR ".git"
 #define FILE_DIR ".git/hooks"
 #define FILE_DIR ".git/info"
@@ -67,6 +76,8 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/pack"
 #define FILE_DIR ".git/refs"
 #define FILE_DIR ".git/refs/heads"
+=======
+>>>>>>> 136d0ffa3842d6a4b259b270cb5f9ce1c9b0427f
 #define FILE_DIR "code"
 #define FILE_DIR "code/Aryn"
 #define FILE_DIR "code/atoms"
@@ -273,6 +284,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\igniter.dm"
 #include "code\game\machinery\instructions.dm"
 #include "code\game\machinery\light_switch.dm"
+#include "code\game\machinery\machineprocs.dm"
 #include "code\game\machinery\other.dm"
 #include "code\game\machinery\overview.dm"
 #include "code\game\machinery\piano.dm"
@@ -290,7 +302,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
 #include "code\game\machinery\computernet\physicalcable.dm"
-#include "code\game\machinery\computernet\testing.dm"
+#include "code\game\machinery\computernet\sniffer.dm"
 #include "code\game\machinery\doors\airlock.dm"
 #include "code\game\machinery\doors\checkForMultipleDoors.dm"
 #include "code\game\machinery\doors\door.dm"

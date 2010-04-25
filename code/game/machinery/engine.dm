@@ -282,7 +282,9 @@
 	if(..())
 		return
 	var/list/mess = dd_text2list(stripnetworkmessage(message), " ")
-	if (uppertext(mess[1]) == "SENSE")
+	if(mess.len < 1)
+		return
+	if(checkcommand(mess,1,"SENSE"))
 		var/turf/T = src.loc
 		var/turf_total = T.tot_gas()
 		var/g1 = "[round(T.oxygen/turf_total * 100, 0.1)] [round(T.co2/turf_total * 100, 0.1)]"

@@ -1014,18 +1014,18 @@
 	var/command = uppertext(stripnetworkmessage(message))
 	var/listofcommand = dd_text2list(command," ",null)
 	if(check_password(listofcommand[1]))
-		if(listofcommand[3] == "ALL")
-			if(listofcommand[2] == "ON")
+		if(checkcommand(listofcommand,3,"ALL"))
+			if(checkcommand(listofcommand,2,"ON"))
 				lighting = 2
 				equipment = 2
 				environ = 2
 				operating = 1
-			else if(listofcommand[2] == "OFF")
+			if(checkcommand(listofcommand,2,"OFF"))
 				lighting = 0
 				equipment = 0
 				environ = 0
 				operating = 0
-			else if(listofcommand[2] == "AUTO")
+			if(checkcommand(listofcommand,2,"AUTO"))
 				lighting = 3
 				equipment = 3
 				environ = 3
@@ -1034,62 +1034,62 @@
 			update()
 			updateDialog()
 
-		if(listofcommand[3] == "BREAKER")
-			if(listofcommand[2] == "ON")
+		if(checkcommand(listofcommand,3,"BREAKER"))
+			if(checkcommand(listofcommand,2,"ON"))
 				operating = 1
-			else if(listofcommand[2] == "OFF")
+			if(checkcommand(listofcommand,2,"OFF"))
 				operating = 0
 			src.update()
 			updateicon()
 			updateDialog()
 
-		else if(listofcommand[3] == "LIGHT")
-			if(listofcommand[2] == "ON")
+		if(checkcommand(listofcommand,3,"LIGHT"))
+			if(checkcommand(listofcommand,2,"ON"))
 				lighting = 2
-			else if(listofcommand[2] == "OFF")
+			if(checkcommand(listofcommand,2,"OFF"))
 				lighting = 0
-			else if(listofcommand[2] == "AUTO")
+			if(checkcommand(listofcommand,2,"AUTO"))
 				lighting = 3
 			updateicon()
 			update()
-		else if(listofcommand[3] == "ENVIRON")
-			if(listofcommand[2] == "ON")
+		if(checkcommand(listofcommand,3,"ENVIRON"))
+			if(checkcommand(listofcommand,2,"ON"))
 				environ = 2
-			else if(listofcommand[2] == "OFF")
+			if(checkcommand(listofcommand,2,"OFF"))
 				environ = 0
-			else if(listofcommand[2] == "AUTO")
+			if(checkcommand(listofcommand,2,"AUTO"))
 				environ = 3
 			updateicon()
 			update()
 			updateDialog()
 
-		else if(listofcommand[3] == "EQUIP")
-			if(listofcommand[2] == "ON")
+		if(checkcommand(listofcommand,3,"EQUIP"))
+			if(checkcommand(listofcommand,2,"ON"))
 				equipment = 2
-			else if(listofcommand[2] == "OFF")
+			if(checkcommand(listofcommand,2,"OFF"))
 				equipment = 0
-			else if(listofcommand[2] == "AUTO")
+			if(checkcommand(listofcommand,2,"AUTO"))
 				equipment = 3
 			updateicon()
 			update()
 			updateDialog()
 
-		else if(listofcommand[2] == "UNLOCK")
-			if(listofcommand[3] == "INTERFACE")
+		else if(checkcommand(listofcommand,2,"UNLOCK"))
+			if(checkcommand(listofcommand,3,"INTERFACE"))
 				locked = 0
-			else if(listofcommand[3] == "PANEL")
+			else if(checkcommand(listofcommand,3,"PANEL"))
 				coverlocked = 0
 			updateDialog()
-		else if(listofcommand[2] == "LOCK")
-			if(listofcommand[3] == "INTERFACE")
+		else if(checkcommand(listofcommand,2,"LOCK"))
+			if(checkcommand(listofcommand,3,"INTERFACE"))
 				locked = 1
-			else if(listofcommand[3] == "PANEL")
+			else if(checkcommand(listofcommand,3,"PANEL"))
 				coverlocked = 1
 			updateDialog()
-		else if(listofcommand[2] == "CHARGE")
-			if(listofcommand[3] == "AUTO")
+		else if(checkcommand(listofcommand,2,"CHARGE"))
+			if(checkcommand(listofcommand,3,"AUTO"))
 				chargemode = 1
-			else if(listofcommand[3] == "OFF")
+			else if(checkcommand(listofcommand,3,"OFF"))
 				chargemode = 0
 				charging = 0
 			updateicon()

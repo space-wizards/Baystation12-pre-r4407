@@ -311,6 +311,8 @@ About the new airlock wires panel:
 	if(!net)		// cable is unpowered
 		return 0
 
+	user.machine = null
+
 	return src.electrocute(user, prb, net)
 
 /obj/machinery/door/airlock/proc/updateIconState()
@@ -958,9 +960,10 @@ About the new airlock wires panel:
 	if(..())
 		return
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "AIRLOCK REC [command]"
-	var/listofcommand = dd_text2list(command," ",null)
-	if(check_password(listofcommand[1]))
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
+	if(check_password(listofcommand[1]) && listofcommand.len >= 3)
 		switch(listofcommand[2])
 			if("ELEC")
 				switch(listofcommand[3])

@@ -16,10 +16,12 @@ Servicing [connectednets.len + disconnectednets.len] Networks<BR>
 /obj/machinery/router/receivemessage(message as text, obj/machinery/srcmachine)
 	if (..())
 		return
-	world << "ROUTER REC [message]"
+//	world << "ROUTER REC [message]"
 	var/list/commands = getcommandlist(message)
+	if(commands.len < 3)
+		return
 	if (!check_password(commands[1]))
-		world << "ROUTER BAD PASS"
+	//	world << "ROUTER BAD PASS"
 		return
 	var/datum/computernet/cnet = null
 	for (var/datum/computernet/net in computernets)

@@ -31,13 +31,13 @@ var/list
 
 var/zas_cycle = 2
 //The amount of ticks an air cycle will last. Change in case of lag.
-client/proc
+/*mob/verb
 	Set_ZAS_Cycle_Time(n as num)
 		set category = "ZAS"
 		n = max(1,n)
 		zas_cycle = n
 		world.log << "Zones will now update every [n] ticks."
-
+*/
 var/manual_calc = 0
 
 var/moving_zone = 0

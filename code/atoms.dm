@@ -3090,6 +3090,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "networksniffer"
 	var/list/packets = list()
 	req_access = list(access_network)
+	sniffer = 1
 /obj/machinery/computer/communications
 	name = "Communications Console"
 	icon_state = "comm"
@@ -4878,6 +4879,7 @@ obj/machinery/vendingmachine/soda
 	density = 1
 	anchored = 1
 	desc = "A computer system designed to monitor network activity"
+	var/browser
 
 /obj/machinery/sniffer/syndicate
 	name = "Portable Network Packet Monitor"

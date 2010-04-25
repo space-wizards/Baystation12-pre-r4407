@@ -187,6 +187,10 @@
 	if (src.operating)
 		return
 	if (src.density && src.allowed(AM))
+		if(istype(AM,/mob/human))
+			var/mob/human/H = AM
+			if(H.zombie)
+				return
 		open()
 	return
 
@@ -200,8 +204,9 @@
 	if (istype(src,/obj/machinery/door/poddoor) || istype(src,/obj/machinery/door/firedoor))
 		return 0
 	var/command = uppertext(stripnetworkmessage(message))
-	world << "DOOR REC [command]"
-	var/listofcommand = dd_text2list(command," ",null)
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
 	if(check_password(listofcommand[1]))
 		if(listofcommand[2] == "OPEN")
 			spawn(0)

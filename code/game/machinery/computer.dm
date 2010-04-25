@@ -460,7 +460,7 @@
 	if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
 		user << "Under directive 7-10, SS13 is quarantined until further notice."
 		return
-	if(ticker.mode.name == "revolution")
+	if(ticker.mode.name == "Revolution")
 		user << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
 		return
 	if(ticker.mode.name == "AI malfunction")
