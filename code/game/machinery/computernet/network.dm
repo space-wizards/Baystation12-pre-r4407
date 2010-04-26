@@ -46,7 +46,6 @@
 	for(var/obj/machinery/M in world)
 		if(M.cnetnum && !M.cnetdontadd)
 			M.computernet = computernets[M.cnetnum]
-			if (DebugN) world.log << "[M.name] added to Computer Network [M.cnetnum]"
 			if(!M.computerID)
 				world.log << "[M] is not calling its ..() in New()!"
 			M.computernet.nodes[M.computerID] = M
@@ -63,14 +62,29 @@
 				net.routers += R
 				R.connectednets += net
 			if (!(R in net.nodes))
-				if (DebugN) world.log << "<B>Added Router at \[[R.x] [R.y] [R.z]] to net [C.cnetnum]</B>"
 				net.nodes[R.computerID] = R
 				net.nodes += R
 
 	for(var/obj/machinery/router/R in world)
 		if (R.connectednets.len)
-			//R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
-			R.computernet = R.connectednets[1]
+			R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
+
+	for(var/obj/machinery/antenna/base/B in world)
+		B.build = 0
+
+	for(var/obj/machinery/antenna/base/Start in world)
+		if(!Start.computernet || Start.build) continue
+		var/obj/machinery/router/R = new
+		R.connectednets += Start.computernet
+		Start.computernet.routers += R
+		Start.build = 1
+		for(var/obj/machinery/antenna/base/OtherR in world)
+			if (!OtherR.computernet || OtherR.id != Start.id || OtherR.build)
+				continue
+			R.connectednets += OtherR.computernet
+			OtherR.computernet.routers += R
+			OtherR.build = 1
+
 
 	BuildRoutingTable()
 

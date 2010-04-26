@@ -164,6 +164,30 @@ area/administrative/court/counsel
 	icon_state = "bridge"
 	music = ""
 
+//Airlocks
+area/airlocks
+	icon_state = "yellow"
+
+area/airlocks/northwest
+	music = ""
+	name = "Northwest Airlock"
+
+area/airlocks/west
+	music = ""
+	name = "West Airlock"
+
+area/airlocks/northeast
+	music = ""
+	name = "Northeast Airlock"
+
+area/airlocks/east
+	music = ""
+	name = "East Airlock"
+
+area/airlocks/eva
+	music = ""
+	name = "EVA Airlock"
+
 // Crew Quarters
 area/crewquarters
 	name = "Crew Quarters"

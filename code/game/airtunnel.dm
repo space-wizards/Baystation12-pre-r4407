@@ -830,7 +830,6 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 	if (!( (20 < t1 && t1 < 30) ))
 		safe = 0
 	src.icon_state = text("indicator[]", safe)
-	SS13_airtunnel.air_stat = safe
 	return
 
 /datum/air_tunnel/air_tunnel1/New()
