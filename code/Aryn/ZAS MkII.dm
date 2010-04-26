@@ -220,12 +220,6 @@ zone
 						T.overlays.Remove( slmaster )
 					n2o_overlay = 0
 
-				if(pressure() > 500)
-					update = 0
-					CRASH("It's over NINE THOUSAAAAAND!")
-					for(var/turf/T in contents)
-						T.overlays += 'Connect.dmi'
-
 		rebuild_cache(x)
 			if(!contents.len) return 0
 			total_cache = 0
