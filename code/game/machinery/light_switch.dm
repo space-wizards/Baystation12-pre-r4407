@@ -49,7 +49,16 @@
 /obj/machinery/light_switch/proc/togglelights()
 	on = !on
 
-	transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+	for(var/x in typesof(/obj/machinery/light))
+		var/obj/machinery/light/L = locate(x)
+		if (!L) continue
+		transmitmessage(createmulticast("000", gettypeid(L.type), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+
+	//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+	//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light/incandescent), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+	//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light/dimlight), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+	//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light/incandescent/spotlight), "[area.superarea.areaid] LIGHTS [on ? "ON" : "OFF"]"))
+
 	transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS [on]"))
 
 /obj/machinery/light_switch/receivemessage(message, srcmachine)

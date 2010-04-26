@@ -759,7 +759,10 @@
 
 		else if (href_list["lgt"])
 			var/val = text2num(href_list["lgt"])
-
+			if (lighting == 0 && val != 1)
+				spawn(6)
+					transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+					transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 			lighting = (val==1) ? 0 : val
 
 			updateicon()
@@ -939,7 +942,12 @@
 		charging = 0
 		chargecount = 0
 		equipment = autoset(equipment, 0)
+		var/ol = lighting
 		lighting = autoset(lighting, 0)
+		if (lighting && lighting != ol)
+			spawn(6)
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 		environ = autoset(environ, 0)
 		area.poweralert(0, src)
 
@@ -1017,6 +1025,8 @@
 		if(checkcommand(listofcommand,3,"ALL"))
 			if(checkcommand(listofcommand,2,"ON"))
 				lighting = 2
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 				equipment = 2
 				environ = 2
 				operating = 1
@@ -1046,6 +1056,8 @@
 		if(checkcommand(listofcommand,3,"LIGHT"))
 			if(checkcommand(listofcommand,2,"ON"))
 				lighting = 2
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 			if(checkcommand(listofcommand,2,"OFF"))
 				lighting = 0
 			if(checkcommand(listofcommand,2,"AUTO"))

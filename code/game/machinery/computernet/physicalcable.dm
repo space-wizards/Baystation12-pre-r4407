@@ -50,7 +50,7 @@ obj/computercable/New()
 
 	d1 = text2num( copytext( icon_state, 1, dash ) )
 
-	d2 = text2num( copytext( icon_state, dash+1 ) )
+	d2 = text2num( copytext( icon_state, dash+1, findtext(icon_state, "-", dash + 1) ) )
 
 	var/turf/T = src.loc			// hide if turf is not intact
 
@@ -96,13 +96,7 @@ obj/computercable/New()
 		for(var/mob/O in viewers(src, null))
 			O.show_message("\red [user] cuts the networking cable.", 1)
 
-		//shock(user, 50) //Network cables are low-voltage
-		//usr.unlock_medal("Shocking Situation",1,"Get electrocuted. Wear orange gloves next time.", "easy")
-
 		del(src)
-
-		return	// not needed, but for clarity
-
 
 	else if(istype(W, /obj/item/weapon/computercable_coil))
 		var/obj/item/weapon/computercable_coil/coil = W
@@ -114,14 +108,8 @@ obj/computercable/New()
 
 	src.add_fingerprint(user)
 
-// shock the user with probability prb
-
 /obj/computercable/proc/shock(mob/user, prb)
-	if(!cnetnum)		// unconnected cable is unpowered
-		return 0
-
-	return src.electrocute(user, prb, cnetnum)
-
+	return
 
 /obj/computercable/ex_act(severity)
 	switch(severity)

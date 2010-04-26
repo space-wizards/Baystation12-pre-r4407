@@ -16,6 +16,9 @@
 /obj/machinery/vehicle/attack_hand(mob/user)
 	src.board(user)
 
+/obj/machinery/vehicle/attack_ai(mob/user)
+	return
+
 /obj/machinery/vehicle/attack_paw(mob/user)
 	src.board(user)
 

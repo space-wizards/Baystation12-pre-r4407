@@ -172,7 +172,7 @@ zone
 					var/flow = connection_cache[Z]
 					if(!flow) continue
 
-					var/gas_diff = per_turf() - Z.per_turf()
+					var/gas_diff = pressure() - Z.pressure()
 					if(gas_diff > AF_MOVEMENT_THRESHOLD)// && more_air_here)
 						Airflow(src,Z,gas_diff)
 
@@ -219,12 +219,6 @@ zone
 					for(var/turf/T in contents)
 						T.overlays.Remove( slmaster )
 					n2o_overlay = 0
-
-				if(pressure() > 500)
-					update = 0
-					CRASH("It's over NINE THOUSAAAAAND!")
-					for(var/turf/T in contents)
-						T.overlays += 'Connect.dmi'
 
 		rebuild_cache(x)
 			if(!contents.len) return 0

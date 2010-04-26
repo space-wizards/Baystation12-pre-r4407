@@ -46,7 +46,8 @@ turf
 			if (src.firelevel >= 100000.0)
 				//src.overlays += 'Fire.dmi'
 				//icon_state = "burning"
-				sd_SetLuminosity(4)
+				if(luminosity != 4)
+					sd_SetLuminosity(4)
 
 				zone.gases["O2"] = max(zone.gases["O2"] - 5000, 0)
 				src.poison = max(src.poison - 5000, 0)

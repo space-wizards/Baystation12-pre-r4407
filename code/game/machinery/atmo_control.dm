@@ -163,8 +163,12 @@
 
 	..()
 	if(!empty)
-		src.gas.oxygen = 2.73E7
-		src.gas.n2 = 1.027E8
+		if(istype(src,/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon))
+			src.gas.oxygen = 1.365E7
+			src.gas.n2 = 5.135E7
+		else
+			src.gas.oxygen = 2.73E7
+			src.gas.n2 = 1.027E8
 	return
 
 /obj/machinery/atmoalter/siphs/fullairsiphon/port/reset(valve, auto)
