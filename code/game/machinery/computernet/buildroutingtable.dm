@@ -34,13 +34,7 @@ proc/BuildRoutingPath(var/datum/computernet/srccnet, var/datum/computernet/destc
 	dbg1++
 	var/list/datum/computernet/path = SubBuildRoutingPath(srccnet, destcnet, list())
 
-	if (path)
-		for (var/I = 2, I <= path.len, I++)
-			var/datum/computernet/net = path[I]
-			R.sourcenets[net.id][destcnet.id] = path[I - 1]
-		for (var/I = path.len - 1, I > 1, I--)
-			var/datum/computernet/net = path[I]
-			R.sourcenets[destcnet.id][net.id] = path[path.len - I]
+	R.sourcenets[srccnet.id][destcnet.id] = path
 
 
 proc/SubBuildRoutingPath(var/datum/computernet/curnet, var/datum/computernet/destcnet, var/list/ignore)
@@ -55,7 +49,7 @@ proc/SubBuildRoutingPath(var/datum/computernet/curnet, var/datum/computernet/des
 	var/list/best = null
 
 	for (var/obj/machinery/router/R in curnet.routers)
-
+		ignore += R
 		for (var/datum/computernet/cnet in R.connectednets)
 			if (cnet in ignore)
 				continue
@@ -65,6 +59,7 @@ proc/SubBuildRoutingPath(var/datum/computernet/curnet, var/datum/computernet/des
 			if (!results)
 				continue
 			results += curnet
+			return results
 
 			if (!best || best.len > results.len)
 				best = results

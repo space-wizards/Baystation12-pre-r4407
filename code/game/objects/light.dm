@@ -224,7 +224,7 @@
 			turnon()
 
 /obj/machinery/light/identinfo()
-	return "LIGHTS [!src.on ? "ON" : "OFF"] [bulb ? bulb.life : "NONE"] [area.superarea.areaid]"
+	return "LIGHT [!src.on ? "ON" : "OFF"] [bulb ? bulb.life : "NONE"] [area.superarea.areaid]"
 
 /obj/item/weapon/storage/lightbulbs/New()
 	..()
