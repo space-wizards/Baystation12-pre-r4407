@@ -839,6 +839,9 @@
 //							if (istype(location, /turf/station))
 //								location.add_blood(M)
 						step(src.pulling, get_dir(src.pulling.loc, T))
+						if(istype(src.pulling,/mob))
+							var/mob/AA = src.pulling
+							AA.pulled(get_dir(src.pulling.loc,T))
 						M.pulling = t
 				else
 					step(src.pulling, get_dir(src.pulling.loc, T))
@@ -2229,6 +2232,11 @@
 	user << browse(dat, text("window=mob[];size=340x480", src.name))
 	return
 
+
+/mob/human/pulled(dir)
+	if(src.toxloss + src.bruteloss > 50)
+		src.loc.add_blood(src,"drag",dir)
+
 /mob/human/mob/
 
 /*/mob/human/proc/testbite()
@@ -2243,3 +2251,5 @@
 		else
 			return 0
 	return 0*/
+
+
