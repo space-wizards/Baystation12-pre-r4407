@@ -212,6 +212,7 @@ Base Design:
 
 /datum/elevator/proc/set_doors(open)
 	var/c = 0
+	world << "SetDoors [open]"
 	for(var/obj/machinery/door/poddoor/P in world)
 		if (P.id != id)
 			continue
@@ -231,29 +232,36 @@ Base Design:
 	if (moving)
 		return
 	moving = 1
+	world << "Move elevator from [currentfloor] to [targetfloor]"
 	var/targ = currentfloor
 	if (target_floor > targ)
 		targ++
 	if (target_floor < targ)
 		targ--
+	world << "Moving to [targ]"
 	spawn(0)
-		if(set_doors(0))
+		if (currentfloor != targ)
+			if(set_doors(0))
+				world << "Doors have to close"
+				sleep(40)
+			computer.use_power(400)
+			world << "Use Power"
+			for(var/area/B in area.superarea.areas)
+				for(var/atom/movable/AM as mob|obj in B)
+					if (AM.z != currentfloor)
+						continue
+					AM.z = targ
+					AM.Move()
+				for(var/turf/T as turf in B)
+					T.buildlinks()
+			sleep(15)
+			world << "Moved Cab to Z = [targ]"
+			currentfloor = targ
 			sleep(40)
-		computer.use_power(400)
-		for(var/area/B in area.superarea.areas)
-			for(var/atom/movable/AM as mob|obj in B)
-				if (AM.z != currentfloor)
-					continue
-				AM.z = targ
-				AM.Move()
-			for(var/turf/T as turf in B)
-				T.buildlinks()
-		sleep(15)
-		currentfloor = targ
 		if (currentfloor == target_floor)
+			world << "At Target"
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
-			sleep(40)
 			set_doors(1)
 			spawn(80)
 				var/holdopen = 1
@@ -269,9 +277,15 @@ Base Design:
 						contents -= locate(/obj/move, D.loc)
 						if (contents.len)
 							holdopen = 1
+					if (holdopen)
+						world << "Doors blocked, holding them open"
+				world << "Doors closing"
 				set_doors(0)
+		world << "Done Move Step"
+		if (currentfloor == target_floor)
+			enroute = 0
+			world << "Done Overall Move"
 		moving = 0
-		enroute = 0
 
 /proc/get_elevator(id)
 	if (elevators[id])

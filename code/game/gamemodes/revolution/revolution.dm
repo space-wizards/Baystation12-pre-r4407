@@ -53,20 +53,24 @@
 	spawn (0)
 		ticker.extend_process()
 
-/datum/game_mode/revolution/proc/get_synd_list()
+/datum/game_mode/revolution/proc/get_synd_list(var/force)
 	var/list/mobs = list()
 	for(var/mob/M in world)
 		if (M.client && istype(M, /mob/human))
 			if(M.be_syndicate && M.start)
-				if(M.is_rev == 0)
+				if(!M.is_rev)
 					mobs += M
-	if(mobs.len < 1)
+	if(mobs.len < 1 && force)
 		mobs = get_mob_list()
 	return mobs
 
 /datum/game_mode/revolution/proc/pick_killer()
-	var/mob/human/killer = pick(get_synd_list())
+	var/list/mob/human/potentialkillers = get_synd_list(!ticker.revs.len)
+	if (!potentialkillers.len)
+		return
+	var/mob/human/killer = pick(potentialkillers)
 	ticker.killer = killer
+	killer.is_rev = 1
 	ticker.revs += killer
 	spawn (100)
 		killer.is_rev = 2
