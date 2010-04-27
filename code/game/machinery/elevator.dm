@@ -230,10 +230,10 @@ Base Design:
 			continue
 		if (P.z == currentfloor)
 			if (open && P.density)
-				spawn(0) P.openpod()
+				computer.transmitmessage(computer.createmessagetomachine("[P.get_password()] OPEN", P))
 				c = 1
 			else if (!P.density)
-				spawn(0) P.closepod()
+				computer.transmitmessage(computer.createmessagetomachine("[P.get_password()] CLOSE", P))
 				c = 1
 	doorstate = open
 	return c
