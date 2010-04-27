@@ -73,11 +73,12 @@
 /turf/station/open/New()
 	spawn(0)
 		while(1)
+			sleep(5)
+			if (locate(/obj/move, src)) continue
 			var/turf/dest = locate(src.x, src.y, src.z + 1)
 			for(var/atom/movable/AM as mob|obj in src)
 				if (!AM.anchored)
 					AM.loc = dest
-			sleep(5)
 	sd_LumUpdate()
 
 
@@ -113,19 +114,6 @@
 	name = "floor"
 	icon_state = "floor"
 	updatecell = 1
-
-/turf/station/elevator
-	icon = 'shuttle.dmi'
-
-/turf/station/elevator/floor
-	name = "Elevator Floor"
-	icon_state = "floor3"
-
-/turf/station/elevator/wall
-	name = "Elevator Floor"
-	icon_state = "wall"
-	density = 1
-	opacity = 1
 
 /turf/station/floor
 	name = "floor"

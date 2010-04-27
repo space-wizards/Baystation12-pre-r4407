@@ -1,5 +1,5 @@
 world/New()
-	. = ..()
+	..()
 	spawn(1)
 		for(var/turf/T)
 			T.updatecell = 0

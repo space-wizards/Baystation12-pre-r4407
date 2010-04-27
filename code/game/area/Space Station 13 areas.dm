@@ -164,6 +164,12 @@ area/administrative/court/counsel
 	icon_state = "bridge"
 	music = ""
 
+//Elevators
+area/elevators/centcom
+	name = "Centcom elevator"
+	icon_state = "yellow"
+
+
 //Airlocks
 area/airlocks
 	icon_state = "yellow"
