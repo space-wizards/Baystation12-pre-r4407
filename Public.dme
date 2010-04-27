@@ -7,9 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code\Aryn code\game\gamemodes\sandbox code\game\mob code\game\mob\human icons icons\ss13 sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
-FILE: icons\ss13\facehugger.dmi
-LAST_COMPILE_TIME: 1272333229
+DIR: code code\Aryn code\game\gamemodes\sandbox code\game\mob code\game\mob\human sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
+FILE: code\Aryn\ZAS Implementation.dm
+LAST_COMPILE_TIME: 1272347322
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -156,12 +156,14 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/c1"
 #define FILE_DIR ".git/objects/c3"
 #define FILE_DIR ".git/objects/c4"
+#define FILE_DIR ".git/objects/c5"
 #define FILE_DIR ".git/objects/c6"
 #define FILE_DIR ".git/objects/c7"
 #define FILE_DIR ".git/objects/c8"
 #define FILE_DIR ".git/objects/c9"
 #define FILE_DIR ".git/objects/ca"
 #define FILE_DIR ".git/objects/cb"
+#define FILE_DIR ".git/objects/cd"
 #define FILE_DIR ".git/objects/ce"
 #define FILE_DIR ".git/objects/cf"
 #define FILE_DIR ".git/objects/d0"
@@ -194,6 +196,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/f6"
 #define FILE_DIR ".git/objects/f8"
 #define FILE_DIR ".git/objects/f9"
+#define FILE_DIR ".git/objects/fa"
 #define FILE_DIR ".git/objects/fc"
 #define FILE_DIR ".git/objects/fd"
 #define FILE_DIR ".git/objects/pack"
