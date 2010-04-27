@@ -7,8 +7,8 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\Aryn code\game code\game\gamemodes\sandbox code\game\mob code\game\mob\human icons\ss13 sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
-FILE: code\Aryn\ZAS Implementation.dm
+DIR: code\Aryn code\game\gamemodes\sandbox code\game\mob code\game\mob\human icons icons\ss13 sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
+FILE: icons\ss13\facehugger.dmi
 LAST_COMPILE_TIME: 1272333229
 AUTO_FILE_DIR: ON
 */
@@ -25,6 +25,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/00"
 #define FILE_DIR ".git/objects/01"
 #define FILE_DIR ".git/objects/02"
+#define FILE_DIR ".git/objects/03"
 #define FILE_DIR ".git/objects/04"
 #define FILE_DIR ".git/objects/05"
 #define FILE_DIR ".git/objects/06"
@@ -58,6 +59,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/3b"
 #define FILE_DIR ".git/objects/3e"
 #define FILE_DIR ".git/objects/40"
+#define FILE_DIR ".git/objects/41"
 #define FILE_DIR ".git/objects/42"
 #define FILE_DIR ".git/objects/44"
 #define FILE_DIR ".git/objects/46"
@@ -71,6 +73,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/4f"
 #define FILE_DIR ".git/objects/50"
 #define FILE_DIR ".git/objects/51"
+#define FILE_DIR ".git/objects/52"
 #define FILE_DIR ".git/objects/53"
 #define FILE_DIR ".git/objects/54"
 #define FILE_DIR ".git/objects/55"
@@ -83,10 +86,12 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/60"
 #define FILE_DIR ".git/objects/61"
 #define FILE_DIR ".git/objects/62"
+#define FILE_DIR ".git/objects/64"
 #define FILE_DIR ".git/objects/65"
 #define FILE_DIR ".git/objects/66"
 #define FILE_DIR ".git/objects/67"
 #define FILE_DIR ".git/objects/68"
+#define FILE_DIR ".git/objects/69"
 #define FILE_DIR ".git/objects/6c"
 #define FILE_DIR ".git/objects/6d"
 #define FILE_DIR ".git/objects/6e"
@@ -101,6 +106,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/7a"
 #define FILE_DIR ".git/objects/7c"
 #define FILE_DIR ".git/objects/7f"
+#define FILE_DIR ".git/objects/80"
 #define FILE_DIR ".git/objects/81"
 #define FILE_DIR ".git/objects/82"
 #define FILE_DIR ".git/objects/83"
@@ -123,6 +129,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/9b"
 #define FILE_DIR ".git/objects/9d"
 #define FILE_DIR ".git/objects/9e"
+#define FILE_DIR ".git/objects/9f"
 #define FILE_DIR ".git/objects/a0"
 #define FILE_DIR ".git/objects/a2"
 #define FILE_DIR ".git/objects/a3"
@@ -135,6 +142,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/ae"
 #define FILE_DIR ".git/objects/b0"
 #define FILE_DIR ".git/objects/b1"
+#define FILE_DIR ".git/objects/b3"
 #define FILE_DIR ".git/objects/b4"
 #define FILE_DIR ".git/objects/b6"
 #define FILE_DIR ".git/objects/b7"
@@ -142,6 +150,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/b9"
 #define FILE_DIR ".git/objects/ba"
 #define FILE_DIR ".git/objects/bb"
+#define FILE_DIR ".git/objects/bc"
 #define FILE_DIR ".git/objects/bf"
 #define FILE_DIR ".git/objects/c0"
 #define FILE_DIR ".git/objects/c1"
@@ -160,6 +169,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/d2"
 #define FILE_DIR ".git/objects/d3"
 #define FILE_DIR ".git/objects/d4"
+#define FILE_DIR ".git/objects/d5"
 #define FILE_DIR ".git/objects/d7"
 #define FILE_DIR ".git/objects/d8"
 #define FILE_DIR ".git/objects/d9"
@@ -168,6 +178,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/dd"
 #define FILE_DIR ".git/objects/de"
 #define FILE_DIR ".git/objects/e0"
+#define FILE_DIR ".git/objects/e1"
 #define FILE_DIR ".git/objects/e2"
 #define FILE_DIR ".git/objects/e4"
 #define FILE_DIR ".git/objects/e5"
@@ -183,6 +194,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/f6"
 #define FILE_DIR ".git/objects/f8"
 #define FILE_DIR ".git/objects/f9"
+#define FILE_DIR ".git/objects/fc"
 #define FILE_DIR ".git/objects/fd"
 #define FILE_DIR ".git/objects/pack"
 #define FILE_DIR ".git/refs"

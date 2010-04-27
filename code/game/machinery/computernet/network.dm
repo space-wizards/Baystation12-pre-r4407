@@ -18,13 +18,8 @@
 	for(var/obj/computercable/PC in world)
 		if(!PC.cnetnum)
 			PC.cnetnum = ++netcount
-
-
-			world.log << "Starting computernet #[netcount] at [PC.x],[PC.y],[PC.z] ([PC.d1]/[PC.d2])"
 			computernet_nextlink_counter = 0
 			computernet_nextlink(PC, PC.cnetnum)
-
-	if(DebugN) world.log << "[netcount] computernets found"
 
 	for(var/L = 1 to netcount)
 		var/datum/computernet/PN = new()

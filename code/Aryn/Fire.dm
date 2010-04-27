@@ -30,7 +30,7 @@ proc/FireTicker()
 			if(T.poison || T.sl_gas)
 				spawn T.DistributeGas()
 world/New()
-	. = ..()
+	..()
 	spawn(2) FireTicker()
 turf
 	//var/fire_level = 0

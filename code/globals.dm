@@ -73,7 +73,6 @@ var
 	list/blobs = list()
 	list/killer = list()
 	list/cardinal = list( NORTH, SOUTH, EAST, WEST )
-
 	roundover = 0
 	nuclearend = 0
 
@@ -82,6 +81,7 @@ var
 	datum/vote/vote = null
 	datum/sun/sun = null
 	datum/rtable/routingtable = new /datum/rtable()
+	list/datum/elevator/elevators = list ( )
 
 	list/plines = list()
 	list/gasflowlist = list()
