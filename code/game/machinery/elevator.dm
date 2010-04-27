@@ -61,10 +61,10 @@ Base Design:
 
 	dat += "Current Floor: [elevator.currentfloor] <br>"
 
-	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Call</th></tr>"
+	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Request</th></tr>"
 
 	for (var/datum/elevfloor/EF in elevator.floors)
-		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Called" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Call</a>" ]</td></tr>"
+		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Requested" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Request</a>" ]</td></tr>"
 
 	dat += "</table><br>"
 
@@ -231,10 +231,10 @@ Base Design:
 			continue
 		if (P.z == currentfloor)
 			if (open && P.density)
-				P.openpod()
+				spawn(0) P.openpod()
 				c = 1
 			else if (!P.density)
-				P.closepod()
+				spawn(0) P.closepod()
 				c = 1
 	doorstate = open
 	return c
@@ -261,8 +261,7 @@ Base Design:
 				for(var/atom/movable/AM as mob|obj in B)
 					if (AM.z != currentfloor)
 						continue
-					AM.z = targ
-					AM.Move()
+					AM.Move(locate(AM.x, AM.y, targ))
 				for(var/turf/T as turf in B)
 					T.buildlinks()
 			sleep(15)
