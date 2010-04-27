@@ -9,7 +9,7 @@ Base Design:
 * Isolated network connected to a control computer somewhere (fake Router, a bit like antennas)
 * Area-defined size and shape
 * (Future) Cabling and Motors used to raise/lower the elevator
-* (Future) Remote monitoring computer
+* (Future) Remote Monitoring computer
 
 
 
@@ -223,7 +223,6 @@ Base Design:
 
 /datum/elevator/proc/set_doors(open)
 	var/c = 0
-	world << "SetDoors [open]"
 	for(var/obj/machinery/door/poddoor/P in world)
 		if (P.id != id)
 			continue
@@ -243,20 +242,16 @@ Base Design:
 	if (moving)
 		return
 	moving = 1
-	world << "Move elevator from [currentfloor] to [targetfloor]"
 	var/targ = currentfloor
 	if (target_floor > targ)
 		targ++
 	if (target_floor < targ)
 		targ--
-	world << "Moving to [targ]"
 	spawn(0)
 		if (currentfloor != targ)
 			if(set_doors(0))
-				world << "Doors have to close"
 				sleep(40)
 			computer.use_power(400)
-			world << "Use Power"
 			for(var/area/B in area.superarea.areas)
 				for(var/atom/movable/AM as mob|obj in B)
 					if (AM.z != currentfloor)
@@ -265,11 +260,9 @@ Base Design:
 				for(var/turf/T as turf in B)
 					T.buildlinks()
 			sleep(15)
-			world << "Moved Cab to Z = [targ]"
 			currentfloor = targ
 			sleep(40)
 		if (currentfloor == target_floor)
-			world << "At Target"
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
 			set_doors(1)
@@ -278,9 +271,8 @@ Base Design:
 				while(holdopen)
 					sleep(20)
 					holdopen = 0
-					world << "Hold Check"
 					for(var/obj/machinery/door/poddoor/D in world)
-						if(D.id != id || D.z != currentfloor || !(D.loc.loc in area.superarea.areas))
+						if(D.id != id || D.z != currentfloor)
 							continue
 						var/list/contents = D.loc.contents.Copy()
 						contents -= D
@@ -288,14 +280,9 @@ Base Design:
 						contents -= locate(/obj/move, D.loc)
 						if (contents.len)
 							holdopen = 1
-					if (holdopen)
-						world << "Doors blocked, holding them open"
-				world << "Doors closing"
 				set_doors(0)
-		world << "Done Move Step"
 		if (currentfloor == target_floor)
 			enroute = 0
-			world << "Done Overall Move"
 		moving = 0
 
 /proc/get_elevator(id)

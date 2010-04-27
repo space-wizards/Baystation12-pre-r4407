@@ -80,6 +80,16 @@
 			OtherR.computernet.routers += R
 			OtherR.build = 1
 
+	for(var/obj/machinery/computer/elevator/E in world)
+		var/obj/machinery/router/R = new
+		R.connectednets += E.computernet
+		E.computernet.routers += R
+		for(var/obj/machinery/elevator/panel/P in world)
+			if (P.id != E.id)
+				continue
+			R.connectednets += P.computernet
+			P.computernet.routers += R
+
 
 	BuildRoutingTable()
 
