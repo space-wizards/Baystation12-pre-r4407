@@ -45,6 +45,17 @@ Base Design:
 		return
 	use_power(55)
 
+/obj/machinery/elevator/panel/attack_paw(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_ai(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_hand(var/mob/user)
+	if (stat & (NOPOWER|BROKEN))
+		return
+	Interact(user)
+
 /obj/machinery/elevator/panel/proc/Interact(var/mob/user)
 	var/dat = "<31>Elevator Console</h3><hr>"
 
@@ -263,15 +274,16 @@ Base Design:
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
 			set_doors(1)
-			spawn(80)
+			spawn(90)
 				var/holdopen = 1
 				while(holdopen)
-					sleep(10)
+					sleep(20)
 					holdopen = 0
+					world << "Hold Check"
 					for(var/obj/machinery/door/poddoor/D in world)
-						if(D.id != id || D.z != currentfloor)
+						if(D.id != id || D.z != currentfloor || !(D.loc.loc in area.superarea.areas))
 							continue
-						var/list/contents = D.loc.contents
+						var/list/contents = D.loc.contents.Copy()
 						contents -= D
 						contents -= locate(/obj/computercable, D.loc)
 						contents -= locate(/obj/move, D.loc)
