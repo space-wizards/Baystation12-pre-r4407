@@ -61,6 +61,25 @@ turf/proc
 			return zone.per_turf(g)
 		else
 			return 0
+
+obj/move/proc
+	per_turf(g)
+		if(!g)
+			return CELLSTANDARD
+		else
+			if(g == "O2") return O2STANDARD
+			if(g == "N2") return N2STANDARD
+		return 0
+	oxygen()
+		return O2STANDARD
+	n2()
+		return N2STANDARD
+	sl_gas()
+		return 0
+	co2()
+		return 0
+	poison()
+		return 0
 //	updatelinks()
 /*
 obj/move/proc/process()
