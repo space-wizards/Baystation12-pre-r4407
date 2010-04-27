@@ -116,6 +116,8 @@
 
 /obj/machinery/vehicle/verb/board()
 	set src in oview(1)
+	if (istype(usr, /mob/ai))
+		return //Waitwhat, no, the AI DOES NOT GET TO USE THE PODS PEOPLE
 
 	if (usr.stat)
 		return
