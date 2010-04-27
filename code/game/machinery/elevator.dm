@@ -212,17 +212,18 @@ Base Design:
 
 /datum/elevator/proc/set_doors(open)
 	var/c = 0
-	for(var/area/B in area.superarea.areas)
-		for(var/obj/machinery/door/poddoor/P in B)
-			if (P.z != currentfloor)
-				continue
-			if (P.z == currentfloor)
-				if (open && P.density)
-					P.openpod()
-					c = 1
-				else if (!P.density)
-					P.closepod()
-					c = 1
+	for(var/obj/machinery/door/poddoor/P in world)
+		if (P.id != id)
+			continue
+		if (P.z != currentfloor)
+			continue
+		if (P.z == currentfloor)
+			if (open && P.density)
+				P.openpod()
+				c = 1
+			else if (!P.density)
+				P.closepod()
+				c = 1
 	doorstate = open
 	return c
 
