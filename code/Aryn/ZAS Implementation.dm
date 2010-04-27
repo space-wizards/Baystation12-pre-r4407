@@ -80,6 +80,8 @@ obj/move/proc
 		return 0
 	poison()
 		return 0
+	temp_set()
+		return T20C
 //	updatelinks()
 /*
 obj/move/proc/process()
