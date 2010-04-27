@@ -45,15 +45,26 @@ Base Design:
 		return
 	use_power(55)
 
+/obj/machinery/elevator/panel/attack_paw(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_ai(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_hand(var/mob/user)
+	if (stat & (NOPOWER|BROKEN))
+		return
+	Interact(user)
+
 /obj/machinery/elevator/panel/proc/Interact(var/mob/user)
 	var/dat = "<31>Elevator Console</h3><hr>"
 
 	dat += "Current Floor: [elevator.currentfloor] <br>"
 
-	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Call</th></tr>"
+	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Request</th></tr>"
 
 	for (var/datum/elevfloor/EF in elevator.floors)
-		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Called" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Call</a>" ]</td></tr>"
+		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Requested" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Request</a>" ]</td></tr>"
 
 	dat += "</table><br>"
 
@@ -220,10 +231,10 @@ Base Design:
 			continue
 		if (P.z == currentfloor)
 			if (open && P.density)
-				P.openpod()
+				spawn(0) P.openpod()
 				c = 1
 			else if (!P.density)
-				P.closepod()
+				spawn(0) P.closepod()
 				c = 1
 	doorstate = open
 	return c
@@ -250,8 +261,7 @@ Base Design:
 				for(var/atom/movable/AM as mob|obj in B)
 					if (AM.z != currentfloor)
 						continue
-					AM.z = targ
-					AM.Move()
+					AM.Move(locate(AM.x, AM.y, targ))
 				for(var/turf/T as turf in B)
 					T.buildlinks()
 			sleep(15)
@@ -263,15 +273,16 @@ Base Design:
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
 			set_doors(1)
-			spawn(80)
+			spawn(90)
 				var/holdopen = 1
 				while(holdopen)
-					sleep(10)
+					sleep(20)
 					holdopen = 0
+					world << "Hold Check"
 					for(var/obj/machinery/door/poddoor/D in world)
-						if(D.id != id || D.z != currentfloor)
+						if(D.id != id || D.z != currentfloor || !(D.loc.loc in area.superarea.areas))
 							continue
-						var/list/contents = D.loc.contents
+						var/list/contents = D.loc.contents.Copy()
 						contents -= D
 						contents -= locate(/obj/computercable, D.loc)
 						contents -= locate(/obj/move, D.loc)
