@@ -205,6 +205,7 @@ var/map_loading = 1
 		powernets_building = 0
 		makepowernets()
 		makecomputernets()
+		world.log << "World Setup Complete"
 		//----
 
 	crban_loadbanfile()
@@ -331,7 +332,6 @@ var/map_loading = 1
 			goto Label_482
 		return
 	worldsetup = 1
-	world.log << "World Setup Complete"
 
 
 /world/Reboot()
