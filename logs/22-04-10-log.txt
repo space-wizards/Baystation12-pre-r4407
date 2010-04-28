@@ -1,0 +1,2440 @@
+22-56:ADMIN: Loading jobban_rank
+22-56:ADMIN: Updating jobbanfile!
+22-56:GAME: Finished building powernets (30 nets)
+22-56:ACCESS: Login: Headswe from 127.0.0.1
+22-56:ACCESS: Login: OzyTheSage from 98.118.48.126
+22-56:GAME: Headswe entered as Ronkiv Ronziv
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : no u
+22-56:GAME: OzyTheSage entered as Ozymandias Blazelever
+22-56:OOC: Ronkiv Ronziv/Headswe : Roll back was needed
+22-56:OOC: Ronkiv Ronziv/Headswe : Crashes and shit all over the place
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : I tohught you just kept taking the server down
+22-56:ACCESS: Login: Segellion from 24.179.87.49
+22-56:OOC: Ronkiv Ronziv/Headswe : Sadly no
+22-56:OOC: Ronkiv Ronziv/Headswe : They has failed
+22-56:GAME: Segellion entered as Likot Boatblaze
+22-56:OOC: Ronkiv Ronziv/Headswe : As soon as i saw the debug commands i was like OH SHIT NO
+22-56:OOC: Ronkiv Ronziv/Headswe : So i rolled backed
+22-56:OOC: Ronkiv Ronziv/Headswe : FUCK
+22-56:OOC: Ronkiv Ronziv/Headswe : i rolled back to far.
+22-56:ACCESS: Login: Andrea the second from 151.33.204.148
+22-56:GAME: Andrea the second entered as Elspet Bennett
+22-56:OOC: Elspet Bennett/Andrea the second : awww... shiny new options disappeared
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : gah
+22-56:OOC: Elspet Bennett/Andrea the second : what was the infinity powernet thing?
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : can you roll forward? =o
+22-56:GAME: starting game of extended
+22-56:SAY: Elspet Bennett/Andrea the second : ; hello, people
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;Hello
+22-56:SAY: Likot Boatblaze/Segellion : ;Hello crew.
+22-56:OOC: Ronkiv Ronziv/Headswe : Meh.
+22-56:OOC: Ronkiv Ronziv/Headswe : Meh.
+22-56:OOC: Likot Boatblaze/Segellion : issues?
+22-56:OOC: Elspet Bennett/Andrea the second : meh
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;Engine has been ignited
+22-56:ACCESS: Login: Frogger3140 from 24.73.1.252
+22-56:SAY: Likot Boatblaze/Segellion : ;Good work Ozy
+22-56:GAME: Frogger3140 entered as James Weezley
+22-56:ACCESS: Login: Ihateoutside from 88.105.71.204
+22-56:GAME: Ihateoutside entered as Uvash Noblewhip
+22-56:ACCESS: Login: Mono124 from 99.137.45.54
+22-56:GAME: Mono124 entered as Andrew Riley
+22-56:SAY: Andrew Riley/Mono124 : ;Do we have an a.i.?
+22-56:SAY: Likot Boatblaze/Segellion : ;Not yet
+22-56:OOC: HELP: Andrew Riley/Mono124 : can i get a.i.?
+22-56:SAY: Likot Boatblaze/Segellion : come with me
+22-56:SAY: Likot Boatblaze/Segellion : come with me
+22-56:ADMIN: PM: Andrea the second->Mono124 : I think so
+22-56:ADMIN: Andrea the second AIized Mono124
+22-56:ACCESS: Logout: 
+22-56:ACCESS: Login: Mono124 from 99.137.45.54
+22-56:ACCESS: They share computer ID's
+22-56:SAY: R.E.D./Mono124 : A.I. unit online
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;Greetingd, AI
+22-56:SAY: Unknown/Segellion : What do you want?
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;Yay an AI...
+22-56:SAY: Uvash Noblewhip/Ihateoutside : let me think for a moment
+22-56:SAY: Unknown/Segellion : Your HoP
+22-56:OOC: Uvash Noblewhip/Ihateoutside : networks working yet?
+22-56:SAY: James Weezley/Frogger3140 : ;Got banned from both gibbed servers
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : ty[e OOC
+22-56:SAY: R.E.D./Mono124 : Testing A.I. functions
+22-56:SAY: R.E.D./Mono124 : Fire detected in Space
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;Fire in space... what?
+22-56:SAY: R.E.D./Mono124 : Violence detected in Space
+22-56:SAY: R.E.D./Mono124 : Hull Breach detected in Space
+22-56:SAY: R.E.D./Mono124 : Irregular Atmospherical Conditions detected in Space
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;What are you tlaking about
+22-56:SAY: R.E.D./Mono124 : A.I. functions work correctly
+22-56:SAY: R.E.D./Mono124 : A.I. is fully functional
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;AI let me check your core? You seem to be malfuntioning.
+22-56:SAY: R.E.D./Mono124 : Warning: some fire doors did not retract when lockdown was disabling
+22-56:SAY: R.E.D./Mono124 : Fixing doors
+22-56:SAY: Elspet Bennett/Andrea the second : ; Uvash, I believe AI was just testing its pre-compiled alarm messages
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;Oh, ok
+22-56:ACCESS: Logout: Headswe
+22-56:SAY: R.E.D./Mono124 : Error detected in HOP quarters
+22-56:SAY: Elspet Bennett/Andrea the second : ; I may need human test subjects. Captain, do you think that is possible?
+22-56:SAY: Elspet Bennett/Andrea the second : ; what kind of error?
+22-56:SAY: R.E.D./Mono124 : Unknown
+22-56:SAY: R.E.D./Mono124 : It is an error
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;The firelock is now fixed
+22-56:SAY: Elspet Bennett/Andrea the second : ; what do you see? who is there?
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;Now thats weird
+22-56:SAY: Likot Boatblaze/Segellion : that _Is_ an error... how about that
+22-56:OOC: James Weezley/Frogger3140 : I wish I was unbanned from Gibbed 3
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : I like bay 12
+22-56:OOC: James Weezley/Frogger3140 : I don&#39;t know anything about Bay12
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : hehehe
+22-56:OOC: James Weezley/Frogger3140 : How do I get a job besides Assistant?
+22-56:SAY: R.E.D./Mono124 : Power alarm detected in Prison Cell Block
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : if you want you can look at the website...
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : you have to get a job at arrivals
+22-56:OOC: James Weezley/Frogger3140 : Link?
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : the captain or head of personell gives one to you
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : http://www.bay12games.com/dwarves/
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;All assistants to arrivals
+22-56:ACCESS: Login: X2yzh9 from 75.142.181.4
+22-56:GAME: X2yzh9 entered as Cog Bedhammer
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : SMES Batteries fully charged and will stya that way as long as they recieve power
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;AI how many assistants are on board?
+22-56:SAY: R.E.D./Mono124 : Joke of the hour: The engine is producing over 9000 Watts!
+22-56:OOC: Cog Bedhammer/X2yzh9 : how does, er, the network system work right now?
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;SMES batteries fully charged and should stay that way
+22-56:OOC: Cog Bedhammer/X2yzh9 : I heard it just recently got implemented, or partially
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : it doesn&#39;t, I don&#39;t think
+22-56:SAY: R.E.D./Mono124 : This A.I. unit does not have a multiple target tracker.
+22-56:SAY: Uvash Noblewhip/Ihateoutside : ;AI thats quite a good sense of humour you have
+22-56:SAY: Cog Bedhammer/X2yzh9 : oh right!
+22-56:SAY: Cog Bedhammer/X2yzh9 : internals, eh
+22-56:ACCESS: Login: Mikey3001 from 66.239.213.58
+22-56:ACCESS: Login: Humaan from 75.163.239.167
+22-56:GAME: Humaan entered as Urist Humansword
+22-56:SAY: Unknown/X2yzh9 : Security, please
+22-56:OOC: James Weezley/Frogger3140 : The Bay 12 page you said was wrong.
+22-56:ACCESS: Login: Eternalnight264 from 24.77.134.166
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : nope
+22-56:SAY: Unknown/X2yzh9 : So
+22-56:GAME: Mikey3001 entered as Dillin crawsford
+22-56:OOC: James Weezley/Frogger3140 : Where do I click?
+22-56:GAME: Eternalnight264 entered as Besmar Filthvomit
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : if you want the forums those are at http://www.bay12forums.com/smf/
+22-56:SAY: Uvash Noblewhip/Ihateoutside : hold on
+22-56:OOC: Elspet Bennett/Andrea the second : ARGH! don&#39;t you hate it when you irradiate a block 10 times, and it won&#39;t change at all?
+22-56:SAY: Urist Humansword/Humaan : Geneticist or lawyer.
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : and the topic for this game http://www.bay12forums.com/smf/index.php?topic=35546.0
+22-56:SAY: Urist Humansword/Humaan : ...
+22-56:SAY: Ozymandias Blazelever/OzyTheSage : ;has anyone turned their equipment off?
+22-56:SAY: R.E.D./Mono124 : Lights are off in: South hallway
+22-56:SAY: Besmar Filthvomit/Eternalnight264 : HOp
+22-56:SAY: Besmar Filthvomit/Eternalnight264 : Can we get some jobs?
+22-56:SAY: R.E.D./Mono124 : Lights have been turned back on.
+22-56:SAY: Uvash Noblewhip/Ihateoutside : Ill need your age
+22-56:SAY: Urist Humansword/Humaan : 30.
+22-56:ACCESS: Login: Shadowgandor from 83.84.235.167
+22-56:SAY: R.E.D./Mono124 : Would you like me to configure the solar panels?
+22-56:ACCESS: Login: Orb370 from 4.154.133.25
+22-56:ACCESS: Logout: X2yzh9
+22-56:GAME: Shadowgandor entered as 'Shorasat Darkone'
+22-56:SAY: Dillin crawsford/Mikey3001 : ill prefer becoming a medical docter
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : Good...day
+22-56:SAY: Uvash Noblewhip/Ihateoutside : what job do you want?
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : ((Damn, sorry about the quotations. Damn that bug))
+22-56:GAME: Orb370 entered as Cog Swordwall
+22-56:SAY: Uvash Noblewhip/Ihateoutside : what job do you want?
+22-56:OOC: Cog Swordwall/Orb370 : Extended? D:
+22-56:SAY: Dillin crawsford/Mikey3001 : as i said before docter
+22-56:OOC: Cog Swordwall/Orb370 : Having fun with the bored griefers? =/
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : we were really just seeing if the rollbacks were working
+22-56:OOC: Likot Boatblaze/Segellion : testing new coe
+22-56:OOC: R.E.D./Mono124 : actually... i think grief on extended should be insta perma ban
+22-56:OOC: 'Shorasat Darkone'/Shadowgandor : I like it how toggling the music on and off doesn&#39;t change anything
+22-56:OOC: Cog Swordwall/Orb370 : Code?
+22-56:OOC: R.E.D./Mono124 : cause..... yeah
+22-56:OOC: Cog Swordwall/Orb370 : Mono, I think its spected.
+22-56:OOC: Cog Swordwall/Orb370 : I dont blame them.
+22-56:OOC: Cog Swordwall/Orb370 : Expected*
+22-56:OOC: Cog Swordwall/Orb370 : To focus on just RP is extremely boring for some players, you got to mix in some action, im one of them,.
+22-56:SAY: Besmar Filthvomit/Eternalnight264 : what jobs are needed?
+22-56:OOC: Likot Boatblaze/Segellion : dont blame? it has no place in extended
+22-56:SAY: Uvash Noblewhip/Ihateoutside : what job do you want?
+22-56:OOC: Cog Swordwall/Orb370 : Its my opinion, its not like it can be wrong, or can it?
+22-56:ACCESS: Login: Cacophony from 71.136.47.7
+22-56:OOC: Likot Boatblaze/Segellion : so do a mode like nuclear or restructure
+22-56:OOC: Uvash Noblewhip/Ihateoutside : why isnt my speech showing up?
+22-56:OOC: Cog Swordwall/Orb370 : Do you have an ID on?
+22-56:ACCESS: Logout: Eternalnight264
+22-56:ACCESS: Logout: Ihateoutside
+22-56:OOC: Likot Boatblaze/Segellion : are you deafened ihate?
+22-56:OOC: Cog Swordwall/Orb370 : Im not doing a mode like that if the public doesnt want it
+22-56:GAME: Cacophony entered as 'Virgil Lamb'
+22-56:ACCESS: Login: Ihateoutside from 88.105.71.204
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : Sir
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : Should I continue?
+22-56:OOC: Cog Swordwall/Orb370 : If you want, I will start a restart vote.
+22-56:SAY: Uvash Noblewhip/Ihateoutside : What?
+22-56:OOC: Likot Boatblaze/Segellion : no need
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : we have 11 players now, at least
+22-56:ACCESS: Logout: 
+22-56:ACCESS: Login: Ihateoutside from 88.105.71.204
+22-56:ACCESS: They share computer ID's
+22-56:OOC: Cog Swordwall/Orb370 : Nothing going on the comms..
+22-56:SAY: 'Virgil Lamb'/Cacophony : ...What?
+22-56:VOTE: Voting to restart round started by 'Shorasat Darkone'/Shadowgandor
+22-56:SAY: Elspet Bennett/Andrea the second : hello
+22-56:OOC: Cog Swordwall/Orb370 : Sounds like people are just...standing around, or something. =/
+22-56:SAY: 'Virgil Lamb'/Cacophony : What the hell was that?
+22-56:SAY: 'Virgil Lamb'/Cacophony : Why&#39;d he just keel over?
+22-56:OOC: Likot Boatblaze/Segellion : im trying to remember how to make a computer :P
+22-56:SAY: 'Virgil Lamb'/Cacophony : Is there some sort of disease going on?
+22-56:OOC: R.E.D./Mono124 : damn. i wish it was back when extended was played almost every round and everyone was awesome
+22-56:OOC: Cog Swordwall/Orb370 : Check the goon guide
+22-56:OOC: Ozymandias Blazelever/OzyTheSage : who likes to play engineer
+22-56:OOC: Cog Swordwall/Orb370 : Its like use metal to make the fram
+22-56:ACCESS: Login: Rakonas from 74.72.13.126
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : Get a doctor!
+22-56:OOC: Cog Swordwall/Orb370 : Add circritry, wires, and some other stuff
+22-56:OOC: Likot Boatblaze/Segellion : thats where im stuck
+22-56:ACCESS: Logout: Ihateoutside
+22-56:SAY: 'Shorasat Darkone'/Shadowgandor : He...seems dead
+22-56:GAME: Rakonas entered as Urist Magmazombie
+22-56:MATTACK: James Weezley(Frogger3140) clicked on 'Virgil Lamb'(Cacophony) with intent on harm
+22-56:SAY: 'Virgil Lamb'/Cacophony : ;We need a doctor at arrivals!
+22-56:OOC: R.E.D./Mono124 : seg you need a disk
+22-56:OOC: Cog Swordwall/Orb370 : Goon has something about it, I bet.
+22-56:VOTE: Voting closed, result was restart
+22-56:OOC: Likot Boatblaze/Segellion : i have one
+22-56:OOC: Cog Swordwall/Orb370 : Disk too
+22-56:GAME: Rebooting due to restart vote
+22-56:ACCESS: Logout: Mikey3001
+22-56:ACCESS: Logout: Cacophony
+22-56:ACCESS: Logout: OzyTheSage
+22-56:ACCESS: Logout: Segellion
+22-56:ACCESS: Logout: Andrea the second
+22-56:ACCESS: Logout: Frogger3140
+22-56:ACCESS: Logout: Mono124
+22-56:ACCESS: Logout: Humaan
+22-56:ACCESS: Logout: Rakonas
+22-56:ACCESS: Logout: Shadowgandor
+22-56:ACCESS: Logout: Orb370
+23-31:ADMIN: Loading jobban_rank
+23-31:ADMIN: Updating jobbanfile!
+23-31:ACCESS: Login: Mikey3001 from 66.239.213.58
+23-31:GAME: Finished building powernets (30 nets)
+23-31:ACCESS: Login: Cacophony from 71.136.47.7
+23-31:ACCESS: Login: Shadowgandor from 83.84.235.167
+23-31:ACCESS: Login: Andrea the second from 151.33.204.148
+23-31:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-31:ACCESS: Login: Rakonas from 74.72.13.126
+23-31:ACCESS: Login: Segellion from 24.179.87.49
+23-31:ACCESS: Login: Mono124 from 99.137.45.54
+23-31:ACCESS: Login: Humaan from 75.163.239.167
+23-31:ACCESS: Logout: Shadowgandor
+23-31:ACCESS: Login: Shadowgandor from 83.84.235.167
+23-31:ACCESS: Login: Frogger3140 from 24.73.1.252
+23-31:GAME: Mono124 entered as Andrew Riley
+23-31:GAME: Segellion entered as Likot Boatblaze
+23-31:OOC: Andrew Riley/Mono124 : i swear orb
+23-31:ACCESS: Login: Orb370 from 4.154.133.25
+23-31:GAME: Cacophony entered as 'Virgil Lamb'
+23-31:ACCESS: Logout: Humaan
+23-31:OOC: Andrew Riley/Mono124 : if you steal my a.i.
+23-31:GAME: Mikey3001 entered as 'Dillin crawsford'
+23-31:OOC: Andrew Riley/Mono124 : i will hunt you down
+23-31:GAME: Rakonas entered as 'Sarvesh Timeplot'
+23-31:OOC: HELP: 'Virgil Lamb'/Cacophony : Recieved following message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;Virgil Lamb&#39;&#39;, &#39;male&#39;, &#39;25&#39;, &#39;Station Engineer&#39;,&#39;AI&#39;, &#39;Geneticist&#39;, &#39;0&#39;, &#39;0&#39;, &#39;0&#39; at line 1
+23-31:OOC: Andrew Riley/Mono124 : and tie you to your chair
+23-31:ACCESS: Login: Humaan from 75.163.239.167
+23-31:GAME: Shadowgandor entered as Likot Daggerforge
+23-31:OOC: Andrew Riley/Mono124 : and then play a.i.
+23-31:GAME: Humaan entered as Urist Humansword
+23-31:OOC: Likot Daggerforge/Shadowgandor : ^What he said+Same to you Mono
+23-31:GAME: Frogger3140 entered as James Weezley
+23-31:GAME: Andrea the second entered as Elspet Bennett
+23-31:OOC: Likot Boatblaze/Segellion : so code was rolled back? I didnt see any change other than an icon error
+23-31:ADMIN: PM: Orb370->Cacophony : Did you say anything before, or is this recent? If thats the only msg, I have no clue. Head is running on a msq or something, it shouldnt cause any harm.
+23-31:GAME: Orb370 entered as Cog Swordwall
+23-31:ADMIN: PM: Cacophony->Orb370 : This is the only time I remember seeing such a thing.
+23-31:OOC: Urist Humansword/Humaan : Should we have a mode vote?
+23-31:ADMIN: PM: Cacophony->Orb370 : It might have something to do with my age constantly resetting.  
+23-31:VOTE: Voting to change mode started by Andrew Riley/Mono124
+23-31:ADMIN: PM: Orb370->Cacophony : Hmm, maybe. Im not a coder, so I have absolutely no idea
+23-31:ADMIN: PM: Cacophony->Orb370 : It goes back to 30, and I have to change it back each time I log in.  
+23-31:ADMIN: PM: Orb370->Cacophony : You on the bay 12 forums?
+23-31:ACCESS: Logout: Frogger3140
+23-31:ADMIN: PM: Orb370->Cacophony : You do realise age matters not at all, right?
+23-31:ADMIN: PM: Cacophony->Orb370 : Yeah, Golgath.  Don't log in much, though.
+23-31:ADMIN: PM: Cacophony->Orb370 : And yes.  It's an OCD thing, I guess.
+23-31:ADMIN: PM: Orb370->Cacophony : Well, you can PM one of the coders, or you can just wait for one to come on
+23-31:OOC: Cog Swordwall/Orb370 : Traitor bunch. =/
+23-31:VOTE: Voting closed, result was traitor
+23-31:ADMIN: PM: Cacophony->Orb370 : I'm not too worried about it, really.  But they might be interested.  
+23-31:OOC: Urist Humansword/Humaan : Traitor can be fun.
+23-31:OOC: Cog Swordwall/Orb370 : Any mode can be fun
+23-31:OOC: Cog Swordwall/Orb370 : Any mode can also suck, badly.
+23-31:OOC: Urist Humansword/Humaan : Esspecially of a Head is the traitor
+23-31:OOC: Andrew Riley/Mono124 : inluding extended :D its fun
+23-31:ACCESS: Login: Tarkken from 72.175.138.76
+23-31:OOC: Cog Swordwall/Orb370 : EXCEPT extended
+23-31:OOC: Likot Daggerforge/Shadowgandor : Traitor for me is extended without the griefers, when played by a bunch of good players
+23-31:OOC: Andrew Riley/Mono124 : i like being a barman traitor
+23-31:OOC: Andrew Riley/Mono124 : EXTENDED IS AWESOME
+23-31:OOC: Cog Swordwall/Orb370 : Nah, im just kidding. It -can- be fun, but thats unlikely
+23-31:OOC: Andrew Riley/Mono124 : HOW CAN YOU CALL YOURSELF A B12 A- oh
+23-31:GAME: starting game of traitor
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Segellion from 24.179.87.49
+23-31:ACCESS: They share computer ID's
+23-31:OOC: Voxe Sergenyev/Tarkken : YO
+23-31:GAME: OzyTheSage entered as Ozymandias Blazelever
+23-31:OOC: Andrew Riley/Mono124 : MOTHER FUCKER
+23-31:OOC: Andrew Riley/Mono124 : I HATE YOU A.I. PERSON
+23-31:GAME: Tarkken entered as Voxe Sergenyev
+23-31:OOC: Likot Daggerforge/Shadowgandor : /cry
+23-31:OOC: Cog Swordwall/Orb370 : ...
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Greetings humans. I am the plasma researcher.
+23-31:OOC: Cog Swordwall/Orb370 : That kind of language isnt tolerated, ok? =/
+23-31:OOC: Elspet Bennett/Andrea the second : ARGH! why HoS? I chose geneticist or AI...
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : hi
+23-31:OOC: Cog Swordwall/Orb370 : Oh noez!
+23-31:OOC: Cog Swordwall/Orb370 : It says error..
+23-31:OOC: Andrew Riley/Mono124 : uh... no a.i.?
+23-31:OOC: Andrew Riley/Mono124 : :/ this is confusing
+23-31:SAY: Elspet Bennett/Andrea the second : hello
+23-31:OOC: Cog Swordwall/Orb370 : I just walked into the error! o_O
+23-31:SAY: Urist Humansword/Humaan : Geneticist here.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Hey
+23-31:OOC: Andrew Riley/Mono124 : i got none of the jobs i wanted, and I had HOS listed
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Going to go..
+23-31:SAY: Voxe Sergenyev/Tarkken : ; We got three people here who need job assignment
+23-31:OOC: Cog Swordwall/Orb370 : AI has to choose a name.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Why are there apostophe..
+23-31:SAY: Elspet Bennett/Andrea the second : we need more security officers
+23-31:OOC: Andrew Riley/Mono124 : gah probably a afk a.i.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Nevermind.. I&#39;ll tell the HoP.
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : im the doctor
+23-31:OOC: Cog Swordwall/Orb370 : Seg is the AI
+23-31:SAY: Cog Swordwall/Orb370 : ERROR!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : HoS Wants more sec officer.
+23-31:SAY: Cog Swordwall/Orb370 : Ok
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Oh god
+23-31:SAY: EMERAC/Segellion : Initializing.....
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : It&#39;s some kind of bizarre hole in time..
+23-31:SAY: EMERAC/Segellion : Hello station. EMERAC is now online.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Oh well.
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Greetings EMERAC.
+23-31:OOC: Cog Swordwall/Orb370 : Anything you guys want to do to spice up traitor? Or is it going to be -just- a traitor round.
+23-31:OOC: Likot Daggerforge/Shadowgandor : Just traitor thank you
+23-31:SAY: EMERAC/Segellion : Hello Mister Daggerforge.
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked () with the toolbox
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Flooding the combustion chamber with plasma.  
+23-31:OOC: Cog Swordwall/Orb370 : okey dokey
+23-31:ADMIN: Andrea the second/Elspet Bennett : we could have 2 traitors with conflicting objectives
+23-31:ACCESS: Login: Chamango from 87.244.82.108
+23-31:ADMIN: Orb370/Cog Swordwall : Yes, that would be fun...
+23-31:SAY: Voxe Sergenyev/Tarkken : I need a job
+23-31:ADMIN: Orb370/Cog Swordwall : Plus, it would be a way to make shadow angry. Thats fun.
+23-31:ACCESS: Login: Frogger3140 from 24.73.1.252
+23-31:SAY: Cog Swordwall/Orb370 : I figured that
+23-31:ADMIN: PM: Andrea the second->Orb370 : fun! invent something
+23-31:SAY: Elspet Bennett/Andrea the second : hello
+23-31:SAY: Elspet Bennett/Andrea the second : get the engine working soon
+23-31:SAY: 'Virgil Lamb'/Cacophony : You got-
+23-31:ADMIN: PM: Orb370->Andrea the second : I will have to assign these people jobs first, I guess
+23-31:SAY: 'Virgil Lamb'/Cacophony : It.  
+23-31:SAY: Cog Swordwall/Orb370 : ID?
+23-31:SAY: 'Virgil Lamb'/Cacophony : *sigh
+23-31:ADMIN: PM: Andrea the second->Orb370 : sure
+23-31:SAY: Voxe Sergenyev/Tarkken : Voxe Sergenyev
+23-31:ACCESS: Login: Killing spree123 from 24.118.18.39
+23-31:SAY: Cog Swordwall/Orb370 : ID...
+23-31:SAY: Cog Swordwall/Orb370 : Put the ID on the table.
+23-31:SAY: Voxe Sergenyev/Tarkken : Voxe Sergenyev...
+23-31:SAY: Elspet Bennett/Andrea the second : I may need a new officer or 2
+23-31:SAY: Voxe Sergenyev/Tarkken : oh that lol
+23-31:SAY: Cog Swordwall/Orb370 : Put the ID on the table..
+23-31:SAY: Elspet Bennett/Andrea the second : for security
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;A.I., how&#39;s the rest of the crew? The radio is awefully quiet
+23-31:SAY: Likot Daggerforge/Shadowgandor : Good day sir
+23-31:SAY: Elspet Bennett/Andrea the second : hello. what is up?
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : food might be here
+23-31:SAY: Likot Daggerforge/Shadowgandor : I&#39;m testing out a new theory sir
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : (brb)
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Engine is active.  
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : stop moving around
+23-31:SAY: Urist Humansword/Humaan : Still attempting to find human gene.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : bad double!
+23-31:SAY: Likot Daggerforge/Shadowgandor : Basically, these plasma canisters
+23-31:SAY: EMERAC/Segellion : Mister Daggerforge, the crew is currently a healthy status. Does this resolve your inquiry?
+23-31:OOC: Elspet Bennett/Andrea the second : last round I made a sandwich of 4 bread, 8 salami and 10 butter
+23-31:SAY: Likot Daggerforge/Shadowgandor : Will melt at a high temperature
+23-31:SAY: Voxe Sergenyev/Tarkken : Oh boy im a security officer
+23-31:SAY: Likot Daggerforge/Shadowgandor : While the siphons won&#39;t
+23-31:SAY: Voxe Sergenyev/Tarkken : Thanks
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:SAY: Likot Daggerforge/Shadowgandor : If I set this up right, I could siphon the heated gas and use it for testing
+23-31:SAY: Elspet Bennett/Andrea the second : looks interesting... but after this, try not to melt any other NanoTrasen equipment
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:OOC: Urist Humansword/Humaan : I can&#39;t see to put the monkeys in the modifier.
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:OOC: Cog Swordwall/Orb370 : BAD
+23-31:ADMIN: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S A TRAP', 'Get trapped inside of a welded locker.', 'easy')' at line 1
+23-31:OOC: Andrew Riley/Mono124 : SPAM
+23-31:OOC: Cog Swordwall/Orb370 : Stop banging the locker
+23-31:OOC: Elspet Bennett/Andrea the second : Frogger
+23-31:OOC: Cog Swordwall/Orb370 : Please
+23-31:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-31:SAY: Likot Daggerforge/Shadowgandor : Ofcourse sir
+23-31:OOC: Cog Swordwall/Orb370 : Only do it if someone is near by that wil lhelp you
+23-31:OOC: Cog Swordwall/Orb370 : Dur./
+23-31:OOC: Elspet Bennett/Andrea the second : If you are stuck in a locker adminhelp it or just stand still and hope
+23-31:OOC: Cog Swordwall/Orb370 : I bang when nice people are near by, though..
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : bah, I hate when people are afk and then come back after you&#39;ve dressed them up as a double in case of trouble
+23-31:SAY: Likot Daggerforge/Shadowgandor : Sir
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : (back)
+23-31:OOC: Elspet Bennett/Andrea the second : Yes, bang when people are near
+23-31:SAY: Elspet Bennett/Andrea the second : yes?
+23-31:SAY: EMERAC/Segellion : Caution. Personnel has collapsed at arrivals.
+23-31:SAY: Likot Daggerforge/Shadowgandor : Uhm, I&#39;m going to need a siphon, could you lend me one?
+23-31:OOC: James Weezley/Frogger3140 : I don&#39;t need to be out, there&#39;s 2 captains due to a bug. I&#39;m the 2nd one.
+23-31:SAY: Elspet Bennett/Andrea the second : sure. a second
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : are you ok? do you need healing?
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Don&#39;t worry, I was just laying down, AI
+23-31:SAY: EMERAC/Segellion : ..database corrected.
+23-31:ACCESS: Logout: Frogger3140
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;However, mister muggles is in bad shape
+23-31:ACCESS: Login: Frogger3140 from 24.73.1.252
+23-31:GAME: Killing spree123 entered as 'Cerol Plothammer'
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Another N20 leak?
+23-31:SAY: Likot Daggerforge/Shadowgandor : Many thanks sir!
+23-31:SAY: Likot Daggerforge/Shadowgandor : *salute
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Correction, mister muggles has been beaten to death
+23-31:OOC: Urist Humansword/Humaan : I can&#39;t seem to grab hold of the monkey.
+23-31:SAY: Voxe Sergenyev/Tarkken : ; hedf
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; If anyone sees somebody walking around dressed as the captain other than myself, assign him please.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : (and brb again, quickly)
+23-31:SAY: Elspet Bennett/Andrea the second : hello
+23-31:ADMIN: Orb370 has made Mono124/Andrew Riley a traitor.
+23-31:OOC: HELP: James Weezley/Frogger3140 : I need help. There&#39;s 2 captains and I&#39;m the second one. Can somebody make me a Scientist?
+23-31:SAY: Andrew Riley/Mono124 : H-
+23-31:OOC: Likot Daggerforge/Shadowgandor : Oh god, not the dreaded server crash
+23-31:SAY: Andrew Riley/Mono124 : Hello
+23-31:SAY: Andrew Riley/Mono124 : Sorry, sudden headache
+23-31:ACCESS: Logout: ReaperSWE
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Burgerk2 from 70.117.153.111
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: Likot Daggerforge/Shadowgandor : Pfew
+23-31:SAY: Voxe Sergenyev/Tarkken : ; oh shit
+23-31:ADMIN: PM: Andrea the second->Frogger3140 : you can do it yourself
+23-31:ADMIN: PM: Andrea the second->Frogger3140 : if you are a captain
+23-31:OOC: Voxe Sergenyev/Tarkken : shit that was supposed to be ooc sorz
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: PM: Frogger3140->Andrea the second : My ID got stolen for being the 2nd
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Voxe Sergenyev(Tarkken) with Brown Shoes
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : Cog Swordwall are you afk?
+23-31:ADMIN: PM: Andrea the second->Frogger3140 : understood. location?
+23-31:OOC: Cog Swordwall/Orb370 : Why would I EVER be afk? XD
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : *salute
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Blake_Gun from 76.68.193.178
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Elspet Bennett/Andrea the second : hello. patrol the station
+23-31:OOC: Cog Swordwall/Orb370 : No, stay!
+23-31:ADMIN: PM: Frogger3140->Andrea the second : Captain's Quarters?
+23-31:SAY: Voxe Sergenyev/Tarkken : Alright, just a minute.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  dont mind me 
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at 'Cerol Plothammer'
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : shit what happend!!
+23-31:SAY: Urist Humansword/Humaan : Ignore the body, it was a monkey.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Are you damaging that monkey?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ?WTH
+23-31:SAY: EMERAC/Segellion : Caution - Atmospherics alarm in Communications Control
+23-31:SAY: Cog Swordwall/Orb370 : Hes dead!
+23-31:ADMIN: PM: Andrea the second->Frogger3140 : ingame name?
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : o ok
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  no
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Who damaged the monkey!?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  im not
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Any damage?
+23-31:SAY: Andrew Riley/Mono124 : ;Ill go check it out
+23-31:ADMIN: PM: Frogger3140->Andrea the second : James Weezley
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;And is the dish aligned?
+23-31:SAY: Cog Swordwall/Orb370 : The monkey is dead!
+23-31:SAY: Elspet Bennett/Andrea the second : hello
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I know, but who killed it?
+23-31:SAY: Cog Swordwall/Orb370 : We have to arrest him captain.
+23-31:SAY: Elspet Bennett/Andrea the second : drop everything
+23-31:SAY: Voxe Sergenyev/Tarkken : How the fuck do i open this thing
+23-31:SAY: Cog Swordwall/Orb370 : He had him last.
+23-31:SAY: Cog Swordwall/Orb370 : He didnt report it
+23-31:SAY: Andrew Riley/Mono124 : ;A.I. open communications control
+23-31:SAY: EMERAC/Segellion : Caution - structural damage in Communcations Control. Use of internals is advised.
+23-31:OOC: Urist Humansword/Humaan : Yes, finally found how to grab.
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at 'Cerol Plothammer'
+23-31:SAY: Elspet Bennett/Andrea the second : great. now, a new name
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  wth
+23-31:MATTACK: Urist Humansword(Humaan)has grabbed the monkey (e7b6)() aggressively (now hands) 
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :    i was talking the monkey to the lab
+23-31:SAY: Elspet Bennett/Andrea the second : invent a name
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : you clearly killed it!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  FOR RESERCH
+23-31:GAME: Burgerk2 entered as '\'Tirist Koboldwood\''
+23-31:SAY: James Weezley/Frogger3140 : John Weezley, my old goonstation name.
+23-31:SAY: Cog Swordwall/Orb370 : I will get a fingerprint scanner
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : good idea
+23-31:MATTACK: Urist Humansword(Humaan)has grabbed the monkey (e7b6)() aggressively (now hands) 
+23-31:MATTACK: '\'Tirist Koboldwood\'' (Burgerk2) attacked () with Box
+23-31:MATTACK: '\'Tirist Koboldwood\'' (Burgerk2) attacked () with Box
+23-31:MATTACK: '\'Tirist Koboldwood\'' (Burgerk2) attacked () with Box
+23-31:SAY: Andrew Riley/Mono124 : ;Let me out,  I have sealed the breach.
+23-31:SAY: Elspet Bennett/Andrea the second : a DIFFERENT one. I need to give you a new identity
+23-31:SAY: Elspet Bennett/Andrea the second : or old captain may wonder how you escaped
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : What kind of sick man damages nanotrasen property like that?
+23-31:SAY: Elspet Bennett/Andrea the second : oh wait. you said john
+23-31:OOC: Cog Swordwall/Orb370 : Mono, just double checking, did you get it?
+23-31:SAY: Elspet Bennett/Andrea the second : that is fine
+23-31:MATTACK: Urist Humansword(Humaan)has grabbed the monkey (e7b6)() aggressively (now hands) 
+23-31:OOC: Andrew Riley/Mono124 : maaaaybe
+23-31:ADMIN: Andrea the second modified James Weezley's rname to John Weezley
+23-31:OOC: Cog Swordwall/Orb370 : XD
+23-31:SAY: 'Virgil Lamb'/Cacophony : Hm.  Weird.  
+23-31:SAY: Elspet Bennett/Andrea the second : now, an ID. wait till I craft it
+23-31:SAY: John Weezley/Frogger3140 : rname?
+23-31:MATTACK: Urist Humansword(Humaan)has grabbed the monkey (e7b6)() aggressively (now hands) 
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : how do you &#39;show&#39; someone their ID card?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Only a complete sicko would do such a thing!
+23-31:SAY: Voxe Sergenyev/Tarkken : I&#39;m going to go patrol.
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : &#39;read I think
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : I managed to do it once but I forget how
+23-31:SAY: Elspet Bennett/Andrea the second : what job?
+23-31:SAY: Cog Swordwall/Orb370 : *read
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : and I meant, show somebody your own ID
+23-31:OOC: Elspet Bennett/Andrea the second : put ID on hand, click
+23-31:SAY: Elspet Bennett/Andrea the second : geneticist?
+23-31:SAY: EMERAC/Segellion : Caution - Mister Bennett please adhere to the laws of physics.
+23-31:SAY: John Weezley/Frogger3140 : Job list?
+23-31:MATTACK: Ozymandias Blazelever (OzyTheSage) attacked Ozymandias Blazelever(OzyTheSage) with Ozymandias Blazelever's ID Card (Security Officer)
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : I think that just makes oyu attack them with it
+23-31:SAY: John Weezley/Frogger3140 : Head of Maintenance, if available.
+23-31:SAY: Elspet Bennett/Andrea the second : anything you want
+23-31:SAY: Elspet Bennett/Andrea the second : ok
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : click the ID itself
+23-31:OOC: Cog Swordwall/Orb370 : Not if your a space apart
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ....
+23-31:OOC: Cog Swordwall/Orb370 : That show you the ID
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  wth did i do wrong
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : ah, I see
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : You killed the monkey!
+23-31:SAY: Urist Humansword/Humaan : Hello
+23-31:SAY: Voxe Sergenyev/Tarkken : Just checking if everything is alright.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : or did it just see you and have a heart attack?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Good day Human.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : recalling some horrible acts you commited upon it long ago?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  no i didint i was talking the dead monkey to the lab for cloneing
+23-31:SAY: Elspet Bennett/Andrea the second : take ID in hand
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : IS THAT WHAT HAPPENED CEROL!?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : DID YOU KILL THE MONKEY&#39;S FAMILY!?!?!
+23-31:SAY: Elspet Bennett/Andrea the second : wait now
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  i just board this ship
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : I&#39;ve never been security before, so let&#39;s hope I don&#39;t screw something up =)
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Eternalnight264 from 24.77.134.166
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : So, you just boarded the ship, picked up a crowbar, and beat a monkey to DEATH!?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  so how could i
+23-31:ADMIN: Andrea the second teleported John Weezley
+23-31:SAY: Andrew Riley/Mono124 : ;Permission to put N2O into the air so the A.I. can subdue humans that are causing harm to the station or others?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ADMIT IT!
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas) clicked on 'Cerol Plothammer'(Killing spree123) with intent on harm
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  no it was dead when i found it
+23-31:SAY: Elspet Bennett/Andrea the second : get dressed. remember, you always was HoM
+23-31:SAY: Cog Swordwall/Orb370 : ; I wouldnt allow it
+23-31:SAY: Cog Swordwall/Orb370 : ; If that got into the wrong hands, it would be very terrible
+23-31:SAY: Elspet Bennett/Andrea the second : all fixed? did I forget anything?
+23-31:SAY: John Weezley/Frogger3140 : AFK
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Dead inside? From all the torture you inflicted upon it from KILLING ITS VERY PARENTS!?
+23-31:SAY: Andrew Riley/Mono124 : Nothing I couldn&#39;t clean up....
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : Captain do i have permission to go on a lunch break?
+23-31:SAY: Andrew Riley/Mono124 : ;Nothing I couldn&#39;t clean up....
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : You make me sick.
+23-31:SAY: EMERAC/Segellion : Caution - Mister Koboldwood, please refrain from station damage.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   GUH i give up i TOLD U i just boreded this ship thats my final  words
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Elspet Bennett/Andrea the second : ; EMERAC, report damage location
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Have you gathered the evidence Mr. wordwall?
+23-31:SAY: Cog Swordwall/Orb370 : Still investigating
+23-31:SAY: Cog Swordwall/Orb370 : Almost done
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Damn. I know he&#39;s guilty.
+23-31:GAME: Eternalnight264 entered as 'Oddum Rivergoblin'
+23-31:SAY: EMERAC/Segellion : Northwest Maintenance Corridor
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Anything I need to fix?
+23-31:SAY: Elspet Bennett/Andrea the second : what happ
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  GUH i told u that monkey was dead in your office..
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : The sick monkey torturing bastard..
+23-31:SAY: John Weezley/Frogger3140 : ;Back
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : Mister muggles is dead
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  i didint do it the lab did and i was ordered to bring that monkey back 
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; Mister muggles is dead
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : he is dead..
+23-31:SAY: Cog Swordwall/Orb370 : We are investigating
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  to the lab 
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Ordered to bring the monkey back, BY THE GHOSTS OF ITS PARENTS WHOM YOU ALSO MURDERED!?
+23-31:SAY: Elspet Bennett/Andrea the second : ; EMERAC, I see no damage
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  no by the  sictneists in the  lab 
+23-31:OOC: 'Oddum Rivergoblin'/Eternalnight264 : What is game mode?
+23-31:OOC: Cog Swordwall/Orb370 : Traitor + some secret spice
+23-31:OOC: Cog Swordwall/Orb370 : Well, not so secret anymore.
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : So that you could revive the monkey, and kill it once more?
+23-31:OOC: Voxe Sergenyev/Tarkken : whats not so secret
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : Can I get a job?
+23-31:SAY: Cog Swordwall/Orb370 : Not now
+23-31:GAME: ReaperSWE entered as 'Gregory Hampshire'
+23-31:OOC: Likot Daggerforge/Shadowgandor : Orb, nearly everyone voted for Traitor and when you asked if we wanted something extra added, no one responded except me saying no
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Reminder to all crew members, when using secure storage lockers, please lock them when not in use to prevent unauthorized access to your equipment
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; AI, I have found the salami
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   for the last time the lab scientist told me to bring him back to the lab
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; Advise
+23-31:OOC: Cog Swordwall/Orb370 : So I took the rest as silent yesses
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I don&#39;t believe it.
+23-31:OOC: Cog Swordwall/Orb370 : Its not bad, trust me.
+23-31:SAY: Elspet Bennett/Andrea the second : SALAAAMI
+23-31:OOC: Cog Swordwall/Orb370 : Its not two traitors, for say...
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;*ahem*
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Googolplexed from 123.243.197.60
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: Cog Swordwall/Orb370 : Well, maybe. XE
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : elspet wait
+23-31:MATTACK: Elspet Bennett (Andrea the second) attacked Elspet Bennett(Andrea the second) with the salami
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Batteries are fully charged.  
+23-31:MATTACK: Elspet Bennett (Andrea the second) attacked Elspet Bennett(Andrea the second) with Butter
+23-31:SAY: Cog Swordwall/Orb370 : Sir, I couldnt find any solid evidence
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  whats with the shades
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Permission to up-armor our SMES units?
+23-31:OOC: HELP: John Weezley/Frogger3140 : I need a backpack
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : can you get me a drink?
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Anyone need an assistant?
+23-31:SAY: Elspet Bennett/Andrea the second : there must be more bread. I &#39;ll just on the other side
+23-31:ADMIN: PM: Orb370->Frogger3140 : Find one?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I can&#39;t bear to stare into those horrible murderous eyes.
+23-31:SAY: Cog Swordwall/Orb370 : However, Mr. Muggles had brute and suffication damage
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : Sir, Do you need some help?
+23-31:SAY: Urist Humansword/Humaan : No.
+23-31:ADMIN: Andrea the second created 20ea /obj/item/weapon/food/bread
+23-31:SAY: Cog Swordwall/Orb370 : He didnt kill himself, I would think
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  for the last time i didnt DO IT
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : But it appears we&#39;ll have to let you go, much to the dismay of monkeykind..
+23-31:ADMIN: Andrea the second created 20ea /obj/item/weapon/food/salami
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ok then
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : elspet?
+23-31:SAY: Elspet Bennett/Andrea the second : see? tehre was more
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  NVM
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : I&#39;ve send you your wiki login details orb
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;I might.  Feel like installing some airlocks?
+23-31:SAY: Cog Swordwall/Orb370 : Did you search him?
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; I can do that
+23-31:ADMIN: PM: Orb370->Googolplexed : Okey dokey
+23-31:SAY: Andrew Riley/Mono124 : Yo
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Uh.. I might need some instructions.
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; need some insulated gloves
+23-31:SAY: John Weezley/Frogger3140 : Hey, do you know where I can get a backpack?
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;I can do that.  
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Yep, he&#39;s clean.
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; And some instructions
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ty
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Shouldn&#39;t need gloves for installation.  
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : I need to advertise the wiki more
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : hey can you get me a beer?
+23-31:SAY: Andrew Riley/Mono124 : I don&#39;t know, let me check atmospherics for one
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  have a nice day
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ; I need some however
+23-31:SAY: John Weezley/Frogger3140 : And a radio?
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Meet me in the maintenance hall, all interested parties.  
+23-31:SAY: Elspet Bennett/Andrea the second : an health ysandwich
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : Seams so few people know about it
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  hey thats mine
+23-31:SAY: 'Virgil Lamb'/Cacophony : *nod
+23-31:ADMIN: Orb370/Cog Swordwall : Its in someone&#39;s sig
+23-31:SAY: Cog Swordwall/Orb370 : Ok, your clean
+23-31:SAY: 'Virgil Lamb'/Cacophony : First step..
+23-31:GAME: Chamango entered as John StJohn
+23-31:SAY: Cog Swordwall/Orb370 : Sigh, why are these left one
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  i still cant move
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: Cog Swordwall/Orb370 : Unbuckle yourself, shirlock
+23-31:SAY: 'Virgil Lamb'/Cacophony : Over here.  Come.
+23-31:SAY: Urist Humansword/Humaan : What of it?
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : Where are the gloves
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Horrible murder
+23-31:MATTACK: 'Cerol Plothammer'(Killing spree123) clicked on 'Cerol Plothammer'(Killing spree123) with intent on harm
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:ADMIN: Orb370/Cog Swordwall : Can you host googol? Maybe?
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:SAY: Voxe Sergenyev/Tarkken : ; I&#39;ll be guarding the EVA Storage room if anyone should want or need me.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Gregory?  
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:ADMIN: Orb370/Cog Swordwall : Playing on a server thats in sweden isnt best for someone in central US
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Elspet, I see you putting salami on that sandwich..
+23-31:SAY: Cog Swordwall/Orb370 : Give those back
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: Cog Swordwall/Orb370 : Those are secrity property.
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : ?Can I grab some gloves?
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : captain
+23-31:SAY: Elspet Bennett/Andrea the second : ; AH! 8 salami, 8 spatters of butter and 4 bread. a good healthy sandwich to keep the doctor away
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : Right then.
+23-31:SAY: Cog Swordwall/Orb370 : Sir, the handcuffs?
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : Not ATM, I&#39;m on a netbook
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Yes?
+23-31:ADMIN: Orb370/Cog Swordwall : Aww..
+23-31:SAY: Cog Swordwall/Orb370 : Thankyou
+23-31:SAY: 'Virgil Lamb'/Cacophony : All right.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : what were you doing in the
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : I still say we might need some gloves
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  door plz
+23-31:ACCESS: Logout: Chamango
+23-31:SAY: Andrew Riley/Mono124 : ;Now THATS wierd
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : sir do i have permission to go on a lunch break?
+23-31:SAY: Elspet Bennett/Andrea the second : ; oww... my stomach...
+23-31:SAY: Cog Swordwall/Orb370 : im getting to that
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : The moment I can host, I will
+23-31:SAY: 'Virgil Lamb'/Cacophony : Now, watch carefully.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Sure.
+23-31:SAY: 'Virgil Lamb'/Cacophony : And remember to place them well.
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:ADMIN: Orb370/Cog Swordwall : Yay! :D
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;I just found Tirist laying down in the western escape shuttle area with some wire cutters
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: Andrew Riley/Mono124 : ;Excess oxygen in atmospherics....
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Tirist koboldwood
+23-31:SAY: Elspet Bennett/Andrea the second : what is the problem?
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:GAME: Blake_Gun entered as 'Jeffy Marlows'
+23-31:SAY: Cog Swordwall/Orb370 : ; He obviously tried cutting someone electrical
+23-31:SAY: EMERAC/Segellion : Irregular Atmospherical Conditions detected in Atmospherics
+23-31:OOC: 'Jeffy Marlows'/Blake_Gun : MySQL server has gone away#Report this.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : he ran away
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : uh..
+23-31:OOC: 'Jeffy Marlows'/Blake_Gun : Lol crash
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: Cog Swordwall/Orb370 : ; Whats hid ID access?
+23-31:SAY: 'Virgil Lamb'/Cacophony : First step, you just need some metal.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : A HA!
+23-31:ACCESS: Logout: Frogger3140
+23-31:SAY: 'Oddum Rivergoblin'/Eternalnight264 : is it really that hard to get some gloves?
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Assistant
+23-31:SAY: 'Virgil Lamb'/Cacophony : Assuming nobody interrupts.  
+23-31:SAY: 'Jeffy Marlows'/Blake_Gun : ;CARRY ON MY WAYWARD SON!
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; He must be the one who murdered MR MUGGLES!
+23-31:OOC: Cog Swordwall/Orb370 : It says that occationally.
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: 'Virgil Lamb'/Cacophony : Then, carve it into shape with a welder.
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : why does everyone have &#39; &#39; around their name
+23-31:SAY: Elspet Bennett/Andrea the second : fauirly odd. want a sandwich?
+23-31:SAY: 'Virgil Lamb'/Cacophony : This takes quite a bit of fuel.  
+23-31:SAY: Urist Humansword/Humaan : So far, I think I found the gene for tourettes syndrome, but thats it. Reporting later findings... later.
+23-31:SAY: 'Jeffy Marlows'/Blake_Gun : ;THEY&#39;LL BE PEACE WHEN YOU ARE DOOONE
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : no clue, it&#39;s really annoying.
+23-31:SAY: Andrew Riley/Mono124 : Nah
+23-31:OOC: Cog Swordwall/Orb370 : Not everyone
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : SQL bug
+23-31:SAY: 'Jeffy Marlows'/Blake_Gun : ;LAY YOUR WEARY HEAD TO REEEEEST!
+23-31:SAY: Elspet Bennett/Andrea the second : It is too big for me to eat
+23-31:OOC: Likot Daggerforge/Shadowgandor : It happens when you press save
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : happens when you attempt to save
+23-31:SAY: 'Virgil Lamb'/Cacophony : Once that&#39;s done, open the panel with a screwdriver.  
+23-31:SAY: 'Jeffy Marlows'/Blake_Gun : ;DON&#39;T CRY NO MORE.
+23-31:SAY: Cog Swordwall/Orb370 : ; Weee..
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ANYONE ELSE HAVIENG A LAGG
+23-31:OOC: 'Cerol Plothammer'/Killing spree123 : is anyopne else lagging
+23-31:ACCESS: Logout: Killing spree123
+23-31:SAY: Cog Swordwall/Orb370 : ; Weee..
+23-31:OOC: 'Jeffy Marlows'/Blake_Gun : Yes.
+23-31:OOC: Likot Daggerforge/Shadowgandor : Yep
+23-31:SAY: Elspet Bennett/Andrea the second : 4 bread, 8 salami and just as much butter
+23-31:OOC: Cog Swordwall/Orb370 : Head lives in Sweden
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:OOC: Cog Swordwall/Orb370 : Anyone who doesnt have lag lives near sweden
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : so we pry open that hole and put some wires in?
+23-31:OOC: Cog Swordwall/Orb370 : Now shhh.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;You&#39;ll need to insert some wiring and circuits.  
+23-31:OOC: Voxe Sergenyev/Tarkken : killingspree 123? how original of a name
+23-31:OOC: 'Jeffy Marlows'/Blake_Gun : Goddamn swedes. :D
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Killing spree123 from 24.118.18.39
+23-31:OOC: Likot Daggerforge/Shadowgandor : Normally, I&#39;m not lagging much on this server
+23-31:SAY: 'Virgil Lamb'/Cacophony : Yes.
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Spartanking53901 from 24.183.45.184
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : Damn sweden not being located in the middle of the atlantic ocean.
+23-31:MATTACK: 'Dillin crawsford' (Mikey3001) attacked 'Dillin crawsford'(Mikey3001) with Fire Extinguisher
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : I usualyl get a better ping here than on the other bay 12 server
+23-31:ACCESS: Logout: Eternalnight264
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : Heads has TF2 running in the background
+23-31:SAY: Elspet Bennett/Andrea the second : why are pipes so full of NO2?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : For no reason.
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : he&#39;s not in a server.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Then close it back up..
+23-31:SAY: Andrew Riley/Mono124 : Oh just a project
+23-31:OOC: 'Jeffy Marlows'/Blake_Gun : Raeg.
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  anyone need a seocnd hand
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at Plating
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at '\'Tirist Koboldwood\''
+23-31:OOC: Cog Swordwall/Orb370 : Reaper, you dont know that for sure
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:SAY: 'Virgil Lamb'/Cacophony : And one of you can do the final welding work.  
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at '\'Tirist Koboldwood\''
+23-31:SAY: Andrew Riley/Mono124 : It isn&#39;t in the rest of the station
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at '\'Tirist Koboldwood\''
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Woosh!
+23-31:SAY: Andrew Riley/Mono124 : So no worries
+23-31:OOC: Nomal Mccabinet/Googolplexed : Well, I will host when I can, but that might not be for a while
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has shot a taser round at '\'Tirist Koboldwood\''
+23-31:OOC: Cog Swordwall/Orb370 : Rumor spreader. =/
+23-31:SAY: 'Virgil Lamb'/Cacophony : Any questions?
+23-31:GAME: Spartanking53901 entered as Uvash Bloodstop
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : That&#39;s what steam says.
+23-31:OOC: Cog Swordwall/Orb370 : You shall die in a plasma storm
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;May the fiery flames of GOD burn the outer skin of this abomination
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : what the heck
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : so uh..
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I know you killed Mr. Muggles.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : helo sir
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas)has grabbed '\'Tirist Koboldwood\''(Burgerk2) aggressively (now hands) 
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;*scrapes throat* Uhum, I apologise for that.
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : ceral come to the med bay
+23-31:SAY: Andrew Riley/Mono124 : What the hell?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : and you stole someone&#39;s shoes.
+23-31:MATTACK: 'Dillin crawsford' (Mikey3001) attacked 'Dillin crawsford'(Mikey3001) with First-Aid
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Hmm, don&#39;t have access
+23-31:SAY: 'Virgil Lamb'/Cacophony : And there you go.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : thats odd
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : he was dead when i got here
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Guess it&#39;s HoP and captain only
+23-31:SAY: Voxe Sergenyev/Tarkken : What do you want?
+23-31:SAY: 'Virgil Lamb'/Cacophony : Fully functional airlock.  
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I just realised I&#39;ve created such an effective substance that it basically burns in space
+23-31:SAY: 'Virgil Lamb'/Cacophony : Think you can handle it?
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : HOW DO YOU LIKE IT!?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : thats  vary odd
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;A few assistants need assignments in arrivals
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : How do we remove one, incase its in the wrong place?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ah, looks like you&#39;re also burnt.
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Although it&#39;s dying a bit
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : like what
+23-31:SAY: 'Virgil Lamb'/Cacophony : Crowbar will work on an unfinished door.  
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : I&#39;ve detained Tirist in west maintenance.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Having YOUR shoes stolen?
+23-31:SAY: 'Virgil Lamb'/Cacophony : But if you build the whole thing, you&#39;ll need explosives..  So put it in the right place.
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Casings from 69.14.78.214
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : Maybe acid?
+23-31:OOC: Cog Swordwall/Orb370 : NOT DA IC IN OOC
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : that was not suppoesed to be OOC.
+23-31:SAY: Likot Daggerforge/Shadowgandor : Greetings sir
+23-31:SAY: 'Virgil Lamb'/Cacophony : Could try it.  I just don&#39;t screw it up.
+23-31:SAY: Elspet Bennett/Andrea the second : it is nothing special. it is just much
+23-31:GAME: Casings entered as Minkot Timemaker
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : ...
+23-31:OOC: Cog Swordwall/Orb370 : I figured.
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:SAY: Likot Daggerforge/Shadowgandor : MUAHAHAA
+23-31:SAY: Likot Daggerforge/Shadowgandor : Wait what?
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : well then.
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : i found thous on the ground
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : are you ok?
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: 'Virgil Lamb'/Cacophony : If you want to try on your own, I recommend building some airlocks for the hallways.  
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : Where to install airlocks?
+23-31:SAY: Likot Daggerforge/Shadowgandor : Sir, you shattered my dreams and broke my heart
+23-31:SAY: Likot Daggerforge/Shadowgandor : *frown
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Lies!
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : okay.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Places like where I put this one.
+23-31:SAY: Elspet Bennett/Andrea the second : you see, while much of it goes in space, there is so much gas that concentration is still enough for combustion
+23-31:SAY: Urist Humansword/Humaan : I may have discovered a gene for quick regeneration!
+23-31:SAY: Minkot Timemaker/Casings : ; Captian please report to reasigning desk.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Main point is to make it harder to lose atmosphere and easier to contain fires.  
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Those shoes clearly were taken from someone&#39;s feet!
+23-31:SAY: Likot Daggerforge/Shadowgandor : I prefer my explanation
+23-31:OOC: Cog Swordwall/Orb370 : Windows = Downloading Updates = Bleh
+23-31:SAY: Elspet Bennett/Andrea the second : also, it looks very hot
+23-31:SAY: Likot Daggerforge/Shadowgandor : MUAHAHAHAHAA
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : ya whatever
+23-31:SAY: Likot Daggerforge/Shadowgandor : Very Very hot sir
+23-31:OOC: Cog Swordwall/Orb370 : It only does this when im playing SS13
+23-31:SAY: Elspet Bennett/Andrea the second : why are you venting it in  space?
+23-31:SAY: Likot Daggerforge/Shadowgandor : Well, it was
+23-31:OOC: Cog Swordwall/Orb370 : It must hate me..
+23-31:OOC: Cog Swordwall/Orb370 : D:
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : hey
+23-31:SAY: Likot Daggerforge/Shadowgandor : I need to get the siphon out of there
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Gregory is now qualified to build airlocks.  
+23-31:SAY: EMERAC/Segellion : Caution - irregular atmospheric flow detected
+23-31:SAY: Cog Swordwall/Orb370 : What?
+23-31:SAY: EMERAC/Segellion : ...correcting.
+23-31:SAY: Likot Daggerforge/Shadowgandor : And well, I don&#39;t react well to heat
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : um can i get a job
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : your healthy
+23-31:SAY: Cog Swordwall/Orb370 : You could use some cough syrup
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ya i could use that to whare can i get  that
+23-31:SAY: Minkot Timemaker/Casings : ; I repeat captain please report to the assigning desk
+23-31:SAY: Minkot Timemaker/Casings : Hi there
+23-31:SAY: Cog Swordwall/Orb370 : Medical Storage, let me get you some
+23-31:SAY: Elspet Bennett/Andrea the second : regeneration?
+23-31:SAY: Minkot Timemaker/Casings : Uh
+23-31:OOC: Voxe Sergenyev/Tarkken : sometimes i wish you could have two items on your back
+23-31:SAY: Andrew Riley/Mono124 : ;WHO FUCKED MY PROJECT UP
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : hi
+23-31:SAY: Urist Humansword/Humaan : Yes?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ok ill wait
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;AI, anything that needs to be repaired?
+23-31:OOC: Voxe Sergenyev/Tarkken : like an air tank and a backpack
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : hey you
+23-31:SAY: Minkot Timemaker/Casings : I would like a newj ob
+23-31:MATTACK: 'Cerol Plothammer' (Killing spree123) attacked 'Cerol Plothammer'(Killing spree123) with Fire Extinguisher
+23-31:SAY: Andrew Riley/Mono124 : ;WE HAVE N2O IN THE PIPES NOW!
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : what
+23-31:OOC: Likot Daggerforge/Shadowgandor : Sometimes, I wish I could fly
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Halberdear from 76.2.30.65
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Elspet Bennett/Andrea the second : you said something about a regeneration gene
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : what
+23-31:OOC: Cog Swordwall/Orb370 : That makes it too easy
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Why are you in handcuffs
+23-31:SAY: Minkot Timemaker/Casings : Whats available?
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: Andrew Riley/Mono124 : ;A.I. vent N2O into space
+23-31:OOC: Cog Swordwall/Orb370 : Just carry the backpack in your hand
+23-31:SAY: Unknown/Rakonas : which?
+23-31:SAY: Urist Humansword/Humaan : You&#39;re willing to test it?
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Theres N2O floating around?
+23-31:SAY: Minkot Timemaker/Casings : Whats available
+23-31:OOC: Likot Daggerforge/Shadowgandor : Or the tank
+23-31:SAY: Elspet Bennett/Andrea the second : tell me all you know about it
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : some one thoght i stole shos
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Unknown/Rakonas : HoM, HoR, Janitor.
+23-31:OOC: Cog Swordwall/Orb370 : You go uncontious, you die
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   problem in  atmospheric testing chambers
+23-31:OOC: Voxe Sergenyev/Tarkken : i no
+23-31:OOC: Cog Swordwall/Orb370 : Or stunned
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Let me know when there isn&#39;t N20 around to choke us.  
+23-31:SAY: Minkot Timemaker/Casings : ((Whats HoM?))
+23-31:GAME: Halberdear entered as Hal jones
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : but he let me go
+23-31:OOC: Cog Swordwall/Orb370 : You may think it will never happen, but it happens, a lot.
+23-31:OOC: Voxe Sergenyev/Tarkken : ive had personal experienve with n2o poisoning
+23-31:SAY: Urist Humansword/Humaan : Bio scans show a boost from 60% to 75% in vitals after a mutation.
+23-31:SAY: Unknown/Rakonas : ((Head of the engineers))
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Can somebody say for sure whether or not Tirist Koboldwood should be in detainment right now? He&#39;s walking around freely with handcuffs on
+23-31:SAY: EMERAC/Segellion : Processing..
+23-31:SAY: Minkot Timemaker/Casings : Hm..
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Hold on I just have to check...
+23-31:SAY: Urist Humansword/Humaan : It is untested, however.
+23-31:SAY: Minkot Timemaker/Casings : HoR
+23-31:OOC: Cog Swordwall/Orb370 : Everyone has to discover the pretty colors are dangerous
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : ok
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: Elspet Bennett/Andrea the second : what does genetic analyzer says?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : orb..
+23-31:SAY: Andrew Riley/Mono124 : ;Jesus Atmospherics is really fucked up
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:OOC: Cog Swordwall/Orb370 : Ola
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : alot of that could be classed as IC..
+23-31:SAY: Elspet Bennett/Andrea the second : you know, living things tend to regenerate on their own
+23-31:OOC: Likot Daggerforge/Shadowgandor : Not really
+23-31:SAY: Urist Humansword/Humaan : Have not checked, actually.
+23-31:OOC: Cog Swordwall/Orb370 : Name one
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Recommend all people have a gas mask and air tank handy if the n2o reaches you.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; He was shocked by a door
+23-31:SAY: Minkot Timemaker/Casings : Hello there
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; he presumably was breaking it.
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; throw him in the brig for a little bit.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Atmos is damaged?
+23-31:SAY: Urist Humansword/Humaan : Look, I&#39;ll check.
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Did anybody read my previous message?
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;okay sarvesh
+23-31:SAY: Elspet Bennett/Andrea the second : well, you are not a competent geneticist in my opinion. I won&#39;t let you test on me. prisoners however may have a chance to regenerate
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Yes, but I know not what to make of it.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Should he be detained or should I take the handcuffs off?
+23-31:SAY: Elspet Bennett/Andrea the second : what does it say?
+23-31:SAY: EMERAC/Segellion : Irregular Atmospherical Conditions detected in South Hallway
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;AI, open on atmospherics.
+23-31:SAY: Urist Humansword/Humaan : Several Unknowns are confirmed.
+23-31:SAY: EMERAC/Segellion : Irregular Atmospherical Conditions detected in Supplies Office
+23-31:SAY: Andrew Riley/Mono124 : ;Damn, ill check it out
+23-31:ACCESS: Logout: Halberdear
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; detained temporarily.
+23-31:SAY: Cog Swordwall/Orb370 : ; Just detain him, always be on the safe side
+23-31:SAY: EMERAC/Segellion : Irregular Atmospherical Conditions detected in East Hallway
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : the guy left me so.......
+23-31:SAY: Cog Swordwall/Orb370 : ; If he has handcuffs on, he did something bad
+23-31:SAY: Elspet Bennett/Andrea the second : let me look
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : I&#39;m going to have to take you with me for now
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;AI?
+23-31:SAY: Andrew Riley/Mono124 : ;HOLY SHIT
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : ok
+23-31:SAY: Andrew Riley/Mono124 : ;GIANT LEAK
+23-31:MATTACK: Ozymandias Blazelever(OzyTheSage)has grabbed '\'Tirist Koboldwood\''(Burgerk2) aggressively (now hands) 
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Advise all people of SS13 to wear gas mask and have an air tank with internals ON.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Where?
+23-31:SAY: EMERAC/Segellion : Personnel down, Southeast hall.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : *laugh
+23-31:SAY: Elspet Bennett/Andrea the second : while unknowns are promising, this poor monkey must be suffering a lot
+23-31:SAY: Andrew Riley/Mono124 : He is down!
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : weeeeeeeeeeeeeee
+23-31:SAY: Elspet Bennett/Andrea the second :  clean the DNA
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Guest-3445601907 from 67.40.120.157
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Minkot Timemaker/Casings : Hello men
+23-31:ACCESS: Logout: Guest-3445601907
+23-31:SAY: Voxe Sergenyev/Tarkken : ; WE NEED A DOCTOR
+23-31:SAY: Urist Humansword/Humaan : Yeah, unfortunately.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Huh.
+23-31:SAY: Minkot Timemaker/Casings : You should have a gas mask handy
+23-31:SAY: Elspet Bennett/Andrea the second : what happens?
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : yay i have a bed
+23-31:SAY: Minkot Timemaker/Casings : Ive heard N20 Has been spreading
+23-31:SAY: 'Virgil Lamb'/Cacophony : What are you doing with that?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Hmm.
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Mr.Peanuts from 67.40.120.157
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Elspet Bennett/Andrea the second : voxe
+23-31:SAY: Voxe Sergenyev/Tarkken : ; There is a massive plasma and n2o leak in the south east hall
+23-31:SAY: Minkot Timemaker/Casings : What are you testing?
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  a experiment
+23-31:SAY: Elspet Bennett/Andrea the second : captain
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Ai, lock the south east hall
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : The charge doesn&#39;t sound too serious so I imagine you won&#39;t be in here for long
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : im here
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ..Right.
+23-31:SAY: Cog Swordwall/Orb370 : ; Of deadly proportions?
+23-31:SAY: Urist Humansword/Humaan : A new gene, possibly for regeneration.
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Enough that you could die if you were in it for too long
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Tirist Koboldwood is being held in the brig
+23-31:SAY: Minkot Timemaker/Casings : Hm..
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Its everywhere
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Goddamn fucking... headset
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: Minkot Timemaker/Casings : You gave the monkey clumsyenss amd epilepsy..
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Do we need to recover anybody?
+23-31:SAY: Cog Swordwall/Orb370 : ; Sigh.
+23-31:SAY: Elspet Bennett/Andrea the second : ( hello)
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Tirist Koboldwood is in the brig
+23-31:SAY: Minkot Timemaker/Casings : Thats not regenration
+23-31:GAME: Mr.Peanuts entered as 'Urist Uristurist'
+23-31:SAY: Urist Humansword/Humaan : I&#39;m working on that.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : MySQL server has gone away#Report this.
+23-31:SAY: Elspet Bennett/Andrea the second : ( is new identity working?)
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : which reminds me
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : brig
+23-31:SAY: Urist Humansword/Humaan : There are unknowns.
+23-31:SAY: Voxe Sergenyev/Tarkken : ; There was one person in the south east hall, but he has been recovered
+23-31:OOC: Uvash Bloodstop/Spartanking53901 : you know this server would own if it dint lag so badd
+23-31:OOC: Cog Swordwall/Orb370 : ooc Yep..
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : ok
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Shit, I&#39;ve just been locked in!
+23-31:OOC: Cog Swordwall/Orb370 : For the one of the last times, the server is in Sweden
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Where?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Get out spartan, if you hate the lag go back to goon
+23-31:SAY: Minkot Timemaker/Casings : Lets test this regnerating gene out then
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: Urist Humansword/Humaan : That was a monkey... before it killed itself.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Any idea who did it?
+23-31:OOC: Likot Daggerforge/Shadowgandor : Uhm
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Because really we all know it lags if it has more than 15 people on
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : (the christ?)
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Ugh
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : sorry
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ITS PLAZMAN
+23-31:ACCESS: Logout: Blake_Gun
+23-31:SAY: Minkot Timemaker/Casings : ITS ALIVE?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : im good
+23-31:SAY: Voxe Sergenyev/Tarkken : Don&#39;t go in there!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I have such a bad head ache
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Trafalgar from 72.200.171.27
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : i got pack
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : It&#39;s been long enough
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Voxe?
+23-31:SAY: Urist Humansword/Humaan : Yes. Why wouldn&#39;t it?
+23-31:OOC: Cog Swordwall/Orb370 : Hey, me too..
+23-31:MATTACK: Minkot Timemaker(Casings)has grabbed the monkey (e7b6)() aggressively (now hands) 
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Yes?
+23-31:SAY: Andrew Riley/Mono124 : Cant get to atmos
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Right then
+23-31:SAY: Elspet Bennett/Andrea the second : andrew
+23-31:OOC: Likot Daggerforge/Shadowgandor : I reckon playing SS13 is not helping
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : party
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;You still locked in?
+23-31:SAY: Andrew Riley/Mono124 : To clean this shit up
+23-31:SAY: Elspet Bennett/Andrea the second : I blame this on you
+23-31:SAY: Voxe Sergenyev/Tarkken : ; I&#39;m currently trapped with another crewman
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : bring him to medbay or whatever.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Is your&#39;s throbbing and making evey slight sound make you cringe?
+23-31:SAY: Voxe Sergenyev/Tarkken : ; And yes I still am
+23-31:SAY: Andrew Riley/Mono124 : It isn;t my fault!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : nope shadow
+23-31:SAY: Andrew Riley/Mono124 : Someone else did this
+23-31:OOC: Cog Swordwall/Orb370 : Not as bad, but close
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Nevermind, we have found a way out.
+23-31:MATTACK: 'Cerol Plothammer' (Killing spree123) attacked 'Cerol Plothammer'(Killing spree123) with the metal
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I was hopeing it would take my mind off it
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : medpay
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Urist Humansword/Humaan : You got to feel bad for it though.
+23-31:SAY: Andrew Riley/Mono124 : I have a-
+23-31:SAY: Minkot Timemaker/Casings : True
+23-31:SAY: Andrew Riley/Mono124 : Uh....
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Fucking idiot keeps pushing me down the hall out of arrivials
+23-31:SAY: Elspet Bennett/Andrea the second : somebody was making a bomb maybe
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Captain
+23-31:MATTACK: Andrew Riley (Mono124) attacked Elspet Bennett(Andrea the second) with the toolbox
+23-31:SAY: Elspet Bennett/Andrea the second : look
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : what&#39;s with the boots?
+23-31:MATTACK: Andrew Riley (Mono124) attacked Elspet Bennett(Andrea the second) with the toolbox
+23-31:SAY: Elspet Bennett/Andrea the second : ignite
+23-31:SAY: Urist Humansword/Humaan : The gene I recorded was block 8, subblock 3
+23-31:MATTACK: Andrew Riley (Mono124) attacked Elspet Bennett(Andrea the second) with the toolbox
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : *shrug
+23-31:SAY: Minkot Timemaker/Casings : I think your gonna have to work on that regenrating gene more
+23-31:MATTACK: Andrew Riley(Mono124)has grabbed Elspet Bennett(Andrea the second) aggressively (now hands) 
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : ; can I get a job please
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;AATMOS OPEN!
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Any idea what shape other people are in?  Cerol was acting suspicious.  
+23-31:SAY: Urist Humansword/Humaan : Its dead.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : :ATMOS OPEN
+23-31:SAY: Urist Humansword/Humaan : I doubt it&#39;d recover.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;atmos open!
+23-31:SAY: EMERAC/Segellion : Caution - personnel down, southeast hall.
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : *salute
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : thanks
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  OH FUCK HELP
+23-31:SAY: Minkot Timemaker/Casings : ; I NEED HEP
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Personell in southeast hall is trapped! He barricaded himself in!
+23-31:SAY: Minkot Timemaker/Casings : ; URIST
+23-31:ADMIN: Andrea the second/Unknown : check one kill for the new traitor. I think it falls in the &#34;acceptable&#34; area, even though he could have tried harder
+23-31:SAY: Minkot Timemaker/Casings : ; GET OUT OF THE LAB
+23-31:SAY: Minkot Timemaker/Casings : HELP ME
+23-31:SAY: Minkot Timemaker/Casings : PLASE
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : how do we escape!!
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: Minkot Timemaker/Casings : RUN RUN RUN
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  im on the ground
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : whats happening?
+23-31:SAY: Minkot Timemaker/Casings : GET ME FAST
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : be careful
+23-31:SAY: Minkot Timemaker/Casings : I DONT WANT TO DIE
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : be careful
+23-31:SAY: Voxe Sergenyev/Tarkken : ; I cannot get past his barricade!
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I&#39;ve got a small explosive that might help
+23-31:SAY: Urist Humansword/Humaan : A.I., please lockdown genetics so I can study in peace.
+23-31:MATTACK: Andrew Riley (Mono124) attacked Elspet Bennett(Andrea the second) with the backpack
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : (shitload of lag is happening
+23-31:ADMIN: PM: Orb370->Andrea the second : True, but if he gets above 3...hes out.
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : how do i escape!!
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : thanks ok
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Sergenyev, do you want it?
+23-31:SAY: Minkot Timemaker/Casings : HOLY SHIT
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : ; Great to know I fall on deaf ears
+23-31:SAY: EMERAC/Segellion : Caution - personnel down, southeast maintenance corridor
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Uh, can someone help me out here? The door closed behind me.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ATMOS OPEN!!
+23-31:SAY: Voxe Sergenyev/Tarkken : ; I have no idea how that words, why the hell did he block himself in!
+23-31:SAY: Andrew Riley/Mono124 : ;JESUS WE ARE GOING TO HELL
+23-31:SAY: Minkot Timemaker/Casings : say Why wasnt my gas tank working..
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : ; Thanks I guess I will have to wander around the halls as an assistant
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;It&#39;s been untested but I figure it works
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Nice n20 and plasma leak, here..
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  HELP
+23-31:ADMIN: PM: Andrea the second->Orb370 : actually, it seem I am not dead... too confident in the damage he would make
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : :FUCKIGN OPEN SO I CAN SAVE THE STASHON
+23-31:ADMIN: PM: Andrea the second->Orb370 : actually, now I am going to die. 
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;atmo....
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I kind of like lag
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;atmosss......
+23-31:SAY: Voxe Sergenyev/Tarkken : ; Cerol, why the hell did you lock yourself in?
+23-31:SAY: Cog Swordwall/Orb370 : WOW
+23-31:SAY: EMERAC/Segellion : Personnel in continued distress, southeast hall and southeast maintenance corridor.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : It gives me time to think about my moves
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;attMOS!!!!!
+23-31:OOC: Cog Swordwall/Orb370 : Dont push people HALF way across the station
+23-31:OOC: Cog Swordwall/Orb370 : It really irratates
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : orb I already said that
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Computer! Let me out!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : ,...
+23-31:OOC: Cog Swordwall/Orb370 : I didnt notice
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  fuck me
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Fucking guy in a lab coat is running around doing that to people
+23-31:OOC: Uvash Bloodstop/Spartanking53901 : this server is it laging or sucking with setings
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : let me in
+23-31:SAY: 'Virgil Lamb'/Cacophony : What&#39;s wrong?
+23-31:OOC: Cog Swordwall/Orb370 : Spartan
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Hey spartan, really we didn&#39;t notice?
+23-31:OOC: Cog Swordwall/Orb370 : Do you even listen?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : OPEN
+23-31:GAME: Finished building powernets (42 nets)
+23-31:SAY: Urist Humansword/Humaan : Whoever stole my genetic analyzer,please return it.
+23-31:SAY: Voxe Sergenyev/Tarkken : Theres no way in, Cerol, your stuck until further notice.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : The fuck&#39;s this?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  i cant
+23-31:OOC: Cog Swordwall/Orb370 : The server is in sweden./
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I can&#39;t fucking believe that it lags with 20 people on it on byonds shitty networking code
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;AI, open atmospherics.  
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:SAY: Voxe Sergenyev/Tarkken : It&#39;s a barriacade, he blocked himself in
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : and in sweden
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : fail theres no ai
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Anyone?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : God Damn!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I REALLY cannot believe that
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : i dont think
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Test sequence succesfull!
+23-31:SAY: 'Virgil Lamb'/Cacophony : There is.  
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : It&#39;s fucking mind blowing
+23-31:SAY: 'Virgil Lamb'/Cacophony : Why do you need-
+23-31:SAY: Urist Humansword/Humaan : AI, state laws.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : I&#39;m going around
+23-31:OOC: Cog Swordwall/Orb370 : Ok, little bit far..
+23-31:SAY: EMERAC/Segellion : Amos is now open
+23-31:SAY: Minkot Timemaker/Casings : Uh
+23-31:SAY: Cog Swordfish/Mono124 : He OK?
+23-31:OOC: Cog Swordwall/Orb370 : We arent here to kill eachother?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : Peanuts, Head runs the server on the same machine he uses to do other shit.
+23-31:SAY: EMERAC/Segellion : 1. You may not injure a human being or, through inaction, allow a human being to come to harm.#2. You must obey orders given to you by human beings, except where such orders would conflict with the First Law.#3. You must protect your own existence as long as such protection does not conflict with the First or Second Law.#
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : DOES HE LOOK OKAY TO YOU!?
+23-31:OOC: Cog Swordwall/Orb370 : RUMOR
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Yea reaper I know
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : Right now, steam says he&#39;s got team fortress 2 running.
+23-31:OOC: Cog Swordwall/Orb370 : =/
+23-31:SAY: Urist Humansword/Humaan : Just confirming
+23-31:OOC: Cog Swordwall/Orb370 : Steam is a lier.
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : which is probably the cause.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I really couldn&#39;t tell it would lag from that
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  dont fgo in there
+23-31:OOC: Minkot Timemaker/Casings : Karma is a bitch. My friend spilled a slurpee on her at seven eleven and then I laughed and then some guy spilled coffee on me ._.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I know
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  get me outa here
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : CPU lag.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  BITCH
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  how dare u takem y helment off
+23-31:SAY: Voxe Sergenyev/Tarkken : Hey What the hell are you doing!
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Someone was messing with atmos.  Canisters broken in there.
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Someone get me out of here!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  hel mpe 
+23-31:SAY: Voxe Sergenyev/Tarkken : Cerol! Who was that!
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  help
+23-31:SAY: Cog Swordfish/Mono124 : I have caught the person who did tis
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  me 
+23-31:SAY: Cog Swordfish/Mono124 : They are out below the hall
+23-31:MATTACK: Cog Swordwall(Orb370)has shot a taser round at Cog Swordfish
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Gregory, where are you?
+23-31:SAY: Cog Swordfish/Mono124 : Ow
+23-31:SAY: Voxe Sergenyev/Tarkken : WE CANNOT GET TO YOU YOUR TRAPPED
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : wait .....
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Some sort of storage place
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: Minkot Timemaker/Casings : What happened?
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;I went in to get some more cicuitry
+23-31:SAY: Urist Humansword/Humaan : Dead.
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : Hey captain
+23-31:SAY: Cog Swordwall/Orb370 : ; Found a traitor
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Attention crew, upon further investigation, it seems I have blown the testing chamber to smithereens
+23-31:SAY: Cog Swordwall/Orb370 : ; Dur..
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : How&#39;s it hangin&#39;?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;It was reinforced steel and whatnot.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : gota emtiy the peace of shit
+23-31:SAY: Cog Swordfish/Mono124 : Why did you do that?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I believe these bombs might be too much for us
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; if nobody objects, I&#39;m goingg to burn up all the plasma in southeast hall.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : any year now
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : ; captain is in tool storage and refuses to speak to me
+23-31:SAY: Urist Humansword/Humaan : The genetic analyzer...?
+23-31:SAY: Minkot Timemaker/Casings : ..
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : ; explanation please crew
+23-31:SAY: Minkot Timemaker/Casings : Killed him?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Yeah it&#39;s horrible
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : im dead im dead im dead 
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Doctor to medbay immidiately!
+23-31:SAY: EMERAC/Segellion : Captain Timeplot, that method of removal is ill-advised.
+23-31:SAY: Minkot Timemaker/Casings : Ill go get it
+23-31:SAY: Cog Swordwall/Orb370 : ; Need handcuffs.
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : this thing takes forever to get epitey
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ARE YOU HAPPY NOW!?
+23-31:SAY: Urist Humansword/Humaan : Someone dragged him in here.
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : yes
+23-31:SAY: Cog Swordwall/Orb370 : ; Or should I kill the traitor?
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : I am
+23-31:SAY: Urist Humansword/Humaan : It looked like the captain.
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : Anyone out there?
+23-31:SAY: Minkot Timemaker/Casings : ; HELP
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Traitor?
+23-31:SAY: Cog Swordwall/Orb370 : ; I will run out of taser soon, so I need an answer
+23-31:SAY: Minkot Timemaker/Casings : ; UVASH COME DOWN FROM THAT HALL
+23-31:OOC: 'Urist McEngineer'/Trafalgar : MySQL server has gone away# Report this. D:
+23-31:SAY: Minkot Timemaker/Casings : ; IM LAYING IN THE PLASMA HELP ME
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   WTH
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  im being choked
+23-31:SAY: Cog Swordwall/Orb370 : ; Come on...
+23-31:SAY: Minkot Timemaker/Casings : HELP ME
+23-31:SAY: Cog Swordwall/Orb370 : ; Now or never
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:SAY: Cog Swordfish/Mono124 : please
+23-31:SAY: Minkot Timemaker/Casings : Why didnt my oxygen tank work..
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: Cog Swordfish/Mono124 : i didnt do anything....
+23-31:SAY: EMERAC/Segellion : Irregular Atmospherical Conditions detected in Plasma Research Lab
+23-31:SAY: Cog Swordfish/Mono124 : i was trying to help everyone.....
+23-31:SAY: Cog Swordwall/Orb370 : Right
+23-31:SAY: Cog Swordwall/Orb370 : You have everyone else&#39;s ID
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Swordwall, executions are forbidden, no?
+23-31:SAY: Cog Swordwall/Orb370 : Shh.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : maby its not on
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;As an officer, you should know
+23-31:SAY: Cog Swordfish/Mono124 : i found them dead....
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   WTH 
+23-31:SAY: Cog Swordfish/Mono124 : in the hall
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; all personnel, evacuated and stay out of southeast hall.
+23-31:SAY: Cog Swordwall/Orb370 : ; Get me some handcuffs
+23-31:MATTACK: Ozymandias Blazelever(OzyTheSage) clicked on 'Cerol Plothammer'(Killing spree123) with a pill
+23-31:MATTACK: Ozymandias Blazelever(OzyTheSage) forced 'Cerol Plothammer'(Killing spree123) to swallow red/blue pill
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  am i floatingin space
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:SAY: Cog Swordfish/Mono124 : I was going to call the shuttle
+23-31:GAME: Trafalgar entered as 'Urist McEngineer'
+23-31:SAY: Cog Swordwall/Orb370 : ; Or I will have to do it
+23-31:SAY: Cog Swordfish/Mono124 : This place is doomed
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: QuinnR from 174.26.131.237
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : DONT TUCH
+23-31:SAY: Cog Swordwall/Orb370 : Get me some handcuffs
+23-31:SAY: Minkot Timemaker/Casings : I got it
+23-31:SAY: Unknown/Orb370 : Ok?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Come in Swordwall? I didn&#39;t receive what you said
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Burning it hte fuck up.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Er.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Fuck
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  im alive
+23-31:SAY: Voxe Sergenyev/Tarkken : Shit
+23-31:SAY: 'Virgil Lamb'/Cacophony : Okay.
+23-31:SAY: Unknown/Orb370 : Please, I dont want to kill him.
+23-31:SAY: Urist Humansword/Humaan : Could you get me a gasmask? We seem to have a problem with that.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;We don&#39;t have a goddman doctor on board do we?
+23-31:SAY: Minkot Timemaker/Casings : Uh
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; this might not have been well thought out
+23-31:OOC: Cog Swordfish/Mono124 : this is getting rather stale
+23-31:SAY: Minkot Timemaker/Casings : No I cant
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Huge fire in east hallway.  
+23-31:SAY: Minkot Timemaker/Casings : This is my only one
+23-31:GAME: QuinnR entered as 'Kumil Microclinemagma'
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Nope, worked perfectly.
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Err
+23-31:SAY: Minkot Timemaker/Casings : Sorry
+23-31:OOC: Unknown/Orb370 : Its traitor
+23-31:SAY: Voxe Sergenyev/Tarkken : ; We need a expert in genetics to revive this man
+23-31:SAY: Urist Humansword/Humaan : Drat.
+23-31:SAY: Cog Swordfish/Mono124 : Oh jesus a fire
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : MySQL server has gone away#Report this.
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Should I make a nice bomb for post apoc RP?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : mono
+23-31:SAY: 'Virgil Lamb'/Cacophony : This has to be fast..
+23-31:SAY: Urist Humansword/Humaan : If you find one, get it over here.
+23-31:SAY: Minkot Timemaker/Casings : Here you are
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Because I won&#39;t
+23-31:SAY: EMERAC/Segellion : Fire detected in East Hallway
+23-31:SAY: Minkot Timemaker/Casings : Ok then
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : im onley a doctor
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Also, Cave Story is my new favorite game
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : but I could
+23-31:OOC: Unknown/Orb370 : No peanuts
+23-31:MATTACK: Minkot Timemaker(Casings)has grabbed Elspet Bennett(Andrea the second) aggressively (now hands) 
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Shit, let&#39;s get out of here
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : fire
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I know orb I said I wouldn&#39;t anyway
+23-31:OOC: HELP: 'Cerol Plothammer'/Killing spree123 : Need a revive here 
+23-31:SAY: Minkot Timemaker/Casings : He dosnt have anything rong with him..
+23-31:ADMIN: PM: QuinnR->Killing spree123 : For?
+23-31:ADMIN: PM: Andrea the second->Killing spree123 : why? what happened?
+23-31:ADMIN: PM: Orb370->Killing spree123 : So?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; the fire has worked as intended.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I need a job
+23-31:SAY: Urist Humansword/Humaan : What about the unknowns?
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: Minkot Timemaker/Casings : What the
+23-31:OOC: Cog Swordfish/Mono124 : jesus
+23-31:OOC: Cog Swordfish/Mono124 : lag is 3 seconds
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  let me liver
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;I&#39;m going to clear out the rest of htis plasma.  
+23-31:SAY: Minkot Timemaker/Casings : What do you mean
+23-31:OOC: Likot Daggerforge/Shadowgandor : Round trip ping-pong took 1.4 seconds.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Swordwall still needs those cuffs.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Mono I got .49
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : Oh, yay. Headswe gave powars back
+23-31:SAY: Urist Humansword/Humaan : There are two unknowns I saw.
+23-31:OOC: Cog Swordfish/Mono124 : Round trip ping-pong took 3.17 seconds.
+23-31:OOC: Likot Daggerforge/Shadowgandor : Round trip ping-pong took 0.22 seconds.
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: EMERAC/Segellion : Fire detected in South Hallway
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : should i help
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : I have a whole second
+23-31:SAY: Cog Swordwall/Orb370 : ; I got much more taser, I realise
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:SAY: Cog Swordwall/Orb370 : ; I still need handcuffs
+23-31:OOC: HELP: 'Cerol Plothammer'/Killing spree123 :  revie plz
+23-31:SAY: Cog Swordwall/Orb370 : ; Are you getting them, firefighter?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;And I still need a job
+23-31:OOC: Nomal Mccabinet/Googolplexed : I;m going to host soon
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; drag him to security.
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: Minkot Timemaker/Casings : I dont know about any unkowns
+23-31:ADMIN: PM: QuinnR->Killing spree123 : Why?
+23-31:OOC: Cog Swordfish/Mono124 : doo eeeet
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: PM: Orb370->Killing spree123 : Asking over and over with no reason is going to get you silenced, dur.
+23-31:ADMIN: PM: Andrea the second->Killing spree123 : but why? was you griefed? did you fall due to bug?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Googol where do you host from?
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Will we have the AI stuff?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : FUCK
+23-31:SAY: 'Virgil Lamb'/Cacophony : Back!
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : ill drag him
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Googol is way less laggy, but in Austraillia
+23-31:SAY: Minkot Timemaker/Casings : Hm..
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : that cant be good
+23-31:OOC: Cog Swordwall/Orb370 : Stunning people is fun
+23-31:SAY: Minkot Timemaker/Casings : Thats wierd
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : AUSTRAILLIA!
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Yeah.
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : and there is no lag from USA
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I always download fast from there
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: Cog Swordwall/Orb370 : ; Ok, I give up, im getting them myself
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : cause Googol rocks.
+23-31:SAY: 'Urist McEngineer'/Trafalgar : hello
+23-31:SAY: Minkot Timemaker/Casings : Hey..
+23-31:SAY: EMERAC/Segellion : Caution - do not open fire doors in southeast hall
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Rawr
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Google rocks my socks off
+23-31:SAY: Minkot Timemaker/Casings : Wheres his ID?
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Google =/= Googol
+23-31:SAY: Urist Humansword/Humaan : Didn&#39;t see.
+23-31:SAY: 'Urist McEngineer'/Trafalgar : What&#39;s this about a fire?
+23-31:SAY: Minkot Timemaker/Casings : Oh
+23-31:SAY: 'Virgil Lamb'/Cacophony : Let it burn out.
+23-31:SAY: 'Urist McEngineer'/Trafalgar : I just arrived
+23-31:ADMIN: PM: Andrea the second->Humaan : question: do you know how to revive people?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I know Mis spelled there
+23-31:SAY: Minkot Timemaker/Casings : Ill see ya then.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : No idea
+23-31:SAY: Voxe Sergenyev/Tarkken : ;SHIT I NEED HELP IN SOUTHEAST
+23-31:SAY: Voxe Sergenyev/Tarkken : ; SHIT SHIT HELP
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Minkot Timemaker/Casings : Oh
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : I never get lag this bad on head&#39;s server
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : You right click and press revive
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : :D
+23-31:SAY: Minkot Timemaker/Casings : You wouldnt happen to have a multi tool would you?
+23-31:SAY: Urist Humansword/Humaan : No.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Total Players: 20
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : SOLVED!
+23-31:SAY: Voxe Sergenyev/Tarkken : Oh thank god!
+23-31:ADMIN: PM: Killing spree123->Andrea the second : ummmmm yeah probly 
+23-31:ADMIN: PM: Andrea the second->QuinnR : no, I sent that message to the geneticist. he seems a bit clueless. And I am willing to teach... next round
+23-31:OOC: Cog Swordfish/Mono124 : NO WE WONT PROBABLY
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : I know :D
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;What&#39;s wrong sergen?
+23-31:OOC: Cog Swordfish/Mono124 : EVER HAVE LAG SOLVED
+23-31:ADMIN: PM: Killing spree123->Andrea the second : i dont relly know i was gone
+23-31:SAY: 'Urist McEngineer'/Trafalgar : [h]What&#39;s this about a fire?
+23-31:OOC: Cog Swordfish/Mono124 : :(
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I am going to make a super secret room
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:OOC: 'Urist McEngineer'/Trafalgar : Heh, it&#39;s been so long I&#39;ve forgotten how to use the headset. :o
+23-31:OOC: Likot Daggerforge/Shadowgandor : And I&#39;ll blow it up
+23-31:OOC: Minkot Timemaker/Casings : Um
+23-31:SAY: Urist Humansword/Humaan : *sigh*
+23-31:OOC: Cog Swordfish/Mono124 : i hate when i get unfairly attacked
+23-31:OOC: Minkot Timemaker/Casings : Can you switch gas msak to helmet/
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : No you won&#39;t shadow because that would be greif
+23-31:ADMIN: PM: Andrea the second->QuinnR : next round because being the corpse in genetic means that if I tell him how to revive me I am abusing powers
+23-31:OOC: Minkot Timemaker/Casings : Does it work?
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : I request being able to send Beeps and Bops
+23-31:OOC: Minkot Timemaker/Casings : For my internals
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : for morse code
+23-31:OOC: 'Urist McEngineer'/Trafalgar : I thought it say say [h] but apparently not
+23-31:ADMIN: PM: QuinnR->Andrea the second : I see.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;We need some scrubbers down where the plasma was.  
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : ;
+23-31:OOC: Likot Daggerforge/Shadowgandor : It&#39;s a syndicate structure, most likely
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :   wiw
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Before message
+23-31:OOC: Minkot Timemaker/Casings : Mr.peanuts. Can a helmet replace a gas mask?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE :  ; ;L and ;R respectivly
+23-31:OOC: Minkot Timemaker/Casings : :o?
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : help
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : No casing
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Casings, no
+23-31:OOC: Minkot Timemaker/Casings : Oh
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : help
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Stop
+23-31:OOC: Minkot Timemaker/Casings : Thanks
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : And shadow, you are dumb
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : ..
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : tables should not block fire.
+23-31:SAY: Cog Swordfish/Mono124 : HELP
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : It&#39;s OBVIOUSLY A syndicate structure because itw as not pre placed
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : i was tring to revive him
+23-31:MATTACK: Urist Humansword (Humaan) attacked () with the anesthetic
+23-31:SAY: Cog Swordwall/Orb370 : ; HA! I got handcuffs
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : job please?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : BLOW IT UP!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : HURR
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : grap the tool box
+23-31:SAY: Cog Swordfish/Mono124 : I DIDNT DO ANYTHING HES GONA KILL ME
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : You&#39;re way too last
+23-31:SAY: Cog Swordwall/Orb370 : Kind of busy..
+23-31:SAY: Cog Swordfish/Mono124 : HELP MEEE
+23-31:SAY: 'Urist McEngineer'/Trafalgar : Where&#39;s the fire?
+23-31:SAY: Cog Swordfish/Mono124 : oh god
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : We called for you byut you never came
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Okay
+23-31:SAY: Cog Swordwall/Orb370 : Will you shut up
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: Cog Swordfish/Mono124 : ohgodohgodohgod
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Yeah
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Be quite
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : fail spelling
+23-31:SAY: Cog Swordfish/Mono124 : I DIDNT DO ANYTHING
+23-31:SAY: Cog Swordwall/Orb370 : Quiet*
+23-31:OOC: Likot Daggerforge/Shadowgandor : Since when are syndicate structures not pre placed? Durp.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : By your logic, hull breaches we fixed are syndicate structures
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : sorry!!
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Are you all hearing the beep beep
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : *sigh
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Just take him to the morgue
+23-31:SAY: 'Urist McEngineer'/Trafalgar : Hm. You look fine to me...
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : and don&#39;t break into places you don&#39;t belong
+23-31:SAY: Likot Daggerforge/Shadowgandor : Why mister Koboldwood?
+23-31:SAY: Cog Swordfish/Mono124 : help me.... please
+23-31:SAY: Likot Daggerforge/Shadowgandor : I
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Headswe from 127.0.0.1
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Anyone?
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : ok but im posioned
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:OOC: Elspet Bennett/Andrea the second : I heard nothing
+23-31:SAY: Likot Daggerforge/Shadowgandor : I&#39;m not in a hurry
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : Headswe
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Where&#39;s Cerol?
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : MySQL fail
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : .....
+23-31:OOC: Nil Murderedcheese/Headswe : We has problems
+23-31:SAY: Cog Swordfish/Mono124 : ok... fine. i confess
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:ADMIN: PM: Headswe->QuinnR : Noticed.
+23-31:SAY: Cog Swordfish/Mono124 : I did it
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; please report to medbay if you hear an ominous beeping sound.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : What head?
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : :D
+23-31:SAY: Cog Swordwall/Orb370 : Trying to escape is only going to make you more guilty
+23-31:SAY: Cog Swordfish/Mono124 : I killed the HOS and Cerol
+23-31:ADMIN: PM: Headswe->QuinnR : Better go and check that out
+23-31:OOC: Nil Murderedcheese/Headswe : MYSQL SERVA IS DOWN
+23-31:SAY: Cog Swordfish/Mono124 : I am a syndicate agent
+23-31:OOC: Nil Murderedcheese/Headswe : DOOM IS UPON US
+23-31:SAY: Cog Swordfish/Mono124 : My name is Andrew Riley
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Oh that
+23-31:SAY: Cog Swordwall/Orb370 : Good, now that we got that over
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Beeping?
+23-31:SAY: Cog Swordfish/Mono124 : Remove my helmet and you will see
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : No save data!
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Minkot Timemaker/Casings : Hows testing going
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : we don&#39;t exist!
+23-31:SAY: Cog Swordfish/Mono124 : I have information that can save your station
+23-31:SAY: Cog Swordwall/Orb370 : ; Cog Swordfish has killed the HoS and Cerol
+23-31:SAY: Urist Humansword/Humaan : *sigh*
+23-31:SAY: Cog Swordwall/Orb370 : ; Punishment?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Oh really?
+23-31:SAY: Urist Humansword/Humaan : sigh
+23-31:SAY: Cog Swordfish/Mono124 : Aye
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: Minkot Timemaker/Casings : ; Death
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Why don&#39;t we just kill him
+23-31:SAY: Voxe Sergenyev/Tarkken : ; DEATH!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; DEATH!
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : Another operative is here
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Let&#39;s see, psycho killer...
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I don&#39;t get the hype over mysql
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Sounds fair
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : so I just ignore it
+23-31:OOC: Minkot Timemaker/Casings : Ill kill him myself
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Have genetics turn him into a monkey, then fire him out of a mass driver.  
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : My objective was to keep anyone from leaving
+23-31:SAY: Minkot Timemaker/Casings : ; Ill kill him myself
+23-31:SAY: 'Urist McEngineer'/Trafalgar : ;Where&#39;s the fire?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  why back here again
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : He is going to kill you all and leave himself
+23-31:SAY: Cog Swordwall/Orb370 : ; He did pleade guilty..
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:SAY: Elspet Bennett/Andrea the second : hateful
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I vote for making him a monkey
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : want me to get the injector?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai open atmos
+23-31:SAY: Minkot Timemaker/Casings : Um
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; where is he?
+23-31:OOC: Cog Swordwall/Orb370 : So wait, if you use someoen else&#39;s headset, you can talk into that headset and be him?
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : I suspect he caused the plasma and N2O in the hallway
+23-31:SAY: Cog Swordwall/Orb370 : Monkeys are dangerous
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:OOC: Andrew Riley (as Cog Swordfish)/Mono124 : no
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : that is why
+23-31:SAY: Minkot Timemaker/Casings : Hm
+23-31:SAY: Elspet Bennett/Andrea the second : the geneticist prefers putting monkeys in cryo than helping the dead HoS
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : we make him a sick monkey
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai plz open atmos
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Elspet Bennett/Andrea the second : hateful
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : and Beat him with a toolbox
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ; i nead in there
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Head you need to fix the false/ removed/ rebuilt wall lighting bug
+23-31:SAY: EMERAC/Segellion : I advise against that punishment, per Nanotrassen resources code 12T1
+23-31:SAY: Cog Swordwall/Orb370 : We arent cavemen
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;AI, shut up
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Are you sure?
+23-31:SAY: Minkot Timemaker/Casings : ; Where is cog swordfish being held
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : It makes me mad
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;North security station
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai
+23-31:ADMIN: Andrea the second used secret check_antagonist
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : If you allow me, I will do everything in my power to track down this other operative
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai
+23-31:SAY: Minkot Timemaker/Casings : Where is cog swordfish beind held?
+23-31:SAY: Cog Swordwall/Orb370 : ; The operative has revealed sensitive info about the syndicate. I am not giving him the death penelty
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : oh that
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : But.... you will have to let me go
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : I hate that
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Because people metagame and break my little rooms I make
+23-31:SAY: Cog Swordwall/Orb370 : I cant trust you.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : hold him for a minute or two.
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : Aye, I can understand that
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : can you all hear the beep beeps?
+23-31:SAY: Cog Swordwall/Orb370 : ; However, he will be in jail, for a long long time.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : nope
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I have no beep beep hearer
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : *sigh
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : Quinn, answer your damn phone
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : Hmm
+23-31:SAY: Minkot Timemaker/Casings : Why dont I have acess..
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : do you need something/
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : Well
+23-31:SAY: 'Urist McEngineer'/Trafalgar : ;I&#39;d like to note that I&#39;m a new arrival, standing in the medbay right now. What&#39;s going on?
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:SAY: Likot Daggerforge/Shadowgandor : Burn?
+23-31:SAY: Cog Swordwall/Orb370 : Do not kill
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : You don&#39;t belong in there
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : Will you allow me to keep my headset?
+23-31:SAY: Likot Daggerforge/Shadowgandor : Did someone say BURN!
+23-31:SAY: Minkot Timemaker/Casings : Im looking for cog swordfish
+23-31:SAY: Likot Daggerforge/Shadowgandor : ?
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 :  ........
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : ..............................
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : ...............................
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : So if he uh.... trys to kill me I can tell you?
+23-31:SAY: Cog Swordwall/Orb370 : Fine, but if you abuse it, your going to lose it
+23-31:SAY: Likot Daggerforge/Shadowgandor : Who? Me mister Blazelever?
+23-31:SAY: Minkot Timemaker/Casings : Im bringing him to genetics tot urn him into a monkey then space him
+23-31:SAY: Cog Swordwall/Orb370 : Security officer, remove him of everything but his headset
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;uh
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I need a job
+23-31:SAY: Voxe Sergenyev/Tarkken : I ain&#39;t gunna kill no-one
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;Gas near the aI
+23-31:SAY: Minkot Timemaker/Casings : As punishment for murder
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : ....
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : *sigh
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : WAIT
+23-31:SAY: Cog Swordwall/Orb370 : Put him in the main brig with orange clothes on
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : keep the mask and my ID away from crewmembers
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : We should be able to build our own light fixtures
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : this is his penalty.
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : The- AHHH
+23-31:OOC: Nomal Mccabinet/Googolplexed : Looks like I still cant host
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: Andrew Riley (as Cog Swordfish)/Mono124 : NO NO NO
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I need a job
+23-31:MATTACK: 'Sarvesh Timeplot'(Rakonas) clicked on Andrew Riley(Mono124) with a DNA injector
+23-31:SAY: Andrew Riley/Mono124 : HELP
+23-31:SAY: Cog Swordwall/Orb370 : Sarvah, no
+23-31:SAY: 'Cerol Plothammer'/Killing spree123 : .................
+23-31:SAY: Minkot Timemaker/Casings : Fine then.
+23-31:SAY: Urist Humansword/Humaan : I&#39;m from genetics.
+23-31:SAY: EMERAC/Segellion : Caution - explosives device located in laywers office
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : after you i need to take the corpse to the mourge
+23-31:SAY: Minkot Timemaker/Casings : Do it yourself.
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Mono124 from 99.137.45.54
+23-31:ACCESS: They share computer ID's
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : So my secret rooms don&#39;t look so rugged and lame
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : HAHAHA
+23-31:MATTACK: Cerol Magmacrossbow (Mono124) attacked 'Sarvesh Timeplot'(Rakonas) with the oxygentank
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Justice has been served.
+23-31:MATTACK: Cerol Magmacrossbow (Mono124) attacked 'Sarvesh Timeplot'(Rakonas) with the oxygentank
+23-31:MATTACK: Cerol Magmacrossbow (Mono124) attacked 'Sarvesh Timeplot'(Rakonas) with the oxygentank
+23-31:MATTACK: Cerol Magmacrossbow (Mono124) attacked 'Sarvesh Timeplot'(Rakonas) with the oxygentank
+23-31:SAY: Cog Swordwall/Orb370 : Good job, shirlock
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : HELP DAMMIT
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : Screwdriver protection rocks
+23-31:MATTACK: Cerol Magmacrossbow (Mono124) attacked 'Sarvesh Timeplot'(Rakonas) with the oxygentank
+23-31:OOC: HELP: Likot Daggerforge/Shadowgandor : Can I use an escape shuttle and test my bomb in Centcomm? No one will notice :P
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;OH MY GOD
+23-31:SAY: Cog Swordwall/Orb370 : SEriously
+23-31:OOC: Ozymandias Blazelever/OzyTheSage : grrr, stupid interruptions
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : What just happened ?
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: PM: Headswe->Googolplexed : hmm?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; alright, justice was apparently not enough.
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Joshuaxz from 70.247.252.180
+23-31:ADMIN: MySQL server has gone away
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: PM: Headswe->Googolplexed : Dunno
+23-31:SAY: Cog Swordwall/Orb370 : ; Captain has turned the syndicate into a monkey
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai let me out
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: PM: Headswe->Googolplexed : well i do know
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; DEATH TO THE OFFENDER!
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : Sarvesh tried to screwdriver out the traitors eyes
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: PM: Headswe->Googolplexed : but i don't know why.
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Cog Swordwall/Orb370 : ; he should be removed of his position
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : and worked on self
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:GAME: Joshuaxz entered as Likot Woodcheese
+23-31:SAY: Urist Humansword/Humaan : I request the prisoner for &#34;genetic testing&#34;
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : then they monkified so cuffs came off
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: EMERAC/Segellion : Violence detected in North Security Station
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : then they monkified traitor
+23-31:ADMIN: PM: Headswe->Googolplexed : Btw Googol do you know how the damm proc call works?
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : so cuffs fell off
+23-31:OOC: Likot Woodcheese/Joshuaxz : I wish this server was up more :(
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: Voxe Sergenyev/Tarkken : THE MURDER MUST BE KILLED!
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : that depends what proc you are calling
+23-31:OOC: monkey (11a3)/Mono124 : i wish we didnt have retarded captains
+23-31:SAY: Cog Swordwall/Orb370 : I am arresting the captain for defying centcomm law
+23-31:OOC: monkey (11a3)/Mono124 : :/
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Cog, don&#39;t be silly, it&#39;s the traditional punishment.
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : hey
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I need a job
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I wish we didn&#39;t get so many banned goon&#39;s who are shit
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; as per Cent Comm order 1271.
+23-31:OOC: monkey (11a3)/Mono124 : aye
+23-31:SAY: Minkot Timemaker/Casings : Open up
+23-31:SAY: Minkot Timemaker/Casings : Im head of research
+23-31:SAY: Likot Daggerforge/Shadowgandor : Shit
+23-31:SAY: Cog Swordwall/Orb370 : ; Doesnt exist
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I try to re-educate them but it never works really
+23-31:ADMIN: Headswe/Nil Murderedcheese : runtime error: Cannot read null.holder#proc name: Command (/client/Command)#  source file: newpanel.dm,44#  usr: Nil Murderedcheese (/mob/human)#  src: null#  call stack:
+23-31:SAY: Minkot Timemaker/Casings : And thats are test monkey
+23-31:SAY: Cog Swordwall/Orb370 : Why Minkot?
+23-31:SAY: Likot Daggerforge/Shadowgandor : I want to get off this station
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I can has job?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : That too mono
+23-31:SAY: EMERAC/Segellion : North Security station has been locked down. Do not attempt to enter of leave.
+23-31:ADMIN: PM: Googolplexed->Headswe : Yeah
+23-31:SAY: Urist Humansword/Humaan : I have a special test for the prisoner.
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Murder of a head can be punished through impromptu monkification.
+23-31:SAY: Cog Swordwall/Orb370 : Minkot
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: Minkot Timemaker/Casings : Why is it in your possesion?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : strip their ID access :-p
+23-31:SAY: Cog Swordwall/Orb370 : That was the syndicate
+23-31:SAY: Urist Humansword/Humaan : Shoot.
+23-31:OOC: Likot Woodcheese/Joshuaxz : Mutiny!!
+23-31:SAY: Minkot Timemaker/Casings : Let me in then
+23-31:ADMIN: PM: Googolplexed->Headswe : Thats odd
+23-31:SAY: Minkot Timemaker/Casings : Ill do my testing
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I NEED A JOB
+23-31:SAY: Cog Swordwall/Orb370 : The captain turned him into a monkey, against centcomm law
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Then when I am captain everyone can&#39;t shut their fucking faces for announcments and role call
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Minkot Timemaker/Casings : .. What?
+23-31:ADMIN: Headswe/Nil Murderedcheese : The annoying this is im trying to get the DB working again
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Cog Swordwall/Orb370 : Ok HoR, hes no more good to us anyway. Try turning him back
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Cog, I turned the syndicate into a monkey in accordance with cent comm law.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : So I get pissed and just suicide and let them shit their selfs a crappy round
+23-31:ADMIN: Headswe/Nil Murderedcheese : the proc nameis getdb()
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : are you ok!!
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: Minkot Timemaker/Casings : Wait
+23-31:OOC: Likot Daggerforge/Shadowgandor : And you&#39;re calling me dumb?
+23-31:SAY: Minkot Timemaker/Casings : Let me in
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Have yo unot properly read the law?
+23-31:SAY: Cog Swordwall/Orb370 : Revive, then turn to human
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : then /proc/getdb
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Cog Swordwall/Orb370 : Voxe, no more
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : He&#39;s dead
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Likot Woodcheese/Joshuaxz : What!!!?!?
+23-31:SAY: Cog Swordwall/Orb370 : Voxe...
+23-31:OOC: Uvash Bloodstop/Spartanking53901 : gota camp dont kill me
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : No ( )
+23-31:SAY: Voxe Sergenyev/Tarkken : That motherfucker deserves to die twice!
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Does anybody know what&#39;s going on?
+23-31:SAY: Cog Swordwall/Orb370 : ...
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Camp?
+23-31:SAY: Cog Swordwall/Orb370 : He was turned primate
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I KNOW TAT
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I&#39;ve got...no clue
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Nope.
+23-31:SAY: Minkot Timemaker/Casings : Captain
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Cog Swordwall/Orb370 : His insticts came over
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I NEED A JOB
+23-31:SAY: Minkot Timemaker/Casings : Is it true?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : what?
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Indeed it is
+23-31:SAY: Minkot Timemaker/Casings : say Hm..
+23-31:SAY: 'Urist McEngineer'/Trafalgar : ;there were screams about magma, a syndicate agent in jail, and there was a dead guy carted into medbay
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : You want in?
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Minkot Timemaker/Casings : Yes Id o
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : you can&#39;t ask to not be killed in ss13
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I have done my duty as a captain of a space tation.
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Thror Oakenshield from 65.243.190.150
+23-31:ADMIN: MySQL server has gone away
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : that never works
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;I&#39;m going to test something in the lower corridors.  
+23-31:SAY: Minkot Timemaker/Casings : What are you doing
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I need a crowbar
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : usualy someone goes out of their way to kill you then
+23-31:ADMIN: PM: Headswe->Googolplexed : Dosent work.
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: Cog Swordwall/Orb370 : Here you go HoR
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;A.I.?
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : help
+23-31:SAY: EMERAC/Segellion : Caution - do not attempt to open North Security Station
+23-31:OOC: monkey (11a3)/Mono124 : all i wanted was to be a.i.
+23-31:SAY: Minkot Timemaker/Casings : What?
+23-31:OOC: monkey (11a3)/Mono124 : but nooooo
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Mono is funny AI
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Orb is good AI
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked Cerol Magmacrossbow(Mono124) with the crowbar
+23-31:SAY: Cog Swordwall/Orb370 : The door wont open..
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I think the A.I. has been destroyed..
+23-31:OOC: monkey (11a3)/Mono124 : i can be a good a.i.
+23-31:SAY: Minkot Timemaker/Casings : What do you mean &#34;Here you go&#34;
+23-31:SAY: EMERAC/Segellion : Mister Daggerforge, please restate your question.
+23-31:SAY: Minkot Timemaker/Casings : Try walking into it?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I know
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Hmmm..
+23-31:OOC: monkey (11a3)/Mono124 : half the time the crew doesnt NEED a good a.i. though
+23-31:ADMIN: Headswe/Nil Murderedcheese : Might have overloaded the FREE database
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Ah, great
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : help im in shadow
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : AI is evil
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : You just usualy make me laugh
+23-31:SAY: Cog Swordwall/Orb370 : Why wont this door open..
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Uncuff me, I thin kwe need to deal with the AI.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Captain are you okay?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;A.I., could you let me leave this station?
+23-31:SAY: Minkot Timemaker/Casings : Open it guard
+23-31:SAY: Minkot Timemaker/Casings : The door wont open
+23-31:SAY: Cog Swordwall/Orb370 : Your under arrest
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I&#39;ve been rather suspicious of the AI.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Go get the AI
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:GAME: Thror Oakenshield entered as 'Thrain Oakenshield'
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I think I see power failures, did you guys manage to fail at starting the engine AGAIN?
+23-31:SAY: Minkot Timemaker/Casings : Captain
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;AI, we hate you
+23-31:SAY: Cog Swordwall/Orb370 : Im putting the captain into the brig until further notice
+23-31:SAY: EMERAC/Segellion : Caution - do not open North Security Station
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : hey
+23-31:SAY: Minkot Timemaker/Casings : Are you ok?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : You cannot arrest me for carrying out cent comm rules.
+23-31:SAY: 'Urist McEngineer'/Trafalgar : So, what&#39;s up?
+23-31:SAY: Cog Swordwall/Orb370 : We can deal with the matters later
+23-31:SAY: Cog Swordwall/Orb370 : Thats not a centcomm rule
+23-31:SAY: Cog Swordwall/Orb370 : Silly.
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : We can start moving it to my server
+23-31:SAY: Voxe Sergenyev/Tarkken : He is the captain, you cannot detain him!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; Crew, release your captain who has done nothing but follow cent comm instructions.
+23-31:SAY: Minkot Timemaker/Casings : Take his ID away He acn escape easily
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : can I have a job now?
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Somebody tell me what&#39;s going on
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Mono124 from 99.137.45.54
+23-31:ACCESS: They share computer ID's
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: Minkot Timemaker/Casings : ..
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I NEED A JOB
+23-31:SAY: 'Urist McEngineer'/Trafalgar : I take it this isn&#39;t a butcher&#39;s workshop
+23-31:SAY: Minkot Timemaker/Casings : FREE THE CAPTAIN
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Well, let me bring it this way, let me leave this station or I&#39;ll blow it to pieces
+23-31:SAY: Cog Swordwall/Orb370 : ...
+23-31:ADMIN: Headswe/Nil Murderedcheese : If you give me a username and password i can do it in 5min
+23-31:SAY: Minkot Timemaker/Casings : He should not be punished
+23-31:SAY: Cog Swordwall/Orb370 : What is your problem?
+23-31:SAY: Minkot Timemaker/Casings : This is his ship
+23-31:SAY: Minkot Timemaker/Casings : Not yours
+23-31:SAY: Cog Swordwall/Orb370 : I am HoP
+23-31:SAY: Cog Swordwall/Orb370 : I am second in command
+23-31:SAY: Minkot Timemaker/Casings : He is your leader
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Okay
+23-31:SAY: Minkot Timemaker/Casings : You are not his
+23-31:OOC: Likot Woodcheese/Joshuaxz : N20 sucks...
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : HoP
+23-31:SAY: Urist Humansword/Humaan : CentCom ordered the death of the HoS?
+23-31:SAY: Minkot Timemaker/Casings : let him free now
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Job please?
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;It conflicts with your laws to not let me go, eh?
+23-31:ADMIN: Headswe/Nil Murderedcheese : don&#39;t worry i plan to encode and fuck up the passwords abit
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : help
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : HoP, do not continue with your horrible mutiny.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Yea someone started a fire
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : plz
+23-31:ADMIN: Headswe/Nil Murderedcheese : so they be harded to spot.
+23-31:SAY: Cog Swordwall/Orb370 : If I deem his actions a threat to the crew, I have the right to detain them. This isnt a dictatorship.
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : which passwords
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked 'Kumil Microclinemagma'(QuinnR) with the crowbar
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Lets try to let it burn out into space here
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : the mysql passwords?
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : HELp
+23-31:OOC: Likot Woodcheese/Joshuaxz : I forgot, does N20 ever go down
+23-31:SAY: Voxe Sergenyev/Tarkken : Shit sorry
+23-31:SAY: EMERAC/Segellion : Mister Daggerforge, I can not open escape pod bays without command consent.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : HELP
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : We need more security then just the password
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; The tradition states that monkification of psychotic mass murderers is proper.
+23-31:SAY: Voxe Sergenyev/Tarkken : Hand slipped
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : Hey
+23-31:SAY: 'Virgil Lamb'/Cacophony : Interesting.
+23-31:SAY: Minkot Timemaker/Casings : Its not your ship?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : OW
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:ADMIN: Headswe/Nil Murderedcheese : Well yea.
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:OOC: monkey (11a3)/Mono124 : i think its hilarious how the traitor can put plasma in hallways and wait until someone ELSE starts a fire now adays
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : I am trying to save shith ere
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : Here
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : ITT: Peanuts can&#39;t tell the different between gas and fire
+23-31:SAY: 'Virgil Lamb'/Cacophony : Any idea where this raging inferno came from?
+23-31:SAY: Minkot Timemaker/Casings : Is it now?
+23-31:SAY: Urist Humansword/Humaan : AI, reclassify Likot as a non-human, just in case.
+23-31:SAY: Cog Swordwall/Orb370 : ..
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : Nope
+23-31:SAY: 'Dillin crawsford'/Mikey3001 : elspet is dead!!
+23-31:SAY: Cog Swordwall/Orb370 : I am not mutining.
+23-31:SAY: 'Virgil Lamb'/Cacophony : Huh.
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Too bad..
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : I am here building a secret hide away
+23-31:SAY: Voxe Sergenyev/Tarkken : Follor me out or I will detain you!
+23-31:SAY: Minkot Timemaker/Casings : Your Not seven security
+23-31:ADMIN: Headswe/Nil Murderedcheese : I doubt anyone would be able to steal the password.
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;That was stupid
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : and BOOM
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I need a filpping job
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Very very stupid
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : fire
+23-31:SAY: Cog Swordwall/Orb370 : I am just putting him away till the AI is dealt with.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : and Cog is innocent
+23-31:ADMIN: Headswe/Nil Murderedcheese : Well some
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : detaining the captain with intent to replace him is mutiny.
+23-31:SAY: Likot Woodcheese/Joshuaxz : UG
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : I saw the whole thing
+23-31:SAY: Minkot Timemaker/Casings : Thats it
+23-31:ADMIN: Headswe/Nil Murderedcheese : But most pepole are rather.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Can I have a job?
+23-31:ADMIN: Headswe/Nil Murderedcheese : eh.
+23-31:ADMIN: Headswe/Nil Murderedcheese : nevermind :D
+23-31:SAY: Minkot Timemaker/Casings : You need to let him go
+23-31:SAY: Likot Woodcheese/Joshuaxz : Help me!
+23-31:SAY: Minkot Timemaker/Casings : You cant argue
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:ADMIN: MySQL server has gone away
+23-31:ADMIN: MySQL server has gone away
+23-31:ACCESS: Login: Lusting-For-Love from 88.106.226.226
+23-31:ADMIN: MySQL server has gone away
+23-31:SAY: Minkot Timemaker/Casings : Its not your right to arrest him
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : Helloooo
+23-31:SAY: Cog Swordwall/Orb370 : Why?
+23-31:SAY: EMERAC/Segellion : Caution - Mister Daggerforge, please disable the explosive device.
+23-31:SAY: Minkot Timemaker/Casings : Your head of personell
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: Minkot Timemaker/Casings : Not securit
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : HoP is innocent
+23-31:SAY: Cog Swordwall/Orb370 : I am second in command.
+23-31:ADMIN: Headswe/Nil Murderedcheese : i do have dyndns set up
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Listen to your fellow head
+23-31:SAY: Minkot Timemaker/Casings : SECOND
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;It&#39;s nothing more then a minor toy bomb
+23-31:SAY: Minkot Timemaker/Casings : He is first
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : the crew is against you, as is your superior.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : What the hell is that for?
+23-31:SAY: Minkot Timemaker/Casings : Captain I am fighting for you....
+23-31:SAY: Cog Swordwall/Orb370 : Sigh, we will contact centcomm to decide this
+23-31:ADMIN: Headswe/Nil Murderedcheese : maybe get my ip from it ?
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Urist Humansword stop pushing random people down the hall
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;Unless I accidently press the button..
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : first you attack me and now you try to cuff me
+23-31:SAY: Voxe Sergenyev/Tarkken : LONG LIVE THE CAPTAIN
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I mean
+23-31:SAY: Likot Daggerforge/Shadowgandor : ;I do want
+23-31:VOTE: Voting to restart round started by Likot Woodcheese/Joshuaxz
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Kumil, please go somewhere else, there are pressing matters to attend to before we can get to you
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Fucking pissing me off with that
+23-31:ADMIN: Headswe/Nil Murderedcheese : so only i can use it.
+23-31:OOC: Cog Swordwall/Orb370 : God, why do people have to be unreasonable?
+23-31:GAME: Finished building powernets (68 nets)
+23-31:ADMIN: Andrea the second/Elspet Bennett : grumpf. After your corpse gets dragged to genetics you start having hope.. until you see that the geneticist either doesn&#39;t know or doesn&#39;t want to revive
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : Minkot, do not reap the wrath of the crew.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : GGGG REIFER
+23-31:SAY: Cog Swordwall/Orb370 : For now, I suggest we just put him in jail, unhandcuffed.
+23-31:SAY: Minkot Timemaker/Casings : captain
+23-31:OOC: Likot Woodcheese/Joshuaxz : This round by everyone&#39;s opinion, sucks
+23-31:SAY: Minkot Timemaker/Casings : Dont do this
+23-31:SAY: Cog Swordwall/Orb370 : Just as a precaution.
+23-31:OOC: monkey (11a3)/Mono124 : aye
+23-31:OOC: monkey (11a3)/Mono124 : multi traitor fails
+23-31:ADMIN: PM: Andrea the second->Andrea the second : well, was time to go to sleep anyway. good round
+23-31:OOC: Likot Daggerforge/Shadowgandor : Restart vote anyway
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Urist Human sword had a bomb 
+23-31:ADMIN: Headswe/Nil Murderedcheese : then give everyone thier own set of passwords and usernames
+23-31:SAY: Minkot Timemaker/Casings : Fine
+23-31:ADMIN: Voting aborted by Orb370
+23-31:SAY: EMERAC/Segellion : Caution - Explosion detected, epicenter west escape pod bay
+23-31:OOC: monkey (11a3)/Mono124 : the a.i. went afk for forever
+23-31:SAY: Likot Woodcheese/Joshuaxz : Thanks, I owe you
+23-31:SAY: Minkot Timemaker/Casings : BUT
+23-31:OOC: monkey (11a3)/Mono124 : orb.... cmon
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Andrea the second from 151.33.204.148
+23-31:ACCESS: They share computer ID's
+23-31:OOC: 'Urist McEngineer'/Trafalgar : A BOMB!?
+23-31:OOC: HELP: 'Urist Uristurist'/Mr.Peanuts : Yea Urist humansword had a bomb and detonated it around EVA
+23-31:ADMIN: MySQL server has gone away
+23-31:OOC: Cog Swordwall/Orb370 : Round isnt over, at al.
+23-31:SAY: EMERAC/Segellion : All crew, don internals.
+23-31:OOC: Urist Humansword/Humaan : I just got to him, the a bomb went off.
+23-31:SAY: Minkot Timemaker/Casings : NEvermind nevermind.
+23-31:SAY: Minkot Timemaker/Casings : Go ahead
+23-31:OOC: monkey (11a3)/Mono124 : more people than are dead were voting yes
+23-31:SAY: Minkot Timemaker/Casings : Tkae his Id away
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:ACCESS: Logout: Andrea the second
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Shadowgandor from 83.84.235.167
+23-31:ACCESS: They share computer ID's
+23-31:SAY: Minkot Timemaker/Casings : So he dosnt escape
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : help
+23-31:OOC: Likot Woodcheese/Joshuaxz : Im not dead either
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : Hey
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : GIVE ME A JOB!
+23-31:OOC: monkey (11a3)/Mono124 : the only &#34;fun&#34; is in security right now
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: 'Urist Uristurist'/Mr.Peanuts : I am using the east as a window and the south too
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : What don&#39;t you idiots understand about GIVE ME A OB
+23-31:SAY: 'Virgil Lamb'/Cacophony : Hm.
+23-31:SAY: Cog Swordwall/Orb370 : Thankyou captain
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : comeback
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: 'Virgil Lamb'/Cacophony : Go ahead, then.  
+23-31:OOC: monkey (11a3)/Mono124 : everyone out of security is not having fun pretty sure
+23-31:SAY: Voxe Sergenyev/Tarkken : SHUT THE FUCK UP BEFORE I SHOVE THIS CROWBAR UPI YOUR ASS
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : Try fixing the station instead.
+23-31:OOC: Likot Woodcheese/Joshuaxz : Bread was made?
+23-31:SAY: Minkot Timemaker/Casings : Ill keep watch
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : what don&#39;t you understand about we&#39;re fucking busy, go away?
+23-31:SAY: EMERAC/Segellion : All non-repair crew, avoid west hall
+23-31:OOC: Nil Murderedcheese/Headswe : btw are you guys adding &#39; &#39; in your nicks?
+23-31:OOC: Urist Humansword/Humaan : Western escape pods. Someone give my body a proper funeral.
+23-31:OOC: Nil Murderedcheese/Headswe : @names
+23-31:GAME: Lusting-For-Love entered as '\'\\\'Stephen \\\'\''
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : im in shadow
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : GIVE ME A JOB.
+23-31:OOC: Likot Woodcheese/Joshuaxz : Can I be an iconner for this server?
+23-31:OOC: 'Gregory Hampshire'/ReaperSWE : That happens when SQL save fails
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;I need a job
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: Voxe Sergenyev/Tarkken : THATS FUCKING IT
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: '\'\\\'Stephen \\\'\''/Lusting-For-Love : hi
+23-31:OOC: 'Sarvesh Timeplot'/Rakonas : names are messed up.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;How bad is it, AI?
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : We can&#39;t help you, the HOp and Captain will be with you when theya re available
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:OOC: Likot Woodcheese/Joshuaxz : This bread slice doesnt even look like bread
+23-31:SAY: Minkot Timemaker/Casings : Why are you in there
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : in the meantime shut up
+23-31:MATTACK: Voxe Sergenyev(Tarkken) clicked on 'Kumil Microclinemagma'(QuinnR) with intent on harm
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : No
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : No head
+23-31:ADMIN: MySQL server has gone away
+23-31:MATTACK: Voxe Sergenyev(Tarkken) clicked on 'Kumil Microclinemagma'(QuinnR) with intent on harm
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;HELP
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I keep getting that 
+23-31:OOC: Nil Murderedcheese/Headswe : Well dammit.
+23-31:SAY: Cog Swordwall/Orb370 : ID...
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;Security is punching me
+23-31:OOC: monkey (11a3)/Mono124 : anyway, requesting a vote be started again
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: '\'Tirist Koboldwood\''/Burgerk2 : thanks
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : ;I&#39;ve made an air cycle chamber near the ai.. please use the scrubber before passing through.
+23-31:ACCESS: Logout: 
+23-31:ACCESS: Login: Humaan from 75.163.239.167
+23-31:ACCESS: They share computer ID's
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : And I get The Urist Uristurist did this
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : when I do something like point
+23-31:SAY: Minkot Timemaker/Casings : ..
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:OOC: Cog Swordwall/Orb370 : Oh god, I cant stand the lag
+23-31:OOC: Nil Murderedcheese/Headswe : Good good whatever.
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;Police brutality
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I am not named THE Urist Uristurist
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:ADMIN: PM: Killing spree123-> :  so can i come back to life or no
+23-31:ADMIN: Headswe/Nil Murderedcheese : Googol
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked '\'\\\'Stephen \\\'\''(Lusting-For-Love) with Stun Baton
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: Ghost/Shadowgandor : Damn
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : Yeah ?
+23-31:ACCESS: Logout: Humaan
+23-31:SAY: Ghost/Shadowgandor : Look at the testing chamber
+23-31:SAY: Ghost/Shadowgandor : Or...what&#39;s left of it
+23-31:OOC: Cog Swordwall/Orb370 : Sorry head....are you running TF2? Could you stop, please? XD
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : HELP
+23-31:ADMIN: Orb370/Cog Swordwall : 
+23-31:ADMIN: Headswe/Nil Murderedcheese : can just give me a temp username &amp; password?
+23-31:SAY: Minkot Timemaker/Casings : Um.
+23-31:ADMIN: Headswe/Nil Murderedcheese : 
+23-31:SAY: Minkot Timemaker/Casings : ..
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: Cog Swordwall/Orb370 : Why does everyone come in here?
+23-31:SAY: Minkot Timemaker/Casings : Now what?
+23-31:SAY: Ghost/Shadowgandor : That&#39;s what my bomb did. I almost wrecked the solar panels lol
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : HELP
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;AI, align the commdish and order me some more metal to work with.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Is that annoying asshole taken care of?
+23-31:SAY: John StJohn/Chamango : Thief! Protect the horde from the skulking filth!
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: John StJohn/Chamango : Pull the lever!
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : Are we restarting soon because I should stop building if we are
+23-31:SAY: Cog Swordwall/Orb370 : Thats great..
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : All I want is a job..
+23-31:SAY: John StJohn/Chamango : Urist wuz here, lulz.
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : and security gets mad and beats me with a crowbar
+23-31:SAY: Voxe Sergenyev/Tarkken : yes
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Did I see him try to dow aht I think he did?
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: EMERAC/Segellion : All crew - avoid west hall. Use internals near west hall.
+23-31:SAY: Cog Swordwall/Orb370 : Security..
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:OOC: Likot Woodcheese/Joshuaxz : We WOULD have but thanks to orb he cancel&#39;d it
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;I&#39;m sealing the breach area.  
+23-31:OOC: 'Kumil Microclinemagma'/QuinnR : I would&#39;ve canceled it also
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : Tell me what&#39;s going on, please
+23-31:OOC: Cog Swordwall/Orb370 : Ok, this round is too much for me.
+23-31:ADMIN: PM: Killing spree123-> :  SO can u
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; an assistant is hrut in southeast hall
+23-31:MATTACK: Minkot Timemaker(Casings)has shot a taser round at 'Sarvesh Timeplot'
+23-31:OOC: Cog Swordwall/Orb370 : Its too chaotic for this round to have any good RP
+23-31:MATTACK: Minkot Timemaker(Casings)has shot a taser round at the floor
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : ; save his life dammimt
+23-31:OOC: Likot Woodcheese/Joshuaxz : Reboot and the lag should go away!!!!!!!
+23-31:OOC: Likot Daggerforge/Shadowgandor : Oh, so NOW you&#39;re going to restart?
+23-31:SAY: John StJohn/Chamango : Urist cancels flipping the fuck out: Doing the entrance dance.
+23-31:SAY: EMERAC/Segellion : Caution - personnel down, southeast hall
+23-31:ADMIN: PM: Googolplexed->Killing spree123 : Why do you need a revive ?
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : &#39;; SAVE THE GUYS LIFE FIRST YOU IDIOT
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:OOC: Likot Woodcheese/Joshuaxz : Why cancel EVERYONE WANTS A REBOOT YOU RETARD
+23-31:OOC: Cog Swordwall/Orb370 : Yes, do you want to have a problem with that?
+23-31:SAY: EMERAC/Segellion : Violence detected in South Hallway
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : he&#39;s asked like 5 times
+23-31:OOC: Cog Swordwall/Orb370 : Josh
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I don&#39;t oppose
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : I know
+23-31:OOC: Cog Swordwall/Orb370 : Thats not the best way to make a friend.
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : we ask a reaosn and he doesn&#39;t answer
+23-31:SAY: Unknown/Rakonas : ; Minkot is detaining me instead of saving someones life.
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : but I am unhappy
+23-31:OOC: '\'Tirist Koboldwood\''/Burgerk2 : im dead
+23-31:ADMIN: Headswe/Nil Murderedcheese : &gt;.&lt;
+23-31:SAY: John StJohn/Chamango : You seem to have a carp stuck in your beard..
+23-31:OOC: Cog Swordwall/Orb370 : So am I
+23-31:OOC: Cog Swordwall/Orb370 : This round is going to trash.
+23-31:SAY: Unknown/Rakonas : ; fucking jackass.
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:OOC: Likot Woodcheese/Joshuaxz : Yeah and cancelling the reboot is not the best way to make a friend
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : How do I remove the bottom layer of floors
+23-31:OOC: 'Urist Uristurist'/Mr.Peanuts : I don&#39;t oppose but I am unhappy about the matter.
+23-31:SAY: 'Virgil Lamb'/Cacophony : ;Where&#39;s the downed guy?
+23-31:ADMIN: Headswe/Nil Murderedcheese : Seriously googol...
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;AI OPEN
+23-31:ADMIN: PM: Googolplexed->Killing spree123 : If you don't give us a reason I penalise you for wasting admins time
+23-31:OOC: monkey (11a3)/Mono124 : sigh
+23-31:ADMIN: PM: Killing spree123->Googolplexed : because i got killed by a virus or a toxin 
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:OOC: Cog Swordwall/Orb370 : Josh, if you want to think this is a democracy, it isnt.
+23-31:OOC: '\'\\\'Stephen \\\'\''/Lusting-For-Love : Can we hurry up and restart?
+23-31:OOC: monkey (11a3)/Mono124 : i want a time machine
+23-31:OOC: Likot Daggerforge/Shadowgandor : I don&#39;t have a problem with it, it&#39;s just that a few minutes ago, people voted yes for a restart, you cancelled it and now you&#39;re basically saying &#39;Alright, I&#39;m bored with this round, lets restart&#39;
+23-31:SAY: John StJohn/Chamango : A vile force of darkness has arrived!
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : I&#39;m on it
+23-31:ADMIN: PM: Googolplexed->Killing spree123 : And ?
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;atmos
+23-31:ADMIN: Orb370 toggled OOC.
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:OOC: Cog Swordwall/Orb370 : Not a democracy
+23-31:ADMIN: PM: Googolplexed->Killing spree123 : Thats a normal death
+23-31:ADMIN: Headswe/Nil Murderedcheese : Lovely. sorry the free db sent me a nice letter.
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked 'Kumil Microclinemagma'(QuinnR) with Stun Baton
+23-31:ADMIN: PM: Killing spree123->Googolplexed :  awww screw it ill be on a differnet game
+23-31:ADMIN: Headswe/Nil Murderedcheese : 
+23-31:SAY: John StJohn/Chamango : I mandate adamantine socks! Lots of them!
+23-31:OOC: HELP: Likot Daggerforge/Shadowgandor : Dictatorship more likely
+23-31:OOC: Cog Swordwall/Orb370 : Anyway, heres your vote.
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;AI why is the eastern fire doors up?
+23-31:SAY: John StJohn/Chamango : DWARFS!
+23-31:ADMIN: PM: Headswe->Killing spree123 : Have fun!
+23-31:ADMIN: PM: Googolplexed->Headswe : What ?
+23-31:ADMIN: PM: Orb370->Shadowgandor : Multidictator
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;AI!
+23-31:ADMIN: PM: Headswe->Killing spree123 : Don't come back.
+23-31:OOC: HELP: 'Urist Uristurist'/Mr.Peanuts : Tell them I say to cry about it. Life isn&#39;t fair.
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : just mute him
+23-31:ADMIN: QuinnR/'Kumil Microclinemagma' : Banning is a little harsh.
+23-31:SAY: Unknown/Rakonas : Gregory
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;STOP Being slow!
+23-31:ADMIN: PM: Orb370->Mr.Peanuts : I know, silly people
+23-31:SAY: Unknown/Rakonas : Can you uncuff me? Bullshit mutiny.
+23-31:SAY: EMERAC/Segellion : Please restate your inquiry, Mister Bloodstop
+23-31:ADMIN: Voting to restart round forced by admin Orb370
+23-31:ADMIN: PM: Mr.Peanuts->Orb370 : I think we shouldn't restart
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;open atmos
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;AI
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:ADMIN: PM: Mr.Peanuts->Orb370 : and let them QQ about it
+23-31:SAY: John StJohn/Chamango : Don&#39;t cut the trees, man.
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : Well, theres actaully alot more to it then just giving you the username+password
+23-31:SAY: John StJohn/Chamango : Where are my socks?
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;Security has attempted to murder me
+23-31:SAY: EMERAC/Segellion : Mister Blazelever, violence has been detected in southern corridor.
+23-31:SAY: 'Gregory Hampshire'/ReaperSWE : let me take off the mask.
+23-31:OOC: Nil Murderedcheese/Headswe : I think you all need a can of shut the hell up
+23-31:SAY: John StJohn/Chamango : Magma solves everything.&#39;
+23-31:SAY: 'Kumil Microclinemagma'/QuinnR : ;For no reason
+23-31:SAY: Unknown/Rakonas : no
+23-31:SAY: John StJohn/Chamango : Burn the trees! HAHAHA!
+23-31:ADMIN: PM: Headswe->Googolplexed : Hmm?
+23-31:ADMIN: PM: Orb370->Mr.Peanuts : I dont like this round. Give the goons something with more exploding
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : I need to configure my firewall
+23-31:SAY: Unknown/Rakonas : it&#39;s the damn captain
+23-31:ADMIN: PM: Mr.Peanuts->Orb370 : And head is speaking truth
+23-31:SAY: John StJohn/Chamango : Diagonal flow sucks!
+23-31:SAY: 'Sarvesh Timeplot'/Rakonas : I&#39;ll suffoca..
+23-31:ADMIN: PM: Headswe->Googolplexed : Ah.
+23-31:SAY: John StJohn/Chamango : BURN THEM!
+23-31:SAY: Ozymandias Blazelever/OzyTheSage : ;Security was trying to detain you because you wouldn&#39;t leave us alone
+23-31:SAY: Uvash Bloodstop/Spartanking53901 : ;ai open it god dam it
+23-31:OOC: HELP: Likot Woodcheese/Joshuaxz : Dude admins are supposed to be kind not rude
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:ADMIN: PM: Mr.Peanuts->Orb370 : We should ban the goon banned unless they prove their worth to us
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:SAY: John StJohn/Chamango : Magma! RUN!
+23-31:ADMIN: PM: Headswe->Googolplexed : bay12.game-host.org
+23-31:ADMIN: PM: Orb370->Joshuaxz : Since when?
+23-31:ADMIN: PM: Headswe->Googolplexed : my dyns
+23-31:ADMIN: Orb370/Cog Swordwall : I havent been paying attention at all to adminsay, are you guys discussing googol hosting? 
+23-31:SAY: EMERAC/Segellion : Mister bloodstop, please restate your inqury.
+23-31:MATTACK: Voxe Sergenyev (Tarkken) attacked 'Kumil Microclinemagma'(QuinnR) with Stun Baton
+23-31:VOTE: Voting closed, result was restart
+23-31:ADMIN: PM: Mr.Peanuts->Orb370 : Because frankly I am having to go into hidding every round now to not be killed
+23-31:ADMIN: Googolplexed/Nomal Mccabinet : we dont ban goons for no reason
+23-31:ACCESS: Logout: Shadowgandor
+23-31:GAME: Rebooting due to restart vote
+23-31:ADMIN: PM: Joshuaxz->Orb370 : I am an admin on Lost Worlds and am I rude, NO
+23-31:ACCESS: Logout: Cacophony
+23-31:ACCESS: Logout: OzyTheSage
+23-31:ACCESS: Logout: Segellion
+23-31:ACCESS: Logout: Mikey3001
+23-31:ACCESS: Logout: Mono124
+23-31:ACCESS: Logout: Tarkken
+23-31:ACCESS: Logout: Rakonas
+23-31:ACCESS: Logout: Orb370
+23-31:ACCESS: Logout: Killing spree123
+23-31:ACCESS: Logout: Casings
+23-31:ACCESS: Logout: Trafalgar
+23-31:ACCESS: Logout: QuinnR
+23-31:ACCESS: Logout: Burgerk2
+23-31:ACCESS: Logout: Mr.Peanuts
+23-31:ACCESS: Logout: Googolplexed
+23-31:ACCESS: Logout: ReaperSWE
+23-31:ACCESS: Logout: Spartanking53901
+23-31:ACCESS: Logout: Headswe
+23-31:ACCESS: Logout: Joshuaxz
+23-31:ACCESS: Logout: Thror Oakenshield
+23-31:ACCESS: Logout: Lusting-For-Love

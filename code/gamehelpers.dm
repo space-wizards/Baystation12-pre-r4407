@@ -212,7 +212,7 @@ var/zombie_genemask = 0
 			M << "\blue Your muscles hurt."
 			M.ishulk = 1
 			M.anchored = 1
-			M.unlock_medal("It's Not Easy Being Green", 1, "Become the hulk.", "medium")
+			M.unlock_medal("Its Not Easy Being Green", 1, "Become the hulk.", "medium")
 	if (isblockon(getblock(M.primarynew.struc_enzyme, HEADACHE,3),HEADACHE))
 		M.disabilities |= 2
 		M << "\red You get a headache."

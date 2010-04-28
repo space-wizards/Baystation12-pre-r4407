@@ -12,7 +12,10 @@
 		W:suffix = text("[][]", (user.equipped() == src ? "equipped " : ""), W:water)
 		user << "\blue Bucket filled"
 		return
-
+	else if (istype(W,/obj/item/weapon/food/waterbottle))
+		W:ammount = 5
+		W:updateicon()
+		user << "\blue Bottle refilled"
 /obj/watertank/ex_act(severity)
 	switch(severity)
 		if(1.0)

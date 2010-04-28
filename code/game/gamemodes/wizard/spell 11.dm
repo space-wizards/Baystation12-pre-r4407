@@ -22,7 +22,7 @@
 	usr.say("BIRUZ BENNAR")
 	usr << text("\blue You feel strong!")
 	usr.ishulk = 1
-	usr.unlock_medal("It's Not Easy Being Green", 1, "Become the hulk.", "medium")
+	usr.unlock_medal("Its Not Easy Being Green", 1, "Become the hulk.", "medium")
 	spawn (300)
 		usr.ishulk = 0
 	return

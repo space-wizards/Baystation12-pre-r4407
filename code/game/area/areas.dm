@@ -71,6 +71,10 @@
 	icon_state = "shutte"
 	music = ""
 
+/area/food_storage
+	requires_power = 1
+	name = "Food Storage"
+	icon_state = "green"
 // === Trying to remove these areas:
 
 /area/airtunnel1/      // referenced in airtunnel.dm:759

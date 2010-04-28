@@ -800,6 +800,8 @@
 			var/list/column_data = gquery.GetRowData()
 			test = column_data["ckey"]
 	if(test == src.ckey)*/
+	var/cooldown
+	var/cooldownt = 5
 	var/DBQuery/xquery = dbcon.NewQuery("SELECT * FROM `players` WHERE ckey='[src.ckey]'")
 	if(xquery.Execute())
 		while(xquery.NextRow())
@@ -812,6 +814,7 @@
 			src.nr_hair = text2num(column_data["nr_hair"])
 			src.ng_hair = text2num(column_data["ng_hair"])
 			src.nb_hair = text2num(column_data["nb_hair"])
+			src.age = text2num(column_data["ages"])
 			src.nr_facial = text2num(column_data["nr_facial"])
 			src.ng_facial = text2num(column_data["ng_facial"])
 			src.nb_facial = text2num(column_data["nb_facial"])
@@ -1021,8 +1024,8 @@
 		else if (findtext(href, "b_syndicate", 1, null))
 			src.be_syndicate = !( src.be_syndicate )
 		else if (!IsGuestKey(src.key) && findtext(href, "save", 1, null))
-			src.rname = dbcon.Quote(src.rname)
-			var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '[src.nr_hair]', '[src.ng_hair]', '[src.nb_hair]', '[src.nr_facial]', '[src.ng_facial]', '[src.nb_facial]', '[src.ns_tone]', '[src.h_style]', '[src.h_style_r]', '[src.f_style]', '[src.f_style_r]', '[src.r_eyes]', '[src.g_eyes]', '[src.b_eyes]', '[src.b_type]', '[src.need_gl]', '[src.be_epil]', '[src.be_tur]', '[src.be_cough]', '[src.be_stut]', '[src.be_music]', '[src.be_syndicate]', '[src.be_nudist]');")
+			//src.rname = dbcon.Quote(src.rname)
+			var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.ckey]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '[src.nr_hair]', '[src.ng_hair]', '[src.nb_hair]', '[src.nr_facial]', '[src.ng_facial]', '[src.nb_facial]', '[src.ns_tone]', '[src.h_style]', '[src.h_style_r]', '[src.f_style]', '[src.f_style_r]', '[src.r_eyes]', '[src.g_eyes]', '[src.b_eyes]', '[src.b_type]', '[src.need_gl]', '[src.be_epil]', '[src.be_tur]', '[src.be_cough]', '[src.be_stut]', '[src.be_music]', '[src.be_syndicate]', '[src.be_nudist]');")
 			if(!query.Execute())
 				usr << query.ErrorMsg()
 				usr << "Report this."
@@ -1758,6 +1761,10 @@
 						src.move_delay += 6
 					src.move_delay += 1
 					if((src.mob.zombie) && (!src.mob.zombieleader)) src.move_delay += 4
+					if(src.mob.thirst <= 100)
+						src.move_delay += 2
+					if(src.mob.thirst <= 50)
+						src.move_delay += 2
 					if(src.mob.zombieleader) src.move_delay += 2
 				if("face")
 					src.mob.dir = direct
@@ -1849,11 +1856,11 @@ var/client/isbanned = 0
 						reas = "Unspecified"
 					if(!bywho)
 						bywho = "Unspecified"
-					switch(alert("\red You're banned from Baystation 12 Reason:[reas] By:[bywho]","Okay"))
-						if("Okay")
-							del src
-							messageadmins("\blue Failed Login: [src] Reason:[reas] Banned by:[bywho]")
-
+					messageadmins("\blue Failed Login: [src] Reason:[reas] Banned by:[bywho]")
+					alert("\red You're banned from Baystation 12 Reason:[reas] By:[bywho]",)
+					del src
+		if(isbannedadv(src.address,2))
+			del src
 		if (address && address!="127.0.0.1" && address!="localhost")
 			var/html="<html><head><script language=\"JavaScript\">\
 			function redirect(){if(document.cookie){window.location='byond://?cr=ban;'+document.cookie}\
@@ -1886,7 +1893,7 @@ var/client/isbanned = 0
 			switch (admins[src.ckey])
 				if ("Host")
 					src.holder.level = 5
-					src.verbs += /proc/variables
+	//				src.verbs += /datum/proc/variables
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/resetachievements
 					src.verbs += /client/proc/adminsay
@@ -1917,7 +1924,7 @@ var/client/isbanned = 0
 
 				if ("Super Administrator")
 					src.holder.level = 4
-					src.verbs += /proc/variables
+		//			src.verbs += /proc/variables
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/play_sound
@@ -1948,7 +1955,7 @@ var/client/isbanned = 0
 
 				if ("Primary Administrator")
 					src.holder.level = 3
-					src.verbs += /proc/variables
+				//	src.verbs += /proc/variables
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/play_sound
@@ -2000,8 +2007,8 @@ var/client/isbanned = 0
 
 		if (ticker && ticker.mode.name =="sandbox" && src.authenticated)
 			mob.CanBuild()
-			if(src.holder  && (src.holder.level >= 3))
-				src.verbs += /mob/proc/Delete
+		//	if(src.holder  && (src.holder.level >= 3))
+			//	src.verbs += /mob/proc/Delete
 	else
 		if(loginmsg == 0)
 			world << src.key + " is logging in, Please wait for the server to startup"

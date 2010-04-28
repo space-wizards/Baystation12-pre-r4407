@@ -27,7 +27,6 @@
 		var/house = lowertext(src.rname)
 		if (house == "greg house" || "gregory house")
 			l_leg.broken = 1
-
 		src.organs["chest"] = chest
 		src.organs["diaper"] = diaper
 		src.organs["head"] = head
@@ -52,7 +51,7 @@
 		src.stand_icon = new /icon('human.dmi', "body_[g]_s")
 		src.lying_icon = new /icon('human.dmi', "body_[g]_l")
 		src.icon = src.stand_icon
-
+		src.hungertick()
 
 // Rebind a ghost to their mob
 		if(oldckey != null)
@@ -67,6 +66,28 @@
 	spawn( 0 )
 		if ((!( yes ) || src.now_pushing))
 			return
+		if(istype(AM, /mob/human))
+			for(var/mob/human/M in world)
+				src.group.Add(M)
+			if(AM:a_intent == "hurt")
+				if(!src.now_pushing)
+					src.now_pushing = 1
+					if (!AM.anchored)
+						var/t = get_dir(src, AM)
+						step(AM, t)
+					src.now_pushing = null
+					return
+			else if(src.a_intent == "hurt")
+				if(!src.now_pushing)
+					src.now_pushing = 1
+					if (!AM.anchored)
+						var/t = get_dir(src, AM)
+						step(AM, t)
+					src.now_pushing = null
+					return
+			else
+				return ..()
+
 		..()
 		if (!istype(AM, /atom/movable))
 			return

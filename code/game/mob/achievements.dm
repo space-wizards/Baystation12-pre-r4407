@@ -3,7 +3,7 @@
 	spawn ()
 		if (ismob(src) && src.key)
 			var/DBQuery/cquery = dbcon.NewQuery("SELECT `medal` FROM `medals` WHERE ckey='[src.ckey]'")
-			var/medal
+			var/list/medal
 			if(!cquery.Execute())
 				messageadmins(cquery.ErrorMsg())
 				world.log_admin(cquery.ErrorMsg())
@@ -11,8 +11,10 @@
 				while(cquery.NextRow())
 					var/list/column_data = cquery.GetRowData()
 					medal = column_data["medal"]
-			if(medal == title)
-				return
+			if(medal)
+				for(var/P in medal)
+					if(P == title)
+						return
 			var/DBQuery/xquery = dbcon.NewQuery("REPLACE INTO `medals` (`ckey`, `medal`, `medaldesc`, `medaldiff`) VALUES ('[src.ckey]', '[title]', '[desc]', '[diff]');")
 			if(!xquery.Execute())
 				messageadmins(xquery.ErrorMsg())
@@ -39,6 +41,10 @@ mob/verb/show_medal()
 	var/DBQuery/xquery = dbcon.NewQuery("SELECT `ckey` FROM `medals` WHERE ckey='[src.ckey]'")
 	var/DBQuery/gquery = dbcon.NewQuery("SELECT * FROM `medals` WHERE ckey='[src.ckey]'")
 	var/list/keys = list()
+	var/cooldown
+	var/cooldownt
+	if(cooldown)
+		src << "Spam protection [cooldownt] left"
 	if(xquery.Execute())
 		while(xquery.NextRow())
 			keys = xquery.GetRowData()
@@ -63,6 +69,15 @@ mob/verb/show_medal()
 						H = "red"
 				src << "<font color = [H]>[title]</font color></b></font>"
 				src << text("[desc]")
+			cooldown = 1
+			spawn(10)cooldownt--
+			spawn(10)cooldownt--
+			spawn(10)cooldownt-- // not very pretty i know.
+			spawn(10)cooldownt--
+			spawn(10)cooldownt--
+			if(cooldownt==0)
+				cooldown = 0
+
 	else
 		messageadmins(gquery.ErrorMsg())
 		world.log_admin(gquery.ErrorMsg())

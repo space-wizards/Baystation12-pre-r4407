@@ -5830,8 +5830,6 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 		W:water = 20
 		W:suffix = text("[][]", (user.equipped() == src ? "equipped " : ""), W:water)
 		user << "\blue Bucket filled"
-		return
-
 /obj/watertank/ex_act(severity)
 	switch(severity)
 		if(1.0)

@@ -4,6 +4,13 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+
+<P><B>Head's Changes (April 11th, 2010)</B></P>
+<li>Hungery & Thirst system</li>
+<li>Water Vending machines (click on them to use them)</li>
+<li>Walking in with someone with grab,disarm,help will change places with him unless he has a harm.</li>
+
+
 <P><B>Sukasa's Changes (April 11th, 2010)</B></P>
 <li>Ladders and multiple Z levels OMFG</li>
 <li>Shuttle fixes, should go to centcom more often now</li>

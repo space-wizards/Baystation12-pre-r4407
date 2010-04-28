@@ -4,18 +4,11 @@
 
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\atoms code\datums code\game code\game\admin code\game\area code\game\gamemodes\blob code\game\gamemodes\centcom code\game\gamemodes\extended code\game\gamemodes\malfunction code\game\gamemodes\meteor code\game\gamemodes\nuclear code\game\gamemodes\restructuring code\game\gamemodes\revolution code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\mob\observer code\game\objects code\game\objects\items code\game\objects\items\health code\game\objects\items\weapon code\game\objects\items\weapon\gun code\game\verbs code\game\verbs\admin maps Lib 
-FILE: code\game\mob\mob.dm
-LAST_COMPILE_TIME: 1271773639
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
 #define FILE_DIR "code"
+#define FILE_DIR "code/Aryn"
 #define FILE_DIR "code/atoms"
 #define FILE_DIR "code/datums"
 #define FILE_DIR "code/game"
@@ -38,6 +31,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "code/game/gamemodes/zombie"
 #define FILE_DIR "code/game/jobs"
 #define FILE_DIR "code/game/machinery"
+#define FILE_DIR "code/game/machinery/computernet"
 #define FILE_DIR "code/game/machinery/doors"
 #define FILE_DIR "code/game/machinery/pipe"
 #define FILE_DIR "code/game/mob"
@@ -125,7 +119,6 @@ AUTO_FILE_DIR: ON
 #include "code\atoms\turfs.dm"
 #include "code\datums\chemical.dm"
 #include "code\datums\configuration.dm"
-#include "code\datums\datumvars.dm"
 #include "code\datums\mixed.dm"
 #include "code\datums\modules.dm"
 #include "code\datums\sun.dm"
@@ -220,6 +213,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\supply_shuttle.dm"
 #include "code\game\machinery\teleporter.dm"
 #include "code\game\machinery\turrets.dm"
+#include "code\game\machinery\vendingmachine.dm"
 #include "code\game\machinery\doors\airlock.dm"
 #include "code\game\machinery\doors\checkForMultipleDoors.dm"
 #include "code\game\machinery\doors\door.dm"
@@ -232,6 +226,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\pipe\pipe_filter.dm"
 #include "code\game\machinery\pipe\pipe_items.dm"
 #include "code\game\mob\achievements.dm"
+#include "code\game\mob\hunger.dm"
 #include "code\game\mob\login.dm"
 #include "code\game\mob\logout.dm"
 #include "code\game\mob\mob.dm"
