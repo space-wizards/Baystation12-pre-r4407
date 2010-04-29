@@ -165,10 +165,12 @@ area/administrative/court/counsel
 	music = ""
 
 //Elevators
-area/elevators/centcom
-	name = "Centcom elevator"
+area/elevators
 	icon_state = "yellow"
+	sd_lighting = 0
 
+area/elevators/centcom
+	name = "Centcom Elevator"
 
 //Airlocks
 area/airlocks

@@ -4756,6 +4756,7 @@ obj/machinery/vendingmachine/soda
 	icon = 'lights.dmi'
 	icon_state = "fluorescent"
 	anchored = 1
+	luminosity = 0
 	var/open = 0
 	var/baselum = 6
 	var/bulbtype = "fluorescent"
