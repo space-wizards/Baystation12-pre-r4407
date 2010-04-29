@@ -781,7 +781,6 @@
 	if (defer_powernet_rebuild || powernets_building)
 		return
 	powernets_building = 1
-
 	var/netcount = 0
 	powernets = list()
 
