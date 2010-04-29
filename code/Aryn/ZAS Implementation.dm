@@ -65,7 +65,10 @@ turf/proc
 	temp(n)
 		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return T20C
 		if(zone)
-			if(n) zone.temp += n
+			if(n)
+				zone.temp += n
+				zone.temp = max(2.7,zone.temp)
+				//if(zone.speakmychild && n < 0) world << "Temperature -[abs(n)] - New Value [zone.temp]"
 			else return zone.temp
 
 obj/move/proc
@@ -150,7 +153,6 @@ obj/machinery/door/block_zoning = 1
 obj/machinery/door/poddoor/block_zoning = 1
 obj/machinery/door/firedoor/is_open = 1
 obj/shuttle/door/block_zoning = 1
-obj/shuttle/door/is_door = 1
 obj/move/wall/block_zoning = 1
 
 //turf/verb/Show_Zone()

@@ -7,9 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\machinery code\game\machinery\computernet code\game\mob code\game\objects code\game\objects\items code\game\objects\items\misc icons icons\ss13 maps 
-FILE: code\game\mob\mob.dm
-LAST_COMPILE_TIME: 1272528195
+DIR: code code\Aryn code\game code\game\gamemodes code\game\gamemodes\wizard code\game\machinery code\game\machinery\computernet code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects code\game\objects\items code\game\objects\items\misc code\game\objects\items\toolkit code\game\verbs code\game\verbs\admin icons icons\ss13 maps 
+FILE: code\game\machinery\doors\shuttledoor.dm
+LAST_COMPILE_TIME: 1272578976
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -52,6 +52,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/21"
 #define FILE_DIR ".git/objects/22"
 #define FILE_DIR ".git/objects/23"
+#define FILE_DIR ".git/objects/24"
 #define FILE_DIR ".git/objects/26"
 #define FILE_DIR ".git/objects/2a"
 #define FILE_DIR ".git/objects/2b"
@@ -159,6 +160,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/ac"
 #define FILE_DIR ".git/objects/ad"
 #define FILE_DIR ".git/objects/ae"
+#define FILE_DIR ".git/objects/af"
 #define FILE_DIR ".git/objects/b0"
 #define FILE_DIR ".git/objects/b1"
 #define FILE_DIR ".git/objects/b3"
@@ -193,6 +195,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/d3"
 #define FILE_DIR ".git/objects/d4"
 #define FILE_DIR ".git/objects/d5"
+#define FILE_DIR ".git/objects/d6"
 #define FILE_DIR ".git/objects/d7"
 #define FILE_DIR ".git/objects/d8"
 #define FILE_DIR ".git/objects/d9"
@@ -205,7 +208,9 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/e2"
 #define FILE_DIR ".git/objects/e4"
 #define FILE_DIR ".git/objects/e5"
+#define FILE_DIR ".git/objects/e6"
 #define FILE_DIR ".git/objects/e8"
+#define FILE_DIR ".git/objects/e9"
 #define FILE_DIR ".git/objects/ea"
 #define FILE_DIR ".git/objects/eb"
 #define FILE_DIR ".git/objects/ec"
