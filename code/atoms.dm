@@ -2763,6 +2763,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	weight = 100000
 	var/charge = 0	// note %age conveted to actual charge in New
 	var/maxcharge = 1000
+	var/buildstate = 0
 
 /obj/item/weapon/circuitry
 	name = "circuitry"
@@ -4857,6 +4858,7 @@ obj/machinery/vendingmachine/soda
 	var/list/datum/computernet/connectednets = list()
 	var/list/datum/computernet/disconnectednets = list()
 	req_access_txt = "103"
+	var/datum/computernet/wirelessnet = null
 
 /obj/machinery/mailserver
 	name = "Mail Server"

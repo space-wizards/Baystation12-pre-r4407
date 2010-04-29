@@ -12,7 +12,7 @@
 
 	var/obj/move/shuttlefloor = locate(/obj/move, T)	// fuck obj/move
 	if (isturf(T))	//let cryo/sleeper handle adjusting body temp in their respective alter_health procs
-		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp), 0.5)
+		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp()), 0.5)
 /////////////////////////////////
 	if (src.alive())
 		if (src.firemut)

@@ -443,7 +443,7 @@
 						src.f_time = world.time + 300
 					else
 						if (world.time > src.f_time)
-							var/difference = CELLSTANDARD - (T.oxygen + T.n2)
+							var/difference = CELLSTANDARD - (T.oxygen() + T.n2())
 							if (difference > 0)
 								var/t1 = src.gas.tot_gas()
 								if (difference > t1)

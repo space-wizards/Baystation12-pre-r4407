@@ -50,6 +50,6 @@
 	else
 		t += text("<font color=red>N2O: []</font>", t1)
 	user.show_message(t, 1)
-	user.show_message(text("\blue \t Temperature: []&deg;C", (T.temp-T0C) ), 1)
+	user.show_message(text("\blue \t Temperature: []&deg;C", (T.temp()-T0C) ), 1)
 	src.add_fingerprint(user)
 	return

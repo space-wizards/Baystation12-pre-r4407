@@ -4,6 +4,7 @@
 		return
 
 	var/netcount = 0
+	var/wirelessnetcount = 0
 	computernets = list()
 
 	for(var/obj/computercable/C in world)
@@ -15,13 +16,20 @@
 		R.connectednets = list()
 		R.disconnectednets = list()
 
+		++wirelessnetcount
+		var/datum/computernet/PN = new()
+		computernets += PN
+		PN.number = wirelessnetcount
+		R.connectednets += PN
+		R.wirelessnet = PN
+		PN.nodes += R
 	for(var/obj/computercable/PC in world)
 		if(!PC.cnetnum)
 			PC.cnetnum = ++netcount
 			computernet_nextlink_counter = 0
 			computernet_nextlink(PC, PC.cnetnum)
 
-	for(var/L = 1 to netcount)
+	for(var/L = wirelessnetcount to netcount)
 		var/datum/computernet/PN = new()
 		computernets += PN
 		PN.number = L
@@ -63,6 +71,9 @@
 	for(var/obj/machinery/router/R in world)
 		if (R.connectednets.len)
 			R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
+
+
+
 
 	for(var/obj/machinery/antenna/base/B in world)
 		B.build = 0

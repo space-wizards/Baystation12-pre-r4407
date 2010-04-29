@@ -21,7 +21,7 @@
 			var/turf/T = src.loc
 			if (istype(T, /turf) && checkForMultipleDoors())
 				T.updatecell = 1
-				OpenDoor(T)
+				OpenDoor(src)
 			src.operating = 0
 			return
 	return
@@ -48,7 +48,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		OpenDoor(T)
+		OpenDoor(src)
 	src.operating = 0
 	return
 
@@ -70,7 +70,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		CloseDoor(T)
+		CloseDoor(src)
 	sleep(15)
 	src.operating = 0
 	return

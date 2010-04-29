@@ -423,4 +423,4 @@
 				O.show_message(message, m_type)
 		else if (m_type & 2)
 			for (var/mob/O in hearers(src, null))
-				O.show_message(message, m_type)
+				O.show_message(message, m_type, "<B>[src]</B> moves \his mouth.",1)

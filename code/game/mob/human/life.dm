@@ -12,12 +12,14 @@
 
 	var/obj/move/shuttlefloor = locate(/obj/move, T)	// fuck obj/move
 	if (isturf(T))	//let cryo/sleeper handle adjusting body temp in their respective alter_health procs
-		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp), 0.5)
+		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp()), 0.5)
 
 	var/obj/item/weapon/organ/external/Head = src.organs["head"]
 	if(src.rname != "Unknown" && src.health < -500 && (Head.get_damage() > Head.max_damage/2) && !src.wear_id)	//this could be done better :effort:
 		src.rname = "Unknown"
 		src.unlock_medal("Black And Blue", 1, "Get beaten to the point where you are unrecognizable.", "medium")
+	if(src.toxloss + src.bruteloss > 50 && prob(10))
+		src.loc.add_blood(src,"hit",0)
 
 
 	if (src.stat != 2)

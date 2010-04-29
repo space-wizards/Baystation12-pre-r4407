@@ -699,7 +699,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 	//if (!( (20 < t2 && t2 < 30) ))
 	//	safe = 0
 
-	var/temp = T.temp	// temperature of turf
+	var/temp = T.temp()	// temperature of turf
 	var/P    = turf_total / CELLSTANDARD // pressure in bar
 
 	var/ppO2   = P * (T.oxygen / turf_total)
@@ -800,8 +800,8 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 			t += text("<font color=blue>NO2: []</font>", t1)
 		else
 			t += text("<font color=red>NO2: []</font>", t1)
-		t1 = T.temp - T0C
-		if (T.temp > 326.444 || T.temp < 282.591)
+		t1 = T.temp() - T0C
+		if (T.temp() > 326.444 || T.temp() < 282.591)
 			t += text("<br><font color=red>Temperature: []</font>", t1)
 		else
 			t += text("<br><font color=blue>Temperature: []</font>", t1)
