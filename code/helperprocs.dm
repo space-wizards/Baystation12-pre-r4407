@@ -482,3 +482,14 @@
 			return 0
 
 	return 1
+
+/proc/getZlevel(var/level)
+	if(level==Z_STATION)
+		return pick(stationfloors)
+	else if(level==Z_SPACE)
+		return pick(3,4,5)
+	else if(level==Z_CENTCOM)
+		return pick(centcomfloors)
+	else if(level==Z_ENGINE_EJECT)
+		return engine_eject_z_target
+	return 1//Default

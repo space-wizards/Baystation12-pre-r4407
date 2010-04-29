@@ -49,6 +49,8 @@
 /proc/hsl2rgb(h, s, l)
 	return
 
+/mob/proc/pulled(var/dir)
+
 /proc/ran_zone(zone, probability)
 
 	if (probability == null)

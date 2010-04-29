@@ -30,7 +30,7 @@
 		//dead or spaced
 		world << "<FONT size = 3>Victory!</FONT>"
 		if(traitor.z > 3)
-			world << "Disaster has been averted for now...<br><br>...<br> Oh,sh-................(The being escaped. The human race has been doomed. Nice job breaking it heroes)"
+			world << "Disaster has been averted for now...<br><br>...<br> Oh,sh-................(The being escaped. The human race has been doomed. Nice job breaking it \"heroes\")"
 		else
 			world << "IT is finally dead! That must have taken quite a lot of work..... Wait, it it reformin-............(You are dead. Face it. You can't win. You can't even choose not to play. There is no winning move.)"
 		for(var/mob/human/M in world)
@@ -46,7 +46,7 @@
 	world << "Everyone has lost. First it is just one station, but in time the whole human race will come to know the might of the victor."
 	for(var/mob/human/M in world)
 		if(M.stat < 2 && M!=traitor && M.client && M.z != 1)
-			world << "[M] cowardly fled and lived to die with the rest of humanity"
+			world << "[M] cowardly fled and lived only to die with the rest of humanity"
 	sleep(100)
 	world.Reboot()
 

@@ -18,6 +18,8 @@
 	if(src.rname != "Unknown" && src.health < -500 && (Head.get_damage() > Head.max_damage/2) && !src.wear_id)	//this could be done better :effort:
 		src.rname = "Unknown"
 		src.unlock_medal("Black And Blue", 1, "Get beaten to the point where you are unrecognizable.", "medium")
+	if(src.toxloss + src.bruteloss > 50 && prob(10))
+		src.loc.add_blood(src,"hit",0)
 
 
 	if (src.stat != 2)

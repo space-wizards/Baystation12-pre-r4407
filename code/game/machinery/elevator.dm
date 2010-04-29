@@ -9,7 +9,7 @@ Base Design:
 * Isolated network connected to a control computer somewhere (fake Router, a bit like antennas)
 * Area-defined size and shape
 * (Future) Cabling and Motors used to raise/lower the elevator
-* (Future) Remote monitoring computer
+* (Future) Remote Monitoring computer
 
 
 
@@ -45,15 +45,26 @@ Base Design:
 		return
 	use_power(55)
 
+/obj/machinery/elevator/panel/attack_paw(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_ai(var/mob/user)
+	return attack_hand(user)
+
+/obj/machinery/elevator/panel/attack_hand(var/mob/user)
+	if (stat & (NOPOWER|BROKEN))
+		return
+	Interact(user)
+
 /obj/machinery/elevator/panel/proc/Interact(var/mob/user)
 	var/dat = "<31>Elevator Console</h3><hr>"
 
 	dat += "Current Floor: [elevator.currentfloor] <br>"
 
-	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Call</th></tr>"
+	dat += "<table><tr><th>Floor</th><td>&nbsp;</td><th>Request</th></tr>"
 
 	for (var/datum/elevfloor/EF in elevator.floors)
-		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Called" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Call</a>" ]</td></tr>"
+		dat += "<tr><td>[EF.name]</td><td>&nbsp;</td><td>[EF.req ? "Requested" : "<a href='?src=\ref[src];call=[EF.zlevel]'>Request</a>" ]</td></tr>"
 
 	dat += "</table><br>"
 
@@ -212,7 +223,6 @@ Base Design:
 
 /datum/elevator/proc/set_doors(open)
 	var/c = 0
-	world << "SetDoors [open]"
 	for(var/obj/machinery/door/poddoor/P in world)
 		if (P.id != id)
 			continue
@@ -220,10 +230,10 @@ Base Design:
 			continue
 		if (P.z == currentfloor)
 			if (open && P.density)
-				P.openpod()
+				computer.transmitmessage(computer.createmessagetomachine("[P.get_password()] OPEN", P))
 				c = 1
 			else if (!P.density)
-				P.closepod()
+				computer.transmitmessage(computer.createmessagetomachine("[P.get_password()] CLOSE", P))
 				c = 1
 	doorstate = open
 	return c
@@ -232,59 +242,47 @@ Base Design:
 	if (moving)
 		return
 	moving = 1
-	world << "Move elevator from [currentfloor] to [targetfloor]"
 	var/targ = currentfloor
 	if (target_floor > targ)
 		targ++
 	if (target_floor < targ)
 		targ--
-	world << "Moving to [targ]"
 	spawn(0)
 		if (currentfloor != targ)
 			if(set_doors(0))
-				world << "Doors have to close"
 				sleep(40)
 			computer.use_power(400)
-			world << "Use Power"
 			for(var/area/B in area.superarea.areas)
 				for(var/atom/movable/AM as mob|obj in B)
 					if (AM.z != currentfloor)
 						continue
-					AM.z = targ
-					AM.Move()
+					AM.Move(locate(AM.x, AM.y, targ))
 				for(var/turf/T as turf in B)
 					T.buildlinks()
 			sleep(15)
-			world << "Moved Cab to Z = [targ]"
 			currentfloor = targ
 			sleep(40)
 		if (currentfloor == target_floor)
-			world << "At Target"
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
 			set_doors(1)
-			spawn(80)
+			spawn(90)
 				var/holdopen = 1
 				while(holdopen)
-					sleep(10)
+					sleep(20)
 					holdopen = 0
 					for(var/obj/machinery/door/poddoor/D in world)
 						if(D.id != id || D.z != currentfloor)
 							continue
-						var/list/contents = D.loc.contents
+						var/list/contents = D.loc.contents.Copy()
 						contents -= D
 						contents -= locate(/obj/computercable, D.loc)
 						contents -= locate(/obj/move, D.loc)
 						if (contents.len)
 							holdopen = 1
-					if (holdopen)
-						world << "Doors blocked, holding them open"
-				world << "Doors closing"
 				set_doors(0)
-		world << "Done Move Step"
 		if (currentfloor == target_floor)
 			enroute = 0
-			world << "Done Overall Move"
 		moving = 0
 
 /proc/get_elevator(id)

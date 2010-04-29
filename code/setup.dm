@@ -64,6 +64,13 @@
 #define GAS_PRECISION 1000 // to what number gas amounts should be rounded
 #define TEMPERATURE_PRECISION 5 // to what number temperature should be rounded
 
+//These are symbolic, not literal, for use with helperprocs.dm's getZlevel(). Edit that proc when the map changes.
+#define Z_STATION		1
+#define Z_SPACE			2
+#define Z_CENTCOM		3
+#define Z_ENGINE_EJECT	4
+
+
 var/const
 	GAS_O2 = 1 << 0
 	GAS_N2 = 1 << 1

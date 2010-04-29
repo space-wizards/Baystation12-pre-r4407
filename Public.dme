@@ -7,9 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\Aryn code\game\gamemodes\centcom code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\gamemodes\wizard code\game\machinery\doors code\game\machinery\pipe code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects\items code\game\objects\items\toolkit code\game\verbs\admin sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
-FILE: code\Aryn\ZAS Implementation.dm
-LAST_COMPILE_TIME: 1272527944
+DIR: code code\game code\game\machinery code\game\machinery\computernet code\game\mob code\game\objects code\game\objects\items code\game\objects\items\misc icons icons\ss13 maps 
+FILE: code\game\mob\mob.dm
+LAST_COMPILE_TIME: 1272528195
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -35,6 +35,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/0b"
 #define FILE_DIR ".git/objects/0c"
 #define FILE_DIR ".git/objects/0d"
+#define FILE_DIR ".git/objects/0e"
 #define FILE_DIR ".git/objects/0f"
 #define FILE_DIR ".git/objects/10"
 #define FILE_DIR ".git/objects/11"
@@ -54,8 +55,10 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/26"
 #define FILE_DIR ".git/objects/2a"
 #define FILE_DIR ".git/objects/2b"
+#define FILE_DIR ".git/objects/2c"
 #define FILE_DIR ".git/objects/2d"
 #define FILE_DIR ".git/objects/30"
+#define FILE_DIR ".git/objects/32"
 #define FILE_DIR ".git/objects/36"
 #define FILE_DIR ".git/objects/37"
 #define FILE_DIR ".git/objects/39"
@@ -64,6 +67,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/3c"
 #define FILE_DIR ".git/objects/3d"
 #define FILE_DIR ".git/objects/3e"
+#define FILE_DIR ".git/objects/3f"
 #define FILE_DIR ".git/objects/40"
 #define FILE_DIR ".git/objects/41"
 #define FILE_DIR ".git/objects/42"
@@ -133,6 +137,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/90"
 #define FILE_DIR ".git/objects/91"
 #define FILE_DIR ".git/objects/92"
+#define FILE_DIR ".git/objects/93"
 #define FILE_DIR ".git/objects/94"
 #define FILE_DIR ".git/objects/96"
 #define FILE_DIR ".git/objects/97"
@@ -147,6 +152,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/a2"
 #define FILE_DIR ".git/objects/a3"
 #define FILE_DIR ".git/objects/a6"
+#define FILE_DIR ".git/objects/a7"
 #define FILE_DIR ".git/objects/a9"
 #define FILE_DIR ".git/objects/aa"
 #define FILE_DIR ".git/objects/ab"
@@ -200,6 +206,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/e4"
 #define FILE_DIR ".git/objects/e5"
 #define FILE_DIR ".git/objects/e8"
+#define FILE_DIR ".git/objects/ea"
 #define FILE_DIR ".git/objects/eb"
 #define FILE_DIR ".git/objects/ec"
 #define FILE_DIR ".git/objects/ef"
@@ -215,6 +222,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/fa"
 #define FILE_DIR ".git/objects/fc"
 #define FILE_DIR ".git/objects/fd"
+#define FILE_DIR ".git/objects/ff"
 #define FILE_DIR ".git/objects/pack"
 #define FILE_DIR ".git/refs"
 #define FILE_DIR ".git/refs/heads"
@@ -354,6 +362,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\demo.dm"
 #include "code\game\events.dm"
 #include "code\game\hud.dm"
+#include "code\game\mindtransferdevice.dm"
 #include "code\game\player.dm"
 #include "code\game\radiation.dm"
 #include "code\game\throwing.dm"
@@ -534,6 +543,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\objects\items\misc\backpack.dm"
 #include "code\game\objects\items\misc\cane.dm"
 #include "code\game\objects\items\misc\card.dm"
+#include "code\game\objects\items\misc\cell.dm"
 #include "code\game\objects\items\misc\clipboard.dm"
 #include "code\game\objects\items\misc\cloak.dm"
 #include "code\game\objects\items\misc\electropack.dm"

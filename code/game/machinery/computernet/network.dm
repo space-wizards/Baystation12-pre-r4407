@@ -4,6 +4,7 @@
 		return
 
 	var/netcount = 0
+	var/wirelessnetcount = 0
 	computernets = list()
 
 	for(var/obj/computercable/C in world)
@@ -15,13 +16,20 @@
 		R.connectednets = list()
 		R.disconnectednets = list()
 
+		++wirelessnetcount
+		var/datum/computernet/PN = new()
+		computernets += PN
+		PN.number = wirelessnetcount
+		R.connectednets += PN
+		R.wirelessnet = PN
+		PN.nodes += R
 	for(var/obj/computercable/PC in world)
 		if(!PC.cnetnum)
 			PC.cnetnum = ++netcount
 			computernet_nextlink_counter = 0
 			computernet_nextlink(PC, PC.cnetnum)
 
-	for(var/L = 1 to netcount)
+	for(var/L = wirelessnetcount to netcount)
 		var/datum/computernet/PN = new()
 		computernets += PN
 		PN.number = L
@@ -64,6 +72,9 @@
 		if (R.connectednets.len)
 			R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
 
+
+
+
 	for(var/obj/machinery/antenna/base/B in world)
 		B.build = 0
 
@@ -80,6 +91,16 @@
 			OtherR.computernet.routers += R
 			OtherR.build = 1
 
+	for(var/obj/machinery/computer/elevator/E in world)
+		var/obj/machinery/router/R = new
+		R.connectednets += E.computernet
+		E.computernet.routers += R
+		for(var/obj/machinery/elevator/panel/P in world)
+			if (P.id != E.id)
+				continue
+			R.connectednets += P.computernet
+			P.computernet.routers += R
+
 
 	BuildRoutingTable()
 
@@ -94,12 +115,15 @@
 // excluding source, that match the direction d
 // if unmarked==1, only return those with cnetnum==0
 
+/proc/get_dir_3d(var/atom/ref, var/atom/target)
+	return get_dir(ref, target) | (target.z > ref.z ? UP : 0) | (target.z < ref.z ? DOWN : 0)
+
 /proc/computer_list(var/turf/T, var/obj/source, var/d, var/unmarked=0)
 	var/list/result = list()
 
 	for(var/obj/computercable/C in T)
 		if(!unmarked || !C.cnetnum)
-			if (C.d1 == get_dir(T, source.loc) || C.d2 == get_dir(T, source.loc))
+			if (C.d1 == get_dir_3d(T, source.loc) || C.d2 == get_dir_3d(T, source.loc))
 				result += C
 
 	result -= source
