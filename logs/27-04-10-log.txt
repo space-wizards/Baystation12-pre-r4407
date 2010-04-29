@@ -1,0 +1,62 @@
+10-19:ADMIN: Loading crban_keylist
+10-19:ADMIN: Loading crban_reason
+10-19:ADMIN: Loading crban_time
+10-19:ADMIN: Loading crban_bannedby
+10-19:ADMIN: Loading crban_iplist
+10-19:ADMIN: Loading crban_unbanned
+10-19:ADMIN: Loading crban_ComputerIDs
+10-19:ADMIN: Loading jobban_rank
+10-19:ADMIN: Updating jobbanfile!
+10-19:GAME: Finished building powernets (15 nets)
+10-20:ADMIN: Loading crban_keylist
+10-20:ADMIN: Loading crban_reason
+10-20:ADMIN: Loading crban_time
+10-20:ADMIN: Loading crban_bannedby
+10-20:ADMIN: Loading crban_iplist
+10-20:ADMIN: Loading crban_unbanned
+10-20:ADMIN: Loading crban_ComputerIDs
+10-20:ADMIN: Loading jobban_rank
+10-20:ADMIN: Updating jobbanfile!
+10-20:GAME: Finished building powernets (1 nets)
+10-20:ACCESS: Login: I-Aryn-I from 
+10-20:GAME: I-Aryn-I entered as Cogina Ironpick
+10-20:ACCESS: Logout: I-Aryn-I
+10-21:ADMIN: Loading crban_keylist
+10-21:ADMIN: Loading crban_reason
+10-21:ADMIN: Loading crban_time
+10-21:ADMIN: Loading crban_bannedby
+10-21:ADMIN: Loading crban_iplist
+10-21:ADMIN: Loading crban_unbanned
+10-21:ADMIN: Loading crban_ComputerIDs
+10-21:ADMIN: Loading jobban_rank
+10-21:ADMIN: Updating jobbanfile!
+10-21:GAME: Finished building powernets (1 nets)
+10-21:ACCESS: Login: I-Aryn-I from 
+10-21:GAME: I-Aryn-I entered as Cogina Ironpick
+10-21:ACCESS: Logout: I-Aryn-I
+10-22:ADMIN: Loading crban_keylist
+10-22:ADMIN: Loading crban_reason
+10-22:ADMIN: Loading crban_time
+10-22:ADMIN: Loading crban_bannedby
+10-22:ADMIN: Loading crban_iplist
+10-22:ADMIN: Loading crban_unbanned
+10-22:ADMIN: Loading crban_ComputerIDs
+10-22:ADMIN: Loading jobban_rank
+10-22:ADMIN: Updating jobbanfile!
+10-22:GAME: Finished building powernets (1 nets)
+10-22:ACCESS: Login: I-Aryn-I from 
+10-22:GAME: I-Aryn-I entered as Cogina Ironpick
+10-22:ACCESS: Logout: I-Aryn-I
+10-46:ADMIN: Loading crban_keylist
+10-46:ADMIN: Loading crban_reason
+10-46:ADMIN: Loading crban_time
+10-46:ADMIN: Loading crban_bannedby
+10-46:ADMIN: Loading crban_iplist
+10-46:ADMIN: Loading crban_unbanned
+10-46:ADMIN: Loading crban_ComputerIDs
+10-46:ADMIN: Loading jobban_rank
+10-46:ADMIN: Updating jobbanfile!
+10-46:GAME: Finished building powernets (1 nets)
+10-46:ACCESS: Login: I-Aryn-I from 
+10-46:GAME: I-Aryn-I entered as Cogina Ironpick
+10-46:ACCESS: Logout: I-Aryn-I

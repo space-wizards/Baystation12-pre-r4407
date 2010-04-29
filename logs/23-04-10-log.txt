@@ -1,0 +1,251 @@
+00-44:ADMIN: Loading crban_keylist
+00-44:ADMIN: Loading crban_reason
+00-44:ADMIN: Loading crban_time
+00-44:ADMIN: Loading crban_bannedby
+00-44:ADMIN: Loading crban_iplist
+00-44:ADMIN: Loading crban_unbanned
+00-44:ADMIN: Loading crban_ComputerIDs
+00-44:ADMIN: Loading jobban_rank
+00-44:ADMIN: Updating jobbanfile!
+00-44:ADMIN: Loading crban_keylist
+00-44:ADMIN: Loading crban_reason
+00-44:ADMIN: Loading crban_time
+00-44:ADMIN: Loading crban_bannedby
+00-44:ADMIN: Loading crban_iplist
+00-44:ADMIN: Loading crban_unbanned
+00-44:ADMIN: Loading crban_ComputerIDs
+00-44:ADMIN: Loading jobban_rank
+00-44:ADMIN: Updating jobbanfile!
+00-44:ADMIN: Loading crban_keylist
+00-44:ADMIN: Loading crban_reason
+00-44:ADMIN: Loading crban_time
+00-44:ADMIN: Loading crban_bannedby
+00-44:ADMIN: Loading crban_iplist
+00-44:ADMIN: Loading crban_unbanned
+00-44:ADMIN: Loading crban_ComputerIDs
+00-44:ADMIN: Loading jobban_rank
+00-44:ADMIN: Updating jobbanfile!
+00-44:GAME: Finished building powernets (35 nets)
+00-44:ACCESS: Login: I-Aryn-I from 
+00-44:GAME: Finished building powernets (35 nets)
+00-44:ACCESS: Login: I-Aryn-I from 
+00-44:GAME: starting game of extended
+00-44:GAME: starting game of extended
+00-44:ACCESS: Logout: I-Aryn-I
+00-44:ACCESS: Logout: I-Aryn-I
+14-07:ADMIN: Loading crban_keylist
+14-07:ADMIN: Loading crban_reason
+14-07:ADMIN: Loading crban_time
+14-07:ADMIN: Loading crban_bannedby
+14-07:ADMIN: Loading crban_iplist
+14-07:ADMIN: Loading crban_unbanned
+14-07:ADMIN: Loading crban_ComputerIDs
+14-07:ADMIN: Loading jobban_rank
+14-07:ADMIN: Updating jobbanfile!
+14-07:GAME: Finished building powernets (35 nets)
+14-07:ACCESS: Login: I-Aryn-I from 
+14-07:GAME: I-Aryn-I entered as Cogina Ironpick
+14-07:ADMIN: I-Aryn-I used start_now
+14-07:GAME: starting game of extended
+14-07:ADMIN: I-Aryn-I jumped to Network Storage
+14-07:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+14-07:ACCESS: Logout: I-Aryn-I
+14-38:ADMIN: Loading crban_keylist
+14-38:ADMIN: Loading crban_reason
+14-38:ADMIN: Loading crban_time
+14-38:ADMIN: Loading crban_bannedby
+14-38:ADMIN: Loading crban_iplist
+14-38:ADMIN: Loading crban_unbanned
+14-38:ADMIN: Loading crban_ComputerIDs
+14-38:ADMIN: Loading jobban_rank
+14-38:ADMIN: Updating jobbanfile!
+14-38:GAME: Finished building powernets (35 nets)
+14-38:ACCESS: Login: I-Aryn-I from 
+14-38:GAME: I-Aryn-I entered as Cogina Ironpick
+14-38:ADMIN: I-Aryn-I used start_now
+14-38:GAME: starting game of extended
+14-38:ADMIN: I-Aryn-I jumped to EVA Storage
+14-38:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+14-38:ACCESS: Logout: I-Aryn-I
+14-46:ADMIN: Loading crban_keylist
+14-46:ADMIN: Loading crban_reason
+14-46:ADMIN: Loading crban_time
+14-46:ADMIN: Loading crban_bannedby
+14-46:ADMIN: Loading crban_iplist
+14-46:ADMIN: Loading crban_unbanned
+14-46:ADMIN: Loading crban_ComputerIDs
+14-46:ADMIN: Loading jobban_rank
+14-46:ADMIN: Updating jobbanfile!
+14-46:GAME: Finished building powernets (35 nets)
+14-46:ACCESS: Login: I-Aryn-I from 
+14-46:GAME: I-Aryn-I entered as Cogina Ironpick
+14-46:ADMIN: I-Aryn-I used start_now
+14-46:GAME: starting game of extended
+14-46:ADMIN: I-Aryn-I jumped to EVA Storage
+14-46:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+14-46:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+14-46:ACCESS: Logout: I-Aryn-I
+14-52:ADMIN: Loading crban_keylist
+14-52:ADMIN: Loading crban_reason
+14-52:ADMIN: Loading crban_time
+14-52:ADMIN: Loading crban_bannedby
+14-52:ADMIN: Loading crban_iplist
+14-52:ADMIN: Loading crban_unbanned
+14-52:ADMIN: Loading crban_ComputerIDs
+14-52:ADMIN: Loading jobban_rank
+14-52:ADMIN: Updating jobbanfile!
+14-52:GAME: Finished building powernets (35 nets)
+14-52:ACCESS: Login: I-Aryn-I from 
+14-52:GAME: I-Aryn-I entered as Cogina Ironpick
+14-52:ADMIN: I-Aryn-I used start_now
+14-52:GAME: starting game of extended
+14-52:ADMIN: I-Aryn-I jumped to EVA Storage
+14-52:ADMIN: I-Aryn-I initiated an immediate reboot.
+14-52:ACCESS: Logout: I-Aryn-I
+14-53:ADMIN: Loading crban_keylist
+14-53:ADMIN: Loading crban_reason
+14-53:ADMIN: Loading crban_time
+14-53:ADMIN: Loading crban_bannedby
+14-53:ADMIN: Loading crban_iplist
+14-53:ADMIN: Loading crban_unbanned
+14-53:ADMIN: Loading crban_ComputerIDs
+14-53:ADMIN: Loading jobban_rank
+14-53:ADMIN: Updating jobbanfile!
+14-53:GAME: Finished building powernets (35 nets)
+14-53:ACCESS: Login: I-Aryn-I from 
+14-53:GAME: I-Aryn-I entered as Cogina Ironpick
+14-53:ADMIN: I-Aryn-I set the mode as sandbox.
+14-53:ADMIN: I-Aryn-I used start_now
+14-53:GAME: starting game of sandbox
+14-53:ADMIN: I-Aryn-I jumped to EVA Storage
+14-53:ACCESS: Logout: I-Aryn-I
+14-59:ADMIN: Loading crban_keylist
+14-59:ADMIN: Loading crban_reason
+14-59:ADMIN: Loading crban_time
+14-59:ADMIN: Loading crban_bannedby
+14-59:ADMIN: Loading crban_iplist
+14-59:ADMIN: Loading crban_unbanned
+14-59:ADMIN: Loading crban_ComputerIDs
+14-59:ADMIN: Loading jobban_rank
+14-59:ADMIN: Updating jobbanfile!
+14-59:GAME: Finished building powernets (35 nets)
+14-59:ACCESS: Login: I-Aryn-I from 
+14-59:GAME: I-Aryn-I entered as Cogina Ironpick
+14-59:ADMIN: I-Aryn-I used start_now
+14-59:GAME: starting game of sandbox
+14-59:ACCESS: Logout: I-Aryn-I
+15-20:ADMIN: Loading crban_keylist
+15-20:ADMIN: Loading crban_reason
+15-20:ADMIN: Loading crban_time
+15-20:ADMIN: Loading crban_bannedby
+15-20:ADMIN: Loading crban_iplist
+15-20:ADMIN: Loading crban_unbanned
+15-20:ADMIN: Loading crban_ComputerIDs
+15-20:ADMIN: Loading jobban_rank
+15-20:ADMIN: Updating jobbanfile!
+15-20:GAME: Finished building powernets (35 nets)
+15-20:ACCESS: Login: I-Aryn-I from 
+15-20:GAME: I-Aryn-I entered as Cogina Ironpick
+15-20:ADMIN: I-Aryn-I used start_now
+15-20:GAME: starting game of sandbox
+15-20:ADMIN: I-Aryn-I jumped to Observation Deck
+15-20:ACCESS: Logout: I-Aryn-I
+15-41:ADMIN: Loading crban_keylist
+15-41:ADMIN: Loading crban_reason
+15-41:ADMIN: Loading crban_time
+15-41:ADMIN: Loading crban_bannedby
+15-41:ADMIN: Loading crban_iplist
+15-41:ADMIN: Loading crban_unbanned
+15-41:ADMIN: Loading crban_ComputerIDs
+15-41:ADMIN: Loading jobban_rank
+15-41:ADMIN: Updating jobbanfile!
+15-41:GAME: Finished building powernets (35 nets)
+15-41:ACCESS: Login: I-Aryn-I from 
+15-41:GAME: starting game of sandbox
+15-41:GAME: I-Aryn-I entered as Cogina Ironpick
+15-41:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+15-41:ADMIN: I-Aryn-I created /obj/item/weapon/card/id/captains_spare
+15-41:ACCESS: Logout: I-Aryn-I
+17-26:ADMIN: Loading crban_keylist
+17-26:ADMIN: Loading crban_reason
+17-26:ADMIN: Loading crban_time
+17-26:ADMIN: Loading crban_bannedby
+17-26:ADMIN: Loading crban_iplist
+17-26:ADMIN: Loading crban_unbanned
+17-26:ADMIN: Loading crban_ComputerIDs
+17-26:ADMIN: Loading jobban_rank
+17-26:ADMIN: Updating jobbanfile!
+17-26:GAME: Finished building powernets (35 nets)
+17-26:ACCESS: Login: I-Aryn-I from 
+17-26:GAME: I-Aryn-I entered as Cogina Ironpick
+17-26:ADMIN: I-Aryn-I used start_now
+17-26:GAME: starting game of sandbox
+17-26:ADMIN: I-Aryn-I jumped to Network Centre
+17-26:ACCESS: Logout: I-Aryn-I
+17-45:ADMIN: Loading crban_keylist
+17-45:ADMIN: Loading crban_reason
+17-45:ADMIN: Loading crban_time
+17-45:ADMIN: Loading crban_bannedby
+17-45:ADMIN: Loading crban_iplist
+17-45:ADMIN: Loading crban_unbanned
+17-45:ADMIN: Loading crban_ComputerIDs
+17-45:ADMIN: Loading jobban_rank
+17-45:ADMIN: Updating jobbanfile!
+17-45:GAME: Finished building powernets (35 nets)
+17-45:ACCESS: Login: I-Aryn-I from 
+17-45:GAME: I-Aryn-I entered as Cogina Ironpick
+17-45:ADMIN: I-Aryn-I used start_now
+17-45:GAME: starting game of sandbox
+17-45:ACCESS: Logout: I-Aryn-I
+17-48:ADMIN: Loading crban_keylist
+17-48:ADMIN: Loading crban_reason
+17-48:ADMIN: Loading crban_time
+17-48:ADMIN: Loading crban_bannedby
+17-48:ADMIN: Loading crban_iplist
+17-48:ADMIN: Loading crban_unbanned
+17-48:ADMIN: Loading crban_ComputerIDs
+17-48:ADMIN: Loading jobban_rank
+17-48:ADMIN: Updating jobbanfile!
+17-48:GAME: Finished building powernets (35 nets)
+17-48:ACCESS: Login: I-Aryn-I from 
+17-48:GAME: I-Aryn-I entered as Cogina Ironpick
+17-48:ADMIN: I-Aryn-I used start_now
+17-48:GAME: starting game of sandbox
+17-48:ADMIN: I-Aryn-I jumped to Observation Deck
+17-48:ACCESS: Logout: I-Aryn-I
+18-03:ADMIN: Loading crban_keylist
+18-03:ADMIN: Loading crban_reason
+18-03:ADMIN: Loading crban_time
+18-03:ADMIN: Loading crban_bannedby
+18-03:ADMIN: Loading crban_iplist
+18-03:ADMIN: Loading crban_unbanned
+18-03:ADMIN: Loading crban_ComputerIDs
+18-03:ADMIN: Loading jobban_rank
+18-03:ADMIN: Updating jobbanfile!
+18-03:GAME: Finished building powernets (35 nets)
+18-03:ACCESS: Login: I-Aryn-I from 
+18-03:GAME: I-Aryn-I entered as Cogina Ironpick
+18-03:ADMIN: I-Aryn-I used start_now
+18-03:GAME: starting game of sandbox
+18-03:ADMIN: I-Aryn-I created /obj/bomb/timer
+18-03:GAME: Finished building powernets (42 nets)
+18-03:ACCESS: Logout: I-Aryn-I
+18-09:ADMIN: Loading crban_keylist
+18-09:ADMIN: Loading crban_reason
+18-09:ADMIN: Loading crban_time
+18-09:ADMIN: Loading crban_bannedby
+18-09:ADMIN: Loading crban_iplist
+18-09:ADMIN: Loading crban_unbanned
+18-09:ADMIN: Loading crban_ComputerIDs
+18-09:ADMIN: Loading jobban_rank
+18-09:ADMIN: Updating jobbanfile!
+18-09:GAME: Finished building powernets (35 nets)
+18-09:ACCESS: Login: I-Aryn-I from 
+18-09:GAME: I-Aryn-I entered as Cogina Ironpick
+18-09:ADMIN: I-Aryn-I used start_now
+18-09:GAME: starting game of sandbox
+18-09:ADMIN: I-Aryn-I jumped to Observation Deck
+18-09:ADMIN: I-Aryn-I/Cogina Ironpick : It&#39;s, it&#39;s it&#39;s it&#39;s over nine over nine THOU THOU THOU SANDSANDSAND SANDSANDSAND
+18-09:OOC: HELP: Cogina Ironpick/I-Aryn-I : Sex.
+18-09:ADMIN: PM: I-Aryn-I->I-Aryn-I : Indeed.
+18-09:ACCESS: Logout: I-Aryn-I
