@@ -30,5 +30,5 @@ var/list/moduleMarkers = new()
 			m.done = 1
 			var/randMap = pick(l)
 			mapModules[m.category] -= randMap
-			QML_loadMap("maps\\modular\\modules\\[randMap].dmm",m.x-1,m.y-1,m.z-1)
+			QML_loadMap("maps\\modules\\[randMap].dmm",m.x-1,m.y-1,m.z-1)
 		moduleMarkers -= m
