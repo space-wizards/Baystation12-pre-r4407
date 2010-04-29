@@ -43,6 +43,7 @@
 	src.icon_state = "pdoor0"
 	sleep(15)
 	src.density = 0
+	OpenDoor(src)
 	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
@@ -64,6 +65,7 @@
 	flick("pdoorc1", src)
 	src.icon_state = "pdoor1"
 	src.density = 1
+	CloseDoor(src)
 	sd_SetOpacity(1)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
