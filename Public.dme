@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+FILE: maps\Bay Station 12 alpha.dmp
+DIR: code code\game code\game\machinery code\game\machinery\computernet code\game\mob code\game\objects code\game\objects\items code\game\objects\items\misc icons icons\ss13 maps
+HIDDENPATHS:
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1272527399
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
