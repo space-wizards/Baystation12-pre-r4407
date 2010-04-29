@@ -32,35 +32,41 @@ turf/proc
 		if(zone && n)
 			zone.gases["O2"] += n
 		else
-			if(locate(/obj/move) in src) return O2STANDARD
+			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return O2STANDARD
 			return per_turf("O2")
 	poison(n)
 		if(n) poison += n//zone.gases["Plasma"] += n
 		else
-			if(locate(/obj/move) in src) return 0
+			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
 			return per_turf("Plasma") + poison
 	n2(n)
 		if(zone && n)
 			zone.gases["N2"] += n
 		else
-			if(locate(/obj/move) in src) return N2STANDARD
+			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return N2STANDARD
 			return per_turf("N2")
 	sl_gas(n)
 		if(zone && n) sl_gas += n//zone.gases["N2O"] += n
 		else
-			if(locate(/obj/move) in src) return 0
+			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
 			return per_turf("N2O") + sl_gas
 	co2(n)
 		if(zone && n) zone.gases["CO2"] += n
 		else
-			if(locate(/obj/move) in src) return 0
+			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
 			return per_turf("CO2")
 	per_turf(g)
-		if(locate(/obj/move) in src) return CELLSTANDARD
+		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return CELLSTANDARD
 		if(zone)
 			return zone.per_turf(g)
 		else
 			return 0
+
+	temp(n)
+		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return T20C
+		if(zone)
+			if(n) zone.temp += n
+			else return zone.temp
 
 obj/move/proc
 	per_turf(g)
@@ -81,6 +87,8 @@ obj/move/proc
 	poison()
 		return 0
 	temp_set()
+		return T20C
+	temp()
 		return T20C
 //	updatelinks()
 /*
@@ -140,6 +148,7 @@ proc/WinCheck(turf/T,d)
 
 obj/machinery/door/block_zoning = 1
 obj/machinery/door/poddoor/block_zoning = 1
+obj/machinery/door/firedoor/is_open = 1
 obj/shuttle/door/block_zoning = 1
 obj/shuttle/door/is_door = 1
 obj/move/wall/block_zoning = 1
@@ -151,3 +160,10 @@ obj/move/wall/block_zoning = 1
 //	for(var/g in zone.gases)
 //		world << "<b>[g]</b>: [zone.turf_cache[g]] ([zone.gases[g]] total) - [zone.partial_pressure(g)]"
 //	world << "<br><b>Total Pressure</b>: [zone.pressure()]"
+//	world << "--------------------------"
+//	world << "Connected Zones:"
+//	for(var/zone/Z in zone.connections)
+//		world << "<small><u>Z[zones.Find(Z)]</u></small>"
+//		for(var/g in zone.gases)
+//			world << "<small><b>[g]</b>: [Z.turf_cache[g]] ([Z.gases[g]] total) - [Z.partial_pressure(g)]</small>"
+//		world << "<small><br><b>Total Pressure</b>: [Z.pressure()]</small>"

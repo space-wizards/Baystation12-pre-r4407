@@ -468,11 +468,11 @@ var/list/lines = list()
 
 	if( level != 1)				// no heat exchange for under-floor pipes
 		if(istype(T,/turf/space))		// heat exchange less efficient in space (no conduction)
-			gas.temperature += ( T.temp - temp) / (3.0 * insulation * numnodes)
+			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
 		else
 
 	//		if(dbg) world.log << "PHE: ([x],[y]) [T.temp]-> \..."
-			var/delta_T = (T.temp - temp) / (insulation)	// normal turf
+			var/delta_T = (T.temp() - temp) / (insulation)	// normal turf
 
 			gas.temperature += delta_T	/ numnodes			// heat the pipe due to turf temperature
 
@@ -483,7 +483,7 @@ var/list/lines = list()
 
 			*/
 			var/tot_turf = max(1, T.tot_gas())
-			T.temp -= delta_T*min(10,tot_node/tot_turf)			// also heat the turf due to pipe temp
+			T.temp(-(delta_T*min(10,tot_node/tot_turf)))			// also heat the turf due to pipe temp
 							// clamp max temp change to prevent thermal runaway
 							// if low amount of gas in turf
 	//		if(dbg) world.log << "[T.temp] [tot_turf] #[delta_T]"
@@ -491,7 +491,7 @@ var/list/lines = list()
 
 	else								// if level 1 but in space, perform cooling anyway - exposed pipes
 		if(istype(T,/turf/space))
-			gas.temperature += ( T.temp - temp) / (3.0 * insulation * numnodes)
+			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
 
 // finds the machine with compatible p_dir in 1 step in dir from S
 /proc/get_machine(var/level, var/turf/S, mdir)
@@ -1822,12 +1822,12 @@ var/list/lines = list()
 
 		if(!vnode)	return leak_to_turf()
 		var/obj/substance/gas/exterior = new()
-		exterior.oxygen = T.oxygen
-		exterior.n2 = T.n2
+		exterior.oxygen = T.oxygen()
+		exterior.n2 = T.n2()
 		exterior.plasma = T.poison
-		exterior.co2 = T.co2
+		exterior.co2 = T.co2()
 		exterior.sl_gas = T.sl_gas
-		exterior.temperature = T.temp
+		exterior.temperature = T.temp()
 		var/obj/substance/gas/interior = gas
 		var/obj/substance/gas/flowing = new()
 

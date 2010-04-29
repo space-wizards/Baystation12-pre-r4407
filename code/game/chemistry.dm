@@ -311,7 +311,7 @@ heat is conserved between exchanges
 	target.sl_gas(t_sl_gas)//gas_add("N2O",t_sl_gas)
 	target.n2(t_n2)//gas_add("N2",t_n2)
 
-	target.temp_set((target.temp * ttotal + (amount * temperature)*TURF_ADD_FRAC ) /  (ttotal + amount))
+	target.temp_set((target.temp() * ttotal + (amount * temperature)*TURF_ADD_FRAC ) /  (ttotal + amount))
 	//target.heat += amount * src.temperature
 	target.res_vars()
 	target.update_again=1
@@ -329,7 +329,7 @@ heat is conserved between exchanges
 
 		//target.heat += heat_change
 		if( (t_turf + oxygen) >0 )
-			target.temp_set(( target.temp * t_turf + heat_change ) / ( t_turf + oxygen ))
+			target.temp_set(( target.temp() * t_turf + heat_change ) / ( t_turf + oxygen ))
 
 		target.oxygen(oxygen)
 
@@ -375,7 +375,7 @@ heat is conserved between exchanges
 //	var/heat_gain = (turf_total ? amount / turf_total * target.heat : 0)
 //	var/temp_gain = (turf_total ? target.heat / turf_total : 0)
 
-	var/heat_gain = (turf_total ? amount * target.temp : 0)
+	var/heat_gain = (turf_total ? amount * target.temp() : 0)
 
 
 	var/t_oxy = amount * target.oxygen() / t1
@@ -480,7 +480,7 @@ heat is conserved between exchanges
 	var/air_total = co2_diff + oxy_diff + no2_diff + n2_diff + plas_diff
 
 
-	var/heat_gain = (turf_total ? air_total  * target.temp : null)
+	var/heat_gain = (turf_total ? air_total  * target.temp() : null)
 	//var/temp_gain = (turf_total ? target.heat / turf_total + TD0 : 0)
 
 	src.co2 += co2_diff
@@ -506,7 +506,7 @@ heat is conserved between exchanges
 
 	var/turftot2 = turf_total - air_total
 	if(turftot2>0)
-		target.temp_set((target.temp*turf_total - heat_gain)/(turftot2))
+		target.temp_set((target.temp()*turf_total - heat_gain)/(turftot2))
 
 	//target.heat -= heat_gain
 

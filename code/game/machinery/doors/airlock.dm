@@ -862,7 +862,7 @@ About the new airlock wires panel:
 				var/turf/T = src.loc
 				if (istype(T, /turf) && checkForMultipleDoors())
 					T.updatecell = 1
-					OpenDoor(T)
+					OpenDoor(src)
 				src.operating = 0
 				return
 		else

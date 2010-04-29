@@ -13,7 +13,8 @@ Multiple tanks can accelerate it to 1500+C at which point EVERYONE DIES! the end
 */
 
 turf/proc/temp_set(n)
-	temp = n
+	if(zone)
+		zone.temp = n
 var/fire_spread = 0
 proc/FireTicker()
 	while(1)
@@ -40,9 +41,9 @@ turf
 		if(!zone) return
 		if (oxygen() < 1000)
 			burn = 0
+			firelevel = 0
+			return
 		if(1)
-			if (burn)
-				src.firelevel = src.oxygen + src.poison
 			if (src.firelevel >= 100000.0)
 				//src.overlays += 'Fire.dmi'
 				//icon_state = "burning"
@@ -53,14 +54,15 @@ turf
 				src.poison = max(src.poison - 5000, 0)
 				src.co2(5000)
 
-				if(src.oxygen == 0 || src.poison == 0)
+				if(src.oxygen() == 0 || src.poison == 0)
 					burn = 0 // make fires stop when they run out of oxygen or plasma
 					firelevel = 0
+					return
 					//overlays -= 'Fire.dmi'
 					//unburn()
 
 				// heating from fire
-				temp += (firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE
+				temp((firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE)
 
 
 				if (locate(/obj/effects/water, src))
@@ -69,17 +71,25 @@ turf
 					A.burn(src.firelevel)
 					//Foreach goto(522)
 				for(var/turf/T in GetCardinals(src,3))
-					T.burn = 1
-					T.burn_level = src.burn_level + 2
+					if(Airtight(T,src)) continue
+					T.firelevel = T.poison
+					if(T.firelevel > 100000)
+						T.burn = 1
 			else
 				src.firelevel = 0
+				burn = 0
+				temp((T20C - temp) / FIRERATE)
+				return
 				//overlays -= 'Fire.dmi'
 				//if (src.icon_state == "burning")
 				//	unburn()
+			if (burn)
+				src.firelevel = src.oxygen + src.poison
 
 
 		if ((locate(/obj/effects/water, src) || src.firelevel < 100000.0))
 			src.firelevel = 0
+			burn = 0
 			//cool due to water
-			temp += (T20C - temp) / FIRERATE
+			temp((T20C - temp) / FIRERATE)
 		oldfirelevel = firelevel

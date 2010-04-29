@@ -1,9 +1,9 @@
 var
-	AF_MOVEMENT_THRESHOLD = 25 //% difference to move stuff.
+	AF_MOVEMENT_THRESHOLD = 35 //% difference to move stuff.
 	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
-	AF_DAMAGE_MULTIPLIER = 5
-	AF_STUN_MULTIPLIER = 2
-	AF_SPEED_DECAY = 0.5
+	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
+	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
+	AF_SPEED_DECAY = 0.5 //Amount that flow speed will decay with time.
 
 client/proc
 	Change_Airflow_Constants()
@@ -38,14 +38,30 @@ client/proc
 				AF_SPEED_DECAY = n
 				world.log << "AF_SPEED_DECAY set to [n]."
 
+turf/verb/TossMeHere(n as num,use_airflow as anything in list("Use Airflow Destination","Use Zone Airflow Rules"))
+	set src in view()
+	if(use_airflow == "Use Airflow Destination")
+		usr.airflow_dest = src
+		usr.GotoAirflowDest(n)
+	else
+		var/turf/T = usr.loc
+		if(zone != T.zone)
+			Airflow(zone,T.zone,n)
+
 proc/Airflow(zone/A,zone/B,n)
+
+
+	//return
+	//Comment this out to use airflow again.
+
+
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]
 	var/list/pplz = A.movables()
 	var/list/otherpplz = B.movables()
 	if(abs(n) > AF_MOVEMENT_THRESHOLD)
 		//world << "SWASH!"
-		for(var/atom/movable/M in otherpplz)
+		for(var/atom/movable/M in pplz)
 			//world << "[M] / \..."
 			if(M.anchored && !ismob(M)) continue
 			if(istype(M,/mob/observer)) continue
@@ -58,9 +74,9 @@ proc/Airflow(zone/A,zone/B,n)
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
 				spawn M.GotoAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
-			else
-				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
-		for(var/atom/movable/M in pplz)
+			//else if(M.airflow_speed > 0)
+			//	M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+		for(var/atom/movable/M in otherpplz)
 			//world << "[M] / \..."
 			if(istype(M,/mob/ai)) continue
 			if(istype(M,/mob/observer)) continue
@@ -73,33 +89,40 @@ proc/Airflow(zone/A,zone/B,n)
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
 				spawn M.RepelAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
-			else
-				M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+		//	else if(M.airflow_speed > 0)
+			//	M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
 atom/movable
 	var/turf/airflow_dest
 	var/airflow_speed = 0
+	var/airflow_time = 0
 	proc/GotoAirflowDest(n)
 		if(!airflow_dest) return
 		if(airflow_speed < 0) return
 		if(airflow_speed)
 			airflow_speed = n
 			return
+		if(ismob(src)) src << "\red You are sucked towards [airflow_dest]!"
 		airflow_speed = min(round(n),9)
 		//world << "[src]'s headed to [airflow_dest] at [n] times the SPEED OF LIGHT!"
-		airflow_dest = get_step(src,Get_Dir(src,airflow_dest))
+		//airflow_dest = get_step(src,Get_Dir(src,airflow_dest))
 		var
-			xo = src.x - airflow_dest.x
-			yo = src.x - airflow_dest.y
+			xo = airflow_dest.x - src.x
+			yo = airflow_dest.y - src.y
 			od = 0
+		//world << "[xo],[yo]"
 		airflow_dest = null
 		if(!density)
 			density = 1
 			od = 1
 		while(airflow_speed > 0)
-			if(airflow_speed < 0) return
-			airflow_speed = min(airflow_speed,9)
+			if(airflow_speed <= 0) return
+			airflow_speed = min(airflow_speed,15)
 			airflow_speed -= AF_SPEED_DECAY
-			sleep(10-airflow_speed)
+			if(airflow_speed > 7)
+				if(airflow_time++ >= airflow_speed - 7)
+					sleep(1)
+			else
+				sleep(max(1,10-(airflow_speed+3)))
 			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))
 				src.airflow_dest = locate(min(max(src.x + xo, 1), world.maxx), min(max(src.y + yo, 1), world.maxy), src.z)
 				//world << "New destination: [airflow_dest]"
@@ -107,6 +130,8 @@ atom/movable
 				return
 			step_towards(src, src.airflow_dest)
 		airflow_dest = null
+		airflow_speed = -1
+		spawn(50) airflow_speed = 0
 		if(od)
 			density = 0
 	proc/RepelAirflowDest(n)
@@ -115,34 +140,55 @@ atom/movable
 		if(airflow_speed)
 			airflow_speed = n
 			return
+		if(ismob(src)) src << "\red You are pushed away from [airflow_dest]!"
 		airflow_speed = min(round(n),9)
-		airflow_dest = get_step(src,Get_Dir(airflow_dest,src))
+		//airflow_dest = get_step(src,Get_Dir(airflow_dest,src))
 		var
-			xo = (src.x - airflow_dest.x)
-			yo = (src.x - airflow_dest.y)
+			xo = -(airflow_dest.x - src.x)
+			yo = -(airflow_dest.y - src.y)
 			od = 0
 		airflow_dest = null
 		if(!density)
 			density = 1
 			od = 1
 		while(airflow_speed > 0)
-			if(airflow_speed < 0) return
-			airflow_speed = min(airflow_speed,9)
+			if(airflow_speed <= 0) return
+			airflow_speed = min(airflow_speed,15)
 			airflow_speed -= AF_SPEED_DECAY
-			sleep(10-airflow_speed)
+			if(airflow_speed > 7)
+				if(airflow_time++ >= airflow_speed - 7)
+					sleep(1)
+			else
+				sleep(max(1,10-(airflow_speed+3)))
 			if ((!( src.airflow_dest ) || src.loc == src.airflow_dest))
 				src.airflow_dest = locate(min(max(src.x + xo, 1), world.maxx), min(max(src.y + yo, 1), world.maxy), src.z)
 			if ((src.x == 1 || src.x == world.maxx || src.y == 1 || src.y == world.maxy))
 				return
 			step_towards(src, src.airflow_dest)
 		airflow_dest = null
+		airflow_speed = -1
+		spawn(50) airflow_speed = 0
 		if(od)
 			density = 0
 	Bump(atom/A)
 		. = ..()
-		if(airflow_speed && airflow_dest)
-
-			viewers(src) << "\red <b>[src] slams into [A]!</b>"
+		if(airflow_speed > 0 && airflow_dest)
+			if(istype(A,/obj/item)) return .
+			A.overlays += 'Bump.dmi'
+			spawn(5)
+				A.overlays -= 'Bump.dmi'
+			//viewers(src) << "\red <b>[src] slams into [A]!</b>"
+			if(ismob(src) || (isobj(src) && !istype(src,/obj/item)))
+				for(var/mob/M in hearers(src))
+					M.show_message("\red <B>[src] slams into [A]!</B>",1,"\red You hear a loud slam!",2)
+				if(ismob(src))
+					var/QQ = rand(1,3)
+					src.hear_sound("sound/weapon/generic/hit[QQ].wav",6)
+					loc:add_blood(src)
+					if (src:wear_suit)
+						src:wear_suit:add_blood(src)
+					if (src:w_uniform)
+						src:w_uniform:add_blood(src)
 			if(ismob(src) && !istype(src,/mob/ai))
 				var/b_loss = airflow_speed * AF_DAMAGE_MULTIPLIER
 				for(var/organ in src:organs)
@@ -173,10 +219,10 @@ atom/movable
 								temp.take_damage(b_loss * 0.0225, 0)
 				spawn src:UpdateDamageIcon()
 				if(airflow_speed > 5)
-					src:paralysis += airflow_speed*AF_STUN_MULTIPLIER
+					src:paralysis += round(airflow_speed*AF_STUN_MULTIPLIER)
 					src:stunned = max(src:stunned,src:paralysis + 3)
 				else
-					src:stunned += airflow_speed * AF_STUN_MULTIPLIER/2
+					src:stunned += round(airflow_speed * AF_STUN_MULTIPLIER/2)
 			airflow_speed = -1
 			spawn(50) airflow_speed = 0
 			airflow_dest = null

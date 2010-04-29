@@ -7,10 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-UPDATE_OBJ_TREE: ON
-DIR: code code\game\gamemodes\sandbox code\game\mob code\game\mob\human maps sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
-FILE: maps\Bay Station 12 alpha.dmp
-LAST_COMPILE_TIME: 1272347455
+DIR: code code\Aryn code\game\gamemodes\centcom code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\gamemodes\wizard code\game\machinery\doors code\game\machinery\pipe code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects\items code\game\objects\items\toolkit code\game\verbs\admin sound\door\airlock sound\door\windoor sound\machinery\conveyor_control sound\machinery\klaxon 
+FILE: code\Aryn\ZAS Implementation.dm
+LAST_COMPILE_TIME: 1272527944
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -63,6 +62,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/3a"
 #define FILE_DIR ".git/objects/3b"
 #define FILE_DIR ".git/objects/3c"
+#define FILE_DIR ".git/objects/3d"
 #define FILE_DIR ".git/objects/3e"
 #define FILE_DIR ".git/objects/40"
 #define FILE_DIR ".git/objects/41"
