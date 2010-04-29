@@ -29,7 +29,7 @@
 			computernet_nextlink_counter = 0
 			computernet_nextlink(PC, PC.cnetnum)
 
-	for(var/wirelessnetcount to netcount)
+	for(var/L = wirelessnetcount to netcount)
 		var/datum/computernet/PN = new()
 		computernets += PN
 		PN.number = L
