@@ -1,0 +1,39 @@
+"a" = (/turf/space,/area)
+"b" = (/turf/station/r_wall,/area)
+"c" = (/obj/begin,/turf/station/floor,/area/start)
+"d" = (/turf/station/floor,/area)
+"e" = (/obj/a_pipe{tag = "icon-default (SOUTHEAST)"; icon_state = ""; dir = 6},/turf/station/floor,/area)
+"f" = (/obj/machinery/light,/obj/a_pipe{tag = "icon-default (EAST)"; icon_state = ""; dir = 4},/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
+"g" = (/obj/a_pipe{tag = "icon-default (EAST)"; icon_state = ""; dir = 4},/turf/station/floor,/area)
+"h" = (/obj/a_pipe{tag = "icon-default (SOUTHWEST)"; icon_state = ""; dir = 10},/turf/station/floor,/area)
+"i" = (/obj/machinery/light,/turf/station/floor,/area)
+"j" = (/turf/station/floor,/area/arrival/start)
+"k" = (/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor,/area)
+"l" = (/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
+"m" = (/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor,/area)
+"n" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/obj/window,/turf/station/floor,/area)
+"o" = (/obj/window,/turf/station/floor,/area)
+"p" = (/obj/window,/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
+"q" = (/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
+"r" = (/obj/machinery/power/apc{dir = 1},/obj/cable{icon_state = "0-2"; d2 = 2},/turf/station/floor,/area)
+"s" = (/obj/cable,/obj/machinery/power/infinite,/turf/station/floor,/area)
+"t" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
+"u" = (/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaabcba
+abbbbbbbbbbbbba
+abdefgggghibjba
+abdklddddmdddba
+abnopdddddddqba
+abdddddddddddba
+abdddddddddddba
+abdddddbdddddba
+abdddddrdddddba
+abdddddsdddddba
+abtdddddddddqba
+abdddddddddddba
+abdduddddduddba
+abbbbbbbbbbbbba
+aaaaaaaaaaaaaaa
+"}

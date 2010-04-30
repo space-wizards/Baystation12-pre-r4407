@@ -14,7 +14,8 @@ Multiple tanks can accelerate it to 1500+C at which point EVERYONE DIES! the end
 
 turf/proc/temp_set(n)
 	if(zone)
-		zone.temp = n
+		zone.temp = abs(n)
+		if(zone.speakmychild) world << "Temperature set to [abs(n)]"
 var/fire_spread = 0
 proc/FireTicker()
 	while(1)
@@ -62,7 +63,10 @@ turf
 					//unburn()
 
 				// heating from fire
-				temp((firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE)
+				temp((firelevel/FIREQUOT+FIREOFFSET - temp()) / FIRERATE)
+				if(zone.speakmychild)
+					world << "Fire temperature: +[(firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE]C"
+					world << "Firelevel: [firelevel], temp: [temp()]"
 
 
 				if (locate(/obj/effects/water, src))
@@ -78,7 +82,7 @@ turf
 			else
 				src.firelevel = 0
 				burn = 0
-				temp((T20C - temp) / FIRERATE)
+				//temp((T20C - temp) / FIRERATE)
 				return
 				//overlays -= 'Fire.dmi'
 				//if (src.icon_state == "burning")

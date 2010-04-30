@@ -8,9 +8,9 @@ turf/var
 turf/proc/DistributeGas()
 	dist_timer = (dist_timer + 1) % GAS_FLOW_DELAY
 	if(!dist_timer)
-		dist_links = GetCardinals(src)
-		for(var/turf/T in dist_links)
-			if(Airtight(T,src)) dist_links -= T
+		dist_links = GetCardinals(src,3)
+		//for(var/turf/T in dist_links)
+		//	if(Airtight(T,src)) dist_links -= T
 		dist_links += src
 		var
 			total_plasma

@@ -877,7 +877,7 @@ About the new airlock wires panel:
 					var/turf/T = src.loc
 					if (istype(T, /turf))
 						T.updatecell = 0
-						CloseDoor(T)
+						CloseDoor(src)
 					sleep(15)
 					src.operating = 0
 

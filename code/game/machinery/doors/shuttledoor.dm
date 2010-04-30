@@ -28,7 +28,6 @@
 	sd_SetOpacity(0)
 	src.operating = 0
 	src.loc.buildlinks()
-	OpenDoor(src)
 	return
 
 /obj/shuttle/door/proc/close()
@@ -45,6 +44,15 @@
 
 	src.operating = 0
 	src.loc.buildlinks()
-	CloseDoor(src)
 	return
+/obj/shuttle/door/New()
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
+/obj/shuttle/door/Move()
+	if(isturf(loc))
+		loc:accept_zoning = 1
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
 

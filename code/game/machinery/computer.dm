@@ -413,15 +413,27 @@
 	if(A.z == prison_shuttle_dock)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = shuttle_en_route_level
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = station_prison_dock
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
@@ -430,15 +442,27 @@
 	else
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = shuttle_en_route_level
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = prison_shuttle_dock
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
