@@ -19,6 +19,8 @@ var/const/FULL_PRESSURE = 3600000
 //This value is the flow rate (as %) that will be used when a door is open between zones.
 #define TILE_CONNECTION_FLOW 65
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
+#define TEMP_FLOW 5
+//The flow rate as % that will be used to transfer temperature.
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)
@@ -47,6 +49,11 @@ var/moving_zone = 0
 
 var/list/zones = list()
 //All the zones in the game are kept here, so that they are not deleted immediately after creation.
+
+turf/verb/SeeTempChanges()
+	set src in view()
+	zone.speakmychild = 1
+	world << "Showing changes to [src]."
 
 zone
 
@@ -217,10 +224,10 @@ zone
 
 					var/gas_diff = pressure() - Z.pressure()
 					if(gas_diff > AF_MOVEMENT_THRESHOLD)// && more_air_here)
-						if(!speakmychild)
-							world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
-							speakmychild = 1
-							spawn(50) speakmychild = 0
+						//if(!speakmychild)
+						//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
+						//	speakmychild = 1
+						//	spawn(50) speakmychild = 0
 						Airflow(src,Z,gas_diff)
 
 					//world << "<B><big>Calcuating Connection with Z[zones.Find(Z)]</big></B>"
@@ -241,8 +248,8 @@ zone
 						diff_a = temp - temp_theo
 						diff_b = Z.temp - temp_theo
 					//world << "Temperature Theo: [temp_theo]"
-					diff_a *= 1 - (flow / 100)
-					diff_b *= 1 - (flow / 100)
+					diff_a *= 1 - (TEMP_FLOW / 100)
+					diff_b *= 1 - (TEMP_FLOW / 100)
 					temp = diff_a + temp_theo
 					Z.temp = diff_b + temp_theo
 
@@ -817,6 +824,7 @@ proc
 		////world << "Opening door..."
 		if(moving_zone) return
 		A.is_open = 1
+		//if(A.block_zoning) A.block_zoning = 0
 		if(!A.connected_zones || null_entries(A.connected_zones))
 			ZoneSetup(A)
 			if(length(A.connected_zones) < 1)
@@ -831,9 +839,9 @@ proc
 		///		ZA.AddTurfs(A)
 		var/turf/T = A.loc
 		if(isturf(A)) T = A
-		if(Airtight(T))
-			world.log << "OpenDoor called on airtight turf."
-			return
+		//if(Airtight(T))
+			//world.log << "OpenDoor called on airtight turf."
+		//	return
 		for(var/turf/C in A.connected_zones)
 			////world << "Connected zone [A.connected_zones.Find(C)]."
 			if(!Airtight(C,T))
@@ -850,6 +858,7 @@ proc
 	CloseDoor(atom/A) //This is called when a door is closed between two zones, to subtract the flow.
 		if(moving_zone) return
 		A.is_open = 0
+		if(!A.block_zoning) A.block_zoning = 1
 		////world << "Closing Door"
 		if(!A.connected_zones || null_entries(A.connected_zones))
 			ZoneSetup(A)
@@ -863,8 +872,8 @@ proc
 		if(isturf(A)) T = A
 		for(var/turf/C in A.connected_zones)
 			////world << "Disonnected zone [A.connected_zones.Find(C)]."
-			if(Airtight(T,C))
-				RemoveConnection(C.zone,T,T.zone)
+			//if(Airtight(T,C))
+			RemoveConnection(C.zone,T,T.zone)
 		for(var/turf/C in A.connected_zones)
 			if(!Airtight(T,C)) continue
 			for(var/turf/D in A.connected_zones)

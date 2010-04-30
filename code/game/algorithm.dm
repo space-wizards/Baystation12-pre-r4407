@@ -326,7 +326,7 @@
 		return
 	src.equip_if_possible(new /obj/item/weapon/radio/headset(src), slot_w_radio)
 	src.equip_if_possible(new /obj/item/weapon/storage/backpack(src), slot_back)
-	if (src.disabilities & 1)
+	if (src.disabilities & BADVISION)
 		src.equip_if_possible(new /obj/item/weapon/clothing/glasses/regular(src), slot_glasses)
 	if (src.is_rev != "no" && src.is_rev < 1)
 		src.is_rev = 0

@@ -7,7 +7,7 @@ var
 
 client/proc
 	Change_Airflow_Constants()
-		set category = "ZAS"
+		set category = "Debug"
 
 		var/choice = input("Which constant will you modify?","Change Airflow Constants")\
 		as null|anything in list("Movement Threshold","Speed Multiplier","Damage Multiplier","Stun Multiplier","Speed Decay")
@@ -38,15 +38,15 @@ client/proc
 				AF_SPEED_DECAY = n
 				world.log << "AF_SPEED_DECAY set to [n]."
 
-turf/verb/TossMeHere(n as num,use_airflow as anything in list("Use Airflow Destination","Use Zone Airflow Rules"))
-	set src in view()
-	if(use_airflow == "Use Airflow Destination")
-		usr.airflow_dest = src
-		usr.GotoAirflowDest(n)
-	else
-		var/turf/T = usr.loc
-		if(zone != T.zone)
-			Airflow(zone,T.zone,n)
+//turf/verb/TossMeHere(n as num,use_airflow as anything in list("Use Airflow Destination","Use Zone Airflow Rules"))
+//	set src in view()
+//	if(use_airflow == "Use Airflow Destination")
+//		usr.airflow_dest = src
+//		usr.GotoAirflowDest(n)
+//	else
+//		var/turf/T = usr.loc
+//		if(zone != T.zone)
+//			Airflow(zone,T.zone,n)
 
 proc/Airflow(zone/A,zone/B,n)
 
@@ -174,9 +174,6 @@ atom/movable
 		. = ..()
 		if(airflow_speed > 0 && airflow_dest)
 			if(istype(A,/obj/item)) return .
-//			A.overlays += 'Bump.dmi'
-			spawn(5)
-//				A.overlays -= 'Bump.dmi'
 			//viewers(src) << "\red <b>[src] slams into [A]!</b>"
 			if(ismob(src) || (isobj(src) && !istype(src,/obj/item)))
 				for(var/mob/M in hearers(src))

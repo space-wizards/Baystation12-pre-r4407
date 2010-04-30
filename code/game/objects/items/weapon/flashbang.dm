@@ -105,21 +105,7 @@
 				//M.eye_stat += rand(1, 2)
 				M.ear_deaf += 5
 				M << "\red <B>BANG</B>"
-	//	if (//M.eye_stat >= 20)
 			M << "\red Your eyes start to burn badly!"
-	//		M.disabilities |= 1
-	////		if (prob(//M.eye_stat - 20 + 1))
-	//			M << "\red You go blind!"
-	//			M.sdisabilities |= 1
-	//	if (M.ear_damage >= 15)
-		//	M << "\red Your ears start to ring badly!"
-		//	if (prob(M.ear_damage - 10 + 5))
-		//		M << "\red You go deaf!"
-		//		M.sdisabilities |= 4
-	//	else
-	//		if (M.ear_damage >= 5)
-	//			M << "\red Your ears start to ring!"
-
 	for(var/obj/blob/B in view(8,T))
 		var/damage = round(30/(get_dist(B,T)+1))
 		B.health -= damage

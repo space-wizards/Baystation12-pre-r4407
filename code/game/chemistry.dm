@@ -708,10 +708,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -746,10 +746,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 20
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -766,10 +766,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 20
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -785,10 +785,10 @@ heat is conserved between exchanges
 			M.eye_stat += volume * 3
 			M.eye_blurry += volume * 20
 			M << "\red Your eyes start to burn badly!"
-			M.disabilities |= 1
+			M.disabilities |= BADVISION
 			if (prob(M.eye_stat - 20 + 1))
 				M << "\red You go blind!"
-				M.sdisabilities |= 1
+				M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -1785,10 +1785,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 			M.b_mercury += volume
@@ -1806,10 +1806,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 15
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -1823,10 +1823,6 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 	switch(zone)
 		if("eye")
 			if (volume >= 1)
-//				if (prob(50))
-//					M.disabilities |= 1
-//					if (prob(25))
-//						M.sdisabilities |= 1
 				M << text("\blue The walls suddenly disappear!")
 				spawn (3600)
 					M.xray = 0
@@ -1887,10 +1883,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.radiation += volume * 5
 			if (M.eye_stat >= 30)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.radiation += volume
 			M.sd_SetLuminosity(1)
@@ -1910,10 +1906,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			if (M.wear_mask && M:head == null)
 				del (M.wear_mask)
@@ -2018,10 +2014,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 4
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2039,10 +2035,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2057,10 +2053,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2077,10 +2073,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 
 //&& istype(M, /mob/human)
@@ -2118,10 +2114,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 
 //&& istype(M, /mob/human)
@@ -2158,10 +2154,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 4
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2180,10 +2176,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.druggy += volume * 6
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.druggy += volume
 		else

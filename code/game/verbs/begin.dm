@@ -190,7 +190,7 @@
 	var/mutvis
 	if (M.need_gl) //on
 		mutvis = add_zero2(num2hex(rand(2050,4095)),3)
-		M.disabilities = M.disabilities | 1
+		M.disabilities = M.disabilities | BADVISION
 		M << "\blue You need glasses!"
 	else  //off
 		mutvis = add_zero2(num2hex(rand(1,2049)),3)
@@ -198,7 +198,7 @@
 	var/mutepil
 	if (M.be_epil) //on
 		mutepil = add_zero2(num2hex(rand(2050,4095)),3)
-		M.disabilities = M.disabilities | 2
+		M.disabilities = M.disabilities | HEADACHEY
 		M << "\blue You are epileptic!"
 	else  //off
 		mutepil = add_zero2(num2hex(rand(1,2049)),3)
@@ -206,7 +206,7 @@
 	var/mutcough
 	if (M.be_cough) //on
 		mutcough = add_zero2(num2hex(rand(2050,4095)),3)
-		M.disabilities = M.disabilities | 4
+		M.disabilities = M.disabilities | COUGHY
 		M << "\blue You have a chronic coughing syndrome!"
 	else  //off
 		mutcough = add_zero2(num2hex(rand(1,2049)),3)
@@ -214,7 +214,7 @@
 	var/muttur
 	if (M.be_tur) //on
 		muttur = add_zero2(num2hex(rand(2050,4095)),3)
-		M.disabilities = M.disabilities | 8
+		M.disabilities = M.disabilities | TWITCHY
 		M << "\blue You have Tourette syndrome!"
 	else  //off
 		muttur = add_zero2(num2hex(rand(1,2049)),3)
@@ -222,7 +222,7 @@
 	var/mutstut
 	if (M.be_stut) //on
 		mutstut = add_zero2(num2hex(rand(2050,4095)),3)
-		M.disabilities = M.disabilities | 16
+		M.disabilities = M.disabilities | NERVOUS
 		M << "\blue You have a stuttering problem!"
 	else  //off
 		mutstut = add_zero2(num2hex(rand(1,2049)),3)
@@ -285,40 +285,30 @@
 		var/b_vis
 		if (M.need_gl)
 			b_vis = add_zero(text("[]", num2hex(rand(10, 1400))), 3)
-			//M.disabilities = M.disabilities | 1
-			//M << "\blue You need glasses!"
 		else
 			b_vis = "5A7"
 
 		var/epil
 		if (M.be_epil)
 			epil = add_zero(text("[]", num2hex(rand(10, 1400))), 3)
-			//M.disabilities = M.disabilities | 2
-			//M << "\blue You are epileptic!"
 		else
 			epil = "6CE"
 
 		var/cough
 		if (M.be_cough)
 			cough = add_zero(text("[]", num2hex(rand(10, 1400))), 3)
-			//M.disabilities = M.disabilities | 4
-			//M << "\blue You have a chronic coughing syndrome!"
 		else
 			cough = "EC0"
 
 		var/Tourette
 		if (M.be_tur)
 			epil = add_zero(text("[]", num2hex(rand(10, 1400))), 3)
-			//M.disabilities = M.disabilities | 8
-			//M << "\blue You have Tourette syndrome!"
 		else
 			Tourette = "5AC"
 
 		var/stutter
 		if (M.be_stut)
 			stutter = add_zero(text("[]", num2hex(rand(10, 1400))), 3)
-			//M.disabilities = M.disabilities | 16
-			//M << "\blue You have a stuttering problem!"
 		else
 			stutter = "A50"
 

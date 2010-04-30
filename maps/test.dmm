@@ -1,0 +1,36 @@
+"a" = (/turf/space,/area)
+"b" = (/turf/station/r_wall,/area)
+"c" = (/obj/begin,/turf/station/floor,/area/start)
+"d" = (/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area)
+"e" = (/obj/grille,/obj/machinery/door/airlock{autoclose = 0; name = "Gas Escape Hatch"},/turf/station/floor,/area)
+"f" = (/obj/machinery/door/poddoor{id = "podcontrol"},/turf/station/floor,/area)
+"g" = (/turf/station/floor,/area)
+"h" = (/obj/machinery/alarm{dir = 8; pixel_y = 30},/turf/station/floor,/area)
+"i" = (/obj/machinery/light,/turf/station/floor,/area)
+"j" = (/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area/arrival/start)
+"k" = (/obj/machinery/door/airlock,/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area)
+"l" = (/obj/machinery/door/airlock,/turf/station/floor,/area)
+"m" = (/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
+"n" = (/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon,/turf/station/floor,/area)
+"o" = (/obj/machinery/door_control{desc = "A remote control switch to enable the escape pods."; id = "podcontrol"; name = "Escape Pod Access Control"; pixel_x = 24},/turf/station/floor,/area)
+"p" = (/obj/machinery/alarm{dir = 8; pixel_x = 32; pixel_y = 0},/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
+"q" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
+"r" = (/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaabcba
+adddbbbebbbbbba
+abbbbbfgbhibjba
+abdkdlfmbbgggba
+abdbbbfgnbggmba
+abdkdlfobbgggba
+abdbbbfpbggggba
+abdkdlfgbggggba
+abbbbbblbgggoba
+abgggggggggggba
+abqgggggggggmba
+abgggggggggggba
+abggrgggggrggba
+abbbbbbbbbbbbba
+aaaaaaaaaaaaaaa
+"}

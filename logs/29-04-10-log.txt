@@ -1,0 +1,298 @@
+00-01:ADMIN: Loading crban_keylist
+00-01:ADMIN: Loading crban_reason
+00-01:ADMIN: Loading crban_time
+00-01:ADMIN: Loading crban_bannedby
+00-01:ADMIN: Loading crban_iplist
+00-01:ADMIN: Loading crban_unbanned
+00-01:ADMIN: Loading crban_ComputerIDs
+00-01:ADMIN: Loading jobban_rank
+00-01:ADMIN: Updating jobbanfile!
+00-01:GAME: Finished building powernets (34 nets)
+00-01:ACCESS: Login: I-Aryn-I from 
+00-01:ACCESS: Logout: I-Aryn-I
+00-10:ADMIN: Loading crban_keylist
+00-10:ADMIN: Loading crban_reason
+00-10:ADMIN: Loading crban_time
+00-10:ADMIN: Loading crban_bannedby
+00-10:ADMIN: Loading crban_iplist
+00-10:ADMIN: Loading crban_unbanned
+00-10:ADMIN: Loading crban_ComputerIDs
+00-10:ADMIN: Loading jobban_rank
+00-10:ADMIN: Updating jobbanfile!
+00-10:GAME: Finished building powernets (34 nets)
+00-10:ACCESS: Login: I-Aryn-I from 
+00-10:GAME: starting game of sandbox
+00-10:ACCESS: Logout: I-Aryn-I
+00-37:ADMIN: Loading crban_keylist
+00-37:ADMIN: Loading crban_reason
+00-37:ADMIN: Loading crban_time
+00-37:ADMIN: Loading crban_bannedby
+00-37:ADMIN: Loading crban_iplist
+00-37:ADMIN: Loading crban_unbanned
+00-37:ADMIN: Loading crban_ComputerIDs
+00-37:ADMIN: Loading jobban_rank
+00-37:ADMIN: Updating jobbanfile!
+00-37:GAME: Finished building powernets (34 nets)
+00-37:ACCESS: Login: I-Aryn-I from 
+00-37:GAME: I-Aryn-I entered as Cogina Ironpick
+00-37:ADMIN: I-Aryn-I used start_now
+00-37:GAME: starting game of sandbox
+00-37:ADMIN: I-Aryn-I jumped to Fire Station
+00-37:ACCESS: Logout: I-Aryn-I
+00-45:ADMIN: Loading crban_keylist
+00-45:ADMIN: Loading crban_reason
+00-45:ADMIN: Loading crban_time
+00-45:ADMIN: Loading crban_bannedby
+00-45:ADMIN: Loading crban_iplist
+00-45:ADMIN: Loading crban_unbanned
+00-45:ADMIN: Loading crban_ComputerIDs
+00-45:ADMIN: Loading jobban_rank
+00-45:ADMIN: Updating jobbanfile!
+00-45:GAME: Finished building powernets (34 nets)
+00-45:ACCESS: Login: I-Aryn-I from 
+00-45:GAME: I-Aryn-I entered as Cogina Ironpick
+00-45:ADMIN: I-Aryn-I used start_now
+00-45:GAME: starting game of sandbox
+00-45:ACCESS: Logout: I-Aryn-I
+00-48:ADMIN: Loading crban_keylist
+00-48:ADMIN: Loading crban_reason
+00-48:ADMIN: Loading crban_time
+00-48:ADMIN: Loading crban_bannedby
+00-48:ADMIN: Loading crban_iplist
+00-48:ADMIN: Loading crban_unbanned
+00-48:ADMIN: Loading crban_ComputerIDs
+00-48:ADMIN: Loading jobban_rank
+00-48:ADMIN: Updating jobbanfile!
+00-48:GAME: Finished building powernets (34 nets)
+00-48:ACCESS: Login: I-Aryn-I from 
+00-48:GAME: I-Aryn-I entered as Cogina Ironpick
+00-48:ADMIN: I-Aryn-I used start_now
+00-48:GAME: starting game of sandbox
+00-48:ACCESS: Logout: I-Aryn-I
+00-50:ADMIN: Loading crban_keylist
+00-50:ADMIN: Loading crban_reason
+00-50:ADMIN: Loading crban_time
+00-50:ADMIN: Loading crban_bannedby
+00-50:ADMIN: Loading crban_iplist
+00-50:ADMIN: Loading crban_unbanned
+00-50:ADMIN: Loading crban_ComputerIDs
+00-50:ADMIN: Loading jobban_rank
+00-50:ADMIN: Updating jobbanfile!
+00-50:GAME: Finished building powernets (34 nets)
+00-50:ACCESS: Login: I-Aryn-I from 
+00-50:GAME: I-Aryn-I entered as Cogina Ironpick
+00-50:ADMIN: I-Aryn-I delayed the game.
+00-50:ADMIN: I-Aryn-I used start_now
+00-50:GAME: starting game of sandbox
+00-50:ADMIN: I-Aryn-I jumped to Tool Storage
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/plasmavat
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/plasmavat
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+00-50:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+00-50:ACCESS: Logout: I-Aryn-I
+01-01:ADMIN: Loading crban_keylist
+01-01:ADMIN: Loading crban_reason
+01-01:ADMIN: Loading crban_time
+01-01:ADMIN: Loading crban_bannedby
+01-01:ADMIN: Loading crban_iplist
+01-01:ADMIN: Loading crban_unbanned
+01-01:ADMIN: Loading crban_ComputerIDs
+01-01:ADMIN: Loading jobban_rank
+01-01:ADMIN: Updating jobbanfile!
+01-01:GAME: Finished building powernets (34 nets)
+01-01:ACCESS: Login: I-Aryn-I from 
+01-01:GAME: I-Aryn-I entered as Cogina Ironpick
+01-01:ADMIN: I-Aryn-I used start_now
+01-01:GAME: starting game of sandbox
+01-01:ADMIN: I-Aryn-I jumped to Atmospherics
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:ADMIN: I-Aryn-I modified Cogina Ironpick's oxyloss to 0
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:ADMIN: I-Aryn-I modified high-capacity vent's p_dir to 8
+01-01:ADMIN: I-Aryn-I modified high-capacity vent's dir to 8
+01-01:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+01-01:GAME: Finished building powernets (34 nets)
+01-01:MATTACK: Cogina Ironpick (I-Aryn-I) attacked Cogina Ironpick(I-Aryn-I) with Butter-knife
+01-01:MATTACK: Cogina Ironpick (I-Aryn-I) attacked Cogina Ironpick(I-Aryn-I) with the salami
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) clicked on Cogina Ironpick(I-Aryn-I) with a syringe
+01-01:MATTACK: Cogina Ironpick(I-Aryn-I) injected Cogina Ironpick(I-Aryn-I) with a syringe filled with 
+01-01:ACCESS: Logout: I-Aryn-I
+14-53:ADMIN: Loading crban_keylist
+14-53:ADMIN: Loading crban_reason
+14-53:ADMIN: Loading crban_time
+14-53:ADMIN: Loading crban_bannedby
+14-53:ADMIN: Loading crban_iplist
+14-53:ADMIN: Loading crban_unbanned
+14-53:ADMIN: Loading crban_ComputerIDs
+14-53:ADMIN: Loading jobban_rank
+14-53:ADMIN: Updating jobbanfile!
+14-53:GAME: Finished building powernets (34 nets)
+14-53:ACCESS: Login: I-Aryn-I from 
+14-53:GAME: I-Aryn-I entered as Cogina Ironpick
+14-53:ADMIN: I-Aryn-I used start_now
+14-53:GAME: starting game of sandbox
+14-53:ACCESS: Logout: I-Aryn-I
+14-57:ADMIN: Loading crban_keylist
+14-57:ADMIN: Loading crban_reason
+14-57:ADMIN: Loading crban_time
+14-57:ADMIN: Loading crban_bannedby
+14-57:ADMIN: Loading crban_iplist
+14-57:ADMIN: Loading crban_unbanned
+14-57:ADMIN: Loading crban_ComputerIDs
+14-57:ADMIN: Loading jobban_rank
+14-57:ADMIN: Updating jobbanfile!
+14-57:GAME: Finished building powernets (34 nets)
+14-57:ACCESS: Login: I-Aryn-I from 
+14-57:GAME: I-Aryn-I entered as Cogina Ironpick
+14-57:ADMIN: I-Aryn-I used start_now
+14-57:GAME: starting game of sandbox
+14-57:ADMIN: I-Aryn-I jumped to AI Upload Chamber
+14-57:ADMIN: I-Aryn-I jumped to AI Upload Chamber
+14-57:ADMIN: I-Aryn-I jumped to South Security Station
+14-57:ACCESS: Logout: I-Aryn-I
+15-01:ADMIN: Loading crban_keylist
+15-01:ADMIN: Loading crban_reason
+15-01:ADMIN: Loading crban_time
+15-01:ADMIN: Loading crban_bannedby
+15-01:ADMIN: Loading crban_iplist
+15-01:ADMIN: Loading crban_unbanned
+15-01:ADMIN: Loading crban_ComputerIDs
+15-01:ADMIN: Loading jobban_rank
+15-01:ADMIN: Updating jobbanfile!
+15-01:GAME: Finished building powernets (34 nets)
+15-01:ACCESS: Login: I-Aryn-I from 
+15-01:GAME: I-Aryn-I entered as Cogina Ironpick
+15-01:ADMIN: I-Aryn-I used start_now
+15-01:GAME: starting game of sandbox
+15-01:ADMIN: I-Aryn-I jumped to AI Upload Chamber
+15-01:ADMIN: I-Aryn-I jumped to Network Storage
+15-01:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+15-01:ADMIN: I-Aryn-I modified Cogina Ironpick's firemut to 1
+15-01:ADMIN: I-Aryn-I modified Cogina Ironpick's nodamage to 1
+15-01:ACCESS: Logout: I-Aryn-I
+15-14:ADMIN: Loading crban_keylist
+15-14:ADMIN: Loading crban_reason
+15-14:ADMIN: Loading crban_time
+15-14:ADMIN: Loading crban_bannedby
+15-14:ADMIN: Loading crban_iplist
+15-14:ADMIN: Loading crban_unbanned
+15-14:ADMIN: Loading crban_ComputerIDs
+15-14:ADMIN: Loading jobban_rank
+15-14:ADMIN: Updating jobbanfile!
+15-14:ADMIN: Loading crban_keylist
+15-14:ADMIN: Loading crban_reason
+15-14:ADMIN: Loading crban_time
+15-14:ADMIN: Loading crban_bannedby
+15-14:ADMIN: Loading crban_iplist
+15-14:ADMIN: Loading crban_unbanned
+15-14:ADMIN: Loading crban_ComputerIDs
+15-14:ADMIN: Loading jobban_rank
+15-14:ADMIN: Updating jobbanfile!
+15-15:ADMIN: Loading crban_keylist
+15-15:ADMIN: Loading crban_reason
+15-15:ADMIN: Loading crban_time
+15-15:ADMIN: Loading crban_bannedby
+15-15:ADMIN: Loading crban_iplist
+15-15:ADMIN: Loading crban_unbanned
+15-15:ADMIN: Loading crban_ComputerIDs
+15-15:ADMIN: Loading jobban_rank
+15-15:ADMIN: Updating jobbanfile!
+15-15:GAME: Finished building powernets (34 nets)
+15-15:ACCESS: Login: I-Aryn-I from 
+15-15:GAME: I-Aryn-I entered as Cogina Ironpick
+15-15:ADMIN: I-Aryn-I used start_now
+15-15:GAME: starting game of sandbox
+15-15:ADMIN: I-Aryn-I jumped to Southwest Hallway
+15-15:ADMIN: I-Aryn-I jumped to Engine Canister Storage Room
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-15:ACCESS: Logout: I-Aryn-I
+15-40:ADMIN: Loading crban_keylist
+15-40:ADMIN: Loading crban_reason
+15-40:ADMIN: Loading crban_time
+15-40:ADMIN: Loading crban_bannedby
+15-40:ADMIN: Loading crban_iplist
+15-40:ADMIN: Loading crban_unbanned
+15-40:ADMIN: Loading crban_ComputerIDs
+15-40:ADMIN: Loading jobban_rank
+15-40:ADMIN: Updating jobbanfile!
+15-40:GAME: Finished building powernets (34 nets)
+15-40:ACCESS: Login: I-Aryn-I from 
+15-40:GAME: I-Aryn-I entered as Cogina Ironpick
+15-40:ADMIN: I-Aryn-I used start_now
+15-40:GAME: starting game of sandbox
+15-40:ADMIN: I-Aryn-I jumped to Tool Storage
+15-40:ACCESS: Logout: I-Aryn-I
+15-44:ADMIN: Loading crban_keylist
+15-44:ADMIN: Loading crban_reason
+15-44:ADMIN: Loading crban_time
+15-44:ADMIN: Loading crban_bannedby
+15-44:ADMIN: Loading crban_iplist
+15-44:ADMIN: Loading crban_unbanned
+15-44:ADMIN: Loading crban_ComputerIDs
+15-44:ADMIN: Loading jobban_rank
+15-44:ADMIN: Updating jobbanfile!
+15-44:GAME: Finished building powernets (34 nets)
+15-44:ACCESS: Login: I-Aryn-I from 
+15-44:GAME: I-Aryn-I entered as Cogina Ironpick
+15-44:ADMIN: I-Aryn-I used start_now
+15-44:GAME: starting game of sandbox
+15-44:ADMIN: I-Aryn-I jumped to Supply Warehouse
+15-44:ADMIN: I-Aryn-I jumped to Network Storage
+15-44:ADMIN: I-Aryn-I jumped to Engine Control Room
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/plasmavat
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
+15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/plasmavat
+15-44:ACCESS: Logout: I-Aryn-I
+18-52:ADMIN: Loading crban_keylist
+18-52:ADMIN: Loading crban_reason
+18-52:ADMIN: Loading crban_time
+18-52:ADMIN: Loading crban_bannedby
+18-52:ADMIN: Loading crban_iplist
+18-52:ADMIN: Loading crban_unbanned
+18-52:ADMIN: Loading crban_ComputerIDs
+18-52:ADMIN: Loading jobban_rank
+18-52:ADMIN: Updating jobbanfile!
+18-52:GAME: Finished building powernets (34 nets)
+18-52:GAME: starting game of traitor
+18-52:ACCESS: Login: Topkasa from 127.0.0.1
+18-52:GAME: Topkasa entered as Desmond Taggart
+18-52:ACCESS: Logout: Topkasa
+22-24:ADMIN: Loading crban_keylist
+22-24:ADMIN: Loading crban_reason
+22-24:ADMIN: Loading crban_time
+22-24:ADMIN: Loading crban_bannedby
+22-24:ADMIN: Loading crban_iplist
+22-24:ADMIN: Loading crban_unbanned
+22-24:ADMIN: Loading crban_ComputerIDs
+22-24:ADMIN: Loading jobban_rank
+22-24:ADMIN: Updating jobbanfile!
+22-24:GAME: Finished building powernets (34 nets)
+22-24:GAME: starting game of traitor
+22-24:ACCESS: Login: Topkasa from 127.0.0.1
+22-24:GAME: Topkasa entered as Desmond Taggart
+22-24:SAY: Genius/Topkasa : ;test
+22-24:ACCESS: Logout: Topkasa

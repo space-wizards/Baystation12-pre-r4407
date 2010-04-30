@@ -97,11 +97,11 @@
 				src.mach.icon_state = "mach1"
 			else
 				src.mach.icon_state = null
-		if (src.disabilities & 2)
+		if (src.disabilities & HEADACHEY)
 			if ((prob(1) && src.paralysis < 10 && src.r_epil < 1))
 				src << "\red You have a seizure!"
 				src.paralysis = max(10, src.paralysis)
-		if (src.disabilities & 4)
+		if (src.disabilities & COUGHY)
 			if ((prob(5) && src.paralysis <= 1 && src.r_ch_cou < 1))
 				src.drop_item()
 				spawn( 0 )
@@ -113,7 +113,7 @@
 				spawn( 0 )
 					emote("twitch")
 					return
-		if (src.disabilities & 16)
+		if (src.disabilities & NERVOUS)
 			if (prob(10))
 				src.stuttering = max(10, src.stuttering)
 		if ((src.internal && !( src.contents.Find(src.internal) )))
@@ -281,7 +281,7 @@
 					src.updatehealth()
 					plcheck = 1
 		var/mental_danger = 0
-		if (((src.r_epil > 0 && !( src.disabilities & 2 )) || (src.r_Tourette > 0 && !( src.disabilities & 8 ))))
+		if (((src.r_epil > 0 && !( src.disabilities & HEADACHEY )) || (src.r_Tourette > 0 && !( src.disabilities & TWITCHY ))))
 			src.stuttering = max(2, src.drowsyness)
 			mental_danger = 1
 			src.drowsyness = max(2, src.drowsyness)

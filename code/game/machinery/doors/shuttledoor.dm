@@ -28,7 +28,6 @@
 	sd_SetOpacity(0)
 	src.operating = 0
 	src.loc.buildlinks()
-	OpenDoor(src)
 	return
 
 /obj/shuttle/door/proc/close()
@@ -45,6 +44,5 @@
 
 	src.operating = 0
 	src.loc.buildlinks()
-	CloseDoor(src)
 	return
 
