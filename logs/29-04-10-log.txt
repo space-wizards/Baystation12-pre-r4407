@@ -267,3 +267,156 @@
 15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/oxygenvat
 15-44:ADMIN: I-Aryn-I created /obj/machinery/atmoalter/canister/vat/plasmavat
 15-44:ACCESS: Logout: I-Aryn-I
+20-15:ADMIN: Loading crban_keylist
+20-15:ADMIN: Loading crban_reason
+20-15:ADMIN: Loading crban_time
+20-15:ADMIN: Loading crban_bannedby
+20-15:ADMIN: Loading crban_iplist
+20-15:ADMIN: Loading crban_unbanned
+20-15:ADMIN: Loading crban_ComputerIDs
+20-15:ADMIN: Loading jobban_rank
+20-15:ADMIN: Updating jobbanfile!
+20-15:GAME: Finished building powernets (34 nets)
+20-15:ACCESS: Login: I-Aryn-I from 
+20-15:GAME: I-Aryn-I entered as Cogina Ironpick
+20-15:ADMIN: I-Aryn-I used start_now
+20-15:GAME: starting game of sandbox
+20-15:ADMIN: I-Aryn-I jumped to Teleporter Room
+20-15:ADMIN: I-Aryn-I jumped to Arrival Shuttle
+20-15:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+20-15:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+20-15:ACCESS: Logout: I-Aryn-I
+20-25:ADMIN: Loading crban_keylist
+20-25:ADMIN: Loading crban_reason
+20-25:ADMIN: Loading crban_time
+20-25:ADMIN: Loading crban_bannedby
+20-25:ADMIN: Loading crban_iplist
+20-25:ADMIN: Loading crban_unbanned
+20-25:ADMIN: Loading crban_ComputerIDs
+20-25:ADMIN: Loading jobban_rank
+20-25:ADMIN: Updating jobbanfile!
+20-25:GAME: Finished building powernets (34 nets)
+20-25:ACCESS: Login: I-Aryn-I from 
+20-25:GAME: I-Aryn-I entered as Cogina Ironpick
+20-25:ADMIN: I-Aryn-I used start_now
+20-25:GAME: starting game of sandbox
+20-25:ADMIN: I-Aryn-I jumped to EVA Storage
+20-25:ADMIN: I-Aryn-I jumped to Arrival Shuttle
+20-25:ADMIN: I-Aryn-I jumped to Supplies Office
+20-25:ADMIN: I-Aryn-I jumped to Forensics Lab
+20-25:ADMIN: I-Aryn-I jumped to Supplies Office
+20-25:ADMIN: I-Aryn-I modified Escape Pod's y to 54
+20-25:ADMIN: I-Aryn-I jumped to Prison Shuttle
+20-25:ADMIN: I-Aryn-I jumped to Supply Shuttle
+20-25:ADMIN: I-Aryn-I jumped to Southeast Maintenance Corridor
+20-25:ADMIN: I-Aryn-I used secret activateprison
+20-25:ADMIN: I-Aryn-I created /obj/bomb/radio
+20-25:ADMIN: I-Aryn-I created /obj/bomb/radio
+20-25:ADMIN: I-Aryn-I created /obj/bomb/radio
+20-25:ADMIN: I-Aryn-I created /obj/item/weapon/radio/signaler
+20-25:GAME: Finished building powernets (47 nets)
+20-25:ACCESS: Logout: I-Aryn-I
+21-05:ADMIN: Loading crban_keylist
+21-05:ADMIN: Loading crban_reason
+21-05:ADMIN: Loading crban_time
+21-05:ADMIN: Loading crban_bannedby
+21-05:ADMIN: Loading crban_iplist
+21-05:ADMIN: Loading crban_unbanned
+21-05:ADMIN: Loading crban_ComputerIDs
+21-05:ADMIN: Loading jobban_rank
+21-05:ADMIN: Updating jobbanfile!
+21-05:ADMIN: Loading crban_keylist
+21-05:ADMIN: Loading crban_reason
+21-05:ADMIN: Loading crban_time
+21-05:ADMIN: Loading crban_bannedby
+21-05:ADMIN: Loading crban_iplist
+21-05:ADMIN: Loading crban_unbanned
+21-05:ADMIN: Loading crban_ComputerIDs
+21-05:ADMIN: Loading jobban_rank
+21-05:ADMIN: Updating jobbanfile!
+21-05:GAME: Finished building powernets (34 nets)
+21-05:ACCESS: Login: I-Aryn-I from 
+21-05:GAME: I-Aryn-I entered as Cogina Ironpick
+21-05:ADMIN: I-Aryn-I used start_now
+21-05:GAME: starting game of sandbox
+21-05:GAME: Finished building powernets (34 nets)
+21-05:ACCESS: Login: I-Aryn-I from 
+21-05:ADMIN: Announce: I-Aryn-I : Sexy
+21-05:GAME: starting game of sandbox
+21-05:ADMIN: I-Aryn-I jumped to Supply Warehouse
+21-05:ADMIN: I-Aryn-I spawned the event Ion Storm.
+21-05:ADMIN: I-Aryn-I jumped to Supply Warehouse
+21-05:ADMIN: I-Aryn-I jumped to Southeast Maintenance Corridor
+21-05:ACCESS: Logout: I-Aryn-I
+21-05:ADMIN: I-Aryn-I created /obj/item/weapon/card/id/captains_spare
+21-05:ADMIN: I-Aryn-I created /obj/item/weapon/card/id/captains_spare
+21-05:ADMIN: I-Aryn-I created /obj/item/weapon/card/id/syndicate
+21-05:GAME: Rebooting due to end of game
+21-05:ACCESS: Logout: I-Aryn-I
+21-23:ADMIN: Loading crban_keylist
+21-23:ADMIN: Loading crban_reason
+21-23:ADMIN: Loading crban_time
+21-23:ADMIN: Loading crban_bannedby
+21-23:ADMIN: Loading crban_iplist
+21-23:ADMIN: Loading crban_unbanned
+21-23:ADMIN: Loading crban_ComputerIDs
+21-23:ADMIN: Loading jobban_rank
+21-23:ADMIN: Updating jobbanfile!
+21-23:GAME: Finished building powernets (34 nets)
+21-23:ACCESS: Login: I-Aryn-I from 
+21-23:ADMIN: I-Aryn-I delayed the game.
+21-23:ADMIN: I-Aryn-I set the mode as secret.
+21-23:ADMIN: I-Aryn-I used start_now
+21-23:GAME: starting game of wizard
+21-23:GAME: I-Aryn-I entered as Cogina Ironpick
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA TOXINS
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA CHAPEL
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : OLIOCH MINTERIDAS
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+21-23:ADMIN: I-Aryn-I Healed/Revived I-Aryn-I
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA ENGINE
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA CREW QUARTERS
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA ENGINE
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : TALLI VERITHA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA HALLWAY
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:ADMIN: I-Aryn-I modified Escape Pod's y to 54
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA BRIDGE
+21-23:SAY: Cogina Ironpick/I-Aryn-I : AULIE OXIN FIERA
+21-23:SAY: Cogina Ironpick/I-Aryn-I : SCYAR NILA STORAGE
+21-23:SAY: Cogina Ironpick/I-Aryn-I : *blash
+21-23:SAY: Cogina Ironpick/I-Aryn-I : *boxcar
+21-23:SAY: Cogina Ironpick/I-Aryn-I : *struckdown
+21-23:SAY: Cogina Ironpick/I-Aryn-I : *FLATULENCE
+21-23:SAY: Cogina Ironpick/I-Aryn-I : *deathgasp
+21-23:MATTACK: Unknown(I-Aryn-I)has shot a taser round at the floor
+21-23:MATTACK: Unknown(I-Aryn-I)has shot a taser round at the floor
+21-23:MATTACK: Unknown(I-Aryn-I)has shot a taser round at Escape Shuttle
+21-23:GAME: Rebooting due to end of game
+21-23:ACCESS: Logout: I-Aryn-I
+22-08:ADMIN: Loading crban_keylist
+22-08:ADMIN: Loading crban_reason
+22-08:ADMIN: Loading crban_time
+22-08:ADMIN: Loading crban_bannedby
+22-08:ADMIN: Loading crban_iplist
+22-08:ADMIN: Loading crban_unbanned
+22-08:ADMIN: Loading crban_ComputerIDs
+22-08:ADMIN: Loading jobban_rank
+22-08:ADMIN: Updating jobbanfile!
+22-08:GAME: Finished building powernets (34 nets)
+22-08:ACCESS: Login: I-Aryn-I from 
+22-08:GAME: I-Aryn-I entered as Cogina Ironpick
+22-08:ACCESS: Logout: I-Aryn-I

@@ -986,15 +986,27 @@
 					var/area/A = locate(/area/shuttle_prison)
 					for (var/area/B in A.superarea.areas)
 						for(var/atom/movable/AM as mob|obj in B)
+							var/lum = 0
+							if(AM.luminosity)
+								lum = AM.luminosity
+								AM.sd_SetLuminosity(0)
 							AM.z = 1
 							AM.Move()
+							if(lum)
+								AM.sd_SetLuminosity(lum)
 					messageadmins("\blue [usr.key] sent the prison shuttle to the station.")
 				if("deactivateprison")
 					var/area/A = locate(/area/shuttle_prison)
 					for (var/area/B in A.superarea.areas)
 						for(var/atom/movable/AM as mob|obj in B)
+							var/lum = 0
+							if(AM.luminosity)
+								lum = AM.luminosity
+								AM.sd_SetLuminosity(0)
 							AM.z = 2
 							AM.Move()
+							if(lum)
+								AM.sd_SetLuminosity(lum)
 					messageadmins("\blue [usr.key] sent the prison shuttle back.")
 				if("toggleprisonstatus")
 					for(var/obj/machinery/computer/prison_shuttle/PS in world)

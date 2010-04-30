@@ -4318,8 +4318,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/visible = 1.0
 	var/operating = null
 	anchored = 1.0
-	block_zoning = 1
-	is_door = 1
 /obj/start
 	name = "start"
 	icon = 'screen1.dmi'

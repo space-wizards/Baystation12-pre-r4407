@@ -823,6 +823,7 @@ proc
 	OpenDoor(atom/A) //This is called when a door is opened between two zones, to connect them.
 		////world << "Opening door..."
 		if(moving_zone) return
+		if(istype(A.loc,/turf/station/shuttle)) return
 		A.is_open = 1
 		//if(A.block_zoning) A.block_zoning = 0
 		if(!A.connected_zones || null_entries(A.connected_zones))
@@ -857,6 +858,7 @@ proc
 
 	CloseDoor(atom/A) //This is called when a door is closed between two zones, to subtract the flow.
 		if(moving_zone) return
+		if(istype(A.loc,/turf/station/shuttle)) return
 		A.is_open = 0
 		if(!A.block_zoning) A.block_zoning = 1
 		////world << "Closing Door"
@@ -959,6 +961,7 @@ proc
 			CloseDoor(A)
 	TurnWindow(obj/window/W,ndir)
 		//world << "<u>Window turned: [W]([W.x],[W.y])</u>"
+		if(!W.loc:zone) return
 		if(ndir == W.dir) return
 		if(moving_zone) return
 		var
@@ -1005,6 +1008,7 @@ proc
 
 	MoveWindow(obj/window/W,turf/nloc)
 		//world << "<u>Window moved: [W]([W.x],[W.y])</u>"
+		if(!W.loc:zone || !nloc.zone) return
 		if(W.dir == SOUTHWEST)
 			W.block_zoning = 0
 			OpenWall(W)
@@ -1058,6 +1062,7 @@ proc
 		W.loc = T
 	DelWindow(obj/window/W)
 		//world << "<u>Window deleted: [W]([W.x],[W.y])</u>"
+		if(!W.loc:zone) return
 		if(W.dir == SOUTHWEST)
 			W.block_zoning = 0
 			OpenWall(W)
