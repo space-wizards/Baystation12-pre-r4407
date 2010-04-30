@@ -300,6 +300,7 @@
 
 /obj
 	var/datum/module/mod
+	var/pathweight = 1
 
 /obj/mark
 		var/mark = ""
