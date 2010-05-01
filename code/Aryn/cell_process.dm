@@ -5,7 +5,19 @@ turf/proc
 		else
 			return 0
 
+/turf/proc/FindLinkedTurfs()
 
+	var/list/L = list(  )
+	if(airN)
+		L += linkN
+	if(airS)
+		L += linkS
+	if(airE)
+		L += linkE
+	if(airW)
+		L += linkW
+
+	return L
 
 /obj/move/CheckPass(O as mob|obj)
 	return !( src.density )

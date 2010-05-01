@@ -122,7 +122,9 @@
 	else
 		leak_to_turf(2)
 
-
+/obj/machinery/pipes/New()
+	..()
+	name = replace(name, " \[ALWAYSSHOW]", "") //Remove a tag used on the map editor
 
 /obj/machinery/pipeline/proc/leak_to_turf(var/port)
 	var/turf/T
@@ -203,6 +205,9 @@ var/list/lines = list()
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
 		//Messes up plnum, thus removed.
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
+
+	for(var/obj/machinery/pipes/P in world)
+		P.update()
 
 // return a list of pipes (not including terminating machine)
 
@@ -366,23 +371,6 @@ var/list/lines = list()
 //	src.gas.turf_add(src.loc, -1.0)
 	return
 
-
-/*
-/obj/machinery/pipes/process()
-*/
-
-/obj/machinery/pipes/New()
-
-	..()
-
-	//If we want to be able to make pipes mid-game,
-	//Setting the dir like that us unfortunately not allowed.
-	/*if(istype(src, /obj/machinery/pipes/heat_exch))
-		h_dir = text2num(icon_state)
-	else
-		p_dir = text2num(icon_state)*/
-
-
 /obj/machinery/pipes/ispipe()		// return true since this is a pipe
 	return 1
 
@@ -501,9 +489,8 @@ var/list/lines = list()
 	var/turf/T = get_step_3d(S, mdir)
 
 	for(var/obj/machinery/M in T.contents)
-		if(M.level == level)
-			if(M.p_dir & flip)
-				return M
+		if(M.p_dir & flip) //Removed an M.level == level check, because fuck that we neither need nor want such a check.
+			return M
 
 	return null
 

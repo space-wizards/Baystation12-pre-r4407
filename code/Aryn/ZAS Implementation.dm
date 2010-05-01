@@ -152,8 +152,16 @@ proc/WinCheck(turf/T,d)
 obj/machinery/door/block_zoning = 1
 obj/machinery/door/poddoor/block_zoning = 1
 obj/machinery/door/firedoor/is_open = 1
-obj/shuttle/door/block_zoning = 1
-obj/move/wall/block_zoning = 1
+obj/move/wall/New()
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
+obj/move/wall/Move()
+	if(isturf(loc))
+		loc:accept_zoning = 1
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
 
 //turf/verb/Show_Zone()
 //	set src in view()

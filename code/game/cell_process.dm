@@ -454,36 +454,6 @@
 		//Foreach goto(40)
 
 
-
-
-/turf/proc/FindLinkedTurfs()
-
-
-	//if (locate(/obj/move, src))
-	//	return list(  )
-
-	var/list/L = list(  )
-	if(airN)
-		L += linkN
-	if(airS)
-		L += linkS
-	if(airE)
-		L += linkE
-	if(airW)
-		L += linkW
-
-/*
-	for(var/turf/T in L)
-		var/obj/move/O = locate(/obj/move, T)
-		if (O)
-			L -= T
-			if (O.updatecell)
-				L += O
-		//Foreach goto(333)
-*/
-	return L
-
-
 /turf/proc/report()
 	return "[src.type] [x] [y] [z]"
 

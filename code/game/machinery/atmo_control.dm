@@ -37,7 +37,6 @@
 
 /obj/machinery/meter/New()
 	..()
-	src.target = locate(/obj/machinery/pipes, src.loc)
 	average = 0
 	return
 
@@ -51,6 +50,7 @@
 		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
 
 /obj/machinery/meter/process()
+	src.target = locate(/obj/machinery/pipes, src.loc)
 	if(!target)
 		icon_state = "meterX"
 		return
@@ -76,14 +76,6 @@
 	else
 		usr << "\blue <B>You are too far away.</B>"
 	return
-
-
-///obj/machinery/meter/proc/pressure()
-//
-//	if(src.target && src.target.gas)
-//		return (average * target.gas.temperature)/100000.0
-//	else
-//		return 0
 
 
 /obj/machinery/atmoalter/siphs/New()
