@@ -221,8 +221,8 @@ heat is conserved between exchanges
 ---------------------------- */
 
 //fractional multipliers of heat
-#define TURF_ADD_FRAC 0.95		//cooling due to release of gas into tile
-#define TURF_TAKE_FRAC 1.06		//heating due to pressurization into pipework
+#define TURF_ADD_FRAC 1		//cooling due to release of gas into tile
+#define TURF_TAKE_FRAC 1		//heating due to pressurization into pipework
 
 // Not used?
 /obj/substance/gas/leak(T as turf)

@@ -722,7 +722,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	old_safe = safe
 	A.atmosalert(safe, src)
-	src.icon_state = text("alarm:[]", !( safe == 2 ))
+	src.icon_state = text("alarm:[]", safe)
 
 	return
 

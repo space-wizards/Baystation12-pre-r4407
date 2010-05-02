@@ -38,7 +38,7 @@ turf/proc
 		if(n) poison += n//zone.gases["Plasma"] += n
 		else
 			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
-			return per_turf("Plasma") + poison
+			return poison
 	n2(n)
 		if(zone && n)
 			zone.gases["N2"] += n
@@ -49,7 +49,7 @@ turf/proc
 		if(zone && n) sl_gas += n//zone.gases["N2O"] += n
 		else
 			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
-			return per_turf("N2O") + sl_gas
+			return sl_gas
 	co2(n)
 		if(zone && n) zone.gases["CO2"] += n
 		else
@@ -58,7 +58,10 @@ turf/proc
 	per_turf(g)
 		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return CELLSTANDARD
 		if(zone)
-			return zone.per_turf(g)
+			if(g)
+				return zone.per_turf(g)
+			else
+				return zone.per_turf()+poison+sl_gas
 		else
 			return 0
 

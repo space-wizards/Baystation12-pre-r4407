@@ -4,14 +4,6 @@
 
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\Aryn code\game code\game\admin code\game\area code\game\gamemodes code\game\gamemodes\centcom code\game\gamemodes\wizard code\game\machinery code\game\machinery\computernet code\game\machinery\doors code\game\machinery\pipe code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey 
-FILE: code\game\cellautomata.dm
-LAST_COMPILE_TIME: 1272596691
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -55,11 +47,13 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/22"
 #define FILE_DIR ".git/objects/23"
 #define FILE_DIR ".git/objects/24"
+#define FILE_DIR ".git/objects/25"
 #define FILE_DIR ".git/objects/26"
 #define FILE_DIR ".git/objects/2a"
 #define FILE_DIR ".git/objects/2b"
 #define FILE_DIR ".git/objects/2c"
 #define FILE_DIR ".git/objects/2d"
+#define FILE_DIR ".git/objects/2f"
 #define FILE_DIR ".git/objects/30"
 #define FILE_DIR ".git/objects/31"
 #define FILE_DIR ".git/objects/32"
@@ -77,6 +71,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/42"
 #define FILE_DIR ".git/objects/43"
 #define FILE_DIR ".git/objects/44"
+#define FILE_DIR ".git/objects/45"
 #define FILE_DIR ".git/objects/46"
 #define FILE_DIR ".git/objects/47"
 #define FILE_DIR ".git/objects/49"
@@ -94,6 +89,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/55"
 #define FILE_DIR ".git/objects/56"
 #define FILE_DIR ".git/objects/57"
+#define FILE_DIR ".git/objects/58"
 #define FILE_DIR ".git/objects/59"
 #define FILE_DIR ".git/objects/5a"
 #define FILE_DIR ".git/objects/5c"
@@ -208,6 +204,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR ".git/objects/db"
 #define FILE_DIR ".git/objects/dd"
 #define FILE_DIR ".git/objects/de"
+#define FILE_DIR ".git/objects/df"
 #define FILE_DIR ".git/objects/e0"
 #define FILE_DIR ".git/objects/e1"
 #define FILE_DIR ".git/objects/e2"
@@ -351,6 +348,7 @@ AUTO_FILE_DIR: ON
 #include "code\setup.dm"
 #include "code\Aryn\Airflow.dm"
 #include "code\Aryn\Fire.dm"
+#include "code\Aryn\Pipes.dm"
 #include "code\Aryn\ZAS Implementation.dm"
 #include "code\Aryn\ZAS MkII.dm"
 #include "code\Aryn\ZAS Plasma.dm"
@@ -644,5 +642,5 @@ AUTO_FILE_DIR: ON
 #include "code\unused\musicplayer.dm"
 #include "code\unused\vehicle.dm"
 #include "interface\skin.dmf"
-#include "maps\Bay Station 12 alpha.dmp"
+#include "maps\test.dmm"
 // END_INCLUDE

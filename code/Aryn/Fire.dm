@@ -1,16 +1,16 @@
 #define T0C 273.15					// 0degC
 #define T20C 293.15					// 20degC
 
-#define FIREOFFSET 505				//bias for starting firelevel
-#define FIREQUOT 15000				//divisor to get target temp from firelevel
-#define FIRERATE 5					//divisor of temp difference rate of change
+var/global/FIREOFFSET = 505				//bias for starting firelevel
+var/global/FIREQUOT = 15000				//divisor to get target temp from firelevel
+var/global/FIRERATE = 5					//divisor of temp difference rate of change
 
 #define CELLSTANDARD 3600000.0
 
-/*
-Average 1 tank fire is 500C.
-Multiple tanks can accelerate it to 1500+C at which point EVERYONE DIES! the end.
-*/
+var/global/FIRE_SPREAD_DELAY = 3
+//Changes the rate at which fire processes, leading to faster spread, faster temp increases, and faster extinguishing.
+
+var/global/GAS_FLOW_DELAY = 10 //This value is the delay for gas.
 
 turf/proc/temp_set(n)
 	if(zone)
@@ -18,19 +18,28 @@ turf/proc/temp_set(n)
 		if(zone.speakmychild) world << "Temperature set to [abs(n)]"
 var/fire_spread = 0
 proc/FireTicker()
+	var/fticks = 0
 	while(1)
-		sleep(5)
-		for(var/turf/station/T)
-			if(T.burn)
-				T.icon_state = "burning"
-				spawn T.Burn()
-			else if(T.icon_state == "burning")
-				T.unburn()
+		sleep(1)
+		fticks++
+		if(!ticker) continue
+		if(!(fticks % FIRE_SPREAD_DELAY))
+		//sleep(FIRE_SPREAD_DELAY)
+			//world << "Fire Spread!"
+			for(var/turf/station/T)
+				if(T.burn)
+					T.icon_state = "burning"
+					spawn T.Burn()
+				else if(T.icon_state == "burning")
+					T.unburn()
 
-			if(T.firelevel > 100000) T.burn = 1
-
-			if(T.poison || T.sl_gas)
-				spawn T.DistributeGas()
+				if(T.firelevel > 100000) T.burn = 1
+		//sleep(GAS_FLOW_DELAY)
+		if(!(fticks % GAS_FLOW_DELAY))
+			//world << "<b>Gas Flow!!</b>"
+			for(var/turf/station/T)
+				if(T.poison || T.sl_gas)
+					spawn T.DistributeGas()
 world/New()
 	..()
 	spawn(2) FireTicker()

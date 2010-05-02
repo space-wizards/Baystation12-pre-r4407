@@ -150,6 +150,8 @@ zone
 
 				sleep(zas_cycle)
 
+				if(!ticker) continue
+
 				if(temp <= 0) temp = 2.7
 
 				for(var/turf/space/S in contents)

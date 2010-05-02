@@ -9,9 +9,9 @@
 #define T0C 273.15					// 0degC
 #define T20C 293.15					// 20degC
 
-#define FIREOFFSET 505				//bias for starting firelevel
-#define FIREQUOT 15000				//divisor to get target temp from firelevel
-#define FIRERATE 5					//divisor of temp difference rate of change
+//#define FIREOFFSET 505				//bias for starting firelevel
+//#define FIREQUOT 15000				//divisor to get target temp from firelevel
+//#define FIRERATE 5					//divisor of temp difference rate of change
 
 #define NORMPIPERATE 400				//pipe-insulation rate divisor
 #define HEATPIPERATE 8					//heat-exch pipe insulation
@@ -45,6 +45,9 @@
 #define HEADCOVERSEYES 1024		// feel free to realloc these numbers for other purposes
 #define MASKCOVERSMOUTH 2048		// on other items, these are just for mask/head
 #define HEADCOVERSMOUTH 2048
+
+#define PLASMAGUARD 4096 //Guards against plasma getting into clothes and other porous items.
+						 //When used for canisters/tanks, an anti-corrosion liner has been applied.
 
 // channel numbers for power
 
