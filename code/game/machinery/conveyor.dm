@@ -128,7 +128,7 @@
 	else if (href_list["horn"])
 		for (var/obj/machinery/conveyor_klaxon/A in machines)
 			if (A.id == src.id)
-				transmitmessage(createmessagetomachine("SOUND", M))
+				transmitmessage(createmessagetomachine("SOUND", A))
 	src.updateUsrDialog()
 
 /obj/machinery/conveyor_control/updateicon()

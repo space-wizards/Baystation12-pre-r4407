@@ -22,7 +22,7 @@
 #define ONBACK 1			// Can be put in backpack slot
 #define TABLEPASS 2			// Can pass by a table or rack
 #define HALFMASK 4			// Mask only gets 1/2 of air supply from internals
-
+#define DEADLY 4			// Super-powerful weapon (???)
 #define HEADSPACE 4			// Head wear protects against space
 
 #define MASKINTERNALS 8		// Mask allows internals

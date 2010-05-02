@@ -286,7 +286,6 @@ var/map_loading = 1
 
 	main_hud1 = new /obj/hud(  )
 	main_hud2 = new /obj/hud/hud2(  )
-	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
 	while(map_loading)
 		sleep(10)

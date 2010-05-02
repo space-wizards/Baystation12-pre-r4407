@@ -221,6 +221,7 @@
 #include "code\game\machinery\router.dm"
 #include "code\game\machinery\secure_data.dm"
 #include "code\game\machinery\shuttle.dm"
+#include "code\game\machinery\spaceheater.dm"
 #include "code\game\machinery\sprinkler.dm"
 #include "code\game\machinery\supermed.dm"
 #include "code\game\machinery\supply_shuttle.dm"
