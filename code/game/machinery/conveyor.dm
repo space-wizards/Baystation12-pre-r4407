@@ -46,6 +46,26 @@
 /obj/machinery/conveyor/updateicon()
 	src.icon_state = text("[]", on && !(stat & (NOPOWER|BROKEN)))
 
+/obj/machinery/conveyor/receivemessage(var/message, var/obj/machinery/srcmachine)
+	if (..())
+		return 1
+
+	var/list/commands = dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
+
+	switch (commands[1])
+		if ("ON")
+			if (!on)
+				toggle()
+				return 1
+		if ("OFF")
+			if (on)
+				toggle()
+				return 1
+		if ("TOGGLE")
+			toggle()
+			return 1
+
+	return 0
 
 
 /obj/machinery/conveyor_control/New()
@@ -77,13 +97,13 @@
 
 /obj/machinery/conveyor_control/proc/toggle_power()
 	use_power(15)
-	view(4,src) << sound('sound/machinery/conveyor_control/use.wav', 0, 0, 2, 50)
+	hear_sound(sound('sound/machinery/conveyor_control/use.wav', 0, 0, 2, 50), 4)
 	state = !getstate()
 	src.updateicon()
 	spawn(15)
 		for(var/obj/machinery/conveyor/M in machines)
 			if (M.id == src.id)
-				M.toggle()
+				transmitmessage(createmessagetomachine("TOGGLE", M))
 
 /obj/machinery/conveyor_control/attack_hand(mob/user as mob)
 	if(..())
@@ -91,9 +111,9 @@
 	user.machine = src
 	var/dat = "<head><title>[name]</title></head><body>"
 	if (state)
-		dat += "Conveyor Belts are ON (<A HREF='?src=\ref[src];power=1'>Power Off</a>)<br>"
+		dat += "Conveyor Belts are ON (<A HREF='?src=\ref[src];power=1'>Turn Off</a>)<br>"
 	else
-		dat += "Conveyor Belts are OFF (<A HREF='?src=\ref[src];power=1'>Power ON</a>)<br>"
+		dat += "Conveyor Belts are OFF (<A HREF='?src=\ref[src];power=1'>Turn On</a>)<br>"
 	dat += "<A HREF='?src=\ref[src];horn=1'>Sound Horn</a>"
 
 	dat += "</body></html>"
@@ -108,7 +128,7 @@
 	else if (href_list["horn"])
 		for (var/obj/machinery/conveyor_klaxon/A in machines)
 			if (A.id == src.id)
-				A.soundwarning()
+				transmitmessage(createmessagetomachine("SOUND", M))
 	src.updateUsrDialog()
 
 /obj/machinery/conveyor_control/updateicon()
@@ -122,13 +142,26 @@
 	..()
 	updateicon()
 
-
 /obj/machinery/conveyor_klaxon/process()
 	if (stat & (NOPOWER|BROKEN))
 		return
 	use_power(5)
 	if (src.on)
 		use_power(10)
+
+/obj/machinery/conveyor_klaxon/receivemessage(var/message, var/obj/machinery/srcmachine)
+	if (..())
+		return 1
+
+	var/list/commands = dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
+
+	switch (commands[1])
+		if ("SOUND")
+			if (!on)
+				soundwarning()
+				return 1
+
+	return 0
 
 /obj/machinery/conveyor_klaxon/proc/soundwarning()
 	if (src.on || stat & (NOPOWER|BROKEN))

@@ -2741,7 +2741,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "wrap_paper"
 	var/amount = 20.0
 /obj/item/weapon/wrench
-	name = "wrench"
+	name = "Wrench"
 	icon_state = "wrench"
 	flags = 322.0
 	force = 5.0
@@ -4900,3 +4900,9 @@ obj/machinery/vendingmachine/soda
 	icon_state = "0-1"
 	var/mob/ai/ai = null
 
+/obj/machinery/spaceheater
+	name = "Space Heater"
+	icon = 'Stationobjs.dmi'
+	icon_state = "heater"
+	var/on = 0
+	var/maxoutput = 1 //TODO Figure out a scale for this
