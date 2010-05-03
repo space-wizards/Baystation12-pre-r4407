@@ -165,10 +165,12 @@ area/administrative/court/counsel
 	music = ""
 
 //Elevators
-area/elevators/centcom
-	name = "Centcom elevator"
+area/elevators
 	icon_state = "yellow"
+	sd_lighting = 0
 
+area/elevators/centcom
+	name = "Centcom Elevator"
 
 //Airlocks
 area/airlocks
@@ -476,17 +478,16 @@ area/rescue/firestation
 	music = ""
 
 // Solar Panels
-area/solar/east
-	name = "East Solar Panels"
+area/solar
 	icon_state = "yellow"
 	lightswitch = 0
 	music = ""
 
+area/solar/east
+	name = "East Solar Panels"
+
 area/solar/west
 	name = "West Solar Panels"
-	icon_state = "yellow"
-	lightswitch = 0
-	music = ""
 
 // Prison Station
 /area/prison/arrival

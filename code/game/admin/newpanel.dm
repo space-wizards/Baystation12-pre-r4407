@@ -41,8 +41,8 @@ client/Command(C as command_text)
 	At this point, a GIANT switch.  This should probably eventually be changed over to multiple smaller subroutines.
 	*/
 
-//	if (src.mob.machine)
-//		src.mob.machine.UIinput(C)
+	if (src.mob.machine)
+		src.mob.machine.UIinput(C)
 
 	if (src.holder)
 
@@ -270,8 +270,23 @@ client/proc/SetupAdminPanel()
 		SetupPanelAccessibility()
 
 client/proc/SetupPanelAccessibility()
-	//TODO Grey out controls you don't have access to
-	//     And let you access other controls that you do have access to
+	if (!src.holder) return
+	winset(src, "ap_roundcontrol.btndelay", "is-disabled=\"[src.holder.level < MINLEVEL_DELAYGAME]\"")
+	winset(src, "ap_roundcontrol.btnstartrestart", "is-disabled=\"[src.holder.level < MINLEVEL_STARTRESTART]\"")
+	winset(src, "ap_roundcontrol.btncallshuttle", "is-disabled=\"[src.holder.level < MINLEVEL_CALLSHUTTLE]\"")
+	winset(src, "ap_roundcontrol.allowenter", "is-disabled=\"[src.holder.level < MINLEVEL_TOGGLE_ENTERING]\"")
+	winset(src, "ap_roundcontrol.allowai", "is-disabled=\"[src.holder.level < MINLEVEL_TOGGLE_AI]\"")
+	winset(src, "ap_roundcontrol.allowooc", "is-disabled=\"[src.holder.level < MINLEVEL_TOGGLE_OOCTALK]\"")
+	winset(src, "ap_roundcontrol.allowabandon", "is-disabled=\"[src.holder.level < MINLEVEL_TOGGLE_ABANDON]\"")
+	winset(src, "ap_roundcontrol.world_normal", "is-disabled=\"[src.holder.level < MINLEVEL_CHANGERESTARTMODE]\"")
+	winset(src, "ap_roundcontrol.world_alldead", "is-disabled=\"[src.holder.level < MINLEVEL_CHANGERESTARTMODE]\"")
+	winset(src, "ap_roundcontrol.world_force", "is-disabled=\"[src.holder.level < MINLEVEL_CHANGERESTARTMODE]\"")
+	winset(src, "ap_roundcontrol.btnchangemodevote", "is-disabled=\"[src.holder.level < MINLEVEL_CONTROLVOTES]\"")
+	winset(src, "ap_roundcontrol.btnrestartvote", "is-disabled=\"[src.holder.level < MINLEVEL_CONTROLVOTES]\"")
+	winset(src, "ap_roundcontrol.btnkillvote", "is-disabled=\"[src.holder.level < MINLEVEL_CONTROLVOTES]\"")
+	winset(src, "ap_roundcontrol.btngamemode", "is-disabled=\"[src.holder.level < MINLEVEL_CHANGEMODE]\"")
+	winset(src, "ap_roundcontrol.btnreboot", "is-disabled=\"[src.holder.level < MINLEVEL_REBOOTWORLD]\"")
+
 
 client/proc/ap()
 	set name = "Administrator Panel 2.0"
@@ -280,7 +295,6 @@ client/proc/ap()
 	if(src.holder.level < MINLEVEL_SEEPANEL)
 		return alert("You do not have permission to see the panel.  Sux2BU")
 	winshow(src, "adminpanel",1)
-
 
 proc/worlddata()
 	return "Server active for [round(world.time/10)] game seconds.  Emergency shuttle is [shuttlecomming ? "en route" : "docked at [ shuttle_z == 1 ?"The Station":"CentCom"]"]"

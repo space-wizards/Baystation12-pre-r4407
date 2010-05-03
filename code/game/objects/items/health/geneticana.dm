@@ -11,9 +11,9 @@
 	user.show_message(text("\blue \t Clumsy: [isblockon(getblock(M.primarynew.struc_enzyme, LIGHTHEADED,3),LIGHTHEADED) ? "Yes" : "No"]"), 1)
 	user.show_message(text("\blue \t Twitch: [isblockon(getblock(M.primarynew.struc_enzyme, TWITCH,3),TWITCH) ? "Yes" : "No"]"), 1)
 	user.show_message(text("\blue \t Unknown: [isblockon(getblock(M.primarynew.struc_enzyme, XRAY,3),XRAY) ? "Yes" : "No"]"), 1)
-	user.show_message(text("\blue \t Nervous: [isblockon(getblock(M.primarynew.struc_enzyme, NERVOUS,3),NERVOUS) ? "Yes" : "No"]"), 1)
+	user.show_message(text("\blue \t Nervous: [isblockon(getblock(M.primarynew.struc_enzyme, ISNERVOUS,3),ISNERVOUS) ? "Yes" : "No"]"), 1)
 	user.show_message(text("\blue \t Unknown: [isblockon(getblock(M.primarynew.struc_enzyme, AURA,3),AURA) ? "Yes" : "No"]"), 1)
 	user.show_message(text("\blue \t Blind: [isblockon(getblock(M.primarynew.struc_enzyme, ISBLIND,3),ISBLIND) ? "Yes" : "No"]"), 1)
 	user.show_message(text("\blue \t Unknown: [isblockon(getblock(M.primarynew.struc_enzyme, TELEKINESIS,3),TELEKINESIS) ? "Yes" : "No"]"), 1)
-	user.show_message(text("\blue \t Deaf: [isblockon(getblock(M.primarynew.struc_enzyme, DEAF,3),DEAF) ? "Yes" : "No"]"), 1)
+	user.show_message(text("\blue \t Deaf: [isblockon(getblock(M.primarynew.struc_enzyme, ISDEAF,3),ISDEAF) ? "Yes" : "No"]"), 1)
 	return

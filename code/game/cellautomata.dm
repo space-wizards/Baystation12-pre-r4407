@@ -233,11 +233,11 @@ var/map_loading = 1
 	LIGHTHEADED = L2[6]
 	TWITCH = L2[7]
 	XRAY = L2[8]
-	NERVOUS = L2[9]
+	ISNERVOUS = L2[9]
 	AURA = L2[10]
 	ISBLIND = L2[11]
 	TELEKINESIS = L2[12]
-	DEAF = L2[13]
+	ISDEAF = L2[13]
 
 	for(var/i = 0, i<3, i++)
 		zombie_genemask += 1<<rand(3*8)//3 blocks * 8 bits per block
@@ -286,7 +286,6 @@ var/map_loading = 1
 
 	main_hud1 = new /obj/hud(  )
 	main_hud2 = new /obj/hud/hud2(  )
-	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
 	while(map_loading)
 		sleep(10)

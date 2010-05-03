@@ -855,6 +855,9 @@
 /mob/human/UpdateClothing()
 	..()
 
+	if (!src.hud_used)
+		return
+
 	if (src.monkeyizing)
 		return
 

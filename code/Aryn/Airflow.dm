@@ -174,9 +174,6 @@ atom/movable
 		. = ..()
 		if(airflow_speed > 0 && airflow_dest)
 			if(istype(A,/obj/item)) return .
-		//	A.overlays += 'Bump.dmi'
-		//	spawn(5)
-		//		A.overlays -= 'Bump.dmi'
 			//viewers(src) << "\red <b>[src] slams into [A]!</b>"
 			if(ismob(src) || (isobj(src) && !istype(src,/obj/item)))
 				for(var/mob/M in hearers(src))

@@ -108,7 +108,7 @@
 
 	var/list/commands = dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
 	if(commands.len < 1)
-		return
+		return 1
 	switch (commands[1])
 		if ("POWER")
 			switch (commands[2])

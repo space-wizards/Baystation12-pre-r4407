@@ -15,7 +15,6 @@
 			O << sound(B)
 	return
 
-
 /mob/verb/soundtoggle()
 	set name = "Sound Toggle"
 	if(src.besound == 0)

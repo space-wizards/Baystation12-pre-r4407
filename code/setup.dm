@@ -1,76 +1,83 @@
-#define NO_MONKEY_REVIVE 0
-#define ENABLE_ZOMBIE_GENE 0
+#define NO_MONKEY_REVIVE 0	// If set, H->M Doesn't revive the recipient of the shot
+#define ENABLE_ZOMBIE_GENE 0// If set, Zombies can be created by setting a random gene
 
-#define CELLSTANDARD 3600000.0		// gas capacity of cell at STP
+#define CELLSTANDARD 3.6e6	// Gas capacity of turf/canister at 100% normal atmospheric pressure
+#define O2STANDARD 7.56e5	// O2 standard value (21%)
+#define N2STANDARD 2.844e6	// N2 standard value (79%)
 
-#define O2STANDARD 756000.0			// O2 standard value (21%)
-#define N2STANDARD 2844000.0		// N2 standard value (79%)
+#define T0C 273.15			// 0degC
+#define T20C 293.15			// 20degC
 
-#define T0C 273.15					// 0degC
-#define T20C 293.15					// 20degC
+#define FIREOFFSET 505		// Bias for starting firelevel
+#define FIREQUOT 15000		// Divisor to get target temp from firelevel
+#define FIRERATE 5			// Divisor of temp difference rate of change
 
-#define FIREOFFSET 505				//bias for starting firelevel
-#define FIREQUOT 15000				//divisor to get target temp from firelevel
-#define FIRERATE 5					//divisor of temp difference rate of change
+#define NORMPIPERATE 400	// Pipe-insulation rate divisor
+#define HEATPIPERATE 8		// Heat-exch pipe insulation
+#define FLOWFRAC 0.99		// Fraction of gas transfered per process
 
-#define NORMPIPERATE 400				//pipe-insulation rate divisor
-#define HEATPIPERATE 8					//heat-exch pipe insulation
+#define UP 16				// Up direction, equivalent to Z-1 (Z levels are backwards in this codebase)
+#define DOWN 32				// Down direction, equivalent to Z+1 (Z levels are backwards in this codebase)
 
-#define FLOWFRAC 0.99				// fraction of gas transfered per process
+#define ONBACK 1			// Can be put in backpack slot
+#define TABLEPASS 2			// Can pass by a table or rack
+#define HALFMASK 4			// Mask only gets 1/2 of air supply from internals
+#define DEADLY 4			// Super-powerful weapon (???)
+#define HEADSPACE 4			// Head wear protects against space
 
-#define UP 16
-#define DOWN 32
-
-//FLAGS BITMASK
-#define ONBACK 1			// can be put in back slot
-#define TABLEPASS 2			// can pass by a table or rack
-#define HALFMASK 4			// mask only gets 1/2 of air supply from internals
-
-#define HEADSPACE 4			// head wear protects against space
-
-#define MASKINTERNALS 8		// mask allows internals
-#define SUITSPACE 8			// suit protects against space
+#define MASKINTERNALS 8		// Mask allows internals
+#define SUITSPACE 8			// Suit protects against space
 
 #define USEDELAY 16			// 1 second extra delay on use
-#define NOSHIELD 32			// weapon not affected by shield
-// 64 is an unused flag, because everything's drivable by a mass driver now
-// Don't reuse it until the flags are all cleaned up (using the #defined things rather than magic numbers)
-// because some things probably still have flag 64 set
-#define ONBELT 128			// can be put in belt slot
-#define FPRINT 256			// takes a fingerprint
-#define WINDOW 512			// window or window/door
+#define NOSHIELD 32			// Weapon not affected by shield
+
+#define ONBELT 128			// Can be put in belt slot
+#define FPRINT 256			// Takes a fingerprint
+#define WINDOW 512			// Window or window/door
 
 #define GLASSESCOVERSEYES 1024
-#define MASKCOVERSEYES 1024		// get rid of some of the other retardation in these flags
-#define HEADCOVERSEYES 1024		// feel free to realloc these numbers for other purposes
-#define MASKCOVERSMOUTH 2048		// on other items, these are just for mask/head
+#define MASKCOVERSEYES 1024		// Get rid of some of the other retardation in these flags
+#define HEADCOVERSEYES 1024		// Feel free to realloc these numbers for other purposes
+#define MASKCOVERSMOUTH 2048	// On other items, these are just for mask/head
 #define HEADCOVERSMOUTH 2048
 
-// channel numbers for power
-
-#define EQUIP 1
-#define LIGHT 2
-#define ENVIRON 3
-#define TOTAL 4	//for total power used only
+// Channel numbers for power
+#define EQUIP 1				// Gas Heaters, Doors, Computers, Everything not powered by the other two channels
+#define LIGHT 2				// Lighting & Light Switches
+#define ENVIRON 3			// Environmental (alarms, pumps, siphons, space [HURR HURR] heaters, etc)
+#define TOTAL 4				// For total power used only
 
 // bitflags for machine stat variable
-#define BROKEN 1
-#define NOPOWER 2
-#define POWEROFF 4		// tbd
-#define MAINT 8			// under maintaince
+#define BROKEN 1			// Busted and needs to be repaired/replaced
+#define NOPOWER 2			// Has no power (NOT the same as simply turned off
+#define POWEROFF 4			// Controlled by the machines
+#define MAINT 8				// If the machine is under maintenance.  Is it even actually used?
 
-#define EXCHANGE_SPEED 0.5 // speed at which two tiles near an equal pressure. 1 means that their pressure is equal after one tick.
-#define VACUUM_SPEED 3 // how fast air is sucked from a tile if there's a vacuum. air is divided by this number on each tick.
-#define GAS_PRECISION 1000 // to what number gas amounts should be rounded
-#define TEMPERATURE_PRECISION 5 // to what number temperature should be rounded
+#define EXCHANGE_SPEED 0.5 // Speed at which two tiles near an equal pressure. 1 means that their pressure is equal after one tick.
+#define VACUUM_SPEED 3 // How fast air is sucked from a tile if there's a vacuum. air is divided by this number on each tick.
+#define GAS_PRECISION 1000 // To what number gas amounts should be rounded
+#define TEMPERATURE_PRECISION 5 // To what number temperature should be rounded
 
-//These are symbolic, not literal, for use with helperprocs.dm's getZlevel(). Edit that proc when the map changes.
+
+//These are symbolic, not literal, for use with helperprocs.dm's getZlevel()
 #define Z_STATION		1
 #define Z_SPACE			2
 #define Z_CENTCOM		3
 #define Z_ENGINE_EJECT	4
 
+//Special Disabilities (M.sdisabililties ...)
+#define BLIND 1
+#define MUTE 2
+#define DEAF 4
 
+//Standard Disabilities (M.disabililties ...)
+#define BADVISION 1	//I could just use the same-value defs above, but it's obfuscate the code.  This makes it easier to understand,
+#define HEADACHEY 2	//So I'll use it instead.
+#define COUGHY 4
+#define TWITCHY 8
+#define NERVOUS 16
+
+//Why are these consts instead of defines?
 var/const
 	GAS_O2 = 1 << 0
 	GAS_N2 = 1 << 1

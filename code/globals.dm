@@ -8,7 +8,6 @@ var
 	canplaysound = 1
 	savefile_ver = "3"
 	SS13_version = "Official Bay12 Games Testing Server, latest (broken) updates!"
-	datum/air_tunnel/air_tunnel1/SS13_airtunnel = null
 	datum/control/cellular/cellcontrol = null
 	datum/control/gameticker/ticker = null
 	obj/datacore/data_core = null

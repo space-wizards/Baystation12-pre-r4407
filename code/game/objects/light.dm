@@ -20,8 +20,6 @@
 	area = loc.loc
 	bulb = new basetype()
 	bulb.use()
-	on = 0
-	sd_SetLuminosity(0)
 
 /obj/machinery/light/examine(mob/user as mob)
 	user << "This is a [bulbtype] light fixture"

@@ -118,24 +118,24 @@
 				src.mach.icon_state = "mach1"
 			else
 				src.mach.icon_state = null
-		if (src.disabilities & 2)
+		if (src.disabilities & HEADACHEY)
 			if ((prob(1) && src.paralysis < 10 && src.r_epil < 1))
 				src << "\red You have a seizure!"
 				src.paralysis = max(10, src.paralysis)
-		if (src.disabilities & 4)
+		if (src.disabilities & COUGHY)
 			if ((prob(5) && src.paralysis <= 1 && src.r_ch_cou < 1))
 				spawn( 0 )
 					emote("cough")
 					sleep(10)
 					emote("gasp")
 					return
-		if (src.disabilities & 8)
+		if (src.disabilities & TWITCHY)
 			if ((prob(10) && src.paralysis <= 1 && src.r_Tourette < 1))
 				spawn( 0 )
 					emote("twitch")
 					say(pick(loggedsay))
 					return
-		if (src.disabilities & 16)
+		if (src.disabilities & NERVOUS)
 			if (prob(10))
 				src.stuttering = max(10, src.stuttering)
 		if (prob(1) && prob(2))
@@ -347,7 +347,7 @@
 					plcheck = 1
 		var/mental_danger = 0
 		src.updatehealth()
-		if (((src.r_epil > 0 && !( src.disabilities & 2 )) || (src.r_Tourette > 0 && !( src.disabilities & 8 ))))
+		if (((src.r_epil > 0 && !( src.disabilities & HEADACHEY )) || (src.r_Tourette > 0 && !( src.disabilities & TWITCHY ))))
 			src.stuttering = max(2, src.drowsyness)
 			mental_danger = 1
 			src.drowsyness = max(2, src.drowsyness)
@@ -682,7 +682,7 @@
 				src.blind.layer = 51
 			else
 				src.blind.layer = 0
-				if ((src.disabilities & 1 && !( istype(src.glasses, /obj/item/weapon/clothing/glasses/regular)  || !( istype(src.glasses, /obj/item/weapon/clothing/glasses/monocle) ))))
+				if ((src.disabilities & BADVISION && !( istype(src.glasses, /obj/item/weapon/clothing/glasses/regular)  || !( istype(src.glasses, /obj/item/weapon/clothing/glasses/monocle) ))))
 					src.client.screen -= src.hud_used.vimpaired
 					src.client.screen += src.hud_used.vimpaired
 				else
