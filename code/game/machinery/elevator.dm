@@ -32,6 +32,7 @@ Base Design:
 	name = "Elevator Panel"
 	var/id = ""
 	var/datum/elevator/elevator = null
+	layer = 3.1
 
 /obj/machinery/elevator/panel/New()
 	..()

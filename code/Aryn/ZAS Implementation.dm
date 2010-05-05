@@ -1,6 +1,6 @@
 world/New()
 	..()
-	spawn(1)
+	spawn(5)
 		for(var/turf/T)
 			T.updatecell = 0
 		var/c = 0
@@ -11,7 +11,7 @@ world/New()
 					if(T)
 						if(!T.zone && !Zonetight(T) && CheckSpace(T))
 							new/zone(T)
-						c++
+							c++
 		world.log << "[c] Zones Placed."
 		while(!ticker)
 			sleep(5)

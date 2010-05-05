@@ -369,7 +369,7 @@
 		G.sl_gas -= a_sl_gas
 
 		if (a_oxygen < 67.032)
-			src.t_oxygen = round( (67.032 - a_oxygen) / 5) + 1
+			src.t_oxygen = round( (67.032 - a_oxygen) / 15) + 1
 		if (G.tot_gas() && a_co2/G.tot_gas() > 0.05)
 			if(!co2overloadtime)
 				co2overloadtime = world.time

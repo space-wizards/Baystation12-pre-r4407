@@ -12,7 +12,7 @@
 				if (rickroll == 1)
 					status = 0
 					usr << "\blue The failed rickroll depleted your modded flash's battery..."
-					M << "\red You catch a faint glimpse of Rick Astley when you are unsuccesfully flashed..."
+					M << "\red You catch a faint glimpse of Rick Astley when you are unsuccessfully flashed..."
 		if (!( safety ))
 			if (M.client)
 				if (status == 0)
@@ -39,10 +39,10 @@
 							M.eye_stat += rand(0, 2)
 						if (M.eye_stat >= 20)
 							M << "\red You eyes start to burn badly!"
-							M.disabilities |= 1
+							M.disabilities |= BADVISION
 							if (prob(M.eye_stat - 20 + 1))
 								M << "\red You go blind!"
-								M.sdisabilities |= 1
+								M.sdisabilities |= BLIND
 						if (rickroll == 1)
 							M << sound('NGGYU_Music.midi')
 							M << "\red YOU HAVE BEEN RICKROLLED!"

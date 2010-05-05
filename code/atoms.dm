@@ -943,7 +943,7 @@
 	name = "bio hood"
 	icon_state = "bio_hood"
 	fb_filter = 9.0
-	flags = FPRINT|TABLEPASS|HEADSPACE|HEADCOVERSEYES|HEADCOVERSMOUTH
+	flags = FPRINT|TABLEPASS|HEADSPACE|HEADCOVERSEYES|HEADCOVERSMOUTH|PLASMAGUARD
 	see_face = 0.0
 	s_fire = 1.875E7
 	fire_protect = 1
@@ -1152,7 +1152,7 @@
 	a_filter = 9.0
 	h_filter = 9.0
 	s_istate = "bio_suit"
-	flags = FPRINT | TABLEPASS
+	flags = FPRINT | TABLEPASS | PLASMAGUARD
 	s_fire = 1350000.0
 	fire_protect = 126
 	chem_protect = 50
@@ -2741,7 +2741,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "wrap_paper"
 	var/amount = 20.0
 /obj/item/weapon/wrench
-	name = "wrench"
+	name = "Wrench"
 	icon_state = "wrench"
 	flags = 322.0
 	force = 5.0
@@ -2898,6 +2898,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Canister \[Plasma (Bio)\]"
 	icon_state = "orange"
 	color = "orange"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/co2canister
 	name = "Canister \[CO2\]"
 	icon_state = "black"
@@ -2913,6 +2914,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Vat \[Plasma (bio)\]"
 	icon_state = "vatorange"
 	color = "vatorange"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/vat/oxygenvat
 	name = "Vat O2"
 	icon_state = "vatblue"
@@ -2942,6 +2944,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	holding = null
 	anchored = 1.0
 	var/heatrate = 1500000.0
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/siphs
 	name = "siphs"
 	density = 1
@@ -2980,6 +2983,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Scrubber"
 	icon = 'turfs2.dmi'
 	icon_state = "siphon:0"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/siphs/scrubbers/air_filter
 	name = "Air Filter"
 	icon = 'aircontrol.dmi'
@@ -2988,12 +2992,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	alterable = 0.0
 	layer = 2.7
 	density = 0 //*****
+	flags = FPRINT | PLASMAGUARD
 
 /obj/machinery/atmoalter/siphs/scrubbers/port
 	name = "Portable Scrubber"
 	icon = 'stationobjs.dmi'
 	icon_state = "scrubber:0"
-	flags = FPRINT
+	flags = FPRINT | PLASMAGUARD
 	anchored = 0.0
 /obj/machinery/autolathe
 	name = "Autolathe"
@@ -3269,7 +3274,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/flag = 0
 
 /obj/machinery/inlet
-	name = "inlet"
+	name = "Inlet"
 	icon = 'pipes.dmi'
 	icon_state = "inlet"
 	desc = "A gas pipe inlet."
@@ -3284,7 +3289,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	cnetdontadd = 1
 
 /obj/machinery/inlet/filter
-	name = "filter inlet"
+	name = "Filter Inlet"
 	icon = 'pipes.dmi'
 	icon_state = "inlet_filter-0"
 	desc = "A gas pipe inlet with a remote controlled filter on it."
@@ -3293,7 +3298,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	cnetdontadd = 0
 
 /obj/machinery/vent
-	name = "vent"
+	name = "Vent"
 	icon = 'pipes.dmi'
 	icon_state = "vent"
 	desc = "A gas pipe outlet vent."
@@ -3308,7 +3313,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	cnetdontadd = 1
 
 /obj/machinery/vent/filter
-	name = "filter vent"
+	name = "Filter Vent"
 	icon = 'pipes.dmi'
 	icon_state = "vent_filter-0"
 	desc = "A gas pipe outlet vent with a remote controlled filter on it."
@@ -3317,7 +3322,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	cnetdontadd = 0
 
 /obj/machinery/cryo_cell
-	name = "cryo cell"
+	name = "Cryogenics Cell"
 	icon = 'Cryogenic2.dmi'
 	icon_state = "celltop"
 	density = 1
@@ -3403,7 +3408,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "pdoor1"
 	var/id = 1.0
 /obj/machinery/door/barrier
-	name = "barrier"
+	name = "Force Field"
 	icon = 'stationobjs.dmi'
 	icon_state = "barrier"
 	opacity = 1
@@ -3413,7 +3418,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/rating = 0.0
 	var/active = 0.0
 /obj/machinery/door/window
-	name = "interior door"
+	name = "Interior Door"
 	icon = 'windoor.dmi'
 	icon_state = "door1"
 	visible = 0.0
@@ -3461,11 +3466,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	capmult = 1
 
 /obj/machinery/gas_sensor
-	name = "gas sensor"
+	name = "Gas Sensor"
 	icon = 'stationobjs.dmi'
 	icon_state = "gsensor"
 	desc = "A remote sensor for atmospheric gas composition."
-	var/id
+	var/id = ""
 	anchored = 1
 
 /obj/machinery/hologram_proj
@@ -3488,20 +3493,21 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	anchored = 1.0
 
 /obj/machinery/igniter
-	name = "igniter"
+	name = "Mounted Igniter"
 	icon = 'stationobjs.dmi'
 	icon_state = "igniter1"
 	var/on = 1.0
 	anchored = 1.0
 /obj/machinery/injector
-	name = "injector"
+	name = "Gas Injector"
 	icon = 'stationobjs.dmi'
 	icon_state = "injector"
 	density = 1
 	anchored = 1.0
 	flags = 512.0
 /obj/machinery/mass_driver
-	name = "mass driver"
+	name = "Mass Driver"
+	desc = "A Kinetic-Energy driver for moving objects across large areas"
 	icon = 'stationobjs.dmi'
 	icon_state = "mass_driver"
 	var/power = 1.0
@@ -3511,7 +3517,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/drive_range = 50 //this is mostly irrelevant since current mass drivers throw into space, but you could make a lower-range mass driver for interstation transport or something I guess.
 
 /obj/machinery/meter
-	name = "meter"
+	name = "Flow Meter"
+	desc = "A Meter that measures fluid flow across a pipe section"
 	icon = 'pipes.dmi'
 	icon_state = "meterX"
 	var/obj/machinery/pipes/target = null
@@ -3552,22 +3559,22 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'pipes.dmi'
 
 /obj/machinery/valve/mvalve
-	name = "manual valve"
+	name = "Manual Valve"
 	desc = "A manually controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "valve0"
 	p_dir = 3
 
 /obj/machinery/valve/dvalve
-	name = "digital valve"
+	name = "digital Valve"
 	desc = "A digitally controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "dvalve0"
 	p_dir = 3
 
 /obj/machinery/oneway
-	name = "one-way pipe"
-	desc = "A Pipe that only passes gas in one direction."
+	name = "Check Valve"
+	desc = "A Valve that only passes gas in one direction."
 	var/obj/substance/gas/gas1 = null
 	var/obj/substance/gas/ngas1 = null
 	var/obj/substance/gas/gas2 = null
@@ -3584,7 +3591,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	p_dir = 3
 
 /obj/machinery/oneway/pipepump
-	name = "Pipe pump"
+	name = "Inline Pipe Pump"
 	desc = "A machine that pushes gas as hard as it can from one side to the other."
 	icon = 'pipes2.dmi'
 	icon_state = "pipepump-run"
@@ -3592,7 +3599,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	cnetdontadd = 1
 
 /obj/machinery/manifold
-	name = "manifold"
+	name = "Manifold"
 	icon = 'pipes.dmi'
 	icon_state = "manifold"
 	desc = "A three-port gas manifold."
@@ -3618,7 +3625,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	capmult = 3
 
 /obj/machinery/pipefilter
-	name = "pipe filter"
+	name = "Gas Filter"
 	icon = 'pipes2.dmi'
 	icon_state = "filter"
 	desc = "A three-port gas filter."
@@ -3652,7 +3659,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/bypassed = 0 //controls the bypass wire sprite (1 = bypassed)
 
 /obj/machinery/junction
-	name = "junction"
+	name = "Pipe Junction"
 	icon = 'junct-pipe.dmi'
 	icon_state = "junction"
 	desc = "A junction between regular and heat-exchanger pipework."
@@ -3674,7 +3681,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 
 /obj/machinery/pipes
-	name = "pipes"
+	name = "Piping"
 	icon = 'reg_pipe.dmi'
 	icon_state = "12"
 	p_dir = 12
@@ -3687,13 +3694,15 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/insulation = NORMPIPERATE
 	var/plnum = 0
 	var/obj/machinery/pipeline/pl
+	level = 1
 	cnetdontadd = 1
+	nohack = 1
 
 
 
 /obj/machinery/pipeline				// virtual pipeline consisting of multiple /obj/machinery/pipes
 
-	name = "pipeline"
+	name = "Pipeline"
 	var/list/nodes = list()
 	var/numnodes = 0
 	var/obj/substance/gas/gas = null
@@ -3710,25 +3719,28 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/pipes/flexipipe
 	desc = "Flexible hose-like piping."
-	name = "flexipipe"
+	name = "Flexible Pipe"
 	icon = 'wire.dmi'
 	capacity = 10.0
 	p_dir = 12.0
 	layer = 3
+	level = 2
 /obj/machinery/pipes/high_capacity
 	desc = "A large bore pipe with high capacity."
-	name = "high capacity"
+	name = "High-Capacity Piping"
 	icon = 'hi_pipe.dmi'
+	level = 2
 	capacity = 1.8E7
 /obj/machinery/pipes/regular
 	desc = "A stretch of pipe."
-	name = "normal pipe"
+	name = "Normal Pipe"
 /obj/machinery/pipes/heat_exch
 	h_dir = 12
 	icon = 'heat_pipe.dmi'
-	name = "heat exchange pipe"
+	name = "Heat Exchange Piping"
 	desc = "A bundle of small pipes designed for maximum heat transfer."
 	insulation = HEATPIPERATE
+	level = 2
 
 /obj/machinery/vehicle
 	name = "Vehicle Pod"
@@ -4755,6 +4767,7 @@ obj/machinery/vendingmachine/soda
 	icon = 'lights.dmi'
 	icon_state = "fluorescent"
 	anchored = 1
+	luminosity = 0
 	var/open = 0
 	var/baselum = 6
 	var/bulbtype = "fluorescent"
@@ -4892,3 +4905,9 @@ obj/machinery/vendingmachine/soda
 	icon_state = "0-1"
 	var/mob/ai/ai = null
 
+/obj/machinery/spaceheater
+	name = "Space Heater"
+	icon = 'Stationobjs.dmi'
+	icon_state = "heater"
+	var/on = 0
+	var/maxoutput = 1 //TODO Figure out a scale for this

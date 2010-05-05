@@ -410,34 +410,7 @@
 	return 0
 
 /proc/sign(x) //Should get bonus points for being the most compact code in the world!
-	return x!=0?x/abs(x):0 //((x<0)?-1:((x>0)?1:0))
-
-/*	//Kelson's version (doesn't work)
-/proc/getline(atom/M,atom/N)
-	if(!M || !M.loc) return
-	if(!N || !N.loc) return
-	if(M.z != N.z) return
-	var/line = new/list()
-
-	var/dx = abs(M.x - N.x)
-	var/dy = abs(M.y - N.y)
-	var/cx = M.x < N.x ? 1 : -1
-	var/cy = M.y < N.y ? 1 : -1
-	var/slope = dy ? dx/dy : INFINITY
-
-	var/tslope = slope
-	var/turf/tloc = M.loc
-
-	while(tloc != N.loc)
-		if(tslope>0)
-			--tslope
-			tloc = locate(tloc.x+cx,tloc.y,tloc.z)
-		else
-			tslope += slope
-			tloc = locate(tloc.x,tloc.y+cy,tloc.z)
-		line += tloc
-	return line
-*/
+	return x?x/abs(x):0 //((x<0)?-1:((x>0)?1:0))
 
 /proc/getline(atom/M,atom/N)//Ultra-Fast Bresenham Line-Drawing Algorithm
 	var/px=M.x		//starting x
@@ -471,10 +444,12 @@
 	return line
 
 /proc/IsGuestKey(key)
-	if (findtextEx(key, "Guest-", 1, 1) != 1)
+	if (findtextEx(ckey(key), "guest", 1) != 1)
 		return 0
 
-	var/i, ch, len = length(key)
+	var/i
+	var/ch
+	var/len = length(key)
 
 	for (i = 7, i <= len, ++i)
 		ch = text2ascii(key, i)
@@ -487,9 +462,9 @@
 	if(level==Z_STATION)
 		return pick(stationfloors)
 	else if(level==Z_SPACE)
-		return pick(3,4,5)
+		return pick(3,4,5) //This needs to be changed
 	else if(level==Z_CENTCOM)
 		return pick(centcomfloors)
 	else if(level==Z_ENGINE_EJECT)
 		return engine_eject_z_target
-	return 1//Default
+	return world.maxz//Default

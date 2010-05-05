@@ -37,7 +37,6 @@
 
 /obj/machinery/meter/New()
 	..()
-	src.target = locate(/obj/machinery/pipes, src.loc)
 	average = 0
 	return
 
@@ -51,6 +50,7 @@
 		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
 
 /obj/machinery/meter/process()
+	src.target = locate(/obj/machinery/pipes, src.loc)
 	if(!target)
 		icon_state = "meterX"
 		return
@@ -76,14 +76,6 @@
 	else
 		usr << "\blue <B>You are too far away.</B>"
 	return
-
-
-///obj/machinery/meter/proc/pressure()
-//
-//	if(src.target && src.target.gas)
-//		return (average * target.gas.temperature)/100000.0
-//	else
-//		return 0
 
 
 /obj/machinery/atmoalter/siphs/New()
@@ -381,7 +373,21 @@
 
 //	var/dbg = (suffix=="d") && Debug
 
-	if(stat & NOPOWER) return
+	if(stat & (NOPOWER|BROKEN)) return
+
+	if(vsc.plc.CANISTER_CORROSION)
+		if(gas.plasma > 10000 && !(flags & PLASMAGUARD))
+			if(prob(1))
+				stat |= BROKEN
+				icon_state = dd_replacetext(icon_state,"0","B")
+				icon_state = dd_replacetext(icon_state,"1","B")
+				icon_state = dd_replacetext(icon_state,"T","B")
+				if(holding)
+					holding.Move(loc)
+					holding.loc = loc
+				gas.turf_add(loc,-1)
+				return
+
 
 	if (src.t_status != 3)
 		var/turf/T = src.loc
@@ -571,18 +577,26 @@
 	else
 		if (istype(W, /obj/item/weapon/screwdriver))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
+			var/obj/a_pipe/connector/con2 = locate() in src.loc
 			if (src.c_status)
 				src.anchored = 0
 				src.c_status = 0
 				user.show_message("\blue You have disconnected the siphon.")
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the siphon.")
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the siphon.")
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is nothing here to connect to the siphon.")
 

@@ -556,6 +556,7 @@ atom/movable/Move() // when something moves
 		sd_ApplyLum()
 
 area
+	layer = 1
 	var
 		/*	Turn this flag off to prevent sd_DynamicAreaLighting from affecting
 			this area */

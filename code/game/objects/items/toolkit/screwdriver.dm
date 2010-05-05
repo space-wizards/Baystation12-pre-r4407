@@ -9,7 +9,7 @@
 
 	if(user.clumsy && prob(50))
 		user << "\red You decide to use the Screwdriver to stab yourself in the eye."
-		user.sdisabilities |= 1
+		user.sdisabilities |= BLIND
 		user.weakened += 4
 		user.bruteloss += 10
 
@@ -41,7 +41,7 @@
 	if (M.eye_stat >= 10)
 		M << "\red Your eyes start to bleed profusely!"
 		M.eye_blurry += 15+(0.1*M.eye_blurry)
-		M.disabilities |= 1
+		M.disabilities |= BADVISION
 		if(M.stat == 2)	return
 		if(prob(50))
 			M << "\red You drop what you're holding and clutch at your eyes!"
@@ -51,5 +51,5 @@
 			M.drop_item()
 		if (prob(M.eye_stat - 10 + 1))
 			M << "\red You go blind!"
-			M.sdisabilities |= 1
+			M.sdisabilities |= BLIND
 	return

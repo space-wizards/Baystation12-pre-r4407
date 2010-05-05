@@ -272,19 +272,26 @@
 	else
 		if (istype(W, /obj/item/weapon/wrench))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
-
+			var/obj/a_pipe/connector/con2 = locate() in loc
 			if (src.c_status)
 				src.anchored = initial(src.anchored)
 				src.c_status = 0
 				user.show_message("\blue You have disconnected the heater.", 1)
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the heater.", 1)
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the heater.", 1)
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is no connector here to attach the heater to.", 1)
 	return
@@ -361,6 +368,10 @@
 			src.health = 0
 			healthcheck()
 			return
+	if(vsc.plc.CANISTER_CORROSION)
+		if(gas.plasma > 10000 && !(flags & PLASMAGUARD))
+			src.health -= 0.05
+			healthcheck()
 	var/T = src.loc
 	if (istype(T, /turf))
 		if (locate(/obj/move, T))
@@ -552,7 +563,7 @@ Pipe Valve Status: [ct]<BR>
 	else
 		if ((istype(W, /obj/item/weapon/wrench)))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
-
+			var/obj/a_pipe/connector/con2 = locate() in src.loc
 
 			if (src.c_status)
 				src.anchored = 0
@@ -560,12 +571,19 @@ Pipe Valve Status: [ct]<BR>
 				user.show_message("\blue You have disconnected the canister.", 1)
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if(con && !con.connected && !destroyed)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the canister.", 1)
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the canister.", 1)
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is nothing here with which to connect the canister.", 1)
 		else if(istype(W, /obj/item/weapon/analyzer) && get_dist(user, src) <= 1)
@@ -668,7 +686,7 @@ Pipe Valve Status: [ct]<BR>
 /obj/machinery/atmoalter/canister/vat/plasmavat/New()
 
 	..()
-	if (locate(/obj/machinery/connector, src.loc))
+	if (locate(/obj/a_pipe/connector, src.loc))
 		src.anchored = 1
 		src.c_status = 3
 
@@ -770,7 +788,7 @@ Pipe Valve Status: [ct]<BR>
 /obj/machinery/atmoalter/canister/vat/oxygenvat/New()
 
 	..()
-	if (locate(/obj/machinery/connector, src.loc))
+	if (locate(/obj/a_pipe/connector, src.loc))
 		src.anchored = 1
 		src.c_status = 3
 	else

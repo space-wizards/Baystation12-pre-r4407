@@ -5,7 +5,19 @@ turf/proc
 		else
 			return 0
 
+/turf/proc/FindLinkedTurfs()
 
+	var/list/L = list(  )
+	if(airN)
+		L += linkN
+	if(airS)
+		L += linkS
+	if(airE)
+		L += linkE
+	if(airW)
+		L += linkW
+
+	return L
 
 /obj/move/CheckPass(O as mob|obj)
 	return !( src.density )
@@ -169,7 +181,7 @@ turf/proc
 	if ((locate(/obj/effects/water, src.loc) || src.firelevel < 900000.0))
 		src.firelevel = 0
 		//cool due to water
-		temp += (T20C - temp) / FIRERATE
+		temp += (T20C - temp) / vsc.FIRERATE
 
 
 

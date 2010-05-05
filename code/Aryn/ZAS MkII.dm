@@ -15,11 +15,11 @@ var/do_merges = 1 //Set this to 1 to test merging of zones.
 
 var/const/FULL_PRESSURE = 3600000
 //The pressure of a zone is 100% if each turf contains this amount of gas.
-#define DOOR_CONNECTION_FLOW 50
+vs_control/var/DOOR_CONNECTION_FLOW = 25
 //This value is the flow rate (as %) that will be used when a door is open between zones.
-#define TILE_CONNECTION_FLOW 65
+vs_control/var/TILE_CONNECTION_FLOW = 35
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
-#define TEMP_FLOW 5
+vs_control/var/TEMP_FLOW = 2
 //The flow rate as % that will be used to transfer temperature.
 
 var/list
@@ -50,10 +50,10 @@ var/moving_zone = 0
 var/list/zones = list()
 //All the zones in the game are kept here, so that they are not deleted immediately after creation.
 
-turf/verb/SeeTempChanges()
-	set src in view()
-	zone.speakmychild = 1
-	world << "Showing changes to [src]."
+//turf/verb/SeeTempChanges()
+//	set src in view()
+//	zone.speakmychild = 1
+//	world << "Showing changes to [src]."
 
 zone
 
@@ -98,7 +98,10 @@ zone
 		else if(start.oxygen != O2STANDARD)
 			gases = list("O2" = start.oxygen,"Plasma" = 0,"CO2" = start.co2,"N2" = start.n2,"N2O" = 0)
 		else
-			gases = gas_defaults.Copy() //If 0, the zone will fill as normal.
+			if(world.time < 20)
+				gases = gas_defaults.Copy() //If 0, the zone will fill as normal.
+			else
+				gases = list("O2" = 0,"Plasma" = 0,"CO2" = 0,"N2" = 0,"N2O" = 0)
 		if(door < 2)
 			var/r_list = GetZone(start,door)
 			contents = r_list[1]
@@ -140,7 +143,7 @@ zone
 						if(dist < nearby_zones[U.zone])
 							nearby_zones[U.zone] = dist
 
-		spawn Update()
+		spawn(rand(1,9)) Update() //Reducing lag by making updates staggered.
 
 	proc
 
@@ -225,7 +228,7 @@ zone
 					if(!flow) continue
 
 					var/gas_diff = pressure() - Z.pressure()
-					if(gas_diff > AF_MOVEMENT_THRESHOLD)// && more_air_here)
+					if(gas_diff > vsc.AF_MOVEMENT_THRESHOLD)// && more_air_here)
 						//if(!speakmychild)
 						//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
 						//	speakmychild = 1
@@ -250,8 +253,8 @@ zone
 						diff_a = temp - temp_theo
 						diff_b = Z.temp - temp_theo
 					//world << "Temperature Theo: [temp_theo]"
-					diff_a *= 1 - (TEMP_FLOW / 100)
-					diff_b *= 1 - (TEMP_FLOW / 100)
+					diff_a *= 1 - (vsc.TEMP_FLOW / 100)
+					diff_b *= 1 - (vsc.TEMP_FLOW / 100)
 					temp = diff_a + temp_theo
 					Z.temp = diff_b + temp_theo
 
@@ -325,11 +328,17 @@ zone
 				var/list
 					S1L = GetZone(S1)
 					S2L = GetZone(S2)
+				S1L -= T
+				S2L -= T
 				if(S1L.len && S2L.len)
 					for(var/turf/X in S1L)
 						if(X in S2L)
 							S1L -= X
 							S2L -= X
+					for(var/turf/X in S2L)
+						if(X in S1L)
+							S2L -= X
+							S1L -= X
 					if(S1L.len)
 						AddSplit(S1)
 						. = 1
@@ -340,9 +349,15 @@ zone
 				var/list
 					S3L = GetZone(S3)
 					S4L = GetZone(S4)
+				S3L -= T
+				S4L -= T
 				if(S3L.len && S4L.len)
 					for(var/turf/X in S3L)
 						if(X in S4L)
+							S3L -= X
+							S4L -= X
+					for(var/turf/X in S4L)
+						if(X in S3L)
 							S3L -= X
 							S4L -= X
 					if(S3L.len)
@@ -374,7 +389,7 @@ zone
 		//All the turfs in list L will create new child zones with the same per-turf concentrations as this one.
 		//Used internally in Update() to clear zones_to_split.
 			if(L.len)
-				world << "Splitting..."
+				//world << "Splitting..."
 				for(var/atom/A)
 					if(src in associations(A.connected_zones))
 						spawn(1) ZoneSetup(A)
@@ -404,7 +419,7 @@ zone
 		//All the zones in list L will add their contents and gas values to this one and be deleted.
 		//Used internally in Update() to clear zones_to_merge.
 			if(L.len)
-				world << "Merging..."
+				//world << "Merging..."
 				for(var/zone/Z in L)
 					if(Z == src) continue //Do not merge with self!
 					//world << "Pooling gas..."
@@ -540,11 +555,11 @@ proc
 			A.connections[B] += T
 			B.connections[A] += T
 		if(!HasDoors(T))
-			A.connection_cache[B] += TILE_CONNECTION_FLOW
-			B.connection_cache[A] += TILE_CONNECTION_FLOW
+			A.connection_cache[B] += vsc.TILE_CONNECTION_FLOW
+			B.connection_cache[A] += vsc.TILE_CONNECTION_FLOW
 		else
-			A.connection_cache[B] += DOOR_CONNECTION_FLOW
-			B.connection_cache[A] += DOOR_CONNECTION_FLOW
+			A.connection_cache[B] += vsc.DOOR_CONNECTION_FLOW
+			B.connection_cache[A] += vsc.DOOR_CONNECTION_FLOW
 
 	RemoveConnection(zone/A,turf/T,zone/B)
 		//world << "Removing a connection turf... Z[zones.Find(A)] [T]([T.x],[T.y]) Z[zones.Find(B)]"
@@ -573,11 +588,11 @@ proc
 			B.connection_cache -= A
 			return
 		if(!HasDoors(T))
-			A.connection_cache[B] -= TILE_CONNECTION_FLOW
-			B.connection_cache[A] -= TILE_CONNECTION_FLOW
+			A.connection_cache[B] -= vsc.TILE_CONNECTION_FLOW
+			B.connection_cache[A] -= vsc.TILE_CONNECTION_FLOW
 		else
-			A.connection_cache[B] -= DOOR_CONNECTION_FLOW
-			B.connection_cache[A] -= DOOR_CONNECTION_FLOW
+			A.connection_cache[B] -= vsc.DOOR_CONNECTION_FLOW
+			B.connection_cache[A] -= vsc.DOOR_CONNECTION_FLOW
 		if(T in A.connections[B]) RemoveConnection(A,T,B)
 		//world << "Done."
 
@@ -594,11 +609,11 @@ proc
 				B.connection_cache -= A
 				return
 			if(!HasDoors(T))
-				A.connection_cache[B] -= TILE_CONNECTION_FLOW
-				B.connection_cache[A] -= TILE_CONNECTION_FLOW
+				A.connection_cache[B] -= vsc.TILE_CONNECTION_FLOW
+				B.connection_cache[A] -= vsc.TILE_CONNECTION_FLOW
 			else
-				A.connection_cache[B] -= DOOR_CONNECTION_FLOW
-				B.connection_cache[A] -= DOOR_CONNECTION_FLOW
+				A.connection_cache[B] -= vsc.DOOR_CONNECTION_FLOW
+				B.connection_cache[A] -= vsc.DOOR_CONNECTION_FLOW
 
 	HasDoors(turf/T)
 		var
@@ -736,7 +751,9 @@ proc/Blocked(turf/T) //This function is like Dense(), but bases its decision on 
 	if(!isturf(T)) return 1
 	if(!T.accept_zoning) return 1
 	for(var/atom/A in T)
-		if(A.type in directional_types) continue
+		if(A.type in directional_types)
+			if(A.dir != SOUTHWEST)
+				continue
 		if(A.block_zoning) return 1
 	return 0
 
@@ -744,7 +761,9 @@ proc/PracBlocked(turf/T) //This function is like Blocked() but considers open do
 	if(!isturf(T)) return 1
 	if(!T.accept_zoning) return 1
 	for(var/atom/A in T)
-		if(A.type in directional_types) continue
+		if(A.type in directional_types)
+			if(A.dir != SOUTHWEST)
+				continue
 		if(A.block_zoning)
 			if(!A.is_open) return 1
 	return 0
@@ -1094,6 +1113,8 @@ proc
 		//	W.loc = T
 	NewWindow(obj/window/W)
 		//world << "<u>Window created: [W]([W.x],[W.y])</u>"
+		if(W.dir == SOUTHWEST)
+			W.block_zoning = 1
 		if(world.time < 10) return
 		if(W.dir == SOUTHWEST)
 			W.block_zoning = 1
