@@ -686,7 +686,11 @@ Pipe Valve Status: [ct]<BR>
 /obj/machinery/atmoalter/canister/vat/plasmavat/New()
 
 	..()
-	if (locate(/obj/a_pipe/connector, src.loc))
+	if (locate(/obj/machinery/connector, src.loc))
+		src.anchored = 1
+		src.c_status = 3
+
+	else if(locate(/obj/a_pipe/connector, src.loc))
 		src.anchored = 1
 		src.c_status = 3
 
@@ -788,7 +792,10 @@ Pipe Valve Status: [ct]<BR>
 /obj/machinery/atmoalter/canister/vat/oxygenvat/New()
 
 	..()
-	if (locate(/obj/a_pipe/connector, src.loc))
+	if (locate(/obj/machinery/connector, src.loc))
+		src.anchored = 1
+		src.c_status = 3
+	else if(locate(/obj/a_pipe/connector, src.loc))
 		src.anchored = 1
 		src.c_status = 3
 	else

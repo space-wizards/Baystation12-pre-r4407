@@ -3695,7 +3695,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/insulation = NORMPIPERATE
 	var/plnum = 0
 	var/obj/machinery/pipeline/pl
-	level = 1
+	level = 2
 	cnetdontadd = 1
 	nohack = 1
 

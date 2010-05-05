@@ -15,11 +15,11 @@ var/do_merges = 1 //Set this to 1 to test merging of zones.
 
 var/const/FULL_PRESSURE = 3600000
 //The pressure of a zone is 100% if each turf contains this amount of gas.
-vs_control/var/DOOR_CONNECTION_FLOW = 25
+vs_control/var/DOOR_CONNECTION_FLOW = 45
 //This value is the flow rate (as %) that will be used when a door is open between zones.
-vs_control/var/TILE_CONNECTION_FLOW = 35
+vs_control/var/TILE_CONNECTION_FLOW = 55
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
-vs_control/var/TEMP_FLOW = 2
+vs_control/var/TEMP_FLOW = 3
 //The flow rate as % that will be used to transfer temperature.
 
 var/list
@@ -32,7 +32,7 @@ var/list
 	directional_types = list(/obj/machinery/door/window,/obj/window)
 	//Any types in this list are considered the same as a side window or door.
 
-var/zas_cycle = 5
+var/zas_cycle = 10
 //The amount of ticks an air cycle will last. Change in case of lag.
 /*mob/verb
 	Set_ZAS_Cycle_Time(n as num)
