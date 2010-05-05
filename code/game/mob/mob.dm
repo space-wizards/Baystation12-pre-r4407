@@ -2190,7 +2190,7 @@ mob/proc/ko_msg(msg)
 	if(!src.loc) return 0
 	var/turf/T = src.loc
 	if(!isturf(T)) return 0
-	if(T.firelevel < 900000) return 0
+	if(T.firelevel < 100000) return 0
 	if(!T.tot_gas()) return 0
 	var/resist = T0C + 80	//	highest non-burning temperature
 	var/fire_dam = T.temp()
@@ -2268,6 +2268,8 @@ mob/proc/ko_msg(msg)
 		temperature -= change
 		if(actual < desired)
 			temperature = desired
+
+	temperature = max(2.7,temperature) //Absolute zero prevention.
 //	if(istype(src, /mob/human))
 //		world << "[src] ~ [src.bodytemperature] ~ [temperature]"
 	return temperature

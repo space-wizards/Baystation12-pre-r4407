@@ -107,6 +107,12 @@ area/research/toxins/external
 	requires_power = 0
 	music = ""
 
+area/research/toxins/test_lab
+	name = "Test Facility"
+	requires_power=0
+	icon_state = "toxlab"
+	music = ""
+
 // Security and related
 area/security/security
 	name = "Security Headquarters"

@@ -30,7 +30,7 @@
 	var/turf/T = usr.loc
 	if(!T.updatecell) return
 	if(!T.zone) return
-	var/oldtemp = T.zone.temp
+	var/oldtemp = T.temp()
 	T.temp_set(newtemp)
 //	world.log_admin("[src.key] set [T]'s temp to [newtemp]")
 	sleep(60)

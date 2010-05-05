@@ -13,13 +13,9 @@ vs_control/var/GAS_FLOW_DELAY = 10 //This value is the delay for gas.
 
 turf/proc/temp_set(n)
 	if(zone)
-		var/diff = zone.temp - abs(n)
+		var/diff = abs(n) - zone.temp
 		temp(diff)
-		if(zone.speakmychild) world << "Temperature set to [abs(n)]"
-turf/proc/temp_set_per(n)
-	if(zone)
-		zone.temp = abs(n) / zone.contents.len
-		if(zone.speakmychild) world << "Temperature set to [zone.temp]"
+		if(zone.speakmychild) world << "Temperature set to [zone.temp] ([n])"
 var/fire_spread = 0
 proc/FireTicker()
 	var/fticks = 0
@@ -102,9 +98,11 @@ turf
 
 				// heating from fire
 				temp((firelevel/vsc.FIREQUOT+vsc.FIREOFFSET - temp()) / vsc.FIRERATE)
-				if(zone.speakmychild)
-					world << "Fire temperature: +[(firelevel/vsc.FIREQUOT+vsc.FIREOFFSET - temp) / vsc.FIRERATE]C"
-					world << "Firelevel: [firelevel], temp: [temp()]"
+				//if(zone.speakmychild)
+					//world << "Fire: +5"
+					//world << "Fire temperature: +[(firelevel/vsc.FIREQUOT+vsc.FIREOFFSET - temp) / vsc.FIRERATE]C"
+					//world << "FIREQUOT: [vsc.FIREQUOT] FIREOFFSET: [vsc.FIREOFFSET] FIRERATE: [vsc.FIRERATE]"
+					//world << "Firelevel: [firelevel], temp: [temp()]"
 
 
 				if (locate(/obj/effects/water, src))
@@ -135,3 +133,7 @@ turf
 			//cool due to water
 			temp((T20C - temp) / vsc.FIRERATE)
 		oldfirelevel = firelevel
+
+	verb/ShowTemp()
+		set src in view()
+		zone.speakmychild=1
