@@ -47,6 +47,9 @@
 	password_smeg = 101
 	password_digitalvalve = 102
 	password_router = 103
+	password_heater = 104
+	password_filterinlets = 105
+	password_filtervents = 106
 
 
 	/obj/var/list/req_access = null
@@ -207,7 +210,7 @@
 	access_ai, access_captain, access_network)
 
 /proc/get_all_passwords()
-	return list(password_smeg,password_firedoor,password_digitalvalve,password_router)
+	return list(password_smeg,password_firedoor,password_digitalvalve,password_router,password_heater,password_filterinlets,password_filtervents)
 
 /proc/get_access_desc(A)
 	switch(A)

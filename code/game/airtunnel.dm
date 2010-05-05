@@ -457,7 +457,7 @@
 		stat ^= BROKEN
 		src.add_fingerprint(user)
 		for(var/mob/O in viewers(user, null))
-			O.show_message(text("\red [] has []activated []!", user, (stat&BROKEN) ? "de" : "re", src), 1)
+			O.show_message(text("\red [] has []activated []!", user, (stat & BROKEN) ? "de" : "re", src), 1)
 		return
 	return ..()
 
@@ -467,74 +467,70 @@
 	else
 		stat |= NOPOWER
 
-/obj/machinery/alarm/Click()
-	if(istype(usr, /mob/ai))
-		return examine()
-	return ..()
+/obj/machinery/alarm/attack_hand(var/mob/M)
+	if(..())
+		return
+	var/turf/T = get_turf(loc)
 
-/obj/machinery/alarm/examine()
-	set src in oview(1)
-	if(usr.stat)
-		return
-	if(stat & (NOPOWER|BROKEN))
-		return
-	if(!(istype(usr, /mob/human) || ticker))
-		if (!istype(usr, /mob/ai))
-			usr << "\red You don't have the dexterity to do this!"
-			return
-	if (get_dist(usr, src) <= 3 || istype(usr, /mob/ai))
-		var/turf/T = src.loc
-		if (!( istype(T, /turf) ))
-			return
+	var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
+	turf_total = max(turf_total, 1)
 
-		var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
-		turf_total = max(turf_total, 1)
-		usr.show_message("\blue <B>Results:</B>", 1)
-		var/t = ""
-		var/t1 = turf_total / CELLSTANDARD * 100
-		if ((90 < t1 && t1 < 110))
-			usr.show_message(text("\blue Air Pressure: []%", t1), 1)
-		else
-			usr.show_message(text("\blue Air Pressure:\red []%", t1), 1)
-		t1 = T.n2() / turf_total * 100
-		t1 = round(t1, 0.0010)
-		if ((60 < t1 && t1 < 80))
-			t += text("<font color=blue>Nitrogen: []</font> ", t1)
-		else
-			t += text("<font color=red>Nitrogen: []</font> ", t1)
-		t1 = T.oxygen() / turf_total * 100
-		t1 = round(t1, 0.0010)
-		if ((20 < t1 && t1 < 24))
-			t += text("<font color=blue>Oxygen: []</font> ", t1)
-		else
-			t += text("<font color=red>Oxygen: []</font> ", t1)
-		t1 = T.poison() / turf_total * 100
-		t1 = round(t1, 0.0010)
-		if (t1 < 0.5)
-			t += text("<font color=blue>Plasma: []</font> ", t1)
-		else
-			t += text("<font color=red>Plasma: []</font> ", t1)
-		t1 = T.co2() / turf_total * 100
-		t1 = round(t1, 0.0010)
-		if (t1 < 1)
-			t += text("<font color=blue>CO2: []</font> ", t1)
-		else
-			t += text("<font color=red>CO2: []</font> ", t1)
-		t1 = T.sl_gas() / turf_total * 100
-		t1 = round(t1, 0.0010)
-		if (t1 < 5)
-			t += text("<font color=blue>NO2: []</font>", t1)
-		else
-			t += text("<font color=red>NO2: []</font>", t1)
-		t1 = T.temp() - T0C
-		if (T.temp() > 326.444 || T.temp() < 282.591)
-			t += text("<br><font color=red>Temperature: []</font>", t1)
-		else
-			t += text("<br><font color=blue>Temperature: []</font>", t1)
-		usr.show_message(t, 1)
-		return
+	M << "\blue <B>Results:</B>"
+
+	var/t = ""
+	var/t1 = turf_total / CELLSTANDARD * 100
+
+	if ((90 < t1 && t1 < 110))
+		M << text("\blue Air Pressure: []%", t1)
 	else
-		usr << "\blue <B>You are too far away.</B>"
+		M << text("\blue Air Pressure:\red []%", t1)
+
+	t1 = T.n2() / turf_total * 100
+	t1 = round(t1, 0.0010)
+
+	if ((60 < t1 && t1 < 80))
+		t += text("<font color=blue>Nitrogen: []</font> ", t1)
+	else
+		t += text("<font color=red>Nitrogen: []</font> ", t1)
+	t1 = T.oxygen() / turf_total * 100
+	t1 = round(t1, 0.0010)
+
+	if ((20 < t1 && t1 < 24))
+		t += text("<font color=blue>Oxygen: []</font> ", t1)
+	else
+		t += text("<font color=red>Oxygen: []</font> ", t1)
+
+	t1 = T.poison() / turf_total * 100
+	t1 = round(t1, 0.0010)
+
+	if (t1 < 0.5)
+		t += text("<font color=blue>Plasma: []</font> ", t1)
+	else
+		t += text("<font color=red>Plasma: []</font> ", t1)
+
+	t1 = T.co2() / turf_total * 100
+	t1 = round(t1, 0.0010)
+
+	if (t1 < 1)
+		t += text("<font color=blue>CO2: []</font> ", t1)
+	else
+		t += text("<font color=red>CO2: []</font> ", t1)
+	t1 = T.sl_gas() / turf_total * 100
+	t1 = round(t1, 0.0010)
+
+	if (t1 < 5)
+		t += text("<font color=blue>NO2: []</font>", t1)
+	else
+		t += text("<font color=red>NO2: []</font>", t1)
+
+	t1 = T.temp() - T0C
+	if (T.temp() > 326.444 || T.temp() < 282.591)
+		t += text("<br><font color=red>Temperature: []</font>", t1)
+	else
+		t += text("<br><font color=blue>Temperature: []</font>", t1)
+
+	M << t
+	return
 
 /obj/machinery/alarm/indicator/process()
 	if(stat & NOPOWER)

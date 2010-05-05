@@ -41,6 +41,9 @@ client/Command(C as command_text)
 	At this point, a GIANT switch.  This should probably eventually be changed over to multiple smaller subroutines.
 	*/
 
+	if (C == "mac_close")
+		src.mob.machine = null
+
 	if (src.mob.machine)
 		src.mob.machine.UIinput(C)
 

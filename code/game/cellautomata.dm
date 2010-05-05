@@ -714,6 +714,8 @@ var/update_state = 0
 			if(!M)
 				return
 			M.Life()
+			if (M.machine && M.client)
+				M.machine.UIUpdate(M.client)
 			return
 	sleep(3)
 	for(var/obj/move/S in world)

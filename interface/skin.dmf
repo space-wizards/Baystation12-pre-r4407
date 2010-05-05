@@ -892,8 +892,8 @@ window "ap_roundcontrol_votepanel"
 window "mac_thermostat"
 	elem "mac_thermostat"
 		type = MAIN
-		pos = 374,38
-		size = 525x118
+		pos = 281,0
+		size = 525x126
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -901,7 +901,7 @@ window "mac_thermostat"
 		font-style = ""
 		text-color = #000000
 		background-color = none
-		is-visible = true
+		is-visible = false
 		is-disabled = false
 		is-transparent = false
 		is-default = false
@@ -927,10 +927,10 @@ window "mac_thermostat"
 		alpha = 255
 		macro = ""
 		menu = ""
-		on-close = ""
+		on-close = "mac_close"
 	elem "button3"
 		type = BUTTON
-		pos = 188,80
+		pos = 188,88
 		size = 60x20
 		anchor1 = none
 		anchor2 = none
@@ -949,7 +949,7 @@ window "mac_thermostat"
 		saved-params = "is-checked"
 		text = "v"
 		image = ""
-		command = ""
+		command = "T-Dn"
 		is-flat = false
 		stretch = false
 		is-checked = false
@@ -957,7 +957,7 @@ window "mac_thermostat"
 		button-type = pushbutton
 	elem "button2"
 		type = BUTTON
-		pos = 100,80
+		pos = 100,88
 		size = 60x20
 		anchor1 = none
 		anchor2 = none
@@ -976,7 +976,7 @@ window "mac_thermostat"
 		saved-params = "is-checked"
 		text = "^"
 		image = ""
-		command = ""
+		command = "T-Up"
 		is-flat = false
 		stretch = false
 		is-checked = false
@@ -984,7 +984,7 @@ window "mac_thermostat"
 		button-type = pushbutton
 	elem "button1"
 		type = BUTTON
-		pos = 12,80
+		pos = 12,88
 		size = 60x20
 		anchor1 = none
 		anchor2 = none
@@ -1003,7 +1003,7 @@ window "mac_thermostat"
 		saved-params = "is-checked"
 		text = "Power"
 		image = ""
-		command = ""
+		command = "Pwr"
 		is-flat = false
 		stretch = false
 		is-checked = false
@@ -1011,8 +1011,8 @@ window "mac_thermostat"
 		button-type = pushbutton
 	elem "child2"
 		type = CHILD
-		pos = 32,-8
-		size = 424x80
+		pos = 32,8
+		size = 424x72
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -1024,7 +1024,7 @@ window "mac_thermostat"
 		is-disabled = false
 		is-transparent = false
 		is-default = false
-		border = none
+		border = sunken
 		drop-zone = false
 		right-click = false
 		saved-params = "splitter"
@@ -1039,7 +1039,7 @@ window "mac_thermostat_win"
 	elem "mac_thermostat_win"
 		type = MAIN
 		pos = 281,0
-		size = 219x78
+		size = 219x66
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -1074,9 +1074,34 @@ window "mac_thermostat_win"
 		macro = ""
 		menu = ""
 		on-close = ""
+	elem "lblOff"
+		type = LABEL
+		pos = 148,40
+		size = 44x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #00ffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = true
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		text = "OFF"
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = false
 	elem "lblHeatersOn"
 		type = LABEL
-		pos = 160,25
+		pos = 160,9
 		size = 20x23
 		anchor1 = none
 		anchor2 = none
@@ -1101,7 +1126,7 @@ window "mac_thermostat_win"
 		text-wrap = false
 	elem "lblSetTemp"
 		type = LABEL
-		pos = 8,40
+		pos = 0,40
 		size = 144x20
 		anchor1 = none
 		anchor2 = none

@@ -201,7 +201,6 @@
 #include "code\game\machinery\camera.dm"
 #include "code\game\machinery\comcontrol.dm"
 #include "code\game\machinery\computer.dm"
-#include "code\game\machinery\conveyor.dm"
 #include "code\game\machinery\cryo.dm"
 #include "code\game\machinery\door_control.dm"
 #include "code\game\machinery\elevator.dm"

@@ -4882,4 +4882,11 @@ obj/machinery/vendingmachine/soda
 	stat = POWEROFF //Start turned off
 	dir = NORTH
 	var/maxoutput = 1 //How many degrees the temperature on the tile the heater is on is increased every tick at precisely 1 bar.
-	var/maxheat = 500
+	var/maxheat = 90
+
+/obj/machinery/thermostat
+	name = "Thermostat"
+	icon = 'stationobjs.dmi'
+	icon_state = "thermostat"
+	var/target = 22
+	var/on = 0
