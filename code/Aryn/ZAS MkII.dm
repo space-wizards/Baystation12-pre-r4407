@@ -103,7 +103,7 @@ zone
 			else
 				gases = list("O2" = 0,"Plasma" = 0,"CO2" = 0,"N2" = 0,"N2O" = 0)
 		if(door < 2)
-			var/r_list = GetZone(start,door)
+			var/r_list = GetZone(start,door,world.time>20)
 			contents = r_list[1]
 			boundaries = r_list[2]
 		else
@@ -326,8 +326,8 @@ zone
 				S4 = get_step(T,WEST)
 			if(!Airtight(S1,T) && !Airtight(S2,T))
 				var/list
-					S1L = GetZone(S1)
-					S2L = GetZone(S2)
+					S1L = GetZone(S1,0,1)
+					S2L = GetZone(S2,0,1)
 				S1L -= T
 				S2L -= T
 				if(S1L.len && S2L.len)
@@ -347,8 +347,8 @@ zone
 						. = 1
 			if(!Airtight(S3,T) && !Airtight(S4,T))
 				var/list
-					S3L = GetZone(S3)
-					S4L = GetZone(S4)
+					S3L = GetZone(S3,0,1)
+					S4L = GetZone(S4,0,1)
 				S3L -= T
 				S4L -= T
 				if(S3L.len && S4L.len)
@@ -672,7 +672,7 @@ turf
 
 
 
-proc/GetZone(turf/T,ignore_doors=0) //This proc does the floodfill process to add the zone contents and boundaries.
+proc/GetZone(turf/T,ignore_doors=0,slow=0) //This proc does the floodfill process to add the zone contents and boundaries.
 	var/AT = Zonetight(T)
 	var/list
 		LA = list()
@@ -684,6 +684,7 @@ proc/GetZone(turf/T,ignore_doors=0) //This proc does the floodfill process to ad
 	while(!end_loop)
 		end_loop = 1
 		for(var/turf/X in borders)
+			if(slow) sleep(-1)
 			if(Zonetight(X) != AT)
 				borders -= X
 				LB += X

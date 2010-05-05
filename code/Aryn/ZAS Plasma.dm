@@ -47,6 +47,7 @@ turf/var
 	has_n2o
 	dist_timer
 turf/proc/DistributeGas()
+	if(Airtight(src)) return
 	dist_links = GetCardinals(src)
 	for(var/turf/T in dist_links)
 		if(Airtight(T,src)) dist_links -= T

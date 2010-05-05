@@ -892,7 +892,7 @@ window "ap_roundcontrol_votepanel"
 window "mac_thermostat"
 	elem "mac_thermostat"
 		type = MAIN
-		pos = 374,38
+		pos = 281,0
 		size = 525x118
 		anchor1 = none
 		anchor2 = none
@@ -901,7 +901,7 @@ window "mac_thermostat"
 		font-style = ""
 		text-color = #000000
 		background-color = none
-		is-visible = true
+		is-visible = false
 		is-disabled = false
 		is-transparent = false
 		is-default = false
@@ -1047,7 +1047,7 @@ window "mac_thermostat_win"
 		font-style = ""
 		text-color = #000000
 		background-color = #00ffff
-		is-visible = true
+		is-visible = false
 		is-disabled = false
 		is-transparent = false
 		is-default = false
@@ -1094,7 +1094,7 @@ window "mac_thermostat_win"
 		right-click = false
 		saved-params = ""
 		text = ""
-		image = 'interface\\HeaterIcon.png'
+		image = ""
 		image-mode = center
 		keep-aspect = false
 		align = center

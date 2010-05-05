@@ -69,7 +69,7 @@ turf/proc
 		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return T20C
 		if(zone)
 			if(n)
-				zone.temp += n
+				zone.temp += n / zone.contents.len
 				zone.temp = max(2.7,zone.temp)
 				//if(zone.speakmychild && n < 0) world << "Temperature -[abs(n)] - New Value [zone.temp]"
 			else return zone.temp

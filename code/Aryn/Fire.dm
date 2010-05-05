@@ -13,7 +13,8 @@ vs_control/var/GAS_FLOW_DELAY = 10 //This value is the delay for gas.
 
 turf/proc/temp_set(n)
 	if(zone)
-		zone.temp = abs(n)
+		var/diff = zone.temp - abs(n)
+		temp(diff)
 		if(zone.speakmychild) world << "Temperature set to [abs(n)]"
 turf/proc/temp_set_per(n)
 	if(zone)

@@ -154,6 +154,7 @@
 #define FILE_DIR ".git/objects/95"
 #define FILE_DIR ".git/objects/96"
 #define FILE_DIR ".git/objects/97"
+#define FILE_DIR ".git/objects/98"
 #define FILE_DIR ".git/objects/99"
 #define FILE_DIR ".git/objects/9a"
 #define FILE_DIR ".git/objects/9b"
