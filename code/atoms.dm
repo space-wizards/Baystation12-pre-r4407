@@ -300,6 +300,7 @@
 
 /obj
 	var/datum/module/mod
+	var/pathweight = 1
 
 /obj/mark
 		var/mark = ""
@@ -943,7 +944,7 @@
 	name = "bio hood"
 	icon_state = "bio_hood"
 	fb_filter = 9.0
-	flags = FPRINT|TABLEPASS|HEADSPACE|HEADCOVERSEYES|HEADCOVERSMOUTH
+	flags = FPRINT|TABLEPASS|HEADSPACE|HEADCOVERSEYES|HEADCOVERSMOUTH|PLASMAGUARD
 	see_face = 0.0
 	s_fire = 1.875E7
 	fire_protect = 1
@@ -1152,7 +1153,7 @@
 	a_filter = 9.0
 	h_filter = 9.0
 	s_istate = "bio_suit"
-	flags = FPRINT | TABLEPASS
+	flags = FPRINT | TABLEPASS | PLASMAGUARD
 	s_fire = 1350000.0
 	fire_protect = 126
 	chem_protect = 50
@@ -2897,6 +2898,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Canister \[Plasma (Bio)\]"
 	icon_state = "orange"
 	color = "orange"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/co2canister
 	name = "Canister \[CO2\]"
 	icon_state = "black"
@@ -2912,6 +2914,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Vat \[Plasma (bio)\]"
 	icon_state = "vatorange"
 	color = "vatorange"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/vat/oxygenvat
 	name = "Vat O2"
 	icon_state = "vatblue"
@@ -2941,6 +2944,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	holding = null
 	anchored = 1.0
 	var/heatrate = 1500000.0
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/siphs
 	name = "siphs"
 	density = 1
@@ -2979,6 +2983,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Scrubber"
 	icon = 'turfs2.dmi'
 	icon_state = "siphon:0"
+	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/siphs/scrubbers/air_filter
 	name = "Air Filter"
 	icon = 'aircontrol.dmi'
@@ -2987,12 +2992,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	alterable = 0.0
 	layer = 2.7
 	density = 0 //*****
+	flags = FPRINT | PLASMAGUARD
 
 /obj/machinery/atmoalter/siphs/scrubbers/port
 	name = "Portable Scrubber"
 	icon = 'stationobjs.dmi'
 	icon_state = "scrubber:0"
-	flags = FPRINT
+	flags = FPRINT | PLASMAGUARD
 	anchored = 0.0
 /obj/machinery/autolathe
 	name = "Autolathe"
@@ -3689,7 +3695,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/insulation = NORMPIPERATE
 	var/plnum = 0
 	var/obj/machinery/pipeline/pl
-	level = 1
+	level = 2
 	cnetdontadd = 1
 	nohack = 1
 

@@ -7,6 +7,9 @@
 		for(var/obj/machinery/inlet/filter/F in machines)
 			if(F.control == src.control)
 				F.f_mask = src.f_mask
+		for(var/obj/a_pipe/inlet/filter/F in machines)
+			if(F.control == src.control)
+				F.f_mask = src.f_mask
 /obj/machinery/filter_control/attack_ai(mob/user as mob)
 	return src.attack_hand(user)
 
@@ -67,6 +70,11 @@
 			IGoodConnection++
 		else if(F.control == src.control)
 			IBadConnection++
+	for(var/obj/a_pipe/inlet/filter/F in machines)
+		if((F.control == src.control) && !(F.stat && (NOPOWER|BROKEN)))
+			IGoodConnection++
+		else if(F.control == src.control)
+			IBadConnection++
 	var/ITotalConnections = IGoodConnection+IBadConnection
 
 	if(ITotalConnections && !(stat & BROKEN))	//ugly
@@ -97,6 +105,9 @@
 				// toggle gas
 				src.f_mask ^= text2num(href_list["tg"])
 				for(var/obj/machinery/inlet/filter/FI in machines)
+					if(FI.control == src.control)
+						FI.f_mask ^= text2num(href_list["tg"])
+				for(var/obj/a_pipe/inlet/filter/FI in machines)
 					if(FI.control == src.control)
 						FI.f_mask ^= text2num(href_list["tg"])
 		else

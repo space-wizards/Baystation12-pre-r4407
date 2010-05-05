@@ -221,8 +221,8 @@ heat is conserved between exchanges
 ---------------------------- */
 
 //fractional multipliers of heat
-#define TURF_ADD_FRAC 0.95		//cooling due to release of gas into tile
-#define TURF_TAKE_FRAC 1.06		//heating due to pressurization into pipework
+#define TURF_ADD_FRAC 1		//cooling due to release of gas into tile
+#define TURF_TAKE_FRAC 1		//heating due to pressurization into pipework
 
 // Not used?
 /obj/substance/gas/leak(T as turf)
@@ -592,6 +592,14 @@ heat is conserved between exchanges
 	src.plasma -= target.plasma
 	src.sl_gas -= target.sl_gas
 	src.n2 -= target.n2
+
+/obj/substance/gas/proc/sub_delta_turf(turf/T)
+
+	T.co2(-src.co2)
+	T.oxygen(-src.oxygen)
+	T.poison(-src.plasma)
+	T.sl_gas(-src.sl_gas)
+	T.n2(-src.n2)
 
 
 

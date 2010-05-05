@@ -1,39 +1,203 @@
-"a" = (/turf/space,/area)
-"b" = (/turf/station/r_wall,/area)
-"c" = (/obj/begin,/turf/station/floor,/area/start)
-"d" = (/turf/station/floor,/area)
-"e" = (/obj/a_pipe{tag = "icon-default (SOUTHEAST)"; icon_state = ""; dir = 6},/turf/station/floor,/area)
-"f" = (/obj/machinery/light,/obj/a_pipe{tag = "icon-default (EAST)"; icon_state = ""; dir = 4},/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
-"g" = (/obj/a_pipe{tag = "icon-default (EAST)"; icon_state = ""; dir = 4},/turf/station/floor,/area)
-"h" = (/obj/a_pipe{tag = "icon-default (SOUTHWEST)"; icon_state = ""; dir = 10},/turf/station/floor,/area)
-"i" = (/obj/machinery/light,/turf/station/floor,/area)
-"j" = (/turf/station/floor,/area/arrival/start)
-"k" = (/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor,/area)
-"l" = (/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
-"m" = (/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor,/area)
-"n" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/obj/window,/turf/station/floor,/area)
-"o" = (/obj/window,/turf/station/floor,/area)
-"p" = (/obj/window,/obj/window{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/station/floor,/area)
-"q" = (/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area)
-"r" = (/obj/machinery/power/apc{dir = 1},/obj/cable{icon_state = "0-2"; d2 = 2},/turf/station/floor,/area)
-"s" = (/obj/cable,/obj/machinery/power/infinite,/turf/station/floor,/area)
-"t" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area)
-"u" = (/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area)
+"aa" = (/turf/space,/area)
+"ab" = (/turf/station/r_wall,/area/start)
+"ac" = (/obj/begin,/turf/station/floor,/area/start)
+"ad" = (/obj/forcefield,/turf/space,/area)
+"ae" = (/obj/grille,/turf/space,/area)
+"af" = (/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"ag" = (/turf/station/r_wall,/area/arrival/start{sd_lighting = 0})
+"ah" = (/obj/table{tag = "icon-corners (NORTHEAST)"; icon_state = "corners"; dir = 5},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"ai" = (/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aj" = (/obj/table{tag = "icon-corners (SOUTHWEST)"; icon_state = "corners"; dir = 10},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"ak" = (/obj/table{tag = "icon-sides"; icon_state = "sides"},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"al" = (/obj/table{tag = "icon-corners (SOUTHEAST)"; icon_state = "corners"; dir = 6},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"am" = (/obj/machinery/door/airlock,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"an" = (/obj/a_pipe/vent,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"ao" = (/obj/closet,/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"ap" = (/obj/table,/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"aq" = (/obj/table{tag = "icon-sides (EAST)"; icon_state = "sides"; dir = 4},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"ar" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (NORTH)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 1; rate = 300},/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"as" = (/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"at" = (/obj/stool/bed,/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"au" = (/obj/a_pipe/hi_junction{tag = "icon-hi_junction (NORTH)"; icon_state = "hi_junction"; dir = 1},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"av" = (/obj/machinery/door,/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"aw" = (/obj/table{tag = "icon-corners (NORTHWEST)"; icon_state = "corners"; dir = 9},/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"ax" = (/obj/table{tag = "icon-corners (NORTHEAST)"; icon_state = "corners"; dir = 5},/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"ay" = (/obj/closet/emcloset,/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"az" = (/obj/a_pipe/vent{tag = "icon-vent (EAST)"; icon_state = "vent"; dir = 4},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aA" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (WEST)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 8; rate = 300},/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"aB" = (/obj/a_pipe,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aC" = (/obj/a_pipe/cross_manifold{tag = "icon-cross_manifold (WEST)"; icon_state = "cross_manifold"; dir = 8},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aD" = (/obj/table{tag = "icon-corners (SOUTHWEST)"; icon_state = "corners"; dir = 10},/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"aE" = (/obj/table{tag = "icon-corners (SOUTHEAST)"; icon_state = "corners"; dir = 6},/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"aF" = (/obj/a_pipe/hi_cap{tag = "icon-high_capacity"; icon_state = "high_capacity"; dir = 2},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aG" = (/obj/a_pipe{tag = "icon-default (SOUTHEAST)"; icon_state = ""; dir = 6},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aH" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (EAST)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 4; rate = 300},/turf/station/r_wall,/area/arrival/start{sd_lighting = 0})
+"aI" = (/obj/a_pipe/vent{tag = "icon-vent (WEST)"; icon_state = "vent"; dir = 8},/turf/station/floor,/area/arrival/start{sd_lighting = 0})
+"aJ" = (/obj/a_pipe/cross_manifold{tag = "icon-cross_manifold (EAST)"; icon_state = "cross_manifold"; dir = 4},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aK" = (/obj/a_pipe{tag = "icon-default (NORTHWEST)"; icon_state = ""; dir = 9},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aL" = (/obj/a_pipe/hi_cap{tag = "icon-high_capacity"; icon_state = "high_capacity"; dir = 2},/obj/a_meter,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"aM" = (/turf/station/r_wall,/area/engine/combustion)
+"aN" = (/obj/machinery/firealarm{name = "N Fire Alarm"; pixel_y = 29},/obj/machinery/light,/turf/station/floor,/area/engine/combustion)
+"aO" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/a_pipe/he_pipe{dir = 6; h_dir = 6; icon_state = ""; p_dir = 6; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aP" = (/obj/a_pipe/he_pipe{dir = 10; h_dir = 10; icon_state = ""; p_dir = 10; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aQ" = (/obj/a_pipe/he_pipe{dir = 6; h_dir = 6; icon_state = ""; p_dir = 6; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aR" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/a_pipe/he_pipe{dir = 10; h_dir = 10; icon_state = ""; p_dir = 10; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aS" = (/turf/station/floor,/area/engine/combustion)
+"aT" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aU" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aV" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/obj/machinery/igniter,/obj/machinery/door/poddoor{id = "engineignition"; name = "Engine Ignition Shutter"},/obj/computercable{tag = "icon-2-4-S"; icon_state = "2-4-S"},/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area/engine/combustion)
+"aW" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/obj/machinery/igniter,/obj/machinery/door/poddoor{id = "engineignition"; name = "Engine Ignition Shutter"},/obj/computercable{tag = "icon-2-8-S"; icon_state = "2-8-S"},/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area/engine/combustion)
+"aX" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"aY" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/obj/machinery/igniter,/obj/machinery/door/poddoor{id = "engineignition"; name = "Engine Ignition Shutter"},/obj/computercable{tag = "icon-1-4-S"; icon_state = "1-4-S"},/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area/engine/combustion)
+"aZ" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/obj/machinery/igniter,/obj/machinery/door/poddoor{id = "engineignition"; name = "Engine Ignition Shutter"},/obj/computercable{tag = "icon-1-8-S"; icon_state = "1-8-S"},/turf/station/floor{name = "airless plating"; icon_state = "Floor1"; intact = 0; oxygen = 0; n2 = 0; health = 100},/area/engine/combustion)
+"ba" = (/obj/machinery/firealarm{name = "W Fire Alarm"; pixel_x = -29},/turf/station/floor,/area/engine/combustion)
+"bb" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/junction{dir = 1; h_dir = 1; p_dir = 2},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"bc" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/he_pipe{dir = 5; h_dir = 5; icon_state = ""; p_dir = 5; tag = ""},/obj/a_pipe/vent,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"bd" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/he_pipe{dir = 9; h_dir = 9; icon_state = ""; p_dir = 9; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"be" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/he_pipe{dir = 5; h_dir = 5; icon_state = ""; p_dir = 5; tag = ""},/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"bf" = (/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/he_pipe{dir = 5; h_dir = 5; icon_state = ""; p_dir = 5; tag = ""},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"bg" = (/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; reinf = 1},/obj/a_pipe/junction{dir = 1; h_dir = 1; p_dir = 2},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/engine/combustion)
+"bh" = (/obj/machinery/firealarm{name = "E Fire Alarm"; pixel_x = 29},/turf/station/floor,/area/engine/combustion)
+"bi" = (/obj/machinery/door/firedoor,/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area/engine/combustion)
+"bj" = (/obj/machinery/door/firedoor,/obj/a_pipe/divider/pump{dir = 1},/turf/station/floor,/area/engine/combustion)
+"bk" = (/obj/machinery/door/firedoor,/obj/a_pipe{tag = "icon-default (NORTH)"; icon_state = ""; dir = 1},/turf/station/floor,/area/engine/combustion)
+"bl" = (/obj/machinery/door/firedoor,/obj/a_pipe{tag = "icon-default (SOUTHEAST)"; icon_state = ""; dir = 6},/turf/station/floor,/area/engine/combustion)
+"bm" = (/obj/machinery/door/firedoor,/obj/computercable{tag = "icon-1-4-S"; icon_state = "1-4-S"},/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"bn" = (/obj/machinery/door/firedoor,/obj/computercable{tag = "icon-4-8-S"; icon_state = "4-8-S"},/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"bo" = (/obj/machinery/door/firedoor,/obj/computercable{tag = "icon-2-8-S"; icon_state = "2-8-S"},/obj/a_meter,/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"bp" = (/obj/machinery/door/firedoor,/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"bq" = (/obj/machinery/door/firedoor,/obj/a_pipe/divider/pump,/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"br" = (/obj/machinery/door/firedoor,/obj/a_pipe/divider/pump{dir = 4},/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area/engine/combustion)
+"bs" = (/obj/a_pipe/junction{tag = "icon-default (EAST)"; icon_state = ""; dir = 4},/turf/station/r_wall,/area/engine/combustion)
+"bt" = (/obj/a_pipe/he_pipe{dir = 10; h_dir = 10; icon_state = ""; p_dir = 10; tag = ""},/turf/space,/area)
+"bu" = (/obj/machinery/door/airlock,/turf/station/floor,/area/engine/combustion)
+"bv" = (/obj/a_pipe{tag = "icon-default (NORTHEAST)"; icon_state = ""; dir = 5},/turf/station/floor,/area/engine/combustion)
+"bw" = (/obj/a_pipe,/obj/a_pipe/divider/valve/digital_valve,/turf/station/floor,/area/engine/combustion)
+"bx" = (/obj/a_pipe,/obj/a_pipe{tag = "icon-default (NORTH)"; icon_state = ""; dir = 1},/turf/station/floor,/area/engine/combustion)
+"by" = (/obj/a_pipe,/obj/a_meter,/turf/station/floor,/area/engine/combustion)
+"bz" = (/obj/a_pipe{tag = "icon-default (SOUTHWEST)"; icon_state = ""; dir = 10},/turf/station/floor,/area/engine/combustion)
+"bA" = (/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/turf/station/floor,/area/engine/combustion)
+"bB" = (/obj/a_pipe/connector{tag = "icon-connector (EAST)"; icon_state = "connector"; dir = 4},/obj/machinery/atmoalter/canister/co2canister,/turf/station/floor,/area/engine/combustion)
+"bC" = (/obj/a_pipe/manifold{tag = "icon-manifold (WEST)"; icon_state = "manifold"; dir = 8},/turf/station/floor,/area/engine/combustion)
+"bD" = (/obj/a_pipe/he_pipe{dir = 2; h_dir = 3; icon_state = ""; p_dir = 3; tag = ""},/turf/space,/area)
+"bE" = (/obj/machinery/light{tag = "icon-fluorescent (EAST)"; icon_state = "fluorescent"; dir = 4},/turf/station/floor,/area/engine/combustion)
+"bF" = (/obj/a_pipe{tag = "icon-default (NORTH)"; icon_state = ""; dir = 1},/obj/a_meter,/turf/station/floor,/area/engine/combustion)
+"bG" = (/obj/a_pipe/a_circulator,/turf/station/floor,/area/engine/combustion)
+"bH" = (/obj/machinery/power/generator,/obj/cable{d2 = 2; icon_state = "0-2"},/turf/station/floor,/area/engine/combustion)
+"bI" = (/obj/a_pipe/a_circulator{icon_state = "circ2-off"; side = 2},/turf/station/floor,/area/engine/combustion)
+"bJ" = (/obj/computercable{tag = "icon-1-4-S"; icon_state = "1-4-S"},/turf/station/floor,/area/engine/combustion)
+"bK" = (/obj/computercable{tag = "icon-4-8-S"; icon_state = "4-8-S"},/turf/station/floor,/area/engine/combustion)
+"bL" = (/obj/computercable{tag = "icon-4-8-S"; icon_state = "4-8-S"},/obj/a_pipe{tag = "icon-default (NORTH)"; icon_state = ""; dir = 1},/turf/station/floor,/area/engine/combustion)
+"bM" = (/obj/computercable{cabletype = "-S"; icon_state = "0-8-S"; tag = "icon-0-4-S"},/obj/machinery/door_control{id = "engineignition"; name = "Engine Ignition Control"; pixel_x = 31; pixel_y = 0},/obj/machinery/light{tag = "icon-fluorescent (WEST)"; icon_state = "fluorescent"; dir = 8},/turf/station/floor,/area/engine/combustion)
+"bN" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (EAST)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 4; rate = 300},/turf/station/r_wall,/area/engine/combustion)
+"bO" = (/obj/a_pipe/vent{tag = "icon-vent (WEST)"; icon_state = "vent"; dir = 8},/turf/station/floor,/area/engine/combustion)
+"bP" = (/obj/a_pipe/connector{tag = "icon-connector (EAST)"; icon_state = "connector"; dir = 4},/obj/machinery/atmoalter/canister/vat/oxygenvat,/turf/station/floor,/area/engine/combustion)
+"bQ" = (/obj/a_pipe{tag = "icon-default (NORTH)"; icon_state = ""; dir = 1},/turf/station/floor,/area/engine/combustion)
+"bR" = (/obj/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/station/floor,/area/engine/combustion)
+"bS" = (/obj/a_pipe{tag = "icon-default (NORTHEAST)"; icon_state = ""; dir = 5},/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"bT" = (/obj/a_pipe,/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"bU" = (/obj/a_meter,/obj/a_pipe,/obj/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"bV" = (/obj/a_pipe{tag = "icon-default (NORTHWEST)"; icon_state = ""; dir = 9},/obj/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"bW" = (/obj/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/station/floor,/area/engine/combustion)
+"bX" = (/obj/a_pipe/connector{tag = "icon-connector (NORTH)"; icon_state = "connector"; dir = 1},/obj/machinery/atmoalter/canister/vat/plasmavat,/turf/station/floor,/area/engine/combustion)
+"bY" = (/obj/a_pipe/manifold,/turf/station/floor,/area/engine/combustion)
+"bZ" = (/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"ca" = (/obj/a_meter,/obj/a_pipe,/turf/station/floor,/area/engine/combustion)
+"cb" = (/obj/a_pipe,/obj/machinery/power/terminal,/obj/cable,/turf/station/floor,/area/engine/combustion)
+"cc" = (/obj/a_pipe/divider/pump{dir = 8},/obj/machinery/power/terminal,/obj/cable,/turf/station/floor,/area/engine/combustion)
+"cd" = (/obj/a_pipe/he_pipe{dir = 9; h_dir = 9; icon_state = ""; p_dir = 9; tag = ""},/turf/space,/area)
+"ce" = (/obj/machinery/power/apc,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cf" = (/obj/machinery/power/monitor,/obj/cable{d2 = 4; icon_state = "0-4"},/turf/station/floor,/area/engine/combustion)
+"cg" = (/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"ch" = (/obj/a_pipe/connector{tag = "icon-connector (NORTH)"; icon_state = "connector"; dir = 1},/obj/machinery/atmoalter/canister/co2canister,/turf/station/floor,/area/engine/combustion)
+"ci" = (/obj/machinery/power/smes,/turf/station/floor,/area/engine/combustion)
+"cj" = (/obj/machinery/power/apc,/obj/cable{d2 = 4; icon_state = "0-4"},/turf/station/floor,/area/engine/combustion)
+"ck" = (/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/station/floor,/area/engine/combustion)
+"cl" = (/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light{tag = "icon-fluorescent (NORTH)"; icon_state = "fluorescent"; dir = 1},/turf/station/floor,/area/engine/combustion)
+"cm" = (/obj/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/engine/combustion)
+"cn" = (/obj/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/station/floor,/area/engine/combustion)
+"co" = (/obj/a_pipe/hi_junction{tag = "icon-hi_junction (WEST)"; icon_state = "hi_junction"; dir = 8},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cp" = (/obj/a_pipe/cross_manifold,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cq" = (/obj/a_pipe/hi_cap,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cr" = (/obj/a_pipe/hi_cap,/obj/a_meter,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cs" = (/obj/a_pipe/hi_cap,/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"ct" = (/obj/a_pipe/hi_manifold{tag = "icon-hi_manifold (WEST)"; icon_state = "hi_manifold"; dir = 8},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cu" = (/obj/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cv" = (/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cw" = (/obj/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"cx" = (/obj/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"cy" = (/obj/a_pipe/manifold{tag = "icon-manifold (EAST)"; icon_state = "manifold"; dir = 4},/obj/a_meter,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cz" = (/obj/a_pipe{tag = "icon-default (SOUTHWEST)"; icon_state = ""; dir = 10},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cA" = (/obj/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cB" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (EAST)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 4; rate = 300},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cC" = (/obj/a_pipe/vent{tag = "icon-vent (WEST)"; icon_state = "vent"; dir = 8},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cD" = (/obj/machinery/atmoalter/canister/anesthcanister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cE" = (/obj/machinery/atmoalter/canister/aircanister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cF" = (/obj/a_pipe/divider/valve,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cG" = (/obj/a_pipe/divider/valve/digital_valve,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cH" = (/obj/a_pipe/hi_cap{tag = "icon-high_capacity (NORTHEAST)"; icon_state = "high_capacity"; dir = 5},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cI" = (/obj/a_pipe/hi_cap,/obj/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cJ" = (/obj/a_pipe/cross_manifold{tag = "icon-cross_manifold (NORTH)"; icon_state = "cross_manifold"; dir = 1},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cK" = (/obj/a_pipe/hi_junction{tag = "icon-hi_junction (EAST)"; icon_state = "hi_junction"; dir = 4},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cL" = (/obj/a_pipe/divider/pump{tag = "icon-pipepump-map (EAST)"; name = "O2 Pump"; icon_state = "pipepump-map"; dir = 4; rate = 300},/turf/station/r_wall,/area/medical/morgue{sd_lighting = 0})
+"cM" = (/obj/a_pipe/vent{tag = "icon-vent (WEST)"; icon_state = "vent"; dir = 8},/obj/machinery/atmoalter/canister/anesthcanister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cN" = (/obj/a_pipe/divider/pump,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cO" = (/obj/a_pipe/divider/pump{dir = 1},/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cP" = (/obj/machinery/atmoalter/canister/co2canister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cQ" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/medical/morgue{sd_lighting = 0})
+"cR" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/medical/morgue{sd_lighting = 0})
+"cS" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "oxygen-filled plating"; oxygen = 3.6e+008; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cT" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "oxygen-filled plating"; oxygen = 3.6e+008; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cU" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 3.6e+008; name = "nitrogen-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cV" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 3.6e+008; name = "nitrogen-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cW" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/a_pipe/vent{tag = "icon-vent (NORTH)"; icon_state = "vent"; dir = 1},/turf/station/floor{co2 = 3.6e+008; health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "CO2-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cX" = (/obj/window{tag = "icon-rwindow (NORTH)"; icon_state = "rwindow"; dir = 1; reinf = 1},/obj/a_pipe/inlet{tag = "icon-inlet (NORTH)"; icon_state = "inlet"; dir = 1},/turf/station/floor{co2 = 3.6e+008; health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "CO2-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"cY" = (/obj/machinery/atmoalter/canister/poisoncanister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"cZ" = (/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/medical/morgue{sd_lighting = 0})
+"da" = (/obj/securearea{desc = "This tank is filled with Plasma"; name = "Plasma"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "plasma-filled plating"; oxygen = 0; poison = 3.6e+008},/area/medical/morgue{sd_lighting = 0})
+"db" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "oxygen-filled plating"; oxygen = 3.6e+008; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"dc" = (/obj/securearea{desc = "This tank is filled with Oxygen"; name = "O2"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "oxygen-filled plating"; oxygen = 3.6e+008; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"dd" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 3.6e+008; name = "nitrogen-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"de" = (/obj/securearea{desc = "This tank is filled with Nitrogen"; name = "N2"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; n2 = 3.6e+008; name = "nitrogen-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"df" = (/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/turf/station/floor{co2 = 3.6e+008; health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "CO2-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"dg" = (/obj/securearea{desc = "This tank is filled with CO2"; name = "CO2"},/turf/station/floor{co2 = 3.6e+008; health = 100; icon_state = "Floor1"; intact = 0; n2 = 0; name = "CO2-filled plating"; oxygen = 0; poison = 0},/area/medical/morgue{sd_lighting = 0})
+"dh" = (/obj/machinery/power/apc,/obj/cable,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
+"di" = (/obj/machinery/atmoalter/canister/oxygencanister,/turf/station/floor,/area/medical/morgue{sd_lighting = 0})
 
 (1,1,1) = {"
-aaaaaaaaaaabcba
-abbbbbbbbbbbbba
-abdefgggghibjba
-abdklddddmdddba
-abnopdddddddqba
-abdddddddddddba
-abdddddddddddba
-abdddddbdddddba
-abdddddrdddddba
-abdddddsdddddba
-abtdddddddddqba
-abdddddddddddba
-abdduddddduddba
-abbbbbbbbbbbbba
-aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacac
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababab
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaadaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadaaaa
+aaaaaaadaeafafafafafafafafafafafafafafagagagagagagagagagagagagaeadadaa
+aaaaaaadaeafahaiajakakakalaiamaianaiaiagaoapaoapaoapaoapaoapagaeaeadaa
+aaaaaaadaeafaqaiaiaiaiaiaiaiafafarakakagasatasatasatasatasatagagaeadaa
+aaaaaaadaeafaqaiaiaiaiaiaiaiamaiauaiaiavasasasasawaxasasasasayagaeadaa
+aaaaaaadaeafalaiaiaiaiaiaiazaAaBaCaiaiavasasasasaDaEasasasasayagaeadaa
+aaaaaaadaeafafafafafafafafafafaiaFaiaGaHaIatasatasatasatasatagagaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaJaBaKagaoapaoapaoapaoapaoapagaeaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaFaiaiagagagagagagagagagagagagaeadadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiamaiaLaiaiaMaNaOaPaQaPaQaPaQaRaNaMaeadaaaa
+aaaaaaadaeafaiaiaiaiaiaiaiazaAaBaCaiaiaMaSaTaUaUaVaWaUaUaXaSaMaeadaaaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaFaiaiaMaSaTaUaUaYaZaUaUaXaSaMaeadadaa
+aaaaaaadaeafafafafafafafafafafaiaFaiaiaMbabbbcbdbebdbfbdbgbhaMaeaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiazaAaBaCaiaiaMbibjbkblbmbnbobpbqbrbsbtaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaFaiaibuaSbvbwbxbybzbAbBbCaSaMbDaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiamaiaLaiaiaMbEaSbFbGbHbIbJbKbLbMaMbDaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaJaBaBbNbObPbCbQbRbSbTbUbVbWaMbDaeadaa
+aaaaaaadaeafaiaiaiaiaiaiaiaiafaiaFaiaiaMaSaSbXbvbYbZcacbcbccbscdaeadaa
+aaaaaaadaeafaiaiaiaiaiceaiaiafaiaFaiaiaMcfcgcgbWchaSaSciciciaMaeaeadaa
+aaaaaaadaeafafafafafafafafafafaiaFaiaiaMaSaScjckclcgcgcmcmcnaMaeadadaa
+aaaaaaadaeafaGcocpcqcpcqcpcrcscqctcucvcwcwcwcwcxafafamafafafafaeadaaaa
+aaaaaaadaeafcyczcyczcyczcyczafaiaFcAaGcBcCaiafcDcDcDaicEcEcEafaeadaaaa
+aaaaaaadaeafcFcFcGcGcGcGcGcGafaicHcIcJcqcrcKcLcMcDcDaicEcEcEafaeadaaaa
+aaaaaaadaeafcNcOcNcOcNcOcNcOamaiaicAaiaiaiaiamaiaiaiaicPcPcPafaeadaaaa
+aaaaaaadaeafcQcRcScTcUcVcWcXafaiaicAaiaiaiaiafcYcYcYcYcPcPcPafaeadaaaa
+aaaaaaadaeafcZdadbdcdddedfdgafaiaidhaiaiaiaiafdidididicPcPcPafaeadaaaa
+aaaaaaadaeafafafafafafafafafafafafafafafafafafafafafafafafafafaeadaaaa
+aaaaaaadaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeadaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

@@ -181,7 +181,7 @@ turf/proc
 	if ((locate(/obj/effects/water, src.loc) || src.firelevel < 900000.0))
 		src.firelevel = 0
 		//cool due to water
-		temp += (T20C - temp) / FIRERATE
+		temp += (T20C - temp) / vsc.FIRERATE
 
 
 

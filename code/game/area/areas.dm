@@ -134,7 +134,6 @@
 	return A
 
 /area/proc/atmosalert(var/state, var/obj/machinery/alarm/source, var/super)
-	/*
 	var/list/cameras = list()
 	for (var/obj/machinery/camera/C in src)
 		cameras += C
@@ -156,7 +155,6 @@
 		if (A != src)
 			A.atmosalert(state, source, 1)
 	return 1
-	*/
 
 /area/proc/poweralert(var/state, var/source,var/super)
 	if (state != poweralm)

@@ -1,5 +1,9 @@
-var
-	AF_MOVEMENT_THRESHOLD = 35 //% difference to move stuff.
+vs_control/var
+	AF_TINY_MOVEMENT_THRESHOLD = 25 //% difference to move tiny items.
+	AF_SMALL_MOVEMENT_THRESHOLD = 35 //% difference to move small items.
+	AF_NORMAL_MOVEMENT_THRESHOLD = 50 //% difference to move normal items.
+	AF_LARGE_MOVEMENT_THRESHOLD = 60 //% difference to move large and huge items.
+	AF_MOVEMENT_THRESHOLD = 75 //% difference to move dense crap and mobs.
 	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
 	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
 	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
@@ -16,26 +20,26 @@ client/proc
 
 		switch(choice)
 			if("Movement Threshold")
-				n = input("What will you change it to","Change Airflow Constants",AF_MOVEMENT_THRESHOLD) as num
+				n = input("What will you change it to","Change Airflow Constants",vsc.AF_MOVEMENT_THRESHOLD) as num
 				n = max(1,n)
-				AF_MOVEMENT_THRESHOLD = n
-				world.log << "AF_MOVEMENT_THRESHOLD set to [n]."
+				vsc.AF_MOVEMENT_THRESHOLD = n
+				world.log << "vsc.AF_MOVEMENT_THRESHOLD set to [n]."
 			if("Speed Multiplier")
-				n = input("What will you change it to","Change Airflow Constants",AF_SPEED_MULTIPLIER) as num
+				n = input("What will you change it to","Change Airflow Constants",vsc.AF_SPEED_MULTIPLIER) as num
 				n = max(1,n)
-				AF_SPEED_MULTIPLIER = n
-				world.log << "AF_SPEED_MULTIPLIER set to [n]."
+				vsc.AF_SPEED_MULTIPLIER = n
+				world.log << "vsc.AF_SPEED_MULTIPLIER set to [n]."
 			if("Damage Multiplier")
-				n = input("What will you change it to","Change Airflow Constants",AF_DAMAGE_MULTIPLIER) as num
-				AF_DAMAGE_MULTIPLIER = n
+				n = input("What will you change it to","Change Airflow Constants",vsc.AF_DAMAGE_MULTIPLIER) as num
+				vsc.AF_DAMAGE_MULTIPLIER = n
 				world.log << "AF_DAMAGE_MULTIPLIER set to [n]."
 			if("Stun Multiplier")
-				n = input("What will you change it to","Change Airflow Constants",AF_STUN_MULTIPLIER) as num
-				AF_STUN_MULTIPLIER = n
+				n = input("What will you change it to","Change Airflow Constants",vsc.AF_STUN_MULTIPLIER) as num
+				vsc.AF_STUN_MULTIPLIER = n
 				world.log << "AF_STUN_MULTIPLIER set to [n]."
 			if("Speed Decay")
-				n = input("What will you change it to","Change Airflow Constants",AF_SPEED_DECAY) as num
-				AF_SPEED_DECAY = n
+				n = input("What will you change it to","Change Airflow Constants",vsc.AF_SPEED_DECAY) as num
+				vsc.AF_SPEED_DECAY = n
 				world.log << "AF_SPEED_DECAY set to [n]."
 
 //turf/verb/TossMeHere(n as num,use_airflow as anything in list("Use Airflow Destination","Use Zone Airflow Rules"))
@@ -59,13 +63,28 @@ proc/Airflow(zone/A,zone/B,n)
 	var/list/connected_turfs = A.connections[B]
 	var/list/pplz = A.movables()
 	var/list/otherpplz = B.movables()
-	if(abs(n) > AF_MOVEMENT_THRESHOLD)
+	if(abs(n) > vsc.AF_TINY_MOVEMENT_THRESHOLD)
 		//world << "SWASH!"
 		for(var/atom/movable/M in pplz)
 			//world << "[M] / \..."
+
+
 			if(M.anchored && !ismob(M)) continue
 			if(istype(M,/mob/observer)) continue
 			if(istype(M,/mob/ai)) continue
+
+			if(!istype(M,/obj/item) && n < vsc.AF_MOVEMENT_THRESHOLD) continue
+			if(istype(M,/obj/item))
+				switch(M:w_class)
+					if(2)
+						if(n < vsc.AF_SMALL_MOVEMENT_THRESHOLD) continue
+					if(3)
+						if(n < vsc.AF_NORMAL_MOVEMENT_THRESHOLD) continue
+					if(4)
+						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
+					if(5)
+						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
+
 			var/fail = 1
 			for(var/turf/U in connected_turfs)
 				if(M in range(U)) fail = 0
@@ -73,14 +92,27 @@ proc/Airflow(zone/A,zone/B,n)
 			//world << "Sonovabitch! [M] won't move!"
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.GotoAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
+				spawn M.GotoAirflowDest(abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
 			//else if(M.airflow_speed > 0)
-			//	M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
 		for(var/atom/movable/M in otherpplz)
 			//world << "[M] / \..."
 			if(istype(M,/mob/ai)) continue
 			if(istype(M,/mob/observer)) continue
 			if(M.anchored && !ismob(M)) continue
+
+			if(!istype(M,/obj/item) && n < vsc.AF_MOVEMENT_THRESHOLD) continue
+			if(istype(M,/obj/item))
+				switch(M:w_class)
+					if(2)
+						if(n < vsc.AF_SMALL_MOVEMENT_THRESHOLD) continue
+					if(3)
+						if(n < vsc.AF_NORMAL_MOVEMENT_THRESHOLD) continue
+					if(4)
+						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
+					if(5)
+						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
+
 			var/fail = 1
 			for(var/turf/U in connected_turfs)
 				if(M in range(U)) fail = 0
@@ -88,9 +120,9 @@ proc/Airflow(zone/A,zone/B,n)
 			//world << "Sonovabitch! [M] won't move either!"
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.RepelAirflowDest(abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER))
+				spawn M.RepelAirflowDest(abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
 		//	else if(M.airflow_speed > 0)
-			//	M.airflow_speed = abs(n) / (AF_MOVEMENT_THRESHOLD/AF_SPEED_MULTIPLIER)
+			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
 atom/movable
 	var/turf/airflow_dest
 	var/airflow_speed = 0
@@ -101,6 +133,8 @@ atom/movable
 		if(airflow_speed)
 			airflow_speed = n
 			return
+		if(airflow_dest == loc)
+			step_away(src,loc)
 		if(ismob(src)) src << "\red You are sucked towards [airflow_dest]!"
 		airflow_speed = min(round(n),9)
 		//world << "[src]'s headed to [airflow_dest] at [n] times the SPEED OF LIGHT!"
@@ -117,7 +151,7 @@ atom/movable
 		while(airflow_speed > 0)
 			if(airflow_speed <= 0) return
 			airflow_speed = min(airflow_speed,15)
-			airflow_speed -= AF_SPEED_DECAY
+			airflow_speed -= vsc.AF_SPEED_DECAY
 			if(airflow_speed > 7)
 				if(airflow_time++ >= airflow_speed - 7)
 					sleep(1)
@@ -140,6 +174,8 @@ atom/movable
 		if(airflow_speed)
 			airflow_speed = n
 			return
+		if(airflow_dest == loc)
+			step_away(src,loc)
 		if(ismob(src)) src << "\red You are pushed away from [airflow_dest]!"
 		airflow_speed = min(round(n),9)
 		//airflow_dest = get_step(src,Get_Dir(airflow_dest,src))
@@ -154,7 +190,7 @@ atom/movable
 		while(airflow_speed > 0)
 			if(airflow_speed <= 0) return
 			airflow_speed = min(airflow_speed,15)
-			airflow_speed -= AF_SPEED_DECAY
+			airflow_speed -= vsc.AF_SPEED_DECAY
 			if(airflow_speed > 7)
 				if(airflow_time++ >= airflow_speed - 7)
 					sleep(1)
@@ -171,7 +207,6 @@ atom/movable
 		if(od)
 			density = 0
 	Bump(atom/A)
-		. = ..()
 		if(airflow_speed > 0 && airflow_dest)
 			if(istype(A,/obj/item)) return .
 			//viewers(src) << "\red <b>[src] slams into [A]!</b>"
@@ -187,7 +222,7 @@ atom/movable
 					if (src:w_uniform)
 						src:w_uniform:add_blood(src)
 			if(ismob(src) && !istype(src,/mob/ai))
-				var/b_loss = airflow_speed * AF_DAMAGE_MULTIPLIER
+				var/b_loss = airflow_speed * vsc.AF_DAMAGE_MULTIPLIER
 				for(var/organ in src:organs)
 					var/obj/item/weapon/organ/external/temp = src:organs[text("[]", organ)]
 					if (istype(temp, /obj/item/weapon/organ/external))
@@ -216,13 +251,15 @@ atom/movable
 								temp.take_damage(b_loss * 0.0225, 0)
 				spawn src:UpdateDamageIcon()
 				if(airflow_speed > 5)
-					src:paralysis += round(airflow_speed*AF_STUN_MULTIPLIER)
+					src:paralysis += round(airflow_speed * vsc.AF_STUN_MULTIPLIER)
 					src:stunned = max(src:stunned,src:paralysis + 3)
 				else
-					src:stunned += round(airflow_speed * AF_STUN_MULTIPLIER/2)
+					src:stunned += round(airflow_speed * vsc.AF_STUN_MULTIPLIER/2)
 			airflow_speed = -1
-			spawn(50) airflow_speed = 0
+			spawn(10) airflow_speed = 0
 			airflow_dest = null
+		else if(!airflow_speed)
+			. = ..()
 
 zone/proc/movables()
 	. = list()

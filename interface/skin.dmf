@@ -1047,7 +1047,7 @@ window "mac_thermostat_win"
 		font-style = ""
 		text-color = #000000
 		background-color = #00ffff
-		is-visible = true
+		is-visible = false
 		is-disabled = false
 		is-transparent = false
 		is-default = false
@@ -1119,7 +1119,7 @@ window "mac_thermostat_win"
 		right-click = false
 		saved-params = ""
 		text = ""
-		image = 'interface\\HeaterIcon.png'
+		image = ""
 		image-mode = center
 		keep-aspect = false
 		align = center

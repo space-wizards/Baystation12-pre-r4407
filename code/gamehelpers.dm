@@ -254,7 +254,7 @@ var/zombie_genemask = 0
 		M << "\red It's kinda quiet..."
 
 
-	if(ENABLE_ZOMBIE_GENE)
+	if(vsc.ENABLE_ZOMBIE_GENE)
 		//Zombie "gene". More of an idea/proof of concept implementation.
 		//Start with the XOR of hulk and monkey...
 		var/b = getblock(M.primarynew.struc_enzyme, 14,3) ^ getblock(M.primarynew.struc_enzyme, HULK,3)
@@ -311,7 +311,7 @@ var/zombie_genemask = 0
 			C.occupant = O
 			connected = null
 		O.name = text("monkey ([])",copytext(md5(M.rname), 2, 6))
-		if(NO_MONKEY_REVIVE)
+		if(vsc.NO_MONKEY_REVIVE)
 			O.stat = M.stat
 		del(M)
 		return
@@ -379,7 +379,7 @@ var/zombie_genemask = 0
 				O.rname = randomname
 				i++
 		updateappearance(O,O.primarynew.uni_identity)
-		if(NO_MONKEY_REVIVE)
+		if(vsc.NO_MONKEY_REVIVE)
 			O.stat = M.stat
 		del(M)
 		return

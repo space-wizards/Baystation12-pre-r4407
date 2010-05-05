@@ -373,7 +373,21 @@
 
 //	var/dbg = (suffix=="d") && Debug
 
-	if(stat & NOPOWER) return
+	if(stat & (NOPOWER|BROKEN)) return
+
+	if(vsc.plc.CANISTER_CORROSION)
+		if(gas.plasma > 10000 && !(flags & PLASMAGUARD))
+			if(prob(1))
+				stat |= BROKEN
+				icon_state = dd_replacetext(icon_state,"0","B")
+				icon_state = dd_replacetext(icon_state,"1","B")
+				icon_state = dd_replacetext(icon_state,"T","B")
+				if(holding)
+					holding.Move(loc)
+					holding.loc = loc
+				gas.turf_add(loc,-1)
+				return
+
 
 	if (src.t_status != 3)
 		var/turf/T = src.loc
@@ -563,18 +577,26 @@
 	else
 		if (istype(W, /obj/item/weapon/screwdriver))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
+			var/obj/a_pipe/connector/con2 = locate() in src.loc
 			if (src.c_status)
 				src.anchored = 0
 				src.c_status = 0
 				user.show_message("\blue You have disconnected the siphon.")
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the siphon.")
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the siphon.")
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is nothing here to connect to the siphon.")
 

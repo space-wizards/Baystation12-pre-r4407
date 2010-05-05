@@ -127,6 +127,9 @@
 			T.buildlinks()
 		else
 			T.buildlinks()
+	if(world.time > 10)
+		block_zoning = 1
+		CloseWall(src)
 	return
 
 /obj/machinery/door/proc/open()

@@ -157,7 +157,7 @@
 	if ((locate(/obj/effects/water, src.loc) || src.firelevel < 900000.0))
 		src.firelevel = 0
 		//cool due to water
-		temp += (T20C - temp) / FIRERATE
+		temp += (T20C - temp) / vsc.FIRERATE
 
 
 
@@ -567,7 +567,7 @@
 				unburn()
 
 			// heating from fire
-			temp += (firelevel/FIREQUOT+FIREOFFSET - temp) / FIRERATE
+			temp += (firelevel/vsc.FIREQUOT+vsc.FIREOFFSET - temp) / vsc.FIRERATE
 
 
 			if (locate(/obj/effects/water, src))
@@ -584,7 +584,7 @@
 	if ((locate(/obj/effects/water, src) || src.firelevel < 100000.0))
 		src.firelevel = 0
 		//cool due to water
-		temp += (T20C - temp) / FIRERATE
+		temp += (T20C - temp) / vsc.FIRERATE
 	return
 
 /turf/proc/compare()

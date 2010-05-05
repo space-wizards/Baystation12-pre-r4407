@@ -62,7 +62,10 @@
 		circ1 = locate(/obj/machinery/circulator) in get_step(src,WEST)
 		circ2 = locate(/obj/machinery/circulator) in get_step(src,EAST)
 		if(!circ1 || !circ2)
-			stat |= BROKEN
+			circ1 = locate(/obj/a_pipe/divider/a_circulator) in get_step(src,WEST)
+			circ2 = locate(/obj/a_pipe/divider/a_circulator) in get_step(src,EAST)
+			if(!circ1 || !circ2)
+				stat |= BROKEN
 
 		updateicon()
 
@@ -88,6 +91,55 @@
 
 		add_avail(gen)
 */
+	if(istype(circ1,/obj/a_pipe/divider/a_circulator)) //Do a_pipe calcs, which use different gas references.
+		var/obj/a_pipe/divider/a_circulator
+			a_circ1 = circ1
+			a_circ2 = circ2
+		if(!a_circ1.connect)
+			stat |= BROKEN
+			return
+		if(!a_circ2.connect)
+			stat |= BROKEN
+			return
+		var/gc = a_circ1.connect.gas.shc()
+		var/gh = a_circ2.connect.gas.shc()
+
+		var
+			tc = a_circ1.connect.gas.temperature
+			th = a_circ2.connect.gas.temperature
+			deltat = th-tc
+
+			eta = (1-tc/th)*0.65
+
+		if(gc > 0 && deltat > 0)
+			var
+				ghoc = gh/gc
+				fdt = 1/((1-eta)*ghoc+1)
+
+			fdt = min(fdt,0.1)
+
+			var
+				q = fdt*eta*gh*deltat
+
+				thp = th-fdt*deltat
+				tcp = tc+fdt*(1-eta)*ghoc*deltat
+
+			lastgen = q*GENRATE
+			add_avail(lastgen)
+
+			a_circ1.connect.gas.temperature = tcp
+			a_circ2.connect.gas.temperature = thp
+		else
+			lastgen = 0
+
+		var/genlev = max(0, min( round(11*lastgen / 100000), 11))
+		if(genlev != lastgenlev)
+			lastgenlev = genlev
+			updateicon()
+
+		src.updateDialog()
+
+		return
 
 	if(circ1 && circ2)
 
@@ -160,26 +212,53 @@
 
 	user.machine = src
 
-	var/t = "<PRE><B>Thermo-Electric Generator</B><HR>"
+	if(istype(circ1,/obj/a_pipe/divider/a_circulator))
+		var/obj/a_pipe/divider/a_circulator
+			a_circ1 = circ1
+			a_circ2 = circ2
+		var/t = "<PRE><B>Thermo-Electric Generator</B><HR>"
 
-	t += "Output : [round(lastgen)] W<BR><BR>"
+		t += "Output : [round(lastgen)] W<BR><BR>"
 
-	t += "<B>Cold loop</B><BR>"
-	t += "Temperature Inlet: [round(circ1.ngas1.temperature, 0.1)] K  Outlet: [round(circ1.ngas2.temperature, 0.1)] K<BR>"
+		t += "<B>Cold loop</B><BR>"
+		t += "Temperature Inlet: [round(a_circ1.connect2.gas.temperature, 0.1)] K  Outlet: [round(a_circ1.connect.gas.temperature, 0.1)] K<BR>"
 
-	t += "Circulator: [c1on ? "<B>On</B> <A href = '?src=\ref[src];c1p=1'>Off</A>" : "<A href = '?src=\ref[src];c1p=1'>On</A> <B>Off</B> "]<BR>"
-	t += "Rate: <A href = '?src=\ref[src];c1r=-3'>M</A> <A href = '?src=\ref[src];c1r=-2'>-</A> <A href = '?src=\ref[src];c1r=-1'>-</A> [add_lspace(c1rate,3)]% <A href = '?src=\ref[src];c1r=1'>+</A> <A href = '?src=\ref[src];c1r=2'>+</A> <A href = '?src=\ref[src];c1r=3'>M</A><BR>"
+		t += "Circulator: [c1on ? "<B>On</B> <A href = '?src=\ref[src];c1p=1'>Off</A>" : "<A href = '?src=\ref[src];c1p=1'>On</A> <B>Off</B> "]<BR>"
+		t += "Rate: <A href = '?src=\ref[src];c1r=-3'>M</A> <A href = '?src=\ref[src];c1r=-2'>-</A> <A href = '?src=\ref[src];c1r=-1'>-</A> [add_lspace(c1rate,3)]% <A href = '?src=\ref[src];c1r=1'>+</A> <A href = '?src=\ref[src];c1r=2'>+</A> <A href = '?src=\ref[src];c1r=3'>M</A><BR>"
 
-	t += "<B>Hot loop</B><BR>"
-	t += "Temperature Inlet: [round(circ2.ngas1.temperature, 0.1)] K  Outlet: [round(circ2.ngas2.temperature, 0.1)] K<BR>"
+		t += "<B>Hot loop</B><BR>"
+		t += "Temperature Inlet: [round(a_circ2.connect2.gas.temperature, 0.1)] K  Outlet: [round(a_circ2.connect.gas.temperature, 0.1)] K<BR>"
 
-	t += "Circulator: [c2on ? "<B>On</B> <A href = '?src=\ref[src];c2p=1'>Off</A>" : "<A href = '?src=\ref[src];c2p=1'>On</A> <B>Off</B> "]<BR>"
-	t += "Rate: <A href = '?src=\ref[src];c2r=-3'>M</A> <A href = '?src=\ref[src];c2r=-2'>-</A> <A href = '?src=\ref[src];c2r=-1'>-</A> [add_lspace(c2rate,3)]% <A href = '?src=\ref[src];c2r=1'>+</A> <A href = '?src=\ref[src];c2r=2'>+</A> <A href = '?src=\ref[src];c2r=3'>M</A><BR>"
+		t += "Circulator: [c2on ? "<B>On</B> <A href = '?src=\ref[src];c2p=1'>Off</A>" : "<A href = '?src=\ref[src];c2p=1'>On</A> <B>Off</B> "]<BR>"
+		t += "Rate: <A href = '?src=\ref[src];c2r=-3'>M</A> <A href = '?src=\ref[src];c2r=-2'>-</A> <A href = '?src=\ref[src];c2r=-1'>-</A> [add_lspace(c2rate,3)]% <A href = '?src=\ref[src];c2r=1'>+</A> <A href = '?src=\ref[src];c2r=2'>+</A> <A href = '?src=\ref[src];c2r=3'>M</A><BR>"
 
-	t += "<BR><HR><A href='?src=\ref[src];close=1'>Close</A>"
+		t += "<BR><HR><A href='?src=\ref[src];close=1'>Close</A>"
 
-	t += "</PRE>"
-	user << browse(t, "window=teg;size=460x300")
+		t += "</PRE>"
+		user << browse(t, "window=teg;size=460x300")
+
+	else
+
+		var/t = "<PRE><B>Thermo-Electric Generator</B><HR>"
+
+		t += "Output : [round(lastgen)] W<BR><BR>"
+
+		t += "<B>Cold loop</B><BR>"
+		t += "Temperature Inlet: [round(circ1.ngas1.temperature, 0.1)] K  Outlet: [round(circ1.ngas2.temperature, 0.1)] K<BR>"
+
+		t += "Circulator: [c1on ? "<B>On</B> <A href = '?src=\ref[src];c1p=1'>Off</A>" : "<A href = '?src=\ref[src];c1p=1'>On</A> <B>Off</B> "]<BR>"
+		t += "Rate: <A href = '?src=\ref[src];c1r=-3'>M</A> <A href = '?src=\ref[src];c1r=-2'>-</A> <A href = '?src=\ref[src];c1r=-1'>-</A> [add_lspace(c1rate,3)]% <A href = '?src=\ref[src];c1r=1'>+</A> <A href = '?src=\ref[src];c1r=2'>+</A> <A href = '?src=\ref[src];c1r=3'>M</A><BR>"
+
+		t += "<B>Hot loop</B><BR>"
+		t += "Temperature Inlet: [round(circ2.ngas1.temperature, 0.1)] K  Outlet: [round(circ2.ngas2.temperature, 0.1)] K<BR>"
+
+		t += "Circulator: [c2on ? "<B>On</B> <A href = '?src=\ref[src];c2p=1'>Off</A>" : "<A href = '?src=\ref[src];c2p=1'>On</A> <B>Off</B> "]<BR>"
+		t += "Rate: <A href = '?src=\ref[src];c2r=-3'>M</A> <A href = '?src=\ref[src];c2r=-2'>-</A> <A href = '?src=\ref[src];c2r=-1'>-</A> [add_lspace(c2rate,3)]% <A href = '?src=\ref[src];c2r=1'>+</A> <A href = '?src=\ref[src];c2r=2'>+</A> <A href = '?src=\ref[src];c2r=3'>M</A><BR>"
+
+		t += "<BR><HR><A href='?src=\ref[src];close=1'>Close</A>"
+
+		t += "</PRE>"
+		user << browse(t, "window=teg;size=460x300")
 	return
 
 /obj/machinery/power/generator/Topic(href, href_list)

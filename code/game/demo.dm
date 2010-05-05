@@ -2576,14 +2576,17 @@
 		src.opacity = 1
 		src.density = 1
 		src.updatecell = 0
-		CloseWall(src)
+		if(src.accept_zoning)
+			src.accept_zoning = 0
+			CloseWall(src)
 	else
 		src.icon_state = "r_girder"
 		src.opacity = 0
 		src.density = 1
 		src.updatecell = 1
-		src.accept_zoning = 1
-		OpenWall(src)
+		if(!src.accept_zoning)
+			src.accept_zoning = 1
+			OpenWall(src)
 	return
 
 /turf/station/r_wall/unburn()
@@ -3333,7 +3336,7 @@
 /turf/station/floor/CheckPass(atom/movable/O as mob|obj)
 
 	if ((istype(O, /obj/machinery/vehicle) && !(src.burnt)))
-		if (!( locate(/obj/machinery/mass_driver, src) ))
+		if (intact)//locate(/obj/machinery/mass_driver, src) ))
 			return 0
 	return 1
 
@@ -3529,8 +3532,20 @@ obj/bloodtemplate/attackby(obj/item/weapon/W as obj, mob/user as mob)
 /obj/item/weapon/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/weapon/healthanalyzer/))
 		if (!blood)
+			user.show_message("\blue Scanning [src] for toxins...",1)
+			sleep(10)
+			if(contaminated)
+				user.show_message("\red Object contains toxic particles. Immediate containment advised.",1)
+			else
+				user.show_message("\blue No toxins detected.",1)
 			return
 		user << text("You have extracted the following DNA sequence from the blood: [src.blood] ")
 		if(src.zombieblood == 1)
 			user << text("Contains traces of a unknown infectious agent")
+		user.show_message("\blue Scanning [src] for toxins...",1)
+		sleep(10)
+		if(contaminated)
+			user.show_message("\red Object contains toxic particles. Immediate containment advised.",1)
+		else
+			user.show_message("\blue No toxins detected.",1)
 	return ..()

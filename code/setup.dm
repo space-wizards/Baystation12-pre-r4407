@@ -1,5 +1,7 @@
-#define NO_MONKEY_REVIVE 0	// If set, H->M Doesn't revive the recipient of the shot
-#define ENABLE_ZOMBIE_GENE 0// If set, Zombies can be created by setting a random gene
+//#define NO_MONKEY_REVIVE 0
+//#define ENABLE_ZOMBIE_GENE 0
+
+//Commented out definitions were transferred to the vs_control system so that they can be easily changed at runtime. -Aryn
 
 #define CELLSTANDARD 3.6e6	// Gas capacity of turf/canister at 100% normal atmospheric pressure
 #define O2STANDARD 7.56e5	// O2 standard value (21%)
@@ -8,13 +10,13 @@
 #define T0C 273.15			// 0degC
 #define T20C 293.15			// 20degC
 
-#define FIREOFFSET 505		// Bias for starting firelevel
-#define FIREQUOT 15000		// Divisor to get target temp from firelevel
-#define FIRERATE 5			// Divisor of temp difference rate of change
+//#define FIREOFFSET 505		// Bias for starting firelevel
+//#define FIREQUOT 15000		// Divisor to get target temp from firelevel
+//#define FIRERATE 5			// Divisor of temp difference rate of change
 
 #define NORMPIPERATE 400	// Pipe-insulation rate divisor
 #define HEATPIPERATE 8		// Heat-exch pipe insulation
-#define FLOWFRAC 0.99		// Fraction of gas transfered per process
+//#define FLOWFRAC 0.99		// Fraction of gas transfered per process
 
 #define UP 16				// Up direction, equivalent to Z-1 (Z levels are backwards in this codebase)
 #define DOWN 32				// Down direction, equivalent to Z+1 (Z levels are backwards in this codebase)
@@ -41,11 +43,15 @@
 #define MASKCOVERSMOUTH 2048	// On other items, these are just for mask/head
 #define HEADCOVERSMOUTH 2048
 
-// Channel numbers for power
-#define EQUIP 1				// Gas Heaters, Doors, Computers, Everything not powered by the other two channels
-#define LIGHT 2				// Lighting & Light Switches
-#define ENVIRON 3			// Environmental (alarms, pumps, siphons, space [HURR HURR] heaters, etc)
-#define TOTAL 4				// For total power used only
+#define PLASMAGUARD 4096 //Guards against plasma getting into clothes and other porous items.
+						 //When used for canisters/tanks, an anti-corrosion liner has been applied.
+
+// channel numbers for power
+
+#define EQUIP 1
+#define LIGHT 2
+#define ENVIRON 3
+#define TOTAL 4	//for total power used only
 
 // bitflags for machine stat variable
 #define BROKEN 1			// Busted and needs to be repaired/replaced

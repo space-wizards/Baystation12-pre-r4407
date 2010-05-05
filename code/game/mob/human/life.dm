@@ -175,13 +175,21 @@
 					if (src.internals)
 						src.internals.icon_state = "internal1"
 					if (( src.wear_mask.flags & 4 && (!( istype(src.head, /obj/item/weapon/clothing/head) ) || !( src.head.flags & 2 ))))
-						//G.turf_add(T, G.tot_gas() * 0.5)
-						//G.turf_take(T, t / 2 * turf_total - G.tot_gas()*0.5)
-						G.turf_take(T, (t/2) * turf_total)
+						if(T.zone)
+							G.turf_add(T,G.tot_gas() * max(0,min(0.75,(1 - T.zone.pressure() / 100)))) //Gas supply goes down with pressure.
+							//world << "Gas lost to pressure: [G.tot_gas() * min(0.75,(1 - T.zone.pressure() / 100))] (1-[T.zone.pressure()/1]%)"
+						else
+							G.turf_add(T,G.tot_gas() * 0.75) //Doesn't work in deep space either.
+						G.turf_take(T, min(G.maximum,t * turf_total))
 				else
 					if (src.internals)
 						src.internals.icon_state = "internal0"
-					G.turf_take(T, t * turf_total)
+					G.turf_take(T, min(G.maximum,t * turf_total))
+					if (T.zone)
+						if(T.zone.pressure() > 140)
+							src.bruteloss += 0.5
+							if(prob(10))
+								src << "\red The high pressure hurts your lungs!"
 				if (G.tot_gas() > 650)
 					G.turf_add(T, G.tot_gas() - 650)
 				if(locate(/obj/move) in T)
@@ -239,6 +247,13 @@
 				plcheck = src.t_plasma
 				oxcheck = src.t_oxygen
 				G.turf_add(T, G.tot_gas())
+				for(var/obj/item/weapon/W in src)
+					if(W.contaminated)
+						if(W in suit_interior()) toxloss += vsc.plc.CONTAMINATION_LOSS
+				if(T.poison > 75000)
+					src.contaminate()
+					if(T.poison > 1E6)
+						src.pl_effects()
 		if ((istype(src.loc, /turf/space) && !( locate(/obj/move, src.loc) )))
 			var/layers = 20
 			// ******* Check
@@ -252,6 +267,8 @@
 				oxcheck = layers
 		if ((plcheck && src.health >= 0))
 			src.toxloss += plcheck
+			if(vsc.plc.PLASMA_INJECTS_TOXINS)
+				if(src.plasma < 100) src.plasma += plcheck*10
 			src.updatehealth()
 		if ((oxcheck && src.health >= 0))
 			src.oxyloss += oxcheck

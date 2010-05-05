@@ -37,17 +37,17 @@
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode1, delta_gt)
 	else
 		leak_to_turf(1)
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode2, delta_gt)
 	else
 		leak_to_turf(2)
 	if(vnode3)
-		delta_gt = FLOWFRAC * ( vnode3.get_gas_val(src) - f_gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode3.get_gas_val(src) - f_gas.tot_gas() / capmult)
 		calc_delta( src, f_gas, f_ngas, vnode3, delta_gt)
 	else
 		leak_to_turf(3)
