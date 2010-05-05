@@ -1490,6 +1490,15 @@ mob/proc/ko_msg(msg)
 			names.Add(name)
 			namecounts[name] = 1
 		creatures[name] = D
+	//for (var/obj/item/weapon/box/D in world)
+	//	var/name = "Box_D"
+	//	if (name in names)
+	//		namecounts[name]++
+	//		name = "[name] ([namecounts[name]])"
+	//	else
+	//		names.Add(name)
+	//		namecounts[name] = 1
+	//	creatures[name] = D
 	for (var/mob/M in world)
 		var/name = M.name
 

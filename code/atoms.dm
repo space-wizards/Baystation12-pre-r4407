@@ -260,7 +260,7 @@
 	var/t_sl_gas = null
 	var/t_n2 = null
 	var/now_pushing = null
-	flags = 258.0
+	flags = FPRINT|TABLEPASS
 	var/cameraFollow = null
 
 /mob/observer
@@ -290,7 +290,7 @@
 	var/now_pushing = null
 	var/aiRestorePowerRoutine = 0
 	var/list/laws = list()
-	flags = 258.0
+	flags = FPRINT|TABLEPASS
 	var/cameraFollow = null
 	var/alarms = list("Motion"=list(), "Fire"=list(), "Atmosphere"=list(), "Power"=list())
 	var/viewalerts = 0
@@ -300,6 +300,7 @@
 
 /obj
 	var/datum/module/mod
+	var/pathweight = 1
 
 /obj/mark
 		var/mark = ""
@@ -346,7 +347,7 @@
 	var/current = null
 	var/life = 50.0
 	anchored = 1.0
-	flags = 2.0
+	flags = TABLEPASS
 /obj/beam/i_beam
 	name = "i beam"
 	icon = 'weap_sat.dmi'
@@ -357,7 +358,7 @@
 	var/visible = 0.0
 	var/left = null
 	anchored = 1.0
-	flags = 2.0
+	flags = TABLEPASS
 /obj/bedsheetbin
 	name = "linen bin"
 	desc = "A bin for containing bedsheets."
@@ -397,7 +398,7 @@
 	var/xo = null
 	var/current = null
 	anchored = 1.0
-	flags = 2.0
+	flags = TABLEPASS
 /obj/bullet/electrode
 	name = "electrode"
 	icon_state = "u_laser"
@@ -427,7 +428,7 @@
 /obj/effects
 	name = "effects"
 	mouse_opacity = 0
-	flags = 2
+	flags = TABLEPASS
 /obj/effects/smoke
 	name = "smoke"
 	icon = 'water.dmi'
@@ -453,7 +454,7 @@
 	icon_state = "extinguish"
 	var/life = 10.0
 	var/amount = 5.0
-	flags = 2.0
+	flags = TABLEPASS
 	mouse_opacity = 0
 /obj/equip_e
 	name = "equip e"
@@ -528,7 +529,7 @@
 	var/obj/item/weapon/master = null
 	var/custom_sound = 0
 	var/material = 1 // 1 is metal, 2 is glass. (These deal with what the sound should be when attacking)
-	flags = 258.0
+	flags = FPRINT|TABLEPASS
 	weight = 500000.0
 /obj/item/weapon/a_gift
 	name = "gift"
@@ -539,7 +540,7 @@
 	name = "ammo"
 	icon = 'ammo.dmi'
 	var/amount_left = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "syringe_kit"
 /obj/item/weapon/ammo/a357
 	desc = "There are 7 bullets left!"
@@ -551,7 +552,7 @@
 	name = "analyzer"
 	icon_state = "analyzer"
 	w_class = 2.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly
 	name = "assembly"
 	icon = 'assemblies.dmi'
@@ -566,7 +567,7 @@
 	var/obj/item/weapon/igniter/part2 = null
 	var/obj/item/weapon/clothing/suit/armor/part3 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/m_i_ptank
 	desc = "A very intricate igniter and proximity sensor electrical assembly mounted onto top of a plasma tank."
 	name = "Proximity/Igniter/Plasma Tank Assembly"
@@ -575,7 +576,7 @@
 	var/obj/item/weapon/igniter/part2 = null
 	var/obj/item/weapon/tank/plasmatank/part3 = null
 	status = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/prox_ignite
 	name = "Proximity/Igniter Assembly"
 	desc = "A proximity-activated igniter assembly."
@@ -583,7 +584,7 @@
 	var/obj/item/weapon/prox_sensor/part1 = null
 	var/obj/item/weapon/igniter/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/r_i_ptank
 	desc = "A very intricate igniter and signaller electrical assembly mounted onto top of a plasma tank."
 	name = "Radio/Igniter/Plasma Tank Assembly"
@@ -592,7 +593,7 @@
 	var/obj/item/weapon/igniter/part2 = null
 	var/obj/item/weapon/tank/plasmatank/part3 = null
 	status = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/anal_ignite
 	name = "Health-Analyzer/Igniter Assembly"
 	desc = "A health-analyzer igniter assembly."
@@ -600,7 +601,7 @@
 	var/obj/item/weapon/healthanalyzer/part1 = null
 	var/obj/item/weapon/igniter/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 /obj/item/weapon/assembly/time_ignite
 	name = "Timer/Igniter Assembly"
@@ -609,7 +610,7 @@
 	var/obj/item/weapon/timer/part1 = null
 	var/obj/item/weapon/igniter/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/t_i_ptank
 	desc = "A very intricate igniter and timer assembly mounted onto top of a plasma tank."
 	name = "Timer/Igniter/Plasma Tank Assembly"
@@ -618,7 +619,7 @@
 	var/obj/item/weapon/igniter/part2 = null
 	var/obj/item/weapon/tank/plasmatank/part3 = null
 	status = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/rad_ignite
 	name = "Radio/Igniter Assembly"
 	desc = "A radio-activated igniter assembly."
@@ -626,7 +627,7 @@
 	var/obj/item/weapon/radio/signaler/part1 = null
 	var/obj/item/weapon/igniter/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/rad_infra
 	name = "Signaller/Infrared Assembly"
 	desc = "An infrared-activated radio signaller"
@@ -634,7 +635,7 @@
 	var/obj/item/weapon/radio/signaler/part1 = null
 	var/obj/item/weapon/infra/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/rad_prox
 	name = "Signaller/Prox Sensor Assembly"
 	desc = "A proximity-activated radio signaller."
@@ -642,7 +643,7 @@
 	var/obj/item/weapon/radio/signaler/part1 = null
 	var/obj/item/weapon/prox_sensor/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/rad_time
 	name = "Signaller/Timer Assembly"
 	desc = "A radio signaller activated by a count-down timer."
@@ -650,7 +651,7 @@
 	var/obj/item/weapon/radio/signaler/part1 = null
 	var/obj/item/weapon/timer/part2 = null
 	status = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/assembly/shock_kit
 	name = "Shock Kit"
 	icon_state = "shock_kit"
@@ -658,7 +659,7 @@
 	var/obj/item/weapon/radio/electropack/part2 = null
 	status = 0.0
 	w_class = 5.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 
 /obj/item/weapon/axe
 	name = "Axe"
@@ -670,7 +671,7 @@
 	throw_speed = 1
 	throw_range = 5
 	w_class = 5.0
-	flags = 290.0
+	flags = FPRINT|DEADLY
 
 /obj/item/weapon/pickaxe
 	name = "Pickaxe"
@@ -819,7 +820,7 @@
 	name = "cloaking device"
 	icon_state = "shield0"
 	var/active = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 	throwforce = 5.0
 	throw_speed = 1
@@ -1133,7 +1134,7 @@
 	var/obj/item/weapon/tank/plasmatank/part4 = null
 	var/obj/item/weapon/clothing/suit/armor/part3 = null
 	var/status = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_fire = 1.875E7
 	brute_protect = 6
 /obj/item/weapon/clothing/suit/heavy_armor
@@ -1441,7 +1442,7 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/crowbar
 	name = "crowbar"
 	icon_state = "crowbar"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 5.0
 	throwforce = 7.0
 	s_istate = "wrench"
@@ -1450,7 +1451,7 @@ obj/item/weapon/clothing/suit/labcoat
 	name = "cane"
 	icon_state = "cane"
 	desc = "A Household medical cane."
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 6.0
 	throwforce = 7.0
 	s_istate = "cane"
@@ -1494,13 +1495,13 @@ obj/item/weapon/clothing/suit/labcoat
 	name = "dummy"
 	invisibility = 101.0
 	anchored = 1.0
-	flags = 2.0
+	flags = TABLEPASS
 /obj/item/weapon/extinguisher
 	name = "Fire Extinguisher"
 	icon_state = "fire_extinguisher0"
 	var/waterleft = 20.0
 	var/last_use = 1.0
-	flags = 274.0
+	flags = FPRINT|TABLEPASS|USEDELAY
 	w_class = 2.0
 	force = 15.0
 	s_istate = "fire_extinguisher"
@@ -1518,7 +1519,7 @@ obj/item/weapon/clothing/suit/labcoat
 	var/printing = 0.0
 	w_class = 2.0
 	s_istate = "electronic"
-	flags = 450.0
+	flags = FPRINT|ONBELT|TABLEPASS
 /obj/item/weapon/fcardholder
 	name = "Finger Print Case"
 	icon_state = "fcardholder0"
@@ -1530,7 +1531,7 @@ obj/item/weapon/clothing/suit/labcoat
 	var/l_time = 1.0
 	var/shots = 5.0
 	w_class = 1.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 	throw_speed = 4
 	throw_range = 20
@@ -1547,7 +1548,7 @@ obj/item/weapon/clothing/suit/labcoat
 	s_istate = "flashbang"
 	throw_speed = 4
 	throw_range = 20
-	flags = 402.0
+	flags = FPRINT|TABLEPASS|ONBELT|USEDELAY
 /obj/item/weapon/flasks
 	name = "flask"
 	icon = 'Cryogenic2.dmi'
@@ -1609,7 +1610,7 @@ obj/item/weapon/clothing/suit/labcoat
 	w_class = 5.0
 /obj/item/weapon/gun
 	name = "gun"
-	flags = 466.0
+	flags = FPRINT|TABLEPASS|ONBELT|USEDELAY
 	s_istate = "gun"
 /obj/item/weapon/gun/energy
 	name = "energy"
@@ -1649,26 +1650,26 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/handcuffs
 	name = "handcuffs"
 	icon_state = "handcuff"
-	flags = 450.0
+	flags = FPRINT|TABLEPASS|ONBELT
 	w_class = 2.0
 /obj/item/weapon/healthanalyzer
 	name = "Health Analyzer"
 	icon_state = "healthanalyzer"
 	desc = "A hand-held body scanner able to distinguish vital signs of the subject."
-	flags = 450.0
+	flags = FPRINT|TABLEPASS|ONBELT
 	w_class = 1.0
 /obj/item/weapon/geneticsanalyzer
 	name = "Genetics Analyzer"
 	icon_state = "healthanalyzer"
 	desc = "A genetics scanner, used to take the genetic code of someone and analyze their genetic status."
-	flags = 450.0
+	flags = FPRINT|TABLEPASS|ONBELT
 	w_class = 1.0
 /obj/item/weapon/igniter
 	name = "igniter"
 	desc = "A small electronic device able to ignite combustable substances."
 	icon_state = "igniter"
 	var/status = 1.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 /obj/item/weapon/implant
 	name = "implant"
@@ -1736,7 +1737,7 @@ obj/item/weapon/clothing/suit/labcoat
 	var/obj/beam/i_beam/first = null
 	var/state = 0.0
 	var/visible = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "electronic"
 /obj/item/weapon/infra_sensor
@@ -1744,7 +1745,7 @@ obj/item/weapon/clothing/suit/labcoat
 	desc = "Scans for infrared beams in the vicinity."
 	icon_state = "infra_sensor"
 	var/passive = 1.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 
 /obj/item/weapon/t_scanner
@@ -1763,7 +1764,7 @@ obj/item/weapon/clothing/suit/labcoat
 	var/freq = 145.1
 	var/broadcasting = null
 	var/listening = 1.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "electronic"
 	throw_speed = 4
@@ -1773,7 +1774,7 @@ obj/item/weapon/clothing/suit/labcoat
 	name = "pinpointer"
 	icon_state = "locator"
 	var/temp = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "electronic"
 	throw_speed = 4
@@ -2141,7 +2142,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "It's a normal black ink pen."
 	name = "pen"
 	icon_state = "pen"
-	flags = 386.0
+	flags = FPRINT|ONBELT|TABLEPASS
 	w_class = 1.0
 	throw_speed = 3
 	throw_range = 15
@@ -2186,13 +2187,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/state = 0.0
 	var/timing = 0.0
 	var/time = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "electronic"
 /obj/item/weapon/rack_parts
 	name = "rack parts"
 	icon_state = "rack_parts"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/radio
 	name = "Station Bounced Radio"
 	suffix = "\[3\]"
@@ -2208,7 +2209,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/b_stat = 0.0
 	var/broadcasting = null
 	var/listening = 1.0
-	flags = 450.0
+	flags = FPRINT|TABLEPASS|ONBELT
 	throw_speed = 2
 	throw_range = 9
 	w_class = 2.0
@@ -2232,7 +2233,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/e_pads = 0.0
 	freq = 144.9
 	w_class = 5.0
-	flags = 323.0
+	flags = FPRINT|TABLEPASS|ONBACK
 	s_istate = "electropack"
 /obj/item/weapon/radio/headset
 	name = "Radio Headset"
@@ -2256,7 +2257,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "rods"
 	icon_state = "rods"
 	var/amount = 1.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 4.0
 	force = 9.0
 	throwforce = 20.0
@@ -2265,7 +2266,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/screwdriver
 	name = "screwdriver"
 	icon_state = "screwdriver"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 5.0
 	w_class = 2.0
 	throwforce = 5.0
@@ -2285,7 +2286,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/length = 2.5
 	var/width = 1.5
 	var/height = 0.01
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	throwforce = 7.0
 	throw_speed = 1
 	throw_range = 4
@@ -2317,7 +2318,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "shield"
 	icon_state = "shield0"
 	var/active = 0.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	s_istate = "electronic"
 	throwforce = 5.0
 	throw_speed = 1
@@ -2331,7 +2332,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	throw_speed = 1
 	throw_range = 5
 	w_class = 2.0
-	flags = 290.0
+	flags = FPRINT|NOSHIELD|TABLEPASS
 /obj/item/weapon/storage
 	name = "storage"
 	var/obj/screen/storage/boxes = null
@@ -2341,7 +2342,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "backpack"
 	icon_state = "backpack"
 	w_class = 4.0
-	flags = 259.0
+	flags = FPRINT|ONBACK|TABLEPASS
 /obj/item/weapon/storage/box
 	name = "Box"
 	icon_state = "box"
@@ -2406,7 +2407,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/storage/toolbox
 	name = "toolbox"
 	icon_state = "toolbox"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 8.0
 	throw_speed = 1
 	throw_range = 4
@@ -2414,7 +2415,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/storage/toolbox/electrical
 	name = "electrical toolbox"
 	icon_state = "toolbox-y"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 8.0
 	w_class = 4.0
 
@@ -2431,7 +2432,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	throw_speed = 1
 	throw_range = 5
 	w_class = 2.0
-	flags = 290.0
+	flags = FPRINT|NOSHIELD|TABLEPASS
 
 /obj/item/weapon/syndicate_uplink
 	name = "Station Bounced Radio"
@@ -2441,7 +2442,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/selfdestruct = 0.0
 	var/traitorfreq = 0.0
 	var/obj/item/weapon/radio/origradio = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "radio"
 	throw_speed = 4
@@ -2460,7 +2461,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/stage = 1
 	var/objective = 0
 	var/mob/human/target
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "radio"
 	throw_speed = 4
@@ -2474,7 +2475,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/selfdestruct = 0.0
 	var/traitorfreq = 0.0
 	var/obj/item/weapon/radio/origradio = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "radio"
 	throw_speed = 4
@@ -2647,13 +2648,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/table_parts
 	name = "table parts"
 	icon_state = "table_parts"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 /obj/item/weapon/tank
 	name = "tank"
 	var/maximum = null
 	var/obj/substance/gas/gas = null
 	var/i_used = 100
-	flags = 323.0
+	flags = FPRINT|ONBACK|TABLEPASS
 	weight = 1000000.0
 	force = 5.0
 	throwforce = 10.0
@@ -2695,7 +2696,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "timer0"
 	var/timing = 0.0
 	var/time = null
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "electronic"
 
@@ -2703,7 +2704,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Teleportation Scroll"
 	icon_state = "paper"
 	var/uses = 4.0
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	w_class = 2.0
 	s_istate = "paper"
 	throw_speed = 4
@@ -2715,7 +2716,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/welding = 0.0
 	var/weldfuel = 20.0
 	var/status = 0	//flamethrower construction :shobon:
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 3.0
 	throwforce = 5.0
 	throw_speed = 1
@@ -2731,7 +2732,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/wirecutters
 	name = "wirecutters"
 	icon_state = "cutters"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 6.0
 	throw_speed = 2
 	throw_range = 9
@@ -2743,7 +2744,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/item/weapon/wrench
 	name = "Wrench"
 	icon_state = "wrench"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 5.0
 	throwforce = 7.0
 	w_class = 2.0
@@ -2769,7 +2770,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "circuitry"
 	desc = "Some circuitry used in airlocks."
 	icon_state = "circuitry"
-	flags = 322.0
+	flags = FPRINT|TABLEPASS
 	force = 5.0
 	w_class = 2.0
 	throwforce = 5.0
@@ -2798,7 +2799,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	density = 0
 	anchored = 1.0
 	layer = 2.5
-	//	flags = 64.0
 
 /obj/list_container
 	name = "list container"
@@ -3422,7 +3422,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'windoor.dmi'
 	icon_state = "door1"
 	visible = 0.0
-	flags = 512.0
+	flags = WINDOW
+	nohack=1
 	opacity = 0
 /obj/machinery/firealarm
 	name = "Fire Alarm"
@@ -3504,7 +3505,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "injector"
 	density = 1
 	anchored = 1.0
-	flags = 512.0
+	flags = WINDOW
 /obj/machinery/mass_driver
 	name = "Mass Driver"
 	desc = "A Kinetic-Energy driver for moving objects across large areas"
@@ -4158,31 +4159,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/updatecell = 1.0
 	var/update_again = 0
 	anchored = 1.0
-/obj/move/airtunnel
-	name = "airtunnel"
-	icon = 'airtunnel.dmi'
-	icon_state = "floor"
-	var/deployed = 0.0
-	var/obj/move/airtunnel/next = null
-	var/obj/move/airtunnel/previous = null
-	var/r_master = null
-/obj/move/airtunnel/connector
-	name = "connector"
-	icon_state = "floor-c"
-	var/obj/move/airtunnel/current = null
-	deployed = 1.0
-/obj/move/airtunnel/connector/wall
-	name = "wall"
-	icon_state = "wall-c"
-	opacity = 1
-	density = 1
-	updatecell = 0.0
-/obj/move/airtunnel/wall
-	name = "wall"
-	icon_state = "wall"
-	opacity = 1
-	density = 1
-	updatecell = 0.0
 /obj/move/floor
 	name = "floor"
 	icon_state = "floor"
@@ -4426,7 +4402,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/reinf = 0
 	weight = 2500000.0
 	anchored = 1.0
-	flags = 512.0
+	flags = WINDOW
 
 /obj/window/Move()
 	..()
@@ -4907,7 +4883,9 @@ obj/machinery/vendingmachine/soda
 
 /obj/machinery/spaceheater
 	name = "Space Heater"
-	icon = 'Stationobjs.dmi'
-	icon_state = "heater"
-	var/on = 0
-	var/maxoutput = 1 //TODO Figure out a scale for this
+	icon = 'stationobjs.dmi'
+	icon_state = "spaceheater_map"
+	stat = POWEROFF //Start turned off
+	dir = NORTH
+	var/maxoutput = 1 //How many degrees the temperature on the tile the heater is on is increased every tick at precisely 1 bar.
+	var/maxheat = 500

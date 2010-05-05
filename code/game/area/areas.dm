@@ -73,8 +73,6 @@
 
 // === Trying to remove these areas:
 
-/area/airtunnel1/      // referenced in airtunnel.dm:759
-
 /area/dummy/           // Referenced in engine.dm:261
 
 /area/shuttle_prison/  // referenced in shuttle.dm:57 and :86
@@ -337,19 +335,6 @@
 // called when power status changes
 
 /area/proc/power_change(var/super)
-/*
-	for(var/obj/machinery/M in src)		// for each machine in the area
-		M.power_change()				// reverify power status (to update icons etc.)
-
-	spawn(rand(15,25))
-		src.updateicon()
-
-	if(linked)
-		linked.power_equip = power_equip
-		linked.power_light = power_light
-		linked.power_environ = power_environ
-		linked.power_change()*/
-
 	for(var/obj/machinery/M in src)		// for each machine in the area
 		M.power_change()				// reverify power status (to update icons etc.)
 
@@ -374,23 +359,6 @@
 
 
 /area/proc/usage(var/chan,var/super = 0)
-/*
-	var/used = 0
-	switch(chan)
-		if(LIGHT)
-			used += used_light
-		if(EQUIP)
-			used += used_equip
-		if(ENVIRON)
-			used += used_environ
-		if(TOTAL)
-			used += used_light + used_equip + used_environ
-
-	if(linked)
-		return linked.usage(chan) + used
-	else
-		return used
-*/
 	var/used = 0
 
 	switch(chan)
@@ -415,13 +383,6 @@
 	else
 		return used
 /area/proc/clear_usage(var/super = 0)
-/*
-	if(linked)
-		linked.clear_usage()
-	used_equip = 0
-	used_light = 0
-	used_environ = 0
-*/
 	if(linked)
 		linked.clear_usage()
 
@@ -444,9 +405,3 @@
 			used_light += amount
 		if(ENVIRON)
 			used_environ += amount
-
-#define LIGHTING_POWER 8		// power (W) per turf used for lighting
-
-/area/proc/calc_lighting()
-	if(lightswitch && power_light)
-		used_light += numturfs * LIGHTING_POWER
