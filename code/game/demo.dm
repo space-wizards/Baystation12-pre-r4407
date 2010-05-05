@@ -3336,7 +3336,7 @@
 /turf/station/floor/CheckPass(atom/movable/O as mob|obj)
 
 	if ((istype(O, /obj/machinery/vehicle) && !(src.burnt)))
-		if (!( locate(/obj/machinery/mass_driver, src) ))
+		if (intact)//locate(/obj/machinery/mass_driver, src) ))
 			return 0
 	return 1
 

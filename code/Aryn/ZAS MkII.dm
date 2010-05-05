@@ -19,8 +19,9 @@ vs_control/var/DOOR_CONNECTION_FLOW = 45
 //This value is the flow rate (as %) that will be used when a door is open between zones.
 vs_control/var/TILE_CONNECTION_FLOW = 55
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
-vs_control/var/TEMP_FLOW = 3
+vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.
+vs_control/var/TEMP_RETENTION = 99
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)
@@ -269,15 +270,15 @@ zone
 								AddMerge(Z)
 					//The average amount of airflow difference a zone at 1atm has to space is 150000
 
-				//if(temp != T20C)
+				if(temp > T20C)
 					//var/t_temp = (temp - T20C) / (CONDUCTION_DAMPER + nearby_zones.len)
 					//for(var/zone/Z in nearby_zones)
 					//	temp -= t_temp
 					//	Z.temp += t_temp
 
-					//var/t_temp = (temp - T20C) * TEMP_RETENTION
-					//if(abs(t_temp) < 0.1) t_temp = 0
-					//temp = t_temp + T20C
+					var/t_temp = (temp - T20C) * TEMP_RETENTION
+					if(abs(t_temp) < 0.1) t_temp = 0
+					temp = t_temp + T20C
 
 				sleep(-1)
 
@@ -778,36 +779,36 @@ proc/DirBlock(turf/X,turf/Y,block) //This function determines whether a given tu
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
 					//if(D.is_open) continue
-					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
+					if(D.dir & NORTH || D.dir & SOUTH) d = EAST
 					else d = SOUTH
-				if(d == SOUTHWEST) return D
-				if(d == get_dir(X,Y) && !D.is_open) return D
+				if(d == 1+2+4+8) return D
+				if(d & get_dir(X,Y) && !D.is_open) return D
 		for(var/obj/D in Y)
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
 					//if(D.is_open) continue
-					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
+					if(D.dir & NORTH || D.dir & SOUTH) d = EAST
 					else d = SOUTH
-				if(d == SOUTHWEST) return D
-				if(d == get_dir(Y,X) && !D.is_open) return D
+				if(d == 1+2+4+8) return D
+				if(d & get_dir(Y,X) && !D.is_open) return D
 	else
 		for(var/obj/D in X)
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
-					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
+					if(D.dir & NORTH || D.dir & SOUTH) d = EAST
 					else d = SOUTH
-				if(d == SOUTHWEST) return D
-				if(d == get_dir(X,Y)) return D
+				if(d == 1+2+4+8) return D
+				if(d & get_dir(X,Y)) return D
 		for(var/obj/D in Y)
 			if(D.type in directional_types)
 				var/d = D.dir
 				if(istype(D,/obj/machinery/door/window))
-					if(D.dir == NORTH || D.dir == SOUTH) d = EAST
+					if(D.dir & NORTH || D.dir & SOUTH) d = EAST
 					else d = SOUTH
-				if(d == SOUTHWEST) return D
-				if(d == get_dir(Y,X)) return D
+				if(d == 1+2+4+8) return D
+				if(d & get_dir(Y,X)) return D
 	return 0
 
 proc/Zonetight(turf/X,turf/Y) //This uses Blocked() and DirBlock() in combination to determine whether a tile blocks GetZone from another.
@@ -1066,7 +1067,7 @@ proc
 			needs_split = 1
 		for(var/obj/window/N in nloc)
 			if(N == W) continue
-			if(N.dir == odir)
+			if(N.dir & odir)
 				//world << "Well, actually not."
 				needs_split = 0
 		if(needs_merge)
@@ -1104,7 +1105,7 @@ proc
 			needs_merge = 1
 		for(var/obj/window/N in T)
 			if(N == W) continue
-			if(N.dir == odir)
+			if(N.dir & odir)
 				//world << "And yet, it does not."
 				needs_merge = 0
 		if(needs_merge)
@@ -1114,13 +1115,7 @@ proc
 		//	W.loc = T
 	NewWindow(obj/window/W)
 		//world << "<u>Window created: [W]([W.x],[W.y])</u>"
-		if(W.dir == SOUTHWEST)
-			W.block_zoning = 1
 		if(world.time < 10) return
-		if(W.dir == SOUTHWEST)
-			W.block_zoning = 1
-			CloseWall(W)
-			return
 		var
 			needs_split = 0
 			turf
@@ -1134,7 +1129,7 @@ proc
 		if(WinCheck(T,W.dir)) needs_split = 1
 		for(var/obj/window/N in T)
 			if(N == W) continue
-			if(N.dir == W.dir) needs_split = 0
+			if(N.dir & W.dir) needs_split = 0
 		if(needs_split)
 			if(A.zone == T.zone)
 				T.zone.CheckSplit(A)
