@@ -220,6 +220,12 @@ zone
 					MergeList(zones_to_merge)
 					zones_to_merge = null
 
+				if(temp <= 0)
+					var/turf/T = contents[1]
+					world.log << "Zone in area [T.loc] has ceased updates: Temp has reached absolute zero."
+					update = 0
+					return
+
 				for(var/zone/Z in connections)
 					//Gases flow between connected zones on a per-turf concentration gradient.
 
@@ -276,7 +282,7 @@ zone
 					//	temp -= t_temp
 					//	Z.temp += t_temp
 
-					var/t_temp = (temp - T20C) * TEMP_RETENTION
+					var/t_temp = (temp - T20C) * vsc.TEMP_RETENTION/100
 					if(abs(t_temp) < 0.1) t_temp = 0
 					temp = t_temp + T20C
 
