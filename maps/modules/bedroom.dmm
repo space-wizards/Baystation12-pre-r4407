@@ -1,0 +1,8 @@
+"a" = (/obj/closet,/turf/station/floor,/area)
+"b" = (/turf/station/floor,/area)
+"c" = (/obj/stool/bed,/obj/item/weapon/bedsheet,/turf/station/floor,/area)
+
+(1,1,1) = {"
+ab
+cb
+"}
