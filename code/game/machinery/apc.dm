@@ -145,7 +145,7 @@
 
 // update the APC icon to show the three base states
 // also add overlays for indicator lights
-/obj/machinery/power/apc/proc/updateicon()
+/obj/machinery/power/apc/updateicon()
 	if(repair_state > 0)
 		icon_state = "apc_r[repair_state]"
 		src.overlays = null
@@ -361,7 +361,8 @@
 
 	user.machine = src
 	var/t = "<TT><B>Area Power Controller</B> ([area.name])<HR>"
-
+	if(locked && (!istype(user,/mob/ai)))
+		t += "<A href='?src=\ref[src];locki=1'>Unlock Interface</A><BR>"
 	if(locked && (!istype(user, /mob/ai)))
 		t += "<I>(Swipe ID card to unlock inteface.)</I><BR>"
 		t += "Main breaker : <B>[operating ? "On" : "Off"]</B><BR>"
@@ -381,10 +382,11 @@
 
 		t += "<BR>Total load: [lastused_light + lastused_equip + lastused_environ] W</PRE>"
 		t += "<HR>Cover lock: <B>[coverlocked ? "Engaged" : "Disengaged"]</B>"
-
 	else
 		if (!istype(user, /mob/ai))
 			t += "<I>(Swipe ID card to lock interface.)</I><BR>"
+		else if (!locked)
+			t += "<A href='?src=\ref[src];locki=1'>Lock Interface</A><BR>"
 		t += "Main breaker: [operating ? "<B>On</B> <A href='?src=\ref[src];breaker=1'>Off</A>" : "<A href='?src=\ref[src];breaker=1'>On</A> <B>Off</B>" ]<BR>"
 		t += "External power : <B>[ main_status ? (main_status ==2 ? "<FONT COLOR=#004000>Good</FONT>" : "<FONT COLOR=#D09000>Low</FONT>") : "<FONT COLOR=#F00000>None</FONT>"]</B><BR>"
 		if(cell)
@@ -454,6 +456,8 @@
 
 /obj/machinery/power/apc/proc/update()
 	if(operating && !shorted)
+		//if (area.power_light != (lighting > 1))
+			//transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] POWER [lighting > 1 ? "ON":"OFF"]"))
 		area.power_light = (lighting > 1)
 		area.power_equip = (equipment > 1)
 		area.power_environ = (environ > 1)
@@ -625,10 +629,40 @@
 				src.updateDialog()
 
 
+/obj/machinery/power/apc/proc/AITopic(href, href_list, mob/ai/user)
+	var/password = accesspasswords["[access_apcs]"]
+	if (href_list["lock"])
+		user.sendcommand("[password] [coverlocked?"":"UN"]LOCK COVER", src)
+	else if (href_list["locki"])
+		user.sendcommand("[password] [locked?"":"UN"]LOCK INTERFACE", src)
+	else if (href_list["breaker"])
+		user.sendcommand("[password] O[operating?"FF":"N"] BREAKER", src)
+	else if (href_list["cmode"])
+		user.sendcommand("[password] CHARGE [chargemode?"OFF":"AUTO"]", src)
+	else if (href_list["eqp"])
+		var/val = text2num(href_list["eqp"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] EQUIP", src)
+	else if (href_list["lgt"])
+		var/val = text2num(href_list["lgt"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] LIGHT", src)
+	else if (href_list["env"])
+		var/val = text2num(href_list["env"])
+		user.sendcommand("[password] [val == 1 ?"OFF": val == 2 ? "ON" : "AUTO"] ENVIRON", src)
+	else if( href_list["close"] )
+		usr << browse(null, "window=apc")
+		usr.machine = null
+	else if (href_list["close2"])
+		usr << browse(null, "window=apcwires")
+		usr.machine = null
+	return
+
 /obj/machinery/power/apc/Topic(href, href_list)
 	..()
 	if ((((get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf))) || ((istype(usr, /mob/ai) && !(src.aidisabled))))
 		usr.machine = src
+		if (istype(usr,/mob/ai))
+			return AITopic(href, href_list, usr)
+
 		if (href_list["apcwires"])
 			var/t1 = text2num(href_list["apcwires"])
 			if (!( istype(usr.equipped(), /obj/item/weapon/wirecutters) ))
@@ -672,7 +706,10 @@
 
 		else if (href_list["lgt"])
 			var/val = text2num(href_list["lgt"])
-
+			if (lighting == 0 && val != 1)
+				spawn(6)
+					transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+					transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 			lighting = (val==1) ? 0 : val
 
 			updateicon()
@@ -852,7 +889,12 @@
 		charging = 0
 		chargecount = 0
 		equipment = autoset(equipment, 0)
+		var/ol = lighting
 		lighting = autoset(lighting, 0)
+		if (lighting && lighting != ol)
+			spawn(6)
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
 		environ = autoset(environ, 0)
 		area.poweralert(0, src)
 
@@ -920,3 +962,94 @@
 
 	operating = 0
 	update()
+
+/obj/machinery/power/apc/receivemessage(message,sender)
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		if(checkcommand(listofcommand,3,"ALL"))
+			if(checkcommand(listofcommand,2,"ON"))
+				lighting = 2
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
+				equipment = 2
+				environ = 2
+				operating = 1
+			if(checkcommand(listofcommand,2,"OFF"))
+				lighting = 0
+				equipment = 0
+				environ = 0
+				operating = 0
+			if(checkcommand(listofcommand,2,"AUTO"))
+				lighting = 3
+				equipment = 3
+				environ = 3
+				operating = 1
+			updateicon()
+			update()
+			updateDialog()
+
+		if(checkcommand(listofcommand,3,"BREAKER"))
+			if(checkcommand(listofcommand,2,"ON"))
+				operating = 1
+			if(checkcommand(listofcommand,2,"OFF"))
+				operating = 0
+			src.update()
+			updateicon()
+			updateDialog()
+
+		if(checkcommand(listofcommand,3,"LIGHT"))
+			if(checkcommand(listofcommand,2,"ON"))
+				lighting = 2
+				transmitmessage(createmulticast("000", gettypeid(/obj/machinery/light), "[area.superarea.areaid] LIGHTS ON"))
+				transmitmessage(createmulticast("000", typeID, "[area.superarea.areaid] STATUS 1"))
+			if(checkcommand(listofcommand,2,"OFF"))
+				lighting = 0
+			if(checkcommand(listofcommand,2,"AUTO"))
+				lighting = 3
+			updateicon()
+			update()
+		if(checkcommand(listofcommand,3,"ENVIRON"))
+			if(checkcommand(listofcommand,2,"ON"))
+				environ = 2
+			if(checkcommand(listofcommand,2,"OFF"))
+				environ = 0
+			if(checkcommand(listofcommand,2,"AUTO"))
+				environ = 3
+			updateicon()
+			update()
+			updateDialog()
+
+		if(checkcommand(listofcommand,3,"EQUIP"))
+			if(checkcommand(listofcommand,2,"ON"))
+				equipment = 2
+			if(checkcommand(listofcommand,2,"OFF"))
+				equipment = 0
+			if(checkcommand(listofcommand,2,"AUTO"))
+				equipment = 3
+			updateicon()
+			update()
+			updateDialog()
+
+		else if(checkcommand(listofcommand,2,"UNLOCK"))
+			if(checkcommand(listofcommand,3,"INTERFACE"))
+				locked = 0
+			else if(checkcommand(listofcommand,3,"PANEL"))
+				coverlocked = 0
+			updateDialog()
+		else if(checkcommand(listofcommand,2,"LOCK"))
+			if(checkcommand(listofcommand,3,"INTERFACE"))
+				locked = 1
+			else if(checkcommand(listofcommand,3,"PANEL"))
+				coverlocked = 1
+			updateDialog()
+		else if(checkcommand(listofcommand,2,"CHARGE"))
+			if(checkcommand(listofcommand,3,"AUTO"))
+				chargemode = 1
+			else if(checkcommand(listofcommand,3,"OFF"))
+				chargemode = 0
+				charging = 0
+			updateicon()
+			updateDialog()

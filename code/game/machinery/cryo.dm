@@ -369,11 +369,13 @@
 			//SN src = null
 			del(src)
 			return
+			sd_SetLuminosity(0)
 		if(2.0)
 			if (prob(50))
 				//SN src = null
 				del(src)
 				return
+				sd_SetLuminosity(0)
 		else
 	return
 
@@ -662,7 +664,7 @@
 			if (src.line_out)
 
 				if(vnode)
-					var/delta_gt = FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
+					var/delta_gt = vsc.FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
 					calc_delta( src, gas, ngas, vnode, delta_gt)
 				else
 					leak_to_turf()
@@ -1004,7 +1006,7 @@
 	if(stat & NOPOWER)
 		return
 	if(vnode)
-		var/delta_gt = FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
+		var/delta_gt = vsc.FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode, delta_gt)
 	else
 		leak_to_turf()

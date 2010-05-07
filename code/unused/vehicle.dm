@@ -16,6 +16,9 @@
 /obj/machinery/vehicle/attack_hand(mob/user)
 	src.board(user)
 
+/obj/machinery/vehicle/attack_ai(mob/user)
+	return
+
 /obj/machinery/vehicle/attack_paw(mob/user)
 	src.board(user)
 
@@ -113,6 +116,8 @@
 
 /obj/machinery/vehicle/verb/board()
 	set src in oview(1)
+	if (istype(usr, /mob/ai))
+		return //Waitwhat, no, the AI DOES NOT GET TO USE THE PODS PEOPLE
 
 	if (usr.stat)
 		return

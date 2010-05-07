@@ -21,7 +21,7 @@
 			var/turf/T = src.loc
 			if (istype(T, /turf) && checkForMultipleDoors())
 				T.updatecell = 1
-				T.buildlinks()
+				OpenDoor(src)
 			src.operating = 0
 			return
 	return
@@ -43,11 +43,12 @@
 	src.icon_state = "pdoor0"
 	sleep(15)
 	src.density = 0
+	OpenDoor(src)
 	sd_SetOpacity(0)
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		T.buildlinks()
+		OpenDoor(src)
 	src.operating = 0
 	return
 
@@ -64,14 +65,32 @@
 	flick("pdoorc1", src)
 	src.icon_state = "pdoor1"
 	src.density = 1
+	CloseDoor(src)
 	sd_SetOpacity(1)
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		T.buildlinks()
+		CloseDoor(src)
 	sleep(15)
 	src.operating = 0
 	return
+
+/obj/machinery/door/poddoor/receivemessage(message,sender)
+	if(..())
+		return 1
+	var/command = uppertext(stripnetworkmessage(message))
+	//world << "DOOR REC [command]"
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 2)
+		return
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "OPEN")
+			spawn(0)
+				openpod()
+		else if(listofcommand[2] == "CLOSE")
+			spawn(0)
+				closepod()
+	return 0
 
 ///////////////////////
 //Stationwide shields//

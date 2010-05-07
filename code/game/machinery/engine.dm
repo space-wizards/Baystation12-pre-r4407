@@ -1,24 +1,5 @@
 /obj/machinery/computer/engine/req_access = list(access_eject_engine)
 
-/obj/machinery/computer/engine/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
 /obj/machinery/computer/engine/New()
 	if (!( engine_eject_control ))
 		engine_eject_control = new /datum/engine_eject(  )
@@ -213,6 +194,7 @@
 			engineturfs += ET
 
 	defer_powernet_rebuild = 1
+	moving_zone = 1
 	for(var/turf/T in engineturfs)
 		var/turf/S = new T.type( locate(T.x, T.y, engine_eject_z_target) )
 
@@ -221,13 +203,18 @@
 		for(var/atom/movable/AM as mob|obj in T)
 			AM.loc = S
 
-		S.oxygen = T.oxygen
-		S.poison = T.poison
+		/*S.oxygen = T.oxygen
+		S.poison = T.poison()
 		S.co2 = T.co2
 		S.sl_gas = T.sl_gas
 		S.n2 = T.n2
 		S.temp = T.temp
-		S.buildlinks()
+		S.buildlinks()*/
+		var/zone/Z = T.zone
+		if(Z)
+			Z.contents -= T
+			Z.contents += Z
+			S.zone = Z
 
 		A.contents += S
 		var/turf/P = new T.type( locate(T.x, T.y, T.z) )
@@ -240,6 +227,7 @@
 		P.buildlinks()
 
 	defer_powernet_rebuild = 0
+	moving_zone = 0
 	spawn(1)
 		makepowernets()
 	world << "\red <B>Engine Ejected!</B>"
@@ -290,6 +278,21 @@
 
 	return L
 
+/obj/machinery/gas_sensor/receivemessage(message, srcmachine)
+	if(..())
+		return
+	var/list/mess = dd_text2list(stripnetworkmessage(message), " ")
+	if(mess.len < 1)
+		return
+	if(checkcommand(mess,1,"SENSE"))
+		var/turf/T = src.loc
+		var/turf_total = T.tot_gas()
+		var/g1 = "[round(T.oxygen()/turf_total * 100, 0.1)] [round(T.co2()/turf_total * 100, 0.1)]"
+		var/g2 = "[round(T.poison()/turf_total * 100, 0.1)]  [round(T.sl_gas()/turf_total * 100, 0.1)]"
+		var/g3 = "[round(T.n2()/turf_total * 100, 0.1)]  [round(turf_total / CELLSTANDARD * 100, 0.1)]"
+		transmitmessage(createmessagetomachine("REPORT GAS [tag] [g1] [g2] [g3] [round(T.temp() - T0C,0.1)]", srcmachine))
+
+
 /obj/machinery/gas_sensor/proc/sense_string()
 
 	var/t = ""
@@ -299,28 +302,28 @@
 	var/turf_total = T.tot_gas()
 
 	var/t1 = add_tspace("[round(turf_total / CELLSTANDARD * 100, 0.1)]%",6)
-	t += "<PRE>Pressure: [t1] Temperature: [round(T.temp - T0C,0.1)]&deg;C<BR>"
+	t += "<PRE>Pressure: [t1] Temperature: [round(T.temp() - T0C,0.1)]&deg;C<BR>"
 
 	if(turf_total == 0)
 		t+="O2: 0 N2: 0 CO2: 0><BR>Plasma: 0 N20: 0"
 	else
-		t1 = add_tspace(round(T.oxygen/turf_total * 100, 0.1),5)
+		t1 = add_tspace(round(T.oxygen()/turf_total * 100, 0.1),5)
 
 		t += "O2: [t1] "
 
-		t1 = add_tspace(round(T.n2/turf_total * 100, 0.1),5)
+		t1 = add_tspace(round(T.n2()/turf_total * 100, 0.1),5)
 
 		t += "N2: [t1] "
 
-		t1 = add_tspace(round(T.co2/turf_total * 100, 0.01),5)
+		t1 = add_tspace(round(T.co2()/turf_total * 100, 0.01),5)
 
 		t += "CO2: [t1]<BR>"
 
-		t1 = add_tspace(round(T.poison/turf_total * 100, 0.001),5)
+		t1 = add_tspace(round(T.poison()/turf_total * 100, 0.001),5)
 
 		t += "Plasma: [t1] "
 
-		t1 = add_tspace(round(T.sl_gas/turf_total * 100, 0.001),5)
+		t1 = add_tspace(round(T.sl_gas()/turf_total * 100, 0.001),5)
 
 		t += "N2O: [t1]"
 

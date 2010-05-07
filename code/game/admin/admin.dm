@@ -982,15 +982,27 @@
 					var/area/A = locate(/area/shuttle_prison)
 					for (var/area/B in A.superarea.areas)
 						for(var/atom/movable/AM as mob|obj in B)
+							var/lum = 0
+							if(AM.luminosity)
+								lum = AM.luminosity
+								AM.sd_SetLuminosity(0)
 							AM.z = 1
 							AM.Move()
+							if(lum)
+								AM.sd_SetLuminosity(lum)
 					messageadmins("\blue [usr.key] sent the prison shuttle to the station.")
 				if("deactivateprison")
 					var/area/A = locate(/area/shuttle_prison)
 					for (var/area/B in A.superarea.areas)
 						for(var/atom/movable/AM as mob|obj in B)
+							var/lum = 0
+							if(AM.luminosity)
+								lum = AM.luminosity
+								AM.sd_SetLuminosity(0)
 							AM.z = 2
 							AM.Move()
+							if(lum)
+								AM.sd_SetLuminosity(lum)
 					messageadmins("\blue [usr.key] sent the prison shuttle back.")
 				if("toggleprisonstatus")
 					for(var/obj/machinery/computer/prison_shuttle/PS in world)
@@ -1171,6 +1183,10 @@
 		else
 			alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 			return
+	if (href_list["stealthmode"])
+		if ((src.rank in list( "Administrator", "Primary Administrator", "Super Administrator", "Host"  )))
+			src.stealthmode = !src.stealthmode
+			usr << "You are now [src.stealthmode?"hidden":"visible"] on adminwho to non-admins"
 
 	//AdminpanelV2 functions
 
@@ -1202,6 +1218,17 @@
 		//world << "REMOVE JOB [href_list["job"]]"
 		var/player/player = locate(href_list["removedeniedjob"])
 		player.RemoveDeniedJob(href_list["job"])
+
+
+	if (href_list["change_settings"])
+		vsc.ChangeSettingDialog(usr)
+	if (href_list["random_plasma"])
+		vsc.ChangePlasma()
+	if (href_list["plasma_template"])
+		var/template = input("Choose A Plasma Effect Template:","Plasma","Original") in list("Original","Hazard-Low","Hazard-High","Everything","Cancel")
+		if(template != "Cancel") vsc.SetDefault(template)
+
+
 
 	return
 
@@ -1289,8 +1316,11 @@
 			if(lvl >= 3)
 				dat += "<A href='?src=\ref[src];secretsadmin=1'>Show Admin Secrets</A><br>"
 				dat += "<A href='?src=\ref[src];secretsfun=1'>Show Fun Secrets</A><br>"
+				dat += "<A href='?src=\ref[src];stealthmode=1'>Toggle Stealth Mode</A><br>"
 			if (lvl >= 5)
 				dat += "<A href='?src=\ref[src];create_object=1'>Create Object</A><br>"
+				dat += "<A href='?src=\ref[src];change_settings=1'>Change Physical Constants</A><br>"
+				dat += "<A href='?src=\ref[src];random_plasma=1'>Randomize Plasma</A> <A href='?src=\ref[src];plasma_template=1'>Plasma Template</A><br>"
 
 			if(lvl>0)
 				if(!shuttlecomming)
@@ -1314,7 +1344,7 @@
 			dat += "<A href='?src=\ref[src];p_send=1'>Send Private Message</A><br>"
 			dat += "<A HREF='?src=\ref[src];centcom_report=\ref[src]'>Send a CentCom Report</A><br>"
 			dat += "</td></tr></table>"
-			usr << browse(dat, "window=admin&size=600x525")
+			usr << browse(dat, "window=admin&size=600x600")
 
 		else
 			dat = text("<center><B>Admin Control Center</B></center><hr>\n<A href='?src=\ref[];access=1'>Access Admin Commands</A><br>\n<A href='?src=\ref[];contact=1'>Contact Admins</A><br>\n<A href='?src=\ref[];message=1'>Access Messageboard</A><br>\n<br>\n<A href='?src=\ref[];l_keys=1'>List Keys</A><br>\n<A href='?src=\ref[];l_players=1'>List Players/Keys</A><br>\n<A href='?src=\ref[];g_send=1'>Send Global Message</A><br>\n<A href='?src=\ref[];p_send=1'>Send Private Message</A><br>", src, src, src, src, src, src, src)

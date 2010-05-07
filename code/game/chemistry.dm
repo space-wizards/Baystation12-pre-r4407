@@ -221,8 +221,8 @@ heat is conserved between exchanges
 ---------------------------- */
 
 //fractional multipliers of heat
-#define TURF_ADD_FRAC 0.95		//cooling due to release of gas into tile
-#define TURF_TAKE_FRAC 1.06		//heating due to pressurization into pipework
+#define TURF_ADD_FRAC 1		//cooling due to release of gas into tile
+#define TURF_TAKE_FRAC 1		//heating due to pressurization into pipework
 
 // Not used?
 /obj/substance/gas/leak(T as turf)
@@ -305,13 +305,13 @@ heat is conserved between exchanges
 
 	var/ttotal = target.tot_gas()
 
-	target.oxygen += t_oxy
-	target.co2 += t_co2
-	target.poison += t_pla
-	target.sl_gas += t_sl_gas
-	target.n2 += t_n2
+	target.oxygen(t_oxy)//gas_add("O2",t_oxy)
+	target.co2(t_co2)//gas_add("CO2",t_co2)
+	target.poison(t_pla)//gas_add("Plasma",t_pla)
+	target.sl_gas(t_sl_gas)//gas_add("N2O",t_sl_gas)
+	target.n2(t_n2)//gas_add("N2",t_n2)
 
-	target.temp = ( target.temp * ttotal + (amount * temperature)*TURF_ADD_FRAC ) /  (ttotal + amount)
+	target.temp_set((target.temp() * ttotal + (amount * temperature)*TURF_ADD_FRAC ) /  (ttotal + amount))
 	//target.heat += amount * src.temperature
 	target.res_vars()
 	target.update_again=1
@@ -329,9 +329,9 @@ heat is conserved between exchanges
 
 		//target.heat += heat_change
 		if( (t_turf + oxygen) >0 )
-			target.temp = ( target.temp * t_turf + heat_change ) / ( t_turf + oxygen )
+			target.temp_set(( target.temp() * t_turf + heat_change ) / ( t_turf + oxygen ))
 
-		target.oxygen += oxygen
+		target.oxygen(oxygen)
 
 
 		var/nonoxy = tot_gas() - oxygen
@@ -356,7 +356,7 @@ heat is conserved between exchanges
 	if (locate(/obj/move, target))
 		target = locate(/obj/move, target)
 
-	var/t1 = target.co2 + target.oxygen + target.poison + target.sl_gas + target.n2
+	var/t1 = target.per_turf()//target.co2 + target.oxygen + targeT.poison() + target.sl_gas + target.n2
 	if (!( t1 ))
 		return
 	var/t2 = src.co2 + src.oxygen + src.plasma + src.sl_gas + src.n2
@@ -370,19 +370,19 @@ heat is conserved between exchanges
 	if (amount > t1)
 		amount = t1
 
-	var/turf_total = target.poison + target.oxygen + target.co2 + target.sl_gas + target.n2
+	var/turf_total = target.per_turf()//targeT.poison() + target.oxygen + target.co2 + target.sl_gas + target.n2
 
 //	var/heat_gain = (turf_total ? amount / turf_total * target.heat : 0)
 //	var/temp_gain = (turf_total ? target.heat / turf_total : 0)
 
-	var/heat_gain = (turf_total ? amount * target.temp : 0)
+	var/heat_gain = (turf_total ? amount * target.temp() : 0)
 
 
-	var/t_oxy = amount * target.oxygen / t1
-	var/t_pla = amount * target.poison / t1
-	var/t_co2 = amount * target.co2 / t1
-	var/t_sl_gas = amount * target.sl_gas / t1
-	var/t_n2 = amount * target.n2 / t1
+	var/t_oxy = amount * target.oxygen() / t1
+	var/t_pla = amount * target.poison() / t1
+	var/t_co2 = amount * target.co2() / t1
+	var/t_sl_gas = amount * target.sl_gas() / t1
+	var/t_n2 = amount * target.n2() / t1
 
 
 	/*
@@ -405,11 +405,11 @@ heat is conserved between exchanges
 	src.sl_gas += t_sl_gas
 	src.n2 += t_n2
 
-	target.oxygen -= t_oxy
-	target.co2 -= t_co2
-	target.poison -= t_pla
-	target.sl_gas -= t_sl_gas
-	target.n2 -= t_n2
+	target.oxygen(-t_oxy)
+	target.co2(-t_co2)
+	target.poison(-t_pla)
+	target.sl_gas(-t_sl_gas)
+	target.n2(-t_n2)
 	//target.heat -= heat_gain			// no temp change; we just take a proportional amount of all gases
 	target.res_vars()
 	return
@@ -425,7 +425,7 @@ heat is conserved between exchanges
 	var/oxy_diff = target.oxygen - O2STANDARD
 	var/no2_diff = target.sl_gas - 0
 	var/n2_diff = target.n2 - N2STANDARD
-	var/plas_diff = target.poison - 0
+	var/plas_diff = targeT.poison() - 0
 	if (co2_diff < 0)
 		co2_diff = 0
 	if (oxy_diff < 0)
@@ -436,7 +436,7 @@ heat is conserved between exchanges
 		n2_diff = 0
 	if (plas_diff < 0)
 		plas_diff = 0
-	var/turf_total = target.poison + target.oxygen + target.co2 + target.sl_gas + target.n2
+	var/turf_total = targeT.poison() + target.oxygen + target.co2 + target.sl_gas + target.n2
 	var/air_total = co2_diff + oxy_diff + no2_diff + n2_diff + plas_diff
 	var/heat_gain = (turf_total ? air_total / turf_total * target.heat : null)
 	var/temp_gain = (turf_total ? target.heat / turf_total + TD0 : 0)
@@ -449,7 +449,7 @@ heat is conserved between exchanges
 	target.oxygen -= oxy_diff
 	target.sl_gas -= no2_diff
 	target.n2 -= n2_diff
-	target.poison -= plas_diff
+	targeT.poison() -= plas_diff
 	var/t3 = turf_total + air_total
 	var/t4 = turf_total * src.temperature
 	var/t5 = air_total * temp_gain
@@ -470,17 +470,17 @@ heat is conserved between exchanges
 		return
 	if (locate(/obj/move, target))
 		target = locate(/obj/move, target)
-	var/co2_diff = max(0, target.co2 - 0)
-	var/oxy_diff = max(0,target.oxygen - O2STANDARD)
-	var/no2_diff = max(0, target.sl_gas - 0)
-	var/n2_diff = max(0,target.n2 - N2STANDARD)
-	var/plas_diff = max(0,target.poison - 0)
+	var/co2_diff = max(0, target.co2() - 0)
+	var/oxy_diff = max(0,target.oxygen() - O2STANDARD)
+	var/no2_diff = max(0, target.sl_gas() - 0)
+	var/n2_diff = max(0,target.n2() - N2STANDARD)
+	var/plas_diff = max(0,target.poison() - 0)
 
-	var/turf_total = target.poison + target.oxygen + target.co2 + target.sl_gas + target.n2
+	var/turf_total = target.per_turf()//targeT.poison() + target.oxygen + target.co2 + target.sl_gas + target.n2
 	var/air_total = co2_diff + oxy_diff + no2_diff + n2_diff + plas_diff
 
 
-	var/heat_gain = (turf_total ? air_total  * target.temp : null)
+	var/heat_gain = (turf_total ? air_total  * target.temp() : null)
 	//var/temp_gain = (turf_total ? target.heat / turf_total + TD0 : 0)
 
 	src.co2 += co2_diff
@@ -489,11 +489,11 @@ heat is conserved between exchanges
 	src.n2 += n2_diff
 	src.plasma += plas_diff
 
-	target.co2 -= co2_diff
-	target.oxygen -= oxy_diff
-	target.sl_gas -= no2_diff
-	target.n2 -= n2_diff
-	target.poison -= plas_diff
+	target.co2(-co2_diff)
+	target.oxygen(-oxy_diff)
+	target.sl_gas(-no2_diff)
+	target.n2(-n2_diff)
+	target.poison(-plas_diff)
 
 
 	var/gasheat1 = temperature * tot_gas()
@@ -506,7 +506,7 @@ heat is conserved between exchanges
 
 	var/turftot2 = turf_total - air_total
 	if(turftot2>0)
-		target.temp = ( target.temp*turf_total - heat_gain)/(turftot2)
+		target.temp_set((target.temp()*turf_total - heat_gain)/(turftot2))
 
 	//target.heat -= heat_gain
 
@@ -592,6 +592,14 @@ heat is conserved between exchanges
 	src.plasma -= target.plasma
 	src.sl_gas -= target.sl_gas
 	src.n2 -= target.n2
+
+/obj/substance/gas/proc/sub_delta_turf(turf/T)
+
+	T.co2(-src.co2)
+	T.oxygen(-src.oxygen)
+	T.poison(-src.plasma)
+	T.sl_gas(-src.sl_gas)
+	T.n2(-src.n2)
 
 
 
@@ -708,10 +716,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -746,10 +754,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 20
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -766,10 +774,10 @@ heat is conserved between exchanges
 			M.eye_blurry += volume * 20
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -785,10 +793,10 @@ heat is conserved between exchanges
 			M.eye_stat += volume * 3
 			M.eye_blurry += volume * 20
 			M << "\red Your eyes start to burn badly!"
-			M.disabilities |= 1
+			M.disabilities |= BADVISION
 			if (prob(M.eye_stat - 20 + 1))
 				M << "\red You go blind!"
-				M.sdisabilities |= 1
+				M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -1479,7 +1487,7 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			var/turf/T = get_turf(B)
 			M << text("\blue That was pretty stupid!")
 			flick("burning",T)
-			T.firelevel = max(T.firelevel, T.poison + 1)
+			T.firelevel = max(T.firelevel, T.poison() + 1)
 			return
 		if (oxygenin == 1 && nitrogenin == 1 && potassiumin == 1 && chlorinein == 1 && sulfurin == 1 && mixingin == 1 && volume >= 29 && chem.chemicals.len == 6)
 			M << text("\blue You mix together the ingredients to form a mustard gas bomb!")
@@ -1728,20 +1736,20 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 	var/turf/Ty1 = src.y + 1
 	var/turf/Tym1 = src.y - 1
 	if(isturf(T))
-		T.poison += firestrength * 155000 // Old was 155000
+		T.poison(firestrength * 155000) // Old was 155000
 		T.firelevel = firestrength * 155000
-		T.oxygen += firestrength * 155000
+		T.oxygen(firestrength * 155000)
 	if(isturf(Tx1))
-		Tx1.poison += firestrength * 155000
+		Tx1.poison(firestrength * 155000)
 		Tx1.firelevel = firestrength * 155000
 	if(isturf(Ty1))
-		Ty1.poison += firestrength * 155000
+		Ty1.poison(firestrength * 155000)
 		Ty1.firelevel = firestrength * 155000
 	if(isturf(Txm1))
-		Txm1.poison += firestrength * 155000
+		Txm1.poison(firestrength * 155000)
 		Txm1.firelevel = firestrength * 155000
 	if(isturf(Tym1))
-		Tym1.poison += firestrength * 155000
+		Tym1.poison(firestrength * 155000)
 		Tym1.firelevel = firestrength * 155000
 //		oxygen += firestrength * 10000
 //	for(var/obj/blob/B in view(8,src))
@@ -1785,10 +1793,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 			M.b_mercury += volume
@@ -1806,10 +1814,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 15
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -1823,10 +1831,6 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 	switch(zone)
 		if("eye")
 			if (volume >= 1)
-//				if (prob(50))
-//					M.disabilities |= 1
-//					if (prob(25))
-//						M.sdisabilities |= 1
 				M << text("\blue The walls suddenly disappear!")
 				spawn (3600)
 					M.xray = 0
@@ -1887,10 +1891,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.radiation += volume * 5
 			if (M.eye_stat >= 30)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.radiation += volume
 			M.sd_SetLuminosity(1)
@@ -1910,10 +1914,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			if (M.wear_mask && M:head == null)
 				del (M.wear_mask)
@@ -2018,10 +2022,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 4
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2039,10 +2043,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2057,10 +2061,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 3
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2077,10 +2081,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 
 //&& istype(M, /mob/human)
@@ -2118,10 +2122,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 25
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 
 //&& istype(M, /mob/human)
@@ -2158,10 +2162,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.eye_blurry += volume * 4
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.eye_blurry += volume
 		else
@@ -2180,10 +2184,10 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			M.druggy += volume * 6
 			if (M.eye_stat >= 20)
 				M << "\red Your eyes start to burn badly!"
-				M.disabilities |= 1
+				M.disabilities |= BADVISION
 				if (prob(M.eye_stat - 20 + 1))
 					M << "\red You go blind!"
-					M.sdisabilities |= 1
+					M.sdisabilities |= BLIND
 		if("head")
 			M.druggy += volume
 		else
@@ -2217,7 +2221,7 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 				spawn (10)
 					T:lit = null
 		if(isturf(location)) //start a fire if possible
-			location.firelevel = max(location.firelevel, location.poison + 1)
+			location.firelevel = max(location.firelevel, location.poison() + 1)
 		src.sd_SetLuminosity(6)
 		count++
 		sleep(10)
@@ -2324,7 +2328,7 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		step_to(src, T, null)
 		T = src.loc
 		if (istype(T, /turf))
-			T.firelevel = T.poison
+			T.firelevel = T.poison()
 	spawn( 3 )
 		src.Life()
 		return
@@ -2376,7 +2380,7 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		step_to(src, T, null)
 		T = src.loc
 		if (istype(T, /turf))
-			T.firelevel = T.poison
+			T.firelevel = T.poison()
 	spawn( 3 )
 		src.Life()
 		return
@@ -2856,9 +2860,9 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		src.contents.len = 0
 		src.icon_state = "trashmelt"
 //		if (istype(T, /turf))
-//			T.firelevel = T.poison
+//			T.firelevel = T.poison()
 		if(isturf(T)) //start a fire if possible
-			T.firelevel = max(T.firelevel, T.poison + 1)
+			T.firelevel = max(T.firelevel, T.poison() + 1)
 		sleep (60)
 		src.icon_state = "trashcan"
 		src.processing = 0
@@ -2901,7 +2905,7 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 		if ("explosion")
 //			world << "explosion"
 			var/turf/T = get_turf(src.loc)
-			T.firelevel = T.poison
+			T.firelevel = T.poison()
 			T.res_vars()
 			var/sw = locate(max(T.x - 4, 1), max(T.y - 4, 1), T.z)
 			var/ne = locate(min(T.x + 4, world.maxx), min(T.y + 4, world.maxy), T.z)
@@ -2921,21 +2925,21 @@ obj/item/weapon/chemistry/attackby(obj/item/weapon/R as obj, mob/user as mob)
 			var/turf/Ty1 = src.y + 1
 			var/turf/Tym1 = src.y - 1
 			if(isturf(T))
-				T.poison += 1550000
-				T.firelevel = max(T.firelevel, T.poison + 1)
-				T.oxygen += 1000000
+				T.poison(1550000)
+				T.firelevel = max(T.firelevel, T.poison() + 1)
+				T.oxygen(1000000)
 			if(isturf(Tx1))
-				Tx1.poison += 1550000
-				Tx1.firelevel = max(Tx1.firelevel, Tx1.poison + 1)
+				Tx1.poison(1550000)
+				Tx1.firelevel = max(Tx1.firelevel, Tx1.poison() + 1)
 			if(isturf(Ty1))
-				Ty1.poison += 1550000
-				Ty1.firelevel = max(Ty1.firelevel, Ty1.poison + 1)
+				Ty1.poison(1550000)
+				Ty1.firelevel = max(Ty1.firelevel, Ty1.poison() + 1)
 			if(isturf(Txm1))
-				Txm1.poison += 1550000
-				Txm1.firelevel = max(Txm1.firelevel, Txm1.poison + 1)
+				Txm1.poison(1550000)
+				Txm1.firelevel = max(Txm1.firelevel, Txm1.poison() + 1)
 			if(isturf(Tym1))
-				Tym1.poison += 1550000
-				Tym1.firelevel = max(Tym1.firelevel, Tym1.poison + 1)
+				Tym1.poison(1550000)
+				Tym1.firelevel = max(Tym1.firelevel, Tym1.poison() + 1)
 			//		oxygen += firestrength * 10000
 		if ("light")
 //			world << "light"

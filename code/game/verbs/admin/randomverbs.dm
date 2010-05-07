@@ -8,6 +8,12 @@
 	else
 		alert("Hosts only baby")
 		return
+/client/proc/Set_ZAS_Cycle_Time(n as num)
+		set category = "Debug"
+		set name = "Set ZAS Cycle time"
+		n = max(1,n)
+		zas_cycle = n
+
 
 /client/proc/callproc()
 	set category = "Debug"
@@ -266,11 +272,11 @@
 	spawn(0)
 		for(var/turf/T in view())
 			T.poison = 0
-			T.oxygen = 755985
-			T.co2 = 14.8176
-			T.n2 = 2.844e+006
+			T.oxygen(755985)
+			T.co2(14.8176)
+			T.n2(2.844e+006)
 			T.sl_gas = 0
-			T.temp = 293.15
+			T.temp_set(293.15)
 	world << "[usr.key] has stabilized the atmosphere."
 
 /client/proc/addfreeform()

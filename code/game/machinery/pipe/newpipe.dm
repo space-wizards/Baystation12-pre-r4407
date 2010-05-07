@@ -103,7 +103,7 @@
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode1, delta_gt)//, dbg)
 
 		//if(dbg) world.log << "PLT1 [delta_gt] >> [gas.tot_gas()] ~ [ngas.tot_gas()]"
@@ -113,7 +113,7 @@
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode2, delta_gt)//, dbg)
 
 		//if(dbg) world.log << "PLT2 [delta_gt] >> [gas.tot_gas()] ~ [ngas.tot_gas()]"
@@ -122,7 +122,9 @@
 	else
 		leak_to_turf(2)
 
-
+/obj/machinery/pipes/New()
+	..()
+	name = replace(name, " \[ALWAYSSHOW]", "") //Remove a tag used on the map editor
 
 /obj/machinery/pipeline/proc/leak_to_turf(var/port)
 	var/turf/T
@@ -203,6 +205,9 @@ var/list/lines = list()
 	for(var/obj/machinery/pipeline/PL in plines)	// for all lines
 		//Messes up plnum, thus removed.
 		PL.setterm()								// orient the pipes and set the pipeline vnodes to the terminating machines
+
+	for(var/obj/machinery/pipes/P in world)
+		P.update()
 
 // return a list of pipes (not including terminating machine)
 
@@ -366,23 +371,6 @@ var/list/lines = list()
 //	src.gas.turf_add(src.loc, -1.0)
 	return
 
-
-/*
-/obj/machinery/pipes/process()
-*/
-
-/obj/machinery/pipes/New()
-
-	..()
-
-	//If we want to be able to make pipes mid-game,
-	//Setting the dir like that us unfortunately not allowed.
-	/*if(istype(src, /obj/machinery/pipes/heat_exch))
-		h_dir = text2num(icon_state)
-	else
-		p_dir = text2num(icon_state)*/
-
-
 /obj/machinery/pipes/ispipe()		// return true since this is a pipe
 	return 1
 
@@ -468,11 +456,11 @@ var/list/lines = list()
 
 	if( level != 1)				// no heat exchange for under-floor pipes
 		if(istype(T,/turf/space))		// heat exchange less efficient in space (no conduction)
-			gas.temperature += ( T.temp - temp) / (3.0 * insulation * numnodes)
+			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
 		else
 
 	//		if(dbg) world.log << "PHE: ([x],[y]) [T.temp]-> \..."
-			var/delta_T = (T.temp - temp) / (insulation)	// normal turf
+			var/delta_T = (T.temp() - temp) / (insulation)	// normal turf
 
 			gas.temperature += delta_T	/ numnodes			// heat the pipe due to turf temperature
 
@@ -483,7 +471,7 @@ var/list/lines = list()
 
 			*/
 			var/tot_turf = max(1, T.tot_gas())
-			T.temp -= delta_T*min(10,tot_node/tot_turf)			// also heat the turf due to pipe temp
+			T.temp(-(delta_T*min(10,tot_node/tot_turf)))			// also heat the turf due to pipe temp
 							// clamp max temp change to prevent thermal runaway
 							// if low amount of gas in turf
 	//		if(dbg) world.log << "[T.temp] [tot_turf] #[delta_T]"
@@ -491,7 +479,7 @@ var/list/lines = list()
 
 	else								// if level 1 but in space, perform cooling anyway - exposed pipes
 		if(istype(T,/turf/space))
-			gas.temperature += ( T.temp - temp) / (3.0 * insulation * numnodes)
+			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
 
 // finds the machine with compatible p_dir in 1 step in dir from S
 /proc/get_machine(var/level, var/turf/S, mdir)
@@ -501,9 +489,8 @@ var/list/lines = list()
 	var/turf/T = get_step_3d(S, mdir)
 
 	for(var/obj/machinery/M in T.contents)
-		if(M.level == level)
-			if(M.p_dir & flip)
-				return M
+		if(M.p_dir & flip) //Removed an M.level == level check, because fuck that we neither need nor want such a check.
+			return M
 
 	return null
 
@@ -605,7 +592,7 @@ var/list/lines = list()
 	updateicon()
 
 
-/obj/machinery/circulator/proc/updateicon()
+/obj/machinery/circulator/updateicon()
 
 	if(stat & NOPOWER)
 		icon_state = "circ[side]-p"
@@ -666,13 +653,13 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
 		calc_delta( src, gas1, ngas1, vnode1, delta_gt)
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
 		calc_delta( src, gas2, ngas2, vnode2, delta_gt)
 	else
 		leak_to_turf(2)
@@ -772,19 +759,19 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode1, delta_gt)
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode2, delta_gt)
 	else
 		leak_to_turf(2)
 
 	if(vnode3)
-		delta_gt = FLOWFRAC * ( vnode3.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode3.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode3, delta_gt)
 	else
 		leak_to_turf(3)
@@ -893,7 +880,7 @@ var/list/lines = list()
 
 	if(vnode)
 
-		delta_gt = FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
 		//if(dbg) world.log << "C[tag]P0: [delta_gt]"
 
 		//var/obj/substance/gas/vgas = vnode.get_gas(src)
@@ -1002,7 +989,7 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode1, delta_gt) //, dbg)
 
 	//	if(dbg)	world.log << "J[dbg]T1: [delta_gt] >> [gas.tostring()] ~ [ngas.tostring()]"
@@ -1010,7 +997,7 @@ var/list/lines = list()
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode2, delta_gt) //, dbg)
 
 	//	if(dbg)	world.log << "J[dbg]T2: [delta_gt] >> [gas.tostring()] ~ [ngas.tostring()]"
@@ -1147,7 +1134,7 @@ var/list/lines = list()
 
 	var/turf/T = src.loc
 
-	delta_gt = FLOWFRAC * (gas.tot_gas() / capmult)
+	delta_gt = vsc.FLOWFRAC * (gas.tot_gas() / capmult)
 	//var/ng = ngas.tot_gas()
 	ngas.turf_add(T, delta_gt)
 
@@ -1158,7 +1145,7 @@ var/list/lines = list()
 
 		//if(dbg)	world.log << "V[tag]N1: [gas.tot_gas()] ~ [ngas.tot_gas()]"
 
-		delta_gt = FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
 
 		calc_delta( src, gas, ngas, vnode, delta_gt)//, dbg)
 
@@ -1246,7 +1233,7 @@ var/list/lines = list()
 
 		//if(dbg)	world.log << "V[tag]N1: [gas.tot_gas()] ~ [ngas.tot_gas()]"
 
-		delta_gt = FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode.get_gas_val(src) - gas.tot_gas() / capmult)
 
 		calc_delta( src, gas, ngas, vnode, delta_gt)//, dbg)
 
@@ -1279,7 +1266,7 @@ var/list/lines = list()
 
 	var/t_tot = T.tot_gas() * 0.2		// partial pressure of turf gas at pipe, for the moment
 
-	var/delta_gt = FLOWFRAC * ( t_tot - sgas.tot_gas() / capmult )
+	var/delta_gt = vsc.FLOWFRAC * ( t_tot - sgas.tot_gas() / capmult )
 
 	if(dbg) world.log << "FTT: dgt=[delta_gt]"
 
@@ -1388,14 +1375,14 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
 		calc_delta( src, gas1, ngas1, vnode1, delta_gt)
 
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
 		calc_delta( src, gas2, ngas2, vnode2, delta_gt)
 
 	else
@@ -1404,7 +1391,7 @@ var/list/lines = list()
 
 	if(open)		// valve operating, so transfer btwen resv1 & 2
 
-		delta_gt = FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
 
 		var/obj/substance/gas/ndelta = new()
 
@@ -1536,14 +1523,14 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
 		calc_delta( src, gas1, ngas1, vnode1, delta_gt)
 
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
 		calc_delta( src, gas2, ngas2, vnode2, delta_gt)
 
 	else
@@ -1552,7 +1539,7 @@ var/list/lines = list()
 
 	if(open)		// valve operating, so transfer btwen resv1 & 2
 
-		delta_gt = FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
 
 		var/obj/substance/gas/ndelta = new()
 
@@ -1607,7 +1594,10 @@ var/list/lines = list()
 	return src.attack_hand(user)
 
 /obj/machinery/valve/dvalve/attack_ai(var/mob/user as mob)
-	return src.attack_hand(user)
+	if(istype(user,/mob/ai))
+		var/mob/ai/AI = user
+		var/password = accesspasswords["[password_digitalvalve]"]
+		AI.sendcommand("[password] TOGGLE",src)
 
 /obj/machinery/valve/dvalve/attack_hand(mob/user)
 	..()
@@ -1624,6 +1614,42 @@ var/list/lines = list()
 		icon_state = "dvalve0"
 		sleep(10)
 	open = !open
+
+
+/obj/machinery/valve/dvalve/receivemessage(message,sender)
+	var/list/listofcommand = getcommandlist(message)
+	if(listofcommand.len < 2)
+		return
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "TOGGLE")
+			spawn(0)
+				if(!open)		// now opening
+					flick("dvalve01", src)
+					icon_state = "dvalve1"
+					sleep(10)
+				else			// now closing
+					flick("dvalve10", src)
+					icon_state = "dvalve0"
+					sleep(10)
+				open = !open
+
+		else if(listofcommand[2] == "RELEASE")
+
+			if(!open)
+				spawn(0)
+					flick("dvalve01", src)
+					icon_state = "dvalve1"
+					sleep(10)
+					open = !open
+
+		else if(listofcommand[2] == "PASS")
+			if(open)
+				spawn(0)
+					flick("dvalve10", src)
+					icon_state = "dvalve0"
+					sleep(10)
+					open = !open
+
 
 // one way pipe
 
@@ -1658,21 +1684,21 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
 		calc_delta( src, gas1, ngas1, vnode1, delta_gt)
 
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
 		calc_delta( src, gas2, ngas2, vnode2, delta_gt)
 
 	else
 		leak_to_turf(2)
 
 
-	delta_gt = FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
+	delta_gt = vsc.FLOWFRAC * (gas1.tot_gas() / capmult - gas2.tot_gas() / capmult)
 	var/obj/substance/gas/ndelta = new()
 
 	if(delta_gt < 0)		// then flowing from R2 to R1
@@ -1720,20 +1746,20 @@ var/list/lines = list()
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas1.tot_gas() / capmult)
 		calc_delta( src, gas1, ngas1, vnode1, delta_gt)
 
 	else
 		leak_to_turf(1)
 
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas2.tot_gas() / capmult)
 		calc_delta( src, gas2, ngas2, vnode2, delta_gt)
 
 	else
 		leak_to_turf(2)
 
-/obj/machinery/oneway/pipepump/proc/updateicon()
+/obj/machinery/oneway/pipepump/updateicon()
 	icon_state = "pipepump-[(stat & NOPOWER) ? "stop" : "run"]"
 
 /obj/machinery/oneway/pipepump/power_change()
@@ -1783,16 +1809,16 @@ var/list/lines = list()
 
 		if(!vnode)	return leak_to_turf()
 		var/obj/substance/gas/exterior = new()
-		exterior.oxygen = T.oxygen
-		exterior.n2 = T.n2
+		exterior.oxygen = T.oxygen()
+		exterior.n2 = T.n2()
 		exterior.plasma = T.poison
-		exterior.co2 = T.co2
+		exterior.co2 = T.co2()
 		exterior.sl_gas = T.sl_gas
-		exterior.temperature = T.temp
+		exterior.temperature = T.temp()
 		var/obj/substance/gas/interior = gas
 		var/obj/substance/gas/flowing = new()
 
-		var/flow_rate = (exterior.tot_gas()-interior.tot_gas())*FLOWFRAC
+		var/flow_rate = (exterior.tot_gas()-interior.tot_gas())*vsc.FLOWFRAC
 		if(flow_rate <= 0)
 			return
 		flowing.set_frac(exterior,flow_rate)
@@ -1824,7 +1850,7 @@ var/list/lines = list()
 		updateicon()
 	return
 
-/obj/machinery/inlet/filter/proc/updateicon()
+/obj/machinery/inlet/filter/updateicon()
 	if(stat & NOPOWER)
 		icon_state = "inlet_filter-0"
 		return
@@ -1852,7 +1878,7 @@ var/list/lines = list()
 		updateicon()
 	return
 
-/obj/machinery/vent/filter/proc/updateicon()
+/obj/machinery/vent/filter/updateicon()
 	if(stat & NOPOWER)
 		icon_state = "vent_filter-0"
 		return

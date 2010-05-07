@@ -37,7 +37,7 @@
 		t += text("<font color=blue>Plasma: []</font> ", t1)
 	else
 		t += text("<font color=red>Plasma: []</font> ", t1)
-	t1 = T.co2 / turf_total * 100
+	t1 = T.co2() / turf_total * 100
 	t1 = round(t1, 0.0010)
 	if (t1 < 1)
 		t += text("<font color=blue>CO2: []</font> ", t1)
@@ -50,6 +50,6 @@
 	else
 		t += text("<font color=red>N2O: []</font>", t1)
 	user.show_message(t, 1)
-	user.show_message(text("\blue \t Temperature: []&deg;C", (T.temp-T0C) ), 1)
+	user.show_message(text("\blue \t Temperature: []&deg;C", (T.temp()-T0C) ), 1)
 	src.add_fingerprint(user)
 	return

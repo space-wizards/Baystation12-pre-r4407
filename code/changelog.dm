@@ -4,12 +4,12 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
-
-<P><B>Head's Changes (April 11th, 2010)</B></P>
-<li>Hungery & Thirst system</li>
-<li>Water Vending machines (click on them to use them)</li>
-<li>Walking in with someone with grab,disarm,help will change places with him unless he has a harm.</li>
-
+<P><B>Aryn's Changes (April 15th-28th, 2010)</B></P>
+<li>Brand new air system makes oxygen, nitrogen and CO2 move super-fast.</li>
+<li>Airflow is in, you can now be sucked out of airlocks, thrown against walls by the pressure, etc.</li>
+<li>You can now tell when someone is speaking if you are deaf, because they move their mouth.</li>
+<li>When KOed, you no longer see <I>...You can almost hear someone talking...</i> for every message, even visual ones.</li>
+<li>You can sometimes hear pieces of speech when KOed.</li>
 
 <P><B>Sukasa's Changes (April 11th, 2010)</B></P>
 <li>Ladders and multiple Z levels OMFG</li>

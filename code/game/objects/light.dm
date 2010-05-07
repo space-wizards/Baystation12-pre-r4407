@@ -20,8 +20,6 @@
 	area = loc.loc
 	bulb = new basetype()
 	bulb.use()
-	on = 0
-	sd_SetLuminosity(0)
 
 /obj/machinery/light/examine(mob/user as mob)
 	user << "This is a [bulbtype] light fixture"
@@ -141,7 +139,7 @@
 			M.show_message("\red [user.name] was shocked by the [src.name]!", 3, "\red You hear a heavy electrical crack", 2)
 		return 1
 
-/obj/machinery/light/proc/updateicon()
+/obj/machinery/light/updateicon()
 	icon_state = "[gset][area.power_light && area.lightswitch && bulb.life ? (bulb.life > 2000 ? "" : "-h") : "-p"]"
 
 /obj/machinery/light/process()
@@ -153,17 +151,16 @@
 		return
 
 	if ((stat & (NOPOWER|BROKEN)) || (!bulb))
+		if(on)
+			turnoff()
 		return
 
-	if ((powered(LIGHT) && area.lightswitch && bulb.life))
-		turnon()
-	else
+	if ((!powered(LIGHT) || !bulb))
 		turnoff()
 
 	if (on)
 		area.use_power(100 * max(baselum, bulb.bright), LIGHT)
-
-	bulb.use()
+		bulb.use()
 
 /obj/machinery/light/power_change()
 	return
@@ -209,6 +206,23 @@
 		else
 	return
 
+
+/obj/machinery/light/receivemessage(message,sender)
+
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	var/list/listofcommand = dd_text2list(command," ",null)
+	if(listofcommand.len < 3)
+		return
+	if(listofcommand[2] == "LIGHTS" && (listofcommand[1] == "*" || listofcommand[1] == area.superarea.areaid))
+		if(listofcommand[3] == "OFF")
+			turnoff()
+		else if(listofcommand[3] == "ON")
+			turnon()
+
+/obj/machinery/light/identinfo()
+	return "LIGHT [!src.on ? "ON" : "OFF"] [bulb ? bulb.life : "NONE"] [area.superarea.areaid]"
 
 /obj/item/weapon/storage/lightbulbs/New()
 	..()

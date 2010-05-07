@@ -23,9 +23,7 @@
 	var/W = src.wear_suit
 	if (istype(W, /obj/item/weapon/clothing/suit/a_i_a_ptank))
 		var/obj/item/weapon/clothing/suit/a_i_a_ptank/A = W
-//		world << "Detected that [src.key] is wearing a bomb" debug stuff
 		if(A.status)
-//			world << "Bomb has ignited?"
 			A.part4.ignite()
 
 	var/tod = time2text(world.realtime,"hh:mm:ss") //weasellos time of death patch

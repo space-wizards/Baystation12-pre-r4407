@@ -29,7 +29,12 @@
 		user.show_message(text("\blue Bloodstream Analysis located [] units of rejuvenation chemicals.", M.rejuv), 1)
 	if(M.becoming_zombie == 1)
 		user.show_message("\red Contains traces of a unknown infectious agent")
+	for(var/obj/item/I in M)
+		if(I.contaminated)
+			user.show_message("\red Objects on [M]'s person may be contaminated with toxic particles.")
+			break
 	src.add_fingerprint(user)
 	if (M.stat > 1)
-		user.unlock_medal("Hes Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
+		user.unlock_medal("He's Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
 	return
+

@@ -353,3 +353,36 @@
 	for(var/area/B in area.superarea.areas)
 		for (var/obj/machinery/turret/aTurret in B)
 			aTurret.setState(enabled, lethal)
+
+/obj/machinery/turretid/receivemessage(message,sender)
+	if(..())
+		return
+	var/command = uppertext(stripnetworkmessage(message))
+	var/listofcommand = dd_text2list(command," ",null)
+	if(check_password(listofcommand[1]))
+		if(checkcommand(listofcommand,2,"TURRETS"))
+			if(checkcommand(listofcommand,3,"OFF"))
+				src.enabled = 0
+				src.lethal = 0
+			else if(checkcommand(listofcommand,3,"STUN"))
+				src.enabled = 1
+				src.lethal = 0
+			else if(checkcommand(listofcommand,3,"LETHAL"))
+				src.enabled = 1
+				src.lethal = 1
+			src.updateTurrets()
+			src.updateUsrDialog()
+		else if(checkcommand(listofcommand,3,"INTERFACE"))
+			if(checkcommand(listofcommand,2,"LOCK"))
+				src.locked = 1
+			else if(checkcommand(listofcommand,2,"UNLOCK"))
+				src.locked = 0
+			src.updateUsrDialog()
+
+/obj/machinery/turretid/identinfo()
+	if(src.enabled)
+		if(src.lethal)
+			return "TURRETS LETHAL"
+		else
+			return "TURRETS STUN"
+	return "TURRETS OFF"

@@ -37,11 +37,20 @@
 
 /obj/machinery/meter/New()
 	..()
-	src.target = locate(/obj/machinery/pipes, src.loc)
 	average = 0
 	return
 
+/obj/machinery/meter/receivemessage(message as text, var/obj/machinery/srcmachine)
+	if(..())
+		return
+	var/list/commands = getcommandlist(message)
+	if(commands.len < 1)
+		return
+	if(checkcommand(commands,1,"SENSE"))
+		transmitmessage(createmessagetomachine("REPORT FLOW [round(100*abs(average)/6e6, 0.1)] [round(target.pl.gas.temperature,0.1)]", srcmachine))
+
 /obj/machinery/meter/process()
+	src.target = locate(/obj/machinery/pipes, src.loc)
 	if(!target)
 		icon_state = "meterX"
 		return
@@ -56,20 +65,6 @@
 	var/val = min(18, round( 18.99 * ((abs(average) / 2500000)**0.25)) )
 	icon_state = "meter[val]"
 
-/*
-/obj/machinery/meter/examine()
-	set src in oview(1)
-
-	var/t = "A gas flow meter. "
-	if (src.target)
-		t += text("Results:\nMass flow []%\nPressure [] kPa", round(100*average/src.target.gas.maximum, 0.1), round(pressure(), 0.1) )
-	else
-		t += "It is not functioning."
-
-	usr << t
-
-*/
-
 /obj/machinery/meter/Click()
 	if(stat & (NOPOWER|BROKEN))
 		return
@@ -82,14 +77,6 @@
 		usr << "\blue <B>You are too far away.</B>"
 	return
 
-/*
-/obj/machinery/meter/proc/pressure()
-
-	if(src.target && src.target.gas)
-		return (average * target.gas.temperature)/100000.0
-	else
-		return 0
-*/
 
 /obj/machinery/atmoalter/siphs/New()
 	..()
@@ -168,8 +155,12 @@
 
 	..()
 	if(!empty)
-		src.gas.oxygen = 2.73E7
-		src.gas.n2 = 1.027E8
+		if(istype(src,/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon))
+			src.gas.oxygen = 1.365E7
+			src.gas.n2 = 5.135E7
+		else
+			src.gas.oxygen = 2.73E7
+			src.gas.n2 = 1.027E8
 	return
 
 /obj/machinery/atmoalter/siphs/fullairsiphon/port/reset(valve, auto)
@@ -382,7 +373,21 @@
 
 //	var/dbg = (suffix=="d") && Debug
 
-	if(stat & NOPOWER) return
+	if(stat & (NOPOWER|BROKEN)) return
+
+	if(vsc.plc.CANISTER_CORROSION)
+		if(gas.plasma > 10000 && !(flags & PLASMAGUARD))
+			if(prob(1))
+				stat |= BROKEN
+				icon_state = dd_replacetext(icon_state,"0","B")
+				icon_state = dd_replacetext(icon_state,"1","B")
+				icon_state = dd_replacetext(icon_state,"T","B")
+				if(holding)
+					holding.Move(loc)
+					holding.loc = loc
+				gas.turf_add(loc,-1)
+				return
+
 
 	if (src.t_status != 3)
 		var/turf/T = src.loc
@@ -444,7 +449,7 @@
 						src.f_time = world.time + 300
 					else
 						if (world.time > src.f_time)
-							var/difference = CELLSTANDARD - (T.oxygen + T.n2)
+							var/difference = CELLSTANDARD - (T.oxygen() + T.n2())
 							if (difference > 0)
 								var/t1 = src.gas.tot_gas()
 								if (difference > t1)
@@ -572,18 +577,26 @@
 	else
 		if (istype(W, /obj/item/weapon/screwdriver))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
+			var/obj/a_pipe/connector/con2 = locate() in src.loc
 			if (src.c_status)
 				src.anchored = 0
 				src.c_status = 0
 				user.show_message("\blue You have disconnected the siphon.")
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the siphon.")
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the siphon.")
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is nothing here to connect to the siphon.")
 

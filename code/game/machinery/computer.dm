@@ -15,6 +15,8 @@
 	return 1
 
 /obj/machinery/computer/meteorhit(var/obj/O as obj)
+	if (stat & BROKEN)
+		return
 	for(var/x in src.verbs)
 		src.verbs -= x
 	src.icon_state = "[hasdisk ? "disk":""]broken"
@@ -28,6 +30,7 @@
 /obj/machinery/computer/communications/ex_act(severity)
 	switch(severity)
 		if(1.0)
+			sd_SetLuminosity(0)
 			del(src)
 			return
 		if(2.0)
@@ -36,12 +39,14 @@
 					src.verbs -= x
 				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
+				sd_SetLuminosity(0)
 		if(3.0)
 			if (prob(25))
 				for(var/x in src.verbs)
 					src.verbs -= x
 				src.icon_state = "[hasdisk ? "disk":""]broken"
 				stat |= BROKEN
+				sd_SetLuminosity(0)
 		else
 
 /obj/machinery/computer/blob_act()
@@ -50,6 +55,7 @@
 			src.verbs -= x
 		src.icon_state = "[hasdisk ? "disk":""]broken"
 		src.stat |= BROKEN
+		sd_SetLuminosity(0)
 		src.density = 0
 
 /obj/machinery/computer/power_change()
@@ -64,11 +70,13 @@
 			spawn(rand(4, 10))
 				icon_state = initial(icon_state)
 				flick("[hasdisk ? "disk":""]flick_poweron", src)
+				sd_SetLuminosity(initial(src.luminosity))
 			stat &= ~NOPOWER
 		else if (!powered() && !(stat & NOPOWER))
 			spawn(rand(0, 15))
 				flick("[hasdisk ? "disk":""]flick_poweroff", src)
 				src.icon_state = "[hasdisk ? "disk":""]off"
+				spawn(3) sd_SetLuminosity(0)
 			stat |= NOPOWER
 
 /obj/machinery/Topic(href, href_list)
@@ -405,15 +413,27 @@
 	if(A.z == prison_shuttle_dock)
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = shuttle_en_route_level
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = station_prison_dock
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
@@ -422,15 +442,27 @@
 	else
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = shuttle_en_route_level
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 		sleep(rand(600,1800))
 		for(var/area/B in A.superarea.areas)
 			for(var/atom/movable/AM as mob|obj in B)
+				var/lum = 0
+				if(AM.luminosity)
+					lum = AM.luminosity
+					AM.sd_SetLuminosity(0)
 				AM.z = prison_shuttle_dock
 				AM.Move()
+				if(lum)
+					AM.sd_SetLuminosity(lum)
 			for(var/turf/T as turf in B)
 				T.buildlinks()
 			for(var/mob/M in B)
@@ -452,7 +484,7 @@
 	if(ticker.mode.name == "blob" || ticker.mode.name == "Corporate Restructuring" || ticker.mode.name == "sandbox")
 		user << "Under directive 7-10, SS13 is quarantined until further notice."
 		return
-	if(ticker.mode.name == "revolution")
+	if(ticker.mode.name == "Revolution")
 		user << "Centcom will not allow the shuttle to be called, due to the possibility of sabotage by revolutionaries."
 		return
 	if(ticker.mode.name == "AI malfunction")
@@ -479,26 +511,6 @@
 	shuttlecomming = 0
 	ticker.timing = -1.0
 
-	return
-
-/obj/machinery/computer/card/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		else
 	return
 
 /obj/machinery/computer/card/attack_ai(var/mob/user as mob)
@@ -646,27 +658,6 @@
 
 /obj/machinery/computer/card/attackby(I as obj, user as mob)
 	src.attack_hand(user)
-	return
-
-/obj/machinery/computer/pod/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "[hasdisk ? "disk":""]broken"
-				stat |= BROKEN
-		else
 	return
 
 /obj/machinery/computer/pod/proc/alarm()

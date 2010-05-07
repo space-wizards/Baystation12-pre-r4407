@@ -6,7 +6,7 @@
 	if(Debug2)
 		for(var/turf/T in view())
 			if(!T.updatecell)	continue
-			T.temp = newtemp
+			T.temp_set(newtemp)
 			world.log_admin("[src.key] set [T]'s temp to [newtemp]")
 		return
 	else

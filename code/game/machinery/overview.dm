@@ -121,7 +121,7 @@
 
 			if(!colour2 && !T.density)
 
-				var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+				var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 
 
 				var/t1 = turf_total / CELLSTANDARD * 150
@@ -205,7 +205,7 @@
 						sense = 0
 
 					if("/turf/station/floor", "/turf/station/engine/floor")
-						var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+						var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 						var/t1 = turf_total / CELLSTANDARD * 175
 
 						if(t1<=100)

@@ -76,7 +76,7 @@
 		src.fingerprints = list2params(L)
 	return
 
-/atom/proc/add_blood(mob/human/M as mob)
+/atom/proc/add_blood(mob/human/M as mob,var/type = "hit",var/dir = 0)
 	if (!( istype(M, /mob/human) ))
 		return 0
 	if (!( src.flags ) & 256)
@@ -104,6 +104,10 @@
 			var/obj/bloodtemplate/this = new /obj/bloodtemplate( source2 )
 			this.hulk = M.ishulk
 			this.blood = M.primarynew.uni_identity
+
+			if(type == "drag")
+				this.icon_state = "floor_[dir]_[pick(1,2)]"
+
 			if(M.zombie == 1)
 				this.zombieblood = 1
 		else if (istype(src, /mob/human))
@@ -285,7 +289,11 @@
 						src.attack_paw(usr, usr.hand)
 					else
 						if (istype(usr, /mob/ai))
-							src.attack_ai(usr, usr.hand)
+							var/mob/ai/aiusr = usr
+							if(istype(src, /obj/machinery))
+								aiusr.sendcommand("CONTROL", src)
+							else
+								src.attack_ai(usr)
 		else
 			if (istype(usr, /mob/human))
 				src.hand_h(usr, usr.hand)

@@ -3,24 +3,6 @@
 	..()
 	return
 
-/obj/machinery/computer/teleporter/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
 /obj/machinery/computer/teleporter/attackby(obj/item/weapon/W)
 	src.attack_hand()
 
@@ -121,7 +103,7 @@
 		O.Life()
 	return
 
-/obj/machinery/teleport/station/attackby(/obj/item/weapon/W)
+/obj/machinery/teleport/station/attackby(var/obj/item/weapon/W)
 	src.attack_hand()
 
 /obj/machinery/teleport/station/attack_paw()
@@ -308,25 +290,6 @@
 
 /atom/proc/laserhit(L as obj)
 	return 1
-
-/obj/machinery/computer/data/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
 
 /obj/machinery/computer/data/weapon/log/New()
 	..()

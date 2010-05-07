@@ -37,17 +37,17 @@
 	var/delta_gt
 
 	if(vnode1)
-		delta_gt = FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode1.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode1, delta_gt)
 	else
 		leak_to_turf(1)
 	if(vnode2)
-		delta_gt = FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode2.get_gas_val(src) - gas.tot_gas() / capmult)
 		calc_delta( src, gas, ngas, vnode2, delta_gt)
 	else
 		leak_to_turf(2)
 	if(vnode3)
-		delta_gt = FLOWFRAC * ( vnode3.get_gas_val(src) - f_gas.tot_gas() / capmult)
+		delta_gt = vsc.FLOWFRAC * ( vnode3.get_gas_val(src) - f_gas.tot_gas() / capmult)
 		calc_delta( src, f_gas, f_ngas, vnode3, delta_gt)
 	else
 		leak_to_turf(3)
@@ -190,7 +190,31 @@
 	..()
 	if(usr.restrained() || usr.lying)
 		return
-	if ((((get_dist(src, usr) <= 1 || usr.telekinesis == 1) || istype(usr, /mob/ai)) && istype(src.loc, /turf)))
+	if(istype(usr,/mob/ai))
+		var/mob/ai/AI = usr
+		var/password = accesspasswords["[access_atmospherics]"]
+		usr.machine = src
+		if (href_list["close"])
+			AI << browse(null, "window=pipefilter;")
+			AI.machine = null
+			return
+		else if (href_list["fp"])
+			AI.sendcommand("[password] RATE [text2num(href_list["fp"])]",src)
+		else if (href_list["tg"])
+			var/num = text2num(href_list["tg"])
+			var/command = f_mask & num ? "PASS" : "RELEASE"
+			if(num == GAS_O2)
+				AI.sendcommand("[password] [command] O2",src)
+			if(num == GAS_N2O)
+				AI.sendcommand("[password] [command] N2O",src)
+			if(num == GAS_PL)
+				AI.sendcommand("[password] [command] PLASMA",src)
+			if(num == GAS_N2)
+				AI.sendcommand("[password] [command] N2",src)
+			if(num == GAS_CO2)
+				AI.sendcommand("[password] [command] CO2",src)
+
+	else if ((((get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf))))
 		usr.machine = src
 		if (href_list["close"])
 			usr << browse(null, "window=pipefilter;")
@@ -221,7 +245,7 @@
 	spawn(rand(1,15))	//so all the filters don't come on at once
 		updateicon()
 
-/obj/machinery/pipefilter/proc/updateicon()
+/obj/machinery/pipefilter/updateicon()
 	src.overlays = null
 	if(stat & NOPOWER)
 		icon_state = "filter-off"
@@ -241,3 +265,57 @@
 		src.overlays += image('pipes2.dmi', "filter-open")
 		if(bypassed)	//should only be bypassed if unlocked
 			src.overlays += image('pipes2.dmi', "filter-bypass")
+
+/obj/machinery/pipefilter/receivemessage(message,sender)
+	if(..())
+		return
+	var/list/listofcommand = getcommandlist(message)
+	if(listofcommand.len < 3)
+		return
+	if(check_password(listofcommand[1]))
+		if(listofcommand[2] == "RATE")
+			var/num = text2num(listofcommand[3])
+			src.f_per = min(max(round(src.f_per + num), 0), src.maxrate)
+		if(listofcommand[2] == "RELEASE")
+			if(listofcommand[3] == "PLASMA")
+				if(!(src.f_mask & GAS_PL))
+					src.f_mask ^= GAS_PL
+			else if(listofcommand[3] == "O2")
+				if(!(src.f_mask & GAS_O2))
+					src.f_mask ^= GAS_O2
+			else if(listofcommand[3] == "CO2")
+				if(!(src.f_mask & GAS_CO2))
+					src.f_mask ^= GAS_CO2
+			else if(listofcommand[3] == "N2")
+				if(!(src.f_mask & GAS_N2))
+					src.f_mask ^= GAS_N2
+			else if(listofcommand[3] == "N2O")
+				if(!(src.f_mask & GAS_N2O))
+					src.f_mask ^= GAS_N2O
+		else if(listofcommand[2] == "PASS")
+			if(listofcommand[3] == "PLASMA")
+				if((src.f_mask & GAS_PL))
+					src.f_mask ^= GAS_PL
+			else if(listofcommand[3] == "O2")
+				if((src.f_mask & GAS_O2))
+					src.f_mask ^= GAS_O2
+			else if(listofcommand[3] == "CO2")
+				if((src.f_mask & GAS_CO2))
+					src.f_mask ^= GAS_CO2
+			else if(listofcommand[3] == "N2")
+				if((src.f_mask & GAS_N2))
+					src.f_mask ^= GAS_N2
+			else if(listofcommand[3] == "N2O")
+				if((src.f_mask & GAS_N2O))
+					src.f_mask ^= GAS_N2O
+		else if(listofcommand[2] == "TOGGLE")
+			if(listofcommand[3] == "PLASMA")
+				src.f_mask ^= GAS_PL
+			else if(listofcommand[3] == "O2")
+				src.f_mask ^= GAS_O2
+			else if(listofcommand[3] == "CO2")
+				src.f_mask ^= GAS_CO2
+			else if(listofcommand[3] == "N2")
+				src.f_mask ^= GAS_N2
+			else if(listofcommand[3] == "N2O")
+				src.f_mask ^= GAS_N2O

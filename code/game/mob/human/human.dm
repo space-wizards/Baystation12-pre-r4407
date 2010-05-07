@@ -860,6 +860,9 @@
 //							if (istype(location, /turf/station))
 //								location.add_blood(M)
 						step(src.pulling, get_dir(src.pulling.loc, T))
+						if(istype(src.pulling,/mob))
+							var/mob/AA = src.pulling
+							AA.pulled(get_dir(src.pulling.loc,T))
 						M.pulling = t
 				else
 					step(src.pulling, get_dir(src.pulling.loc, T))
@@ -872,6 +875,9 @@
 
 /mob/human/UpdateClothing()
 	..()
+
+	if (!src.hud_used)
+		return
 
 	if (src.monkeyizing)
 		return
@@ -1551,10 +1557,11 @@
 		G.sl_gas -= a_sl_gas
 
 		if (a_oxygen < 67.032)
-			src.t_oxygen = round( (67.032 - a_oxygen) / 5) + 1
+			src.t_oxygen = round( (67.032 - a_oxygen) / 15) + 1
 		if (a_oxygen > 200) // too high concentrations of oxygen are dangerous
-			if(prob(10))
-				src<<"\red You feel dizzy!"
+			if(prob(50))
+				if(prob(20))
+					src<<"\red You feel dizzy!"
 				src.toxloss += 0.5
 		if (G.tot_gas() && a_co2/G.tot_gas() > 0.05)
 			if(src.zombie == 0)
@@ -1565,7 +1572,7 @@
 		else
 			co2overloadtime = 0
 		if (a_plasma > 5)
-			src.t_plasma = round(a_plasma / 10) + 1
+			src.t_plasma = round(a_plasma / vsc.plc.PLASMA_DMG_QUOTIENT) + vsc.plc.PLASMA_DMG_OFFSET
 			if ((src.wear_mask && src.wear_mask.a_filter >= 4))
 				src.t_plasma = max(src.t_plasma - 40, 0)
 		if(G.temperature > temperature_resistance && (!src.firemut))
@@ -1580,10 +1587,6 @@
 				src.weakened = max(src.weakened, 3)
 				if (a_sl_gas > 40)
 					src.paralysis = max(src.paralysis, 3)
-		if (G.oxygen + G.n2 +  G.sl_gas + G.co2 > 5000)
-			src.bruteloss += 0.5
-			if(prob(10))
-				src << "\red The high pressure hurts your lungs!"
 		src.bodytemperature = adjustBodyTemp(src.bodytemperature, G.temperature, 0.05)	//breathing stuff adjusts your temp but only very VERY slightly
 		G.co2 += a_oxygen  // was * 0.6  - changed to increase CO2 output rate of breathing
 	else
@@ -2250,6 +2253,11 @@
 	user << browse(dat, text("window=mob[];size=340x480", src.name))
 	return
 
+
+/mob/human/pulled(dir)
+	if(src.toxloss + src.bruteloss > 50)
+		src.loc.add_blood(src,"drag",dir)
+
 /mob/human/mob/
 
 /*/mob/human/proc/testbite()
@@ -2264,3 +2272,5 @@
 		else
 			return 0
 	return 0*/
+
+

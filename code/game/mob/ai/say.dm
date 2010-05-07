@@ -49,7 +49,7 @@
 		if (italics)
 			message = text("<I>[]</I>", message)
 		for(var/mob/M in L)
-			M.show_message(text("<B>[]</B>[]: []", src.rname, alt_name, message), 2)
+			M.show_message(text("<B>[]</B>[]: []", src.rname, alt_name, message), 6)
 		for(var/obj/O in view(obj_range, null))
 			spawn( 0 )
 				if (O)

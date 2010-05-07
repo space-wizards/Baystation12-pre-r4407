@@ -11,11 +11,11 @@ var
 	LIGHTHEADED = 6
 	TWITCH = 7
 	XRAY = 8
-	NERVOUS = 9
+	ISNERVOUS = 9
 	AURA = 10
 	ISBLIND = 11
 	TELEKINESIS = 12
-	DEAF = 13
+	ISDEAF = 13
 
 var/zombie_genemask = 0
 
@@ -205,7 +205,7 @@ var/zombie_genemask = 0
 	M.see_in_dark = 2
 	M.see_invisible = 0
 	if (isblockon(getblock(M.primarynew.struc_enzyme, BAD_VISION,3),BAD_VISION))
-		M.disabilities |= 1
+		M.disabilities |= BADVISION
 		M << "\red Your eyes feel strange."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, HULK,3),HULK))
 		if(inj || prob(15))
@@ -214,18 +214,18 @@ var/zombie_genemask = 0
 			M.anchored = 1
 			M.unlock_medal("Its Not Easy Being Green", 1, "Become the hulk.", "medium")
 	if (isblockon(getblock(M.primarynew.struc_enzyme, HEADACHE,3),HEADACHE))
-		M.disabilities |= 2
+		M.disabilities |= HEADACHEY
 		M << "\red You get a headache."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, STRANGE,3),STRANGE))
 		M << "\red You feel strange."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, COUGH,3),COUGH))
-		M.disabilities |= 4
+		M.disabilities |= COUGHY
 		M << "\red You start coughing."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, LIGHTHEADED,3),LIGHTHEADED))
 		M << "\red You feel lightheaded."
 		M.clumsy = 1
 	if (isblockon(getblock(M.primarynew.struc_enzyme, TWITCH,3),TWITCH))
-		M.disabilities |= 8
+		M.disabilities |= TWITCHY
 		M << "\red You twitch."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, XRAY,3),XRAY))
 		if(inj || prob(50))
@@ -234,27 +234,27 @@ var/zombie_genemask = 0
 			M.see_in_dark = 8
 			M.see_invisible = 4
 			M.xray = 1
-	if (isblockon(getblock(M.primarynew.struc_enzyme, NERVOUS,3),NERVOUS))
-		M.disabilities |= 16
-		M << "\red You feel nervous."
+	if (isblockon(getblock(M.primarynew.struc_enzyme, ISNERVOUS,3),ISNERVOUS))
+		M.disabilities |= NERVOUS
+		M << "\red You feel ISNERVOUS."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, AURA,3),AURA))
 		if(inj || prob(30))
 			M << "\blue Your body feels warm."
 			M.firemut = 1
 	if (isblockon(getblock(M.primarynew.struc_enzyme, ISBLIND,3),ISBLIND))
-		M.sdisabilities |= 1
+		M.sdisabilities |= BLIND
 		M << "\red You cant seem to see anything."
 	if (isblockon(getblock(M.primarynew.struc_enzyme, TELEKINESIS,3),TELEKINESIS))
 		if(inj || prob(15))
 			M << "\blue You feel smarter."
 			M.telekinesis = 1
-	if (isblockon(getblock(M.primarynew.struc_enzyme, DEAF,3),DEAF))
-		M.sdisabilities |= 4
+	if (isblockon(getblock(M.primarynew.struc_enzyme, ISDEAF,3),ISDEAF))
+		M.sdisabilities |= DEAF
 		M.ear_deaf = 1
-		M << "\red Its kinda quiet..."
+		M << "\red It's kinda quiet..."
 
 
-	if(ENABLE_ZOMBIE_GENE)
+	if(vsc.ENABLE_ZOMBIE_GENE)
 		//Zombie "gene". More of an idea/proof of concept implementation.
 		//Start with the XOR of hulk and monkey...
 		var/b = getblock(M.primarynew.struc_enzyme, 14,3) ^ getblock(M.primarynew.struc_enzyme, HULK,3)
@@ -311,7 +311,7 @@ var/zombie_genemask = 0
 			C.occupant = O
 			connected = null
 		O.name = text("monkey ([])",copytext(md5(M.rname), 2, 6))
-		if(NO_MONKEY_REVIVE)
+		if(vsc.NO_MONKEY_REVIVE)
 			O.stat = M.stat
 		del(M)
 		return
@@ -379,7 +379,7 @@ var/zombie_genemask = 0
 				O.rname = randomname
 				i++
 		updateappearance(O,O.primarynew.uni_identity)
-		if(NO_MONKEY_REVIVE)
+		if(vsc.NO_MONKEY_REVIVE)
 			O.stat = M.stat
 		del(M)
 		return

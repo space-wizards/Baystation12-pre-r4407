@@ -45,4 +45,14 @@
 	src.operating = 0
 	src.loc.buildlinks()
 	return
+/obj/shuttle/door/New()
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
+/obj/shuttle/door/Move()
+	if(isturf(loc))
+		loc:accept_zoning = 1
+	. = ..()
+	if(isturf(loc))
+		loc:accept_zoning = 0
 

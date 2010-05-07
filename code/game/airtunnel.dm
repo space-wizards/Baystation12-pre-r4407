@@ -1,277 +1,3 @@
-/obj/move/airtunnel/process()
-	if (!( src.deployed ))
-		return null
-	else
-		..()
-	return
-
-/obj/move/airtunnel/connector/create()
-	src.current = src
-	src.next = new /obj/move/airtunnel( null )
-	src.next.master = src.master
-	src.next.previous = src
-	spawn( 0 )
-		src.next.create(airtunnel_start - airtunnel_stop, src.y)
-		return
-	return
-
-/obj/move/airtunnel/connector/wall/create()
-	src.current = src
-	src.next = new /obj/move/airtunnel/wall( null )
-	src.next.master = src.master
-	src.next.previous = src
-	spawn( 0 )
-		src.next.create(airtunnel_start - airtunnel_stop, src.y)
-		return
-	return
-
-/obj/move/airtunnel/connector/wall/process()
-	return
-
-/obj/move/airtunnel/wall/create(num, y_coord)
-	if (((num < 7 || (num > 16 && num < 23)) && y_coord == airtunnel_bottom))
-		src.next = new /obj/move/airtunnel( null )
-	else
-		src.next = new /obj/move/airtunnel/wall( null )
-	src.next.master = src.master
-	src.next.previous = src
-	if (num > 1)
-		spawn( 0 )
-			src.next.create(num - 1, y_coord)
-			return
-	return
-
-/obj/move/airtunnel/wall/move_right()
-	flick("wall-m", src)
-	return ..()
-
-/obj/move/airtunnel/wall/move_left()
-	flick("wall-m", src)
-	return ..()
-
-/obj/move/airtunnel/wall/process()
-	return
-
-/obj/move/airtunnel/proc/move_left()
-	src.relocate(get_step(src, WEST))
-	if ((src.next && src.next.deployed))
-		return src.next.move_left()
-	else
-		return src.next
-	return
-
-/obj/move/airtunnel/proc/move_right()
-	src.relocate(get_step(src, EAST))
-	if ((src.previous && src.previous.deployed))
-		src.previous.move_right()
-	return src.previous
-
-/obj/move/airtunnel/proc/create(num, y_coord)
-	if (y_coord == airtunnel_bottom)
-		if ((num < 7 || (num > 16 && num < 23)))
-			src.next = new /obj/move/airtunnel( null )
-		else
-			src.next = new /obj/move/airtunnel/wall( null )
-	else
-		src.next = new /obj/move/airtunnel( null )
-	src.next.master = src.master
-	src.next.previous = src
-	if (num > 1)
-		spawn( 0 )
-			src.next.create(num - 1, y_coord)
-			return
-	return
-
-/obj/machinery/at_indicator/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "reader_broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "reader_broken"
-				stat |= BROKEN
-		else
-	return
-
-/obj/machinery/at_indicator/blob_act()
-	if (prob(50))
-		for(var/x in src.verbs)
-			src.verbs -= x
-		src.icon_state = "reader_broken"
-		stat |= BROKEN
-
-/obj/machinery/at_indicator/proc/update_icon()
-	if(stat & (BROKEN|NOPOWER))
-		icon_state = "reader_broken"
-		return
-
-	var/status = 0
-	if (SS13_airtunnel.operating == 1)
-		status = "r"
-	else
-		if (SS13_airtunnel.operating == 2)
-			status = "e"
-		else
-			if(!SS13_airtunnel.connectors)
-				return
-			var/obj/move/airtunnel/connector/C = pick(SS13_airtunnel.connectors)
-			if (C.current == C)
-				status = 0
-			else
-				if (!( C.current.next ))
-					status = 2
-				else
-					status = 1
-	src.icon_state = text("reader[][]", (SS13_airtunnel.siphon_status == 2 ? "1" : "0"), status)
-	return
-
-/obj/machinery/at_indicator/process()
-	if(stat & (NOPOWER|BROKEN))
-		src.update_icon()
-		return
-	use_power(5, ENVIRON)
-	src.update_icon()
-	return
-
-/obj/machinery/computer/airtunnel/ex_act(severity)
-
-	switch(severity)
-		if(1.0)
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-		else
-	return
-
-/obj/machinery/computer/airtunnel/attack_paw(user as mob)
-	return src.attack_hand(user)
-
-obj/machinery/computer/airtunnel/attack_ai(user as mob)
-	return src.attack_hand(user)
-
-/obj/machinery/computer/airtunnel/attack_hand(var/mob/user as mob)
-	if(..())
-		return
-
-	var/dat = "<HTML><BODY><TT><B>Air Tunnel Controls</B><BR>"
-	user.machine = src
-	if (SS13_airtunnel.operating == 1)
-		dat += "<B>Status:</B> RETRACTING<BR>"
-	else
-		if (SS13_airtunnel.operating == 2)
-			dat += "<B>Status:</B> EXPANDING<BR>"
-		else
-			var/obj/move/airtunnel/connector/C = pick(SS13_airtunnel.connectors)
-			if (C.current == C)
-				dat += "<B>Status:</B> Fully Retracted<BR>"
-			else
-				if (!( C.current.next ))
-					dat += "<B>Status:</B> Fully Extended<BR>"
-				else
-					dat += "<B>Status:</B> Stopped Midway<BR>"
-	dat += text("<A href='?src=\ref[];retract=1'>Retract</A> <A href='?src=\ref[];stop=1'>Stop</A> <A href='?src=\ref[];extend=1'>Extend</A><BR>", src, src, src)
-	dat += text("<BR><B>Air Level:</B> []<BR>", (SS13_airtunnel.air_stat ? "Acceptable" : "DANGEROUS"))
-	dat += "<B>Air System Status:</B> "
-	switch(SS13_airtunnel.siphon_status)
-		if(0.0)
-			dat += "Stopped "
-		if(1.0)
-			dat += "Siphoning (Siphons only) "
-		if(2.0)
-			dat += "Regulating (BOTH) "
-		if(3.0)
-			dat += "RELEASING MAX (Siphons only) "
-		else
-	dat += text("<A href='?src=\ref[];refresh=1'>(Refresh)</A><BR>", src)
-	dat += text("<A href='?src=\ref[];release=1'>RELEASE (Siphons only)</A> <A href='?src=\ref[];siphon=1'>Siphon (Siphons only)</A> <A href='?src=\ref[];stop_siph=1'>Stop</A> <A href='?src=\ref[];auto=1'>Regulate</A><BR>", src, src, src, src)
-	dat += text("<BR><BR><A href='?src=\ref[];mach_close=computer'>Close</A></TT></BODY></HTML>", user)
-	user << browse(dat, "window=computer;size=400x500")
-	return
-
-/obj/machinery/computer/airtunnel/proc/update_icon()
-	if(stat & BROKEN)
-		icon_state = "broken"
-		return
-
-	if(stat & NOPOWER)
-		icon_state = "c_unpowered"
-		return
-
-	var/status = 0
-	if (SS13_airtunnel.operating == 1)
-		status = "r"
-	else
-		if (SS13_airtunnel.operating == 2)
-			status = "e"
-		else
-			var/obj/move/airtunnel/connector/C = pick(SS13_airtunnel.connectors)
-			if (C.current == C)
-				status = 0
-			else
-				if (!( C.current.next ))
-					status = 2
-				else
-					status = 1
-	src.icon_state = text("console[][]", (SS13_airtunnel.siphon_status >= 2 ? "1" : "0"), status)
-	return
-
-/obj/machinery/computer/airtunnel/process()
-	src.update_icon()
-	if(stat & (NOPOWER|BROKEN))
-		return
-	use_power(250)
-	src.updateUsrDialog()
-	return
-
-/obj/machinery/computer/airtunnel/Topic(href, href_list)
-	if(..())
-		return
-
-	if ((usr.contents.Find(src) || ((get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf)) || (istype(usr, /mob/ai))))
-		usr.machine = src
-		if (href_list["retract"])
-			SS13_airtunnel.retract()
-		else if (href_list["stop"])
-			SS13_airtunnel.operating = 0
-		else if (href_list["extend"])
-			SS13_airtunnel.extend()
-		else if (href_list["release"])
-			SS13_airtunnel.siphon_status = 3
-			SS13_airtunnel.siphons()
-		else if (href_list["siphon"])
-			SS13_airtunnel.siphon_status = 1
-			SS13_airtunnel.siphons()
-		else if (href_list["stop_siph"])
-			SS13_airtunnel.siphon_status = 0
-			SS13_airtunnel.siphons()
-		else if (href_list["auto"])
-			SS13_airtunnel.siphon_status = 2
-			SS13_airtunnel.siphons()
-		else if (href_list["refresh"])
-			SS13_airtunnel.siphons()
-
-		src.add_fingerprint(usr)
-		src.updateUsrDialog()
-	return
-
 /obj/machinery/camera/attack_ai(var/mob/ai/user as mob)
 	if (src.network != user.network || !(src.status))
 		return
@@ -691,7 +417,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	if (locate(/obj/move, T))
 		T = locate(/obj/move, T)
-	var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+	var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 	turf_total = max(turf_total, 1)
 
 	//if (!( (75 < t1 && t1 < 125) ))
@@ -699,12 +425,12 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 	//if (!( (20 < t2 && t2 < 30) ))
 	//	safe = 0
 
-	var/temp = T.temp	// temperature of turf
+	var/temp = T.temp()	// temperature of turf
 	var/P    = turf_total / CELLSTANDARD // pressure in bar
 
 	var/ppO2   = P * (T.oxygen / turf_total)
 	var/ppCO2  = P * (T.co2 / turf_total)
-	var/ppPlas = P * (T.poison / turf_total)
+	var/ppPlas = P * (T.poison() / turf_total)
 
 	// world.log << "[A.name] : P = [P] | FO2 = [FO2] | ppO2 = [ppO2]"
 	if (P < 0.90 || P > 1.10) // pressure alarm
@@ -722,7 +448,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	old_safe = safe
 	A.atmosalert(safe, src)
-	src.icon_state = text("alarm:[]", !( safe == 2 ))
+	src.icon_state = text("alarm:[]", safe!=2)
 
 	return
 
@@ -761,7 +487,7 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		if (!( istype(T, /turf) ))
 			return
 
-		var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+		var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 		turf_total = max(turf_total, 1)
 		usr.show_message("\blue <B>Results:</B>", 1)
 		var/t = ""
@@ -770,38 +496,38 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 			usr.show_message(text("\blue Air Pressure: []%", t1), 1)
 		else
 			usr.show_message(text("\blue Air Pressure:\red []%", t1), 1)
-		t1 = T.n2 / turf_total * 100
+		t1 = T.n2() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if ((60 < t1 && t1 < 80))
 			t += text("<font color=blue>Nitrogen: []</font> ", t1)
 		else
 			t += text("<font color=red>Nitrogen: []</font> ", t1)
-		t1 = T.oxygen / turf_total * 100
+		t1 = T.oxygen() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if ((20 < t1 && t1 < 24))
 			t += text("<font color=blue>Oxygen: []</font> ", t1)
 		else
 			t += text("<font color=red>Oxygen: []</font> ", t1)
-		t1 = T.poison / turf_total * 100
+		t1 = T.poison() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 0.5)
 			t += text("<font color=blue>Plasma: []</font> ", t1)
 		else
 			t += text("<font color=red>Plasma: []</font> ", t1)
-		t1 = T.co2 / turf_total * 100
+		t1 = T.co2() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 1)
 			t += text("<font color=blue>CO2: []</font> ", t1)
 		else
 			t += text("<font color=red>CO2: []</font> ", t1)
-		t1 = T.sl_gas / turf_total * 100
+		t1 = T.sl_gas() / turf_total * 100
 		t1 = round(t1, 0.0010)
 		if (t1 < 5)
 			t += text("<font color=blue>NO2: []</font>", t1)
 		else
 			t += text("<font color=red>NO2: []</font>", t1)
-		t1 = T.temp - T0C
-		if (T.temp > 326.444 || T.temp < 282.591)
+		t1 = T.temp() - T0C
+		if (T.temp() > 326.444 || T.temp() < 282.591)
 			t += text("<br><font color=red>Temperature: []</font>", t1)
 		else
 			t += text("<br><font color=blue>Temperature: []</font>", t1)
@@ -821,103 +547,13 @@ obj/machinery/computer/airtunnel/attack_ai(user as mob)
 		return
 	if (locate(/obj/move, T))
 		T = locate(/obj/move, T)
-	var/turf_total = T.co2 + T.oxygen + T.poison + T.sl_gas + T.n2
+	var/turf_total = T.per_turf()//T.co2 + T.oxygen + T.poison() + T.sl_gas + T.n2
 	turf_total = max(turf_total, 1)
 	var/t1 = turf_total / CELLSTANDARD * 100
 	if (!( (90 < t1 && t1 < 110) ))
 		safe = 0
-	t1 = T.oxygen / turf_total * 100
+	t1 = T.oxygen() / turf_total * 100
 	if (!( (20 < t1 && t1 < 30) ))
 		safe = 0
 	src.icon_state = text("indicator[]", safe)
-	SS13_airtunnel.air_stat = safe
 	return
-
-/datum/air_tunnel/air_tunnel1/New()
-	..()
-	for(var/obj/move/airtunnel/A in locate(/area/airtunnel1))
-		A.master = src
-		A.create()
-		src.connectors += A
-		//Foreach goto(21)
-	return
-
-/datum/air_tunnel/proc/siphons()
-	switch(src.siphon_status)
-		if(0.0)
-			for(var/obj/machinery/atmoalter/siphs/S in locate(/area/airtunnel1))
-				S.t_status = 3
-		if(1.0)
-			for(var/obj/machinery/atmoalter/siphs/fullairsiphon/S in locate(/area/airtunnel1))
-				S.t_status = 2
-				S.t_per = 1000000.0
-			for(var/obj/machinery/atmoalter/siphs/scrubbers/S in locate(/area/airtunnel1))
-				S.t_status = 3
-		if(2.0)
-			for(var/obj/machinery/atmoalter/siphs/S in locate(/area/airtunnel1))
-				S.t_status = 4
-		if(3.0)
-			for(var/obj/machinery/atmoalter/siphs/fullairsiphon/S in locate(/area/airtunnel1))
-				S.t_status = 1
-				S.t_per = 1000000.0
-			for(var/obj/machinery/atmoalter/siphs/scrubbers/S in locate(/area/airtunnel1))
-				S.t_status = 3
-		else
-	return
-
-/datum/air_tunnel/proc/stop()
-	src.operating = 0
-	return
-
-/datum/air_tunnel/proc/extend()
-	if (src.operating)
-		return
-
-	spawn(0)
-		src.operating = 2
-		while(src.operating == 2)
-			var/ok = 1
-			for(var/obj/move/airtunnel/connector/A in src.connectors)
-				if (!( A.current.next ))
-					src.operating = 0
-					return
-				if (!( A.move_left() ))
-					ok = 0
-			if (!( ok ))
-				src.operating = 0
-			else
-				for(var/obj/move/airtunnel/connector/A in src.connectors)
-					if (A.current)
-						A.current.next.loc = get_step(A.current.loc, EAST)
-						A.current = A.current.next
-						A.current.deployed = 1
-					else
-						src.operating = 0
-			sleep(20)
-		return
-
-/datum/air_tunnel/proc/retract()
-	if (src.operating)
-		return
-	spawn(0)
-		src.operating = 1
-		while(src.operating == 1)
-			var/ok = 1
-			for(var/obj/move/airtunnel/connector/A in src.connectors)
-				if (A.current == A)
-					src.operating = 0
-					return
-				if (A.current)
-					A.current.loc = null
-					A.current.deployed = 0
-					A.current = A.current.previous
-				else
-					ok = 0
-			if (!( ok ))
-				src.operating = 0
-			else
-				for(var/obj/move/airtunnel/connector/A in src.connectors)
-					if (!( A.current.move_right() ))
-						src.operating = 0
-			sleep(20)
-		return

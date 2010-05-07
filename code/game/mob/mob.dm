@@ -49,6 +49,8 @@
 /proc/hsl2rgb(h, s, l)
 	return
 
+/mob/proc/pulled(var/dir)
+
 /proc/ran_zone(zone, probability)
 
 	if (probability == null)
@@ -781,6 +783,13 @@
 	O.verbs += /mob/ai/proc/disablelockdown
 	O.verbs -= /mob/verb/switch_hud
 //	O.verbs += /mob/ai/proc/ai_cancel_call
+	O.verbs += /mob/ai/proc/hackinterface
+	O.verbs += /mob/ai/proc/changeinterface
+	O.verbs += /mob/ai/proc/changeinterface2
+	O.verbs += /mob/ai/proc/showpassword
+	O.verbs += /mob/ai/proc/netid
+	O.verbs += /mob/ai/proc/send_raw_packet
+	O.verbs += /mob/ai/proc/listinterfaces
 	del(src)
 	return
 
@@ -1105,10 +1114,71 @@
 					return
 	// Added voice muffling for Issue 41.
 	if (src.knocked_out() || src.sleeping > 0)
-		src << "<I>... You can almost hear someone talking ...</I>"
+		//Yeah, I revamped the muffling so you can still hear some things, but mostly you only almost hear them.
+		//Specifically, you can now hear some parts of talking, e.g. "Unknown: ...aitor is...tion en..."
+		//If nothing comes through, and the message is "Unknown: ...", you get the standard almost talking message.
+		// --Aryn
+		if(type & 2)
+			if(type & 4)
+				msg = ko_msg(msg)
+				if(msg != "<B>Unknown</B>: ...")
+					src << ko_msg(msg)
+				else
+					src << "<I>... You can almost hear someone talking ...</I>"
+			else
+				if(prob(80))
+					src << "<I>... You can almost hear a noise ...</I>"
+				else
+					src << msg
 	else
 		src << msg
 	return
+
+//mob/verb/Display_KO_Msg(msg as text)
+	//msg = "<B>[src]</B>: [msg]"
+	//msg = ko_msg(msg)
+	//show_message("\blue ko_msg produced:")
+	//show_message(msg)
+
+mob/proc/ko_msg(msg)
+	var/list/split_msg = dd_text2list(msg,": ")
+	//src << "Split Message: [split_msg[1]]|[split_msg[2]]"
+	if(prob(80)) split_msg[1] = "<B>Unknown</B>"
+	//if(split_msg.len < 2)
+	//	split_msg[1] = ""
+	//	split_msg += msg
+	var/original_msg = split_msg[2]
+	//world << "Original Message: [original_msg]"
+	var/altered_msg = ""
+	var/text_buffer = ""
+	var/add_characters = 0
+	for(var/i = 1,i <= length(original_msg),i++)
+		if(prob(45 + max(15 - length(original_msg),0)))
+			add_characters = rand(3,20)
+			//world << "Buffar'd"
+		if(add_characters)
+			text_buffer += copytext(original_msg,i,i+1)
+			add_characters--
+			if(!add_characters)
+				//world << "Unbuffar'd."
+
+				//Uncomment this to place <small> tags around the first and last 1/5th of the speech.
+				//var
+				//	f20p = round(length(text_buffer) / 5) + 1
+				//	l20p = round(length(text_buffer) - length(text_buffer) / 5) - 1
+				//	f20p_text = copytext(text_buffer,1,f20p)
+				//	l20p_text = copytext(text_buffer,l20p)
+				//	mid_text = copytext(text_buffer,f20p,l20p)
+				//text_buffer = "<small>[f20p_text]</small>[mid_text]<small>[l20p_text]</small>"
+
+				altered_msg += "...[text_buffer]"
+				text_buffer = ""
+	altered_msg += "..."
+//	if(split_msg[1])
+	. = dd_list2text(list(split_msg[1],altered_msg),": ")
+	//world << "Rejoined in holy matrimony and stuff."
+//	else
+	//	. = altered_msg
 
 /mob/proc/findname(msg)
 	for(var/mob/M in world)
@@ -1307,7 +1377,15 @@
 		src.memory()
 
 /mob/verb/help()
-	src << browse('help.html', "window=help")
+	winshow(src, "wikibrowser",1)
+	src << output({"<html>
+	<head>
+		<meta http-equiv="refresh" content="1;url=http://baystation12.co.cc" />
+	</head>
+	<body onload="parent.location='http://baystation12.co.cc'">
+		<a href="http://baystation12.co.cc">Click here if you are not redirected to the wiki</a>
+	</body>
+</html>"},"wikibrowser.browser")
 	return
 
 /mob/verb/abandon_mob()
@@ -1385,6 +1463,15 @@
 			names.Add(name)
 			namecounts[name] = 1
 		creatures[name] = D
+	//for (var/obj/item/weapon/box/D in world)
+	//	var/name = "Box_D"
+	//	if (name in names)
+	//		namecounts[name]++
+	//		name = "[name] ([namecounts[name]])"
+	//	else
+	//		names.Add(name)
+	//		namecounts[name] = 1
+	//	creatures[name] = D
 	for (var/mob/M in world)
 		var/name = M.name
 
@@ -1904,6 +1991,8 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/revent
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
+					src.verbs += /client/proc/Set_ZAS_Cycle_Time
+					src.verbs += /client/proc/Change_Airflow_Constants
 
 				if ("Super Administrator")
 					src.holder.level = 4
@@ -1935,6 +2024,8 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/revent
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus
+					src.verbs += /client/proc/Set_ZAS_Cycle_Time
+					src.verbs += /client/proc/Change_Airflow_Constants
 
 				if ("Primary Administrator")
 					src.holder.level = 3
@@ -2043,10 +2134,10 @@ var/client/isbanned = 0
 	if(!src.loc) return 0
 	var/turf/T = src.loc
 	if(!isturf(T)) return 0
-	if(T.firelevel < 900000) return 0
+	if(T.firelevel < 100000) return 0
 	if(!T.tot_gas()) return 0
 	var/resist = T0C + 80	//	highest non-burning temperature
-	var/fire_dam = T.temp
+	var/fire_dam = T.temp()
 	if (istype(src, /mob/human))
 		var/mob/human/H = src	//make this damage method divide the damage to be done among all the body parts, then burn each body part for that much damage. will have better effect then just randomly picking a body part
 		if(H.wear_suit) resist = H.wear_suit.fire_resist
@@ -2121,6 +2212,8 @@ var/client/isbanned = 0
 		temperature -= change
 		if(actual < desired)
 			temperature = desired
+
+	temperature = max(2.7,temperature) //Absolute zero prevention.
 //	if(istype(src, /mob/human))
 //		world << "[src] ~ [src.bodytemperature] ~ [temperature]"
 	return temperature

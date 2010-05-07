@@ -128,28 +128,29 @@
 "cx" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{icon_state = "6"; name = "pipes"; p_dir = 6; tag = ""},/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/obj/cable{icon_state = "0-8"; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
 "cy" = (/obj/lattice,/obj/machinery/pipes{icon_state = "9"; layer = 3; name = "pipes"; p_dir = 9; tag = ""},/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/turf/space,/area)
 "cz" = (/obj/machinery/router,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cA" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/machinery/pipes{tag = ""; icon_state = "3"; p_dir = 3},/turf/space,/area)
-"cB" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/machinery/pipes{layer = 3},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cC" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-8"; d2 = 8},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cD" = (/obj/machinery/pipes{layer = 3},/obj/computercable{cabletype = "-S"; icon_state = "1-4-S"; tag = "icon-1-4-S"},/turf/station/floor,/area)
-"cE" = (/obj/machinery/pipes{layer = 3},/obj/computercable{cabletype = "-S"; icon_state = "1-8-S"; tag = "icon-1-8-S"},/turf/station/floor,/area)
-"cF" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cG" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-8"; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cH" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/computercable{tag = "icon-2-4"; icon_state = "2-4"; cabletype = "-S"},/turf/space,/area)
-"cI" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/computercable{tag = "icon-1-8"; icon_state = "1-8"; cabletype = "-S"},/turf/space,/area)
-"cJ" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/space,/area)
-"cK" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipes{tag = ""; icon_state = "3"; p_dir = 3},/turf/space,/area)
-"cL" = (/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/obj/cable{icon_state = "0-4"; d2 = 4},/turf/station/r_wall,/area)
-"cM" = (/obj/machinery/door/firedoor,/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/obj/computercable{cabletype = "-S"; icon_state = "2-4-S"; tag = "icon-2-4-S"},/obj/machinery/firealarm{name = "W Fire Alarm"; pixel_x = -29},/turf/station/floor,/area)
-"cN" = (/obj/machinery/vent{tag = "2"; dir = 4; p_dir = 4},/obj/machinery/door/firedoor,/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/obj/machinery/alarm{layer = 4; pixel_x = 31},/obj/computercable{cabletype = "-S"; icon_state = "2-8-S"; tag = "icon-2-8-S"},/turf/station/floor,/area)
-"cO" = (/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/obj/cable{icon_state = "0-8"; d2 = 8},/turf/station/r_wall,/area)
-"cP" = (/obj/lattice,/obj/computercable{tag = "icon-2-4"; icon_state = "2-4"; cabletype = "-S"},/obj/machinery/pipes{layer = 3},/turf/space,/area)
-"cQ" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipes{layer = 3},/turf/space,/area)
-"cR" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipefilter{dir = 8; name = "BnP Hallway Feed"; p_dir = 11},/turf/space,/area)
-"cS" = (/obj/cable,/obj/cable{icon_state = "0-2"; d2 = 2},/obj/grille,/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
-"cT" = (/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor,/area)
-"cU" = (/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor,/area)
-"cV" = (/obj/lattice,/obj/computercable{tag = "icon-1-8"; icon_state = "1-8"; cabletype = "-S"},/turf/space,/area)
+"cA" = (/obj/lattice,/obj/machinery/pipefilter{dir = 1; name = "BnP Hallway Feed"; p_dir = 13},/turf/space,/area)
+"cB" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/machinery/pipes{tag = ""; icon_state = "3"; p_dir = 3},/turf/space,/area)
+"cC" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/machinery/pipes{layer = 3},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
+"cD" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-8"; d2 = 8},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
+"cE" = (/obj/machinery/pipes{layer = 3},/obj/computercable{cabletype = "-S"; icon_state = "1-4-S"; tag = "icon-1-4-S"},/turf/station/floor,/area)
+"cF" = (/obj/machinery/pipes{layer = 3},/obj/computercable{cabletype = "-S"; icon_state = "1-8-S"; tag = "icon-1-8-S"},/turf/station/floor,/area)
+"cG" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
+"cH" = (/obj/grille,/obj/window{icon_state = "rwindow"; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-8"; d2 = 8},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
+"cI" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/computercable{tag = "icon-2-4"; icon_state = "2-4"; cabletype = "-S"},/turf/space,/area)
+"cJ" = (/obj/lattice,/obj/machinery/pipes{layer = 3},/obj/computercable{tag = "icon-1-8"; icon_state = "1-8"; cabletype = "-S"},/turf/space,/area)
+"cK" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/space,/area)
+"cL" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipes{tag = ""; icon_state = "3"; p_dir = 3},/turf/space,/area)
+"cM" = (/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/obj/cable{icon_state = "0-4"; d2 = 4},/turf/station/r_wall,/area)
+"cN" = (/obj/machinery/door/firedoor,/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/obj/computercable{cabletype = "-S"; icon_state = "2-4-S"; tag = "icon-2-4-S"},/obj/machinery/firealarm{name = "W Fire Alarm"; pixel_x = -29},/turf/station/floor,/area)
+"cO" = (/obj/machinery/vent{tag = "2"; dir = 4; p_dir = 4},/obj/machinery/door/firedoor,/obj/cable{icon_state = "4-8"; d1 = 4; d2 = 8},/obj/machinery/alarm{layer = 4; pixel_x = 31},/obj/computercable{cabletype = "-S"; icon_state = "2-8-S"; tag = "icon-2-8-S"},/turf/station/floor,/area)
+"cP" = (/obj/machinery/pipes{layer = 3},/obj/cable{icon_state = "0-2"; d2 = 2},/obj/cable,/obj/cable{icon_state = "0-8"; d2 = 8},/turf/station/r_wall,/area)
+"cQ" = (/obj/lattice,/obj/computercable{tag = "icon-2-4"; icon_state = "2-4"; cabletype = "-S"},/obj/machinery/pipes{layer = 3},/turf/space,/area)
+"cR" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipes{layer = 3},/turf/space,/area)
+"cS" = (/obj/lattice,/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/obj/machinery/pipefilter{dir = 8; name = "BnP Hallway Feed"; p_dir = 11},/turf/space,/area)
+"cT" = (/obj/cable,/obj/cable{icon_state = "0-2"; d2 = 2},/obj/grille,/obj/window{icon_state = "rwindow"; dir = 1; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 4; invisibility = 0; reinf = 1},/obj/window{icon_state = "rwindow"; dir = 8; reinf = 1},/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor{health = 100; icon_state = "Floor1"; intact = 0; name = "Plating"},/area)
+"cU" = (/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor,/area)
+"cV" = (/obj/computercable{tag = "icon-4-8"; icon_state = "4-8"},/turf/station/floor,/area)
+"cW" = (/obj/lattice,/obj/computercable{tag = "icon-1-8"; icon_state = "1-8"; cabletype = "-S"},/turf/space,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -191,9 +192,9 @@ aaaaaaaabTbEbUbEbVbWbXaebHaeaeaebHaebYbZcacbbUbEccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaacdbnbobpcecfcgchbubvbvbvbucicjckceclbobpcdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaabaaaaaaalcmbccncoaeaeaecpcqcrcsctaCaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaabaaaaaaalabbbbccubXaebYcvcwcxcyczafaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaJauauauaucAaucBcCcDaNcEcFcGaJaIcHcIauauaJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaacJcJcJcJcJcKcJblcLcMaocNcOcPcQcRczcJcJcJcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaabaabkcScTcUcTcScVaaabafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaacAauauauaucBaucCcDcEaNcFcGcHaJaIcIcJauaucAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaacKcKcKcKcKcLcKblcMcNaocOcPcQcRcSczcKcKcKcKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaabaabkcTcUcVcUcTcWaaabafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaabaaaaagahaeaiagaaaaabafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaabaaaaajakaeadajaaaaabafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaatauauavaDaoaEaFalalabafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

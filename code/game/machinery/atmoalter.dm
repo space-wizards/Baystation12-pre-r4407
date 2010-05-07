@@ -1,27 +1,6 @@
 /obj/machinery/computer/atmosphere/proc/returnarea()
 	return
 
-/obj/machinery/computer/atmosphere/ex_act(severity)
-	switch(severity)
-		if(1.0)
-			//SN src = null
-			del(src)
-			return
-		if(2.0)
-			if (prob(50))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-				stat |= BROKEN
-		if(3.0)
-			if (prob(25))
-				for(var/x in src.verbs)
-					src.verbs -= x
-				src.icon_state = "broken"
-				stat |= BROKEN
-		else
-	return
-
 /obj/machinery/computer/atmosphere/siphonswitch/New()
 	..()
 
@@ -32,7 +11,10 @@
 			src.area = locate(text2path("/area/[otherarea]"))
 
 /obj/machinery/computer/atmosphere/siphonswitch/returnarea()
-	return area.contents
+	var/list/C = list()
+	for (var/area/A in src.area.superarea.areas)
+		C += A.contents
+	return C
 
 
 /obj/machinery/computer/atmosphere/siphonswitch/verb/siphon_all()
@@ -43,7 +25,6 @@
 	usr << "Starting all siphon systems."
 	for(var/obj/machinery/atmoalter/siphs/S in src.returnarea())
 		S.reset(1, 0)
-		//Foreach goto(39)
 	src.add_fingerprint(usr)
 	return
 
@@ -55,7 +36,6 @@
 	usr << "Stopping all siphon systems."
 	for(var/obj/machinery/atmoalter/siphs/S in src.returnarea())
 		S.reset(0, 0)
-		//Foreach goto(39)
 	src.add_fingerprint(usr)
 	return
 
@@ -67,7 +47,6 @@
 	usr << "Starting automatic air control systems."
 	for(var/obj/machinery/atmoalter/siphs/S in src.returnarea())
 		S.reset(0, 1)
-		//Foreach goto(39)
 	src.add_fingerprint(usr)
 	return
 
@@ -80,7 +59,6 @@
 	usr << "Releasing all scrubber toxins."
 	for(var/obj/machinery/atmoalter/siphs/scrubbers/S in src.returnarea())
 		S.reset(-1.0, 0)
-		//Foreach goto(39)
 	src.add_fingerprint(usr)
 	return
 
@@ -92,14 +70,12 @@
 	usr << "Releasing all stored air."
 	for(var/obj/machinery/atmoalter/siphs/S in src.returnarea())
 		S.reset(-1.0, 0)
-		//Foreach goto(37)
 	src.add_fingerprint(usr)
 	return
 
 /obj/machinery/computer/atmosphere/siphonswitch/mastersiphonswitch/returnarea()
 
 	return world
-	return
 
 /obj/machinery/atmoalter/heater/proc/setstate()
 
@@ -171,37 +147,6 @@
 	return src.attack_hand(user)
 
 /obj/machinery/atmoalter/heater/attack_hand(var/mob/user as mob)
-/*	if(stat & (BROKEN|NOPOWER))
-		return
-
-	user.machine = src
-	var/tt
-	switch(src.t_status)
-		if(1.0)
-			tt = text("Releasing <A href='?src=\ref[];t=2'>Siphon</A> <A href='?src=\ref[];t=3'>Stop</A>", src, src)
-		if(2.0)
-			tt = text("<A href='?src=\ref[];t=1'>Release</A> Siphoning<A href='?src=\ref[];t=3'>Stop</A>", src, src)
-		if(3.0)
-			tt = text("<A href='?src=\ref[];t=1'>Release</A> <A href='?src=\ref[];t=2'>Siphon</A> Stopped", src, src)
-		else
-	var/ht = null
-	if (src.h_status)
-		ht = text("Heating <A href='?src=\ref[];h=2'>Stop</A>", src)
-	else
-		ht = text("<A href='?src=\ref[];h=1'>Heat</A> Stopped", src)
-	var/ct = null
-	switch(src.c_status)
-		if(1.0)
-			ct = text("Releasing <A href='?src=\ref[];c=2'>Accept</A> <A href='?src=\ref[];ct=3'>Stop</A>", src, src)
-		if(2.0)
-			ct = text("<A href='?src=\ref[];c=1'>Release</A> Accepting <A href='?src=\ref[];c=3'>Stop</A>", src, src)
-		if(3.0)
-			ct = text("<A href='?src=\ref[];c=1'>Release</A> <A href='?src=\ref[];c=2'>Accept</A> Stopped", src, src)
-		else
-			ct = "Disconnected"
-	var/dat = text("<TT><B>Canister Valves</B><BR>\n<FONT color = 'blue'><B>Contains/Capacity</B> [] / []</FONT><BR>\nUpper Valve Status: [][]<BR>\n\t<A href='?src=\ref[];tp=-[]'>M</A> <A href='?src=\ref[];tp=-10000'>-</A> <A href='?src=\ref[];tp=-1000'>-</A> <A href='?src=\ref[];tp=-100'>-</A> <A href='?src=\ref[];tp=-1'>-</A> [] <A href='?src=\ref[];tp=1'>+</A> <A href='?src=\ref[];tp=100'>+</A> <A href='?src=\ref[];tp=1000'>+</A> <A href='?src=\ref[];tp=10000'>+</A> <A href='?src=\ref[];tp=[]'>M</A><BR>\nHeater Status: [] - []<BR>\n\tTrg Tmp: <A href='?src=\ref[];ht=-50'>-</A> <A href='?src=\ref[];ht=-5'>-</A> <A href='?src=\ref[];ht=-1'>-</A> [] <A href='?src=\ref[];ht=1'>+</A> <A href='?src=\ref[];ht=5'>+</A> <A href='?src=\ref[];ht=50'>+</A><BR>\n<BR>\nPipe Valve Status: []<BR>\n\t<A href='?src=\ref[];cp=-[]'>M</A> <A href='?src=\ref[];cp=-10000'>-</A> <A href='?src=\ref[];cp=-1000'>-</A> <A href='?src=\ref[];cp=-100'>-</A> <A href='?src=\ref[];cp=-1'>-</A> [] <A href='?src=\ref[];cp=1'>+</A> <A href='?src=\ref[];cp=100'>+</A> <A href='?src=\ref[];cp=1000'>+</A> <A href='?src=\ref[];cp=10000'>+</A> <A href='?src=\ref[];cp=[]'>M</A><BR>\n<BR>\n<A href='?src=\ref[];mach_close=canister'>Close</A><BR>\n</TT>", src.gas.tot_gas(), src.maximum, tt, (src.holding ? text("<BR><A href='?src=\ref[];tank=1'>Tank ([]</A>)", src, src.holding.gas.tot_gas()) : null), src, num2text(1000000.0, 7), src, src, src, src, src.t_per, src, src, src, src, src, num2text(1000000.0, 7), ht, (src.gas.tot_gas() ? (src.gas.temperature-T0C) : 20), src, src, src, src.h_tar, src, src, src, ct, src, num2text(1000000.0, 7), src, src, src, src, src.c_per, src, src, src, src, src, num2text(1000000.0, 7), user)
-	user << browse(dat, "window=canister;size=600x300")
-	return*/
 	if(stat & (BROKEN|NOPOWER))
 		return
 
@@ -245,77 +190,6 @@
 	return
 
 /obj/machinery/atmoalter/heater/Topic(href, href_list)
-/*
-	..()
-	if (stat & (BROKEN|NOPOWER))
-		return
-	if (usr.stat || usr.restrained())
-		return
-	if (((get_dist(src, usr) <= 1 || usr.telekinesis == 1) && istype(src.loc, /turf)) || (istype(usr, /mob/ai)))
-		usr.machine = src
-		if (href_list["c"])
-			var/c = text2num(href_list["c"])
-			switch(c)
-				if(1.0)
-					src.c_status = 1
-				if(2.0)
-					src.c_status = 2
-				if(3.0)
-					src.c_status = 3
-				else
-		else
-			if (href_list["t"])
-				var/t = text2num(href_list["t"])
-				if (src.t_status == 0)
-					return
-				switch(t)
-					if(1.0)
-						src.t_status = 1
-					if(2.0)
-						src.t_status = 2
-					if(3.0)
-						src.t_status = 3
-					else
-			else
-				if (href_list["h"])
-					var/h = text2num(href_list["h"])
-					if (h == 1)
-						src.h_status = 1
-					else
-						src.h_status = null
-				else
-					if (href_list["tp"])
-						var/tp = text2num(href_list["tp"])
-						src.t_per += tp
-						src.t_per = min(max(round(src.t_per), 0), 1000000.0)
-					else
-						if (href_list["cp"])
-							var/cp = text2num(href_list["cp"])
-							src.c_per += cp
-							src.c_per = min(max(round(src.c_per), 0), 1000000.0)
-						else
-							if (href_list["ht"])
-								var/cp = text2num(href_list["ht"])
-								src.h_tar += cp
-								src.h_tar = min(max(round(src.h_tar), 0), 500)
-							else
-								if (href_list["tank"])
-									var/cp = text2num(href_list["tank"])
-									if ((cp == 1 && src.holding))
-										src.holding.loc = src.loc
-										src.holding = null
-										if (src.t_status == 2)
-											src.t_status = 3
-		src.updateUsrDialog()
-		src.add_fingerprint(usr)
-	else
-		usr << browse(null, "window=canister")
-		return
-	return
-
-*/
-
-
 	..()
 	if (stat & (BROKEN|NOPOWER))
 		return
@@ -398,19 +272,26 @@
 	else
 		if (istype(W, /obj/item/weapon/wrench))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
-
+			var/obj/a_pipe/connector/con2 = locate() in loc
 			if (src.c_status)
 				src.anchored = initial(src.anchored)
 				src.c_status = 0
 				user.show_message("\blue You have disconnected the heater.", 1)
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if (con && !con.connected)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the heater.", 1)
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the heater.", 1)
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is no connector here to attach the heater to.", 1)
 	return
@@ -487,6 +368,10 @@
 			src.health = 0
 			healthcheck()
 			return
+	if(vsc.plc.CANISTER_CORROSION)
+		if(gas.plasma > 10000 && !(flags & PLASMAGUARD))
+			src.health -= 0.05
+			healthcheck()
 	var/T = src.loc
 	if (istype(T, /turf))
 		if (locate(/obj/move, T))
@@ -678,7 +563,7 @@ Pipe Valve Status: [ct]<BR>
 	else
 		if ((istype(W, /obj/item/weapon/wrench)))
 			var/obj/machinery/connector/con = locate(/obj/machinery/connector, src.loc)
-
+			var/obj/a_pipe/connector/con2 = locate() in src.loc
 
 			if (src.c_status)
 				src.anchored = 0
@@ -686,12 +571,19 @@ Pipe Valve Status: [ct]<BR>
 				user.show_message("\blue You have disconnected the canister.", 1)
 				if(con)
 					con.connected = null
+				if(con2)
+					con2.p_zone.tanks -= src
 			else
 				if(con && !con.connected && !destroyed)
 					src.anchored = 1
 					src.c_status = 3
 					user.show_message("\blue You have connected the canister.", 1)
 					con.connected = src
+				else if(con2)
+					src.anchored = 1
+					src.c_status = 3
+					user.show_message("\blue You have connected the canister.", 1)
+					con2.p_zone.tanks += src
 				else
 					user.show_message("\blue There is nothing here with which to connect the canister.", 1)
 		else if(istype(W, /obj/item/weapon/analyzer) && get_dist(user, src) <= 1)
@@ -798,6 +690,10 @@ Pipe Valve Status: [ct]<BR>
 		src.anchored = 1
 		src.c_status = 3
 
+	else if(locate(/obj/a_pipe/connector, src.loc))
+		src.anchored = 1
+		src.c_status = 3
+
 	else
 		del src
 	src.gas.plasma = src.maximum*filled
@@ -897,6 +793,9 @@ Pipe Valve Status: [ct]<BR>
 
 	..()
 	if (locate(/obj/machinery/connector, src.loc))
+		src.anchored = 1
+		src.c_status = 3
+	else if(locate(/obj/a_pipe/connector, src.loc))
 		src.anchored = 1
 		src.c_status = 3
 	else

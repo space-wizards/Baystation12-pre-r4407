@@ -47,7 +47,7 @@
 				var/turf/T = src.loc
 				if (istype(T, /turf) && checkForMultipleDoors())
 					T.updatecell = 1
-					T.buildlinks()
+					OpenDoor(src)
 				src.operating = 0
 				return
 		else //close it up again
@@ -61,7 +61,7 @@
 				var/turf/T = src.loc
 				if (istype(T, /turf))
 					T.updatecell = 0
-					T.buildlinks()
+					CloseDoor(src)
 				src.operating = 0
 				return
 	return
@@ -75,6 +75,7 @@
 			src.density = 0
 			src.operating = 0
 			sd_SetOpacity(0)
+			OpenDoor(src)
 			src.hulksmash = 1
 		else
 			user << "You punch the door!"
@@ -97,7 +98,7 @@
 			var/turf/T = src.loc
 			if (istype(T, /turf) && checkForMultipleDoors())
 				T.updatecell = 1
-				T.buildlinks()
+				OpenDoor(src)
 		else
 			user << "You claw the door!"
 
@@ -123,7 +124,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf) && checkForMultipleDoors())
 		T.updatecell = 1
-		T.buildlinks()
+		OpenDoor(src)
 	src.operating = 0
 	return
 
@@ -148,7 +149,7 @@
 	var/turf/T = src.loc
 	if (istype(T, /turf))
 		T.updatecell = 0
-		T.buildlinks()
+		CloseDoor(src)
 		T.firelevel = 0
 	sleep(15)
 	src.operating = 0

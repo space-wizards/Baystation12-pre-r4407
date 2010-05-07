@@ -8,12 +8,12 @@ var
 	canplaysound = 1
 	savefile_ver = "3"
 	SS13_version = "Official Bay12 Games Testing Server, latest (broken) updates!"
-	datum/air_tunnel/air_tunnel1/SS13_airtunnel = null
 	datum/control/cellular/cellcontrol = null
 	datum/control/gameticker/ticker = null
 	obj/datacore/data_core = null
 	obj/overlay/plmaster = null
 	obj/overlay/slmaster = null
+	obj/overlay/indmaster = null
 	going = 1.0
 	master_mode = "random"//"extended"
 	air_cycle = 5
@@ -37,16 +37,16 @@ var
 	abandon_allowed = 1
 	enter_allowed = 1
 	shuttle_frozen = 0
-	database = "bay12" // mysql db
-	var/username = "head"// This variable contains the username data for mysql.
-	var/password = "123456"// This variable contains the password data for mysql.
+
+	random_illnesses = 1
+
 	list/bombers = list(  )
 	list/lastsignalers = list(	)	//keeps last 100 signals here in format: "[src] used \ref[src] @ location [src.loc]: [freq]/[code]"
 	list/admins = list(  )
 	list/shuttles = list(  )
 	list/reg_dna = list(  )
 	list/traitobj = list(  )
-	random_illnesses = 1
+
 	list/podspawns = list( ) //Pod Destinations
 	list/poddocks = list( )
 
@@ -72,7 +72,6 @@ var
 	list/blobs = list()
 	list/killer = list()
 	list/cardinal = list( NORTH, SOUTH, EAST, WEST )
-
 	roundover = 0
 	nuclearend = 0
 
@@ -80,18 +79,24 @@ var
 	datum/configuration/config = null
 	datum/vote/vote = null
 	datum/sun/sun = null
+	datum/rtable/routingtable = new /datum/rtable()
+	list/datum/elevator/elevators = list ( )
 
 	list/plines = list()
 	list/gasflowlist = list()
 	list/machines = list()
 
 	list/powernets = null
+	list/datum/computernet/computernets = null
+	list/accesspasswords = list()
 
 	defer_powernet_rebuild = 0		// true if net rebuild will be called manually after an event
+	defer_computernet_rebuild = 0   // like above, but for computer nets
 	powernets_building = 1
 
 	Debug = 0	// global debug switch
 	Debug2 = 0
+	DebugN = 0
 
 	datum/debug/debugobj
 
@@ -124,7 +129,7 @@ var
 	forceblob = 0
 	lastapupdate = 0
 
-	var/global/player/players
+	var/global/list/player/players = list()
 
 	//airlockWireColorToIndex takes a number representing the wire color, e.g. the orange wire is always 1, the dark red wire is always 2, etc. It returns the index for whatever that wire does.
 	//airlockIndexToWireColor does the opposite thing - it takes the index for what the wire does, for example AIRLOCK_WIRE_IDSCAN is 1, AIRLOCK_WIRE_POWER1 is 2, etc. It returns the wire color number.

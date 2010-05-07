@@ -72,9 +72,9 @@
 			sentmessage = text("<I>[]</I>", sentmessage)
 		for(var/mob/M in L)
 			if (istype(M, src.type))
-				M.show_message(text("<B>[]</B>: []", src, sentmessage), 2)
+				M.show_message(text("<B>[]</B>: []", src, sentmessage), 6, "<B>[src]</B> moves its mouth.", 1)
 			else
-				M.show_message(text("<B>[]</B> chimpers.", src), 2)
+				M.show_message(text("<B>[]</B> chimpers.", src), 2, "<B>[src]</B> moves its mouth.", 1)
 		for(var/obj/O in view(obj_range, null))
 			spawn( 0 )
 				if (O)

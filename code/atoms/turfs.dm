@@ -57,26 +57,8 @@
 	..()
 	if (icon_state == "space")
 		icon_state = "space[rand(1, 10)]"
-/turf/astro/rockwall
-	name = "Rock"
-	icon_state = "rockwall"
-	var/previousArea = null
-	updatecell = 1.0
-	oxygen = 0.0
-	n2 = 0.0
-	checkfire = 0
-	// CMB radiation temperature+
-	temp = 2.7
-/turf/astro/rockfloor
-	name = "Rock"
-	icon_state = "rockfloor"
-	var/previousArea = null
-	updatecell = 1.0
-	oxygen = 0.0
-	n2 = 0.0
-	checkfire = 0
-	// CMB radiation temperature+
-	temp = 2.7
+	sd_LumUpdate()
+
 /turf/station
 	name = "station"
 	intact = 1
@@ -91,11 +73,13 @@
 /turf/station/open/New()
 	spawn(0)
 		while(1)
+			sleep(5)
+			if (locate(/obj/move, src)) continue
 			var/turf/dest = locate(src.x, src.y, src.z + 1)
 			for(var/atom/movable/AM as mob|obj in src)
 				if (!AM.anchored)
 					AM.loc = dest
-			sleep(5)
+	sd_LumUpdate()
 
 
 
@@ -131,19 +115,6 @@
 	icon_state = "floor"
 	updatecell = 1
 
-/turf/station/elevator
-	icon = 'shuttle.dmi'
-
-/turf/station/elevator/floor
-	name = "Elevator Floor"
-	icon_state = "floor3"
-
-/turf/station/elevator/wall
-	name = "Elevator Floor"
-	icon_state = "wall"
-	density = 1
-	opacity = 1
-
 /turf/station/floor
 	name = "floor"
 	icon = 'Icons.dmi'
@@ -168,18 +139,7 @@
 	var/state = 2
 	var/d_state = 0
 	updatecell = 0
-/turf/station/r_wall/las_act(flag)
-	if(flag)
-		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
-		O.dir = pick(1, 2, 4, 8)
-		spawn( 0 )
-			O.Life()
-	if(!flag)
-		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
-		O.dir = pick(1, 2, 4, 8)
-		spawn( 0 )
-			O.Life()
-	return
+
 /turf/station/shuttle
 	name = "shuttle"
 	icon = 'shuttle.dmi'
@@ -218,18 +178,7 @@
 	density = 1
 	var/state = 2
 	updatecell = 0
-/turf/station/wall/las_act(flag)
-	if(flag)
-		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
-		O.dir = pick(1, 2, 4, 8)
-		spawn( 0 )
-			O.Life()
-	if(!flag)
-		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
-		O.dir = pick(1, 2, 4, 8)
-		spawn( 0 )
-			O.Life()
-	return
+
 
 ///turf/station/New()
 //	hotcheck()
@@ -257,6 +206,7 @@
 			sleep(rand(200,300))
 			if(radiation > 1)
 				radiation -= min(rand(0,3), radiation)
+	sd_LumUpdate()
 
 /turf/station/Del()
 	..()

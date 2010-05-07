@@ -12,7 +12,7 @@
 
 	var/obj/move/shuttlefloor = locate(/obj/move, T)	// fuck obj/move
 	if (isturf(T))	//let cryo/sleeper handle adjusting body temp in their respective alter_health procs
-		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp), 0.5)
+		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp()), 0.5)
 /////////////////////////////////
 	if (src.alive())
 		if (src.firemut)
@@ -23,7 +23,7 @@
 			var/turf/U
 			U = src.loc
 			if (istype(U, /turf))
-				U.firelevel = U.poison
+				U.firelevel = U.poison()
 		if (src.clumsy && prob(1))
 			if (!src.lying)
 				src << "\red You stumble and hit your head."
@@ -97,11 +97,11 @@
 				src.mach.icon_state = "mach1"
 			else
 				src.mach.icon_state = null
-		if (src.disabilities & 2)
+		if (src.disabilities & HEADACHEY)
 			if ((prob(1) && src.paralysis < 10 && src.r_epil < 1))
 				src << "\red You have a seizure!"
 				src.paralysis = max(10, src.paralysis)
-		if (src.disabilities & 4)
+		if (src.disabilities & COUGHY)
 			if ((prob(5) && src.paralysis <= 1 && src.r_ch_cou < 1))
 				src.drop_item()
 				spawn( 0 )
@@ -113,7 +113,7 @@
 				spawn( 0 )
 					emote("twitch")
 					return
-		if (src.disabilities & 16)
+		if (src.disabilities & NERVOUS)
 			if (prob(10))
 				src.stuttering = max(10, src.stuttering)
 		if ((src.internal && !( src.contents.Find(src.internal) )))
@@ -133,18 +133,28 @@
 			else
 				if (src.health < 40)
 					t = 1.0E-4
-			if (locate(/obj/move, T))
-				T = locate(/obj/move, T)
-			var/turf_total = T.oxygen + T.poison + T.sl_gas + T.co2 + T.n2
+			//if (locate(/obj/move, T))
+			//	T = locate(/obj/move, T)
+			var/turf_total = T.per_turf()//T.oxygen + T.poison() + T.sl_gas + T.co2 + T.n2
 			var/obj/substance/gas/G = new /obj/substance/gas(  )
 			G.maximum = 10000
 			if (src.internal)
 				src.internal.process(src, G)
 				if (src.wear_mask.flags & 4)
-					G.turf_add(T, G.tot_gas() * 0.5)
-					G.turf_take(T, t / 2 * turf_total - G.tot_gas())
+					if(T.zone)
+						G.turf_add(T,G.tot_gas() * max(0,min(0.75,(1 - T.zone.pressure() / 100)))) //Gas supply goes down with pressure.
+						//world << "Gas lost to pressure: [G.tot_gas() * min(0.75,(1 - T.zone.pressure() / 100))] (1-[T.zone.pressure()/1]%)"
+					else
+						G.turf_add(T,G.tot_gas() * 0.75) //Doesn't work in deep space either.
+					G.turf_take(T, min(G.maximum,t * turf_total))
 			else
 				G.turf_take(T, t * turf_total)
+			if(locate(/obj/move) in T)
+				G.oxygen = 200
+				G.n2 = 0
+				G.plasma = 0
+				G.co2 = 0
+				G.sl_gas = 0
 			src.aircheck(G)
 			//second pass at body temp
 			var/thermal_layers = 1.5
@@ -176,11 +186,15 @@
 			plcheck = src.t_plasma
 			oxcheck = src.t_oxygen
 			G.turf_add(T, G.tot_gas())
+			if(T.poison > 2)
+				src.contaminate()
+				if(T.poison > 5)
+					src.pl_effects()
 //			ficheck = src.firecheck(T)
 		else if (istype(T, /obj))
 			var/obj/O = T
 			O.alter_health(src)
-		if ((istype(src.loc, /turf/space) && !( locate(/obj/move, src.loc) )))
+		if ((istype(src.loc, /turf/space) && !( locate(/obj/move,src.loc) )))
 			var/layers = 20
 
 			// ****** Check
@@ -192,6 +206,7 @@
 		if(!src.zombie)
 			if ((plcheck && src.health >= 0))
 				src.toxloss += (plcheck*1.333)	//monkeys take extra damage
+				src.plasma += plcheck * 0.13
 				src.updatehealth()
 			if ((oxcheck && src.health >= 0))
 				src.oxyloss += oxcheck
@@ -276,7 +291,7 @@
 					src.updatehealth()
 					plcheck = 1
 		var/mental_danger = 0
-		if (((src.r_epil > 0 && !( src.disabilities & 2 )) || (src.r_Tourette > 0 && !( src.disabilities & 8 ))))
+		if (((src.r_epil > 0 && !( src.disabilities & HEADACHEY )) || (src.r_Tourette > 0 && !( src.disabilities & TWITCHY ))))
 			src.stuttering = max(2, src.drowsyness)
 			mental_danger = 1
 			src.drowsyness = max(2, src.drowsyness)
