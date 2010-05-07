@@ -1,5 +1,5 @@
-#define hunger_tick_rate  5
-#define thrist_tick_rate  5
+#define hunger_tick_rate  10
+#define thrist_tick_rate  10
 mob/var/hunger = 200 // 0 is -100 100 is 0 200 is 100
 mob/var/thirst = 200
 mob/proc/hungertick()

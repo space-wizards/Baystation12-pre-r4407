@@ -57,7 +57,26 @@
 	..()
 	if (icon_state == "space")
 		icon_state = "space[rand(1, 10)]"
-
+/turf/astro/rockwall
+	name = "Rock"
+	icon_state = "rockwall"
+	var/previousArea = null
+	updatecell = 1.0
+	oxygen = 0.0
+	n2 = 0.0
+	checkfire = 0
+	// CMB radiation temperature+
+	temp = 2.7
+/turf/astro/rockfloor
+	name = "Rock"
+	icon_state = "rockfloor"
+	var/previousArea = null
+	updatecell = 1.0
+	oxygen = 0.0
+	n2 = 0.0
+	checkfire = 0
+	// CMB radiation temperature+
+	temp = 2.7
 /turf/station
 	name = "station"
 	intact = 1
@@ -149,7 +168,18 @@
 	var/state = 2
 	var/d_state = 0
 	updatecell = 0
-
+/turf/station/r_wall/las_act(flag)
+	if(flag)
+		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
+		O.dir = pick(1, 2, 4, 8)
+		spawn( 0 )
+			O.Life()
+	if(!flag)
+		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
+		O.dir = pick(1, 2, 4, 8)
+		spawn( 0 )
+			O.Life()
+	return
 /turf/station/shuttle
 	name = "shuttle"
 	icon = 'shuttle.dmi'
@@ -188,7 +218,18 @@
 	density = 1
 	var/state = 2
 	updatecell = 0
-
+/turf/station/wall/las_act(flag)
+	if(flag)
+		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
+		O.dir = pick(1, 2, 4, 8)
+		spawn( 0 )
+			O.Life()
+	if(!flag)
+		var/obj/effects/sparks/O = new /obj/effects/sparks( usr.loc )
+		O.dir = pick(1, 2, 4, 8)
+		spawn( 0 )
+			O.Life()
+	return
 
 ///turf/station/New()
 //	hotcheck()

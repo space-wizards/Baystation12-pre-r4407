@@ -790,18 +790,6 @@
 // returns 0 if savefile did not exist
 
 /mob/human/proc/savefile_load(var/silent = 1)
-/*	var/test
-	var/DBQuery/gquery = dbcon.NewQuery("SELECT `ckey` FROM `players` WHERE ckey='[src.ckey]'")
-
-	if(!gquery.Execute())
-		world.log_admin("[gquery.ErrorMsg()]")
-	else
-		while(gquery.NextRow())
-			var/list/column_data = gquery.GetRowData()
-			test = column_data["ckey"]
-	if(test == src.ckey)*/
-	var/cooldown
-	var/cooldownt = 5
 	var/DBQuery/xquery = dbcon.NewQuery("SELECT * FROM `players` WHERE ckey='[src.ckey]'")
 	if(xquery.Execute())
 		while(xquery.NextRow())
@@ -841,11 +829,6 @@
 	else
 		world.log_admin("[xquery.ErrorMsg()]")
 		return 0
-/*	else
-		var/DBQuery/query = dbcon.NewQuery("REPLACE INTO `players` (`ckey`, `rname`, `gender`, `ages`, `occupation1`, `occupation2`, `occupation3`, `nr_hair`, `ng_hair`, `nb_hair`, `nr_facial`, `ng_facial`, `nb_facial`, `ns_tone`, `h_style`, `h_style_r`, `f_style`, `f_style_r`, `r_eyes`, `g_eyes`, `b_eyes`, `b_type`, `need_gl`, `be_epil`, `be_tur`, `be_cough`, `be_stut`, `be_music`, `be_syndicate`, `be_nudist`) VALUES ('[src.key]', '[src.rname]', '[src.gender]', '[src.age]', '[occupation1]','[occupation2]', '[occupation3]', '100', '100', '100', '100', '100', '100', '100', 'Short Hair', 'hair_a', 'Shaved', 'bald', '100', '100', '0', 'A+', '0', '0', '0', '0', '0', '0', '1', '0');")
-		query.Execute()
-		src << browse(null, "window=mob_occupation")
-		return 0*/
 
 /mob/human/Topic(href, href_list)
 	if ((src == usr && !( src.start )))

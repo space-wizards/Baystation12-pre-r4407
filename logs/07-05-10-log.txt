@@ -1,0 +1,114 @@
+06-13:ADMIN: Loading jobban_rank
+06-13:ADMIN: Updating jobbanfile!
+06-13:GAME: Finished building powernets (30 nets)
+06-13:GAME: starting game of monkey
+06-13:GAME: Rebooting because of no live players
+06-13:GAME: Rebooting because of no live players
+06-47:ADMIN: Loading jobban_rank
+06-47:ADMIN: Updating jobbanfile!
+06-47:GAME: Finished building powernets (30 nets)
+06-47:GAME: starting game of monkey
+06-47:ACCESS: Login: Cajoes from 90.227.152.148
+06-47:ACCESS: Login: AmberJones13 from 67.149.198.155
+06-47:OOC: Amber Jones/AmberJones13 : Whos host
+06-47:ACCESS: Logout: AmberJones13
+06-47:ACCESS: Logout: Cajoes
+06-47:ACCESS: Login: Estetenoggy from 83.226.200.21
+06-47:ACCESS: Logout: Estetenoggy
+06-47:GAME: Finished building powernets (32 nets)
+06-47:GAME: Finished building powernets (41 nets)
+06-47:GAME: Finished building powernets (41 nets)
+06-47:GAME: Finished building powernets (42 nets)
+06-47:GAME: Finished building powernets (43 nets)
+06-47:GAME: Finished building powernets (43 nets)
+06-47:GAME: Finished building powernets (44 nets)
+06-47:GAME: Finished building powernets (46 nets)
+06-47:GAME: Finished building powernets (50 nets)
+06-47:GAME: Finished building powernets (50 nets)
+06-47:GAME: Finished building powernets (54 nets)
+06-47:GAME: Finished building powernets (58 nets)
+06-47:GAME: Finished building powernets (58 nets)
+06-47:GAME: Finished building powernets (62 nets)
+06-47:GAME: Finished building powernets (68 nets)
+06-47:GAME: Finished building powernets (71 nets)
+06-47:GAME: Finished building powernets (73 nets)
+06-47:GAME: Finished building powernets (75 nets)
+06-47:GAME: Finished building powernets (78 nets)
+06-47:GAME: Finished building powernets (81 nets)
+06-47:GAME: Finished building powernets (81 nets)
+06-47:GAME: Finished building powernets (81 nets)
+06-47:GAME: Finished building powernets (84 nets)
+06-47:GAME: Finished building powernets (86 nets)
+06-47:GAME: Finished building powernets (86 nets)
+06-47:GAME: Finished building powernets (87 nets)
+06-47:GAME: Finished building powernets (93 nets)
+06-47:GAME: Finished building powernets (96 nets)
+06-47:GAME: Finished building powernets (96 nets)
+06-47:GAME: Finished building powernets (99 nets)
+06-47:GAME: Finished building powernets (104 nets)
+06-47:GAME: Finished building powernets (104 nets)
+06-47:GAME: Finished building powernets (107 nets)
+06-47:GAME: Finished building powernets (107 nets)
+06-47:GAME: Finished building powernets (109 nets)
+06-47:GAME: Finished building powernets (109 nets)
+06-47:GAME: Finished building powernets (116 nets)
+06-47:GAME: Finished building powernets (119 nets)
+06-47:GAME: Finished building powernets (119 nets)
+06-47:GAME: Finished building powernets (121 nets)
+06-47:GAME: Finished building powernets (124 nets)
+06-47:GAME: Finished building powernets (130 nets)
+06-47:GAME: Finished building powernets (132 nets)
+06-47:GAME: Finished building powernets (136 nets)
+06-47:GAME: Finished building powernets (138 nets)
+06-47:GAME: Finished building powernets (140 nets)
+06-47:GAME: Finished building powernets (142 nets)
+06-47:GAME: Finished building powernets (143 nets)
+06-47:GAME: Finished building powernets (149 nets)
+06-47:GAME: Rebooting because of no live players
+06-47:GAME: Finished building powernets (151 nets)
+12-03:ADMIN: Loading jobban_rank
+12-03:ADMIN: Updating jobbanfile!
+12-03:GAME: Finished building powernets (30 nets)
+12-03:GAME: starting game of monkey
+12-03:GAME: Rebooting because of no live players
+12-03:GAME: Rebooting because of no live players
+12-37:ADMIN: Loading jobban_rank
+12-37:ADMIN: Updating jobbanfile!
+12-37:GAME: Finished building powernets (30 nets)
+12-37:GAME: starting game of monkey
+12-37:GAME: Rebooting because of no live players
+12-37:GAME: Rebooting because of no live players
+13-11:ADMIN: Loading jobban_rank
+13-11:ADMIN: Updating jobbanfile!
+13-11:GAME: Finished building powernets (30 nets)
+13-11:GAME: starting game of monkey
+13-11:GAME: Rebooting because of no live players
+13-11:GAME: Rebooting because of no live players
+13-11:GAME: Rebooting because of no live players
+13-11:GAME: Rebooting because of no live players
+13-44:ADMIN: Loading jobban_rank
+13-44:ADMIN: Updating jobbanfile!
+13-44:GAME: Finished building powernets (30 nets)
+13-44:GAME: starting game of monkey
+13-44:GAME: Rebooting because of no live players
+13-44:GAME: Rebooting because of no live players
+13-44:GAME: Rebooting because of no live players
+14-18:ADMIN: Loading jobban_rank
+14-18:ADMIN: Updating jobbanfile!
+14-18:GAME: Finished building powernets (30 nets)
+14-18:GAME: starting game of monkey
+14-18:ACCESS: Login: Guest-1237394589 from 78.62.234.20
+14-18:GAME: Guest-1237394589 entered as Edwin Denzel
+14-18:OOC: Edwin Denzel/Guest-1237394589 : hi
+14-18:ACCESS: Logout: Guest-1237394589
+14-18:GAME: Rebooting because of no live players
+14-18:GAME: Rebooting because of no live players
+14-18:GAME: Rebooting because of no live players
+14-18:GAME: Rebooting because of no live players
+14-52:ADMIN: Loading jobban_rank
+14-52:ADMIN: Updating jobbanfile!
+14-52:GAME: Finished building powernets (30 nets)
+14-52:GAME: starting game of monkey
+14-58:ADMIN: Loading jobban_rank
+14-58:ADMIN: Updating jobbanfile!
+14-58:GAME: Finished building powernets (30 nets)

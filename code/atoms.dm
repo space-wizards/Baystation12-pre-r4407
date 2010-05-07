@@ -8,7 +8,6 @@
 	var/fingerprints = null
 	var/blood = null
 	var/zombieblood = null
-
 	var/hitpoints = 100
 
 /atom/movable
