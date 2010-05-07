@@ -64,3 +64,12 @@ Servicing [connectednets.len + disconnectednets.len] Networks<BR>
 	for(var/datum/computernet/net in disconnectednets)
 		dat += "Network [net.id] \[<A href='?src=\ref[src];toggle=[net.id]'>Connect</A>]<BR>"
 	return dat
+
+/obj/machinery/router/New()
+	for(var/turf/T in range(100))
+		if(!T.wireless.Find(src))
+			T.wireless.Add(src)
+/obj/machinery/router/Del()
+	for(var/turf/T in range(100))
+		if(T.wireless.Find(src))
+			T.wireless.Remove(src)

@@ -108,6 +108,9 @@ var
 	shuttlecomming = 0
 
 
+	usedtypes = list()
+	usedids = list()
+
 	//Multi-Z-Level stuff
 
 	stationfloors = list( ) //What Z levels are considered to be "on the station"

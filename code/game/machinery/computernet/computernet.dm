@@ -31,7 +31,7 @@
 	computerID = uppertext(num2hex(GetUnitId()))
 	typeID = gettypeid(type)
 
-/obj/machinery/proc/GetUnitId()
+proc/GetUnitId()
 	var/I = 0
 	while (!I || (I in usedids))
 		I = rand(4096, 65535) //1000 - FFFF
@@ -137,7 +137,7 @@
 	computernet.send(message, src) //Moved this into the computernet's send proc.
 	return 1
 
-obj/machinery/proc/gettypeid(var/T)
+proc/gettypeid(var/T)
 	if (usedtypes["[T]"])
 		return usedtypes["[T]"]
 	else
