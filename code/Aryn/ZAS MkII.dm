@@ -156,6 +156,8 @@ zone
 
 				if(!ticker) continue
 
+				if(!contents.len) del src
+
 				if(temp <= 0) temp = 2.7
 
 				for(var/turf/space/S in contents)
@@ -185,6 +187,8 @@ zone
 
 				sleep(-1)
 
+				if(!contents.len) del src
+
 				var/t_gas
 				for(var/g in gases)
 					if(gases[g] != gas_cache[g])
@@ -197,9 +201,11 @@ zone
 				if(contents_cache != contents.len)
 					rebuild_cache()
 
-				if(!contents.len) del src
-
 				for(var/turf/T in contents)
+
+					if(!T.burn)
+						T.firelevel = 0
+						T.temp((T20C - temp) / vsc.FIRERATE)
 
 					T.temp = temp
 
@@ -211,6 +217,8 @@ zone
 							gases[g] *= contents.len
 
 				sleep(-1)
+
+				if(!contents.len) del src
 
 				if(zones_to_split)
 					SplitList(zones_to_split)
@@ -226,55 +234,65 @@ zone
 					update = 0
 					return
 
-				for(var/zone/Z in connections)
-					//Gases flow between connected zones on a per-turf concentration gradient.
-
-					var/flow = connection_cache[Z]
-					flow = min(99,flow) //Upper bound is 99%
-					flow = max(1,flow) //Lower bound is 1%
-					if(!flow) continue
-
-					var/gas_diff = pressure() - Z.pressure()
-					if(gas_diff > vsc.AF_MOVEMENT_THRESHOLD)// && more_air_here)
-						//if(!speakmychild)
-						//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
-						//	speakmychild = 1
-						//	spawn(50) speakmychild = 0
-						Airflow(src,Z,gas_diff)
-
-					//world << "<B><big>Calcuating Connection with Z[zones.Find(Z)]</big></B>"
-
-					for(var/g in gases)
-						var/theo = (gases[g] + Z.gases[g]) / (contents.len + Z.contents.len)
-					//	world << "Theo: [theo] - Retention Rate: [(1 - (flow / 100)) * 100]%"
-						var
-							diff_a = per_turf(g) - theo
-							diff_b = Z.per_turf(g) - theo
-						diff_a *= 1 - (flow / 100)
-						diff_b *= 1 - (flow / 100)
-						GasPerTurf(g,diff_a+theo)
-						Z.GasPerTurf(g,diff_b+theo)
-						//more_air_here += gases[g] - Z.gases[g]
-					var
-						temp_theo = (temp + Z.temp) / 2
-						diff_a = temp - temp_theo
-						diff_b = Z.temp - temp_theo
-					//world << "Temperature Theo: [temp_theo]"
-					diff_a *= 1 - (vsc.TEMP_FLOW / 100)
-					diff_b *= 1 - (vsc.TEMP_FLOW / 100)
-					temp = diff_a + temp_theo
-					Z.temp = diff_b + temp_theo
-
-					if(do_merges)
-						if(OpenConnection(src,Z))
-							var/merge = 1
+				ConnectionLoop:
+					for(var/zone/Z in connections)
+						//Gases flow between connected zones on a per-turf concentration gradient.
+						for(var/turf/space/S in Z)
+							Airflow(src,Z,pressure())
 							for(var/g in gases)
-								if(!within_decimal_places(per_turf(g),Z.per_turf(g),50)) merge = 0
-							if(merge)
-								//world << "LOLWTF"
-								RemoveAllConnections(Z)
-								AddMerge(Z)
-					//The average amount of airflow difference a zone at 1atm has to space is 150000
+								gases[g] *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
+							for(var/turf/T in src)
+								T.poison *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
+								T.sl_gas *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
+							temp *= 1 - (vsc.TEMP_FLOW/100)
+							continue ConnectionLoop
+
+						var/flow = connection_cache[Z]
+						flow = min(99,flow) //Upper bound is 99%
+						flow = max(1,flow) //Lower bound is 1%
+						if(!flow) continue
+
+						var/gas_diff = pressure() - Z.pressure()
+						if(gas_diff > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
+							//if(!speakmychild)
+							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
+							//	speakmychild = 1
+							//	spawn(50) speakmychild = 0
+							Airflow(src,Z,gas_diff)
+
+						//world << "<B><big>Calcuating Connection with Z[zones.Find(Z)]</big></B>"
+
+						for(var/g in gases)
+							var/theo = (gases[g] + Z.gases[g]) / (contents.len + Z.contents.len)
+						//	world << "Theo: [theo] - Retention Rate: [(1 - (flow / 100)) * 100]%"
+							var
+								diff_a = per_turf(g) - theo
+								diff_b = Z.per_turf(g) - theo
+							diff_a *= 1 - (flow / 100)
+							diff_b *= 1 - (flow / 100)
+							GasPerTurf(g,diff_a+theo)
+							Z.GasPerTurf(g,diff_b+theo)
+							//more_air_here += gases[g] - Z.gases[g]
+						var
+							temp_theo = (temp + Z.temp) / 2
+							diff_a = temp - temp_theo
+							diff_b = Z.temp - temp_theo
+						//world << "Temperature Theo: [temp_theo]"
+						diff_a *= 1 - (vsc.TEMP_FLOW / 100)
+						diff_b *= 1 - (vsc.TEMP_FLOW / 100)
+						temp = diff_a + temp_theo
+						Z.temp = diff_b + temp_theo
+
+						if(do_merges)
+							if(OpenConnection(src,Z))
+								var/merge = 1
+								for(var/g in gases)
+									if(!within_decimal_places(per_turf(g),Z.per_turf(g),50)) merge = 0
+								if(merge)
+									//world << "LOLWTF"
+									RemoveAllConnections(Z)
+									AddMerge(Z)
+						//The average amount of airflow difference a zone at 1atm has to space is 150000
 
 				if(temp > T20C)
 					//var/t_temp = (temp - T20C) / (CONDUCTION_DAMPER + nearby_zones.len)
@@ -287,6 +305,8 @@ zone
 					temp = t_temp + T20C
 
 				sleep(-1)
+
+				if(!contents.len) del src
 
 				if (per_turf("Plasma") > 100000.0)
 					if(!plasma_overlay)
@@ -428,6 +448,7 @@ zone
 			if(L.len)
 				//world << "Merging..."
 				for(var/zone/Z in L)
+					sleep(-1)
 					if(Z == src) continue //Do not merge with self!
 					//world << "Pooling gas..."
 					for(var/g in gases)

@@ -2966,6 +2966,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "siphon:0"
 /obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon
 	name = "Airlock Siphon"
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon/airlock_vent
+	name = "Airlock Regulator"
+	icon_state = "wmsiphon:0"
+	alterable = 0.0
+	density = 0	//*****
 /obj/machinery/atmoalter/siphs/fullairsiphon/air_vent
 	name = "Air regulator"
 	icon = 'aircontrol.dmi'

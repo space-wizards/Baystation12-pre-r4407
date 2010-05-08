@@ -85,6 +85,66 @@
 
 	return
 
+/obj/machinery/atmoalter/siphs/receivemessage(message as text, var/obj/machinery/srcmachine)
+	if(..())
+		return
+	var/list/commands = getcommandlist(message)
+	if(commands.len < 1)
+		return
+	if(checkcommand(commands,1,"SENSE"))
+		var
+			tstatus
+			cstatus
+		switch(t_status)
+			if(4) tstatus = "AUTO"
+			if(3) tstatus = "STOP"
+			if(2) tstatus = "RELEASE"
+			if(1) tstatus = "SIPHON"
+			else tstatus = "UNKNOWN"
+		switch(c_status)
+			if(3) cstatus = "STOP"
+			if(2) cstatus = "RELEASE"
+			if(1) cstatus = "SIPHON"
+			if(0) cstatus = "NOCONNECTOR"
+			else cstatus = "UNKNOWN"
+
+		transmitmessage(createmessagetomachine("REPORT [gas.tot_gas()] [gas.maximum] [tstatus] [t_per] [cstatus] [c_per]", srcmachine))
+	var/command = uppertext(stripnetworkmessage(message))
+	var/list/listofcommand = dd_text2list(command," ",null)
+	switch(listofcommand[1])
+		if("VALVE")
+			switch(listofcommand[2])
+				if("SIPHON")
+					src.t_status = 1
+				if("RELEASE")
+					src.t_status = 2
+				if("STOP")
+					src.t_status = 3
+				if("AUTO")
+					src.t_status = 4
+				if("RATE")
+					src.t_per = text2num(listofcommand[3])
+			setstate()
+		if("PVALVE")
+			if(c_status)
+				switch(listofcommand[2])
+					if("SIPHON")
+						src.c_status = 1
+					if("RELEASE")
+						src.c_status = 2
+					if("STOP")
+						src.c_status = 3
+					if("RATE")
+						src.c_per = text2num(listofcommand[3])
+				setstate()
+		if("LOCK")
+			if(alterable)
+				alterable = 0
+		if("UNLOCK")
+			if(!alterable)
+				alterable = 1
+
+
 /obj/machinery/atmoalter/siphs/proc/releaseall()
 	src.t_status = 1
 	src.t_per = max_valve
@@ -211,6 +271,43 @@
 	return
 
 /obj/machinery/atmoalter/siphs/fullairsiphon/air_vent/reset(valve, auto)
+
+	if (auto)
+		src.t_status = 4
+	return
+
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon/airlock_vent/attackby(W as obj, user as mob)
+
+	if (istype(W, /obj/item/weapon/screwdriver))
+		if (src.c_status)
+			src.anchored = 1
+			src.c_status = 0
+		else
+			if (locate(/obj/machinery/connector, src.loc))
+				src.anchored = 1
+				src.c_status = 3
+	else
+		if (istype(W, /obj/item/weapon/wrench))
+			src.alterable = !( src.alterable )
+	return
+
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon/airlock_vent/setstate()
+
+
+	if(stat & NOPOWER)
+		icon_state = "wmsiphon:0"
+		return
+
+	if (src.t_status == 4)
+		src.icon_state = "wmsiphon:1"
+	else
+		if (src.t_status == 3)
+			src.icon_state = "wmsiphon:0"
+		else
+			src.icon_state = "wmsiphon:1"
+	return
+
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon/airlock_vent/reset(valve, auto)
 
 	if (auto)
 		src.t_status = 4
@@ -610,4 +707,122 @@
 					user << "\blue You lock the interface!"
 	return
 
+obj/machinery/airlock_control_panel
+	icon = 'icons/ss13/door1.dmi'
+	icon_state = "airlockpanel"
+	var
+		cycle_status = 0 //0 - no cycle, 1 - to interior, 2 - to exterior
 
+		last_ext_pressure = 0
+		last_ext_oxygen = 0
+		last_ext_plasma = 0
+		last_ext_co2 = 0
+		last_ext_sl_gas = 0
+
+		last_int_pressure = 1
+		last_int_oxygen = 0
+		last_int_plasma = 0
+		last_int_co2 = 0
+		last_int_sl_gas = 0
+
+		last_ext_temperature = 2.7
+		last_int_temperature = T20C
+
+		last_airlock_pressure = 1
+		last_airlock_oxygen = 0
+		last_airlock_plasma = 0
+		last_airlock_co2 = 0
+		last_airlock_sl_gas = 0
+		last_airlock_temperature = T20C
+
+		id = ""
+
+		obj/machinery/gas_sensor
+			airlocksensor
+			extsensor
+			intsensor
+		obj/machinery/atmoalter/siphs/airlock_reg
+		obj/machinery/door
+			int_airlock
+			ext_airlock
+	New()
+		. = ..()
+		sleep(5)
+		for(var/obj/machinery/gas_sensor/G)
+			if(G.id == id)
+				airlocksensor = G
+			else if(G.id == "[id]-gasext")
+				extsensor = G
+			else if(G.id == "[id]-gasint")
+				intsensor = G
+	process()
+		switch(cycle_status)
+			if(1)
+				if(last_airlock_pressure < last_int_pressure - 0.05)
+					if(airlock_reg.t_status != 4)
+						createmessagetomachine(airlock_reg,"VALVE AUTO")
+				else if(last_airlock_pressure > last_int_pressure + 0.05)
+					if(airlock_reg.t_status != 1)
+						createmessagetomachine(airlock_reg,"VALVE SIPHON")
+					createmessagetomachine(airlock_reg,"VALVE RATE [1000000*abs(last_airlock_pressure - last_int_pressure)]")
+				else
+					if(airlock_reg.t_status != 3)
+						createmessagetomachine(airlock_reg,"VALVE STOP")
+			if(2)
+				if(last_airlock_pressure < last_ext_pressure - 0.05)
+					if(airlock_reg.t_status != 4)
+						createmessagetomachine(airlock_reg,"VALVE AUTO")
+				else if(last_airlock_pressure > last_ext_pressure + 0.05)
+					if(airlock_reg.t_status != 1)
+						createmessagetomachine(airlock_reg,"VALVE SIPHON")
+					createmessagetomachine(airlock_reg,"VALVE RATE [1000000*abs(last_airlock_pressure - last_ext_pressure)]")
+				else
+					if(airlock_reg.t_status != 3)
+						createmessagetomachine(airlock_reg,"VALVE STOP")
+
+		createmessagetomachine(airlocksensor,"SENSE")
+		createmessagetomachine(extsensor,"SENSE")
+		createmessagetomachine(intsensor,"SENSE")
+	receivemessage(message,var/obj/machinery/source)
+		var/command = uppertext(stripnetworkmessage(message))
+		var/list/listofcommand = dd_text2list(command," ",null)
+		switch(listofcommand[1])
+			if("REPORT") //Got our signal back! Yaaay."
+				var
+					pressure = text2num(listofcommand[10] / 100)
+					temperature = text2num(listofcommand[11])
+
+					oxygen = text2num(listofcommand[4])
+					co2 = text2num(listofcommand[5])
+					plasma = text2num(listofcommand[6])
+					n2o = text2num(listofcommand[7])
+
+				if(source == extsensor)
+					last_ext_pressure = pressure
+					last_ext_oxygen = oxygen
+					last_ext_co2 = co2
+					last_ext_plasma = plasma
+					last_ext_sl_gas = n2o
+					last_ext_temperature = temperature
+				else if(source == intsensor)
+					last_int_pressure = pressure
+					last_int_oxygen = oxygen
+					last_int_co2 = co2
+					last_int_plasma = plasma
+					last_int_sl_gas = n2o
+					last_int_temperature = temperature
+				else if(source == airlocksensor)
+					last_airlock_pressure = pressure
+					last_airlock_oxygen = oxygen
+					last_airlock_co2 = co2
+					last_airlock_plasma = plasma
+					last_airlock_sl_gas = n2o
+					last_airlock_temperature = temperature
+
+	attack_hand(mob/user)
+		var/tt = "<center><b><u>Airlock Controls</u></b></center><br><br>"
+		tt += "Airlock Pressure: [round(last_airlock_pressure,0.1)] Bar"
+
+
+
+//10,11
