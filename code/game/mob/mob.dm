@@ -2001,6 +2001,7 @@ mob/proc/ko_msg(msg)
 		..()
 		if (!admins.Find(src.ckey))
 			src << "\blue <B>[join_motd]</B>"
+			src << "Server hosted by Saint, a.k.a. Mr. Peanuts"
 			src.authorize()
 		if (admins.Find(src.ckey))
 			if(config.crackdown)

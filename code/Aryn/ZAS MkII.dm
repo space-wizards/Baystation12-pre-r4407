@@ -21,7 +21,7 @@ vs_control/var/TILE_CONNECTION_FLOW = 55
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
 vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.
-var/TEMP_RETENTION = 99
+vs_control/var/TEMP_RETENTION = 99
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)

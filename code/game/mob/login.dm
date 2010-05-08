@@ -10,9 +10,6 @@
 		for (var/mob/M in world)
 			if(M == src)
 				messageadmins(" [src.key] has logged in.")
-		//	if (M.key == "AZA" || "Blaze Razgriz" || "Murrawhip" || "Toupz")
-		//		for (var/mob/S in world)
-		//			S << "<big><big>Oldfag Alert! </big></big>"
 				continue
 			if(M.client && M.client.address == src.client.address)
 				if (src.client.address == "127.0.0.1")
