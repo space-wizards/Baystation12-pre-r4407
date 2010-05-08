@@ -15,20 +15,12 @@ mob/proc/hungertick()
 				src.hunger -= h
 			if(src.thirst)
 				src.thirst -= t
-			if(prob(50))
-				if(src.hunger < 150 && src.hunger > 100)
-					src << "You feel slightly hungry."
-				if(src.hunger < 100 && src.hunger > 50)
-					src << "You feel quite hungry."
-				if(src.hunger < 50)
-					src << "You are so hungry you could eat a horse."
-			if(prob(50))
-				if(src.thirst < 150 && src.thirst > 100)
-					src << "You feel slightly thirsty."
-				if(src.thirst < 100 && src.thirst > 50)
-					src << "You feel quite thirsty."
-				if(src.thirst < 50)
-					src << "You are so thirsty you could drink a lake."
+			if(prob(10))
+				if(src.hunger < 150)
+					src:emote("hungry")
+			if(prob(10))
+				if(src.thirst < 150)
+					src:emote("thirsty")
 		hungertick()
 
 obj/proc/add_food(var/mob/M,var/type,var/num)

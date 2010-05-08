@@ -20,3 +20,6 @@ world/proc/keepalive()
 
 var
 	DBConnection/dbcon = new()
+
+
+var/database = "bay12"

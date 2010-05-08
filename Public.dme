@@ -7,9 +7,9 @@
 /*
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\objects Lib 
-FILE: code\game\cellautomata.dm
-LAST_COMPILE_TIME: 1273242458
+DIR: code code\game code\game\admin code\game\machinery\computernet code\game\mob code\game\mob\ai code\game\mob\human code\game\objects maps Lib 
+FILE: code\game\mob\human\npc.dm
+LAST_COMPILE_TIME: 1273331146
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -218,6 +218,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\elevator.dm"
 #include "code\game\machinery\engine.dm"
 #include "code\game\machinery\firealarm.dm"
+#include "code\game\machinery\floodlight.dm"
 #include "code\game\machinery\geneticscomp.dm"
 #include "code\game\machinery\hologram.dm"
 #include "code\game\machinery\igniter.dm"
@@ -231,12 +232,14 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\recharger.dm"
 #include "code\game\machinery\router.dm"
 #include "code\game\machinery\secure_data.dm"
+#include "code\game\machinery\shower.dm"
 #include "code\game\machinery\shuttle.dm"
 #include "code\game\machinery\sprinkler.dm"
 #include "code\game\machinery\supermed.dm"
 #include "code\game\machinery\supply_shuttle.dm"
 #include "code\game\machinery\teleporter.dm"
 #include "code\game\machinery\turrets.dm"
+#include "code\game\machinery\vendingmachine.dm"
 #include "code\game\machinery\computernet\buildroutingtable.dm"
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
@@ -253,6 +256,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\pipe\pipe_filter.dm"
 #include "code\game\machinery\pipe\pipe_items.dm"
 #include "code\game\mob\achievements.dm"
+#include "code\game\mob\hunger.dm"
 #include "code\game\mob\login.dm"
 #include "code\game\mob\logout.dm"
 #include "code\game\mob\mob.dm"
@@ -271,6 +275,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\mob\human\human.dm"
 #include "code\game\mob\human\life.dm"
 #include "code\game\mob\human\login.dm"
+#include "code\game\mob\human\npc.dm"
 #include "code\game\mob\human\say.dm"
 #include "code\game\mob\monkey\death.dm"
 #include "code\game\mob\monkey\emote.dm"

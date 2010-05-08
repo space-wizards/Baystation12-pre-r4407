@@ -167,6 +167,7 @@
 var/map_loading = 1
 /world/New()
 	..()
+	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 
 	config = new /datum/configuration()
 	config.load("config/config.txt")
@@ -198,19 +199,20 @@ var/map_loading = 1
 		sleep(10)
 		map_loading = 0
 		for (var/turf/T in world)
-			T.updatelinks()
+			T.checkfire = (T.x % 2 && T.y % 2)
+			//T.updatelinks()
 		makepipelines()
 		powernets_building = 0
 		makepowernets()
+		makecomputernets()
+		getdb()
+		world.log << "World Setup Complete"
 		//----
-
-//	crban_loadbanfile()
-//	crban_updatelegacybans()
+	gen_access()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
 	LoadPlayerData()
 	SavePlayerLoop()
-	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
 	spawn(0)
 		SetupOccupationsList()
 		return
@@ -229,11 +231,11 @@ var/map_loading = 1
 	LIGHTHEADED = L2[6]
 	TWITCH = L2[7]
 	XRAY = L2[8]
-	NERVOUS = L2[9]
+	ISNERVOUS = L2[9]
 	AURA = L2[10]
 	ISBLIND = L2[11]
 	TELEKINESIS = L2[12]
-	DEAF = L2[13]
+	ISDEAF = L2[13]
 
 	for(var/i = 0, i<3, i++)
 		zombie_genemask += 1<<rand(3*8)//3 blocks * 8 bits per block
@@ -282,7 +284,6 @@ var/map_loading = 1
 
 	main_hud1 = new /obj/hud(  )
 	main_hud2 = new /obj/hud/hud2(  )
-	SS13_airtunnel = new /datum/air_tunnel/air_tunnel1(  )
 
 	while(map_loading)
 		sleep(10)
@@ -301,6 +302,11 @@ var/map_loading = 1
 	slmaster.icon = 'plasma.dmi'
 	slmaster.icon_state = "sl_gas"
 	slmaster.layer = FLY_LAYER
+
+	indmaster = new /obj/overlay(  )
+	indmaster.icon = 'plasma.dmi'
+	indmaster.icon_state = "indicator"
+	indmaster.layer = FLY_LAYER
 
 	cellcontrol = new /datum/control/cellular()
 	spawn (0)
@@ -322,9 +328,7 @@ var/map_loading = 1
 			sleep(100)
 			goto Label_482
 		return
-	getdb()
 	worldsetup = 1
-	world.log << "World Setup Complete"
 
 
 /world/Reboot()
@@ -544,7 +548,7 @@ var/map_loading = 1
 				AM.z = station_emerg_dock
 			var/turf/U = locate(T.x, T.y, T.z)
 			U.oxygen = T.oxygen
-			U.poison = T.poison
+			U.poison = T.poison()
 			U.co2 = T.co2
 			U.buildlinks()
 			del(T)
@@ -579,7 +583,7 @@ var/map_loading = 1
 							AM.z = centcom_emerg_dock
 						var/turf/U = locate(T.x, T.y, centcom_emerg_dock)
 						U.oxygen = T.oxygen
-						U.poison = T.poison
+						U.poison = T.poison()
 						U.co2 = T.co2
 
 						U.buildlinks()
@@ -591,7 +595,7 @@ var/map_loading = 1
 
 /datum/control/gameticker/process()
 
-	shuttle_location = centcom_emerg_dock
+	shuttle_location = shuttle_z
 
 	world.update_stat()
 	world << "<B>Welcome to the Space Station 13!</B>\n\n"
@@ -696,17 +700,12 @@ var/update_state = 0
 		spawn(-1)
 			for(var/turf/space/space in world)
 				if (space.updatecell && space.update_again)
-					space.exchange()
-					space.updatecell()
 					sleep(0)
 			return
 
 	for(var/turf/station/T in world)
 		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
-			T.exchange()
-			T.updatecell()
-			if(!time)
-				T.conduction()
+			sleep(0)
 	sleep(3)
 	for(var/mob/M in world)
 		spawn( 0 )

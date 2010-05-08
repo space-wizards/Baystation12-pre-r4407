@@ -104,6 +104,8 @@
 			var/obj/bloodtemplate/this = new /obj/bloodtemplate( source2 )
 			this.hulk = M.ishulk
 			this.blood = M.primarynew.uni_identity
+			if(M.zombie == 1)
+				this.zombieblood = 1
 
 			if(type == "drag")
 				this.icon_state = "floor_[dir]_[pick(1,2)]"

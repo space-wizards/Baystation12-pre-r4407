@@ -764,7 +764,7 @@
 
 /mob/var/noclip = 0
 
-/mob/verb/noclip()
+/mob/proc/noclip()
 	if(src.client.holder)
 		src.noclip = !src.noclip
 		src << "\blue Noclip [src.noclip?"On":"Off"]"

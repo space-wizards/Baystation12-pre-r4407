@@ -3123,7 +3123,7 @@
 		user.show_message("\red Contains traces of a unknown infectious agent")
 	src.add_fingerprint(user)
 	if (M.stat > 1)
-		user.unlock_medal("He\'s Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
+		user.unlock_medal("Hes Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
 	return
 
 
@@ -6074,14 +6074,6 @@ obj/item/weapon/radio/talk_into(mob/M as mob, msg)
 			this.blood = M.primarynew.uni_identity
 			if(M.zombie == 1)
 				this.zombieblood = 1
-			//headsweisbajs
-
-			//old stuff
-			//source2.icon_old = src.icon
-			//var/icon/I = new /icon(src.icon, src.icon_state)
-			//I.Blend(new /icon('blood.dmi', "floorblood"),ICON_OVERLAY)
-			//src.icon = I
-			//src.blood = M.primarynew.uni_identity
 		else if (istype(src, /mob/human))
 			src.blood = M.primarynew.uni_identity
 		else

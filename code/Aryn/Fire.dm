@@ -134,6 +134,6 @@ turf
 			temp((T20C - temp) / vsc.FIRERATE)
 		oldfirelevel = firelevel
 
-	verb/ShowTemp()
+	proc/ShowTemp()
 		set src in view()
 		zone.speakmychild=1

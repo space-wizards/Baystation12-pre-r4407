@@ -11,6 +11,7 @@
 var/dbg1
 var/dbg2
 proc/BuildRoutingTable()
+	set background = 1
 	var/load = 0
 	var/datum/rtable/R = new /datum/rtable()
 	world.log << "Building routing table ([computernets.len] nets)"

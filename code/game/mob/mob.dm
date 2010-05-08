@@ -1831,10 +1831,6 @@ mob/proc/ko_msg(msg)
 						src.move_delay += 6
 					src.move_delay += 1
 					if((src.mob.zombie) && (!src.mob.zombieleader)) src.move_delay += 4
-					if(src.mob.thirst <= 100)
-						src.move_delay += 2
-					if(src.mob.thirst <= 50)
-						src.move_delay += 2
 					if(src.mob.zombieleader) src.move_delay += 2
 				if("face")
 					src.mob.dir = direct
@@ -1993,6 +1989,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
+					src.verbs += /mob/proc/noclip
 
 				if ("Super Administrator")
 					src.holder.level = 4
@@ -2026,6 +2023,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/spawn_virus
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
+					src.verbs += /mob/proc/noclip
 
 				if ("Primary Administrator")
 					src.holder.level = 3
@@ -2047,6 +2045,7 @@ var/client/isbanned = 0
 	//				src.verbs += /client/proc/sendmob
 					src.verbs += /client/proc/tdome1
 					src.verbs += /client/proc/tdome2
+					src.verbs += /mob/proc/noclip
 
 				if ("Administrator")
 					src.holder.level = 2
@@ -2056,14 +2055,17 @@ var/client/isbanned = 0
 	//				src.verbs += /client/proc/Jumptomob
 					src.verbs += /client/proc/tdome1
 					src.verbs += /client/proc/tdome2
+					src.verbs += /mob/proc/noclip
 
 				if ("Super Moderator")
 					src.holder.level = 1
 					src.verbs += /client/proc/adminsay
+					src.verbs += /mob/proc/noclip
 
 				if ("Moderator")
 					src.holder.level = 0
 					src.verbs += /client/proc/adminsay
+					src.verbs += /mob/proc/noclip
 
 				if ("Trusted")
 					src.holder.level = 0

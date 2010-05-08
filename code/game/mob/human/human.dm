@@ -2255,8 +2255,12 @@
 
 
 /mob/human/pulled(dir)
-	if(src.toxloss + src.bruteloss > 50)
+	if(BLOOD_FOR_THE_BLOOD_GOD)
 		src.loc.add_blood(src,"drag",dir)
+		return
+	if(src.bruteloss > 50)
+		if(prob(25))
+			src.loc.add_blood(src,"drag",dir)
 
 /mob/human/mob/
 
