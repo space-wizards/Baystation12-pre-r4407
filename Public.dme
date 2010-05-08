@@ -5,12 +5,12 @@
 
 // BEGIN_INTERNALS
 /*
-FILE: code\game\objects\items\radio\PDA.dm
-DIR: code code\game code\game\machinery code\game\machinery\computernet code\game\mob code\game\objects code\game\objects\items code\game\objects\items\radio
+FILE: code\game\machinery\computernet\chatserver.dm
+DIR: code code\game code\game\machinery code\game\machinery\computernet code\game\mob code\game\mob\human code\game\objects code\game\objects\items code\game\objects\items\radio icons icons\ss13
 HIDDENPATHS:
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 462.1057
-LAST_COMPILE_TIME: 1273282682
+LAST_COMPILE_TIME: 1273286204
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
@@ -238,6 +238,7 @@ AUTO_FILE_DIR: ON
 #include "code\game\machinery\teleporter.dm"
 #include "code\game\machinery\turrets.dm"
 #include "code\game\machinery\computernet\buildroutingtable.dm"
+#include "code\game\machinery\computernet\chatserver.dm"
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
 #include "code\game\machinery\computernet\physicalcable.dm"
