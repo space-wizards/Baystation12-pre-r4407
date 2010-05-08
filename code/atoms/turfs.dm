@@ -42,6 +42,8 @@
 	var/condE
 	var/condW
 
+	var/list/obj/machinery/router/wireless = list()
+
 /turf/space
 	name = "space"
 	icon_state = "space"

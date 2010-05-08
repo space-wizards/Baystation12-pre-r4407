@@ -2,8 +2,6 @@
 	set category = "Debug"
 	set name = "edit variables"
 	set desc="(target) Edit a target item's variables"
-
-
 	//var/locked[]
 	//locked = list()
 
@@ -27,13 +25,14 @@
 					return
 
 		var/variable = input("Which var?","Var") in O.vars
-		var/default
-		var/typeof = O.vars[variable]
-		var/dir
 
 		//if (locked.Find(variable))
 		//	alert("Variable locked.")
 		//	return
+
+		var/default
+		var/typeof = O.vars[variable]
+		var/dir
 
 		if(isnull(typeof))
 			usr << "Unable to determine variable type."
@@ -62,7 +61,7 @@
 
 		else if(istype(typeof,/list))
 			usr << "Variable appears to be <b>LIST</b>."
-			default = "cancel"
+			default = "list"
 
 		else if(istype(typeof,/client))
 			usr << "Variable appears to be <b>CLIENT</b>."
@@ -97,7 +96,8 @@
 				usr << "If a direction, direction is: [dir]"
 
 		var/class = input("What kind of variable?","Variable Type",default) in list("text",
-			"num","type","reference","mob reference", "icon","file","modify referenced variables","restore to default","cancel")
+			"num", "type", "reference", "mob reference", "icon", "file",
+			"modify referenced variables", "list", "restore to default", "cancel")
 
 		switch(class)
 			if("cancel")
@@ -135,11 +135,69 @@
 					as icon
 			if("modify referenced variables")
 				modifyvariables(O.vars[variable])
+				return
 
-
+			if("list")
+				var/list/temp
+				if(!istype(O.vars[variable],/list))
+					temp = new
+				else
+					//Copy the old without bothering to make a second temporary var
+					temp = O.vars[variable]
+					temp = temp.Copy()
+				temp = modifylist(temp)
+				if(temp != null)
+					O.vars[variable] = temp
+				else
+					return
 		world.log_admin("[src.key] modified [O.name]'s [variable] to [O.vars[variable]]")
 		world << text("[src.key] modified [O.name]'s [variable] to [O.vars[variable]]")
-		return
+
 	else
 		alert("Debugging is disabled")
-		return
+
+
+
+
+
+//Return value: null to discard any change, otherwise the new /list
+/client/proc/modifylist(list/edited)
+	var/choice = input("What var?", "Edit list", "cancel") in edited + "new entry" + "cancel"
+	if(choice == "cancel")
+		return null
+	else if(choice == "new entry")
+		choice = input("What to add?", "Add to list", "cancel") in list("text", "num",
+			"type", "reference", "mob reference", "list", "cancel")
+		switch(choice)
+			if("cancel")
+				return null
+			if("text")
+				edited += input("Text:","Add to list","") as text
+			if("num")
+				edited += input("Number:","Add to list","") as num
+			if("type")
+				edited += input("Type:","Add to list","") in typesof(/obj,/mob,/area,/turf)
+			if("reference")
+				edited += input("Reference:","Add to list","") as mob|obj|turf|area in world
+			if("mob reference")
+				edited += input("Reference:","Add to list","") as mob in world
+			if("list")
+				var/list/temp = modifylist(list())
+				edited += temp
+		world.log_admin("[src.key] added an entry to a list")
+		world << "[src.key] added an entry to a list"
+	else
+		var/list/types = list("remove", "cancel")
+		if(istype(choice,/atom))
+			types = list("remove", "modify object", "cancel")
+		switch(input("Remove or Modify?", "Edit list entry", "cancel") in types)
+			if("cancel")
+				return null
+			if("modify object")
+				modifyvariables(choice)
+				return null
+			if("remove")
+				edited -= choice
+				world.log_admin("[src.key] removed [choice] from a list")
+				world << "[src.key] removed [choice] from a list"
+	return edited

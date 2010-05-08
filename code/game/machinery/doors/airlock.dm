@@ -112,10 +112,12 @@ About the new airlock wires panel:
 				src.locked = 1
 				usr << "You hear a click from the bottom of the door."
 				src.updateUsrDialog()
+				updateIconState()
 			else
 				if(src.arePowerSystemsOn()) //only can raise bolts if power's on
 					src.locked = 0
 					src.updateUsrDialog()
+					updateIconState()
 				usr << "You hear a click from inside the door."
 		if (AIRLOCK_WIRE_BACKUP_POWER1 || AIRLOCK_WIRE_BACKUP_POWER2)
 			//two wires for backup power. Sending a pulse through either one causes a breaker to trip, but this does not disable it unless main power is down too (in which case it is disabled for 1 minute or however long it takes main power to come back, whichever is shorter).
@@ -172,6 +174,7 @@ About the new airlock wires panel:
 			//Cutting this wire also drops the door bolts, and mending it does not raise them. (This is what happens now, except there are a lot more wires going to door bolts at present)
 			if (src.locked!=1)
 				src.locked = 1
+				updateIconState()
 			src.updateUsrDialog()
 		if (AIRLOCK_WIRE_BACKUP_POWER1 || AIRLOCK_WIRE_BACKUP_POWER2)
 			//Cutting either one disables the backup door power (allowing it to be crowbarred open, but disabling bolts-raising), but may electocute the user.
@@ -320,7 +323,12 @@ About the new airlock wires panel:
 		src.icon_state = text("door_build_[]",src.build_state)
 	else
 		var/d = src.density
-		if (src.blocked)
+		if (src.locked)
+			if(src.blocked)
+				d = "_boltedl"
+			else
+				d = "_bolted"
+		else if (src.blocked)
 			d = "l"
 		src.icon_state = text("[]door[]", (src.p_open ? "o_" : null), d)
 	return
@@ -984,8 +992,10 @@ About the new airlock wires panel:
 					if("UP")
 						if(src.arePowerSystemsOn())
 							src.locked = 0
+							updateIconState()
 					if("DOWN")
 						src.locked = 1
+						updateIconState()
 			if("ACCESS")
 				switch(listofcommand[3])
 					if("ON")

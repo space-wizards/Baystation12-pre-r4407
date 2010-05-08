@@ -34,7 +34,9 @@ proc/FireTicker()
 					del T.fire_icon
 
 				if(T.firelevel > 100000) T.burn = 1
-				else T.burn = 0
+				else
+					T.firelevel = 0
+					T.burn = 0
 		//sleep(GAS_FLOW_DELAY)
 		if(!(fticks % vsc.GAS_FLOW_DELAY))
 			//world << "<b>Gas Flow!!</b>"
@@ -134,6 +136,6 @@ turf
 			temp((T20C - temp) / vsc.FIRERATE)
 		oldfirelevel = firelevel
 
-	proc/ShowTemp()
-		set src in view()
-		zone.speakmychild=1
+	//verb/ShowTemp()
+	//	set src in view()
+	//	zone.speakmychild=1
