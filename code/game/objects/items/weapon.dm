@@ -146,5 +146,5 @@
 		return
 	return
 
-/obj/machinery/proc/UIinput(C as text)
+/obj/item/weapon/proc/UIinput(C as text)
 	return 0
