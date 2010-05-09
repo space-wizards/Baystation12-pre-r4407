@@ -905,6 +905,7 @@ proc
 				AddConnection(C.zone,T,D.zone)
 		if(istype(A,/obj/machinery/door/window))
 			A:dir_density = 0
+		T.GetDistLinks()
 
 	CloseDoor(atom/A) //This is called when a door is closed between two zones, to subtract the flow.
 		if(moving_zone) return
@@ -933,6 +934,7 @@ proc
 				RemoveConnection(C.zone,T,D.zone)
 		if(istype(A,/obj/machinery/door/window))
 			A:dir_density = 1
+		T.GetDistLinks()
 
 	ZoneSetup(atom/A) //This sets up the door's zone variables. If two valid zones are found, returns 1, otherwise 0.
 
@@ -1055,16 +1057,21 @@ proc
 				RemoveConnection(T.zone,T,B.zone)
 				RemoveConnection(T.zone,B,B.zone)
 		W.loc = T
+		T.GetDistLinks()
 
 	MoveWindow(obj/window/W,turf/nloc)
 		//world << "<u>Window moved: [W]([W.x],[W.y])</u>"
 		if(!W.loc:zone || !nloc.zone) return
 		if(W.dir == SOUTHWEST)
+			var/turf/U = W.loc
 			W.block_zoning = 0
 			OpenWall(W)
 			spawn(1)
 				W.block_zoning = 1
 				CloseWall(W)
+			var/turf/T = W.loc
+			T.GetDistLinks()
+			U.GetDistLinks()
 			return
 		if(nloc == W.loc) return
 		if(moving_zone) return
@@ -1110,12 +1117,16 @@ proc
 				RemoveConnection(T.zone,B,B.zone)
 
 		W.loc = T
+		T.GetDistLinks()
+		nloc.GetDistLinks()
 	DelWindow(obj/window/W)
 		//world << "<u>Window deleted: [W]([W.x],[W.y])</u>"
 		if(!W.loc:zone) return
 		if(W.dir == SOUTHWEST)
 			W.block_zoning = 0
 			OpenWall(W)
+			var/turf/T = W.loc
+			T.GetDistLinks()
 			return
 		var
 			needs_merge = 0
@@ -1139,10 +1150,11 @@ proc
 			//world << "Applied, good sir!"
 			AddConnection(T.zone,T,A.zone)
 
+		T.GetDistLinks()
+
 		//	W.loc = T
 	NewWindow(obj/window/W)
 		//world << "<u>Window created: [W]([W.x],[W.y])</u>"
-		if(world.time < 10) return
 		var
 			needs_split = 0
 			turf
@@ -1150,6 +1162,15 @@ proc
 				A = get_step(T,W.dir)
 
 		if(moving_zone) return
+
+		if(W.dir == SOUTHWEST)
+			W.block_zoning = 1
+			if(ticker)
+				CloseWall(W)
+				T.GetDistLinks()
+				return
+
+		if(!ticker) return
 
 		//W.loc = null
 
@@ -1163,6 +1184,8 @@ proc
 			else
 				RemoveConnection(T.zone,T,A.zone)
 				RemoveConnection(T.zone,A,A.zone)
+
+		T.GetDistLinks()
 
 		//W.loc = T
 

@@ -138,7 +138,7 @@
 			if (O)
 				O.hear_talk(usr, sentmessage)
 				break
-	for(var/mob/M in world)
-		if (M.stat > 1)
-			M << text("<B>[]</B>[] []: []", src.rname, alt_name, (src.stat > 1 ? "\[<I>dead</I> \]" : ""), sentmessage)
+	//for(var/mob/M in world)
+	//	if (M.stat > 1)
+	//		M << text("<B>[]</B>[] []: []", src.rname, alt_name, (src.stat > 1 ? "\[<I>dead</I> \]" : ""), sentmessage)
 	return
