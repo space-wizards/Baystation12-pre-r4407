@@ -238,7 +238,7 @@ zone
 					for(var/zone/Z in connections)
 						//Gases flow between connected zones on a per-turf concentration gradient.
 						for(var/turf/space/S in Z)
-							Airflow(src,Z,pressure())
+							Airflow(src,Z,total())
 							for(var/g in gases)
 								gases[g] *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
 							for(var/turf/T in src)
@@ -252,15 +252,10 @@ zone
 						flow = max(1,flow) //Lower bound is 1%
 						if(!flow) continue
 
-						var/gas_diff = pressure() - Z.pressure()
-						if(gas_diff > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
-							//if(!speakmychild)
-							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
-							//	speakmychild = 1
-							//	spawn(50) speakmychild = 0
-							Airflow(src,Z,gas_diff)
 
 						//world << "<B><big>Calcuating Connection with Z[zones.Find(Z)]</big></B>"
+						var
+							total_gas_transferred
 
 						for(var/g in gases)
 							var/theo = (gases[g] + Z.gases[g]) / (contents.len + Z.contents.len)
@@ -270,9 +265,16 @@ zone
 								diff_b = Z.per_turf(g) - theo
 							diff_a *= 1 - (flow / 100)
 							diff_b *= 1 - (flow / 100)
+							total_gas_transferred += max(diff_a,diff_b)
 							GasPerTurf(g,diff_a+theo)
 							Z.GasPerTurf(g,diff_b+theo)
 							//more_air_here += gases[g] - Z.gases[g]
+						if((total_gas_transferred/vsc.AF_PERCENT_OF)*100 > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
+							//if(!speakmychild)
+							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
+							//	speakmychild = 1
+							//	spawn(50) speakmychild = 0
+							Airflow(src,Z,total_gas_transferred)
 						var
 							temp_theo = (temp + Z.temp) / 2
 							diff_a = temp - temp_theo
