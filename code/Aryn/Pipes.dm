@@ -1,5 +1,6 @@
 vs_control/var/PIPE_DELAY = 10 //One second between pipe transfers.
 var/global/PIPERATE = 1E6
+vs_control/var/RUN_PUMPS = 1
 
 proc/zone_pass(obj/a_pipe/A,obj/a_pipe/B)
 	//if(istype(A,/obj/a_pipe/divider) || istype(B,/obj/a_pipe/divider)) return 0
@@ -48,6 +49,10 @@ obj/a_pipe
 	var/list/discon_images
 	var/list/uc_images
 
+	var/obj/a_pipe/divider/valve
+		pipe_cache_1
+		pipe_cache_2
+
 	//Used to show above-floor pieces of an otherwise hidden pipe, e.g. vents, inlets.
 	var/obj/above_piece/above
 	var/use_above = ""
@@ -67,14 +72,14 @@ obj/a_pipe
 	proc/Setup()
 		if(text2num(icon_state) > 0)
 			dir = text2num(icon_state)
-		if(!p_dir)
-			if(dir & (dir - 1))
-				p_dir = dir
+
+		if(dir & (dir - 1))
+			p_dir = dir
+		else
+			if(findtext(icon_state,"manifold"))
+				p_dir = dir | turn(dir,90) | turn(dir,-90)
 			else
-				if(findtext(icon_state,"manifold"))
-					p_dir = dir | turn(dir,90) | turn(dir,-90)
-				else
-					p_dir = dir | turn(dir,180)
+				p_dir = dir | turn(dir,180)
 		FindZone()
 		/*while(1)
 			if(ticker) break
@@ -87,21 +92,25 @@ obj/a_pipe
 					P.p_zone.AddConnection(src.p_zone)*/
 	proc/FindZone()
 		if(p_zone) return
-		for(var/d in cardinal)
-			if(p_dir & d)
-				if(does_not_zone & d) continue
-				var/obj/a_pipe/A = locate() in get_step(src,d)
-				if(A)
-					if(A.does_not_zone & get_dir(A,src)) continue
-					if(A.p_zone && !p_zone)
-						A.p_zone.AddPipe(src)
-						break
+		if(ticker)
+			for(var/d in cardinal)
+				if(p_dir & d)
+					if(does_not_zone & d) continue
+					var/obj/a_pipe/A
+					for(A in get_step(src,d))
+						var/gd = get_dir(A,src)
+						if(gd & (gd - 1)) continue
+						if(!(A.p_dir & gd)) continue
+						if(A.does_not_zone & gd) continue
+						if(A.p_zone && !p_zone)
+							A.p_zone.AddPipe(src)
+							break
 					//links += A
 		if(!p_zone)
 			new/pipe_zone(src)
-	//verb/ShowZone()
-	//	set src in view()
-	//	if(p_zone) p_zone.Show()
+	verb/ShowZone()
+		set src in view()
+		if(p_zone) p_zone.Show()
 
 	verb/ShowRawDelta()
 		set src in view()
@@ -115,7 +124,7 @@ obj/a_pipe
 		set src in view()
 		for(var/d in cardinal)
 			ChkDisconD(d)
-			ChkUnderD(d)
+			//ChkUnderD(d)
 
 	proc/ChkUnderD(d)
 		if(invisibility) return
@@ -190,7 +199,7 @@ obj/a_pipe
 			name = dd_replacetext(name," \[ALWAYSSHOW\]","")
 			level = 2
 		Setup()
-		UnderFloor()
+		//UnderFloor()
 	Del()
 		. = ..()
 
@@ -204,6 +213,10 @@ obj/a_pipe
 		name = "high capacity manifold"
 		icon = 'icons/ss13/pipes.dmi'
 		icon_state = "hi_manifold"
+		Setup()
+			. = ..()
+			p_dir = dir | turn(dir,90) | turn(dir,-90)
+			FindZone()
 
 	cross_manifold
 		dir = 2
@@ -245,7 +258,7 @@ obj/a_pipe
 			icon_state = "inlet_filter-0"
 			var/f_mask = 0
 			var/control = null
-			PipeProcess()
+			process()
 				src.updateicon()
 				if(!(stat & NOPOWER))
 					var/turf/T = src.loc
@@ -369,13 +382,14 @@ obj/a_pipe
 			p_dir = dir | turn(dir,180)
 			does_not_zone = dir
 			spawn(1)
-				var/obj/a_pipe/P = locate() in get_step(src,turn(dir,180))
-				if(P)
-					if(P.p_zone)
+				var/obj/a_pipe/P
+				for(P in get_step(src,turn(dir,180)))
+					if(P.p_zone && (P.p_dir & dir))
+						if(istype(P,/obj/a_pipe/divider/valve))	pipe_cache_2 = P
 						connect2 = P.p_zone
-				P = locate() in get_step(src,dir)
-				if(P)
-					if(P.p_zone)
+				for(P in get_step(src,dir))
+					if(P.p_zone && (P.p_dir & turn(dir,180)))
+						if(istype(P,/obj/a_pipe/divider/valve))	pipe_cache_1 = P
 						connect = P.p_zone
 			if(connect2)
 				connect2.AddPipe(src)
@@ -422,31 +436,40 @@ obj/a_pipe
 			dir = 2
 			Setup()
 				p_dir = dir | turn(dir,180)
-
-				var/obj/a_pipe/divider
-					d_div = locate() in get_step(src,dir)
-					t_div = locate() in get_step(src,turn(dir,180))
-				if(d_div && !t_div)
-					does_not_zone = turn(dir,180) //Make the blocked direction away from any pumps if possible.
-				else if(!d_div)
-					does_not_zone = dir
-				else
-					connect_on_open = 0
-				//If neither is a regular pipe, it's pointless to set a block or connect zones. The other pipes will do the work.
-				if(!does_not_zone)
-					new/pipe_zone(src,1)
-					spawn(1) ChkDiscon()
-				else
-					spawn(1)
-						var/obj/a_pipe/P = locate() in get_step(src,does_not_zone)
-						if(P)
-							if(P.p_zone)
-								connect = P.p_zone
-						P = locate() in get_step(src,turn(does_not_zone,180))
-						if(P)
-							if(P.p_zone)
-								p_zone = P.p_zone
-						ChkDiscon()
+				spawn(3)
+					var/obj/a_pipe/divider
+						d_div
+						t_div
+					for(var/obj/a_pipe/divider/D in get_step(src,dir))
+						if(D.p_dir & turn(dir,180))
+							d_div = D
+					for(var/obj/a_pipe/divider/D in get_step(src,turn(dir,180)))
+						if(D.p_dir & dir)
+							t_div = D
+					if(d_div && !t_div)
+						does_not_zone = turn(dir,180) //Make the blocked direction away from any pumps if possible.
+					else if(!d_div)
+						does_not_zone = dir
+					else if(!d_div && !t_div)
+						does_not_zone = dir
+					else
+						connect_on_open = 0
+					//If neither is a regular pipe, it's pointless to set a block or connect zones. The other pipes will do the work.
+					if(!does_not_zone)
+						new/pipe_zone(src,1)
+						spawn(1) ChkDiscon()
+					else
+						spawn(1)
+							var/obj/a_pipe/P
+							for(P in get_step(src,does_not_zone))
+								if(P.p_zone && (P.p_dir & turn(does_not_zone,180)))
+									if(istype(P,/obj/a_pipe/divider/valve))	pipe_cache_1 = P
+									connect = P.p_zone
+							for(P in get_step(src,turn(does_not_zone,180)))
+								if(P.p_zone && (P.p_dir & does_not_zone))
+									if(istype(P,/obj/a_pipe/divider/valve))	pipe_cache_2 = P
+									p_zone = P.p_zone
+							ChkDiscon()
 			attack_hand(mob/user)
 				if(!valve_open)
 					//if(!p_zone || !connect)
@@ -529,28 +552,36 @@ obj/a_pipe
 			icon = 'icons/ss13/pipes2.dmi'
 			icon_state = "pipepump-map"
 			var/rate = 6000000.0
-			PipeProcess()
-				var/obj/a_pipe/divider/valve/P = locate() in get_step(src,dir)
-				if(P)
-					if(!P.valve_open) return
-				P = locate() in get_step(src,turn(dir,180))
-				if(P)
-					if(!P.valve_open) return
+			var/has_connection = 0
+			process()
+				if(!vsc.RUN_PUMPS)
+					if(!has_connection)
+						has_connection = 1
+						p_zone.AddConnection(connect)
+					return
+				else
+					if(has_connection)
+						p_zone.RemoveConnection(connect)
+				//world << "Processing"
+				if(pipe_cache_1)
+					if(!pipe_cache_1.valve_open)
+						return
+				if(pipe_cache_2)
+					if(!pipe_cache_2.valve_open)
+						return
 				if(! (stat & NOPOWER) )  // pump if power
 					if(p_zone && connect)
-						connect.gas.transfer_from(connect2.gas, rate)
-						connect.inflow += rate
-						connect2.outflow += rate
-					else if(connect)
-						for(var/turf/T in vleaks)
-							connect.gas.turf_add(T,rate)
-					else if(p_zone)
-						for(var/turf/T in vleaks)
-							p_zone.gas.turf_take(T,rate)
-					use_power(25, ENVIRON)
+						var
+							pgas = p_zone.gas.tot_gas()
+							croom = connect.gas.maximum - connect.gas.tot_gas()
+						connect.gas.transfer_from(p_zone.gas, rate)
+						connect.ext_inflow += min(pgas,croom,rate)
+						p_zone.ext_outflow += min(pgas,croom,rate)
+						use_power(25, ENVIRON)
 
 			updateicon()
 				icon_state = "pipepump-[(stat & NOPOWER) ? "stop" : "run"]"
+				if(!connect) icon_state = "pipepump-stop"
 			power_change()
 				if(powered(ENVIRON))
 					stat &= ~NOPOWER
@@ -563,13 +594,13 @@ obj/a_pipe
 			name = "one-way pipe"
 			icon = 'icons/ss13/pipes.dmi'
 			icon_state = "one-way"
-			PipeProcess()
-				var/obj/a_pipe/divider/valve/P = locate() in get_step(src,dir)
-				if(P)
-					if(!P.valve_open) return
-				P = locate() in get_step(src,turn(dir,180))
-				if(P)
-					if(!P.valve_open) return
+			process()
+				if(pipe_cache_1)
+					if(!pipe_cache_1.valve_open)
+						return
+				if(pipe_cache_2)
+					if(!pipe_cache_2.valve_open)
+						return
 				if(connect && connect2)
 					connect.gas.oneway_gas(connect2.gas,p_zone.CM(),connect.CM())
 				else if(connect2)
@@ -592,9 +623,12 @@ obj/a_pipe
 			density = 1
 			capmult = 1
 			does_not_zone = 1
-			capacity = 600000
+			capacity = 6000000
 
 			//var/pipe_zone/connect
+			Setup()
+				dir = 1
+				. = ..()
 
 
 			proc/control(var/on, var/prate)
@@ -644,22 +678,33 @@ obj/a_pipe
 				updateicon()
 
 
-			PipeProcess()
+			process()
 				if(! (stat & NOPOWER) )				// only do circulator step if powered
-					if(!connect || !connect2)
-						icon_state = "Fail!"
+					if(!connect || !p_zone)
+						//icon_state = "Fail!"
+					//	world << "No connect or p_zone: [connect] [p_zone]"
+						p_zone.contents -= src
+						p_zone = null
+						connect = null
+						Setup()
 						return
 					if(status==1 || status==2)
-						var/obj/a_pipe/divider/valve/P = locate() in get_step(src,1)
-						if(P)
-							if(!P.valve_open) return
-						P = locate() in get_step(src,2)
-						if(P)
-							if(!P.valve_open) return
-						connect.gas.transfer_from(connect2.gas, status==1? rate : rate/2)
-						connect.inflow += status==1? rate : rate/2
-						connect2.outflow += status==1? rate : rate/2
+						var
+							pgas = p_zone.gas.tot_gas()
+							croom = connect.gas.maximum - connect.gas.tot_gas()
+						if(pipe_cache_1)
+							if(!pipe_cache_1.valve_open) return
+						if(pipe_cache_2)
+							if(!pipe_cache_2.valve_open) return
+						connect.gas.transfer_from(p_zone.gas, status==1? rate : rate/2)
+						connect.ext_inflow += min(pgas,croom,status==1? rate : rate/2)
+						p_zone.ext_outflow += min(pgas,croom,status==1? rate : rate/2)
 						use_power(rate/capacity * 100)
+				//		world << "Success?"
+					//else
+					//	world << "Wrong Status"
+				//else
+				//	world << "No Power"
 	pipefilter
 		dir = 2
 		name = "Atmospheric Filter"
@@ -669,42 +714,53 @@ obj/a_pipe
 		var/pipe_zone/filter_zone
 		//filters = 0
 		var/f_per = 300
+		var/last_filter_time = 0
 		Setup()
 			does_not_zone = dir
 			p_dir = turn(dir,90) | turn(dir,-90) | dir
-			spawn(1)
-				var/obj/a_pipe/P = locate() in get_step(src,dir)
-				if(P)
-					filter_zone = P.p_zone
-					P.no_d_check &= turn(dir,180)
-					no_d_check = dir
-					spawn(1) P.ChkDiscon()
-				else
+			spawn(3)
+				var/obj/a_pipe/P
+				for(P in get_step(src,dir))
+					if(P.p_dir & turn(dir,180))
+						filter_zone = P.p_zone
+						if(istype(P,/obj/a_pipe/divider/valve)) pipe_cache_1 = P
+						P.no_d_check &= turn(dir,180)
+						no_d_check = dir
+						break
+						//spawn(1) P.ChkDiscon()
+				if(!P)
 					filter_zone = get_step(src,dir)
 					no_d_check = dir
 			FindZone()
 		proc/Filter(repeat)
-			var/obj/a_pipe/divider/valve/P = locate() in get_step(src,dir)
-			if(P)
-				if(!P:valve_open) return
-			if(!repeat)
-				if(! (stat & NOPOWER) )
-					use_power(min(src.f_per, 100),ENVIRON)
-					var/obj/substance/gas/ndelta = src.get_extract()
-					p_zone.gas.sub_delta(ndelta)
-					if(istype(filter_zone,/pipe_zone))
-						filter_zone.gas.add_delta(ndelta)
-					else
-						ndelta.turf_add(filter_zone,-1)
-				AutoUpdateAI(src)
-				src.updateUsrDialog()
-			else
+			//return "FUCK YOU!"
+			if(last_filter_time > world.time - 10) return
+			if(!p_zone.gas.tot_gas()) return //Nothing to filter.
+			if(pipe_cache_1)
+				if(!pipe_cache_1.valve_open)
+					return
+			//if(!repeat)
+			if(!filter_zone)
+				world << "Epic Fail!"
+				return
+			if(! (stat & NOPOWER) )
+				use_power(min(src.f_per, 100),ENVIRON)
 				var/obj/substance/gas/ndelta = src.get_extract()
 				p_zone.gas.sub_delta(ndelta)
 				if(istype(filter_zone,/pipe_zone))
 					filter_zone.gas.add_delta(ndelta)
 				else
 					ndelta.turf_add(filter_zone,-1)
+				//AutoUpdateAI(src)
+				src.updateUsrDialog()
+				last_filter_time = world.time
+			//else
+			//	var/obj/substance/gas/ndelta = src.get_extract()
+			//	p_zone.gas.sub_delta(ndelta)
+			//	if(istype(filter_zone,/pipe_zone))
+			//		filter_zone.gas.add_delta(ndelta)
+			//	else
+			//		ndelta.turf_add(filter_zone,-1)
 		proc/get_extract()
 			var/obj/substance/gas/ndelta = new()
 			if (src.f_mask & GAS_O2)
@@ -745,10 +801,11 @@ obj/a_meter
 		//	usr << "Plasma: [PL.gas.plasma]"
 		//	usr << "CO2: [PL.gas.co2]"
 			//usr << "N2O: [PL.gas.sl_gas]"
-			var/mf = round(average*1000,0.1)
-			usr << "<b>Mass Flow: [min(mf,100)][(mf > 100?"+":"")]%" //6E6
+			var/mf = round(average*100,0.1)
+			usr << "<b>Mass Flow: [mf]%"//[min(mf,100)][(mf > 100?"+":"")]%" //6E6
+			usr << "<b>Scale: [max(round((average * 18.99)),0)]"
 			usr << "<b>Temperature: [PL.o_gas.temperature]K</b>"
-			usr << "<b>Pressure: [(PL.o_gas.tot_gas() / CELLSTANDARD)*100]kPa</b>"
+			usr << "<b>Pressure: [(PL.o_gas.tot_gas() / CELLSTANDARD)*100]kPa ([PL.o_gas.tot_gas() / PL.gas.maximum]%)</b>"
 	process()
 		if(1)
 			//sleep(PIPE_DELAY)
@@ -762,15 +819,27 @@ obj/a_meter
 
 			use_power(5)
 
-			average = 0.5 * average + 0.5 * P.p_zone.delta()
+			/*average = 0.5 * average + 0.5 * P.p_zone.delta()
 
-			var/val = max(round(average * 189.99),0)
+			var/val = max(round((average * 18.99)),0)
+			if(val > 18)
+				icon_state = "meterOTC" //It's off the scale, cap'n!
+			else
+				icon_state = "meter[val]"*/
+			average = 0.5 * average + 0.5 * (P.p_zone.gas.tot_gas() / P.p_zone.gas.maximum)
+
+			var/val = max(round((average * 18.99)),0)
 			if(val > 18)
 				icon_state = "meterOTC" //It's off the scale, cap'n!
 			else
 				icon_state = "meter[val]"
 
 var/list/pipe_zones = list()
+
+mob/verb/CountFilters()
+	for(var/obj/a_pipe/pipefilter/F in world)
+		.++
+	world << "[.] filters found."
 
 pipe_zone
 	var
@@ -787,12 +856,18 @@ pipe_zone
 		lowest_cap = 6000000.0
 		inflow = 0
 		outflow = 0
+		ext_inflow = 0
+		ext_outflow = 0
 		delta = 0
-		dis_check = 0
+		dis_check = 1
+		is_updating = 0
+
+		exchange_zones = list()
 
 		shown = 0
 
 	New(obj/a_pipe/start,no_spread)
+		set background = 1
 		pipe_zones += src
 		if(!no_spread)
 			contents = GetConnectedPipes(start)
@@ -805,12 +880,30 @@ pipe_zone
 				leaks += P.loc
 			if(istype(P,/obj/a_pipe/vent))
 				exits += P.loc
+			var/turf/T = P.loc
+			exchange_zones += null
+			/*
+			exchange_zones is an array whose x dimension contains the zones that this pipeline crosses,
+			and the y dimension stores the number of pipes of various insulation values of the pipeline.
+			*/
+			if(P.level > 1 || !T.intact || istype(T,/turf/space))
+				if(!(T.zone in exchange_zones))
+					exchange_zones += T.zone
+					exchange_zones[T.zone] = list("[P.insulation]")
+				else
+					if(!("[P.insulation]" in exchange_zones[T.zone]))
+						exchange_zones[T.zone] += "[P.insulation]"
+					var/exch_zone_ins = exchange_zones[T.zone]
+					exch_zone_ins["[P.insulation]"] += 1
+
 		spawn Update()
 		return src
 	proc
 		Update()
+			if(is_updating) return
+			is_updating = 1
 			while(1)
-				sleep(vsc.PIPE_DELAY)
+				sleep(10)
 				if(!ticker) continue
 				if(!dis_check)
 					for(var/obj/a_pipe/P in contents)
@@ -821,11 +914,20 @@ pipe_zone
 				inflow = 0
 				outflow = 0
 				//var/capmult = (contents.len + 1)
-				for(var/obj/a_pipe/A in src)
-					A.PipeProcess()
-				if(shown) world << "=========[gas.maximum]=========="
+				//var/processes = 0
+				//for(var/obj/a_pipe/A in contents)
+				//	A.process()
+				//	sleep(-1)
+					//processes++
+				inflow += ext_inflow// / processes
+				outflow += ext_outflow// / processes
+				ext_inflow = 0
+				ext_outflow = 0
+				//if(ext_inflow) world << "Extra Inflow: [ext_inflow]"
+				//if(ext_outflow) world << "Extra Outflow: [ext_outflow]"
+				//if(shown) world << "=========[gas.maximum]=========="
 				for(var/obj/machinery/atmoalter/A in tanks)
-					var/flow = gas.flow_to_canister(A)
+					var/flow = gas.flow_to_canister(A,CM())
 					if(flow > 0)
 						inflow += flow// * 100
 					else
@@ -836,9 +938,9 @@ pipe_zone
 					var/gt = vsc.FLOWFRAC * (gas.tot_gas() / CM())
 					gas.turf_add(T,gt)
 					outflow += gt
-					if(shown)
-						world << "Gas Released: [gt]"
-						world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
+					//if(shown)
+					//	world << "Gas Released: [gt]"
+					//	world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
 				for(var/pipe_zone/Z in connections)
 					//ExchangeGas(Z)
 					var/flow = gas.exchange_gas(Z.gas,CM(),Z.CM())
@@ -846,28 +948,35 @@ pipe_zone
 						inflow += flow// * 100
 					else
 						outflow += abs(flow)// * 100
-					if(shown)
-						world << "Gas Exchanged to New Zone"
-						world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
-				for(var/obj/a_pipe/pipefilter/F in contents)
-					F.Filter(1)
+				//	if(shown)
+					//	world << "Gas Exchanged to New Zone"
+					//	world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
+				//for(var/obj/a_pipe/pipefilter/F in contents)
+				//	F.Filter(1)
 				for(var/turf/Z in leaks)
 					var/flow = gas.leak_gas(Z,CM())
 					if(flow < 0)
 						inflow += abs(flow)// * 100
 					else
 						outflow += flow// * 100
-					if(shown)
-						world << "Gas Leaked to [Z]"
-						world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
-				if(shown) world << "======================"
+				//	if(shown)
+				//		world << "Gas Leaked to [Z]"
+				//		world << "New total is [gas.tot_gas()] [gas.temperature - T0C]C"
+				//if(shown) world << "======================"
 				var
 					tot_node = gas.tot_gas() / contents.len
 					numnodes = contents.len
-					gtemp = gas.temperature
 				if(tot_node>0.1)		// no pipe contents, don't heat
-					for(var/obj/a_pipe/P in contents)		// for each segment of pipe
-						P.heat_exchange(gas, tot_node, numnodes, gtemp) //, dbg)	// exchange heat with its turf
+					for(var/Z in exchange_zones)
+						var/temp_increase
+						for(var/I in exchange_zones[Z])
+							var/gtemp = gas.temperature
+							var/e_zones = exchange_zones[Z]
+							for(var/p_count = e_zones[I],p_count >= 0,p_count--)
+								temp_increase += heat_exchange(gas,Z,tot_node,numnodes,gtemp,text2num(I))
+						if(istype(Z,/zone))
+							var/zone/ZO = Z
+							ZO.temp += temp_increase / ZO.contents.len
 				delta = max(inflow,outflow)
 
 
@@ -893,13 +1002,15 @@ pipe_zone
 			for(var/obj/a_pipe/P in contents)
 				P.overlays += 'Zone.dmi'
 				for(var/d in cardinal)
-					if(P.p_dir & d)
+					if(P.does_not_zone & d)
+						P.overlays += image('Connect.dmi',dir=d)
+					else if(P.p_dir & d)
 						P.overlays += image('Confirm.dmi',dir=d)
 			shown = 1
 
 		delta()
 			if(!lowest_cap) return 0
-			return delta/lowest_cap
+			return delta/(lowest_cap * CM())
 
 		CM()
 			return contents.len + 1
@@ -907,6 +1018,7 @@ pipe_zone
 
 
 proc/GetConnectedPipes(obj/a_pipe/T)
+	set background = 1
 	. = list()
 	if(!istype(T,/obj/a_pipe))
 		return .
@@ -929,15 +1041,16 @@ proc/GetConnectedPipes(obj/a_pipe/T)
 					//X.ChkDisconD(d)
 					pipe_set += get_step(X,d)
 			for(var/turf/Y in pipe_set)
-				for(var/atom/M in Y)
+				for(var/obj/a_pipe/M in Y)
 					if(M in .) continue
-					else if(istype(M,/obj/a_pipe))
-						if(!(M:p_dir & get_dir(M,X))) continue
-						if(M:does_not_zone & get_dir(M,X)) continue
-						. += M
+					var/gd = get_dir(M,X)
+					if(gd & (gd - 1)) continue
+					if(!(M.p_dir & gd)) continue
+					if(M.does_not_zone & get_dir(M,X)) continue
+					. += M
 						//if(istype(M,/obj/a_pipe/divider)) continue
-						borders += M
-						not_finished = 1
+					borders += M
+					not_finished = 1
 			borders -= X
 
 obj/substance/gas/proc/exchange_gas(obj/substance/gas/target,SCM,TCM)
@@ -992,11 +1105,11 @@ obj/substance/gas/proc/leak_gas(turf/T,SCM)
 		turf_take(T,-amount)
 		. = amount
 
-obj/substance/gas/proc/flow_to_canister(obj/machinery/atmoalter/A)
+obj/substance/gas/proc/flow_to_canister(obj/machinery/atmoalter/A,SCM)
 	var/amount
 	if(A.c_status == 1)				// canister set to release
 		//if(dbg) world.log << "C[tag]PC1: [gas.tot_gas()], [ngas.tot_gas()] <- [connected.gas.tot_gas()]"
-		amount = min(A.c_per, 6000000.0 - tot_gas() )	// limit to space in connector
+		amount = min(A.c_per, max(0,6000000.0 - tot_gas()/SCM) )	// limit to space in connector
 		amount = max(0, min(amount, A.gas.tot_gas() ) )		// limit to amount in canister, or 0
 		//if(dbg) world.log << "C[tag]PC2: a=[amount]"
 		//var/ng = ngas.tot_gas()
@@ -1233,36 +1346,31 @@ obj/substance/gas/proc/flow_to_canister(obj/machinery/atmoalter/A)
 				src.f_mask ^= GAS_N2O
 
 
-/obj/a_pipe/proc/heat_exchange(var/obj/substance/gas/gas, var/tot_node, var/numnodes, var/temp, var/dbg=0)
+pipe_zone/proc/heat_exchange(var/obj/substance/gas/gas, var/zone/zone, var/tot_node, var/numnodes, var/temp, var/insulation)
 //Args: Gas of pipeline, total gas in one pipe segment, number of nodes, temp of pipeline.
+	//return "NO."
+	var/ttemp = 2.7
+	if(zone)
+		ttemp = zone.temp
 
+	//if( level != 1)				// no heat exchange for under-floor pipes
+	if(!zone)		// heat exchange less efficient in space (no conduction)
+		gas.temperature += ( ttemp - temp) / (3.0 * insulation * numnodes)
+	else
 
-	var/turf/T = src.loc		// turf location of pipe
-	if(T.density) return
+	//	if(dbg) world.log << "PHE: ([x],[y]) [T.temp]-> \..."
+		var/delta_T = (ttemp - temp) / (insulation)	// normal turf
 
-	if( level != 1)				// no heat exchange for under-floor pipes
-		if(istype(T,/turf/space))		// heat exchange less efficient in space (no conduction)
-			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
-		else
+		gas.temperature += delta_T	/ numnodes			// heat the pipe due to turf temperature
 
-	//		if(dbg) world.log << "PHE: ([x],[y]) [T.temp]-> \..."
-			var/delta_T = (T.temp() - temp) / (insulation)	// normal turf
+		/*
+		if(abs(delta_T*tot_node/T.tot_gas()) > 1)
+			world.log << "Turf [T] at [T.x],[T.y]: gt=[temp] tt=[T.temp]"
+			world.log << "dT = [delta_T] tn=[tot_node] ttg=[T.tot_gas()] tt-=[delta_T*tot_node/T.tot_gas()]"
 
-			gas.temperature += delta_T	/ numnodes			// heat the pipe due to turf temperature
-
-			/*
-			if(abs(delta_T*tot_node/T.tot_gas()) > 1)
-				world.log << "Turf [T] at [T.x],[T.y]: gt=[temp] tt=[T.temp]"
-				world.log << "dT = [delta_T] tn=[tot_node] ttg=[T.tot_gas()] tt-=[delta_T*tot_node/T.tot_gas()]"
-
-			*/
-			var/tot_turf = max(1, T.tot_gas())
-			T.temp(-(delta_T*min(10,tot_node/tot_turf)))			// also heat the turf due to pipe temp
-							// clamp max temp change to prevent thermal runaway
-							// if low amount of gas in turf
-	//		if(dbg) world.log << "[T.temp] [tot_turf] #[delta_T]"
-			T.res_vars()	// ensure turf tmp vars are updated
-
-	else								// if level 1 but in space, perform cooling anyway - exposed pipes
-		if(istype(T,/turf/space))
-			gas.temperature += ( T.temp() - temp) / (3.0 * insulation * numnodes)
+		*/
+		var/tot_turf = max(1, zone.per_turf())
+		. -= (delta_T*min(10,tot_node/tot_turf))		// also heat the turf due to pipe temp
+						// clamp max temp change to prevent thermal runaway
+						// if low amount of gas in turf
+	//	if(dbg) world.log << "[T.temp] [tot_turf] #[delta_T]"

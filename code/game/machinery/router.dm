@@ -66,11 +66,21 @@ Servicing [connectednets.len + disconnectednets.len] Networks<BR>
 	return dat
 
 /obj/machinery/router/New()
-	for(var/turf/T in range(100))
+	..()
+	for(var/turf/T in range(100,src))
 		if(!T.wireless.Find(src))
 			T.wireless.Add(src)
-	return ..()
+
 /obj/machinery/router/Del()
-	for(var/turf/T in range(100))
+	..()
+	for(var/turf/T in range(100,src))
 		if(T.wireless.Find(src))
 			T.wireless.Remove(src)
+/obj/machinery/router/verb/ResetWifi()
+	var/wificount
+	for(var/turf/T in range(100,src))
+		if(!T.wireless.Find(src))
+			T.wireless.Add(src)
+		wificount += 1
+
+	world << wificount

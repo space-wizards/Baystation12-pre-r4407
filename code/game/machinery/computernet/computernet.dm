@@ -48,6 +48,8 @@ proc/GetUnitId()
 
 /datum/computernet/proc/propagate(packet, messagelist, sendingunit)
 
+	world << messagelist
+
 	if (disrupted)
 		return 0
 
@@ -78,7 +80,7 @@ proc/GetUnitId()
 	return 1
 
 /datum/computernet/proc/send(var/packet as text, var/obj/sendingunit)
-
+	world << "[packet] being send"
 	//Ok, lets break down the message into its key components
 	var/list/messagelist = dd_text2list(packet," ",null)
 
@@ -86,11 +88,12 @@ proc/GetUnitId()
 	messagelist[2] = uppertext(messagelist[2])
 
 	if (messagelist[1] == "000" || messagelist[1] == id) //Check if it's the local net code, or if the netid is the loopback code
-
+		world << "GOING"
 		src.propagate(packet, messagelist, sendingunit)
 
 	else //No, it's on another net
 		if (!(id in routingtable.sourcenets) || !(messagelist[1] in routingtable.sourcenets[src.id]) || !routingtable.sourcenets[src.id][messagelist[1]])
+			world << "CANT GET THERE"
 			return //But it can't get there from here, or better yet either this net or the dest net aren't in the routing table
 				   //If it's one of the latter, hopefully it was caused by a human typoing an id
 

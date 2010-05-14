@@ -18,24 +18,27 @@
 	typeID = gettypeid(type)
 
 /proc/GetTurf(var/obj/object)
-	if(object.loc != null)
+	if(!istype(object,/turf))
 		return GetTurf(object.loc)
 	return object
 
 /obj/item/weapon/wireless/proc/UpdateWireless()
 	var/turf/T = GetTurf(src)
-
+	world << "[T]"
 	if(!T.wireless.Find(router))
-		computernet.nodes.Remove(src)
-		cnetnum = 0
-		computernet = null
+		if(computernet != null)
+			computernet.nodes.Remove(src)
+			cnetnum = 0
+			computernet = null
+	world << "REMOVED"
 
 	if(T.wireless.len >= 1)
 		router = T.wireless[1]
+		world << router
 		cnetnum = router.wirelessnet.number
 		computernet = router.wirelessnet
 		computernet.nodes.Add(src)
-
+	world << "[router.loc.loc]"
 
 /obj/item/weapon/wireless/proc/transmitmessage(message as text)
 	if (!message || !computernet) //If not connected, busted, or powerless then don't bother sending
@@ -72,3 +75,7 @@ obj/item/weapon/wireless/proc/createmessagetomachine(var/message as text, var/ob
 	if (src.computernet != destmachine:computernet)
 		nid = destmachine:computernet.id
 	return uppertext("[nid] [destmachine:computerID] [message]")
+
+/client/verb/checkwifi(var/turf/t as turf)
+	for(var/obj/machinery/router/a in t.wireless)
+		src << a

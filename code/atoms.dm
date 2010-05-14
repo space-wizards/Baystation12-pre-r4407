@@ -51,7 +51,7 @@
 	var/oldachievements = list()
 	var/already_placed = 0.0
 	var/obj/machinery/machine = null
-	var/obj/weapon/weapon = null
+	var/obj/item/weapon/weapon = null
 	var/other_mobs = null
 	var/memory = ""
 	var/poll_answer = 0.0

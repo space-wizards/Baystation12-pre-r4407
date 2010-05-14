@@ -323,7 +323,7 @@ About the new airlock wires panel:
 		src.icon_state = text("door_build_[]",src.build_state)
 	else
 		var/d = src.density
-		if (src.locked)
+		if (src.locked && d)
 			if(src.blocked)
 				d = "_boltedl"
 			else
