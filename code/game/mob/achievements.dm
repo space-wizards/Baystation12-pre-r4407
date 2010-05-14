@@ -2,19 +2,24 @@
 
 	spawn ()
 		if (ismob(src) && src.key)
+			var/list/keys = list()
 			var/DBQuery/cquery = dbcon.NewQuery("SELECT `medal` FROM `medals` WHERE ckey='[src.ckey]'")
-			var/list/medal
+			var/DBQuery/kquery = dbcon.NewQuery("SELECT `ckey` FROM `medals` WHERE ckey='[src.ckey]'")
+			if(!kquery.Execute())
+				messageadmins(cquery.ErrorMsg())
+				world.log_admin(cquery.ErrorMsg())
+			else
+				while(kquery.NextRow())
+					keys = kquery.GetRowData()
 			if(!cquery.Execute())
 				messageadmins(cquery.ErrorMsg())
 				world.log_admin(cquery.ErrorMsg())
 			else
 				while(cquery.NextRow())
 					var/list/column_data = cquery.GetRowData()
-					medal = column_data["medal"]
-			if(medal)
-				for(var/P in medal)
-					if(P == title)
-						return
+					for(var/P in keys)
+						if(title == column_data["medal"])
+							return
 			var/DBQuery/xquery = dbcon.NewQuery("REPLACE INTO `medals` (`ckey`, `medal`, `medaldesc`, `medaldiff`) VALUES ('[src.ckey]', '[title]', '[desc]', '[diff]');")
 			if(!xquery.Execute())
 				messageadmins(xquery.ErrorMsg())

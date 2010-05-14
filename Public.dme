@@ -4,14 +4,6 @@
 
 
 // BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 464.1066
-DIR: code code\game code\game\admin code\game\machinery\computernet code\game\mob code\game\mob\ai code\game\mob\human code\game\objects maps Lib 
-FILE: code\game\mob\human\npc.dm
-LAST_COMPILE_TIME: 1273331146
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -72,6 +64,7 @@ AUTO_FILE_DIR: ON
 #define FILE_DIR "interface"
 #define FILE_DIR "maps"
 #define FILE_DIR "maps/backup"
+#define FILE_DIR "maps/modules"
 #define FILE_DIR "music"
 #define FILE_DIR "sound"
 #define FILE_DIR "sound/damage"

@@ -69,7 +69,7 @@
 			G.layer = 52
 			H.belt = G
 			var/obj/item/weapon/radio/R = new /obj/item/weapon/radio/headset( H )
-			R.freq = 146.5
+			R.freq = 140.0
 			R.layer = 52
 			H.w_radio = R
 

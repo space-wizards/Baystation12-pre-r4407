@@ -931,7 +931,7 @@
 		src.opened = 1
 	else
 		user << "\blue It's welded shut!"
-		user.unlock_medal("IT'S A TRAP", 1, "Get trapped inside of a welded locker.", "easy")
+		user.unlock_medal("ITS A TRAP", 1, "Get trapped inside of a welded locker.", "easy")
 		for(var/mob/M in hearers(src, null))
 			M << text("<FONT size=[]>BANG, bang!</FONT>", max(0, 5 - get_dist(src, M)))
 	return

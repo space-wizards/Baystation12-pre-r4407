@@ -69,6 +69,7 @@ Servicing [connectednets.len + disconnectednets.len] Networks<BR>
 	for(var/turf/T in range(100))
 		if(!T.wireless.Find(src))
 			T.wireless.Add(src)
+	return ..()
 /obj/machinery/router/Del()
 	for(var/turf/T in range(100))
 		if(T.wireless.Find(src))
