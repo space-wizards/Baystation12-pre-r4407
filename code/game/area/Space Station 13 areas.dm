@@ -173,7 +173,6 @@ area/administrative/court/counsel
 //Elevators
 area/elevators
 	icon_state = "yellow"
-	sd_lighting = 0
 
 area/elevators/centcom
 	name = "Centcom Elevator"

@@ -44,7 +44,7 @@ client/Command(C as command_text)
 	if (C == "mac_close")
 		src.mob.machine = null
 
-	if (src.mob.machine)
+	if (src.mob.machine && istype(src.mob.machine, /obj/machinery))
 		src.mob.machine.UIinput(C)
 
 	if (src.holder)

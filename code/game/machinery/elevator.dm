@@ -119,6 +119,9 @@ Base Design:
 /obj/landmark/elevator/stop
 	name = "(Floor Name Here)"
 
+/obj/landmark/elevator/fixlight
+	name = "Lighting Patch"
+
 /obj/landmark/elevator/cab/New()
 	..()
 	var/datum/elevator/E = get_elevator(id)
@@ -139,6 +142,13 @@ Base Design:
 	else if (z > E.maxfloor)
 		E.maxfloor = z
 	del src
+
+/obj/landmark/elevator/fixlight/New()
+	..()
+	spawn(5)
+		var/datum/elevator/E = get_elevator(id)
+		var/datum/elevfloor/EF = E.get_floor(z)
+		EF.fixlights += get_turf(src.loc)
 
 /obj/machinery/computer/elevator/New()
 	..()
@@ -208,6 +218,7 @@ Base Design:
 	var/req = 0
 	var/obj/machinery/elevator/panel/panel = null
 	var/list/obj/machinery/elevator/callbutton/buttons = list()
+	var/list/turf/fixlights = list()
 
 /datum/elevfloor/proc/clear()
 	called = 0
@@ -222,7 +233,7 @@ Base Design:
 			return EF
 	return null
 
-/datum/elevator/proc/set_doors(open)
+/datum/elevator/proc/set_doors(open, floor = currentfloor)
 	var/c = 0
 	for(var/obj/machinery/door/poddoor/P in world)
 		if (P.id != id)
@@ -237,7 +248,15 @@ Base Design:
 				computer.transmitmessage(computer.createmessagetomachine("[P.get_password()] CLOSE", P))
 				c = 1
 	doorstate = open
+	if (c && floor)
+		spawn(open ? 15 : 16)
+			fixlights(floor)
 	return c
+
+/datum/elevator/proc/fixlights(var/floor)
+	var/datum/elevfloor/EF = get_floor(floor)
+	for (var/turf/T in EF.fixlights)
+		T.sd_RasterLum()
 
 /datum/elevator/proc/move(var/target_floor = targetfloor)
 	if (moving)
@@ -250,23 +269,25 @@ Base Design:
 		targ--
 	spawn(0)
 		if (currentfloor != targ)
-			if(set_doors(0))
+			if(set_doors(0, currentfloor))
 				sleep(40)
 			computer.use_power(400)
 			for(var/area/B in area.superarea.areas)
 				for(var/atom/movable/AM as mob|obj in B)
-					if (AM.z != currentfloor)
+					if (AM.z != currentfloor || istype(AM, /obj/landmark))
 						continue
 					AM.Move(locate(AM.x, AM.y, targ))
 				for(var/turf/T as turf in B)
 					T.buildlinks()
 			sleep(15)
+			fixlights(currentfloor)
+			fixlights(targ)
 			currentfloor = targ
 			sleep(40)
 		if (currentfloor == target_floor)
 			var/datum/elevfloor/EF = get_floor(currentfloor)
 			EF.clear()
-			set_doors(1)
+			set_doors(1, currentfloor)
 			spawn(90)
 				var/holdopen = 1
 				while(holdopen)
@@ -278,10 +299,11 @@ Base Design:
 						var/list/contents = D.loc.contents.Copy()
 						contents -= D
 						contents -= locate(/obj/computercable, D.loc)
+						contents -= locate(/obj/landmark, D.loc)
 						contents -= locate(/obj/move, D.loc)
 						if (contents.len)
 							holdopen = 1
-				set_doors(0)
+				set_doors(0, currentfloor)
 		if (currentfloor == target_floor)
 			enroute = 0
 		moving = 0

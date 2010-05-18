@@ -1,0 +1,9 @@
+"a" = (/obj/closet,/obj/bloodtemplate,/obj/bloodtemplate{icon_state = "floor5"},/turf/station/floor,/area)
+"b" = (/obj/bloodtemplate{icon_state = "floor5"},/turf/station/floor,/area)
+"c" = (/obj/stool/bed,/obj/bloodtemplate{icon_state = "floor4"},/obj/bloodtemplate,/obj/item/weapon/bedsheet,/turf/station/floor,/area)
+"d" = (/obj/bloodtemplate{icon_state = "floor3"},/obj/bloodtemplate{icon_state = "floor4"},/turf/station/floor,/area)
+
+(1,1,1) = {"
+ab
+cd
+"}

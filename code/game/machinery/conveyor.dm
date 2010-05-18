@@ -37,9 +37,9 @@
 /obj/machinery/conveyor/proc/toggle()
 	on = !on
 	if (on)
-		view(4,src) << sound('sound/machinery/conveyor/start.wav', 0, 0, 2, 50)
+		hear_sound(sound('sound/machinery/conveyor/start.wav', 0, 0, 2, 50), 4)
 	else
-		view(4,src) << sound('sound/machinery/conveyor/stop.wav', 0, 0, 2, 50)
+		hear_sound(sound('sound/machinery/conveyor/stop.wav', 0, 0, 2, 50), 4)
 	spawn(1)
 		updateicon()
 

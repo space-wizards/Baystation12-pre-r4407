@@ -476,6 +476,23 @@ turf
 			sd_lumcount = 0
 			sd_ApplyLocalLum(affected)
 
+		sd_RasterLum()
+			/* Perform a reverse lighting calc to determine the correct lighting
+			    for a turf.  V. expensive but it works */
+
+			src.sd_lumcount = 0
+			for (var/atom/A in range(sd_top_luminosity, src))
+				if (!A.luminosity)
+					continue
+				var/Dist = get_dist(A, src)
+				if (Dist >= A.luminosity)
+					continue
+				if (src in view(Dist, A))
+					src.sd_lumcount += A.luminosity - Dist
+
+			src.sd_LumUpdate()
+
+
 		sd_LumUpdate()
 			var/area/Loc = loc
 			if(!istype(Loc) || !Loc.sd_lighting) return

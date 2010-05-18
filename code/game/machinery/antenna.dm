@@ -49,3 +49,4 @@
 	var/obj/machinery/antenna/base/base = null
 	cnetdontadd = 1
 	nohack = 1
+	anchored = 1

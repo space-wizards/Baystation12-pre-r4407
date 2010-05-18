@@ -52,6 +52,7 @@
 	var/oldachievements = list()
 	var/already_placed = 0.0
 	var/obj/machinery/machine = null
+	var/obj/item/weapon/weapon = null
 	var/other_mobs = null
 	var/memory = ""
 	var/poll_answer = 0.0
@@ -2831,8 +2832,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/directwiredCnet = 1
 	var/computerID = 0
 	var/typeID = null
-	var/global/list/usedtypes = list()
-	var/global/list/usedids = list()
 	var/netID = 0
 	var/sniffer = 0
 	var/ailabel = ""
@@ -3695,7 +3694,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/insulation = NORMPIPERATE
 	var/plnum = 0
 	var/obj/machinery/pipeline/pl
-	level = 2
+	level = 1
 	cnetdontadd = 1
 	nohack = 1
 

@@ -714,7 +714,7 @@ var/update_state = 0
 			if(!M)
 				return
 			M.Life()
-			if (M.machine && M.client)
+			if (M.machine && M.client && istype(M.machine, /obj/machinery))
 				M.machine.UIUpdate(M.client)
 			return
 	sleep(3)

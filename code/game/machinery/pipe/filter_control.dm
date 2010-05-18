@@ -10,6 +10,7 @@
 		for(var/obj/a_pipe/inlet/filter/F in machines)
 			if(F.control == src.control)
 				F.f_mask = src.f_mask
+
 /obj/machinery/filter_control/attack_ai(mob/user as mob)
 	return src.attack_hand(user)
 

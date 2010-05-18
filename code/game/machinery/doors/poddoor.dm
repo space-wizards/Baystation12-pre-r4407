@@ -64,6 +64,7 @@
 	src.operating = 1
 	flick("pdoorc1", src)
 	src.icon_state = "pdoor1"
+	sleep(15)
 	src.density = 1
 	CloseDoor(src)
 	sd_SetOpacity(1)
@@ -71,7 +72,6 @@
 	if (istype(T, /turf))
 		T.updatecell = 0
 		CloseDoor(src)
-	sleep(15)
 	src.operating = 0
 	return
 

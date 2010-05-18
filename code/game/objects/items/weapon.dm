@@ -145,3 +145,6 @@
 				M.updatehealth()
 		return
 	return
+
+/obj/item/weapon/proc/UIinput(C as text)
+	return 0
