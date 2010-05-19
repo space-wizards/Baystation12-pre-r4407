@@ -65,12 +65,6 @@ Servicing [connectednets.len + disconnectednets.len] Networks<BR>
 		dat += "Network [net.id] \[<A href='?src=\ref[src];toggle=[net.id]'>Connect</A>]<BR>"
 	return dat
 
-/obj/machinery/router/New()
-	..()
-	for(var/turf/T in range(100,src))
-		if(!T.wireless.Find(src))
-			T.wireless.Add(src)
-
 /obj/machinery/router/Del()
 	..()
 	for(var/turf/T in range(100,src))

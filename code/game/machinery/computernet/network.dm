@@ -42,7 +42,7 @@
 		if(M.cnetnum && !M.cnetdontadd)
 			M.computernet = computernets[M.cnetnum]
 			if(!M.computerID)
-				world.log << "[M] is not calling its ..() in New()!"
+				world.log << "<b>[M] is not calling its ..() in New()!</b>"
 			M.computernet.nodes[M.computerID] = M
 			M.computernet.nodes += M //Add both as an association and directly.
 
@@ -64,16 +64,8 @@
 		if (R.connectednets.len)
 			R.computernet = pick(R.connectednets) //Network discovery can be a fun game!
 
-		var/datum/computernet/PN = new()
-		computernets += PN
-		netcount++
-		PN.number = netcount
-		PN.nodes[R.computerID] = R
-		PN.nodes += R //Add both as an association and directly.
-		R.wirelessnet = PN
-		R.connectednets += PN
-		PN.routers += R
-
+	for(var/obj/machinery/wirelessap/R in world)
+		R.wirelessnet = R.computernet
 
 	for(var/obj/machinery/antenna/base/B in world)
 		B.build = 0

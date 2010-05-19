@@ -4843,7 +4843,6 @@ obj/machinery/vendingmachine/soda
 	var/list/datum/computernet/connectednets = list()
 	var/list/datum/computernet/disconnectednets = list()
 	req_access_txt = "103"
-	var/datum/computernet/wirelessnet = null
 
 /obj/machinery/mailserver
 	name = "Mail Server"

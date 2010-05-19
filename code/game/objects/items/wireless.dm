@@ -1,5 +1,5 @@
 /obj/item/weapon/wireless/
-	var/obj/machinery/router/router
+	var/obj/machinery/wirelessap/ap
 	var/cnetnum = 0
 	var/datum/computernet/computernet = null
 	var/uniqueid = null
@@ -8,9 +8,6 @@
 	var/typeID = null
 	var/netID = 0
 	var/sniffer = 0
-	var/ailabel = ""
-	var/list/mob/ai/ais = list()
-
 
 /obj/item/weapon/wireless/New()
 	..()
@@ -24,21 +21,16 @@
 
 /obj/item/weapon/wireless/proc/UpdateWireless()
 	var/turf/T = GetTurf(src)
-	world << "[T]"
-	if(!T.wireless.Find(router))
+	if(!T.wireless.Find(ap))
 		if(computernet != null)
-			computernet.nodes.Remove(src)
+			computernet.nodes -= src
 			cnetnum = 0
 			computernet = null
-	world << "REMOVED"
-
 	if(T.wireless.len >= 1)
-		router = T.wireless[1]
-		world << router
-		cnetnum = router.wirelessnet.number
-		computernet = router.wirelessnet
-		computernet.nodes.Add(src)
-	world << "[router.loc.loc]"
+		ap = T.wireless[1]
+		cnetnum = ap.wirelessnet.number
+		computernet = ap.wirelessnet
+		computernet.nodes += src
 
 /obj/item/weapon/wireless/proc/transmitmessage(message as text)
 	if (!message || !computernet) //If not connected, busted, or powerless then don't bother sending
@@ -50,9 +42,6 @@
 	return ""
 
 /obj/item/weapon/wireless/proc/receivemessage(var/message, var/obj/srcmachine)
-
-	for (var/mob/ai/AI in ais)
-		AI.AIreceivemessage(message,srcmachine)
 
 	var/list/commands = dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
 	if(commands.len < 1)
@@ -76,6 +65,8 @@ obj/item/weapon/wireless/proc/createmessagetomachine(var/message as text, var/ob
 		nid = destmachine:computernet.id
 	return uppertext("[nid] [destmachine:computerID] [message]")
 
-/client/verb/checkwifi(var/turf/t as turf)
-	for(var/obj/machinery/router/a in t.wireless)
+/mob/verb/checkwifi(var/turf/t as turf)
+	set name = "Check Wifi"
+	set category = "Debug"
+	for(var/obj/machinery/wirelessap/a in t.wireless)
 		src << a

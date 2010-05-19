@@ -233,6 +233,7 @@
 #include "code\game\machinery\supply_shuttle.dm"
 #include "code\game\machinery\teleporter.dm"
 #include "code\game\machinery\turrets.dm"
+#include "code\game\machinery\computernet\accesspoint.dm"
 #include "code\game\machinery\computernet\buildroutingtable.dm"
 #include "code\game\machinery\computernet\chatserver.dm"
 #include "code\game\machinery\computernet\computernet.dm"

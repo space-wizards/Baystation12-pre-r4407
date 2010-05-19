@@ -32,6 +32,10 @@ proc/BuildRoutingTable()
 
 proc/BuildRoutingPath(var/datum/computernet/srccnet, var/datum/computernet/destcnet, var/datum/rtable/R)
 	dbg1++
+	if (srccnet.routers.len == 0 || destcnet.routers.len == 0)
+		R.sourcenets[srccnet.id][destcnet.id] = null
+		return
+
 	var/list/datum/computernet/path = SubBuildRoutingPath(srccnet, destcnet, list())
 
 	R.sourcenets[srccnet.id][destcnet.id] = path
@@ -59,7 +63,8 @@ proc/SubBuildRoutingPath(var/datum/computernet/curnet, var/datum/computernet/des
 			if (!results)
 				continue
 			results += curnet
-			return results
+
+			return results //Comment out to use a slower but better "find-path" mechanism
 
 			if (!best || best.len > results.len)
 				best = results
