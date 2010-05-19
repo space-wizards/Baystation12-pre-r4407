@@ -1,9 +1,12 @@
 vs_control/var
-	AF_TINY_MOVEMENT_THRESHOLD = 25 //% difference to move tiny items.
-	AF_SMALL_MOVEMENT_THRESHOLD = 35 //% difference to move small items.
-	AF_NORMAL_MOVEMENT_THRESHOLD = 50 //% difference to move normal items.
-	AF_LARGE_MOVEMENT_THRESHOLD = 60 //% difference to move large and huge items.
-	AF_MOVEMENT_THRESHOLD = 75 //% difference to move dense crap and mobs.
+	AF_TINY_MOVEMENT_THRESHOLD = 15 //% difference to move tiny items.
+	AF_SMALL_MOVEMENT_THRESHOLD = 25 //% difference to move small items.
+	AF_NORMAL_MOVEMENT_THRESHOLD = 30 //% difference to move normal items.
+	AF_LARGE_MOVEMENT_THRESHOLD = 40 //% difference to move large and huge items.
+	AF_MOVEMENT_THRESHOLD = 45 //% difference to move dense crap and mobs.
+
+	AF_PERCENT_OF = CELLSTANDARD*5
+
 	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
 	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
 	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
@@ -57,7 +60,7 @@ proc/Airflow(zone/A,zone/B,n)
 
 	//return
 	//Comment this out to use airflow again.
-
+	n = round(n/vsc.AF_PERCENT_OF * 100,0.1)
 
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]

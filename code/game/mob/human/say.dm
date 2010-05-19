@@ -46,7 +46,7 @@
 				sentmessage = message
 			if (src.w_radio)
 				src.w_radio.talk_into(usr, sentmessage)
-			L += hearers(1)
+			L += hearers(1,src)
 			obj_range = 1
 			italics = 1
 
@@ -59,7 +59,7 @@
 				sentmessage = message
 			if (src.r_hand)
 				src.r_hand.talk_into(usr, sentmessage)
-			L += hearers(1)
+			L += hearers(1,src)
 			obj_range = 1
 			italics = 1
 		else if (findtext(message, ":l") == 1) // left hand
@@ -71,7 +71,7 @@
 				sentmessage = message
 			if (src.l_hand)
 				src.l_hand.talk_into(usr, sentmessage)
-			L += hearers(1)
+			L += hearers(1,src)
 			obj_range = 1
 			italics = 1
 		else if (findtext(message, ":w") == 1) //whisper
@@ -81,7 +81,7 @@
 				sentmessage = stutter(message)
 			else
 				sentmessage = message
-			L += hearers(1)
+			L += hearers(1,src)
 			obj_range = 1
 			italics = 1
 		else if (findtext(message, ":i") == 1)
@@ -91,14 +91,15 @@
 				sentmessage = stutter(message)
 			else
 				sentmessage = message
-			for(var/obj/item/weapon/radio/intercom/I in view(1))
+			for(var/obj/item/weapon/radio/intercom/I in view(1,src))
 				I.talk_into(usr, message)
-			L += hearers(1)
+			L += hearers(1,src)
 			obj_range = 1
 			italics = 1
 
 		else
-			L += hearers(1)
+			L += hearers(src)
+			obj_range = 7
 
 		L -= src
 		L += src
@@ -121,8 +122,7 @@
 				spawn( 0 )
 				if (O)
 					O.hear_talk(usr, sentmessage)
-					return
-		if(src.zombie)
+					break
 			return
 		if (((src.oxygen && src.oxygen.icon_state == "oxy0") || (!( (istype(T, /turf) || istype(T, /obj/move)) ) || T.oxygen > 0)))
 			for(var/mob/M in L)
@@ -137,8 +137,8 @@
 			spawn( 0 )
 			if (O)
 				O.hear_talk(usr, sentmessage)
-				return
-	for(var/mob/M in world)
-		if (M.stat > 1)
-			M << text("<B>[]</B>[] []: []", src.rname, alt_name, (src.stat > 1 ? "\[<I>dead</I> \]" : ""), sentmessage)
+				break
+	//for(var/mob/M in world)
+	//	if (M.stat > 1)
+	//		M << text("<B>[]</B>[] []: []", src.rname, alt_name, (src.stat > 1 ? "\[<I>dead</I> \]" : ""), sentmessage)
 	return

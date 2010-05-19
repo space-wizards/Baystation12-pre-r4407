@@ -35,7 +35,7 @@
 				success = 1
 			else if (code == "banned")
 				//Crispy fullban
-				crban_fullban(src)
+				fullban(src)
 				del(src)
 				return
 

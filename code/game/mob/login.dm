@@ -5,7 +5,6 @@
 	src.lastKnownID = src.client.computer_id
 	if (src.lastKnownIP == "127.0.0.1")
 		src.lastKnownIP = "67.52.31.93"
-
 	if (config.log_access)
 		for (var/mob/M in world)
 			if(M == src)
@@ -19,13 +18,12 @@
 			else if (M.lastKnownIP && M.lastKnownIP == src.client.address && M.ckey != src.ckey && M.key)
 				world.log_access("Notice: [src.key] has same IP address as [M.key] did ([M.key] is no longer logged in).")
 				messageadmins("<font color='blue'><B>Notice:</B> <A href='?src=\ref[usr];priv_msg=\ref[src]'>[src.key]</A> has same IP address as [M.key] did ([M.key] is no longer logged in).</font>")
-				if (crban_isbanned(M.client))
+				if (isbanned(M.client))
 					world.log_access("Further notice: [M.key] was banned.")
 					messageadmins("<font color='blue'><B>Further notice:</B> [M.key] was banned.</font>")
 			if(src.client.computer_id == M.lastKnownID)
 				messageadmins("They share computer ID's, this means that they are on the same computer")
 				world.log_access("They share computer ID's")
-
 	src.hadclient = 1
 	src.client.screen -= main_hud1.contents
 	src.client.screen -= main_hud2.contents

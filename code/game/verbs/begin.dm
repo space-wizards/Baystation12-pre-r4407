@@ -55,21 +55,6 @@
 	if (ticker)
 		world << "\blue [usr.rname] has arrived on the station!"
 		usr << "<B>Game mode is [master_mode].</B>"
-
-/*	var/mob/human/M = usr
-	var/area/A = locate(/area/arrival/start)
-	var/list/L = list()
-	for(var/turf/T in A)
-		if(T.isempty())
-			L += T
-
-	while(!L.len)
-		usr << "\blue <B>You were unable to enter because the arrival shuttle has been destroyed! The game will reattempt to spawn you in 30 seconds!</B>"
-		sleep(300)
-		for(var/turf/T in A)
-			if(T.isempty())
-				L += T
-*/
 	var/mob/human/M = usr //Update the person-placement blocks with these two
 	var/area/A = locate(/area/arrival/start)
 	var/list/L = list()
@@ -77,7 +62,6 @@
 		for(var/turf/T in B)
 			if(T.isempty())
 				L += T
-
 	while(!L.len)
 		usr << "\blue <B>You were unable to enter because the arrival shuttle has been destroyed! The game will reattempt to spawn you in 30 seconds!</B>"
 		sleep(300)
@@ -85,16 +69,15 @@
 			for(var/turf/T in B)
 				if(T.isempty())
 					L += T
-
-
 	if(ticker)
-		reg_dna[M.primary.uni_identity] = M.rname
 		if(ticker.mode.name == "sandbox")
-			M.CanBuild()
+			usr.CanBuild()
+
 
 
 	M << "\blue Now teleporting."
 	M.loc = pick(L)
+
 
 /obj/begin/proc/get_dna_ready(var/mob/user as mob)
 	var/mob/human/M = user //dnamarker2

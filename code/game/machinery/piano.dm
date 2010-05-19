@@ -2,6 +2,7 @@
 	name = "Piano"
 	icon = 'piano.dmi'
 	icon_state = "piano"
+	density = 1
 	var/cooldown = 0
 	var/church = 1
 	var/sound/S = sound('sound/piano1.wav')

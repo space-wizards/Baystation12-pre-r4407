@@ -1,4 +1,4 @@
-/mob/var/zombieleader = 0
+mob/var/zombieleader = 0
 mob/var/zombieimmune = 0
 /mob/proc/zombify()
 	stat &= 1
@@ -13,6 +13,9 @@ mob/var/zombieimmune = 0
 	see_in_dark = 5
 	src.sight = 38
 	UpdateClothing()
+	src.verbs += /mob/proc/supersuicide
+	if(zombieleader)
+		src.verbs -= /mob/proc/zombierelease
 	src << "\red<font size=3> You have become a zombie!"
 	for(var/mob/M in viewers(src, null))
 		if ((M.client && !( M.blinded )))
@@ -80,8 +83,9 @@ mob/var/zombieimmune = 0
 /mob/proc/traitor_infect()
 	becoming_zombie = 1
 	zombieleader = 1
-	src << "You feel a strange itch"
-	sleep(300)
+	src.verbs += /mob/proc/zombierelease
+	src << "You have been implanted with a chemical canister you can either release it yourself or wait until it activates."
+	sleep(3000)
 	if(becoming_zombie)
 		zombify()
 
@@ -94,7 +98,7 @@ mob/var/zombieimmune = 0
 		sleep(400)
 		if(becoming_zombie)
 			zombify()
-/mob/verb/supersuicide()
+/mob/proc/supersuicide()
 	set name = "Zombie suicide"
 	set hidden = 0
 	if(zombie == 1)
@@ -108,3 +112,9 @@ mob/var/zombieimmune = 0
 				return
 	else
 		src << "Only for zombies."
+
+/mob/proc/zombierelease()
+	set name = "Zombify"
+	set desc = "Turns you into a zombie"
+	if(zombieleader)
+		zombify()

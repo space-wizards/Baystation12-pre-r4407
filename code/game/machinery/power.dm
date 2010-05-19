@@ -221,13 +221,13 @@
 		t += "Output : [round(lastgen)] W<BR><BR>"
 
 		t += "<B>Cold loop</B><BR>"
-		t += "Temperature Inlet: [round(a_circ1.connect2.gas.temperature, 0.1)] K  Outlet: [round(a_circ1.connect.gas.temperature, 0.1)] K<BR>"
+		t += "Temperature Inlet: [round(a_circ1.p_zone.gas.temperature, 0.1)] K  Outlet: [round(a_circ1.connect.gas.temperature, 0.1)] K<BR>"
 
 		t += "Circulator: [c1on ? "<B>On</B> <A href = '?src=\ref[src];c1p=1'>Off</A>" : "<A href = '?src=\ref[src];c1p=1'>On</A> <B>Off</B> "]<BR>"
 		t += "Rate: <A href = '?src=\ref[src];c1r=-3'>M</A> <A href = '?src=\ref[src];c1r=-2'>-</A> <A href = '?src=\ref[src];c1r=-1'>-</A> [add_lspace(c1rate,3)]% <A href = '?src=\ref[src];c1r=1'>+</A> <A href = '?src=\ref[src];c1r=2'>+</A> <A href = '?src=\ref[src];c1r=3'>M</A><BR>"
 
 		t += "<B>Hot loop</B><BR>"
-		t += "Temperature Inlet: [round(a_circ2.connect2.gas.temperature, 0.1)] K  Outlet: [round(a_circ2.connect.gas.temperature, 0.1)] K<BR>"
+		t += "Temperature Inlet: [round(a_circ2.p_zone.gas.temperature, 0.1)] K  Outlet: [round(a_circ2.connect.gas.temperature, 0.1)] K<BR>"
 
 		t += "Circulator: [c2on ? "<B>On</B> <A href = '?src=\ref[src];c2p=1'>Off</A>" : "<A href = '?src=\ref[src];c2p=1'>On</A> <B>Off</B> "]<BR>"
 		t += "Rate: <A href = '?src=\ref[src];c2r=-3'>M</A> <A href = '?src=\ref[src];c2r=-2'>-</A> <A href = '?src=\ref[src];c2r=-1'>-</A> [add_lspace(c2rate,3)]% <A href = '?src=\ref[src];c2r=1'>+</A> <A href = '?src=\ref[src];c2r=2'>+</A> <A href = '?src=\ref[src];c2r=3'>M</A><BR>"

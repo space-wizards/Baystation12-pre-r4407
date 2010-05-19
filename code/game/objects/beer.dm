@@ -156,10 +156,12 @@
 					M.requests += O
 					spawn( 0 )
 						O.process()
+						add_food(M,0,10)
 						return
 				else
 					src.add_fingerprint(user)
 					ingest(M)
+					add_food(M,0,10)
 					user <<"\blue <B>You take a swig of SPACE BEER!</b>"
 				return
 /*			else

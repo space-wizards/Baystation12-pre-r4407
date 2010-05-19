@@ -146,14 +146,29 @@
 //	world << check_death(ticker.killer2)
 //	world << check_death(ticker.killer3)
 	var/revvictory=1
-	for(var/target in ticker.targets)
-		if(!check_death(target))        //if one of the targets is not dead, no victory
-			revvictory=0
-
+//	for(var/target in ticker.targets)
+//		if(!check_death(target))        //if one of the targets is not dead, no victory
+//			revvictory=0			//Quick fix due to to the other shit not working for some reason
+	if(!check_death(ticker.target))
+		revvictory = 0
+	if(!check_death(ticker.target2))
+		revvictory = 0
+	if(!check_death(ticker.target3))
+		revvictory = 0
+	if(!check_death(ticker.target4))
+		revvictory = 0
+	if(!check_death(ticker.target5))
+		revvictory = 0
 	var/stationvictory=1
-	for(var/rev in ticker.revs)
-		if(!check_death(rev))
-			stationvictory=0
+//	for(var/rev in ticker.revs)
+//		if(!check_death(rev))
+//			stationvictory=0
+	if(!check_death(ticker.killer))
+		stationvictory = 0
+	if(!check_death(ticker.killer2))
+		stationvictory = 0
+	if(!check_death(ticker.killer3))
+		stationvictory = 0
 	//victory messages are sent if needed
 	if(revvictory)
 		revvictory()

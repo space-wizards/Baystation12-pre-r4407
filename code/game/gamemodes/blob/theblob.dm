@@ -122,6 +122,20 @@
 /obj/blob/examine()
 	set src in oview(1)
 	usr << "A mysterious alien blob-like organism."
+/obj/blob/proc/life2()
+	if (blobs.len > 0)
+		for (var/i = 1 to 25)
+			if (blobs.len == 0)
+				break
+
+			var/obj/blob/B = pick(blobs)
+			var/turf/BL = B.loc
+
+			for (var/atom/A in B.loc)
+				A.blob_act()
+
+			B.Life()
+			BL.buildlinks()
 
 /datum/station_state/proc/count()
 	for(var/turf/T in world)

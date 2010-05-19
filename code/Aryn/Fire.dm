@@ -19,6 +19,9 @@ turf/proc/temp_set(n)
 var/fire_spread = 0
 proc/FireTicker()
 	var/fticks = 0
+	spawn(5)
+		for(var/turf/station/T)
+			T.GetDistLinks()
 	while(1)
 		sleep(1)
 		fticks++
@@ -34,7 +37,9 @@ proc/FireTicker()
 					del T.fire_icon
 
 				if(T.firelevel > 100000) T.burn = 1
-				else T.burn = 0
+				else
+					T.firelevel = 0
+					T.burn = 0
 		//sleep(GAS_FLOW_DELAY)
 		if(!(fticks % vsc.GAS_FLOW_DELAY))
 			//world << "<b>Gas Flow!!</b>"
@@ -69,13 +74,13 @@ turf
 					fire_icon = new('Fire.dmi',icon_state="1")
 
 				overlays -= fire_icon
-				if(firelevel >= 200000)
+				if(firelevel >= 500000)
 					fire_icon.icon_state = "5"
-				else if(firelevel >= 175000)
+				else if(firelevel >= 400000)
 					fire_icon.icon_state = "4"
-				else if(firelevel >= 150000)
+				else if(firelevel >= 300000)
 					fire_icon.icon_state = "3"
-				else if(firelevel >= 125000)
+				else if(firelevel >= 200000)
 					fire_icon.icon_state = "2"
 				else
 					fire_icon.icon_state = "1"
@@ -134,6 +139,6 @@ turf
 			temp((T20C - temp) / vsc.FIRERATE)
 		oldfirelevel = firelevel
 
-	verb/ShowTemp()
-		set src in view()
-		zone.speakmychild=1
+	//verb/ShowTemp()
+	//	set src in view()
+	//	zone.speakmychild=1

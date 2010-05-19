@@ -37,7 +37,7 @@ var
 	abandon_allowed = 1
 	enter_allowed = 1
 	shuttle_frozen = 0
-
+	BLOOD_FOR_THE_BLOOD_GOD = 0
 	random_illnesses = 1
 
 	list/bombers = list(  )

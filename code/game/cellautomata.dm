@@ -205,12 +205,10 @@ var/map_loading = 1
 		powernets_building = 0
 		makepowernets()
 		makecomputernets()
+		getdb()
 		world.log << "World Setup Complete"
 		//----
-
-	crban_loadbanfile()
 	gen_access()
-	crban_updatelegacybans()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
 	LoadPlayerData()

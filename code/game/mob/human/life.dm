@@ -9,7 +9,6 @@
 	src.updatehealth()
 	if (src.monkeyizing)
 		return
-
 	var/obj/move/shuttlefloor = locate(/obj/move, T)	// fuck obj/move
 	if (isturf(T))	//let cryo/sleeper handle adjusting body temp in their respective alter_health procs
 		src.bodytemperature = adjustBodyTemp(src.bodytemperature, (shuttlefloor ? shuttlefloor.temp : T.temp()), 0.5)
@@ -25,6 +24,7 @@
 	if (src.stat != 2)
 
 /////////////////////////////////
+
 		if (src.firemut)
 			if (prob(25) && src.toxloss > 5)
 				src.toxloss -= 5
@@ -34,6 +34,10 @@
 			U = src.loc
 			if (istype(U, /turf))
 				U.firelevel = U.poison
+		if(src.hunger <= 50)
+			if(prob(25))
+				for(var/mob/M in viewers())
+					show_message("[src] collapses!")
 		if (src.clumsy && prob(1))
 			if (!src.lying)
 				src << "\red You stumble and hit your head."
@@ -760,7 +764,8 @@
 
 /mob/var/noclip = 0
 
-/mob/verb/noclip()
-	if(src.client.holder)
+/mob/proc/noclip()
+	var/client/C = src
+	if(C.holder)
 		src.noclip = !src.noclip
 		src << "\blue Noclip [src.noclip?"On":"Off"]"

@@ -1,0 +1,215 @@
+23-03:ADMIN: Loading jobban_rank
+23-03:ADMIN: Updating jobbanfile!
+23-03:GAME: Finished building powernets (33 nets)
+23-03:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-03:GAME: starting game of sandbox
+23-03:GAME: ReaperSWE entered as Erec Rompstoff
+23-03:VOTE: Voting to restart round started by Erec Rompstoff/ReaperSWE
+23-03:VOTE: Voting closed, result was restart
+23-03:GAME: Rebooting due to restart vote
+23-03:ACCESS: Logout: ReaperSWE
+23-12:ADMIN: Loading jobban_rank
+23-12:ADMIN: Updating jobbanfile!
+23-12:ADMIN: not connected
+23-12:ADMIN: not connected
+23-12:ADMIN: not connected
+23-12:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-12:ADMIN: not connected
+23-12:GAME: Finished building powernets (33 nets)
+23-12:ACCESS: Login: X2yzh9 from 75.141.149.144
+23-12:ACCESS: Logout: X2yzh9
+23-12:ACCESS: Login: Ridley4 from 98.242.200.156
+23-12:GAME: Ridley4 entered as Jane Hammelyn
+23-12:OOC: Erec Rompstoff/ReaperSWE : :-O
+23-12:GAME: ReaperSWE entered as Erec Rompstoff
+23-12:OOC: Jane Hammelyn/Ridley4 : Sup.
+23-12:OOC: Jane Hammelyn/Ridley4 : So.
+23-12:OOC: Erec Rompstoff/ReaperSWE : now we wait..
+23-12:OOC: Jane Hammelyn/Ridley4 : Ever saw how SS13&#39;s map looked before it went OSS?
+23-12:OOC: Erec Rompstoff/ReaperSWE : umm... maybe.
+23-12:OOC: Jane Hammelyn/Ridley4 : Found an ancient dme from &#39;06.
+23-12:OOC: Jane Hammelyn/Ridley4 : A very stripped down SS13 that just had the various turf, mob, obj, etc. definitions.
+23-12:OOC: Jane Hammelyn/Ridley4 : As well as the area definitions for the fire alarms.
+23-12:OOC: Jane Hammelyn/Ridley4 : Including the very old map before the engine even had any function at all.
+23-12:GAME: starting game of sandbox
+23-12:OOC: Jane Hammelyn/Ridley4 : oh god
+23-12:OOC: Erec Rompstoff/ReaperSWE : sandbox :-S
+23-12:OOC: Erec Rompstoff/ReaperSWE : hm. can&#39;t spawn captain&#39;s spare anymore
+23-12:MATTACK: Erec Rompstoff (ReaperSWE) attacked Erec Rompstoff(ReaperSWE) with the metal
+23-12:ACCESS: Login: Grakelin from 99.236.173.157
+23-12:GAME: Grakelin entered as William Winters
+23-12:ACCESS: Login: Headswe from 127.0.0.1
+23-12:OOC: Ronkiv Ronziv/Headswe : NUM NUM NUM
+23-12:OOC: Erec Rompstoff/ReaperSWE : OM NOM NOM
+23-12:OOC: Ronkiv Ronziv/Headswe : btw
+23-12:OOC: Ronkiv Ronziv/Headswe : if you wanna test console
+23-12:OOC: Ronkiv Ronziv/Headswe : i can most likely get you in
+23-12:OOC: Ronkiv Ronziv/Headswe : if you just post on the forum
+23-12:OOC: Erec Rompstoff/ReaperSWE : which one of them?
+23-12:OOC: Ronkiv Ronziv/Headswe : http://console.androiddata.net/index.php/topic,1379.30.html
+23-12:OOC: Jane Hammelyn/Ridley4 : Fuck yeah, Console.
+23-12:OOC: Erec Rompstoff/ReaperSWE : hm. bugs. &#34;Unusable emote &#39;wimper&#39;. Say *help for a list.#&#34;
+23-12:OOC: William Winters/Grakelin : what is console?
+23-12:OOC: Jane Hammelyn/Ridley4 : An ExAdv1 project of Ye Olde Days.
+23-12:OOC: Jane Hammelyn/Ridley4 : Data is probably saying he made it - sure, he likely improved it (and I pray he dealt with the flashbang exploit) but it is nothing new.
+23-12:OOC: William Winters/Grakelin : from what I read, it&#39;s supposed to be something like Uplink. Is it all hacking and stuff?
+23-12:OOC: Erec Rompstoff/ReaperSWE : message sent.
+23-12:ACCESS: Logout: 
+23-12:ACCESS: Login: ReaperSWE from 78.73.123.189
+23-12:ACCESS: They share computer ID's
+23-12:OOC: Jane Hammelyn/Ridley4 : Nope.
+23-12:OOC: Jane Hammelyn/Ridley4 : And NOTHING like Uplink.
+23-12:OOC: Jane Hammelyn/Ridley4 : At least, the Console I know.
+23-12:OOC: Jane Hammelyn/Ridley4 : Data may&#39;ve raped it.
+23-12:OOC: William Winters/Grakelin : is there an extra step to removing r-walls?
+23-12:OOC: Jane Hammelyn/Ridley4 : But Console as I know it was one step away from bare metal.
+23-12:OOC: Erec Rompstoff/ReaperSWE : well... what step are you on?
+23-12:OOC: Jane Hammelyn/Ridley4 : PS: Nostalgic ancient shit from a bygone era in SS13 in the B12 forums.
+23-12:ACCESS: Login: Megakillerman from 96.251.112.99
+23-12:OOC: William Winters/Grakelin : I tried welding it, but I don&#39;t get a message, though I do run out of fuel (I am using a weldfueltank, so I&#39;m set in that regard)
+23-12:OOC: Sarvesh Blockcrossbow/Megakillerman : WWWWWWWWUUUUUUUUUUUUZZZZZZZZZUUUUUUUUPPPPPPPPPPPPP?
+23-12:ACCESS: Login: Dervin366 from 24.154.218.115
+23-12:OOC: Jane Hammelyn/Ridley4 : There is a LOT of extra steps to dismantling r_walls.
+23-12:GAME: Megakillerman entered as Sarvesh Blockcrossbow
+23-12:OOC: Erec Rompstoff/ReaperSWE : You use up welding fuel every time you click.. regardless of outcome
+23-12:OOC: Jane Hammelyn/Ridley4 : Wirecutters first.
+23-12:ACCESS: Logout: Megakillerman
+23-12:GAME: Dervin366 entered as Danny Larson
+23-12:OOC: William Winters/Grakelin : aaah, that makes sense, no wonder
+23-12:OOC: Jane Hammelyn/Ridley4 : All and all.
+23-12:OOC: Jane Hammelyn/Ridley4 : Play Dr. Mendeleev with a toolbox+crowbar.
+23-12:OOC: Jane Hammelyn/Ridley4 : You&#39;ll get through eventually.
+23-12:SAY: Danny Larson/Dervin366 : Hello.
+23-12:SAY: William Winters/Grakelin : hello
+23-12:OOC: Jane Hammelyn/Ridley4 : But yeah.
+23-12:OOC: Erec Rompstoff/ReaperSWE : Wirecutters, screwdriver, welder,wrench,crowbar,welder wrench.. or somethimng along those lines
+23-12:OOC: Jane Hammelyn/Ridley4 : You guys should totally look at the old map.
+23-12:OOC: Jane Hammelyn/Ridley4 : You missed the second crowbar.
+23-12:OOC: Jane Hammelyn/Ridley4 : Before the final wrench.
+23-12:OOC: Erec Rompstoff/ReaperSWE : *sigh* rapidshare..
+23-12:OOC: Erec Rompstoff/ReaperSWE : rapid my arse.
+23-12:OOC: Jane Hammelyn/Ridley4 : Megaupload wasn&#39;t working.
+23-12:OOC: Jane Hammelyn/Ridley4 : And I don&#39;t have a second box to run a small webserver from.
+23-12:OOC: Jane Hammelyn/Ridley4 : Would love to have one though.
+23-12:OOC: Jane Hammelyn/Ridley4 : To be honest?
+23-12:OOC: Jane Hammelyn/Ridley4 : I think that ancient thing is one of the very last copies existing.
+23-12:OOC: Jane Hammelyn/Ridley4 : /me awesome archive
+23-12:OOC: Erec Rompstoff/ReaperSWE : I&#39;ve played on that map.
+23-12:OOC: Jane Hammelyn/Ridley4 : The great Olde Days, amirite?
+23-12:OOC: Erec Rompstoff/ReaperSWE : allow respawn should be on in sandbox mode :-/
+23-12:OOC: William Winters/Grakelin : yeah, that would be nice, especially on quiet nights like this
+23-12:OOC: Jane Hammelyn/Ridley4 : This was before there was electricity.
+23-12:OOC: Jane Hammelyn/Ridley4 : And atmos repair was busting open a canister of O2.
+23-12:OOC: Jane Hammelyn/Ridley4 : And if the air temperature was 2000C? Pfft, no problem. Just pray there&#39;s not any plasma to ignite.
+23-12:OOC: William Winters/Grakelin : I figured out the r-wall chain! Thanks for your help guys!
+23-12:OOC: Jane Hammelyn/Ridley4 : NP.
+23-12:OOC: Erec Rompstoff/ReaperSWE : Now, what were you going to accomplish in there?
+23-12:OOC: William Winters/Grakelin : is it possible to fix the walls and stuff, too?
+23-12:OOC: Danny Larson/Dervin366 : Yeah
+23-12:OOC: Erec Rompstoff/ReaperSWE : pick up the metal and start building.
+23-12:OOC: Danny Larson/Dervin366 : Just use metal.
+23-12:OOC: Jane Hammelyn/Ridley4 : Man, those were the days.
+23-12:OOC: Jane Hammelyn/Ridley4 : Dwarf bombs were all the rage too if you wanted to be plain heinous.
+23-12:OOC: Jane Hammelyn/Ridley4 : One of the few Guaranteed Ways to get &#34;Everyone is dead! Restarting in 30 seconds...&#34;
+23-12:OOC: Erec Rompstoff/ReaperSWE : 5 peeps..
+23-12:OOC: Erec Rompstoff/ReaperSWE :  minus ronkiv.
+23-12:ACCESS: Login: LordTroy from 79.228.234.53
+23-12:GAME: LordTroy entered as Yen McGee
+23-12:OOC: Yen McGee/LordTroy : Nice new doors!Q
+23-12:OOC: Erec Rompstoff/ReaperSWE : well..
+23-12:OOC: Yen McGee/LordTroy : Nice new windows!
+23-12:OOC: Erec Rompstoff/ReaperSWE : they&#39;re still using the old emag animation
+23-12:OOC: Yen McGee/LordTroy : Nice new everything!
+23-12:SAY: Yen McGee/LordTroy : Heya
+23-12:SAY: William Winters/Grakelin : Hello
+23-12:SAY: William Winters/Grakelin : I&#39;m fixing this wall
+23-12:SAY: Yen McGee/LordTroy : Sure you are.
+23-12:SAY: William Winters/Grakelin : I really am
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the laser gun
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the laser gun
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the laser gun
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the laser gun
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the energy sword
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the energy sword
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the energy sword
+23-12:MATTACK: Yen McGee (LordTroy) attacked William Winters(Grakelin) with the energy sword
+23-12:OOC: William Winters/Grakelin : Why? :(
+23-12:OOC: Erec Rompstoff/ReaperSWE : Dervin..
+23-12:OOC: Danny Larson/Dervin366 : Yes?
+23-12:OOC: William Winters/Grakelin : what is a thunderdome suit, and where do you get it?
+23-12:OOC: Erec Rompstoff/ReaperSWE : you spawn one in sandbox.
+23-12:OOC: Erec Rompstoff/ReaperSWE : and then rape everyone.
+23-12:OOC: William Winters/Grakelin : ah, I see
+23-12:OOC: Erec Rompstoff/ReaperSWE : ..apparentally.
+23-12:OOC: William Winters/Grakelin : well, I&#39;m dead now
+23-12:OOC: Danny Larson/Dervin366 : How?
+23-12:OOC: Erec Rompstoff/ReaperSWE : Greifing ofc.
+23-12:OOC: William Winters/Grakelin : somebody beat me to death with an emtpy laser gun
+23-12:OOC: Danny Larson/Dervin366 : Wasn&#39;t me.
+23-12:OOC: Danny Larson/Dervin366 : Was LordTroy I&#39;m guessing.
+23-12:OOC: Yen McGee/LordTroy : whut
+23-12:OOC: Erec Rompstoff/ReaperSWE : Greifing goonpie.
+23-12:OOC: Yen McGee/LordTroy : Im building my house in space
+23-12:OOC: William Winters/Grakelin : It was &#39;Yen McGee&#39;. I was just learning how to fix walls. :(
+23-12:OOC: Yen McGee/LordTroy : And thats IC in OOC
+23-12:OOC: Erec Rompstoff/ReaperSWE : We&#39;re in sandbox.
+23-12:OOC: Danny Larson/Dervin366 : It&#39;s sandbox...
+23-12:OOC: William Winters/Grakelin : would somebody mind tossing me in the genetic respawn? I&#39;m in the HoP&#39;s quarters. He rebuilt the wall, though, so you&#39;ll have to break in
+23-12:OOC: Danny Larson/Dervin366 : What a dick.
+23-12:OOC: William Winters/Grakelin : Also, bring a gun, since he&#39;s standing outside waiting now
+23-12:OOC: Danny Larson/Dervin366 : Shit.
+23-12:OOC: Danny Larson/Dervin366 : Can&#39;t find one in the spawn menu.
+23-12:OOC: Danny Larson/Dervin366 : You should also admin help it.
+23-12:OOC: Erec Rompstoff/ReaperSWE : heads is afk.
+23-12:OOC: Danny Larson/Dervin366 : Even if the admin is AFK.
+23-12:OOC: Danny Larson/Dervin366 : Can you spawn guns?
+23-12:OOC: Erec Rompstoff/ReaperSWE : didn&#39;t see any in the list.
+23-12:OOC: William Winters/Grakelin : there really needs to be some fix on the amount of blood that comes out of our bodies.
+23-12:OOC: Erec Rompstoff/ReaperSWE : ...cryo tube? :-/
+23-12:OOC: Erec Rompstoff/ReaperSWE : do you even know how to revive people?
+23-12:OOC: Erec Rompstoff/ReaperSWE : Before murdering them?
+23-12:OOC: Danny Larson/Dervin366 : Should I still kill him?
+23-12:OOC: Danny Larson/Dervin366 : Also I don&#39;t know how to revive people either.
+23-12:OOC: Erec Rompstoff/ReaperSWE : Great.
+23-12:OOC: William Winters/Grakelin : it looks like he&#39;s going to revive me, so I guess we&#39;re all settled
+23-12:OOC: Erec Rompstoff/ReaperSWE : he&#39;s not.
+23-12:OOC: Danny Larson/Dervin366 : He put you in a cryotube...
+23-12:OOC: William Winters/Grakelin : he&#39;s got me in a medical scanner now
+23-12:OOC: Erec Rompstoff/ReaperSWE : and then the disconnected SCANNER
+23-12:OOC: William Winters/Grakelin : maybe he&#39;s just doing tests on me, then. =/
+23-12:OOC: Erec Rompstoff/ReaperSWE : Disconnected.
+23-12:OOC: Danny Larson/Dervin366 : There has been six players this whole time.
+23-12:OOC: Yen McGee/LordTroy : Gawd I died in space 
+23-12:OOC: Danny Larson/Dervin366 : So it&#39;s either Ridley or LordTroy.
+23-12:OOC: Danny Larson/Dervin366 : And I don&#39;t think its Ridley.
+23-12:OOC: Yen McGee/LordTroy : Nope im dead in space
+23-12:OOC: Erec Rompstoff/ReaperSWE : Ridley the captain.
+23-12:OOC: Danny Larson/Dervin366 : Is Yin still alive/
+23-12:OOC: Danny Larson/Dervin366 : ?
+23-12:OOC: Erec Rompstoff/ReaperSWE : hmmm.. to ask or not to ask..
+23-12:VOTE: Voting to restart round started by Erec Rompstoff/ReaperSWE
+23-12:OOC: William Winters/Grakelin : he&#39;s painting the station now
+23-12:OOC: Jane Hammelyn/Ridley4 : Sorry.
+23-12:OOC: Erec Rompstoff/ReaperSWE : Ass.
+23-12:OOC: Danny Larson/Dervin366 : It&#39;s LordTroy I&#39;m pretty sure.
+23-12:OOC: Danny Larson/Dervin366 : He&#39;s the newest person on here.
+23-12:OOC: Erec Rompstoff/ReaperSWE : It&#39;d Ridley.
+23-12:OOC: Yen McGee/LordTroy : No im dead in space
+23-12:OOC: Danny Larson/Dervin366 : So it is Ridley?
+23-12:OOC: Jane Hammelyn/Ridley4 : Huh?
+23-12:OOC: Danny Larson/Dervin366 : Wait...
+23-12:OOC: Danny Larson/Dervin366 : I am confused.
+23-12:OOC: William Winters/Grakelin : Isn&#39;t Ridley Jane?
+23-12:OOC: Jane Hammelyn/Ridley4 : Mmhm.
+23-12:OOC: William Winters/Grakelin : if so, it can&#39;t be ridley
+23-12:OOC: Erec Rompstoff/ReaperSWE : oh wait.
+23-12:VOTE: Voting closed, result was restart
+23-12:OOC: Erec Rompstoff/ReaperSWE : yea
+23-12:GAME: Rebooting due to restart vote
+23-12:MATTACK: Yen McGee (LordTroy) attacked Yen McGee(LordTroy) with the toolbox
+23-12:ACCESS: Logout: ReaperSWE
+23-12:ACCESS: Logout: Ridley4
+23-12:ACCESS: Logout: Grakelin
+23-12:ACCESS: Logout: Headswe
+23-12:ACCESS: Logout: LordTroy
+23-12:ACCESS: Logout: Dervin366

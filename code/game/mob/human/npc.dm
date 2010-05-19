@@ -3,9 +3,9 @@ mob/human/npc
 	var/mob/target
 	var/debug = 1
 mob/human/npc/New()
-	process()
+	think()
 	return ..()
-mob/human/npc/proc/process()
+mob/human/npc/proc/think()
 
 /*
 	doing nothing = 1
@@ -30,30 +30,30 @@ mob/human/npc/proc/process()
 				if(!target)
 					step_rand(src)
 					spawn(10)
-					process()
+					think()
 					return
 				else
 					mainstate = 2
 					spawn(10)
-					process()
+					think()
 					return
 			if(2)
 				if(!(target in oviewers(world.view,src)))
 					target = null
 					mainstate = 1
 					spawn(10)
-					process()
+					think()
 					return
 				walk_towards(src,target,1)
 				if(target in oviewers(world.view,src))
 					attack_hand(target)
 					spawn(10)
-					process()
+					think()
 					return
 				else
 					walk_towards(src,target,1)
 					spawn(10)
-					process()
+					think()
 					return
 
 

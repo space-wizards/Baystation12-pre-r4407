@@ -8,7 +8,6 @@
 	var/fingerprints = null
 	var/blood = null
 	var/zombieblood = null
-
 	var/hitpoints = 100
 
 /atom/movable
@@ -2965,6 +2964,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "siphon:0"
 /obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon
 	name = "Airlock Siphon"
+/obj/machinery/atmoalter/siphs/fullairsiphon/halfairsiphon/airlock_vent
+	name = "Airlock Regulator"
+	icon_state = "wmsiphon:0"
+	alterable = 0.0
+	density = 0	//*****
 /obj/machinery/atmoalter/siphs/fullairsiphon/air_vent
 	name = "Air regulator"
 	icon = 'aircontrol.dmi'
@@ -4495,6 +4499,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	desc = "A file cabinet.  You can somehow fit inside it."
 	name = "File Cabinet"
 
+/obj/closet/food
+	desc = "A food cabinet."
+	name = "Food Cabinet"
+/obj/closet/meat
+	desc = "A meat locker"
+	name = "Meat Locker"
 /obj/closet/gmcloset
 	desc = "A bulky (yet mobile) closet. Comes with formal clothes"
 	name = "Formal closet"
@@ -4702,13 +4712,14 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "std_mod"
 	s_istate = "electronic"
 	desc = "A vita component for a computer"
-obj/machinery/vendingmachine/soda
-	name = "Soda Machine"
-	desc = "A vending machine for soda"
-	var/spacebubbles = 10
-/obj/item/weapon/cans/spacebubble
-	name = "Space Bubble Can"
-	desc = "Best soft-drink in the world"
+obj/machinery/vendingmachine/water
+	name = "Space Mountain Mineral Water Dispensor"
+	desc = "A vending machine for the famous Space Mountain Mineral Water!"
+	anchored = 1
+	density = 1
+	icon = 'food.dmi'
+	icon_state = "watervend"
+	var/water = 30
 /obj/item/weapon/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 /mob/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 
