@@ -4,6 +4,14 @@
 
 
 // BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 464.1066
+DIR: code code\game code\game\gamemodes\nuclear code\game\machinery code\game\machinery\computernet code\game\mob code\game\mob\ai code\game\mob\human code\game\objects code\game\objects\items code\game\objects\items\radio code\game\objects\items\radio\PDA maps Lib 
+FILE: code\game\machinery\computernet\chatserver.dm
+LAST_COMPILE_TIME: 1273881423
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
@@ -52,6 +60,7 @@
 #define FILE_DIR "code/game/objects/items/misc/pill"
 #define FILE_DIR "code/game/objects/items/parts"
 #define FILE_DIR "code/game/objects/items/radio"
+#define FILE_DIR "code/game/objects/items/radio/PDA"
 #define FILE_DIR "code/game/objects/items/toolkit"
 #define FILE_DIR "code/game/objects/items/weapon"
 #define FILE_DIR "code/game/objects/items/weapon/gun"
@@ -234,6 +243,7 @@
 #include "code\game\machinery\turrets.dm"
 #include "code\game\machinery\vendingmachine.dm"
 #include "code\game\machinery\computernet\buildroutingtable.dm"
+#include "code\game\machinery\computernet\chatserver.dm"
 #include "code\game\machinery\computernet\computernet.dm"
 #include "code\game\machinery\computernet\network.dm"
 #include "code\game\machinery\computernet\physicalcable.dm"
@@ -309,6 +319,7 @@
 #include "code\game\objects\items\storage.dm"
 #include "code\game\objects\items\weapon.dm"
 #include "code\game\objects\items\weapon_attack.dm"
+#include "code\game\objects\items\wireless.dm"
 #include "code\game\objects\items\ground_items\bedsheetbin.dm"
 #include "code\game\objects\items\ground_items\displacedgirders.dm"
 #include "code\game\objects\items\ground_items\lattice.dm"
@@ -379,6 +390,8 @@
 #include "code\game\objects\items\radio\radio.dm"
 #include "code\game\objects\items\radio\signaler.dm"
 #include "code\game\objects\items\radio\syndicate_uplink.dm"
+#include "code\game\objects\items\radio\PDA\Homepage.dm"
+#include "code\game\objects\items\radio\PDA\PDA.dm"
 #include "code\game\objects\items\toolkit\analyser.dm"
 #include "code\game\objects\items\toolkit\igniter.dm"
 #include "code\game\objects\items\toolkit\screwdriver.dm"

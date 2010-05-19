@@ -7702,3 +7702,48 @@
 22-19:ACCESS: Login: Ihateoutside from 88.105.99.104
 22-19:GAME: Ihateoutside entered as Tirist Vomitriver
 22-19:ACCESS: Logout: Ihateoutside
+23-14:ADMIN: Loading jobban_rank
+23-14:ADMIN: Updating jobbanfile!
+23-14:GAME: Finished building powernets (33 nets)
+23-14:GAME: starting game of extended
+23-14:ACCESS: Login: X2yzh9 from 75.141.149.144
+23-14:GAME: X2yzh9 entered as Cog Bedhammer
+23-14:ACCESS: Logout: X2yzh9
+23-14:ACCESS: Login: Adhesive from 71.38.129.154
+23-14:GAME: Adhesive entered as Bob Bobson
+23-14:SAY: Bob Bobson/Adhesive : Okay before I do this
+23-14:SAY: Bob Bobson/Adhesive : ARE YOU A PERSON
+23-14:SAY: Bob Bobson/Adhesive : okay
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:MATTACK: Bob Bobson (Adhesive) attacked Cog Bedhammer(X2yzh9) with Fire Extinguisher
+23-14:GAME: Rebooting because of no live players
+23-14:ACCESS: Logout: Adhesive
+23-43:ADMIN: Loading jobban_rank
+23-43:ADMIN: Updating jobbanfile!
+23-43:GAME: Finished building powernets (33 nets)
+23-43:GAME: starting game of extended
+23-43:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-43:GAME: OzyTheSage entered as Ozymandias Blazelever
+23-43:VOTE: Voting to restart round started by Ozymandias Blazelever/OzyTheSage
+23-43:VOTE: Voting closed, result was restart
+23-43:GAME: Rebooting due to restart vote
+23-43:ACCESS: Logout: OzyTheSage
+23-57:ADMIN: Loading jobban_rank
+23-57:ADMIN: Updating jobbanfile!
+23-57:GAME: Finished building powernets (33 nets)
+23-57:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-57:GAME: OzyTheSage entered as Ozymandias Blazelever
+23-57:VOTE: Voting to change mode started by Ozymandias Blazelever/OzyTheSage
+23-57:GAME: starting game of extended
+23-57:ACCESS: Logout: 
+23-57:ACCESS: Login: OzyTheSage from 98.118.48.126
+23-57:ACCESS: They share computer ID's
+23-57:VOTE: Voting closed, result was extended
+23-57:GAME: Rebooting due to mode vote
+23-57:ACCESS: Logout: OzyTheSage
