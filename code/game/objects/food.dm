@@ -11,6 +11,7 @@
 /obj/item/weapon/food/salami
 	name = "salami"
 	icon_state = "sal"
+
 /obj/item/weapon/food/
 	icon = 'food.dmi'
 	var/gotbutter = 0
@@ -85,16 +86,19 @@ obj/item/weapon/food/bread/attackby(obj/item/weapon/W as obj, mob/user as mob)
 		for(var/mob/O in viewers(user, null))
 			O.show_message(text("[] puts some [] on [] ", user, W, src), 1)
 		del W
+
 obj/item/weapon/food/meat
 	name = "Meat Stick"
 	icon = 'food.dmi'
 	icon_state = "meat"
 	var/charges = 3
+
 obj/item/weapon/food/cheese
 	name = "Cheese"
 	icon = 'food.dmi'
 	icon_state = "cheese2"
 	var/charges = 3
+
 /obj/item/weapon/food/meat/attack(mob/M as mob, mob/user as mob)
 	if(M == user)
 		for(var/mob/O in viewers(M, null))
@@ -117,12 +121,15 @@ obj/item/weapon/food/cheese
 				V.show_message(text("[] finishes eating []", M, src), 1)
 			del src
 		return
+
 obj/item/weapon/food/plump
 	name = "Plump Helmet"
 	icon = 'food.dmi'
 	icon_state = "plump"
 	desc = "A rare delicacy from a distant planet!"
 	var/charges = 3
+
+
 /obj/item/weapon/food/plump/attack(mob/M as mob, mob/user as mob)
 	if(M == user)
 		for(var/mob/O in viewers(M, null))

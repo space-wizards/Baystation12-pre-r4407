@@ -58,7 +58,8 @@
 
 /mob/human/verb/QwertyuiopasSaidSo()
 	set hidden = 1
-	if((admins[src.client.ckey] in list( "Administrator", "Primary Administrator", "Super Administrator", "Host" )))
+	var/datum/admininfo/A = GetAdmin(src.client.ckey)
+	if(A && A.rank >= 2)
 		if (!ticker)
 			world << "<B>The game will now start immediately thanks to [usr.key]!</B>"
 			going = 1

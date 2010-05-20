@@ -42,7 +42,9 @@ var
 
 	list/bombers = list(  )
 	list/lastsignalers = list(	)	//keeps last 100 signals here in format: "[src] used \ref[src] @ location [src.loc]: [freq]/[code]"
-	list/admins = list(  )
+
+	list/datum/admininfo/admins = list( )
+
 	list/shuttles = list(  )
 	list/reg_dna = list(  )
 	list/traitobj = list(  )

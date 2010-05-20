@@ -165,6 +165,7 @@
 		src.status += ": [dd_list2text(features, ", ")]"
 
 var/map_loading = 1
+
 /world/New()
 	..()
 	sd_SetDarkIcon('sd_dark_alpha7.dmi', 7)
@@ -206,6 +207,7 @@ var/map_loading = 1
 		makepowernets()
 		makecomputernets()
 		getdb()
+		LoadAdmins()
 		world.log << "World Setup Complete"
 		//----
 	gen_access()
@@ -263,19 +265,6 @@ var/map_loading = 1
 	no_auth_motd = file2text("config/motd-noauth.txt")
 	if (motd)
 		join_motd = motd
-
-	var/ad_text = file2text("config/admins.txt")
-	var/list/L = dd_text2list(ad_text, "\n")
-	for(var/t in L)
-		if (t)
-			if (copytext(t, 1, 2) == ";")
-				continue
-			var/t1 = findtext(t, " - ", 1, null)
-			if (t1)
-				var/m_key = copytext(t, 1, t1)
-				var/a_lev = copytext(t, t1 + 3, length(t) + 1)
-				admins[m_key] = a_lev
-				world.log << ("ADMIN: [m_key] = [a_lev]")
 
 	// apply some settings from config..
 	abandon_allowed = config.respawn

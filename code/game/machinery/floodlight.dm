@@ -9,19 +9,21 @@
 	var/unlocked = 0
 	var/open = 0
 	var/chargepre
+
 /obj/machinery/floodlight/process()
 	while(on)
 		sleep(10)
-		if(!cell)
+		if(!cell && luminosity)
 			icon_state = "floodo00"
 			sd_SetLuminosity(0)
 			return
 		cell.charge -= use
 		src.chargepre = cell.charge / cell.maxcharge
-		if(cell.charge <= 0)
+		if(cell.charge <= 0 && luminosity)
 			icon_state = "floodo00"
 			sd_SetLuminosity(0)
 			return
+
 /obj/machinery/floodlight/attack_hand()
 	if(unlocked && open)
 		if(cell)
@@ -49,6 +51,7 @@
 		sd_SetLuminosity(10)
 		process()
 		return
+
 /obj/machinery/floodlight/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/screwdriver))
 		if(unlocked)
@@ -80,6 +83,7 @@
 				if(cell)
 					overlays += "floodob"
 				del W
+
 /obj/machinery/floodlight/New()
 	src.cell = new/obj/item/weapon/cell(src)
 	cell.maxcharge = 1000

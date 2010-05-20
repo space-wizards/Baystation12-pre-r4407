@@ -2117,7 +2117,7 @@
 "aOK" = (/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/obj/machinery/pipes{icon_state = "10"; level = 2; name = "Piping \[ALWAYSSHOW]"; p_dir = 10; tag = ""},/turf/station/floor,/area/maintenance/hall)
 "aOL" = (/obj/machinery/light,/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/obj/computercable,/turf/station/floor,/area/maintenance/hall)
 "aOM" = (/obj/machinery/manifold{dir = 4; p_dir = 7},/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/turf/station/floor,/area/maintenance/hall)
-"aON" = (/obj/machinery/pipes{layer = 2.9},/obj/cable{icon_state = "1-2"; d1 = 1; d2 = 2},/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/turf/station/floor,/area/maintenance/hall)
+"aON" = (/obj/cable{icon_state = "1-2"; d1 = 1; d2 = 2},/obj/computercable{cabletype = "-S"; icon_state = "4-8-S"; tag = "icon-4-8-S"},/obj/machinery/pipes{layer = 2.9; level = 2; name = "Piping \[ALWAYSSHOW]"},/turf/station/floor,/area/maintenance/hall)
 "aOO" = (/obj/machinery/door/firedoor,/obj/computercable{cabletype = "-S"; icon_state = "2-8-S"; tag = "icon-2-8-S"},/obj/machinery/pipes{layer = 2.9; level = 2; name = "Piping \[ALWAYSSHOW]"},/obj/machinery/door/airlock/engineering{name = "Maintenance"; req_access_txt = "2"},/turf/station/floor,/area/maintenance/hall)
 "aOP" = (/obj/computercable{cabletype = "-S"; icon_state = "1-2-S"; tag = "icon-1-2-S"},/obj/machinery/pipes{layer = 2.9; level = 2; name = "Piping \[ALWAYSSHOW]"},/turf/station/floor,/area/hallway/east)
 "aOQ" = (/obj/cable{icon_state = "1-2"; d1 = 1; d2 = 2},/obj/machinery/pipes{layer = 2.9; level = 2; name = "Piping \[ALWAYSSHOW]"},/turf/station/floor,/area/hallway/east)

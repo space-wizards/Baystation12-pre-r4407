@@ -158,6 +158,7 @@
 #include "code\game\virus.dm"
 #include "code\game\vote.dm"
 #include "code\game\admin\admin.dm"
+#include "code\game\admin\admininfo.dm"
 #include "code\game\admin\ban.dm"
 #include "code\game\admin\banjob.dm"
 #include "code\game\admin\create_object.dm"

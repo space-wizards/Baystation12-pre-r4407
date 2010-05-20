@@ -4502,9 +4502,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/closet/food
 	desc = "A food cabinet."
 	name = "Food Cabinet"
+
 /obj/closet/meat
 	desc = "A meat locker"
 	name = "Meat Locker"
+
 /obj/closet/gmcloset
 	desc = "A bulky (yet mobile) closet. Comes with formal clothes"
 	name = "Formal closet"
@@ -4711,7 +4713,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'module.dmi'
 	icon_state = "std_mod"
 	s_istate = "electronic"
-	desc = "A vita component for a computer"
+	desc = "A vital component for a computer"
 obj/machinery/vendingmachine/water
 	name = "Space Mountain Mineral Water Dispensor"
 	desc = "A vending machine for the famous Space Mountain Mineral Water!"

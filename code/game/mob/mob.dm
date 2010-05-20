@@ -1939,33 +1939,36 @@ var/client/isbanned = 0
 			world.update_stat()
 
 		..()
-		if (!admins.Find(src.ckey))
-			src << "\blue <B>[join_motd]</B>"
-			src << "Server hosted by Saint, a.k.a. Mr. Peanuts"
-			src.authorize()
-		if (admins.Find(src.ckey))
+
+
+
+
+		var/datum/admininfo/IA = GetAdmin(src.ckey)
+		if (IA)
 			if(config.crackdown)
 				src << "<font color = red>config.crackdown == 1</font color>"
 			if (auth_motd)
 				src << "\blue <B>[auth_motd]</B>"
 			else if (!auth_motd)
 				src << "\blue <B>[join_motd]</B>"
-			src.authorize()
+		else
+			src << "\blue <B>[join_motd]</B>"
 
-		if (admins.Find(src.ckey))
+		src.authorize()
+
+		if (IA)
 			src.admin = 1
 			src.holder = new /obj/admins(src)
-			src.holder.rank = admins[src.ckey]
+			src.holder.rank = IA.rankname
+			src.holder.level = IA.rank
 			src.SetupAdminPanel()
-			switch (admins[src.ckey])
-				if ("Host")
-					src.holder.level = 5
-	//				src.verbs += /datum/proc/variables
+			switch (IA.rank)
+				if (5)
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/resetachievements
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/play_sound
-	//				src.verbs += /client/proc/modifytemperature
+					src.verbs += /client/proc/modifytemperature
 					src.verbs += /client/proc/grillify
 					src.verbs += /client/proc/Jump
 					src.verbs += /client/proc/ticklag
@@ -1992,9 +1995,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
 
-				if ("Super Administrator")
-					src.holder.level = 4
-		//			src.verbs += /proc/variables
+				if (4)
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/play_sound
@@ -2026,56 +2027,35 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
 
-				if ("Primary Administrator")
-					src.holder.level = 3
-				//	src.verbs += /proc/variables
+				if (3)
 					src.verbs += /client/proc/modifyvariables
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/play_sound
-					src.verbs += /client/proc/resetachievements
-	//				src.verbs += /client/proc/modifytemperature
-	//				src.verbs += /client/proc/grillify
 					src.verbs += /client/proc/Jump
 					src.verbs += /client/proc/revivenear
 					src.verbs += /client/proc/droptarget
 					src.verbs += /client/proc/nodamage
 					src.verbs += /client/proc/removeplasma
 					src.verbs += /client/proc/addfreeform
-	//				src.verbs += /client/proc/Jumptomob
-	//				src.verbs += /client/proc/Getmob
-	//				src.verbs += /client/proc/sendmob
+					src.verbs += /client/proc/Jumptomob
+					src.verbs += /client/proc/Getmob
+					src.verbs += /client/proc/sendmob
 					src.verbs += /client/proc/tdome1
 					src.verbs += /client/proc/tdome2
 					src.verbs += /mob/proc/noclip
 
-				if ("Administrator")
-					src.holder.level = 2
+				if (2)
 					src.verbs += /client/proc/adminsay
 					src.verbs += /client/proc/resetachievements
-	//				src.verbs += /client/proc/Jump
-	//				src.verbs += /client/proc/Jumptomob
-					src.verbs += /client/proc/tdome1
-					src.verbs += /client/proc/tdome2
+					src.verbs += /client/proc/Jump
+					src.verbs += /client/proc/Jumptomob
 					src.verbs += /mob/proc/noclip
 
-				if ("Super Moderator")
-					src.holder.level = 1
+				if (1)
 					src.verbs += /client/proc/adminsay
 					src.verbs += /mob/proc/noclip
 
-				if ("Moderator")
-					src.holder.level = 0
-					src.verbs += /client/proc/adminsay
-					src.verbs += /mob/proc/noclip
-
-				if ("Trusted")
-					src.holder.level = 0
-
-				if ("Banned")
-					del(src)
-					return
 				else
-					//src.holder = null
 					del(src.holder)
 
 			if (src.holder)
@@ -2084,8 +2064,6 @@ var/client/isbanned = 0
 
 		if (ticker && ticker.mode.name =="sandbox" && src.authenticated)
 			mob.CanBuild()
-		//	if(src.holder  && (src.holder.level >= 3))
-			//	src.verbs += /mob/proc/Delete
 	else
 		if(loginmsg == 0)
 			world << src.key + " is logging in, Please wait for the server to startup"
