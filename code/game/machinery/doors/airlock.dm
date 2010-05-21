@@ -80,26 +80,26 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	block_zoning = 1
 
 /obj/machinery/door/airlock/security
-	icon = 'airlock_red.dmi'
+	//icon = 'airlock_red.dmi'
 
 /obj/machinery/door/airlock/admin
-	icon = 'airlock_blue.dmi'
+	//icon = 'airlock_blue.dmi'
 
 /obj/machinery/door/airlock/engineering
-	icon = 'airlock_yellow.dmi'
+	//icon = 'airlock_yellow.dmi'
 
 /obj/machinery/door/airlock/engine
 	icon = 'airlock_engine.dmi'
 	desc = "An armoured door to the engine room"
 
 /obj/machinery/door/airlock/maintenance
-	icon = 'airlock_green.dmi'
+	//icon = 'airlock_green.dmi'
 
 /obj/machinery/door/airlock/escape
-	icon = 'airlock_grey.dmi'
+	//icon = 'airlock_grey.dmi'
 
 /obj/machinery/door/airlock/medical
-	icon = 'airlock_medical.dmi'
+	//icon = 'airlock_medical.dmi'
 /*
 About the new airlock wires panel:
 *	An airlock wire dialog can be accessed by the normal way or by using wirecutters or a multitool on the door while the wire-panel is open. This would show the following wires, which you can either wirecut/mend or send a multitool pulse through. There are 9 wires.
