@@ -88,6 +88,10 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 /obj/machinery/door/airlock/engineering
 	icon = 'airlock_yellow.dmi'
 
+/obj/machinery/door/airlock/engine
+	icon = 'airlock_engine.dmi'
+	desc = "An armoured door to the engine room"
+
 /obj/machinery/door/airlock/maintenance
 	icon = 'airlock_green.dmi'
 
@@ -109,6 +113,46 @@ About the new airlock wires panel:
 */
 
 
+/obj/machinery/door/airlock/open()
+	if (src.operating == 1) //doors can still open when emag-disabled
+		return
+	if (!ticker)
+		return 0
+	if(!src.operating) //in case of emag
+		src.operating = 1
+	flick(GetState(changing = 1), src)
+	src.icon_state = GetState(solidity = !density)
+	sleep(15)
+	src.density = 0
+	sd_SetOpacity(0)
+	var/turf/T = src.loc
+	if (istype(T, /turf) && checkForMultipleDoors())
+		T.updatecell = 1
+		OpenDoor(src)
+	if(operating == 1) //emag again
+		src.operating = 0
+	if(autoclose)
+		spawn(150)
+			autoclose()
+	return 1
+
+/obj/machinery/door/airlock/close()
+	if (src.operating)
+		return
+	src.operating = 1
+	flick(GetState(changing = 1), src)
+	src.icon_state = GetState(solidity = !density)
+	sleep(12)
+	src.density = 1
+	if (src.visible)
+		sd_SetOpacity(1)
+	var/turf/T = src.loc
+	if (istype(T, /turf))
+		T.updatecell = 0
+		CloseDoor(src)
+	src.operating = 0
+	return
+
 /obj/machinery/door/airlock/proc/pulse(var/wireColor)
 	if(src.build_state)
 		return
@@ -118,7 +162,7 @@ About the new airlock wires panel:
 		if(AIRLOCK_WIRE_IDSCAN)
 			//Sending a pulse through this flashes the red light on the door (if the door has power).
 			if ((src.arePowerSystemsOn()) && (!(stat & NOPOWER)))
-				flick("door_deny", src)
+				flick(GetState(denying = 1), src)
 		if (AIRLOCK_WIRE_MAIN_POWER1 || AIRLOCK_WIRE_MAIN_POWER2)
 			//Sending a pulse through either one causes a breaker to trip, disabling the door for 10 seconds if backup power is connected, or 1 minute if not (or until backup power comes back on, whichever is shorter).
 			src.loseMainPower()
@@ -335,19 +379,16 @@ About the new airlock wires panel:
 
 	return src.electrocute(user, prb, net)
 
+/obj/machinery/door/airlock/proc/GetState(smashed = hulksmash1, solidity = density, welded = blocked, bolted = locked, open = p_open, sparking = 0, changing = 0, denying = 0)
+	if (hulksmash1)
+		return "door1_hulk"
+	return "[open ? "o_" : ""]door[denying ? "_deny" : "[changing && !bolted && !welded? "c" : ""][solidity ^ changing ? "1" : "0"][sparking ? "_spark" : ""][bolted && !sparking? "_bolted" : ""]"][welded? "l" : ""]"
+
 /obj/machinery/door/airlock/proc/updateIconState()
 	if(src.build_state)
 		src.icon_state = text("door_build_[]",src.build_state)
 	else
-		var/d = src.density
-		if (src.locked && d)
-			if(src.blocked)
-				d = "_boltedl"
-			else
-				d = "_bolted"
-		else if (src.blocked)
-			d = "l"
-		src.icon_state = text("[]door[]", (src.p_open ? "o_" : null), d)
+		src.icon_state = GetState()
 	return
 
 /obj/machinery/door/airlock/attack_ai(mob/user as mob)
@@ -775,6 +816,7 @@ About the new airlock wires panel:
 			src.block_zoning = 0
 			OpenWall(src)
 			del(src)
+
 		else if(src.build_state == 1)
 			if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density))
 				var/obj/item/weapon/weldingtool/W = C
@@ -859,10 +901,7 @@ About the new airlock wires panel:
 				var/obj/item/weapon/sheet/metal/M = new /obj/item/weapon/sheet/metal( src.loc )
 				M.amount = 5
 				del(src)
-			if (!( src.blocked ))
-				src.blocked = 1
-			else
-				src.blocked = null
+			src.blocked = !src.blocked
 			src.updateIconState()
 			return
 	else if (istype(C, /obj/item/weapon/screwdriver))
@@ -878,8 +917,8 @@ About the new airlock wires panel:
 		if ((src.density) && (!( src.blocked ) && !( src.operating ) && ((!src.arePowerSystemsOn()) || (stat & NOPOWER)) && !( src.locked )))
 			spawn( 0 )
 				src.operating = 1
-				flick(text("[]doorc0", (src.p_open ? "o_" : null)), src)
-				src.icon_state = text("[]door0", (src.p_open ? "o_" : null))
+				flick(GetState(changing = 1), src)
+				src.icon_state = GetState(solidity = !density)
 				src.hear_sound("sound/door/airlock/move.wav",5)
 				sleep(15)
 				src.density = 0
@@ -894,8 +933,8 @@ About the new airlock wires panel:
 			if ((!src.density) && (!( src.blocked ) && !( src.operating ) && !( src.locked )))
 				spawn( 0 )
 					src.operating = 1
-					flick(text("[]doorc1", (src.p_open ? "o_" : null)), src)
-					src.icon_state = text("[]door1", (src.p_open ? "o_" : null))
+					flick(GetState(changing = 1, solidity = 0), src)
+					src.icon_state = GetState(solidity = 1)
 					src.density = 1
 					if (src.visible)
 						src.opacity = 1
