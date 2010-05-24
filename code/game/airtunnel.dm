@@ -197,7 +197,7 @@
 	//	L["5screws"] = "Make Screws (5) {14 cc}"
 		L["rod"] = "Make Rods {18750 cc Metal}"
 		L["metal_s"] = "Make a Metal Sheet {37500 cc Metal}"
-		L["metal_s"] = "Make a Reinforced Metal Sheet {75000 cc Metal}"
+		L["metal_r"] = "Make a Reinforced Metal Sheet {75000 cc Metal}"
 		L["glass_s"] = "Make a Glass Sheet {37500 cc Glass}"
 		L["glass_r"] = "Make a Reinforced Glass Sheet {18750 cc Metal ; 37500 cc Glass}"
 	//	L["rod_l"] = "Make Rod (5x250) {1250 cc}"
