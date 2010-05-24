@@ -1457,7 +1457,7 @@ window "obj/item/weapon/wireless/PDA/Standard"
 		font-style = ""
 		text-color = #000000
 		background-color = none
-		is-visible = true
+		is-visible = false
 		is-disabled = false
 		is-transparent = false
 		is-default = false
