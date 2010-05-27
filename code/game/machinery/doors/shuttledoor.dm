@@ -32,7 +32,7 @@
 
 /obj/shuttle/door/proc/close()
 	src.add_fingerprint(usr)
-	if (src.operating)
+	if (src.operating || locate(/mob) in loc)
 		return
 	src.operating = 1
 	flick("doorc1", src)

@@ -979,7 +979,7 @@ About the new airlock wires panel:
 	return ..()
 
 /obj/machinery/door/airlock/close()
-	if(src.build_state)
+	if(src.build_state || locate(/mob) in loc)
 		return
 	if (src.blocked || (!src.arePowerSystemsOn()) || (stat & NOPOWER) || src.isWireCut(AIRLOCK_WIRE_OPEN_DOOR))
 		return

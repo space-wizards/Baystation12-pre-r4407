@@ -647,7 +647,7 @@ var/update_state = 0
 	for(var/obj/machinery/light/L in world)
 		L.process()
 
-	Label_6:
+	MainLoop:
 	main_tick++
 
 	update_state = main_tick % 4
@@ -685,16 +685,11 @@ var/update_state = 0
 
 	sun.calc_position()
 
-	if(time%air_cycle == 0)
-		spawn(-1)
-			for(var/turf/space/space in world)
-				if (space.updatecell && space.update_again)
-					sleep(0)
-			return
 
 	for(var/turf/station/T in world)
 		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
 			sleep(0)
+
 	sleep(3)
 	for(var/mob/M in world)
 		spawn( 0 )
@@ -704,12 +699,18 @@ var/update_state = 0
 			if (M.machine && M.client && istype(M.machine, /obj/machinery))
 				M.machine.UIUpdate(M.client)
 			return
+
 	sleep(3)
+
 	for(var/obj/move/S in world)
 		S.process()
-	sleep(2)
+
+	sleep(1)
+
 	for(var/obj/machinery/M in machines)
 		M.process()
+
+	sleep(1)
 
 	for(var/obj/machinery/M in gasflowlist)
 		M.gas_flow()
@@ -718,8 +719,10 @@ var/update_state = 0
 		P.reset()
 
 	src.var_swap = !( src.var_swap )
+
 	if (src.processing)
 		sleep(2)
-		goto Label_6
+		goto MainLoop
+
 	world.log <<"\red <B>PROCESSING STOPPED"
 	return

@@ -156,7 +156,7 @@
 	return 1
 
 /obj/machinery/door/proc/close()
-	if (src.operating)
+	if (src.operating || locate(/mob) in loc)
 		return
 	src.operating = 1
 	flick(text("[]doorc1", (src.p_open ? "o_" : null)), src)

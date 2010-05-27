@@ -22,6 +22,8 @@ vs_control/var/TILE_CONNECTION_FLOW = 55
 vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.
 vs_control/var/TEMP_RETENTION = 99
+//Remove this once we know what it should be (it got removed by accident in a revert I guess)
+vs_control/var/AF_PERCENT_OF = 10
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)
