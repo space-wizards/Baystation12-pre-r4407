@@ -3729,11 +3729,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	p_dir = 12.0
 	layer = 3
 	level = 2
+
 /obj/machinery/pipes/high_capacity
 	desc = "A large bore pipe with high capacity."
 	name = "High-Capacity Piping"
 	icon = 'hi_pipe.dmi'
 	level = 2
+	layer = 3
 	capacity = 1.8E7
 /obj/machinery/pipes/regular
 	desc = "A stretch of pipe."
@@ -4755,6 +4757,7 @@ obj/machinery/vendingmachine/water
 	icon = 'lights.dmi'
 	icon_state = "fluorescent"
 	anchored = 1
+	layer = 3.5
 	luminosity = 0
 	var/open = 0
 	var/baselum = 6
