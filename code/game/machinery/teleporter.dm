@@ -44,6 +44,8 @@
 		src.id = t
 	return
 
+
+
 /proc/find_loc(obj/R as obj)
 	if (!R)	return null
 	var/turf/T = R.loc
@@ -102,6 +104,9 @@
 	spawn( 0 )
 		O.Life()
 	return
+
+
+
 
 /obj/machinery/teleport/station/attackby(var/obj/item/weapon/W)
 	src.attack_hand()
@@ -177,6 +182,53 @@
 			com.icon_state = "tele0"
 	else
 		icon_state = "controller"
+
+
+
+
+
+
+/obj/machinery/computer/teleporter/interserver/attack_hand()
+	if(stat & (NOPOWER|BROKEN))
+		return
+	var/address = input("Enter address") as text
+	if(!world.Export(address+"#ping"))
+		for(var/mob/O in hearers(src, null))
+			O.show_message("\blue Error, server unreachable", 2)
+	else
+		src.addr = address
+	src.add_fingerprint(usr)
+	return
+
+/obj/machinery/teleport/hub/interserver/teleport(atom/movable/M as mob|obj)
+	var/atom/l = src.loc
+	var/obj/machinery/computer/teleporter/interserver/com = locate(/obj/machinery/computer/teleporter, locate(l.x - 2, l.y, l.z))
+	if (!com)
+		return
+	if (!com.addr)
+		for(var/mob/O in hearers(src, null))
+			O.show_message("\red Failure: Cannot authenticate locked on coordinates. Please reinstantiate coordinate matrix.")
+		return
+	if (istype(M, /mob))
+		var/savefile/F = new()
+		F << M.x
+		F << M.y
+		F << M.z
+		F << M
+		if(!world.Export(com.addr+"#teleplayer",F))
+			usr << "Cannot contact server"
+			return
+		var doonce = 1
+		spawn while(doonce)
+			M << link(com.addr)
+			sleep(1)
+			del M
+			doonce = 0
+	else
+		for(var/mob/O in hearers(src, null))
+			O.show_message("\red Failure: Object has no life sign.")
+		return
+	return
 
 /obj/effects/water/proc/Life()
 	if (src.amount > 1)

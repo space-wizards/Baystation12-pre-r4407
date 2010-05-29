@@ -3255,6 +3255,13 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/item/weapon/radio/beacon/locked = null
 	var/id = null
 
+/obj/machinery/computer/teleporter/interserver
+	name = "Inter Server Teleporter"
+	icon_state = "teleport"
+	var/addr = null
+
+
+
 /obj/machinery/connector
 	name = "Connector"
 	icon = 'pipes.dmi'

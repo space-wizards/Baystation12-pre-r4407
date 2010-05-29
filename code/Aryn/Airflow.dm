@@ -4,6 +4,7 @@ vs_control/var
 	AF_NORMAL_MOVEMENT_THRESHOLD = 30 //% difference to move normal items.
 	AF_LARGE_MOVEMENT_THRESHOLD = 40 //% difference to move large and huge items.
 	AF_MOVEMENT_THRESHOLD = 45 //% difference to move dense crap and mobs.
+	AF_PERCENT_OF = CELLSTANDARD*5
 	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
 	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
 	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
