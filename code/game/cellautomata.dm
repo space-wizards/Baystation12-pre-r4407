@@ -372,6 +372,19 @@ var/map_loading = 1
 				n++
 		s["players"] = n
 		return list2params(s)
+	else if(T == "teleplayer")
+      //download and open savefile
+		var/savefile/F = new(Import())
+      //load mob
+		var/mob/M
+		var {saved_x; saved_y; saved_z}
+		F >> saved_x
+		F >> saved_y
+		F >> saved_z
+		F >> M
+		M.Move(locate(saved_x,saved_y,saved_z))
+		return 1
+	return
 
 /atom/proc/check_eye(user as mob)
 	if (istype(user, /mob/ai))
