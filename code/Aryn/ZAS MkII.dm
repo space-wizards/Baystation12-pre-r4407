@@ -22,8 +22,15 @@ vs_control/var/TILE_CONNECTION_FLOW = 55
 vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.
 vs_control/var/TEMP_RETENTION = 99
-//Remove this once we know what it should be (it got removed by accident in a revert I guess)
-vs_control/var/AF_PERCENT_OF = 100
+
+turf/verb/DebugZone()
+	set src in view()
+	if(usr.ckey != "iaryni")
+		usr << "Whoops, Aryn left a debug verb in."
+		return
+	for(var/zone/Z in zones)
+		Z.debug = 0
+	zone.debug = 1
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)
@@ -55,7 +62,7 @@ var/list/zones = list()
 
 //turf/verb/SeeTempChanges()
 //	set src in view()
-//	zone.speakmychild = 1
+//	zone.debug = 1
 //	world << "Showing changes to [src]."
 
 zone
@@ -88,7 +95,7 @@ zone
 		plasma_overlay = 0 //These track whether plasma and N2O overlays were applied.
 		n2o_overlay = 0
 
-		speakmychild = 0
+		debug = 0
 
 		temp = T20C
 		list/nearby_zones = list()
@@ -107,11 +114,11 @@ zone
 				gases = list("O2" = 0,"Plasma" = 0,"CO2" = 0,"N2" = 0,"N2O" = 0)
 		if(door < 2)
 			var/r_list = GetZone(start,door,world.time>20)
-			contents = r_list[1]
-			boundaries = r_list[2]
+			contents = r_list
+			//boundaries = r_list[2]
 		else
 			contents = list(start)
-			boundaries = GetCardinals(start)
+			//boundaries = //GetCardinals(start)
 		if(!contents.len)
 			del src
 		gases = gas_defaults.Copy()
@@ -132,19 +139,19 @@ zone
 				gases[g] = 0
 		rebuild_cache()
 
-		for(var/atom/A in boundaries)
-			var/turf/T
-			if(!isturf(A)) T = A.loc
-			else T = A
-			for(var/turf/U in range(T,3))
-				if(U.zone != T.zone)
-					if(!(U.zone in nearby_zones))
-						nearby_zones += U.zone
-						nearby_zones[U.zone] = get_dist(T,U)
-					else
-						var/dist = get_dist(T,U)
-						if(dist < nearby_zones[U.zone])
-							nearby_zones[U.zone] = dist
+		//for(var/atom/A in boundaries)
+		//	var/turf/T
+		//	if(!isturf(A)) T = A.loc
+		//	else T = A
+		//	for(var/turf/U in range(T,3))
+		//		if(U.zone != T.zone)
+		///			if(!(U.zone in nearby_zones))
+			//			nearby_zones += U.zone
+			//			nearby_zones[U.zone] = get_dist(T,U)
+			//		else
+			//			var/dist = get_dist(T,U)
+			//			if(dist < nearby_zones[U.zone])
+			//				nearby_zones[U.zone] = dist
 
 		spawn(rand(1,9)) Update() //Reducing lag by making updates staggered.
 
@@ -157,6 +164,7 @@ zone
 				sleep(zas_cycle)
 
 				if(!ticker) continue
+				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -188,6 +196,7 @@ zone
 					connections -= src
 
 				sleep(-1)
+				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -219,14 +228,15 @@ zone
 							gases[g] *= contents.len
 
 				sleep(-1)
+				if(moving_zone) continue
 
 				if(!contents.len) del src
 
-				if(zones_to_split)
+				if(zones_to_split && !moving_zone)
 					SplitList(zones_to_split)
 					zones_to_split = null
 
-				if(zones_to_merge)
+				if(zones_to_merge && !moving_zone)
 					MergeList(zones_to_merge)
 					zones_to_merge = null
 
@@ -239,7 +249,7 @@ zone
 				ConnectionLoop:
 					for(var/zone/Z in connections)
 						//Gases flow between connected zones on a per-turf concentration gradient.
-						for(var/turf/space/S in Z)
+						for(var/turf/space/S in Z.contents)
 							Airflow(src,Z,total())
 							for(var/g in gases)
 								gases[g] *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
@@ -271,11 +281,12 @@ zone
 							GasPerTurf(g,diff_a+theo)
 							Z.GasPerTurf(g,diff_b+theo)
 							//more_air_here += gases[g] - Z.gases[g]
+						if(debug) world << "Gas Transferred: [total_gas_transferred] ([(total_gas_transferred/vsc.AF_PERCENT_OF)*100]%)"
 						if((total_gas_transferred/vsc.AF_PERCENT_OF)*100 > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
-							//if(!speakmychild)
+							//if(!debug)
 							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
-							//	speakmychild = 1
-							//	spawn(50) speakmychild = 0
+							//	debug = 1
+							//	spawn(50) debug = 0
 							Airflow(src,Z,total_gas_transferred)
 						var
 							temp_theo = (temp + Z.temp) / 2
@@ -309,6 +320,7 @@ zone
 					temp = t_temp + T20C
 
 				sleep(-1)
+				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -715,8 +727,8 @@ proc/GetZone(turf/T,ignore_doors=0,slow=0) //This proc does the floodfill proces
 	var/end_loop = 0
 	while(!end_loop)
 		end_loop = 1
+		sleep(-1) //Used to be if(slow), but sleep(-1) only sleeps if there's a backlog so yeah.
 		for(var/turf/X in borders)
-			if(slow) sleep(-1)
 			if(Zonetight(X) != AT)
 				borders -= X
 				LB += X
@@ -729,11 +741,11 @@ proc/GetZone(turf/T,ignore_doors=0,slow=0) //This proc does the floodfill proces
 				LA += Y
 				borders += Y
 				end_loop = 0
-			for(var/turf/Z in GetCardinals(X))
-				if(!(Z in next))
-					LB += Z
+			//for(var/turf/Z in GetCardinals(X))
+			//	if(!(Z in next))
+			//		LB += Z
 			borders -= X
-	return list(LA,LB)
+	return LA//list(LA,LB)
 
 /*proc/sign(n) //A standard function returning the sign (+1,-1, or 0) of a number.
 	if(n > 0) return 1

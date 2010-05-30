@@ -175,18 +175,20 @@
 
 /area/proc/lockdown(var/super)
 
-	if(src.name == "Space") //no fire alarms in space
+	if(src.name == "Space") //no lockdowns in space
 		return
 	src.updateicon()
 	src.mouse_opacity = 0
 	for(var/obj/machinery/door/firedoor/D in src)
 		if(D.operating)
-			D.nextstate = CLOSED
+			continue
 		else if(!D.density)
 			spawn(0)
 				D.closefire()
+
 	if (super)
 		return
+
 	for (var/area/A in src.superarea.areas) //Propagate to the rest... you get the idea.
 		if (A != src)
 			A.lockdown(1)
@@ -202,7 +204,7 @@
 		src.mouse_opacity = 0
 		for(var/obj/machinery/door/firedoor/D in src)
 			if(D.operating)
-				D.nextstate = CLOSED
+				continue
 			else if(!D.density)
 				spawn(0)
 					D.closefire()
@@ -229,7 +231,7 @@
 		S.operating = 0
 	for(var/obj/machinery/door/firedoor/D in src)
 		if(D.operating)
-			D.nextstate = OPEN
+			continue
 		else if(D.density)
 			spawn(0)
 				D.openfire()
@@ -249,7 +251,7 @@
 			S.operating = 0
 		for(var/obj/machinery/door/firedoor/D in src)
 			if(D.operating)
-				D.nextstate = OPEN
+				continue
 			else if(D.density)
 				spawn(0)
 					D.openfire()

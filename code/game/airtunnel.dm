@@ -532,6 +532,10 @@
 	M << t
 	return
 
+/obj/machinery/alarm/indicator/New()
+	..()
+	name = "Indicator"
+
 /obj/machinery/alarm/indicator/process()
 	if(stat & NOPOWER)
 		icon_state = "indicator-p"

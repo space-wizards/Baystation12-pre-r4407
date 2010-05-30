@@ -4,11 +4,21 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Sukasa's Changes (May 28-29th, 2010)</B></P>
+<li>Relocated AI Core to make room for future expansion</li>
+<li>Fixed plasma lab controls not working</li>
+<li>Fixed medical research access</li>
+<li>Repaired Airflow</li>
+<li>Some new graphics</li>
+<li>Fixed some bad network tiles</li>
+<li>Fixed some bugs, including AI unable to properly control SMES units</li>
+<li>Improved Meteor guards</li>
+<li>Repaired Atmospheric system</li>
+
 <P><B>Head's Changes (April 11th, 2010)</B></P>
-<li>Hungery & Thirst system</li>
+<li>Hunger & Thirst system</li>
 <li>Water Vending machines (click on them to use them)</li>
 <li>Walking in with someone with grab,disarm,help will change places with him unless he has a harm.</li>
-
 
 <P><B>Aryn's Changes (April 15th-28th, 2010)</B></P>
 <li>Brand new air system makes oxygen, nitrogen and CO2 move super-fast.</li>

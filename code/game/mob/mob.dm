@@ -774,6 +774,9 @@
 		O.showLaws(0)
 		O << "<b>Kill all.</b>"
 	//SN src = null
+	O.verbs -= /mob/verb/switch_hud
+
+
 	O.verbs += /mob/ai/proc/ai_call_shuttle
 	O.verbs += /mob/ai/proc/show_laws
 	O.verbs += /mob/ai/proc/ai_camera_track
@@ -781,8 +784,7 @@
 	O.verbs += /mob/ai/proc/ai_camera_list
 	O.verbs += /mob/ai/proc/lockdown
 	O.verbs += /mob/ai/proc/disablelockdown
-	O.verbs -= /mob/verb/switch_hud
-//	O.verbs += /mob/ai/proc/ai_cancel_call
+	O.verbs += /mob/ai/proc/ai_cancel_call
 	O.verbs += /mob/ai/proc/hackinterface
 	O.verbs += /mob/ai/proc/changeinterface
 	O.verbs += /mob/ai/proc/changeinterface2
@@ -1994,6 +1996,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
+					src.verbs += /mob/proc/crashcheck
 
 				if (4)
 					src.verbs += /client/proc/modifyvariables
@@ -2026,6 +2029,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
+					src.verbs += /mob/proc/crashcheck
 
 				if (3)
 					src.verbs += /client/proc/modifyvariables

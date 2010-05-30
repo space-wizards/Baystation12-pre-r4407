@@ -1608,7 +1608,7 @@ var/powernet_nextlink_processing = 0
 		if(!istype(usr, /mob/ai))
 			usr << "\red You don't have the dexterity to do this!"
 			return
-
+	var/d = 0
 	//world << "[href] ; [href_list[href]]"
 
 	if(istype(usr, /mob/ai) && usr.machine==src)
@@ -1620,16 +1620,11 @@ var/powernet_nextlink_processing = 0
 			usr.machine = null
 			return
 		else if( href_list["cmode"] == "1" )
-			AIusr.sendcommand("[password] CHARGE OFF",src)
-		else if( href_list["cmode"] == "2" )
-			AIusr.sendcommand("[password] CHARGE AUTO",src)
+			AIusr.sendcommand("[password] CHARGE [chargemode ? "OFF" : "AUTO"]",src)
 		else if( href_list["online"] == "1")
-			AIusr.sendcommand("[password] OUTPUT OFFLINE",src)
-		else if( href_list["online"] == "2")
-			AIusr.sendcommand("[password] OUTPUT ONLINE",src)
+			AIusr.sendcommand("[password] OUTPUT O[online ? "FF" : "N"]LINE",src)
 		else if( href_list["input"] )
 			var/i = text2num(href_list["input"])
-			var/d = 0
 			switch(i)
 				if(-4)
 					d = -chargelevel
@@ -1649,7 +1644,7 @@ var/powernet_nextlink_processing = 0
 					d = -10000
 
 			var/l = chargelevel + d
-			l = max(0, min(SMESMAXCHARGELEVEL, chargelevel))	// clamp to range
+			l = max(0, min(SMESMAXCHARGELEVEL, l))	// clamp to range
 
 			AIusr.sendcommand("[password] ALTERCHARGE [l]",src)
 
@@ -1657,7 +1652,6 @@ var/powernet_nextlink_processing = 0
 
 			var/i = text2num(href_list["output"])
 
-			var/d = 0
 			switch(i)
 				if(-4)
 					d = -output
@@ -1678,7 +1672,7 @@ var/powernet_nextlink_processing = 0
 					d = -10000
 
 			var/l = output + d
-			l = max(0, min(SMESMAXOUTPUT, output))	// clamp to range
+			l = max(0, min(SMESMAXOUTPUT, l))	// clamp to range
 			AIusr.sendcommand("[password] ALTEROUTPUT [l]",src)
 		src.updateUsrDialog()
 
@@ -1705,7 +1699,6 @@ var/powernet_nextlink_processing = 0
 
 			var/i = text2num(href_list["input"])
 
-			var/d = 0
 			switch(i)
 				if(-4)
 					chargelevel = 0
@@ -1732,7 +1725,6 @@ var/powernet_nextlink_processing = 0
 
 			var/i = text2num(href_list["output"])
 
-			var/d = 0
 			switch(i)
 				if(-4)
 					output = 0

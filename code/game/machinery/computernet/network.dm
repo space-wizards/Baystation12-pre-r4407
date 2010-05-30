@@ -101,6 +101,7 @@
 			for (var/mob/ai/AI in world)
 				if (!AI.stat)
 					AI << "\red A network reconfiguration has been detected.  You may wish to inform the crew."
+
 	return netcount
 
 // returns a list of all -related objects (nodes, cable, junctions) in turf,

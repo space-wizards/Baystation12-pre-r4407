@@ -10,6 +10,8 @@
 
 var/dbg1
 var/dbg2
+var/dbg3
+
 proc/BuildRoutingTable()
 	set background = 1
 	var/load = 0
@@ -17,6 +19,7 @@ proc/BuildRoutingTable()
 	world.log << "Building routing table ([computernets.len] nets)"
 	dbg1 = 0
 	dbg2 = 0
+	dbg3 = 0
 	for (var/datum/computernet/srccnet in computernets)
 		R.sourcenets[srccnet.id] = list()
 	for (var/datum/computernet/srccnet in computernets)
@@ -28,7 +31,7 @@ proc/BuildRoutingTable()
 			if(load >= 150)
 				load = 0
 				sleep(0)
-	world.log << "Done.  1 [dbg1] [dbg2]"
+	world.log << "Done.  1 [dbg1] [dbg2] [dbg3]"
 	routingtable = R
 
 proc/BuildRoutingPath(var/datum/computernet/srccnet, var/datum/computernet/destcnet, var/datum/rtable/R)
@@ -40,7 +43,8 @@ proc/BuildRoutingPath(var/datum/computernet/srccnet, var/datum/computernet/destc
 	var/list/datum/computernet/path = SubBuildRoutingPath(srccnet, destcnet, list())
 
 	R.sourcenets[srccnet.id][destcnet.id] = path
-
+	if (path)
+		dbg3++
 
 proc/SubBuildRoutingPath(var/datum/computernet/curnet, var/datum/computernet/destcnet, var/list/ignore)
 	dbg2++

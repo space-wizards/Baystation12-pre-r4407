@@ -767,5 +767,9 @@
 /mob/proc/noclip()
 	var/client/C = src
 	if(C.holder)
-		src.noclip = !src.noclip
-		src << "\blue Noclip [src.noclip?"On":"Off"]"
+		usr.noclip = !usr.noclip
+		src << "\blue Noclip [usr.noclip?"On":"Off"]"
+
+/mob/proc/crashcheck()
+	set category = "admin"
+	src << CrashLocation

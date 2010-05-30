@@ -639,6 +639,8 @@ var/map_loading = 1
 var/main_tick = 0
 var/update_state = 0
 
+var/CrashLocation = ""
+
 /datum/control/cellular/process()
 	set invisibility = 0
 	set background = 1
@@ -662,10 +664,16 @@ var/update_state = 0
 		sleep(10)
 		updateap(1)
 
+
+
 	time = (++time %10)
 	supplytime = (++supplytime % 100)
 
+	CrashLocation = "AdminPanel"
+
 	updateap()
+
+	CrashLocation = "EscapePods"
 
 	for(var/T in poddocks)
 		for(var/obj/O in T)
@@ -683,12 +691,11 @@ var/update_state = 0
 	if (!supplytime && supply_shuttle_points < 75)
 		supply_shuttle_points += 1
 
+	CrashLocation = "Sun"
+
 	sun.calc_position()
 
-
-	for(var/turf/station/T in world)
-		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
-			sleep(0)
+	CrashLocation = "MachineUpdates"
 
 	sleep(3)
 	for(var/mob/M in world)
@@ -702,18 +709,29 @@ var/update_state = 0
 
 	sleep(3)
 
+	CrashLocation = "Moves"
+
 	for(var/obj/move/S in world)
 		S.process()
 
 	sleep(1)
 
+	CrashLocation = "Machines"
+
 	for(var/obj/machinery/M in machines)
+		CrashLocation = "Machines \[[M.name]]"
 		M.process()
+
+	CrashLocation = "PostMachinesSleep"
 
 	sleep(1)
 
+	CrashLocation = "Gases"
+
 	for(var/obj/machinery/M in gasflowlist)
 		M.gas_flow()
+
+	CrashLocation = "Powernets"
 
 	for(var/datum/powernet/P in powernets)
 		P.reset()

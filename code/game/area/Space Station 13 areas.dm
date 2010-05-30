@@ -290,7 +290,6 @@ area/maintenance/network
 	name = "Network Centre"
 	icon_state = "network"
 	music = ""
-
 area/maintenance/atmos
 	name = "Atmospherics"
 	icon_state = "atmoss"
@@ -387,6 +386,11 @@ area/maintenance/corridor/nwcorridor
 
 area/maintenance/corridor/secorridor
 	name = "Southeast Maintenance Corridor"
+	icon_state = "green"
+	music = ""
+
+area/maintenance/corridor/supcorridor
+	name = "Warehouse Maintenance Corridor"
 	icon_state = "green"
 	music = ""
 

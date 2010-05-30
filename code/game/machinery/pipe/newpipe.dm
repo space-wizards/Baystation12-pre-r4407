@@ -1617,6 +1617,8 @@ var/list/lines = list()
 
 
 /obj/machinery/valve/dvalve/receivemessage(message,sender)
+	if(..())
+		return
 	var/list/listofcommand = getcommandlist(message)
 	if(listofcommand.len < 2)
 		return

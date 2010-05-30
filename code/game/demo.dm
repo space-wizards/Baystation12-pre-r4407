@@ -1334,6 +1334,12 @@
 	sleep(2)
 	new /obj/item/weapon/tank/oxygentank( src )
 	new /obj/item/weapon/clothing/mask/gasmask( src )
+	new /obj/item/weapon/tank/oxygentank( src )
+	new /obj/item/weapon/clothing/mask/gasmask( src )
+	new /obj/item/weapon/tank/oxygentank( src )
+	new /obj/item/weapon/clothing/mask/gasmask( src )
+	new /obj/item/weapon/tank/oxygentank( src )
+	new /obj/item/weapon/clothing/mask/gasmask( src )
 	return
 
 /obj/closet/l3closet/New()
@@ -2218,7 +2224,6 @@
 			//SN src = null
 			src.density = 0
 			src.loc.buildlinks()
-
 			del(src)
 		else
 			health -= 35
@@ -2328,7 +2333,7 @@
 
 /obj/window/attack_hand()
 	if(invincible)
-		usr << "can't let you do that starfox"
+		usr << "\blue Can't let you do that, Star Fox"
 		return
 	if (usr.ishulk)
 		var/B = pick(1,2,3,4)
@@ -2360,7 +2365,7 @@
 
 /obj/window/attack_paw()
 	if(invincible)
-		usr << "can't let you do that starfox"
+		usr << "\blue Can't let you do that, Star Fox"
 		return
 	if (usr.ishulk)
 		var/B = pick(1,2,3,4)
@@ -2379,7 +2384,7 @@
 
 /obj/window/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(invincible)
-		usr << "can't let you do that starfox"
+		usr << "\blue Can't let you do that, Star Fox"
 		return
 
 	if (istype(W, /obj/item/weapon/chem/beaker))
@@ -2496,11 +2501,13 @@
 	src.loc.buildlinks()
 	DelWindow(src)
 	..()
+	for(var/turf/T in range(src,1)) T.update_again = 1
 
 /obj/window/Move(turf/nloc)
 	var/turf/sl = src.loc
 	MoveWindow(src,nloc)
 	..()
+	for(var/turf/T in range(src,1)) T.update_again = 1
 	src.dir = src.ini_dir
 	sl.buildlinks()
 	src.loc.buildlinks()

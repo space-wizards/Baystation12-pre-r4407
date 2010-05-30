@@ -3559,6 +3559,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/id = "v1"
 	var/open = 0
 	anchored = 1.0
+	nohack = 1
+	cnetdontadd = 1
 	capmult = 2
 	icon = 'pipes.dmi'
 
@@ -3571,6 +3573,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 
 /obj/machinery/valve/dvalve
 	name = "digital Valve"
+	nohack = 0
+	cnetdontadd = 0
 	desc = "A digitally controlled valve."
 	icon = 'pipes.dmi'
 	icon_state = "dvalve0"
@@ -3589,6 +3593,8 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	var/obj/machinery/vnode1 = null
 	var/obj/machinery/vnode2 = null
 	anchored = 1.0
+	nohack = 1
+	cnetdontadd = 1
 	capmult = 2
 	icon = 'pipes.dmi'
 	icon_state = "one-way"
@@ -4408,14 +4414,6 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	weight = 2500000.0
 	anchored = 1.0
 	flags = WINDOW
-
-/obj/window/Move()
-	..()
-	for(var/turf/T in range(src,1)) T.update_again = 1
-/obj/window/Del()
-	..()
-	for(var/turf/T in range(src,1)) T.update_again = 1
-
 // Merged
 
 /obj/secloset
@@ -4757,7 +4755,7 @@ obj/machinery/vendingmachine/water
 	icon = 'lights.dmi'
 	icon_state = "fluorescent"
 	anchored = 1
-	layer = 3.5
+	layer = 4.5
 	luminosity = 0
 	var/open = 0
 	var/baselum = 6

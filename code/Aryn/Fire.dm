@@ -15,7 +15,7 @@ turf/proc/temp_set(n)
 	if(zone)
 		var/diff = abs(n) - zone.temp
 		temp(diff)
-		if(zone.speakmychild) world << "Temperature set to [zone.temp] ([n])"
+		//if(zone.debug) world << "Temperature set to [zone.temp] ([n])"
 var/fire_spread = 0
 proc/FireTicker()
 	var/fticks = 0

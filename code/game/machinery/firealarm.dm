@@ -169,6 +169,7 @@
 		A.lockdownreset()
 	else
 		A.firereset()
+	lockdownbyai = 0
 	return
 
 /obj/machinery/firealarm/proc/alarm(var/lock = 0)
@@ -180,12 +181,14 @@
 		return
 	if(lock)
 		A.lockdown()
+		lockdownbyai = 1
 	else
 		A.firealert()
 	return
 
 /obj/machinery/partyalarm/attack_paw(mob/user as mob)
 	return src.attack_hand(user)
+
 /obj/machinery/partyalarm/attack_hand(mob/user as mob)
 	if(user.stat || stat & (NOPOWER|BROKEN))
 		return

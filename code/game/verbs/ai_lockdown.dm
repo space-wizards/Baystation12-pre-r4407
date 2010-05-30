@@ -10,14 +10,8 @@
 
 	for(var/obj/machinery/firealarm/FA in world) //activate firealarms
 		spawn( 0 )
-			if(FA.lockdownbyai == 0)
-				FA.lockdownbyai = 1
+			if(!FA.lockdownbyai)
 				FA.alarm(1)
-	for(var/obj/machinery/door/airlock/AL in world) //close airlocks
-		spawn( 0 )
-			if(AL.canAIControl() && AL.icon_state == "door0" && AL.lockdownbyai == 0)
-				AL.close()
-				AL.lockdownbyai = 1
 
 /*	src.verbs -= /mob/ai/proc/lockdown
 	src.verbs += /mob/ai/proc/disablelockdown
@@ -37,14 +31,8 @@
 
 	for(var/obj/machinery/firealarm/FA in world) //deactivate firealarms
 		spawn( 0 )
-			if(FA.lockdownbyai == 1)
-				FA.lockdownbyai = 0
+			if(FA.lockdownbyai)
 				FA.reset(1)
-	for(var/obj/machinery/door/airlock/AL in world) //open airlocks
-		spawn ( 0 )
-			if(AL.canAIControl() && AL.lockdownbyai == 1)
-				AL.open()
-				AL.lockdownbyai = 0
 
 /*	src.verbs -= /mob/ai/proc/disablelockdown
 	src.verbs += /mob/ai/proc/lockdown

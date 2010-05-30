@@ -52,7 +52,7 @@
 	add_fingerprint(user)
 	user.machine = src
 	var/dis = ""
-	if(relay.connected)
+	if(relay && relay.connected)
 		dis = "Connected"
 	else
 		dis = "NO SIGNAL"

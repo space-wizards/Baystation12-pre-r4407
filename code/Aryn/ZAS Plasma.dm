@@ -133,7 +133,7 @@ turf/proc/DistributeGas()
 		tturfs++
 
 	total_plasma += src.poison
-	total_plasma += src.sl_gas
+	total_n2o += src.sl_gas
 
 	//world << "Total Turfs: [tturfs] Total Plasma: [total_plasma] Total N2O: [total_n2o]"
 
