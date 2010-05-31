@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+FILE: code\atoms.dm
+DIR: code code\game code\game\area code\game\gamemodes code\game\gamemodes\blob code\game\gamemodes\traitor code\game\gamemodes\wizard code\game\machinery code\game\mob code\game\mob\ai code\game\mob\human code\game\mob\monkey code\game\objects code\game\objects\items code\game\objects\items\misc code\game\objects\items\misc\forenzics code\game\objects\items\misc\implant code\game\objects\items\misc\pen code\game\objects\items\misc\pill code\game\objects\items\parts code\game\objects\items\radio code\game\objects\items\weapon code\game\objects\items\weapon\gun code\game\verbs icons icons\ss13 maps
+HIDDENPATHS:
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1275298316
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
