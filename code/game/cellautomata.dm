@@ -378,12 +378,16 @@ var/map_loading = 1
       //load mob
 		var/mob/M
 		var {saved_x; saved_y; saved_z}
-		F >> saved_x
-		F >> saved_y
-		F >> saved_z
-		F >> M
+		F["s_x"] >> saved_x
+		F["s_y"] >> saved_y
+		F["s_z"] >> saved_z
+		F["mob"] >> M
 		M.Move(locate(saved_x,saved_y,saved_z))
 		return 1
+	else if(T == "teleping")
+		if(ticker)
+			return 1
+		return 2
 	return
 
 /atom/proc/check_eye(user as mob)

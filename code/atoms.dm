@@ -3927,6 +3927,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/teleport/hub
 	name = "hub"
 	icon_state = "tele0"
+
+/obj/machinery/teleport/hub
+	name = "hub"
+	icon_state = "tele0"
+	var/teleing = 0
+
 /obj/machinery/teleport/station
 	name = "station"
 	icon_state = "controller"
