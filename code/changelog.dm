@@ -4,6 +4,14 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Nano-trasen laser update</B></P>
+Due to recent outbursts by staff members, laser devices have been classified as
+tourture devices, they have been moved to a high-risk storage until further notice
+use of such weapons is restricted to emergencies, and crew-members have been known
+to become violent over their use.
+
+Symptoms of using a laser device include twitching and seizures.
+
 <P><B>Sukasa's Changes (May 28-29th, 2010)</B></P>
 <li>Relocated AI Core to make room for future expansion</li>
 <li>Fixed plasma lab controls not working</li>

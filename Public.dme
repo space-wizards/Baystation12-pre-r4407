@@ -4,14 +4,6 @@
 
 
 // BEGIN_INTERNALS
-/*
-FILE: maps\Bay Station 12 alpha.dmp
-DIR: code code\game code\game\area icons icons\ss13 maps
-HIDDENPATHS:
-UPDATE_OBJ_TREE: ON
-MAP_ICON_TYPE: 0
-AUTO_FILE_DIR: ON
-*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
