@@ -281,13 +281,13 @@ zone
 							GasPerTurf(g,diff_a+theo)
 							Z.GasPerTurf(g,diff_b+theo)
 							//more_air_here += gases[g] - Z.gases[g]
-						if(debug) world << "Gas Transferred: [total_gas_transferred] ([(total_gas_transferred/vsc.AF_PERCENT_OF)*100]%)"
-						if((total_gas_transferred/vsc.AF_PERCENT_OF)*100 > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
+					//	if(debug) world << "Gas Transferred: [total_gas_transferred] ([(total_gas_transferred/vsc.AF_PERCENT_OF)*100]%)"
+					//	if((total_gas_transferred/vsc.AF_PERCENT_OF)*100 > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
 							//if(!debug)
 							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
 							//	debug = 1
 							//	spawn(50) debug = 0
-							Airflow(src,Z,total_gas_transferred)
+						Airflow(src,Z,total_gas_transferred)
 						var
 							temp_theo = (temp + Z.temp) / 2
 							diff_a = temp - temp_theo
