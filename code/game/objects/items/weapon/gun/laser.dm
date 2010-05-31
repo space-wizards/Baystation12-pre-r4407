@@ -44,7 +44,7 @@
 		return
 
 	var/obj/beam/a_laser/A = new /obj/beam/a_laser( user.loc )
-	world.log_Mattack(text("[user]([user.key])has shot a taser round at [target]"))
+	world.log_Mattack(text("[user]([user.key])has shot a laser round at [target]"))
 	A.current = U
 	A.yo = U.y - T.y
 	A.xo = U.x - T.x

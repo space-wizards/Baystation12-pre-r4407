@@ -736,3 +736,7 @@ area/prototype
 	name = "Execution Chamber"
 	icon_state = "yellow"
 	music = ""
+
+/area/highrisk
+	name = "High risk storage"
+	icon_state = "yellow"

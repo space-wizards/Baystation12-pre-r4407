@@ -414,8 +414,17 @@
 					temp.take_damage(d, 0)
 				src.UpdateDamageIcon()
 				src.updatehealth()
-				if (prob(25))
-					src.stunned = 1
+				src.stunned = 30
+				src << "\red You have a seizure!"
+				src.emote("scream")
+				spawn(5)
+					src.emote("twitch")
+					sleep(5)
+					src.emote("twitch")
+					sleep(5)
+					src.emote("twitch")
+					sleep(25)
+					src.emote("whimper")
 
 	return
 
