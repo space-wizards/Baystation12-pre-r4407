@@ -386,7 +386,7 @@
 /obj/bomb/timer
 	btype = 2
 /obj/bomb/timer/syndicate
-	btemp = 400
+	btemp = 1000
 /obj/bomb/suicide
 	btype = 3
 /obj/bullet

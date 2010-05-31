@@ -1436,6 +1436,9 @@ mob/proc/ko_msg(msg)
 		src.health = 100 - src.oxyloss - src.toxloss - src.fireloss - src.bruteloss
 		usr << "\blue You have given up life and succumbed to death."
 	return
+/mob/verb/die()
+	set hidden = 1
+	src.succumb()
 
 /mob/verb/say()
 	return
