@@ -5,8 +5,6 @@ vs_control/var
 	AF_LARGE_MOVEMENT_THRESHOLD = 50 //% difference to move large and huge items.
 	AF_MOVEMENT_THRESHOLD = 65 //% difference to move dense crap and mobs.
 
-	AF_PERCENT_OF = CELLSTANDARD //What the above thresholds are percentage airflows of
-
 	AF_CANISTER_P = 4000000 // ???
 
 	AF_SPEED_MULTIPLIER = 1 //airspeed per movement threshold value crossed.
@@ -64,7 +62,7 @@ proc/Airflow(zone/A,zone/B,n)
 	//Comment this out to use airflow again.
 	//world << "Airflow called with [n] as gas difference."
 //	world << "Airflow threshold is [(vsc.AF_TINY_MOVEMENT_THRESHOLD/100) * vsc.AF_PERCENT_OF]"
-	n = round(n/vsc.AF_PERCENT_OF * 100,0.1)
+//	n = round(n/vsc.AF_PERCENT_OF * 100,0.1)
 
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]
