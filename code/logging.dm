@@ -34,6 +34,7 @@
 	world.log << "[time2]:MATTACK: [text]"
 	var/F = file(log_file)
 	F << "[time2]:MATTACK: [text]"
+	messageadmins(text)
 
 /*/world/proc/log_attack(text)
 	world.log << "ATTACK: [text]"

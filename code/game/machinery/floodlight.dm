@@ -5,7 +5,7 @@
 	density = 1
 	var/on = 0
 	var/obj/item/weapon/cell/cell = null
-	var/use = 20
+	var/use = 1
 	var/unlocked = 0
 	var/open = 0
 

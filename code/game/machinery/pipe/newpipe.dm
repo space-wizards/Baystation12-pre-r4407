@@ -1804,36 +1804,47 @@ var/list/lines = list()
 	gas.replace_by(ngas)
 
 /obj/machinery/inlet/filter/process()
+	..()
+
 	src.updateicon()
-	if(!(stat & NOPOWER))
-		var/turf/T = src.loc
-		if(!T || T.density)	return
 
-		if(!vnode)	return leak_to_turf()
-		var/obj/substance/gas/exterior = new()
-		exterior.oxygen = T.oxygen()
-		exterior.n2 = T.n2()
-		exterior.plasma = T.poison
-		exterior.co2 = T.co2()
-		exterior.sl_gas = T.sl_gas
-		exterior.temperature = T.temp()
-		var/obj/substance/gas/interior = gas
-		var/obj/substance/gas/flowing = new()
+	if(stat & (NOPOWER|BROKEN))
+		return
 
-		var/flow_rate = (exterior.tot_gas()-interior.tot_gas())*vsc.FLOWFRAC
-		if(flow_rate <= 0)
-			return
-		flowing.set_frac(exterior,flow_rate)
-		if(!(src.f_mask & GAS_O2))	flowing.oxygen	= 0
-		if(!(src.f_mask & GAS_N2))	flowing.n2		= 0
-		if(!(src.f_mask & GAS_PL))	flowing.plasma	= 0
-		if(!(src.f_mask & GAS_CO2))	flowing.co2		= 0
-		if(!(src.f_mask & GAS_N2O))	flowing.sl_gas	= 0
-		use_power(5,ENVIRON)
-		exterior.sub_delta(flowing)
-		interior.add_delta(flowing)
-	else
-		..()
+	var/turf/T = src.loc
+	if(!T || T.density)	return
+
+	if(!vnode)	return leak_to_turf()
+	var/obj/substance/gas/exterior = new()
+
+	exterior.oxygen = T.oxygen()
+	exterior.n2 = T.n2()
+	exterior.plasma = T.poison()
+	exterior.co2 = T.co2()
+	exterior.sl_gas = T.sl_gas()
+	exterior.temperature = T.temp()
+
+
+	var/obj/substance/gas/flowing = new()
+
+	var/flow_rate = (exterior.tot_gas()-gas.tot_gas())*vsc.FLOWFRAC
+
+	if(flow_rate <= 0)
+		return
+
+	flowing.set_frac(exterior,flow_rate)
+
+	if(!(f_mask & GAS_O2))	flowing.oxygen	= 0
+	if(!(f_mask & GAS_N2))	flowing.n2		= 0
+	if(!(f_mask & GAS_PL))	flowing.plasma	= 0
+	if(!(f_mask & GAS_CO2))	flowing.co2		= 0
+	if(!(f_mask & GAS_N2O))	flowing.sl_gas	= 0
+
+	use_power(5,ENVIRON)
+
+	exterior.sub_delta(flowing)
+	gas.add_delta(flowing)
+
 	return
 
 /obj/machinery/inlet/filter/leak_to_turf()
