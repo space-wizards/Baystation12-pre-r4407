@@ -4,89 +4,105 @@
 	icon_state = "flood00"
 	density = 1
 	var/on = 0
-	var/obj/item/weapon/cell/cell
-	var/use = 1
+	var/obj/item/weapon/cell/cell = null
+	var/use = 20
 	var/unlocked = 0
 	var/open = 0
-	var/chargepre
+
+/obj/machinery/floodlight/updateicon()
+	icon_state = "flood[open ? "o" : ""][open && cell ? "b" : ""]0[on]"
 
 /obj/machinery/floodlight/process()
-	while(on)
-		sleep(10)
-		if(!cell && luminosity)
-			icon_state = "floodo00"
+	if (!on)
+		if (luminosity)
+			updateicon()
 			sd_SetLuminosity(0)
-			return
-		cell.charge -= use
-		src.chargepre = cell.charge / cell.maxcharge
-		if(cell.charge <= 0 && luminosity)
-			icon_state = "floodo00"
-			sd_SetLuminosity(0)
-			return
+		return
 
-/obj/machinery/floodlight/attack_hand()
-	if(unlocked && open)
-		if(cell)
-			var/obj/item/weapon/cell/whoop = new(src)
-			whoop.loc = src.loc
-			whoop.charge = cell.charge
-			cell = null
-			overlays = null
-			overlays += "floodo"
-			return
-	if(on)
+	if(!luminosity && cell && cell.charge > 0)
+		sd_SetLuminosity(10)
+		updateicon()
+
+	if(!cell && luminosity)
 		on = 0
-		usr << "You turn off the light"
-		icon_state = "flood00"
+		updateicon()
 		sd_SetLuminosity(0)
 		return
+
+	cell.charge -= use
+
+	if(cell.charge <= 0 && luminosity)
+		on = 0
+		updateicon()
+		sd_SetLuminosity(0)
+		return
+
+/obj/machinery/floodlight/attack_hand(mob/user as mob)
+	if(open && cell)
+		cell.loc = usr
+		cell.layer = 52
+		if (user.hand)
+			user.l_hand = cell
+		else
+			user.r_hand = cell
+
+		cell.add_fingerprint(user)
+		updateicon()
+		cell.updateicon()
+
+		src.cell = null
+		user << "You remove the power cell"
+		return
+
+	if(on)
+		on = 0
+		user << "You turn off the light"
 	else
 		if(!cell)
 			return
 		if(cell.charge <= 0)
 			return
 		on = 1
-		usr << "You turn on the light"
-		icon_state = "flood01"
-		sd_SetLuminosity(10)
-		process()
-		return
+		user << "You turn on the light"
+
+	updateicon()
+
 
 /obj/machinery/floodlight/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/screwdriver))
-		if(unlocked)
-			unlocked = 0
-			usr << "You screw the battery panel in place."
-		else
-			unlocked = 1
-			usr << "You uncrew the battery panel."
-	if (istype(W, /obj/item/weapon/crowbar))
-		if(open)
-			open = 0
-			overlays = null
-			usr << "You crowbar the battery panel in place."
-			overlays = null
-		else
+		if (!open)
 			if(unlocked)
-				open = 1
-				usr << " You remove the battery panel."
-				if(cell)
-					overlays += "floodob"
-				else
-					overlays += "floodo"
+				unlocked = 0
+				user << "You screw the battery panel in place."
+			else
+				unlocked = 1
+				user << "You unscrew the battery panel."
+
+	if (istype(W, /obj/item/weapon/crowbar))
+		if(unlocked)
+			if(open)
+				open = 0
+				overlays = null
+				user << "You crowbar the battery panel in place."
+			else
+				if(unlocked)
+					open = 1
+					user << "You remove the battery panel."
+
 	if (istype(W, /obj/item/weapon/cell))
-		if(open && unlocked)
-			if(!cell)
-				src.cell = new/obj/item/weapon/cell(src)
-				cell.maxcharge = W:maxcharge
-				cell.charge = W:charge
-				if(cell)
-					overlays += "floodob"
-				del W
+		if(open)
+			if(cell)
+				user << "There is a power cell already installed."
+			else
+				user.drop_item()
+				W.loc = src
+				cell = W
+				user << "You insert the power cell."
+	updateicon()
 
 /obj/machinery/floodlight/New()
 	src.cell = new/obj/item/weapon/cell(src)
 	cell.maxcharge = 1000
 	cell.charge = 1000
-	return ..()
+	..()
 

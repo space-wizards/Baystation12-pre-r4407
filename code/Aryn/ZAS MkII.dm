@@ -17,7 +17,7 @@ var/const/FULL_PRESSURE = 3600000
 //The pressure of a zone is 100% if each turf contains this amount of gas.
 vs_control/var/DOOR_CONNECTION_FLOW = 45
 //This value is the flow rate (as %) that will be used when a door is open between zones.
-vs_control/var/TILE_CONNECTION_FLOW = 55
+vs_control/var/TILE_CONNECTION_FLOW = 50
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
 vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.

@@ -1,18 +1,18 @@
 vs_control/var
-	AF_TINY_MOVEMENT_THRESHOLD = 15 //% difference to move tiny items.
-	AF_SMALL_MOVEMENT_THRESHOLD = 25 //% difference to move small items.
-	AF_NORMAL_MOVEMENT_THRESHOLD = 35 //% difference to move normal items.
+	AF_TINY_MOVEMENT_THRESHOLD = 25 //% difference to move tiny items.
+	AF_SMALL_MOVEMENT_THRESHOLD = 35 //% difference to move small items.
+	AF_NORMAL_MOVEMENT_THRESHOLD = 45 //% difference to move normal items.
 	AF_LARGE_MOVEMENT_THRESHOLD = 50 //% difference to move large and huge items.
-	AF_MOVEMENT_THRESHOLD = 45 //% difference to move dense crap and mobs.
+	AF_MOVEMENT_THRESHOLD = 65 //% difference to move dense crap and mobs.
 
-	AF_PERCENT_OF = CELLSTANDARD
+	AF_PERCENT_OF = CELLSTANDARD //What the above thresholds are percentage airflows of
 
-	AF_CANISTER_P = 4000000
+	AF_CANISTER_P = 4000000 // ???
 
 	AF_SPEED_MULTIPLIER = 1 //airspeed per movement threshold value crossed.
-	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
+	AF_DAMAGE_MULTIPLIER = 3 //Amount of damage applied per airflow_speed.
 	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
-	AF_SPEED_DECAY = 0.6 //Amount that flow speed will decay with time.
+	AF_SPEED_DECAY = 0.5 //Amount that flow speed will decay with time.
 
 client/proc
 	Change_Airflow_Constants()

@@ -35,16 +35,17 @@
 	access_bridge = 34
 	access_all_personal_lockers = 35
 	access_hos = 36
-	/*access_legal_cabinet To be created sometime after initial release - Trorbes 28/12/09 */
+	//access_legal_cabinet //To be created sometime after initial release - Trorbes 28/12/09
 	access_judge_bench = 37
 	access_change_ids = 38
 	access_hop = 39
 	access_teleporter = 40
 	access_ai = 41
 	access_captain = 42
-	access_network = 43 //To be fully implemented with the network branch - Sukasa 06/04/10
+	access_network = 43
 	access_communications = 44
 	access_medresearch = 45
+	access_shieldsystems = 46
 
 	password_firedoor = 100
 	password_smeg = 101
@@ -144,7 +145,7 @@
 				access_admin_atmos, access_apcs, access_fire_station, access_medical_storage, access_medical_records,
 				access_medbay, access_chemical_lab, access_genetics_lab,access_toxins_lab, access_security_storage,
 				access_forensics, access_brig, access_security_records, access_security, access_bridge, access_medresearch,
-				access_all_personal_lockers, access_judge_bench, access_change_ids, access_hop, access_ai, access_communications)
+				access_all_personal_lockers, access_judge_bench, access_change_ids, access_hop, access_ai, access_communications,access_shieldsystems)
 		if("Head of Security")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_custodial_closet, access_bar,
 				access_morgue, access_chapel, access_tool_storage, access_solar_array, access_supply_shuttle,
@@ -152,7 +153,7 @@
 				access_admin_atmos, access_fire_station, access_medical_storage, access_medbay, access_chemical_lab,
 				access_genetics_lab, access_toxins_lab, access_security_storage, access_forensics, access_brig,
 				access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
-				access_change_ids, access_hos, access_medresearch)
+				access_change_ids, access_hos, access_medresearch,access_shieldsystems)
 		if("Network Technician")
 			return list(access_network, access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_communications, access_electrical_storage)
 		if("Head of Research")
@@ -163,7 +164,7 @@
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_disposal_units, access_custodial_closet, access_tool_storage,
 				access_solar_array, access_electrical_storage, access_atmospherics, access_engine,
 				access_external_airlocks, access_eva, access_admin_atmos, access_apcs, access_eject_engine,
-				access_hom, access_bridge, access_supply_shuttle, access_network, access_communications)
+				access_hom, access_bridge, access_supply_shuttle, access_network, access_communications,access_shieldsystems)
 		if("Supply Officer")
 			return list(access_supply_shuttle, access_disposal_units, access_maintenance_corridors, access_communications)
 		if("Security Officer")
@@ -184,7 +185,7 @@
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_engine, access_fire_station)
 		if("Station Engineer")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage, access_solar_array,
-				access_electrical_storage, access_engine, access_external_airlocks, access_apcs, access_communications)
+				access_electrical_storage, access_engine, access_external_airlocks, access_apcs, access_communications, access_shieldsystems)
 		if("Atmospheric Technician")
 			return list(access_maintenance_corridors, access_maintenance_hallway, access_tool_storage,
 				access_electrical_storage, access_atmospherics, access_admin_atmos)
@@ -210,7 +211,7 @@
 	access_toxins_lab, access_hor, access_security_storage, access_forensics, access_brig,
 	access_security_records, access_security, access_swat_locker, access_bridge, access_all_personal_lockers,
 	access_hos, /*access_legal_cabinet,*/ access_judge_bench, access_change_ids, access_hop, access_teleporter,
-	access_ai, access_captain, access_network, access_communications, access_medresearch)
+	access_ai, access_captain, access_network, access_communications, access_medresearch, access_shieldsystems)
 
 /proc/get_all_passwords()
 	return list(password_smeg,password_firedoor,password_digitalvalve,password_router,password_heater,password_filterinlets,password_filtervents)
@@ -309,6 +310,8 @@
 			return "access communications equipment"
 		if(access_medresearch)
 			return "access medical research"
+		if(access_shieldsystems)
+			return "access shielding systems"
 /proc/get_all_jobs()
 	return list("Captain", "Head of Personnel", "Head of Security", "Head of Research", "Head of Maintenance", "Security Officer", "Forensic Technician", "Plasma Researcher", "Geneticist", "Chemist", "Medical Doctor", "Fire Fighter", "Station Engineer", "Atmospheric Technician", "Network Technician", "Supply Officer", "Chaplain", "Bartender", "Janitor", "Lawyer", "Assistant")
 
