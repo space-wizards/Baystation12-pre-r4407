@@ -106,13 +106,6 @@ var/pnunet_nextlink_processing = 0
 
 	var/list/P2 = computer_list(T2, C, C.d2)	// what joins on to cut cable in dir2
 
-	if(DebugN)
-		for(var/obj/O in P1)
-			world.log << "P1: [O] at [O.x] [O.y] : [istype(O, /obj/computercable) ? "[O:d1]/[O:d2]" : null] "
-		for(var/obj/O in P2)
-			world.log << "P2: [O] at [O.x] [O.y] : [istype(O, /obj/computercable) ? "[O:d1]/[O:d2]" : null] "
-
-
 
 	if(P1.len == 0 || P2.len ==0)			// if nothing in either list, then the cable was an endpoint
 											// no need to rebuild the powernet, just remove cut cable from the list

@@ -3018,6 +3018,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Security Camera"
 	icon = 'stationobjs.dmi'
 	icon_state = "camera"
+	layer = 4.1
 	var/network = "SS13"
 	var/c_tag = null
 	var/c_tag_order = 999

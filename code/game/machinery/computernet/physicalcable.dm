@@ -65,7 +65,7 @@ obj/computercable/New()
 			var/datum/computernet/PN = computernets[cnetnum]
 			PN.cut_cable(src)									// updated the powernets
 	else
-		if(Debug) world.log << "Defered cable deletion at [x],[y]: #[cnetnum]"
+		messageadmins("Defered cable deletion at [x],[y]: #[cnetnum]")
 	..()													// then go ahead and delete the cable
 
 /obj/computercable/hide(var/i)
@@ -286,7 +286,7 @@ obj/computercable/New()
 
 			for(var/obj/computercable/LC in U)		// check to make sure there's not a cable there already
 				if(LC.d1 == fdirn || LC.d2 == fdirn)
-					user << "There's already a cable at that position."
+					user << "There's already cabling there."
 					return
 
 			var/obj/computercable/NC = new(U)
@@ -296,8 +296,6 @@ obj/computercable/New()
 			NC.updateicon()
 			NC.update_network()
 			use(1)
-			C.shock(user, 25)
-		//	usr.unlock_medal("Shocking Situation",1,"Get electrocuted. Wear orange gloves next time.","easy")
 
 			return
 	else if(C.d1 == 0)		// exisiting cable doesn't point at our position, so see if it's a stub
@@ -315,10 +313,8 @@ obj/computercable/New()
 			if(LC == C)			// skip the cable we're interacting with
 				continue
 			if(LC.d1 == nd1 || LC.d2 == nd1 || LC.d1 == nd2 || LC.d2 == nd2)	// make sure no cable matches either direction
-				user << "There's already a cable at that position."
+				user << "There's already cabling there."
 				return
-		C.shock(user, 25)
-	//	usr.unlock_medal("Shocking Situation",1,"Get electrocuted. Wear orange gloves next time.", "easy")
 		del(C)
 		var/obj/computercable/NC = new(T)
 		NC.d1 = nd1
@@ -332,21 +328,70 @@ obj/computercable/New()
 		return
 
 
+
+
+
 // called when a new cable is created
 // can be 1 of 3 outcomes:
 // 1. Isolated cable (or only connects to isolated machine) -> create new powernet
 // 2. Joins to end or bridges loop of a single network (may also connect isolated machine) -> add to old network
 // 3. Bridges gap between 2 networks -> merge the networks (must rebuild lists also)
 
-
-
 /obj/computercable/proc/update_network()
-	// easy way: do /makepowernets again
-	makecomputernets()
-	// do things more logically if this turns out to be too slow
-	// may just do this for case 3 anyway (simpler than refreshing list)
+	// easy way: do /makecomputernets again
 
 
+	var/obj/computercable/C1 = cable_connected(get_step_3d(src, d1), src)
+
+	var/obj/computercable/C2 = cable_connected(get_step_3d(src, d1), src)
+
+	if (!C1 && !C2)
+
+		var/datum/computernet/CN = new()
+
+		computernets += CN
+		CN.number = computernets.len
+		src.cnetnum = CN.number
+
+		for(var/obj/machinery/M in src.loc)
+			if (!M in CN.nodes && !M.cnetnum)
+				CN.nodes += M
+				CN.nodes[M.computerID] = M
+				M.cnetnum = CN.number
+				M.computernet = CN
+
+	else if ((!C1) ^ (!C2))
+		C1 = C1 ? C1 : C2
+		var/datum/computernet/CN = computernets[C1.cnetnum]
+		CN.cables += src
+
+		for(var/obj/machinery/M in src.loc)
+			if (!M in CN.nodes && !M.cnetnum)
+				CN.nodes += M
+				CN.nodes[M.computerID] = M
+				M.cnetnum = CN.number
+				M.computernet = CN
+
+		NetworkChange()
+
+	else if (C1.cnetnum != C2.cnetnum)
+		makecomputernets()
+	else
+		var/datum/computernet/CN = computernets[C1.cnetnum]
+		CN.cables += src
+
+		for(var/obj/machinery/M in src.loc)
+			if (!M in CN.nodes && !M.cnetnum)
+				CN.nodes += M
+				CN.nodes[M.computerID] = M
+				M.cnetnum = CN.number
+				M.computernet = CN
 
 
+/proc/cable_connected(var/turf/T, var/obj/source, var/d)
 
+	for(var/obj/computercable/C in T)
+		if (C.d1 == get_dir_3d(T, source.loc) || C.d2 == get_dir_3d(T, source.loc))
+			return C
+
+	return null

@@ -3,8 +3,6 @@
 	world.log_access("Login: [src.key] from [src.client.address]")
 	src.lastKnownIP = src.client.address
 	src.lastKnownID = src.client.computer_id
-	if (src.lastKnownIP == "127.0.0.1")
-		src.lastKnownIP = "67.52.31.93"
 	if (config.log_access)
 		for (var/mob/M in world)
 			if(M == src)

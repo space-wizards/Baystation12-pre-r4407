@@ -97,19 +97,23 @@
 	BuildRoutingTable()
 
 	if (!silence)
-		spawn(rand(20, 200))
-			for (var/mob/ai/AI in world)
-				if (!AI.stat)
-					AI << "\red A network reconfiguration has been detected.  You may wish to inform the crew."
+		NetworkChange()
 
 	return netcount
 
+/proc/NetworkChange()
+	spawn(rand(20, 200))
+		for (var/mob/ai/AI in world)
+			if (!AI.stat)
+				AI << "\red A network reconfiguration has been detected.  You may wish to inform the crew."
 // returns a list of all -related objects (nodes, cable, junctions) in turf,
 // excluding source, that match the direction d
 // if unmarked==1, only return those with cnetnum==0
 
 /proc/get_dir_3d(var/atom/ref, var/atom/target)
 	return get_dir(ref, target) | (target.z > ref.z ? UP : 0) | (target.z < ref.z ? DOWN : 0)
+
+
 
 /proc/computer_list(var/turf/T, var/obj/source, var/d, var/unmarked=0)
 	var/list/result = list()
@@ -276,13 +280,24 @@ var/computernet_nextlink_processing = 0
 			if(!OM.cnetnum)
 				OM.cnetnum = PN.number
 				OM.computernet = PN
+
+				if (istype(OM, /obj/machinery/router))
+					var/obj/machinery/router/R = OM
+					R.connectednets += PN
+					R.connectednets -= src
+					R.disconnectednets -= src
+
 				nodes -= OM
+				nodes[OM.computerID] = null
 				PN.nodes += OM		// same for  machines
+				PN.nodes[OM.computerID] = OM
 
 		if(DebugN)
 			world.log << "Old PN#[number] : ([cables.len];[nodes.len])"
 			world.log << "New PN#[PN.number] : ([PN.cables.len];[PN.nodes.len])"
 
+		BuildRoutingTable()
+		NetworkChange()
 	else
 		if(DebugN)
 			world.log << "Was looped."

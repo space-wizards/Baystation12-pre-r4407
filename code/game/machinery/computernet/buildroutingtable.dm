@@ -1,13 +1,6 @@
 /datum/rtable
 	var/list/list/datum/computernet/sourcenets = list()
 
-/datum/rtable/proc/GetNetName(var/net)
-	if (istype(net, /datum/computernet))
-		var/datum/computernet/N = net
-		return N.id
-	else
-		return net
-
 var/dbg1
 var/dbg2
 var/dbg3

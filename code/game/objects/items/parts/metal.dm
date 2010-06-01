@@ -198,10 +198,9 @@
 				if (!istype(T, /turf/station/floor))
 					return
 				src.amount -= 5
-				var/obj/machinery/computer/comdisc/S = new/obj/machinery/computer/comdisc
+				var/obj/machinery/computer/comdisc/S = new/obj/machinery/computer/comdisc(T)
 				S.buildstate = 1
 				S.updateicon()
-				S.loc=T
 				S.density=0
 			if("frame")
 				if (src.amount < 4)

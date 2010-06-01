@@ -3495,6 +3495,11 @@
 	if(istype(C, /obj/item/weapon/cable_coil) )
 		var/obj/item/weapon/cable_coil/coil = C
 		coil.turf_place(src, user)
+
+	if(istype(C, /obj/item/weapon/computercable_coil) )
+		var/obj/item/weapon/computercable_coil/coil = C
+		coil.turf_place(src, user)
+
 	if(istype(C, /obj/item/weapon/pipe))
 		var/obj/item/weapon/pipe/p = C
 		p.turf_place(src, user)

@@ -11,7 +11,7 @@
 
 /obj/item/weapon/wireless/New()
 	..()
-	computerID = uppertext(num2hex(GetUnitId()))
+	computerID = uppertext(num2hex(GetUnitId(), 4))
 	typeID = gettypeid(type)
 
 /proc/GetTurf(var/obj/object)

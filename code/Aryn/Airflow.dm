@@ -63,7 +63,7 @@ proc/Airflow(zone/A,zone/B,n)
 	//world << "Airflow called with [n] as gas difference."
 //	world << "Airflow threshold is [(vsc.AF_TINY_MOVEMENT_THRESHOLD/100) * vsc.AF_PERCENT_OF]"
 //	n = round(n/vsc.AF_PERCENT_OF * 100,0.1)
-
+	n /= FULL_PRESSURE
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]
 	var/list/pplz = A.movables()
@@ -296,10 +296,11 @@ atom/movable
 					var/QQ = rand(1,3)
 					src.hear_sound("sound/weapon/generic/hit[QQ].wav",6)
 					loc:add_blood(src)
-					if (src:wear_suit)
-						src:wear_suit:add_blood(src)
-					if (src:w_uniform)
-						src:w_uniform:add_blood(src)
+					if (istype(src, /mob/human))
+						if (src:wear_suit)
+							src:wear_suit:add_blood(src)
+						if (src:w_uniform)
+							src:w_uniform:add_blood(src)
 			if(ismob(src) && !istype(src,/mob/ai))
 				var/b_loss = airflow_speed * vsc.AF_DAMAGE_MULTIPLIER
 				for(var/organ in src:organs)

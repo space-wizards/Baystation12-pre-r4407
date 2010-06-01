@@ -35,6 +35,6 @@
 			break
 	src.add_fingerprint(user)
 	if (M.stat > 1)
-		user.unlock_medal("He's Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
+		user.unlock_medal("He\'s Dead, Jim", 0, "Scanned a dead body. Great job Sherlock.", "easy")
 	return
 

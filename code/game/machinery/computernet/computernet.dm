@@ -28,13 +28,18 @@
 
 /obj/machinery/New()
 	..()
-	computerID = uppertext(num2hex(GetUnitId()))
+	computerID = uppertext(num2hex(GetUnitId(), 4))
 	typeID = gettypeid(type)
+	var/obj/computercable/C = locate() in loc
+	if(!cnetdontadd && C && C.cnetnum)
+		computernet = computernets[C.cnetnum]
+		computernet.nodes += src
+		computernet.nodes[computerID] = src
 
 proc/GetUnitId()
 	var/I = 0
 	while (!I || (I in usedids))
-		I = rand(4096, 65535) //1000 - FFFF
+		I = rand(1, 65535) //1000 - FFFF
 	usedids += I
 	return I
 

@@ -71,7 +71,8 @@
 		if(href_list["cdir"])
 			src.cdir = dd_range(0,359,(360+src.cdir+text2num(href_list["cdir"]))%360)
 			spawn(1)
-				relay.set_panels(cdir)
+				if (relay)
+					relay.set_panels(cdir)
 	src.updateUsrDialog()
 	return
 /obj/machinery/computer/comdisc/proc/set_panels(var/cdir)
@@ -85,30 +86,33 @@
 	..()
 	updateicon()
 
-/obj/machinery/computer/comcontrol/updateicon()
 /obj/machinery/computer/comdisc/attackby(obj/item/weapon/W, mob/user)
 	..()
 	if(istype(W,/obj/item/weapon/sheet/glass))
 		var/obj/item/weapon/sheet/glass/S = W
 		if(buildstate == 1)
 			if(S.amount >= 2)
-				S.amount -= 2
+				S.amount--
 			else
 				del S
 			buildstate++
-			user << "Need more glass"
+			user << "You add glass to the frame"
+
 		else if(buildstate == 2)
 			if(S.amount >= 2)
 				S.amount--
 			else
 				del S
 			buildstate++
-			user << "dont need more."
+			user << "You finish adding glass."
+		return
+
 	if(istype(W, /obj/item/weapon/circuitry))
 		if(buildstate == 3)
 			del W
 			buildstate = 6
-			user << "done"
+			user << "You add the control circuit"
+		return
 	src.add_fingerprint(user)
 	src.health -= W.force
 	src.healthcheck()
@@ -132,8 +136,10 @@
 	return
 
 /obj/machinery/computer/comdisc/updateicon()
+	icon_state = "sp_base"
 	overlays = null
 	if(buildstate < 6)
+		overlays += image('power.dmi', icon_state = "solar_panel_build[buildstate]", layer = FLY_LAYER)
 		return
 	if(stat & BROKEN)
 		overlays += image('power.dmi', icon_state = "solar_panel-b", layer = FLY_LAYER)
