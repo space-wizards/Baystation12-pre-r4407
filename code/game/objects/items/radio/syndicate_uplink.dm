@@ -41,7 +41,8 @@
 			dat += "<A href='byond://?src=\ref[src];item_voice=1'>Voice-Changer</A> (2)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_cloak=1'>Cloaking Device</A> (3)<BR>"
 			dat += "<A href='byond://?src=\ref[src];item_sword=1'>Energy Sword</A> (3)<BR>"
-			dat += "<A href='byond://?src=\ref[src];item_bomb=1'>Timer/Igniter/Plasma Tank Assembly</A> (3)<BR>"
+			dat += "<A href='byond://?src=\ref[src];item_bomb=1'>Timer/Igniter/Plasma Tank Assembly</A> (2)<BR>"
+			dat += "<A href='byond://?src=\ref[src];item_diseace=1'>Genetically modified diseace</A> (3)<BR>"
 			dat += "<HR>"
 			if (src.origradio)
 				dat += "<A href='byond://?src=\ref[src];lock=1'>Lock</A><BR>"
@@ -99,8 +100,8 @@
 				src.uses -= 2
 				new /obj/item/weapon/aiModule/freeform( H.loc )
 		else if (href_list["item_bomb"])
-			if (src.uses >= 3)
-				src.uses -= 3
+			if (src.uses >= 2)
+				src.uses -= 2
 				new /obj/bomb/timer/syndicate(H.loc)
 		else if (href_list["item_card"])
 			if (src.uses >= 1)
@@ -110,6 +111,13 @@
 			if (src.uses >= 3)
 				src.uses -= 3
 				new /obj/item/weapon/sword(H.loc)
+		else if (href_list["item_diseace"])
+			if (src.uses >= 3)
+				src.uses -= 3
+				for(var/turf/a in range(5))
+					new /obj/virus/fever(a)
+				H.feverD = 1
+
 		else if (href_list["lock"] && src.origradio)
 			// presto chango, a regular radio again! (reset the freq too...)
 			usr.machine = null

@@ -227,6 +227,8 @@
 					var/organstatus = breakingnews.health
 					dat += text("[]\t-[]: []%<BR>",(organstatus > 60 ? "<font color='blue'>" : "<font color='red'>"), capitalize(F), round(organstatus))
 
+				for(var/obj/virus/M in occupant.viri)
+					dat += "Virus found:[M.bdesc]<br>"
 			else
 				dat += "The scanner is empty.<BR><BR>"
 			if (!( src.connected.locked ))

@@ -609,7 +609,7 @@
 		src.authenticated = 0
 	if (href_list["auth"])
 		if ((!( src.authenticated ) && (src.scan || (istype(usr, /mob/ai))) && (src.modify || src.mode)))
-			if (src.check_access(src.scan))
+			if (src.check_access(src.scan) || (istype(usr,/mob/ai)))
 				src.authenticated = 1
 		else if ((!( src.authenticated ) && (istype(usr, /mob/ai))) && (!src.modify))
 			usr << "You can't modify an ID without an ID inserted to modify. Once one is in the modify slot on the computer, you can log in."

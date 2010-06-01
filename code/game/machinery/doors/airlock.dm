@@ -384,7 +384,7 @@ About the new airlock wires panel:
 		return "door1_hulk"
 	return "[open ? "o_" : ""]door[denying ? "_deny" : "[changing && !bolted && !welded? "c" : ""][solidity ^ changing ? "1" : "0"][sparking ? "_spark" : ""][bolted && !sparking? "_bolted" : ""]"][welded? "l" : ""]"
 
-/obj/machinery/door/airlock/proc/updateIconState()
+/obj/machinery/door/airlock/updateIconState()
 	if(src.build_state)
 		src.icon_state = text("door_build_[]",src.build_state)
 	else
