@@ -712,8 +712,17 @@ var/CrashLocation = ""
 
 	sun.calc_position()
 
+	if(time%air_cycle == 0)
+		spawn(-1)
+			for(var/turf/space/space in world)
+				if (space.updatecell && space.update_again)
+					sleep(0)
+			return
 	CrashLocation = "MachineUpdates"
 
+	for(var/turf/station/T in world)
+		if (T.updatecell && (T.update_again || T.firelevel >= 100000.0))
+			sleep(0)
 	sleep(3)
 	for(var/mob/M in world)
 		spawn( 0 )
