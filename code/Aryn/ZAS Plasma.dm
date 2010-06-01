@@ -41,127 +41,29 @@ pl_control/var
 
 obj/var/contaminated = 0
 
-turf/var
-	can_dist
-	turf
-		link_N
-		link_S
-		link_E
-		link_W
+turf/var/list/dist_links
 turf/var
 	has_plasma
 	has_n2o
 	dist_timer
-
-turf/proc/GetDistLinks()
-	if(Airtight(src))
-		can_dist = 0
-		if(link_N) link_N.link_S = null
-		if(link_S) link_S.link_N = null
-		if(link_E) link_E.link_W = null
-		if(link_W) link_W.link_E = null
-		return
-	else
-		can_dist = 1
-	var/turf/T
-
-	T = get_step(src,NORTH)
-	link_N = null
-	if(T)
-		if(!Airtight(T,src))
-			link_N = T
-			T.link_S = src
-
-	T = get_step(src,SOUTH)
-	link_S = null
-	if(T)
-		if(!Airtight(T,src))
-			link_S = T
-			T.link_N = src
-
-	T = get_step(src,EAST)
-	link_E = null
-	if(T)
-		if(!Airtight(T,src))
-			link_E = T
-			T.link_W = src
-
-	T = get_step(src,WEST)
-	link_W = null
-	if(T)
-		if(!Airtight(T,src))
-			link_W = T
-			T.link_E = src
-
 turf/proc/DistributeGas()
-	if(istype(src,/turf/space))
-		poison = 0
-		sl_gas = 0
-		return
+	if(Airtight(src)) return
+	dist_links = GetCardinals(src)
+	for(var/turf/T in dist_links)
+		if(Airtight(T,src)) dist_links -= T
+		var/obj/machinery/door/D = locate() in T
+		if(D)
+			if(!D.is_open && !(D.type in directional_types)) dist_links -= T
+	dist_links += src
 	var
 		total_plasma
 		total_n2o
-		turf/T
-		tturfs = 1
-
-	if(!can_dist)
-		//world << "No Distribution"
-		return
-
-	T = link_N
-	if(T)
+	for(var/turf/T in dist_links)
 		total_plasma += T.poison
 		total_n2o += T.sl_gas
-		tturfs++
-
-	T = link_S
-	if(T)
-		total_plasma += T.poison
-		total_n2o += T.sl_gas
-		tturfs++
-
-	T = link_E
-	if(T)
-		total_plasma += T.poison
-		total_n2o += T.sl_gas
-		tturfs++
-
-	T = link_W
-	if(T)
-		total_plasma += T.poison
-		total_n2o += T.sl_gas
-		tturfs++
-
-	total_plasma += src.poison
-	total_n2o += src.sl_gas
-
-	//world << "Total Turfs: [tturfs] Total Plasma: [total_plasma] Total N2O: [total_n2o]"
-
-	T = link_N
-	if(T)
-		T.poison = total_plasma / (tturfs)
-		T.sl_gas = total_n2o / (tturfs)
-
-	T = link_S
-	if(T)
-		T.poison = total_plasma / (tturfs)
-		T.sl_gas = total_n2o / (tturfs)
-
-	T = link_E
-	if(T)
-		T.poison = total_plasma / (tturfs)
-		T.sl_gas = total_n2o / (tturfs)
-
-	T = link_W
-	if(T)
-		T.poison = total_plasma / (tturfs)
-		T.sl_gas = total_n2o / (tturfs)
-
-	poison = total_plasma / (tturfs)
-	sl_gas = total_n2o / (tturfs)
-
-	//world << "Distributed."
-
+	for(var/turf/T in dist_links)
+		T.poison = total_plasma / (dist_links.len)
+		T.sl_gas = total_n2o / (dist_links.len)
 	if(poison() > 100000)
 		if(!has_plasma)
 			overlays += plmaster

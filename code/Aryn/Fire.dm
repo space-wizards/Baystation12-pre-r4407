@@ -15,13 +15,10 @@ turf/proc/temp_set(n)
 	if(zone)
 		var/diff = abs(n) - zone.temp
 		temp(diff)
-		//if(zone.debug) world << "Temperature set to [zone.temp] ([n])"
+		if(zone.speakmychild) world << "Temperature set to [zone.temp] ([n])"
 var/fire_spread = 0
 proc/FireTicker()
 	var/fticks = 0
-	spawn(5)
-		for(var/turf/station/T)
-			T.GetDistLinks()
 	while(1)
 		sleep(1)
 		fticks++
@@ -74,13 +71,13 @@ turf
 					fire_icon = new('Fire.dmi',icon_state="1")
 
 				overlays -= fire_icon
-				if(firelevel >= 500000)
+				if(firelevel >= 200000)
 					fire_icon.icon_state = "5"
-				else if(firelevel >= 400000)
+				else if(firelevel >= 175000)
 					fire_icon.icon_state = "4"
-				else if(firelevel >= 300000)
+				else if(firelevel >= 150000)
 					fire_icon.icon_state = "3"
-				else if(firelevel >= 200000)
+				else if(firelevel >= 125000)
 					fire_icon.icon_state = "2"
 				else
 					fire_icon.icon_state = "1"
