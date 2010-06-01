@@ -71,7 +71,7 @@ turf/proc
 			if(n)
 				zone.temp += n / zone.contents.len
 				zone.temp = max(2.7,zone.temp)
-				if(zone.speakmychild) world << "Added [n] ([n/zone.contents.len]) to temp. New temp: [zone.temp]"
+				//if(zone.debug) world << "Added [n] ([n/zone.contents.len]) to temp. New temp: [zone.temp]"
 			else return zone.temp
 
 obj/move/proc
