@@ -17,20 +17,11 @@ var/const/FULL_PRESSURE = 3600000
 //The pressure of a zone is 100% if each turf contains this amount of gas.
 vs_control/var/DOOR_CONNECTION_FLOW = 45
 //This value is the flow rate (as %) that will be used when a door is open between zones.
-vs_control/var/TILE_CONNECTION_FLOW = 50
+vs_control/var/TILE_CONNECTION_FLOW = 55
 //This value is the flow rate (as %) that will be used when an entire floor tile connects two zones.
 vs_control/var/TEMP_FLOW = 15
 //The flow rate as % that will be used to transfer temperature.
 vs_control/var/TEMP_RETENTION = 99
-
-turf/verb/DebugZone()
-	set src in view()
-	if(usr.ckey != "iaryni")
-		usr << "Whoops, Aryn left a debug verb in."
-		return
-	for(var/zone/Z in zones)
-		Z.debug = 0
-	zone.debug = 1
 
 var/list
 	gas_defaults = list("O2" = 756000,"Plasma" = 0,"CO2" = 0,"N2" = 2844000,"N2O" = 0)
@@ -62,7 +53,7 @@ var/list/zones = list()
 
 //turf/verb/SeeTempChanges()
 //	set src in view()
-//	zone.debug = 1
+//	zone.speakmychild = 1
 //	world << "Showing changes to [src]."
 
 zone
@@ -95,7 +86,7 @@ zone
 		plasma_overlay = 0 //These track whether plasma and N2O overlays were applied.
 		n2o_overlay = 0
 
-		debug = 0
+		speakmychild = 0
 
 		temp = T20C
 		list/nearby_zones = list()
@@ -114,11 +105,11 @@ zone
 				gases = list("O2" = 0,"Plasma" = 0,"CO2" = 0,"N2" = 0,"N2O" = 0)
 		if(door < 2)
 			var/r_list = GetZone(start,door,world.time>20)
-			contents = r_list
-			//boundaries = r_list[2]
+			contents = r_list[1]
+			boundaries = r_list[2]
 		else
 			contents = list(start)
-			//boundaries = //GetCardinals(start)
+			boundaries = GetCardinals(start)
 		if(!contents.len)
 			del src
 		gases = gas_defaults.Copy()
@@ -139,19 +130,19 @@ zone
 				gases[g] = 0
 		rebuild_cache()
 
-		//for(var/atom/A in boundaries)
-		//	var/turf/T
-		//	if(!isturf(A)) T = A.loc
-		//	else T = A
-		//	for(var/turf/U in range(T,3))
-		//		if(U.zone != T.zone)
-		///			if(!(U.zone in nearby_zones))
-			//			nearby_zones += U.zone
-			//			nearby_zones[U.zone] = get_dist(T,U)
-			//		else
-			//			var/dist = get_dist(T,U)
-			//			if(dist < nearby_zones[U.zone])
-			//				nearby_zones[U.zone] = dist
+		for(var/atom/A in boundaries)
+			var/turf/T
+			if(!isturf(A)) T = A.loc
+			else T = A
+			for(var/turf/U in range(T,3))
+				if(U.zone != T.zone)
+					if(!(U.zone in nearby_zones))
+						nearby_zones += U.zone
+						nearby_zones[U.zone] = get_dist(T,U)
+					else
+						var/dist = get_dist(T,U)
+						if(dist < nearby_zones[U.zone])
+							nearby_zones[U.zone] = dist
 
 		spawn(rand(1,9)) Update() //Reducing lag by making updates staggered.
 
@@ -164,7 +155,6 @@ zone
 				sleep(zas_cycle)
 
 				if(!ticker) continue
-				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -196,7 +186,6 @@ zone
 					connections -= src
 
 				sleep(-1)
-				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -228,15 +217,14 @@ zone
 							gases[g] *= contents.len
 
 				sleep(-1)
-				if(moving_zone) continue
 
 				if(!contents.len) del src
 
-				if(zones_to_split && !moving_zone)
+				if(zones_to_split)
 					SplitList(zones_to_split)
 					zones_to_split = null
 
-				if(zones_to_merge && !moving_zone)
+				if(zones_to_merge)
 					MergeList(zones_to_merge)
 					zones_to_merge = null
 
@@ -249,8 +237,8 @@ zone
 				ConnectionLoop:
 					for(var/zone/Z in connections)
 						//Gases flow between connected zones on a per-turf concentration gradient.
-						for(var/turf/space/S in Z.contents)
-							Airflow(src,Z,total())
+						for(var/turf/space/S in Z)
+							Airflow(src,Z,pressure())
 							for(var/g in gases)
 								gases[g] *= 1 - (vsc.TILE_CONNECTION_FLOW/100)
 							for(var/turf/T in src)
@@ -264,10 +252,15 @@ zone
 						flow = max(1,flow) //Lower bound is 1%
 						if(!flow) continue
 
+						var/gas_diff = pressure() - Z.pressure()
+						if(gas_diff > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
+							//if(!speakmychild)
+							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
+							//	speakmychild = 1
+							//	spawn(50) speakmychild = 0
+							Airflow(src,Z,gas_diff)
 
 						//world << "<B><big>Calcuating Connection with Z[zones.Find(Z)]</big></B>"
-						var
-							total_gas_transferred
 
 						for(var/g in gases)
 							var/theo = (gases[g] + Z.gases[g]) / (contents.len + Z.contents.len)
@@ -277,17 +270,9 @@ zone
 								diff_b = Z.per_turf(g) - theo
 							diff_a *= 1 - (flow / 100)
 							diff_b *= 1 - (flow / 100)
-							total_gas_transferred += max(diff_a,diff_b)
 							GasPerTurf(g,diff_a+theo)
 							Z.GasPerTurf(g,diff_b+theo)
 							//more_air_here += gases[g] - Z.gases[g]
-					//	if(debug) world << "Gas Transferred: [total_gas_transferred] ([(total_gas_transferred/vsc.AF_PERCENT_OF)*100]%)"
-					//	if((total_gas_transferred/vsc.AF_PERCENT_OF)*100 > vsc.AF_TINY_MOVEMENT_THRESHOLD)// && more_air_here)
-							//if(!debug)
-							//	world << "[gas_diff]% difference in favor of Z[zones.Find(src)]"
-							//	debug = 1
-							//	spawn(50) debug = 0
-						Airflow(src,Z,total_gas_transferred)
 						var
 							temp_theo = (temp + Z.temp) / 2
 							diff_a = temp - temp_theo
@@ -320,7 +305,6 @@ zone
 					temp = t_temp + T20C
 
 				sleep(-1)
-				if(moving_zone) continue
 
 				if(!contents.len) del src
 
@@ -727,8 +711,8 @@ proc/GetZone(turf/T,ignore_doors=0,slow=0) //This proc does the floodfill proces
 	var/end_loop = 0
 	while(!end_loop)
 		end_loop = 1
-		sleep(-1) //Used to be if(slow), but sleep(-1) only sleeps if there's a backlog so yeah.
 		for(var/turf/X in borders)
+			if(slow) sleep(-1)
 			if(Zonetight(X) != AT)
 				borders -= X
 				LB += X
@@ -741,11 +725,11 @@ proc/GetZone(turf/T,ignore_doors=0,slow=0) //This proc does the floodfill proces
 				LA += Y
 				borders += Y
 				end_loop = 0
-			//for(var/turf/Z in GetCardinals(X))
-			//	if(!(Z in next))
-			//		LB += Z
+			for(var/turf/Z in GetCardinals(X))
+				if(!(Z in next))
+					LB += Z
 			borders -= X
-	return LA//list(LA,LB)
+	return list(LA,LB)
 
 /*proc/sign(n) //A standard function returning the sign (+1,-1, or 0) of a number.
 	if(n > 0) return 1
@@ -921,7 +905,6 @@ proc
 				AddConnection(C.zone,T,D.zone)
 		if(istype(A,/obj/machinery/door/window))
 			A:dir_density = 0
-		T.GetDistLinks()
 
 	CloseDoor(atom/A) //This is called when a door is closed between two zones, to subtract the flow.
 		if(moving_zone) return
@@ -950,7 +933,6 @@ proc
 				RemoveConnection(C.zone,T,D.zone)
 		if(istype(A,/obj/machinery/door/window))
 			A:dir_density = 1
-		T.GetDistLinks()
 
 	ZoneSetup(atom/A) //This sets up the door's zone variables. If two valid zones are found, returns 1, otherwise 0.
 
@@ -1073,21 +1055,16 @@ proc
 				RemoveConnection(T.zone,T,B.zone)
 				RemoveConnection(T.zone,B,B.zone)
 		W.loc = T
-		T.GetDistLinks()
 
 	MoveWindow(obj/window/W,turf/nloc)
 		//world << "<u>Window moved: [W]([W.x],[W.y])</u>"
 		if(!W.loc:zone || !nloc.zone) return
 		if(W.dir == SOUTHWEST)
-			var/turf/U = W.loc
 			W.block_zoning = 0
 			OpenWall(W)
 			spawn(1)
 				W.block_zoning = 1
 				CloseWall(W)
-			var/turf/T = W.loc
-			T.GetDistLinks()
-			U.GetDistLinks()
 			return
 		if(nloc == W.loc) return
 		if(moving_zone) return
@@ -1133,16 +1110,12 @@ proc
 				RemoveConnection(T.zone,B,B.zone)
 
 		W.loc = T
-		T.GetDistLinks()
-		nloc.GetDistLinks()
 	DelWindow(obj/window/W)
 		//world << "<u>Window deleted: [W]([W.x],[W.y])</u>"
 		if(!W.loc:zone) return
 		if(W.dir == SOUTHWEST)
 			W.block_zoning = 0
 			OpenWall(W)
-			var/turf/T = W.loc
-			T.GetDistLinks()
 			return
 		var
 			needs_merge = 0
@@ -1166,11 +1139,10 @@ proc
 			//world << "Applied, good sir!"
 			AddConnection(T.zone,T,A.zone)
 
-		T.GetDistLinks()
-
 		//	W.loc = T
 	NewWindow(obj/window/W)
 		//world << "<u>Window created: [W]([W.x],[W.y])</u>"
+		if(world.time < 10) return
 		var
 			needs_split = 0
 			turf
@@ -1178,15 +1150,6 @@ proc
 				A = get_step(T,W.dir)
 
 		if(moving_zone) return
-
-		if(W.dir == SOUTHWEST)
-			W.block_zoning = 1
-			if(ticker)
-				CloseWall(W)
-				T.GetDistLinks()
-				return
-
-		if(!ticker) return
 
 		//W.loc = null
 
@@ -1200,8 +1163,6 @@ proc
 			else
 				RemoveConnection(T.zone,T,A.zone)
 				RemoveConnection(T.zone,A,A.zone)
-
-		T.GetDistLinks()
 
 		//W.loc = T
 
