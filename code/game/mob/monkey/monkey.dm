@@ -618,3 +618,68 @@
 	src.target.UpdateClothing()
 	del(src)
 	return
+
+
+/mob/monkey/proc/humanize(var/kill = 0)
+	var/mob/monkey/M = src
+	for(var/obj/item/weapon/W in M)
+		M.u_equip(W)
+		if (M.client)
+			M.client.screen -= W
+		if (W)
+			W.loc = M.loc
+			W.dropped(M)
+			W.layer = initial(W.layer)
+
+	if(1 == 1)
+		M.UpdateClothing()
+		M.monkeyizing = 1
+		M.canmove = 0
+		M.icon = null
+		M.invisibility = 100
+		var/atom/movable/overlay/animation = new /atom/movable/overlay( M.loc )
+		animation.icon_state = "blank"
+		animation.icon = 'mob.dmi'
+		animation.master = src
+		flick("monkey2h", animation)
+		sleep(48)
+		del(animation)
+
+	var/mob/human/O = new /mob/human( src )
+	if(ticker.killer == M)
+		O.memory = M.memory
+		ticker.killer = O
+	O.start = 1
+	if (isblockon(getblock(M.primarynew.uni_identity, 11,3),11))
+		O.gender = "female"
+	else
+		O.gender = "male"
+	O.primarynew = M.primarynew
+	M.primarynew = null
+
+	for(var/obj/T in M)
+		del(T)
+
+	O.loc = M.loc
+	if(kill)
+		O.toxloss = 150
+	if (M.client)
+		M.client.mob = O
+
+	var/i
+	while (!i)
+		var/randomname
+		if (O.gender == "male")
+			randomname = (capitalize(pick(first_names_male) + " " + capitalize(pick(last_names)) + pick(last_names2)))
+		else
+			randomname = (capitalize(pick(first_names_female) + " " + capitalize(pick(last_names)) + pick(last_names2)))
+		if (findname(randomname))
+			continue
+		else
+			O.rname = randomname
+			i++
+	updateappearance(O,O.primarynew.uni_identity)
+//	if(NO_MONKEY_REVIVE)
+//		O.stat = M.stat
+	del(M)
+	return

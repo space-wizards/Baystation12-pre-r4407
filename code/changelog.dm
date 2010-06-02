@@ -4,9 +4,19 @@ var/changes = {"<FONT color='blue'>
 <P><B>Current Version: Bay 12 Version 1.0 beta 2!</b></p>
 <P><B><font color = red>This version of the Spacestation has a large amount of sounds, make sure your speakers are on.</font color></b></p>
 
+<P><B>Nano-trasen syndicate intel(June 1st, 2010)</B></P>
+A recent update from a nano-transen syndicate infiltrator reports use of a new syndicate bio-weapon being used
+to cause chaos on stations. All nano-trasen stations have had their facilities upgraded to deal with this new threat.
+
+The nano-transen spacewind authority today stated that the spacewinds have changed in behavior, and should act
+more normally now.
+
+AI control to ID modification terminals has been restored, this currently uses a wireless link, until such time
+as it is downgraded to use a wired cable link.
+
 <P><B>Nano-trasen laser update</B></P>
 Due to recent outbursts by staff members, laser devices have been classified as
-tourture devices, they have been moved to a high-risk storage until further notice
+torture devices, they have been moved to a high-risk storage until further notice
 use of such weapons is restricted to emergencies, and crew-members have been known
 to become violent over their use.
 

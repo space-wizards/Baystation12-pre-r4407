@@ -238,6 +238,19 @@
 		t = text("[][]", t, n_letter)
 		p++
 	return copytext(sanitize(t),1,MAX_MESSAGE_LEN)
+/*
+/proc/stutter(n)
+	var/list/words = dd_text2list(n," ",null)
+	var/final
+	for(var/word in words)
+		var/added = ""
+		if(length(word) >= 3 && prob(30))
+			added += copytext(word,0,0 + 2) + "."
+		if(length(word) >= 4 && prob(60))
+			added += copytext(word,0,0 + 2) + "."
+		final += added + word
+	return copytext(sanitize(final),1,MAX_MESSAGE_LEN)
+	*/
 
 /proc/shake_camera(mob/M, duration, strength=1)
 	if(!M || !M.client || M.shakecamera)
@@ -2000,6 +2013,7 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
 					src.verbs += /mob/proc/crashcheck
+					src.verbs += /client/proc/callproc
 
 				if (4)
 					src.verbs += /client/proc/modifyvariables
@@ -2025,7 +2039,6 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/tdome1
 					src.verbs += /client/proc/tdome2
 					src.verbs += /client/proc/Debug2
-					src.verbs += /client/proc/callproc
 					src.verbs += /client/proc/revent
 					src.verbs += /client/proc/spawn_event
 					src.verbs += /client/proc/spawn_virus

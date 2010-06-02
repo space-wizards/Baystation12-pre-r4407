@@ -1,14 +1,11 @@
 vs_control/var
-	AF_TINY_MOVEMENT_THRESHOLD = 25 //% difference to move tiny items.
-	AF_SMALL_MOVEMENT_THRESHOLD = 35 //% difference to move small items.
-	AF_NORMAL_MOVEMENT_THRESHOLD = 45 //% difference to move normal items.
-	AF_LARGE_MOVEMENT_THRESHOLD = 50 //% difference to move large and huge items.
-	AF_MOVEMENT_THRESHOLD = 65 //% difference to move dense crap and mobs.
-
-	AF_CANISTER_P = 4000000 // ???
-
-	AF_SPEED_MULTIPLIER = 1 //airspeed per movement threshold value crossed.
-	AF_DAMAGE_MULTIPLIER = 3 //Amount of damage applied per airflow_speed.
+	AF_TINY_MOVEMENT_THRESHOLD = 15 //% difference to move tiny items.
+	AF_SMALL_MOVEMENT_THRESHOLD = 25 //% difference to move small items.
+	AF_NORMAL_MOVEMENT_THRESHOLD = 30 //% difference to move normal items.
+	AF_LARGE_MOVEMENT_THRESHOLD = 40 //% difference to move large and huge items.
+	AF_MOVEMENT_THRESHOLD = 45 //% difference to move dense crap and mobs.
+	AF_SPEED_MULTIPLIER = 4 //airspeed per movement threshold value crossed.
+	AF_DAMAGE_MULTIPLIER = 5 //Amount of damage applied per airflow_speed.
 	AF_STUN_MULTIPLIER = 2 //Seconds of stun applied per airflow_speed.
 	AF_SPEED_DECAY = 0.5 //Amount that flow speed will decay with time.
 
@@ -60,16 +57,13 @@ proc/Airflow(zone/A,zone/B,n)
 
 	//return
 	//Comment this out to use airflow again.
-	//world << "Airflow called with [n] as gas difference."
-//	world << "Airflow threshold is [(vsc.AF_TINY_MOVEMENT_THRESHOLD/100) * vsc.AF_PERCENT_OF]"
-//	n = round(n/vsc.AF_PERCENT_OF * 100,0.1)
-	n /= FULL_PRESSURE
+
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]
 	var/list/pplz = A.movables()
 	var/list/otherpplz = B.movables()
 	if(abs(n) > vsc.AF_TINY_MOVEMENT_THRESHOLD)
-		//world << "Airflow!"
+		//world << "SWASH!"
 		for(var/atom/movable/M in pplz)
 			//world << "[M] / \..."
 
@@ -97,7 +91,7 @@ proc/Airflow(zone/A,zone/B,n)
 			//world << "Sonovabitch! [M] won't move!"
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.GotoAirflowDest(abs(n) / (vsc.AF_TINY_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
+				spawn M.GotoAirflowDest(abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
 			//else if(M.airflow_speed > 0)
 			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
 		for(var/atom/movable/M in otherpplz)
@@ -125,81 +119,7 @@ proc/Airflow(zone/A,zone/B,n)
 			//world << "Sonovabitch! [M] won't move either!"
 			if(!M.airflow_speed)
 				M.airflow_dest = pick(connected_turfs)
-				spawn M.RepelAirflowDest(abs(n) / (vsc.AF_TINY_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
-		//	else if(M.airflow_speed > 0)
-			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
-proc/AirflowRepel(zone/A,turf/T,n)
-
-
-	//return
-	//Comment this out to use airflow again.
-	//world << "Airflow(Repel) called with [n] as gas difference."
-	//world << "Airflow threshold is [(vsc.AF_TINY_MOVEMENT_THRESHOLD/100) * vsc.AF_PERCENT_OF]"
-	n = round(n/vsc.AF_CANISTER_P * 100,0.1)
-
-	if(n < 0) return
-	if(abs(n) > vsc.AF_TINY_MOVEMENT_THRESHOLD)
-		//world << "Airflow!"
-		var/list/pplz = A.movables()
-		for(var/atom/movable/M in pplz)
-			//world << "[M] / \..."
-			if(istype(M,/mob/ai)) continue
-			if(istype(M,/mob/observer)) continue
-			if(M.anchored && !ismob(M)) continue
-
-			if(!istype(M,/obj/item) && n < vsc.AF_MOVEMENT_THRESHOLD) continue
-			if(istype(M,/obj/item))
-				switch(M:w_class)
-					if(2)
-						if(n < vsc.AF_SMALL_MOVEMENT_THRESHOLD) continue
-					if(3)
-						if(n < vsc.AF_NORMAL_MOVEMENT_THRESHOLD) continue
-					if(4)
-						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
-					if(5)
-						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
-			if(!(M in range(T))) continue
-			//world << "Sonovabitch! [M] won't move either!"
-			if(!M.airflow_speed)
-				M.airflow_dest = T
-				spawn M.RepelAirflowDest(abs(n) / (vsc.AF_TINY_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
-		//	else if(M.airflow_speed > 0)
-			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
-proc/AirflowAttract(zone/A,turf/T,n)
-
-
-	//return
-	//Comment this out to use airflow again.
-	//world << "Airflow(Repel) called with [n] as gas difference."
-	//world << "Airflow threshold is [(vsc.AF_TINY_MOVEMENT_THRESHOLD/100) * vsc.AF_PERCENT_OF]"
-	n = round(n/vsc.AF_CANISTER_P * 100,0.1)
-
-	if(n < 0) return
-	if(abs(n) > vsc.AF_TINY_MOVEMENT_THRESHOLD)
-		//world << "Airflow!"
-		var/list/pplz = A.movables()
-		for(var/atom/movable/M in pplz)
-			//world << "[M] / \..."
-			if(istype(M,/mob/ai)) continue
-			if(istype(M,/mob/observer)) continue
-			if(M.anchored && !ismob(M)) continue
-
-			if(!istype(M,/obj/item) && n < vsc.AF_MOVEMENT_THRESHOLD) continue
-			if(istype(M,/obj/item))
-				switch(M:w_class)
-					if(2)
-						if(n < vsc.AF_SMALL_MOVEMENT_THRESHOLD) continue
-					if(3)
-						if(n < vsc.AF_NORMAL_MOVEMENT_THRESHOLD) continue
-					if(4)
-						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
-					if(5)
-						if(n < vsc.AF_LARGE_MOVEMENT_THRESHOLD) continue
-			if(!(M in range(T))) continue
-			//world << "Sonovabitch! [M] won't move either!"
-			if(!M.airflow_speed)
-				M.airflow_dest = T
-				spawn M.GotoAirflowDest(abs(n) / (vsc.AF_TINY_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
+				spawn M.RepelAirflowDest(abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER))
 		//	else if(M.airflow_speed > 0)
 			//	M.airflow_speed = abs(n) / (vsc.AF_MOVEMENT_THRESHOLD/vsc.AF_SPEED_MULTIPLIER)
 atom/movable
@@ -214,7 +134,7 @@ atom/movable
 			return
 		if(airflow_dest == loc)
 			step_away(src,loc)
-		if(ismob(src)) src << "\red You are sucked away by airflow!"
+		if(ismob(src)) src << "\red You are sucked towards [airflow_dest]!"
 		airflow_speed = min(round(n),9)
 		//world << "[src]'s headed to [airflow_dest] at [n] times the SPEED OF LIGHT!"
 		//airflow_dest = get_step(src,Get_Dir(src,airflow_dest))
@@ -255,7 +175,7 @@ atom/movable
 			return
 		if(airflow_dest == loc)
 			step_away(src,loc)
-		if(ismob(src)) src << "\red You are pushed away by airflow!"
+		if(ismob(src)) src << "\red You are pushed away from [airflow_dest]!"
 		airflow_speed = min(round(n),9)
 		//airflow_dest = get_step(src,Get_Dir(airflow_dest,src))
 		var

@@ -180,6 +180,12 @@
 	var/lasty = 0
 	var/lastz = 0
 	var/hadclient
+	//Quick hack, will fix later
+	var/feverD = 0
+	var/spacemonkeyD = 0
+	var/coughfeverD = 0
+	var/poweritisD = 0
+	var/radiationD = 0
 
 /mob/human
 	name = "human"
@@ -3928,6 +3934,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/teleport/hub
 	name = "hub"
 	icon_state = "tele0"
+
+/obj/machinery/teleport/hub
+	name = "hub"
+	icon_state = "tele0"
+	var/teleing = 0
+
 /obj/machinery/teleport/station
 	name = "station"
 	icon_state = "controller"

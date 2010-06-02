@@ -3,3 +3,5 @@
 
 /obj/machinery/proc/UIUpdate(client/C)
 	return
+
+/obj/machinery/proc/updateIconState()
