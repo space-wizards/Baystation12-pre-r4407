@@ -76,11 +76,11 @@
 	amount = 100
 	var/progress = 0
 	bdesc = "Space-fever, a common but deadly bug found on neo-transian stations. Can be cured with fever pills"
-
+	var/light = 0
 /obj/virus/fever/affect(mob/M)
 	if(M.feverD)
 		return
-	if(progress < 1000 && M.r_fever > 1)
+	if(progress < 1500 && M.r_fever > 1)
 		if(prob(M.r_fever / 10))
 			M.cure(/obj/virus/fever)
 			if(prob(70))
@@ -93,19 +93,31 @@
 		if(progress > 160)
 			M.bodytemperature += 2
 		if(progress > 300)
-			M.drowsyness = 1
 			M.bodytemperature += 3
 		if(progress > 400)
 			M.weakened = 1
 			M.bodytemperature += 6
-		if(progress > 500)
+			M.eye_blurry = max(25, M.eye_blurry)
+			if(light == 0)
+				M << "You feel light headed"
+				light = 1
+		if(progress > 700)
 			M.bodytemperature += 12
-			if(prob(10) && istype(M,/mob/human))
+			if(light == 1||light == 0)
+				M << "You feel extremely light headed"
+				light = 2
+			if(prob(1) && istype(M,/mob/human))
 				var/mob/human/H = M
 				spawn(10)
 					H.emote("gasp")
-					H.paralysis += 5
-		if(progress > 800)
+					H.stunned = 3
+		if(progress > 1000)
+			if(light == 2)
+				light = 3
+				M << "Your head hurts"
+				light = 4
+			M.drowsyness = 1
+		if(progress > 1200)
 			M.r_fever += 10
 			M.toxloss += 10
 
