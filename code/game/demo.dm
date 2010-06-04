@@ -359,12 +359,15 @@
 		T.firelevel = temp * 3600.0
 		T.res_vars()
 
-#define MAX_BOMB_TILES 350
+#define MAX_BOMB_TILES 175
 
 /obj/item/weapon/tank/plasmatank/proc/ignite()
 	spawn(0)
 		var/strength = ((src.gas.plasma + src.gas.oxygen/2.0) / 1600000.0) * src.gas.temperature
 		//if ((src.gas.plasma < 1600000.0 || src.gas.temperature < 773))		//500degC
+		if (strength > 3000)
+			del src
+			return
 		if (strength < 773.0)
 			var/turf/T = get_turf(src.loc)
 			T.poison(src.gas.plasma)

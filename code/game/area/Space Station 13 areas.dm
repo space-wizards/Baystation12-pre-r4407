@@ -34,6 +34,11 @@ area/hallway/south
 	icon_state = "shallway"
 	music = ""
 
+area/hallway/southeast
+	name = "Southeast Hallway"
+	icon_state = "sehallway"
+	music = ""
+
 area/hallway/west
 	name = "West Hallway"
 	icon_state = "whallway"
@@ -41,7 +46,7 @@ area/hallway/west
 
 /area/hallway/southwest
 	name = "Southwest Hallway"
-	icon_state = "shallway" //TODO make icon
+	icon_state = "shallway"
 	music = ""
 
 // MedBay and related

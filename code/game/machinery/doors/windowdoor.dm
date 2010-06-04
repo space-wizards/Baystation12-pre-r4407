@@ -54,7 +54,7 @@
 	flick(text("[]doorc0", (src.p_open ? "o_" : null)), src)
 	src.icon_state = text("[]door0", (src.p_open ? "o_" : null))
 	src.hear_sound("sound/door/windoor/move.wav",4)
-	sleep(15)
+	sleep(5)
 	src.density = 0
 	sd_SetOpacity(0)
 	var/turf/T = src.loc

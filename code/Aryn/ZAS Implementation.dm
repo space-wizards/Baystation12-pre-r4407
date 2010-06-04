@@ -32,31 +32,31 @@ turf/proc
 		if(zone && n)
 			zone.gases["O2"] += n
 		else
-			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return O2STANDARD
+			if(always_20C) return O2STANDARD
 			return per_turf("O2")
 	poison(n)
 		if(n) poison += n//zone.gases["Plasma"] += n
 		else
-			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
+			if(always_20C) return 0
 			return poison
 	n2(n)
 		if(zone && n)
 			zone.gases["N2"] += n
 		else
-			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return N2STANDARD
+			if(always_20C) return N2STANDARD
 			return per_turf("N2")
 	sl_gas(n)
 		if(zone && n) sl_gas += n//zone.gases["N2O"] += n
 		else
-			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
+			if(always_20C) return 0
 			return sl_gas
 	co2(n)
 		if(zone && n) zone.gases["CO2"] += n
 		else
-			if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return 0
+			if(always_20C) return 0
 			return per_turf("CO2")
 	per_turf(g)
-		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return CELLSTANDARD
+		if(always_20C) return CELLSTANDARD
 		if(zone)
 			if(g)
 				return zone.per_turf(g)
@@ -66,13 +66,13 @@ turf/proc
 			return 0
 
 	temp(n)
-		if((locate(/obj/move) in src) || istype(src,/turf/station/shuttle)) return T20C
+		if(always_20C)
+			return T20C
 		if(zone)
 			if(n)
-				zone.temp += n / zone.contents.len
-				zone.temp = max(2.7,zone.temp)
-				if(zone.speakmychild) world << "Added [n] ([n/zone.contents.len]) to temp. New temp: [zone.temp]"
+				zone.temp = max(2.7, zone.temp + (n / zone.contents.len))
 			else return zone.temp
+		return T20C
 
 obj/move/proc
 	per_turf(g)
@@ -96,35 +96,7 @@ obj/move/proc
 		return T20C
 	temp()
 		return T20C
-//	updatelinks()
-/*
-obj/move/proc/process()
 
-/obj/move/proc/relocate(T as turf, degree)
-	if (degree)
-		for(var/atom/movable/A as mob|obj in src.loc)
-			A.dir = turn(A.dir, degree)*/
-			//*****RM as 4.1beta
-			/*A.loc = T
-	else
-		for(var/atom/movable/A as mob|obj in src.loc)
-			A.loc = T
-	return
-
-
-/turf/proc/get_gas()
-
-	var/obj/substance/gas/tgas = new()
-
-	tgas.oxygen = src.oxygen
-	tgas.n2 = src.n2
-	tgas.plasma = src.poison
-	tgas.co2 = src.co2
-	tgas.sl_gas = src.sl_gas
-	tgas.temperature = src.temp
-	tgas.maximum = CELLSTANDARD		// not actually a maximum
-
-	return tgas*/
 proc/WinCheck(turf/T,d)
 	if(Airtight(T))
 		//world << "Oho! I see through your tomfoolery! [T] is airtight!"
@@ -165,18 +137,3 @@ obj/move/wall/Move()
 	. = ..()
 	if(isturf(loc))
 		loc:accept_zoning = 0
-
-//turf/verb/Show_Zone()
-//	set src in view()
-//	ShowZone(zone)
-//	world << "<u>Z[zones.Find(zone)]</u>"
-//	for(var/g in zone.gases)
-//		world << "<b>[g]</b>: [zone.turf_cache[g]] ([zone.gases[g]] total) - [zone.partial_pressure(g)]"
-//	world << "<br><b>Total Pressure</b>: [zone.pressure()]"
-//	world << "--------------------------"
-//	world << "Connected Zones:"
-//	for(var/zone/Z in zone.connections)
-//		world << "<small><u>Z[zones.Find(Z)]</u></small>"
-//		for(var/g in zone.gases)
-//			world << "<small><b>[g]</b>: [Z.turf_cache[g]] ([Z.gases[g]] total) - [Z.partial_pressure(g)]</small>"
-//		world << "<small><br><b>Total Pressure</b>: [Z.pressure()]</small>"

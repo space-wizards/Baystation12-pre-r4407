@@ -110,8 +110,8 @@ var
 	shuttlecomming = 0
 
 
-	usedtypes = list()
-	usedids = list()
+	list/usedtypes = list()
+	list/usedids = list()
 
 	//Multi-Z-Level stuff
 

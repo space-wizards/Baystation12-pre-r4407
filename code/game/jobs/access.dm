@@ -58,6 +58,7 @@
 
 	/obj/var/list/req_access = null
 /obj/var/req_access_txt = "0"
+
 /obj/New()
 	if(src.req_access_txt)
 		var/req_access_str = params2list(req_access_txt)
@@ -67,6 +68,7 @@
 			if(n)
 				if(!req_access_changed)
 					req_access = list()
+					req_access_changed = 1
 				req_access += n
 	..()
 

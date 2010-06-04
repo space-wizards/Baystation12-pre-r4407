@@ -58,6 +58,8 @@ proc/Airflow(zone/A,zone/B,n)
 	//return
 	//Comment this out to use airflow again.
 
+	n /= FULL_PRESSURE
+
 	if(n < 0) return
 	var/list/connected_turfs = A.connections[B]
 	var/list/pplz = A.movables()

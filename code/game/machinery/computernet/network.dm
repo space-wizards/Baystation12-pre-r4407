@@ -11,9 +11,12 @@
 	for(var/obj/machinery/M in world)
 		M.cnetnum = 0
 		M.computernet = null
+	var/newid = 1
 	for(var/obj/machinery/router/R in world)
 		R.connectednets = list()
 		R.disconnectednets = list()
+		R.id = newid
+		newid++
 
 	for(var/obj/computercable/PC in world)
 		if(!PC.cnetnum)
@@ -74,6 +77,8 @@
 		if(!Start.computernet || Start.build) continue
 		var/obj/machinery/router/R = new
 		R.connectednets += Start.computernet
+		R.id = newid
+		newid++
 		Start.computernet.routers += R
 		Start.build = 1
 		for(var/obj/machinery/antenna/base/OtherR in world)
@@ -85,6 +90,8 @@
 
 	for(var/obj/machinery/computer/elevator/E in world)
 		var/obj/machinery/router/R = new
+		R.id = newid
+		newid++
 		R.connectednets += E.computernet
 		E.computernet.routers += R
 		for(var/obj/machinery/elevator/panel/P in world)
@@ -98,6 +105,18 @@
 
 	if (!silence)
 		NetworkChange()
+
+	fdel("NETWORK.txt")
+	var/F = file("NETWORK.txt")
+	for(var/datum/computernet/C in computernets)
+		F << "=============="
+		F << "Computernet [C.id] ([C.number])"
+		for (var/obj/machinery/router/R in C.routers)
+			F << "Connected to router [R.id]"
+
+	for(var/obj/machinery/router/R in world)
+		if(R.connectednets.len > 4)
+			world.log << "Possible network error at [R.x] [R.y] [R.z]"
 
 	return netcount
 

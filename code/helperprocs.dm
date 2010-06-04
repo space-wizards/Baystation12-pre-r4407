@@ -79,7 +79,10 @@
 		CRASH("num2hex not given a numeric argument (user error)")
 		return
 	if (!( num ))
-		return "0"
+		var/B = ""
+		for(var/I = 1, I <= placeholder, I++)
+			B += "#"
+		return B
 	var/hex = ""
 	var/i = 0
 	while(16 ** i < num)

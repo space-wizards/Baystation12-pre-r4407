@@ -641,7 +641,7 @@
 	return
 
 /obj/item/weapon/assembly/m_i_ptank/attack_self(mob/user as mob)
-
+	messageadmins("[user.name] operating [src.name]")
 	src.part1.attack_self(user, 1)
 	src.add_fingerprint(user)
 	return

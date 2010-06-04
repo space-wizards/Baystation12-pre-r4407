@@ -160,16 +160,18 @@ zone
 
 				if(temp <= 0) temp = 2.7
 
+				//Nice coding trick.  Basically, if the zone contains a space or shuttle turf, set the gases stuff
 				for(var/turf/space/S in contents)
 					for(var/g in gases)
 						gases[g]=0
 						turf_cache[g]=0
-						gas_cache[g]=9
+						gas_cache[g]=9 //Why 9?
 					temp = 2.7
 					for(var/turf/T in contents)
 						T.poison = 0
 						T.sl_gas = 0
 					break
+
 				for(var/turf/station/shuttle/H in contents)
 					for(var/g in gases)
 						if(g == "O2") gases[g] = O2STANDARD
@@ -196,7 +198,6 @@ zone
 						turf_cache[g] = gases[g] / contents.len
 					t_gas += turf_cache[g]
 				total_cache = t_gas
-
 
 				if(contents_cache != contents.len)
 					rebuild_cache()
@@ -674,6 +675,7 @@ turf
 	var
 		zone/zone
 		is_connection = 0 //This variable is an indicator of whether this turf connects two zones, e.g. a doorway.
+		always_20C = 0 //Actually means it's a shuttle turf and to act as such
 		accept_zoning = -1
 		/*
 		1 = Always Zone
@@ -681,6 +683,12 @@ turf
 		-1 = Zone According To Turf Density
 		*/
 	New()
+		always_20C = istype(src, /turf/station/shuttle)
+		if (!always_20C)
+			for(var/i = 1, i <= world.maxz, i++)
+				if(locate(/obj/move) in locate(x, y, i))
+					always_20C = 1
+					break
 		if(accept_zoning < 0)
 			accept_zoning = !density
 		. = ..()

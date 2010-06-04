@@ -19,6 +19,20 @@
 			admins += AdminInfo
 			world.log << ("ADMIN: [AdminInfo.ckey] = [AdminInfo.rankname] ([AdminInfo.rank])")
 
+	var/found = 0
+
+	for(var/datum/admininfo/AI in admins)
+		if(AI.ckey == ckey(config.hostedby))
+			found = 1
+			break
+
+	if (!found)
+		var/datum/admininfo/AdminInfo = new()
+		AdminInfo.ckey = config.hostedby
+		AdminInfo.rank = 5
+		AdminInfo.rankname = "Server Host"
+		admins += AdminInfo
+
 /proc/IsAdmin(var/test)
 	if (istype(test, /mob))
 		var/mob/B = test

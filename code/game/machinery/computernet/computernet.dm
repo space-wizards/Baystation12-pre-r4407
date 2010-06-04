@@ -21,7 +21,7 @@
 
 /datum/computernet/New()
 	..()
-	id = uppertext(num2hex(GetNetId()))
+	id = uppertext(num2hex(GetNetId(), 3))
 
 /obj/machinery/proc/getcommandlist(var/message as text)
 	return dd_text2list(uppertext(stripnetworkmessage(message)), " ", null)
@@ -38,17 +38,18 @@
 
 proc/GetUnitId()
 	var/I = 0
-	while (!I || (I in usedids))
-		I = rand(1, 65535) //1000 - FFFF
+	while ((I==0) || usedids.Find(I))
+		I = rand(1, 65535) //0001 - FFFF
 	usedids += I
 	return I
 
 /datum/computernet/proc/GetNetId()
 	var/I = 0
-	while (!I && !(I in usednetids))
-		I = rand(256, 4095) //100 - FFF
+	while ((I==0) || usednetids.Find(I))
+		I = rand(1, 4095) //001 - FFF
 	usednetids += I
 	return I
+
 
 
 /datum/computernet/proc/propagate(packet, messagelist, sendingunit)

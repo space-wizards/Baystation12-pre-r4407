@@ -340,17 +340,16 @@
 	for(var/obj/machinery/M in src)		// for each machine in the area
 		M.power_change()				// reverify power status (to update icons etc.)
 
-	spawn(rand(15,25))
-		src.updateicon()
+	src.updateicon()
+
+	if (super)
+		return
 
 	if(linked)
 		linked.power_equip = power_equip
 		linked.power_light = power_light
 		linked.power_environ = power_environ
-		linked.power_change()
-
-	if (super)
-		return
+		linked.power_change(0)
 
 	for (var/area/A in src.superarea.areas)
 		if (A != src)
@@ -360,7 +359,7 @@
 			A.power_change(1)
 
 
-/area/proc/usage(var/chan,var/super = 0)
+/area/proc/usage(var/chan, var/super = 0)
 	var/used = 0
 
 	switch(chan)
@@ -384,9 +383,8 @@
 		return linked.usage(chan) + used
 	else
 		return used
+
 /area/proc/clear_usage(var/super = 0)
-	if(linked)
-		linked.clear_usage()
 
 	used_equip = 0
 	used_light = 0
@@ -394,6 +392,9 @@
 
 	if (super)
 		return
+
+	if(linked)
+		linked.clear_usage()
 
 	for (var/area/A in src.superarea.areas)
 		if (A != src)

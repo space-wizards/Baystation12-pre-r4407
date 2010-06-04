@@ -4874,6 +4874,7 @@ obj/machinery/vendingmachine/water
 	desc = "A high-speed network router.  The lights are mesmerizing"
 	anchored = 1.0
 	density = 1
+	var/id = 0
 	var/list/datum/computernet/connectednets = list()
 	var/list/datum/computernet/disconnectednets = list()
 	req_access_txt = "103"

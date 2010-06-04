@@ -107,10 +107,10 @@
 				src.f_mask ^= text2num(href_list["tg"])
 				for(var/obj/machinery/inlet/filter/FI in machines)
 					if(FI.control == src.control)
-						FI.f_mask ^= text2num(href_list["tg"])
+						FI.f_mask = src.f_mask
 				for(var/obj/a_pipe/inlet/filter/FI in machines)
 					if(FI.control == src.control)
-						FI.f_mask ^= text2num(href_list["tg"])
+						FI.f_mask = src.f_mask
 		else
 			usr.see("\red Access Denied ([src.name] operation restricted to authorized atmospheric technicians.)")
 		AutoUpdateAI(src)

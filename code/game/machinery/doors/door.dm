@@ -157,7 +157,7 @@
 
 /obj/machinery/door/proc/close()
 	if (src.operating || locate(/mob) in loc)
-		return
+		return 1
 	src.operating = 1
 	flick(text("[]doorc1", (src.p_open ? "o_" : null)), src)
 	src.icon_state = text("[]door1", (src.p_open ? "o_" : null))
@@ -170,17 +170,21 @@
 		CloseDoor(src)
 	sleep(15)
 	src.operating = 0
-	return
+	return 0
 
 /obj/machinery/door/proc/autoclose()
 	var/obj/machinery/door/D = src
 	if (istype(D, /obj/machinery/door/airlock))
 		var/obj/machinery/door/airlock/A = D
 		if ((!A.density) && !( A.operating ) && !(A.locked) && !( A.blocked ))
-			close()
+			if (close())
+				spawn(150)
+					autoclose()
 	else
 		if ((!D.density) && !( D.operating ))
-			close()
+			if (close())
+				spawn(150)
+					autoclose()
 
 /obj/machinery/door/Bumped(atom/movable/AM as mob|obj)
 	if (!( ismob(AM) ))

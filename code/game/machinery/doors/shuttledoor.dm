@@ -33,7 +33,7 @@
 /obj/shuttle/door/proc/close()
 	src.add_fingerprint(usr)
 	if (src.operating || locate(/mob) in loc)
-		return
+		return 1
 	src.operating = 1
 	flick("doorc1", src)
 	src.icon_state = "door1"
@@ -44,7 +44,8 @@
 
 	src.operating = 0
 	src.loc.buildlinks()
-	return
+	return 0
+
 /obj/shuttle/door/New()
 	. = ..()
 	if(isturf(loc))
