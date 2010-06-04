@@ -4,6 +4,15 @@
 
 
 // BEGIN_INTERNALS
+/*
+FILE: code\game\virus.dm
+DIR: code code\game code\game\mob code\game\mob\human
+HIDDENPATHS:
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 462.1057
+LAST_COMPILE_TIME: 1275454985
+AUTO_FILE_DIR: ON
+*/
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
