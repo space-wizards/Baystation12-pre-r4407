@@ -13,7 +13,7 @@
 		while(AdminList.NextRow())
 			var/list/AdminData = AdminList.GetRowData()
 			var/datum/admininfo/AdminInfo = new()
-			AdminInfo.ckey = AdminData["CKey"]
+			AdminInfo.ckey = ckey(AdminData["CKey"])
 			AdminInfo.rank = text2num(AdminData["Rank"])
 			AdminInfo.rankname = AdminData["Desc"]
 			admins += AdminInfo
@@ -28,7 +28,7 @@
 
 	if (!found)
 		var/datum/admininfo/AdminInfo = new()
-		AdminInfo.ckey = config.hostedby
+		AdminInfo.ckey = ckey(config.hostedby)
 		AdminInfo.rank = 5
 		AdminInfo.rankname = "Server Host"
 		admins += AdminInfo
