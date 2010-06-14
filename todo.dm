@@ -8,5 +8,4 @@
 
 /** Googolplexed TODO
 - Fix up centcom gamemode
-- Add chatlog/damagelog for admins
 **/

@@ -478,7 +478,7 @@ turf
 
 		sd_RasterLum()
 			/* Perform a reverse lighting calc to determine the correct lighting
-			    for a turf.  V. expensive but it works */
+			    for a turf.  Very expensive but it works */
 
 			src.sd_lumcount = 0
 			for (var/atom/A in range(sd_top_luminosity, src))

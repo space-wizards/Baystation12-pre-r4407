@@ -25,7 +25,7 @@
 	use_power(225, ENVIRON)
 	icon_state = "sprinkler1"
 	spray = !spray
-	if (!spray)		//Halve the spray rate because these things SPAM water
+	if (spray)		//Halve the spray rate because these things SPAM water
 		return
 	var/obj/effects/water/W = new /obj/effects/water( src.loc )
 	W.dir = pick(spraydirs)

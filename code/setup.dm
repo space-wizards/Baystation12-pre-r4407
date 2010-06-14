@@ -1,8 +1,3 @@
-//#define NO_MONKEY_REVIVE 0
-//#define ENABLE_ZOMBIE_GENE 0
-
-//Commented out definitions were transferred to the vs_control system so that they can be easily changed at runtime. -Aryn
-
 #define CELLSTANDARD 3.6e6	// Gas capacity of turf/canister at 100% normal atmospheric pressure
 #define O2STANDARD 7.56e5	// O2 standard value (21%)
 #define N2STANDARD 2.844e6	// N2 standard value (79%)
@@ -10,13 +5,8 @@
 #define T0C 273.15			// 0degC
 #define T20C 293.15			// 20degC
 
-//#define FIREOFFSET 505		// Bias for starting firelevel
-//#define FIREQUOT 15000		// Divisor to get target temp from firelevel
-//#define FIRERATE 5			// Divisor of temp difference rate of change
-
 #define NORMPIPERATE 400	// Pipe-insulation rate divisor
 #define HEATPIPERATE 8		// Heat-exch pipe insulation
-//#define FLOWFRAC 0.99		// Fraction of gas transfered per process
 
 #define UP 16				// Up direction, equivalent to Z-1 (Z levels are backwards in this codebase)
 #define DOWN 32				// Down direction, equivalent to Z+1 (Z levels are backwards in this codebase)

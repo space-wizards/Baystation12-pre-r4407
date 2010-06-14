@@ -16,7 +16,6 @@ Base Design:
 */
 
 //TODO reorganize this into multiple files, it's just a big lump atm to make initial dev easier
-//TODO the panel
 
 
 /obj/machinery/computer/elevator

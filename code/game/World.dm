@@ -49,6 +49,7 @@
 		makecomputernets()
 		getdb()
 		LoadAdmins()
+		worldsetup = 1
 		sleep(2)
 		world.log << "World Setup Complete, join when ready"
 		//----
@@ -167,8 +168,6 @@
 				return
 			data_core = new /obj/datacore(  )
 			return
-
-	worldsetup = 1
 
 // **********************************
 // Update_Stat (World)
