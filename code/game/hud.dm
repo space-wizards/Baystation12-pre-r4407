@@ -56,38 +56,6 @@ obj/hud/New()
 	using.layer = 52
 	src.adding += using
 
-	/*
-	using = new src.h_type( src )
-	using.dir = WEST
-	using.screen_loc = "1,3 to 2,3"
-	using.layer = 19
-	src.adding += using
-
-	using = new src.h_type( src )
-	using.dir = NORTHEAST
-	using.screen_loc = "3,3"
-	using.layer = 19
-	src.adding += using
-
-	using = new src.h_type( src )
-	using.dir = NORTH
-	using.screen_loc = "3,2"
-	using.layer = 19
-	src.adding += using
-
-	using = new src.h_type( src )
-	using.dir = SOUTHEAST
-	using.screen_loc = "3,1"
-	using.layer = 19
-	src.adding += using
-
-	using = new src.h_type( src )
-	using.dir = SOUTHWEST
-	using.screen_loc = "1,1 to 2,2"
-	using.layer = 19
-	src.adding += using
-	*/
-
 	using = new src.h_type( src )
 	using.name = "drop"
 	using.icon_state = "act_drop"

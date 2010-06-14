@@ -100,6 +100,7 @@ player
 		AddDeniedJob(var/job)
 			if(!denied_jobs) denied_jobs = new/list()
 			if(!(job in denied_jobs)) denied_jobs += job
+
 		RemoveAllowedJob(var/job)
 			if(!allowed_jobs) return
 			if(job in allowed_jobs) allowed_jobs -= job

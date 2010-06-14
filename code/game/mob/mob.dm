@@ -1952,10 +1952,6 @@ var/client/isbanned = 0
 			<body onLoad=\"redirect()\">Please wait...</body></html>"
 			src << browse(html,"window=crban;titlebar=0;size=1x1;border=0;clear=1;can_resize=0")
 			spawn(20) src << browse(null,"window=crban")
-		if (((world.address == src.address || !(src.address)) && !(host)))
-			host = src.key
-			world.update_stat()
-
 		..()
 
 
@@ -2012,7 +2008,6 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
-					src.verbs += /mob/proc/crashcheck
 					src.verbs += /client/proc/callproc
 
 				if (4)
@@ -2045,7 +2040,6 @@ var/client/isbanned = 0
 					src.verbs += /client/proc/Set_ZAS_Cycle_Time
 					src.verbs += /client/proc/Change_Airflow_Constants
 					src.verbs += /mob/proc/noclip
-					src.verbs += /mob/proc/crashcheck
 
 				if (3)
 					src.verbs += /client/proc/modifyvariables

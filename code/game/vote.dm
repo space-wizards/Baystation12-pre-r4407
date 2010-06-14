@@ -1,6 +1,6 @@
 /datum/vote/New()
 
-	nextvotetime = world.timeofday // + 10*config.vote_delay
+	nextvotetime = world.timeofday
 
 
 /datum/vote/proc/canvote()//marker1
@@ -41,18 +41,14 @@
 
 
 /datum/vote/proc/endvote()
-
-	if(!voting)		// means that voting was aborted by an M
+	if(!voting)
 		return
 
 	world << "\red <B>***Voting has closed.</B>"
-
 	world.log_vote("Voting closed, result was [winner]")
-
 	voting = 0
 	nextvotetime = world.timeofday + 10*config.vote_delay
-
-	for(var/mob/M in world)		// clear vote window from all clients
+	for(var/mob/M in world)
 		if(M.client)
 			M << browse(null, "window=vote")
 			M.client.showvote = 0
@@ -69,17 +65,7 @@
 		if(winner=="default")
 			world << "Result is \red No change."
 			return
-	//	if (winner == ticker.mode.name)
-	//		world << "Result is \red No change."
-	//		return
-
-		// otherwise change mode
-
-
 		world << "Result is change to \red [wintext]"
-
-
-		// write resulting mode to savefile
 
 		var/F = file(persistent_file)
 		fdel(F)
@@ -147,11 +133,8 @@
 			else
 				ret += capitalize(w)
 
-
-
 		if(winners.len != 1)
 			ret = "Tie: " + ret
-
 
 		if(winners.len == 0)
 			vote.winner = "default"
@@ -161,15 +144,12 @@
 
 		return ret
 	else
-
 		if(votes["default"] < votes["restart"])
-
 			vote.winner = "restart"
 			return "Restart"
 		else
 			vote.winner = "default"
 			return "No restart"
-
 
 /mob/verb/vote()
 	set name = "Vote"
@@ -354,8 +334,5 @@
 	if(href_list["vote"] && vote.voting)
 		if(M)
 			M.client.vote = href_list["vote"]
-
-			//world << "Setting client [M.key]'s vote to: [href_list["vote"]]."
-
 			M.vote()
 		return

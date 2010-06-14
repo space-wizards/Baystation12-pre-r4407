@@ -33,20 +33,6 @@
 			return
 	return
 
-/turf/space/updatecell()
-	oxygen = 0
-	poison = 0
-	co2 = 0
-	sl_gas = 0
-	n2 = 0
-	temp = 2.7
-	return
-
-/turf/space/conduction()
-	return
-
-// Ported from unstable r355
-
 /turf/space/Entered(atom/movable/A as mob|obj)
 	..()
 	if ((!(A) || src != A.loc || istype(null, /obj/beam)))
@@ -116,18 +102,19 @@
 		if(istype(A, /obj/meteor))
 			del(A)
 			return
-
+		var/new_x = A.x
+		var/new_y = A.y
+		var/new_z = A.z
 		if (A.x <= 2)
-			A.x = world.maxx - 2
+			new_x = world.maxx - 2
 		else if (A.x >= (world.maxx - 1))
-			A.x = 3
+			new_x = 3
 
 		if (A.y <= 2)
-			A.y = world.maxy - 2
+			new_y = world.maxy - 2
 		else if (A.y >= (world.maxy - 1))
-			A.y = 3
+			new_y = 3
 
-		A.z = getZlevel(Z_SPACE)
-		spawn (0)
-			if ((A && A.loc))
-				A.loc.Entered(A)
+		new_z = getZlevel(Z_SPACE)
+
+		spawn() A.Move(locate(new_x, new_y, new_z))

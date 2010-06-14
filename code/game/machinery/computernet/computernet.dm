@@ -14,7 +14,6 @@
 	var/list/obj/machinery/router/routers = list()
 	var/list/obj/machinery/sniffers = list()
 	var/disrupted = 0 //1 if a Packet Killer is attached
-	var/global/list/usednetids = list()
 
 /obj/machinery/router/identinfo()
 	return "SERVICING [src.connectednets.len] AT [replace(loc.loc.name," ","")]"
@@ -83,6 +82,11 @@ proc/GetUnitId()
 					M:receivemessage(packet, sendingunit)
 	return 1
 
+/datum/computernet/proc/GetById(var/id)
+	for(var/datum/computernet/CN in computernets)
+		if (CN.id == id)
+			return CN
+
 /datum/computernet/proc/send(var/packet as text, var/obj/sendingunit)
 
 	//Ok, lets break down the message into its key components
@@ -95,16 +99,20 @@ proc/GetUnitId()
 		src.propagate(packet, messagelist, sendingunit)
 
 	else //No, it's on another net
-		if (!(id in routingtable.sourcenets) || !(messagelist[1] in routingtable.sourcenets[src.id]) || !routingtable.sourcenets[src.id][messagelist[1]])
 
-			return //But it can't get there from here, or better yet either this net or the dest net aren't in the routing table
-				   //If it's one of the latter, hopefully it was caused by a human typoing an id
+		if ((id in routingtable.sourcenets) && (messagelist[1] in routingtable.sourcenets[src.id]))
+			if (routingtable.sourcenets[src.id][messagelist[1]] == null)
+				BuildRoutingPath(src, GetById(messagelist[1]))
 
-		var/list/datum/computernet/nets = routingtable.sourcenets[src.id][messagelist[1]]
+			if (routingtable.sourcenets[src.id][messagelist[1]] == 0)
+				return //But it can't get there from here, or better yet either this net or the dest net aren't in the routing table
+				   	//If it's one of the latter, hopefully it was caused by a human typoing an id
 
-		for(var/datum/computernet/net in nets)
-			if (!net.propagate(packet, messagelist, sendingunit))
-				return
+			var/list/datum/computernet/nets = routingtable.sourcenets[src.id][messagelist[1]]
+
+			for(var/datum/computernet/net in nets)
+				if (!net.propagate(packet, messagelist, sendingunit))
+					return
 
 /obj/machinery/proc/receivemessage(var/message, var/obj/srcmachine)
 	if (stat & BROKEN) return 1 //Broken things never respond, but they may be able to recieve packets when off

@@ -20,7 +20,7 @@
 					for(var/P in keys)
 						if(title == column_data["medal"])
 							return
-			var/DBQuery/xquery = dbcon.NewQuery("REPLACE INTO `medals` (`ckey`, `medal`, `medaldesc`, `medaldiff`) VALUES ('[src.ckey]', '[title]', '[desc]', '[diff]');")
+			var/DBQuery/xquery = dbcon.NewQuery("REPLACE INTO `medals` (`ckey`, `medal`, `medaldesc`, `medaldiff`) VALUES ('[src.ckey]', '[escape_string(title)]', '[escape_string(desc)]', '[diff]');")
 			if(!xquery.Execute())
 				messageadmins(xquery.ErrorMsg())
 				world.log_admin(xquery.ErrorMsg())
@@ -39,6 +39,11 @@
 			else if (!announce)
 				src << "<b>Achievement Unlocked!: You unlocked the '<font color = [H]>[title]</font color>' achievement.</b></font>"
 				src << text("[desc]")
+
+/proc/escape_string(var/t)
+	var/s = replace(t, "\\", "\\\\")
+	s = replace(s, "'", "\\'")
+	return s
 
 mob/verb/show_medal()
 	set name = "Show Achievements"

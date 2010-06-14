@@ -92,17 +92,6 @@
 				src.show_console(M)
 	return
 
-/turf/station/command/floor/updatecell()
-	src.oxygen = O2STANDARD
-	src.firelevel = 0
-	src.co2 = 0
-	src.poison = 0
-	src.sl_gas = 0
-	src.n2 = N2STANDARD
-	return
-
-/turf/station/command/conduction()
-	return
 
 /turf/station/command/floor/attack_paw(user as mob)
 	return src.attack_hand(user)

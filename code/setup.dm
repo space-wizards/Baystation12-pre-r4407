@@ -55,7 +55,7 @@
 
 // bitflags for machine stat variable
 #define BROKEN 1			// Busted and needs to be repaired/replaced
-#define NOPOWER 2			// Has no power (NOT the same as simply turned off
+#define NOPOWER 2			// Has no power (NOT the same as simply turned off)
 #define POWEROFF 4			// Controlled by the machines
 #define MAINT 8				// If the machine is under maintenance.  Is it even actually used?
 
@@ -63,7 +63,6 @@
 #define VACUUM_SPEED 3 // How fast air is sucked from a tile if there's a vacuum. air is divided by this number on each tick.
 #define GAS_PRECISION 1000 // To what number gas amounts should be rounded
 #define TEMPERATURE_PRECISION 5 // To what number temperature should be rounded
-
 
 //These are symbolic, not literal, for use with helperprocs.dm's getZlevel()
 #define Z_STATION		1
@@ -82,6 +81,16 @@
 #define COUGHY 4
 #define TWITCHY 8
 #define NERVOUS 16
+
+#define FIRE_DAMAGE_MODIFIER  0.0215 //Higher values result in more external fire damage to the skin (default 0.0215)
+#define AIR_DAMAGE_MODIFIER  2.025 //More means less damage from hot air scalding lungs, less = more damage. (default 2.025)
+#define INFINITY  1e31 //closer then enough
+
+//Don't set this very much higher then 1024 unless you like inviting people in to DoS your server with message spam
+#define MAX_MESSAGE_LEN 1024
+
+#define SHUTTLE_TIME_IN_STATION 1800
+#define SHUTTLE_TIME_TO_ARRIVE 6000
 
 //Why are these consts instead of defines?
 var/const

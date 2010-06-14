@@ -6,7 +6,7 @@
 		start_events()
 
 /proc/force_event() //should have copied it but whatever
-	if (hadevent == 1)
+	if (hadevent)
 		return
 	spawn_event(pick(1,4,6))
 

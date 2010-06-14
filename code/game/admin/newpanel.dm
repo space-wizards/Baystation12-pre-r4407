@@ -232,7 +232,7 @@ client/Command(C as command_text)
 					return alert("The round has ended!")
 				if(!shuttlecomming)
 					if(!( ticker.timeleft ))
-						ticker.timeleft = shuttle_time_to_arrive
+						ticker.timeleft = SHUTTLE_TIME_TO_ARRIVE
 					world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
 					shuttlecomming = 1
 					ticker.timing = 1
@@ -302,56 +302,53 @@ client/proc/ap()
 proc/worlddata()
 	return "Server active for [round(world.time/10)] game seconds.  Emergency shuttle is [shuttlecomming ? "en route" : "docked at [ shuttle_z == 1 ?"The Station":"CentCom"]"]"
 
-proc/updateap(var/timeonly = 0,var/force = 0)
-	if(force)
-		lastapupdate = 0
-	if(0 == 0)
-		for(var/client/C)
-			if(!C.holder) continue //If not an admin, this doesn't concern them
-			if(ticker && ticker.mode)
-				winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
-				winset(C, "ap_roundcontrol.btnstartrestart", "text=\"End Round Now\"")
+proc/updateap(var/timeonly = 0)
+	for(var/client/C)
+		if(!C.holder) continue //If not an admin, this doesn't concern them
+		if(ticker && ticker.mode)
+			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\n[ticker.mode.admininfo()]\"")
+			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"End Round Now\"")
+		else
+			winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
+			winset(C, "ap_roundcontrol.btnstartrestart", "text=\"Start Round Now\"")
+
+		if (shuttlecomming)
+			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Return Emergency Shuttle\"")
+		else
+			winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Call Emergency Shuttle\"")
+
+		if(ticker)
+			winset(C, "ap_roundcontrol.btndelay", "text=\"Game Started\"&is-disabled=true")
+		else
+			if(going)
+				winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
 			else
-				winset(C, "ap_roundcontrol.lblroundstatus", "text=\"[worlddata()]\nRound Not Started\"")
-				winset(C, "ap_roundcontrol.btnstartrestart", "text=\"Start Round Now\"")
+				winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
 
-			if (shuttlecomming)
-				winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Return Emergency Shuttle\"")
-			else
-				winset(C, "ap_roundcontrol.btncallshuttle", "text=\"Call Emergency Shuttle\"")
+		if(timeonly) return
 
-			if(ticker)
-				winset(C, "ap_roundcontrol.btndelay", "text=\"Game Started\"&is-disabled=true")
-			else
-				if(going)
-					winset(C, "ap_roundcontrol.btndelay", "text=\"Delay Automatic Start\"")
-				else
-					winset(C, "ap_roundcontrol.btndelay", "text=\"Allow Automatic Start\"")
+		winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
+		winset(C, "ap_roundcontrol.allowabandon", "is-checked=[ abandon_allowed ? "true" : "false"]")
 
-			if(timeonly) return
+		switch(no_end)
+			if(0)
+				winset(C, "ap_roundcontrol.world_normal", "is-checked=true")
+				winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
+				winset(C, "ap_roundcontrol.world_force", "is-checked=false")
+			if(1)
+				winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
+				winset(C, "ap_roundcontrol.world_alldead", "is-checked=true")
+				winset(C, "ap_roundcontrol.world_force", "is-checked=false")
+			if(2)
+				winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
+				winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
+				winset(C, "ap_roundcontrol.world_force", "is-checked=true")
 
-			winset(C, "ap_roundcontrol.allowenter", "is-checked=[ enter_allowed ? "true" : "false"]")
-			winset(C, "ap_roundcontrol.allowai", "is-checked=[ config.allow_ai ? "true" : "false"]")
-			winset(C, "ap_roundcontrol.allowooc", "is-checked=[ ooc_allowed ? "true" : "false"]")
-			winset(C, "ap_roundcontrol.allowabandon", "is-checked=[ abandon_allowed ? "true" : "false"]")
-			switch(no_end)
-				if(0)
-					winset(C, "ap_roundcontrol.world_normal", "is-checked=true")
-					winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
-					winset(C, "ap_roundcontrol.world_force", "is-checked=false")
-				if(1)
-					winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
-					winset(C, "ap_roundcontrol.world_alldead", "is-checked=true")
-					winset(C, "ap_roundcontrol.world_force", "is-checked=false")
-				if(2)
-					winset(C, "ap_roundcontrol.world_normal", "is-checked=false")
-					winset(C, "ap_roundcontrol.world_alldead", "is-checked=false")
-					winset(C, "ap_roundcontrol.world_force", "is-checked=true")
-			C << output(apmoblist(C), "ap_playercontrol.browser")
-			C << output(aprecords(C.selectedrecord,C), "ap_playerrecords.browser")
-			lastapupdate = 50
-	else
-		lastapupdate -= 1
+		C << output(apmoblist(C), "ap_playercontrol.browser")
+		C << output(aprecords(C.selectedrecord,C), "ap_playerrecords.browser")
+
 proc/apmoblist(client/C)
 	var/dat = {"
 						<table width="100%">
@@ -400,6 +397,7 @@ proc/aprecords(var/player/player,var/client/caller)
 
 		for(warning in player.warnings)
 			dat += "<tr><td>[warning.author]</td><td>[warning.state2text()]</td><td>[warning.expires2text()]</td></tr>"
+
 		dat += "</table>"
 
 		dat += "<a href=\"byond://?src=\ref[caller.holder];cmd=createwarning=\ref[player]\">Create warning</a>"
@@ -418,6 +416,7 @@ proc/aprecords(var/player/player,var/client/caller)
 	else
 		dat += "NO RECORD SELECTED, PLACEHOLDER FOR SEARCH FUNCTION"
 	return dat
+
 /proc/SavePlayerData()
 	for(var/player/P in global.players) if(P.activity == -1) P.activity = world.realtime
 	if(fexists("player_data.sav"))
@@ -425,13 +424,19 @@ proc/aprecords(var/player/player,var/client/caller)
 		fdel("player_data.sav")
 	var/savefile/F = new("player_data.sav")
 	F << players
+
 /proc/LoadPlayerData()
 	if(fexists("player_data.sav"))
 		var/savefile/F = new("player_data.sav")
 		F >> players
 		for(var/player/P in players)
 			for(var/X in P.associates) if(!X) P.associates -= X
-	else players = new/list()
+	else if(fexists("player_data.bak"))
+		fcopy("player_data.sav.bak", "player_data.sav")
+		LoadPlayerData()
+	else
+		players = new/list()
+
 /proc/SavePlayerLoop()
 	spawn(0)
 		while(1)

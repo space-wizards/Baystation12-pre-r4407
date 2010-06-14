@@ -3,6 +3,8 @@
 	if(defer_computernet_rebuild) //Because otherwise explosions will fuck your shit up like never before
 		return
 
+	usednetids.len = 0
+
 	var/netcount = 0
 	computernets = list()
 

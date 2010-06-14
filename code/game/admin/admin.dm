@@ -168,7 +168,7 @@
 			update()
 	if (href_list["emergshuttle"])
 		if (!( ticker.timeleft ))
-			ticker.timeleft = shuttle_time_to_arrive //marker3
+			ticker.timeleft = SHUTTLE_TIME_TO_ARRIVE //marker3
 		world << "\blue <B>Alert: The emergency shuttle has departed for SS13. It will arrive in [ticker.timeleft/600] minutes.</B>"
 		shuttlecomming = 1
 		ticker.timing = 1
@@ -825,7 +825,6 @@
 <A href='?src=\ref[src];secrets2=showgm'>Show Game Mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_zombie'>Show the Humans/Zombies left in zombie mode</A><BR>
 <A href='?src=\ref[src];secrets2=check_logs'>Normal Logs</A><BR>
-<A href='?src=\ref[src];secrets2=check_logsV'>Verbose Logs</A><BR>"
 <A href='?src=\ref[src];secrets2=allowbigbombs'>Allow Big Bombs = [allowbigbombs] (1= True)</A><BR>"}
 			usr << browse(dat, "window=secretsadmin&size=350x400")
 
@@ -850,7 +849,7 @@
 <A href='?src=\ref[src];secrets2=wave'>Spawn a wave of meteors</A><BR>
 <A href='?src=\ref[src];secrets2=flicklights'>Ghost Mode</A><BR>"
 <A href='?src=\ref[src];secrets2=shockwave'>Station Shockwave</A><BR>
-<A href='?src=\ref[src];secrets2=disaster'>Station Disaster(You'd better have some good RPers)</A><BR>"}
+<A href='?src=\ref[src];secrets2=disaster'>Station Disaster (You'd better have some good RPers)</A><BR>"}
 
 
 			usr << browse(dat, "window=secretsfun&size=350x500")
@@ -944,8 +943,6 @@
 
 				if("check_logs")
 					usr << ftp(log_file,"Logs")
-				if("check_logsV")
-					usr << ftp(log_file_verbose,"Verbose Logs")
 				if("power")
 					for(var/obj/item/weapon/cell/C in world)
 						C.charge = C.maxcharge
@@ -1214,6 +1211,7 @@
 		if(job == null) return
 		player.AddDeniedJob(job)
 		updateap()
+
 	if (href_list["removedeniedjob"])
 		//world << "REMOVE JOB [href_list["job"]]"
 		var/player/player = locate(href_list["removedeniedjob"])

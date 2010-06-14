@@ -491,7 +491,7 @@
 		user << "Centcom will not allow the shuttle to be called."
 		return
 	if (!( ticker.timeleft ))
-		ticker.timeleft = shuttle_time_to_arrive //marker3
+		ticker.timeleft = SHUTTLE_TIME_TO_ARRIVE //marker3
 	world << "\blue <B>Alert: The emergency shuttle has been called. It will arrive in [ticker.timeleft/600] minutes.</B>"
 	shuttlecomming = 1
 	ticker.timing = 1

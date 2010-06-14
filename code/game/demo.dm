@@ -2619,15 +2619,6 @@
 		if(O.level == 1)
 			O.hide(src.intact)
 
-
-/turf/station/r_wall/updatecell()
-
-	if (src.state == 2)
-		return
-	else
-		..()
-	return
-
 /turf/station/r_wall/proc/update()
 
 	if (src.d_state == 7)
@@ -3074,13 +3065,6 @@
 	usr << "It looks like a regular wall."
 	return
 
-/turf/station/wall/updatecell()
-
-	if (src.state == 2)
-		return
-	else
-		..()
-	return
 
 
 /turf/station/wall/ex_act(severity)
@@ -3510,31 +3494,6 @@
 /turf/station/floor/unburn()
 	src.sd_SetLuminosity(0)
 	src.icon_state = text("Floor[]", (src.burnt ? "1" : ""))
-	return
-
-/turf/station/floor/updatecell()
-	..()
-	if (src.checkfire)
-		if (src.firelevel >= 2700000.0)
-			src.health--
-		if (src.health <= 0)
-			src.burnt = 1
-			src.intact = 0
-			levelupdate()
-			//SN src = null
-			del(src)
-			return
-		else
-			if (src.health <= 100)
-				src.burnt = 1
-				src.intact = 0
-				levelupdate()
-	return
-
-/turf/station/floor/plasma_test/updatecell()
-	..()
-	src.poison = 7.5E7
-	res_vars()
 	return
 
 /obj/shuttle/door/meteorhit(obj/M as obj)

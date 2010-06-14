@@ -16,9 +16,7 @@
 /datum/control/cellular
 	//name = "cellular"
 	var/checkfire = 0.0
-	var/var_swap = 1.0
 	var/time = 0
-
 
 /datum/control/gameticker
 	//name = "gameticker"

@@ -769,7 +769,3 @@
 	if(C.holder)
 		usr.noclip = !usr.noclip
 		src << "\blue Noclip [usr.noclip?"On":"Off"]"
-
-/mob/proc/crashcheck()
-	set category = "admin"
-	src << CrashLocation

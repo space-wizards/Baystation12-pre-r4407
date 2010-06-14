@@ -22,6 +22,8 @@
 	if (stat & (NOPOWER|BROKEN|POWEROFF))
 		return
 
+	//TODO move this into a proc for all objects, so anything can produce heat
+
 	use_power(120 * maxoutput)
 
 	var/turf/T = src.loc
