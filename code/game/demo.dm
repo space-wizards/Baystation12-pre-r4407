@@ -455,7 +455,7 @@
 			if (!( C.destroyed ))
 				if (C.gas.plasma >= 35000)
 					C.destroyed = 1
-					m_range++
+					m_range = min(m_range + 1, 10)
 
 		var/min = m_range
 		var/med = m_range * 2
@@ -2601,16 +2601,91 @@
 		var/mob/tmob = M
 		tmob.inertia_dir = 0
 	..()
+
 	for(var/atom/A as mob|obj|turf|area in src)
 		spawn( 0 )
 			if ((A && M))
 				A.HasEntered(M, 1)
 			return
+
 	for(var/atom/A as mob|obj|turf|area in range(1))
 		spawn( 0 )
 			if ((A && M))
 				A.HasProximity(M, 1)
 			return
+
+	if ((!(M) || src != M.loc || istype(null, /obj/beam)))
+		return
+
+	if (!(M.last_move))
+		return
+
+	if (locate(/obj/move, src))
+		return 1
+	var/area/area = loc
+
+	if ((istype(M, /mob/) && src.x > 2 && src.x < (world.maxx - 1)))
+		var/mob/Mo = M
+
+		if ((!(Mo.handcuffed) && Mo.canmove))
+			var/prob_slip = 5
+			var/ov = oview(1,M)
+
+			var/obj/grille/G = locate() in ov
+			var/obj/lattice/L = locate() in ov
+
+			if (G || L)
+				if (!( Mo.l_hand ))
+					prob_slip -= 2
+				else if (Mo.l_hand.w_class <= 2)
+					prob_slip -= 1
+
+				if (!( Mo.r_hand ))
+					prob_slip -= 2
+				else if (Mo.r_hand.w_class <= 2)
+					prob_slip -= 1
+
+			else
+				var/obj/move/Mv = locate() in ov
+				var/turf/station/S = locate() in ov
+				if (Mv || (S && (S.density || area.superarea.gravity || istype(src, /turf/space))))
+					if (!( Mo.l_hand ))
+						prob_slip -= 1
+					else if (Mo.l_hand.w_class <= 2)
+						prob_slip -= 0.5
+
+					if (!( Mo.r_hand ))
+						prob_slip -= 1
+					else if (Mo.r_hand.w_class <= 2)
+						prob_slip -= 0.5
+
+			prob_slip = round(prob_slip)
+
+			if (prob_slip < 5) //next to something, but they might slip off
+				if (prob(prob_slip) && (istype(src, /turf/space) || !area.superarea.gravity))
+					Mo << "\blue <B>You slipped!</B>"
+					Mo.inertia_dir = Mo.last_move
+					step(Mo, Mo.inertia_dir)
+					return
+				else
+					Mo.inertia_dir = 0 //no inertia
+			else //not by a wall or anything, they just keep going
+				spawn(5)
+					if ((M && !( M.anchored ) && M.loc == src))
+						if(Mo.inertia_dir) //they keep moving the same direction
+							step(Mo, Mo.inertia_dir)
+						else
+							Mo.inertia_dir = M.last_move
+							step(Mo, Mo.inertia_dir)
+
+		else //can't move, they just keep going (COPY PASTED CODE WOO)
+			spawn(5)
+				if ((M && !( M.anchored ) && M.loc == src))
+					if(Mo.inertia_dir) //they keep moving the same direction
+						step(Mo, Mo.inertia_dir)
+					else
+						Mo.inertia_dir = Mo.last_move
+						step(Mo, Mo.inertia_dir)
 	return
 
 

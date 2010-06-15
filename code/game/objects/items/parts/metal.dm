@@ -164,7 +164,7 @@
 					C.loc = usr.loc
 					C.build_state = 1
 					C.loc.buildlinks()
-					C.updateIconState()
+					C.updateicon()
 			if("solarcomp")
 				if (src.amount < 5)
 					return

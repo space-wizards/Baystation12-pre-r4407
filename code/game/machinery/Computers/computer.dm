@@ -1,7 +1,3 @@
-/obj/machinery/computer/security/New()
-	..()
-	src.verbs -= /obj/machinery/computer/security/verb/station_map
-
 /obj/machinery/computer/security/attack_ai(var/mob/user as mob)
 	return src.attack_hand(user)
 
@@ -854,6 +850,17 @@
 		return
 
 	use_power(500)
+
+	var/moveamount = 0
+
+	for(var/atom/movable/O in src.loc)
+		if(!O.anchored)
+			moveamount++
+			if(moveamount > 8)
+				hearers(,src) << "\red The [name] jams and fails!"
+				stat |= BROKEN
+				return
+
 	for(var/atom/movable/O in src.loc)
 		if(!O.anchored)
 			spawn( 0 )

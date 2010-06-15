@@ -2,6 +2,7 @@
 	var/list/areas = list( )
 	var/areaid = 0
 	var/global/usedareaids = list()
+	var/gravity = 1 //if the area has gravity enabled
 
 	New()
 		..()

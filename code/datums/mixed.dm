@@ -103,3 +103,12 @@
 
 /datum/debug
 	var/list/debuglist
+
+/datum/data/function/proc/reset()
+	return
+
+/datum/data/function/proc/r_input(href, href_list, mob/user as mob)
+	return
+
+/datum/data/function/proc/display()
+	return

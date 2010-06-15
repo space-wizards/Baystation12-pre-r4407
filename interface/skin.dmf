@@ -1513,7 +1513,7 @@ window "obj/item/weapon/wireless/PDA/Standard"
 window "obj/machinery/sniffer"
 	elem "obj/machinery/sniffer"
 		type = MAIN
-		pos = 268,0
+		pos = 281,0
 		size = 1004x693
 		anchor1 = none
 		anchor2 = none
@@ -1549,10 +1549,37 @@ window "obj/machinery/sniffer"
 		macro = ""
 		menu = ""
 		on-close = ""
+	elem "button4"
+		type = BUTTON
+		pos = 896,584
+		size = 64x32
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		text = "CLEAR"
+		image = ""
+		command = "clear"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
 	elem "send"
 		type = BUTTON
-		pos = 912,584
-		size = 48x32
+		pos = 840,584
+		size = 56x32
 		anchor1 = 91,84
 		anchor2 = 96,89
 		font-family = ""
@@ -1570,16 +1597,16 @@ window "obj/machinery/sniffer"
 		saved-params = "is-checked"
 		text = "SEND"
 		image = ""
-		command = ""
+		command = "send"
 		is-flat = false
 		stretch = false
 		is-checked = false
 		group = ""
 		button-type = pushbutton
-	elem "input1"
+	elem "messageSend"
 		type = INPUT
 		pos = 48,584
-		size = 864x32
+		size = 792x32
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -1598,7 +1625,7 @@ window "obj/machinery/sniffer"
 		command = ""
 		multi-line = false
 		is-password = false
-		no-command = false
+		no-command = true
 	elem "browser"
 		type = BROWSER
 		pos = 48,56

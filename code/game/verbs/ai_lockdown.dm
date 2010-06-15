@@ -13,12 +13,6 @@
 			if(!FA.lockdownbyai)
 				FA.alarm(1)
 
-/*	src.verbs -= /mob/ai/proc/lockdown
-	src.verbs += /mob/ai/proc/disablelockdown
-	usr << "\red Disable lockdown command enabled!"
-	winshow(usr,"rpane",1)
-*/
-
 /mob/ai/proc/disablelockdown()
 	set category = "AI Commands"
 	set name = "Disable Lockdown"
@@ -33,9 +27,3 @@
 		spawn( 0 )
 			if(FA.lockdownbyai)
 				FA.reset(1)
-
-/*	src.verbs -= /mob/ai/proc/disablelockdown
-	src.verbs += /mob/ai/proc/lockdown
-	usr << "\red Disable lockdown command removed until lockdown initiated again!"
-	winshow(usr,"rpane",1)
-*/

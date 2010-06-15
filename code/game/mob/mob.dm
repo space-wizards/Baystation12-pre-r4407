@@ -518,16 +518,6 @@
 	//world << "o/s/Click: [src.name]"
 
 	switch(src.name)
-		if("map")
-
-			usr.clearmap()
-		if("maprefresh")
-			var/obj/machinery/computer/security/seccomp = usr.machine
-
-			if(seccomp!=null)
-				seccomp.drawmap(usr)
-			else
-				usr.clearmap()
 
 		if("other")
 			usr.other = !( usr.other )
@@ -2224,3 +2214,17 @@ var/client/isbanned = 0
 		if(direct & EAST)	src.x++
 		if(direct & WEST)	src.x--
 	else return ..()
+
+/mob/human/abiotic()
+	if ((src.l_hand && !( src.l_hand.abstract )) || (src.r_hand && !( src.r_hand.abstract )) || (src.back || src.wear_mask || src.head || src.shoes || src.w_uniform || src.wear_suit || src.w_radio || src.glasses || src.ears || src.gloves))
+		return 1
+	else
+		return 0
+	return
+
+/mob/proc/abiotic()
+	if ((src.l_hand && !( src.l_hand.abstract )) || (src.r_hand && !( src.r_hand.abstract )) || src.back || src.wear_mask)
+		return 1
+	else
+		return 0
+	return

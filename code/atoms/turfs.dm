@@ -20,7 +20,6 @@
 	var/update_again = 0 // set to true if something about the turf has changed
 	level = 1.0
 
-
 	// the turfs to the N,S,E & W
 	var/turf/linkN
 	var/turf/linkS
@@ -128,8 +127,6 @@
 /turf/station/floor/grid
 	icon = 'weap_sat.dmi'
 	icon_state = "Floor"
-
-/turf/station/floor/plasma_test
 
 /turf/station/r_wall
 	name = "r wall"

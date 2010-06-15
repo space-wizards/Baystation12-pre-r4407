@@ -304,6 +304,7 @@
 				M.drowsyness = 3000
 				world.log_vote("[M.client.ckey] tried to force the world to restart via change gamemode")
 				return
+			return
 
 
 

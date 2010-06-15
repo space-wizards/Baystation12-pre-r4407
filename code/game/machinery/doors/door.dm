@@ -218,9 +218,9 @@
 		if(listofcommand[2] == "OPEN")
 			spawn(0)
 				open()
-				updateIconState()
+				updateicon()
 		else if(listofcommand[2] == "CLOSE")
 			spawn(0)
 				close()
-				updateIconState()
+				updateicon()
 	return 0

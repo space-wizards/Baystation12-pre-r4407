@@ -4734,41 +4734,11 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon_state = "std_mod"
 	s_istate = "electronic"
 	desc = "A vital component for a computer"
-obj/machinery/vendingmachine/water
-	name = "Space Mountain Mineral Water Dispensor"
-	desc = "A vending machine for the famous Space Mountain Mineral Water!"
-	anchored = 1
-	density = 1
-	icon = 'food.dmi'
-	icon_state = "watervend"
-	var/water = 30
+
+
+
 /obj/item/weapon/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 /mob/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
-
-
-/obj/item/weapon/bulb
-	name = "Fluorescent Bulb"
-	icon_state = "bulb"
-	var/bulbtype = "fluorescent"
-	icon = 'items.dmi'
-	desc="The bulb appears to be in good condition"
-	var/life = 0
-	var/bright = 6
-	w_class = 4.0 //Yeah, you can really fit a meter-long bulb in your pocket.
-
-/obj/item/weapon/bulb/incandescent
-	name = "Incandescent Bulb"
-	bulbtype = "incandescent"
-	bright = 4
-	icon_state = "incandescent"
-	w_class = 1.0 //But you can fit a 4" incandescent bulb, that makes sense.
-
-/obj/item/weapon/bulb/incandescent/cfl
-	name = "CFL Bulb"
-	bright = 6 //fluorescent output in an incandescent form factor!
-	//icon_state = "cfl" //Graphics not actually done
-
-
 
 /obj/machinery/light //Normal fluorescent
 	name = "Light Fixture"

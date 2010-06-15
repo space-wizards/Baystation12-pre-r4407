@@ -388,6 +388,8 @@ atom
 				luminosity of an atom instead of setting it directly.
 
 				new_luminosity is the new value for luminosity. */
+			if(luminosity == new_luminosity)
+				return //No need to recalculate everything if luminosity isn't changing
 			if(luminosity>0)
 				sd_StripLum()
 			luminosity = new_luminosity

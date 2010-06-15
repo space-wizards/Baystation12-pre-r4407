@@ -1,65 +1,0 @@
-<html>
-<head>
-<title>Database Access in DM</title>
-</head>
-
-<body>
-
-<font size=+3><b>Database Access in DM</b></font>
-<font size=+1>
-<p><strong>NOTE:</strong> this module is not fully developed yet.  The
-interface may change in the future.
-
-<p>Currently, only <a href=http://www.mysql.com>MySQL</a> is supported, and it
-is only accessible by the Unix version of BYOND.
-
-<p>The following example illustrates most of the common operations.  See db.dm
-for other options.
-<hr>
-<h2>Example Usage</h2>
-</font>
-<xmp>
-#include <Dantom/DB>
-
-//You must change my_database, my_server, server_port, user, and password
-//Note: The 'DBI' is how your UNIX system obtains the arguments for connection
-//my_server is usually OK as 'localhost' unless your database is on another server.
-//server_port is usually 3306, contact a system admin to find out which port your MySQL is running on
-
-#define DBI         "dbi:mysql:my_database:my_server:server_port"
-#define DB_USER     "user"
-#define DB_PASSWORD "password"
-
-mob/verb/test()
-   var/ok
-   var/DBConnection/dbcon = new()
-
-   ok = dbcon.Connect(DBI,DB_USER,DB_PASSWORD)
-   if(!ok)
-      usr << "Failed to connect: [dbcon.ErrorMsg()]"
-      return
-
-   var/DBQuery/qry = dbcon.NewQuery()
-
-   //The following SQL assumes that you have a table named
-   //"savefiles" which has columns named "ckey" and "name".
-
-   var/sql
-   sql = " SELECT name FROM savefiles"
-   sql+= " WHERE ckey = " + dbcon.Quote(usr.ckey)
-
-   ok = qry.Execute(sql)
-   if(!ok)
-      usr << "Failed to execute SQL: [sql]"
-      usr << qry.ErrorMsg()
-
-   usr << "List of characters belonging to you:"
-
-   while(qry.NextRow())
-      var/name = qry.item[1]
-      usr << name
-
-</xmp>
-
-</body>
-</html>

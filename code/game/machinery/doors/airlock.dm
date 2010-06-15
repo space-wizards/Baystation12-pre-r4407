@@ -173,12 +173,12 @@ About the new airlock wires panel:
 				src.locked = 1
 				usr << "You hear a click from the bottom of the door."
 				src.updateUsrDialog()
-				updateIconState()
+				updateicon()
 			else
 				if(src.arePowerSystemsOn()) //only can raise bolts if power's on
 					src.locked = 0
 					src.updateUsrDialog()
-					updateIconState()
+					updateicon()
 				usr << "You hear a click from inside the door."
 		if (AIRLOCK_WIRE_BACKUP_POWER1 || AIRLOCK_WIRE_BACKUP_POWER2)
 			//two wires for backup power. Sending a pulse through either one causes a breaker to trip, but this does not disable it unless main power is down too (in which case it is disabled for 1 minute or however long it takes main power to come back, whichever is shorter).
@@ -235,7 +235,7 @@ About the new airlock wires panel:
 			//Cutting this wire also drops the door bolts, and mending it does not raise them. (This is what happens now, except there are a lot more wires going to door bolts at present)
 			if (src.locked!=1)
 				src.locked = 1
-				updateIconState()
+				updateicon()
 			src.updateUsrDialog()
 		if (AIRLOCK_WIRE_BACKUP_POWER1 || AIRLOCK_WIRE_BACKUP_POWER2)
 			//Cutting either one disables the backup door power (allowing it to be crowbarred open, but disabling bolts-raising), but may electocute the user.
@@ -384,7 +384,7 @@ About the new airlock wires panel:
 		return "door1_hulk"
 	return "[open ? "o_" : ""]door[denying ? "_deny" : "[changing && !bolted && !welded? "c" : ""][solidity ^ changing ? "1" : "0"][sparking ? "_spark" : ""][bolted && !sparking? "_bolted" : ""]"][welded? "l" : ""]"
 
-/obj/machinery/door/airlock/updateIconState()
+/obj/machinery/door/airlock/updateicon()
 	if(src.build_state)
 		src.icon_state = text("door_build_[]",src.build_state)
 	else
@@ -667,7 +667,7 @@ About the new airlock wires panel:
 				R.airlock_wire = null
 				src.signalers[wirenum] = null
 
-		src.updateIconState()
+		src.updateicon()
 		add_fingerprint(usr)
 		src.updateUsrDialog()
 	else
@@ -791,7 +791,7 @@ About the new airlock wires panel:
 					else
 						usr << text("The airlock is already opened.<br>\n")
 
-		src.updateIconState()
+		src.updateicon()
 		src.updateUsrDialog()
 
 	return
@@ -833,12 +833,12 @@ About the new airlock wires panel:
 						return
 					if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density && A == user.loc))
 						src.build_state = 2
-						src.updateIconState()
+						src.updateicon()
 				return
 		else if(src.build_state == 2)
 			if (istype(C, /obj/item/weapon/screwdriver))
 				src.build_state = 3
-				src.updateIconState()
+				src.updateicon()
 				return
 		else if(src.build_state == 3)
 			if (istype(C, /obj/item/weapon/cable_coil))
@@ -847,18 +847,18 @@ About the new airlock wires panel:
 					user << "Not enough wiring"
 					return
 				src.build_state = 4
-				src.updateIconState()
+				src.updateicon()
 				return
 		else if(src.build_state == 4)
 			if (istype(C, /obj/item/weapon/circuitry))
 				src.build_state = 5
-				src.updateIconState()
+				src.updateicon()
 				del(C)
 				return
 		else if(src.build_state == 5)
 			if (istype(C, /obj/item/weapon/screwdriver))
 				src.build_state = 6
-				src.updateIconState()
+				src.updateicon()
 				return
 		else if(src.build_state == 6)
 			if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density))
@@ -876,7 +876,7 @@ About the new airlock wires panel:
 						return
 					if ((istype(C, /obj/item/weapon/weldingtool) && !( src.operating ) && src.density && A == user.loc))
 						src.build_state = 0
-						src.updateIconState()
+						src.updateicon()
 				return
 
 	//world << text("airlock attackby src [] obj [] mob []", src, C, user)
@@ -902,11 +902,11 @@ About the new airlock wires panel:
 				M.amount = 5
 				del(src)
 			src.blocked = !src.blocked
-			src.updateIconState()
+			src.updateicon()
 			return
 	else if (istype(C, /obj/item/weapon/screwdriver))
 		src.p_open = !( src.p_open )
-		src.updateIconState()
+		src.updateicon()
 	else if (istype(C, /obj/item/weapon/wirecutters))
 		return src.attack_hand(user)
 	else if (istype(C, /obj/item/weapon/multitool))
@@ -1048,10 +1048,10 @@ About the new airlock wires panel:
 					if("UP")
 						if(src.arePowerSystemsOn())
 							src.locked = 0
-							updateIconState()
+							updateicon()
 					if("DOWN")
 						src.locked = 1
-						updateIconState()
+						updateicon()
 			if("ACCESS")
 				switch(listofcommand[3])
 					if("ON")
