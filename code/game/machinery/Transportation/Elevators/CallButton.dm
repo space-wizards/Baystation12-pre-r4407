@@ -25,4 +25,3 @@
 
 /obj/machinery/elevator/callbutton/attackby(var/item/weapon/W, var/mob/user)
 	return attack_hand(user)
-				return
