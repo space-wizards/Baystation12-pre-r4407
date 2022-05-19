@@ -1,11 +1,11 @@
 world/proc/getdb()
-	dbcon.Connect("dbi:mysql:[database]:[DB_SERVER]:3306","head","123456")
-	if(!dbcon.IsConnected())
-		world.log << "[dbcon.ErrorMsg()]"
-		world.log << "Database Connection failed"
-	else
-		world.log << "Database Connection is okay!"
-		keepalive()
+	//dbcon.Connect("dbi:mysql:[database]:[DB_SERVER]:3306","head","123456")
+	//if(!dbcon.IsConnected())
+	//	world.log << "[dbcon.ErrorMsg()]"
+	//	world.log << "Database Connection failed"
+	//else
+	//	world.log << "Database Connection is okay!"
+	//	keepalive()
 
 world/proc/keepalive()
 	spawn(0)

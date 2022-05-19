@@ -1,6 +1,6 @@
 /obj/item/weapon/implantcase/proc/update()
 	if (src.imp)
-		src.icon_state = text("implantcase-[]", src.imp.color)
+		src.icon_state = text("implantcase-[]", src.imp._color)
 	else
 		src.icon_state = "implantcase-0"
 	return

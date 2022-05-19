@@ -1,0 +1,7 @@
+logs/
+NETWORK.txt
+player_data.sav
+player_data.sav.bak
+*.lk
+*.dmb
+*.rsc

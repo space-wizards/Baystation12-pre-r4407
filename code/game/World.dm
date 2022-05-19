@@ -52,6 +52,7 @@
 		worldsetup = 1
 		sleep(2)
 		world.log << "World Setup Complete, join when ready"
+		world.tick_lag = 0.333
 		//----
 
 	//Generate the access and passwords data

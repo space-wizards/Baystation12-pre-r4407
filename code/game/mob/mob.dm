@@ -281,7 +281,7 @@
 /obj/proc/hide(h)
 	return
 
-/obj/item/weapon/grab/proc/throw()
+/obj/item/weapon/grab/proc/toss()
 	if(src.affecting)
 		var/grabee = src.affecting
 		spawn(0)

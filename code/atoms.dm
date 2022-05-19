@@ -840,7 +840,7 @@
 	var/h_filter = 0.0
 	var/s_fire = 0.0
 	var/see_face = 1.0
-	var/color = null
+	var/_color = null
 	var/brute_protect = 0
 	var/fire_protect = 0
 	var/chem_protect = 0
@@ -1303,132 +1303,132 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/clothing/under/black
 	name = "Black Jumpsuit"
 	icon_state = "bl_suit"
-	color = "black"
+	_color = "black"
 /obj/item/weapon/clothing/under/chaplain_black
 	desc = "It has a religion rank stripe on it."
 	name = "Black Jumpsuit"
 	icon_state = "bl_suit"
-	color = "chapblack"
+	_color = "chapblack"
 /obj/item/weapon/clothing/under/sl_suit
 	desc = "A very amish looking suit"
 	name = "Amish Suit"
 	icon_state = "sl_suit"
-	color = "sl_suit"
+	_color = "sl_suit"
 /obj/item/weapon/clothing/under/blue
 	name = "Blue Jumpsuit"
 	icon_state = "b_suit"
-	color = "blue"
+	_color = "blue"
 
 /obj/item/weapon/clothing/under/bartender
 	name = "Suit"
 	icon_state = "ba_suit"
-	color = "ba_suit"
+	_color = "ba_suit"
 /obj/item/weapon/clothing/under/janitor
 	desc = "Official clothing of the station's poopscooper."
 	name = "Janitor's Jumpsuit"
 	icon_state = "janitor"
-	color = "janitor"
+	_color = "janitor"
 	chem_protect = 5
 /obj/item/weapon/clothing/under/green
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "green"
+	_color = "green"
 /obj/item/weapon/clothing/under/hor_green
 	desc = "It has a Head of Research rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "horgreen"
+	_color = "horgreen"
 /obj/item/weapon/clothing/under/hop_green
 	desc = "It has a Head of Personnel rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "hopgreen"
+	_color = "hopgreen"
 /obj/item/weapon/clothing/under/hos_green
 	desc = "It has a Head of Security rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "hosgreen"
+	_color = "hosgreen"
 /obj/item/weapon/clothing/under/hom_green
 	desc = "It has a Head of Maintenance rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "homgreen"
+	_color = "homgreen"
 
 /obj/item/weapon/clothing/under/grey
 	name = "Grey Jumpsuit"
 	icon_state = "gy_suit"
-	color = "grey"
+	_color = "grey"
 
 /obj/item/weapon/clothing/under/orange
 	name = "Orange Jumpsuit"
 	icon_state = "o_suit"
-	color = "orange"
+	_color = "orange"
 
 /obj/item/weapon/clothing/under/pink
 	name = "Pink Jumpsuit (F)"
 	icon_state = "p_suit"
-	color = "pink"
+	_color = "pink"
 
 /obj/item/weapon/clothing/under/red
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "red"
+	_color = "red"
 /obj/item/weapon/clothing/under/forensics_red
 	desc = "It has a Forensics rank stripe on it."
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "forensicsred"
+	_color = "forensicsred"
 /obj/item/weapon/clothing/under/firefighter_red
 	desc = "It has a Fire Fighter rank stripe on it."
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "ffred"
+	_color = "ffred"
 /obj/item/weapon/clothing/under/network
 	desc = "It has Network Technician rank stripes on it"
 	name = "Network Technician Suit"
 	icon_state = "network"
-	color = "network"
+	_color = "network"
 /obj/item/weapon/clothing/under/white
 	desc = "Made of a special fiber that gives special protection against biohazards."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "white"
+	_color = "white"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/genetics_white
 	desc = "Made of a special fiber that gives special protection against biohazards. Has a genetics rank stripe on it."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "geneticswhite"
+	_color = "geneticswhite"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/toxins_white
 	desc = "Made of a special fiber that gives special protection against biohazards. Has a toxins rank stripe on it."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "toxinswhite"
+	_color = "toxinswhite"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/yellow
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "yellow"
+	_color = "yellow"
 /obj/item/weapon/clothing/under/atmospherics_yellow
 	desc = "It has an Atmospherics rank stripe on it."
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "atmosyellow"
+	_color = "atmosyellow"
 /obj/item/weapon/clothing/under/engineering_yellow
 	desc = "It has an Engineering rank stripe on it."
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "engineyellow"
+	_color = "engineyellow"
 
 /obj/item/weapon/clothing/under/darkgreen
 	desc = "It has a Captains rank stripe on it."
 	name = "Dark Green Jumpsuit"
 	icon_state = "dg_suit"
-	color = "darkgreen"
+	_color = "darkgreen"
 
 #define MAXCOIL 30
 /obj/item/weapon/cable_coil
@@ -1680,11 +1680,11 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/implant
 	name = "implant"
 	var/implanted = null
-	var/color = "b"
+	var/_color = "b"
 /obj/item/weapon/implant/freedom
 	name = "freedom"
 	var/uses = 1.0
-	color = "r"
+	_color = "r"
 	var/activation_emote = "chuckle"
 
 /obj/item/weapon/implant/tracking
@@ -2026,7 +2026,7 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/paint
 	name = "Paint Can"
 	icon_state = "paint_neutral"
-	var/color = "neutral"
+	var/_color = "neutral"
 	s_istate = "paintcan"
 	w_class = 3.0
 /obj/item/weapon/paper
@@ -2386,7 +2386,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	name = "Toxin First Aid"
 	icon_state = "firstaid-toxin"
 /obj/item/weapon/storage/flashbang_kit
-	desc = "<FONT color=red><B>WARNING: Do not use without reading these preautions!</B></FONT>\n<B>These devices are extremely dangerous and can cause blindness or deafness if used incorrectly.</B>\nThe chemicals contained in these devices have been tuned for maximal effectiveness and due to\nextreme safety precuaiotn shave been incased in a tamper-proof pack. DO NOT ATTEMPT TO OPEN\nFLASH WARNING: Do not use continually. Excercise extreme care when detonating in closed spaces.\n\tMake attemtps not to detonate withing range of 2 meters of the intended target. It is imperative\n\tthat the targets visit a medical professional after usage. Damage to eyes increases extremely per\n\tuse and according to range. Glasses with flash resistant filters DO NOT always work on high powered\n\tflash devices such as this. <B>EXERCISE CAUTION REGARDLESS OF CIRCUMSTANCES</B>\nSOUND WARNING: Do not use continually. Visit a medical professional if hearing is lost.\n\tThere is a slight chance per use of complete deafness. Exercise caution and restraint.\nSTUN WARNING: If the intended or unintended target is too close to detonation the resulting sound\n\tand flash have been known to cause extreme sensory overload resulting in temporary\n\tincapacitation.\n<B>DO NOT USE CONTINUALLY</B>\nOperating Directions:\n\t1. Pull detonnation pin. <B>ONCE THE PIN IS PULLED THE GRENADE CAN NOT BE DISARMED!</B>\n\t2. Throw grenade. <B>NEVER HOLD A LIVE FLASHBANG</B>\n\t3. The grenade will detonste 10 seconds hafter being primed. <B>EXCERCISE CAUTION</B>\n\t-<B>Never prime another grenade until after the first is detonated</B>\nNote: Usage of this pyrotechnic device without authorization is an extreme offense and can\nresult in severe punishment upwards of <B>10 years in prison per use</B>.\n\nDefault 3 second wait till from prime to detonation. This can be switched with a screwdriver\nto 10 seconds.\n\nCopyright of Nanotrasen Industries- Military Armnaments Division\nThis device was created by Nanotrasen Labs a member of the Expert Advisor Corporation"
+	desc = "<FONT _color=red><B>WARNING: Do not use without reading these preautions!</B></FONT>\n<B>These devices are extremely dangerous and can cause blindness or deafness if used incorrectly.</B>\nThe chemicals contained in these devices have been tuned for maximal effectiveness and due to\nextreme safety precuaiotn shave been incased in a tamper-proof pack. DO NOT ATTEMPT TO OPEN\nFLASH WARNING: Do not use continually. Excercise extreme care when detonating in closed spaces.\n\tMake attemtps not to detonate withing range of 2 meters of the intended target. It is imperative\n\tthat the targets visit a medical professional after usage. Damage to eyes increases extremely per\n\tuse and according to range. Glasses with flash resistant filters DO NOT always work on high powered\n\tflash devices such as this. <B>EXERCISE CAUTION REGARDLESS OF CIRCUMSTANCES</B>\nSOUND WARNING: Do not use continually. Visit a medical professional if hearing is lost.\n\tThere is a slight chance per use of complete deafness. Exercise caution and restraint.\nSTUN WARNING: If the intended or unintended target is too close to detonation the resulting sound\n\tand flash have been known to cause extreme sensory overload resulting in temporary\n\tincapacitation.\n<B>DO NOT USE CONTINUALLY</B>\nOperating Directions:\n\t1. Pull detonnation pin. <B>ONCE THE PIN IS PULLED THE GRENADE CAN NOT BE DISARMED!</B>\n\t2. Throw grenade. <B>NEVER HOLD A LIVE FLASHBANG</B>\n\t3. The grenade will detonste 10 seconds hafter being primed. <B>EXCERCISE CAUTION</B>\n\t-<B>Never prime another grenade until after the first is detonated</B>\nNote: Usage of this pyrotechnic device without authorization is an extreme offense and can\nresult in severe punishment upwards of <B>10 years in prison per use</B>.\n\nDefault 3 second wait till from prime to detonation. This can be switched with a screwdriver\nto 10 seconds.\n\nCopyright of Nanotrasen Industries- Military Armnaments Division\nThis device was created by Nanotrasen Labs a member of the Expert Advisor Corporation"
 	name = "Flashbangs (WARNING)"
 	icon_state = "flashbang_kit"
 	s_istate = "syringe_kit"
@@ -2876,7 +2876,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'canister.dmi'
 	density = 1
 	maximum = 1.3E8
-	var/color = "blue"
+	var/_color = "blue"
 	t_status = 3.0
 	t_per = 50.0
 	c_per = 50.0
@@ -2890,39 +2890,39 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/anesthcanister
 	name = "Canister: \[N2O\]"
 	icon_state = "redws"
-	color = "redws"
+	_color = "redws"
 /obj/machinery/atmoalter/canister/n2canister
 	name = "Canister: \[N2\]"
 	icon_state = "red"
-	color = "red"
+	_color = "red"
 /obj/machinery/atmoalter/canister/oxygencanister
 	name = "Canister: \[O2\]"
 	icon_state = "blue"
 /obj/machinery/atmoalter/canister/poisoncanister
 	name = "Canister \[Plasma (Bio)\]"
 	icon_state = "orange"
-	color = "orange"
+	_color = "orange"
 	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/co2canister
 	name = "Canister \[CO2\]"
 	icon_state = "black"
-	color = "black"
+	_color = "black"
 /obj/machinery/atmoalter/canister/aircanister
 	name = "Canister \[Air\]"
 	icon_state = "grey"
-	color = "grey"
+	_color = "grey"
 /obj/machinery/atmoalter/canister/vat // Just a huge immobile canister to make life aboard ss13 easyer.
 	maximum = 5040000000
 	var/confirmed = 0
 /obj/machinery/atmoalter/canister/vat/plasmavat
 	name = "Vat \[Plasma (bio)\]"
 	icon_state = "vatorange"
-	color = "vatorange"
+	_color = "vatorange"
 	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/vat/oxygenvat
 	name = "Vat O2"
 	icon_state = "vatblue"
-	color = "vatblue" // thats totally a existing color right?
+	_color = "vatblue" // thats totally a existing _color right?
 
 
 
@@ -2930,7 +2930,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/emptycanister
 	name = "Canister \[Custom\]"
 	icon_state = "violet"
-	color = "violet"
+	_color = "violet"
 	filled = 0
 
 /obj/machinery/atmoalter/heater

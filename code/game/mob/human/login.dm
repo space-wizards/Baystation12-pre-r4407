@@ -20,6 +20,8 @@
 	src.rest = new /obj/screen( null )
 	src.zone_sel = new /obj/screen/zone_sel( null )
 
+	src.blind.invisibility = 101
+
 	src.flash.mouse_opacity = 0
 
 	UpdateClothing()

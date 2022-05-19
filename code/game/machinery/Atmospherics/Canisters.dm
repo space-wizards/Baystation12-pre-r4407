@@ -5,10 +5,10 @@
 	src.overlays = 0
 
 	if (src.destroyed)
-		src.icon_state = text("[]-1", src.color)
+		src.icon_state = text("[]-1", src._color)
 
 	else
-		icon_state = "[color]"
+		icon_state = "[_color]"
 		if(holding)
 			overlays += image('canister.dmi', "can-oT")
 
@@ -30,17 +30,17 @@
 	src.overlays = 0
 
 	if (src.destroyed)
-		src.icon_state = "[src.color]-1"
+		src.icon_state = "[src._color]-1"
 
 	else
-		icon_state = "[color]"
+		icon_state = "[_color]"
 
 		if (air_in < 10)
-			overlays += image('canister.dmi', "[color]-o0")
+			overlays += image('canister.dmi', "[_color]-o0")
 		else if (air_in < (src.gas.maximum * 0.2))
-			overlays += image('canister.dmi', "[color]-o1")
+			overlays += image('canister.dmi', "[_color]-o1")
 		else if (air_in < (src.maximum * 0.6))
-			overlays += image('canister.dmi', "[color]-o2")
+			overlays += image('canister.dmi', "[_color]-o2")
 	return
 
 

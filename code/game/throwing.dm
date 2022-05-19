@@ -34,7 +34,7 @@
 		src.client.screen -= item
 	item.loc = src.loc
 	if (istype(item, /obj/item/weapon/grab))
-		item = item:throw() //throw the person instead of the grab
+		item = item:toss() //throw the person instead of the grab
 	if(istype(item, /obj/item/weapon))
 		item:dropped(src) // let it know it's been dropped
 

@@ -3,6 +3,11 @@
 // Do not include in release versions
 
 
+/atom/verb/foo()
+	set name = "foo"
+
+	del(src)
+
 #define VARSICON 1
 #define SDEBUG 1
 
